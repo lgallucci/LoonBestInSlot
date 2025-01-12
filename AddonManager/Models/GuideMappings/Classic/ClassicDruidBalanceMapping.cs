@@ -31,8 +31,10 @@ internal class ClassicDruidBalanceMapping : ClassicSpecMapping
             { ("Two Hand", "#two-hand-weapons-for-balance-druids") },
             { ("Ranged/Relic", "#idols-for-balance-druids") },
         };
-    public override string Phase2Url => throw new NotImplementedException();
-    public override List<(string, GuideMapping)> Phase2 => throw new NotImplementedException();
+    
+    public override string Phase2Url => "error_balance_Druid";
+    public override List<(string, GuideMapping)> Phase2 =>  new List<(string, GuideMapping)>
+        { };
 
     public override string Phase3Url => throw new NotImplementedException();
     public override List<(string, GuideMapping)> Phase3 => throw new NotImplementedException();

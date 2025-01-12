@@ -80,6 +80,7 @@ public class WowheadGuideParser
         { 231383, 468380 }, //Presence of Sight
         { 231358, 468323 }, //Animist's Roar
         { 19786, 24163 }, //Vodouisant's Vigilant Embrace
+        { 18182, 22599 }, //Chromatic Mantle of the Dawn
      };
 
     private Dictionary<int, int> _itemSwaps = new Dictionary<int, int>()

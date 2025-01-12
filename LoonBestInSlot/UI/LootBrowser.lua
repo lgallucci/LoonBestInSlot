@@ -361,8 +361,9 @@ local function createDropDowns(window)
             ['title']='Zone:',
             ['items']= { LBIS.L["All"], 
                 LBIS.L["Molten Core"], LBIS.L["Onyxia's Lair"],
-                -- LBIS.L["Blackwing Lair"], LBIS.L["Zul'Gurub"],
-                -- LBIS.L["Ruins of Ahn'Qiraj"], LBIS.L["Ahn'Qiraj"],
+                --LBIS.L["Blackwing Lair"], LBIS.L["Zul'Gurub"],
+                --LBIS.L["Ruins of Ahn'Qiraj"], LBIS.L["Ahn'Qiraj"],
+                --LBIS.L["Naxxramas"],
             },
             ['defaultVal']= LBISSettings.SelectedZone,
             ['changeFunc']=function(dropdown_frame, dropdown_val)

@@ -22,10 +22,21 @@ internal class ClassicWarriorDpsMapping : ClassicSpecMapping
     public override string Phase2Url => "wow-classic-warrior-dps-molten-core-phase-2-best-in-slot-gear";
     public override List<(string, GuideMapping)> Phase2 => new List<(string, GuideMapping)>
         {
-            { ("Main Hand", "#main-hand") },
-            { ("Off Hand", "#off-hand") },
-            { ("Two Hand", "#main-hand-2") },
-            { ("Ranged/Relic", "#ranged") }
+            { ("Head", "#helm") },
+            { ("Shoulder", "#shoulders") },
+            { ("Back", "#back") },
+            { ("Chest", "#chest") },
+            { ("Wrist", "#bracers") },
+            { ("Hands", "#hands") },
+            { ("Waist", "#belt") },
+            { ("Legs", "#legs") },
+            { ("Feet", "#boots") },
+            { ("Neck", "#neck") },
+            { ("Ring", "#rings") },
+            { ("Trinket", "#trinkets") },
+            { ("Main Hand", "#main-hand-weapons") },
+            { ("Off Hand", "#off-hand-weapons") },
+            { ("Ranged/Relic", "#ranged-weapons") }
         };
 
     public override string Phase3Url => throw new NotImplementedException();

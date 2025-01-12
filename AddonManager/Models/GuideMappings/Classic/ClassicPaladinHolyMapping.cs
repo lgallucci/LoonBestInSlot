@@ -44,7 +44,7 @@ internal class ClassicPaladinHolyMapping : ClassicSpecMapping
             { ("Neck", "#neck-for-paladin-healers") },
             { ("Ring", "#rings-for-paladin-healers") },
             { ("Trinket", "#trinkets-for-paladin-healers") },
-            { ("Main Hand", "#one-hand-weapons-for-paladin-healers") },
+            { ("Main Hand", "#weapons-for-paladin-healers") },
             { ("Off Hand", "#off-hand-items-for-paladin-healers") },
             //TODO: Wait til ranged are added
         };
