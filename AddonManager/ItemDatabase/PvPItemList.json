@@ -8320,6 +8320,54 @@
       "SourceLocation": "Stormwind",
       "SourceFaction": "A"
     },
+    "231588": {
+      "Name": "General's Dreadweave Pants",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231589": {
+      "Name": "General's Dreadweave Gloves",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231590": {
+      "Name": "Warlord's Dreadweave Hood",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231591": {
+      "Name": "Warlord's Dreadweave Robe",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231592": {
+      "Name": "Warlord's Dreadweave Mantle",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
+    "231593": {
+      "Name": "General's Dreadweave Boots",
+      "Source": "PvP Vendor",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "Orgrimmar",
+      "SourceFaction": "H"
+    },
     "231594": {
       "Name": "Warlord's Silk Amice",
       "Source": "PvP Vendor",

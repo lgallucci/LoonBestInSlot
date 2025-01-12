@@ -13,15 +13,15 @@ public class PvPImporter : LootImporter
         // { @"https://www.wowhead.com/classic/npc=12799/sergeant-basha#sells;50", ("H", "Orgrimmar") },
         // { @"https://www.wowhead.com/classic/npc=12805/officer-areyn#sells", ("A", "Stormwind") },
         // { @"https://www.wowhead.com/classic/npc=12805/officer-areyn#sells;50", ("A", "Stormwind") },
-        // { @"https://www.wowhead.com/classic/npc=12777/captain-dirgehammer#sells", ("A", "Stormwind") },      
-        // { @"https://www.wowhead.com/classic/npc=12777/captain-dirgehammer#sells;50", ("A", "Stormwind") },  
+        { @"https://www.wowhead.com/classic/npc=12777/captain-dirgehammer#sells", ("A", "Stormwind") },      
+        { @"https://www.wowhead.com/classic/npc=12777/captain-dirgehammer#sells;50", ("A", "Stormwind") },  
         // { @"https://www.wowhead.com/classic/npc=12777/captain-dirgehammer#sells;100", ("A", "Stormwind") },
         // { @"https://www.wowhead.com/classic/npc=12777/captain-dirgehammer#sells;150", ("A", "Stormwind") },
         // { @"https://www.wowhead.com/classic/npc=12777/captain-dirgehammer#sells;200", ("A", "Stormwind") },
         // { @"https://www.wowhead.com/classic/npc=12777/captain-dirgehammer#sells;250", ("A", "Stormwind") },
         // { @"https://www.wowhead.com/classic/npc=12777/captain-dirgehammer#sells;300", ("A", "Stormwind") },
-        // { @"https://www.wowhead.com/classic/npc=12792/lady-palanseer#sells", ("H", "Orgrimmar") }, 
-        // { @"https://www.wowhead.com/classic/npc=12792/lady-palanseer#sells;50", ("H", "Orgrimmar") },
+         { @"https://www.wowhead.com/classic/npc=12792/lady-palanseer#sells", ("H", "Orgrimmar") }, 
+         { @"https://www.wowhead.com/classic/npc=12792/lady-palanseer#sells;50", ("H", "Orgrimmar") },
         // { @"https://www.wowhead.com/classic/npc=12792/lady-palanseer#sells;100", ("H", "Orgrimmar") },
         // { @"https://www.wowhead.com/classic/npc=12792/lady-palanseer#sells;150", ("H", "Orgrimmar") },
         // { @"https://www.wowhead.com/classic/npc=12792/lady-palanseer#sells;200", ("H", "Orgrimmar") },
@@ -37,11 +37,11 @@ public class PvPImporter : LootImporter
         // { @"https://www.wowhead.com/classic/npc=15126/rutherford-twing#sells;50", ("H", "Arathi Basin") },
         // { @"https://www.wowhead.com/classic/npc=218115/maizin#sells", ("B", "Stranglethorn Vale") },
         // { @"https://www.wowhead.com/classic/npc=218115/maizin#sells;50", ("B", "Stranglethorn Vale") },
-         { @"https://www.wowhead.com/classic/npc=12782/captain-oneal#sells", ("B", "Battlegrounds") },
+        // { @"https://www.wowhead.com/classic/npc=12782/captain-oneal#sells", ("B", "Battlegrounds") },
         // { @"https://www.wowhead.com/classic/npc=14581/sergeant-thunderhorn#sells", ("H", "Battlegrounds") },
         // { @"https://www.wowhead.com/classic/npc=13219/jekyll-flandring#sells", ("H", "Alterac Mountains") },
         // { @"https://www.wowhead.com/classic/npc=13217/thanthaldis-snowgleam#sells", ("A", "Alterac Mountains") },
-        //{ @"https://www.wowhead.com/classic/npc=14581/sergeant-thunderhorn", ("B", "Battlegrounds")}
+        // { @"https://www.wowhead.com/classic/npc=14581/sergeant-thunderhorn", ("B", "Battlegrounds")}
     };
 
     internal override string FileName { get => "PvPItemList"; }

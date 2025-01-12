@@ -8,7 +8,7 @@ local function LoadData()
     local spec6 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Retribution"], "6")
 
     LBIS:AddEnchant(spec2, "15397", LBIS.L["Head"]) --Lesser Arcanum of Voracity
-    LBIS:AddEnchant(spec2, "18182", LBIS.L["Shoulder"]) --Chromatic Mantle of the Dawn
+    LBIS:AddEnchant(spec2, "22599", LBIS.L["Shoulder"]) --Chromatic Mantle of the Dawn
     LBIS:AddEnchant(spec2, "13882", LBIS.L["Back"]) --Enchant Cloak - Lesser Agility
     LBIS:AddEnchant(spec2, "20025", LBIS.L["Chest"]) --Enchant Chest - Greater Stats
     LBIS:AddEnchant(spec2, "20010", LBIS.L["Wrist"]) --Enchant Bracer - Superior Strength

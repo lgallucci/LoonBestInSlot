@@ -8,7 +8,7 @@ local function LoadData()
     local spec6 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Elemental"], "6")
 
     LBIS:AddEnchant(spec2, "22844", LBIS.L["Head"]) --Arcanum of Focus
-    LBIS:AddEnchant(spec2, "18182", LBIS.L["Shoulder"]) --Chromatic Mantle of the Dawn
+    LBIS:AddEnchant(spec2, "22599", LBIS.L["Shoulder"]) --Chromatic Mantle of the Dawn
     LBIS:AddEnchant(spec2, "20014", LBIS.L["Back"]) --Enchant Cloak - Greater Resistance
     LBIS:AddEnchant(spec2, "20025", LBIS.L["Chest"]) --Enchant Chest - Greater Stats
     LBIS:AddEnchant(spec2, "20008", LBIS.L["Wrist"]) --Enchant Bracer - Greater Intellect

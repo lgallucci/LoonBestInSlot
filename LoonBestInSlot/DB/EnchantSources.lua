@@ -85,6 +85,7 @@ LBIS.EnchantSources =
     [21931] = { Name = "Enchant Weapon - Winter's Might", DesignId = "17725", ScrollId = "0", Source = LBIS.L["Present"], SourceLocation = LBIS.L["Winter Veil (Seasonal)"], TextureId = "" },
     [22596] = { Name = "Shadow Mantle of the Dawn", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Argent Dawn"], SourceLocation = LBIS.L["Plaguelands"], TextureId = "18173" },
     [22597] = { Name = "Nature Mantle of the Dawn", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Argent Dawn"], SourceLocation = LBIS.L["Plaguelands"], TextureId = "18172" },
+    [22599] = { Name = "Chromatic Mantle of the Dawn", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Chromatic Mantle of the Dawn"], SourceLocation = LBIS.L["Eastern Plaguelands"], TextureId = "18182" },
     [22725] = { Name = "Core Armor Kit", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Leatherworking Trainer"], SourceLocation = "", TextureId = "18251" },
     [22749] = { Name = "Enchant Weapon - Spell Power", DesignId = "18259", ScrollId = "0", Source = LBIS.L["Boss Drop"], SourceLocation = LBIS.L["Molten Core"], TextureId = "" },
     [22750] = { Name = "Enchant Weapon - Healing Power", DesignId = "18260", ScrollId = "0", Source = LBIS.L["Boss Drop"], SourceLocation = LBIS.L["Molten Core"], TextureId = "" },
