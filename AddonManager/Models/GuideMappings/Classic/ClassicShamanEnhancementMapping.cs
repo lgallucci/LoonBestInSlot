@@ -7,20 +7,30 @@ using System.Threading.Tasks;
 namespace AddonManager.Models.GuideMappings.Classic;
 internal class ClassicShamanEnhancementMapping : ClassicSpecMapping
 {
-    public override string UrlBase => "https://www.wowhead.com/classic/guide/wow-classic-enhancement-shaman-dps-molten-core-best-in-slot-gear";
     public override string Class => "Shaman";
     public override string Spec => "Enhancement";
 
-    public override string PreRaidUrl => "dps-pre-raid-bis-gear-pve";
-    public override List<(string, GuideMapping)> Phase0 => new List<(string, GuideMapping)>
+    public override string Phase1Url => "wow-classic-enhancement-shaman-dps-molten-core-best-in-slot-gear";
+    public override List<(string, GuideMapping)> Phase1 => new List<(string, GuideMapping)>
         {
-            { ("Main Hand", "h3#main-hand") },
-            { ("Off Hand", "h3#off-hand") },
-            { ("Ranged/Relic", "h3#ranged") },
+            { ("Head", "#head-for-enhancement-shaman") },
+            { ("Shoulder", "#shoulder-for-enhancement-shaman") },
+            { ("Back", "#back-for-enhancement-shaman") },
+            { ("Chest", "#chest-for-enhancement-shaman") },
+            { ("Wrist", "#wrist-for-enhancement-shaman") },
+            { ("Hands", "#hands-for-enhancement-shaman") },
+            { ("Waist", "#waist-for-enhancement-shaman") },
+            { ("Legs", "#legs-for-enhancement-shaman") },
+            { ("Feet", "#feet-for-enhancement-shaman") },
+            { ("Neck", "#neck-for-enhancement-shaman") },
+            { ("Ring", "#rings-for-enhancement-shaman") },
+            { ("Trinket", "#trinkets-for-enhancement-shaman") },
+            { ("Main Hand", "#one-handed-for-enhancement-shaman") },
+            { ("Two Hand", "#two-handed-for-enhancement-shaman") },
         };
 
-    public override string CurrentUrl => "";
-    public override List<(string, GuideMapping)> CurrentPhase => new List<(string, GuideMapping)>
+    public override string Phase2Url => "wow-classic-enhancement-shaman-dps-molten-core-phase-2-best-in-slot-gear";
+    public override List<(string, GuideMapping)> Phase2 => new List<(string, GuideMapping)>
         {
             { ("Head", "#head-for-enhancement-shaman") },
             { ("Shoulder", "#shoulder-for-enhancement-shaman") },
@@ -38,4 +48,13 @@ internal class ClassicShamanEnhancementMapping : ClassicSpecMapping
             { ("Two Hand", "#two-handed-for-enhancement-shaman") },
             //TODO: Wait til ranged are added
         };
+
+    public override string Phase3Url => throw new NotImplementedException();
+    public override List<(string, GuideMapping)> Phase3 => throw new NotImplementedException();
+
+    public override string Phase4Url => throw new NotImplementedException();
+    public override List<(string, GuideMapping)> Phase4 => throw new NotImplementedException();
+
+    public override string Phase5Url => throw new NotImplementedException();
+    public override List<(string, GuideMapping)> Phase5 => throw new NotImplementedException();
 }

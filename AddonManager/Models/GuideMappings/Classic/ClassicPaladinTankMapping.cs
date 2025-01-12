@@ -7,20 +7,30 @@ using System.Threading.Tasks;
 namespace AddonManager.Models.GuideMappings.Classic;
 internal class ClassicPaladinTankMapping : ClassicSpecMapping
 {
-    public override string UrlBase => "https://www.wowhead.com/classic/guide/wow-classic-paladin-tank-molten-core-best-in-slot-gear";
     public override string Class => "Paladin";
     public override string Spec => "Protection";
 
-    public override string PreRaidUrl => "dps-pre-raid-bis-gear-pve";
-    public override List<(string, GuideMapping)> Phase0 => new List<(string, GuideMapping)>
+    public override string Phase1Url => "wow-classic-paladin-tank-molten-core-best-in-slot-gear";
+    public override List<(string, GuideMapping)> Phase1 => new List<(string, GuideMapping)>
         {
-            { ("Main Hand", "h3#main-hand") },
-            { ("Off Hand", "h3#off-hand") },
-            { ("Ranged/Relic", "h3#ranged") },
+            { ("Head", "#helm-for-paladin-tanks") },
+            { ("Shoulder", "#shoulder-for-paladin-tanks") },
+            { ("Back", "#back-for-paladin-tanks") },
+            { ("Chest", "#chest-for-paladin-tanks") },
+            { ("Wrist", "#bracers-for-paladin-tanks") },
+            { ("Hands", "#hands-for-paladin-tanks") },
+            { ("Waist", "#belt-for-paladin-tanks") },
+            { ("Legs", "#legs-for-paladin-tanks") },
+            { ("Feet", "#boots-for-paladin-tanks") },
+            { ("Neck", "#neck-for-paladin-tanks") },
+            { ("Ring", "#rings-for-paladin-tanks") },
+            { ("Trinket", "#trinkets-for-paladin-tanks") },
+            { ("Main Hand", "#main-hand-weapon-for-paladin-tanks") },
+            { ("Off Hand", "#shield-for-paladin-tanks") },
         };
 
-    public override string CurrentUrl => "";
-    public override List<(string, GuideMapping)> CurrentPhase => new List<(string, GuideMapping)>
+    public override string Phase2Url => throw new NotImplementedException();
+    public override List<(string, GuideMapping)> Phase2 => new List<(string, GuideMapping)>
         {
             { ("Head", "#helm-for-paladin-tanks") },
             { ("Shoulder", "#shoulder-for-paladin-tanks") },
@@ -38,4 +48,13 @@ internal class ClassicPaladinTankMapping : ClassicSpecMapping
             { ("Off Hand", "#shield-for-paladin-tanks") },
             //TODO: Wait til ranged are added
         };
+
+    public override string Phase3Url => throw new NotImplementedException();
+    public override List<(string, GuideMapping)> Phase3 => throw new NotImplementedException();
+
+    public override string Phase4Url => throw new NotImplementedException();
+    public override List<(string, GuideMapping)> Phase4 => throw new NotImplementedException();
+
+    public override string Phase5Url => throw new NotImplementedException();
+    public override List<(string, GuideMapping)> Phase5 => throw new NotImplementedException();
 }

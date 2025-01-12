@@ -7,20 +7,10 @@ using System.Threading.Tasks;
 namespace AddonManager.Models.GuideMappings.Classic;
 internal class ClassicDruidBearMapping : ClassicSpecMapping
 {
-    public override string UrlBase => "https://www.wowhead.com/classic/guide/wow-classic-feral-druid-tank-molten-core-best-in-slot-gear";
     public override string Class => "Druid";
     public override string Spec => "Bear";
-
-    public override string PreRaidUrl => "dps-pre-raid-bis-gear-pve";
-    public override List<(string, GuideMapping)> Phase0 => new List<(string, GuideMapping)>
-        {
-            { ("Main Hand", "h3#main-hand") },
-            { ("Off Hand", "h3#off-hand") },
-            { ("Ranged/Relic", "h3#ranged") },
-        };
-
-    public override string CurrentUrl => "";
-    public override List<(string, GuideMapping)> CurrentPhase => new List<(string, GuideMapping)>
+    public override string Phase1Url => "wow-classic-feral-druid-tank-molten-core-best-in-slot-gear";
+    public override List<(string, GuideMapping)> Phase1 => new List<(string, GuideMapping)>
         {
             { ("Head", "#helm-for-druid-tanks") },
             { ("Shoulder", "#shoulder-for-druid-tanks") },
@@ -39,4 +29,34 @@ internal class ClassicDruidBearMapping : ClassicSpecMapping
             { ("Two Hand", "#two-hand-weapons-for-druid-tanks") },
             //TODO: Wait til ranged are added
         };
+    
+    public override string Phase2Url => "wow-classic-druid-tank-molten-core-phase-2-best-in-slot-gear";
+    public override List<(string, GuideMapping)> Phase2 => new List<(string, GuideMapping)>
+        {
+            { ("Head", "#helm-for-druid-tanks") },
+            { ("Shoulder", "#shoulder-for-druid-tanks") },
+            { ("Back", "#back-for-druid-tanks") },
+            { ("Chest", "#chest-for-druid-tanks") },
+            { ("Wrist", "#bracers-for-druid-tanks") },
+            { ("Hands", "#hands-for-druid-tanks") },
+            { ("Waist", "#belt-for-druid-tanks") },
+            { ("Legs", "#legs-for-druid-tanks") },
+            { ("Feet", "#boots-for-druid-tanks") },
+            { ("Neck", "#neck-for-druid-tanks") },
+            { ("Ring", "#rings-for-druid-tanks") },
+            { ("Trinket", "#trinkets-for-druid-tanks") },
+            { ("Main Hand", "#one-hand-weapons-for-druid-tanks") },
+            { ("Off Hand", "#off-hand-items-for-druid-tanks") },
+            { ("Two Hand", "#two-hand-weapons-for-druid-tanks") },
+            //TODO: Wait til ranged are added
+        };
+
+    public override string Phase3Url => throw new NotImplementedException();
+    public override List<(string, GuideMapping)> Phase3 => throw new NotImplementedException();
+
+    public override string Phase4Url => throw new NotImplementedException();
+    public override List<(string, GuideMapping)> Phase4 => throw new NotImplementedException();
+
+    public override string Phase5Url => throw new NotImplementedException();
+    public override List<(string, GuideMapping)> Phase5 => throw new NotImplementedException();
 }

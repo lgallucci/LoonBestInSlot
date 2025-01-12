@@ -8,20 +8,11 @@ using AddonManager.Models.GuideMappings.SOD;
 namespace AddonManager.Models.GuideMappings.Classic;
 internal class ClassicDruidBalanceMapping : ClassicSpecMapping
 {
-    public override string UrlBase => "https://www.wowhead.com/classic/guide/wow-classic-balance-druid-dps-molten-core-best-in-slot-gear";
     public override string Class => "Druid";
     public override string Spec => "Balance";
 
-    public override string PreRaidUrl => "dps-pre-raid-bis-gear-pve";
-    public override List<(string, GuideMapping)> Phase0 => new List<(string, GuideMapping)>
-        {
-            { ("Main Hand", "h3#main-hand") },
-            { ("Off Hand", "h3#off-hand") },
-            { ("Ranged/Relic", "h3#ranged") },
-        };
-
-    public override string CurrentUrl => "";
-    public override List<(string, GuideMapping)> CurrentPhase => new List<(string, GuideMapping)>
+    public override string Phase1Url => "wow-classic-balance-druid-dps-molten-core-best-in-slot-gear";
+    public override List<(string, GuideMapping)> Phase1 => new List<(string, GuideMapping)>
         {
             { ("Head", "#helm-for-balance-druids") },        
             { ("Shoulder", "#shoulder-for-balance-druids") },
@@ -40,4 +31,15 @@ internal class ClassicDruidBalanceMapping : ClassicSpecMapping
             { ("Two Hand", "#two-hand-weapons-for-balance-druids") },
             { ("Ranged/Relic", "#idols-for-balance-druids") },
         };
+    public override string Phase2Url => throw new NotImplementedException();
+    public override List<(string, GuideMapping)> Phase2 => throw new NotImplementedException();
+
+    public override string Phase3Url => throw new NotImplementedException();
+    public override List<(string, GuideMapping)> Phase3 => throw new NotImplementedException();
+
+    public override string Phase4Url => throw new NotImplementedException();
+    public override List<(string, GuideMapping)> Phase4 => throw new NotImplementedException();
+
+    public override string Phase5Url => throw new NotImplementedException();
+    public override List<(string, GuideMapping)> Phase5 => throw new NotImplementedException();
 }
