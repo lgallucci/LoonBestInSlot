@@ -11,16 +11,19 @@ local function LoadData()
     LBIS:AddEnchant(spec6, "28161", LBIS.L["Head"]) --Savage Guard
     LBIS:AddEnchant(spec6, "24421", LBIS.L["Shoulder"]) --Zandalar Signet of Mojo
     LBIS:AddEnchant(spec6, "22597", LBIS.L["Shoulder"]) --Nature Mantle of the Dawn
+    LBIS:AddEnchant(spec6, "25084", LBIS.L["Back"]) --Enchant Cloak - Subtlety
     LBIS:AddEnchant(spec6, "461129", LBIS.L["Back"]) --Hydraxian Coronation
     LBIS:AddEnchant(spec6, "25082", LBIS.L["Back"]) --Enchant Cloak - Greater Nature Resistance
+    LBIS:AddEnchant(spec6, "1213829", LBIS.L["Chest"]) --Glowing Chitin Armor Kit
     LBIS:AddEnchant(spec6, "20025", LBIS.L["Chest"]) --Enchant Chest - Greater Stats
+    LBIS:AddEnchant(spec6, "1217189", LBIS.L["Wrist"]) --Enchant Bracer - Spell Power
     LBIS:AddEnchant(spec6, "20009", LBIS.L["Wrist"]) --Enchant Bracer - Superior Spirit
     LBIS:AddEnchant(spec6, "25078", LBIS.L["Hands"]) --Enchant Gloves - Fire Power
     LBIS:AddEnchant(spec6, "25073", LBIS.L["Hands"]) --Enchant Gloves - Shadow Power
     LBIS:AddEnchant(spec6, "468365", LBIS.L["Legs"]) --Hoodoo Hex
     LBIS:AddEnchant(spec6, "28161", LBIS.L["Legs"]) --Savage Guard
+    LBIS:AddEnchant(spec6, "1213829", LBIS.L["Feet"]) --Glowing Chitin Armor Kit
     LBIS:AddEnchant(spec6, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
-    LBIS:AddEnchant(spec6, "20024", LBIS.L["Feet"]) --Enchant Boots - Spirit
     LBIS:AddEnchant(spec6, "22749", LBIS.L["Main Hand"]) --Enchant Weapon - Spell Power
     LBIS:AddEnchant(spec6, "22749", LBIS.L["Two Hand"]) --Enchant Weapon - Spell Power
 
