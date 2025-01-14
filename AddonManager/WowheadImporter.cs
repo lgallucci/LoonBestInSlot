@@ -144,8 +144,11 @@ public static class WowheadImporter
 
                 WriteItemsInternal(itemsAndEnchants.Item1, logFunc);
                 
-                guide.Item1.Clear();
-                guide.Item1.AddRange(itemsAndEnchants.Item2.Values.ToList());
+                foreach(var enchant in itemsAndEnchants.Item2)
+                {
+                    if (!guide.Item1.Any(e => e.EnchantId == enchant.Value.EnchantId && e.Slot == enchant.Value.Slot))
+                        guide.Item1.Add(enchant.Value);
+                }
                 guide.Item2[phaseNumber] = itemsAndEnchants.Item1.Values.ToList();
 
                 ItemSpecFileManager.WriteItemSpec(Constants.AddonPath + $@"\Guides\{classGuideMapping.GuideFolder}\{className.Replace(" ", "")}.lua", classGuideMapping.ClassName, classGuideMapping.SpecName, classGuideMapping.GuideFolder == "SOD",

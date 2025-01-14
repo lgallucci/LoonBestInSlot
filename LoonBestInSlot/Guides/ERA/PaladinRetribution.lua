@@ -16,6 +16,7 @@ local function LoadData()
     LBIS:AddEnchant(spec2, "15397", LBIS.L["Legs"]) --
     LBIS:AddEnchant(spec2, "20023", LBIS.L["Feet"]) --
     LBIS:AddEnchant(spec2, "20034", LBIS.L["Main Hand"]) --
+    LBIS:AddEnchant(spec2, "13935", LBIS.L["Feet"]) --
 
     LBIS:AddItem(spec1, "12640", LBIS.L["Head"], "BIS") --Lionheart Helm
     LBIS:AddItem(spec1, "12587", LBIS.L["Head"], "Alt") --Eye of Rend

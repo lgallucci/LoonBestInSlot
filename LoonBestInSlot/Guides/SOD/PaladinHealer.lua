@@ -17,6 +17,7 @@ local function LoadData()
     LBIS:AddEnchant(spec6, "1213829", LBIS.L["Feet"]) --Glowing Chitin Armor Kit
     LBIS:AddEnchant(spec6, "22750", LBIS.L["Main Hand"]) --Enchant Weapon - Healing Power
     LBIS:AddEnchant(spec6, "463871", LBIS.L["Off Hand"]) --Enchant Shield - Law of Nature
+    LBIS:AddEnchant(spec6, "446472", LBIS.L["Shoulder"]) --
 
     LBIS:AddItem(spec0, "226981", LBIS.L["Head"], "BIS") --Soulforge Crown
     LBIS:AddItem(spec0, "220512", LBIS.L["Head"], "Alt") --Immaculate Goldsteel Helmet

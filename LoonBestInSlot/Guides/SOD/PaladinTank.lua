@@ -7,6 +7,17 @@ local function LoadData()
     local spec5 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Tank"], "5")
     local spec6 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Tank"], "6")
 
+    LBIS:AddEnchant(spec6, "468328", LBIS.L["Head"]) --
+    LBIS:AddEnchant(spec6, "24422", LBIS.L["Shoulder"]) --
+    LBIS:AddEnchant(spec6, "13882", LBIS.L["Back"]) --
+    LBIS:AddEnchant(spec6, "1213616", LBIS.L["Chest"]) --
+    LBIS:AddEnchant(spec6, "20010", LBIS.L["Wrist"]) --
+    LBIS:AddEnchant(spec6, "13948", LBIS.L["Hands"]) --
+    LBIS:AddEnchant(spec6, "468328", LBIS.L["Legs"]) --
+    LBIS:AddEnchant(spec6, "13890", LBIS.L["Feet"]) --
+    LBIS:AddEnchant(spec6, "20034", LBIS.L["Main Hand"]) --
+    LBIS:AddEnchant(spec6, "463871", LBIS.L["Off Hand"]) --
+    LBIS:AddEnchant(spec6, "24160", LBIS.L["Legs"]) --
 
     LBIS:AddItem(spec0, "227144", LBIS.L["Head"], "BIS") --Lieutenant Commander's Lamellar Headguard
     LBIS:AddItem(spec0, "226989", LBIS.L["Head"], "Alt Mit") --Soulforge Faceguard

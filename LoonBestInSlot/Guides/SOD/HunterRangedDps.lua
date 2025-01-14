@@ -20,6 +20,8 @@ local function LoadData()
     LBIS:AddEnchant(spec6, "23800", LBIS.L["Main Hand"]) --Enchant Weapon - Agility
     LBIS:AddEnchant(spec6, "27837", LBIS.L["Two Hand"]) --Enchant 2H Weapon - Agility
     LBIS:AddEnchant(spec6, "1217206", LBIS.L["Ranged/Relic"]) --Obsidian Scope
+    LBIS:AddEnchant(spec6, "27837", LBIS.L["Main Hand"]) --
+    LBIS:AddEnchant(spec6, "23800", LBIS.L["Off Hand"]) --
 
     LBIS:AddItem(spec0, "23306", LBIS.L["Head"], "BIS") --Lieutenant Commander's Chain Helm
     LBIS:AddItem(spec0, "226887", LBIS.L["Head"], "Alt") --Beastmaster's Cap

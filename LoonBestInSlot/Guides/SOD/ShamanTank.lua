@@ -24,6 +24,8 @@ local function LoadData()
     LBIS:AddEnchant(spec6, "22749", LBIS.L["Main Hand"]) --Enchant Weapon - Spell Power
     LBIS:AddEnchant(spec6, "20034", LBIS.L["Main Hand"]) --Enchant Weapon - Crusader
     LBIS:AddEnchant(spec6, "463871", LBIS.L["Off Hand"]) --Enchant Shield - Law of Nature
+    LBIS:AddEnchant(spec6, "446451", LBIS.L["Shoulder"]) --
+    LBIS:AddEnchant(spec6, "13939", LBIS.L["Wrist"]) --
 
     LBIS:AddItem(spec0, "227029", LBIS.L["Head"], "BIS") --Headpiece of The Five Thunders
     LBIS:AddItem(spec0, "227002", LBIS.L["Head"], "Alt") --Coif of The Five Thunders

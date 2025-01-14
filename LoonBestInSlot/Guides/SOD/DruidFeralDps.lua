@@ -24,6 +24,7 @@ local function LoadData()
     LBIS:AddEnchant(spec6, "15394", LBIS.L["Legs"]) --Lesser Arcanum of Resilience
     LBIS:AddEnchant(spec6, "20023", LBIS.L["Feet"]) --Enchant Boots - Greater Agility
     LBIS:AddEnchant(spec6, "20034", LBIS.L["Two Hand"]) --Enchant Weapon - Crusader
+    LBIS:AddEnchant(spec6, "20034", LBIS.L["Main Hand"]) --
 
     LBIS:AddItem(spec0, "226792", LBIS.L["Head"], "BIS") --Feralheart Cap
     LBIS:AddItem(spec0, "228111", LBIS.L["Head"], "Alt") --Mask of the Godslayer

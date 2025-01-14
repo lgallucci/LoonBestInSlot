@@ -19,6 +19,7 @@ local function LoadData()
     LBIS:AddEnchant(spec6, "468330", LBIS.L["Legs"]) --Syncretist's Sigil
     LBIS:AddEnchant(spec6, "20023", LBIS.L["Feet"]) --Enchant Boots - Greater Agility
     LBIS:AddEnchant(spec6, "20034", LBIS.L["Two Hand"]) --Enchant Weapon - Crusader
+    LBIS:AddEnchant(spec6, "20034", LBIS.L["Main Hand"]) --
 
     LBIS:AddItem(spec0, "226976", LBIS.L["Head"], "BIS") --Soulforge Greathelm
     LBIS:AddItem(spec0, "12640", LBIS.L["Head"], "Alt") --Lionheart Helm

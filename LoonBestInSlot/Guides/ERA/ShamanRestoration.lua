@@ -80,7 +80,6 @@ local function LoadData()
     LBIS:AddItem(spec2, "18373", LBIS.L["Chest"], "Alt") --Chestplate of Tranquility
     LBIS:AddItem(spec2, "13969", LBIS.L["Wrist"], "BIS") --Loomguard Armbraces
     LBIS:AddItem(spec2, "18525", LBIS.L["Wrist"], "Alt") --Bracers of Prosperity
-    LBIS:AddItem(spec2, "19595", LBIS.L["Wrist"], "Alt") --Dryad's Wrist Bindings
     LBIS:AddItem(spec2, "13208", LBIS.L["Wrist"], "Alt") --Bleak Howler Armguards
     LBIS:AddItem(spec2, "16840", LBIS.L["Wrist"], "Alt") --Earthfury Bracers
     LBIS:AddItem(spec2, "18527", LBIS.L["Hands"], "BIS") --Harmonious Gauntlets

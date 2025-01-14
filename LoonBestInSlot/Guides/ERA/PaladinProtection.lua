@@ -71,11 +71,12 @@ local function LoadData()
     LBIS:AddItem(spec1, "17106", LBIS.L["Off Hand"], "Alt") --Malistar's Defender
 
     LBIS:AddItem(spec2, "16955", LBIS.L["Head"], "BIS") --Judgement Crown
-    LBIS:AddItem(spec2, "23276", LBIS.L["Head"], "BIS") --Lieutenant Commander's Lamellar Headguard
+    LBIS:AddItem(spec2, "23276", LBIS.L["Head"], "Alt") --Lieutenant Commander's Lamellar Headguard
     LBIS:AddItem(spec2, "12620", LBIS.L["Head"], "Alt") --Enchanted Thorium Helm
     LBIS:AddItem(spec2, "16727", LBIS.L["Head"], "Alt") --Lightforge Helm
     LBIS:AddItem(spec2, "12952", LBIS.L["Head"], "Alt") --Gyth's Skull
     LBIS:AddItem(spec2, "11746", LBIS.L["Head"], "Alt") --Golem Skull Helm
+    LBIS:AddItem(spec2, "16436", LBIS.L["Shoulder"], "BIS") --Lieutenant Commander's Lamellar Shoulders
     LBIS:AddItem(spec2, "14552", LBIS.L["Shoulder"], "BIS") --Stockade Pauldrons
     LBIS:AddItem(spec2, "18384", LBIS.L["Shoulder"], "Alt") --Bile-etched Spaulders
     LBIS:AddItem(spec2, "13405", LBIS.L["Shoulder"], "Alt") --Wailing Nightbane Pauldrons
@@ -129,9 +130,9 @@ local function LoadData()
     LBIS:AddItem(spec2, "18537", LBIS.L["Trinket"], "Alt") --Counterattack Lodestone
     LBIS:AddItem(spec2, "4130", LBIS.L["Trinket"], "Alt") --Smotts' Compass
     LBIS:AddItem(spec2, "17774", LBIS.L["Trinket"], "Alt") --Mark of the Chosen
-    LBIS:AddItem(spec2, "17105", LBIS.L["Main Hand"], "BIS") --Aurastone Hammer
     LBIS:AddItem(spec2, "18348", LBIS.L["Main Hand"], "BIS") --Quel'Serrar
-    LBIS:AddItem(spec2, "871", LBIS.L["Main Hand"], "Alt") --Flurry Axe
+    LBIS:AddItem(spec2, "871", LBIS.L["Main Hand"], "BIS") --Flurry Axe
+    LBIS:AddItem(spec2, "17105", LBIS.L["Main Hand"], "Alt") --Aurastone Hammer
     LBIS:AddItem(spec2, "18048", LBIS.L["Main Hand"], "Alt") --Mastersmith's Hammer
     LBIS:AddItem(spec2, "11784", LBIS.L["Main Hand"], "Alt") --Arbiter's Blade
     LBIS:AddItem(spec2, "17066", LBIS.L["Off Hand"], "BIS") --Drillborer Disk

@@ -19,6 +19,8 @@ local function LoadData()
     LBIS:AddEnchant(spec6, "20034", LBIS.L["Main Hand"]) --Enchant Weapon - Crusader
     LBIS:AddEnchant(spec6, "23800", LBIS.L["Off Hand"]) --Enchant Weapon - Agility
     LBIS:AddEnchant(spec6, "12460", LBIS.L["Ranged/Relic"]) --Sniper Scope
+    LBIS:AddEnchant(spec6, "468347", LBIS.L["Head"]) --
+    LBIS:AddEnchant(spec6, "20023", LBIS.L["Feet"]) --
 
     LBIS:AddItem(spec0, "226841", LBIS.L["Head"], "BIS") --Darkmantle Faceguard
     LBIS:AddItem(spec0, "226829", LBIS.L["Head"], "BIS") --Darkmantle Cap

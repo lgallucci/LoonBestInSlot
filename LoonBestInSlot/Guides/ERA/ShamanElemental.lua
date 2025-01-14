@@ -18,6 +18,7 @@ local function LoadData()
     LBIS:AddEnchant(spec2, "20034", LBIS.L["Main Hand"]) --
     LBIS:AddEnchant(spec2, "20017", LBIS.L["Off Hand"]) --
     LBIS:AddEnchant(spec2, "22749", LBIS.L["Two Hand"]) --
+    LBIS:AddEnchant(spec2, "22749", LBIS.L["Main Hand"]) --
 
     LBIS:AddItem(spec1, "16947", LBIS.L["Head"], "BIS") --Helmet of Ten Storms
     LBIS:AddItem(spec1, "18727", LBIS.L["Head"], "Alt") --Crimson Felt Hat
@@ -61,45 +62,38 @@ local function LoadData()
     LBIS:AddItem(spec1, "873", LBIS.L["Two Hand"], "Alt") --Staff of Jordan
 
     LBIS:AddItem(spec2, "18546", LBIS.L["Head"], "BIS") --Infernal Headcage
-    LBIS:AddItem(spec2, "16947", LBIS.L["Head"], "Alt") --Helmet of Ten Storms
+    LBIS:AddItem(spec2, "18727", LBIS.L["Head"], "Alt") --Crimson Felt Hat
+    LBIS:AddItem(spec2, "18807", LBIS.L["Head"], "Alt") --Helm of Latent Power
     LBIS:AddItem(spec2, "16521", LBIS.L["Head"], "Alt") --Champion's Mail Helm
-    LBIS:AddItem(spec2, "19370", LBIS.L["Shoulder"], "BIS") --Mantle of the Blackwing Cabal
-    LBIS:AddItem(spec2, "17078", LBIS.L["Back"], "BIS") --Sapphiron Drape
+    LBIS:AddItem(spec2, "18681", LBIS.L["Shoulder"], "BIS") --Burial Shawl
+    LBIS:AddItem(spec2, "11623", LBIS.L["Back"], "BIS") --Spritecaster Cape
+    LBIS:AddItem(spec2, "19121", LBIS.L["Back"], "Alt") --Deep Woodlands Cloak
     LBIS:AddItem(spec2, "12624", LBIS.L["Chest"], "BIS") --Wildthorn Mail
-    LBIS:AddItem(spec2, "16943", LBIS.L["Wrist"], "BIS") --Bracers of Ten Storms
-    LBIS:AddItem(spec2, "19595", LBIS.L["Wrist"], "Alt") --Dryad's Wrist Bindings
-    LBIS:AddItem(spec2, "13253", LBIS.L["Hands"], "BIS") --Hands of Power
-    LBIS:AddItem(spec2, "2564", LBIS.L["Hands"], "Alt") --Elven Spirit Claws
+    LBIS:AddItem(spec2, "16840", LBIS.L["Wrist"], "BIS") --Earthfury Bracers
+    LBIS:AddItem(spec2, "2564", LBIS.L["Hands"], "BIS") --Elven Spirit Claws
     LBIS:AddItem(spec2, "16839", LBIS.L["Hands"], "Alt") --Earthfury Gauntlets
     LBIS:AddItem(spec2, "16519", LBIS.L["Hands"], "Alt") --Blood Guard's Mail Grips
-    LBIS:AddItem(spec2, "19136", LBIS.L["Waist"], "BIS") --Mana Igniting Cord
+    LBIS:AddItem(spec2, "11662", LBIS.L["Waist"], "BIS") --Ban'thok Sash
+    LBIS:AddItem(spec2, "18721", LBIS.L["Waist"], "Alt") --Barrage Girdle
+    LBIS:AddItem(spec2, "18740", LBIS.L["Waist"], "Alt") --Thuzadin Sash
     LBIS:AddItem(spec2, "18676", LBIS.L["Waist"], "Alt") --Sash of the Windreaver
     LBIS:AddItem(spec2, "19134", LBIS.L["Waist"], "Alt") --Flayed Doomguard Belt
-    LBIS:AddItem(spec2, "19393", LBIS.L["Waist"], "Alt") --Primalist's Linked Waistguard
-    LBIS:AddItem(spec2, "13170", LBIS.L["Legs"], "BIS") --Skyshroud Leggings
-    LBIS:AddItem(spec2, "12965", LBIS.L["Legs"], "Alt") --Spiritshroud Leggings
-    LBIS:AddItem(spec2, "16949", LBIS.L["Feet"], "BIS") --Greaves of Ten Storms
-    LBIS:AddItem(spec2, "16518", LBIS.L["Feet"], "Alt") --Blood Guard's Mail Walkers
+    LBIS:AddItem(spec2, "12965", LBIS.L["Legs"], "BIS") --Spiritshroud Leggings
+    LBIS:AddItem(spec2, "16518", LBIS.L["Feet"], "BIS") --Blood Guard's Mail Walkers
     LBIS:AddItem(spec2, "11822", LBIS.L["Feet"], "Alt") --Omnicast Boots
     LBIS:AddItem(spec2, "13954", LBIS.L["Feet"], "Alt") --Verdant Footpads
     LBIS:AddItem(spec2, "19426", LBIS.L["Neck"], "BIS") --Orb of the Darkmoon
-    LBIS:AddItem(spec2, "19371", LBIS.L["Neck"], "Alt") --Pendant of the Fallen Dragon
-    LBIS:AddItem(spec2, "19403", LBIS.L["Ring"], "BIS") --Band of Forced Concentration
-    LBIS:AddItem(spec2, "19397", LBIS.L["Ring"], "Alt") --Ring of Blackrock
-    LBIS:AddItem(spec2, "13001", LBIS.L["Ring"], "Alt") --Maiden's Circle
+    LBIS:AddItem(spec2, "12103", LBIS.L["Neck"], "Alt") --Star of Mystaria
+    LBIS:AddItem(spec2, "13001", LBIS.L["Ring"], "BIS") --Maiden's Circle
     LBIS:AddItem(spec2, "12545", LBIS.L["Ring"], "Alt") --Eye of Orgrimmar
     LBIS:AddItem(spec2, "18103", LBIS.L["Ring"], "Alt") --Band of Rumination
     LBIS:AddItem(spec2, "11824", LBIS.L["Ring"], "Alt") --Cyclopean Band
-    LBIS:AddItem(spec2, "18820", LBIS.L["Trinket"], "BIS") --Talisman of Ephemeral Power
-    LBIS:AddItem(spec2, "12930", LBIS.L["Trinket"], "Alt") --Briarwood Reed
-    LBIS:AddItem(spec2, "18471", LBIS.L["Trinket"], "Alt") --Royal Seal of Eldre'Thalas
+    LBIS:AddItem(spec2, "12930", LBIS.L["Trinket"], "BIS") --Briarwood Reed
     LBIS:AddItem(spec2, "13968", LBIS.L["Trinket"], "Alt") --Eye of the Beast
-    LBIS:AddItem(spec2, "19344", LBIS.L["Trinket"], "Alt") --Natural Alignment Crystal
     LBIS:AddItem(spec2, "11832", LBIS.L["Trinket"], "Alt") --Burst of Knowledge
-    LBIS:AddItem(spec2, "17105", LBIS.L["Main Hand"], "BIS") --Aurastone Hammer
+    LBIS:AddItem(spec2, "13964", LBIS.L["Main Hand"], "BIS") --Witchblade
     LBIS:AddItem(spec2, "17106", LBIS.L["Off Hand"], "BIS") --Malistar's Defender
-    LBIS:AddItem(spec2, "18842", LBIS.L["Two Hand"], "BIS") --Staff of Dominance
-    LBIS:AddItem(spec2, "13161", LBIS.L["Two Hand"], "Alt") --Trindlehaven Staff
+    LBIS:AddItem(spec2, "13161", LBIS.L["Two Hand"], "BIS") --Trindlehaven Staff
     LBIS:AddItem(spec2, "873", LBIS.L["Two Hand"], "Alt") --Staff of Jordan
 end
 if not LBIS.IsSOD then

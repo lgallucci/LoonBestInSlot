@@ -18,6 +18,7 @@ local function LoadData()
     LBIS:AddEnchant(spec6, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
     LBIS:AddEnchant(spec6, "22750", LBIS.L["Main Hand"]) --Enchant Weapon - Healing Power
     LBIS:AddEnchant(spec6, "463871", LBIS.L["Off Hand"]) --Enchant Shield - Law of Nature
+    LBIS:AddEnchant(spec6, "23804", LBIS.L["Main Hand"]) --
 
     LBIS:AddItem(spec0, "227013", LBIS.L["Head"], "BIS") --Crown of The Five Thunders
     LBIS:AddItem(spec0, "223193", LBIS.L["Head"], "Alt") --Crown of the Dreamweaver

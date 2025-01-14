@@ -17,6 +17,11 @@ local function LoadData()
     LBIS:AddEnchant(spec6, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
     LBIS:AddEnchant(spec6, "20034", LBIS.L["Main Hand"]) --Enchant Weapon - Crusader
     LBIS:AddEnchant(spec6, "12460", LBIS.L["Ranged/Relic"]) --Sniper Scope
+    LBIS:AddEnchant(spec6, "468373", LBIS.L["Head"]) --
+    LBIS:AddEnchant(spec6, "24422", LBIS.L["Shoulder"]) --
+    LBIS:AddEnchant(spec6, "468373", LBIS.L["Legs"]) --
+    LBIS:AddEnchant(spec6, "20023", LBIS.L["Feet"]) --
+    LBIS:AddEnchant(spec6, "20034", LBIS.L["Off Hand"]) --
 
     LBIS:AddItem(spec0, "12640", LBIS.L["Head"], "BIS") --Lionheart Helm
     LBIS:AddItem(spec0, "215161", LBIS.L["Head"], "BIS") --Tempered Interference-Negating Helmet

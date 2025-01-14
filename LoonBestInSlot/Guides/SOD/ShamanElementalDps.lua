@@ -19,6 +19,7 @@ local function LoadData()
     LBIS:AddEnchant(spec6, "1213829", LBIS.L["Feet"]) --Glowing Chitin Armor Kit
     LBIS:AddEnchant(spec6, "23804", LBIS.L["Main Hand"]) --Enchant Weapon - Mighty Intellect
     LBIS:AddEnchant(spec6, "463871", LBIS.L["Off Hand"]) --Enchant Shield - Law of Nature
+    LBIS:AddEnchant(spec6, "461129", LBIS.L["Back"]) --
 
     LBIS:AddItem(spec0, "227002", LBIS.L["Head"], "BIS") --Coif of The Five Thunders
     LBIS:AddItem(spec0, "228677", LBIS.L["Head"], "Alt") --Spellweaver's Turban

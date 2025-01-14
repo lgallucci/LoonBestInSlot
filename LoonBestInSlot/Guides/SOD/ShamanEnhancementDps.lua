@@ -19,6 +19,7 @@ local function LoadData()
     LBIS:AddEnchant(spec6, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
     LBIS:AddEnchant(spec6, "20034", LBIS.L["Main Hand"]) --Enchant Weapon - Crusader
     LBIS:AddEnchant(spec6, "20034", LBIS.L["Off Hand"]) --Enchant Weapon - Crusader
+    LBIS:AddEnchant(spec6, "20013", LBIS.L["Hands"]) --
 
     LBIS:AddItem(spec0, "227021", LBIS.L["Head"], "BIS") --Face of The Five Thunders
     LBIS:AddItem(spec0, "228604", LBIS.L["Head"], "Alt") --Eye of Rend

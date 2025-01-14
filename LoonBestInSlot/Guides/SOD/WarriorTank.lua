@@ -19,6 +19,7 @@ local function LoadData()
     LBIS:AddEnchant(spec6, "20034", LBIS.L["Main Hand"]) --Enchant Weapon - Crusader
     LBIS:AddEnchant(spec6, "20017", LBIS.L["Off Hand"]) --Enchant Shield - Greater Stamina
     LBIS:AddEnchant(spec6, "12460", LBIS.L["Ranged/Relic"]) --Sniper Scope
+    LBIS:AddEnchant(spec6, "20013", LBIS.L["Hands"]) --
 
     LBIS:AddItem(spec0, "227044", LBIS.L["Head"], "BIS") --Lieutenant Commander's Plate Helm
     LBIS:AddItem(spec0, "227043", LBIS.L["Head"], "BIS") --Champion's Plate Helm

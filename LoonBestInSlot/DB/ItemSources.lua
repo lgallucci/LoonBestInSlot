@@ -2005,6 +2005,7 @@ LBIS.ItemSources =
     [16419] = { Name = "Knight-Captain's Leather Legguards", SourceType = LBIS.L["unknown"], Source = LBIS.L["unknown"], SourceNumber = "0", SourceLocation = LBIS.L["unknown"], SourceFaction = "B" },
     [16420] = { Name = "Lieutenant Commander's Leather Spaulders", SourceType = LBIS.L["unknown"], Source = LBIS.L["unknown"], SourceNumber = "0", SourceLocation = LBIS.L["unknown"], SourceFaction = "B" },
     [16435] = { Name = "Knight-Captain's Lamellar Leggings", SourceType = LBIS.L["PvP"], Source = LBIS.L["PvP Vendor"], SourceNumber = "0", SourceLocation = LBIS.L["unknown"], SourceFaction = "B" },
+    [16436] = { Name = "Lieutenant Commander's Lamellar Shoulders", SourceType = LBIS.L["unknown"], Source = LBIS.L["unknown"], SourceNumber = "0", SourceLocation = LBIS.L["unknown"], SourceFaction = "B" },
     [16437] = { Name = "Marshal's Silk Footwraps", SourceType = LBIS.L["PvP"], Source = LBIS.L["PvP Vendor"], SourceNumber = "7g88s57c", SourceLocation = LBIS.L["Stormwind"], SourceFaction = "A" },
     [16440] = { Name = "Marshal's Silk Gloves", SourceType = LBIS.L["PvP"], Source = LBIS.L["PvP Vendor"], SourceNumber = "5g31s32c", SourceLocation = LBIS.L["Stormwind"], SourceFaction = "A" },
     [16441] = { Name = "Field Marshal's Coronet", SourceType = LBIS.L["PvP"], Source = LBIS.L["PvP Vendor"], SourceNumber = "9g25s90c", SourceLocation = LBIS.L["Stormwind"], SourceFaction = "A" },

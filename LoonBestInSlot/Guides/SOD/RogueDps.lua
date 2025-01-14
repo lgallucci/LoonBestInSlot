@@ -18,6 +18,8 @@ local function LoadData()
     LBIS:AddEnchant(spec6, "20034", LBIS.L["Main Hand"]) --Enchant Weapon - Crusader
     LBIS:AddEnchant(spec6, "20034", LBIS.L["Off Hand"]) --Enchant Weapon - Crusader
     LBIS:AddEnchant(spec6, "12460", LBIS.L["Ranged/Relic"]) --Sniper Scope
+    LBIS:AddEnchant(spec6, "1217203", LBIS.L["Wrist"]) --
+    LBIS:AddEnchant(spec6, "25080", LBIS.L["Hands"]) --
 
     LBIS:AddItem(spec0, "22005", LBIS.L["Head"], "BIS") --Darkmantle Cap
     LBIS:AddItem(spec0, "228111", LBIS.L["Head"], "Alt") --Mask of the Godslayer

@@ -21,6 +21,8 @@ local function LoadData()
     LBIS:AddEnchant(spec6, "23804", LBIS.L["Main Hand"]) --Enchant Weapon - Mighty Intellect
     LBIS:AddEnchant(spec6, "22750", LBIS.L["Two Hand"]) --Enchant Weapon - Healing Power
     LBIS:AddEnchant(spec6, "23804", LBIS.L["Two Hand"]) --Enchant Weapon - Mighty Intellect
+    LBIS:AddEnchant(spec6, "1213616", LBIS.L["Chest"]) --
+    LBIS:AddEnchant(spec6, "25079", LBIS.L["Hands"]) --
 
     LBIS:AddItem(spec0, "226947", LBIS.L["Head"], "BIS") --Virtuous Crown
     LBIS:AddItem(spec0, "227863", LBIS.L["Head"], "Alt") --Incandescent Mooncloth Circlet
