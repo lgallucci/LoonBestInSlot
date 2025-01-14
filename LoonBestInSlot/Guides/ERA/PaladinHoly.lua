@@ -7,15 +7,15 @@ local function LoadData()
     local spec5 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Holy"], "5")
     local spec6 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Holy"], "6")
 
-    LBIS:AddEnchant(spec2, "22844", LBIS.L["Head"]) --Arcanum of Focus
-    LBIS:AddEnchant(spec2, "22599", LBIS.L["Shoulder"]) --Chromatic Mantle of the Dawn
-    LBIS:AddEnchant(spec2, "20014", LBIS.L["Back"]) --Enchant Cloak - Greater Resistance
-    LBIS:AddEnchant(spec2, "20025", LBIS.L["Chest"]) --Enchant Chest - Greater Stats
-    LBIS:AddEnchant(spec2, "20008", LBIS.L["Wrist"]) --Enchant Bracer - Greater Intellect
-    LBIS:AddEnchant(spec2, "13947", LBIS.L["Hands"]) --Enchant Gloves - Riding Skill
-    LBIS:AddEnchant(spec2, "22844", LBIS.L["Legs"]) --Arcanum of Focus
-    LBIS:AddEnchant(spec2, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
-    LBIS:AddEnchant(spec2, "22750", LBIS.L["Main Hand"]) --Enchant Weapon - Healing Power
+    LBIS:AddEnchant(spec2, "22844", LBIS.L["Head"]) --
+    LBIS:AddEnchant(spec2, "22599", LBIS.L["Shoulder"]) --
+    LBIS:AddEnchant(spec2, "20014", LBIS.L["Back"]) --
+    LBIS:AddEnchant(spec2, "20025", LBIS.L["Chest"]) --
+    LBIS:AddEnchant(spec2, "20008", LBIS.L["Wrist"]) --
+    LBIS:AddEnchant(spec2, "13947", LBIS.L["Hands"]) --
+    LBIS:AddEnchant(spec2, "22844", LBIS.L["Legs"]) --
+    LBIS:AddEnchant(spec2, "13890", LBIS.L["Feet"]) --
+    LBIS:AddEnchant(spec2, "22750", LBIS.L["Main Hand"]) --
 
     LBIS:AddItem(spec1, "16955", LBIS.L["Head"], "BIS") --Judgement Crown
     LBIS:AddItem(spec1, "12960", LBIS.L["Head"], "Alt") --Tribal War Feathers

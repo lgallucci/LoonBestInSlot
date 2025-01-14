@@ -7,18 +7,18 @@ local function LoadData()
     local spec5 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Enhancement"], "5")
     local spec6 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Enhancement"], "6")
 
-    LBIS:AddEnchant(spec2, "15397", LBIS.L["Head"]) --Lesser Arcanum of Voracity
-    LBIS:AddEnchant(spec2, "22599", LBIS.L["Shoulder"]) --Chromatic Mantle of the Dawn
-    LBIS:AddEnchant(spec2, "13882", LBIS.L["Back"]) --Enchant Cloak - Lesser Agility
-    LBIS:AddEnchant(spec2, "20025", LBIS.L["Chest"]) --Enchant Chest - Greater Stats
-    LBIS:AddEnchant(spec2, "20010", LBIS.L["Wrist"]) --Enchant Bracer - Superior Strength
-    LBIS:AddEnchant(spec2, "23801", LBIS.L["Wrist"]) --Enchant Bracer - Mana Regeneration
-    LBIS:AddEnchant(spec2, "13948", LBIS.L["Hands"]) --Enchant Gloves - Minor Haste
-    LBIS:AddEnchant(spec2, "15397", LBIS.L["Legs"]) --Lesser Arcanum of Voracity
-    LBIS:AddEnchant(spec2, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
-    LBIS:AddEnchant(spec2, "20034", LBIS.L["Main Hand"]) --Enchant Weapon - Crusader
-    LBIS:AddEnchant(spec2, "20034", LBIS.L["Two Hand"]) --Enchant Weapon - Crusader
-    LBIS:AddEnchant(spec2, "20036", LBIS.L["Two Hand"]) --Enchant 2H Weapon - Major Intellect
+    LBIS:AddEnchant(spec2, "15397", LBIS.L["Head"]) --
+    LBIS:AddEnchant(spec2, "22599", LBIS.L["Shoulder"]) --
+    LBIS:AddEnchant(spec2, "13882", LBIS.L["Back"]) --
+    LBIS:AddEnchant(spec2, "20025", LBIS.L["Chest"]) --
+    LBIS:AddEnchant(spec2, "20010", LBIS.L["Wrist"]) --
+    LBIS:AddEnchant(spec2, "23801", LBIS.L["Wrist"]) --
+    LBIS:AddEnchant(spec2, "13948", LBIS.L["Hands"]) --
+    LBIS:AddEnchant(spec2, "15397", LBIS.L["Legs"]) --
+    LBIS:AddEnchant(spec2, "13890", LBIS.L["Feet"]) --
+    LBIS:AddEnchant(spec2, "20034", LBIS.L["Main Hand"]) --
+    LBIS:AddEnchant(spec2, "20034", LBIS.L["Two Hand"]) --
+    LBIS:AddEnchant(spec2, "20036", LBIS.L["Two Hand"]) --
 
     LBIS:AddItem(spec1, "18817", LBIS.L["Head"], "BIS") --Crown of Destruction
     LBIS:AddItem(spec1, "13359", LBIS.L["Head"], "Alt") --Crown of Tyranny

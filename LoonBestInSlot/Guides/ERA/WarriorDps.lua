@@ -7,6 +7,17 @@ local function LoadData()
     local spec5 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Dps"], "5")
     local spec6 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Dps"], "6")
 
+    LBIS:AddEnchant(spec2, "15397", LBIS.L["Head"]) --
+    LBIS:AddEnchant(spec2, "22599", LBIS.L["Shoulder"]) --
+    LBIS:AddEnchant(spec2, "13882", LBIS.L["Back"]) --
+    LBIS:AddEnchant(spec2, "20025", LBIS.L["Chest"]) --
+    LBIS:AddEnchant(spec2, "20010", LBIS.L["Wrist"]) --
+    LBIS:AddEnchant(spec2, "20013", LBIS.L["Hands"]) --
+    LBIS:AddEnchant(spec2, "15397", LBIS.L["Legs"]) --
+    LBIS:AddEnchant(spec2, "13890", LBIS.L["Feet"]) --
+    LBIS:AddEnchant(spec2, "20034", LBIS.L["Main Hand"]) --
+    LBIS:AddEnchant(spec2, "20034", LBIS.L["Off Hand"]) --
+    LBIS:AddEnchant(spec2, "12460", LBIS.L["Ranged/Relic"]) --
 
     LBIS:AddItem(spec1, "12640", LBIS.L["Head"], "BIS") --Lionheart Helm
     LBIS:AddItem(spec1, "12587", LBIS.L["Head"], "Alt") --Eye of Rend

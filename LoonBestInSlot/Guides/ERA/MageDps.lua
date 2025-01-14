@@ -7,6 +7,15 @@ local function LoadData()
     local spec5 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Dps"], "5")
     local spec6 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Dps"], "6")
 
+    LBIS:AddEnchant(spec2, "22844", LBIS.L["Head"]) --
+    LBIS:AddEnchant(spec2, "22599", LBIS.L["Shoulder"]) --
+    LBIS:AddEnchant(spec2, "20014", LBIS.L["Back"]) --
+    LBIS:AddEnchant(spec2, "20025", LBIS.L["Chest"]) --
+    LBIS:AddEnchant(spec2, "20008", LBIS.L["Wrist"]) --
+    LBIS:AddEnchant(spec2, "13947", LBIS.L["Hands"]) --
+    LBIS:AddEnchant(spec2, "22844", LBIS.L["Legs"]) --
+    LBIS:AddEnchant(spec2, "13890", LBIS.L["Feet"]) --
+    LBIS:AddEnchant(spec2, "22749", LBIS.L["Main Hand"]) --
 
     LBIS:AddItem(spec1, "16795", LBIS.L["Head"], "BIS") --Arcanist Crown
     LBIS:AddItem(spec1, "16914", LBIS.L["Head"], "Alt") --Netherwind Crown

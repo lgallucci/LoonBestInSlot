@@ -267,11 +267,12 @@ public class WowheadGuideParser
         var items = new Dictionary<int, ItemSpec>();
         var enchants = new Dictionary<string, EnchantSpec>();
 
+        LoopThroughEnchants(doc, (enchantAnchor, slot) => {
+            ParseEnchant(enchantAnchor, slot, enchants);
+            return true;
+        });
+
         LoopThroughMappings(doc, classGuide, 
-            (enchantAnchor, slot) =>
-            {
-                ParseEnchant(enchantAnchor, slot, enchants);
-            },
             (table, slot, htmlId) =>
             {
                 bool first = true;
@@ -294,6 +295,66 @@ public class WowheadGuideParser
         return (items, enchants);
     }
 
+    private void LoopThroughEnchants(IHtmlDocument doc, Func<IHtmlAnchorElement, string, bool> foundEnchant)
+    {
+        var gearSlots = doc.QuerySelectorAll(".gear-planner-slots-group-slot");
+
+        foreach(var gearSlot in gearSlots)
+        {
+            var slotId = gearSlot.Attributes["data-slot-id"];
+            
+            var enchantDiv = gearSlot.QuerySelector(".gear-planner-slots-group-slot-enchant");
+
+            Common.RecursiveBoxSearch(enchantDiv, (child) => {
+                var enchantAnchor = (IHtmlAnchorElement)child;
+                if (enchantAnchor.PathName.Contains("classic/"))
+                    return foundEnchant(enchantAnchor, GetSlotFromId(slotId.Value));
+                return false;
+            });
+        }
+    }
+
+    private string GetSlotFromId(string value)
+    {
+        switch(value)
+        {
+            case "1":
+                return "Head";
+            case "2":
+                return "Neck";
+            case "3":
+                return "Shoulder";
+            case "15":
+                return "Back";
+            case "5":
+                return "Chest";
+            case "9":
+                return "Wrist";
+            case "10":
+                return "Hands";
+            case "6":
+                return "Waist";
+            case "7":
+                return "Legs";
+            case "8":
+                return "Feet";
+            case "11":
+            case "12":
+                return "Ring";
+            case "13":
+            case "14":
+                return "Trinket";
+            case "16":
+                return "Main Hand";
+            case "17":
+                return "Off Hand";
+            case "18":
+                return "Ranged/Relic";
+            default:
+                return "Unknown";
+        }
+    }
+
     private void ParseEnchant(IHtmlAnchorElement enchantAnchor, string slot, Dictionary<string, EnchantSpec> enchants)
     {
         bool isSpell = false;
@@ -312,11 +373,14 @@ public class WowheadGuideParser
         if (itemIdIndex > -1)
         {
             item = item.Substring(0, itemIdIndex);
-            var itemName = enchantAnchor.TextContent.Trim();
-            var itemId = Int32.Parse(item);
+        }
+        var itemName = enchantAnchor.TextContent.Trim();
+        var itemId = Int32.Parse(item);
 
-            var textureId = "";
-            if (isSpell == false && _enchantSwaps.ContainsKey(itemId))
+        var textureId = "";
+        if (isSpell == false)
+        {
+            if (_enchantSwaps.ContainsKey(itemId))
             {
                 textureId = itemId.ToString();
                 itemId = _enchantSwaps[itemId];
@@ -324,17 +388,20 @@ public class WowheadGuideParser
             {
                 return;
             }
-
-            if (!enchants.ContainsKey(itemId + slot))
-            {
-                enchants.Add(itemId + slot, new EnchantSpec
-                {
-                    EnchantId = itemId,
-                    Name = itemName ?? "unknown",
-                    Slot = slot,
-                    TextureId = textureId
-                });
+            else {
+                throw new Exception("Non Spell Enchant detected !");
             }
+        }
+
+        if (!enchants.ContainsKey(itemId + slot))
+        {
+            enchants.Add(itemId + slot, new EnchantSpec
+            {
+                EnchantId = itemId,
+                Name = itemName ?? "unknown",
+                Slot = slot,
+                TextureId = textureId
+            });
         }
     }
 
@@ -537,11 +604,10 @@ public class WowheadGuideParser
         }
     }
 
-    private void LoopThroughMappings(IHtmlDocument doc, ClassGuideMapping specMapping, Action<IHtmlAnchorElement, string> foundEnchant, Action<IHtmlTableElement?, string, string> foundTable)
+    private void LoopThroughMappings(IHtmlDocument doc, ClassGuideMapping specMapping, Action<IHtmlTableElement?, string, string> foundTable)
     {
         foreach (var guideMapping in specMapping.GuideMappings)
         {
-            bool foundEnchantText = false;
             foreach (var htmlMapping in guideMapping.Value.SlotHtmlId.Split(";"))
             {
                 var headerElement = doc.QuerySelector(htmlMapping);
@@ -551,43 +617,9 @@ public class WowheadGuideParser
                     int elementCounter = 0;
                     while (nextSibling != null && (!IsTableElement(nextSibling) || nextSibling is IHtmlHeadingElement))
                     {
-                        if (Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended.*for new").Success)
-                            foundEnchantText = false;
-
-                        //try to find enchant.
-                        if (nextSibling is IHtmlAnchorElement && foundEnchantText)
-                        {
-                            foundEnchant((IHtmlAnchorElement)nextSibling, guideMapping.Key);
-                        }
-
-                        if (Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended bis.*enchant").Success ||
-                            Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended bis.*enchants").Success ||
-                            Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended bis.*armor").Success ||
-                            Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended bis.*scope").Success ||
-                            Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended bis.*inscription").Success ||
-                            Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended bis.*tinker").Success ||
-                            Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended bis.*runeforge").Success ||
-                            Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended shield enchant").Success ||
-                            Regex.Match(nextSibling.TextContent.Trim().ToLower(), "bis.*enchant").Success)
-                        {
-                            foundEnchantText = true;
-                        }
-
-                        if (foundEnchantText)
-                        {
-                            Common.RecursiveBoxSearch(nextSibling, (anchorElement) => 
-                            {
-                                if (anchorElement != null)
-                                    foundEnchant((IHtmlAnchorElement)anchorElement, guideMapping.Key);
-                                return false;
-                            });
-                        }
-
                         nextSibling = nextSibling?.NextElementSibling;
                         elementCounter++;
                     }
-
-                    foundEnchantText = false;
                     if (nextSibling is IHtmlTableElement)
                     {                            
                         foundTable(nextSibling as IHtmlTableElement, guideMapping.Key, htmlMapping);

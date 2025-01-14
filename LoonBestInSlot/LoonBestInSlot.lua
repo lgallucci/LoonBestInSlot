@@ -156,7 +156,7 @@ function LBIS:AddEnchant(bisEntry, id, slot)
 	local item = { Id = enchantId, Slot = slot, Phase = "", Bis = "" };
 
 	if enchantSource.IsSpell == "False" then
-	
+
 		if not LBIS.ItemsByIdAndSpec[enchantId] then
 			LBIS.ItemsByIdAndSpec[enchantId] = {}
 		end

@@ -7,6 +7,15 @@ local function LoadData()
     local spec5 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Cat"], "5")
     local spec6 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Cat"], "6")
 
+    LBIS:AddEnchant(spec2, "15402", LBIS.L["Head"]) --
+    LBIS:AddEnchant(spec2, "22599", LBIS.L["Shoulder"]) --
+    LBIS:AddEnchant(spec2, "13882", LBIS.L["Back"]) --
+    LBIS:AddEnchant(spec2, "20025", LBIS.L["Chest"]) --
+    LBIS:AddEnchant(spec2, "20010", LBIS.L["Wrist"]) --
+    LBIS:AddEnchant(spec2, "20012", LBIS.L["Hands"]) --
+    LBIS:AddEnchant(spec2, "15402", LBIS.L["Legs"]) --
+    LBIS:AddEnchant(spec2, "13890", LBIS.L["Feet"]) --
+    LBIS:AddEnchant(spec2, "20031", LBIS.L["Main Hand"]) --
 
     LBIS:AddItem(spec1, "8345", LBIS.L["Head"], "BIS") --Wolfshead Helm
     LBIS:AddItem(spec1, "13404", LBIS.L["Head"], "Alt") --Mask of the Unforgiven
