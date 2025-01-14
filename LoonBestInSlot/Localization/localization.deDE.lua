@@ -28,6 +28,7 @@ if GetLocale() == "deDE" then
   LBIS.L["All"] = "Alle";
   LBIS.L["Allegiance to the Old Gods"] = "Treue zu den Alten Göttern";
   LBIS.L["Alterac Mountains"] = "Alteracgebirge";
+  LBIS.L["Alterac Valley"] = "Das Alteractal";
   LBIS.L["Alterac Vally Marks"] = "Zeichen des Alteractals";
   LBIS.L["Alzzin the Wildshaper"] = "Alzzin der Wildformer";
   LBIS.L["Ambassador Flamelash"] = "Botschafter Flammenschlag";
@@ -57,6 +58,7 @@ if GetLocale() == "deDE" then
 --  LBIS.L["Arena Spoils"] = "";
 --  LBIS.L["Arena Treasure Chest"] = "";
   LBIS.L["Argent Dawn"] = "Argentumdämmerung";
+--  LBIS.L["Argent Dawn - Honored"] = "";
 --  LBIS.L["Argent Dawn - Revered"] = "";
   LBIS.L["Armaments of War"] = "Kriegsausrüstung";
   LBIS.L["Arugal Must Die"] = "Arugal muss sterben";
@@ -71,6 +73,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Ayamiss the Hunter"] = "Ayamiss der Jäger";
 --  LBIS.L["Azgaloth"] = "";
   LBIS.L["Azshara"] = "Azshara";
+--  LBIS.L["Azshara, Storm Cliffs"] = "";
   LBIS.L["Azshir the Sleepless"] = "Azshir der Schlaflose";
   LBIS.L["Azshir the Sleepless (Rare)"] = "Azshir der Schlaflose (Selten)";
   LBIS.L["Azuregos"] = "Azuregos";
@@ -100,6 +103,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Blackfathom Deeps"] = "Tiefschwarze Grotte";
 --  LBIS.L["Blackfathom Deeps (dungeon)"] = "Tiefschwarze Grotte";
   LBIS.L["Blackfathom Villainy"] = "Schurkerei in der Tiefschwarzen Grotte";
+--  LBIS.L["Blackhand Elite"] = "";
   LBIS.L["Blackrock Depths"] = "Schwarzfelstiefen";
 --  LBIS.L["Blackrock Shadowcaster"] = "";
   LBIS.L["Blackrock Spire"] = "Schwarzfelsspitze";
@@ -153,6 +157,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Chief Ukorz Sandscalp"] = "Häuptling Ukorz Sandwüter";
   LBIS.L["Cho'Rush the Observer"] = "Cho'Rush der Beobachter";
   LBIS.L["Chromaggus"] = "Chromaggus";
+  LBIS.L["Chromatic Mantle of the Dawn"] = "Der Chromatische Mantel der Dämmerung";
   LBIS.L["Cleansing the Eye"] = "Die Reinigung des Auges";
   LBIS.L["Codex of Defense"] = "Kodex der Verteidigung";
   LBIS.L["Collecting Memories"] = "Die Suche nach Andenken";
@@ -164,6 +169,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Corruption of Earth and Seed"] = "Verderbnis von Erde und Samenkorn";
   LBIS.L["Crime and Punishment"] = "Verbrechen und Strafe";
 --  LBIS.L["Crimson Conjuror"] = "";
+--  LBIS.L["Crimson Sorcerer"] = "";
   LBIS.L["Crimson Templar"] = "Purpurroter Templer";
 --  LBIS.L["Crimson Whelp"] = "";
   LBIS.L["Crowd Pummeler 9-60"] = "Meute-Verprügler 9-60";
@@ -428,6 +434,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Klockmort's Creation"] = "Klockmorts Kreation";
   LBIS.L["Knowledge in the Deeps"] = "Wissen in der Tiefe";
   LBIS.L["Kormok"] = "Kormok";
+  LBIS.L["Korrak the Bloodrager"] = "Korrak der Blutrünstige";
   LBIS.L["Kresh"] = "Kresh";
   LBIS.L["Kroshius' Infernal Core"] = "Kroshius Höllenbestienkern";
   LBIS.L["Kurinnaxx"] = "Kurinnaxx";
@@ -444,6 +451,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Legacy"] = "Klassisch";
 --  LBIS.L["Legashi Rogue"] = "";
   LBIS.L["Legendary"] = "Legendär";
+  LBIS.L["Legplates of the Chromatic Defier"] = "Beinplatten des chromatischen Widersetzers";
   LBIS.L["Legs"] = "Beine";
   LBIS.L["Lethon"] = "Lethon";
   LBIS.L["Lethtendris"] = "Lethtendris";
@@ -489,6 +497,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Main Hand/Off Hand"] = "Waffenhand/Schildhand";
   LBIS.L["Majordomo Executus"] = "Majordomus Executus";
   LBIS.L["Maleki the Pallid"] = "Maleki der Leichenblasse";
+--  LBIS.L["Mana Remnant"] = "";
   LBIS.L["Maraudon"] = "Maraudon";
   LBIS.L["Marduk Blackpool"] = "Marduk Schwarzborn";
   LBIS.L["Master Enchanting Trainer"] = "Verzauberkunstmeisterlehrer";
@@ -518,6 +527,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Mythology of the Titans"] = "Mythologie der Titanen";
 --  LBIS.L["Mythrin'dir"] = "";
 --  LBIS.L["N'ora Anyheart"] = "";
+  LBIS.L["Naxxramas"] = "Naxxramas";
   LBIS.L["Neck"] = "Hals";
   LBIS.L["Necklace Recovery, Take 3"] = "Wiederbeschaffung der Halskette, Teil 3";
   LBIS.L["Nefarian"] = "Nefarian";
@@ -660,6 +670,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Scarlet Monastery"] = "Das Scharlachrote Kloster";
 --  LBIS.L["Scarlet Spellbinder"] = "";
   LBIS.L["Scholomance"] = "Scholomance";
+--  LBIS.L["Scholomance Necrolyte"] = "";
 --  LBIS.L["Scholomance/Stratholme"] = "";
   LBIS.L["Search for Incendicite"] = "Auf der Suche nach Pyrophor";
   LBIS.L["Searing Gorge"] = "Sengende Schlucht";
@@ -737,6 +748,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Swamp of Sorrows"] = "Sümpfe des Elends";
 --  LBIS.L["Syncretis's Sigil"] = "";
 --  LBIS.L["Syncretist's Crest"] = "";
+--  LBIS.L["Syncretist's Seal"] = "";
   LBIS.L["Syncretist's Sigil"] = "Siegelzeichen des Synkretisten";
   LBIS.L["Tabard"] = "Wappenrock";
   LBIS.L["Taerar"] = "Taerar";
@@ -788,6 +800,7 @@ if GetLocale() == "deDE" then
 --  LBIS.L["The Heart of the Void"] = "";
   LBIS.L["The Hidden Chamber"] = "Die geheime Kammer";
   LBIS.L["The Hinterlands"] = "Hinterland";
+  LBIS.L["The Legend of Korrak"] = "Die Legende von Korrak";
   LBIS.L["The Light and How To Swing It"] = "Vom Licht und wie man es schwingt";
   LBIS.L["The Lord of Blackrock"] = "Der Herrscher des Schwarzfels";
   LBIS.L["The Lost Dwarves"] = "Die verschollenen Zwerge";
@@ -816,10 +829,12 @@ if GetLocale() == "deDE" then
   LBIS.L["The Test of Righteousness"] = "Die Prüfung der Rechtschaffenheit";
   LBIS.L["The Totem of Infliction"] = "Das Totem des Gegenschlages";
   LBIS.L["The Tower of Althalaxx"] = "Der Turm von Althalaxx";
+  LBIS.L["The Treasure of the Shen'dralar"] = "Der Schatz der Shen'dralar";
   LBIS.L["The Undermarket"] = "Der Untermarkt";
   LBIS.L["The Unforgiven"] = "Der Unverziehene";
 --  LBIS.L["The Vault"] = "";
   LBIS.L["The Weaver"] = "Der Wirker";
+  LBIS.L["The Windreaver"] = "Der Windhäscher";
   LBIS.L["Theka the Martyr"] = "Theka der Märtyrer";
   LBIS.L["This Is Going to Be Hard"] = "Das wird schwierig";
   LBIS.L["Thorium Brotherhood"] = "Thoriumbruderschaft";
@@ -855,6 +870,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Unavailable"] = "Nicht verfügbar";
   LBIS.L["Undercity"] = "Unterstadt";
   LBIS.L["Underground Assault"] = "Unterirdischer Angriff";
+  LBIS.L["Unfinished Gordok Business"] = "Die offene Rechnung der Gordok";
 --  LBIS.L["unknown"] = "";
   LBIS.L["Upper Blackrock Spire"] = "Obere Schwarzfelsspitze";
   LBIS.L["Urok Doomhowl"] = "Urok Schreckensbote";
