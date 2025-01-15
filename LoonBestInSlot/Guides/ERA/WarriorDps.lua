@@ -113,6 +113,7 @@ local function LoadData()
     LBIS:AddItem(spec2, "13142", LBIS.L["Waist"], "Alt") --Brigam Girdle
     LBIS:AddItem(spec2, "19087", LBIS.L["Waist"], "Alt") --Frostwolf Plate Belt
     LBIS:AddItem(spec2, "19091", LBIS.L["Waist"], "Alt") --Stormpike Plate Girdle
+    LBIS:AddItem(spec2, "18505", LBIS.L["Waist"], "Alt") --Mugger's Belt
     LBIS:AddItem(spec2, "23301", LBIS.L["Legs"], "BIS") --Knight-Captain's Plate Leggings
     LBIS:AddItem(spec2, "22873", LBIS.L["Legs"], "BIS") --Legionnaire's Plate Leggings
     LBIS:AddItem(spec2, "14554", LBIS.L["Legs"], "BIS") --Cloudkeeper Legplates
@@ -140,9 +141,9 @@ local function LoadData()
     LBIS:AddItem(spec2, "19120", LBIS.L["Trinket"], "Alt") --Rune of the Guard Captain
     LBIS:AddItem(spec2, "18537", LBIS.L["Trinket"], "Alt") --Counterattack Lodestone
     LBIS:AddItem(spec2, "17112", LBIS.L["Main Hand"], "BIS") --Empyrean Demolisher
-    LBIS:AddItem(spec2, "17075", LBIS.L["Main Hand/Off Hand"], "BIS/Alt") --Vis'kag the Bloodletter
-    LBIS:AddItem(spec2, "18832", LBIS.L["Main Hand/Off Hand"], "BIS") --Brutality Blade
+    LBIS:AddItem(spec2, "18832", LBIS.L["Main Hand/Off Hand"], "Alt/BIS") --Brutality Blade
     LBIS:AddItem(spec2, "17068", LBIS.L["Main Hand/Off Hand"], "BIS") --Deathbringer
+    LBIS:AddItem(spec2, "17075", LBIS.L["Main Hand/Off Hand"], "Alt") --Vis'kag the Bloodletter
     LBIS:AddItem(spec2, "11684", LBIS.L["Main Hand"], "Alt") --Ironfoe
     LBIS:AddItem(spec2, "12940", LBIS.L["Main Hand"], "Alt") --Dal'Rend's Sacred Charge
     LBIS:AddItem(spec2, "18348", LBIS.L["Main Hand"], "Alt") --Quel'Serrar
@@ -154,9 +155,9 @@ local function LoadData()
     LBIS:AddItem(spec2, "13286", LBIS.L["Main Hand"], "Alt") --Rivenspike
     LBIS:AddItem(spec2, "12939", LBIS.L["Off Hand"], "Alt") --Dal'Rend's Tribal Guardian
     LBIS:AddItem(spec2, "15806", LBIS.L["Off Hand"], "Alt") --Mirah's Song
-    LBIS:AddItem(spec2, "871", LBIS.L["Off Hand"], "Alt") --Flurry Axe
     LBIS:AddItem(spec2, "18392", LBIS.L["Off Hand"], "Alt") --Distracting Dagger
     LBIS:AddItem(spec2, "18737", LBIS.L["Off Hand"], "Alt") --Bone Slicing Hatchet
+    LBIS:AddItem(spec2, "871", LBIS.L["Off Hand"], "Alt") --Flurry Axe
     LBIS:AddItem(spec2, "13015", LBIS.L["Off Hand"], "Alt") --Serathil
     LBIS:AddItem(spec2, "17069", LBIS.L["Ranged/Relic"], "BIS") --Striker's Mark
     LBIS:AddItem(spec2, "17072", LBIS.L["Ranged/Relic"], "Alt") --Blastershot Launcher
