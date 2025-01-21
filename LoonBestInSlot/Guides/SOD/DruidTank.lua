@@ -472,6 +472,7 @@ local function LoadData()
     LBIS:AddItem(spec6, "233418", LBIS.L["Back"], "Alt") --Cloak of Unending Life
     LBIS:AddItem(spec6, "230744", LBIS.L["Back"], "Alt") --Elementium Threaded Cloak
     LBIS:AddItem(spec6, "228360", LBIS.L["Back"], "Alt") --Eskhandar's Pelt
+    LBIS:AddItem(spec6, "15138", LBIS.L["Back"], "Alt") --Onyxia Scale Cloak
     LBIS:AddItem(spec6, "233415", LBIS.L["Chest"], "BIS") --Genesis Vest
     LBIS:AddItem(spec6, "231686", LBIS.L["Chest"], "Alt") --Warlord's Dragonhide Chestpiece
     LBIS:AddItem(spec6, "231238", LBIS.L["Chest"], "Alt") --Stormrage Armor
@@ -485,6 +486,7 @@ local function LoadData()
     LBIS:AddItem(spec6, "231245", LBIS.L["Wrist"], "Alt") --Stormrage Wristguards
     LBIS:AddItem(spec6, "226668", LBIS.L["Wrist"], "Alt") --Cenarion Wristguards
     LBIS:AddItem(spec6, "233618", LBIS.L["Hands"], "BIS") --Gloves of the Hidden Temple
+    LBIS:AddItem(spec6, "233579", LBIS.L["Hands"], "Alt") --Gloves of Enforcement
     LBIS:AddItem(spec6, "233645", LBIS.L["Hands"], "Alt") --Gloves of the Immortal
     LBIS:AddItem(spec6, "234066", LBIS.L["Hands"], "Alt") --Toughened Silithid Hide Gloves
     LBIS:AddItem(spec6, "231240", LBIS.L["Hands"], "Alt") --Stormrage Gauntlets

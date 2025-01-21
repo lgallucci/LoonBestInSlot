@@ -145,6 +145,8 @@ local function LoadData()
     LBIS:AddItem(spec2, "18832", LBIS.L["Main Hand"], "BIS") --Brutality Blade
     LBIS:AddItem(spec2, "18805", LBIS.L["Main Hand"], "BIS") --Core Hound Tooth
     LBIS:AddItem(spec2, "18737", LBIS.L["Main Hand"], "Alt") --Bone Slicing Hatchet
+    LBIS:AddItem(spec2, "12774", LBIS.L["Main Hand"], "Alt") --Dawn's Edge
+    LBIS:AddItem(spec2, "13036", LBIS.L["Main Hand"], "Alt") --Assassination Blade
     LBIS:AddItem(spec2, "12939", LBIS.L["Main Hand"], "Alt") --Dal'Rend's Tribal Guardian
     LBIS:AddItem(spec2, "12940", LBIS.L["Main Hand"], "Alt") --Dal'Rend's Sacred Charge
     LBIS:AddItem(spec2, "18520", LBIS.L["Two Hand"], "BIS") --Barbarous Blade

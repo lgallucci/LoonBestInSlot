@@ -93,10 +93,11 @@ local function LoadData()
     LBIS:AddItem(spec2, "11726", LBIS.L["Chest"], "BIS") --Savage Gladiator Chain
     LBIS:AddItem(spec2, "14637", LBIS.L["Chest"], "BIS") --Cadaverous Armor
     LBIS:AddItem(spec2, "13944", LBIS.L["Chest"], "Alt") --Tombstone Breastplate
-    LBIS:AddItem(spec2, "22872", LBIS.L["Chest"], "Alt") --Legionnaire's Plate Hauberk
     LBIS:AddItem(spec2, "23300", LBIS.L["Chest"], "Alt") --Knight-Captain's Plate Hauberk
+    LBIS:AddItem(spec2, "22872", LBIS.L["Chest"], "Alt") --Legionnaire's Plate Hauberk
     LBIS:AddItem(spec2, "11926", LBIS.L["Chest"], "Alt") --Deathdealer Breastplate
     LBIS:AddItem(spec2, "18530", LBIS.L["Chest"], "Alt") --Ogre Forged Hauberk
+    LBIS:AddItem(spec2, "15050", LBIS.L["Chest"], "Alt") --Black Dragonscale Breastplate
     LBIS:AddItem(spec2, "19578", LBIS.L["Wrist"], "BIS") --Berserker Bracers
     LBIS:AddItem(spec2, "19146", LBIS.L["Wrist"], "BIS") --Wristguards of Stability
     LBIS:AddItem(spec2, "12936", LBIS.L["Wrist"], "Alt") --Battleborn Armbraces
@@ -125,6 +126,7 @@ local function LoadData()
     LBIS:AddItem(spec2, "13210", LBIS.L["Feet"], "Alt") --Pads of the Dread Wolf
     LBIS:AddItem(spec2, "13070", LBIS.L["Feet"], "Alt") --Sapphiron's Scale Boots
     LBIS:AddItem(spec2, "11731", LBIS.L["Feet"], "Alt") --Savage Gladiator Greaves
+    LBIS:AddItem(spec2, "16984", LBIS.L["Feet"], "Alt") --Black Dragonscale Boots
     LBIS:AddItem(spec2, "18404", LBIS.L["Neck"], "BIS") --Onyxia Tooth Pendant
     LBIS:AddItem(spec2, "15411", LBIS.L["Neck"], "Alt") --Mark of Fordring
     LBIS:AddItem(spec2, "11933", LBIS.L["Neck"], "Alt") --Imperial Jewel

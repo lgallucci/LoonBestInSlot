@@ -98,6 +98,7 @@ local function LoadData()
     LBIS:AddItem(spec2, "11841", LBIS.L["Legs"], "Alt") --Senior Designer's Pantaloons
     LBIS:AddItem(spec2, "13170", LBIS.L["Legs"], "Alt") --Skyshroud Leggings
     LBIS:AddItem(spec2, "19131", LBIS.L["Feet"], "BIS") --Snowblind Shoes
+    LBIS:AddItem(spec2, "18507", LBIS.L["Feet"], "Alt") --Boots of the Full Moon
     LBIS:AddItem(spec2, "11822", LBIS.L["Feet"], "Alt") --Omnicast Boots
     LBIS:AddItem(spec2, "18102", LBIS.L["Feet"], "Alt") --Dragonrider Boots
     LBIS:AddItem(spec2, "13101", LBIS.L["Feet"], "Alt") --Wolfrunner Shoes

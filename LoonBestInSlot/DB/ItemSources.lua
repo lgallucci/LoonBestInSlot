@@ -1491,6 +1491,7 @@ LBIS.ItemSources =
     [13029] = { Name = "Umbral Crystal", SourceType = LBIS.L["Drop"], Source = LBIS.L["World Drop"], SourceNumber = "0", SourceLocation = "", SourceFaction = "B" },
     [13031] = { Name = "Orb of Mistmantle", SourceType = LBIS.L["Drop"], Source = LBIS.L["World Drop"], SourceNumber = "0", SourceLocation = "", SourceFaction = "B" },
     [13033] = { Name = "Zealot Blade", SourceType = LBIS.L["Drop"], Source = LBIS.L["World Drop"], SourceNumber = "0", SourceLocation = "", SourceFaction = "B" },
+    [13036] = { Name = "Assassination Blade", SourceType = LBIS.L["Drop"], Source = LBIS.L["World Drop"], SourceNumber = "0", SourceLocation = "", SourceFaction = "B" },
     [13038] = { Name = "Swiftwind", SourceType = LBIS.L["Drop"], Source = LBIS.L["World Drop"], SourceNumber = "0", SourceLocation = "", SourceFaction = "B" },
     [13039] = { Name = "Skull Splitting Crossbow", SourceType = LBIS.L["Drop"], Source = LBIS.L["World Drop"], SourceNumber = "0", SourceLocation = "", SourceFaction = "B" },
     [13040] = { Name = "Heartseeking Crossbow", SourceType = LBIS.L["Drop"], Source = LBIS.L["World Drop"], SourceNumber = "0", SourceLocation = "", SourceFaction = "B" },
