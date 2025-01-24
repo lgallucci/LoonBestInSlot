@@ -1033,7 +1033,15 @@
       "Vem": "Vem",
       "Viscidus": "Viscidus",
       "Volunteer's Battlegear": "Equipamiento de Voluntario",
-      "Waking Legends": "Leyendas veraces"
+      "Waking Legends": "Leyendas veraces",
+      "Alterac Valley": "Valle de Alterac",
+      "Chromatic Mantle of the Dawn": "Manto del Alba cromático",
+      "Korrak the Bloodrager": "Korrak el Sanguinario",
+      "Legplates of the Chromatic Defier": "Quijotes del Desafiante cromático",
+      "The Legend of Korrak": "La leyenda de Korrak",
+      "The Treasure of the Shen'dralar": "El tesoro de los Shen'dralar",
+      "The Windreaver": "El Atracavientos",
+      "Unfinished Gordok Business": "Asunto Gordok sin finiquitar"
     },
     "esMX": {
       "# Best for:": "# Mejor para",
@@ -2039,7 +2047,15 @@
       "Vem": "Vem",
       "Viscidus": "Viscidus",
       "Volunteer's Battlegear": "Equipamiento de Voluntario",
-      "Waking Legends": "Leyendas veraces"
+      "Waking Legends": "Leyendas veraces",
+      "Alterac Valley": "Valle de Alterac",
+      "Chromatic Mantle of the Dawn": "Manto del Alba cromático",
+      "Korrak the Bloodrager": "Korrak el Sanguinario",
+      "Legplates of the Chromatic Defier": "Quijotes del Desafiante cromático",
+      "The Legend of Korrak": "La leyenda de Korrak",
+      "The Treasure of the Shen'dralar": "El tesoro de los Shen'dralar",
+      "The Windreaver": "El Atracavientos",
+      "Unfinished Gordok Business": "Asunto Gordok sin finiquitar"
     },
     "deDE": {
       "# Best for:": "# Beste für",
@@ -3126,7 +3142,15 @@
       "Vem": "Vem",
       "Viscidus": "Viscidus",
       "Volunteer's Battlegear": "Schlachtrüstung des Kriegsfreiwilligen",
-      "Waking Legends": "Legenden erwachen"
+      "Waking Legends": "Legenden erwachen",
+      "Alterac Valley": "Das Alteractal",
+      "Chromatic Mantle of the Dawn": "Der Chromatische Mantel der Dämmerung",
+      "Korrak the Bloodrager": "Korrak der Blutrünstige",
+      "Legplates of the Chromatic Defier": "Beinplatten des chromatischen Widersetzers",
+      "The Legend of Korrak": "Die Legende von Korrak",
+      "The Treasure of the Shen'dralar": "Der Schatz der Shen'dralar",
+      "The Windreaver": "Der Windhäscher",
+      "Unfinished Gordok Business": "Die offene Rechnung der Gordok"
     },
     "frFR": {
       "# Best for:": "# Meilleur pour",
@@ -4147,7 +4171,15 @@
       "Vem": "Vem",
       "Viscidus": "Viscidus",
       "Volunteer's Battlegear": "L'équipement de guerre des volontaires",
-      "Waking Legends": "L'éveil des légendes"
+      "Waking Legends": "L'éveil des légendes",
+      "Alterac Valley": "Vallée d’Alterac",
+      "Chromatic Mantle of the Dawn": "Le mantelet de l'Aube chromatique",
+      "Korrak the Bloodrager": "Korrak le Ragesang",
+      "Legplates of the Chromatic Defier": "Les cuissards de duelliste chromatique",
+      "The Legend of Korrak": "La légende de Korrak",
+      "The Treasure of the Shen'dralar": "Le trésor des Shen'dralar",
+      "The Windreaver": "Le Déchirevent",
+      "Unfinished Gordok Business": "Affaires inachevées chez les Gordok"
     },
     "ruRU": {
       "# Best for:": "# Лучшее для",
@@ -5163,7 +5195,15 @@
       "Vem": "Вем",
       "Viscidus": "Нечистотон",
       "Volunteer's Battlegear": "Броня добровольца",
-      "Waking Legends": "Пробуждение легенд"
+      "Waking Legends": "Пробуждение легенд",
+      "Alterac Valley": "Альтеракская долина",
+      "Chromatic Mantle of the Dawn": "Многоцветная драгоценность Рассвета",
+      "Korrak the Bloodrager": "Коррак Кровопуск",
+      "Legplates of the Chromatic Defier": "Ножные латы всецветного воина",
+      "The Legend of Korrak": "Легенда о Корраке",
+      "The Treasure of the Shen'dralar": "Сокровище Шен'драларов",
+      "The Windreaver": "Ветробой",
+      "Unfinished Gordok Business": "Неоконченное дело Гордоков"
     },
     "zhCN": {
       "# Best for:": "# 最适合",
@@ -6179,7 +6219,15 @@
       "Vem": "维姆",
       "Viscidus": "维希度斯",
       "Volunteer's Battlegear": "志愿兵的装备",
-      "Waking Legends": "唤醒传说"
+      "Waking Legends": "唤醒传说",
+      "Alterac Valley": "奥特兰克山谷",
+      "Chromatic Mantle of the Dawn": "多彩黎明衬肩",
+      "Korrak the Bloodrager": "血怒者科尔拉克",
+      "Legplates of the Chromatic Defier": "多彩挑战者腿甲",
+      "The Legend of Korrak": "科尔拉克的传说",
+      "The Treasure of the Shen'dralar": "辛德拉的宝藏",
+      "The Windreaver": "烈风掠夺者",
+      "Unfinished Gordok Business": "戈多克食人魔的事务"
     },
     "koKR": {
       "# Best for:": "# BIS 직업:",
@@ -7289,7 +7337,15 @@
       "Vem": "벰",
       "Viscidus": "비시디우스",
       "Volunteer's Battlegear": "지원자의 전투장비",
-      "Waking Legends": "깨어나는 전설"
+      "Waking Legends": "깨어나는 전설",
+      "Alterac Valley": "알터랙 계곡",
+      "Chromatic Mantle of the Dawn": "여명의 오색 장막",
+      "Korrak the Bloodrager": "피의 광전사 콜라크",
+      "Legplates of the Chromatic Defier": "오색 파멸자의 다리갑옷",
+      "The Legend of Korrak": "콜라크의 전설",
+      "The Treasure of the Shen'dralar": "셴드랄라의 보물",
+      "The Windreaver": "칼날바람",
+      "Unfinished Gordok Business": "고르독 일 마무리"
     },
     "zhTW": {
       "# Best for:": "# 最适合",
@@ -8303,7 +8359,15 @@
       "Vem": "維姆",
       "Viscidus": "維希度斯",
       "Volunteer's Battlegear": "志願兵的裝備",
-      "Waking Legends": "喚醒傳說"
+      "Waking Legends": "喚醒傳說",
+      "Alterac Valley": "奧特蘭克山谷",
+      "Chromatic Mantle of the Dawn": "炫彩黎明披肩",
+      "Korrak the Bloodrager": "『血怒者』科爾拉克",
+      "Legplates of the Chromatic Defier": "炫彩挑戰者腿鎧",
+      "The Legend of Korrak": "科爾拉克的傳說",
+      "The Treasure of the Shen'dralar": "辛德拉的寶藏",
+      "The Windreaver": "烈風搶奪者",
+      "Unfinished Gordok Business": "戈多克巨魔的事務"
     }
   }
 }
