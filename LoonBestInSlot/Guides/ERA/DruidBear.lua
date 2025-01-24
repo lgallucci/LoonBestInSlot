@@ -70,16 +70,17 @@ local function LoadData()
     LBIS:AddItem(spec2, "23254", LBIS.L["Shoulder"], "BIS") --Champion's Dragonhide Shoulders
     LBIS:AddItem(spec2, "19139", LBIS.L["Shoulder"], "Alt") --Fireguard Shoulders
     LBIS:AddItem(spec2, "10783", LBIS.L["Shoulder"], "Alt") --Atal'ai Spaulders of the Monkey
+    LBIS:AddItem(spec2, "18374", LBIS.L["Shoulder"], "Alt") --Flamescarred Shoulders
     LBIS:AddItem(spec2, "12927", LBIS.L["Shoulder"], "Alt") --Truestrike Shoulders
     LBIS:AddItem(spec2, "17107", LBIS.L["Back"], "BIS") --Dragon's Blood Cape
-    LBIS:AddItem(spec2, "12551", LBIS.L["Back"], "Alt") --Stoneshield Cloak
     LBIS:AddItem(spec2, "16342", LBIS.L["Back"], "Alt") --Sergeant's Cape
     LBIS:AddItem(spec2, "18461", LBIS.L["Back"], "Alt") --Sergeant's Cloak
+    LBIS:AddItem(spec2, "12551", LBIS.L["Back"], "Alt") --Stoneshield Cloak
     LBIS:AddItem(spec2, "13397", LBIS.L["Back"], "Alt") --Stoneskin Gargoyle Cape
     LBIS:AddItem(spec2, "11930", LBIS.L["Back"], "Alt") --The Emperor's New Cape
     LBIS:AddItem(spec2, "18541", LBIS.L["Back"], "Alt") --Puissant Cape
-    LBIS:AddItem(spec2, "23294", LBIS.L["Chest"], "BIS") --Knight-Captain's Dragonhide Chestpiece
     LBIS:AddItem(spec2, "22877", LBIS.L["Chest"], "BIS") --Legionnaire's Dragonhide Chestpiece
+    LBIS:AddItem(spec2, "23294", LBIS.L["Chest"], "BIS") --Knight-Captain's Dragonhide Chestpiece
     LBIS:AddItem(spec2, "12757", LBIS.L["Chest"], "Alt") --Breastplate of Bloodthirst
     LBIS:AddItem(spec2, "15064", LBIS.L["Chest"], "Alt") --Warbear Harness
     LBIS:AddItem(spec2, "12793", LBIS.L["Chest"], "Alt") --Mixologist's Tunic
@@ -121,6 +122,7 @@ local function LoadData()
     LBIS:AddItem(spec2, "19325", LBIS.L["Ring"], "Alt") --Don Julio's Band
     LBIS:AddItem(spec2, "2246", LBIS.L["Ring"], "Alt") --Myrmidon's Signet
     LBIS:AddItem(spec2, "12544", LBIS.L["Ring"], "Alt") --Thrall's Resolve
+    LBIS:AddItem(spec2, "12548", LBIS.L["Ring"], "Alt") --Magni's Will
     LBIS:AddItem(spec2, "15855", LBIS.L["Ring"], "Alt") --Ring of Protection
     LBIS:AddItem(spec2, "11669", LBIS.L["Ring"], "Alt") --Naglering
     LBIS:AddItem(spec2, "11811", LBIS.L["Trinket"], "BIS") --Smoking Heart of the Mountain
