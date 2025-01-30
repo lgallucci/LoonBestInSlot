@@ -6,6 +6,7 @@ local function LoadData()
     local spec4 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance Dps"], "4")
     local spec5 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance Dps"], "5")
     local spec6 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance Dps"], "6")
+    local spec7 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance Dps"], "7")
 
     LBIS:AddEnchant(spec7, "468318", LBIS.L["Head"]) --Animist's Balance
     LBIS:AddEnchant(spec7, "1219510", LBIS.L["Shoulder"]) --

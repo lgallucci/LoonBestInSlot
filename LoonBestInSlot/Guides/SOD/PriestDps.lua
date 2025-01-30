@@ -6,6 +6,7 @@ local function LoadData()
     local spec4 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Dps"], "4")
     local spec5 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Dps"], "5")
     local spec6 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Dps"], "6")
+    local spec7 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Dps"], "7")
 
     LBIS:AddEnchant(spec7, "468344", LBIS.L["Head"]) --Prophetic Curse
     LBIS:AddEnchant(spec7, "1219510", LBIS.L["Shoulder"]) --

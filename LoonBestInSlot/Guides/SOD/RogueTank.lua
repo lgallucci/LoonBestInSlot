@@ -6,6 +6,7 @@ local function LoadData()
     local spec4 = LBIS:RegisterSpec(LBIS.L["Rogue"], LBIS.L["Tank"], "4")
     local spec5 = LBIS:RegisterSpec(LBIS.L["Rogue"], LBIS.L["Tank"], "5")
     local spec6 = LBIS:RegisterSpec(LBIS.L["Rogue"], LBIS.L["Tank"], "6")
+    local spec7 = LBIS:RegisterSpec(LBIS.L["Rogue"], LBIS.L["Tank"], "7")
 
     LBIS:AddEnchant(spec7, "468349", LBIS.L["Head"]) --Death's Advance
     LBIS:AddEnchant(spec7, "1219779", LBIS.L["Shoulder"]) --

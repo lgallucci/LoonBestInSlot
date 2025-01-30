@@ -6,6 +6,7 @@ local function LoadData()
     local spec4 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Healer"], "4")
     local spec5 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Healer"], "5")
     local spec6 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Healer"], "6")
+    local spec7 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Healer"], "7")
 
     LBIS:AddEnchant(spec7, "468380", LBIS.L["Head"]) --Presence of Sight
     LBIS:AddEnchant(spec7, "1219847", LBIS.L["Shoulder"]) --

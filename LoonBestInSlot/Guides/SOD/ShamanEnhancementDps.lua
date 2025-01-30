@@ -6,6 +6,7 @@ local function LoadData()
     local spec4 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Enhancement Dps"], "4")
     local spec5 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Enhancement Dps"], "5")
     local spec6 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Enhancement Dps"], "6")
+    local spec7 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Enhancement Dps"], "7")
 
     LBIS:AddEnchant(spec7, "468351", LBIS.L["Head"]) --Vodouisant's Embrace
     LBIS:AddEnchant(spec7, "468354", LBIS.L["Head"]) --Vodouisant's Shroud

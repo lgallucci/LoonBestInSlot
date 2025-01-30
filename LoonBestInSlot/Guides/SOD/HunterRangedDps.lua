@@ -6,6 +6,7 @@ local function LoadData()
     local spec4 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["RangedDps"], "4")
     local spec5 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["RangedDps"], "5")
     local spec6 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["RangedDps"], "6")
+    local spec7 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["RangedDps"], "7")
 
     LBIS:AddEnchant(spec7, "468325", LBIS.L["Head"]) --Falcon's Call
     LBIS:AddEnchant(spec7, "468383", LBIS.L["Head"]) --Falcon's Fury

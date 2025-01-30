@@ -6,6 +6,7 @@ local function LoadData()
     local spec4 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Healer"], "4")
     local spec5 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Healer"], "5")
     local spec6 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Healer"], "6")
+    local spec7 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Healer"], "7")
 
     LBIS:AddEnchant(spec7, "468332", LBIS.L["Head"]) --Syncretist's Crest
     LBIS:AddEnchant(spec7, "24420", LBIS.L["Shoulder"]) --Zandalar Signet of Serenity
