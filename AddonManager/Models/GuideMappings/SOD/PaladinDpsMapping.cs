@@ -17,6 +17,9 @@ internal class SODPaladinDpsMapping : SODSpecMapping
     public override string CurrentUrl => "dps-bis-gear-pve";
     public override List<(string, GuideMapping)> CurrentPhase => new List<(string, GuideMapping)>
         {
+            { ("Trinket", "#trinkets-for-seal-twisting-stacking") },
+            { ("Trinket", "#trinkets-for-exodin") },
+            { ("Two Hand", "h5#weapons-for-seal-stacking") },
             { ("Two Hand", "h5#weapons-for-seal-twisting") },
             { ("Two Hand", "h5#weapons-for-exodin") },
             { ("Ranged/Relic", "h5#damage-librams") },

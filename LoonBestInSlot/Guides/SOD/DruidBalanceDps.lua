@@ -7,16 +7,16 @@ local function LoadData()
     local spec5 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance Dps"], "5")
     local spec6 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance Dps"], "6")
 
-    LBIS:AddEnchant(spec6, "468318", LBIS.L["Head"]) --Animist's Balance
-    LBIS:AddEnchant(spec6, "24421", LBIS.L["Shoulder"]) --Zandalar Signet of Mojo
-    LBIS:AddEnchant(spec6, "25082", LBIS.L["Back"]) --Enchant Cloak - Greater Nature Resistance
-    LBIS:AddEnchant(spec6, "25084", LBIS.L["Back"]) --Enchant Cloak - Subtlety
-    LBIS:AddEnchant(spec6, "1213829", LBIS.L["Chest"]) --Glowing Chitin Armor Kit
-    LBIS:AddEnchant(spec6, "1217189", LBIS.L["Wrist"]) --Formula: Enchant Bracer - Spell Power
-    LBIS:AddEnchant(spec6, "1213626", LBIS.L["Hands"]) --Enchant Gloves - Arcane Power
-    LBIS:AddEnchant(spec6, "468318", LBIS.L["Legs"]) --Animist's Balance
-    LBIS:AddEnchant(spec6, "1213829", LBIS.L["Feet"]) --Glowing Chitin Armor Kit
-    LBIS:AddEnchant(spec6, "22749", LBIS.L["Main Hand"]) --Enchant Weapon - Spell Power
+    LBIS:AddEnchant(spec7, "468318", LBIS.L["Head"]) --Animist's Balance
+    LBIS:AddEnchant(spec7, "1219510", LBIS.L["Shoulder"]) --
+    LBIS:AddEnchant(spec7, "25082", LBIS.L["Back"]) --Enchant Cloak - Greater Nature Resistance
+    LBIS:AddEnchant(spec7, "25084", LBIS.L["Back"]) --Enchant Cloak - Subtlety
+    LBIS:AddEnchant(spec7, "1213829", LBIS.L["Chest"]) --Glowing Chitin Armor Kit
+    LBIS:AddEnchant(spec7, "1220624", LBIS.L["Wrist"]) --
+    LBIS:AddEnchant(spec7, "1213626", LBIS.L["Hands"]) --Enchant Gloves - Arcane Power
+    LBIS:AddEnchant(spec7, "468318", LBIS.L["Legs"]) --Animist's Balance
+    LBIS:AddEnchant(spec7, "1213829", LBIS.L["Feet"]) --Glowing Chitin Armor Kit
+    LBIS:AddEnchant(spec7, "1219580", LBIS.L["Main Hand"]) --
 
     LBIS:AddItem(spec0, "228677", LBIS.L["Head"], "BIS") --Spellweaver's Turban
     LBIS:AddItem(spec0, "226773", LBIS.L["Head"], "Alt") --Feralheart Cowl
@@ -429,6 +429,80 @@ local function LoadData()
     LBIS:AddItem(spec6, "234474", LBIS.L["Ranged/Relic"], "BIS") --Idol of Sidereal Wrath
     LBIS:AddItem(spec6, "232390", LBIS.L["Ranged/Relic"], "Alt") --Idol of Celestial Focus
     LBIS:AddItem(spec6, "228180", LBIS.L["Ranged/Relic"], "Alt") --Idol of the Swarm
+
+    LBIS:AddItem(spec7, "236196", LBIS.L["Head"], "BIS") --Dreamwalker Hood
+    LBIS:AddItem(spec7, "236278", LBIS.L["Head"], "Alt") --Glacial Headdress
+    LBIS:AddItem(spec7, "236279", LBIS.L["Head"], "Alt") --Preceptor's Hat
+    LBIS:AddItem(spec7, "236315", LBIS.L["Head"], "Alt") --Polar Helmet
+    LBIS:AddItem(spec7, "233718", LBIS.L["Head"], "Alt") --Genesis Headdress
+    LBIS:AddItem(spec7, "236194", LBIS.L["Shoulder"], "BIS") --Dreamwalker Mantle
+    LBIS:AddItem(spec7, "236295", LBIS.L["Shoulder"], "Alt") --Glacial Mantle
+    LBIS:AddItem(spec7, "236298", LBIS.L["Shoulder"], "Alt") --Rime Covered Mantle
+    LBIS:AddItem(spec7, "231251", LBIS.L["Shoulder"], "Alt") --Stormrage Mantle
+    LBIS:AddItem(spec7, "233717", LBIS.L["Shoulder"], "Alt") --Genesis Mantle
+    LBIS:AddItem(spec7, "236307", LBIS.L["Back"], "BIS") --Veil of Eclipse
+    LBIS:AddItem(spec7, "236327", LBIS.L["Back"], "BIS") --Cloak of the Necropolis
+    LBIS:AddItem(spec7, "233630", LBIS.L["Back"], "Alt") --Cloak of the Devoured
+    LBIS:AddItem(spec7, "233959", LBIS.L["Back"], "Alt") --Qiraji Silk Cloak
+    LBIS:AddItem(spec7, "233519", LBIS.L["Back"], "Alt") --Cape of the Trinity
+    LBIS:AddItem(spec7, "230804", LBIS.L["Back"], "Alt") --Cloak of the Brood Lord
+    LBIS:AddItem(spec7, "236200", LBIS.L["Chest"], "BIS") --Dreamwalker Leathers
+    LBIS:AddItem(spec7, "236267", LBIS.L["Chest"], "Alt") --Crystal Webbed Robe
+    LBIS:AddItem(spec7, "236718", LBIS.L["Chest"], "Alt") --Robe of Undead Cleansing
+    LBIS:AddItem(spec7, "233715", LBIS.L["Chest"], "Alt") --Genesis Leathers
+    LBIS:AddItem(spec7, "231246", LBIS.L["Chest"], "Alt") --Stormrage Leathers
+    LBIS:AddItem(spec7, "231317", LBIS.L["Chest"], "Alt") --Zandalar Haruspex's Tunic
+    LBIS:AddItem(spec7, "231253", LBIS.L["Wrist"], "BIS") --Stormrage Bindings
+    LBIS:AddItem(spec7, "236313", LBIS.L["Wrist"], "BIS") --The Soul Harvester's Bindings
+    LBIS:AddItem(spec7, "236192", LBIS.L["Wrist"], "Alt") --Dreamwalker Bindings
+    LBIS:AddItem(spec7, "236716", LBIS.L["Wrist"], "Alt") --Bracers of Undead Cleansing
+    LBIS:AddItem(spec7, "231319", LBIS.L["Wrist"], "Alt") --Zandalar Haruspex's Bracers
+    LBIS:AddItem(spec7, "236197", LBIS.L["Hands"], "BIS") --Dreamwalker Mitts
+    LBIS:AddItem(spec7, "236643", LBIS.L["Hands"], "Alt") --Nightwatcher's Gloves
+    LBIS:AddItem(spec7, "235874", LBIS.L["Hands"], "Alt") --Cultist's Handwraps
+    LBIS:AddItem(spec7, "236717", LBIS.L["Hands"], "Alt") --Gloves of Undead Cleansing
+    LBIS:AddItem(spec7, "233631", LBIS.L["Hands"], "Alt") --Dark Storm Gauntlets
+    LBIS:AddItem(spec7, "233559", LBIS.L["Hands"], "Alt") --Gloves of Ebru
+    LBIS:AddItem(spec7, "231318", LBIS.L["Waist"], "BIS") --Zandalar Haruspex's Belt
+    LBIS:AddItem(spec7, "236193", LBIS.L["Waist"], "BIS") --Dreamwalker Cord
+    LBIS:AddItem(spec7, "231252", LBIS.L["Waist"], "Alt") --Stormrage Cord
+    LBIS:AddItem(spec7, "236195", LBIS.L["Legs"], "BIS") --Dreamwalker Kilt
+    LBIS:AddItem(spec7, "236303", LBIS.L["Legs"], "Alt") --Leggings of Polarity
+    LBIS:AddItem(spec7, "233714", LBIS.L["Legs"], "Alt") --Genesis Leggings
+    LBIS:AddItem(spec7, "231247", LBIS.L["Feet"], "BIS") --Stormrage Sandals
+    LBIS:AddItem(spec7, "236199", LBIS.L["Feet"], "BIS") --Dreamwalker Sandals
+    LBIS:AddItem(spec7, "233716", LBIS.L["Feet"], "Alt") --Genesis Treads
+    LBIS:AddItem(spec7, "231316", LBIS.L["Neck"], "BIS") --Pristine Enchanted South Seas Kelp
+    LBIS:AddItem(spec7, "236345", LBIS.L["Neck"], "BIS") --Gem of Trapped Innocents
+    LBIS:AddItem(spec7, "236261", LBIS.L["Neck"], "BIS") --Malice Stone Pendant
+    LBIS:AddItem(spec7, "236256", LBIS.L["Neck"], "Alt") --Touch of Frost
+    LBIS:AddItem(spec7, "234463", LBIS.L["Ring"], "BIS") --Wrath of Cenarius
+    LBIS:AddItem(spec7, "236198", LBIS.L["Ring"], "BIS") --Band of the Dreamwalker
+    LBIS:AddItem(spec7, "236273", LBIS.L["Ring"], "BIS") --Band of the Inevitable
+    LBIS:AddItem(spec7, "236318", LBIS.L["Ring"], "Alt") --Seal of the Damned
+    LBIS:AddItem(spec7, "237286", LBIS.L["Ring"], "Alt") --Band of Piety
+    LBIS:AddItem(spec7, "234101", LBIS.L["Ring"], "Alt") --Ring of the Desert Winds
+    LBIS:AddItem(spec7, "234803", LBIS.L["Ring"], "Alt") --Ring of the Fallen God
+    LBIS:AddItem(spec7, "231280", LBIS.L["Trinket"], "BIS") --Wushoolay's Charm of Nature
+    LBIS:AddItem(spec7, "236351", LBIS.L["Trinket"], "BIS") --Mark of the Champion
+    LBIS:AddItem(spec7, "230810", LBIS.L["Trinket"], "Alt") --Neltharion's Tear
+    LBIS:AddItem(spec7, "233991", LBIS.L["Trinket"], "Alt") --Tear of the Dreamer
+    LBIS:AddItem(spec7, "236292", LBIS.L["Main Hand"], "BIS") --Midnight Haze
+    LBIS:AddItem(spec7, "236297", LBIS.L["Main Hand"], "Alt") --The End of Dreams
+    LBIS:AddItem(spec7, "235890", LBIS.L["Main Hand"], "Alt") --Shadow Weaver's Needle
+    LBIS:AddItem(spec7, "231387", LBIS.L["Main Hand"], "Alt") --Stormwrath, Sanctified Shortblade of the Galefinder
+    LBIS:AddItem(spec7, "234574", LBIS.L["Main Hand"], "Alt") --Grand Marshal's Mageblade
+    LBIS:AddItem(spec7, "234550", LBIS.L["Main Hand"], "Alt") --High Warlord's Spellblade
+    LBIS:AddItem(spec7, "236257", LBIS.L["Off Hand"], "BIS") --Gem of Nerubis
+    LBIS:AddItem(spec7, "236328", LBIS.L["Off Hand"], "Alt") --Sapphiron's Left Eye
+    LBIS:AddItem(spec7, "233616", LBIS.L["Off Hand"], "Alt") --Royal Scepter of Vek'lor
+    LBIS:AddItem(spec7, "234076", LBIS.L["Off Hand"], "Alt") --Talon of Furious Concentration
+    LBIS:AddItem(spec7, "19315", LBIS.L["Off Hand"], "Alt") --Therazane's Touch
+    LBIS:AddItem(spec7, "230841", LBIS.L["Off Hand"], "Alt") --Master Dragonslayer's Orb
+    LBIS:AddItem(spec7, "231005", LBIS.L["Off Hand"], "Alt") --Jin'do's Bag of Whammies
+    LBIS:AddItem(spec7, "232390", LBIS.L["Ranged/Relic"], "BIS") --Idol of Celestial Focus
+    LBIS:AddItem(spec7, "234474", LBIS.L["Ranged/Relic"], "Alt") --Idol of Sidereal Wrath
+    LBIS:AddItem(spec7, "228180", LBIS.L["Ranged/Relic"], "Alt") --Idol of the Swarm
 end
 if LBIS.IsSOD then
     LoadData();
