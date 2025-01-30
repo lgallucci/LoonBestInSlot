@@ -628,6 +628,10 @@ public class WowheadGuideParser
                     {
                         foundTable(nextSibling.FirstChild as IHtmlTableElement, guideMapping.Key, htmlMapping);
                     }
+                    else if(nextSibling.ClassName == "wh-center" && nextSibling.Children[0].ClassName == "markup-table-wrapper")
+                    {
+                        foundTable(nextSibling.FirstChild.FirstChild as IHtmlTableElement, guideMapping.Key, htmlMapping);
+                    }
                     else
                     {
                         throw new ParseException($"Failed to find table for {htmlMapping} after {elementCounter} hops");
@@ -643,6 +647,6 @@ public class WowheadGuideParser
 
     private bool IsTableElement(IElement nextSibling)
     {
-         return nextSibling is IHtmlTableElement || nextSibling.ClassName == "markup-table-wrapper";
+         return nextSibling is IHtmlTableElement || nextSibling.ClassName == "markup-table-wrapper" || nextSibling.ClassName == "wh-center";
     }
 }

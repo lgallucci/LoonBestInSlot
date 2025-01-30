@@ -10,6 +10,7 @@ local function LoadData()
     LBIS:AddEnchant(spec7, "468365", LBIS.L["Head"]) --Hoodoo Hex
     LBIS:AddEnchant(spec7, "28161", LBIS.L["Head"]) --Savage Guard
     LBIS:AddEnchant(spec7, "1219510", LBIS.L["Shoulder"]) --
+    LBIS:AddEnchant(spec7, "24421", LBIS.L["Shoulder"]) --
     LBIS:AddEnchant(spec7, "25084", LBIS.L["Back"]) --Enchant Cloak - Subtlety
     LBIS:AddEnchant(spec7, "461129", LBIS.L["Back"]) --Hydraxian Coronation
     LBIS:AddEnchant(spec7, "25082", LBIS.L["Back"]) --Enchant Cloak - Greater Nature Resistance

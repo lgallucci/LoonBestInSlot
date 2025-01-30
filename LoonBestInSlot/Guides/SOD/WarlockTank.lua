@@ -1216,7 +1216,7 @@ local function LoadData()
     LBIS:AddItem(spec7, "231095", LBIS.L["Chest"], "Alt") --Nemesis Garb
     LBIS:AddItem(spec7, "231076", LBIS.L["Chest"], "Alt") --Nemesis Robes
     LBIS:AddItem(spec7, "231348", LBIS.L["Chest"], "Alt") --Zandalar Demoniac's Robe
-    LBIS:AddItem(spec7, "236068", LBIS.L["Wrist/Waist"], "BIS") --Plagueheart Wristguards
+    LBIS:AddItem(spec7, "236068", LBIS.L["Wrist"], "BIS") --Plagueheart Wristguards
     LBIS:AddItem(spec7, "236061", LBIS.L["Wrist"], "BIS") --Plagueheart Bindings
     LBIS:AddItem(spec7, "236313", LBIS.L["Wrist"], "Alt") --The Soul Harvester's Bindings
     LBIS:AddItem(spec7, "236716", LBIS.L["Wrist"], "Alt") --Bracers of Undead Cleansing

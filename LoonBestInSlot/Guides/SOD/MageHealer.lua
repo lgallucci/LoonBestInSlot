@@ -16,6 +16,7 @@ local function LoadData()
     LBIS:AddEnchant(spec7, "1213626", LBIS.L["Hands"]) --Enchant Gloves - Arcane Power
     LBIS:AddEnchant(spec7, "468380", LBIS.L["Legs"]) --Presence of Sight
     LBIS:AddEnchant(spec7, "1213829", LBIS.L["Feet"]) --
+    LBIS:AddEnchant(spec7, "13890", LBIS.L["Feet"]) --
     LBIS:AddEnchant(spec7, "1219580", LBIS.L["Main Hand"]) --
     LBIS:AddEnchant(spec7, "22749", LBIS.L["Main Hand"]) --Enchant Weapon - Spell Power
 

@@ -10,6 +10,7 @@ local function LoadData()
     LBIS:AddEnchant(spec7, "468323", LBIS.L["Head"]) --Animist's Roar
     LBIS:AddEnchant(spec7, "432190", LBIS.L["Head"]) --Wolfshead Trophy
     LBIS:AddEnchant(spec7, "1219511", LBIS.L["Shoulder"]) --
+    LBIS:AddEnchant(spec7, "24422", LBIS.L["Shoulder"]) --
     LBIS:AddEnchant(spec7, "25086", LBIS.L["Back"]) --Enchant Cloak - Dodge
     LBIS:AddEnchant(spec7, "13882", LBIS.L["Back"]) --Enchant Cloak - Lesser Agility
     LBIS:AddEnchant(spec7, "1213616", LBIS.L["Chest"]) --Enchant Chest - Living Stats

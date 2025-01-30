@@ -18,6 +18,7 @@ internal class SODDruidHealerMapping : SODSpecMapping
     public override string CurrentUrl => "healer-bis-gear-pve";
     public override List<(string, GuideMapping)> CurrentPhase => new List<(string, GuideMapping)>
         {
+            { ("Neck", "h2#jewelry") },
             { ("Main Hand", "h3#main-hand") },
             { ("Off Hand", "h3#off-hand") },
             { ("Two Hand", "h3#two-handed") },

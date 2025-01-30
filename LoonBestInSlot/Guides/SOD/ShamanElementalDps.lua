@@ -597,6 +597,7 @@ local function LoadData()
     LBIS:AddItem(spec6, "234480", LBIS.L["Ranged/Relic"], "Alt") --Totem of Pyroclastic Thunder
 
     LBIS:AddItem(spec7, "236155", LBIS.L["Head"], "BIS") --Earthshatter Crown
+    LBIS:AddItem(spec7, "235869", LBIS.L["Head"], "BIS") --The Master's Cowl
     LBIS:AddItem(spec7, "236278", LBIS.L["Head"], "Alt") --Glacial Headdress
     LBIS:AddItem(spec7, "233705", LBIS.L["Head"], "Alt") --Stormcaller's Headdress
     LBIS:AddItem(spec7, "231219", LBIS.L["Head"], "Alt") --Headdress of Ten Storms
@@ -614,10 +615,10 @@ local function LoadData()
     LBIS:AddItem(spec7, "231217", LBIS.L["Shoulder"], "Alt") --Mantle of Ten Storms
     LBIS:AddItem(spec7, "233566", LBIS.L["Shoulder"], "Alt") --Mantle of the Desert's Fury
     LBIS:AddItem(spec7, "234082", LBIS.L["Shoulder"], "Alt") --Mantle of Maz'Nadir
+    LBIS:AddItem(spec7, "226624", LBIS.L["Shoulder"], "Alt") --Earthfury Mantle
     LBIS:AddItem(spec7, "227003", LBIS.L["Shoulder"], "Alt") --Pauldrons of The Five Thunders
     LBIS:AddItem(spec7, "220745", LBIS.L["Shoulder"], "Alt") --Membrane of Dark Neurosis
     LBIS:AddItem(spec7, "231659", LBIS.L["Shoulder"], "Alt") --Warlord's Mail Spaulders
-    LBIS:AddItem(spec7, "226624", LBIS.L["Shoulder"], "Alt") --Earthfury Mantle
     LBIS:AddItem(spec7, "233436", LBIS.L["Back"], "BIS") --Cloak of the Gathering Storm
     LBIS:AddItem(spec7, "236327", LBIS.L["Back"], "BIS") --Cloak of the Necropolis
     LBIS:AddItem(spec7, "236289", LBIS.L["Back"], "Alt") --Cloak of Suturing
@@ -636,6 +637,7 @@ local function LoadData()
     LBIS:AddItem(spec7, "233594", LBIS.L["Chest"], "Alt") --Robes of the Guardian Saint
     LBIS:AddItem(spec7, "234062", LBIS.L["Chest"], "Alt") --Vestments of the Shifting Sands
     LBIS:AddItem(spec7, "234782", LBIS.L["Chest"], "Alt") --Earthpower Vest
+    LBIS:AddItem(spec7, "226619", LBIS.L["Chest"], "Alt") --Earthfury Ringmail
     LBIS:AddItem(spec7, "227004", LBIS.L["Chest"], "Alt") --Vest of The Five Thunders
     LBIS:AddItem(spec7, "19682", LBIS.L["Chest"], "Alt") --Bloodvine Vest
     LBIS:AddItem(spec7, "228023", LBIS.L["Chest"], "Alt") --Alanna's Embrace
@@ -694,8 +696,8 @@ local function LoadData()
     LBIS:AddItem(spec7, "234108", LBIS.L["Legs"], "Alt") --Leggings of the Black Blizzard
     LBIS:AddItem(spec7, "230279", LBIS.L["Legs"], "Alt") --Primalist's Linked Legguards
     LBIS:AddItem(spec7, "230928", LBIS.L["Legs"], "Alt") --Seafury Leggings
-    LBIS:AddItem(spec7, "227005", LBIS.L["Legs"], "Alt") --Kilt of The Five Thunders
     LBIS:AddItem(spec7, "226623", LBIS.L["Legs"], "Alt") --Earthfury Leggings
+    LBIS:AddItem(spec7, "227005", LBIS.L["Legs"], "Alt") --Kilt of The Five Thunders
     LBIS:AddItem(spec7, "236177", LBIS.L["Feet"], "BIS") --Earthshatter Treads
     LBIS:AddItem(spec7, "236158", LBIS.L["Feet"], "Alt") --Earthshatter Greaves
     LBIS:AddItem(spec7, "235880", LBIS.L["Feet"], "Alt") --Pauper Soles

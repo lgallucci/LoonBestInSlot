@@ -17,6 +17,7 @@ local function LoadData()
     LBIS:AddEnchant(spec7, "468318", LBIS.L["Legs"]) --Animist's Balance
     LBIS:AddEnchant(spec7, "1213829", LBIS.L["Feet"]) --Glowing Chitin Armor Kit
     LBIS:AddEnchant(spec7, "1219580", LBIS.L["Main Hand"]) --
+    LBIS:AddEnchant(spec7, "22749", LBIS.L["Main Hand"]) --
 
     LBIS:AddItem(spec0, "228677", LBIS.L["Head"], "BIS") --Spellweaver's Turban
     LBIS:AddItem(spec0, "226773", LBIS.L["Head"], "Alt") --Feralheart Cowl
