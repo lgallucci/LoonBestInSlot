@@ -647,6 +647,18 @@ public class WowheadGuideParser
 
     private bool IsTableElement(IElement nextSibling)
     {
-         return nextSibling is IHtmlTableElement || nextSibling.ClassName == "markup-table-wrapper" || nextSibling.ClassName == "wh-center";
+         if (nextSibling is IHtmlTableElement)
+         {
+            return ((IHtmlTableElement)nextSibling).Rows.First().ChildNodes.Count() > 1;
+         }
+         else if(nextSibling.ClassName == "markup-table-wrapper")
+         {
+            return ((IHtmlTableElement)nextSibling.FirstChild).Rows.First().ChildNodes.Count() > 1;
+         }
+         else if(nextSibling.ClassName == "wh-center")
+         {
+            return ((IHtmlTableElement)nextSibling.FirstChild.FirstChild).Rows.First().ChildNodes.Count() > 1;
+         }
+         return false;
     }
 }

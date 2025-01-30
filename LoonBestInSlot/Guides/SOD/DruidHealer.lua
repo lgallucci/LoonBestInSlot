@@ -815,7 +815,8 @@ local function LoadData()
     LBIS:AddItem(spec7, "231237", LBIS.L["Wrist"], "Alt") --Stormrage Bracers
     LBIS:AddItem(spec7, "233767", LBIS.L["Wrist"], "Alt") --Battle Hardened Dragonhide Wrists
     LBIS:AddItem(spec7, "226649", LBIS.L["Wrist"], "Alt") --Cenarion Bracers
-    LBIS:AddItem(spec7, "236184", LBIS.L["Hands"], "BIS") --Dreamwalker Handguards
+    LBIS:AddItem(spec7, "236642", LBIS.L["Hands"], "BIS") --Mender's Handwraps
+    LBIS:AddItem(spec7, "236184", LBIS.L["Hands"], "Alt") --Dreamwalker Handguards
     LBIS:AddItem(spec7, "236729", LBIS.L["Hands"], "Alt") --Handwraps of Undead Purification
     LBIS:AddItem(spec7, "233608", LBIS.L["Hands"], "Alt") --Wasphide Gauntlets
     LBIS:AddItem(spec7, "233607", LBIS.L["Hands"], "Alt") --Gloves of the Messiah
