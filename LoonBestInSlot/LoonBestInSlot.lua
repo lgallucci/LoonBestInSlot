@@ -17,7 +17,7 @@ LBIS.AllItemsCached = false;
 LBIS.IsSOD = C_Seasons and C_Seasons.HasActiveSeason() and C_Seasons.GetActiveSeason() == Enum.SeasonID.SeasonOfDiscovery;
 
 if LBIS.IsSOD then
-	LBIS.CurrentPhase = 6;
+	LBIS.CurrentPhase = 7;
 else
 	LBIS.CurrentPhase = 2;
 end
