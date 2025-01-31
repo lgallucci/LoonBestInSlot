@@ -10,6 +10,7 @@ local function LoadData()
 
     LBIS:AddEnchant(spec7, "468376", LBIS.L["Head"]) --Presence of Valor
     LBIS:AddEnchant(spec7, "1219512", LBIS.L["Shoulder"]) --
+    LBIS:AddEnchant(spec7, "24422", LBIS.L["Shoulder"]) --
     LBIS:AddEnchant(spec7, "1219587", LBIS.L["Back"]) --
     LBIS:AddEnchant(spec7, "1213616", LBIS.L["Chest"]) --
     LBIS:AddEnchant(spec7, "20010", LBIS.L["Wrist"]) --Enchant Bracer - Superior Strength
@@ -17,8 +18,10 @@ local function LoadData()
     LBIS:AddEnchant(spec7, "25080", LBIS.L["Hands"]) --Enchant Gloves - Superior Agility
     LBIS:AddEnchant(spec7, "468376", LBIS.L["Legs"]) --Presence of Valor
     LBIS:AddEnchant(spec7, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
+    LBIS:AddEnchant(spec7, "13935", LBIS.L["Feet"]) --
     LBIS:AddEnchant(spec7, "20034", LBIS.L["Main Hand"]) --Enchant Weapon - Crusader
     LBIS:AddEnchant(spec7, "1220623", LBIS.L["Off Hand"]) --
+    LBIS:AddEnchant(spec7, "1219581", LBIS.L["Off Hand"]) --
     LBIS:AddEnchant(spec7, "22779", LBIS.L["Ranged/Relic"]) --
     LBIS:AddEnchant(spec7, "12460", LBIS.L["Ranged/Relic"]) --Sniper Scope
 

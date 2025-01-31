@@ -160,6 +160,7 @@ LBIS.EnchantSources =
     [1219511] = { Name = "", DesignId = "99999", ScrollId = "0", Source = LBIS.L["unkown"], SourceLocation = LBIS.L["unkown"], TextureId = "" },
     [1219512] = { Name = "", DesignId = "99999", ScrollId = "0", Source = LBIS.L["unkown"], SourceLocation = LBIS.L["unkown"], TextureId = "" },
     [1219580] = { Name = "", DesignId = "99999", ScrollId = "0", Source = LBIS.L["unkown"], SourceLocation = LBIS.L["unkown"], TextureId = "" },
+    [1219581] = { Name = "", DesignId = "99999", ScrollId = "0", Source = "unknown", SourceLocation = "unknown", TextureId = "" },
     [1219586] = { Name = "", DesignId = "99999", ScrollId = "0", Source = LBIS.L["unkown"], SourceLocation = LBIS.L["unkown"], TextureId = "" },
     [1219587] = { Name = "", DesignId = "99999", ScrollId = "0", Source = LBIS.L["unkown"], SourceLocation = LBIS.L["unkown"], TextureId = "" },
     [1219751] = { Name = "", DesignId = "99999", ScrollId = "0", Source = LBIS.L["unkown"], SourceLocation = LBIS.L["unkown"], TextureId = "" },
