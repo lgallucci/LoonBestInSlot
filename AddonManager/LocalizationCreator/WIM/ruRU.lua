@@ -1,3 +1,4 @@
+---@diagnostic disable: duplicate-index
 --[[
     Language Localization: ruRU
     Translated by: StingerSoft <stingersoft@iti.lt>

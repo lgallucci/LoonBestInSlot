@@ -1,4 +1,5 @@
-﻿local AL = _G.AtlasLoot.GetLocales("itIT")
+﻿---@diagnostic disable: undefined-global
+_G.AtlasLoot.GetLocales("itIT")
 
 if not AL then return end
 

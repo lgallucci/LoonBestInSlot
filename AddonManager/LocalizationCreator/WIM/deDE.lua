@@ -1,3 +1,4 @@
+---@diagnostic disable: duplicate-index
 --[[
 	Language Localization: deDE
 	Translated by: Chiaki EU-Frostwolf <chiakiaccess@hotmail.com>

@@ -1,3 +1,4 @@
+---@diagnostic disable: duplicate-index
 --[[
     Language Localization: zhCN
     Translated by: MouJiaoZi  moujiaozi@outlook.com

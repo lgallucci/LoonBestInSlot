@@ -1,3 +1,4 @@
+---@diagnostic disable: duplicate-index
 --[[
     Language Localization: esES & esMX
     Translated by: Woopy - Loatheb (NA)

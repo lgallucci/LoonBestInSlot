@@ -1,3 +1,4 @@
+---@diagnostic disable: undefined-global
 local AL = _G.AtlasLoot.GetLocales("deDE")
 
 if not AL then return end

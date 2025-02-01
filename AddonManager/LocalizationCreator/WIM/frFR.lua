@@ -1,3 +1,4 @@
+---@diagnostic disable: duplicate-index
 --[[
     Language Localization: frFR
     Translated by: name <email address>

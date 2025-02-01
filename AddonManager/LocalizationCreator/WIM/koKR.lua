@@ -1,3 +1,4 @@
+---@diagnostic disable: duplicate-index
 --[[
     Language Localization: koKR
     Translated by: BlueNyx <bluenyx@gmail.com>

@@ -1,3 +1,4 @@
+---@diagnostic disable: duplicate-index
 --[[
     Update:2010/07/04
     Language Localization: zhTW
