@@ -154,7 +154,6 @@ local function LoadData()
     LBIS:AddItem(spec2, "11731", LBIS.L["Feet"], "Alt") --Savage Gladiator Greaves
     LBIS:AddItem(spec2, "18404", LBIS.L["Neck"], "BIS") --Onyxia Tooth Pendant
     LBIS:AddItem(spec2, "18205", LBIS.L["Neck"], "Alt Mit") --Eskhandar's Collar
-    LBIS:AddItem(spec2, "22150", LBIS.L["Neck"], "Alt") --Beads of Ogre Might
     LBIS:AddItem(spec2, "17044", LBIS.L["Neck"], "Alt") --Will of the Martyr
     LBIS:AddItem(spec2, "15411", LBIS.L["Neck"], "Alt") --Mark of Fordring
     LBIS:AddItem(spec2, "11933", LBIS.L["Neck"], "Alt") --Imperial Jewel

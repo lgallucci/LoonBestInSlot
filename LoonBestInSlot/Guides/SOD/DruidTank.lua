@@ -581,12 +581,12 @@ local function LoadData()
     LBIS:AddItem(spec7, "227803", LBIS.L["Chest"], "Alt") --Dire Warbear Harness
     LBIS:AddItem(spec7, "226675", LBIS.L["Chest"], "Alt") --Cenarion Armor
     LBIS:AddItem(spec7, "236201", LBIS.L["Wrist"], "BIS") --Dreamwalker Bracers
-    LBIS:AddItem(spec7, "236722", LBIS.L["Wrist"], "BIS") --Bracers of Undead Warding
+    LBIS:AddItem(spec7, "236731", LBIS.L["Wrist"], "BIS") --Wristwraps of Undead Warding
     LBIS:AddItem(spec7, "233612", LBIS.L["Wrist"], "Alt") --Qiraji Execution Bracers
     LBIS:AddItem(spec7, "233506", LBIS.L["Wrist"], "Alt") --Beetle Scaled Wristguards
     LBIS:AddItem(spec7, "231245", LBIS.L["Wrist"], "Alt") --Stormrage Wristguards
     LBIS:AddItem(spec7, "226668", LBIS.L["Wrist"], "Alt") --Cenarion Wristguards
-    LBIS:AddItem(spec7, "236206", LBIS.L["Hands"], "BIS") --Dreamwalker Gauntlets
+    LBIS:AddItem(spec7, "236732", LBIS.L["Hands"], "BIS") --Handwraps of Undead Warding
     LBIS:AddItem(spec7, "236723", LBIS.L["Hands"], "BIS") --Gloves of Undead Warding
     LBIS:AddItem(spec7, "233618", LBIS.L["Hands"], "Alt") --Gloves of the Hidden Temple
     LBIS:AddItem(spec7, "233579", LBIS.L["Hands"], "Alt") --Gloves of Enforcement

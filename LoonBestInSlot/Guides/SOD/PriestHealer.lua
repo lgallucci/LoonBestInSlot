@@ -10,6 +10,7 @@ local function LoadData()
 
     LBIS:AddEnchant(spec7, "468342", LBIS.L["Head"]) --Prophetic Aura
     LBIS:AddEnchant(spec7, "1219826", LBIS.L["Shoulder"]) --
+    LBIS:AddEnchant(spec7, "1219507", LBIS.L["Shoulder"]) --
     LBIS:AddEnchant(spec7, "24420", LBIS.L["Shoulder"]) --Zandalar Signet of Serenity
     LBIS:AddEnchant(spec7, "20014", LBIS.L["Back"]) --Enchant Cloak - Greater Resistance
     LBIS:AddEnchant(spec7, "20025", LBIS.L["Chest"]) --Enchant Chest - Greater Stats

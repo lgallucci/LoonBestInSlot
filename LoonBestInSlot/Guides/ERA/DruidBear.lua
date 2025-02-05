@@ -74,6 +74,7 @@ local function LoadData()
     LBIS:AddItem(spec2, "18374", LBIS.L["Shoulder"], "Alt") --Flamescarred Shoulders
     LBIS:AddItem(spec2, "12927", LBIS.L["Shoulder"], "Alt") --Truestrike Shoulders
     LBIS:AddItem(spec2, "17107", LBIS.L["Back"], "BIS") --Dragon's Blood Cape
+    LBIS:AddItem(spec2, "18689", LBIS.L["Back"], "Alt") --Phantasmal Cloak
     LBIS:AddItem(spec2, "16342", LBIS.L["Back"], "Alt") --Sergeant's Cape
     LBIS:AddItem(spec2, "18461", LBIS.L["Back"], "Alt") --Sergeant's Cloak
     LBIS:AddItem(spec2, "12551", LBIS.L["Back"], "Alt") --Stoneshield Cloak
@@ -107,6 +108,7 @@ local function LoadData()
     LBIS:AddItem(spec2, "23281", LBIS.L["Feet"], "BIS") --Knight-Lieutenant's Dragonhide Treads
     LBIS:AddItem(spec2, "22852", LBIS.L["Feet"], "BIS") --Blood Guard's Dragonhide Treads
     LBIS:AddItem(spec2, "18716", LBIS.L["Feet"], "Alt") --Ash Covered Boots
+    LBIS:AddItem(spec2, "13210", LBIS.L["Feet"], "Alt") --Pads of the Dread Wolf
     LBIS:AddItem(spec2, "14641", LBIS.L["Feet"], "Alt") --Cadaverous Walkers
     LBIS:AddItem(spec2, "18506", LBIS.L["Feet"], "Alt") --Mongoose Boots
     LBIS:AddItem(spec2, "16711", LBIS.L["Feet"], "Alt") --Shadowcraft Boots
@@ -129,6 +131,7 @@ local function LoadData()
     LBIS:AddItem(spec2, "11811", LBIS.L["Trinket"], "BIS") --Smoking Heart of the Mountain
     LBIS:AddItem(spec2, "13966", LBIS.L["Trinket"], "BIS") --Mark of Tyranny
     LBIS:AddItem(spec2, "17774", LBIS.L["Trinket"], "Alt") --Mark of the Chosen
+    LBIS:AddItem(spec2, "11815", LBIS.L["Trinket"], "Alt") --Hand of Justice
     LBIS:AddItem(spec2, "13965", LBIS.L["Trinket"], "Alt") --Blackhand's Breadth
     LBIS:AddItem(spec2, "19120", LBIS.L["Trinket"], "Alt") --Rune of the Guard Captain
     LBIS:AddItem(spec2, "18376", LBIS.L["Main Hand"], "BIS") --Timeworn Mace
@@ -136,9 +139,11 @@ local function LoadData()
     LBIS:AddItem(spec2, "868", LBIS.L["Main Hand"], "Alt") --Ardent Custodian
     LBIS:AddItem(spec2, "18044", LBIS.L["Main Hand"], "Alt") --Hurley's Tankard
     LBIS:AddItem(spec2, "13385", LBIS.L["Off Hand"], "BIS") --Tome of Knowledge
-    LBIS:AddItem(spec2, "18531", LBIS.L["Two Hand"], "BIS") --Unyielding Maul
+    LBIS:AddItem(spec2, "9449", LBIS.L["Two Hand"], "BIS") --Manual Crowd Pummeler
+    LBIS:AddItem(spec2, "18531", LBIS.L["Two Hand"], "BIS Mit") --Unyielding Maul
+    LBIS:AddItem(spec2, "19323", LBIS.L["Two Hand"], "Alt") --The Unstoppable Force
+    LBIS:AddItem(spec2, "18420", LBIS.L["Two Hand"], "Alt") --Bonecrusher
     LBIS:AddItem(spec2, "943", LBIS.L["Two Hand"], "Alt") --Warden Staff
-    LBIS:AddItem(spec2, "9449", LBIS.L["Two Hand"], "Alt") --Manual Crowd Pummeler
 end
 if not LBIS.IsSOD then
     LoadData();

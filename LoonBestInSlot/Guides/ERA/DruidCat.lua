@@ -95,8 +95,8 @@ local function LoadData()
     LBIS:AddItem(spec2, "22741", LBIS.L["Legs"], "Alt") --Outrider's Lizardhide Pants
     LBIS:AddItem(spec2, "22749", LBIS.L["Legs"], "Alt") --Sentinel's Leather Pants
     LBIS:AddItem(spec2, "22740", LBIS.L["Legs"], "Alt") --Outrider's Leather Pants
-    LBIS:AddItem(spec2, "23295", LBIS.L["Legs"], "Alt") --Knight-Captain's Dragonhide Leggings
     LBIS:AddItem(spec2, "22878", LBIS.L["Legs"], "Alt") --Legionnaire's Dragonhide Leggings
+    LBIS:AddItem(spec2, "23295", LBIS.L["Legs"], "Alt") --Knight-Captain's Dragonhide Leggings
     LBIS:AddItem(spec2, "23281", LBIS.L["Feet"], "BIS") --Knight-Lieutenant's Dragonhide Treads
     LBIS:AddItem(spec2, "12553", LBIS.L["Feet"], "Alt") --Swiftwalker Boots
     LBIS:AddItem(spec2, "16711", LBIS.L["Feet"], "Alt") --Shadowcraft Boots
@@ -125,14 +125,13 @@ local function LoadData()
     LBIS:AddItem(spec2, "4091", LBIS.L["Main Hand"], "Alt") --Widowmaker
     LBIS:AddItem(spec2, "13368", LBIS.L["Main Hand"], "Alt") --Bonescraper
     LBIS:AddItem(spec2, "19104", LBIS.L["Main Hand"], "Alt") --Stormstrike Hammer
-    LBIS:AddItem(spec2, "19542", LBIS.L["Main Hand"], "Alt") --Scout's Blade
     LBIS:AddItem(spec2, "19546", LBIS.L["Main Hand"], "Alt") --Sentinel's Blade
+    LBIS:AddItem(spec2, "19542", LBIS.L["Main Hand"], "Alt") --Scout's Blade
     LBIS:AddItem(spec2, "18044", LBIS.L["Main Hand"], "Alt") --Hurley's Tankard
     LBIS:AddItem(spec2, "13385", LBIS.L["Off Hand"], "BIS") --Tome of Knowledge
     LBIS:AddItem(spec2, "9449", LBIS.L["Two Hand"], "BIS") --Manual Crowd Pummeler
     LBIS:AddItem(spec2, "19323", LBIS.L["Two Hand"], "Alt") --The Unstoppable Force
     LBIS:AddItem(spec2, "18420", LBIS.L["Two Hand"], "Alt") --Bonecrusher
-    LBIS:AddItem(spec2, "19106", LBIS.L["Two Hand"], "Alt") --Ice Barbed Spear
     LBIS:AddItem(spec2, "13167", LBIS.L["Two Hand"], "Alt") --Fist of Omokk
     LBIS:AddItem(spec2, "18481", LBIS.L["Two Hand"], "Alt") --Skullcracking Mace
 end

@@ -22,8 +22,7 @@ internal class SODPaladinDpsMapping : SODSpecMapping
             { ("Two Hand", "h5#weapons-for-seal-stacking") },
             { ("Two Hand", "h5#weapons-for-seal-twisting") },
             { ("Two Hand", "h5#weapons-for-exodin") },
-            { ("Ranged/Relic", "h5#damage-librams") },
-            { ("Ranged/Relic", "h5#mana-librams") },
+            { ("Ranged/Relic", "#libram") },
         };
 }
 
