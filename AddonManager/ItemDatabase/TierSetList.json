@@ -1,5 +1,581 @@
 {
   "Items": {
+    "22416": {
+      "Name": "Dreadnaught Breastplate",
+      "Source": "Desecrated Breastplate",
+      "SourceType": "TierToken",
+      "SourceNumber": "22349",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22417": {
+      "Name": "Dreadnaught Legplates",
+      "Source": "Desecrated Legplates",
+      "SourceType": "TierToken",
+      "SourceNumber": "22352",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22418": {
+      "Name": "Dreadnaught Helmet",
+      "Source": "Desecrated Helmet",
+      "SourceType": "TierToken",
+      "SourceNumber": "22353",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22419": {
+      "Name": "Dreadnaught Pauldrons",
+      "Source": "Desecrated Pauldrons",
+      "SourceType": "TierToken",
+      "SourceNumber": "22354",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22420": {
+      "Name": "Dreadnaught Sabatons",
+      "Source": "Desecrated Sabatons",
+      "SourceType": "TierToken",
+      "SourceNumber": "22358",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22421": {
+      "Name": "Dreadnaught Gauntlets",
+      "Source": "Desecrated Gauntlets",
+      "SourceType": "TierToken",
+      "SourceNumber": "22357",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22422": {
+      "Name": "Dreadnaught Waistguard",
+      "Source": "Desecrated Waistguard",
+      "SourceType": "TierToken",
+      "SourceNumber": "22356",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22423": {
+      "Name": "Dreadnaught Bracers",
+      "Source": "Desecrated Bracers",
+      "SourceType": "TierToken",
+      "SourceNumber": "22355",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22424": {
+      "Name": "Redemption Wristguards",
+      "Source": "Desecrated Wristguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "22362",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22425": {
+      "Name": "Redemption Tunic",
+      "Source": "Desecrated Tunic",
+      "SourceType": "TierToken",
+      "SourceNumber": "22350",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22426": {
+      "Name": "Redemption Handguards",
+      "Source": "Desecrated Handguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "22364",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "A"
+    },
+    "22427": {
+      "Name": "Redemption Legguards",
+      "Source": "Desecrated Legguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "22359",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "A"
+    },
+    "22428": {
+      "Name": "Redemption Headpiece",
+      "Source": "Desecrated Headpiece",
+      "SourceType": "TierToken",
+      "SourceNumber": "22360",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22429": {
+      "Name": "Redemption Spaulders",
+      "Source": "Desecrated Spaulders",
+      "SourceType": "TierToken",
+      "SourceNumber": "22361",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "A"
+    },
+    "22430": {
+      "Name": "Redemption Boots",
+      "Source": "Desecrated Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "22365",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "A"
+    },
+    "22431": {
+      "Name": "Redemption Girdle",
+      "Source": "Desecrated Girdle",
+      "SourceType": "TierToken",
+      "SourceNumber": "22363",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "A"
+    },
+    "22436": {
+      "Name": "Cryptstalker Tunic",
+      "Source": "Desecrated Tunic",
+      "SourceType": "TierToken",
+      "SourceNumber": "22350",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22437": {
+      "Name": "Cryptstalker Legguards",
+      "Source": "Desecrated Legguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "22359",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22438": {
+      "Name": "Cryptstalker Headpiece",
+      "Source": "Desecrated Headpiece",
+      "SourceType": "TierToken",
+      "SourceNumber": "22360",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22439": {
+      "Name": "Cryptstalker Spaulders",
+      "Source": "Desecrated Spaulders",
+      "SourceType": "TierToken",
+      "SourceNumber": "22361",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22440": {
+      "Name": "Cryptstalker Boots",
+      "Source": "Desecrated Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "22365",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22441": {
+      "Name": "Cryptstalker Handguards",
+      "Source": "Desecrated Handguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "22364",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22442": {
+      "Name": "Cryptstalker Girdle",
+      "Source": "Desecrated Girdle",
+      "SourceType": "TierToken",
+      "SourceNumber": "22363",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22443": {
+      "Name": "Cryptstalker Wristguards",
+      "Source": "Desecrated Wristguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "22362",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22464": {
+      "Name": "Earthshatter Tunic",
+      "Source": "Desecrated Tunic",
+      "SourceType": "TierToken",
+      "SourceNumber": "22350",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "H"
+    },
+    "22465": {
+      "Name": "Earthshatter Legguards",
+      "Source": "Desecrated Legguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "22359",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "H"
+    },
+    "22466": {
+      "Name": "Earthshatter Headpiece",
+      "Source": "Desecrated Headpiece",
+      "SourceType": "TierToken",
+      "SourceNumber": "22360",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "H"
+    },
+    "22467": {
+      "Name": "Earthshatter Spaulders",
+      "Source": "Desecrated Spaulders",
+      "SourceType": "TierToken",
+      "SourceNumber": "22361",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "H"
+    },
+    "22468": {
+      "Name": "Earthshatter Boots",
+      "Source": "Desecrated Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "22365",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "H"
+    },
+    "22469": {
+      "Name": "Earthshatter Handguards",
+      "Source": "Desecrated Handguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "22364",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "H"
+    },
+    "22470": {
+      "Name": "Earthshatter Girdle",
+      "Source": "Desecrated Girdle",
+      "SourceType": "TierToken",
+      "SourceNumber": "22363",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "H"
+    },
+    "22471": {
+      "Name": "Earthshatter Wristguards",
+      "Source": "Desecrated Wristguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "22362",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "H"
+    },
+    "22476": {
+      "Name": "Bonescythe Breastplate",
+      "Source": "Desecrated Breastplate",
+      "SourceType": "TierToken",
+      "SourceNumber": "22349",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22477": {
+      "Name": "Bonescythe Legplates",
+      "Source": "Desecrated Legplates",
+      "SourceType": "TierToken",
+      "SourceNumber": "22352",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22478": {
+      "Name": "Bonescythe Helmet",
+      "Source": "Desecrated Helmet",
+      "SourceType": "TierToken",
+      "SourceNumber": "22353",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22479": {
+      "Name": "Bonescythe Pauldrons",
+      "Source": "Desecrated Pauldrons",
+      "SourceType": "TierToken",
+      "SourceNumber": "22354",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22480": {
+      "Name": "Bonescythe Sabatons",
+      "Source": "Desecrated Sabatons",
+      "SourceType": "TierToken",
+      "SourceNumber": "22358",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22481": {
+      "Name": "Bonescythe Gauntlets",
+      "Source": "Desecrated Gauntlets",
+      "SourceType": "TierToken",
+      "SourceNumber": "22357",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22482": {
+      "Name": "Bonescythe Waistguard",
+      "Source": "Desecrated Waistguard",
+      "SourceType": "TierToken",
+      "SourceNumber": "22356",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22483": {
+      "Name": "Bonescythe Bracers",
+      "Source": "Desecrated Bracers",
+      "SourceType": "TierToken",
+      "SourceNumber": "22355",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22488": {
+      "Name": "Dreamwalker Tunic",
+      "Source": "Desecrated Tunic",
+      "SourceType": "TierToken",
+      "SourceNumber": "22350",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22489": {
+      "Name": "Dreamwalker Legguards",
+      "Source": "Desecrated Legguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "22359",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22490": {
+      "Name": "Dreamwalker Headpiece",
+      "Source": "Desecrated Headpiece",
+      "SourceType": "TierToken",
+      "SourceNumber": "22360",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22491": {
+      "Name": "Dreamwalker Spaulders",
+      "Source": "Desecrated Spaulders",
+      "SourceType": "TierToken",
+      "SourceNumber": "22361",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22492": {
+      "Name": "Dreamwalker Boots",
+      "Source": "Desecrated Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "22365",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22493": {
+      "Name": "Dreamwalker Handguards",
+      "Source": "Desecrated Handguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "22364",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22494": {
+      "Name": "Dreamwalker Girdle",
+      "Source": "Desecrated Girdle",
+      "SourceType": "TierToken",
+      "SourceNumber": "22363",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22495": {
+      "Name": "Dreamwalker Wristguards",
+      "Source": "Desecrated Wristguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "22362",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22496": {
+      "Name": "Frostfire Robe",
+      "Source": "Desecrated Robe",
+      "SourceType": "TierToken",
+      "SourceNumber": "22351",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22497": {
+      "Name": "Frostfire Leggings",
+      "Source": "Desecrated Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "22366",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22498": {
+      "Name": "Frostfire Circlet",
+      "Source": "Desecrated Circlet",
+      "SourceType": "TierToken",
+      "SourceNumber": "22367",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22499": {
+      "Name": "Frostfire Shoulderpads",
+      "Source": "Desecrated Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "22368",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22500": {
+      "Name": "Frostfire Sandals",
+      "Source": "Desecrated Sandals",
+      "SourceType": "TierToken",
+      "SourceNumber": "22372",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22501": {
+      "Name": "Frostfire Gloves",
+      "Source": "Desecrated Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "22371",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22502": {
+      "Name": "Frostfire Belt",
+      "Source": "Desecrated Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "22370",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22503": {
+      "Name": "Frostfire Bindings",
+      "Source": "Desecrated Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "22369",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22504": {
+      "Name": "Plagueheart Robe",
+      "Source": "Desecrated Robe",
+      "SourceType": "TierToken",
+      "SourceNumber": "22351",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22505": {
+      "Name": "Plagueheart Leggings",
+      "Source": "Desecrated Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "22366",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22506": {
+      "Name": "Plagueheart Circlet",
+      "Source": "Desecrated Circlet",
+      "SourceType": "TierToken",
+      "SourceNumber": "22367",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22507": {
+      "Name": "Plagueheart Shoulderpads",
+      "Source": "Desecrated Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "22368",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22508": {
+      "Name": "Plagueheart Sandals",
+      "Source": "Desecrated Sandals",
+      "SourceType": "TierToken",
+      "SourceNumber": "22372",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22509": {
+      "Name": "Plagueheart Gloves",
+      "Source": "Desecrated Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "22371",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22510": {
+      "Name": "Plagueheart Belt",
+      "Source": "Desecrated Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "22370",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22511": {
+      "Name": "Plagueheart Bindings",
+      "Source": "Desecrated Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "22369",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22512": {
+      "Name": "Robe of Faith",
+      "Source": "Desecrated Robe",
+      "SourceType": "TierToken",
+      "SourceNumber": "22351",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22513": {
+      "Name": "Leggings of Faith",
+      "Source": "Desecrated Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "22366",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22514": {
+      "Name": "Circlet of Faith",
+      "Source": "Desecrated Circlet",
+      "SourceType": "TierToken",
+      "SourceNumber": "22367",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22515": {
+      "Name": "Shoulderpads of Faith",
+      "Source": "Desecrated Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "22368",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22516": {
+      "Name": "Sandals of Faith",
+      "Source": "Desecrated Sandals",
+      "SourceType": "TierToken",
+      "SourceNumber": "22372",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22517": {
+      "Name": "Gloves of Faith",
+      "Source": "Desecrated Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "22371",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22518": {
+      "Name": "Belt of Faith",
+      "Source": "Desecrated Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "22370",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "22519": {
+      "Name": "Bindings of Faith",
+      "Source": "Desecrated Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "22369",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
     "216918": {
       "Name": "Felheart Boots",
       "Source": "Incandescent Boots",
@@ -5886,6 +6462,1662 @@
       "SourceType": "TierToken",
       "SourceNumber": "233365",
       "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "236005": {
+      "Name": "Dreadnaught Breastplate",
+      "Source": "Desecrated Breastplate",
+      "SourceType": "TierToken",
+      "SourceNumber": "236231",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236006": {
+      "Name": "Dreadnaught Legplates",
+      "Source": "Desecrated Legplates",
+      "SourceType": "TierToken",
+      "SourceNumber": "236238",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236007": {
+      "Name": "Dreadnaught Helmet",
+      "Source": "Desecrated Helmet",
+      "SourceType": "TierToken",
+      "SourceNumber": "236236",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236008": {
+      "Name": "Dreadnaught Pauldrons",
+      "Source": "Desecrated Pauldrons",
+      "SourceType": "TierToken",
+      "SourceNumber": "236237",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236009": {
+      "Name": "Dreadnaught Sabatons",
+      "Source": "Desecrated Sabatons",
+      "SourceType": "TierToken",
+      "SourceNumber": "236234",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236010": {
+      "Name": "Dreadnaught Gauntlets",
+      "Source": "Desecrated Gauntlets",
+      "SourceType": "TierToken",
+      "SourceNumber": "236233",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236011": {
+      "Name": "Dreadnaught Waistguard",
+      "Source": "Desecrated Waistguard",
+      "SourceType": "TierToken",
+      "SourceNumber": "236232",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236012": {
+      "Name": "Dreadnaught Bracers",
+      "Source": "Desecrated Bracers",
+      "SourceType": "TierToken",
+      "SourceNumber": "236235",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236013": {
+      "Name": "Ring of the Dreadnaught",
+      "Source": "Desecrated Ring",
+      "SourceType": "TierToken",
+      "SourceNumber": "237381",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236014": {
+      "Name": "Dreadnaught Cuirass",
+      "Source": "Desecrated Breastplate",
+      "SourceType": "TierToken",
+      "SourceNumber": "236231",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236015": {
+      "Name": "Dreadnaught Tassets",
+      "Source": "Desecrated Legplates",
+      "SourceType": "TierToken",
+      "SourceNumber": "236238",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236016": {
+      "Name": "Dreadnaught Horns",
+      "Source": "Desecrated Helmet",
+      "SourceType": "TierToken",
+      "SourceNumber": "236236",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236017": {
+      "Name": "Dreadnaught Shoulders",
+      "Source": "Desecrated Pauldrons",
+      "SourceType": "TierToken",
+      "SourceNumber": "236237",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236018": {
+      "Name": "Dreadnaught Greaves",
+      "Source": "Desecrated Sabatons",
+      "SourceType": "TierToken",
+      "SourceNumber": "236234",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236019": {
+      "Name": "Dreadnaught Grips",
+      "Source": "Desecrated Gauntlets",
+      "SourceType": "TierToken",
+      "SourceNumber": "236233",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236020": {
+      "Name": "Dreadnaught Belt",
+      "Source": "Desecrated Waistguard",
+      "SourceType": "TierToken",
+      "SourceNumber": "236232",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236021": {
+      "Name": "Dreadnaught Wrists",
+      "Source": "Desecrated Bracers",
+      "SourceType": "TierToken",
+      "SourceNumber": "236235",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236022": {
+      "Name": "Band of the Dreadnaught",
+      "Source": "Desecrated Ring",
+      "SourceType": "TierToken",
+      "SourceNumber": "237381",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236023": {
+      "Name": "Bonescythe Breastplate",
+      "Source": "Desecrated Robe",
+      "SourceType": "TierToken",
+      "SourceNumber": "236242",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236024": {
+      "Name": "Bonescythe Legplates",
+      "Source": "Desecrated Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "236246",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236025": {
+      "Name": "Bonescythe Helmet",
+      "Source": "Desecrated Circlet",
+      "SourceType": "TierToken",
+      "SourceNumber": "236241",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236026": {
+      "Name": "Bonescythe Pauldrons",
+      "Source": "Desecrated Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "236240",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236027": {
+      "Name": "Bonescythe Sabatons",
+      "Source": "Desecrated Sandals",
+      "SourceType": "TierToken",
+      "SourceNumber": "236239",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236028": {
+      "Name": "Bonescythe Gauntlets",
+      "Source": "Desecrated Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "236243",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236029": {
+      "Name": "Bonescythe Waistguard",
+      "Source": "Desecrated Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "236244",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236030": {
+      "Name": "Bonescythe Bracers",
+      "Source": "Desecrated Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "236245",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236031": {
+      "Name": "Bonescythe Ring",
+      "Source": "Desecrated Ring",
+      "SourceType": "TierToken",
+      "SourceNumber": "237381",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236032": {
+      "Name": "Bonescythe Belt",
+      "Source": "Desecrated Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "236244",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236033": {
+      "Name": "Bonescythe Treads",
+      "Source": "Desecrated Sandals",
+      "SourceType": "TierToken",
+      "SourceNumber": "236239",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236034": {
+      "Name": "Bonescythe Band",
+      "Source": "Desecrated Ring",
+      "SourceType": "TierToken",
+      "SourceNumber": "237381",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236035": {
+      "Name": "Bonescythe Mantle",
+      "Source": "Desecrated Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "236240",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236036": {
+      "Name": "Bonescythe Leggings",
+      "Source": "Desecrated Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "236246",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236037": {
+      "Name": "Bonescythe Mask",
+      "Source": "Desecrated Circlet",
+      "SourceType": "TierToken",
+      "SourceNumber": "236241",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236038": {
+      "Name": "Bonescythe Grips",
+      "Source": "Desecrated Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "236243",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236039": {
+      "Name": "Bonescythe Chestguard",
+      "Source": "Desecrated Robe",
+      "SourceType": "TierToken",
+      "SourceNumber": "236242",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236040": {
+      "Name": "Bonescythe Wristguards",
+      "Source": "Desecrated Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "236245",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236041": {
+      "Name": "Ring of the Cryptstalker",
+      "Source": "Desecrated Ring",
+      "SourceType": "TierToken",
+      "SourceNumber": "237381",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236042": {
+      "Name": "Cryptstalker Wristguards",
+      "Source": "Desecrated Bracers",
+      "SourceType": "TierToken",
+      "SourceNumber": "236235",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236043": {
+      "Name": "Cryptstalker Tunic",
+      "Source": "Desecrated Breastplate",
+      "SourceType": "TierToken",
+      "SourceNumber": "236231",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236044": {
+      "Name": "Cryptstalker Spaulders",
+      "Source": "Desecrated Pauldrons",
+      "SourceType": "TierToken",
+      "SourceNumber": "236237",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236045": {
+      "Name": "Cryptstalker Legguards",
+      "Source": "Desecrated Legplates",
+      "SourceType": "TierToken",
+      "SourceNumber": "236238",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236046": {
+      "Name": "Cryptstalker Headpiece",
+      "Source": "Desecrated Helmet",
+      "SourceType": "TierToken",
+      "SourceNumber": "236236",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236047": {
+      "Name": "Cryptstalker Handguards",
+      "Source": "Desecrated Gauntlets",
+      "SourceType": "TierToken",
+      "SourceNumber": "236233",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236048": {
+      "Name": "Cryptstalker Girdle",
+      "Source": "Desecrated Waistguard",
+      "SourceType": "TierToken",
+      "SourceNumber": "236232",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236049": {
+      "Name": "Cryptstalker Boots",
+      "Source": "Desecrated Sabatons",
+      "SourceType": "TierToken",
+      "SourceNumber": "236234",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236050": {
+      "Name": "Cryptstalker Vambraces",
+      "Source": "Desecrated Bracers",
+      "SourceType": "TierToken",
+      "SourceNumber": "236235",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236051": {
+      "Name": "Cryptstalker Belt",
+      "Source": "Desecrated Waistguard",
+      "SourceType": "TierToken",
+      "SourceNumber": "236232",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236052": {
+      "Name": "Cryptstalker Pauldrons",
+      "Source": "Desecrated Pauldrons",
+      "SourceType": "TierToken",
+      "SourceNumber": "236237",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236053": {
+      "Name": "Cryptstalker Leggings",
+      "Source": "Desecrated Legplates",
+      "SourceType": "TierToken",
+      "SourceNumber": "236238",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236054": {
+      "Name": "Cryptstalker Visor",
+      "Source": "Desecrated Helmet",
+      "SourceType": "TierToken",
+      "SourceNumber": "236236",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236055": {
+      "Name": "Cryptstalker Gauntlets",
+      "Source": "Desecrated Gauntlets",
+      "SourceType": "TierToken",
+      "SourceNumber": "236233",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236056": {
+      "Name": "Band of the Cryptstalker",
+      "Source": "Desecrated Ring",
+      "SourceType": "TierToken",
+      "SourceNumber": "237381",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236057": {
+      "Name": "Cryptstalker Greaves",
+      "Source": "Desecrated Sabatons",
+      "SourceType": "TierToken",
+      "SourceNumber": "236234",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236058": {
+      "Name": "Cryptstalker Breastplate",
+      "Source": "Desecrated Breastplate",
+      "SourceType": "TierToken",
+      "SourceNumber": "236231",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236059": {
+      "Name": "Plagueheart Sandals",
+      "Source": "Desecrated Sandals",
+      "SourceType": "TierToken",
+      "SourceNumber": "236239",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236060": {
+      "Name": "Plagueheart Leggings",
+      "Source": "Desecrated Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "236246",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236061": {
+      "Name": "Plagueheart Bindings",
+      "Source": "Desecrated Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "236245",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236062": {
+      "Name": "Plagueheart Robe",
+      "Source": "Desecrated Robe",
+      "SourceType": "TierToken",
+      "SourceNumber": "236242",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236063": {
+      "Name": "Plagueheart Gloves",
+      "Source": "Desecrated Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "236243",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236064": {
+      "Name": "Plagueheart Circlet",
+      "Source": "Desecrated Circlet",
+      "SourceType": "TierToken",
+      "SourceNumber": "236241",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236065": {
+      "Name": "Plagueheart Shoulderpads",
+      "Source": "Desecrated Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "236240",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236066": {
+      "Name": "Plagueheart Belt",
+      "Source": "Desecrated Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "236244",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236067": {
+      "Name": "Plagueheart Ring",
+      "Source": "Desecrated Ring",
+      "SourceType": "TierToken",
+      "SourceNumber": "237381",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236068": {
+      "Name": "Plagueheart Wristguards",
+      "Source": "Desecrated Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "236245",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236069": {
+      "Name": "Plagueheart Waistguard",
+      "Source": "Desecrated Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "236244",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236070": {
+      "Name": "Plagueheart Mantle",
+      "Source": "Desecrated Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "236240",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236071": {
+      "Name": "Plagueheart Pants",
+      "Source": "Desecrated Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "236246",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236072": {
+      "Name": "Plagueheart Crown",
+      "Source": "Desecrated Circlet",
+      "SourceType": "TierToken",
+      "SourceNumber": "236241",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236073": {
+      "Name": "Plagueheart Handguards",
+      "Source": "Desecrated Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "236243",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236074": {
+      "Name": "Plagueheart Loop",
+      "Source": "Desecrated Ring",
+      "SourceType": "TierToken",
+      "SourceNumber": "237381",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236075": {
+      "Name": "Plagueheart Boots",
+      "Source": "Desecrated Sandals",
+      "SourceType": "TierToken",
+      "SourceNumber": "236239",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236076": {
+      "Name": "Plagueheart Garb",
+      "Source": "Desecrated Robe",
+      "SourceType": "TierToken",
+      "SourceNumber": "236242",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236077": {
+      "Name": "Frostfire Bindings",
+      "Source": "Desecrated Bracers",
+      "SourceType": "TierToken",
+      "SourceNumber": "236235",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236078": {
+      "Name": "Frostfire Belt",
+      "Source": "Desecrated Waistguard",
+      "SourceType": "TierToken",
+      "SourceNumber": "236232",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236079": {
+      "Name": "Frostfire Leggings",
+      "Source": "Desecrated Legplates",
+      "SourceType": "TierToken",
+      "SourceNumber": "236238",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236080": {
+      "Name": "Frostfire Sandals",
+      "Source": "Desecrated Sabatons",
+      "SourceType": "TierToken",
+      "SourceNumber": "236234",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236081": {
+      "Name": "Frostfire Robe",
+      "Source": "Desecrated Breastplate",
+      "SourceType": "TierToken",
+      "SourceNumber": "236231",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236082": {
+      "Name": "Frostfire Gloves",
+      "Source": "Desecrated Gauntlets",
+      "SourceType": "TierToken",
+      "SourceNumber": "236233",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236083": {
+      "Name": "Frostfire Circlet",
+      "Source": "Desecrated Helmet",
+      "SourceType": "TierToken",
+      "SourceNumber": "236236",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236084": {
+      "Name": "Frostfire Shoulderpads",
+      "Source": "Desecrated Pauldrons",
+      "SourceType": "TierToken",
+      "SourceNumber": "236237",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236085": {
+      "Name": "Frostfire Ring",
+      "Source": "Desecrated Ring",
+      "SourceType": "TierToken",
+      "SourceNumber": "237381",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236087": {
+      "Name": "Frostfire Wristwraps",
+      "Source": "Desecrated Bracers",
+      "SourceType": "TierToken",
+      "SourceNumber": "236235",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236088": {
+      "Name": "Frostfire Waistguard",
+      "Source": "Desecrated Waistguard",
+      "SourceType": "TierToken",
+      "SourceNumber": "236232",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236089": {
+      "Name": "Frostfire Mantle",
+      "Source": "Desecrated Pauldrons",
+      "SourceType": "TierToken",
+      "SourceNumber": "236237",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236090": {
+      "Name": "Frostfire Pants",
+      "Source": "Desecrated Legplates",
+      "SourceType": "TierToken",
+      "SourceNumber": "236238",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236091": {
+      "Name": "Frostfire Hood",
+      "Source": "Desecrated Helmet",
+      "SourceType": "TierToken",
+      "SourceNumber": "236236",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236092": {
+      "Name": "Frostfire Mitts",
+      "Source": "Desecrated Gauntlets",
+      "SourceType": "TierToken",
+      "SourceNumber": "236233",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236093": {
+      "Name": "Frostfire Band",
+      "Source": "Desecrated Ring",
+      "SourceType": "TierToken",
+      "SourceNumber": "237381",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236094": {
+      "Name": "Frostfire Boots",
+      "Source": "Desecrated Sabatons",
+      "SourceType": "TierToken",
+      "SourceNumber": "236234",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236095": {
+      "Name": "Frostfire Garb",
+      "Source": "Desecrated Breastplate",
+      "SourceType": "TierToken",
+      "SourceNumber": "236231",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236097": {
+      "Name": "Robe of Faith",
+      "Source": "Desecrated Robe",
+      "SourceType": "TierToken",
+      "SourceNumber": "236242",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236098": {
+      "Name": "Belt of Faith",
+      "Source": "Desecrated Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "236244",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236099": {
+      "Name": "Sandals of Faith",
+      "Source": "Desecrated Sandals",
+      "SourceType": "TierToken",
+      "SourceNumber": "236239",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236100": {
+      "Name": "Bindings of Faith",
+      "Source": "Desecrated Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "236245",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236101": {
+      "Name": "Leggings of Faith",
+      "Source": "Desecrated Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "236246",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236102": {
+      "Name": "Shoulderpads of Faith",
+      "Source": "Desecrated Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "236240",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236103": {
+      "Name": "Circlet of Faith",
+      "Source": "Desecrated Circlet",
+      "SourceType": "TierToken",
+      "SourceNumber": "236241",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236104": {
+      "Name": "Gloves of Faith",
+      "Source": "Desecrated Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "236243",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236105": {
+      "Name": "Ring of Faith",
+      "Source": "Desecrated Ring",
+      "SourceType": "TierToken",
+      "SourceNumber": "237381",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236106": {
+      "Name": "Wrists of Faith",
+      "Source": "Desecrated Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "236245",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236107": {
+      "Name": "Girdle of Faith",
+      "Source": "Desecrated Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "236244",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236108": {
+      "Name": "Mantle of Faith",
+      "Source": "Desecrated Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "236240",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236109": {
+      "Name": "Pants of Faith",
+      "Source": "Desecrated Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "236246",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236110": {
+      "Name": "Crown of Faith",
+      "Source": "Desecrated Circlet",
+      "SourceType": "TierToken",
+      "SourceNumber": "236241",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236111": {
+      "Name": "Hands of Faith",
+      "Source": "Desecrated Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "236243",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236112": {
+      "Name": "Band of Faith",
+      "Source": "Desecrated Ring",
+      "SourceType": "TierToken",
+      "SourceNumber": "237381",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236113": {
+      "Name": "Boots of Faith",
+      "Source": "Desecrated Sandals",
+      "SourceType": "TierToken",
+      "SourceNumber": "236239",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236114": {
+      "Name": "Garb of Faith",
+      "Source": "Desecrated Robe",
+      "SourceType": "TierToken",
+      "SourceNumber": "236242",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236115": {
+      "Name": "Redemption Tunic",
+      "Source": "Desecrated Tunic",
+      "SourceType": "TierToken",
+      "SourceNumber": "236251",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236116": {
+      "Name": "Ring of Redemption",
+      "Source": "Desecrated Ring",
+      "SourceType": "TierToken",
+      "SourceNumber": "237381",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236117": {
+      "Name": "Redemption Headpiece",
+      "Source": "Desecrated Headpiece",
+      "SourceType": "TierToken",
+      "SourceNumber": "236249",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236118": {
+      "Name": "Redemption Handguards",
+      "Source": "Desecrated Handguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "236250",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236119": {
+      "Name": "Redemption Wristguards",
+      "Source": "Desecrated Wristguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "236247",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236120": {
+      "Name": "Redemption Girdle",
+      "Source": "Desecrated Girdle",
+      "SourceType": "TierToken",
+      "SourceNumber": "236252",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236121": {
+      "Name": "Redemption Legguards",
+      "Source": "Desecrated Legguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "236253",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236122": {
+      "Name": "Redemption Spaulders",
+      "Source": "Desecrated Spaulders",
+      "SourceType": "TierToken",
+      "SourceNumber": "236254",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236123": {
+      "Name": "Redemption Boots",
+      "Source": "Desecrated Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "236248",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236124": {
+      "Name": "Redemption Vambraces",
+      "Source": "Desecrated Wristguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "236247",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236125": {
+      "Name": "Redemption Belt",
+      "Source": "Desecrated Girdle",
+      "SourceType": "TierToken",
+      "SourceNumber": "236252",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236126": {
+      "Name": "Redemption Shoulderplates",
+      "Source": "Desecrated Spaulders",
+      "SourceType": "TierToken",
+      "SourceNumber": "236254",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236127": {
+      "Name": "Redemption Leggings",
+      "Source": "Desecrated Legguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "236253",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236128": {
+      "Name": "Redemption Helmet",
+      "Source": "Desecrated Headpiece",
+      "SourceType": "TierToken",
+      "SourceNumber": "236249",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236129": {
+      "Name": "Redemption Gloves",
+      "Source": "Desecrated Handguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "236250",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236130": {
+      "Name": "Band of Redemption",
+      "Source": "Desecrated Ring",
+      "SourceType": "TierToken",
+      "SourceNumber": "237381",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236131": {
+      "Name": "Redemption Greaves",
+      "Source": "Desecrated Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "236248",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236132": {
+      "Name": "Redemption Breastplate",
+      "Source": "Desecrated Tunic",
+      "SourceType": "TierToken",
+      "SourceNumber": "236251",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236133": {
+      "Name": "Redemption Bracers",
+      "Source": "Desecrated Wristguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "236247",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236134": {
+      "Name": "Redemption Waistguard",
+      "Source": "Desecrated Girdle",
+      "SourceType": "TierToken",
+      "SourceNumber": "236252",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236135": {
+      "Name": "Redemption Pauldrons",
+      "Source": "Desecrated Spaulders",
+      "SourceType": "TierToken",
+      "SourceNumber": "236254",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236136": {
+      "Name": "Redemption Legplates",
+      "Source": "Desecrated Legguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "236253",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236137": {
+      "Name": "Redemption Crown",
+      "Source": "Desecrated Headpiece",
+      "SourceType": "TierToken",
+      "SourceNumber": "236249",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236138": {
+      "Name": "Redemption Gauntlets",
+      "Source": "Desecrated Handguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "236250",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236139": {
+      "Name": "Loop of Redemption",
+      "Source": "Desecrated Ring",
+      "SourceType": "TierToken",
+      "SourceNumber": "237381",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236140": {
+      "Name": "Redemption Sabatons",
+      "Source": "Desecrated Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "236248",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236141": {
+      "Name": "Redemption Chestguard",
+      "Source": "Desecrated Tunic",
+      "SourceType": "TierToken",
+      "SourceNumber": "236251",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236142": {
+      "Name": "Earthshatter Handguards",
+      "Source": "Desecrated Handguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "236250",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236143": {
+      "Name": "Earthshatter Legguards",
+      "Source": "Desecrated Legguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "236253",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236144": {
+      "Name": "Earthshatter Headpiece",
+      "Source": "Desecrated Headpiece",
+      "SourceType": "TierToken",
+      "SourceNumber": "236249",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236145": {
+      "Name": "Earthshatter Spaulders",
+      "Source": "Desecrated Spaulders",
+      "SourceType": "TierToken",
+      "SourceNumber": "236254",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236146": {
+      "Name": "Earthshatter Boots",
+      "Source": "Desecrated Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "236248",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236147": {
+      "Name": "Earthshatter Tunic",
+      "Source": "Desecrated Tunic",
+      "SourceType": "TierToken",
+      "SourceNumber": "236251",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236148": {
+      "Name": "Earthshatter Girdle",
+      "Source": "Desecrated Girdle",
+      "SourceType": "TierToken",
+      "SourceNumber": "236252",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236149": {
+      "Name": "Earthshatter Wristguards",
+      "Source": "Desecrated Wristguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "236247",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236150": {
+      "Name": "Ring of the Earthshatterer",
+      "Source": "Desecrated Ring",
+      "SourceType": "TierToken",
+      "SourceNumber": "237381",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236151": {
+      "Name": "Earthshatter Bindings",
+      "Source": "Desecrated Wristguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "236247",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236152": {
+      "Name": "Earthshatter Cord",
+      "Source": "Desecrated Girdle",
+      "SourceType": "TierToken",
+      "SourceNumber": "236252",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236153": {
+      "Name": "Earthshatter Mantle",
+      "Source": "Desecrated Spaulders",
+      "SourceType": "TierToken",
+      "SourceNumber": "236254",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236154": {
+      "Name": "Earthshatter Kilt",
+      "Source": "Desecrated Legguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "236253",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236155": {
+      "Name": "Earthshatter Crown",
+      "Source": "Desecrated Headpiece",
+      "SourceType": "TierToken",
+      "SourceNumber": "236249",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236156": {
+      "Name": "Earthshatter Mitts",
+      "Source": "Desecrated Handguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "236250",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236157": {
+      "Name": "Band of the Earthshatterer",
+      "Source": "Desecrated Ring",
+      "SourceType": "TierToken",
+      "SourceNumber": "237381",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236158": {
+      "Name": "Earthshatter Greaves",
+      "Source": "Desecrated Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "236248",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236159": {
+      "Name": "Earthshatter Embrace",
+      "Source": "Desecrated Tunic",
+      "SourceType": "TierToken",
+      "SourceNumber": "236251",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236160": {
+      "Name": "Earthshatter Bracers",
+      "Source": "Desecrated Wristguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "236247",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236162": {
+      "Name": "Earthshatter Waistguard",
+      "Source": "Desecrated Girdle",
+      "SourceType": "TierToken",
+      "SourceNumber": "236252",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236163": {
+      "Name": "Earthshatter Pauldrons",
+      "Source": "Desecrated Spaulders",
+      "SourceType": "TierToken",
+      "SourceNumber": "236254",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236164": {
+      "Name": "Earthshatter Legplates",
+      "Source": "Desecrated Legguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "236253",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236165": {
+      "Name": "Earthshatter Faceguard",
+      "Source": "Desecrated Headpiece",
+      "SourceType": "TierToken",
+      "SourceNumber": "236249",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236166": {
+      "Name": "Earthshatter Gloves",
+      "Source": "Desecrated Handguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "236250",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236167": {
+      "Name": "Loop of the Earthshatterer",
+      "Source": "Desecrated Ring",
+      "SourceType": "TierToken",
+      "SourceNumber": "237381",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236168": {
+      "Name": "Earthshatter Sabatons",
+      "Source": "Desecrated Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "236248",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236169": {
+      "Name": "Earthshatter Chestguard",
+      "Source": "Desecrated Tunic",
+      "SourceType": "TierToken",
+      "SourceNumber": "236251",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236170": {
+      "Name": "Earthshatter Vambraces",
+      "Source": "Desecrated Wristguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "236247",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236171": {
+      "Name": "Earthshatter Belt",
+      "Source": "Desecrated Girdle",
+      "SourceType": "TierToken",
+      "SourceNumber": "236252",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236172": {
+      "Name": "Earthshatter Epaulets",
+      "Source": "Desecrated Spaulders",
+      "SourceType": "TierToken",
+      "SourceNumber": "236254",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236173": {
+      "Name": "Earthshatter Leggings",
+      "Source": "Desecrated Legguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "236253",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236174": {
+      "Name": "Earthshatter Helmet",
+      "Source": "Desecrated Headpiece",
+      "SourceType": "TierToken",
+      "SourceNumber": "236249",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236175": {
+      "Name": "Earthshatter Grips",
+      "Source": "Desecrated Handguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "236250",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236176": {
+      "Name": "Signet of the Earthshatterer",
+      "Source": "Desecrated Ring",
+      "SourceType": "TierToken",
+      "SourceNumber": "237381",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236177": {
+      "Name": "Earthshatter Treads",
+      "Source": "Desecrated Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "236248",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236179": {
+      "Name": "Earthshatter Armor",
+      "Source": "Desecrated Tunic",
+      "SourceType": "TierToken",
+      "SourceNumber": "236251",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236182": {
+      "Name": "Dreamwalker Headpiece",
+      "Source": "Desecrated Headpiece",
+      "SourceType": "TierToken",
+      "SourceNumber": "236249",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236183": {
+      "Name": "Dreamwalker Wristguards",
+      "Source": "Desecrated Wristguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "236247",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236184": {
+      "Name": "Dreamwalker Handguards",
+      "Source": "Desecrated Handguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "236250",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236185": {
+      "Name": "Dreamwalker Boots",
+      "Source": "Desecrated Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "236248",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236186": {
+      "Name": "Dreamwalker Tunic",
+      "Source": "Desecrated Tunic",
+      "SourceType": "TierToken",
+      "SourceNumber": "236251",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236187": {
+      "Name": "Dreamwalker Girdle",
+      "Source": "Desecrated Girdle",
+      "SourceType": "TierToken",
+      "SourceNumber": "236252",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236188": {
+      "Name": "Dreamwalker Legguards",
+      "Source": "Desecrated Legguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "236253",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236189": {
+      "Name": "Dreamwalker Spaulders",
+      "Source": "Desecrated Spaulders",
+      "SourceType": "TierToken",
+      "SourceNumber": "236254",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236190": {
+      "Name": "Ring of the Dreamwalker",
+      "Source": "Desecrated Ring",
+      "SourceType": "TierToken",
+      "SourceNumber": "237381",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236192": {
+      "Name": "Dreamwalker Bindings",
+      "Source": "Desecrated Wristguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "236247",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236193": {
+      "Name": "Dreamwalker Cord",
+      "Source": "Desecrated Girdle",
+      "SourceType": "TierToken",
+      "SourceNumber": "236252",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236194": {
+      "Name": "Dreamwalker Mantle",
+      "Source": "Desecrated Spaulders",
+      "SourceType": "TierToken",
+      "SourceNumber": "236254",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236195": {
+      "Name": "Dreamwalker Kilt",
+      "Source": "Desecrated Legguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "236253",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236196": {
+      "Name": "Dreamwalker Hood",
+      "Source": "Desecrated Headpiece",
+      "SourceType": "TierToken",
+      "SourceNumber": "236249",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236197": {
+      "Name": "Dreamwalker Mitts",
+      "Source": "Desecrated Handguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "236250",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236198": {
+      "Name": "Band of the Dreamwalker",
+      "Source": "Desecrated Ring",
+      "SourceType": "TierToken",
+      "SourceNumber": "237381",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236199": {
+      "Name": "Dreamwalker Sandals",
+      "Source": "Desecrated Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "236248",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236200": {
+      "Name": "Dreamwalker Leathers",
+      "Source": "Desecrated Tunic",
+      "SourceType": "TierToken",
+      "SourceNumber": "236251",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236201": {
+      "Name": "Dreamwalker Bracers",
+      "Source": "Desecrated Wristguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "236247",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236202": {
+      "Name": "Dreamwalker Waistguard",
+      "Source": "Desecrated Girdle",
+      "SourceType": "TierToken",
+      "SourceNumber": "236252",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236203": {
+      "Name": "Dreamwalker Pauldrons",
+      "Source": "Desecrated Spaulders",
+      "SourceType": "TierToken",
+      "SourceNumber": "236254",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236204": {
+      "Name": "Dreamwalker Leggings",
+      "Source": "Desecrated Legguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "236253",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236205": {
+      "Name": "Dreamwalker Headdress",
+      "Source": "Desecrated Headpiece",
+      "SourceType": "TierToken",
+      "SourceNumber": "236249",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236206": {
+      "Name": "Dreamwalker Gauntlets",
+      "Source": "Desecrated Handguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "236250",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236207": {
+      "Name": "Loop of the Dreamwalker",
+      "Source": "Desecrated Ring",
+      "SourceType": "TierToken",
+      "SourceNumber": "237381",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236208": {
+      "Name": "Dreamwalker Sabatons",
+      "Source": "Desecrated Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "236248",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236209": {
+      "Name": "Dreamwalker Armor",
+      "Source": "Desecrated Tunic",
+      "SourceType": "TierToken",
+      "SourceNumber": "236251",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236210": {
+      "Name": "Dreamwalker Wraps",
+      "Source": "Desecrated Wristguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "236247",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236211": {
+      "Name": "Dreamwalker Sash",
+      "Source": "Desecrated Girdle",
+      "SourceType": "TierToken",
+      "SourceNumber": "236252",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236212": {
+      "Name": "Dreamwalker Shoulderpads",
+      "Source": "Desecrated Spaulders",
+      "SourceType": "TierToken",
+      "SourceNumber": "236254",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236213": {
+      "Name": "Dreamwalker Trousers",
+      "Source": "Desecrated Legguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "236253",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236214": {
+      "Name": "Dreamwalker Cowl",
+      "Source": "Desecrated Headpiece",
+      "SourceType": "TierToken",
+      "SourceNumber": "236249",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236215": {
+      "Name": "Dreamwalker Grips",
+      "Source": "Desecrated Handguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "236250",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236216": {
+      "Name": "Signet of the Dreamwalker",
+      "Source": "Desecrated Ring",
+      "SourceType": "TierToken",
+      "SourceNumber": "237381",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236217": {
+      "Name": "Dreamwalker Stompers",
+      "Source": "Desecrated Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "236248",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236218": {
+      "Name": "Dreamwalker Vest",
+      "Source": "Desecrated Tunic",
+      "SourceType": "TierToken",
+      "SourceNumber": "236251",
+      "SourceLocation": "Naxxramas",
       "SourceFaction": "B"
     }
   }

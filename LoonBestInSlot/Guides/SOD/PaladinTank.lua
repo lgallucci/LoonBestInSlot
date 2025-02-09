@@ -650,9 +650,9 @@ local function LoadData()
     LBIS:AddItem(spec7, "231784", LBIS.L["Trinket"], "Alt") --Lightning's Cell
     LBIS:AddItem(spec7, "228078", LBIS.L["Trinket"], "Alt") --Accursed Chalice
     LBIS:AddItem(spec7, "221309", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Sandstorm
-    LBIS:AddItem(spec7, "229806", LBIS.L["Main Hand"], "BIS") --Truthbearer
+    LBIS:AddItem(spec7, "236341", LBIS.L["Main Hand"], "BIS") --The Hungering Cold
+    LBIS:AddItem(spec7, "229806", LBIS.L["Main Hand"], "Alt") --Truthbearer
     LBIS:AddItem(spec7, "236263", LBIS.L["Main Hand"], "Alt Mit") --Widow's Remorse
-    LBIS:AddItem(spec7, "236341", LBIS.L["Main Hand"], "Alt") --The Hungering Cold
     LBIS:AddItem(spec7, "230224", LBIS.L["Main Hand"], "Alt") --Thunderfury, Blessed Blade of the Windseeker
     LBIS:AddItem(spec7, "234579", LBIS.L["Main Hand"], "Alt") --Grand Marshal's Swiftblade
     LBIS:AddItem(spec7, "227840", LBIS.L["Main Hand"], "Alt") --Implacable Blackguard

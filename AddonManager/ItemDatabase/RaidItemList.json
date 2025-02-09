@@ -840,8 +840,40 @@
       "SourceLocation": "Zul'Gurub",
       "SourceFaction": "B"
     },
+    "20884": {
+      "Name": "Qiraji Magisterial Ring",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "20885": {
+      "Name": "Qiraji Martial Drape",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
     "20886": {
       "Name": "Qiraji Spiked Hilt",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "20888": {
+      "Name": "Qiraji Ceremonial Ring",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "20889": {
+      "Name": "Qiraji Regal Drape",
       "Source": "Various Bosses",
       "SourceType": "Drop",
       "SourceNumber": "0",
@@ -862,6 +894,14 @@
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "22726": {
+      "Name": "Splinter of Atiesh",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
       "SourceFaction": "B"
     },
     "22739": {
@@ -7544,37 +7584,1021 @@
       "SourceLocation": "Ruins of Ahn'Qiraj",
       "SourceFaction": "B"
     },
-    "20889": {
-      "Name": "Qiraji Regal Drape",
-      "Source": "Various Bosses",
+    "236219": {
+      "Name": "Harbinger of Doom",
+      "Source": "Heigan the Unclean",
       "SourceType": "Drop",
       "SourceNumber": "0",
-      "SourceLocation": "Ruins of Ahn'Qiraj",
-      "SourceFaction": "B"      
-    },
-    "20885": {
-      "Name": "Qiraji Martial Drape",
-      "Source": "Various Bosses",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ruins of Ahn'Qiraj",
-      "SourceFaction": "B"     
-    },
-    "20884": {
-      "Name": "Qiraji Magisterial Ring",
-      "Source": "Various Bosses",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceLocation": "Naxxramas",
       "SourceFaction": "B"
     },
-    "20888": {
-      "Name": "Qiraji Ceremonial Ring",
+    "236220": {
+      "Name": "Necro-Knight's Garb",
+      "Source": "Instructor Razuvious",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236221": {
+      "Name": "Misplaced Servo Arm",
+      "Source": "Grobbulus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236222": {
+      "Name": "Ghoul Skin Tunic",
+      "Source": "Patchwerk",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236223": {
+      "Name": "Ring of the Eternal Flame",
+      "Source": "Grand Widow Faerlina",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236224": {
+      "Name": "Stygian Buckler",
+      "Source": "Gluth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236225": {
+      "Name": "Girdle of Elemental Fury",
+      "Source": "Gothik the Harvester",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236226": {
+      "Name": "Pauldrons of Elemental Fury",
+      "Source": "Anub'Rekhan",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236227": {
+      "Name": "Belt of the Grand Crusader",
+      "Source": "Gothik the Harvester",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236228": {
+      "Name": "Spaulders of the Grand Crusader",
+      "Source": "Anub'Rekhan",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236229": {
+      "Name": "Leggings of the Grand Crusader",
+      "Source": "Noth the Plaguebringer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236230": {
+      "Name": "Leggings of Elemental Fury",
+      "Source": "Noth the Plaguebringer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236231": {
+      "Name": "Desecrated Breastplate",
+      "Source": "",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236232": {
+      "Name": "Desecrated Waistguard",
+      "Source": "Noth the Plaguebringer & Heigan the Unclean & Gluth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236233": {
+      "Name": "Desecrated Gauntlets",
+      "Source": "Maexxna",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236234": {
+      "Name": "Desecrated Sabatons",
+      "Source": "Instructor Razuvious & Gothik the Harvester & Gluth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236235": {
+      "Name": "Desecrated Bracers",
+      "Source": "Anub'Rekhan & Grand Widow Faerlina & Gluth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236236": {
+      "Name": "Desecrated Helmet",
+      "Source": "Thaddius",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236237": {
+      "Name": "Desecrated Pauldrons",
+      "Source": "Patchwerk & Grobbulus & Gluth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236238": {
+      "Name": "Desecrated Legplates",
+      "Source": "Loatheb",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236239": {
+      "Name": "Desecrated Sandals",
+      "Source": "Instructor Razuvious & Gothik the Harvester & Gluth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236240": {
+      "Name": "Desecrated Shoulderpads",
+      "Source": "Patchwerk & Grobbulus & Gluth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236241": {
+      "Name": "Desecrated Circlet",
+      "Source": "Thaddius",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236242": {
+      "Name": "Desecrated Robe",
+      "Source": "",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236243": {
+      "Name": "Desecrated Gloves",
+      "Source": "Maexxna",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236244": {
+      "Name": "Desecrated Belt",
+      "Source": "Noth the Plaguebringer & Heigan the Unclean & Gluth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236245": {
+      "Name": "Desecrated Bindings",
+      "Source": "Anub'Rekhan & Grand Widow Faerlina & Gluth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236246": {
+      "Name": "Desecrated Leggings",
+      "Source": "Loatheb",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236247": {
+      "Name": "Desecrated Wristguards",
+      "Source": "Anub'Rekhan & Grand Widow Faerlina & Gluth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236248": {
+      "Name": "Desecrated Boots",
+      "Source": "Instructor Razuvious & Gothik the Harvester & Gluth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236249": {
+      "Name": "Desecrated Headpiece",
+      "Source": "Thaddius",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236250": {
+      "Name": "Desecrated Handguards",
+      "Source": "Maexxna",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236251": {
+      "Name": "Desecrated Tunic",
+      "Source": "",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236252": {
+      "Name": "Desecrated Girdle",
+      "Source": "Noth the Plaguebringer & Heigan the Unclean & Gluth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236253": {
+      "Name": "Desecrated Legguards",
+      "Source": "Loatheb",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236254": {
+      "Name": "Desecrated Spaulders",
+      "Source": "Patchwerk & Grobbulus & Gluth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236255": {
+      "Name": "Wristguards of Vengeance",
+      "Source": "Anub'Rekhan",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236256": {
+      "Name": "Touch of Frost",
+      "Source": "Anub'Rekhan",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236257": {
+      "Name": "Gem of Nerubis",
+      "Source": "Anub'Rekhan",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236258": {
+      "Name": "Cryptfiend Silk Cloak",
+      "Source": "Anub'Rekhan",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236259": {
+      "Name": "Band of Unanswered Prayers",
+      "Source": "Anub'Rekhan",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236260": {
+      "Name": "Icebane Pauldrons",
+      "Source": "Grand Widow Faerlina",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236261": {
+      "Name": "Malice Stone Pendant",
+      "Source": "Grand Widow Faerlina",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236262": {
+      "Name": "Polar Shoulder Pads",
+      "Source": "Grand Widow Faerlina",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236263": {
+      "Name": "Widow's Remorse",
+      "Source": "Grand Widow Faerlina",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236264": {
+      "Name": "The Widow's Embrace",
+      "Source": "Grand Widow Faerlina",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236265": {
+      "Name": "Wraith Blade",
+      "Source": "Maexxna",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236266": {
+      "Name": "Pendant of Forgotten Names",
+      "Source": "Maexxna",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236267": {
+      "Name": "Crystal Webbed Robe",
+      "Source": "Maexxna",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236268": {
+      "Name": "Kiss of the Spider",
+      "Source": "Maexxna",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236269": {
+      "Name": "Maexxna's Fang",
+      "Source": "Maexxna",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236270": {
+      "Name": "Hatchet of Sundered Bone",
+      "Source": "Noth the Plaguebringer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236271": {
+      "Name": "Libram of Light",
+      "Source": "Noth the Plaguebringer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236272": {
+      "Name": "Cloak of the Scourge",
+      "Source": "Noth the Plaguebringer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236273": {
+      "Name": "Band of the Inevitable",
+      "Source": "Noth the Plaguebringer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236274": {
+      "Name": "Hailstone Band",
+      "Source": "Noth the Plaguebringer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236275": {
+      "Name": "Noth's Frigid Heart",
+      "Source": "Noth the Plaguebringer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236276": {
+      "Name": "Totem of Flowing Water",
+      "Source": "Noth the Plaguebringer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236277": {
+      "Name": "Necklace of Necropsy",
+      "Source": "Heigan the Unclean",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236278": {
+      "Name": "Glacial Headdress",
+      "Source": "Gothik the Harvester",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236279": {
+      "Name": "Preceptor's Hat",
+      "Source": "Heigan the Unclean",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236280": {
+      "Name": "Legplates of Carnage",
+      "Source": "Heigan the Unclean",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236281": {
+      "Name": "Icy Scale Coif",
+      "Source": "Heigan the Unclean",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236282": {
+      "Name": "Loatheb's Reflection",
+      "Source": "Loatheb",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236283": {
+      "Name": "Ring of Spiritual Fervor",
+      "Source": "Loatheb",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236284": {
+      "Name": "Brimstone Staff",
+      "Source": "Loatheb",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236285": {
+      "Name": "The Eye of Nerub",
+      "Source": "Loatheb",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236286": {
+      "Name": "Band of Unnatural Forces",
+      "Source": "Loatheb",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236287": {
+      "Name": "Severance",
+      "Source": "Patchwerk",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236288": {
+      "Name": "The Plague Bearer",
+      "Source": "Patchwerk",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236289": {
+      "Name": "Cloak of Suturing",
+      "Source": "Patchwerk",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236290": {
+      "Name": "Wand of Fates",
+      "Source": "Patchwerk",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236291": {
+      "Name": "Band of Reanimation",
+      "Source": "Patchwerk",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236292": {
+      "Name": "Midnight Haze",
+      "Source": "Grobbulus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236293": {
+      "Name": "Toxin Injector",
+      "Source": "Grobbulus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236294": {
+      "Name": "Icy Scale Spaulders",
+      "Source": "Grobbulus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236295": {
+      "Name": "Glacial Mantle",
+      "Source": "Grobbulus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236296": {
+      "Name": "Death's Bargain",
+      "Source": "Gluth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236297": {
+      "Name": "The End of Dreams",
+      "Source": "Grobbulus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236298": {
+      "Name": "Rime Covered Mantle",
+      "Source": "Gluth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236299": {
+      "Name": "Claymore of Unholy Might",
+      "Source": "Gluth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236300": {
+      "Name": "Gluth's Missing Collar",
+      "Source": "Gluth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236301": {
+      "Name": "Digested Hand of Power",
+      "Source": "Gluth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236302": {
+      "Name": "Eye of Diminution",
+      "Source": "Thaddius",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236303": {
+      "Name": "Leggings of Polarity",
+      "Source": "Thaddius",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236304": {
+      "Name": "Plated Abomination Ribcage",
+      "Source": "Thaddius",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236305": {
+      "Name": "Spire of Twilight",
+      "Source": "Thaddius",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236306": {
+      "Name": "The Castigator",
+      "Source": "Thaddius",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236307": {
+      "Name": "Veil of Eclipse",
+      "Source": "Instructor Razuvious",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236308": {
+      "Name": "Idol of Longevity",
+      "Source": "Instructor Razuvious",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236309": {
+      "Name": "Girdle of the Mentor",
+      "Source": "Instructor Razuvious",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236310": {
+      "Name": "Wand of the Whispering Dead",
+      "Source": "Instructor Razuvious",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236311": {
+      "Name": "Signet of the Fallen Defender",
+      "Source": "Instructor Razuvious",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236312": {
+      "Name": "Iblis, Blade of the Fallen Seraph",
+      "Source": "Instructor Razuvious",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236313": {
+      "Name": "The Soul Harvester's Bindings",
+      "Source": "Gothik the Harvester",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236314": {
+      "Name": "Boots of Displacement",
+      "Source": "Gothik the Harvester",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236315": {
+      "Name": "Polar Helmet",
+      "Source": "Gothik the Harvester",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236316": {
+      "Name": "Sadist's Collar",
+      "Source": "Gothik the Harvester",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236319": {
+      "Name": "Leggings of Apocalypse",
+      "Source": "",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236321": {
+      "Name": "Maul of the Redeemed Crusader",
+      "Source": "",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236322": {
+      "Name": "Soulstring",
+      "Source": "",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236323": {
+      "Name": "Resilience of the Scourge",
+      "Source": "Sapphiron",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236324": {
+      "Name": "Power of the Scourge",
+      "Source": "Sapphiron",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236325": {
+      "Name": "Fortitude of the Scourge",
+      "Source": "Sapphiron",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236326": {
+      "Name": "Might of the Scourge",
+      "Source": "Sapphiron",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236329": {
+      "Name": "Eye of the Dead",
+      "Source": "Sapphiron",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236330": {
+      "Name": "Sapphiron's Right Eye",
+      "Source": "Sapphiron",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236331": {
+      "Name": "The Restrained Essence of Sapphiron",
+      "Source": "Sapphiron",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236333": {
+      "Name": "Shroud of Dominion",
+      "Source": "Sapphiron",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236334": {
+      "Name": "Slayer's Crest",
+      "Source": "Sapphiron",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236336": {
+      "Name": "The Face of Death",
+      "Source": "Sapphiron",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236339": {
+      "Name": "Gressil, Dawn of Ruin",
+      "Source": "Kel'Thuzad",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236340": {
+      "Name": "Might of Menethil",
+      "Source": "Kel'Thuzad",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236341": {
+      "Name": "The Hungering Cold",
+      "Source": "Kel'Thuzad",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236342": {
+      "Name": "Stormrage's Talisman of Seething",
+      "Source": "Kel'Thuzad",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236343": {
+      "Name": "Kingsfall",
+      "Source": "Kel'Thuzad",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236344": {
+      "Name": "Nerubian Slavemaker",
+      "Source": "Kel'Thuzad",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236345": {
+      "Name": "Gem of Trapped Innocents",
+      "Source": "Kel'Thuzad",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236346": {
+      "Name": "Soulseeker",
+      "Source": "Kel'Thuzad",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236347": {
+      "Name": "Shield of Condemnation",
+      "Source": "Kel'Thuzad",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236348": {
+      "Name": "Hammer of the Twisting Nether",
+      "Source": "Kel'Thuzad",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236349": {
+      "Name": "Doomfinger",
+      "Source": "Kel'Thuzad",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236350": {
+      "Name": "The Phylactery of Kel'Thuzad",
+      "Source": "Kel'Thuzad",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236397": {
+      "Name": "Remnants of Valor",
       "Source": "Various Bosses",
       "SourceType": "Drop",
       "SourceNumber": "0",
-      "SourceLocation": "Ruins of Ahn'Qiraj",
-      "SourceFaction": "B"     
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "237275": {
+      "Name": "Icebane Helmet",
+      "Source": "Heigan the Unclean",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "237381": {
+      "Name": "Desecrated Ring",
+      "Source": "Kel'Thuzad",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "237577": {
+      "Name": "Totem of Unholy Might",
+      "Source": "Gluth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
     }
   }
 }

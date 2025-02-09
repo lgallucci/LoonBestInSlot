@@ -18,7 +18,7 @@ public class ProfessionImporter : LootImporter
     internal override string FileName { get => "ProfessionItemList"; }
     internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, Action<string> writeToLog)
     {
-        items.Items.Clear();
+        //items.Items.Clear();
 
         await Common.LoadFromWebPages(professionUriList.Keys.ToList(), (uri, doc) =>
         {

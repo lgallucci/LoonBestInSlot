@@ -13,11 +13,13 @@ local function LoadData()
     LBIS:AddEnchant(spec7, "1219883", LBIS.L["Shoulder"]) --
     LBIS:AddEnchant(spec7, "1219886", LBIS.L["Shoulder"]) --
     LBIS:AddEnchant(spec7, "1219878", LBIS.L["Shoulder"]) --
+    LBIS:AddEnchant(spec7, "1219512", LBIS.L["Shoulder"]) --
     LBIS:AddEnchant(spec7, "24422", LBIS.L["Shoulder"]) --Zandalar Signet of Might
     LBIS:AddEnchant(spec7, "25084", LBIS.L["Back"]) --
     LBIS:AddEnchant(spec7, "1219587", LBIS.L["Back"]) --
     LBIS:AddEnchant(spec7, "1213616", LBIS.L["Chest"]) --
     LBIS:AddEnchant(spec7, "20025", LBIS.L["Chest"]) --Enchant Chest - Greater Stats
+    LBIS:AddEnchant(spec7, "1217203", LBIS.L["Wrist"]) --
     LBIS:AddEnchant(spec7, "20010", LBIS.L["Wrist"]) --Enchant Bracer - Superior Strength
     LBIS:AddEnchant(spec7, "1219586", LBIS.L["Hands"]) --
     LBIS:AddEnchant(spec7, "25080", LBIS.L["Hands"]) --
@@ -759,8 +761,8 @@ local function LoadData()
     LBIS:AddItem(spec7, "236262", LBIS.L["Shoulder"], "Alt") --Polar Shoulder Pads
     LBIS:AddItem(spec7, "236333", LBIS.L["Back"], "BIS") --Shroud of Dominion
     LBIS:AddItem(spec7, "234802", LBIS.L["Back"], "BIS") --Cloak of the Fallen God
-    LBIS:AddItem(spec7, "230842", LBIS.L["Back"], "Alt") --Cloak of Draconic Might
     LBIS:AddItem(spec7, "236272", LBIS.L["Back"], "Alt") --Cloak of the Scourge
+    LBIS:AddItem(spec7, "230842", LBIS.L["Back"], "Alt") --Cloak of Draconic Might
     LBIS:AddItem(spec7, "233504", LBIS.L["Back"], "Alt") --Cloak of Concentrated Hatred
     LBIS:AddItem(spec7, "233606", LBIS.L["Back"], "Alt") --Cloak of the Golden Hive
     LBIS:AddItem(spec7, "233427", LBIS.L["Back"], "Alt") --Cape of Eternal Justice
@@ -768,7 +770,7 @@ local function LoadData()
     LBIS:AddItem(spec7, "236690", LBIS.L["Back"], "Alt") --Glacial Cloak
     LBIS:AddItem(spec7, "236132", LBIS.L["Chest"], "BIS") --Redemption Breastplate
     LBIS:AddItem(spec7, "236304", LBIS.L["Chest"], "BIS") --Plated Abomination Ribcage
-    LBIS:AddItem(spec7, "236708", LBIS.L["Chest"], "Alt") --Breastplate of Undead Slaying
+    LBIS:AddItem(spec7, "236709", LBIS.L["Chest"], "Alt") --Chestguard of Undead Slaying
     LBIS:AddItem(spec7, "236222", LBIS.L["Chest"], "Alt") --Ghoul Skin Tunic
     LBIS:AddItem(spec7, "231181", LBIS.L["Chest"], "Alt") --Judgement Breastplate
     LBIS:AddItem(spec7, "233397", LBIS.L["Chest"], "Alt") --Avenger's Breastplate
@@ -777,7 +779,7 @@ local function LoadData()
     LBIS:AddItem(spec7, "236702", LBIS.L["Chest"], "Alt") --Polar Tunic
     LBIS:AddItem(spec7, "236124", LBIS.L["Wrist"], "BIS") --Redemption Vambraces
     LBIS:AddItem(spec7, "231174", LBIS.L["Wrist"], "BIS") --Judgement Bindings
-    LBIS:AddItem(spec7, "236712", LBIS.L["Wrist"], "Alt") --Bracers of Undead Slaying
+    LBIS:AddItem(spec7, "236710", LBIS.L["Wrist"], "Alt") --Wristguards of Undead Slaying
     LBIS:AddItem(spec7, "236255", LBIS.L["Wrist"], "Alt") --Wristguards of Vengeance
     LBIS:AddItem(spec7, "235872", LBIS.L["Wrist"], "Alt") --Stalker's Bands
     LBIS:AddItem(spec7, "233612", LBIS.L["Wrist"], "Alt") --Qiraji Execution Bracers
@@ -785,7 +787,7 @@ local function LoadData()
     LBIS:AddItem(spec7, "234103", LBIS.L["Wrist"], "Alt") --Bracers of Brutality
     LBIS:AddItem(spec7, "236701", LBIS.L["Wrist"], "Alt") --Polar Bracers
     LBIS:AddItem(spec7, "236129", LBIS.L["Hands"], "BIS") --Redemption Gloves
-    LBIS:AddItem(spec7, "236714", LBIS.L["Hands"], "Alt") --Gauntlets of Undead Slaying
+    LBIS:AddItem(spec7, "236715", LBIS.L["Hands"], "Alt") --Handguards of Undead Slaying
     LBIS:AddItem(spec7, "231179", LBIS.L["Hands"], "Alt") --Judgement Gauntlets
     LBIS:AddItem(spec7, "235877", LBIS.L["Hands"], "Alt") --Fanatic's Gauntlets
     LBIS:AddItem(spec7, "233637", LBIS.L["Hands"], "Alt") --Gauntlets of Annihilation
@@ -818,7 +820,7 @@ local function LoadData()
     LBIS:AddItem(spec7, "233561", LBIS.L["Feet"], "Alt") --Boots of the Fallen Hero
     LBIS:AddItem(spec7, "230741", LBIS.L["Feet"], "Alt") --Chromatic Boots
     LBIS:AddItem(spec7, "236342", LBIS.L["Neck"], "BIS") --Stormrage's Talisman of Seething
-    LBIS:AddItem(spec7, "228354", LBIS.L["Neck"], "Alt") --Blazefury Medallion
+    LBIS:AddItem(spec7, "228354", LBIS.L["Neck"], "BIS") --Blazefury Medallion
     LBIS:AddItem(spec7, "235886", LBIS.L["Neck"], "Alt") --Kaigy's Clasp
     LBIS:AddItem(spec7, "236316", LBIS.L["Neck"], "Alt") --Sadist's Collar
     LBIS:AddItem(spec7, "237280", LBIS.L["Neck"], "Alt") --Medallion of the Dawn
@@ -853,11 +855,11 @@ local function LoadData()
     LBIS:AddItem(spec7, "234462", LBIS.L["Trinket"], "Alt") --Earthstrike
     LBIS:AddItem(spec7, "228078", LBIS.L["Trinket"], "Alt") --Accursed Chalice
     LBIS:AddItem(spec7, "237512", LBIS.L["Two Hand"], "BIS") --Blade of Inquisition
-    LBIS:AddItem(spec7, "229749", LBIS.L["Two Hand"], "BIS") --Truthbearer
-    LBIS:AddItem(spec7, "234981", LBIS.L["Two Hand"], "BIS") --Kalimdor's Revenge
+    LBIS:AddItem(spec7, "236299", LBIS.L["Two Hand"], "BIS") --Claymore of Unholy Might
+    LBIS:AddItem(spec7, "229749", LBIS.L["Two Hand"], "Alt") --Truthbearer
     LBIS:AddItem(spec7, "236340", LBIS.L["Two Hand"], "Alt") --Might of Menethil
     LBIS:AddItem(spec7, "236287", LBIS.L["Two Hand"], "Alt") --Severance
-    LBIS:AddItem(spec7, "236299", LBIS.L["Two Hand"], "Alt") --Claymore of Unholy Might
+    LBIS:AddItem(spec7, "234981", LBIS.L["Two Hand"], "Alt") --Kalimdor's Revenge
     LBIS:AddItem(spec7, "235891", LBIS.L["Two Hand"], "Alt") --Ol' Reliable
     LBIS:AddItem(spec7, "233490", LBIS.L["Two Hand"], "Alt") --Obsidian Champion
     LBIS:AddItem(spec7, "234985", LBIS.L["Two Hand"], "Alt") --Dark Edge of Insanity

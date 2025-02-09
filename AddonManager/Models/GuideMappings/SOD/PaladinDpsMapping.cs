@@ -19,9 +19,9 @@ internal class SODPaladinDpsMapping : SODSpecMapping
         {
             { ("Trinket", "#trinkets-for-seal-twisting-stacking") },
             { ("Trinket", "#trinkets-for-exodin") },
-            { ("Two Hand", "h5#weapons-for-seal-stacking") },
-            { ("Two Hand", "h5#weapons-for-seal-twisting") },
-            { ("Two Hand", "h5#weapons-for-exodin") },
+            { ("Two Hand", "h3#weapons-stacking") },
+            { ("Two Hand", "h3#weapons-twisting") },
+            { ("Two Hand", "h3#weapons-exodin") },
             { ("Ranged/Relic", "#libram") },
         };
 }

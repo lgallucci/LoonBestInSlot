@@ -623,6 +623,142 @@
       "SourceNumber": "0",
       "SourceLocation": "1217207",
       "SourceFaction": "B"
+    },
+    "236690": {
+      "Name": "Glacial Cloak",
+      "Source": "Tailoring",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "1223762",
+      "SourceFaction": "B"
+    },
+    "236692": {
+      "Name": "Glacial Gloves",
+      "Source": "Tailoring",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "1223764",
+      "SourceFaction": "B"
+    },
+    "236693": {
+      "Name": "Glacial Wrists",
+      "Source": "Tailoring",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "1223766",
+      "SourceFaction": "B"
+    },
+    "236694": {
+      "Name": "Glacial Vest",
+      "Source": "Tailoring",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "1223760",
+      "SourceFaction": "B"
+    },
+    "236695": {
+      "Name": "Icebane Breastplate",
+      "Source": "Blacksmithing",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "1223787",
+      "SourceFaction": "B"
+    },
+    "236696": {
+      "Name": "Icebane Bracers",
+      "Source": "Blacksmithing",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "1223791",
+      "SourceFaction": "B"
+    },
+    "236697": {
+      "Name": "Icebane Gauntlets",
+      "Source": "Blacksmithing",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "1223789",
+      "SourceFaction": "B"
+    },
+    "236698": {
+      "Name": "Icy Scale Bracers",
+      "Source": "Leatherworking",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "1223778",
+      "SourceFaction": "B"
+    },
+    "236699": {
+      "Name": "Icy Scale Breastplate",
+      "Source": "Leatherworking",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "1223774",
+      "SourceFaction": "B"
+    },
+    "236700": {
+      "Name": "Icy Scale Gauntlets",
+      "Source": "Leatherworking",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "1223776",
+      "SourceFaction": "B"
+    },
+    "236701": {
+      "Name": "Polar Bracers",
+      "Source": "Leatherworking",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "1223784",
+      "SourceFaction": "B"
+    },
+    "236702": {
+      "Name": "Polar Tunic",
+      "Source": "Leatherworking",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "1223780",
+      "SourceFaction": "B"
+    },
+    "236703": {
+      "Name": "Polar Gloves",
+      "Source": "Leatherworking",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "1223782",
+      "SourceFaction": "B"
+    },
+    "236704": {
+      "Name": "Frosty Wrists",
+      "Source": "Tailoring",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "1223772",
+      "SourceFaction": "B"
+    },
+    "236705": {
+      "Name": "Frosty Gloves",
+      "Source": "Tailoring",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "1223770",
+      "SourceFaction": "B"
+    },
+    "236706": {
+      "Name": "Frosty Vest",
+      "Source": "Tailoring",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "1223768",
+      "SourceFaction": "B"
+    },
+    "236871": {
+      "Name": "Creepy Censor Sensors",
+      "Source": "Engineering",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "1221012",
+      "SourceFaction": "B"
     }
   }
 }

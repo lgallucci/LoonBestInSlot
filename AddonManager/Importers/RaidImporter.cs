@@ -32,25 +32,21 @@ public class RaidImporter : LootImporter
 
     private Dictionary<string, (string, string)> bossUriList = new Dictionary<string, (string, string)>
     {
-        { @"https://www.wowhead.com/classic/npc=15348/kurinnaxx#drops", ("Kurinnaxx", "Ruins of Ahn'Qiraj") },
-        { @"https://www.wowhead.com/classic/npc=15341/general-rajaxx#drops", ("General Rajaxx", "Ruins of Ahn'Qiraj") },
-        { @"https://www.wowhead.com/classic/npc=15340/moam#drops", ("Moam", "Ruins of Ahn'Qiraj") },
-        { @"https://www.wowhead.com/classic/npc=15370/buru-the-gorger#drops", ("Buru the Gorger", "Ruins of Ahn'Qiraj") },
-        { @"https://www.wowhead.com/classic/npc=15369/ayamiss-the-hunter#drops", ("Ayamiss the Hunter", "Ruins of Ahn'Qiraj") },
-        { @"https://www.wowhead.com/classic/npc=15339/ossirian-the-unscarred#drops", ("Ossirian the Unscarred", "Ruins of Ahn'Qiraj") },
-
-        { @"https://www.wowhead.com/classic/npc=15263/the-prophet-skeram#drops", ("The Prophet Skeram", "Ahn'Qiraj") },
-        { @"https://www.wowhead.com/classic/npc=15516/battleguard-sartura#drops", ("Battleguard Sartura", "Ahn'Qiraj") },
-        { @"https://www.wowhead.com/classic/npc=15510/fankriss-the-unyielding#drops", ("Fankriss the Unyielding", "Ahn'Qiraj") },
-        { @"https://www.wowhead.com/classic/npc=15509/princess-huhuran#drops", ("Princess Huhuran", "Ahn'Qiraj") },
-        { @"https://www.wowhead.com/classic/npc=15276/emperor-veklor#drops", ("Emperor Vek'lor", "Ahn'Qiraj") },
-        { @"https://www.wowhead.com/classic/npc=15275/emperor-veknilash#drops", ("Emperor Vek'nilash", "Ahn'Qiraj") },
-        { @"https://www.wowhead.com/classic/npc=15727/cthun#drops", ("C'Thun", "Ahn'Qiraj") },
-        { @"https://www.wowhead.com/classic/npc=15543/princess-yauj#drops", ("Princess Yauj", "Ahn'Qiraj") },
-        { @"https://www.wowhead.com/classic/npc=15544/vem#drops", ("Vem", "Ahn'Qiraj") },
-        { @"https://www.wowhead.com/classic/npc=15511/lord-kri#drops", ("Lord Kri", "Ahn'Qiraj") },
-        { @"https://www.wowhead.com/classic/npc=15299/viscidus#drops", ("Viscidus", "Ahn'Qiraj") },
-        { @"https://www.wowhead.com/classic/npc=15517/ouro#drops", ("Ouro", "Ahn'Qiraj") },
+        { @"https://www.wowhead.com/classic/npc=15956/anubrekhan#drops", ("Anub'Rekhan", "Naxxramas") },
+        { @"https://www.wowhead.com/classic/npc=15953/grand-widow-faerlina#drops", ("Grand Widow Faerlina", "Naxxramas") },
+        { @"https://www.wowhead.com/classic/npc=15952/maexxna#drops", ("Maexxna", "Naxxramas") },
+        { @"https://www.wowhead.com/classic/npc=15954/noth-the-plaguebringer#drops", ("Noth the Plaguebringer", "Naxxramas") },
+        { @"https://www.wowhead.com/classic/npc=15936/heigan-the-unclean#drops", ("Heigan the Unclean", "Naxxramas") },
+        { @"https://www.wowhead.com/classic/npc=16011/loatheb#drops", ("Loatheb", "Naxxramas") },
+        { @"https://www.wowhead.com/classic/npc=16061/instructor-razuvious#drops", ("Instructor Razuvious", "Naxxramas") },
+        { @"https://www.wowhead.com/classic/npc=16060/gothik-the-harvester#drops", ("Gothik the Harvester", "Naxxramas") },
+        { @"https://www.wowhead.com/classic/object=181366/four-horsemen-chest#contains", ("", "Naxxramas") },
+        { @"https://www.wowhead.com/classic/npc=16028/patchwerk#drops", ("Patchwerk", "Naxxramas") },
+        { @"https://www.wowhead.com/classic/npc=15931/grobbulus#drops", ("Grobbulus", "Naxxramas") },
+        { @"https://www.wowhead.com/classic/npc=15932/gluth#drops", ("Gluth", "Naxxramas") },
+        { @"https://www.wowhead.com/classic/npc=15928/thaddius#drops", ("Thaddius", "Naxxramas") },
+        { @"https://www.wowhead.com/classic/npc=15989/sapphiron#drops", ("Sapphiron", "Naxxramas") },
+        { @"https://www.wowhead.com/classic/npc=15990/kelthuzad#drops", ("Kel'Thuzad", "Naxxramas") },
     };
     
 
@@ -64,14 +60,42 @@ public class RaidImporter : LootImporter
         //     items.AddItems(await ConvertRaidLoot(raidUri, items, writeToLog));
         // }
 
-        await GetItemDrops(items, writeToLog);
+        await GetItemDrops(items, bossUriList.Keys.Where(b => b.Contains("drops")), writeToLog);
+        await GetItemContains(items, bossUriList.Keys.Where(b => b.Contains("contains")), writeToLog);
 
         return items;
     }
 
-    private async Task GetItemDrops(DatabaseItems items, Action<string> writeToLog)
+    private async Task GetItemDrops(DatabaseItems items, IEnumerable<string> uriList, Action<string> writeToLog)
     {
-        await Common.ReadWowheadDropsList(bossUriList.Keys.ToList(), (uri, row, itemId, item) => {
+        await Common.ReadWowheadDropsList(uriList, (uri, row, itemId, item) => {
+            var sourceFaction = "B";
+            var isPurple = (item.ClassName?.Contains("q4") ?? false) || (item.ClassName?.Contains("q5") ?? false);
+            if (!isPurple) return;
+            if (row.Children[6].Children.Count() > 0)
+            {
+                var factionColumn = (IElement)row.Children[6].ChildNodes[0];
+                if (factionColumn?.ClassName == "icon-horde")
+                    sourceFaction = "H";
+                else if (factionColumn?.ClassName == "icon-alliance")
+                    sourceFaction = "A";
+            }
+
+            items.AddItem(itemId, new DatabaseItem 
+            {
+                Name = item?.TextContent ?? "unknown",
+                Source = bossUriList[uri].Item1,
+                SourceType = "Drop",
+                SourceNumber = "0",
+                SourceLocation = bossUriList[uri].Item2,
+                SourceFaction = sourceFaction
+            });
+        }, writeToLog);
+    }
+
+    private async Task GetItemContains(DatabaseItems items, IEnumerable<string> uriList, Action<string> writeToLog)
+    {
+        await Common.ReadWowheadContainsList(uriList, (uri, row, itemId, item) => {
             var sourceFaction = "B";
             var isPurple = (item.ClassName?.Contains("q4") ?? false) || (item.ClassName?.Contains("q5") ?? false);
             if (!isPurple) return;

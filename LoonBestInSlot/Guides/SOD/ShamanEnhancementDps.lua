@@ -12,6 +12,7 @@ local function LoadData()
     LBIS:AddEnchant(spec7, "468354", LBIS.L["Head"]) --Vodouisant's Shroud
     LBIS:AddEnchant(spec7, "1219512", LBIS.L["Shoulder"]) --
     LBIS:AddEnchant(spec7, "24422", LBIS.L["Shoulder"]) --Zandalar Signet of Might
+    LBIS:AddEnchant(spec7, "1219587", LBIS.L["Back"]) --
     LBIS:AddEnchant(spec7, "13882", LBIS.L["Back"]) --Enchant Cloak - Lesser Agility
     LBIS:AddEnchant(spec7, "20025", LBIS.L["Chest"]) --Enchant Chest - Greater Stats
     LBIS:AddEnchant(spec7, "20010", LBIS.L["Wrist"]) --Enchant Bracer - Superior Strength
