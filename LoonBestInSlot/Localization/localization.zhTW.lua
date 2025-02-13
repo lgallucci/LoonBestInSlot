@@ -45,6 +45,7 @@ if GetLocale() == "zhTW" then
 --  LBIS.L["Animist's Fury"] = "";
 --  LBIS.L["Animist's Roar"] = "";
 --  LBIS.L["Antu'sul <Overseer of Sul>"] = "";
+  LBIS.L["Anub'Rekhan"] = "阿努比瑞克漢";
   LBIS.L["Apprentice's Duties"] = "學徒的職責";
   LBIS.L["Arathi Basin"] = "阿拉希盆地";
 --  LBIS.L["Arathi Basin Marks"] = "";
@@ -60,6 +61,9 @@ if GetLocale() == "zhTW" then
   LBIS.L["Argent Dawn"] = "銀色黎明";
 --  LBIS.L["Argent Dawn - Honored"] = "";
 --  LBIS.L["Argent Dawn - Revered"] = "";
+--  LBIS.L["Argent Dawn Cloth Gloves"] = "";
+--  LBIS.L["Argent Dawn Gloves"] = "";
+--  LBIS.L["Argent Dawn Mail Gloves"] = "";
   LBIS.L["Armaments of War"] = "軍備之戰";
   LBIS.L["Arugal Must Die"] = "除掉阿魯高";
   LBIS.L["Ashenvale"] = "梣谷";
@@ -67,6 +71,7 @@ if GetLocale() == "zhTW" then
 --  LBIS.L["Atal'ai Witch Doctor"] = "";
   LBIS.L["Atal'alarion"] = "阿塔拉利恩";
 --  LBIS.L["Atal’alrion"] = "";
+  LBIS.L["Atiesh, Greatstaff of the Guardian"] = "阿泰絲，守護者之杖";
   LBIS.L["Aurius' Reckoning"] = "奧里爾斯的清算";
   LBIS.L["Avalanchion"] = "阿瓦蘭奇奧";
   LBIS.L["Avatar of Hakkar"] = "哈卡的化身";
@@ -86,6 +91,7 @@ if GetLocale() == "zhTW" then
 --  LBIS.L["Balance Dps"] = "";
 --  LBIS.L["Balzaphon (scourge event only)"] = "巴爾薩馮";
   LBIS.L["Bannok Grimaxe (Rare)"] = "班諾克·巨斧 (精良)";
+--  LBIS.L["Barian Maryla"] = "";
   LBIS.L["Baron Aquanis"] = "阿奎尼斯男爵";
   LBIS.L["Baron Geddon"] = "迦頓男爵";
   LBIS.L["Baron Kazum"] = "卡蘇姆男爵";
@@ -111,9 +117,11 @@ if GetLocale() == "zhTW" then
 --  LBIS.L["Blacksmithing Trainer"] = "";
   LBIS.L["Blackwing Lair"] = "黑翼之巢";
   LBIS.L["Blasted Lands"] = "詛咒之地";
+--  LBIS.L["Blasted Lands, Burning Steppes, Eastern Plaguelands, …"] = "";
   LBIS.L["Blind Hunter (Rare)"] = "盲眼獵手 (精良)";
   LBIS.L["Blood of Morphaz"] = "摩弗拉斯之血";
   LBIS.L["Blood Steward of Kirtonos"] = "基爾圖諾斯的衛士";
+--  LBIS.L["Blood-Caked Gold Coin"] = "";
 --  LBIS.L["Blood-Caked Silver Coin"] = "";
   LBIS.L["Bloodfury Bloodline"] = "血怒一族";
   LBIS.L["Bloodlord Mandokir"] = "血領主曼多基爾";
@@ -133,12 +141,15 @@ if GetLocale() == "zhTW" then
   LBIS.L["Brood of Nozdormu (Neutral)"] = "諾茲多姆的子嗣 (中立)";
   LBIS.L["Brood of Nozdormu (Revered)"] = "諾茲多姆的子嗣 (崇敬)";
   LBIS.L["Broodlord Lashlayer"] = "龍領主勒西雷爾";
+--  LBIS.L["Brother Luctus"] = "";
   LBIS.L["Bruegal Ironknuckle (Rare)"] = "布魯戈·艾爾克納寇 (精良)";
   LBIS.L["Brutal Gauntlets"] = "野蠻護手";
   LBIS.L["Brutal Hauberk"] = "野蠻鍊衫";
   LBIS.L["Brutal Helm"] = "野蠻頭盔";
   LBIS.L["Burning Steppes"] = "燃燒平原";
+--  LBIS.L["Burning Steppes, Blasted Lands, Eastern Plaguelands, …"] = "";
   LBIS.L["Buru the Gorger"] = "『暴食者』布魯";
+--  LBIS.L["C'thun"] = "";
   LBIS.L["C'Thun"] = "克蘇恩";
   LBIS.L["Calm Before the Storm"] = "暴風雨前的寧靜";
   LBIS.L["Cannon Master Willey"] = "砲手威利";
@@ -167,6 +178,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Cookie"] = "廚師";
   LBIS.L["Cooking"] = "烹飪";
   LBIS.L["Corruption of Earth and Seed"] = "大地與種子的污染";
+--  LBIS.L["Creeping Malison"] = "";
   LBIS.L["Crime and Punishment"] = "罪與罰";
 --  LBIS.L["Crimson Conjuror"] = "";
 --  LBIS.L["Crimson Sorcerer"] = "";
@@ -328,8 +340,10 @@ if GetLocale() == "zhTW" then
 --  LBIS.L["Gesharahan"] = "";
   LBIS.L["Ghamoo-ra"] = "加摩拉";
   LBIS.L["Ghok Bashguud"] = "霍克·巴什古德";
+--  LBIS.L["Gilded Scarab"] = "";
   LBIS.L["Gilnid"] = "基爾尼格";
   LBIS.L["Gizrul the Slavener"] = "『奴役者』基茲盧爾";
+  LBIS.L["Gluth"] = "古魯斯";
   LBIS.L["Glutton"] = "暴食者";
   LBIS.L["Gnome Improvement"] = "地精的手藝";
   LBIS.L["Gnomeregan"] = "諾姆瑞根";
@@ -338,12 +352,15 @@ if GetLocale() == "zhTW" then
   LBIS.L["Goraluk Anvilcrack"] = "古拉魯克";
 --  LBIS.L["Gordok Tribute"] = "";
   LBIS.L["Gorosh the Dervish"] = "『修行者』高羅什";
+  LBIS.L["Gothik the Harvester"] = "『收割者』高希";
 --  LBIS.L["Grand Crusader Dathrohan/Balnazzar"] = "";
+  LBIS.L["Grand Widow Faerlina"] = "大寡婦費琳娜";
 --  LBIS.L["Grimand\'s Armor"] = "";
   LBIS.L["Grimlok"] = "格瑞姆洛克";
 --  LBIS.L["Grimroot"] = "";
   LBIS.L["Grimtotem Spying"] = "偵察恐怖圖騰族";
   LBIS.L["Grizzle"] = "格里茲爾";
+  LBIS.L["Grobbulus"] = "葛羅巴斯";
   LBIS.L["Grubbis"] = "格魯比斯";
   LBIS.L["Guard Fengus"] = "衛兵芬古斯";
   LBIS.L["Guard Mol'dar"] = "衛兵摩爾達";
@@ -354,6 +371,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Halycon"] = "哈雷肯";
 --  LBIS.L["Handor"] = "";
   LBIS.L["Hands"] = "手";
+--  LBIS.L["Harbinger of Sin"] = "";
   LBIS.L["Harnessing Shadows"] = "束縛之影";
   LBIS.L["Hazza'rah"] = "哈札拉爾";
   LBIS.L["Hazzas"] = "哈札斯";
@@ -363,6 +381,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Healer"] = "治療者";
   LBIS.L["Hearthsinger Forresten (Rare)"] = "弗雷斯特恩 (精良)";
   LBIS.L["Hedrum the Creeper"] = "『爬行者』赫杜姆";
+  LBIS.L["Heigan the Unclean"] = "『不潔者』海根";
 --  LBIS.L["Hellscream's Phantom"] = "";
   LBIS.L["Hero of the Frostwolf"] = "霜狼英雄";
   LBIS.L["Hero of the Stormpike"] = "雷矛英雄";
@@ -406,6 +425,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["In the Name of the Light"] = "以聖光之名";
   LBIS.L["Incendius!"] = "伊森迪奧斯!";
   LBIS.L["Instructor Malicia"] = "講師瑪麗希亞";
+  LBIS.L["Instructor Razuvious"] = "講師拉祖維斯";
   LBIS.L["Interrogator Vishas"] = "審訊員韋沙斯";
   LBIS.L["Into The Scarlet Monastery"] = "深入血色修道院";
   LBIS.L["Into The Temple of Atal'Hakkar"] = "進入阿塔哈卡神廟";
@@ -426,8 +446,12 @@ if GetLocale() == "zhTW" then
   LBIS.L["Jin'Zil's Forest Magic"] = "金吉爾的森林魔法";
   LBIS.L["Job Opening: Guard Captain of Revantusk Village"] = "職位空缺:惡齒村衛兵隊長";
   LBIS.L["Just Compensation"] = "公平的補償";
+--  LBIS.L["Kaigy Maryla"] = "";
   LBIS.L["Kam Deepfury"] = "卡姆·深怒";
+--  LBIS.L["Karazhan Crypts"] = "";
+  LBIS.L["Kel'Thuzad"] = "科爾蘇加德";
   LBIS.L["Khan Hratha"] = "赫蘭薩可汗";
+--  LBIS.L["Kharon"] = "";
   LBIS.L["King Gordok"] = "戈多克大王";
   LBIS.L["King of the Foulweald"] = "汙林熊怪之王";
   LBIS.L["Kirtonos the Herald"] = "傳令官基爾圖諾斯";
@@ -458,6 +482,7 @@ if GetLocale() == "zhTW" then
 --  LBIS.L["Level 10-20 Zones"] = "";
 --  LBIS.L["Lieutenant General Nokhor"] = "";
 --  LBIS.L["Lo'Grosh"] = "";
+  LBIS.L["Loatheb"] = "洛斯伯";
   LBIS.L["Loch Modan"] = "洛克莫丹";
   LBIS.L["Lokhtos Darkbargainer"] = "羅克圖斯·暗契";
   LBIS.L["Look To The Stars"] = "觀測星星";
@@ -485,6 +510,8 @@ if GetLocale() == "zhTW" then
   LBIS.L["Lower Blackrock Spire"] = "黑石塔下層";
 --  LBIS.L["Lower Blackrock Spire/Scholomance"] = "";
   LBIS.L["Lucifron"] = "魯西弗隆";
+--  LBIS.L["Lumbering Horror"] = "";
+  LBIS.L["Maexxna"] = "梅克絲娜";
 --  LBIS.L["Mage Quest"] = "";
   LBIS.L["Mage's Wand"] = "法師的魔杖";
   LBIS.L["Magister Kalendris"] = "卡雷迪斯鎮長";
@@ -543,6 +570,7 @@ if GetLocale() == "zhTW" then
 --  LBIS.L["Nimar the Slayer<Warband Leader>"] = "";
   LBIS.L["Nogg's Ring Redo"] = "諾格的手藝";
   LBIS.L["None"] = "無";
+  LBIS.L["Noth the Plaguebringer"] = "瘟疫使者諾斯";
   LBIS.L["Noxxion"] = "諾克賽恩";
   LBIS.L["Obsidian Sentinel"] = "黑曜石哨兵";
   LBIS.L["Odo the Blindwatcher"] = "『盲眼守衛』奧杜";
@@ -568,6 +596,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Overlord Wyrmthalak"] = "維姆薩拉克主宰";
   LBIS.L["Panzor the Invincible"] = "無敵的潘佐爾";
 --  LBIS.L["Paragon of Power Token"] = "";
+  LBIS.L["Patchwerk"] = "縫補者";
 --  LBIS.L["Phase 1"] = "";
 --  LBIS.L["Phase 2"] = "";
 --  LBIS.L["Phase 3"] = "";
@@ -613,6 +642,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Ragefire Chasm"] = "怒焰裂谷";
   LBIS.L["Ragglesnout (Rare)"] = "拉戈斯諾特 (精良)";
   LBIS.L["Ragnaros"] = "拉格納羅斯";
+  LBIS.L["Ramaladni's Icy Grasp"] = "羅馬拉丁尼的冰握";
   LBIS.L["Ramstein the Gorger"] = "『暴食者』拉姆斯登";
   LBIS.L["Ranged/Relic"] = "遠程/聖物";
 --  LBIS.L["RangedDps"] = "";
@@ -657,7 +687,9 @@ if GetLocale() == "zhTW" then
   LBIS.L["Rotgrip"] = "洛特格里普";
   LBIS.L["Ruins of Ahn'Qiraj"] = "安其拉廢墟";
 --  LBIS.L["Ruins of Ahn'Qiraj (Hard)"] = "安其拉廢墟";
+--  LBIS.L["Sairuh Maryla"] = "";
   LBIS.L["Samophlange Manual"] = "主動式負載平衡器說明書";
+  LBIS.L["Sapphiron"] = "薩菲隆";
 --  LBIS.L["Savage Guard Quests"] = "";
   LBIS.L["Saving Sharpbeak"] = "拯救沙普比克";
   LBIS.L["Saving the Best for Last"] = "最後的獎賞";
@@ -687,6 +719,7 @@ if GetLocale() == "zhTW" then
 --  LBIS.L["Shadow Charger"] = "";
   LBIS.L["Shadow Hunter Vosh'gajin"] = "暗影獵手沃許加斯";
 --  LBIS.L["Shadow Hunter Vosh’gajin"] = "";
+--  LBIS.L["Shadow of Doom"] = "";
   LBIS.L["Shadoweaver"] = "暗影蛛絲";
   LBIS.L["Shadowfang Keep"] = "影牙城堡";
 --  LBIS.L["Shadowflame Skull"] = "";
@@ -760,6 +793,8 @@ if GetLocale() == "zhTW" then
   LBIS.L["Targorr the Dread"] = "可怕的塔高爾";
 --  LBIS.L["Tarnished Undermine Real"] = "";
   LBIS.L["Tendris Warpwood"] = "特迪斯·扭木";
+  LBIS.L["Thaddius"] = "泰迪斯";
+  LBIS.L["The Active Agent"] = "活躍的探子";
   LBIS.L["The Ancient Leaf"] = "遠古石葉";
   LBIS.L["The Arcanist's Cookbook"] = "秘法師的烹飪書";
 --  LBIS.L["The Argent Dawn"] = "";
@@ -784,12 +819,15 @@ if GetLocale() == "zhTW" then
   LBIS.L["The Defias Brotherhood"] = "迪菲亞兄弟會";
   LBIS.L["The Den"] = "大獸穴";
 --  LBIS.L["The Destructor's Wraith"] = "";
+  LBIS.L["The Duke of Cynders"] = "烏爾之書";
   LBIS.L["The Duke of Shards"] = "碎石公爵";
   LBIS.L["The Duke of Zephyrs"] = "微風公爵";
   LBIS.L["The Emerald Dream..."] = "翡翠夢境……";
   LBIS.L["The Essence of Eranikus"] = "伊蘭尼庫斯精華";
 --  LBIS.L["The Eye of Divinity"] = "";
+  LBIS.L["The Fall of Kel'Thuzad"] = "科爾蘇加德的墮落";
   LBIS.L["The Forging of Quel'Serrar"] = "The Forging of Quel'Serrar";
+--  LBIS.L["The Four Horseman"] = "";
   LBIS.L["The Fury Runs Deep"] = "積怒已久";
   LBIS.L["The God Hakkar"] = "神靈哈卡";
   LBIS.L["The Grand Betrayal"] = "大叛徒";
@@ -811,6 +849,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["The Mark of Quality"] = "品質的保證";
   LBIS.L["The Molten Core"] = "熔火之心";
 --  LBIS.L["The Naralex Event (Mutanus the Devourer)"] = " (『吞噬者』穆坦努斯)";
+  LBIS.L["The Only Song I Know..."] = "唯一本領……";
   LBIS.L["The Orb of Soran'ruk"] = "索蘭魯克寶珠";
   LBIS.L["The Pack Mistress"] = "座狼的首領";
   LBIS.L["The Pariah's Instructions"] = "賤民的指引";
@@ -835,6 +874,7 @@ if GetLocale() == "zhTW" then
 --  LBIS.L["The Vault"] = "";
   LBIS.L["The Weaver"] = "法師的頭領";
   LBIS.L["The Windreaver"] = "烈風搶奪者";
+  LBIS.L["The Wrath of Neptulon"] = "奈普圖隆的憤怒";
   LBIS.L["Theka the Martyr"] = "『殉教者』塞卡";
   LBIS.L["This Is Going to Be Hard"] = "不祥的感覺";
   LBIS.L["Thorium Brotherhood"] = "瑟銀兄弟會";

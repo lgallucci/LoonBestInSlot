@@ -29,13 +29,13 @@ local function LoadData()
     LBIS:AddEnchant(spec7, "20023", LBIS.L["Feet"]) --
 
     LBIS:AddItem(spec0, "226480", LBIS.L["Head"], "BIS") --Nightslayer Hood
-    LBIS:AddItem(spec0, "226444", LBIS.L["Shoulder"], "BIS") --Nightslayer Shoulder Pads
     LBIS:AddItem(spec0, "226841", LBIS.L["Head"], "Alt") --Darkmantle Faceguard
     LBIS:AddItem(spec0, "226829", LBIS.L["Head"], "Alt") --Darkmantle Cap
     LBIS:AddItem(spec0, "228111", LBIS.L["Head"], "Alt") --Mask of the Godslayer
     LBIS:AddItem(spec0, "226707", LBIS.L["Head"], "Alt") --Shadowcraft Cap
     LBIS:AddItem(spec0, "215166", LBIS.L["Head"], "Alt") --Glowing Gneuro-Linked Cowl
     LBIS:AddItem(spec0, "228500", LBIS.L["Head"], "Alt") --Mask of the Unforgiven
+    LBIS:AddItem(spec0, "226444", LBIS.L["Shoulder"], "BIS") --Nightslayer Shoulder Pads
     LBIS:AddItem(spec0, "226478", LBIS.L["Shoulder"], "BIS") --Nightslayer Pauldrons
     LBIS:AddItem(spec0, "227818", LBIS.L["Shoulder"], "Alt") --Glowing Mantle of the Dawn
     LBIS:AddItem(spec0, "226826", LBIS.L["Shoulder"], "Alt") --Darkmantle Spaulders
