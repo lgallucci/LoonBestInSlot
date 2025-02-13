@@ -26,6 +26,13 @@ local function LoadData()
     LBIS:AddEnchant(spec7, "27837", LBIS.L["Two Hand"]) --Enchant 2H Weapon - Agility
     LBIS:AddEnchant(spec7, "20034", LBIS.L["Two Hand"]) --Enchant Weapon - Crusader
     LBIS:AddEnchant(spec7, "1217206", LBIS.L["Ranged/Relic"]) --Obsidian Scope
+    LBIS:AddEnchant(spec7, "15402", LBIS.L["Head"]) --
+    LBIS:AddEnchant(spec7, "446451", LBIS.L["Shoulder"]) --
+    LBIS:AddEnchant(spec7, "13882", LBIS.L["Back"]) --
+    LBIS:AddEnchant(spec7, "20010", LBIS.L["Wrist"]) --
+    LBIS:AddEnchant(spec7, "20012", LBIS.L["Hands"]) --
+    LBIS:AddEnchant(spec7, "15402", LBIS.L["Legs"]) --
+    LBIS:AddEnchant(spec7, "12460", LBIS.L["Ranged/Relic"]) --
 
     LBIS:AddItem(spec0, "227086", LBIS.L["Head"], "BIS") --Lieutenant Commander's Chain Greathelm
     LBIS:AddItem(spec0, "226887", LBIS.L["Head"], "Alt") --Beastmaster's Cap
@@ -69,11 +76,12 @@ local function LoadData()
     LBIS:AddItem(spec0, "228091", LBIS.L["Feet"], "BIS") --Thorned Boots
     LBIS:AddItem(spec0, "220668", LBIS.L["Feet"], "Alt") --Dread Hunter's Greaves
     LBIS:AddItem(spec0, "223962", LBIS.L["Feet"], "Alt Melee") --Sandstalker Ankleguards
-    LBIS:AddItem(spec0, "15411", LBIS.L["Neck"], "BIS") --Mark of Fordring
+    LBIS:AddItem(spec0, "19491", LBIS.L["Neck"], "BIS") --Amulet of the Darkmoon
+    LBIS:AddItem(spec0, "15411", LBIS.L["Neck"], "Alt") --Mark of Fordring
     LBIS:AddItem(spec0, "213344", LBIS.L["Neck"], "Alt") --Gnomeregan Peace Officer's Torque
     LBIS:AddItem(spec0, "13089", LBIS.L["Neck"], "Alt Melee") --Skibi's Pendant
-    LBIS:AddItem(spec0, "19534", LBIS.L["Neck"], "Alt") --Scout's Medallion
     LBIS:AddItem(spec0, "19538", LBIS.L["Neck"], "Alt") --Sentinel's Medallion
+    LBIS:AddItem(spec0, "19534", LBIS.L["Neck"], "Alt") --Scout's Medallion
     LBIS:AddItem(spec0, "228080", LBIS.L["Ring"], "BIS") --Resin Loop
     LBIS:AddItem(spec0, "19325", LBIS.L["Ring"], "BIS") --Don Julio's Band
     LBIS:AddItem(spec0, "17713", LBIS.L["Ring"], "Alt") --Blackstone Ring
@@ -81,14 +89,14 @@ local function LoadData()
     LBIS:AddItem(spec0, "213284", LBIS.L["Ring"], "Alt") --Hypercharged Gear of Devastation
     LBIS:AddItem(spec0, "19511", LBIS.L["Ring"], "Alt") --Legionnaire's Band
     LBIS:AddItem(spec0, "19516", LBIS.L["Ring"], "Alt") --Protector's Band
-    LBIS:AddItem(spec0, "221307", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Decay
-    LBIS:AddItem(spec0, "221309", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Sandstorm
-    LBIS:AddItem(spec0, "19991", LBIS.L["Trinket"], "Alt") --Devilsaur Eye
+    LBIS:AddItem(spec0, "19991", LBIS.L["Trinket"], "BIS") --Devilsaur Eye
+    LBIS:AddItem(spec0, "228722", LBIS.L["Trinket"], "BIS") --Hand of Justice
     LBIS:AddItem(spec0, "223195", LBIS.L["Trinket"], "Alt") --Breadth of the Beast
     LBIS:AddItem(spec0, "19120", LBIS.L["Trinket"], "Alt") --Rune of the Guard Captain
     LBIS:AddItem(spec0, "211449", LBIS.L["Trinket"], "Alt") --Avenger's Void Pearl
     LBIS:AddItem(spec0, "213348", LBIS.L["Trinket"], "Alt") --Gyromatic Experiment 420b
     LBIS:AddItem(spec0, "220588", LBIS.L["Main Hand"], "BIS") --Cobra Fang Claw
+    LBIS:AddItem(spec0, "228094", LBIS.L["Main Hand/Off Hand"], "BIS") --Dreadlord's Blade
     LBIS:AddItem(spec0, "228653", LBIS.L["Main Hand"], "Alt") --Dal'Rend's Sacred Charge
     LBIS:AddItem(spec0, "220576", LBIS.L["Main Hand"], "Alt Melee") --Axe of the Atal'ai Executioner
     LBIS:AddItem(spec0, "213409", LBIS.L["Main Hand"], "Alt") --Mekkatorque's Arcano-Shredder
@@ -97,11 +105,11 @@ local function LoadData()
     LBIS:AddItem(spec0, "220582", LBIS.L["Off Hand"], "Alt") --Dragon's Cry
     LBIS:AddItem(spec0, "19550", LBIS.L["Off Hand"], "Alt") --Legionnaire's Sword
     LBIS:AddItem(spec0, "19554", LBIS.L["Off Hand"], "Alt") --Protector's Sword
-    LBIS:AddItem(spec0, "9480", LBIS.L["Two Hand"], "BIS") --Eyegouger
-    LBIS:AddItem(spec0, "220566", LBIS.L["Two Hand"], "Alt") --Smolder Claw
+    LBIS:AddItem(spec0, "220566", LBIS.L["Two Hand"], "BIS") --Smolder Claw
     LBIS:AddItem(spec0, "220567", LBIS.L["Two Hand"], "Alt") --Bloodied Headspike
-    LBIS:AddItem(spec0, "19107", LBIS.L["Ranged/Relic"], "BIS") --Bloodseeker
-    LBIS:AddItem(spec0, "221450", LBIS.L["Ranged/Relic"], "Alt") --Gurubashi Pit Fighter's Bow
+    LBIS:AddItem(spec0, "9480", LBIS.L["Two Hand"], "Alt") --Eyegouger
+    LBIS:AddItem(spec0, "221450", LBIS.L["Ranged/Relic"], "BIS") --Gurubashi Pit Fighter's Bow
+    LBIS:AddItem(spec0, "19107", LBIS.L["Ranged/Relic"], "Alt") --Bloodseeker
 
     LBIS:AddItem(spec5, "232115", LBIS.L["Head"], "BIS") --Dragonstalker's Skullcap
     LBIS:AddItem(spec5, "226536", LBIS.L["Head"], "BIS") --Giantstalker's Guise

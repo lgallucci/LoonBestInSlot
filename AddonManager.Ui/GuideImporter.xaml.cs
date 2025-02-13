@@ -28,7 +28,7 @@ public sealed partial class GuideImporter : Page
 {
       
     public string[] Versions = { "SOD", "Classic" };
-    public string[] PhaseList = {  "CurrentPhase" };
+    public string[] PhaseList = {  "CurrentPhase", "PreRaid" };
 
     public GuideImporter()
     {

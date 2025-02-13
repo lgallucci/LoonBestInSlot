@@ -9,6 +9,7 @@ internal class SODShamanElementalDpsMapping : SODSpecMapping
     public override string PreRaidUrl => "dps-pre-raid-bis-gear-pve";
     public override List<(string, GuideMapping)> Phase0 => new List<(string, GuideMapping)>
         {
+            { ("Wrist", "#wrists")},
             { ("Main Hand", "h3#main-hand") },
             { ("Off Hand", "h3#off-hand") },
             { ("Ranged/Relic", "#relics") },

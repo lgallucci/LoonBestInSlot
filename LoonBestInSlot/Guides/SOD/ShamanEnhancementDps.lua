@@ -23,33 +23,45 @@ local function LoadData()
     LBIS:AddEnchant(spec7, "20034", LBIS.L["Main Hand"]) --Enchant Weapon - Crusader
     LBIS:AddEnchant(spec7, "20034", LBIS.L["Off Hand"]) --Enchant Weapon - Crusader
     LBIS:AddEnchant(spec7, "20013", LBIS.L["Hands"]) --
+    LBIS:AddEnchant(spec7, "22840", LBIS.L["Head"]) --
+    LBIS:AddEnchant(spec7, "446451", LBIS.L["Shoulder"]) --
+    LBIS:AddEnchant(spec7, "22840", LBIS.L["Legs"]) --
 
-    LBIS:AddItem(spec0, "227021", LBIS.L["Head"], "BIS") --Face of The Five Thunders
+    LBIS:AddItem(spec0, "226638", LBIS.L["Head"], "BIS") --Earthfury Headpiece
+    LBIS:AddItem(spec0, "227021", LBIS.L["Head"], "Alt") --Face of The Five Thunders
     LBIS:AddItem(spec0, "228604", LBIS.L["Head"], "Alt") --Eye of Rend
     LBIS:AddItem(spec0, "221782", LBIS.L["Head"], "Alt") --Helm of Exile
-    LBIS:AddItem(spec0, "227154", LBIS.L["Shoulder"], "BIS") --Champion's Mail Pauldrons
+    LBIS:AddItem(spec0, "226640", LBIS.L["Shoulder"], "BIS") --Earthfury Spaulders
+    LBIS:AddItem(spec0, "227154", LBIS.L["Shoulder"], "Alt") --Champion's Mail Pauldrons
     LBIS:AddItem(spec0, "227019", LBIS.L["Shoulder"], "Alt") --Spaulders of The Five Thunders
     LBIS:AddItem(spec0, "228583", LBIS.L["Shoulder"], "Alt") --Truestrike Shoulders
-    LBIS:AddItem(spec0, "22337", LBIS.L["Back"], "BIS") --Shroud of Domination
+    LBIS:AddItem(spec0, "233956", LBIS.L["Back"], "BIS") --Qiraji Silk Scarf
+    LBIS:AddItem(spec0, "22337", LBIS.L["Back"], "Alt") --Shroud of Domination
     LBIS:AddItem(spec0, "23127", LBIS.L["Back"], "Alt") --Cloak of Revanchion
     LBIS:AddItem(spec0, "13340", LBIS.L["Back"], "Alt") --Cape of the Black Baron
+    LBIS:AddItem(spec0, "226635", LBIS.L["Chest"], "BIS") --Earthfury Chainmail
     LBIS:AddItem(spec0, "227024", LBIS.L["Chest"], "BIS") --Chain of The Five Thunders
     LBIS:AddItem(spec0, "227952", LBIS.L["Chest"], "Alt") --Savage Gladiator Chain
     LBIS:AddItem(spec0, "228025", LBIS.L["Chest"], "Alt") --Tombstone Breastplate
     LBIS:AddItem(spec0, "220657", LBIS.L["Chest"], "Alt") --Ostracized Berserker's Hauberk
-    LBIS:AddItem(spec0, "228575", LBIS.L["Wrist"], "BIS") --Slashclaw Bracers
+    LBIS:AddItem(spec0, "231223", LBIS.L["Wrist"], "BIS") --Vambraces of Ten Storms
+    LBIS:AddItem(spec0, "228575", LBIS.L["Wrist"], "Alt") --Slashclaw Bracers
     LBIS:AddItem(spec0, "19582", LBIS.L["Wrist"], "Alt") --Windtalker's Wristguards
     LBIS:AddItem(spec0, "19587", LBIS.L["Wrist"], "Alt") --Forest Stalker's Bracers
+    LBIS:AddItem(spec0, "231222", LBIS.L["Hands"], "BIS") --Grips of Ten Storms
     LBIS:AddItem(spec0, "227022", LBIS.L["Hands"], "BIS") --Fists of The Five Thunders
     LBIS:AddItem(spec0, "227809", LBIS.L["Hands"], "Alt") --Studded Timbermaw Brawlers
     LBIS:AddItem(spec0, "14551", LBIS.L["Hands"], "Alt") --Edgemaster's Handguards
+    LBIS:AddItem(spec0, "231224", LBIS.L["Waist"], "BIS") --Girdle of Ten Storms
     LBIS:AddItem(spec0, "227018", LBIS.L["Waist"], "BIS") --Girdle of The Five Thunders
     LBIS:AddItem(spec0, "228567", LBIS.L["Waist"], "Alt") --Chiselbrand Girdle
     LBIS:AddItem(spec0, "220552", LBIS.L["Waist"], "Alt") --Waistguard of Pain
+    LBIS:AddItem(spec0, "226639", LBIS.L["Legs"], "BIS") --Earthfury Chain Leggings
     LBIS:AddItem(spec0, "227156", LBIS.L["Legs"], "BIS") --Legionnaire's Mail Legguards
     LBIS:AddItem(spec0, "227020", LBIS.L["Legs"], "Alt") --Legplates of The Five Thunders
     LBIS:AddItem(spec0, "220658", LBIS.L["Legs"], "Alt") --Ostracized Berserker's Legplates
-    LBIS:AddItem(spec0, "227023", LBIS.L["Feet"], "BIS") --Treads of The Five Thunders
+    LBIS:AddItem(spec0, "231228", LBIS.L["Feet"], "BIS") --Treads of Ten Storms
+    LBIS:AddItem(spec0, "227023", LBIS.L["Feet"], "Alt") --Treads of The Five Thunders
     LBIS:AddItem(spec0, "227158", LBIS.L["Feet"], "Alt") --Blood Guard's Mail Greaves
     LBIS:AddItem(spec0, "228091", LBIS.L["Feet"], "Alt") --Thorned Boots
     LBIS:AddItem(spec0, "220659", LBIS.L["Feet"], "Alt") --Ostracized Berserker's Chain Greaves
@@ -57,13 +69,15 @@ local function LoadData()
     LBIS:AddItem(spec0, "19491", LBIS.L["Neck"], "BIS") --Amulet of the Darkmoon
     LBIS:AddItem(spec0, "22150", LBIS.L["Neck"], "BIS") --Beads of Ogre Might
     LBIS:AddItem(spec0, "220624", LBIS.L["Neck"], "Alt") --Bloodstained Charm of Valor
+    LBIS:AddItem(spec0, "235885", LBIS.L["Ring"], "BIS") --Ghastly Ring
     LBIS:AddItem(spec0, "19325", LBIS.L["Ring"], "BIS") --Don Julio's Band
-    LBIS:AddItem(spec0, "228080", LBIS.L["Ring"], "BIS") --Resin Loop
+    LBIS:AddItem(spec0, "228080", LBIS.L["Ring"], "Alt") --Resin Loop
     LBIS:AddItem(spec0, "17713", LBIS.L["Ring"], "Alt") --Blackstone Ring
     LBIS:AddItem(spec0, "223194", LBIS.L["Ring"], "Alt") --Band of the Wilds
     LBIS:AddItem(spec0, "220626", LBIS.L["Ring"], "Alt") --Drakeclaw Band of the Berserker
+    LBIS:AddItem(spec0, "233990", LBIS.L["Trinket"], "BIS") --Speedstone
     LBIS:AddItem(spec0, "228078", LBIS.L["Trinket"], "BIS") --Accursed Chalice
-    LBIS:AddItem(spec0, "228722", LBIS.L["Trinket"], "BIS") --Hand of Justice
+    LBIS:AddItem(spec0, "228722", LBIS.L["Trinket"], "Alt") --Hand of Justice
     LBIS:AddItem(spec0, "228089", LBIS.L["Trinket"], "Alt") --Woodcarved Moonstalker
     LBIS:AddItem(spec0, "223195", LBIS.L["Trinket"], "Alt") --Breadth of the Beast
     LBIS:AddItem(spec0, "221309", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Sandstorm

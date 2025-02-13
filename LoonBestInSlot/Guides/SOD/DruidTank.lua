@@ -22,6 +22,14 @@ local function LoadData()
     LBIS:AddEnchant(spec7, "468321", LBIS.L["Legs"]) --Animist's Fury
     LBIS:AddEnchant(spec7, "20023", LBIS.L["Feet"]) --Enchant Boots - Greater Agility
     LBIS:AddEnchant(spec7, "20034", LBIS.L["Main Hand"]) --Enchant Weapon - Crusader
+    LBIS:AddEnchant(spec7, "446451", LBIS.L["Shoulder"]) --
+    LBIS:AddEnchant(spec7, "20025", LBIS.L["Chest"]) --
+    LBIS:AddEnchant(spec7, "20013", LBIS.L["Hands"]) --
+    LBIS:AddEnchant(spec7, "15397", LBIS.L["Legs"]) --
+    LBIS:AddEnchant(spec7, "15397", LBIS.L["Head"]) --
+    LBIS:AddEnchant(spec7, "13948", LBIS.L["Hands"]) --
+    LBIS:AddEnchant(spec7, "15402", LBIS.L["Legs"]) --
+    LBIS:AddEnchant(spec7, "13890", LBIS.L["Feet"]) --
 
     LBIS:AddItem(spec0, "226792", LBIS.L["Head"], "BIS") --Feralheart Cap
     LBIS:AddItem(spec0, "228111", LBIS.L["Head"], "Alt") --Mask of the Godslayer

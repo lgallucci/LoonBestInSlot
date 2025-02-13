@@ -22,7 +22,7 @@ internal abstract class SODSpecMapping
     {
         var list = new List<ClassGuideMapping>
         {
-            new ClassGuideMapping(UrlBase + PreRaidUrl, Spec, Class, GuideFolder, "PreRaid", CurrentPhaseNumber, Phase0),
+            new ClassGuideMapping(UrlBase + PreRaidUrl, Spec, Class, GuideFolder, "PreRaid", 0, Phase0),
             new ClassGuideMapping(UrlBase + CurrentUrl, Spec, Class, GuideFolder, "CurrentPhase", CurrentPhaseNumber, CurrentPhase)
         };
 

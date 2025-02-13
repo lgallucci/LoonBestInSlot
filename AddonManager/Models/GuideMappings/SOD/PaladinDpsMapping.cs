@@ -9,8 +9,8 @@ internal class SODPaladinDpsMapping : SODSpecMapping
     public override string PreRaidUrl => "dps-pre-raid-bis-gear-pve";
     public override List<(string, GuideMapping)> Phase0 => new List<(string, GuideMapping)>
         {
-            { ("Two Hand", "#weapon-seal-twisting") },
-            { ("Two Hand", "#weapon-exodin") },
+            { ("Two Hand", "#weapons-twisting-stacking") },
+            { ("Two Hand", "#weapons-exodin") },
             { ("Ranged/Relic", "#libram") },
         };
 
