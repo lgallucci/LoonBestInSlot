@@ -663,8 +663,8 @@ local function LoadData()
     LBIS:AddItem(spec7, "236710", LBIS.L["Wrist"], "Alt") --Wristguards of Undead Slaying
     LBIS:AddItem(spec7, "226530", LBIS.L["Wrist"], "Alt") --Giantstalker's Bracers
     LBIS:AddItem(spec7, "228284", LBIS.L["Wrist"], "Alt") --Wristguards of True Flight
-    LBIS:AddItem(spec7, "236047", LBIS.L["Hands"], "BIS") --Cryptstalker Handguards
     LBIS:AddItem(spec7, "235876", LBIS.L["Hands"], "BIS") --Sinner's Handguards
+    LBIS:AddItem(spec7, "236047", LBIS.L["Hands"], "BIS") --Cryptstalker Handguards
     LBIS:AddItem(spec7, "233613", LBIS.L["Hands"], "Alt") --Vek'lor's Gloves of Devastation
     LBIS:AddItem(spec7, "230859", LBIS.L["Hands"], "Alt Ranged") --Gloves of the Tormented
     LBIS:AddItem(spec7, "231060", LBIS.L["Hands"], "Alt Ranged") --Dragonstalker's Gauntlets
@@ -685,8 +685,8 @@ local function LoadData()
     LBIS:AddItem(spec7, "231009", LBIS.L["Legs"], "Alt") --Blooddrenched Leggings
     LBIS:AddItem(spec7, "231008", LBIS.L["Legs"], "Alt") --Bloodstained Legplates
     LBIS:AddItem(spec7, "233407", LBIS.L["Feet"], "BIS") --Striker's Footguards
-    LBIS:AddItem(spec7, "235882", LBIS.L["Feet"], "BIS") --Clattering Steps
-    LBIS:AddItem(spec7, "236049", LBIS.L["Feet"], "Alt") --Cryptstalker Boots
+    LBIS:AddItem(spec7, "236049", LBIS.L["Feet"], "BIS") --Cryptstalker Boots
+    LBIS:AddItem(spec7, "235882", LBIS.L["Feet"], "Alt") --Clattering Steps
     LBIS:AddItem(spec7, "231061", LBIS.L["Feet"], "Alt") --Dragonstalker's Greaves
     LBIS:AddItem(spec7, "234069", LBIS.L["Feet"], "Alt") --Boots of the Qiraji General
     LBIS:AddItem(spec7, "226531", LBIS.L["Feet"], "Alt") --Giantstalker's Boots
@@ -713,11 +713,12 @@ local function LoadData()
     LBIS:AddItem(spec7, "228261", LBIS.L["Ring"], "Alt") --Quick Strike Ring
     LBIS:AddItem(spec7, "227455", LBIS.L["Ring"], "Alt") --Ocean's Breeze
     LBIS:AddItem(spec7, "236334", LBIS.L["Trinket"], "BIS") --Slayer's Crest
-    LBIS:AddItem(spec7, "236352", LBIS.L["Trinket"], "BIS") --Mark of the Champion
-    LBIS:AddItem(spec7, "233627", LBIS.L["Trinket"], "BIS") --Jom Gabbar
+    LBIS:AddItem(spec7, "236302", LBIS.L["Trinket"], "BIS") --Eye of Diminution
+    LBIS:AddItem(spec7, "233990", LBIS.L["Trinket"], "BIS") --Speedstone
+    LBIS:AddItem(spec7, "233627", LBIS.L["Trinket"], "Alt") --Jom Gabbar
+    LBIS:AddItem(spec7, "236352", LBIS.L["Trinket"], "Alt") --Mark of the Champion
     LBIS:AddItem(spec7, "231288", LBIS.L["Trinket"], "Alt") --Renataki's Charm of Ravaging
     LBIS:AddItem(spec7, "227990", LBIS.L["Trinket"], "Alt Ranged") --Hand of Injustice
-    LBIS:AddItem(spec7, "233990", LBIS.L["Trinket"], "Alt") --Speedstone
     LBIS:AddItem(spec7, "234462", LBIS.L["Trinket"], "Alt") --Earthstrike
     LBIS:AddItem(spec7, "13965", LBIS.L["Trinket"], "Alt") --Blackhand's Breadth
     LBIS:AddItem(spec7, "230282", LBIS.L["Trinket"], "Alt Ranged") --Drake Fang Talisman

@@ -10,6 +10,7 @@ local function LoadData()
 
     LBIS:AddEnchant(spec7, "432190", LBIS.L["Head"]) --Wolfshead Trophy
     LBIS:AddEnchant(spec7, "1219937", LBIS.L["Shoulder"]) --
+    LBIS:AddEnchant(spec7, "1219512", LBIS.L["Shoulder"]) --
     LBIS:AddEnchant(spec7, "24422", LBIS.L["Shoulder"]) --Zandalar Signet of Might
     LBIS:AddEnchant(spec7, "25084", LBIS.L["Back"]) --Enchant Cloak - Subtlety
     LBIS:AddEnchant(spec7, "13882", LBIS.L["Back"]) --Enchant Cloak - Lesser Agility
@@ -595,6 +596,7 @@ local function LoadData()
     LBIS:AddItem(spec7, "233638", LBIS.L["Ring"], "Alt") --Ring of the Godslayer
     LBIS:AddItem(spec7, "230734", LBIS.L["Ring"], "Alt") --Circle of Applied Force
     LBIS:AddItem(spec7, "234202", LBIS.L["Ring"], "Alt") --Signet Ring of the Bronze Dragonflight
+    LBIS:AddItem(spec7, "235885", LBIS.L["Ring"], "Alt") --Ghastly Ring
     LBIS:AddItem(spec7, "234780", LBIS.L["Ring"], "Alt") --Band of Earthen Might
     LBIS:AddItem(spec7, "227280", LBIS.L["Ring"], "Alt") --Craft of the Shadows
     LBIS:AddItem(spec7, "233733", LBIS.L["Ring"], "Alt") --Blood-Caked Ring

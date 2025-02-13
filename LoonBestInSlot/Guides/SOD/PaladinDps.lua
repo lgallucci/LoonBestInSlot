@@ -789,6 +789,7 @@ local function LoadData()
     LBIS:AddItem(spec7, "236129", LBIS.L["Hands"], "BIS") --Redemption Gloves
     LBIS:AddItem(spec7, "236715", LBIS.L["Hands"], "Alt") --Handguards of Undead Slaying
     LBIS:AddItem(spec7, "231179", LBIS.L["Hands"], "Alt") --Judgement Gauntlets
+    LBIS:AddItem(spec7, "236335", LBIS.L["Hands"], "Alt") --Fists of the Unrelenting
     LBIS:AddItem(spec7, "235877", LBIS.L["Hands"], "Alt") --Fanatic's Gauntlets
     LBIS:AddItem(spec7, "233637", LBIS.L["Hands"], "Alt") --Gauntlets of Annihilation
     LBIS:AddItem(spec7, "233579", LBIS.L["Hands"], "Alt") --Gloves of Enforcement
@@ -854,6 +855,7 @@ local function LoadData()
     LBIS:AddItem(spec7, "231779", LBIS.L["Trinket"], "Alt") --Wrath of Wray
     LBIS:AddItem(spec7, "234462", LBIS.L["Trinket"], "Alt") --Earthstrike
     LBIS:AddItem(spec7, "228078", LBIS.L["Trinket"], "Alt") --Accursed Chalice
+    LBIS:AddItem(spec7, "236352", LBIS.L["Trinket"], "Alt") --Mark of the Champion
     LBIS:AddItem(spec7, "237512", LBIS.L["Two Hand"], "BIS") --Blade of Inquisition
     LBIS:AddItem(spec7, "236299", LBIS.L["Two Hand"], "BIS") --Claymore of Unholy Might
     LBIS:AddItem(spec7, "229749", LBIS.L["Two Hand"], "Alt") --Truthbearer

@@ -627,6 +627,7 @@ local function LoadData()
     LBIS:AddItem(spec7, "228249", LBIS.L["Neck"], "Alt") --Medallion of Steadfast Might
     LBIS:AddItem(spec7, "236130", LBIS.L["Ring"], "BIS") --Band of Redemption
     LBIS:AddItem(spec7, "235885", LBIS.L["Ring"], "BIS") --Ghastly Ring
+    LBIS:AddItem(spec7, "236311", LBIS.L["Ring"], "BIS") --Signet of the Fallen Defender
     LBIS:AddItem(spec7, "237285", LBIS.L["Ring"], "Alt") --Band of Resolution
     LBIS:AddItem(spec7, "234035", LBIS.L["Ring"], "Alt") --Signet Ring of the Bronze Dragonflight
     LBIS:AddItem(spec7, "233524", LBIS.L["Ring"], "Alt") --Angelista's Touch
@@ -636,10 +637,10 @@ local function LoadData()
     LBIS:AddItem(spec7, "233733", LBIS.L["Ring"], "Alt Stam") --Blood-Caked Ring
     LBIS:AddItem(spec7, "228242", LBIS.L["Ring"], "Alt") --Heavy Dark Iron Ring
     LBIS:AddItem(spec7, "233992", LBIS.L["Trinket"], "BIS") --Lodestone of Retaliation
+    LBIS:AddItem(spec7, "236337", LBIS.L["Trinket"], "Alt Stam") --Glyph of Deflection
     LBIS:AddItem(spec7, "230736", LBIS.L["Trinket"], "Alt Mit") --Styleen's Impeding Scarab
     LBIS:AddItem(spec7, "228722", LBIS.L["Trinket"], "Alt") --Hand of Justice
     LBIS:AddItem(spec7, "233990", LBIS.L["Trinket"], "Alt") --Speedstone
-    LBIS:AddItem(spec7, "236337", LBIS.L["Trinket"], "Alt Stam") --Glyph of Deflection
     LBIS:AddItem(spec7, "233570", LBIS.L["Trinket"], "Alt") --Petrified Scarab
     LBIS:AddItem(spec7, "228113", LBIS.L["Trinket"], "Alt") --Cold Embrace
     LBIS:AddItem(spec7, "234462", LBIS.L["Trinket"], "Alt") --Earthstrike

@@ -586,8 +586,8 @@ local function LoadData()
     LBIS:AddItem(spec7, "233506", LBIS.L["Wrist"], "Alt") --Beetle Scaled Wristguards
     LBIS:AddItem(spec7, "231245", LBIS.L["Wrist"], "Alt") --Stormrage Wristguards
     LBIS:AddItem(spec7, "226668", LBIS.L["Wrist"], "Alt") --Cenarion Wristguards
+    LBIS:AddItem(spec7, "236206", LBIS.L["Hands"], "BIS") --Dreamwalker Gauntlets
     LBIS:AddItem(spec7, "236732", LBIS.L["Hands"], "BIS") --Handwraps of Undead Warding
-    LBIS:AddItem(spec7, "236723", LBIS.L["Hands"], "BIS") --Gloves of Undead Warding
     LBIS:AddItem(spec7, "233618", LBIS.L["Hands"], "Alt") --Gloves of the Hidden Temple
     LBIS:AddItem(spec7, "233579", LBIS.L["Hands"], "Alt") --Gloves of Enforcement
     LBIS:AddItem(spec7, "233645", LBIS.L["Hands"], "Alt") --Gloves of the Immortal

@@ -12,6 +12,7 @@ local function LoadData()
     LBIS:AddEnchant(spec7, "468325", LBIS.L["Head"]) --Falcon's Call
     LBIS:AddEnchant(spec7, "1219823", LBIS.L["Shoulder"]) --
     LBIS:AddEnchant(spec7, "1219820", LBIS.L["Shoulder"]) --
+    LBIS:AddEnchant(spec7, "1219512", LBIS.L["Shoulder"]) --
     LBIS:AddEnchant(spec7, "1219587", LBIS.L["Back"]) --
     LBIS:AddEnchant(spec7, "1213616", LBIS.L["Chest"]) --
     LBIS:AddEnchant(spec7, "20025", LBIS.L["Chest"]) --Enchant Chest - Greater Stats

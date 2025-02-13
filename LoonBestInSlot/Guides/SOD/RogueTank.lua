@@ -9,6 +9,7 @@ local function LoadData()
     local spec7 = LBIS:RegisterSpec(LBIS.L["Rogue"], LBIS.L["Tank"], "7")
 
     LBIS:AddEnchant(spec7, "468349", LBIS.L["Head"]) --Death's Advance
+    LBIS:AddEnchant(spec7, "1219512", LBIS.L["Shoulder"]) --
     LBIS:AddEnchant(spec7, "1219779", LBIS.L["Shoulder"]) --
     LBIS:AddEnchant(spec7, "24422", LBIS.L["Shoulder"]) --Zandalar Signet of Might
     LBIS:AddEnchant(spec7, "1219587", LBIS.L["Back"]) --
@@ -919,11 +920,11 @@ local function LoadData()
     LBIS:AddItem(spec7, "226826", LBIS.L["Shoulder"], "Alt") --Darkmantle Spaulders
     LBIS:AddItem(spec7, "226837", LBIS.L["Shoulder"], "Alt") --Darkmantle Pauldrons
     LBIS:AddItem(spec7, "226706", LBIS.L["Shoulder"], "Alt") --Shadowcraft Spaulders
-    LBIS:AddItem(spec7, "236258", LBIS.L["Back"], "BIS") --Cryptfiend Silk Cloak
+    LBIS:AddItem(spec7, "233432", LBIS.L["Back"], "BIS") --Cloak of Veiled Shadows
+    LBIS:AddItem(spec7, "236258", LBIS.L["Back"], "Alt") --Cryptfiend Silk Cloak
     LBIS:AddItem(spec7, "236333", LBIS.L["Back"], "Alt") --Shroud of Dominion
     LBIS:AddItem(spec7, "236272", LBIS.L["Back"], "Alt") --Cloak of the Scourge
     LBIS:AddItem(spec7, "236690", LBIS.L["Back"], "Alt") --Glacial Cloak
-    LBIS:AddItem(spec7, "233432", LBIS.L["Back"], "Alt") --Cloak of Veiled Shadows
     LBIS:AddItem(spec7, "234802", LBIS.L["Back"], "Alt") --Cloak of the Fallen God
     LBIS:AddItem(spec7, "227854", LBIS.L["Back"], "Alt") --Mastercrafted Shifting Cloak
     LBIS:AddItem(spec7, "228290", LBIS.L["Back"], "Alt") --Cloak of the Shrouded Mists
@@ -1059,7 +1060,8 @@ local function LoadData()
     LBIS:AddItem(spec7, "19538", LBIS.L["Neck"], "Alt") --Sentinel's Medallion
     LBIS:AddItem(spec7, "19534", LBIS.L["Neck"], "Alt") --Scout's Medallion
     LBIS:AddItem(spec7, "236034", LBIS.L["Ring"], "BIS") --Bonescythe Band
-    LBIS:AddItem(spec7, "236311", LBIS.L["Ring"], "BIS") --Signet of the Fallen Defender
+    LBIS:AddItem(spec7, "233434", LBIS.L["Ring"], "BIS") --Band of Veiled Shadows
+    LBIS:AddItem(spec7, "236311", LBIS.L["Ring"], "Alt") --Signet of the Fallen Defender
     LBIS:AddItem(spec7, "236031", LBIS.L["Ring"], "Alt") --Bonescythe Ring
     LBIS:AddItem(spec7, "236286", LBIS.L["Ring"], "Alt") --Band of Unnatural Forces
     LBIS:AddItem(spec7, "235885", LBIS.L["Ring"], "Alt") --Ghastly Ring
@@ -1067,7 +1069,6 @@ local function LoadData()
     LBIS:AddItem(spec7, "236291", LBIS.L["Ring"], "Alt") --Band of Reanimation
     LBIS:AddItem(spec7, "237294", LBIS.L["Ring"], "Alt") --Ramaladni's Icy Grasp
     LBIS:AddItem(spec7, "237285", LBIS.L["Ring"], "Alt") --Band of Resolution
-    LBIS:AddItem(spec7, "233434", LBIS.L["Ring"], "Alt") --Band of Veiled Shadows
     LBIS:AddItem(spec7, "234035", LBIS.L["Ring"], "Alt") --Signet Ring of the Bronze Dragonflight
     LBIS:AddItem(spec7, "233615", LBIS.L["Ring"], "Alt") --Ring of Emperor Vek'lor
     LBIS:AddItem(spec7, "230734", LBIS.L["Ring"], "Alt") --Circle of Applied Force
@@ -1099,9 +1100,9 @@ local function LoadData()
     LBIS:AddItem(spec7, "221307", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Decay
     LBIS:AddItem(spec7, "228089", LBIS.L["Trinket"], "Alt") --Woodcarved Moonstalker
     LBIS:AddItem(spec7, "19120", LBIS.L["Trinket"], "Alt") --Rune of the Guard Captain
-    LBIS:AddItem(spec7, "236221", LBIS.L["Main Hand/Off Hand"], "BIS") --Misplaced Servo Arm
+    LBIS:AddItem(spec7, "236339", LBIS.L["Main Hand"], "BIS") --Gressil, Dawn of Ruin
     LBIS:AddItem(spec7, "235888", LBIS.L["Main Hand"], "Alt") --Clobberclub
-    LBIS:AddItem(spec7, "236339", LBIS.L["Main Hand"], "Alt") --Gressil, Dawn of Ruin
+    LBIS:AddItem(spec7, "236221", LBIS.L["Main Hand/Off Hand"], "Alt") --Misplaced Servo Arm
     LBIS:AddItem(spec7, "236306", LBIS.L["Main Hand"], "Alt") --The Castigator
     LBIS:AddItem(spec7, "233585", LBIS.L["Main Hand"], "Alt") --Ancient Qiraji Ripper
     LBIS:AddItem(spec7, "234552", LBIS.L["Main Hand"], "Alt") --High Warlord's Blade
@@ -1120,11 +1121,11 @@ local function LoadData()
     LBIS:AddItem(spec7, "17075", LBIS.L["Main Hand"], "Alt") --Vis'kag the Bloodletter
     LBIS:AddItem(spec7, "228145", LBIS.L["Main Hand"], "Alt") --Magmadar's Right Claw
     LBIS:AddItem(spec7, "228653", LBIS.L["Main Hand"], "Alt") --Dal'Rend's Sacred Charge
+    LBIS:AddItem(spec7, "233433", LBIS.L["Off Hand"], "BIS") --Dagger of Veiled Shadows
     LBIS:AddItem(spec7, "236263", LBIS.L["Off Hand"], "Alt") --Widow's Remorse
     LBIS:AddItem(spec7, "236341", LBIS.L["Off Hand"], "Alt") --The Hungering Cold
     LBIS:AddItem(spec7, "236338", LBIS.L["Off Hand"], "Alt") --Claw of the Frost Wyrm
     LBIS:AddItem(spec7, "236312", LBIS.L["Off Hand"], "Alt") --Iblis, Blade of the Fallen Seraph
-    LBIS:AddItem(spec7, "233433", LBIS.L["Off Hand"], "Alt") --Dagger of Veiled Shadows
     LBIS:AddItem(spec7, "224122", LBIS.L["Off Hand"], "Alt") --Dream Eater
     LBIS:AddItem(spec7, "228143", LBIS.L["Off Hand"], "Alt") --Shadowflame Sword
     LBIS:AddItem(spec7, "228277", LBIS.L["Off Hand"], "Alt") --Core Hound Tooth
@@ -1133,9 +1134,9 @@ local function LoadData()
     LBIS:AddItem(spec7, "228349", LBIS.L["Off Hand"], "Alt") --Eskhandar's Left Claw
     LBIS:AddItem(spec7, "228652", LBIS.L["Off Hand"], "Alt") --Dal'Rend's Tribal Guardian
     LBIS:AddItem(spec7, "228600", LBIS.L["Off Hand"], "Alt") --The Jaw Breaker
-    LBIS:AddItem(spec7, "234121", LBIS.L["Ranged/Relic"], "BIS") --Silithid Husked Launcher
+    LBIS:AddItem(spec7, "235892", LBIS.L["Ranged/Relic"], "BIS") --Darkrider's Spine
+    LBIS:AddItem(spec7, "234121", LBIS.L["Ranged/Relic"], "Alt") --Silithid Husked Launcher
     LBIS:AddItem(spec7, "236293", LBIS.L["Ranged/Relic"], "Alt") --Toxin Injector
-    LBIS:AddItem(spec7, "235892", LBIS.L["Ranged/Relic"], "Alt") --Darkrider's Spine
     LBIS:AddItem(spec7, "236322", LBIS.L["Ranged/Relic"], "Alt") --Soulstring
     LBIS:AddItem(spec7, "228252", LBIS.L["Ranged/Relic"], "Alt") --Striker's Mark
     LBIS:AddItem(spec7, "230726", LBIS.L["Ranged/Relic"], "Alt") --Dragonbreath Hand Cannon

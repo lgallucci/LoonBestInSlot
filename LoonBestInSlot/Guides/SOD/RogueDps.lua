@@ -9,6 +9,7 @@ local function LoadData()
     local spec7 = LBIS:RegisterSpec(LBIS.L["Rogue"], LBIS.L["Dps"], "7")
 
     LBIS:AddEnchant(spec7, "468349", LBIS.L["Head"]) --Death's Advance
+    LBIS:AddEnchant(spec7, "1219512", LBIS.L["Shoulder"]) --
     LBIS:AddEnchant(spec7, "1219776", LBIS.L["Shoulder"]) --
     LBIS:AddEnchant(spec7, "1219770", LBIS.L["Shoulder"]) --
     LBIS:AddEnchant(spec7, "24422", LBIS.L["Shoulder"]) --Zandalar Signet of Might
@@ -834,7 +835,7 @@ local function LoadData()
 
     LBIS:AddItem(spec7, "233388", LBIS.L["Head"], "BIS") --Deathdealer's Helm
     LBIS:AddItem(spec7, "231043", LBIS.L["Head"], "BIS") --Bloodfang Hood
-    LBIS:AddItem(spec7, "236025", LBIS.L["Head"], "Alt") --Bonescythe Helmet
+    LBIS:AddItem(spec7, "236025", LBIS.L["Head"], "BIS") --Bonescythe Helmet
     LBIS:AddItem(spec7, "236315", LBIS.L["Head"], "Alt") --Polar Helmet
     LBIS:AddItem(spec7, "234084", LBIS.L["Head"], "Alt") --Southwind Helm
     LBIS:AddItem(spec7, "232187", LBIS.L["Head"], "Alt") --Bloodfang Hood
@@ -845,10 +846,10 @@ local function LoadData()
     LBIS:AddItem(spec7, "215166", LBIS.L["Head"], "Alt") --Glowing Gneuro-Linked Cowl
     LBIS:AddItem(spec7, "228500", LBIS.L["Head"], "Alt") --Mask of the Unforgiven
     LBIS:AddItem(spec7, "236026", LBIS.L["Shoulder"], "BIS") --Bonescythe Pauldrons
+    LBIS:AddItem(spec7, "233387", LBIS.L["Shoulder"], "BIS") --Deathdealer's Spaulders
     LBIS:AddItem(spec7, "236262", LBIS.L["Shoulder"], "Alt") --Polar Shoulder Pads
     LBIS:AddItem(spec7, "231338", LBIS.L["Shoulder"], "Alt") --Zandalar Madcap's Mantle
     LBIS:AddItem(spec7, "231039", LBIS.L["Shoulder"], "Alt") --Bloodfang Spaulders
-    LBIS:AddItem(spec7, "233387", LBIS.L["Shoulder"], "Alt") --Deathdealer's Spaulders
     LBIS:AddItem(spec7, "232185", LBIS.L["Shoulder"], "Alt") --Bloodfang Spaulders
     LBIS:AddItem(spec7, "233592", LBIS.L["Shoulder"], "Alt") --Mantle of Wicked Revenge
     LBIS:AddItem(spec7, "234078", LBIS.L["Shoulder"], "Alt") --Chitinous Shoulderguards
@@ -907,7 +908,7 @@ local function LoadData()
     LBIS:AddItem(spec7, "226704", LBIS.L["Wrist"], "Alt") --Shadowcraft Bracers
     LBIS:AddItem(spec7, "13120", LBIS.L["Wrist"], "Alt") --Deepfury Bracers
     LBIS:AddItem(spec7, "235875", LBIS.L["Hands"], "BIS") --Gravedigger's Gloves
-    LBIS:AddItem(spec7, "236028", LBIS.L["Hands"], "Alt") --Bonescythe Gauntlets
+    LBIS:AddItem(spec7, "236028", LBIS.L["Hands"], "BIS") --Bonescythe Gauntlets
     LBIS:AddItem(spec7, "236703", LBIS.L["Hands"], "Alt") --Polar Gloves
     LBIS:AddItem(spec7, "236713", LBIS.L["Hands"], "Alt") --Handwraps of Undead Slaying
     LBIS:AddItem(spec7, "233579", LBIS.L["Hands"], "Alt") --Gloves of Enforcement
@@ -936,9 +937,9 @@ local function LoadData()
     LBIS:AddItem(spec7, "13252", LBIS.L["Waist"], "Alt") --Cloudrunner Girdle
     LBIS:AddItem(spec7, "226701", LBIS.L["Waist"], "Alt") --Shadowcraft Belt
     LBIS:AddItem(spec7, "236024", LBIS.L["Legs"], "BIS") --Bonescythe Legplates
+    LBIS:AddItem(spec7, "231044", LBIS.L["Legs"], "BIS") --Bloodfang Pants
     LBIS:AddItem(spec7, "236319", LBIS.L["Legs"], "Alt") --Leggings of Apocalypse
     LBIS:AddItem(spec7, "237292", LBIS.L["Legs"], "Alt") --Polar Leggings
-    LBIS:AddItem(spec7, "231044", LBIS.L["Legs"], "Alt") --Bloodfang Pants
     LBIS:AddItem(spec7, "233390", LBIS.L["Legs"], "Alt") --Deathdealer's Leggings
     LBIS:AddItem(spec7, "232186", LBIS.L["Legs"], "Alt") --Bloodfang Pants
     LBIS:AddItem(spec7, "234163", LBIS.L["Legs"], "Alt") --Dark Heart Pants
@@ -964,11 +965,11 @@ local function LoadData()
     LBIS:AddItem(spec7, "20186", LBIS.L["Feet"], "Alt") --Defiler's Leather Boots
     LBIS:AddItem(spec7, "16711", LBIS.L["Feet"], "Alt") --Shadowcraft Boots
     LBIS:AddItem(spec7, "235886", LBIS.L["Neck"], "BIS") --Kaigy's Clasp
+    LBIS:AddItem(spec7, "231336", LBIS.L["Neck"], "BIS") --Zandalarian Shadow Mastery Talisman
+    LBIS:AddItem(spec7, "236342", LBIS.L["Neck"], "BIS") --Stormrage's Talisman of Seething
     LBIS:AddItem(spec7, "236316", LBIS.L["Neck"], "Alt") --Sadist's Collar
-    LBIS:AddItem(spec7, "236342", LBIS.L["Neck"], "Alt") --Stormrage's Talisman of Seething
     LBIS:AddItem(spec7, "237280", LBIS.L["Neck"], "Alt") --Medallion of the Dawn
     LBIS:AddItem(spec7, "236782", LBIS.L["Neck"], "Alt") --Sairuh's Collar
-    LBIS:AddItem(spec7, "231336", LBIS.L["Neck"], "Alt") --Zandalarian Shadow Mastery Talisman
     LBIS:AddItem(spec7, "228354", LBIS.L["Neck"], "Alt") --Blazefury Medallion
     LBIS:AddItem(spec7, "231803", LBIS.L["Neck"], "Alt") --Prestor's Talisman of Connivery
     LBIS:AddItem(spec7, "228685", LBIS.L["Neck"], "Alt") --Onyxia Tooth Pendant
@@ -1033,8 +1034,8 @@ local function LoadData()
     LBIS:AddItem(spec7, "221307", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Decay
     LBIS:AddItem(spec7, "228089", LBIS.L["Trinket"], "Alt") --Woodcarved Moonstalker
     LBIS:AddItem(spec7, "224122", LBIS.L["Main Hand/Off Hand"], "BIS/Alt") --Dream Eater
+    LBIS:AddItem(spec7, "233433", LBIS.L["Main Hand/Off Hand"], "Alt/BIS") --Dagger of Veiled Shadows
     LBIS:AddItem(spec7, "236341", LBIS.L["Main Hand"], "BIS") --The Hungering Cold
-    LBIS:AddItem(spec7, "233433", LBIS.L["Main Hand/Off Hand"], "Alt") --Dagger of Veiled Shadows
     LBIS:AddItem(spec7, "236343", LBIS.L["Main Hand"], "Alt") --Kingsfall
     LBIS:AddItem(spec7, "234806", LBIS.L["Main Hand/Off Hand"], "Alt") --Blessed Qiraji Pugio
     LBIS:AddItem(spec7, "228277", LBIS.L["Main Hand/Off Hand"], "Alt") --Core Hound Tooth
@@ -1046,7 +1047,7 @@ local function LoadData()
     LBIS:AddItem(spec7, "236221", LBIS.L["Main Hand"], "Alt") --Misplaced Servo Arm
     LBIS:AddItem(spec7, "236339", LBIS.L["Main Hand"], "Alt") --Gressil, Dawn of Ruin
     LBIS:AddItem(spec7, "236263", LBIS.L["Main Hand"], "Alt") --Widow's Remorse
-    LBIS:AddItem(spec7, "236219", LBIS.L["Off Hand"], "BIS") --Harbinger of Doom
+    LBIS:AddItem(spec7, "236219", LBIS.L["Off Hand"], "Alt") --Harbinger of Doom
     LBIS:AddItem(spec7, "230247", LBIS.L["Off Hand"], "Alt") --Dragonfang Blade
     LBIS:AddItem(spec7, "236338", LBIS.L["Off Hand"], "Alt") --Claw of the Frost Wyrm
     LBIS:AddItem(spec7, "228143", LBIS.L["Off Hand"], "Alt") --Shadowflame Sword

@@ -647,7 +647,7 @@ local function LoadData()
     LBIS:AddItem(spec7, "236151", LBIS.L["Wrist"], "Alt") --Earthshatter Bindings
     LBIS:AddItem(spec7, "236734", LBIS.L["Wrist"], "Alt") --Wristguards of Undead Cleansing
     LBIS:AddItem(spec7, "236313", LBIS.L["Wrist"], "Alt") --The Soul Harvester's Bindings
-    LBIS:AddItem(spec7, "236704", LBIS.L["Wrist"], "Alt") --Frosty Wrists
+    LBIS:AddItem(spec7, "236693", LBIS.L["Wrist"], "Alt") --Glacial Wrists
     LBIS:AddItem(spec7, "234114", LBIS.L["Wrist"], "Alt") --Shackles of the Unscarred
     LBIS:AddItem(spec7, "231215", LBIS.L["Wrist"], "Alt") --Bindings of Ten Storms
     LBIS:AddItem(spec7, "233625", LBIS.L["Wrist"], "Alt") --Burrower Bracers
@@ -689,7 +689,7 @@ local function LoadData()
     LBIS:AddItem(spec7, "236154", LBIS.L["Legs"], "BIS") --Earthshatter Kilt
     LBIS:AddItem(spec7, "236303", LBIS.L["Legs"], "Alt") --Leggings of Polarity
     LBIS:AddItem(spec7, "236230", LBIS.L["Legs"], "Alt") --Leggings of Elemental Fury
-    LBIS:AddItem(spec7, "237277", LBIS.L["Legs"], "Alt") --Frosty Leggings
+    LBIS:AddItem(spec7, "237291", LBIS.L["Legs"], "Alt") --Glacial Leggings
     LBIS:AddItem(spec7, "233708", LBIS.L["Legs"], "Alt") --Stormcaller's Mail Leggings
     LBIS:AddItem(spec7, "231218", LBIS.L["Legs"], "Alt") --Kilt of Ten Storms
     LBIS:AddItem(spec7, "233505", LBIS.L["Legs"], "Alt") --Leggings of Immersion
