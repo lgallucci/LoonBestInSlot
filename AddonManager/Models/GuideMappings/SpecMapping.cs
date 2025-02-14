@@ -32,9 +32,9 @@ internal abstract class SpecMapping
 
         //list.Add(new ClassGuideMapping(UrlBase + CurrentPhaseUrl, Spec, Class, "Phase2", CurrentPhase));
 
-        list.Add(new ClassGuideMapping(UrlBase + CurrentPhaseUrl, Spec, Class, "Phase3", CurrentPhase));
+        //list.Add(new ClassGuideMapping(UrlBase + CurrentPhaseUrl, Spec, Class, "Phase3", CurrentPhase));
 
-        // list.Add(new ClassGuideMapping(UrlBase + Phase4Url, Spec, Class, "Phase4", Phase4));
+        list.Add(new ClassGuideMapping(UrlBase + CurrentPhaseUrl, Spec, Class, "Phase4", CurrentPhase));
 
         //list.Add(new ClassGuideMapping(UrlBase + PrePatchUrl, Spec, Class, "PrePatch", PrePatch));
 
