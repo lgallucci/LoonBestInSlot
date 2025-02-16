@@ -16,6 +16,7 @@ local function LoadData()
     LBIS:AddEnchant(spec7, "24421", LBIS.L["Shoulder"]) --Zandalar Signet of Mojo
     LBIS:AddEnchant(spec7, "25084", LBIS.L["Back"]) --Enchant Cloak - Subtlety
     LBIS:AddEnchant(spec7, "1213829", LBIS.L["Chest"]) --Glowing Chitin Armor Kit
+    LBIS:AddEnchant(spec7, "20008", LBIS.L["Wrist"]) --
     LBIS:AddEnchant(spec7, "1220624", LBIS.L["Wrist"]) --
     LBIS:AddEnchant(spec7, "1213829", LBIS.L["Hands"]) --Glowing Chitin Armor Kit
     LBIS:AddEnchant(spec7, "468359", LBIS.L["Legs"]) --Vodouisant's Charm
@@ -750,6 +751,7 @@ local function LoadData()
     LBIS:AddItem(spec7, "226621", LBIS.L["Hands"], "Alt") --Earthfury Hands
     LBIS:AddItem(spec7, "231660", LBIS.L["Hands"], "Alt") --General's Mail Gauntlets
     LBIS:AddItem(spec7, "236152", LBIS.L["Waist"], "BIS") --Earthshatter Cord
+    LBIS:AddItem(spec7, "236171", LBIS.L["Waist"], "Alt") --Earthshatter Belt
     LBIS:AddItem(spec7, "236225", LBIS.L["Waist"], "Alt") --Girdle of Elemental Fury
     LBIS:AddItem(spec7, "235878", LBIS.L["Waist"], "Alt") --Malefic Belt
     LBIS:AddItem(spec7, "233622", LBIS.L["Waist"], "Alt") --Grasp of the Fallen Emperor
@@ -775,8 +777,8 @@ local function LoadData()
     LBIS:AddItem(spec7, "230928", LBIS.L["Legs"], "Alt") --Seafury Leggings
     LBIS:AddItem(spec7, "226623", LBIS.L["Legs"], "Alt") --Earthfury Leggings
     LBIS:AddItem(spec7, "227005", LBIS.L["Legs"], "Alt") --Kilt of The Five Thunders
-    LBIS:AddItem(spec7, "236177", LBIS.L["Feet"], "BIS") --Earthshatter Treads
-    LBIS:AddItem(spec7, "236158", LBIS.L["Feet"], "Alt") --Earthshatter Greaves
+    LBIS:AddItem(spec7, "236158", LBIS.L["Feet"], "BIS") --Earthshatter Greaves
+    LBIS:AddItem(spec7, "236177", LBIS.L["Feet"], "Alt") --Earthshatter Treads
     LBIS:AddItem(spec7, "235880", LBIS.L["Feet"], "Alt") --Pauper Soles
     LBIS:AddItem(spec7, "235881", LBIS.L["Feet"], "Alt") --Dreaded Treaders
     LBIS:AddItem(spec7, "233706", LBIS.L["Feet"], "Alt") --Stormcaller's Greaves
@@ -804,8 +806,9 @@ local function LoadData()
     LBIS:AddItem(spec7, "228536", LBIS.L["Neck"], "Alt") --Star of Mystaria
     LBIS:AddItem(spec7, "14558", LBIS.L["Neck"], "Alt") --Lady Maye's Pendant
     LBIS:AddItem(spec7, "1443", LBIS.L["Neck"], "Alt") --Jeweled Amulet of Cainwyn
-    LBIS:AddItem(spec7, "236157", LBIS.L["Ring"], "BIS") --Band of the Earthshatterer
+    LBIS:AddItem(spec7, "236176", LBIS.L["Ring"], "BIS") --Signet of the Earthshatterer
     LBIS:AddItem(spec7, "233437", LBIS.L["Ring"], "BIS") --Ring of the Gathering Storm
+    LBIS:AddItem(spec7, "236157", LBIS.L["Ring"], "Alt") --Band of the Earthshatterer
     LBIS:AddItem(spec7, "236273", LBIS.L["Ring"], "Alt") --Band of the Inevitable
     LBIS:AddItem(spec7, "236318", LBIS.L["Ring"], "Alt") --Seal of the Damned
     LBIS:AddItem(spec7, "236283", LBIS.L["Ring"], "Alt") --Ring of Spiritual Fervor

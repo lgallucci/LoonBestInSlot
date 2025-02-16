@@ -812,15 +812,16 @@ local function LoadData()
     LBIS:AddItem(spec7, "234110", LBIS.L["Waist"], "Alt") --Ossirian's Binding
     LBIS:AddItem(spec7, "228295", LBIS.L["Waist"], "Alt") --Onslaught Girdle
     LBIS:AddItem(spec7, "236127", LBIS.L["Legs"], "BIS") --Redemption Leggings
+    LBIS:AddItem(spec7, "233400", LBIS.L["Legs"], "BIS") --Avenger's Legguards
     LBIS:AddItem(spec7, "231177", LBIS.L["Legs"], "BIS") --Judgement Legplates
     LBIS:AddItem(spec7, "236319", LBIS.L["Legs"], "Alt") --Leggings of Apocalypse
     LBIS:AddItem(spec7, "236280", LBIS.L["Legs"], "Alt") --Legplates of Carnage
-    LBIS:AddItem(spec7, "233400", LBIS.L["Legs"], "Alt") --Avenger's Legguards
     LBIS:AddItem(spec7, "234071", LBIS.L["Legs"], "Alt") --Legplates of the Qiraji Command
     LBIS:AddItem(spec7, "237292", LBIS.L["Legs"], "Alt") --Polar Leggings
+    LBIS:AddItem(spec7, "236131", LBIS.L["Feet"], "BIS") --Redemption Greaves
     LBIS:AddItem(spec7, "231180", LBIS.L["Feet"], "BIS") --Judgement Sabatons
-    LBIS:AddItem(spec7, "236131", LBIS.L["Feet"], "Alt") --Redemption Greaves
     LBIS:AddItem(spec7, "235883", LBIS.L["Feet"], "Alt") --Well Diver's Stumble
+    LBIS:AddItem(spec7, "235882", LBIS.L["Feet"], "Alt") --Clattering Steps
     LBIS:AddItem(spec7, "233399", LBIS.L["Feet"], "Alt") --Avenger's Greaves
     LBIS:AddItem(spec7, "234095", LBIS.L["Feet"], "Alt") --Slime Kickers
     LBIS:AddItem(spec7, "234098", LBIS.L["Feet"], "Alt") --Boots of the Desert Protector
@@ -862,10 +863,10 @@ local function LoadData()
     LBIS:AddItem(spec7, "234462", LBIS.L["Trinket"], "Alt") --Earthstrike
     LBIS:AddItem(spec7, "228078", LBIS.L["Trinket"], "Alt") --Accursed Chalice
     LBIS:AddItem(spec7, "236352", LBIS.L["Trinket"], "Alt") --Mark of the Champion
-    LBIS:AddItem(spec7, "237512", LBIS.L["Two Hand"], "BIS") --Blade of Inquisition
     LBIS:AddItem(spec7, "236299", LBIS.L["Two Hand"], "BIS") --Claymore of Unholy Might
-    LBIS:AddItem(spec7, "229749", LBIS.L["Two Hand"], "Alt") --Truthbearer
+    LBIS:AddItem(spec7, "237512", LBIS.L["Two Hand"], "BIS") --Blade of Inquisition
     LBIS:AddItem(spec7, "236340", LBIS.L["Two Hand"], "Alt") --Might of Menethil
+    LBIS:AddItem(spec7, "229749", LBIS.L["Two Hand"], "Alt") --Truthbearer
     LBIS:AddItem(spec7, "236287", LBIS.L["Two Hand"], "Alt") --Severance
     LBIS:AddItem(spec7, "234981", LBIS.L["Two Hand"], "Alt") --Kalimdor's Revenge
     LBIS:AddItem(spec7, "235891", LBIS.L["Two Hand"], "Alt") --Ol' Reliable
