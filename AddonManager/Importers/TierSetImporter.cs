@@ -9,44 +9,54 @@ public class TierSetImporter : LootImporter
 {
     private List<string> armorTokenUris = new List<string>
     {
-        //Tier 12
-        //@"https://www.wowhead.com/cata/item=63683/helm-of-the-forlorn-conqueror#currency-for",       
+        "https://www.wowhead.com/cata/item=78868/crown-of-the-corrupted-vanquisher",
+        "https://www.wowhead.com/cata/item=78172/crown-of-the-corrupted-vanquisher",
+        "https://www.wowhead.com/cata/item=78852/crown-of-the-corrupted-vanquisher",
+        "https://www.wowhead.com/cata/item=78874/shoulders-of-the-corrupted-vanquisher",
+        "https://www.wowhead.com/cata/item=78170/shoulders-of-the-corrupted-vanquisher",
+        "https://www.wowhead.com/cata/item=78861/shoulders-of-the-corrupted-vanquisher",
+        "https://www.wowhead.com/cata/item=78862/chest-of-the-corrupted-vanquisher",
+        "https://www.wowhead.com/cata/item=78174/chest-of-the-corrupted-vanquisher",
+        "https://www.wowhead.com/cata/item=78849/chest-of-the-corrupted-vanquisher",
+        "https://www.wowhead.com/cata/item=78865/gauntlets-of-the-corrupted-vanquisher",
+        "https://www.wowhead.com/cata/item=78173/gauntlets-of-the-corrupted-vanquisher",
+        "https://www.wowhead.com/cata/item=78855/gauntlets-of-the-corrupted-vanquisher",
+        "https://www.wowhead.com/cata/item=78871/leggings-of-the-corrupted-vanquisher",
+        "https://www.wowhead.com/cata/item=78171/leggings-of-the-corrupted-vanquisher",
+        "https://www.wowhead.com/cata/item=78858/leggings-of-the-corrupted-vanquisher",
+
+        "https://www.wowhead.com/cata/item=78869/crown-of-the-corrupted-conqueror",
+        "https://www.wowhead.com/cata/item=78182/crown-of-the-corrupted-conqueror",
+        "https://www.wowhead.com/cata/item=78850/crown-of-the-corrupted-conqueror",
+        "https://www.wowhead.com/cata/item=78875/shoulders-of-the-corrupted-conqueror",
+        "https://www.wowhead.com/cata/item=78180/shoulders-of-the-corrupted-conqueror",
+        "https://www.wowhead.com/cata/item=78859/shoulders-of-the-corrupted-conqueror",
+        "https://www.wowhead.com/cata/item=78863/chest-of-the-corrupted-conqueror",
+        "https://www.wowhead.com/cata/item=78184/chest-of-the-corrupted-conqueror",
+        "https://www.wowhead.com/cata/item=78847/chest-of-the-corrupted-conqueror",
+        "https://www.wowhead.com/cata/item=78866/gauntlets-of-the-corrupted-conqueror",
+        "https://www.wowhead.com/cata/item=78183/gauntlets-of-the-corrupted-conqueror",
+        "https://www.wowhead.com/cata/item=78853/gauntlets-of-the-corrupted-conqueror",
+        "https://www.wowhead.com/cata/item=78872/leggings-of-the-corrupted-conqueror",
+        "https://www.wowhead.com/cata/item=78181/leggings-of-the-corrupted-conqueror",
+        "https://www.wowhead.com/cata/item=78856/leggings-of-the-corrupted-conqueror",
         
-        //@"https://www.wowhead.com/item=71688/mantle-of-the-fiery-protector#currency-for",
-
-        //These are sold for valor points ?
-        // @"",
-        // @"",
-        // @"",
-
-        // @"",
-        // @"",
-        // @"",
+        "https://www.wowhead.com/cata/item=78870/crown-of-the-corrupted-protector",
+        "https://www.wowhead.com/cata/item=78177/crown-of-the-corrupted-protector",
+        "https://www.wowhead.com/cata/item=78851/crown-of-the-corrupted-protector",
+        "https://www.wowhead.com/cata/item=78876/shoulders-of-the-corrupted-protector",
+        "https://www.wowhead.com/cata/item=78175/shoulders-of-the-corrupted-protector",
+        "https://www.wowhead.com/cata/item=78860/shoulders-of-the-corrupted-protector",
+        "https://www.wowhead.com/cata/item=78864/chest-of-the-corrupted-protector",
+        "https://www.wowhead.com/cata/item=78179/chest-of-the-corrupted-protector",
+        "https://www.wowhead.com/cata/item=78848/chest-of-the-corrupted-protector",
+        "https://www.wowhead.com/cata/item=78867/gauntlets-of-the-corrupted-protector",
+        "https://www.wowhead.com/cata/item=78178/gauntlets-of-the-corrupted-protector",
+        "https://www.wowhead.com/cata/item=78854/gauntlets-of-the-corrupted-protector",
+        "https://www.wowhead.com/cata/item=78873/leggings-of-the-corrupted-protector",
+        "https://www.wowhead.com/cata/item=78176/leggings-of-the-corrupted-protector",
+        "https://www.wowhead.com/cata/item=78857/leggings-of-the-corrupted-protector",
         
-        // @"",
-        // @"",
-        // @"",
-
-        //Tier 12 Heroic
-        @"https://www.wowhead.com/item=71677/crown-of-the-fiery-conqueror#currency-for", 
-        @"https://www.wowhead.com/item=71684/crown-of-the-fiery-protector#currency-for",
-        @"https://www.wowhead.com/item=71670/crown-of-the-fiery-vanquisher#currency-for",
-
-        @"https://www.wowhead.com/item=71680/shoulders-of-the-fiery-conqueror#currency-for",
-        @"https://www.wowhead.com/item=71687/shoulders-of-the-fiery-protector#currency-for",
-        @"https://www.wowhead.com/item=71673/shoulders-of-the-fiery-vanquisher#currency-for",
-       
-        @"https://www.wowhead.com/item=71679/chest-of-the-fiery-conqueror#currency-for",
-        @"https://www.wowhead.com/item=71686/chest-of-the-fiery-protector#currency-for",
-        @"https://www.wowhead.com/item=71672/chest-of-the-fiery-vanquisher#currency-for",
-    
-        @"https://www.wowhead.com/item=71678/leggings-of-the-fiery-conqueror#currency-for",
-        @"https://www.wowhead.com/item=71685/leggings-of-the-fiery-protector#currency-for",
-        @"https://www.wowhead.com/item=71671/leggings-of-the-fiery-vanquisher#currency-for",
-
-        @"https://www.wowhead.com/item=71676/gauntlets-of-the-fiery-conqueror#currency-for",
-        @"https://www.wowhead.com/item=71683/gauntlets-of-the-fiery-protector#currency-for",
-        @"https://www.wowhead.com/item=71669/gauntlets-of-the-fiery-vanquisher#currency-for",
     };
 
     public TierSetImporter(CancellationToken cancellationToken) : base(cancellationToken)
