@@ -269,59 +269,112 @@ LBIS:AddItem(spec3, "64671", LBIS.L["Ranged/Relic"], "BIS") --Relic of Golgannet
 LBIS:AddItem(spec3, "71146", LBIS.L["Ranged/Relic"], "Alt") --Covenant of the Flame
 LBIS:AddItem(spec3, "70109", LBIS.L["Ranged/Relic"], "Alt") --Relic of Elune's Shadow
 
+LBIS:AddItem(spec4, "78694", LBIS.L["Head"], "BIS") --Deep Earth Headpiece
 LBIS:AddItem(spec4, "71488", LBIS.L["Head"], "BIS") --Obsidian Arborweave Headpiece
 LBIS:AddItem(spec4, "65190", LBIS.L["Head"], "BIS") --Stormrider's Headpiece
+LBIS:AddItem(spec4, "77015", LBIS.L["Head"], "Alt") --Deep Earth Headpiece
+LBIS:AddItem(spec4, "77148", LBIS.L["Head"], "Alt") --Nocturnal Gaze
 LBIS:AddItem(spec4, "71416", LBIS.L["Head"], "Alt") --Hood of Rampant Disdain
-LBIS:AddItem(spec4, "60286", LBIS.L["Head"], "Alt") --Stormrider's Headpiece
+LBIS:AddItem(spec4, "78789", LBIS.L["Head"], "Alt") --Deep Earth Headpiece
+LBIS:AddItem(spec4, "78368", LBIS.L["Shoulder"], "BIS") --Underdweller's Spaulders
 LBIS:AddItem(spec4, "71490", LBIS.L["Shoulder"], "BIS") --Obsidian Arborweave Spaulders
 LBIS:AddItem(spec4, "65083", LBIS.L["Shoulder"], "BIS") --Poison Protocol Pauldrons
+LBIS:AddItem(spec4, "78743", LBIS.L["Shoulder"], "Alt") --Deep Earth Spaulders
+LBIS:AddItem(spec4, "77017", LBIS.L["Shoulder"], "Alt") --Deep Earth Spaulders
+LBIS:AddItem(spec4, "77271", LBIS.L["Shoulder"], "Alt") --Underdweller's Spaulders
 LBIS:AddItem(spec4, "71456", LBIS.L["Shoulder"], "Alt") --Shoulderpads of the Forgotten Gate
-LBIS:AddItem(spec4, "60289", LBIS.L["Shoulder"], "Alt") --Stormrider's Spaulders
+LBIS:AddItem(spec4, "78838", LBIS.L["Shoulder"], "Alt") --Deep Earth Spaulders
 LBIS:AddItem(spec4, "71415", LBIS.L["Back"], "BIS") --Dreadfire Drape
 LBIS:AddItem(spec4, "65035", LBIS.L["Back"], "BIS") --Cloak of Biting Chill
+LBIS:AddItem(spec4, "77095", LBIS.L["Back"], "Alt") --Batwing Cloak
+LBIS:AddItem(spec4, "70992", LBIS.L["Back"], "Alt") --Dreadfire Drape
 LBIS:AddItem(spec4, "71228", LBIS.L["Back"], "Alt") --Sleek Flamewrath Cloak
-LBIS:AddItem(spec4, "69884", LBIS.L["Back"], "Alt") --Mistral Drape
+LBIS:AddItem(spec4, "78665", LBIS.L["Chest"], "BIS") --Deep Earth Raiment
 LBIS:AddItem(spec4, "71486", LBIS.L["Chest"], "BIS") --Obsidian Arborweave Raiment
 LBIS:AddItem(spec4, "65192", LBIS.L["Chest"], "BIS") --Stormrider's Raiment
+LBIS:AddItem(spec4, "77013", LBIS.L["Chest"], "Alt") --Deep Earth Raiment
+LBIS:AddItem(spec4, "77126", LBIS.L["Chest"], "Alt") --Shadowbinder Chestguard
 LBIS:AddItem(spec4, "71455", LBIS.L["Chest"], "Alt") --Breastplate of the Incendiary Soul
-LBIS:AddItem(spec4, "71100", LBIS.L["Chest"], "Alt") --Obsidian Arborweave Raiment
-LBIS:AddItem(spec4, "71428", LBIS.L["Wrist"], "BIS") --Flickering Wristbands of the Windstorm
+LBIS:AddItem(spec4, "78760", LBIS.L["Chest"], "Alt") --Deep Earth Raiment
+LBIS:AddItem(spec4, "78446", LBIS.L["Wrist"], "BIS") --Shadow Wing Armbands
+LBIS:AddItem(spec4, "71428", LBIS.L["Wrist"], "BIS") --Flickering Wristbands
 LBIS:AddItem(spec4, "65050", LBIS.L["Wrist"], "BIS") --Parasitic Bands
-LBIS:AddItem(spec4, "71130", LBIS.L["Wrist"], "Alt") --Flamebinder Bracers
+LBIS:AddItem(spec4, "71994", LBIS.L["Wrist"], "Alt") --Bladeshadow Wristguards
+LBIS:AddItem(spec4, "77240", LBIS.L["Wrist"], "Alt") --Shadow Wing Armbands
+LBIS:AddItem(spec4, "77322", LBIS.L["Wrist"], "Alt") --Bracers of Manifold Pockets
+LBIS:AddItem(spec4, "78454", LBIS.L["Wrist"], "Alt") --Shadow Wing Armbands
+LBIS:AddItem(spec4, "78684", LBIS.L["Hands"], "BIS") --Deep Earth Grips
 LBIS:AddItem(spec4, "71440", LBIS.L["Hands"], "BIS") --Gloves of Dissolving Smoke
 LBIS:AddItem(spec4, "65073", LBIS.L["Hands"], "BIS") --Double Attack Handguards
+LBIS:AddItem(spec4, "77014", LBIS.L["Hands"], "Alt") --Deep Earth Grips
+LBIS:AddItem(spec4, "73615", LBIS.L["Hands"], "Alt") --Cataclysmic Gladiator's Dragonhide Gloves
+LBIS:AddItem(spec4, "77161", LBIS.L["Hands"], "Alt") --Lightfinger Handwraps
 LBIS:AddItem(spec4, "71487", LBIS.L["Hands"], "Alt") --Obsidian Arborweave Grips
-LBIS:AddItem(spec4, "69942", LBIS.L["Hands"], "Alt") --Clutches of Evil
+LBIS:AddItem(spec4, "78779", LBIS.L["Hands"], "Alt") --Deep Earth Grips
+LBIS:AddItem(spec4, "78388", LBIS.L["Waist"], "BIS") --Belt of Flayed Skin
 LBIS:AddItem(spec4, "71641", LBIS.L["Waist"], "BIS") --Riplimb's Lost Collar
 LBIS:AddItem(spec4, "60231", LBIS.L["Waist"], "BIS") --Belt of the Fallen Brood
+LBIS:AddItem(spec4, "77260", LBIS.L["Waist"], "Alt") --Belt of Flayed Skin
+LBIS:AddItem(spec4, "77180", LBIS.L["Waist"], "Alt") --Belt of Hidden Keys
+LBIS:AddItem(spec4, "78882", LBIS.L["Waist"], "Alt") --Nightblind Cinch
+LBIS:AddItem(spec4, "78395", LBIS.L["Waist"], "Alt") --Belt of Flayed Skin
 LBIS:AddItem(spec4, "71640", LBIS.L["Waist"], "Alt") --Riplimb's Lost Collar
+LBIS:AddItem(spec4, "78713", LBIS.L["Legs"], "BIS") --Deep Earth Legguards
 LBIS:AddItem(spec4, "71489", LBIS.L["Legs"], "BIS") --Obsidian Arborweave Legguards
-LBIS:AddItem(spec4, "65381", LBIS.L["Legs"], "BIS") --Wind Stalker Leggings
+LBIS:AddItem(spec4, "65381", LBIS.L["Legs"], "BIS") --Wind Stalker Leggings of the Stormblast
+LBIS:AddItem(spec4, "77016", LBIS.L["Legs"], "Alt") --Deep Earth Legguards
+LBIS:AddItem(spec4, "71985", LBIS.L["Legs"], "Alt") --Bladeshadow Leggings
 LBIS:AddItem(spec4, "71402", LBIS.L["Legs"], "Alt") --Cinderweb Leggings
-LBIS:AddItem(spec4, "71099", LBIS.L["Legs"], "Alt") --Obsidian Arborweave Legguards
+LBIS:AddItem(spec4, "78808", LBIS.L["Legs"], "Alt") --Deep Earth Legguards
+LBIS:AddItem(spec4, "72835", LBIS.L["Legs"], "Alt") --Puppeteer's Pantaloons
+LBIS:AddItem(spec4, "78462", LBIS.L["Feet"], "BIS") --Molten Blood Footpads
+LBIS:AddItem(spec4, "73531", LBIS.L["Feet"], "BIS") --Cataclysmic Gladiator's Boots of Cruelty
 LBIS:AddItem(spec4, "71467", LBIS.L["Feet"], "BIS") --Sandals of Leaping Coals
 LBIS:AddItem(spec4, "65144", LBIS.L["Feet"], "BIS") --Storm Rider's Boots
+LBIS:AddItem(spec4, "78402", LBIS.L["Feet"], "Alt") --Interrogator's Bloody Footpads
+LBIS:AddItem(spec4, "77238", LBIS.L["Feet"], "Alt") --Molten Blood Footpads
+LBIS:AddItem(spec4, "77254", LBIS.L["Feet"], "Alt") --Interrogator's Bloody Footpads
+LBIS:AddItem(spec4, "77173", LBIS.L["Feet"], "Alt") --Rooftop Griptoes
+LBIS:AddItem(spec4, "78467", LBIS.L["Feet"], "Alt") --Molten Blood Footpads
+LBIS:AddItem(spec4, "78408", LBIS.L["Feet"], "Alt") --Interrogator's Bloody Footpads
 LBIS:AddItem(spec4, "69951", LBIS.L["Feet"], "Alt") --Treads of the Craft
-LBIS:AddItem(spec4, "71610", LBIS.L["Neck"], "BIS") --Choker of the Vanquished Lord
-LBIS:AddItem(spec4, "69880", LBIS.L["Neck"], "BIS") --Mistral Pendant of the Windstorm
+LBIS:AddItem(spec4, "77091", LBIS.L["Neck"], "BIS") --Cameo of Terrible Memories
+LBIS:AddItem(spec4, "69880", LBIS.L["Neck"], "BIS") --Mistral Pendant of the Stormblast
+LBIS:AddItem(spec4, "73645", LBIS.L["Neck"], "Alt") --Cataclysmic Gladiator's Necklace of Proficiency
+LBIS:AddItem(spec4, "71610", LBIS.L["Neck"], "Alt") --Choker of the Vanquished Lord
 LBIS:AddItem(spec4, "71129", LBIS.L["Neck"], "Alt") --Necklace of Smoke Signals
+LBIS:AddItem(spec4, "78489", LBIS.L["Ring"], "BIS") --Seal of Primordial Shadow
+LBIS:AddItem(spec4, "78413", LBIS.L["Ring"], "BIS") --Signet of Grasping Mouths
 LBIS:AddItem(spec4, "71216", LBIS.L["Ring"], "BIS") --Viridian Signet of the Avengers
 LBIS:AddItem(spec4, "71401", LBIS.L["Ring"], "BIS") --Widow's Kiss
 LBIS:AddItem(spec4, "65082", LBIS.L["Ring"], "BIS") --Lightning Conductor Band
-LBIS:AddItem(spec4, "63488", LBIS.L["Ring"], "BIS") --Mistral Circle of the Windstorm
+LBIS:AddItem(spec4, "65367", LBIS.L["Ring"], "BIS") --Mistral Circle of the Stormblast
+LBIS:AddItem(spec4, "77231", LBIS.L["Ring"], "Alt") --Seal of Primordial Shadow
+LBIS:AddItem(spec4, "78011", LBIS.L["Ring"], "Alt") --Signet of Grasping Mouths
+LBIS:AddItem(spec4, "77111", LBIS.L["Ring"], "Alt") --Emergency Descent Loop
+LBIS:AddItem(spec4, "78494", LBIS.L["Ring"], "Alt") --Seal of Primordial Shadow
+LBIS:AddItem(spec4, "78421", LBIS.L["Ring"], "Alt") --Signet of Grasping Mouths
 LBIS:AddItem(spec4, "71209", LBIS.L["Ring"], "Alt") --Splintered Brimstone Seal
-LBIS:AddItem(spec4, "65367", LBIS.L["Ring"], "Alt") --Mistral Circle
+LBIS:AddItem(spec4, "72845", LBIS.L["Ring"], "Alt") --Mannoroth's Signet
+LBIS:AddItem(spec4, "77994", LBIS.L["Trinket"], "BIS") --Wrath of Unchaining
+LBIS:AddItem(spec4, "77999", LBIS.L["Trinket"], "BIS") --Vial of Shadows
 LBIS:AddItem(spec4, "69150", LBIS.L["Trinket"], "BIS") --Matrix Restabilizer
 LBIS:AddItem(spec4, "69112", LBIS.L["Trinket"], "BIS") --The Hungerer
 LBIS:AddItem(spec4, "65140", LBIS.L["Trinket"], "BIS") --Essence of the Cyclone
 LBIS:AddItem(spec4, "65026", LBIS.L["Trinket"], "BIS") --Prestor's Talisman of Machination
-LBIS:AddItem(spec4, "58181", LBIS.L["Trinket"], "Alt") --Fluid Death
-LBIS:AddItem(spec4, "69001", LBIS.L["Trinket"], "Alt") --Ancient Petrified Seed
+LBIS:AddItem(spec4, "77993", LBIS.L["Trinket"], "Alt") --Starcatcher Compass
+LBIS:AddItem(spec4, "77113", LBIS.L["Trinket"], "Alt") --Kiroptyric Sigil
+LBIS:AddItem(spec4, "78473", LBIS.L["Two Hand"], "BIS") --Kiril, Fury of Beasts
 LBIS:AddItem(spec4, "71466", LBIS.L["Two Hand"], "BIS") --Fandral's Flamescythe
 LBIS:AddItem(spec4, "65139", LBIS.L["Two Hand"], "BIS") --Malevolence
+LBIS:AddItem(spec4, "78401", LBIS.L["Two Hand"], "Alt") --Spire of Coagulated Globules
+LBIS:AddItem(spec4, "77194", LBIS.L["Two Hand"], "Alt") --Kiril, Fury of Beasts
+LBIS:AddItem(spec4, "77218", LBIS.L["Two Hand"], "Alt") --Spire of Coagulated Globules
+LBIS:AddItem(spec4, "78482", LBIS.L["Two Hand"], "Alt") --Kiril, Fury of Beasts
 LBIS:AddItem(spec4, "71557", LBIS.L["Two Hand"], "Alt") --Ranseur of Hatred
 LBIS:AddItem(spec4, "70165", LBIS.L["Two Hand"], "Alt") --Witch-Hunter's Harvester
-LBIS:AddItem(spec4, "71567", LBIS.L["Ranged/Relic"], "BIS") --Covenant of the Flame
-LBIS:AddItem(spec4, "64671", LBIS.L["Ranged/Relic"], "BIS") --Relic of Golganneth
+LBIS:AddItem(spec4, "77080", LBIS.L["Ranged/Relic"], "BIS") --Ripfang Relic
+LBIS:AddItem(spec4, "73642", LBIS.L["Ranged/Relic"], "Alt") --Cataclysmic Gladiator's Relic of Triumph
+LBIS:AddItem(spec4, "71567", LBIS.L["Ranged/Relic"], "Alt") --Covenant of the Flame
 LBIS:AddItem(spec4, "71146", LBIS.L["Ranged/Relic"], "Alt") --Covenant of the Flame
 LBIS:AddItem(spec4, "70109", LBIS.L["Ranged/Relic"], "Alt") --Relic of Elune's Shadow

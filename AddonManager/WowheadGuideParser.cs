@@ -727,8 +727,9 @@ foreach (var guideMapping in specMapping.GuideMappings)
                 if (headerElement != null)
                 {
                     var nextSibling = headerElement.NextElementSibling;
+                    IHtmlTableElement? tableElement = null;
                     int elementCounter = 0;
-                    while (nextSibling != null && (!IsTableElement(nextSibling) || nextSibling is IHtmlHeadingElement))
+                    while (nextSibling != null)
                     {
                         if (Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended.*for new").Success)
                             foundEnchantText = false;
@@ -762,18 +763,19 @@ foreach (var guideMapping in specMapping.GuideMappings)
                             });
                         }
 
+                        tableElement = FindTableElement(nextSibling);
+                        if (tableElement != null)
+                            break;
+
                         nextSibling = nextSibling?.NextElementSibling;
                         elementCounter++;
                     }
 
                     foundEnchantText = false;
-                    if (nextSibling is IHtmlTableElement)
+                    
+                    if (tableElement != null)
                     {                            
-                        foundTable(nextSibling as IHtmlTableElement, guideMapping.Key, htmlMapping);
-                    }
-                    else if (nextSibling.ClassName == "markup-table-wrapper")
-                    {
-                        foundTable(nextSibling.FirstChild as IHtmlTableElement, guideMapping.Key, htmlMapping);
+                        foundTable(tableElement, guideMapping.Key, htmlMapping);
                     }
                     else
                     {
@@ -788,8 +790,29 @@ foreach (var guideMapping in specMapping.GuideMappings)
         }
     }
 
-    private bool IsTableElement(IElement nextSibling)
+    private IHtmlTableElement? FindTableElement(IElement nextSibling)
     {
-         return nextSibling is IHtmlTableElement || nextSibling.ClassName == "markup-table-wrapper";
+        if (nextSibling is IHtmlTableElement)
+        {
+            if(((IHtmlTableElement)nextSibling).Rows.First().ChildNodes.Count() > 1)
+            {
+                return (IHtmlTableElement)nextSibling;
+            }
+        }
+         else if(nextSibling.ClassName == "markup-table-wrapper")
+         {
+            if(((IHtmlTableElement)nextSibling.FirstChild).Rows.First().ChildNodes.Count() > 1)
+                return (IHtmlTableElement)nextSibling.FirstChild;
+         }
+         else if(nextSibling.ClassName == "wh-center")
+         {
+            foreach(var child in nextSibling.Children)
+            {
+                if (child.ClassName == "markup-table-wrapper")
+                    if (((IHtmlTableElement)child.FirstChild).Rows.First().ChildNodes.Count() > 1)
+                       return (IHtmlTableElement)child.FirstChild; 
+            }
+         }
+         return null;
     }
 }

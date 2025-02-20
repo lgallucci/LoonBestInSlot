@@ -1064,6 +1064,310 @@
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
+    "70941": {
+      "Name": "Shoulderguards of the Molten Giant",
+      "Source": "Shoulders of the Fiery Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71688",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "70944": {
+      "Name": "Faceguard of the Molten Giant",
+      "Source": "Crown of the Fiery Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71682",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "70946": {
+      "Name": "Immolation Shoulderguards",
+      "Source": "Mantle of the Fiery Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71681",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "70948": {
+      "Name": "Immolation Faceguard",
+      "Source": "Helm of the Fiery Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71675",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "70951": {
+      "Name": "Elementium Deathplate Shoulderguards",
+      "Source": "Mantle of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71674",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "70954": {
+      "Name": "Elementium Deathplate Faceguard",
+      "Source": "Helm of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71668",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71047": {
+      "Name": "Dark Phoenix Helmet",
+      "Source": "Helm of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71668",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71049": {
+      "Name": "Dark Phoenix Spaulders",
+      "Source": "Mantle of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71674",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71051": {
+      "Name": "Flamewaker's Headguard",
+      "Source": "Crown of the Fiery Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71682",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71053": {
+      "Name": "Flamewaker's Spaulders",
+      "Source": "Shoulders of the Fiery Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71688",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71060": {
+      "Name": "Elementium Deathplate Helmet",
+      "Source": "Helm of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71668",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71062": {
+      "Name": "Elementium Deathplate Pauldrons",
+      "Source": "Mantle of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71674",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71065": {
+      "Name": "Immolation Helmet",
+      "Source": "Helm of the Fiery Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71675",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71067": {
+      "Name": "Immolation Pauldrons",
+      "Source": "Mantle of the Fiery Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71681",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71070": {
+      "Name": "Helmet of the Molten Giant",
+      "Source": "Crown of the Fiery Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71682",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71072": {
+      "Name": "Pauldrons of the Molten Giant",
+      "Source": "Shoulders of the Fiery Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71688",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71093": {
+      "Name": "Immolation Headguard",
+      "Source": "Helm of the Fiery Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71675",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71095": {
+      "Name": "Immolation Mantle",
+      "Source": "Mantle of the Fiery Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71681",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71098": {
+      "Name": "Obsidian Arborweave Headpiece",
+      "Source": "Helm of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71668",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71101": {
+      "Name": "Obsidian Arborweave Spaulders",
+      "Source": "Mantle of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71674",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71103": {
+      "Name": "Obsidian Arborweave Helm",
+      "Source": "Helm of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71668",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71106": {
+      "Name": "Obsidian Arborweave Mantle",
+      "Source": "Mantle of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71674",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71108": {
+      "Name": "Obsidian Arborweave Cover",
+      "Source": "Helm of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71668",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71111": {
+      "Name": "Obsidian Arborweave Shoulderwraps",
+      "Source": "Mantle of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71674",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71272": {
+      "Name": "Cowl of the Cleansing Flame",
+      "Source": "Helm of the Fiery Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71675",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71275": {
+      "Name": "Mantle of the Cleansing Flame",
+      "Source": "Mantle of the Fiery Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71681",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71277": {
+      "Name": "Hood of the Cleansing Flame",
+      "Source": "Helm of the Fiery Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71675",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71280": {
+      "Name": "Shoulderwraps of the Cleansing Flame",
+      "Source": "Mantle of the Fiery Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71681",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71282": {
+      "Name": "Balespider's Hood",
+      "Source": "Helm of the Fiery Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71675",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71285": {
+      "Name": "Balespider's Mantle",
+      "Source": "Mantle of the Fiery Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71681",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71287": {
+      "Name": "Firehawk Hood",
+      "Source": "Helm of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71668",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71290": {
+      "Name": "Firehawk Mantle",
+      "Source": "Mantle of the Fiery Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71674",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71293": {
+      "Name": "Erupting Volcanic Headpiece",
+      "Source": "Crown of the Fiery Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71682",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71295": {
+      "Name": "Erupting Volcanic Shoulderwraps",
+      "Source": "Shoulders of the Fiery Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71688",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71298": {
+      "Name": "Erupting Volcanic Faceguard",
+      "Source": "Crown of the Fiery Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71682",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71300": {
+      "Name": "Erupting Volcanic Mantle",
+      "Source": "Shoulders of the Fiery Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71688",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71303": {
+      "Name": "Erupting Volcanic Helmet",
+      "Source": "Crown of the Fiery Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71682",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "71305": {
+      "Name": "Erupting Volcanic Spaulders",
+      "Source": "Shoulders of the Fiery Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "71688",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
     "71476": {
       "Name": "Elementium Deathplate Breastplate",
       "Source": "Chest of the Fiery Vanquisher",
@@ -1824,307 +2128,2283 @@
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
-    "70941": {
-      "Name": "Shoulderguards of the Molten Giant",
-      "Source": "Shoulders of the Fiery Protector",
+    "76212": {
+      "Name": "Time Lord's Gloves",
+      "Source": "Gauntlets of the Corrupted Vanquisher",
       "SourceType": "Tier Token",
-      "SourceNumber": "71688",
+      "SourceNumber": "78173",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
-    "71072": {
-      "Name": "Pauldrons of the Molten Giant",
-      "Source": "Shoulders of the Fiery Protector",
+    "76213": {
+      "Name": "Time Lord's Hood",
+      "Source": "Crown of the Corrupted Vanquisher",
       "SourceType": "Tier Token",
-      "SourceNumber": "71688",
+      "SourceNumber": "78172",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
-    "71053": {
-      "Name": "Flamewaker's Spaulders",
-      "Source": "Shoulders of the Fiery Protector",
+    "76214": {
+      "Name": "Time Lord's Leggings",
+      "Source": "Leggings of the Corrupted Vanquisher",
       "SourceType": "Tier Token",
-      "SourceNumber": "71688",
+      "SourceNumber": "78171",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
-    "71295": {
-      "Name": "Erupting Volcanic Shoulderwraps",
-      "Source": "Shoulders of the Fiery Protector",
+    "76215": {
+      "Name": "Time Lord's Robes",
+      "Source": "Chest of the Corrupted Vanquisher",
       "SourceType": "Tier Token",
-      "SourceNumber": "71688",
+      "SourceNumber": "78174",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
-    "71305": {
-      "Name": "Erupting Volcanic Spaulders",
-      "Source": "Shoulders of the Fiery Protector",
+    "76216": {
+      "Name": "Time Lord's Mantle",
+      "Source": "Shoulders of the Corrupted Vanquisher",
       "SourceType": "Tier Token",
-      "SourceNumber": "71688",
+      "SourceNumber": "78170",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
-    "71300": {
-      "Name": "Erupting Volcanic Mantle",
-      "Source": "Shoulders of the Fiery Protector",
+    "76339": {
+      "Name": "Mantle of the Faceless Shroud",
+      "Source": "Shoulders of the Corrupted Conqueror",
       "SourceType": "Tier Token",
-      "SourceNumber": "71688",
+      "SourceNumber": "78180",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
-    "70944": {
-      "Name": "Faceguard of the Molten Giant",
-      "Source": "Crown of the Fiery Protector",
+    "76340": {
+      "Name": "Robes of the Faceless Shroud",
+      "Source": "Chest of the Corrupted Conqueror",
       "SourceType": "Tier Token",
-      "SourceNumber": "71682",
+      "SourceNumber": "78184",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
-    "71070": {
-      "Name": "Helmet of the Molten Giant",
-      "Source": "Crown of the Fiery Protector",
+    "76341": {
+      "Name": "Leggings of the Faceless Shroud",
+      "Source": "Leggings of the Corrupted Conqueror",
       "SourceType": "Tier Token",
-      "SourceNumber": "71682",
+      "SourceNumber": "78181",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
-    "71051": {
-      "Name": "Flamewaker's Headguard",
-      "Source": "Crown of the Fiery Protector",
+    "76342": {
+      "Name": "Hood of the Faceless Shroud",
+      "Source": "Crown of the Corrupted Conqueror",
       "SourceType": "Tier Token",
-      "SourceNumber": "71682",
+      "SourceNumber": "78182",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
-    "71293": {
-      "Name": "Erupting Volcanic Headpiece",
-      "Source": "Crown of the Fiery Protector",
+    "76343": {
+      "Name": "Gloves of the Faceless Shroud",
+      "Source": "Gauntlets of the Corrupted Conqueror",
       "SourceType": "Tier Token",
-      "SourceNumber": "71682",
+      "SourceNumber": "78183",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
-    "71303": {
-      "Name": "Erupting Volcanic Helmet",
-      "Source": "Crown of the Fiery Protector",
+    "76344": {
+      "Name": "Mantle of Dying Light",
+      "Source": "Shoulders of the Corrupted Conqueror",
       "SourceType": "Tier Token",
-      "SourceNumber": "71682",
+      "SourceNumber": "78180",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
-    "71298": {
-      "Name": "Erupting Volcanic Faceguard",
-      "Source": "Crown of the Fiery Protector",
+    "76345": {
+      "Name": "Robes of Dying Light",
+      "Source": "Chest of the Corrupted Conqueror",
       "SourceType": "Tier Token",
-      "SourceNumber": "71682",
+      "SourceNumber": "78184",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
-    "71095": {
-      "Name": "Immolation Mantle",
-      "Source": "Mantle of the Fiery Conqueror",
+    "76346": {
+      "Name": "Leggings of Dying Light",
+      "Source": "Leggings of the Corrupted Conqueror",
       "SourceType": "Tier Token",
-      "SourceNumber": "71681",
+      "SourceNumber": "78181",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
-    "70946": {
-      "Name": "Immolation Shoulderguards",
-      "Source": "Mantle of the Fiery Conqueror",
+    "76347": {
+      "Name": "Hood of Dying Light",
+      "Source": "Crown of the Corrupted Conqueror",
       "SourceType": "Tier Token",
-      "SourceNumber": "71681",
+      "SourceNumber": "78182",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
-    "71067": {
-      "Name": "Immolation Pauldrons",
-      "Source": "Mantle of the Fiery Conqueror",
+    "76348": {
+      "Name": "Gloves of Dying Light",
+      "Source": "Gauntlets of the Corrupted Conqueror",
       "SourceType": "Tier Token",
-      "SourceNumber": "71681",
+      "SourceNumber": "78183",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
-    "71275": {
-      "Name": "Mantle of the Cleansing Flame",
-      "Source": "Mantle of the Fiery Conqueror",
+    "76357": {
+      "Name": "Handwraps of Dying Light",
+      "Source": "Gauntlets of the Corrupted Conqueror",
       "SourceType": "Tier Token",
-      "SourceNumber": "71681",
+      "SourceNumber": "78183",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
-    "71280": {
-      "Name": "Shoulderwraps of the Cleansing Flame",
-      "Source": "Mantle of the Fiery Conqueror",
+    "76358": {
+      "Name": "Cowl of Dying Light",
+      "Source": "Crown of the Corrupted Conqueror",
       "SourceType": "Tier Token",
-      "SourceNumber": "71681",
+      "SourceNumber": "78182",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
-    "71285": {
-      "Name": "Balespider's Mantle",
-      "Source": "Mantle of the Fiery Conqueror",
+    "76359": {
+      "Name": "Legwraps of Dying Light",
+      "Source": "Leggings of the Corrupted Conqueror",
       "SourceType": "Tier Token",
-      "SourceNumber": "71681",
+      "SourceNumber": "78181",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
-    "71093": {
-      "Name": "Immolation Headguard",
-      "Source": "Helm of the Fiery Conqueror",
+    "76360": {
+      "Name": "Robes of Dying Light",
+      "Source": "Chest of the Corrupted Conqueror",
       "SourceType": "Tier Token",
-      "SourceNumber": "71675",
-      "SourceLocation": "unknown",
-      "SourceFaction": "B"
-    },    
-    "71065": {
-      "Name": "Immolation Helmet",
-      "Source": "Helm of the Fiery Conqueror",
-      "SourceType": "Tier Token",
-      "SourceNumber": "71675",
-      "SourceLocation": "unknown",
-      "SourceFaction": "B"
-    },    
-    "70948": {
-      "Name": "Immolation Faceguard",
-      "Source": "Helm of the Fiery Conqueror",
-      "SourceType": "Tier Token",
-      "SourceNumber": "71675",
+      "SourceNumber": "78184",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
-    "71272": {
-      "Name": "Cowl of the Cleansing Flame",
-      "Source": "Helm of the Fiery Conqueror",
+    "76361": {
+      "Name": "Mantle of Dying Light",
+      "Source": "Shoulders of the Corrupted Conqueror",
       "SourceType": "Tier Token",
-      "SourceNumber": "71675",
+      "SourceNumber": "78180",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
-    "71277": {
-      "Name": "Hood of the Cleansing Flame",
-      "Source": "Helm of the Fiery Conqueror",
+    "76749": {
+      "Name": "Deep Earth Handwraps",
+      "Source": "Gauntlets of the Corrupted Vanquisher",
       "SourceType": "Tier Token",
-      "SourceNumber": "71675",
+      "SourceNumber": "78173",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
-    "71282": {
-      "Name": "Balespider's Hood",
-      "Source": "Helm of the Fiery Conqueror",
+    "76750": {
+      "Name": "Deep Earth Helm",
+      "Source": "Crown of the Corrupted Vanquisher",
       "SourceType": "Tier Token",
-      "SourceNumber": "71675",
+      "SourceNumber": "78172",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
-    "71049": {
-      "Name": "Dark Phoenix Spaulders",
-      "Source": "Mantle of the Fiery Vanquisher",
+    "76751": {
+      "Name": "Deep Earth Legwraps",
+      "Source": "Leggings of the Corrupted Vanquisher",
       "SourceType": "Tier Token",
-      "SourceNumber": "71674",
+      "SourceNumber": "78171",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
-    "70951": {
-      "Name": "Elementium Deathplate Shoulderguards",
-      "Source": "Mantle of the Fiery Vanquisher",
+    "76752": {
+      "Name": "Deep Earth Robes",
+      "Source": "Chest of the Corrupted Vanquisher",
       "SourceType": "Tier Token",
-      "SourceNumber": "71674",
+      "SourceNumber": "78174",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
-    "71062": {
-      "Name": "Elementium Deathplate Pauldrons",
-      "Source": "Mantle of the Fiery Vanquisher",
+    "76753": {
+      "Name": "Deep Earth Mantle",
+      "Source": "Shoulders of the Corrupted Vanquisher",
       "SourceType": "Tier Token",
-      "SourceNumber": "71674",
+      "SourceNumber": "78170",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
-    "71290": {
-      "Name": "Firehawk Mantle",
-      "Source": "Mantle of the Fiery Vanquisher",
+    "76756": {
+      "Name": "Spiritwalker's Tunic",
+      "Source": "Chest of the Corrupted Protector",
       "SourceType": "Tier Token",
-      "SourceNumber": "71674",
+      "SourceNumber": "78179",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
-    "71106": {
-      "Name": "Obsidian Arborweave Mantle",
-      "Source": "Mantle of the Fiery Vanquisher",
+    "76757": {
+      "Name": "Spiritwalker's Handwraps",
+      "Source": "Gauntlets of the Corrupted Protector",
       "SourceType": "Tier Token",
-      "SourceNumber": "71674",
+      "SourceNumber": "78178",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
-    "71101": {
-      "Name": "Obsidian Arborweave Spaulders",
-      "Source": "Mantle of the Fiery Vanquisher",
+    "76758": {
+      "Name": "Spiritwalker's Faceguard",
+      "Source": "Crown of the Corrupted Protector",
       "SourceType": "Tier Token",
-      "SourceNumber": "71674",
+      "SourceNumber": "78177",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
-    "71111": {
-      "Name": "Obsidian Arborweave Shoulderwraps",
-      "Source": "Mantle of the Fiery Vanquisher",
+    "76759": {
+      "Name": "Spiritwalker's Legwraps",
+      "Source": "Leggings of the Corrupted Protector",
       "SourceType": "Tier Token",
-      "SourceNumber": "71674",
+      "SourceNumber": "78176",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
-    "71047": {
-      "Name": "Dark Phoenix Helmet",
-      "Source": "Helm of the Fiery Vanquisher",
+    "76760": {
+      "Name": "Spiritwalker's Mantle",
+      "Source": "Shoulders of the Corrupted Protector",
       "SourceType": "Tier Token",
-      "SourceNumber": "71668",
+      "SourceNumber": "78175",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
-    "70954": {
-      "Name": "Elementium Deathplate Faceguard",
-      "Source": "Helm of the Fiery Vanquisher",
+    "76765": {
+      "Name": "Breastplate of Radiant Glory",
+      "Source": "Chest of the Corrupted Conqueror",
       "SourceType": "Tier Token",
-      "SourceNumber": "71668",
-      "SourceLocation": "unknown",
-      "SourceFaction": "B"
-    },    
-    "71060": {
-      "Name": "Elementium Deathplate Helmet",
-      "Source": "Helm of the Fiery Vanquisher",
-      "SourceType": "Tier Token",
-      "SourceNumber": "71668",
-      "SourceLocation": "unknown",
-      "SourceFaction": "B"
-    },    
-    "71287": {
-      "Name": "Firehawk Hood",
-      "Source": "Helm of the Fiery Vanquisher",
-      "SourceType": "Tier Token",
-      "SourceNumber": "71668",
-      "SourceLocation": "unknown",
-      "SourceFaction": "B"
-    },    
-    "71108": {
-      "Name": "Obsidian Arborweave Cover",
-      "Source": "Helm of the Fiery Vanquisher",
-      "SourceType": "Tier Token",
-      "SourceNumber": "71668",
-      "SourceLocation": "unknown",
-      "SourceFaction": "B"
-    },    
-    "71098": {
-      "Name": "Obsidian Arborweave Headpiece",
-      "Source": "Helm of the Fiery Vanquisher",
-      "SourceType": "Tier Token",
-      "SourceNumber": "71668",
+      "SourceNumber": "78184",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
-    "71103": {
-      "Name": "Obsidian Arborweave Helm",
-      "Source": "Helm of the Fiery Vanquisher",
+    "76766": {
+      "Name": "Gloves of Radiant Glory",
+      "Source": "Gauntlets of the Corrupted Conqueror",
       "SourceType": "Tier Token",
-      "SourceNumber": "71668",
+      "SourceNumber": "78183",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "76767": {
+      "Name": "Headguard of Radiant Glory",
+      "Source": "Crown of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78182",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "76768": {
+      "Name": "Greaves of Radiant Glory",
+      "Source": "Leggings of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78181",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "76769": {
+      "Name": "Mantle of Radiant Glory",
+      "Source": "Shoulders of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78180",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "76874": {
+      "Name": "Battleplate of Radiant Glory",
+      "Source": "Chest of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78184",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "76875": {
+      "Name": "Gauntlets of Radiant Glory",
+      "Source": "Gauntlets of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78183",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "76876": {
+      "Name": "Helmet of Radiant Glory",
+      "Source": "Crown of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78182",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "76877": {
+      "Name": "Legplates of Radiant Glory",
+      "Source": "Leggings of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78181",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "76878": {
+      "Name": "Pauldrons of Radiant Glory",
+      "Source": "Shoulders of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78180",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "76974": {
+      "Name": "Necrotic Boneplate Breastplate",
+      "Source": "Chest of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78174",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "76975": {
+      "Name": "Necrotic Boneplate Gauntlets",
+      "Source": "Gauntlets of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78173",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "76976": {
+      "Name": "Necrotic Boneplate Helmet",
+      "Source": "Crown of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78172",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "76977": {
+      "Name": "Necrotic Boneplate Greaves",
+      "Source": "Leggings of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78171",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "76978": {
+      "Name": "Necrotic Boneplate Pauldrons",
+      "Source": "Shoulders of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78170",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "76983": {
+      "Name": "Colossal Dragonplate Helmet",
+      "Source": "Crown of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78177",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "76984": {
+      "Name": "Colossal Dragonplate Battleplate",
+      "Source": "Chest of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78179",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "76985": {
+      "Name": "Colossal Dragonplate Gauntlets",
+      "Source": "Gauntlets of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78178",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "76986": {
+      "Name": "Colossal Dragonplate Legplates",
+      "Source": "Leggings of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78176",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "76987": {
+      "Name": "Colossal Dragonplate Pauldrons",
+      "Source": "Shoulders of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78175",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "76988": {
+      "Name": "Colossal Dragonplate Chestguard",
+      "Source": "Chest of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78179",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "76989": {
+      "Name": "Colossal Dragonplate Handguards",
+      "Source": "Gauntlets of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78178",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "76990": {
+      "Name": "Colossal Dragonplate Faceguard",
+      "Source": "Crown of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78177",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "76991": {
+      "Name": "Colossal Dragonplate Legguards",
+      "Source": "Leggings of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78176",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "76992": {
+      "Name": "Colossal Dragonplate Shoulderguards",
+      "Source": "Shoulders of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78175",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "77003": {
+      "Name": "Chestguard of Radiant Glory",
+      "Source": "Chest of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78184",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "77004": {
+      "Name": "Handguards of Radiant Glory",
+      "Source": "Gauntlets of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78183",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "77005": {
+      "Name": "Faceguard of Radiant Glory",
+      "Source": "Crown of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78182",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "77006": {
+      "Name": "Legguards of Radiant Glory",
+      "Source": "Leggings of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78181",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "77007": {
+      "Name": "Shoulderguards of Radiant Glory",
+      "Source": "Shoulders of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78180",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "77008": {
+      "Name": "Necrotic Boneplate Chestguard",
+      "Source": "Chest of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78174",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "77009": {
+      "Name": "Necrotic Boneplate Handguards",
+      "Source": "Gauntlets of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78173",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "77010": {
+      "Name": "Necrotic Boneplate Faceguard",
+      "Source": "Crown of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78172",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "77011": {
+      "Name": "Necrotic Boneplate Legguards",
+      "Source": "Leggings of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78171",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "77012": {
+      "Name": "Necrotic Boneplate Shoulderguards",
+      "Source": "Shoulders of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78170",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "77013": {
+      "Name": "Deep Earth Raiment",
+      "Source": "Chest of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78174",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "77014": {
+      "Name": "Deep Earth Grips",
+      "Source": "Gauntlets of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78173",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "77015": {
+      "Name": "Deep Earth Headpiece",
+      "Source": "Crown of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78172",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "77016": {
+      "Name": "Deep Earth Legguards",
+      "Source": "Leggings of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78171",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "77017": {
+      "Name": "Deep Earth Spaulders",
+      "Source": "Shoulders of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78170",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "77018": {
+      "Name": "Deep Earth Gloves",
+      "Source": "Gauntlets of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78173",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "77019": {
+      "Name": "Deep Earth Cover",
+      "Source": "Crown of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78172",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "77020": {
+      "Name": "Deep Earth Leggings",
+      "Source": "Leggings of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78171",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "77021": {
+      "Name": "Deep Earth Vestment",
+      "Source": "Chest of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78174",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "77022": {
+      "Name": "Deep Earth Shoulderwraps",
+      "Source": "Shoulders of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78170",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "77023": {
+      "Name": "Blackfang Battleweave Tunic",
+      "Source": "Chest of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78174",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "77024": {
+      "Name": "Blackfang Battleweave Gloves",
+      "Source": "Gauntlets of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78173",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "77025": {
+      "Name": "Blackfang Battleweave Helmet",
+      "Source": "Crown of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78172",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "77026": {
+      "Name": "Blackfang Battleweave Legguards",
+      "Source": "Leggings of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78171",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "77027": {
+      "Name": "Blackfang Battleweave Spaulders",
+      "Source": "Shoulders of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78170",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "77028": {
+      "Name": "Wyrmstalker's Tunic",
+      "Source": "Chest of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78179",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "77029": {
+      "Name": "Wyrmstalker's Gloves",
+      "Source": "Gauntlets of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78178",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "77030": {
+      "Name": "Wyrmstalker's Headguard",
+      "Source": "Crown of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78177",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "77031": {
+      "Name": "Wyrmstalker's Legguards",
+      "Source": "Leggings of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78176",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "77032": {
+      "Name": "Wyrmstalker's Spaulders",
+      "Source": "Shoulders of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78175",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "77035": {
+      "Name": "Spiritwalker's Shoulderwraps",
+      "Source": "Shoulders of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78175",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "77036": {
+      "Name": "Spiritwalker's Kilt",
+      "Source": "Leggings of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78176",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "77037": {
+      "Name": "Spiritwalker's Headpiece",
+      "Source": "Crown of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78177",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "77038": {
+      "Name": "Spiritwalker's Gloves",
+      "Source": "Gauntlets of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78178",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "77039": {
+      "Name": "Spiritwalker's Hauberk",
+      "Source": "Chest of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78179",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "77040": {
+      "Name": "Spiritwalker's Cuirass",
+      "Source": "Chest of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78179",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "77041": {
+      "Name": "Spiritwalker's Grips",
+      "Source": "Gauntlets of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78178",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "77042": {
+      "Name": "Spiritwalker's Helmet",
+      "Source": "Crown of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78177",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "77043": {
+      "Name": "Spiritwalker's Legguards",
+      "Source": "Leggings of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78176",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "77044": {
+      "Name": "Spiritwalker's Spaulders",
+      "Source": "Shoulders of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78175",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78657": {
+      "Name": "Colossal Dragonplate Battleplate",
+      "Source": "Chest of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78848",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78658": {
+      "Name": "Colossal Dragonplate Chestguard",
+      "Source": "Chest of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78848",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78659": {
+      "Name": "Necrotic Boneplate Breastplate",
+      "Source": "Chest of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78849",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78660": {
+      "Name": "Deep Earth Robes",
+      "Source": "Chest of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78849",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78661": {
+      "Name": "Wyrmstalker's Tunic",
+      "Source": "Chest of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78848",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78662": {
+      "Name": "Deep Earth Vestment",
+      "Source": "Chest of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78849",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78663": {
+      "Name": "Necrotic Boneplate Chestguard",
+      "Source": "Chest of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78849",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78664": {
+      "Name": "Blackfang Battleweave Tunic",
+      "Source": "Chest of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78849",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78665": {
+      "Name": "Deep Earth Raiment",
+      "Source": "Chest of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78849",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78666": {
+      "Name": "Spiritwalker's Gloves",
+      "Source": "Gauntlets of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78854",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78667": {
+      "Name": "Spiritwalker's Grips",
+      "Source": "Gauntlets of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78854",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78668": {
+      "Name": "Colossal Dragonplate Gauntlets",
+      "Source": "Gauntlets of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78854",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78669": {
+      "Name": "Colossal Dragonplate Handguards",
+      "Source": "Gauntlets of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78854",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78670": {
+      "Name": "Necrotic Boneplate Gauntlets",
+      "Source": "Gauntlets of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78855",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78671": {
+      "Name": "Time Lord's Gloves",
+      "Source": "Gauntlets of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78855",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78672": {
+      "Name": "Spiritwalker's Handwraps",
+      "Source": "Gauntlets of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78854",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78673": {
+      "Name": "Gloves of Radiant Glory",
+      "Source": "Gauntlets of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78853",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78674": {
+      "Name": "Wyrmstalker's Gloves",
+      "Source": "Gauntlets of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78854",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78675": {
+      "Name": "Gauntlets of Radiant Glory",
+      "Source": "Gauntlets of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78853",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78676": {
+      "Name": "Deep Earth Gloves",
+      "Source": "Gauntlets of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78855",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78677": {
+      "Name": "Handguards of Radiant Glory",
+      "Source": "Gauntlets of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78853",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78678": {
+      "Name": "Necrotic Boneplate Handguards",
+      "Source": "Gauntlets of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78855",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78679": {
+      "Name": "Blackfang Battleweave Gloves",
+      "Source": "Gauntlets of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78855",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78680": {
+      "Name": "Deep Earth Handwraps",
+      "Source": "Gauntlets of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78855",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78681": {
+      "Name": "Gloves of the Faceless Shroud",
+      "Source": "Gauntlets of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78853",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78682": {
+      "Name": "Gloves of Dying Light",
+      "Source": "Gauntlets of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78853",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78683": {
+      "Name": "Handwraps of Dying Light",
+      "Source": "Gauntlets of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78853",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78684": {
+      "Name": "Deep Earth Grips",
+      "Source": "Gauntlets of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78855",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78685": {
+      "Name": "Spiritwalker's Headpiece",
+      "Source": "Crown of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78851",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78686": {
+      "Name": "Spiritwalker's Helmet",
+      "Source": "Crown of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78851",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78687": {
+      "Name": "Necrotic Boneplate Helmet",
+      "Source": "Crown of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78852",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78688": {
+      "Name": "Colossal Dragonplate Helmet",
+      "Source": "Crown of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78851",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78689": {
+      "Name": "Colossal Dragonplate Faceguard",
+      "Source": "Crown of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78851",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78690": {
+      "Name": "Deep Earth Helm",
+      "Source": "Crown of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78852",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78691": {
+      "Name": "Spiritwalker's Faceguard",
+      "Source": "Crown of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78851",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78692": {
+      "Name": "Headguard of Radiant Glory",
+      "Source": "Crown of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78850",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78693": {
+      "Name": "Helmet of Radiant Glory",
+      "Source": "Crown of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78850",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78694": {
+      "Name": "Deep Earth Headpiece",
+      "Source": "Crown of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78852",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78695": {
+      "Name": "Faceguard of Radiant Glory",
+      "Source": "Crown of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78850",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78696": {
+      "Name": "Deep Earth Cover",
+      "Source": "Crown of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78852",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78697": {
+      "Name": "Necrotic Boneplate Faceguard",
+      "Source": "Crown of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78852",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78698": {
+      "Name": "Wyrmstalker's Headguard",
+      "Source": "Crown of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78851",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78699": {
+      "Name": "Blackfang Battleweave Helmet",
+      "Source": "Crown of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78852",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78700": {
+      "Name": "Cowl of Dying Light",
+      "Source": "Crown of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78850",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78701": {
+      "Name": "Time Lord's Hood",
+      "Source": "Crown of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78852",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78702": {
+      "Name": "Hood of the Faceless Shroud",
+      "Source": "Crown of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78850",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78703": {
+      "Name": "Hood of Dying Light",
+      "Source": "Crown of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78850",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78704": {
+      "Name": "Spiritwalker's Legguards",
+      "Source": "Leggings of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78857",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78705": {
+      "Name": "Colossal Dragonplate Legguards",
+      "Source": "Leggings of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78857",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78706": {
+      "Name": "Colossal Dragonplate Legplates",
+      "Source": "Leggings of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78857",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78707": {
+      "Name": "Necrotic Boneplate Greaves",
+      "Source": "Leggings of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78858",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78708": {
+      "Name": "Blackfang Battleweave Legguards",
+      "Source": "Leggings of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78858",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78709": {
+      "Name": "Wyrmstalker's Legguards",
+      "Source": "Leggings of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78857",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78710": {
+      "Name": "Deep Earth Legwraps",
+      "Source": "Leggings of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78858",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78711": {
+      "Name": "Spiritwalker's Kilt",
+      "Source": "Leggings of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78857",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78712": {
+      "Name": "Legplates of Radiant Glory",
+      "Source": "Leggings of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78856",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78713": {
+      "Name": "Deep Earth Legguards",
+      "Source": "Leggings of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78858",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78714": {
+      "Name": "Deep Earth Leggings",
+      "Source": "Leggings of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78858",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78715": {
+      "Name": "Legguards of Radiant Glory",
+      "Source": "Leggings of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78856",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78716": {
+      "Name": "Necrotic Boneplate Legguards",
+      "Source": "Leggings of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78858",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78717": {
+      "Name": "Greaves of Radiant Glory",
+      "Source": "Leggings of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78856",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78718": {
+      "Name": "Spiritwalker's Legwraps",
+      "Source": "Leggings of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78857",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78719": {
+      "Name": "Legwraps of Dying Light",
+      "Source": "Leggings of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78856",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78720": {
+      "Name": "Time Lord's Leggings",
+      "Source": "Leggings of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78858",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78721": {
+      "Name": "Leggings of the Faceless Shroud",
+      "Source": "Leggings of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78856",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78722": {
+      "Name": "Leggings of Dying Light",
+      "Source": "Leggings of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78856",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78723": {
+      "Name": "Spiritwalker's Hauberk",
+      "Source": "Chest of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78848",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78724": {
+      "Name": "Spiritwalker's Cuirass",
+      "Source": "Chest of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78848",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78725": {
+      "Name": "Spiritwalker's Tunic",
+      "Source": "Chest of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78848",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78726": {
+      "Name": "Breastplate of Radiant Glory",
+      "Source": "Chest of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78847",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78727": {
+      "Name": "Battleplate of Radiant Glory",
+      "Source": "Chest of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78847",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78728": {
+      "Name": "Robes of Dying Light",
+      "Source": "Chest of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78847",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78729": {
+      "Name": "Time Lord's Robes",
+      "Source": "Chest of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78849",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78730": {
+      "Name": "Robes of the Faceless Shroud",
+      "Source": "Chest of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78847",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78731": {
+      "Name": "Robes of Dying Light",
+      "Source": "Chest of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78847",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78732": {
+      "Name": "Chestguard of Radiant Glory",
+      "Source": "Chest of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78847",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78733": {
+      "Name": "Spiritwalker's Spaulders",
+      "Source": "Shoulders of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78860",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78734": {
+      "Name": "Colossal Dragonplate Shoulderguards",
+      "Source": "Shoulders of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78860",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78735": {
+      "Name": "Colossal Dragonplate Pauldrons",
+      "Source": "Shoulders of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78860",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78736": {
+      "Name": "Necrotic Boneplate Pauldrons",
+      "Source": "Shoulders of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78861",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78737": {
+      "Name": "Wyrmstalker's Spaulders",
+      "Source": "Shoulders of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78860",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78738": {
+      "Name": "Blackfang Battleweave Spaulders",
+      "Source": "Shoulders of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78861",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78739": {
+      "Name": "Spiritwalker's Mantle",
+      "Source": "Shoulders of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78860",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78740": {
+      "Name": "Deep Earth Mantle",
+      "Source": "Shoulders of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78861",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78741": {
+      "Name": "Spiritwalker's Shoulderwraps",
+      "Source": "Shoulders of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78860",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78742": {
+      "Name": "Pauldrons of Radiant Glory",
+      "Source": "Shoulders of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78859",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78743": {
+      "Name": "Deep Earth Spaulders",
+      "Source": "Shoulders of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78861",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78744": {
+      "Name": "Deep Earth Shoulderwraps",
+      "Source": "Shoulders of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78861",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78745": {
+      "Name": "Shoulderguards of Radiant Glory",
+      "Source": "Shoulders of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78859",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78746": {
+      "Name": "Mantle of Radiant Glory",
+      "Source": "Shoulders of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78859",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78747": {
+      "Name": "Mantle of Dying Light",
+      "Source": "Shoulders of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78859",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78748": {
+      "Name": "Time Lord's Mantle",
+      "Source": "Shoulders of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78861",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78749": {
+      "Name": "Mantle of the Faceless Shroud",
+      "Source": "Shoulders of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78859",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78750": {
+      "Name": "Mantle of Dying Light",
+      "Source": "Shoulders of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78859",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78751": {
+      "Name": "Necrotic Boneplate Shoulderguards",
+      "Source": "Shoulders of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78861",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78752": {
+      "Name": "Colossal Dragonplate Battleplate",
+      "Source": "Chest of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78864",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78753": {
+      "Name": "Colossal Dragonplate Chestguard",
+      "Source": "Chest of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78864",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78754": {
+      "Name": "Necrotic Boneplate Breastplate",
+      "Source": "Chest of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78862",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78755": {
+      "Name": "Deep Earth Robes",
+      "Source": "Chest of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78862",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78756": {
+      "Name": "Wyrmstalker's Tunic",
+      "Source": "Chest of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78864",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78757": {
+      "Name": "Deep Earth Vestment",
+      "Source": "Chest of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78862",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78758": {
+      "Name": "Necrotic Boneplate Chestguard",
+      "Source": "Chest of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78862",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78759": {
+      "Name": "Blackfang Battleweave Tunic",
+      "Source": "Chest of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78862",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78760": {
+      "Name": "Deep Earth Raiment",
+      "Source": "Chest of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78862",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78761": {
+      "Name": "Spiritwalker's Gloves",
+      "Source": "Gauntlets of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78867",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78762": {
+      "Name": "Spiritwalker's Grips",
+      "Source": "Gauntlets of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78867",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78763": {
+      "Name": "Colossal Dragonplate Gauntlets",
+      "Source": "Gauntlets of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78867",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78764": {
+      "Name": "Colossal Dragonplate Handguards",
+      "Source": "Gauntlets of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78867",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78765": {
+      "Name": "Necrotic Boneplate Gauntlets",
+      "Source": "Gauntlets of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78865",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78766": {
+      "Name": "Time Lord's Gloves",
+      "Source": "Gauntlets of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78865",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78767": {
+      "Name": "Spiritwalker's Handwraps",
+      "Source": "Gauntlets of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78867",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78768": {
+      "Name": "Gloves of Radiant Glory",
+      "Source": "Gauntlets of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78866",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78769": {
+      "Name": "Wyrmstalker's Gloves",
+      "Source": "Gauntlets of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78867",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78770": {
+      "Name": "Gauntlets of Radiant Glory",
+      "Source": "Gauntlets of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78866",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78771": {
+      "Name": "Deep Earth Gloves",
+      "Source": "Gauntlets of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78865",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78772": {
+      "Name": "Handguards of Radiant Glory",
+      "Source": "Gauntlets of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78866",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78773": {
+      "Name": "Necrotic Boneplate Handguards",
+      "Source": "Gauntlets of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78865",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78774": {
+      "Name": "Blackfang Battleweave Gloves",
+      "Source": "Gauntlets of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78865",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78775": {
+      "Name": "Deep Earth Handwraps",
+      "Source": "Gauntlets of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78865",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78776": {
+      "Name": "Gloves of the Faceless Shroud",
+      "Source": "Gauntlets of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78866",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78777": {
+      "Name": "Gloves of Dying Light",
+      "Source": "Gauntlets of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78866",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78778": {
+      "Name": "Handwraps of Dying Light",
+      "Source": "Gauntlets of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78866",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78779": {
+      "Name": "Deep Earth Grips",
+      "Source": "Gauntlets of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78865",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78780": {
+      "Name": "Spiritwalker's Headpiece",
+      "Source": "Crown of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78870",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78781": {
+      "Name": "Spiritwalker's Helmet",
+      "Source": "Crown of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78870",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78782": {
+      "Name": "Necrotic Boneplate Helmet",
+      "Source": "Crown of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78868",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78783": {
+      "Name": "Colossal Dragonplate Helmet",
+      "Source": "Crown of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78870",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78784": {
+      "Name": "Colossal Dragonplate Faceguard",
+      "Source": "Crown of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78870",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78785": {
+      "Name": "Deep Earth Helm",
+      "Source": "Crown of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78868",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78786": {
+      "Name": "Spiritwalker's Faceguard",
+      "Source": "Crown of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78870",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78787": {
+      "Name": "Headguard of Radiant Glory",
+      "Source": "Crown of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78869",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78788": {
+      "Name": "Helmet of Radiant Glory",
+      "Source": "Crown of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78869",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78789": {
+      "Name": "Deep Earth Headpiece",
+      "Source": "Crown of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78868",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78790": {
+      "Name": "Faceguard of Radiant Glory",
+      "Source": "Crown of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78869",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78791": {
+      "Name": "Deep Earth Cover",
+      "Source": "Crown of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78868",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78792": {
+      "Name": "Necrotic Boneplate Faceguard",
+      "Source": "Crown of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78868",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78793": {
+      "Name": "Wyrmstalker's Headguard",
+      "Source": "Crown of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78870",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78794": {
+      "Name": "Blackfang Battleweave Helmet",
+      "Source": "Crown of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78868",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78795": {
+      "Name": "Cowl of Dying Light",
+      "Source": "Crown of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78869",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78796": {
+      "Name": "Time Lord's Hood",
+      "Source": "Crown of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78868",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78797": {
+      "Name": "Hood of the Faceless Shroud",
+      "Source": "Crown of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78869",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78798": {
+      "Name": "Hood of Dying Light",
+      "Source": "Crown of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78869",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78799": {
+      "Name": "Spiritwalker's Legguards",
+      "Source": "Leggings of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78873",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78800": {
+      "Name": "Colossal Dragonplate Legguards",
+      "Source": "Leggings of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78873",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78801": {
+      "Name": "Colossal Dragonplate Legplates",
+      "Source": "Leggings of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78873",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78802": {
+      "Name": "Necrotic Boneplate Greaves",
+      "Source": "Leggings of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78871",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78803": {
+      "Name": "Blackfang Battleweave Legguards",
+      "Source": "Leggings of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78871",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78804": {
+      "Name": "Wyrmstalker's Legguards",
+      "Source": "Leggings of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78873",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78805": {
+      "Name": "Deep Earth Legwraps",
+      "Source": "Leggings of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78871",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78806": {
+      "Name": "Spiritwalker's Kilt",
+      "Source": "Leggings of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78873",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78807": {
+      "Name": "Legplates of Radiant Glory",
+      "Source": "Leggings of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78872",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78808": {
+      "Name": "Deep Earth Legguards",
+      "Source": "Leggings of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78871",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78809": {
+      "Name": "Deep Earth Leggings",
+      "Source": "Leggings of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78871",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78810": {
+      "Name": "Legguards of Radiant Glory",
+      "Source": "Leggings of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78872",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78811": {
+      "Name": "Necrotic Boneplate Legguards",
+      "Source": "Leggings of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78871",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78812": {
+      "Name": "Greaves of Radiant Glory",
+      "Source": "Leggings of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78872",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78813": {
+      "Name": "Spiritwalker's Legwraps",
+      "Source": "Leggings of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78873",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78814": {
+      "Name": "Legwraps of Dying Light",
+      "Source": "Leggings of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78872",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78815": {
+      "Name": "Time Lord's Leggings",
+      "Source": "Leggings of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78871",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78816": {
+      "Name": "Leggings of the Faceless Shroud",
+      "Source": "Leggings of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78872",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78817": {
+      "Name": "Leggings of Dying Light",
+      "Source": "Leggings of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78872",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78818": {
+      "Name": "Spiritwalker's Hauberk",
+      "Source": "Chest of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78864",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78819": {
+      "Name": "Spiritwalker's Cuirass",
+      "Source": "Chest of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78864",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78820": {
+      "Name": "Spiritwalker's Tunic",
+      "Source": "Chest of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78864",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78821": {
+      "Name": "Breastplate of Radiant Glory",
+      "Source": "Chest of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78863",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78822": {
+      "Name": "Battleplate of Radiant Glory",
+      "Source": "Chest of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78863",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78823": {
+      "Name": "Robes of Dying Light",
+      "Source": "Chest of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78863",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78824": {
+      "Name": "Time Lord's Robes",
+      "Source": "Chest of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78862",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78825": {
+      "Name": "Robes of the Faceless Shroud",
+      "Source": "Chest of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78863",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78826": {
+      "Name": "Robes of Dying Light",
+      "Source": "Chest of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78863",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78827": {
+      "Name": "Chestguard of Radiant Glory",
+      "Source": "Chest of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78863",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78828": {
+      "Name": "Spiritwalker's Spaulders",
+      "Source": "Shoulders of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78876",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78829": {
+      "Name": "Colossal Dragonplate Shoulderguards",
+      "Source": "Shoulders of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78876",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78830": {
+      "Name": "Colossal Dragonplate Pauldrons",
+      "Source": "Shoulders of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78876",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78831": {
+      "Name": "Necrotic Boneplate Pauldrons",
+      "Source": "Shoulders of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78874",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78832": {
+      "Name": "Wyrmstalker's Spaulders",
+      "Source": "Shoulders of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78876",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78833": {
+      "Name": "Blackfang Battleweave Spaulders",
+      "Source": "Shoulders of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78874",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78834": {
+      "Name": "Spiritwalker's Mantle",
+      "Source": "Shoulders of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78876",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78835": {
+      "Name": "Deep Earth Mantle",
+      "Source": "Shoulders of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78874",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78836": {
+      "Name": "Spiritwalker's Shoulderwraps",
+      "Source": "Shoulders of the Corrupted Protector",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78876",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78837": {
+      "Name": "Pauldrons of Radiant Glory",
+      "Source": "Shoulders of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78875",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78838": {
+      "Name": "Deep Earth Spaulders",
+      "Source": "Shoulders of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78874",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78839": {
+      "Name": "Deep Earth Shoulderwraps",
+      "Source": "Shoulders of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78874",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78840": {
+      "Name": "Shoulderguards of Radiant Glory",
+      "Source": "Shoulders of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78875",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78841": {
+      "Name": "Mantle of Radiant Glory",
+      "Source": "Shoulders of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78875",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78842": {
+      "Name": "Mantle of Dying Light",
+      "Source": "Shoulders of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78875",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78843": {
+      "Name": "Time Lord's Mantle",
+      "Source": "Shoulders of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78874",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78844": {
+      "Name": "Mantle of the Faceless Shroud",
+      "Source": "Shoulders of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78875",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78845": {
+      "Name": "Mantle of Dying Light",
+      "Source": "Shoulders of the Corrupted Conqueror",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78875",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "78846": {
+      "Name": "Necrotic Boneplate Shoulderguards",
+      "Source": "Shoulders of the Corrupted Vanquisher",
+      "SourceType": "Tier Token",
+      "SourceNumber": "78874",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     }
