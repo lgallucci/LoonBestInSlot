@@ -5568,6 +5568,14 @@
       "SourceLocation": "Firelands",
       "SourceFaction": "B"
     },
+    "71998": {
+      "Name": "Essence of Destruction",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
     "73479": {
       "Name": "Cataclysmic Gladiator's Plate Legguards",
       "Source": "Argaloth & Occu'thar & Alizabal",
@@ -6774,6 +6782,1510 @@
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "77197": {
+      "Name": "Wrath of Unchaining",
+      "Source": "Deathwing",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77198": {
+      "Name": "Will of Unbinding",
+      "Source": "Deathwing",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77199": {
+      "Name": "Heart of Unliving",
+      "Source": "Deathwing",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77200": {
+      "Name": "Eye of Unmaking",
+      "Source": "Deathwing",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77201": {
+      "Name": "Resolve of Undying",
+      "Source": "Deathwing",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77202": {
+      "Name": "Starcatcher Compass",
+      "Source": "Warmaster Blackhorn",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77203": {
+      "Name": "Insignia of the Corrupted Mind",
+      "Source": "Yor'sahj the Unsleeping",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77204": {
+      "Name": "Seal of the Seven Signs",
+      "Source": "Warlord Zon'ozz",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77205": {
+      "Name": "Creche of the Final Dragon",
+      "Source": "Ultraxion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77206": {
+      "Name": "Soulshifter Vortex",
+      "Source": "Yor'sahj the Unsleeping",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77207": {
+      "Name": "Vial of Shadows",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77208": {
+      "Name": "Cunning of the Cruel",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77209": {
+      "Name": "Windward Heart",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77210": {
+      "Name": "Bone-Link Fetish",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77211": {
+      "Name": "Indomitable Pride",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77212": {
+      "Name": "Hand of Morchok",
+      "Source": "Morchok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77213": {
+      "Name": "Razor Saronite Chip",
+      "Source": "Morchok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77214": {
+      "Name": "Vagaries of Time",
+      "Source": "Morchok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77215": {
+      "Name": "Horrifying Horn Arbalest",
+      "Source": "Warlord Zon'ozz",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77216": {
+      "Name": "Finger of Zon'ozz",
+      "Source": "Warlord Zon'ozz",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77217": {
+      "Name": "Experimental Specimen Slicer",
+      "Source": "Yor'sahj the Unsleeping",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77218": {
+      "Name": "Spire of Coagulated Globules",
+      "Source": "Yor'sahj the Unsleeping",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77219": {
+      "Name": "Scalpel of Unrelenting Agony",
+      "Source": "Yor'sahj the Unsleeping",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77220": {
+      "Name": "Electrowing Dagger",
+      "Source": "Hagara the Stormbinder",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77221": {
+      "Name": "Lightning Rod",
+      "Source": "Hagara the Stormbinder",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77223": {
+      "Name": "Morningstar of Heroic Will",
+      "Source": "Ultraxion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77224": {
+      "Name": "Ataraxis, Cudgel of the Warmaster",
+      "Source": "Warmaster Blackhorn",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77225": {
+      "Name": "Visage of the Destroyer",
+      "Source": "Warmaster Blackhorn",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77226": {
+      "Name": "Blackhorn's Mighty Bulwark",
+      "Source": "Warmaster Blackhorn",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77227": {
+      "Name": "Timepiece of the Bronze Flight",
+      "Source": "Warmaster Blackhorn",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77228": {
+      "Name": "Infinite Loop",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77229": {
+      "Name": "Signet of Suturing",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77230": {
+      "Name": "Breathstealer Band",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77231": {
+      "Name": "Seal of Primordial Shadow",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77232": {
+      "Name": "Hardheart Ring",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77234": {
+      "Name": "Janglespur Jackboots",
+      "Source": "Warmaster Blackhorn",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77235": {
+      "Name": "Gauntlets of the Golden Thorn",
+      "Source": "Deathwing",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77236": {
+      "Name": "Backbreaker Spaulders",
+      "Source": "Deathwing",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77237": {
+      "Name": "Belt of Shattered Elementium",
+      "Source": "Deathwing",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77238": {
+      "Name": "Molten Blood Footpads",
+      "Source": "Deathwing",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77239": {
+      "Name": "Goriona's Collar",
+      "Source": "Warmaster Blackhorn",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77240": {
+      "Name": "Shadow Wing Armbands",
+      "Source": "Warmaster Blackhorn",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77241": {
+      "Name": "Belt of the Beloved Companion",
+      "Source": "Warmaster Blackhorn",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77242": {
+      "Name": "Imperfect Specimens 27 and 28",
+      "Source": "Ultraxion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77243": {
+      "Name": "Treads of Sordid Screams",
+      "Source": "Ultraxion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77244": {
+      "Name": "Dragonfracture Belt",
+      "Source": "Ultraxion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77245": {
+      "Name": "Ledger of Revolting Rituals",
+      "Source": "Ultraxion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77246": {
+      "Name": "Stillheart Warboots",
+      "Source": "Ultraxion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77247": {
+      "Name": "Bracers of Looming Darkness",
+      "Source": "Ultraxion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77248": {
+      "Name": "Girdle of the Grotesque",
+      "Source": "Hagara the Stormbinder",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77249": {
+      "Name": "Bracers of the Banished",
+      "Source": "Hagara the Stormbinder",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77250": {
+      "Name": "Runescriven Demon Collar",
+      "Source": "Hagara the Stormbinder",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77251": {
+      "Name": "Treads of Dormant Dreams",
+      "Source": "Hagara the Stormbinder",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77252": {
+      "Name": "Mindstrainer Treads",
+      "Source": "Yor'sahj the Unsleeping",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77253": {
+      "Name": "Heartblood Wristplates",
+      "Source": "Yor'sahj the Unsleeping",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77254": {
+      "Name": "Interrogator's Bloody Footpads",
+      "Source": "Yor'sahj the Unsleeping",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77255": {
+      "Name": "Cord of the Slain Champion",
+      "Source": "Warlord Zon'ozz",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77257": {
+      "Name": "Grotesquely Writhing Bracers",
+      "Source": "Warlord Zon'ozz",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77258": {
+      "Name": "Graveheart Bracers",
+      "Source": "Warlord Zon'ozz",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77259": {
+      "Name": "Treads of Crushed Flesh",
+      "Source": "Warlord Zon'ozz",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77260": {
+      "Name": "Belt of Flayed Skin",
+      "Source": "Warlord Zon'ozz",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77261": {
+      "Name": "Mycosynth Wristguards",
+      "Source": "Morchok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77262": {
+      "Name": "Petrified Fungal Heart",
+      "Source": "Morchok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77263": {
+      "Name": "Robe of Glowing Stone",
+      "Source": "Morchok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77265": {
+      "Name": "Pillarfoot Greaves",
+      "Source": "Morchok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77266": {
+      "Name": "Girdle of Shattered Stone",
+      "Source": "Morchok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77267": {
+      "Name": "Mosswrought Shoulderguards",
+      "Source": "Morchok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77268": {
+      "Name": "Brackenshell Shoulderplates",
+      "Source": "Morchok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77269": {
+      "Name": "Sporebeard Gauntlets",
+      "Source": "Morchok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77270": {
+      "Name": "Rockhide Bracers",
+      "Source": "Morchok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77271": {
+      "Name": "Underdweller's Spaulders",
+      "Source": "Morchok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77989": {
+      "Name": "Seal of the Seven Signs",
+      "Source": "Warlord Zon'ozz",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77990": {
+      "Name": "Soulshifter Vortex",
+      "Source": "Yor'sahj the Unsleeping",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77991": {
+      "Name": "Insignia of the Corrupted Mind",
+      "Source": "Yor'sahj the Unsleeping",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77992": {
+      "Name": "Creche of the Final Dragon",
+      "Source": "Ultraxion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77993": {
+      "Name": "Starcatcher Compass",
+      "Source": "Warmaster Blackhorn",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77994": {
+      "Name": "Wrath of Unchaining",
+      "Source": "Deathwing",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77995": {
+      "Name": "Will of Unbinding",
+      "Source": "Deathwing",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77996": {
+      "Name": "Heart of Unliving",
+      "Source": "Deathwing",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77997": {
+      "Name": "Eye of Unmaking",
+      "Source": "Deathwing",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77998": {
+      "Name": "Resolve of Undying",
+      "Source": "Deathwing",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "77999": {
+      "Name": "Vial of Shadows",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78000": {
+      "Name": "Cunning of the Cruel",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78001": {
+      "Name": "Windward Heart",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78002": {
+      "Name": "Bone-Link Fetish",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78003": {
+      "Name": "Indomitable Pride",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78011": {
+      "Name": "Signet of Grasping Mouths",
+      "Source": "Hagara the Stormbinder",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78012": {
+      "Name": "Ring of the Riven",
+      "Source": "Hagara the Stormbinder",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78013": {
+      "Name": "Curled Twilight Claw",
+      "Source": "Ultraxion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78170": {
+      "Name": "Shoulders of the Corrupted Vanquisher",
+      "Source": "Hagara the Stormbinder",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78171": {
+      "Name": "Leggings of the Corrupted Vanquisher",
+      "Source": "Yor'sahj the Unsleeping",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78172": {
+      "Name": "Crown of the Corrupted Vanquisher",
+      "Source": "Warmaster Blackhorn",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78173": {
+      "Name": "Gauntlets of the Corrupted Vanquisher",
+      "Source": "Warlord Zon'ozz",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78174": {
+      "Name": "Chest of the Corrupted Vanquisher",
+      "Source": "Ultraxion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78175": {
+      "Name": "Shoulders of the Corrupted Protector",
+      "Source": "Hagara the Stormbinder",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78176": {
+      "Name": "Leggings of the Corrupted Protector",
+      "Source": "Yor'sahj the Unsleeping",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78177": {
+      "Name": "Crown of the Corrupted Protector",
+      "Source": "Warmaster Blackhorn",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78178": {
+      "Name": "Gauntlets of the Corrupted Protector",
+      "Source": "Warlord Zon'ozz",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78179": {
+      "Name": "Chest of the Corrupted Protector",
+      "Source": "Ultraxion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78180": {
+      "Name": "Shoulders of the Corrupted Conqueror",
+      "Source": "Hagara the Stormbinder",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78181": {
+      "Name": "Leggings of the Corrupted Conqueror",
+      "Source": "Yor'sahj the Unsleeping",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78182": {
+      "Name": "Crown of the Corrupted Conqueror",
+      "Source": "Warmaster Blackhorn",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78183": {
+      "Name": "Gauntlets of the Corrupted Conqueror",
+      "Source": "Warlord Zon'ozz",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78184": {
+      "Name": "Chest of the Corrupted Conqueror",
+      "Source": "Ultraxion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78357": {
+      "Name": "Gloves of Liquid Smoke",
+      "Source": "Deathwing",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78361": {
+      "Name": "Pillarfoot Greaves",
+      "Source": "Morchok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78362": {
+      "Name": "Sporebeard Gauntlets",
+      "Source": "Morchok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78363": {
+      "Name": "Vagaries of Time",
+      "Source": "Morchok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78364": {
+      "Name": "Petrified Fungal Heart",
+      "Source": "Morchok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78365": {
+      "Name": "Robe of Glowing Stone",
+      "Source": "Morchok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78366": {
+      "Name": "Mosswrought Shoulderguards",
+      "Source": "Morchok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78367": {
+      "Name": "Brackenshell Shoulderplates",
+      "Source": "Morchok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78368": {
+      "Name": "Underdweller's Spaulders",
+      "Source": "Morchok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78369": {
+      "Name": "Razor Saronite Chip",
+      "Source": "Morchok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78370": {
+      "Name": "Girdle of Shattered Stone",
+      "Source": "Morchok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78371": {
+      "Name": "Hand of Morchok",
+      "Source": "Morchok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78372": {
+      "Name": "Mycosynth Wristguards",
+      "Source": "Morchok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78373": {
+      "Name": "Rockhide Bracers",
+      "Source": "Morchok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78387": {
+      "Name": "Horrifying Horn Arbalest",
+      "Source": "Warlord Zon'ozz",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78388": {
+      "Name": "Belt of Flayed Skin",
+      "Source": "Warlord Zon'ozz",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78389": {
+      "Name": "Treads of Crushed Flesh",
+      "Source": "Warlord Zon'ozz",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78390": {
+      "Name": "Graveheart Bracers",
+      "Source": "Warlord Zon'ozz",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78391": {
+      "Name": "Cord of the Slain Champion",
+      "Source": "Warlord Zon'ozz",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78392": {
+      "Name": "Finger of Zon'ozz",
+      "Source": "Warlord Zon'ozz",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78393": {
+      "Name": "Grotesquely Writhing Bracers",
+      "Source": "Warlord Zon'ozz",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78401": {
+      "Name": "Spire of Coagulated Globules",
+      "Source": "Yor'sahj the Unsleeping",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78402": {
+      "Name": "Interrogator's Bloody Footpads",
+      "Source": "Yor'sahj the Unsleeping",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78403": {
+      "Name": "Experimental Specimen Slicer",
+      "Source": "Yor'sahj the Unsleeping",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78404": {
+      "Name": "Scalpel of Unrelenting Agony",
+      "Source": "Yor'sahj the Unsleeping",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78405": {
+      "Name": "Mindstrainer Treads",
+      "Source": "Yor'sahj the Unsleeping",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78406": {
+      "Name": "Heartblood Wristplates",
+      "Source": "Yor'sahj the Unsleeping",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78413": {
+      "Name": "Signet of Grasping Mouths",
+      "Source": "Hagara the Stormbinder",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78414": {
+      "Name": "Electrowing Dagger",
+      "Source": "Hagara the Stormbinder",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78415": {
+      "Name": "Treads of Dormant Dreams",
+      "Source": "Hagara the Stormbinder",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78416": {
+      "Name": "Runescriven Demon Collar",
+      "Source": "Hagara the Stormbinder",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78417": {
+      "Name": "Bracers of the Banished",
+      "Source": "Hagara the Stormbinder",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78418": {
+      "Name": "Lightning Rod",
+      "Source": "Hagara the Stormbinder",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78419": {
+      "Name": "Ring of the Riven",
+      "Source": "Hagara the Stormbinder",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78420": {
+      "Name": "Girdle of the Grotesque",
+      "Source": "Hagara the Stormbinder",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78429": {
+      "Name": "Morningstar of Heroic Will",
+      "Source": "Ultraxion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78430": {
+      "Name": "Bracers of Looming Darkness",
+      "Source": "Ultraxion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78431": {
+      "Name": "Stillheart Warboots",
+      "Source": "Ultraxion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78432": {
+      "Name": "Curled Twilight Claw",
+      "Source": "Ultraxion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78433": {
+      "Name": "Ledger of Revolting Rituals",
+      "Source": "Ultraxion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78434": {
+      "Name": "Treads of Sordid Screams",
+      "Source": "Ultraxion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78435": {
+      "Name": "Imperfect Specimens 27 and 28",
+      "Source": "Ultraxion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78436": {
+      "Name": "Dragonfracture Belt",
+      "Source": "Ultraxion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78445": {
+      "Name": "Ataraxis, Cudgel of the Warmaster",
+      "Source": "Warmaster Blackhorn",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78446": {
+      "Name": "Shadow Wing Armbands",
+      "Source": "Warmaster Blackhorn",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78447": {
+      "Name": "Belt of the Beloved Companion",
+      "Source": "Warmaster Blackhorn",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78448": {
+      "Name": "Blackhorn's Mighty Bulwark",
+      "Source": "Warmaster Blackhorn",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78449": {
+      "Name": "Janglespur Jackboots",
+      "Source": "Warmaster Blackhorn",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78450": {
+      "Name": "Timepiece of the Bronze Flight",
+      "Source": "Warmaster Blackhorn",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78451": {
+      "Name": "Visage of the Destroyer",
+      "Source": "Warmaster Blackhorn",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78452": {
+      "Name": "Goriona's Collar",
+      "Source": "Warmaster Blackhorn",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78461": {
+      "Name": "Gloves of Liquid Smoke",
+      "Source": "Deathwing",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78462": {
+      "Name": "Molten Blood Footpads",
+      "Source": "Deathwing",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78463": {
+      "Name": "Belt of Shattered Elementium",
+      "Source": "Deathwing",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78464": {
+      "Name": "Gauntlets of the Golden Thorn",
+      "Source": "Deathwing",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78465": {
+      "Name": "Backbreaker Spaulders",
+      "Source": "Deathwing",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78489": {
+      "Name": "Seal of Primordial Shadow",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78490": {
+      "Name": "Infinite Loop",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78491": {
+      "Name": "Signet of Suturing",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78492": {
+      "Name": "Breathstealer Band",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78493": {
+      "Name": "Hardheart Ring",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78847": {
+      "Name": "Chest of the Corrupted Conqueror",
+      "Source": "Ultraxion",
+      "SourceType": "Token",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78848": {
+      "Name": "Chest of the Corrupted Protector",
+      "Source": "Ultraxion",
+      "SourceType": "Token",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78849": {
+      "Name": "Chest of the Corrupted Vanquisher",
+      "Source": "Ultraxion",
+      "SourceType": "Token",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78850": {
+      "Name": "Crown of the Corrupted Conqueror",
+      "Source": "Warmaster Blackhorn",
+      "SourceType": "Token",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78851": {
+      "Name": "Crown of the Corrupted Protector",
+      "Source": "Warmaster Blackhorn",
+      "SourceType": "Token",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78852": {
+      "Name": "Crown of the Corrupted Vanquisher",
+      "Source": "Warmaster Blackhorn",
+      "SourceType": "Token",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78853": {
+      "Name": "Gauntlets of the Corrupted Conqueror",
+      "Source": "Warlord Zon'ozz",
+      "SourceType": "Token",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78854": {
+      "Name": "Gauntlets of the Corrupted Protector",
+      "Source": "Warlord Zon'ozz",
+      "SourceType": "Token",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78855": {
+      "Name": "Gauntlets of the Corrupted Vanquisher",
+      "Source": "Warlord Zon'ozz",
+      "SourceType": "Token",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78856": {
+      "Name": "Leggings of the Corrupted Conqueror",
+      "Source": "Yor'sahj the Unsleeping",
+      "SourceType": "Token",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78857": {
+      "Name": "Leggings of the Corrupted Protector",
+      "Source": "Yor'sahj the Unsleeping",
+      "SourceType": "Token",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78858": {
+      "Name": "Leggings of the Corrupted Vanquisher",
+      "Source": "Yor'sahj the Unsleeping",
+      "SourceType": "Token",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78859": {
+      "Name": "Shoulders of the Corrupted Conqueror",
+      "Source": "Hagara the Stormbinder",
+      "SourceType": "Token",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78860": {
+      "Name": "Shoulders of the Corrupted Protector",
+      "Source": "Hagara the Stormbinder",
+      "SourceType": "Token",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78861": {
+      "Name": "Shoulders of the Corrupted Vanquisher",
+      "Source": "Hagara the Stormbinder",
+      "SourceType": "Token",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78879": {
+      "Name": "Sash of Relentless Truth",
+      "Source": "Trash Mobs",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78882": {
+      "Name": "Nightblind Cinch",
+      "Source": "Trash Mobs",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78884": {
+      "Name": "Girdle of Fungal Dreams",
+      "Source": "Trash Mobs",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78885": {
+      "Name": "Dragoncarver Belt",
+      "Source": "Trash Mobs",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78886": {
+      "Name": "Belt of Ghostly Graces",
+      "Source": "Trash Mobs",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78887": {
+      "Name": "Girdle of Soulful Mending",
+      "Source": "Trash Mobs",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78888": {
+      "Name": "Waistguard of Bleeding Bone",
+      "Source": "Trash Mobs",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
+      "SourceFaction": "B"
+    },
+    "78889": {
+      "Name": "Waistplate of the Desecrated Future",
+      "Source": "Trash Mobs",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Dragon Soul",
       "SourceFaction": "B"
     }
   }

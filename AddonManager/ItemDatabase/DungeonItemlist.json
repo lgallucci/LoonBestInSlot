@@ -3879,6 +3879,630 @@
       "SourceNumber": "0",
       "SourceLocation": "The Deadmines (Heroic)",
       "SourceFaction": "B"
+    },
+    "72798": {
+      "Name": "Cord of Lost Hope",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "End Time",
+      "SourceFaction": "B"
+    },
+    "72799": {
+      "Name": "Dead End Boots",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "End Time",
+      "SourceFaction": "B"
+    },
+    "72800": {
+      "Name": "Gauntlets of Temporal Interference",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "End Time",
+      "SourceFaction": "B"
+    },
+    "72801": {
+      "Name": "Breastplate of Sorrow",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "End Time",
+      "SourceFaction": "B"
+    },
+    "72802": {
+      "Name": "Time Traveler's Leggings",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "End Time",
+      "SourceFaction": "B"
+    },
+    "72803": {
+      "Name": "Girdle of Lost Heroes",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "End Time",
+      "SourceFaction": "B"
+    },
+    "72804": {
+      "Name": "Dragonshrine Scepter",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "End Time",
+      "SourceFaction": "B"
+    },
+    "72805": {
+      "Name": "Gloves of the Hollow",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "End Time",
+      "SourceFaction": "B"
+    },
+    "72806": {
+      "Name": "Echoing Headguard",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "End Time",
+      "SourceFaction": "B"
+    },
+    "72807": {
+      "Name": "Waistguard of Lost Time",
+      "Source": "Various Bosses",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "End Time",
+      "SourceFaction": "B"
+    },
+    "72808": {
+      "Name": "Jaina's Staff",
+      "Source": "Echo of Jaina",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "End Time",
+      "SourceFaction": "B"
+    },
+    "72809": {
+      "Name": "Ward of Incantations",
+      "Source": "Echo of Jaina",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "End Time",
+      "SourceFaction": "B"
+    },
+    "72810": {
+      "Name": "Windrunner's Bow",
+      "Source": "Echo of Sylvanas",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "End Time",
+      "SourceFaction": "B"
+    },
+    "72811": {
+      "Name": "Cloak of the Banshee Queen",
+      "Source": "Echo of Sylvanas",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "End Time",
+      "SourceFaction": "B"
+    },
+    "72812": {
+      "Name": "Crescent Moon",
+      "Source": "Echo of Tyrande",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "End Time",
+      "SourceFaction": "B"
+    },
+    "72813": {
+      "Name": "Whisperwind Robes",
+      "Source": "Echo of Tyrande",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "End Time",
+      "SourceFaction": "B"
+    },
+    "72814": {
+      "Name": "Axe of the Tauren Chieftains",
+      "Source": "Echo of Baine",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "End Time",
+      "SourceFaction": "B"
+    },
+    "72815": {
+      "Name": "Bloodhoof Legguards",
+      "Source": "Echo of Baine",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "End Time",
+      "SourceFaction": "B"
+    },
+    "72816": {
+      "Name": "Distortion Greaves",
+      "Source": "Murozond",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "End Time",
+      "SourceFaction": "B"
+    },
+    "72817": {
+      "Name": "Time Altered Legguards",
+      "Source": "Murozond",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "End Time",
+      "SourceFaction": "B"
+    },
+    "72818": {
+      "Name": "Breastplate of Tarnished Bronze",
+      "Source": "Murozond",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "End Time",
+      "SourceFaction": "B"
+    },
+    "72819": {
+      "Name": "Chrono Boots",
+      "Source": "Murozond",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "End Time",
+      "SourceFaction": "B"
+    },
+    "72820": {
+      "Name": "Crown of Epochs",
+      "Source": "Murozond",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "End Time",
+      "SourceFaction": "B"
+    },
+    "72821": {
+      "Name": "Temporal Pauldrons",
+      "Source": "Murozond",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "End Time",
+      "SourceFaction": "B"
+    },
+    "72822": {
+      "Name": "Jagged Edge of Time",
+      "Source": "Murozond",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "End Time",
+      "SourceFaction": "B"
+    },
+    "72823": {
+      "Name": "Timeway Headgear",
+      "Source": "Murozond",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "End Time",
+      "SourceFaction": "B"
+    },
+    "72824": {
+      "Name": "Time Twisted Tunic",
+      "Source": "Murozond",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "End Time",
+      "SourceFaction": "B"
+    },
+    "72825": {
+      "Name": "Mantle of Time",
+      "Source": "Murozond",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "End Time",
+      "SourceFaction": "B"
+    },
+    "72826": {
+      "Name": "Robes of Fate",
+      "Source": "Murozond",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "End Time",
+      "SourceFaction": "B"
+    },
+    "72827": {
+      "Name": "Gavel of Peroth'arn",
+      "Source": "Peroth'arn",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Well of Enternity",
+      "SourceFaction": "B"
+    },
+    "72828": {
+      "Name": "Trickster's Edge",
+      "Source": "Peroth'arn",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Well of Enternity",
+      "SourceFaction": "B"
+    },
+    "72829": {
+      "Name": "Orb of the First Satyrs",
+      "Source": "Peroth'arn",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Well of Enternity",
+      "SourceFaction": "B"
+    },
+    "72830": {
+      "Name": "Peroth'arn's Belt",
+      "Source": "Peroth'arn",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Well of Enternity",
+      "SourceFaction": "B"
+    },
+    "72831": {
+      "Name": "Horned Band",
+      "Source": "Peroth'arn",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Well of Enternity",
+      "SourceFaction": "B"
+    },
+    "72832": {
+      "Name": "Girdle of the Queen's Champion",
+      "Source": "Peroth'arn",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Well of Enternity",
+      "SourceFaction": "B"
+    },
+    "72833": {
+      "Name": "Scepter of Azshara",
+      "Source": "Queen Azshara",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Well of Enternity",
+      "SourceFaction": "B"
+    },
+    "72834": {
+      "Name": "Breastplate of the Queen's Guard",
+      "Source": "Queen Azshara",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Well of Enternity",
+      "SourceFaction": "B"
+    },
+    "72835": {
+      "Name": "Puppeteer's Pantaloons",
+      "Source": "Queen Azshara",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Well of Enternity",
+      "SourceFaction": "B"
+    },
+    "72836": {
+      "Name": "Slippers of Wizardry",
+      "Source": "Queen Azshara",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Well of Enternity",
+      "SourceFaction": "B"
+    },
+    "72837": {
+      "Name": "Queen's Boon",
+      "Source": "Queen Azshara",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Well of Enternity",
+      "SourceFaction": "B"
+    },
+    "72838": {
+      "Name": "Cloak of the Royal Protector",
+      "Source": "Queen Azshara",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Well of Enternity",
+      "SourceFaction": "B"
+    },
+    "72839": {
+      "Name": "Cowl of Highborne Sorcerors",
+      "Source": "Mannoroth & Captain Varo'then",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Well of Enternity",
+      "SourceFaction": "B"
+    },
+    "72840": {
+      "Name": "Spaulders of Eternity",
+      "Source": "Mannoroth & Captain Varo'then",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Well of Enternity",
+      "SourceFaction": "B"
+    },
+    "72841": {
+      "Name": "Demonsbane Chestguard",
+      "Source": "Mannoroth & Captain Varo'then",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Well of Enternity",
+      "SourceFaction": "B"
+    },
+    "72842": {
+      "Name": "Annihilan Helm",
+      "Source": "Mannoroth & Captain Varo'then",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Well of Enternity",
+      "SourceFaction": "B"
+    },
+    "72843": {
+      "Name": "Helm of Power",
+      "Source": "Mannoroth & Captain Varo'then",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Well of Enternity",
+      "SourceFaction": "B"
+    },
+    "72844": {
+      "Name": "Pit Lord's Destroyer",
+      "Source": "Mannoroth & Captain Varo'then",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Well of Enternity",
+      "SourceFaction": "B"
+    },
+    "72845": {
+      "Name": "Mannoroth's Signet",
+      "Source": "Mannoroth & Captain Varo'then",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Well of Enternity",
+      "SourceFaction": "B"
+    },
+    "72846": {
+      "Name": "Thornwood Staff",
+      "Source": "Mannoroth & Captain Varo'then",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Well of Enternity",
+      "SourceFaction": "B"
+    },
+    "72847": {
+      "Name": "Helm of Thorns",
+      "Source": "Mannoroth & Captain Varo'then",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Well of Enternity",
+      "SourceFaction": "B"
+    },
+    "72848": {
+      "Name": "Legguards of the Legion",
+      "Source": "Mannoroth & Captain Varo'then",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Well of Enternity",
+      "SourceFaction": "B"
+    },
+    "72849": {
+      "Name": "Wayfinder Boots",
+      "Source": "Arcurion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "72850": {
+      "Name": "Surestride Boots",
+      "Source": "Arcurion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "72851": {
+      "Name": "Chillbane Belt",
+      "Source": "Arcurion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "72853": {
+      "Name": "Arcurion Legguards",
+      "Source": "Arcurion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "72854": {
+      "Name": "Iceward Cloak",
+      "Source": "Arcurion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "72855": {
+      "Name": "Corrupted Carapace",
+      "Source": "Asira Dawnslayer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "72856": {
+      "Name": "Pauldrons of Midnight Whispers",
+      "Source": "Asira Dawnslayer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "72857": {
+      "Name": "Leggings of Blinding Speed",
+      "Source": "Asira Dawnslayer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "72859": {
+      "Name": "Dawnslayer Helm",
+      "Source": "Asira Dawnslayer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "72860": {
+      "Name": "Mandible of the Old Ones",
+      "Source": "Asira Dawnslayer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "72861": {
+      "Name": "Pauldrons of the Dragonblight",
+      "Source": "Archbishop Benedictus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "72862": {
+      "Name": "Fanged Tentacle",
+      "Source": "Archbishop Benedictus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "72863": {
+      "Name": "Stalk of Corruption",
+      "Source": "Archbishop Benedictus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "72864": {
+      "Name": "Pauldrons of Conviction",
+      "Source": "Archbishop Benedictus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "72865": {
+      "Name": "Mantle of False Virtue",
+      "Source": "Archbishop Benedictus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "72866": {
+      "Name": "Treachery's Bite",
+      "Source": "Archbishop Benedictus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "72867": {
+      "Name": "Clattering Claw",
+      "Source": "Archbishop Benedictus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "72868": {
+      "Name": "Desecrated Shoulderguards",
+      "Source": "Archbishop Benedictus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "72869": {
+      "Name": "Dragonsmaw Blaster",
+      "Source": "Archbishop Benedictus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "72870": {
+      "Name": "Betrayer's Pauldrons",
+      "Source": "Archbishop Benedictus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "72897": {
+      "Name": "Arrow of Time",
+      "Source": "Murozond",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "End Time",
+      "SourceFaction": "B"
+    },
+    "72898": {
+      "Name": "Foul Gift of the Demon Lord",
+      "Source": "Mannoroth & Captain Varo'then",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Well of Enternity",
+      "SourceFaction": "B"
+    },
+    "72899": {
+      "Name": "Varo'then's Brooch",
+      "Source": "Mannoroth & Captain Varo'then",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Well of Enternity",
+      "SourceFaction": "B"
+    },
+    "72900": {
+      "Name": "Veil of Lies",
+      "Source": "Archbishop Benedictus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "72901": {
+      "Name": "Rosary of Light",
+      "Source": "Archbishop Benedictus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "76150": {
+      "Name": "Evergreen Wristbands",
+      "Source": "Arcurion",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "76151": {
+      "Name": "Cloak of Subtle Light",
+      "Source": "Asira Dawnslayer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
     }
   }
 }

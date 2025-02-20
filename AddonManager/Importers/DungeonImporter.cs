@@ -7,20 +7,38 @@ namespace AddonManager.Importers;
 
 public class DungeonImporter : LootImporter
 {
+      private List<string> excludedWords = new List<string>()
+    {
+        "Reins of the",
+        "Plans: ",
+        "Pattern: ", 
+        "Formula: ",
+        "Trophy of the Crusade",
+        "Large Satchel",
+        "Dragon Hide Bag",
+        "Shadowfrost Shard"
+    };
     private Dictionary<string, string> dungeonUriList = new Dictionary<string, string>
         {
-            // {@"https://www.wowhead.com/cata/guide/dungeons/blackrock-caverns-loot-guide", "Blackrock Caverns"},
-            // {@"https://www.wowhead.com/cata/guide/dungeons/deadmines-loot-guide", "The Deadmines"},
-            // {@"https://www.wowhead.com/cata/guide/dungeons/grim-batol-loot-guide", "Grim Batol"},
-            // {@"https://www.wowhead.com/cata/guide/dungeons/halls-of-origination-loot-guide", "Halls of Origination"},
-            // {@"https://www.wowhead.com/cata/guide/dungeons/lost-city-of-tolvir-loot-guide", "Lost City of the Tol'vir"},
-            // {@"https://www.wowhead.com/cata/guide/dungeons/shadowfang-keep-loot-guide", "Shadowfang Keep"},
-            // {@"https://www.wowhead.com/cata/guide/dungeons/the-stonecore-loot-guide", "The Stonecore"},
-            // {@"https://www.wowhead.com/cata/guide/dungeons/throne-of-the-tides-loot-guide", "Throne of the Tides"},
-            // {@"https://www.wowhead.com/cata/guide/dungeons/vortex-pinnacle-loot-guide", "Vortex Pinnacle"},
             { @"https://www.wowhead.com/cata/guide/dungeons/zulaman-loot", "Zul'Aman" },
             { @"https://www.wowhead.com/cata/guide/dungeons/zulgurub-loot", "Zul'Gurub" },
         };
+
+    private Dictionary<string, string> _bossUriList = new Dictionary<string, string>()
+    {
+        // { @"https://www.wowhead.com/cata/npc=54123/echo-of-sylvanas#drops", "Echo of Sylvanas, End Time"},
+        // { @"https://www.wowhead.com/cata/npc=54431/echo-of-baine#drops", "Echo of Baine, End Time"},
+        // { @"https://www.wowhead.com/cata/npc=54445/echo-of-jaina#drops", "Echo of Jaina, End Time"},
+        // { @"https://www.wowhead.com/cata/npc=54544/echo-of-tyrande#drops", "Echo of Tyrande, End Time"},
+        // { @"https://www.wowhead.com/cata/npc=54432/murozond#drops", "Murozond, End Time"},
+        // { @"https://www.wowhead.com/cata/npc=55085/perotharn#drops", "Peroth'arn, Well of Enternity"},
+        // { @"https://www.wowhead.com/cata/npc=54853/queen-azshara#drops", "Queen Azshara, Well of Enternity"},
+        // { @"https://www.wowhead.com/cata/npc=54969/mannoroth#drops", "Mannoroth, Well of Enternity"},
+        // { @"https://www.wowhead.com/cata/npc=55419/captain-varothen#drops", "Captain Varo'then, Well of Enternity"},
+        { @"https://www.wowhead.com/cata/npc=54590/arcurion#drops", "Arcurion, Hour of Twilight"},
+        { @"https://www.wowhead.com/cata/npc=54968/asira-dawnslayer#drops", "Asira Dawnslayer, Hour of Twilight"},
+        { @"https://www.wowhead.com/cata/npc=54938/archbishop-benedictus#drops", "Archbishop Benedictus, Hour of Twilight"}
+    };
 
     public DungeonImporter(CancellationToken cancellationToken) : base(cancellationToken)
     {
@@ -29,144 +47,61 @@ public class DungeonImporter : LootImporter
     internal override string FileName { get => "DungeonItemList"; }
     internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, Action<string> writeToLog)
     {
-        items.Items.Clear();
+        //items.Items.Clear();
 
-        await Common.LoadFromWebPages(dungeonUriList.Keys.ToList(), (uri, doc) =>
+        await Common.ReadWowheadDropsList(_bossUriList.Keys.ToList(), (webAddress, row, itemId, item) =>
         {
-            var htmlElements = doc.QuerySelectorAll("#guide-body h3");
-            if (htmlElements != null && htmlElements.Length > 0)
-            {
-                foreach (var htmlElement in htmlElements)
-                {
-                    AddLootItems(htmlElement, dungeonUriList[uri], items);
-                }
-            }
+            Int32.TryParse(row.Children[3].TextContent, out int itemLevel);
+            InternalItemsParse(_bossUriList, webAddress, row, itemId, itemLevel, item, items);
         }, writeToLog, _importCancelToken);
+
         return items;
     }
 
-    private (int, string) GetItemFromTableRow(IHtmlTableRowElement row)
+    private void InternalItemsParse(Dictionary<string, string> uriList, string webAddress, IElement row, int itemId, int itemLevel, IElement item, DatabaseItems items)
     {
-        var tableCell = row.Cells[1];
-        var itemId = 0;
-        var itemElement = tableCell.QuerySelector("a");
-        string name = string.Empty;
-        if (itemElement != null)
+        var itemName = item.TextContent;
+        var isPurple = (item.ClassName?.Contains("q4") ?? false) || (item.ClassName?.Contains("q5") ?? false);
+        if (!isPurple) return;
+        if (excludedWords.Any(w => itemName.Contains(w))) return;
+
+        var sourceFaction = "B";
+        if (row.Children[7].Children.Count() > 0)
         {
-            var item = ((IHtmlAnchorElement)itemElement).PathName.Replace("/cata/", "/").Replace("/item=", "");
-
-            var itemIdIndex = item.IndexOf("/");
-            if (itemIdIndex == -1)
-                itemIdIndex = item.IndexOf("&");
-
-            if (itemIdIndex != -1)
-            {
-                item = item.Substring(0, itemIdIndex);
-                int.TryParse(item, out itemId);
-                name = itemElement.TextContent.Trim();
-            }
+            var factionColumn = (IElement)row.Children[7].ChildNodes[0];
+            if (factionColumn?.ClassName == "icon-horde")
+                sourceFaction = "H";
+            else if (factionColumn?.ClassName == "icon-alliance")
+                sourceFaction = "A";
         }
 
-        return (itemId, name);
+        var sourceSplit = uriList[webAddress].Split(",");
+        var sourceName = sourceSplit[0].Trim();
+
+        items.AddItem(itemId, new DatabaseItem
+        {
+            Name = itemName,
+            SourceNumber = "0",
+            Source = sourceName,
+            SourceLocation = sourceSplit[1].Trim(),
+            SourceType = "Drop",
+            SourceFaction = sourceFaction
+        });
     }
 
-    private void LoopThroughTable(IHtmlTableElement table, string bossName, string dungeonName, string dungeonModifier, DatabaseItems items)
+    private IHtmlAnchorElement? RecursivelyFindFirstAnchor(IElement element)
     {
-        if (table == null)
-            return;
-
-        var firstRow = false;
-        foreach (var row in table.Rows)
+        IHtmlAnchorElement? result = null;
+        if (element is IHtmlAnchorElement && element.ClassName != "toggler-off")
+            result = element as IHtmlAnchorElement;
+        else
         {
-            if (!firstRow)
+            foreach (var child in element.Children)
             {
-                firstRow = true;
-                continue;
-            }
-
-            var rowValues = GetItemFromTableRow(row);
-            if (rowValues.Item1 > 0)
-            {
-                if (!items.Items.TryAdd(rowValues.Item1, new DatabaseItem
-                {
-                    Name = rowValues.Item2,
-                    SourceNumber = "0",
-                    Source = bossName,
-                    SourceLocation = $"{dungeonName} ({dungeonModifier})",
-                    SourceType = "Drop"
-                }))
-                {
-                    if (!items.Items[rowValues.Item1].Source.Contains(bossName))
-                    {
-                        items.Items[rowValues.Item1].Source = $"{items.Items[rowValues.Item1].Source} & {bossName}";
-                    }
-                }
+                if (result == null)
+                    result = RecursivelyFindFirstAnchor(child);
             }
         }
-    }
-
-    private IElement? FindNextTableHeader(IElement? currentElement, ref string dungeonModifier, ref string bossName)
-    {
-        var foundTable = false;
-        while (!foundTable)
-        {
-            foundTable = true;
-
-            if (currentElement == null)
-            {
-                return null;
-            }
-            if (currentElement.NodeName == "DIV" && currentElement.FirstElementChild != null)
-            {
-                currentElement = FindNextTableHeader(currentElement.FirstElementChild, ref dungeonModifier, ref bossName);
-            }
-            else if (currentElement.NodeName == "H3")
-            {
-                var bossContent = currentElement.TextContent;
-                bossName = bossContent.Replace("/", " & ").Replace("  ", " ").Replace("(", "").Replace(")", "").Trim();
-
-                if (bossName == "Trash")
-                    bossName = "Trash Mobs";
-                else if (bossName == "Tribunal Chest")
-                    bossName = "The Tribunal of Ages";
-
-                if (bossContent.Contains("Normal"))
-                {
-                    bossName = bossName.Replace("Normal", "").Trim();
-                    dungeonModifier = "Normal";
-                }
-                else if (bossContent.Contains("Heroic"))
-                {
-                    bossName = bossName.Replace("Heroic", "").Trim();
-                    dungeonModifier = "Heroic";
-                }
-                else
-                    foundTable = false;
-            }
-            else
-                foundTable = false;
-
-            if (!foundTable)
-                currentElement = currentElement?.NextElementSibling;
-        }
-        return currentElement;
-    }
-
-    private void AddLootItems(IElement? htmlElement, string dungeonName, DatabaseItems items)
-    {
-        var dungeonModifier = string.Empty;
-        var bossName = string.Empty;
-
-        htmlElement = FindNextTableHeader(htmlElement, ref dungeonModifier, ref bossName);
-        while (htmlElement != null)
-        {
-            var table = htmlElement.NextElementSibling;
-            if (table is IHtmlTableElement)
-            {
-                LoopThroughTable((IHtmlTableElement)table, bossName, dungeonName, dungeonModifier, items);
-            }
-
-            htmlElement = FindNextTableHeader(table, ref dungeonModifier, ref bossName);
-        }
+        return result;
     }
 }

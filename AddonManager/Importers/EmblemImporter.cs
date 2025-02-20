@@ -16,15 +16,57 @@ public class EmblemImporter : LootImporter
         "https://www.wowhead.com/cata/npc=44245/faldren-tillsdale#sells;100",
         "https://www.wowhead.com/cata/npc=44245/faldren-tillsdale#sells;150",
         "https://www.wowhead.com/cata/npc=44245/faldren-tillsdale#sells;200",
+        "https://www.wowhead.com/cata/npc=44245/faldren-tillsdale#sells;250",
+        "https://www.wowhead.com/cata/npc=44245/faldren-tillsdale#sells;300",
+        "https://www.wowhead.com/cata/npc=44245/faldren-tillsdale#sells;350",
+        "https://www.wowhead.com/cata/npc=44245/faldren-tillsdale#sells;400",
+        "https://www.wowhead.com/cata/npc=44245/faldren-tillsdale#sells;450",
+        "https://www.wowhead.com/cata/npc=44245/faldren-tillsdale#sells;500",
+        "https://www.wowhead.com/cata/npc=44245/faldren-tillsdale#sells;550",
+        "https://www.wowhead.com/cata/npc=44245/faldren-tillsdale#sells;600",
+        "https://www.wowhead.com/cata/npc=44245/faldren-tillsdale#sells;650",
+        "https://www.wowhead.com/cata/npc=44245/faldren-tillsdale#sells;700",
+        "https://www.wowhead.com/cata/npc=44245/faldren-tillsdale#sells;750",
+        "https://www.wowhead.com/cata/npc=44245/faldren-tillsdale#sells;800",
         "https://www.wowhead.com/cata/npc=46556/jamusvaz#sells",
         "https://www.wowhead.com/cata/npc=46556/jamusvaz#sells;50",
         "https://www.wowhead.com/cata/npc=46556/jamusvaz#sells;100",
         "https://www.wowhead.com/cata/npc=46556/jamusvaz#sells;150",
         "https://www.wowhead.com/cata/npc=46556/jamusvaz#sells;200",
+        "https://www.wowhead.com/cata/npc=46556/jamusvaz#sells;250",
+        "https://www.wowhead.com/cata/npc=46556/jamusvaz#sells;300",
+        "https://www.wowhead.com/cata/npc=46556/jamusvaz#sells;350",
+        "https://www.wowhead.com/cata/npc=46556/jamusvaz#sells;400",
+        "https://www.wowhead.com/cata/npc=46556/jamusvaz#sells;450",
+        "https://www.wowhead.com/cata/npc=46556/jamusvaz#sells;500",
+        "https://www.wowhead.com/cata/npc=46556/jamusvaz#sells;550",
+        "https://www.wowhead.com/cata/npc=46556/jamusvaz#sells;600",
+        "https://www.wowhead.com/cata/npc=46556/jamusvaz#sells;650",
+        "https://www.wowhead.com/cata/npc=46556/jamusvaz#sells;700",
+        "https://www.wowhead.com/cata/npc=46556/jamusvaz#sells;750",
+        "https://www.wowhead.com/cata/npc=46556/jamusvaz#sells;800",
         "https://www.wowhead.com/cata/npc=44246/magatha-silverton#sells",
         "https://www.wowhead.com/cata/npc=44246/magatha-silverton#sells;50",
+        "https://www.wowhead.com/cata/npc=44246/magatha-silverton#sells;100",
+        "https://www.wowhead.com/cata/npc=44246/magatha-silverton#sells;150",
+        "https://www.wowhead.com/cata/npc=44246/magatha-silverton#sells;200",
+        "https://www.wowhead.com/cata/npc=44246/magatha-silverton#sells;250",
+        "https://www.wowhead.com/cata/npc=44246/magatha-silverton#sells;300",
+        "https://www.wowhead.com/cata/npc=44246/magatha-silverton#sells;350",
+        "https://www.wowhead.com/cata/npc=44246/magatha-silverton#sells;400",
+        "https://www.wowhead.com/cata/npc=44246/magatha-silverton#sells;450",
+        "https://www.wowhead.com/cata/npc=44246/magatha-silverton#sells;500",
         "https://www.wowhead.com/cata/npc=46555/gunra#sells",
         "https://www.wowhead.com/cata/npc=46555/gunra#sells;50",
+        "https://www.wowhead.com/cata/npc=46555/gunra#sells;100",
+        "https://www.wowhead.com/cata/npc=46555/gunra#sells;150",
+        "https://www.wowhead.com/cata/npc=46555/gunra#sells;200",
+        "https://www.wowhead.com/cata/npc=46555/gunra#sells;250",
+        "https://www.wowhead.com/cata/npc=46555/gunra#sells;300",
+        "https://www.wowhead.com/cata/npc=46555/gunra#sells;350",
+        "https://www.wowhead.com/cata/npc=46555/gunra#sells;400",
+        "https://www.wowhead.com/cata/npc=46555/gunra#sells;450",
+        "https://www.wowhead.com/cata/npc=46555/gunra#sells;500",
     };
 
     private List<string> guideUriList = new List<string>()
@@ -42,9 +84,9 @@ public class EmblemImporter : LootImporter
     {
         //items.Items.Clear();
 
-        //await ReadFromItemPages(items, writeToLog);
+        await ReadFromItemPages(items, writeToLog);
         //await ReadFromGuidePage(items, writeToLog);
-        await ReadFromAtlasLoot(items, writeToLog);
+        //await ReadFromAtlasLoot(items, writeToLog);
 
         return items;
     }
