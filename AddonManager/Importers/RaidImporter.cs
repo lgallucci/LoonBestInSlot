@@ -10,13 +10,26 @@ public class RaidImporter : LootImporter
     private Dictionary<string, string> wowheadUriList = new Dictionary<string, string>
     {
         //Dragon Soul
-        { @"https://www.wowhead.com/cata/npc=55265/morchok#drops", "Morchok, Dragon Soul" },
-        { @"https://www.wowhead.com/cata/npc=55308/warlord-zonozz#drops", "Warlord Zon'ozz, Dragon Soul" },
-        { @"https://www.wowhead.com/cata/npc=55312/yorsahj-the-unsleeping#drops", "Yor'sahj the Unsleeping, Dragon Soul" },
-        { @"https://www.wowhead.com/cata/npc=55689/hagara-the-stormbinder#drops", "Hagara the Stormbinder, Dragon Soul" },
-        { @"https://www.wowhead.com/cata/npc=55294/ultraxion#drops", "Ultraxion, Dragon Soul" },
-        { @"https://www.wowhead.com/cata/npc=56427/warmaster-blackhorn#drops", "Warmaster Blackhorn, Dragon Soul" },
-        { @"https://www.wowhead.com/cata/npc=53879/deathwing#drops", "Deathwing, Dragon Soul" },
+        // { @"https://www.wowhead.com/cata/npc=55265/morchok#drops", "Morchok, Dragon Soul" },
+        // { @"https://www.wowhead.com/cata/npc=55308/warlord-zonozz#drops", "Warlord Zon'ozz, Dragon Soul" },
+        // { @"https://www.wowhead.com/cata/npc=55312/yorsahj-the-unsleeping#drops", "Yor'sahj the Unsleeping, Dragon Soul" },
+        // { @"https://www.wowhead.com/cata/npc=55689/hagara-the-stormbinder#drops", "Hagara the Stormbinder, Dragon Soul" },
+        // { @"https://www.wowhead.com/cata/npc=55294/ultraxion#drops", "Ultraxion, Dragon Soul" },
+        // { @"https://www.wowhead.com/cata/npc=56427/warmaster-blackhorn#drops", "Warmaster Blackhorn, Dragon Soul" },
+        // { @"https://www.wowhead.com/cata/npc=53879/deathwing#drops", "Deathwing, Dragon Soul" },
+
+        //Baradin Hold
+        { @"https://www.wowhead.com/cata/npc=47120/argaloth#drops", "Argaloth, Baradin Hold" },
+        { @"https://www.wowhead.com/cata/npc=47120/argaloth#drops;50", "Argaloth, Baradin Hold" },
+        { @"https://www.wowhead.com/cata/npc=47120/argaloth#drops;100", "Argaloth, Baradin Hold" },
+        { @"https://www.wowhead.com/cata/npc=55869/alizabal#drops", "Alizabal, Baradin Hold" },
+        { @"https://www.wowhead.com/cata/npc=55869/alizabal#drops;50", "Alizabal, Baradin Hold" },
+        { @"https://www.wowhead.com/cata/npc=55869/alizabal#drops;100", "Alizabal, Baradin Hold" },
+        { @"https://www.wowhead.com/cata/npc=55869/alizabal#drops;150", "Alizabal, Baradin Hold" },
+        { @"https://www.wowhead.com/cata/npc=52363/occuthar#drops", "Occu'thar, Baradin Hold" },
+        { @"https://www.wowhead.com/cata/npc=52363/occuthar#drops;50", "Occu'thar, Baradin Hold" },
+        { @"https://www.wowhead.com/cata/npc=52363/occuthar#drops;100", "Occu'thar, Baradin Hold" },
+        { @"https://www.wowhead.com/cata/npc=52363/occuthar#drops;150", "Occu'thar, Baradin Hold" },
     };
 
     private Dictionary<string, string> wowheadContainsUriList = new Dictionary<string, string>

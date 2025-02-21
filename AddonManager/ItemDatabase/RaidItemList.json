@@ -1312,6 +1312,22 @@
       "SourceLocation": "Baradin Hold",
       "SourceFaction": "B"
     },
+    "60409": {
+      "Name": "Vicious Gladiator's Dreadplate Gauntlets",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60411": {
+      "Name": "Vicious Gladiator's Dreadplate Legguards",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
     "60414": {
       "Name": "Vicious Gladiator's Scaled Gauntlets",
       "Source": "Argaloth",
@@ -1376,6 +1392,70 @@
       "SourceLocation": "Baradin Hold",
       "SourceFaction": "B"
     },
+    "60434": {
+      "Name": "Vicious Gladiator's Linked Gauntlets",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60436": {
+      "Name": "Vicious Gladiator's Linked Leggings",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60439": {
+      "Name": "Vicious Gladiator's Mail Gauntlets",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60441": {
+      "Name": "Vicious Gladiator's Mail Leggings",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60443": {
+      "Name": "Vicious Gladiator's Dragonhide Gloves",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60445": {
+      "Name": "Vicious Gladiator's Dragonhide Legguards",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60448": {
+      "Name": "Vicious Gladiator's Kodohide Gloves",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60450": {
+      "Name": "Vicious Gladiator's Kodohide Legguards",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
     "60453": {
       "Name": "Vicious Gladiator's Wyrmhide Gloves",
       "Source": "Argaloth",
@@ -1386,6 +1466,22 @@
     },
     "60455": {
       "Name": "Vicious Gladiator's Wyrmhide Legguards",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60459": {
+      "Name": "Vicious Gladiator's Leather Gloves",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60461": {
+      "Name": "Vicious Gladiator's Leather Legguards",
       "Source": "Argaloth",
       "SourceType": "Drop",
       "SourceNumber": "0",
@@ -1408,6 +1504,22 @@
       "SourceLocation": "Baradin Hold",
       "SourceFaction": "B"
     },
+    "60468": {
+      "Name": "Vicious Gladiator's Mooncloth Gloves",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60470": {
+      "Name": "Vicious Gladiator's Mooncloth Leggings",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
     "60473": {
       "Name": "Vicious Gladiator's Satin Gloves",
       "Source": "Argaloth",
@@ -1424,6 +1536,38 @@
       "SourceLocation": "Baradin Hold",
       "SourceFaction": "B"
     },
+    "60478": {
+      "Name": "Vicious Gladiator's Felweave Handguards",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60480": {
+      "Name": "Vicious Gladiator's Felweave Trousers",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60505": {
+      "Name": "Vicious Gladiator's Clasp of Cruelty",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60508": {
+      "Name": "Vicious Gladiator's Girdle of Cruelty",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
     "60509": {
       "Name": "Vicious Gladiator's Warboots of Cruelty",
       "Source": "Argaloth",
@@ -1434,6 +1578,22 @@
     },
     "60513": {
       "Name": "Vicious Gladiator's Warboots of Alacrity",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60516": {
+      "Name": "Vicious Gladiator's Greaves of Alacrity",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60521": {
+      "Name": "Vicious Gladiator's Girdle of Prowess",
       "Source": "Argaloth",
       "SourceType": "Drop",
       "SourceNumber": "0",
@@ -1464,6 +1624,22 @@
       "SourceLocation": "Baradin Hold",
       "SourceFaction": "B"
     },
+    "60539": {
+      "Name": "Vicious Gladiator's Clasp of Meditation",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60540": {
+      "Name": "Vicious Gladiator's Greaves of Meditation",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
     "60554": {
       "Name": "Vicious Gladiator's Sabatons of Cruelty",
       "Source": "Argaloth",
@@ -1472,8 +1648,24 @@
       "SourceLocation": "Baradin Hold",
       "SourceFaction": "B"
     },
+    "60555": {
+      "Name": "Vicious Gladiator's Links of Cruelty",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
     "60557": {
       "Name": "Vicious Gladiator's Sabatons of Alacrity",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60564": {
+      "Name": "Vicious Gladiator's Links of Accuracy",
       "Source": "Argaloth",
       "SourceType": "Drop",
       "SourceNumber": "0",
@@ -1490,6 +1682,14 @@
     },
     "60580": {
       "Name": "Vicious Gladiator's Belt of Meditation",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60581": {
+      "Name": "Vicious Gladiator's Footguards of Meditation",
       "Source": "Argaloth",
       "SourceType": "Drop",
       "SourceNumber": "0",
@@ -1536,8 +1736,56 @@
       "SourceLocation": "Baradin Hold",
       "SourceFaction": "B"
     },
+    "60602": {
+      "Name": "Vicious Gladiator's Ornamented Gloves",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60604": {
+      "Name": "Vicious Gladiator's Ornamented Legplates",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60607": {
+      "Name": "Vicious Gladiator's Footguards of Alacrity",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60612": {
+      "Name": "Vicious Gladiator's Cord of Cruelty",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
     "60613": {
       "Name": "Vicious Gladiator's Treads of Cruelty",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60626": {
+      "Name": "Vicious Gladiator's Cord of Accuracy",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60628": {
+      "Name": "Vicious Gladiator's Cuffs of Accuracy",
       "Source": "Argaloth",
       "SourceType": "Drop",
       "SourceNumber": "0",
@@ -1552,8 +1800,24 @@
       "SourceLocation": "Baradin Hold",
       "SourceFaction": "B"
     },
+    "60634": {
+      "Name": "Vicious Gladiator's Cuffs of Prowess",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
     "60636": {
       "Name": "Vicious Gladiator's Treads of Meditation",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60637": {
+      "Name": "Vicious Gladiator's Cord of Meditation",
       "Source": "Argaloth",
       "SourceType": "Drop",
       "SourceNumber": "0",
@@ -1640,6 +1904,22 @@
       "SourceLocation": "Baradin Hold",
       "SourceFaction": "B"
     },
+    "60668": {
+      "Name": "Vicious Gladiator's Necklace of Prowess",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60669": {
+      "Name": "Vicious Gladiator's Necklace of Proficiency",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
     "60670": {
       "Name": "Vicious Gladiator's Choker of Proficiency",
       "Source": "Argaloth",
@@ -1650,6 +1930,22 @@
     },
     "60673": {
       "Name": "Vicious Gladiator's Choker of Accuracy",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60776": {
+      "Name": "Vicious Gladiator's Cloak of Alacrity",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60778": {
+      "Name": "Vicious Gladiator's Cloak of Prowess",
       "Source": "Argaloth",
       "SourceType": "Drop",
       "SourceNumber": "0",
@@ -1672,8 +1968,128 @@
       "SourceLocation": "Baradin Hold",
       "SourceFaction": "B"
     },
+    "60786": {
+      "Name": "Vicious Gladiator's Drape of Diffusion",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60787": {
+      "Name": "Vicious Gladiator's Drape of Prowess",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60788": {
+      "Name": "Vicious Gladiator's Drape of Meditation",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60794": {
+      "Name": "Vicious Gladiator's Medallion of Cruelty",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60799": {
+      "Name": "Vicious Gladiator's Medallion of Meditation",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60800": {
+      "Name": "Vicious Gladiator's Medallion of Tenacity",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60801": {
+      "Name": "Vicious Gladiator's Medallion of Cruelty",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60806": {
+      "Name": "Vicious Gladiator's Medallion of Meditation",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "60807": {
+      "Name": "Vicious Gladiator's Medallion of Tenacity",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "61026": {
+      "Name": "Vicious Gladiator's Emblem of Cruelty",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "61031": {
+      "Name": "Vicious Gladiator's Emblem of Meditation",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "61032": {
+      "Name": "Vicious Gladiator's Emblem of Tenacity",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
     "61033": {
       "Name": "Vicious Gladiator's Badge of Conquest",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "61045": {
+      "Name": "Vicious Gladiator's Insignia of Dominance",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "61046": {
+      "Name": "Vicious Gladiator's Insignia of Victory",
+      "Source": "Argaloth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "61047": {
+      "Name": "Vicious Gladiator's Insignia of Conquest",
       "Source": "Argaloth",
       "SourceType": "Drop",
       "SourceNumber": "0",
@@ -3544,8 +3960,304 @@
       "SourceLocation": "Firelands",
       "SourceFaction": "B"
     },
+    "70245": {
+      "Name": "Ruthless Gladiator's Dreadplate Gauntlets",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70247": {
+      "Name": "Ruthless Gladiator's Dreadplate Legguards",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70250": {
+      "Name": "Ruthless Gladiator's Scaled Gauntlets",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70252": {
+      "Name": "Ruthless Gladiator's Scaled Legguards",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70255": {
+      "Name": "Ruthless Gladiator's Plate Gauntlets",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70257": {
+      "Name": "Ruthless Gladiator's Plate Legguards",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70260": {
+      "Name": "Ruthless Gladiator's Chain Gauntlets",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70262": {
+      "Name": "Ruthless Gladiator's Chain Leggings",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70265": {
+      "Name": "Ruthless Gladiator's Ringmail Gauntlets",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70267": {
+      "Name": "Ruthless Gladiator's Ringmail Leggings",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70270": {
+      "Name": "Ruthless Gladiator's Linked Gauntlets",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70272": {
+      "Name": "Ruthless Gladiator's Linked Leggings",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70275": {
+      "Name": "Ruthless Gladiator's Mail Gauntlets",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70277": {
+      "Name": "Ruthless Gladiator's Mail Leggings",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70279": {
+      "Name": "Ruthless Gladiator's Dragonhide Gloves",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70281": {
+      "Name": "Ruthless Gladiator's Dragonhide Legguards",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70284": {
+      "Name": "Ruthless Gladiator's Kodohide Gloves",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70286": {
+      "Name": "Ruthless Gladiator's Kodohide Legguards",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70289": {
+      "Name": "Ruthless Gladiator's Wyrmhide Gloves",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70291": {
+      "Name": "Ruthless Gladiator's Wyrmhide Legguards",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70295": {
+      "Name": "Ruthless Gladiator's Leather Gloves",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70297": {
+      "Name": "Ruthless Gladiator's Leather Legguards",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70299": {
+      "Name": "Ruthless Gladiator's Silk Handguards",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70301": {
+      "Name": "Ruthless Gladiator's Silk Trousers",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70304": {
+      "Name": "Ruthless Gladiator's Mooncloth Gloves",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70306": {
+      "Name": "Ruthless Gladiator's Mooncloth Leggings",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70309": {
+      "Name": "Ruthless Gladiator's Satin Gloves",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70311": {
+      "Name": "Ruthless Gladiator's Satin Leggings",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70314": {
+      "Name": "Ruthless Gladiator's Felweave Handguards",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70316": {
+      "Name": "Ruthless Gladiator's Felweave Trousers",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70319": {
+      "Name": "Ruthless Gladiator's Clasp of Cruelty",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70320": {
+      "Name": "Ruthless Gladiator's Girdle of Cruelty",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70321": {
+      "Name": "Ruthless Gladiator's Warboots of Cruelty",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
     "70322": {
       "Name": "Ruthless Gladiator's Armplates of Alacrity",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70323": {
+      "Name": "Ruthless Gladiator's Warboots of Alacrity",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70324": {
+      "Name": "Ruthless Gladiator's Greaves of Alacrity",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70325": {
+      "Name": "Ruthless Gladiator's Bracers of Prowess",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70326": {
+      "Name": "Ruthless Gladiator's Girdle of Prowess",
       "Source": "Occu'thar",
       "SourceType": "Drop",
       "SourceNumber": "0",
@@ -3560,8 +4272,112 @@
       "SourceLocation": "Baradin Hold",
       "SourceFaction": "B"
     },
+    "70328": {
+      "Name": "Ruthless Gladiator's Waistguard of Meditation",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70329": {
+      "Name": "Ruthless Gladiator's Sabatons of Meditation",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
     "70330": {
       "Name": "Ruthless Gladiator's Armbands of Meditation",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70331": {
+      "Name": "Ruthless Gladiator's Waistguard of Cruelty",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70332": {
+      "Name": "Ruthless Gladiator's Clasp of Meditation",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70333": {
+      "Name": "Ruthless Gladiator's Greaves of Meditation",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70334": {
+      "Name": "Ruthless Gladiator's Bracers of Meditation",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70335": {
+      "Name": "Ruthless Gladiator's Sabatons of Cruelty",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70336": {
+      "Name": "Ruthless Gladiator's Links of Cruelty",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70337": {
+      "Name": "Ruthless Gladiator's Sabatons of Alacrity",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70338": {
+      "Name": "Ruthless Gladiator's Wristguards of Alacrity",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70339": {
+      "Name": "Ruthless Gladiator's Links of Accuracy",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70340": {
+      "Name": "Ruthless Gladiator's Wristguards of Accuracy",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70341": {
+      "Name": "Ruthless Gladiator's Sabatons of Alacrity",
       "Source": "Occu'thar",
       "SourceType": "Drop",
       "SourceNumber": "0",
@@ -3576,6 +4392,62 @@
       "SourceLocation": "Baradin Hold",
       "SourceFaction": "B"
     },
+    "70343": {
+      "Name": "Ruthless Gladiator's Belt of Meditation",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70344": {
+      "Name": "Ruthless Gladiator's Footguards of Meditation",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70345": {
+      "Name": "Ruthless Gladiator's Bindings of Meditation",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70346": {
+      "Name": "Ruthless Gladiator's Belt of Cruelty",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70347": {
+      "Name": "Ruthless Gladiator's Waistband of Cruelty",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70348": {
+      "Name": "Ruthless Gladiator's Boots of Cruelty",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70349": {
+      "Name": "Ruthless Gladiator's Waistband of Accuracy",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
     "70350": {
       "Name": "Ruthless Gladiator's Armwraps of Accuracy",
       "Source": "Occu'thar",
@@ -3584,8 +4456,120 @@
       "SourceLocation": "Baradin Hold",
       "SourceFaction": "B"
     },
+    "70351": {
+      "Name": "Ruthless Gladiator's Boots of Alacrity",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
     "70352": {
       "Name": "Ruthless Gladiator's Armwraps of Alacrity",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70354": {
+      "Name": "Ruthless Gladiator's Ornamented Gloves",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70356": {
+      "Name": "Ruthless Gladiator's Ornamented Legplates",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70358": {
+      "Name": "Ruthless Gladiator's Footguards of Alacrity",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70359": {
+      "Name": "Ruthless Gladiator's Bindings of Prowess",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70360": {
+      "Name": "Ruthless Gladiator's Cord of Cruelty",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70361": {
+      "Name": "Ruthless Gladiator's Treads of Cruelty",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70362": {
+      "Name": "Ruthless Gladiator's Cord of Accuracy",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70363": {
+      "Name": "Ruthless Gladiator's Cuffs of Accuracy",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70364": {
+      "Name": "Ruthless Gladiator's Treads of Alacrity",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70365": {
+      "Name": "Ruthless Gladiator's Cuffs of Prowess",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70366": {
+      "Name": "Ruthless Gladiator's Cuffs of Meditation",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70367": {
+      "Name": "Ruthless Gladiator's Treads of Meditation",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70368": {
+      "Name": "Ruthless Gladiator's Cord of Meditation",
       "Source": "Occu'thar",
       "SourceType": "Drop",
       "SourceNumber": "0",
@@ -3616,6 +4600,222 @@
       "SourceLocation": "Baradin Hold",
       "SourceFaction": "B"
     },
+    "70372": {
+      "Name": "Ruthless Gladiator's Signet of Cruelty",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70373": {
+      "Name": "Ruthless Gladiator's Signet of Accuracy",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70374": {
+      "Name": "Ruthless Gladiator's Ring of Accuracy",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70375": {
+      "Name": "Ruthless Gladiator's Ring of Cruelty",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70376": {
+      "Name": "Ruthless Gladiator's Pendant of Diffusion",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70377": {
+      "Name": "Ruthless Gladiator's Pendant of Alacrity",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70378": {
+      "Name": "Ruthless Gladiator's Pendant of Meditation",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70379": {
+      "Name": "Ruthless Gladiator's Necklace of Prowess",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70380": {
+      "Name": "Ruthless Gladiator's Necklace of Proficiency",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70381": {
+      "Name": "Ruthless Gladiator's Choker of Proficiency",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70382": {
+      "Name": "Ruthless Gladiator's Choker of Accuracy",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70383": {
+      "Name": "Ruthless Gladiator's Cloak of Alacrity",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70384": {
+      "Name": "Ruthless Gladiator's Cloak of Prowess",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70385": {
+      "Name": "Ruthless Gladiator's Cape of Prowess",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70386": {
+      "Name": "Ruthless Gladiator's Cape of Cruelty",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70387": {
+      "Name": "Ruthless Gladiator's Drape of Diffusion",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70388": {
+      "Name": "Ruthless Gladiator's Drape of Prowess",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70389": {
+      "Name": "Ruthless Gladiator's Drape of Meditation",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70390": {
+      "Name": "Ruthless Gladiator's Medallion of Cruelty",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70391": {
+      "Name": "Ruthless Gladiator's Medallion of Meditation",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70392": {
+      "Name": "Ruthless Gladiator's Medallion of Tenacity",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70393": {
+      "Name": "Ruthless Gladiator's Medallion of Cruelty",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70394": {
+      "Name": "Ruthless Gladiator's Medallion of Meditation",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70395": {
+      "Name": "Ruthless Gladiator's Medallion of Tenacity",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70396": {
+      "Name": "Ruthless Gladiator's Emblem of Cruelty",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70397": {
+      "Name": "Ruthless Gladiator's Emblem of Meditation",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70398": {
+      "Name": "Ruthless Gladiator's Emblem of Tenacity",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
     "70399": {
       "Name": "Ruthless Gladiator's Badge of Conquest",
       "Source": "Occu'thar",
@@ -3634,6 +4834,30 @@
     },
     "70401": {
       "Name": "Ruthless Gladiator's Badge of Dominance",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70402": {
+      "Name": "Ruthless Gladiator's Insignia of Dominance",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70403": {
+      "Name": "Ruthless Gladiator's Insignia of Victory",
+      "Source": "Occu'thar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Baradin Hold",
+      "SourceFaction": "B"
+    },
+    "70404": {
+      "Name": "Ruthless Gladiator's Insignia of Conquest",
       "Source": "Occu'thar",
       "SourceType": "Drop",
       "SourceNumber": "0",

@@ -26,15 +26,15 @@ public class DungeonImporter : LootImporter
 
     private Dictionary<string, string> _bossUriList = new Dictionary<string, string>()
     {
-        // { @"https://www.wowhead.com/cata/npc=54123/echo-of-sylvanas#drops", "Echo of Sylvanas, End Time"},
-        // { @"https://www.wowhead.com/cata/npc=54431/echo-of-baine#drops", "Echo of Baine, End Time"},
-        // { @"https://www.wowhead.com/cata/npc=54445/echo-of-jaina#drops", "Echo of Jaina, End Time"},
-        // { @"https://www.wowhead.com/cata/npc=54544/echo-of-tyrande#drops", "Echo of Tyrande, End Time"},
-        // { @"https://www.wowhead.com/cata/npc=54432/murozond#drops", "Murozond, End Time"},
-        // { @"https://www.wowhead.com/cata/npc=55085/perotharn#drops", "Peroth'arn, Well of Enternity"},
-        // { @"https://www.wowhead.com/cata/npc=54853/queen-azshara#drops", "Queen Azshara, Well of Enternity"},
-        // { @"https://www.wowhead.com/cata/npc=54969/mannoroth#drops", "Mannoroth, Well of Enternity"},
-        // { @"https://www.wowhead.com/cata/npc=55419/captain-varothen#drops", "Captain Varo'then, Well of Enternity"},
+        { @"https://www.wowhead.com/cata/npc=54123/echo-of-sylvanas#drops", "Echo of Sylvanas, End Time"},
+        { @"https://www.wowhead.com/cata/npc=54431/echo-of-baine#drops", "Echo of Baine, End Time"},
+        { @"https://www.wowhead.com/cata/npc=54445/echo-of-jaina#drops", "Echo of Jaina, End Time"},
+        { @"https://www.wowhead.com/cata/npc=54544/echo-of-tyrande#drops", "Echo of Tyrande, End Time"},
+        { @"https://www.wowhead.com/cata/npc=54432/murozond#drops", "Murozond, End Time"},
+        { @"https://www.wowhead.com/cata/npc=55085/perotharn#drops", "Peroth'arn, Well of Enternity"},
+        { @"https://www.wowhead.com/cata/npc=54853/queen-azshara#drops", "Queen Azshara, Well of Enternity"},
+        { @"https://www.wowhead.com/cata/npc=54969/mannoroth#drops", "Mannoroth, Well of Enternity"},
+        { @"https://www.wowhead.com/cata/npc=55419/captain-varothen#drops", "Captain Varo'then, Well of Enternity"},
         { @"https://www.wowhead.com/cata/npc=54590/arcurion#drops", "Arcurion, Hour of Twilight"},
         { @"https://www.wowhead.com/cata/npc=54968/asira-dawnslayer#drops", "Asira Dawnslayer, Hour of Twilight"},
         { @"https://www.wowhead.com/cata/npc=54938/archbishop-benedictus#drops", "Archbishop Benedictus, Hour of Twilight"}

@@ -84,6 +84,55 @@ public static class WowheadImporter
         71686, //Chest of the Fiery Protector
         71687, //Shoulders of the Fiery Protector
         71688, //Mantle of the Fiery Protector
+
+        //Tier 13
+        78868, //crown-of-the-corrupted-vanquisher
+        78172, //crown-of-the-corrupted-vanquisher
+        78852, //crown-of-the-corrupted-vanquisher
+        78874, //shoulders-of-the-corrupted-vanquisher
+        78170, //shoulders-of-the-corrupted-vanquisher
+        78861, //shoulders-of-the-corrupted-vanquisher
+        78862, //chest-of-the-corrupted-vanquisher
+        78174, //chest-of-the-corrupted-vanquisher
+        78849, //chest-of-the-corrupted-vanquisher
+        78865, //gauntlets-of-the-corrupted-vanquisher
+        78173, //gauntlets-of-the-corrupted-vanquisher
+        78855, //gauntlets-of-the-corrupted-vanquisher
+        78871, //leggings-of-the-corrupted-vanquisher
+        78171, //leggings-of-the-corrupted-vanquisher
+        78858, //leggings-of-the-corrupted-vanquisher
+
+        78869, //crown-of-the-corrupted-conqueror
+        78182, //crown-of-the-corrupted-conqueror
+        78850, //crown-of-the-corrupted-conqueror
+        78875, //shoulders-of-the-corrupted-conqueror
+        78180, //shoulders-of-the-corrupted-conqueror
+        78859, //shoulders-of-the-corrupted-conqueror
+        78863, //chest-of-the-corrupted-conqueror
+        78184, //chest-of-the-corrupted-conqueror
+        78847, //chest-of-the-corrupted-conqueror
+        78866, //gauntlets-of-the-corrupted-conqueror
+        78183, //gauntlets-of-the-corrupted-conqueror
+        78853, //gauntlets-of-the-corrupted-conqueror
+        78872, //leggings-of-the-corrupted-conqueror
+        78181, //leggings-of-the-corrupted-conqueror
+        78856, //leggings-of-the-corrupted-conqueror
+        
+        78870, //crown-of-the-corrupted-protector
+        78177, //crown-of-the-corrupted-protector
+        78851, //crown-of-the-corrupted-protector
+        78876, //shoulders-of-the-corrupted-protector
+        78175, //shoulders-of-the-corrupted-protector
+        78860, //shoulders-of-the-corrupted-protector
+        78864, //chest-of-the-corrupted-protector
+        78179, //chest-of-the-corrupted-protector
+        78848, //chest-of-the-corrupted-protector
+        78867, //gauntlets-of-the-corrupted-protector
+        78178, //gauntlets-of-the-corrupted-protector
+        78854, //gauntlets-of-the-corrupted-protector
+        78873, //leggings-of-the-corrupted-protector
+        78176, //leggings-of-the-corrupted-protector
+        78857, //leggings-of-the-corrupted-protector
     };
 
     public static bool VerifyGuide(List<ItemSpec> items)

@@ -1920,6 +1920,70 @@
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
+    "69109": {
+      "Name": "Scales of Life",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "70",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "69110": {
+      "Name": "Variable Pulse Lightning Capacitor",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "80",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "69111": {
+      "Name": "Jaws of Defeat",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "70",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "69112": {
+      "Name": "The Hungerer",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "70",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "69138": {
+      "Name": "Spidersilk Spindle",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "70",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "69149": {
+      "Name": "Eye of Blazing Power",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "70",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "69150": {
+      "Name": "Matrix Restabilizer",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "80",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "69167": {
+      "Name": "Vessel of Acceleration",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "80",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
     "69878": {
       "Name": "Satchel of the Permafrost Cape",
       "Source": "Fissure Stone Fragment",
@@ -1981,6 +2045,38 @@
       "Source": "Fissure Stone Fragment",
       "SourceType": "Dungeon Token",
       "SourceNumber": "12",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "69897": {
+      "Name": "Fandral's Flamescythe",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "70733": {
+      "Name": "Alysra's Razor",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "70915": {
+      "Name": "Shard of Torment",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "70922": {
+      "Name": "Mandible of Beth'tilac",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
@@ -2085,6 +2181,38 @@
       "Source": "Justice Points",
       "SourceType": "Dungeon Token",
       "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "70991": {
+      "Name": "Arbalest of Erupting Fury",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71013": {
+      "Name": "Feeding Frenzy",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71014": {
+      "Name": "Skullstealer Greataxe",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71039": {
+      "Name": "Funeral Pyre",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
@@ -2669,6 +2797,174 @@
       "Source": "Justice Points",
       "SourceType": "Dungeon Token",
       "SourceNumber": "2200",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71312": {
+      "Name": "Gatecrasher",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71323": {
+      "Name": "Molten Scream",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "15",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71347": {
+      "Name": "Stinger of the Flaming Scorpion",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71352": {
+      "Name": "Sulfuras, the Extinguished Hand",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "70",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71353": {
+      "Name": "Arathar, the Eye of Flame",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "70",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71355": {
+      "Name": "Ko'gun, Hammer of the Firelord",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71617": {
+      "Name": "Crystallized Firestone",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71668": {
+      "Name": "Helm of the Fiery Vanquisher",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71674": {
+      "Name": "Mantle of the Fiery Vanquisher",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71675": {
+      "Name": "Helm of the Fiery Conqueror",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71681": {
+      "Name": "Mantle of the Fiery Conqueror",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71682": {
+      "Name": "Helm of the Fiery Protector",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71688": {
+      "Name": "Mantle of the Fiery Protector",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71775": {
+      "Name": "Smoldering Censer of Purity",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71776": {
+      "Name": "Eye of Purification",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "35",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71779": {
+      "Name": "Avool's Incendiary Shanker",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71780": {
+      "Name": "Zoid's Firelit Greatsword",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71782": {
+      "Name": "Shatterskull Bonecrusher",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71785": {
+      "Name": "Firethorn Mindslicer",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "35",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71787": {
+      "Name": "Entrail Disgorger",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "71798": {
+      "Name": "Sho'ravon, Greatstaff of Annihilation",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "70",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
@@ -3344,11 +3640,763 @@
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
+    "77969": {
+      "Name": "Seal of the Seven Signs",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "77970": {
+      "Name": "Soulshifter Vortex",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "77971": {
+      "Name": "Insignia of the Corrupted Mind",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "77972": {
+      "Name": "Creche of the Final Dragon",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "77973": {
+      "Name": "Starcatcher Compass",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "77974": {
+      "Name": "Wrath of Unchaining",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "65",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "77975": {
+      "Name": "Will of Unbinding",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "65",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "77976": {
+      "Name": "Heart of Unliving",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "65",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "77977": {
+      "Name": "Eye of Unmaking",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "65",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "77978": {
+      "Name": "Resolve of Undying",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "65",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "77979": {
+      "Name": "Vial of Shadows",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "77980": {
+      "Name": "Cunning of the Cruel",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "77981": {
+      "Name": "Windward Heart",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "77982": {
+      "Name": "Bone-Link Fetish",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "77983": {
+      "Name": "Indomitable Pride",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78374": {
+      "Name": "Razor Saronite Chip",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78375": {
+      "Name": "Underdweller's Spaulders",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78376": {
+      "Name": "Sporebeard Gauntlets",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78377": {
+      "Name": "Rockhide Bracers",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78378": {
+      "Name": "Brackenshell Shoulderplates",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78380": {
+      "Name": "Robe of Glowing Stone",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "40",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78381": {
+      "Name": "Mosswrought Shoulderguards",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78382": {
+      "Name": "Petrified Fungal Heart",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78384": {
+      "Name": "Mycosynth Wristguards",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78385": {
+      "Name": "Girdle of Shattered Stone",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78386": {
+      "Name": "Pillarfoot Greaves",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78395": {
+      "Name": "Belt of Flayed Skin",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78396": {
+      "Name": "Treads of Crushed Flesh",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78397": {
+      "Name": "Graveheart Bracers",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78398": {
+      "Name": "Cord of the Slain Champion",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78399": {
+      "Name": "Finger of Zon'ozz",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "70",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78400": {
+      "Name": "Grotesquely Writhing Bracers",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78408": {
+      "Name": "Interrogator's Bloody Footpads",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78411": {
+      "Name": "Mindstrainer Treads",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78412": {
+      "Name": "Heartblood Wristplates",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78421": {
+      "Name": "Signet of Grasping Mouths",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78422": {
+      "Name": "Electrowing Dagger",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78423": {
+      "Name": "Treads of Dormant Dreams",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78424": {
+      "Name": "Runescriven Demon Collar",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78425": {
+      "Name": "Bracers of the Banished",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78427": {
+      "Name": "Ring of the Riven",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78428": {
+      "Name": "Girdle of the Grotesque",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78438": {
+      "Name": "Bracers of Looming Darkness",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78439": {
+      "Name": "Stillheart Warboots",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78440": {
+      "Name": "Curled Twilight Claw",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78441": {
+      "Name": "Ledger of Revolting Rituals",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78442": {
+      "Name": "Treads of Sordid Screams",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78443": {
+      "Name": "Imperfect Specimens 27 and 28",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78444": {
+      "Name": "Dragonfracture Belt",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78454": {
+      "Name": "Shadow Wing Armbands",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78455": {
+      "Name": "Belt of the Beloved Companion",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78456": {
+      "Name": "Blackhorn's Mighty Bulwark",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78457": {
+      "Name": "Janglespur Jackboots",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78458": {
+      "Name": "Timepiece of the Bronze Flight",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78460": {
+      "Name": "Goriona's Collar",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78466": {
+      "Name": "Gloves of Liquid Smoke",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78467": {
+      "Name": "Molten Blood Footpads",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "65",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78468": {
+      "Name": "Belt of Shattered Elementium",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "65",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78469": {
+      "Name": "Gauntlets of the Golden Thorn",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78470": {
+      "Name": "Backbreaker Spaulders",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78480": {
+      "Name": "Vishanka, Jaws of the Earth",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "100",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78481": {
+      "Name": "No'Kaled, the Elements of Death",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "70",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78482": {
+      "Name": "Kiril, Fury of Beasts",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "100",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78483": {
+      "Name": "Blade of the Unmaker",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "70",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78484": {
+      "Name": "Rathrak, the Poisonous Mind",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78485": {
+      "Name": "Maw of the Dragonlord",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78486": {
+      "Name": "Ti'tahk, the Steps of Time",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "100",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78487": {
+      "Name": "Gurthalak, Voice of the Deeps",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "100",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78488": {
+      "Name": "Souldrinker",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "70",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78494": {
+      "Name": "Seal of Primordial Shadow",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78495": {
+      "Name": "Infinite Loop",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78496": {
+      "Name": "Signet of Suturing",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78497": {
+      "Name": "Breathstealer Band",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78498": {
+      "Name": "Hardheart Ring",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78862": {
+      "Name": "Chest of the Corrupted Vanquisher",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "55",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78863": {
+      "Name": "Chest of the Corrupted Conqueror",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "55",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78864": {
+      "Name": "Chest of the Corrupted Protector",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "55",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78865": {
+      "Name": "Gauntlets of the Corrupted Vanquisher",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78866": {
+      "Name": "Gauntlets of the Corrupted Conqueror",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78867": {
+      "Name": "Gauntlets of the Corrupted Protector",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78868": {
+      "Name": "Crown of the Corrupted Vanquisher",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "55",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78869": {
+      "Name": "Crown of the Corrupted Conqueror",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "55",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78870": {
+      "Name": "Crown of the Corrupted Protector",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "55",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78871": {
+      "Name": "Leggings of the Corrupted Vanquisher",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "55",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78872": {
+      "Name": "Leggings of the Corrupted Conqueror",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "55",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78873": {
+      "Name": "Leggings of the Corrupted Protector",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "55",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78874": {
+      "Name": "Shoulders of the Corrupted Vanquisher",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78875": {
+      "Name": "Shoulders of the Corrupted Conqueror",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "78876": {
+      "Name": "Shoulders of the Corrupted Protector",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
     "234446": {
       "Name": "Commendation of Service",
       "Source": "Fissure Stone Fragment",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "239110": {
+      "Name": "Commendation of Service",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "10",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "239111": {
+      "Name": "Satchel of the Flickering Cowl",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "239112": {
+      "Name": "Satchel of the Flickering Shoulders",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "239113": {
+      "Name": "Satchel of the Flickering Wristbands",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "239114": {
+      "Name": "Satchel of the Flickering Handguards",
+      "Source": "Obsidian Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     }

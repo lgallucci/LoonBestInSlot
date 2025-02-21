@@ -4503,6 +4503,270 @@
       "SourceNumber": "0",
       "SourceLocation": "Hour of Twilight",
       "SourceFaction": "B"
+    },
+    "77974": {
+      "Name": "Wrath of Unchaining",
+      "Source": "Archbishop Benedictus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "77975": {
+      "Name": "Will of Unbinding",
+      "Source": "Archbishop Benedictus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "77976": {
+      "Name": "Heart of Unliving",
+      "Source": "Archbishop Benedictus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "77977": {
+      "Name": "Eye of Unmaking",
+      "Source": "Archbishop Benedictus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "77978": {
+      "Name": "Resolve of Undying",
+      "Source": "Archbishop Benedictus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "78382": {
+      "Name": "Petrified Fungal Heart",
+      "Source": "Archbishop Benedictus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "78421": {
+      "Name": "Signet of Grasping Mouths",
+      "Source": "Archbishop Benedictus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "78427": {
+      "Name": "Ring of the Riven",
+      "Source": "Archbishop Benedictus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "78440": {
+      "Name": "Curled Twilight Claw",
+      "Source": "Archbishop Benedictus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "78480": {
+      "Name": "Vishanka, Jaws of the Earth",
+      "Source": "Archbishop Benedictus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "78481": {
+      "Name": "No'Kaled, the Elements of Death",
+      "Source": "Archbishop Benedictus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "78482": {
+      "Name": "Kiril, Fury of Beasts",
+      "Source": "Archbishop Benedictus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "78483": {
+      "Name": "Blade of the Unmaker",
+      "Source": "Archbishop Benedictus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "78484": {
+      "Name": "Rathrak, the Poisonous Mind",
+      "Source": "Archbishop Benedictus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "78485": {
+      "Name": "Maw of the Dragonlord",
+      "Source": "Archbishop Benedictus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "78486": {
+      "Name": "Ti'tahk, the Steps of Time",
+      "Source": "Archbishop Benedictus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "78487": {
+      "Name": "Gurthalak, Voice of the Deeps",
+      "Source": "Archbishop Benedictus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "78488": {
+      "Name": "Souldrinker",
+      "Source": "Archbishop Benedictus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "78862": {
+      "Name": "Chest of the Corrupted Vanquisher",
+      "Source": "Archbishop Benedictus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "78863": {
+      "Name": "Chest of the Corrupted Conqueror",
+      "Source": "Archbishop Benedictus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "78864": {
+      "Name": "Chest of the Corrupted Protector",
+      "Source": "Archbishop Benedictus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "78865": {
+      "Name": "Gauntlets of the Corrupted Vanquisher",
+      "Source": "Archbishop Benedictus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "78866": {
+      "Name": "Gauntlets of the Corrupted Conqueror",
+      "Source": "Archbishop Benedictus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "78867": {
+      "Name": "Gauntlets of the Corrupted Protector",
+      "Source": "Archbishop Benedictus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "78868": {
+      "Name": "Crown of the Corrupted Vanquisher",
+      "Source": "Archbishop Benedictus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "78869": {
+      "Name": "Crown of the Corrupted Conqueror",
+      "Source": "Archbishop Benedictus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "78870": {
+      "Name": "Crown of the Corrupted Protector",
+      "Source": "Archbishop Benedictus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "78871": {
+      "Name": "Leggings of the Corrupted Vanquisher",
+      "Source": "Archbishop Benedictus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "78872": {
+      "Name": "Leggings of the Corrupted Conqueror",
+      "Source": "Archbishop Benedictus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "78873": {
+      "Name": "Leggings of the Corrupted Protector",
+      "Source": "Archbishop Benedictus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "78874": {
+      "Name": "Shoulders of the Corrupted Vanquisher",
+      "Source": "Archbishop Benedictus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "78875": {
+      "Name": "Shoulders of the Corrupted Conqueror",
+      "Source": "Archbishop Benedictus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
+    },
+    "78876": {
+      "Name": "Shoulders of the Corrupted Protector",
+      "Source": "Archbishop Benedictus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hour of Twilight",
+      "SourceFaction": "B"
     }
   }
 }
