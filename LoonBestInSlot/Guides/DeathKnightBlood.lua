@@ -271,6 +271,7 @@ LBIS:AddItem(spec4, "78773", LBIS.L["Hands"], "Alt") --Necrotic Boneplate Handgu
 LBIS:AddItem(spec4, "78416", LBIS.L["Waist"], "BIS") --Runescriven Demon Collar
 LBIS:AddItem(spec4, "78888", LBIS.L["Waist"], "BIS") --Waistguard of Bleeding Bone
 LBIS:AddItem(spec4, "78452", LBIS.L["Waist"], "Alt Mit") --Goriona's Collar
+LBIS:AddItem(spec4, "77185", LBIS.L["Waist"], "Alt") --Demonbone Waistguard
 LBIS:AddItem(spec4, "71443", LBIS.L["Waist"], "Alt") --Uncrushable Belt of Fury
 LBIS:AddItem(spec4, "78716", LBIS.L["Legs"], "BIS") --Necrotic Boneplate Legguards
 LBIS:AddItem(spec4, "78707", LBIS.L["Legs"], "BIS") --Necrotic Boneplate Greaves

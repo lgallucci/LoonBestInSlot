@@ -343,6 +343,7 @@ LBIS:AddItem(spec4, "78745", LBIS.L["Shoulder"], "BIS") --Shoulderguards of Radi
 LBIS:AddItem(spec4, "78367", LBIS.L["Shoulder"], "Alt") --Brackenshell Shoulderplates
 LBIS:AddItem(spec4, "78742", LBIS.L["Shoulder"], "Alt") --Pauldrons of Radiant Glory
 LBIS:AddItem(spec4, "71415", LBIS.L["Back"], "BIS") --Dreadfire Drape
+LBIS:AddItem(spec4, "77098", LBIS.L["Back"], "Alt") --Nanoprecise Cape
 LBIS:AddItem(spec4, "77099", LBIS.L["Back"], "Alt") --Indefatigable Greatcloak
 LBIS:AddItem(spec4, "78732", LBIS.L["Chest"], "BIS") --Chestguard of Radiant Glory
 LBIS:AddItem(spec4, "77003", LBIS.L["Chest"], "Alt") --Chestguard of Radiant Glory
