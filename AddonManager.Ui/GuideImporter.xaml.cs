@@ -81,7 +81,7 @@ public sealed partial class GuideImporter : Page
         ConsoleOut.Text = string.Empty;
         _importCancelToken = new CancellationTokenSource();
         var phaseString = cmbPhase.SelectedValue.ToString();
-        var phaseNumber = phaseNumber = Int32.Parse(phaseString.Replace("Phase", ""));
+        var phaseNumber = Int32.Parse(phaseString.Replace("Phase", ""));
 
         string result = string.Empty;
 

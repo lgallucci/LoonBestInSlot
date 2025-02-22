@@ -114,23 +114,6 @@ public static class Common
         return null;
     }
 
-    // public static async Task RecursiveBoxSearchAsync(IElement headerElement, Func<IElement, Task<bool>> action)
-    // {
-    //     foreach (var boxElement in headerElement.Children)
-    //     {
-    //         if (boxElement is IHtmlAnchorElement)
-    //         {
-    //             bool goodAnchor = await action(boxElement);
-    //             if (!goodAnchor)
-    //                 await RecursiveBoxSearchAsync(boxElement, action);
-    //         }
-    //         else
-    //         {
-    //             await RecursiveBoxSearchAsync(boxElement, action);
-    //         }
-    //     }
-    // }
-
     public static void RecursiveBoxSearch(INode headerElement, Func<IHtmlAnchorElement, bool> action)
     {
         foreach (var boxElement in headerElement.ChildNodes)

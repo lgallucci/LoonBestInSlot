@@ -211,7 +211,7 @@ public static class WowheadImporter
             {
                 logFunc($"{spec.ClassName} {spec.SpecName} Failed! - {ex.Message.Substring(0, 150)}...");
             }
-        }, logFunc, cancelToken, false);
+        }, logFunc, cancelToken, true);
 
         logFunc($"Done!");
     }
@@ -220,11 +220,10 @@ public static class WowheadImporter
     {
         var result = string.Empty;
 
-        var doc = await Common.LoadFromWebPage(classGuide.WebAddress, logFunc, cancelToken, false);
+        var doc = await Common.LoadFromWebPage(classGuide.WebAddress, logFunc, cancelToken, true);
 
         if (doc != null)
             result = await ImportClassInternal(classGuide, phaseNumber, doc, logFunc);
-
 
         return result;
     }
@@ -242,16 +241,23 @@ public static class WowheadImporter
 
                 itemsAndEnchants = new WowheadGuideParser().ParseWowheadGuide(classGuideMapping, doc, logFunc);
 
+                var gemSources = new List<GemSpec>();
                 foreach(var gem in itemsAndEnchants.Item1) 
                 {
                     if (!guide.Item1.Any(g => g.GemId == gem.Key))
                     {
                         var gemSource = await GetGemFromWowhead(gem.Key, logFunc);
                         if (gemSource != null)
-                            guide.Item1.Add(gemSource);
+                            gemSources.Add(gemSource);
                     }
+                    else
+                        gemSources.Add(guide.Item1.First(g => g.GemId == gem.Key));
                 }
-                UpdateEnchants(guide.Item2, itemsAndEnchants.Item2);
+                guide.Item1.Clear();
+                guide.Item1.AddRange(gemSources);
+
+                guide.Item2.Clear();
+                guide.Item2.AddRange(itemsAndEnchants.Item2.Values);
 
                 if (!guide.Item3.ContainsKey(phaseNumber))
                     guide.Item3.Add(phaseNumber, new List<ItemSpec>());

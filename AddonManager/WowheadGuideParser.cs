@@ -7,7 +7,6 @@ using AngleSharp;
 using AngleSharp.Dom;
 using AngleSharp.Html;
 using AngleSharp.Html.Dom;
-using AngleSharp.Html.Parser;
 
 namespace AddonManager;
 
@@ -268,7 +267,7 @@ public (Dictionary<int, GemSpec>, Dictionary<int, EnchantSpec>, Dictionary<int, 
                 return true;
             },
             (gemAnchor, slot) => {
-                ParseGemCell(gemAnchor, gems, logFunc);
+                ParseGem(gemAnchor, gems);
                 return true;
             }
         );
@@ -304,7 +303,7 @@ public (Dictionary<int, GemSpec>, Dictionary<int, EnchantSpec>, Dictionary<int, 
     
     private void LoopThroughEnchantsAndGems(IHtmlDocument doc, Func<IHtmlAnchorElement, string, bool> foundEnchant, Func<IHtmlAnchorElement, string, bool> foundGem)
     {
-        var gearSlots = doc.QuerySelectorAll(".wow-gear-slot-enhancements");
+        var gearSlots = doc.QuerySelectorAll(".wow-gear-slot");
 
         foreach(var gearSlot in gearSlots)
         {
@@ -312,20 +311,22 @@ public (Dictionary<int, GemSpec>, Dictionary<int, EnchantSpec>, Dictionary<int, 
             
             var enchantDiv = gearSlot.QuerySelector(".wow-gear-slot-enchant");
 
-            Common.RecursiveBoxSearch(enchantDiv, (child) => {
-                var enchantAnchor = (IHtmlAnchorElement)child;
-                if (enchantAnchor.PathName.Contains("cata/"))
-                    return foundEnchant(enchantAnchor, GetSlotFromId(slotId.Value));
-                return false;
-            });
+            if (enchantDiv != null)
+                Common.RecursiveBoxSearch(enchantDiv, (child) => {
+                    var enchantAnchor = (IHtmlAnchorElement)child;
+                    if (enchantAnchor.PathName.Contains("cata/"))
+                        return foundEnchant(enchantAnchor, GetSlotFromId(slotId.Value));
+                    return false;
+                });
             
-            var gemDiv = gearSlot.QuerySelector(".wow-gear-slot-socket");
-            Common.RecursiveBoxSearch(gemDiv, (child) => {
-                var gemAnchor = (IHtmlAnchorElement)child;
-                if (gemAnchor.PathName.Contains("cata/"))
-                    return foundGem(gemAnchor, GetSlotFromId(slotId.Value));
-                return false;
-            });
+            var gemDivs = gearSlot.QuerySelectorAll(".wow-gear-slot-socket");
+            foreach(var gemDiv in gemDivs)
+                Common.RecursiveBoxSearch(gemDiv, (child) => {
+                    var gemAnchor = (IHtmlAnchorElement)child;
+                    if (gemAnchor.PathName.Contains("cata/"))
+                        return foundGem(gemAnchor, GetSlotFromId(slotId.Value));
+                    return false;
+                });
         }
     }
 
@@ -370,6 +371,31 @@ public (Dictionary<int, GemSpec>, Dictionary<int, EnchantSpec>, Dictionary<int, 
         }
     }
 
+    private void ParseGem(IHtmlAnchorElement anchorElement, Dictionary<int, GemSpec> gems)
+    {
+        if (anchorElement.PathName.Contains("/item="))
+        {
+            var item = anchorElement.PathName.Replace("/wotlk", "").Replace("/cata/", "/").Replace("/item=", "");
+            var itemIdIndex = item.IndexOf("/");
+            if (itemIdIndex == -1)
+                itemIdIndex = item.IndexOf("&");
+            if (itemIdIndex != -1)
+                item = item.Substring(0, itemIdIndex);
+            var gemId = Int32.Parse(item);
+            if (_gemSwaps.ContainsKey(gemId))
+            {
+                gemId = _gemSwaps[gemId];
+            }
+            if (!gems.ContainsKey(gemId))
+            {
+                gems.Add(gemId, new GemSpec {
+                    GemId = gemId,
+                    Phase = 0
+                });
+            }
+        }
+    }
+
     private void ParseGemCell(INode? tableRow, Dictionary<int, GemSpec> gems, Action<string> logFunc)
     {
         var gemCell = tableRow?.ChildNodes[2];
@@ -377,27 +403,7 @@ public (Dictionary<int, GemSpec>, Dictionary<int, EnchantSpec>, Dictionary<int, 
         {
             Common.RecursiveBoxSearch((IElement)gemCell, (anchorElement) => 
             {
-                if (anchorElement.PathName.Contains("/item="))
-                {
-                    var item = anchorElement.PathName.Replace("/wotlk", "").Replace("/cata/", "/").Replace("/item=", "");
-                    var itemIdIndex = item.IndexOf("/");
-                    if (itemIdIndex == -1)
-                        itemIdIndex = item.IndexOf("&");
-                    if (itemIdIndex != -1)
-                        item = item.Substring(0, itemIdIndex);
-                    var gemId = Int32.Parse(item);
-                    if (_gemSwaps.ContainsKey(gemId))
-                    {
-                        gemId = _gemSwaps[gemId];
-                    }
-                    if (!gems.ContainsKey(gemId))
-                    {
-                        gems.Add(gemId, new GemSpec {
-                            GemId = gemId,
-                            Phase = 0
-                        });
-                    }
-                }
+                ParseGem(anchorElement, gems);                
                 return false;
             });
         }
@@ -658,7 +664,7 @@ public (Dictionary<int, GemSpec>, Dictionary<int, EnchantSpec>, Dictionary<int, 
 
     private void LoopThroughMappings(IHtmlDocument doc, ClassGuideMapping specMapping, Action<IHtmlAnchorElement, string> foundEnchant, Action<IHtmlTableElement?, string, string> foundTable)
     {
-foreach (var guideMapping in specMapping.GuideMappings)
+        foreach (var guideMapping in specMapping.GuideMappings)
         {
             bool foundEnchantText = false;
             foreach (var htmlMapping in guideMapping.Value.SlotHtmlId.Split(";"))

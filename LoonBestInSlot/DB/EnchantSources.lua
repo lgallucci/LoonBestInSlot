@@ -17,6 +17,7 @@ LBIS.EnchantSources =
     [55016] = { Name = "Nitro Boosts", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Engineering Trainer"], SourceLocation = LBIS.L["Dalaran"], TextureId = "41118" },
     [55628] = { Name = "Socket Bracer", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Blacksmithing Trainer"], SourceLocation = "", TextureId = "" },
     [55641] = { Name = "Socket Gloves", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Blacksmithing Trainer"], SourceLocation = "", TextureId = "" },
+    [57690] = { Name = "Fur Lining - Stamina", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Leatherworking Trainer"], SourceLocation = "", TextureId = "" },
     [59621] = { Name = "Enchant Weapon - Berserking", DesignId = "44493", ScrollId = "0", Source = LBIS.L["Shard Trader"], SourceLocation = LBIS.L["Dalaran"], TextureId = "44493" },
     [60663] = { Name = "Enchant Cloak - Major Agility", DesignId = "44457", ScrollId = "0", Source = LBIS.L["Enchanting Trainer"], SourceLocation = "", TextureId = "" },
     [60692] = { Name = "Enchant Chest - Powerful Stats", DesignId = "44489", ScrollId = "0", Source = LBIS.L["Shard Trader"], SourceLocation = LBIS.L["Dalaran"], TextureId = "" },
