@@ -31,7 +31,7 @@ public sealed partial class GuideImporter : Page
                                 "ShamanElemental", "ShamanEnhancement", "ShamanRestoration", "WarlockAffliction", "WarlockDemonology", "WarlockDestruction", "WarriorArms",
                                 "WarriorFury", "WarriorProtection"};
 
-    public string[] PhaseList = {  "Phase4", "Phase0", /*"Phase1",  "Phase2", "Phase3", "PrePatch"*/ "GemsEnchants", };
+    public string[] PhaseList = {  "Phase4", "Phase0", /*"Phase1",  "Phase2", "Phase3", "PrePatch"*/ };
 
     public GuideImporter()
     {
@@ -46,14 +46,7 @@ public sealed partial class GuideImporter : Page
         ConsoleOut.Text = string.Empty;
         _importCancelToken = new CancellationTokenSource();
         var phaseString = cmbPhase.SelectedValue.ToString();
-        var phaseNumber = 0;
-
-        if (phaseString == "GemsEnchants")
-        {
-            phaseNumber = -1;
-        }
-        else if (phaseString.Contains("Phase"))
-            phaseNumber = Int32.Parse(phaseString.Replace("Phase", ""));
+        var phaseNumber = Int32.Parse(phaseString.Replace("Phase", ""));
 
         var spec = cmbSpec.SelectedValue.ToString();
 
@@ -88,14 +81,7 @@ public sealed partial class GuideImporter : Page
         ConsoleOut.Text = string.Empty;
         _importCancelToken = new CancellationTokenSource();
         var phaseString = cmbPhase.SelectedValue.ToString();
-        var phaseNumber = 0;
-        
-        if (phaseString == "GemsEnchants")
-        {
-            phaseNumber = -1;
-        }
-        else if (phaseString.Contains("Phase"))
-            phaseNumber = Int32.Parse(phaseString.Replace("Phase", ""));
+        var phaseNumber = phaseNumber = Int32.Parse(phaseString.Replace("Phase", ""));
 
         string result = string.Empty;
 
@@ -112,12 +98,6 @@ public sealed partial class GuideImporter : Page
             try
             {
                 var phaseString = cmbPhase.SelectedValue.ToString();
-
-                if (phaseString == "GemsEnchants")
-                {
-                    ConsoleOut.Text = "Can't verify Gems";
-                    return;
-                }
 
                 var specMapping = new ClassSpecGuideMappings().GuideMappings.FirstOrDefault(gm => spec == $"{gm.ClassName.Replace(" ", "")}{gm.SpecName.Replace(" ", "")}"
                     && gm.Phase == phaseString);

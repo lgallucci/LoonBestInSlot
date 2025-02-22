@@ -45,25 +45,4 @@ internal class WarriorFuryMapping : SpecMapping
             { ("Two Hand", "#weapons-for-fury-warrior-dps") },
             { ("Ranged/Relic", "#ranged-weapon-for-fury-warrior-dps") },
         };
-
-    public override string GemsEnchantsUrl => "dps-enchants-gems-pve";
-    public override List<(string, GuideMapping)> GemsEnchants => new List<(string, GuideMapping)>
-    {
-        //Gems
-        { ("Meta", ".box:nth-of-type(1)") },
-        { ("Gem", ".box:nth-of-type(2)") },
-        { ("Gem", ".box:nth-of-type(3)") },
-        //Enchants
-        { ("Head", ".box:nth-of-type(4)") },
-        { ("Shoulder", ".box:nth-of-type(5)") },
-        { ("Back", ".box:nth-of-type(6)") },
-        { ("Chest", ".box:nth-of-type(7)") },
-        { ("Wrist", ".box:nth-of-type(8)") },
-        { ("Hands", ".box:nth-of-type(9)") },
-        { ("Waist", ".box:nth-of-type(10)") },
-        { ("Legs", ".box:nth-of-type(11)") },
-        { ("Feet", ".box:nth-of-type(12)") },
-        { ("Main Hand", ".box:nth-of-type(13)") },
-        { ("Ring", ".box:nth-of-type(14)") },
-    };
 }

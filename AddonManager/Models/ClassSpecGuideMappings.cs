@@ -10,24 +10,10 @@ public class ClassGuideMapping
         ClassName = className;
         Phase = phase;
 
-        if (Phase == "GemsEnchants")
+        foreach (var mapping in guideMappings)
         {
-            _mappings.Clear();
-            foreach (var mapping in guideMappings)
-            {
-                if (_mappings.ContainsKey(mapping.Item1))
-                    _mappings[mapping.Item1] = $"{_mappings[mapping.Item1].SlotHtmlId};{mapping.Item2.SlotHtmlId}";
-                else
-                    _mappings[mapping.Item1] = mapping.Item2;
-            }
-        }
-        else
-        {
-            foreach (var mapping in guideMappings)
-            {
-                _mappings[mapping.Item1] = mapping.Item2;
-            }
-        }        
+            _mappings[mapping.Item1] = mapping.Item2;
+        }      
     }
 
     public string WebAddress { get; set; }

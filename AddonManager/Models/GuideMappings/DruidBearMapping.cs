@@ -47,23 +47,4 @@ internal class DruidBearMapping : SpecMapping
             { ("Two Hand", "#two-handed-weapons-for-feral-druid-tank") },
             { ("Ranged/Relic", "#relics-for-feral-druid-tank") }
         };
-
-    public override string GemsEnchantsUrl => "tank-enchants-gems-pve";
-    public override List<(string, GuideMapping)> GemsEnchants => new List<(string, GuideMapping)>
-    {
-        //Gems
-        { ("Meta", ".box:nth-of-type(1)") },
-        { ("Gem", ".box:nth-of-type(2)") },
-        { ("Gem", ".box:nth-of-type(3)") },
-        //Enchants
-        { ("Head", ".box:nth-of-type(4)") },
-        { ("Shoulder", ".box:nth-of-type(5)") },
-        { ("Back", ".box:nth-of-type(6)") },
-        { ("Chest", ".box:nth-of-type(7)") },
-        { ("Wrist", ".box:nth-of-type(8)") },
-        { ("Hands", ".box:nth-of-type(9)") },
-        { ("Legs", ".box:nth-of-type(10)") },
-        { ("Feet", ".box:nth-of-type(11)") },
-        { ("Two Hand", ".box:nth-of-type(12)") },
-    };
 }

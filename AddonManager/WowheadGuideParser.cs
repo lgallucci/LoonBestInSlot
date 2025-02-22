@@ -263,6 +263,16 @@ public (Dictionary<int, GemSpec>, Dictionary<int, EnchantSpec>, Dictionary<int, 
 
         bool enchantsAndGems = int.Parse(classGuide.Phase.Replace("Phase", "")) == Constants.CurrentPhase;
 
+        LoopThroughEnchantsAndGems(doc, (enchantAnchor, slot) => {
+                ParseEnchant(enchantAnchor, slot, enchants);
+                return true;
+            },
+            (gemAnchor, slot) => {
+                ParseGemCell(gemAnchor, gems, logFunc);
+                return true;
+            }
+        );
+
         LoopThroughMappings(doc, classGuide, 
             (enchantAnchor, slot) =>
             {
@@ -290,6 +300,74 @@ public (Dictionary<int, GemSpec>, Dictionary<int, EnchantSpec>, Dictionary<int, 
             });
 
         return (gems, enchants, items);
+    }
+    
+    private void LoopThroughEnchantsAndGems(IHtmlDocument doc, Func<IHtmlAnchorElement, string, bool> foundEnchant, Func<IHtmlAnchorElement, string, bool> foundGem)
+    {
+        var gearSlots = doc.QuerySelectorAll(".wow-gear-slot-enhancements");
+
+        foreach(var gearSlot in gearSlots)
+        {
+            var slotId = gearSlot.Attributes["data-slot-id"];
+            
+            var enchantDiv = gearSlot.QuerySelector(".wow-gear-slot-enchant");
+
+            Common.RecursiveBoxSearch(enchantDiv, (child) => {
+                var enchantAnchor = (IHtmlAnchorElement)child;
+                if (enchantAnchor.PathName.Contains("cata/"))
+                    return foundEnchant(enchantAnchor, GetSlotFromId(slotId.Value));
+                return false;
+            });
+            
+            var gemDiv = gearSlot.QuerySelector(".wow-gear-slot-socket");
+            Common.RecursiveBoxSearch(gemDiv, (child) => {
+                var gemAnchor = (IHtmlAnchorElement)child;
+                if (gemAnchor.PathName.Contains("cata/"))
+                    return foundGem(gemAnchor, GetSlotFromId(slotId.Value));
+                return false;
+            });
+        }
+    }
+
+    private string GetSlotFromId(string value)
+    {
+        switch(value)
+        {
+            case "1":
+                return "Head";
+            case "2":
+                return "Neck";
+            case "3":
+                return "Shoulder";
+            case "15":
+                return "Back";
+            case "5":
+                return "Chest";
+            case "9":
+                return "Wrist";
+            case "10":
+                return "Hands";
+            case "6":
+                return "Waist";
+            case "7":
+                return "Legs";
+            case "8":
+                return "Feet";
+            case "11":
+            case "12":
+                return "Ring";
+            case "13":
+            case "14":
+                return "Trinket";
+            case "16":
+                return "Main Hand";
+            case "17":
+                return "Off Hand";
+            case "18":
+                return "Ranged/Relic";
+            default:
+                return "Unknown";
+        }
     }
 
     private void ParseGemCell(INode? tableRow, Dictionary<int, GemSpec> gems, Action<string> logFunc)
@@ -375,144 +453,6 @@ public (Dictionary<int, GemSpec>, Dictionary<int, EnchantSpec>, Dictionary<int, 
                 }
             }
         }
-    }
-
-    internal (Dictionary<int, GemSpec>, Dictionary<int, EnchantSpec>) ParseGemEnchantsWowheadGuide(ClassGuideMapping classGuide, IHtmlDocument doc)
-    {
-        var gems = new Dictionary<int, GemSpec>();
-        var enchants = new Dictionary<int, EnchantSpec>();
-
-        foreach (var heading in classGuide.GuideMappings)
-        {
-            foreach (var htmlMapping in heading.Value.SlotHtmlId.Split(";"))
-            {
-                var headerElement = doc.QuerySelector(htmlMapping);
-                if (headerElement != null)
-                {
-                    if (heading.Key == "Meta" || heading.Key == "Gem")
-                    {
-                        ParseGems(headerElement, heading.Key, gems);
-                    }
-                    else
-                    {
-                        ParseEnchants(headerElement, heading.Key, enchants);
-                    }
-                }
-            }
-        }
-
-        return (gems, enchants);
-
-    }
-
-    private void ParseGems(IElement gemBox, string gemType, Dictionary<int, GemSpec> gems)
-    {
-        Common.RecursiveBoxSearch(gemBox, (anchorElement) => 
-        {
-            if (anchorElement.PathName.Contains("/item="))
-            {
-                var item = anchorElement.PathName.Replace("/wotlk", "").Replace("/cata/", "/").Replace("/item=", "");
-
-                var itemIdIndex = item.IndexOf("/");
-                if (itemIdIndex == -1)
-                    itemIdIndex = item.IndexOf("&");
-                if (itemIdIndex != -1)
-                    item = item.Substring(0, itemIdIndex);
-
-                var gemId = Int32.Parse(item);
-
-                if (_gemSwaps.ContainsKey(gemId))
-                {
-                    gemId = _gemSwaps[gemId];
-                }
-
-                if (!gems.ContainsKey(gemId))
-                {
-                    int itemQuality = 0;
-                    if (anchorElement.ClassName?.Contains("q1") ?? false)
-                        itemQuality = 1;
-                    else if (anchorElement.ClassName?.Contains("q2") ?? false)
-                        itemQuality = 2;
-                    else if (anchorElement.ClassName?.Contains("q3") ?? false)
-                        itemQuality = 3;
-                    else if (anchorElement.ClassName?.Contains("q4") ?? false)
-                        itemQuality = 4;
-
-                    gems.Add(gemId, new GemSpec
-                    {
-                        GemId = gemId,
-                        Name = anchorElement.TextContent.Trim() ?? "unknown",
-                        Phase = _gemPhases.ContainsKey(gemId) ? _gemPhases[gemId] : 1,
-                        Quality = itemQuality,
-                        IsMeta = gemType == "Meta"
-                    });
-                }
-            }
-            return false;
-        });
-    }
-
-    private void ParseEnchants(IElement enchantBox, string slot, Dictionary<int, EnchantSpec> enchants)
-    {   
-        Common.RecursiveBoxSearch(enchantBox, (enchantAnchor) => 
-        {
-            bool isSpell = false;
-            if (enchantAnchor.PathName.Contains("/item="))
-                isSpell = false;
-            else if (enchantAnchor.PathName.Contains("/spell="))
-                isSpell = true;
-            else
-                return false;
-
-            var item = enchantAnchor.PathName.Replace("/wotlk", "").Replace("/cata/", "/").Replace("/item=", "").Replace("/spell=", "");
-            var itemIdIndex = item.IndexOf("/");
-            if (itemIdIndex == -1)
-                itemIdIndex = item.IndexOf("&");
-
-            if (itemIdIndex > -1)
-            {
-                item = item.Substring(0, itemIdIndex);
-                var itemName = enchantAnchor.TextContent.Trim();
-                var itemId = Int32.Parse(item);
-
-                bool skippedItem = false;
-                foreach (var excludedName in excludedItemNames)
-                    if (itemName.EndsWith(excludedName))
-                        skippedItem = true;
-
-                if (!skippedItem)
-                {
-                    var textureId = "";
-                    if (isSpell == false && _enchantSwaps.ContainsKey(itemId))
-                    {
-                        textureId = itemId.ToString();
-                        itemId = _enchantSwaps[itemId];
-                    } 
-                    else if (isSpell == false)
-                    {
-                        throw new Exception($"Couldn't find spell for enchant: {itemName}");
-                    }
-
-                    if (!enchants.ContainsKey(itemId))
-                    {
-                        enchants.Add(itemId, new EnchantSpec
-                        {
-                            EnchantId = itemId,
-                            Name = itemName ?? "unknown",
-                            Slot = slot,
-                            TextureId = textureId
-                        });
-                    }
-                    else
-                    {
-                        var slotList = enchants[itemId].Slot.Split("~").ToList();
-                        slotList.Add(slot);
-                        enchants[itemId].Slot = string.Join("~", slotList.Distinct());
-                    }
-                }
-            }
-            return false;
-        });
     }
 
     private string GetSlot(string slot, string bisStatus, IElement itemChild)
