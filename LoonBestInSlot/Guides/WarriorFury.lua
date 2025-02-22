@@ -30,7 +30,7 @@ LBIS:AddEnchant(spec4, "74236", LBIS.L["Feet"]) --
 LBIS:AddEnchant(spec4, "74246", LBIS.L["Main Hand~Off Hand"]) --
 
 LBIS:AddItem(spec0, "78783", LBIS.L["Head"], "BIS") --Colossal Dragonplate Helmet
-LBIS:AddItem(spec0, "60325", LBIS.L["Head~Shoulder"], "BIS") --Earthen Helmet
+LBIS:AddItem(spec0, "60325", LBIS.L["Head"], "BIS") --Earthen Helmet
 LBIS:AddItem(spec0, "59359", LBIS.L["Head"], "Alt") --Reinforced Bio-Optic Killshades
 LBIS:AddItem(spec0, "56278", LBIS.L["Head"], "Alt") --Anomuran Helm
 LBIS:AddItem(spec0, "63478", LBIS.L["Head"], "Alt") --Stonemason's Helm

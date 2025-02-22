@@ -7,6 +7,7 @@ LBIS.EnchantSources =
     [44529] = { Name = "Enchant Gloves - Major Agility", DesignId = "38967", ScrollId = "0", Source = LBIS.L["Enchanting Trainer"], SourceLocation = "", TextureId = "" },
     [44575] = { Name = "Enchant Bracer - Greater Assault", DesignId = "44815", ScrollId = "0", Source = LBIS.L["Shard Trader"], SourceLocation = LBIS.L["Dalaran"], TextureId = "44815" },
     [44590] = { Name = "Enchant Cloak - Superior Shadow Resistance", DesignId = "37334", ScrollId = "0", Source = LBIS.L["Cultist Shard Watcher"], SourceLocation = LBIS.L["Icecrown"], TextureId = "" },
+    [44636] = { Name = "Enchant Ring - Greater Spellpower", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Enchanting Trainer"], SourceLocation = "", TextureId = "" },
     [44769] = { Name = "Glove Reinforcements", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Leatherworking Trainer"], SourceLocation = "", TextureId = "34207" },
     [47901] = { Name = "Enchant Boots - Tuskarr's Vitality", DesignId = "44491", ScrollId = "0", Source = LBIS.L["Shard Trader"], SourceLocation = LBIS.L["Dalaran"], TextureId = "" },
     [52639] = { Name = "Spring Loaded Cloak Expander", DesignId = "39300", ScrollId = "0", Source = LBIS.L["Engineering Trainer"], SourceLocation = "", TextureId = "39300" },

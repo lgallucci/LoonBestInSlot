@@ -260,8 +260,6 @@ public static class WowheadImporter
                             }
                         }
                     }
-                    else
-                        gemSources.Add(guide.Item1.First(g => g.GemId == gem.Key));
                 }
                 guide.Item1.AddRange(gemSources);
 

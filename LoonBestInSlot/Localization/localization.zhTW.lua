@@ -22,6 +22,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Arcanotron"] = "秘法號";
   LBIS.L["Archaeology (525)"] = "考古學 (525)";
   LBIS.L["Archbishop Benedictus"] = "大主教本尼迪塔斯";
+--  LBIS.L["Archival Purposes"] = "";
   LBIS.L["Arcurion"] = "阿奇里森";
   LBIS.L["Argaloth"] = "阿加羅斯";
   LBIS.L["Arms"] = "武器";
@@ -179,9 +180,11 @@ if GetLocale() == "zhTW" then
   LBIS.L["Halls of Origination (Heroic)"] = "起源大廳 (英雄模式)";
   LBIS.L["Halls of Origination (Normal)"] = "起源大廳 (一般)";
   LBIS.L["Hands"] = "手";
+  LBIS.L["Hands~Ring"] = "手~手指";
 --  LBIS.L["Harrison Jones and the Temple of Uldum"] = "";
   LBIS.L["Hazza'rah"] = "哈札拉爾";
   LBIS.L["Head"] = "頭部";
+  LBIS.L["Head~Shoulder"] = "頭部~肩部";
   LBIS.L["Headless Horseman"] = "無頭騎士";
   LBIS.L["Helix Gearbreaker"] = "赫利克斯·碎輪者";
   LBIS.L["Hellscream's Reach"] = "地獄吼先鋒";
@@ -191,6 +194,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["High Priestess Azil"] = "高階祭司艾吉兒";
   LBIS.L["High Priestess Kilnara"] = "高階祭司基爾娜拉";
   LBIS.L["High Prophet Barim"] = "高階預言者巴瑞姆";
+--  LBIS.L["Highguard Elite"] = "";
   LBIS.L["Holy"] = "神聖";
   LBIS.L["Honor Points"] = "榮譽點數";
   LBIS.L["Honored"] = "尊敬";
@@ -257,7 +261,6 @@ if GetLocale() == "zhTW" then
   LBIS.L["Magmaw"] = "熔喉";
   LBIS.L["Main Hand"] = "主手";
   LBIS.L["Main Hand~Off Hand"] = "主手~副手";
-  LBIS.L["Main Hand~Off Hand~Two Hand"] = "主手~副手~雙手";
   LBIS.L["Main Hand~Two Hand"] = "主手~雙手";
   LBIS.L["Majordomo Staghelm"] = "管理者鹿盔";
   LBIS.L["Maloriak"] = "瑪洛里亞克";
@@ -392,6 +395,7 @@ if GetLocale() == "zhTW" then
 --  LBIS.L["Tier Token"] = "";
 --  LBIS.L["To Wyrmrest!"] = "";
   LBIS.L["Token"] = "代幣";
+  LBIS.L["Tol Barad"] = "托巴拉德";
 --  LBIS.L["Traitor's Bait"] = "";
 --  LBIS.L["Transmute"] = "";
   LBIS.L["Trash Mobs"] = "小怪";
@@ -408,7 +412,6 @@ if GetLocale() == "zhTW" then
 --  LBIS.L["Various Bosses"] = "";
 --  LBIS.L["Varlan Highbough"] = "";
   LBIS.L["Vendor"] = "商人";
---  LBIS.L["Victory in the Depth"] = "";
 --  LBIS.L["Victory in the Depths"] = "";
   LBIS.L["Vortex Pinnacle"] = "漩渦尖塔";
   LBIS.L["Vortex Pinnacle (Heroic)"] = "漩渦尖塔 (英雄模式)";

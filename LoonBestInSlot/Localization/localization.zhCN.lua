@@ -22,6 +22,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Arcanotron"] = "奥能金刚";
   LBIS.L["Archaeology (525)"] = "考古学 (525)";
   LBIS.L["Archbishop Benedictus"] = "大主教本尼迪塔斯";
+--  LBIS.L["Archival Purposes"] = "";
   LBIS.L["Arcurion"] = "阿奎里恩";
   LBIS.L["Argaloth"] = "阿尔加洛斯";
   LBIS.L["Arms"] = "武器";
@@ -179,9 +180,11 @@ if GetLocale() == "zhCN" then
   LBIS.L["Halls of Origination (Heroic)"] = "起源大厅 (英雄)";
   LBIS.L["Halls of Origination (Normal)"] = "起源大厅 (正常)";
   LBIS.L["Hands"] = "手";
+  LBIS.L["Hands~Ring"] = "手~手指";
 --  LBIS.L["Harrison Jones and the Temple of Uldum"] = "";
   LBIS.L["Hazza'rah"] = "哈扎拉尔";
   LBIS.L["Head"] = "头部";
+  LBIS.L["Head~Shoulder"] = "头部~肩部";
   LBIS.L["Headless Horseman"] = "无头骑士";
   LBIS.L["Helix Gearbreaker"] = "赫利克斯·破甲";
   LBIS.L["Hellscream's Reach"] = "地狱咆哮近卫军";
@@ -191,6 +194,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["High Priestess Azil"] = "高阶女祭司艾苏尔";
   LBIS.L["High Priestess Kilnara"] = "高阶祭司基尔娜拉";
   LBIS.L["High Prophet Barim"] = "高阶预言者巴林姆";
+--  LBIS.L["Highguard Elite"] = "";
   LBIS.L["Holy"] = "神圣";
   LBIS.L["Honor Points"] = "荣誉点数";
   LBIS.L["Honored"] = "尊敬";
@@ -257,7 +261,6 @@ if GetLocale() == "zhCN" then
   LBIS.L["Magmaw"] = "熔喉";
   LBIS.L["Main Hand"] = "主手";
   LBIS.L["Main Hand~Off Hand"] = "主手~副手";
-  LBIS.L["Main Hand~Off Hand~Two Hand"] = "主手~副手~双手";
   LBIS.L["Main Hand~Two Hand"] = "主手~双手";
   LBIS.L["Majordomo Staghelm"] = "管理者鹿盔";
   LBIS.L["Maloriak"] = "马洛拉克";
@@ -392,6 +395,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Tier Token"] = "";
 --  LBIS.L["To Wyrmrest!"] = "";
   LBIS.L["Token"] = "代币";
+  LBIS.L["Tol Barad"] = "托尔巴拉德";
 --  LBIS.L["Traitor's Bait"] = "";
 --  LBIS.L["Transmute"] = "";
   LBIS.L["Trash Mobs"] = "小怪";
@@ -408,7 +412,6 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Various Bosses"] = "";
 --  LBIS.L["Varlan Highbough"] = "";
   LBIS.L["Vendor"] = "商人";
---  LBIS.L["Victory in the Depth"] = "";
 --  LBIS.L["Victory in the Depths"] = "";
   LBIS.L["Vortex Pinnacle"] = "漩涡峰";
   LBIS.L["Vortex Pinnacle (Heroic)"] = "漩涡峰 (英雄)";

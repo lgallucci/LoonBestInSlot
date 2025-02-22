@@ -22,6 +22,7 @@ if GetLocale() == "esES" then
   LBIS.L["Arcanotron"] = "Arcanotron";
   LBIS.L["Archaeology (525)"] = "Arqueología (525)";
   LBIS.L["Archbishop Benedictus"] = "Arzobispo Benedictus";
+--  LBIS.L["Archival Purposes"] = "";
   LBIS.L["Arcurion"] = "Arcurion";
   LBIS.L["Argaloth"] = "Argaloth";
   LBIS.L["Arms"] = "Armas";
@@ -179,9 +180,11 @@ if GetLocale() == "esES" then
   LBIS.L["Halls of Origination (Heroic)"] = "Cámaras de los Orígenes (Heroico)";
   LBIS.L["Halls of Origination (Normal)"] = "Cámaras de los Orígenes (Normal)";
   LBIS.L["Hands"] = "Guantes";
+  LBIS.L["Hands~Ring"] = "Manos~Anillo";
 --  LBIS.L["Harrison Jones and the Temple of Uldum"] = "";
   LBIS.L["Hazza'rah"] = "Hazza'rah";
   LBIS.L["Head"] = "Cabeza";
+  LBIS.L["Head~Shoulder"] = "Cabeza~Hombro";
   LBIS.L["Headless Horseman"] = "Cofre de los Cuatro Jinetes";
   LBIS.L["Helix Gearbreaker"] = "Helix Rompengranajes";
   LBIS.L["Hellscream's Reach"] = "Mando Grito Infernal";
@@ -191,6 +194,7 @@ if GetLocale() == "esES" then
   LBIS.L["High Priestess Azil"] = "Suma sacerdotisa Azil";
   LBIS.L["High Priestess Kilnara"] = "Suma sacerdotisa Kilnara";
   LBIS.L["High Prophet Barim"] = "Sumo profeta Barim";
+--  LBIS.L["Highguard Elite"] = "";
   LBIS.L["Holy"] = "Sagrado";
   LBIS.L["Honor Points"] = "Puntos de honor";
   LBIS.L["Honored"] = "Honorable";
@@ -257,7 +261,6 @@ if GetLocale() == "esES" then
   LBIS.L["Magmaw"] = "Faucemagma";
   LBIS.L["Main Hand"] = "Mano Derecha";
   LBIS.L["Main Hand~Off Hand"] = "Mano derecha~Mano izquierda";
-  LBIS.L["Main Hand~Off Hand~Two Hand"] = "Mano derecha~Mano izquierda~Dos Manos";
   LBIS.L["Main Hand~Two Hand"] = "Mano derecha~Dos Manos";
   LBIS.L["Majordomo Staghelm"] = "Mayordomo Corzocelada";
   LBIS.L["Maloriak"] = "Maloriak";
@@ -392,6 +395,7 @@ if GetLocale() == "esES" then
 --  LBIS.L["Tier Token"] = "";
 --  LBIS.L["To Wyrmrest!"] = "";
   LBIS.L["Token"] = "Ficha";
+  LBIS.L["Tol Barad"] = "Tol Barad";
 --  LBIS.L["Traitor's Bait"] = "";
   LBIS.L["Transmute"] = "Transmutar";
   LBIS.L["Trash Mobs"] = "Bichos";
@@ -408,7 +412,6 @@ if GetLocale() == "esES" then
 --  LBIS.L["Various Bosses"] = "";
 --  LBIS.L["Varlan Highbough"] = "";
   LBIS.L["Vendor"] = "Vendedor";
---  LBIS.L["Victory in the Depth"] = "";
 --  LBIS.L["Victory in the Depths"] = "";
   LBIS.L["Vortex Pinnacle"] = "Cumbre del Vórtice";
   LBIS.L["Vortex Pinnacle (Heroic)"] = "Cumbre del Vórtice (Heroico)";

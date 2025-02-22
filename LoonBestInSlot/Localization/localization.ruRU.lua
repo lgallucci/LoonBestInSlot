@@ -22,6 +22,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Arcanotron"] = "Чаротрон";
   LBIS.L["Archaeology (525)"] = "Археология (525)";
   LBIS.L["Archbishop Benedictus"] = "Архиепископ Бенедикт";
+--  LBIS.L["Archival Purposes"] = "";
   LBIS.L["Arcurion"] = "Аркурион";
   LBIS.L["Argaloth"] = "Аргалот";
   LBIS.L["Arms"] = "Оружие";
@@ -179,9 +180,11 @@ if GetLocale() == "ruRU" then
   LBIS.L["Halls of Origination (Heroic)"] = "Чертоги Созидания (Героический)";
   LBIS.L["Halls of Origination (Normal)"] = "Чертоги Созидания (Норм.)";
   LBIS.L["Hands"] = "Кисти рук";
+  LBIS.L["Hands~Ring"] = "Кисти рук~Палец";
 --  LBIS.L["Harrison Jones and the Temple of Uldum"] = "";
   LBIS.L["Hazza'rah"] = "Хазза'рах";
   LBIS.L["Head"] = "Голова";
+  LBIS.L["Head~Shoulder"] = "Голова~Плечо";
   LBIS.L["Headless Horseman"] = "Всадник Без Головы";
   LBIS.L["Helix Gearbreaker"] = "Хеликс Отломчикс";
   LBIS.L["Hellscream's Reach"] = "Батальон Адского Крика";
@@ -191,6 +194,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["High Priestess Azil"] = "Верховная жрица Азил";
   LBIS.L["High Priestess Kilnara"] = "Верховная жрица Килнара";
   LBIS.L["High Prophet Barim"] = "Верховный пророк Барим";
+--  LBIS.L["Highguard Elite"] = "";
   LBIS.L["Holy"] = "Свет";
   LBIS.L["Honor Points"] = "Очки чести";
   LBIS.L["Honored"] = "Уважение";
@@ -257,7 +261,6 @@ if GetLocale() == "ruRU" then
   LBIS.L["Magmaw"] = "Магмарь";
   LBIS.L["Main Hand"] = "Правая рука";
   LBIS.L["Main Hand~Off Hand"] = "Правая рука~Левая рука";
-  LBIS.L["Main Hand~Off Hand~Two Hand"] = "Правая рука~Левая рука~Двуручное";
   LBIS.L["Main Hand~Two Hand"] = "Правая рука~Двуручное";
   LBIS.L["Majordomo Staghelm"] = "Мажордом Фэндрал Олений Шлем";
   LBIS.L["Maloriak"] = "Малориак";
@@ -392,6 +395,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Tier Token"] = "";
 --  LBIS.L["To Wyrmrest!"] = "";
   LBIS.L["Token"] = "Фрагмент";
+  LBIS.L["Tol Barad"] = "Тол Барад";
 --  LBIS.L["Traitor's Bait"] = "";
 --  LBIS.L["Transmute"] = "";
   LBIS.L["Trash Mobs"] = "Треш";
@@ -408,7 +412,6 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Various Bosses"] = "";
 --  LBIS.L["Varlan Highbough"] = "";
   LBIS.L["Vendor"] = "Торговец";
---  LBIS.L["Victory in the Depth"] = "";
 --  LBIS.L["Victory in the Depths"] = "";
   LBIS.L["Vortex Pinnacle"] = "Вершина Смерча";
   LBIS.L["Vortex Pinnacle (Heroic)"] = "Вершина Смерча (Героический)";

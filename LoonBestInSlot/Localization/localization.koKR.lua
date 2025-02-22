@@ -22,6 +22,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Arcanotron"] = "비전골렘";
   LBIS.L["Archaeology (525)"] = "고고학 (525)";
   LBIS.L["Archbishop Benedictus"] = "대주교 베네딕투스";
+--  LBIS.L["Archival Purposes"] = "";
   LBIS.L["Arcurion"] = "아큐리온";
   LBIS.L["Argaloth"] = "아르갈로스";
   LBIS.L["Arms"] = "무기";
@@ -179,9 +180,11 @@ if GetLocale() == "koKR" then
   LBIS.L["Halls of Origination (Heroic)"] = "시초의 전당 (영웅)";
   LBIS.L["Halls of Origination (Normal)"] = "시초의 전당 (일반)";
   LBIS.L["Hands"] = "장갑";
+  LBIS.L["Hands~Ring"] = "손~손가락";
 --  LBIS.L["Harrison Jones and the Temple of Uldum"] = "";
   LBIS.L["Hazza'rah"] = "하자라";
   LBIS.L["Head"] = "머리";
+  LBIS.L["Head~Shoulder"] = "머리~어깨";
   LBIS.L["Headless Horseman"] = "저주받은 기사";
   LBIS.L["Helix Gearbreaker"] = "헬릭스 기어브레이커";
   LBIS.L["Hellscream's Reach"] = "헬스크림 세력단";
@@ -191,6 +194,7 @@ if GetLocale() == "koKR" then
   LBIS.L["High Priestess Azil"] = "대여사제 아질";
   LBIS.L["High Priestess Kilnara"] = "대여사제 킬나라";
   LBIS.L["High Prophet Barim"] = "고위 사제 바림";
+--  LBIS.L["Highguard Elite"] = "";
   LBIS.L["Holy"] = "신성";
   LBIS.L["Honor Points"] = "명예 점수";
   LBIS.L["Honored"] = "우호적";
@@ -257,7 +261,6 @@ if GetLocale() == "koKR" then
   LBIS.L["Magmaw"] = "용암아귀";
   LBIS.L["Main Hand"] = "주장비";
   LBIS.L["Main Hand~Off Hand"] = "주장비~보조장비";
-  LBIS.L["Main Hand~Off Hand~Two Hand"] = "주장비~보조장비~양손";
   LBIS.L["Main Hand~Two Hand"] = "주장비~양손";
   LBIS.L["Majordomo Staghelm"] = "청지기 스태그헬름";
   LBIS.L["Maloriak"] = "말로리악";
@@ -392,6 +395,7 @@ if GetLocale() == "koKR" then
 --  LBIS.L["Tier Token"] = "";
 --  LBIS.L["To Wyrmrest!"] = "";
   LBIS.L["Token"] = "토큰";
+  LBIS.L["Tol Barad"] = "톨 바라드";
 --  LBIS.L["Traitor's Bait"] = "";
   LBIS.L["Transmute"] = "변환식";
   LBIS.L["Trash Mobs"] = "일반몹";
@@ -408,7 +412,6 @@ if GetLocale() == "koKR" then
   LBIS.L["Various Bosses"] = "기타 보스들";
 --  LBIS.L["Varlan Highbough"] = "";
   LBIS.L["Vendor"] = "상인";
---  LBIS.L["Victory in the Depth"] = "";
 --  LBIS.L["Victory in the Depths"] = "";
   LBIS.L["Vortex Pinnacle"] = "소용돌이 고원";
   LBIS.L["Vortex Pinnacle (Heroic)"] = "소용돌이 고원 (영웅)";

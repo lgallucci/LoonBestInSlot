@@ -49,7 +49,7 @@ LBIS:AddItem(spec0, "77324", LBIS.L["Wrist"], "Alt") --Chronoboost Bracers
 LBIS:AddItem(spec0, "71266", LBIS.L["Wrist"], "Alt") --Firesoul Wristguards
 LBIS:AddItem(spec0, "78425", LBIS.L["Wrist"], "Alt") --Bracers of the Banished
 LBIS:AddItem(spec0, "77157", LBIS.L["Hands"], "BIS") --The Hands of Gilly
-LBIS:AddItem(spec0, "72852", LBIS.L["Hands~Ring"], "BIS") --Archivist's Gloves
+LBIS:AddItem(spec0, "72852", LBIS.L["Hands"], "BIS") --Archivist's Gloves
 LBIS:AddItem(spec0, "78866", LBIS.L["Hands"], "Alt") --Gauntlets of the Corrupted Conqueror
 LBIS:AddItem(spec0, "78466", LBIS.L["Hands"], "Alt") --Gloves of Liquid Smoke
 LBIS:AddItem(spec0, "69944", LBIS.L["Hands"], "Alt") --Grips of Altered Reality

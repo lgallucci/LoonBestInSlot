@@ -22,6 +22,7 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Arcanotron"] = "";
   LBIS.L["Archaeology (525)"] = "Arqueología (525)";
 --  LBIS.L["Archbishop Benedictus"] = "";
+--  LBIS.L["Archival Purposes"] = "";
 --  LBIS.L["Arcurion"] = "";
 --  LBIS.L["Argaloth"] = "";
   LBIS.L["Arms"] = "Armas";
@@ -179,9 +180,11 @@ if GetLocale() == "esMX" then
   LBIS.L["Halls of Origination (Heroic)"] = "Cámaras de los Orígenes (Heroico)";
   LBIS.L["Halls of Origination (Normal)"] = "Cámaras de los Orígenes (Normal)";
   LBIS.L["Hands"] = "Manos";
+  LBIS.L["Hands~Ring"] = "Manos~Anillo";
 --  LBIS.L["Harrison Jones and the Temple of Uldum"] = "";
   LBIS.L["Hazza'rah"] = "Hazza'rah";
   LBIS.L["Head"] = "Cabeza";
+  LBIS.L["Head~Shoulder"] = "Cabeza~Hombro";
   LBIS.L["Headless Horseman"] = "Jinete sin Cabeza";
 --  LBIS.L["Helix Gearbreaker"] = "";
   LBIS.L["Hellscream's Reach"] = "Mando de Grito Infernal";
@@ -191,6 +194,7 @@ if GetLocale() == "esMX" then
 --  LBIS.L["High Priestess Azil"] = "";
 --  LBIS.L["High Priestess Kilnara"] = "";
 --  LBIS.L["High Prophet Barim"] = "";
+--  LBIS.L["Highguard Elite"] = "";
   LBIS.L["Holy"] = "Sagrado";
   LBIS.L["Honor Points"] = "Puntos de honor";
   LBIS.L["Honored"] = "Honorable";
@@ -257,7 +261,6 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Magmaw"] = "";
   LBIS.L["Main Hand"] = "Mano Derecha";
   LBIS.L["Main Hand~Off Hand"] = "Mano derecha~Mano izquierda";
-  LBIS.L["Main Hand~Off Hand~Two Hand"] = "Mano derecha~Mano izquierda~Dos Manos";
   LBIS.L["Main Hand~Two Hand"] = "Mano derecha~Dos Manos";
 --  LBIS.L["Majordomo Staghelm"] = "";
 --  LBIS.L["Maloriak"] = "";
@@ -392,6 +395,7 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Tier Token"] = "";
 --  LBIS.L["To Wyrmrest!"] = "";
 --  LBIS.L["Token"] = "";
+  LBIS.L["Tol Barad"] = "Tol Barad";
 --  LBIS.L["Traitor's Bait"] = "";
 --  LBIS.L["Transmute"] = "";
   LBIS.L["Trash Mobs"] = "Bichos";
@@ -408,7 +412,6 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Various Bosses"] = "";
 --  LBIS.L["Varlan Highbough"] = "";
   LBIS.L["Vendor"] = "Vendedor";
---  LBIS.L["Victory in the Depth"] = "";
 --  LBIS.L["Victory in the Depths"] = "";
   LBIS.L["Vortex Pinnacle"] = "Cumbre del Vórtice";
   LBIS.L["Vortex Pinnacle (Heroic)"] = "Cumbre del Vórtice (Heroico)";
