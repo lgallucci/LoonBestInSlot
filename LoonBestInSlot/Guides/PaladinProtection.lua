@@ -5,15 +5,22 @@ local spec3 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Protection"], "3")
 local spec4 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Protection"], "4")
 
 LBIS:AddGem(spec0, "52293", "3", "True") --Eternal Shadowspirit Diamond
+LBIS:AddGem(spec0, "52293", "3", "True") --Eternal Shadowspirit Diamond
 LBIS:AddGem(spec0, "71820", "4", "False") --Solid Deepholm Iolite
 LBIS:AddGem(spec0, "71877", "4", "False") --Fractured Lightstone
 LBIS:AddGem(spec0, "71838", "4", "False") --Puissant Elven Peridot
+LBIS:AddGem(spec0, "59480", "3", "False") --Fractured Cogwheel
+LBIS:AddGem(spec0, "59489", "3", "False") --Precise Cogwheel
+LBIS:AddGem(spec0, "52231", "3", "False") --Puissant Dream Emerald
+LBIS:AddGem(spec0, "52221", "3", "False") --Guardian's Demonseye
+LBIS:AddGem(spec0, "52219", "3", "False") --Fractured Amberjewel
 
 LBIS:AddEnchant(spec4, "86931", LBIS.L["Head"]) --
 LBIS:AddEnchant(spec4, "86854", LBIS.L["Shoulder"]) --
 LBIS:AddEnchant(spec4, "74234", LBIS.L["Back"]) --
 LBIS:AddEnchant(spec4, "74251", LBIS.L["Chest"]) --
 LBIS:AddEnchant(spec4, "85007", LBIS.L["Wrist"]) --
+LBIS:AddEnchant(spec4, "74229", LBIS.L["Wrist"]) --
 LBIS:AddEnchant(spec4, "74132", LBIS.L["Hands"]) --
 LBIS:AddEnchant(spec4, "55016", LBIS.L["Waist"]) --
 LBIS:AddEnchant(spec4, "101598", LBIS.L["Legs"]) --

@@ -5,8 +5,12 @@ local spec3 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance"], "3")
 local spec4 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance"], "4")
 
 LBIS:AddGem(spec0, "68780", "3", "True") --Burning Shadowspirit Diamond
+LBIS:AddGem(spec0, "68780", "3", "True") --Burning Shadowspirit Diamond
 LBIS:AddGem(spec0, "71881", "4", "False") --Brilliant Queen's Garnet
 LBIS:AddGem(spec0, "71850", "4", "False") --Reckless Lava Coral
+LBIS:AddGem(spec0, "71881", "4", "False") --Brilliant Queen's Garnet
+LBIS:AddGem(spec0, "71850", "4", "False") --Reckless Lava Coral
+LBIS:AddGem(spec0, "71868", "4", "False") --Purified Shadow Spinel
 
 LBIS:AddEnchant(spec4, "86932", LBIS.L["Head"]) --
 LBIS:AddEnchant(spec4, "86899", LBIS.L["Shoulder"]) --
@@ -17,6 +21,7 @@ LBIS:AddEnchant(spec4, "74198", LBIS.L["Hands"]) --
 LBIS:AddEnchant(spec4, "75150", LBIS.L["Legs"]) --
 LBIS:AddEnchant(spec4, "74253", LBIS.L["Feet"]) --
 LBIS:AddEnchant(spec4, "74242", LBIS.L["Main Hand"]) --
+LBIS:AddEnchant(spec4, "74235", LBIS.L["Off Hand"]) --
 
 LBIS:AddItem(spec0, "78791", LBIS.L["Head"], "BIS") --Deep Earth Cover
 LBIS:AddItem(spec0, "78839", LBIS.L["Shoulder"], "BIS") --Deep Earth Shoulderwraps

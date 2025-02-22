@@ -5,15 +5,21 @@ local spec3 = LBIS:RegisterSpec(LBIS.L["Death Knight"], LBIS.L["Unholy"], "3")
 local spec4 = LBIS:RegisterSpec(LBIS.L["Death Knight"], LBIS.L["Unholy"], "4")
 
 LBIS:AddGem(spec0, "68779", "3", "True") --Reverberating Shadowspirit Diamond
+LBIS:AddGem(spec0, "68779", "3", "True") --Reverberating Shadowspirit Diamond
 LBIS:AddGem(spec0, "71883", "4", "False") --Bold Queen's Garnet
+LBIS:AddGem(spec0, "71866", "4", "False") --Etched Shadow Spinel
+LBIS:AddGem(spec0, "71883", "4", "False") --Bold Queen's Garnet
+LBIS:AddGem(spec0, "71851", "4", "False") --Fierce Lava Coral
 LBIS:AddGem(spec0, "71866", "4", "False") --Etched Shadow Spinel
 
 LBIS:AddEnchant(spec4, "86933", LBIS.L["Head"]) --
 LBIS:AddEnchant(spec4, "86901", LBIS.L["Shoulder"]) --
+LBIS:AddEnchant(spec4, "86899", LBIS.L["Shoulder"]) --
 LBIS:AddEnchant(spec4, "74247", LBIS.L["Back"]) --
 LBIS:AddEnchant(spec4, "74250", LBIS.L["Chest"]) --
 LBIS:AddEnchant(spec4, "96261", LBIS.L["Wrist"]) --
 LBIS:AddEnchant(spec4, "74254", LBIS.L["Hands"]) --
+LBIS:AddEnchant(spec4, "55016", LBIS.L["Waist"]) --
 LBIS:AddEnchant(spec4, "78171", LBIS.L["Legs"]) --
 LBIS:AddEnchant(spec4, "74199", LBIS.L["Feet"]) --
 LBIS:AddEnchant(spec4, "53344", LBIS.L["Main Hand"]) --

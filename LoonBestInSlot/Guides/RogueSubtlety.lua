@@ -5,8 +5,13 @@ local spec3 = LBIS:RegisterSpec(LBIS.L["Rogue"], LBIS.L["Subtlety"], "3")
 local spec4 = LBIS:RegisterSpec(LBIS.L["Rogue"], LBIS.L["Subtlety"], "4")
 
 LBIS:AddGem(spec0, "68778", "3", "True") --Agile Shadowspirit Diamond
+LBIS:AddGem(spec0, "68778", "3", "True") --Agile Shadowspirit Diamond
 LBIS:AddGem(spec0, "71879", "4", "False") --Delicate Queen's Garnet
 LBIS:AddGem(spec0, "71848", "4", "False") --Deft Lava Coral
+LBIS:AddGem(spec0, "59478", "3", "False") --Smooth Cogwheel
+LBIS:AddGem(spec0, "59479", "3", "False") --Quick Cogwheel
+LBIS:AddGem(spec0, "52220", "3", "False") --Glinting Demonseye
+LBIS:AddGem(spec0, "52212", "3", "False") --Delicate Inferno Ruby
 
 LBIS:AddEnchant(spec4, "86934", LBIS.L["Head"]) --
 LBIS:AddEnchant(spec4, "86907", LBIS.L["Shoulder"]) --
@@ -14,6 +19,7 @@ LBIS:AddEnchant(spec4, "60663", LBIS.L["Back"]) --
 LBIS:AddEnchant(spec4, "74250", LBIS.L["Chest"]) --
 LBIS:AddEnchant(spec4, "96264", LBIS.L["Wrist"]) --
 LBIS:AddEnchant(spec4, "74220", LBIS.L["Hands"]) --
+LBIS:AddEnchant(spec4, "44529", LBIS.L["Hands"]) --
 LBIS:AddEnchant(spec4, "55016", LBIS.L["Waist"]) --
 LBIS:AddEnchant(spec4, "78171", LBIS.L["Legs"]) --
 LBIS:AddEnchant(spec4, "74252", LBIS.L["Feet"]) --

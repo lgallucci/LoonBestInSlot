@@ -6,10 +6,13 @@ local spec4 = LBIS:RegisterSpec(LBIS.L["Death Knight"], LBIS.L["Blood"], "4")
 
 LBIS:AddGem(spec0, "52294", "3", "True") --Austere Shadowspirit Diamond
 LBIS:AddGem(spec1, "68779", "3", "True") --Reverberating Shadowspirit Diamond
+LBIS:AddGem(spec0, "52294", "3", "True") --Austere Shadowspirit Diamond
 LBIS:AddGem(spec0, "71873", "4", "False") --Sovereign Shadow Spinel
 LBIS:AddGem(spec0, "71838", "4", "False") --Puissant Elven Peridot
 LBIS:AddGem(spec0, "71820", "4", "False") --Solid Deepholm Iolite
 LBIS:AddGem(spec0, "71834", "4", "False") --Jagged Elven Peridot
+LBIS:AddGem(spec0, "71820", "4", "False") --Solid Deepholm Iolite
+LBIS:AddGem(spec0, "71838", "4", "False") --Puissant Elven Peridot
 LBIS:AddGem(spec1, "52243", "3", "False") --Sovereign Demonseye
 LBIS:AddGem(spec0, "52231", "3", "False") --Puissant Dream Emerald
 LBIS:AddGem(spec0, "52242", "3", "False") --Solid Ocean Sapphire
@@ -26,6 +29,7 @@ LBIS:AddEnchant(spec4, "78166", LBIS.L["Hands"]) --
 LBIS:AddEnchant(spec4, "74254", LBIS.L["Hands"]) --
 LBIS:AddEnchant(spec4, "55016", LBIS.L["Waist"]) --
 LBIS:AddEnchant(spec4, "101600", LBIS.L["Legs"]) --
+LBIS:AddEnchant(spec4, "101598", LBIS.L["Legs"]) --
 LBIS:AddEnchant(spec4, "74189", LBIS.L["Feet"]) --
 LBIS:AddEnchant(spec4, "53344", LBIS.L["Main Hand"]) --
 

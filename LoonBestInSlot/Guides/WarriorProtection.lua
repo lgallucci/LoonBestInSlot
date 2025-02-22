@@ -5,10 +5,14 @@ local spec3 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Protection"], "3")
 local spec4 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Protection"], "4")
 
 LBIS:AddGem(spec0, "52293", "3", "True") --Eternal Shadowspirit Diamond
+LBIS:AddGem(spec0, "52293", "3", "True") --Eternal Shadowspirit Diamond
 LBIS:AddGem(spec0, "71877", "4", "False") --Fractured Lightstone
 LBIS:AddGem(spec1, "71838", "4", "False") --Puissant Elven Peridot
 LBIS:AddGem(spec1, "71872", "4", "False") --Defender's Shadow Spinel
 LBIS:AddGem(spec1, "71820", "4", "False") --Solid Deepholm Iolite
+LBIS:AddGem(spec1, "71838", "4", "False") --Puissant Elven Peridot
+LBIS:AddGem(spec1, "71820", "4", "False") --Solid Deepholm Iolite
+LBIS:AddGem(spec1, "71872", "4", "False") --Defender's Shadow Spinel
 
 LBIS:AddEnchant(spec4, "86931", LBIS.L["Head"]) --
 LBIS:AddEnchant(spec4, "86854", LBIS.L["Shoulder"]) --

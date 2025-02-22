@@ -5,11 +5,15 @@ local spec3 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Fury"], "3")
 local spec4 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Fury"], "4")
 
 LBIS:AddGem(spec0, "68779", "3", "True") --Reverberating Shadowspirit Diamond
+LBIS:AddGem(spec0, "68779", "3", "True") --Reverberating Shadowspirit Diamond
 LBIS:AddGem(spec0, "71883", "4", "False") --Bold Queen's Garnet
 LBIS:AddGem(spec0, "71843", "4", "False") --Inscribed Lava Coral
 LBIS:AddGem(spec0, "71877", "4", "False") --Fractured Lightstone
 LBIS:AddGem(spec0, "52206", "3", "False") --Bold Inferno Ruby
 LBIS:AddGem(spec0, "52289", "3", "False") --Fleet Shadowspirit Diamond
+LBIS:AddGem(spec0, "52206", "3", "False") --Bold Inferno Ruby
+LBIS:AddGem(spec0, "52213", "3", "False") --Etched Demonseye
+LBIS:AddGem(spec0, "52222", "3", "False") --Inscribed Ember Topaz
 
 LBIS:AddEnchant(spec4, "86933", LBIS.L["Head"]) --
 LBIS:AddEnchant(spec4, "86907", LBIS.L["Shoulder"]) --
@@ -22,10 +26,11 @@ LBIS:AddEnchant(spec4, "74254", LBIS.L["Hands"]) --
 LBIS:AddEnchant(spec4, "78171", LBIS.L["Legs"]) --
 LBIS:AddEnchant(spec4, "74253", LBIS.L["Feet"]) --
 LBIS:AddEnchant(spec4, "74238", LBIS.L["Feet"]) --
+LBIS:AddEnchant(spec4, "74236", LBIS.L["Feet"]) --
 LBIS:AddEnchant(spec4, "74246", LBIS.L["Main Hand~Off Hand"]) --
 
 LBIS:AddItem(spec0, "78783", LBIS.L["Head"], "BIS") --Colossal Dragonplate Helmet
-LBIS:AddItem(spec0, "60325", LBIS.L["Head"], "BIS") --Earthen Helmet
+LBIS:AddItem(spec0, "60325", LBIS.L["Head~Shoulder"], "BIS") --Earthen Helmet
 LBIS:AddItem(spec0, "59359", LBIS.L["Head"], "Alt") --Reinforced Bio-Optic Killshades
 LBIS:AddItem(spec0, "56278", LBIS.L["Head"], "Alt") --Anomuran Helm
 LBIS:AddItem(spec0, "63478", LBIS.L["Head"], "Alt") --Stonemason's Helm

@@ -263,11 +263,15 @@ public static class WowheadImporter
                     else
                         gemSources.Add(guide.Item1.First(g => g.GemId == gem.Key));
                 }
-                guide.Item1.Clear();
                 guide.Item1.AddRange(gemSources);
 
-                guide.Item2.Clear();
-                guide.Item2.AddRange(itemsAndEnchants.Item2.Values);
+                foreach(var enchant in itemsAndEnchants.Item2) 
+                {
+                    if (!guide.Item2.Any(e => e.EnchantId == enchant.Key))
+                    {
+                        guide.Item2.Add(enchant.Value);
+                    }
+                }
 
                 if (!guide.Item3.ContainsKey(phaseNumber))
                     guide.Item3.Add(phaseNumber, new List<ItemSpec>());

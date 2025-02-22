@@ -5,7 +5,11 @@ local spec3 = LBIS:RegisterSpec(LBIS.L["Death Knight"], LBIS.L["Frost"], "3")
 local spec4 = LBIS:RegisterSpec(LBIS.L["Death Knight"], LBIS.L["Frost"], "4")
 
 LBIS:AddGem(spec0, "68779", "3", "True") --Reverberating Shadowspirit Diamond
+LBIS:AddGem(spec0, "68779", "3", "True") --Reverberating Shadowspirit Diamond
 LBIS:AddGem(spec0, "71883", "4", "False") --Bold Queen's Garnet
+LBIS:AddGem(spec0, "71866", "4", "False") --Etched Shadow Spinel
+LBIS:AddGem(spec0, "71883", "4", "False") --Bold Queen's Garnet
+LBIS:AddGem(spec0, "71851", "4", "False") --Fierce Lava Coral
 LBIS:AddGem(spec0, "71866", "4", "False") --Etched Shadow Spinel
 
 LBIS:AddEnchant(spec4, "86933", LBIS.L["Head"]) --

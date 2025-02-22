@@ -5,8 +5,13 @@ local spec3 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Holy"], "3")
 local spec4 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Holy"], "4")
 
 LBIS:AddGem(spec0, "52296", "3", "True") --Ember Shadowspirit Diamond
+LBIS:AddGem(spec0, "52296", "3", "True") --Ember Shadowspirit Diamond
 LBIS:AddGem(spec0, "71881", "4", "False") --Brilliant Queen's Garnet
 LBIS:AddGem(spec0, "71850", "4", "False") --Reckless Lava Coral
+LBIS:AddGem(spec0, "71881", "4", "False") --Brilliant Queen's Garnet
+LBIS:AddGem(spec0, "52207", "3", "False") --Brilliant Inferno Ruby
+LBIS:AddGem(spec0, "52208", "3", "False") --Reckless Ember Topaz
+LBIS:AddGem(spec0, "52236", "3", "False") --Purified Demonseye
 LBIS:AddGem(spec0, "52207", "3", "False") --Brilliant Inferno Ruby
 LBIS:AddGem(spec0, "52208", "3", "False") --Reckless Ember Topaz
 LBIS:AddGem(spec0, "52236", "3", "False") --Purified Demonseye

@@ -5,8 +5,13 @@ local spec3 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Frost"], "3")
 local spec4 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Frost"], "4")
 
 LBIS:AddGem(spec0, "68780", "3", "True") --Burning Shadowspirit Diamond
+LBIS:AddGem(spec0, "68780", "3", "True") --Burning Shadowspirit Diamond
 LBIS:AddGem(spec0, "71881", "4", "False") --Brilliant Queen's Garnet
 LBIS:AddGem(spec0, "71842", "4", "False") --Potent Lava Coral
+LBIS:AddGem(spec0, "71864", "4", "False") --Veiled Shadow Spinel
+LBIS:AddGem(spec0, "71881", "4", "False") --Brilliant Queen's Garnet
+LBIS:AddGem(spec0, "71842", "4", "False") --Potent Lava Coral
+LBIS:AddGem(spec0, "52239", "3", "False") --Potent Ember Topaz
 
 LBIS:AddEnchant(spec4, "86932", LBIS.L["Head"]) --
 LBIS:AddEnchant(spec4, "86899", LBIS.L["Shoulder"]) --

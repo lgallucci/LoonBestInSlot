@@ -5,16 +5,26 @@ local spec3 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Restoration"], "3")
 local spec4 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Restoration"], "4")
 
 LBIS:AddGem(spec0, "52296", "3", "True") --Ember Shadowspirit Diamond
+LBIS:AddGem(spec0, "52296", "3", "True") --Ember Shadowspirit Diamond
 LBIS:AddGem(spec0, "52257", "4", "False") --Brilliant Chimera's Eye
 LBIS:AddGem(spec0, "71881", "4", "False") --Brilliant Queen's Garnet
 LBIS:AddGem(spec0, "71850", "4", "False") --Reckless Lava Coral
+LBIS:AddGem(spec0, "59479", "3", "False") --Quick Cogwheel
+LBIS:AddGem(spec0, "59496", "3", "False") --Sparkling Cogwheel
+LBIS:AddGem(spec0, "52207", "3", "False") --Brilliant Inferno Ruby
+LBIS:AddGem(spec0, "52208", "3", "False") --Reckless Ember Topaz
 
+LBIS:AddEnchant(spec4, "86932", LBIS.L["Head"]) --
+LBIS:AddEnchant(spec4, "86899", LBIS.L["Shoulder"]) --
+LBIS:AddEnchant(spec4, "75172", LBIS.L["Back"]) --
 LBIS:AddEnchant(spec4, "74240", LBIS.L["Back"]) --
 LBIS:AddEnchant(spec4, "74250", LBIS.L["Chest"]) --
 LBIS:AddEnchant(spec4, "96262", LBIS.L["Wrist"]) --
 LBIS:AddEnchant(spec4, "74255", LBIS.L["Hands"]) --
+LBIS:AddEnchant(spec4, "55016", LBIS.L["Waist"]) --
 LBIS:AddEnchant(spec4, "75150", LBIS.L["Legs"]) --
 LBIS:AddEnchant(spec4, "74253", LBIS.L["Feet"]) --
+LBIS:AddEnchant(spec4, "44636", LBIS.L["Ring"]) --
 LBIS:AddEnchant(spec4, "74242", LBIS.L["Main Hand"]) --
 LBIS:AddEnchant(spec4, "74235", LBIS.L["Off Hand"]) --
 

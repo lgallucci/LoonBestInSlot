@@ -6,6 +6,7 @@ local spec4 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Bear"], "4")
 
 LBIS:AddGem(spec0, "52294", "3", "True") --Austere Shadowspirit Diamond
 LBIS:AddGem(spec1, "68778", "3", "True") --Agile Shadowspirit Diamond
+LBIS:AddGem(spec0, "52294", "3", "True") --Austere Shadowspirit Diamond
 LBIS:AddGem(spec0, "71844", "4", "False") --Polished Lava Coral
 LBIS:AddGem(spec0, "71869", "4", "False") --Shifting Shadow Spinel
 LBIS:AddGem(spec0, "71835", "4", "False") --Regal Elven Peridot
@@ -13,6 +14,9 @@ LBIS:AddGem(spec0, "71820", "4", "False") --Solid Deepholm Iolite
 LBIS:AddGem(spec0, "71879", "4", "False") --Delicate Queen's Garnet
 LBIS:AddGem(spec0, "71840", "4", "False") --Deadly Lava Coral
 LBIS:AddGem(spec0, "71862", "4", "False") --Glinting Shadow Spinel
+LBIS:AddGem(spec0, "71869", "4", "False") --Shifting Shadow Spinel
+LBIS:AddGem(spec0, "71820", "4", "False") --Solid Deepholm Iolite
+LBIS:AddGem(spec0, "71835", "4", "False") --Regal Elven Peridot
 LBIS:AddGem(spec0, "52238", "3", "False") --Shifting Demonseye
 LBIS:AddGem(spec0, "52242", "3", "False") --Solid Ocean Sapphire
 LBIS:AddGem(spec0, "52233", "3", "False") --Regal Dream Emerald

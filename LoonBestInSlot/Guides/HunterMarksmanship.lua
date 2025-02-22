@@ -5,8 +5,11 @@ local spec3 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Marksmanship"], "3")
 local spec4 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Marksmanship"], "4")
 
 LBIS:AddGem(spec0, "68778", "3", "True") --Agile Shadowspirit Diamond
+LBIS:AddGem(spec0, "68778", "3", "True") --Agile Shadowspirit Diamond
 LBIS:AddGem(spec0, "71879", "4", "False") --Delicate Queen's Garnet
 LBIS:AddGem(spec0, "71840", "4", "False") --Deadly Lava Coral
+LBIS:AddGem(spec0, "71840", "4", "False") --Deadly Lava Coral
+LBIS:AddGem(spec0, "71879", "4", "False") --Delicate Queen's Garnet
 
 LBIS:AddEnchant(spec4, "86934", LBIS.L["Head"]) --
 LBIS:AddEnchant(spec4, "86907", LBIS.L["Shoulder"]) --

@@ -5,10 +5,14 @@ local spec3 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Cat"], "3")
 local spec4 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Cat"], "4")
 
 LBIS:AddGem(spec0, "68778", "3", "True") --Agile Shadowspirit Diamond
+LBIS:AddGem(spec0, "68778", "3", "True") --Agile Shadowspirit Diamond
 LBIS:AddGem(spec0, "71879", "4", "False") --Delicate Queen's Garnet
 LBIS:AddGem(spec0, "71840", "4", "False") --Deadly Lava Coral
 LBIS:AddGem(spec0, "71862", "4", "False") --Glinting Shadow Spinel
 LBIS:AddGem(spec0, "52258", "4", "False") --Delicate Chimera's Eye
+LBIS:AddGem(spec0, "71879", "4", "False") --Delicate Queen's Garnet
+LBIS:AddGem(spec0, "71840", "4", "False") --Deadly Lava Coral
+LBIS:AddGem(spec0, "71862", "4", "False") --Glinting Shadow Spinel
 LBIS:AddGem(spec0, "52212", "3", "False") --Delicate Inferno Ruby
 LBIS:AddGem(spec1, "52204", "3", "False") --Adept Ember Topaz
 LBIS:AddGem(spec0, "52220", "3", "False") --Glinting Demonseye

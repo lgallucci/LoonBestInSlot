@@ -5,6 +5,9 @@ local spec3 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Retribution"], "3")
 local spec4 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Retribution"], "4")
 
 LBIS:AddGem(spec0, "68779", "3", "True") --Reverberating Shadowspirit Diamond
+LBIS:AddGem(spec0, "68779", "3", "True") --Reverberating Shadowspirit Diamond
+LBIS:AddGem(spec0, "71883", "4", "False") --Bold Queen's Garnet
+LBIS:AddGem(spec0, "71856", "4", "False") --Skillful Lava Coral
 LBIS:AddGem(spec0, "71883", "4", "False") --Bold Queen's Garnet
 LBIS:AddGem(spec0, "71856", "4", "False") --Skillful Lava Coral
 
