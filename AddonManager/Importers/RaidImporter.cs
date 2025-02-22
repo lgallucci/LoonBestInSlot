@@ -10,13 +10,13 @@ public class RaidImporter : LootImporter
     private Dictionary<string, string> wowheadUriList = new Dictionary<string, string>
     {
         //Dragon Soul
-        // { @"https://www.wowhead.com/cata/npc=55265/morchok#drops", "Morchok, Dragon Soul" },
-        // { @"https://www.wowhead.com/cata/npc=55308/warlord-zonozz#drops", "Warlord Zon'ozz, Dragon Soul" },
-        // { @"https://www.wowhead.com/cata/npc=55312/yorsahj-the-unsleeping#drops", "Yor'sahj the Unsleeping, Dragon Soul" },
-        // { @"https://www.wowhead.com/cata/npc=55689/hagara-the-stormbinder#drops", "Hagara the Stormbinder, Dragon Soul" },
-        // { @"https://www.wowhead.com/cata/npc=55294/ultraxion#drops", "Ultraxion, Dragon Soul" },
-        // { @"https://www.wowhead.com/cata/npc=56427/warmaster-blackhorn#drops", "Warmaster Blackhorn, Dragon Soul" },
-        // { @"https://www.wowhead.com/cata/npc=53879/deathwing#drops", "Deathwing, Dragon Soul" },
+        { @"https://www.wowhead.com/cata/npc=55265/morchok#drops", "Morchok, Dragon Soul" },
+        { @"https://www.wowhead.com/cata/npc=55308/warlord-zonozz#drops", "Warlord Zon'ozz, Dragon Soul" },
+        { @"https://www.wowhead.com/cata/npc=55312/yorsahj-the-unsleeping#drops", "Yor'sahj the Unsleeping, Dragon Soul" },
+        { @"https://www.wowhead.com/cata/npc=55689/hagara-the-stormbinder#drops", "Hagara the Stormbinder, Dragon Soul" },
+        { @"https://www.wowhead.com/cata/npc=55294/ultraxion#drops", "Ultraxion, Dragon Soul" },
+        { @"https://www.wowhead.com/cata/npc=56427/warmaster-blackhorn#drops", "Warmaster Blackhorn, Dragon Soul" },
+        { @"https://www.wowhead.com/cata/npc=53879/deathwing#drops", "Deathwing, Dragon Soul" },
 
         //Baradin Hold
         { @"https://www.wowhead.com/cata/npc=47120/argaloth#drops", "Argaloth, Baradin Hold" },

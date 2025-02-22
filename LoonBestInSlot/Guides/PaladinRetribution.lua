@@ -449,13 +449,13 @@ LBIS:AddItem(spec4, "78478", LBIS.L["Two Hand"], "BIS") --Gurthalak, Voice of th
 LBIS:AddItem(spec4, "78403", LBIS.L["Two Hand"], "Alt") --Experimental Specimen Slicer
 LBIS:AddItem(spec4, "78445", LBIS.L["Two Hand"], "Alt") --Ataraxis, Cudgel of the Warmaster
 LBIS:AddItem(spec4, "77191", LBIS.L["Two Hand"], "Alt") --Gurthalak, Voice of the Deeps
-LBIS:AddItem(spec4, "73442", LBIS.L["Two Hand"], "Alt") --Cataclysmic Gladiator's Greatsword
 LBIS:AddItem(spec4, "70723", LBIS.L["Two Hand"], "Alt") --Sulfuras, the Extinguished Hand
+LBIS:AddItem(spec4, "73442", LBIS.L["Two Hand"], "Alt") --Cataclysmic Gladiator's Greatsword
 LBIS:AddItem(spec4, "77217", LBIS.L["Two Hand"], "Alt") --Experimental Specimen Slicer
 LBIS:AddItem(spec4, "77224", LBIS.L["Two Hand"], "Alt") --Ataraxis, Cudgel of the Warmaster
 LBIS:AddItem(spec4, "78487", LBIS.L["Two Hand"], "Alt") --Gurthalak, Voice of the Deeps
-LBIS:AddItem(spec4, "73475", LBIS.L["Two Hand"], "Alt") --Cataclysmic Gladiator's Greatsword
 LBIS:AddItem(spec4, "71352", LBIS.L["Two Hand"], "Alt") --Sulfuras, the Extinguished Hand
+LBIS:AddItem(spec4, "73475", LBIS.L["Two Hand"], "Alt") --Cataclysmic Gladiator's Greatsword
 LBIS:AddItem(spec4, "71781", LBIS.L["Two Hand"], "Alt") --Zoid's Firelit Greatsword
 LBIS:AddItem(spec4, "71445", LBIS.L["Two Hand"], "Alt") --Skullstealer Greataxe
 LBIS:AddItem(spec4, "77081", LBIS.L["Ranged/Relic"], "BIS") --Gutripper Shard

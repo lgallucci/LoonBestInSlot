@@ -3219,7 +3219,7 @@ LBIS.ItemSources =
     [77938] = { Name = "Dragonfire Orb", SourceType = LBIS.L["Drop"], Source = LBIS.L["Trash Mobs"], SourceNumber = "0", SourceLocation = LBIS.L["Dragon Soul"], SourceFaction = "B" },
     [77945] = { Name = "Fear", SourceType = LBIS.L["Quest"], Source = LBIS.L["The Deed is Done"], SourceNumber = "0", SourceLocation = LBIS.L["Rogue"], SourceFaction = "B" },
     [77946] = { Name = "Vengeance", SourceType = LBIS.L["Quest"], Source = LBIS.L["The Deed is Done"], SourceNumber = "0", SourceLocation = LBIS.L["Rogue"], SourceFaction = "B" },
-    [77947] = { Name = "The Sleeper", SourceType = LBIS.L["Quest"], Source = LBIS.L["Victory in the Depth"], SourceNumber = "0", SourceLocation = LBIS.L["Rogue"], SourceFaction = "B" },
+    [77947] = { Name = "The Sleeper", SourceType = LBIS.L["Quest"], Source = LBIS.L["Victory in the Depths"], SourceNumber = "0", SourceLocation = LBIS.L["Rogue"], SourceFaction = "B" },
     [77948] = { Name = "The Dreamer", SourceType = LBIS.L["Quest"], Source = LBIS.L["Victory in the Depths"], SourceNumber = "0", SourceLocation = LBIS.L["Rogue"], SourceFaction = "B" },
     [77949] = { Name = "Golad, Twilight of Aspects", SourceType = LBIS.L["Quest"], Source = LBIS.L["Patricide"], SourceNumber = "0", SourceLocation = LBIS.L["Rogue"], SourceFaction = "B" },
     [77950] = { Name = "Tiriosh, Nightmare of Ages", SourceType = LBIS.L["Quest"], Source = LBIS.L["Patricide"], SourceNumber = "0", SourceLocation = LBIS.L["Rogue"], SourceFaction = "B" },

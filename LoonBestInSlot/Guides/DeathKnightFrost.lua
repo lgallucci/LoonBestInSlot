@@ -319,9 +319,9 @@ LBIS:AddItem(spec4, "69113", LBIS.L["Trinket"], "BIS") --Apparatus of Khaz'gorot
 LBIS:AddItem(spec4, "65072", LBIS.L["Trinket"], "BIS") --Heart of Rage
 LBIS:AddItem(spec4, "77205", LBIS.L["Trinket"], "Alt") --Creche of the Final Dragon
 LBIS:AddItem(spec4, "77200", LBIS.L["Trinket"], "Alt") --Eye of Unmaking
-LBIS:AddItem(spec4, "78371", LBIS.L["Main Hand~Off Hand"], "BIS") --Hand of Morchok
+LBIS:AddItem(spec4, "78479", LBIS.L["Main Hand~Off Hand"], "BIS") --Souldrinker
 LBIS:AddItem(spec4, "71562", LBIS.L["Main Hand~Off Hand"], "BIS") --Obsidium Cleaver
-LBIS:AddItem(spec4, "78479", LBIS.L["Main Hand~Off Hand"], "Alt") --Souldrinker
+LBIS:AddItem(spec4, "78371", LBIS.L["Main Hand~Off Hand"], "Alt") --Hand of Morchok
 LBIS:AddItem(spec4, "77212", LBIS.L["Main Hand~Off Hand"], "Alt") --Hand of Morchok
 LBIS:AddItem(spec4, "77193", LBIS.L["Main Hand~Off Hand"], "Alt") --Souldrinker
 LBIS:AddItem(spec4, "77081", LBIS.L["Ranged/Relic"], "BIS") --Gutripper Shard
