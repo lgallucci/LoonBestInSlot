@@ -11,9 +11,9 @@ internal class MageFireMapping : SpecMapping
     public override string Phase0Url => "dps-bis-gear-pre-raid";
     public override List<(string, GuideMapping)> Phase0 => new List<(string, GuideMapping)>
         {
-            { ("Main Hand", "#main-hand-and-two-handed-weapons-for-fire-mage-dps-phase-3-pre-raid") },
-            { ("Off Hand", "#off-hand-weapons-for-fire-mage-dps-phase-3-pre-raid") },
-            { ("Ranged/Relic", "#wands-for-fire-mage-dps-phase-3-pre-raid") }
+            { ("Main Hand", "#main-hand-and-two-handed-weapons-for-fire-mage-dps-phase-4-pre-raid") },
+            { ("Off Hand", "#off-hand-weapons-for-fire-mage-dps-phase-4-pre-raid") },
+            { ("Ranged/Relic", "#wands-for-fire-mage-dps-phase-4-pre-raid") }
         };
 
     public override string CurrentPhaseUrl => "dps-bis-gear-pve";
