@@ -5,27 +5,19 @@ local spec3 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Marksmanship"], "3")
 local spec4 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Marksmanship"], "4")
 
 LBIS:AddGem(spec0, "68778", "3", "True") --Agile Shadowspirit Diamond
-LBIS:AddGem(spec0, "52258", "4", "False") --Delicate Chimera's Eye
-LBIS:AddGem(spec0, "59478", "3", "False") --Smooth Cogwheel
-LBIS:AddGem(spec0, "59479", "3", "False") --Quick Cogwheel
-LBIS:AddGem(spec0, "52209", "3", "False") --Deadly Ember Topaz
-LBIS:AddGem(spec0, "52212", "3", "False") --Delicate Inferno Ruby
-LBIS:AddGem(spec0, "52220", "3", "False") --Glinting Demonseye
+LBIS:AddGem(spec0, "71879", "4", "False") --Delicate Queen's Garnet
+LBIS:AddGem(spec0, "71840", "4", "False") --Deadly Lava Coral
 
-LBIS:AddEnchant(spec4, "86934", LBIS.L["Head"]) --Arcanum of the Ramkahen
-LBIS:AddEnchant(spec4, "86907", LBIS.L["Shoulder"]) --Greater Inscription of Shattered Crystal
-LBIS:AddEnchant(spec4, "74247", LBIS.L["Back"]) --Enchant Cloak - Greater Critical Strike
-LBIS:AddEnchant(spec4, "60663", LBIS.L["Back"]) --Enchant Cloak - Major Agility
-LBIS:AddEnchant(spec4, "74250", LBIS.L["Chest"]) --Enchant Chest - Peerless Stats
-LBIS:AddEnchant(spec4, "74191", LBIS.L["Chest"]) --Enchant Chest - Mighty Stats
-LBIS:AddEnchant(spec4, "96264", LBIS.L["Wrist"]) --Enchant Bracer - Agility
-LBIS:AddEnchant(spec4, "44575", LBIS.L["Wrist"]) --Enchant Bracer - Greater Assault
-LBIS:AddEnchant(spec4, "82175", LBIS.L["Hands"]) --Synapse Springs
-LBIS:AddEnchant(spec4, "44529", LBIS.L["Hands"]) --Enchant Gloves - Major Agility
-LBIS:AddEnchant(spec4, "78171", LBIS.L["Legs"]) --Dragonscale Leg Armor
-LBIS:AddEnchant(spec4, "74252", LBIS.L["Feet"]) --Enchant Boots - Assassin's Step
-LBIS:AddEnchant(spec4, "95471", LBIS.L["Two Hand"]) --Enchant 2H Weapon - Mighty Agility
-LBIS:AddEnchant(spec4, "81932", LBIS.L["Ranged/Relic"]) --Gnomish X-Ray Scope
+LBIS:AddEnchant(spec4, "86934", LBIS.L["Head"]) --
+LBIS:AddEnchant(spec4, "86907", LBIS.L["Shoulder"]) --
+LBIS:AddEnchant(spec4, "74247", LBIS.L["Back"]) --
+LBIS:AddEnchant(spec4, "74250", LBIS.L["Chest"]) --
+LBIS:AddEnchant(spec4, "96264", LBIS.L["Wrist"]) --
+LBIS:AddEnchant(spec4, "74255", LBIS.L["Hands"]) --
+LBIS:AddEnchant(spec4, "78171", LBIS.L["Legs"]) --
+LBIS:AddEnchant(spec4, "74252", LBIS.L["Feet"]) --
+LBIS:AddEnchant(spec4, "95471", LBIS.L["Main Hand"]) --
+LBIS:AddEnchant(spec4, "99623", LBIS.L["Ranged/Relic"]) --
 
 LBIS:AddItem(spec0, "78793", LBIS.L["Head"], "BIS") --Wyrmstalker's Headguard
 LBIS:AddItem(spec0, "72859", LBIS.L["Head"], "Alt") --Dawnslayer Helm

@@ -6,37 +6,35 @@ local spec4 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Bear"], "4")
 
 LBIS:AddGem(spec0, "52294", "3", "True") --Austere Shadowspirit Diamond
 LBIS:AddGem(spec1, "68778", "3", "True") --Agile Shadowspirit Diamond
-LBIS:AddGem(spec0, "59477", "3", "False") --Subtle Cogwheel
-LBIS:AddGem(spec0, "59480", "3", "False") --Fractured Cogwheel
+LBIS:AddGem(spec0, "71844", "4", "False") --Polished Lava Coral
+LBIS:AddGem(spec0, "71869", "4", "False") --Shifting Shadow Spinel
+LBIS:AddGem(spec0, "71835", "4", "False") --Regal Elven Peridot
+LBIS:AddGem(spec0, "71820", "4", "False") --Solid Deepholm Iolite
+LBIS:AddGem(spec0, "71879", "4", "False") --Delicate Queen's Garnet
+LBIS:AddGem(spec0, "71840", "4", "False") --Deadly Lava Coral
+LBIS:AddGem(spec0, "71862", "4", "False") --Glinting Shadow Spinel
+LBIS:AddGem(spec0, "52238", "3", "False") --Shifting Demonseye
 LBIS:AddGem(spec0, "52242", "3", "False") --Solid Ocean Sapphire
 LBIS:AddGem(spec0, "52233", "3", "False") --Regal Dream Emerald
-LBIS:AddGem(spec1, "52231", "3", "False") --Puissant Dream Emerald
-LBIS:AddGem(spec0, "52238", "3", "False") --Shifting Demonseye
-LBIS:AddGem(spec1, "52212", "3", "False") --Delicate Inferno Ruby
 
-LBIS:AddEnchant(spec4, "86934", LBIS.L["Head"]) --Arcanum of the Ramkahen
-LBIS:AddEnchant(spec4, "86931", LBIS.L["Head"]) --Arcanum of the Earthern Ring
-LBIS:AddEnchant(spec4, "86907", LBIS.L["Shoulder"]) --Greater Inscription of Shattered Crystal
-LBIS:AddEnchant(spec4, "86854", LBIS.L["Shoulder"]) --Greater Inscription of Unbreakable Quartz
-LBIS:AddEnchant(spec4, "74234", LBIS.L["Back"]) --Enchant Cloak - Protection
-LBIS:AddEnchant(spec4, "60663", LBIS.L["Back"]) --Enchant Cloak - Major Agility
-LBIS:AddEnchant(spec4, "74251", LBIS.L["Chest"]) --Enchant Chest - Greater Stamina
-LBIS:AddEnchant(spec4, "74250", LBIS.L["Chest"]) --Enchant Chest - Peerless Stats
-LBIS:AddEnchant(spec4, "96264", LBIS.L["Wrist"]) --Enchant Bracer - Agility
-LBIS:AddEnchant(spec4, "85008", LBIS.L["Wrist"]) --Draconic Embossment - Agility
-LBIS:AddEnchant(spec4, "85007", LBIS.L["Wrist"]) --Draconic Embossment - Stamina
-LBIS:AddEnchant(spec4, "62256", LBIS.L["Wrist"]) --Enchant Bracer - Major Stamina
-LBIS:AddEnchant(spec4, "82175", LBIS.L["Hands"]) --Synapse Springs
-LBIS:AddEnchant(spec4, "78166", LBIS.L["Hands"]) --Heavy Savage Armor Kit
-LBIS:AddEnchant(spec4, "74255", LBIS.L["Hands"]) --Enchant Gloves - Greater Mastery
-LBIS:AddEnchant(spec4, "44769", LBIS.L["Hands"]) --Glove Reinforcements
-LBIS:AddEnchant(spec4, "76168", LBIS.L["Waist"]) --Ebonsteel Belt Buckle
-LBIS:AddEnchant(spec4, "55016", LBIS.L["Waist"]) --Nitro Boosts
-LBIS:AddEnchant(spec4, "78172", LBIS.L["Legs"]) --Charscale Leg Armor
-LBIS:AddEnchant(spec4, "78171", LBIS.L["Legs"]) --Dragonscale Leg Armor
-LBIS:AddEnchant(spec4, "74213", LBIS.L["Feet"]) --Enchant Boots - Major Agility
-LBIS:AddEnchant(spec4, "74189", LBIS.L["Feet"]) --Enchant Boots - Earthen Vitality
-LBIS:AddEnchant(spec4, "95471", LBIS.L["Two Hand"]) --Enchant 2H Weapon - Mighty Agility
+LBIS:AddEnchant(spec4, "86934", LBIS.L["Head"]) --
+LBIS:AddEnchant(spec4, "86931", LBIS.L["Head"]) --
+LBIS:AddEnchant(spec4, "86907", LBIS.L["Shoulder"]) --
+LBIS:AddEnchant(spec4, "86854", LBIS.L["Shoulder"]) --
+LBIS:AddEnchant(spec4, "74247", LBIS.L["Back"]) --
+LBIS:AddEnchant(spec4, "74234", LBIS.L["Back"]) --
+LBIS:AddEnchant(spec4, "74251", LBIS.L["Chest"]) --
+LBIS:AddEnchant(spec4, "74250", LBIS.L["Chest"]) --
+LBIS:AddEnchant(spec4, "96264", LBIS.L["Wrist"]) --
+LBIS:AddEnchant(spec4, "78166", LBIS.L["Hands"]) --
+LBIS:AddEnchant(spec4, "74220", LBIS.L["Hands"]) --
+LBIS:AddEnchant(spec4, "44529", LBIS.L["Hands"]) --
+LBIS:AddEnchant(spec4, "78172", LBIS.L["Legs"]) --
+LBIS:AddEnchant(spec4, "78171", LBIS.L["Legs"]) --
+LBIS:AddEnchant(spec4, "74252", LBIS.L["Feet"]) --
+LBIS:AddEnchant(spec4, "74189", LBIS.L["Feet"]) --
+LBIS:AddEnchant(spec4, "95471", LBIS.L["Main Hand"]) --
+LBIS:AddEnchant(spec4, "74244", LBIS.L["Main Hand"]) --
 
 LBIS:AddItem(spec0, "77148", LBIS.L["Head"], "BIS") --Nocturnal Gaze
 LBIS:AddItem(spec0, "73614", LBIS.L["Head"], "Alt") --Cataclysmic Gladiator's Dragonhide Helm

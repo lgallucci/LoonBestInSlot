@@ -227,7 +227,7 @@ public static class WowheadImporter
 
         return result;
     }
-
+    private static Dictionary<int, GemSpec> _gemSources = new Dictionary<int, GemSpec>();
     private static async Task<string> ImportClassInternal(ClassGuideMapping classGuideMapping, int phaseNumber, IHtmlDocument doc, Action<string> logFunc)
     {
         var sb = new StringBuilder();
@@ -246,9 +246,19 @@ public static class WowheadImporter
                 {
                     if (!guide.Item1.Any(g => g.GemId == gem.Key))
                     {
-                        var gemSource = await GetGemFromWowhead(gem.Key, logFunc);
-                        if (gemSource != null)
-                            gemSources.Add(gemSource);
+                        if (_gemSources.ContainsKey(gem.Key))
+                        {
+                            gemSources.Add(_gemSources[gem.Key]);
+                        }
+                        else
+                        {
+                            var gemSource = await GetGemFromWowhead(gem.Key, logFunc);
+                            if (gemSource != null)
+                            {
+                                gemSources.Add(gemSource);
+                                _gemSources.Add(gem.Key, gemSource);
+                            }
+                        }
                     }
                     else
                         gemSources.Add(guide.Item1.First(g => g.GemId == gem.Key));

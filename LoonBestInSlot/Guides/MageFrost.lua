@@ -5,33 +5,19 @@ local spec3 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Frost"], "3")
 local spec4 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Frost"], "4")
 
 LBIS:AddGem(spec0, "68780", "3", "True") --Burning Shadowspirit Diamond
-LBIS:AddGem(spec1, "52257", "4", "False") --Brilliant Chimera's Eye
-LBIS:AddGem(spec0, "59493", "3", "False") --Rigid Cogwheel
-LBIS:AddGem(spec0, "59478", "3", "False") --Smooth Cogwheel
-LBIS:AddGem(spec0, "52217", "3", "False") --Veiled Demonseye
-LBIS:AddGem(spec0, "52239", "3", "False") --Potent Ember Topaz
-LBIS:AddGem(spec0, "52207", "3", "False") --Brilliant Inferno Ruby
-LBIS:AddGem(spec0, "52208", "3", "False") --Reckless Ember Topaz
+LBIS:AddGem(spec0, "71881", "4", "False") --Brilliant Queen's Garnet
+LBIS:AddGem(spec0, "71842", "4", "False") --Potent Lava Coral
 
-LBIS:AddEnchant(spec4, "86932", LBIS.L["Head"]) --Arcanum of Hyjal
-LBIS:AddEnchant(spec4, "86899", LBIS.L["Shoulder"]) --Greater Inscription of Charged Lodestone
-LBIS:AddEnchant(spec4, "86403", LBIS.L["Shoulder"]) --Felfire Inscription
-LBIS:AddEnchant(spec4, "75172", LBIS.L["Back"]) --Lightweave Embroidery
-LBIS:AddEnchant(spec4, "74240", LBIS.L["Back"]) --Enchant Cloak - Greater Intellect
-LBIS:AddEnchant(spec4, "74250", LBIS.L["Chest"]) --Enchant Chest - Peerless Stats
-LBIS:AddEnchant(spec4, "96262", LBIS.L["Wrist"]) --Enchant Bracer - Mighty Intellect
-LBIS:AddEnchant(spec4, "55628", LBIS.L["Wrist"]) --Socket Bracer
-LBIS:AddEnchant(spec4, "82175", LBIS.L["Hands"]) --Synapse Springs
-LBIS:AddEnchant(spec4, "74198", LBIS.L["Hands"]) --Enchant Gloves - Haste
-LBIS:AddEnchant(spec4, "76168", LBIS.L["Waist"]) --Ebonsteel Belt Buckle
-LBIS:AddEnchant(spec4, "55016", LBIS.L["Waist"]) --Nitro Boosts
-LBIS:AddEnchant(spec4, "75154", LBIS.L["Legs"]) --Master's Spellthread
-LBIS:AddEnchant(spec4, "75152", LBIS.L["Legs"]) --Powerful Enchanted Spellthread
-LBIS:AddEnchant(spec4, "74253", LBIS.L["Feet"]) --Enchant Boots - Lavawalker
-LBIS:AddEnchant(spec4, "74217", LBIS.L["Ring"]) --Enchant Ring - Intellect
-LBIS:AddEnchant(spec4, "74242", LBIS.L["Main Hand"]) --Enchant Weapon - Power Torrent
-LBIS:AddEnchant(spec4, "74223", LBIS.L["Main Hand"]) --Enchant Weapon - Hurricane
-LBIS:AddEnchant(spec4, "74235", LBIS.L["Off Hand"]) --Enchant Off-Hand - Superior Intellect
+LBIS:AddEnchant(spec4, "86932", LBIS.L["Head"]) --
+LBIS:AddEnchant(spec4, "86899", LBIS.L["Shoulder"]) --
+LBIS:AddEnchant(spec4, "75172", LBIS.L["Back"]) --
+LBIS:AddEnchant(spec4, "74250", LBIS.L["Chest"]) --
+LBIS:AddEnchant(spec4, "96262", LBIS.L["Wrist"]) --
+LBIS:AddEnchant(spec4, "74198", LBIS.L["Hands"]) --
+LBIS:AddEnchant(spec4, "55016", LBIS.L["Waist"]) --
+LBIS:AddEnchant(spec4, "75154", LBIS.L["Legs"]) --
+LBIS:AddEnchant(spec4, "74253", LBIS.L["Feet"]) --
+LBIS:AddEnchant(spec4, "74242", LBIS.L["Main Hand"]) --
 
 LBIS:AddItem(spec0, "78796", LBIS.L["Head"], "BIS") --Time Lord's Hood
 LBIS:AddItem(spec0, "71421", LBIS.L["Head"], "Alt") --Flickering Cowl

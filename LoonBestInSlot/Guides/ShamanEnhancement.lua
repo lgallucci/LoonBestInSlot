@@ -5,37 +5,19 @@ local spec3 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Enhancement"], "3")
 local spec4 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Enhancement"], "4")
 
 LBIS:AddGem(spec0, "68778", "3", "True") --Agile Shadowspirit Diamond
-LBIS:AddGem(spec1, "52258", "4", "False") --Delicate Chimera's Eye
-LBIS:AddGem(spec0, "59493", "3", "False") --Rigid Cogwheel
-LBIS:AddGem(spec0, "59489", "3", "False") --Precise Cogwheel
-LBIS:AddGem(spec0, "52209", "3", "False") --Deadly Ember Topaz
-LBIS:AddGem(spec0, "52212", "3", "False") --Delicate Inferno Ruby
-LBIS:AddGem(spec0, "52204", "3", "False") --Adept Ember Topaz
-LBIS:AddGem(spec0, "52220", "3", "False") --Glinting Demonseye
+LBIS:AddGem(spec0, "71879", "4", "False") --Delicate Queen's Garnet
+LBIS:AddGem(spec0, "71852", "4", "False") --Adept Lava Coral
+LBIS:AddGem(spec0, "71862", "4", "False") --Glinting Shadow Spinel
 
-LBIS:AddEnchant(spec4, "86934", LBIS.L["Head"]) --Arcanum of the Ramkahen
-LBIS:AddEnchant(spec4, "86907", LBIS.L["Shoulder"]) --Greater Inscription of Shattered Crystal
-LBIS:AddEnchant(spec4, "86375", LBIS.L["Shoulder"]) --Swiftsteel Inscription
-LBIS:AddEnchant(spec4, "75178", LBIS.L["Back"]) --Swordguard Embroidery
-LBIS:AddEnchant(spec4, "60663", LBIS.L["Back"]) --Enchant Cloak - Major Agility
-LBIS:AddEnchant(spec4, "55002", LBIS.L["Back"]) --Flexweave Underlay
-LBIS:AddEnchant(spec4, "74250", LBIS.L["Chest"]) --Enchant Chest - Peerless Stats
-LBIS:AddEnchant(spec4, "74191", LBIS.L["Chest"]) --Enchant Chest - Mighty Stats
-LBIS:AddEnchant(spec4, "96264", LBIS.L["Wrist"]) --Enchant Bracer - Agility
-LBIS:AddEnchant(spec4, "85008", LBIS.L["Wrist"]) --Draconic Embossment - Agility
-LBIS:AddEnchant(spec4, "55628", LBIS.L["Wrist"]) --Socket Bracer
-LBIS:AddEnchant(spec4, "82175", LBIS.L["Hands"]) --Synapse Springs
-LBIS:AddEnchant(spec4, "74255", LBIS.L["Hands"]) --Enchant Gloves - Greater Mastery
-LBIS:AddEnchant(spec4, "55641", LBIS.L["Hands"]) --Socket Gloves
-LBIS:AddEnchant(spec4, "44529", LBIS.L["Hands"]) --Enchant Gloves - Major Agility
-LBIS:AddEnchant(spec4, "76168", LBIS.L["Waist"]) --Ebonsteel Belt Buckle
-LBIS:AddEnchant(spec4, "55016", LBIS.L["Waist"]) --Nitro Boosts
-LBIS:AddEnchant(spec4, "78171", LBIS.L["Legs"]) --Dragonscale Leg Armor
-LBIS:AddEnchant(spec4, "78169", LBIS.L["Legs"]) --Scorched Leg Armor
-LBIS:AddEnchant(spec4, "74213", LBIS.L["Feet"]) --Enchant Boots - Major Agility
-LBIS:AddEnchant(spec4, "74216", LBIS.L["Ring"]) --Enchant Ring - Agility
-LBIS:AddEnchant(spec4, "74246", LBIS.L["Main Hand~Off Hand"]) --Enchant Weapon - Landslide
-LBIS:AddEnchant(spec4, "74223", LBIS.L["Main Hand~Off Hand"]) --Enchant Weapon - Hurricane
+LBIS:AddEnchant(spec4, "86934", LBIS.L["Head"]) --
+LBIS:AddEnchant(spec4, "86907", LBIS.L["Shoulder"]) --
+LBIS:AddEnchant(spec4, "74247", LBIS.L["Back"]) --
+LBIS:AddEnchant(spec4, "74250", LBIS.L["Chest"]) --
+LBIS:AddEnchant(spec4, "85008", LBIS.L["Wrist"]) --
+LBIS:AddEnchant(spec4, "74255", LBIS.L["Hands"]) --
+LBIS:AddEnchant(spec4, "85067", LBIS.L["Legs"]) --
+LBIS:AddEnchant(spec4, "74213", LBIS.L["Feet"]) --
+LBIS:AddEnchant(spec4, "74246", LBIS.L["Main Hand~Off Hand"]) --
 
 LBIS:AddItem(spec0, "78781", LBIS.L["Head"], "BIS") --Spiritwalker's Helmet
 LBIS:AddItem(spec0, "77150", LBIS.L["Head"], "Alt") --Zeherah's Dragonskull Crown

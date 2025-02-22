@@ -5,44 +5,21 @@ local spec3 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Protection"], "3")
 local spec4 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Protection"], "4")
 
 LBIS:AddGem(spec0, "52293", "3", "True") --Eternal Shadowspirit Diamond
-LBIS:AddGem(spec1, "52294", "3", "True") --Austere Shadowspirit Diamond
-LBIS:AddGem(spec1, "52295", "3", "True") --Effulgent Shadowspirit Diamond
-LBIS:AddGem(spec1, "52289", "3", "True") --Fleet Shadowspirit Diamond
-LBIS:AddGem(spec0, "59480", "3", "False") --Fractured Cogwheel
-LBIS:AddGem(spec0, "59489", "3", "False") --Precise Cogwheel
-LBIS:AddGem(spec0, "52219", "3", "False") --Fractured Amberjewel
-LBIS:AddGem(spec0, "52224", "3", "False") --Keen Ember Topaz
-LBIS:AddGem(spec0, "52231", "3", "False") --Puissant Dream Emerald
-LBIS:AddGem(spec0, "52221", "3", "False") --Guardian's Demonseye
-LBIS:AddGem(spec1, "52242", "3", "False") --Solid Ocean Sapphire
-LBIS:AddGem(spec1, "52237", "3", "False") --Sensei's Dream Emerald
-LBIS:AddGem(spec1, "52230", "3", "False") --Precise Inferno Ruby
+LBIS:AddGem(spec0, "71820", "4", "False") --Solid Deepholm Iolite
+LBIS:AddGem(spec0, "71877", "4", "False") --Fractured Lightstone
+LBIS:AddGem(spec0, "71838", "4", "False") --Puissant Elven Peridot
 
-LBIS:AddEnchant(spec4, "86931", LBIS.L["Head"]) --Arcanum of the Earthen Ring
-LBIS:AddEnchant(spec4, "86854", LBIS.L["Shoulder"]) --Greater Inscription of Unbreakable Quartz
-LBIS:AddEnchant(spec4, "86402", LBIS.L["Shoulder"]) --Inscription of the Earth Prince
-LBIS:AddEnchant(spec4, "74234", LBIS.L["Back"]) --Enchant Cloak - Protection
-LBIS:AddEnchant(spec4, "74251", LBIS.L["Chest"]) --Enchant Chest - Greater Stamina
-LBIS:AddEnchant(spec4, "74250", LBIS.L["Chest"]) --Enchant Chest - Peerless Stats
-LBIS:AddEnchant(spec4, "74200", LBIS.L["Chest"]) --Enchant Chest - Stamina
-LBIS:AddEnchant(spec4, "85007", LBIS.L["Wrist"]) --Draconic Embossment - Stamina
-LBIS:AddEnchant(spec4, "74239", LBIS.L["Wrist"]) --Enchant Bracer - Greater Expertise
-LBIS:AddEnchant(spec4, "74232", LBIS.L["Wrist"]) --Enchant Bracer - Precision
-LBIS:AddEnchant(spec4, "74229", LBIS.L["Wrist"]) --Enchant Bracer - Superior Dodge
-LBIS:AddEnchant(spec4, "82177", LBIS.L["Hands"]) --Quickflip Deflection Plates
-LBIS:AddEnchant(spec4, "74255", LBIS.L["Hands"]) --Enchant Gloves - Greater Mastery
-LBIS:AddEnchant(spec4, "74132", LBIS.L["Hands"]) --Enchant Gloves - Mastery
-LBIS:AddEnchant(spec4, "76168", LBIS.L["Waist"]) --Ebonsteel Belt Buckle
-LBIS:AddEnchant(spec4, "55016", LBIS.L["Waist"]) --Nitro Boosts
-LBIS:AddEnchant(spec4, "101600", LBIS.L["Legs"]) --Drakehide Leg Reinforcements
-LBIS:AddEnchant(spec4, "101598", LBIS.L["Legs"]) --Drakehide Leg Armor
-LBIS:AddEnchant(spec4, "74253", LBIS.L["Feet"]) --Enchant Boots - Lavawalker
-LBIS:AddEnchant(spec4, "74238", LBIS.L["Feet"]) --Enchant Boots - Mastery
-LBIS:AddEnchant(spec4, "74236", LBIS.L["Feet"]) --Enchant Boots - Precision
-LBIS:AddEnchant(spec4, "74189", LBIS.L["Feet"]) --Enchant Boots - Earthen Vitality
-LBIS:AddEnchant(spec4, "74218", LBIS.L["Ring"]) --Enchant Ring - Greater Stamina
-LBIS:AddEnchant(spec4, "74244", LBIS.L["Main Hand"]) --Enchant Weapon - Windwalk
-LBIS:AddEnchant(spec4, "74226", LBIS.L["Off Hand"]) --Enchant Shield - Mastery
+LBIS:AddEnchant(spec4, "86931", LBIS.L["Head"]) --
+LBIS:AddEnchant(spec4, "86854", LBIS.L["Shoulder"]) --
+LBIS:AddEnchant(spec4, "74234", LBIS.L["Back"]) --
+LBIS:AddEnchant(spec4, "74251", LBIS.L["Chest"]) --
+LBIS:AddEnchant(spec4, "85007", LBIS.L["Wrist"]) --
+LBIS:AddEnchant(spec4, "74132", LBIS.L["Hands"]) --
+LBIS:AddEnchant(spec4, "55016", LBIS.L["Waist"]) --
+LBIS:AddEnchant(spec4, "101598", LBIS.L["Legs"]) --
+LBIS:AddEnchant(spec4, "74238", LBIS.L["Feet"]) --
+LBIS:AddEnchant(spec4, "74244", LBIS.L["Main Hand"]) --
+LBIS:AddEnchant(spec4, "74226", LBIS.L["Off Hand"]) --
 
 LBIS:AddItem(spec0, "59359", LBIS.L["Head"], "BIS") --Reinforced Bio-Optic Killshades
 LBIS:AddItem(spec0, "60356", LBIS.L["Head"], "Alt") --Reinforced Sapphirium Faceguard

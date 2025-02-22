@@ -5,35 +5,23 @@ local spec3 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Protection"], "3")
 local spec4 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Protection"], "4")
 
 LBIS:AddGem(spec0, "52293", "3", "True") --Eternal Shadowspirit Diamond
-LBIS:AddGem(spec1, "71820", "4", "False") --Solid Deepholm Iolite
-LBIS:AddGem(spec1, "71872", "4", "False") --Defender's Shadow Spinel
+LBIS:AddGem(spec0, "71877", "4", "False") --Fractured Lightstone
 LBIS:AddGem(spec1, "71838", "4", "False") --Puissant Elven Peridot
-LBIS:AddGem(spec0, "59480", "3", "False") --Fractured Cogwheel
-LBIS:AddGem(spec0, "59477", "3", "False") --Subtle Cogwheel
-LBIS:AddGem(spec0, "52231", "3", "False") --Puissant Dream Emerald
-LBIS:AddGem(spec0, "52242", "3", "False") --Solid Ocean Sapphire
-LBIS:AddGem(spec0, "52210", "3", "False") --Defender's Demonseye
+LBIS:AddGem(spec1, "71872", "4", "False") --Defender's Shadow Spinel
+LBIS:AddGem(spec1, "71820", "4", "False") --Solid Deepholm Iolite
 
-LBIS:AddEnchant(spec4, "86931", LBIS.L["Head"]) --Arcanum of the Earthen Ring
-LBIS:AddEnchant(spec4, "86854", LBIS.L["Shoulder"]) --Greater Inscription of Unbreakable Quartz
-LBIS:AddEnchant(spec4, "74234", LBIS.L["Back"]) --Enchant Cloak - Protection
-LBIS:AddEnchant(spec4, "55002", LBIS.L["Back"]) --Flexweave Underlay
-LBIS:AddEnchant(spec4, "74251", LBIS.L["Chest"]) --Enchant Chest - Greater Stamina
-LBIS:AddEnchant(spec4, "85007", LBIS.L["Wrist"]) --Draconic Embossment - Stamina
-LBIS:AddEnchant(spec4, "62256", LBIS.L["Wrist"]) --Enchant Bracer - Major Stamina
-LBIS:AddEnchant(spec4, "82175", LBIS.L["Hands"]) --Synapse Springs
-LBIS:AddEnchant(spec4, "78166", LBIS.L["Hands"]) --Heavy Savage Armor Kit
-LBIS:AddEnchant(spec4, "74255", LBIS.L["Hands"]) --Enchant Gloves - Greater Mastery
-LBIS:AddEnchant(spec4, "84427", LBIS.L["Waist"]) --Grounded Plasma Shield
-LBIS:AddEnchant(spec4, "76168", LBIS.L["Waist"]) --Ebonsteel Belt Buckle
-LBIS:AddEnchant(spec4, "55016", LBIS.L["Waist"]) --Nitro Boosts
-LBIS:AddEnchant(spec4, "101600", LBIS.L["Legs"]) --Drakehide Leg Reinforcements
-LBIS:AddEnchant(spec4, "101598", LBIS.L["Legs"]) --Drakehide Leg Armor
-LBIS:AddEnchant(spec4, "74253", LBIS.L["Feet"]) --Enchant Boots - Lavawalker
-LBIS:AddEnchant(spec4, "74218", LBIS.L["Ring"]) --Enchant Ring - Greater Stamina
-LBIS:AddEnchant(spec4, "74244", LBIS.L["Main Hand"]) --Enchant Weapon - Windwalk
-LBIS:AddEnchant(spec4, "74226", LBIS.L["Off Hand"]) --Enchant Shield - Mastery
-LBIS:AddEnchant(spec4, "81933", LBIS.L["Ranged/Relic"]) --R19 Threatfinder
+LBIS:AddEnchant(spec4, "86931", LBIS.L["Head"]) --
+LBIS:AddEnchant(spec4, "86854", LBIS.L["Shoulder"]) --
+LBIS:AddEnchant(spec4, "74234", LBIS.L["Back"]) --
+LBIS:AddEnchant(spec4, "74251", LBIS.L["Chest"]) --
+LBIS:AddEnchant(spec4, "85007", LBIS.L["Wrist"]) --
+LBIS:AddEnchant(spec4, "74255", LBIS.L["Hands"]) --
+LBIS:AddEnchant(spec4, "55016", LBIS.L["Waist"]) --
+LBIS:AddEnchant(spec4, "101598", LBIS.L["Legs"]) --
+LBIS:AddEnchant(spec4, "74253", LBIS.L["Feet"]) --
+LBIS:AddEnchant(spec4, "74244", LBIS.L["Main Hand"]) --
+LBIS:AddEnchant(spec4, "74226", LBIS.L["Off Hand"]) --
+LBIS:AddEnchant(spec4, "81933", LBIS.L["Ranged/Relic"]) --
 
 LBIS:AddItem(spec0, "78784", LBIS.L["Head"], "BIS") --Colossal Dragonplate Faceguard
 LBIS:AddItem(spec0, "77156", LBIS.L["Head"], "BIS") --Jaw of Repudiation

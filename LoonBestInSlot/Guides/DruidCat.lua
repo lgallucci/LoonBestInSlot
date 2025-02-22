@@ -5,29 +5,24 @@ local spec3 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Cat"], "3")
 local spec4 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Cat"], "4")
 
 LBIS:AddGem(spec0, "68778", "3", "True") --Agile Shadowspirit Diamond
-LBIS:AddGem(spec0, "59478", "3", "False") --Smooth Cogwheel
-LBIS:AddGem(spec0, "59489", "3", "False") --Precise Cogwheel
-LBIS:AddGem(spec0, "52220", "3", "False") --Glinting Demonseye
+LBIS:AddGem(spec0, "71879", "4", "False") --Delicate Queen's Garnet
+LBIS:AddGem(spec0, "71840", "4", "False") --Deadly Lava Coral
+LBIS:AddGem(spec0, "71862", "4", "False") --Glinting Shadow Spinel
+LBIS:AddGem(spec0, "52258", "4", "False") --Delicate Chimera's Eye
 LBIS:AddGem(spec0, "52212", "3", "False") --Delicate Inferno Ruby
-LBIS:AddGem(spec0, "52210", "3", "False") --Defender's Demonseye
 LBIS:AddGem(spec1, "52204", "3", "False") --Adept Ember Topaz
-LBIS:AddGem(spec1, "59493", "3", "False") --Rigid Cogwheel
-LBIS:AddGem(spec0, "59480", "3", "False") --Fractured Cogwheel
+LBIS:AddGem(spec0, "52220", "3", "False") --Glinting Demonseye
 
-LBIS:AddEnchant(spec4, "86934", LBIS.L["Head"]) --Arcanum of Ramkahen
-LBIS:AddEnchant(spec4, "86907", LBIS.L["Shoulder"]) --Greater Inscription of Shattered Crystal
-LBIS:AddEnchant(spec4, "60663", LBIS.L["Back"]) --Enchant Cloak - Major Agility
-LBIS:AddEnchant(spec4, "74250", LBIS.L["Chest"]) --Enchant Chest - Peerless Stats
-LBIS:AddEnchant(spec4, "96264", LBIS.L["Wrist"]) --Enchant Bracer - Agility
-LBIS:AddEnchant(spec4, "85008", LBIS.L["Wrist"]) --Draconic Embossment - Agility
-LBIS:AddEnchant(spec4, "74255", LBIS.L["Hands"]) --Enchant Gloves - Greater Mastery
-LBIS:AddEnchant(spec4, "44529", LBIS.L["Hands"]) --Enchant Gloves - Major Agility
-LBIS:AddEnchant(spec4, "76168", LBIS.L["Waist"]) --Ebonsteel Belt Buckle
-LBIS:AddEnchant(spec4, "55016", LBIS.L["Waist"]) --Nitro Boosts
-LBIS:AddEnchant(spec4, "78172", LBIS.L["Legs"]) --Charscale Leg Armor
-LBIS:AddEnchant(spec4, "78171", LBIS.L["Legs"]) --Dragonscale Leg Armor
-LBIS:AddEnchant(spec4, "74213", LBIS.L["Feet"]) --Enchant Boots - Major Agility
-LBIS:AddEnchant(spec4, "95471", LBIS.L["Two Hand"]) --Enchant 2H Weapon - Mighty Agility
+LBIS:AddEnchant(spec4, "86934", LBIS.L["Head"]) --
+LBIS:AddEnchant(spec4, "86907", LBIS.L["Shoulder"]) --
+LBIS:AddEnchant(spec4, "74247", LBIS.L["Back"]) --
+LBIS:AddEnchant(spec4, "60663", LBIS.L["Back"]) --
+LBIS:AddEnchant(spec4, "74250", LBIS.L["Chest"]) --
+LBIS:AddEnchant(spec4, "96264", LBIS.L["Wrist"]) --
+LBIS:AddEnchant(spec4, "74255", LBIS.L["Hands"]) --
+LBIS:AddEnchant(spec4, "78171", LBIS.L["Legs"]) --
+LBIS:AddEnchant(spec4, "74213", LBIS.L["Feet"]) --
+LBIS:AddEnchant(spec4, "95471", LBIS.L["Main Hand"]) --
 
 LBIS:AddItem(spec0, "77148", LBIS.L["Head"], "BIS") --Nocturnal Gaze
 LBIS:AddItem(spec0, "78789", LBIS.L["Head"], "Alt") --Deep Earth Headpiece
