@@ -24,6 +24,7 @@ local function LoadData()
     LBIS:AddEnchant(spec7, "20014", LBIS.L["Back"]) --
     LBIS:AddEnchant(spec7, "22844", LBIS.L["Legs"]) --
     LBIS:AddEnchant(spec7, "1219577", LBIS.L["Off Hand"]) --
+    LBIS:AddEnchant(spec7, "1219580", LBIS.L["Main Hand"]) --
 
     LBIS:AddItem(spec0, "237288", LBIS.L["Head"], "BIS") --Sanctified Leather Helm
     LBIS:AddItem(spec0, "226647", LBIS.L["Head"], "BIS") --Cenarion Helm
@@ -816,9 +817,9 @@ local function LoadData()
     LBIS:AddItem(spec6, "209576", LBIS.L["Ranged/Relic"], "Alt") --Mind-Expanding Mushroom
 
     LBIS:AddItem(spec7, "236182", LBIS.L["Head"], "BIS") --Dreamwalker Headpiece
+    LBIS:AddItem(spec7, "233723", LBIS.L["Head"], "Alt") --Genesis Mask
     LBIS:AddItem(spec7, "237288", LBIS.L["Head"], "Alt") --Sanctified Leather Helm
     LBIS:AddItem(spec7, "233624", LBIS.L["Head"], "Alt") --Don Rigoberto's Lost Hat
-    LBIS:AddItem(spec7, "233723", LBIS.L["Head"], "Alt") --Genesis Mask
     LBIS:AddItem(spec7, "228385", LBIS.L["Head"], "Alt") --Crystal Adorned Crown
     LBIS:AddItem(spec7, "233578", LBIS.L["Head"], "Alt") --Creeping Vine Helm
     LBIS:AddItem(spec7, "234073", LBIS.L["Head"], "Alt") --Dustwind Turban
@@ -828,14 +829,15 @@ local function LoadData()
     LBIS:AddItem(spec7, "233521", LBIS.L["Shoulder"], "Alt") --Ternary Mantle
     LBIS:AddItem(spec7, "228283", LBIS.L["Shoulder"], "Alt") --Wild Growth Spaulders
     LBIS:AddItem(spec7, "230733", LBIS.L["Back"], "BIS") --Shroud of Pure Thought
+    LBIS:AddItem(spec7, "236307", LBIS.L["Back"], "Alt") --Veil of Eclipse
     LBIS:AddItem(spec7, "236289", LBIS.L["Back"], "Alt") --Cloak of Suturing
     LBIS:AddItem(spec7, "233960", LBIS.L["Back"], "Alt") --Qiraji Silk Drape
     LBIS:AddItem(spec7, "233641", LBIS.L["Back"], "Alt") --Cloak of Clarity
     LBIS:AddItem(spec7, "230998", LBIS.L["Back"], "Alt") --Hakkari Loa Cloak
     LBIS:AddItem(spec7, "18510", LBIS.L["Back"], "Alt") --Hide of the Wild
     LBIS:AddItem(spec7, "236186", LBIS.L["Chest"], "BIS") --Dreamwalker Tunic
-    LBIS:AddItem(spec7, "236730", LBIS.L["Chest"], "Alt") --Tunic of Undead Purification
     LBIS:AddItem(spec7, "233720", LBIS.L["Chest"], "Alt") --Genesis Chestguard
+    LBIS:AddItem(spec7, "236730", LBIS.L["Chest"], "Alt") --Tunic of Undead Purification
     LBIS:AddItem(spec7, "233594", LBIS.L["Chest"], "Alt") --Robes of the Guardian Saint
     LBIS:AddItem(spec7, "231230", LBIS.L["Chest"], "Alt") --Stormrage Chestguard
     LBIS:AddItem(spec7, "236183", LBIS.L["Wrist"], "BIS") --Dreamwalker Wristguards
@@ -866,8 +868,8 @@ local function LoadData()
     LBIS:AddItem(spec7, "230927", LBIS.L["Legs"], "Alt") --Ritualistic Legguards
     LBIS:AddItem(spec7, "230994", LBIS.L["Legs"], "Alt") --Animist's Leggings
     LBIS:AddItem(spec7, "236185", LBIS.L["Feet"], "BIS") --Dreamwalker Boots
-    LBIS:AddItem(spec7, "235881", LBIS.L["Feet"], "Alt") --Dreaded Treaders
     LBIS:AddItem(spec7, "233721", LBIS.L["Feet"], "Alt") --Genesis Greaves
+    LBIS:AddItem(spec7, "235881", LBIS.L["Feet"], "Alt") --Dreaded Treaders
     LBIS:AddItem(spec7, "231231", LBIS.L["Feet"], "Alt") --Stormrage Boots
     LBIS:AddItem(spec7, "234117", LBIS.L["Feet"], "Alt") --Treads of the Wandering Nomad
     LBIS:AddItem(spec7, "230843", LBIS.L["Feet"], "Alt") --Boots of Pure Thought
@@ -903,8 +905,8 @@ local function LoadData()
     LBIS:AddItem(spec7, "236348", LBIS.L["Main Hand"], "BIS") --Hammer of the Twisting Nether
     LBIS:AddItem(spec7, "235014", LBIS.L["Main Hand"], "Alt") --Scepter of the False Prophet
     LBIS:AddItem(spec7, "236264", LBIS.L["Main Hand"], "Alt") --The Widow's Embrace
-    LBIS:AddItem(spec7, "234576", LBIS.L["Main Hand"], "Alt") --Grand Marshal's Warhammer
     LBIS:AddItem(spec7, "234551", LBIS.L["Main Hand"], "Alt") --High Warlord's Battle Mace
+    LBIS:AddItem(spec7, "234576", LBIS.L["Main Hand"], "Alt") --Grand Marshal's Warhammer
     LBIS:AddItem(spec7, "234137", LBIS.L["Main Hand"], "Alt") --Fang of Korialstrasz
     LBIS:AddItem(spec7, "231753", LBIS.L["Main Hand"], "Alt") --Skywall's Solace
     LBIS:AddItem(spec7, "234800", LBIS.L["Main Hand"], "Alt") --Simone's Cultivating Hammer

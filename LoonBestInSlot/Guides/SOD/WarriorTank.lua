@@ -525,7 +525,7 @@ local function LoadData()
     LBIS:AddItem(spec7, "233442", LBIS.L["Main Hand"], "Alt") --Sickle of Unyielding Strength
     LBIS:AddItem(spec7, "236306", LBIS.L["Main Hand"], "Alt") --The Castigator
     LBIS:AddItem(spec7, "224280", LBIS.L["Off Hand"], "BIS") --Suzerain, Defender of the Dragonflights
-    LBIS:AddItem(spec7, "236336", LBIS.L["Off Hand"], "Alt") --The Face of Death
+    LBIS:AddItem(spec7, "236336", LBIS.L["Off Hand"], "BIS") --The Face of Death
     LBIS:AddItem(spec7, "235868", LBIS.L["Off Hand"], "Alt") --Bulwark of Ire
     LBIS:AddItem(spec7, "236293", LBIS.L["Ranged/Relic"], "BIS") --Toxin Injector
     LBIS:AddItem(spec7, "235892", LBIS.L["Ranged/Relic"], "Alt") --Darkrider's Spine

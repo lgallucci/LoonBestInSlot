@@ -178,17 +178,20 @@ local function LoadData()
     LBIS:AddItem(spec2, "19168", LBIS.L["Main Hand/Off Hand"], "Alt") --Blackguard
     LBIS:AddItem(spec2, "15806", LBIS.L["Main Hand/Off Hand"], "Alt") --Mirah's Song
     LBIS:AddItem(spec2, "18805", LBIS.L["Main Hand/Off Hand"], "Alt") --Core Hound Tooth
+    LBIS:AddItem(spec2, "14555", LBIS.L["Main Hand"], "Alt") --Alcor's Sunrazor
     LBIS:AddItem(spec2, "19324", LBIS.L["Main Hand/Off Hand"], "Alt") --The Lobotomizer
     LBIS:AddItem(spec2, "17071", LBIS.L["Main Hand/Off Hand"], "Alt") --Gutgore Ripper
+    LBIS:AddItem(spec2, "6660", LBIS.L["Main Hand"], "Alt") --Julie's Dagger
     LBIS:AddItem(spec2, "18832", LBIS.L["Off Hand"], "BIS") --Brutality Blade
     LBIS:AddItem(spec2, "18168", LBIS.L["Off Hand"], "BIS") --Force Reactive Disk
     LBIS:AddItem(spec2, "17106", LBIS.L["Off Hand"], "BIS") --Malistar's Defender
+    LBIS:AddItem(spec2, "19104", LBIS.L["Off Hand"], "Alt") --Stormstrike Hammer
     LBIS:AddItem(spec2, "17066", LBIS.L["Off Hand"], "Alt") --Drillborer Disk
     LBIS:AddItem(spec2, "19321", LBIS.L["Off Hand"], "Alt") --The Immovable Object
     LBIS:AddItem(spec2, "18756", LBIS.L["Off Hand"], "Alt") --Dreadguard's Protector
     LBIS:AddItem(spec2, "1979", LBIS.L["Off Hand"], "Alt") --Wall of the Dead
-    LBIS:AddItem(spec2, "18392", LBIS.L["Off Hand"], "Alt") --Distracting Dagger
     LBIS:AddItem(spec2, "1203", LBIS.L["Off Hand"], "Alt") --Aegis of Stormwind
+    LBIS:AddItem(spec2, "18392", LBIS.L["Off Hand"], "Alt") --Distracting Dagger
     LBIS:AddItem(spec2, "17072", LBIS.L["Ranged/Relic"], "BIS") --Blastershot Launcher
     LBIS:AddItem(spec2, "17069", LBIS.L["Ranged/Relic"], "Alt") --Striker's Mark
     LBIS:AddItem(spec2, "19107", LBIS.L["Ranged/Relic"], "Alt") --Bloodseeker
