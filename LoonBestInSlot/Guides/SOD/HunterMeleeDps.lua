@@ -300,7 +300,7 @@ local function LoadData()
     LBIS:AddItem(spec7, "227067", LBIS.L["Head"], "Alt") --Champion's Chain Helm
     LBIS:AddItem(spec7, "226887", LBIS.L["Head"], "Alt") --Beastmaster's Cap
     LBIS:AddItem(spec7, "236052", LBIS.L["Shoulder"], "BIS") --Cryptstalker Pauldrons
-    LBIS:AddItem(spec7, "233668", LBIS.L["Shoulder"], "BIS") --Striker's Spaulders
+    LBIS:AddItem(spec7, "233668", LBIS.L["Shoulder"], "Alt") --Striker's Spaulders
     LBIS:AddItem(spec7, "231066", LBIS.L["Shoulder"], "Alt") --Dragonstalker's Pauldrons
     LBIS:AddItem(spec7, "226543", LBIS.L["Shoulder"], "Alt") --Giantstalker's Spauldrons
     LBIS:AddItem(spec7, "23307", LBIS.L["Shoulder"], "Alt") --Lieutenant Commander's Chain Shoulders
@@ -350,18 +350,19 @@ local function LoadData()
     LBIS:AddItem(spec7, "226542", LBIS.L["Waist"], "Alt") --Giantstalker's Girdle
     LBIS:AddItem(spec7, "19163", LBIS.L["Waist"], "Alt") --Molten Belt
     LBIS:AddItem(spec7, "236053", LBIS.L["Legs"], "BIS") --Cryptstalker Leggings
+    LBIS:AddItem(spec7, "233667", LBIS.L["Legs"], "BIS") --Striker's Chain Legplates
     LBIS:AddItem(spec7, "231067", LBIS.L["Legs"], "Alt") --Dragonstalker's Pants
-    LBIS:AddItem(spec7, "233667", LBIS.L["Legs"], "Alt") --Striker's Chain Legplates
     LBIS:AddItem(spec7, "226537", LBIS.L["Legs"], "Alt") --Giantstalker's Chain Leggings
     LBIS:AddItem(spec7, "226900", LBIS.L["Legs"], "Alt") --Beastmaster's Legs
-    LBIS:AddItem(spec7, "227079", LBIS.L["Legs"], "Alt") --Legionnaire's Chain Legplates
     LBIS:AddItem(spec7, "227085", LBIS.L["Legs"], "Alt") --Knight-Captain's Chain Legplates
+    LBIS:AddItem(spec7, "227079", LBIS.L["Legs"], "Alt") --Legionnaire's Chain Legplates
     LBIS:AddItem(spec7, "233665", LBIS.L["Feet"], "BIS") --Striker's Treads
     LBIS:AddItem(spec7, "231070", LBIS.L["Feet"], "BIS") --Dragonstalker's Sabatons
     LBIS:AddItem(spec7, "236057", LBIS.L["Feet"], "Alt") --Cryptstalker Greaves
     LBIS:AddItem(spec7, "226538", LBIS.L["Feet"], "Alt") --Giantstalker's Sabatons
     LBIS:AddItem(spec7, "226881", LBIS.L["Feet"], "Alt") --Beastmaster's Treads
     LBIS:AddItem(spec7, "235886", LBIS.L["Neck"], "BIS") --Kaigy's Clasp
+    LBIS:AddItem(spec7, "236342", LBIS.L["Neck"], "BIS") --Stormrage's Talisman of Seething
     LBIS:AddItem(spec7, "236316", LBIS.L["Neck"], "Alt") --Sadist's Collar
     LBIS:AddItem(spec7, "231803", LBIS.L["Neck"], "Alt") --Prestor's Talisman of Connivery
     LBIS:AddItem(spec7, "231320", LBIS.L["Neck"], "Alt") --Maelstrom's Wrath
@@ -397,6 +398,7 @@ local function LoadData()
     LBIS:AddItem(spec7, "233585", LBIS.L["Main Hand"], "Alt") --Ancient Qiraji Ripper
     LBIS:AddItem(spec7, "231754", LBIS.L["Main Hand"], "Alt") --Kestrel
     LBIS:AddItem(spec7, "230925", LBIS.L["Main Hand"], "Alt") --Thekal's Grasp
+    LBIS:AddItem(spec7, "236341", LBIS.L["Off Hand"], "BIS") --The Hungering Cold
     LBIS:AddItem(spec7, "231755", LBIS.L["Off Hand"], "BIS") --Peregrine
     LBIS:AddItem(spec7, "233421", LBIS.L["Off Hand"], "BIS") --Scythe of the Unseen Path
     LBIS:AddItem(spec7, "230934", LBIS.L["Off Hand"], "Alt") --Arlokk's Grasp
@@ -408,7 +410,7 @@ local function LoadData()
     LBIS:AddItem(spec7, "231315", LBIS.L["Two Hand"], "Alt") --Zin'rokh, Destroyer of Worlds
     LBIS:AddItem(spec7, "228332", LBIS.L["Two Hand"], "Alt") --Lok'delar, Stave of the Ancient Keepers
     LBIS:AddItem(spec7, "221450", LBIS.L["Ranged/Relic"], "BIS") --Gurubashi Pit Fighter's Bow
-    LBIS:AddItem(spec7, "236322", LBIS.L["Ranged/Relic"], "Alt") --Soulstring
+    LBIS:AddItem(spec7, "236322", LBIS.L["Ranged/Relic"], "BIS") --Soulstring
     LBIS:AddItem(spec7, "235892", LBIS.L["Ranged/Relic"], "Alt") --Darkrider's Spine
     LBIS:AddItem(spec7, "233605", LBIS.L["Ranged/Relic"], "Alt") --Huhuran's Stinger
     LBIS:AddItem(spec7, "228252", LBIS.L["Ranged/Relic"], "Alt") --Striker's Mark

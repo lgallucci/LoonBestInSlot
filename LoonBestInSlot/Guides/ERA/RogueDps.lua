@@ -76,23 +76,23 @@ local function LoadData()
 
     LBIS:AddItem(spec2, "16908", LBIS.L["Head"], "BIS") --Bloodfang Hood
     LBIS:AddItem(spec2, "16821", LBIS.L["Head"], "Alt") --Nightslayer Cover
-    LBIS:AddItem(spec2, "16506", LBIS.L["Head"], "Alt") --Champion's Leather Headguard
-    LBIS:AddItem(spec2, "16418", LBIS.L["Head"], "Alt") --Lieutenant Commander's Leather Veil
+    LBIS:AddItem(spec2, "23257", LBIS.L["Head"], "Alt") --Champion's Leather Helm
+    LBIS:AddItem(spec2, "23312", LBIS.L["Head"], "Alt") --Lieutenant Commander's Leather Helm
     LBIS:AddItem(spec2, "13404", LBIS.L["Head"], "Alt") --Mask of the Unforgiven
     LBIS:AddItem(spec2, "19984", LBIS.L["Head"], "Alt") --Ebon Mask
     LBIS:AddItem(spec2, "12587", LBIS.L["Head"], "Alt") --Eye of Rend
     LBIS:AddItem(spec2, "16823", LBIS.L["Shoulder"], "BIS") --Nightslayer Shoulder Pads
     LBIS:AddItem(spec2, "12927", LBIS.L["Shoulder"], "Alt") --Truestrike Shoulders
-    LBIS:AddItem(spec2, "16507", LBIS.L["Shoulder"], "Alt") --Champion's Leather Mantle
-    LBIS:AddItem(spec2, "16420", LBIS.L["Shoulder"], "Alt") --Lieutenant Commander's Leather Spaulders
+    LBIS:AddItem(spec2, "23258", LBIS.L["Shoulder"], "Alt") --Champion's Leather Shoulders
+    LBIS:AddItem(spec2, "23313", LBIS.L["Shoulder"], "Alt") --Lieutenant Commander's Leather Shoulders
     LBIS:AddItem(spec2, "12082", LBIS.L["Shoulder"], "Alt") --Wyrmhide Spaulders
     LBIS:AddItem(spec2, "18541", LBIS.L["Back"], "BIS") --Puissant Cape
     LBIS:AddItem(spec2, "13340", LBIS.L["Back"], "Alt") --Cape of the Black Baron
     LBIS:AddItem(spec2, "13397", LBIS.L["Back"], "Alt") --Stoneskin Gargoyle Cape
     LBIS:AddItem(spec2, "13203", LBIS.L["Back"], "Alt") --Armswake Cloak
     LBIS:AddItem(spec2, "16820", LBIS.L["Chest"], "BIS") --Nightslayer Chestpiece
-    LBIS:AddItem(spec2, "16505", LBIS.L["Chest"], "Alt") --Legionnaire's Leather Hauberk
-    LBIS:AddItem(spec2, "16417", LBIS.L["Chest"], "Alt") --Knight-Captain's Leather Armor
+    LBIS:AddItem(spec2, "22879", LBIS.L["Chest"], "Alt") --Legionnaire's Leather Chestpiece
+    LBIS:AddItem(spec2, "23298", LBIS.L["Chest"], "Alt") --Knight-Captain's Leather Chestpiece
     LBIS:AddItem(spec2, "14637", LBIS.L["Chest"], "Alt") --Cadaverous Armor
     LBIS:AddItem(spec2, "12603", LBIS.L["Chest"], "Alt") --Nightbrace Tunic
     LBIS:AddItem(spec2, "12793", LBIS.L["Chest"], "Alt") --Mixologist's Tunic
@@ -104,8 +104,8 @@ local function LoadData()
     LBIS:AddItem(spec2, "16826", LBIS.L["Hands"], "Alt") --Nightslayer Gloves
     LBIS:AddItem(spec2, "18544", LBIS.L["Hands"], "Alt") --Doomhide Gauntlets
     LBIS:AddItem(spec2, "15063", LBIS.L["Hands"], "Alt") --Devilsaur Gauntlets
-    LBIS:AddItem(spec2, "16499", LBIS.L["Hands"], "Alt") --Blood Guard's Leather Vices
-    LBIS:AddItem(spec2, "16396", LBIS.L["Hands"], "Alt") --Knight-Lieutenant's Leather Gauntlets
+    LBIS:AddItem(spec2, "22864", LBIS.L["Hands"], "Alt") --Blood Guard's Leather Grips
+    LBIS:AddItem(spec2, "23284", LBIS.L["Hands"], "Alt") --Knight-Lieutenant's Leather Grips
     LBIS:AddItem(spec2, "18377", LBIS.L["Hands"], "Alt") --Quickdraw Gloves
     LBIS:AddItem(spec2, "16827", LBIS.L["Waist"], "BIS") --Nightslayer Belt
     LBIS:AddItem(spec2, "18505", LBIS.L["Waist"], "Alt") --Mugger's Belt
@@ -117,8 +117,8 @@ local function LoadData()
     LBIS:AddItem(spec2, "16419", LBIS.L["Legs"], "Alt") --Knight-Captain's Leather Legguards
     LBIS:AddItem(spec2, "16824", LBIS.L["Feet"], "BIS") --Nightslayer Boots
     LBIS:AddItem(spec2, "12553", LBIS.L["Feet"], "Alt") --Swiftwalker Boots
-    LBIS:AddItem(spec2, "16498", LBIS.L["Feet"], "Alt") --Blood Guard's Leather Treads
-    LBIS:AddItem(spec2, "16392", LBIS.L["Feet"], "Alt") --Knight-Lieutenant's Leather Boots
+    LBIS:AddItem(spec2, "22856", LBIS.L["Feet"], "Alt") --Blood Guard's Leather Walkers
+    LBIS:AddItem(spec2, "23285", LBIS.L["Feet"], "Alt") --Knight-Lieutenant's Leather Walkers
     LBIS:AddItem(spec2, "13210", LBIS.L["Feet"], "Alt") --Pads of the Dread Wolf
     LBIS:AddItem(spec2, "18506", LBIS.L["Feet"], "Alt") --Mongoose Boots
     LBIS:AddItem(spec2, "18404", LBIS.L["Neck"], "BIS") --Onyxia Tooth Pendant

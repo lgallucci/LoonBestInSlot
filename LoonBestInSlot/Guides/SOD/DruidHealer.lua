@@ -818,8 +818,8 @@ local function LoadData()
 
     LBIS:AddItem(spec7, "236182", LBIS.L["Head"], "BIS") --Dreamwalker Headpiece
     LBIS:AddItem(spec7, "233723", LBIS.L["Head"], "Alt") --Genesis Mask
-    LBIS:AddItem(spec7, "237288", LBIS.L["Head"], "Alt") --Sanctified Leather Helm
     LBIS:AddItem(spec7, "233624", LBIS.L["Head"], "Alt") --Don Rigoberto's Lost Hat
+    LBIS:AddItem(spec7, "237288", LBIS.L["Head"], "Alt") --Sanctified Leather Helm
     LBIS:AddItem(spec7, "228385", LBIS.L["Head"], "Alt") --Crystal Adorned Crown
     LBIS:AddItem(spec7, "233578", LBIS.L["Head"], "Alt") --Creeping Vine Helm
     LBIS:AddItem(spec7, "234073", LBIS.L["Head"], "Alt") --Dustwind Turban
@@ -837,26 +837,26 @@ local function LoadData()
     LBIS:AddItem(spec7, "18510", LBIS.L["Back"], "Alt") --Hide of the Wild
     LBIS:AddItem(spec7, "236186", LBIS.L["Chest"], "BIS") --Dreamwalker Tunic
     LBIS:AddItem(spec7, "233720", LBIS.L["Chest"], "Alt") --Genesis Chestguard
-    LBIS:AddItem(spec7, "236730", LBIS.L["Chest"], "Alt") --Tunic of Undead Purification
     LBIS:AddItem(spec7, "233594", LBIS.L["Chest"], "Alt") --Robes of the Guardian Saint
+    LBIS:AddItem(spec7, "236730", LBIS.L["Chest"], "Alt") --Tunic of Undead Purification
     LBIS:AddItem(spec7, "231230", LBIS.L["Chest"], "Alt") --Stormrage Chestguard
     LBIS:AddItem(spec7, "236183", LBIS.L["Wrist"], "BIS") --Dreamwalker Wristguards
-    LBIS:AddItem(spec7, "236728", LBIS.L["Wrist"], "Alt") --Wristwraps of Undead Purification
     LBIS:AddItem(spec7, "233617", LBIS.L["Wrist"], "Alt") --Bracelets of Royal Redemption
+    LBIS:AddItem(spec7, "236728", LBIS.L["Wrist"], "Alt") --Wristwraps of Undead Purification
     LBIS:AddItem(spec7, "231237", LBIS.L["Wrist"], "Alt") --Stormrage Bracers
     LBIS:AddItem(spec7, "233767", LBIS.L["Wrist"], "Alt") --Battle Hardened Dragonhide Wrists
     LBIS:AddItem(spec7, "226649", LBIS.L["Wrist"], "Alt") --Cenarion Bracers
     LBIS:AddItem(spec7, "236642", LBIS.L["Hands"], "BIS") --Mender's Handwraps
     LBIS:AddItem(spec7, "236184", LBIS.L["Hands"], "Alt") --Dreamwalker Handguards
-    LBIS:AddItem(spec7, "236729", LBIS.L["Hands"], "Alt") --Handwraps of Undead Purification
     LBIS:AddItem(spec7, "233608", LBIS.L["Hands"], "Alt") --Wasphide Gauntlets
+    LBIS:AddItem(spec7, "236729", LBIS.L["Hands"], "Alt") --Handwraps of Undead Purification
     LBIS:AddItem(spec7, "233607", LBIS.L["Hands"], "Alt") --Gloves of the Messiah
     LBIS:AddItem(spec7, "234106", LBIS.L["Hands"], "Alt") --Gloves of Dark Wisdom
     LBIS:AddItem(spec7, "234105", LBIS.L["Hands"], "Alt") --Gauntlets of New Life
     LBIS:AddItem(spec7, "231232", LBIS.L["Hands"], "Alt") --Stormrage Handguards
     LBIS:AddItem(spec7, "236187", LBIS.L["Waist"], "BIS") --Dreamwalker Girdle
-    LBIS:AddItem(spec7, "235878", LBIS.L["Waist"], "Alt") --Malefic Belt
     LBIS:AddItem(spec7, "233632", LBIS.L["Waist"], "Alt") --Grasp of the Old God
+    LBIS:AddItem(spec7, "235878", LBIS.L["Waist"], "Alt") --Malefic Belt
     LBIS:AddItem(spec7, "231236", LBIS.L["Waist"], "Alt") --Stormrage Belt
     LBIS:AddItem(spec7, "227837", LBIS.L["Waist"], "Alt") --Thick Corehound Belt
     LBIS:AddItem(spec7, "233763", LBIS.L["Waist"], "Alt") --Battle Hardened Dragonhide Waistguard
@@ -876,18 +876,18 @@ local function LoadData()
     LBIS:AddItem(spec7, "230743", LBIS.L["Feet"], "Alt") --Shimmering Geta
     LBIS:AddItem(spec7, "236345", LBIS.L["Neck"], "BIS") --Gem of Trapped Innocents
     LBIS:AddItem(spec7, "235887", LBIS.L["Neck"], "Alt") --Barian's Choker
-    LBIS:AddItem(spec7, "236266", LBIS.L["Neck"], "Alt") --Pendant of Forgotten Names
     LBIS:AddItem(spec7, "233562", LBIS.L["Neck"], "Alt") --Angelista's Charm
+    LBIS:AddItem(spec7, "236266", LBIS.L["Neck"], "Alt") --Pendant of Forgotten Names
     LBIS:AddItem(spec7, "21712", LBIS.L["Neck"], "Alt") --Amulet of the Fallen God
     LBIS:AddItem(spec7, "231003", LBIS.L["Neck"], "Alt") --Jin'do's Evil Eye
     LBIS:AddItem(spec7, "234812", LBIS.L["Neck"], "Alt") --Amulet of the Shifting Sands
     LBIS:AddItem(spec7, "236190", LBIS.L["Ring"], "BIS") --Ring of the Dreamwalker
     LBIS:AddItem(spec7, "236283", LBIS.L["Ring"], "BIS") --Ring of Spiritual Fervor
+    LBIS:AddItem(spec7, "234033", LBIS.L["Ring"], "Alt") --Signet Ring of the Bronze Dragonflight
     LBIS:AddItem(spec7, "237286", LBIS.L["Ring"], "Alt") --Band of Piety
     LBIS:AddItem(spec7, "233569", LBIS.L["Ring"], "Alt") --Ring of the Devoured
     LBIS:AddItem(spec7, "234786", LBIS.L["Ring"], "Alt") --Band of Earthen Wrath
     LBIS:AddItem(spec7, "228359", LBIS.L["Ring"], "Alt") --Ring of Entropy
-    LBIS:AddItem(spec7, "234033", LBIS.L["Ring"], "Alt") --Signet Ring of the Bronze Dragonflight
     LBIS:AddItem(spec7, "230811", LBIS.L["Ring"], "Alt") --Pure Elementium Band
     LBIS:AddItem(spec7, "231280", LBIS.L["Trinket"], "BIS") --Wushoolay's Charm of Nature
     LBIS:AddItem(spec7, "236329", LBIS.L["Trinket"], "BIS") --Eye of the Dead
