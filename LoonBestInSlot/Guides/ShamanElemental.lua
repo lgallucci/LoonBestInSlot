@@ -369,6 +369,7 @@ LBIS:AddItem(spec4, "78723", LBIS.L["Chest"], "BIS") --Spiritwalker's Hauberk
 LBIS:AddItem(spec4, "77125", LBIS.L["Chest"], "Alt") --Ghostworld Chestguard
 LBIS:AddItem(spec4, "71552", LBIS.L["Chest"], "Alt") --Erupting Volcanic Hauberk
 LBIS:AddItem(spec4, "78393", LBIS.L["Wrist"], "BIS") --Grotesquely Writhing Bracers
+LBIS:AddItem(spec4, "71997", LBIS.L["Wrist"], "Alt") --Thundering Deathscale Wristguards
 LBIS:AddItem(spec4, "77319", LBIS.L["Wrist"], "Alt") --Bracers of the Spectral Wolf
 LBIS:AddItem(spec4, "71425", LBIS.L["Wrist"], "Alt") --Lava Line Wristbands
 LBIS:AddItem(spec4, "71263", LBIS.L["Wrist"], "Alt") --Bracers of Misting Ash
@@ -379,6 +380,7 @@ LBIS:AddItem(spec4, "78463", LBIS.L["Waist"], "BIS") --Belt of Shattered Element
 LBIS:AddItem(spec4, "77183", LBIS.L["Waist"], "Alt") --Girdle of Shamanic Fury
 LBIS:AddItem(spec4, "71254", LBIS.L["Waist"], "Alt") --Firemend Cinch
 LBIS:AddItem(spec4, "78718", LBIS.L["Legs"], "BIS") --Spiritwalker's Legwraps
+LBIS:AddItem(spec4, "71988", LBIS.L["Legs"], "Alt") --Deathscale Leggings
 LBIS:AddItem(spec4, "71555", LBIS.L["Legs"], "Alt") --Erupting Volcanic Kilt
 LBIS:AddItem(spec4, "78405", LBIS.L["Feet"], "BIS") --Mindstrainer Treads
 LBIS:AddItem(spec4, "71451", LBIS.L["Feet"], "BIS") --Treads of Implicit Obedience

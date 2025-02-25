@@ -18,6 +18,7 @@ LBIS:AddEnchant(spec4, "74250", LBIS.L["Chest"]) --
 LBIS:AddEnchant(spec4, "96262", LBIS.L["Wrist"]) --
 LBIS:AddEnchant(spec4, "74255", LBIS.L["Hands"]) --
 LBIS:AddEnchant(spec4, "55016", LBIS.L["Waist"]) --
+LBIS:AddEnchant(spec4, "75150", LBIS.L["Legs"]) --
 LBIS:AddEnchant(spec4, "55631", LBIS.L["Legs"]) --
 LBIS:AddEnchant(spec4, "74253", LBIS.L["Feet"]) --
 LBIS:AddEnchant(spec4, "74242", LBIS.L["Main Hand"]) --
@@ -359,6 +360,7 @@ LBIS:AddItem(spec4, "77125", LBIS.L["Chest"], "Alt") --Ghostworld Chestguard
 LBIS:AddItem(spec4, "71542", LBIS.L["Chest"], "Alt") --Erupting Volcanic Tunic
 LBIS:AddItem(spec4, "71464", LBIS.L["Chest"], "Alt") --Gatekeeper's Embrace
 LBIS:AddItem(spec4, "78393", LBIS.L["Wrist"], "BIS") --Grotesquely Writhing Bracers
+LBIS:AddItem(spec4, "71997", LBIS.L["Wrist"], "Alt") --Thundering Deathscale Wristguards
 LBIS:AddItem(spec4, "77319", LBIS.L["Wrist"], "Alt") --Bracers of the Spectral Wolf
 LBIS:AddItem(spec4, "71425", LBIS.L["Wrist"], "Alt") --Lava Line Wristbands
 LBIS:AddItem(spec4, "71263", LBIS.L["Wrist"], "Alt") --Bracers of Misting Ash
@@ -370,6 +372,7 @@ LBIS:AddItem(spec4, "78463", LBIS.L["Waist"], "BIS") --Belt of Shattered Element
 LBIS:AddItem(spec4, "77183", LBIS.L["Waist"], "Alt") --Girdle of Shamanic Fury
 LBIS:AddItem(spec4, "71254", LBIS.L["Waist"], "Alt") --Firemend Cinch
 LBIS:AddItem(spec4, "78718", LBIS.L["Legs"], "BIS") --Spiritwalker's Legwraps
+LBIS:AddItem(spec4, "71988", LBIS.L["Legs"], "Alt") --Deathscale Leggings
 LBIS:AddItem(spec4, "71545", LBIS.L["Legs"], "Alt") --Erupting Volcanic Legwraps
 LBIS:AddItem(spec4, "78405", LBIS.L["Feet"], "BIS") --Mindstrainer Treads
 LBIS:AddItem(spec4, "77174", LBIS.L["Feet"], "Alt") --Sabatons of the Graceful Spirit
@@ -387,8 +390,8 @@ LBIS:AddItem(spec4, "71237", LBIS.L["Ring"], "Alt") --Quicksilver Signet of the 
 LBIS:AddItem(spec4, "71449", LBIS.L["Ring"], "Alt") --Crystal Prison Band
 LBIS:AddItem(spec4, "71211", LBIS.L["Ring"], "Alt") --Soothing Brimstone Circle
 LBIS:AddItem(spec4, "77996", LBIS.L["Trinket"], "BIS") --Heart of Unliving
+LBIS:AddItem(spec4, "78001", LBIS.L["Trinket"], "BIS") --Windward Heart
 LBIS:AddItem(spec4, "77995", LBIS.L["Trinket"], "BIS") --Will of Unbinding
-LBIS:AddItem(spec4, "78001", LBIS.L["Trinket"], "Alt") --Windward Heart
 LBIS:AddItem(spec4, "77989", LBIS.L["Trinket"], "Alt") --Seal of the Seven Signs
 LBIS:AddItem(spec4, "69111", LBIS.L["Trinket"], "Alt") --Jaws of Defeat
 LBIS:AddItem(spec4, "65124", LBIS.L["Trinket"], "Alt") --Fall of Mortality

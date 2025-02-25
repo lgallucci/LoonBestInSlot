@@ -444,8 +444,8 @@ LBIS:AddItem(spec4, "77089", LBIS.L["Neck"], "Alt") --Threadlinked Chain
 LBIS:AddItem(spec4, "71472", LBIS.L["Neck"], "Alt") --Flowform Choker
 LBIS:AddItem(spec4, "78491", LBIS.L["Ring"], "BIS") --Signet of Suturing
 LBIS:AddItem(spec4, "77229", LBIS.L["Ring"], "BIS") --Signet of Suturing
-LBIS:AddItem(spec4, "77109", LBIS.L["Ring"], "BIS") --Band of Reconstruction
-LBIS:AddItem(spec4, "78419", LBIS.L["Ring"], "Alt") --Ring of the Riven
+LBIS:AddItem(spec4, "78419", LBIS.L["Ring"], "BIS") --Ring of the Riven
+LBIS:AddItem(spec4, "77109", LBIS.L["Ring"], "Alt") --Band of Reconstruction
 LBIS:AddItem(spec4, "71237", LBIS.L["Ring"], "Alt") --Quicksilver Signet of the Avengers
 LBIS:AddItem(spec4, "78496", LBIS.L["Ring"], "Alt") --Signet of Suturing
 LBIS:AddItem(spec4, "78012", LBIS.L["Ring"], "Alt") --Ring of the Riven
