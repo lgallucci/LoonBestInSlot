@@ -757,6 +757,9 @@ local function LoadData()
     LBIS:AddItem(spec7, "236322", LBIS.L["Ranged/Relic"], "Alt") --Soulstring
     LBIS:AddItem(spec7, "233605", LBIS.L["Ranged/Relic"], "Alt") --Huhuran's Stinger
     LBIS:AddItem(spec7, "19361", LBIS.L["Ranged/Relic"], "Alt") --Ashjre'thul, Crossbow of Smiting
+    LBIS:AddItem(spec7, "235892", LBIS.L["Ranged/Relic"], "Alt") --Darkrider's Spine
+    LBIS:AddItem(spec7, "234434", LBIS.L["Ranged/Relic"], "Alt") --Obsidian Shotgun
+    LBIS:AddItem(spec7, "237278", LBIS.L["Ranged/Relic"], "Alt") --The Purifier
     LBIS:AddItem(spec7, "228334", LBIS.L["Ranged/Relic"], "Alt") --Rhok'delar, Longbow of the Ancient Keepers
     LBIS:AddItem(spec7, "230253", LBIS.L["Ranged/Relic"], "Alt") --Heartstriker
     LBIS:AddItem(spec7, "227849", LBIS.L["Ranged/Relic"], "Alt") --Fiery Core Sharpshooter Rifle

@@ -820,8 +820,8 @@ local function LoadData()
     LBIS:AddItem(spec7, "237292", LBIS.L["Legs"], "Alt") --Polar Leggings
     LBIS:AddItem(spec7, "236131", LBIS.L["Feet"], "BIS") --Redemption Greaves
     LBIS:AddItem(spec7, "231180", LBIS.L["Feet"], "BIS") --Judgement Sabatons
-    LBIS:AddItem(spec7, "235883", LBIS.L["Feet"], "Alt") --Well Diver's Stumble
     LBIS:AddItem(spec7, "235882", LBIS.L["Feet"], "Alt") --Clattering Steps
+    LBIS:AddItem(spec7, "235883", LBIS.L["Feet"], "Alt") --Well Diver's Stumble
     LBIS:AddItem(spec7, "233399", LBIS.L["Feet"], "Alt") --Avenger's Greaves
     LBIS:AddItem(spec7, "234095", LBIS.L["Feet"], "Alt") --Slime Kickers
     LBIS:AddItem(spec7, "234098", LBIS.L["Feet"], "Alt") --Boots of the Desert Protector
@@ -854,10 +854,11 @@ local function LoadData()
     LBIS:AddItem(spec7, "234135", LBIS.L["Ring"], "Alt") --Band of Icy Depths
     LBIS:AddItem(spec7, "236334", LBIS.L["Trinket"], "BIS") --Slayer's Crest
     LBIS:AddItem(spec7, "228722", LBIS.L["Trinket"], "BIS") --Hand of Justice
-    LBIS:AddItem(spec7, "233580", LBIS.L["Trinket"], "Alt") --Badge of the Swarmguard
+    LBIS:AddItem(spec7, "233580", LBIS.L["Trinket"], "BIS") --Badge of the Swarmguard
     LBIS:AddItem(spec7, "233627", LBIS.L["Trinket"], "Alt") --Jom Gabbar
     LBIS:AddItem(spec7, "236268", LBIS.L["Trinket"], "Alt") --Kiss of the Spider
     LBIS:AddItem(spec7, "233990", LBIS.L["Trinket"], "Alt") --Speedstone
+    LBIS:AddItem(spec7, "236302", LBIS.L["Trinket"], "Alt") --Eye of Diminution
     LBIS:AddItem(spec7, "230272", LBIS.L["Trinket"], "Alt") --Scrolls of Blinding Light
     LBIS:AddItem(spec7, "231779", LBIS.L["Trinket"], "Alt") --Wrath of Wray
     LBIS:AddItem(spec7, "234462", LBIS.L["Trinket"], "Alt") --Earthstrike
@@ -873,9 +874,9 @@ local function LoadData()
     LBIS:AddItem(spec7, "233490", LBIS.L["Two Hand"], "Alt") --Obsidian Champion
     LBIS:AddItem(spec7, "234985", LBIS.L["Two Hand"], "Alt") --Dark Edge of Insanity
     LBIS:AddItem(spec7, "228125", LBIS.L["Two Hand"], "Alt") --Refined Arcanite Champion
+    LBIS:AddItem(spec7, "234542", LBIS.L["Two Hand"], "Alt") --High Warlord's Greatsword
     LBIS:AddItem(spec7, "234990", LBIS.L["Two Hand"], "Alt") --Manslayer of the Qiraji
     LBIS:AddItem(spec7, "236321", LBIS.L["Two Hand"], "Alt") --Maul of the Redeemed Crusader
-    LBIS:AddItem(spec7, "234542", LBIS.L["Two Hand"], "Alt") --High Warlord's Greatsword
     LBIS:AddItem(spec7, "230271", LBIS.L["Two Hand"], "Alt") --Drake Talon Cleaver
     LBIS:AddItem(spec7, "227683", LBIS.L["Two Hand"], "Alt") --Sulfuras, Hand of Ragnaros
     LBIS:AddItem(spec7, "234987", LBIS.L["Two Hand"], "Alt") --Neretzek, The Blood Drinker

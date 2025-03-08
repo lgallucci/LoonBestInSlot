@@ -1578,7 +1578,7 @@
     },
     "234960": {
       "Name": "Reins of the Blood-Caked Tiger",
-      "Source": "unknown",
+      "Source": "Blood-Caked Gold Coin",
       "SourceType": "Dungeon Token",
       "SourceNumber": "2",
       "SourceLocation": "Emblem Vendor",
@@ -1586,7 +1586,7 @@
     },
     "234961": {
       "Name": "Whistle of the Blood-Caked Raptor",
-      "Source": "unknown",
+      "Source": "Blood-Caked Gold Coin",
       "SourceType": "Dungeon Token",
       "SourceNumber": "2",
       "SourceLocation": "Emblem Vendor",
@@ -1602,7 +1602,7 @@
     },
     "235145": {
       "Name": "Satchel of Blood-Caked Silver Coins",
-      "Source": "unknown",
+      "Source": "Blood-Caked Gold Coin",
       "SourceType": "Dungeon Token",
       "SourceNumber": "1",
       "SourceLocation": "Emblem Vendor",

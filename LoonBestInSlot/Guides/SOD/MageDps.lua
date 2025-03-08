@@ -24,6 +24,7 @@ local function LoadData()
     LBIS:AddEnchant(spec7, "20025", LBIS.L["Chest"]) --
     LBIS:AddEnchant(spec7, "13890", LBIS.L["Feet"]) --
     LBIS:AddEnchant(spec7, "22749", LBIS.L["Main Hand"]) --
+    LBIS:AddEnchant(spec7, "1219510", LBIS.L["Shoulder"]) --
 
     LBIS:AddItem(spec0, "226562", LBIS.L["Head"], "BIS") --Arcanist Crown
     LBIS:AddItem(spec0, "226935", LBIS.L["Head"], "BIS") --Sorcerer's Crown
@@ -493,8 +494,8 @@ local function LoadData()
 
     LBIS:AddItem(spec7, "236083", LBIS.L["Head"], "BIS") --Frostfire Circlet
     LBIS:AddItem(spec7, "233404", LBIS.L["Head"], "Alt") --Enigma Circlet
-    LBIS:AddItem(spec7, "236084", LBIS.L["Shoulder"], "BIS") --Frostfire Shoulderpads
-    LBIS:AddItem(spec7, "233403", LBIS.L["Shoulder"], "Alt") --Enigma Shoulderpads
+    LBIS:AddItem(spec7, "233403", LBIS.L["Shoulder"], "BIS") --Enigma Shoulderpads
+    LBIS:AddItem(spec7, "236084", LBIS.L["Shoulder"], "Alt") --Frostfire Shoulderpads
     LBIS:AddItem(spec7, "231325", LBIS.L["Shoulder"], "Alt") --Zandalar Illusionist's Mantle
     LBIS:AddItem(spec7, "236327", LBIS.L["Back"], "BIS") --Cloak of the Necropolis
     LBIS:AddItem(spec7, "236307", LBIS.L["Back"], "Alt") --Veil of Eclipse
@@ -507,27 +508,27 @@ local function LoadData()
     LBIS:AddItem(spec7, "236313", LBIS.L["Wrist"], "Alt") --The Soul Harvester's Bindings
     LBIS:AddItem(spec7, "236716", LBIS.L["Wrist"], "Alt") --Bracers of Undead Cleansing
     LBIS:AddItem(spec7, "231326", LBIS.L["Wrist"], "Alt") --Zandalar Illusionist's Wraps
-    LBIS:AddItem(spec7, "236082", LBIS.L["Hands"], "BIS") --Frostfire Gloves
-    LBIS:AddItem(spec7, "235874", LBIS.L["Hands"], "Alt") --Cultist's Handwraps
+    LBIS:AddItem(spec7, "235874", LBIS.L["Hands"], "BIS") --Cultist's Handwraps
+    LBIS:AddItem(spec7, "236082", LBIS.L["Hands"], "Alt") --Frostfire Gloves
     LBIS:AddItem(spec7, "236717", LBIS.L["Hands"], "Alt") --Gloves of Undead Cleansing
     LBIS:AddItem(spec7, "236078", LBIS.L["Waist"], "BIS") --Frostfire Belt
     LBIS:AddItem(spec7, "233633", LBIS.L["Waist"], "Alt") --Eyestalk Waist Cord
-    LBIS:AddItem(spec7, "236079", LBIS.L["Legs"], "BIS") --Frostfire Leggings
+    LBIS:AddItem(spec7, "233406", LBIS.L["Legs"], "BIS") --Enigma Leggings
+    LBIS:AddItem(spec7, "236079", LBIS.L["Legs"], "Alt") --Frostfire Leggings
     LBIS:AddItem(spec7, "236303", LBIS.L["Legs"], "Alt") --Leggings of Polarity
     LBIS:AddItem(spec7, "233574", LBIS.L["Legs"], "Alt") --Leggings of the Festering Swarm
-    LBIS:AddItem(spec7, "233406", LBIS.L["Legs"], "Alt") --Enigma Leggings
     LBIS:AddItem(spec7, "234108", LBIS.L["Legs"], "Alt") --Leggings of the Black Blizzard
     LBIS:AddItem(spec7, "236080", LBIS.L["Feet"], "BIS") --Frostfire Sandals
-    LBIS:AddItem(spec7, "235880", LBIS.L["Feet"], "Alt") --Pauper Soles
     LBIS:AddItem(spec7, "233405", LBIS.L["Feet"], "Alt") --Enigma Boots
+    LBIS:AddItem(spec7, "235880", LBIS.L["Feet"], "Alt") --Pauper Soles
     LBIS:AddItem(spec7, "236345", LBIS.L["Neck"], "BIS") --Gem of Trapped Innocents
     LBIS:AddItem(spec7, "236261", LBIS.L["Neck"], "Alt") --Malice Stone Pendant
     LBIS:AddItem(spec7, "233620", LBIS.L["Neck"], "Alt") --Amulet of Vek'nilash
     LBIS:AddItem(spec7, "231324", LBIS.L["Neck"], "Alt") --Jewel of Kajaro
     LBIS:AddItem(spec7, "236085", LBIS.L["Ring"], "BIS") --Frostfire Ring
-    LBIS:AddItem(spec7, "236273", LBIS.L["Ring"], "BIS") --Band of the Inevitable
+    LBIS:AddItem(spec7, "236223", LBIS.L["Ring"], "BIS") --Ring of the Eternal Flame
     LBIS:AddItem(spec7, "234032", LBIS.L["Ring"], "BIS") --Signet Ring of the Bronze Dragonflight
-    LBIS:AddItem(spec7, "236223", LBIS.L["Ring"], "Alt") --Ring of the Eternal Flame
+    LBIS:AddItem(spec7, "236273", LBIS.L["Ring"], "Alt") --Band of the Inevitable
     LBIS:AddItem(spec7, "236318", LBIS.L["Ring"], "Alt") --Seal of the Damned
     LBIS:AddItem(spec7, "233425", LBIS.L["Ring"], "Alt") --Band of Vaulted Secrets
     LBIS:AddItem(spec7, "234803", LBIS.L["Ring"], "Alt") --Ring of the Fallen God
@@ -537,9 +538,12 @@ local function LoadData()
     LBIS:AddItem(spec7, "233991", LBIS.L["Trinket"], "Alt") --Tear of the Dreamer
     LBIS:AddItem(spec7, "230810", LBIS.L["Trinket"], "Alt") --Neltharion's Tear
     LBIS:AddItem(spec7, "231282", LBIS.L["Trinket"], "Alt") --Hazza'rah's Charm of Chilled Magic
-    LBIS:AddItem(spec7, "236400", LBIS.L["Main Hand"], "BIS") --Atiesh, Greatstaff of the Guardian
-    LBIS:AddItem(spec7, "236346", LBIS.L["Main Hand"], "Alt") --Soulseeker
-    LBIS:AddItem(spec7, "229972", LBIS.L["Main Hand"], "Alt") --Staff of Rime
+    LBIS:AddItem(spec7, "236265", LBIS.L["Main Hand"], "BIS") --Wraith Blade
+    LBIS:AddItem(spec7, "236292", LBIS.L["Main Hand"], "Alt") --Midnight Haze
+    LBIS:AddItem(spec7, "233423", LBIS.L["Main Hand"], "Alt") --Blade of Vaulted Secrets
+    LBIS:AddItem(spec7, "234574", LBIS.L["Main Hand"], "Alt") --Grand Marshal's Mageblade
+    LBIS:AddItem(spec7, "234550", LBIS.L["Main Hand"], "Alt") --High Warlord's Spellblade
+    LBIS:AddItem(spec7, "233599", LBIS.L["Main Hand"], "Alt") --Sharpened Silithid Femur
     LBIS:AddItem(spec7, "236328", LBIS.L["Off Hand"], "BIS") --Sapphiron's Left Eye
     LBIS:AddItem(spec7, "236257", LBIS.L["Off Hand"], "Alt") --Gem of Nerubis
     LBIS:AddItem(spec7, "19311", LBIS.L["Off Hand"], "Alt") --Tome of Fiery Arcana
