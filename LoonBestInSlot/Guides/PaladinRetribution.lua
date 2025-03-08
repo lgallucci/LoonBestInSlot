@@ -401,17 +401,19 @@ LBIS:AddItem(spec4, "72886", LBIS.L["Ring"], "Alt") --Thrall's Gratitude
 LBIS:AddItem(spec4, "71208", LBIS.L["Ring"], "Alt") --Serrated Brimstone Signet
 LBIS:AddItem(spec4, "77997", LBIS.L["Trinket"], "BIS") --Eye of Unmaking
 LBIS:AddItem(spec4, "77992", LBIS.L["Trinket"], "BIS") --Creche of the Final Dragon
+LBIS:AddItem(spec4, "78002", LBIS.L["Trinket"], "Alt") --Bone-Link Fetish
 LBIS:AddItem(spec4, "77200", LBIS.L["Trinket"], "Alt") --Eye of Unmaking
 LBIS:AddItem(spec4, "77116", LBIS.L["Trinket"], "Alt") --Rotting Skull
 LBIS:AddItem(spec4, "73496", LBIS.L["Trinket"], "Alt") --Cataclysmic Gladiator's Badge of Victory
+LBIS:AddItem(spec4, "77210", LBIS.L["Trinket"], "Alt") --Bone-Link Fetish
 LBIS:AddItem(spec4, "69113", LBIS.L["Trinket"], "Alt") --Apparatus of Khaz'goroth
 LBIS:AddItem(spec4, "77205", LBIS.L["Trinket"], "Alt") --Creche of the Final Dragon
 LBIS:AddItem(spec4, "77977", LBIS.L["Trinket"], "Alt") --Eye of Unmaking
 LBIS:AddItem(spec4, "72899", LBIS.L["Trinket"], "Alt") --Varo'then's Brooch
 LBIS:AddItem(spec4, "65072", LBIS.L["Trinket"], "Alt") --Heart of Rage
 LBIS:AddItem(spec4, "73491", LBIS.L["Trinket"], "Alt") --Cataclysmic Gladiator's Insignia of Victory
+LBIS:AddItem(spec4, "77982", LBIS.L["Trinket"], "Alt") --Bone-Link Fetish
 LBIS:AddItem(spec4, "77972", LBIS.L["Trinket"], "Alt") --Creche of the Final Dragon
-LBIS:AddItem(spec4, "78002", LBIS.L["Trinket"], "Alt") --Bone-Link Fetish
 LBIS:AddItem(spec4, "68972", LBIS.L["Trinket"], "Alt") --Apparatus of Khaz'goroth
 LBIS:AddItem(spec4, "62464", LBIS.L["Trinket"], "Alt") --Impatience of Youth
 LBIS:AddItem(spec4, "62469", LBIS.L["Trinket"], "Alt") --Impatience of Youth
