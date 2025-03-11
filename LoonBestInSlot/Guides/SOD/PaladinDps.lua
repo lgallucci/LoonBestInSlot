@@ -754,6 +754,7 @@ local function LoadData()
     LBIS:AddItem(spec7, "236128", LBIS.L["Head"], "BIS") --Redemption Helmet
     LBIS:AddItem(spec7, "231178", LBIS.L["Head"], "Alt") --Judgement Crown
     LBIS:AddItem(spec7, "235871", LBIS.L["Head"], "Alt") --Clutching Death Helm
+    LBIS:AddItem(spec7, "215161", LBIS.L["Head"], "Alt") --Tempered Interference-Negating Helmet
     LBIS:AddItem(spec7, "233398", LBIS.L["Head"], "Alt") --Avenger's Crown
     LBIS:AddItem(spec7, "234084", LBIS.L["Head"], "Alt") --Southwind Helm
     LBIS:AddItem(spec7, "230246", LBIS.L["Head"], "Alt") --Helm of Endless Rage
