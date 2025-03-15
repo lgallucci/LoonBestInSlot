@@ -490,7 +490,7 @@ local function LoadData()
     LBIS:AddItem(spec7, "231306", LBIS.L["Neck"], "Alt") --Soul Corrupter's Necklace
     LBIS:AddItem(spec7, "228685", LBIS.L["Neck"], "Alt") --Onyxia Tooth Pendant
     LBIS:AddItem(spec7, "228147", LBIS.L["Neck"], "Alt") --Magmadar's Horn
-    LBIS:AddItem(spec7, "236157", LBIS.L["Ring"], "BIS") --Band of the Earthshatterer
+    LBIS:AddItem(spec7, "236176", LBIS.L["Ring"], "BIS") --Signet of the Earthshatterer
     LBIS:AddItem(spec7, "236286", LBIS.L["Ring"], "BIS") --Band of Unnatural Forces
     LBIS:AddItem(spec7, "233600", LBIS.L["Ring"], "Alt") --Ring of the Qiraji Fury
     LBIS:AddItem(spec7, "228261", LBIS.L["Ring"], "Alt") --Quick Strike Ring
@@ -507,9 +507,9 @@ local function LoadData()
     LBIS:AddItem(spec7, "230810", LBIS.L["Trinket"], "Alt") --Neltharion's Tear
     LBIS:AddItem(spec7, "228078", LBIS.L["Trinket"], "Alt") --Accursed Chalice
     LBIS:AddItem(spec7, "228722", LBIS.L["Trinket"], "Alt") --Hand of Justice
-    LBIS:AddItem(spec7, "236221", LBIS.L["Main Hand/Off Hand"], "BIS") --Misplaced Servo Arm
-    LBIS:AddItem(spec7, "236270", LBIS.L["Main Hand/Off Hand"], "Alt") --Hatchet of Sundered Bone
-    LBIS:AddItem(spec7, "236306", LBIS.L["Main Hand/Off Hand"], "Alt") --The Castigator
+    LBIS:AddItem(spec7, "236306", LBIS.L["Main Hand/Off Hand"], "BIS/Alt") --The Castigator
+    LBIS:AddItem(spec7, "236270", LBIS.L["Main Hand/Off Hand"], "Alt/BIS") --Hatchet of Sundered Bone
+    LBIS:AddItem(spec7, "236221", LBIS.L["Main Hand/Off Hand"], "Alt") --Misplaced Servo Arm
     LBIS:AddItem(spec7, "235003", LBIS.L["Main Hand/Off Hand"], "Alt") --Blessed Qiraji War Axe
     LBIS:AddItem(spec7, "234554", LBIS.L["Main Hand/Off Hand"], "Alt") --High Warlord's Cleaver
     LBIS:AddItem(spec7, "232561", LBIS.L["Main Hand"], "Alt") --Claw of the Black Drake
