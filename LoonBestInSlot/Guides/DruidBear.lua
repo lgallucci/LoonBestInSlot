@@ -363,8 +363,9 @@ LBIS:AddItem(spec4, "78494", LBIS.L["Ring"], "Alt") --Seal of Primordial Shadow
 LBIS:AddItem(spec4, "78421", LBIS.L["Ring"], "Alt") --Signet of Grasping Mouths
 LBIS:AddItem(spec4, "71209", LBIS.L["Ring"], "Alt") --Splintered Brimstone Seal
 LBIS:AddItem(spec4, "72845", LBIS.L["Ring"], "Alt") --Mannoroth's Signet
-LBIS:AddItem(spec4, "77994", LBIS.L["Trinket"], "BIS") --Wrath of Unchaining
 LBIS:AddItem(spec4, "77999", LBIS.L["Trinket"], "BIS") --Vial of Shadows
+LBIS:AddItem(spec4, "77994", LBIS.L["Trinket"], "BIS") --Wrath of Unchaining
+LBIS:AddItem(spec4, "78002", LBIS.L["Trinket"], "BIS") --Bone-Link Fetish
 LBIS:AddItem(spec4, "69150", LBIS.L["Trinket"], "BIS") --Matrix Restabilizer
 LBIS:AddItem(spec4, "69112", LBIS.L["Trinket"], "BIS") --The Hungerer
 LBIS:AddItem(spec4, "65140", LBIS.L["Trinket"], "BIS") --Essence of the Cyclone
