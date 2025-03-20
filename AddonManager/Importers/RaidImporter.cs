@@ -32,21 +32,7 @@ public class RaidImporter : LootImporter
 
     private Dictionary<string, (string, string)> bossUriList = new Dictionary<string, (string, string)>
     {
-        { @"https://www.wowhead.com/classic/npc=15956/anubrekhan#drops", ("Anub'Rekhan", "Naxxramas") },
-        { @"https://www.wowhead.com/classic/npc=15953/grand-widow-faerlina#drops", ("Grand Widow Faerlina", "Naxxramas") },
-        { @"https://www.wowhead.com/classic/npc=15952/maexxna#drops", ("Maexxna", "Naxxramas") },
-        { @"https://www.wowhead.com/classic/npc=15954/noth-the-plaguebringer#drops", ("Noth the Plaguebringer", "Naxxramas") },
-        { @"https://www.wowhead.com/classic/npc=15936/heigan-the-unclean#drops", ("Heigan the Unclean", "Naxxramas") },
-        { @"https://www.wowhead.com/classic/npc=16011/loatheb#drops", ("Loatheb", "Naxxramas") },
-        { @"https://www.wowhead.com/classic/npc=16061/instructor-razuvious#drops", ("Instructor Razuvious", "Naxxramas") },
-        { @"https://www.wowhead.com/classic/npc=16060/gothik-the-harvester#drops", ("Gothik the Harvester", "Naxxramas") },
-        { @"https://www.wowhead.com/classic/object=181366/four-horsemen-chest#contains", ("", "Naxxramas") },
-        { @"https://www.wowhead.com/classic/npc=16028/patchwerk#drops", ("Patchwerk", "Naxxramas") },
-        { @"https://www.wowhead.com/classic/npc=15931/grobbulus#drops", ("Grobbulus", "Naxxramas") },
-        { @"https://www.wowhead.com/classic/npc=15932/gluth#drops", ("Gluth", "Naxxramas") },
-        { @"https://www.wowhead.com/classic/npc=15928/thaddius#drops", ("Thaddius", "Naxxramas") },
-        { @"https://www.wowhead.com/classic/npc=15989/sapphiron#drops", ("Sapphiron", "Naxxramas") },
-        { @"https://www.wowhead.com/classic/npc=15990/kelthuzad#drops", ("Kel'Thuzad", "Naxxramas") },
+        { @"", ("", "Blackwing Lair") },
     };
     
 
