@@ -32,7 +32,14 @@ public class RaidImporter : LootImporter
 
     private Dictionary<string, (string, string)> bossUriList = new Dictionary<string, (string, string)>
     {
-        { @"", ("", "Blackwing Lair") },
+        { @"https://www.wowhead.com/classic/npc=12435/razorgore-the-untamed#drops", ("Razorgore the Untamed", "Blackwing Lair") },
+        { @"https://www.wowhead.com/classic/npc=13020/vaelastrasz-the-corrupt#drops", ("Vaelastrasz the Corrupt", "Blackwing Lair") },
+        { @"https://www.wowhead.com/classic/npc=12017/broodlord-lashlayer#drops", ("Broodlord Lashlayer", "Blackwing Lair") },
+        { @"https://www.wowhead.com/classic/npc=11983/firemaw#drops", ("Firemaw", "Blackwing Lair") },
+        { @"https://www.wowhead.com/classic/npc=14601/ebonroc#drops", ("Ebonroc", "Blackwing Lair") },
+        { @"https://www.wowhead.com/classic/npc=11981/flamegor#drops", ("Flamegor", "Blackwing Lair") },
+        { @"https://www.wowhead.com/classic/npc=14020/chromaggus#drops", ("Chromaggus", "Blackwing Lair") },
+        { @"https://www.wowhead.com/classic/npc=11583/nefarian#drops", ("Nefarian", "Blackwing Lair") },
     };
     
 

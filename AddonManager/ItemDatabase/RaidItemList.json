@@ -840,6 +840,14 @@
       "SourceLocation": "Zul'Gurub",
       "SourceFaction": "B"
     },
+    "20383": {
+      "Name": "Head of the Broodlord Lashlayer",
+      "Source": "Broodlord Lashlayer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
     "20884": {
       "Name": "Qiraji Magisterial Ring",
       "Source": "Various Bosses",
@@ -886,6 +894,14 @@
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "21138": {
+      "Name": "Red Scepter Shard",
+      "Source": "Nefarian",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
       "SourceFaction": "B"
     },
     "21221": {
@@ -4482,7 +4498,7 @@
     },
     "230257": {
       "Name": "Ring of Blackrock",
-      "Source": "Firemaw",
+      "Source": "Firemaw & Flamegor",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackwing Lair",
@@ -5600,6 +5616,14 @@
       "SourceLocation": "Zul'Gurub",
       "SourceFaction": "B"
     },
+    "231707": {
+      "Name": "Draconian Bindings",
+      "Source": "Nefarian",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
     "231708": {
       "Name": "Draconian Belt",
       "Source": "Prince Thunderaan",
@@ -5656,6 +5680,14 @@
       "SourceLocation": "Blackwing Lair",
       "SourceFaction": "B"
     },
+    "231715": {
+      "Name": "Primeval Bindings",
+      "Source": "Nefarian",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
     "231716": {
       "Name": "Primeval Belt",
       "Source": "Vaelastrasz the Corrupt & Ebonroc~Prince Thunderaan",
@@ -5674,7 +5706,7 @@
     },
     "231718": {
       "Name": "Primeval Leggings",
-      "Source": "Vaelastrasz the Corrupt & Firemaw",
+      "Source": "Vaelastrasz the Corrupt & Firemaw & Nefarian",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackwing Lair",
@@ -5682,7 +5714,7 @@
     },
     "231719": {
       "Name": "Primeval Helm",
-      "Source": "Ebonroc",
+      "Source": "Ebonroc & Nefarian",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackwing Lair",
@@ -5690,7 +5722,7 @@
     },
     "231720": {
       "Name": "Primeval Gloves",
-      "Source": "Razorgore the Untamed & Vaelastrasz the Corrupt",
+      "Source": "Razorgore the Untamed & Vaelastrasz the Corrupt & Nefarian",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackwing Lair",
@@ -5720,6 +5752,14 @@
       "SourceLocation": "Blackwing Lair",
       "SourceFaction": "B"
     },
+    "231724": {
+      "Name": "Ancient Bindings",
+      "Source": "Nefarian",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
     "231725": {
       "Name": "Ancient Belt",
       "Source": "Nefarian~Prince Thunderaan",
@@ -5738,7 +5778,7 @@
     },
     "231727": {
       "Name": "Ancient Leggings",
-      "Source": "Vaelastrasz the Corrupt & Firemaw",
+      "Source": "Vaelastrasz the Corrupt & Firemaw & Nefarian",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackwing Lair",
@@ -5746,7 +5786,7 @@
     },
     "231728": {
       "Name": "Ancient Helm",
-      "Source": "Ebonroc",
+      "Source": "Ebonroc & Nefarian",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackwing Lair",
@@ -5762,7 +5802,7 @@
     },
     "231730": {
       "Name": "Ancient Boots",
-      "Source": "Vaelastrasz the Corrupt & Broodlord Lashlayer",
+      "Source": "Vaelastrasz the Corrupt & Broodlord Lashlayer & Nefarian",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Blackwing Lair",
