@@ -65,7 +65,7 @@ internal class ClassicShamanEnhancementMapping : ClassicSpecMapping
             { ("Ring", "#rings-for-enhancement-shaman") },
             { ("Trinket", "#trinkets-for-enhancement-shaman") },
             { ("Main Hand", "#one-handed-for-enhancement-shaman") },
-            { ("Off Hand", "#off-handed-for-enhancement-shaman") },
+            { ("Off Hand", "#off-hand-weapon-for-enhancement-shaman") },
             { ("Two Hand", "#two-handed-for-enhancement-shaman") },
             //TODO: Wait til ranged are added
         };

@@ -55,22 +55,11 @@ internal class ClassicMageDpsMapping : ClassicSpecMapping
     public override string Phase3Url => "wow-classic-mage-dps-blackwing-lair-best-in-slot-gear";
     public override List<(string, GuideMapping)> Phase3 => new List<(string, GuideMapping)>
         {
-            { ("Head", "#helm-for-mages") },
-            { ("Shoulder", "#shoulder-for-mages") },
-            { ("Back", "#back-for-mages") },
-            { ("Chest", "#chest-for-mages") },
-            { ("Wrist", "#bracers-for-mages") },
-            { ("Hands", "#hands-for-mages") },
-            { ("Waist", "#belt-for-mages") },
-            { ("Legs", "#legs-for-mages") },
-            { ("Feet", "#boots-for-mages") },
-            { ("Neck", "#neck-for-mages") },
-            { ("Ring", "#rings-for-mages") },
-            { ("Trinket", "#trinkets-for-mages") },
-            { ("Main Hand", "#one-hand-weapons-for-mages") },
-            { ("Off Hand", "#off-hand-items-for-mages") },
-            { ("Two Hand", "#two-hand-weapons-for-mages") },
-            { ("Ranged/Relic", "#wands-for-mages") },
+            { ("Wrist", "#wrists") },
+            { ("Ring", "#ring") },
+            { ("Main Hand", "#weapon") },
+            { ("Off Hand", "#off-hand") },
+            { ("Ranged/Relic", "#ranged") },
         };
 
     public override string Phase4Url => throw new NotImplementedException();
