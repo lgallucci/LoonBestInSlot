@@ -58,7 +58,7 @@ internal class ClassicRogueDpsMapping : ClassicSpecMapping
     public override List<(string, GuideMapping)> Phase3 => new List<(string, GuideMapping)>
         {
             { ("Head", "#helm-for-rogues") },
-            { ("Shoulder", "#shoulder-for-rogues") },
+            { ("Shoulder", "#shoulders-for-rogues") },
             { ("Back", "#back-for-rogues") },
             { ("Chest", "#chest-for-rogues") },
             { ("Wrist", "#bracers-for-rogues") },
