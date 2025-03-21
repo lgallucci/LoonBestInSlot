@@ -47,12 +47,60 @@ internal class ClassicPaladinRetributionMapping : ClassicSpecMapping
             //TODO: Wait til ranged are added
         };
 
-    public override string Phase3Url => throw new NotImplementedException();
-    public override List<(string, GuideMapping)> Phase3 => throw new NotImplementedException();
+    public override string Phase3Url => "wow-classic-paladin-dps-blackwing-lair-best-in-slot-gear";
+    public override List<(string, GuideMapping)> Phase3 => new List<(string, GuideMapping)>
+        {
+            { ("Head", "#helm-for-paladin-dps") },
+            { ("Shoulder", "#shoulder-for-paladin-dps") },
+            { ("Back", "#back-for-paladin-dps") },
+            { ("Chest", "#chest-for-paladin-dps") },
+            { ("Wrist", "#bracers-for-paladin-dps") },
+            { ("Hands", "#hands-for-paladin-dps") },
+            { ("Waist", "#belt-for-paladin-dps") },
+            { ("Legs", "#legs-for-paladin-dps") },
+            { ("Feet", "#boots-for-paladin-dps") },
+            { ("Neck", "#neck-for-paladin-dps") },
+            { ("Ring", "#rings-for-paladin-dps") },
+            { ("Trinket", "#trinkets-for-paladin-dps") },
+            { ("Two Hand", "#two-hand-weapons-for-paladin-dps") },
+            //TODO: Wait til ranged are added
+        };
 
     public override string Phase4Url => throw new NotImplementedException();
-    public override List<(string, GuideMapping)> Phase4 => throw new NotImplementedException();
+    public override List<(string, GuideMapping)> Phase4 => new List<(string, GuideMapping)>
+        {
+            { ("Head", "#helm-for-paladin-dps") },
+            { ("Shoulder", "#shoulder-for-paladin-dps") },
+            { ("Back", "#back-for-paladin-dps") },
+            { ("Chest", "#chest-for-paladin-dps") },
+            { ("Wrist", "#bracers-for-paladin-dps") },
+            { ("Hands", "#hands-for-paladin-dps") },
+            { ("Waist", "#belt-for-paladin-dps") },
+            { ("Legs", "#legs-for-paladin-dps") },
+            { ("Feet", "#boots-for-paladin-dps") },
+            { ("Neck", "#neck-for-paladin-dps") },
+            { ("Ring", "#rings-for-paladin-dps") },
+            { ("Trinket", "#trinkets-for-paladin-dps") },
+            { ("Two Hand", "#two-hand-weapons-for-paladin-dps") },
+            //TODO: Wait til ranged are added
+        };
 
     public override string Phase5Url => throw new NotImplementedException();
-    public override List<(string, GuideMapping)> Phase5 => throw new NotImplementedException();
+    public override List<(string, GuideMapping)> Phase5 => new List<(string, GuideMapping)>
+        {
+            { ("Head", "#helm-for-paladin-dps") },
+            { ("Shoulder", "#shoulder-for-paladin-dps") },
+            { ("Back", "#back-for-paladin-dps") },
+            { ("Chest", "#chest-for-paladin-dps") },
+            { ("Wrist", "#bracers-for-paladin-dps") },
+            { ("Hands", "#hands-for-paladin-dps") },
+            { ("Waist", "#belt-for-paladin-dps") },
+            { ("Legs", "#legs-for-paladin-dps") },
+            { ("Feet", "#boots-for-paladin-dps") },
+            { ("Neck", "#neck-for-paladin-dps") },
+            { ("Ring", "#rings-for-paladin-dps") },
+            { ("Trinket", "#trinkets-for-paladin-dps") },
+            { ("Two Hand", "#two-hand-weapons-for-paladin-dps") },
+            //TODO: Wait til ranged are added
+        };
 }

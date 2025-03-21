@@ -39,12 +39,63 @@ internal class ClassicWarriorDpsMapping : ClassicSpecMapping
             { ("Ranged/Relic", "#ranged-weapons") }
         };
 
-    public override string Phase3Url => throw new NotImplementedException();
-    public override List<(string, GuideMapping)> Phase3 => throw new NotImplementedException();
+    public override string Phase3Url => "wow-classic-fury-warrior-dps-blackwing-lair-best-in-slot-gear";
+    public override List<(string, GuideMapping)> Phase3 => new List<(string, GuideMapping)>
+        {
+            { ("Head", "#helm") },
+            { ("Shoulder", "#shoulders") },
+            { ("Back", "#back") },
+            { ("Chest", "#chest") },
+            { ("Wrist", "#bracers") },
+            { ("Hands", "#hands") },
+            { ("Waist", "#belt") },
+            { ("Legs", "#legs") },
+            { ("Feet", "#boots") },
+            { ("Neck", "#neck") },
+            { ("Ring", "#rings") },
+            { ("Trinket", "#trinkets") },
+            { ("Main Hand", "#main-hand-weapons") },
+            { ("Off Hand", "#off-hand-weapons") },
+            { ("Ranged/Relic", "#ranged-weapons") }
+        };
 
     public override string Phase4Url => throw new NotImplementedException();
-    public override List<(string, GuideMapping)> Phase4 => throw new NotImplementedException();
+    public override List<(string, GuideMapping)> Phase4 => new List<(string, GuideMapping)>
+        {
+            { ("Head", "#helm") },
+            { ("Shoulder", "#shoulders") },
+            { ("Back", "#back") },
+            { ("Chest", "#chest") },
+            { ("Wrist", "#bracers") },
+            { ("Hands", "#hands") },
+            { ("Waist", "#belt") },
+            { ("Legs", "#legs") },
+            { ("Feet", "#boots") },
+            { ("Neck", "#neck") },
+            { ("Ring", "#rings") },
+            { ("Trinket", "#trinkets") },
+            { ("Main Hand", "#main-hand-weapons") },
+            { ("Off Hand", "#off-hand-weapons") },
+            { ("Ranged/Relic", "#ranged-weapons") }
+        };
 
     public override string Phase5Url => throw new NotImplementedException();
-    public override List<(string, GuideMapping)> Phase5 => throw new NotImplementedException();
+    public override List<(string, GuideMapping)> Phase5 => new List<(string, GuideMapping)>
+        {
+            { ("Head", "#helm") },
+            { ("Shoulder", "#shoulders") },
+            { ("Back", "#back") },
+            { ("Chest", "#chest") },
+            { ("Wrist", "#bracers") },
+            { ("Hands", "#hands") },
+            { ("Waist", "#belt") },
+            { ("Legs", "#legs") },
+            { ("Feet", "#boots") },
+            { ("Neck", "#neck") },
+            { ("Ring", "#rings") },
+            { ("Trinket", "#trinkets") },
+            { ("Main Hand", "#main-hand-weapons") },
+            { ("Off Hand", "#off-hand-weapons") },
+            { ("Ranged/Relic", "#ranged-weapons") }
+        };
 }

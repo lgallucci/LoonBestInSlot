@@ -50,12 +50,63 @@ internal class ClassicHunterDpsMapping : ClassicSpecMapping
             { ("Ranged/Relic", "#ranged-weapons-for-hunters") },
         };
 
-    public override string Phase3Url => throw new NotImplementedException();
-    public override List<(string, GuideMapping)> Phase3 => throw new NotImplementedException();
+    public override string Phase3Url => "wow-classic-hunter-dps-blackwing-lair-best-in-slot-gear";
+    public override List<(string, GuideMapping)> Phase3 => new List<(string, GuideMapping)>
+        {
+            { ("Head", "#helm-for-hunters") },
+            { ("Shoulder", "#shoulder-for-hunters") },
+            { ("Back", "#back-for-hunters") },
+            { ("Chest", "#chest-for-hunters") },
+            { ("Wrist", "#bracers-for-hunters") },
+            { ("Hands", "#hands-for-hunters") },
+            { ("Waist", "#belt-for-hunters") },
+            { ("Legs", "#legs-for-hunters") },
+            { ("Feet", "#boots-for-hunters") },
+            { ("Neck", "#neck-for-hunters") },
+            { ("Ring", "#rings-for-hunters") },
+            { ("Trinket", "#trinkets-for-hunters") },
+            { ("Main Hand", "#one-hand-weapons-for-hunters") },
+            { ("Two Hand", "#two-hand-weapons-for-hunters") },
+            { ("Ranged/Relic", "#ranged-weapons-for-hunters") },
+        };
 
     public override string Phase4Url => throw new NotImplementedException();
-    public override List<(string, GuideMapping)> Phase4 => throw new NotImplementedException();
+    public override List<(string, GuideMapping)> Phase4 => new List<(string, GuideMapping)>
+        {
+            { ("Head", "#helm-for-hunters") },
+            { ("Shoulder", "#shoulder-for-hunters") },
+            { ("Back", "#back-for-hunters") },
+            { ("Chest", "#chest-for-hunters") },
+            { ("Wrist", "#bracers-for-hunters") },
+            { ("Hands", "#hands-for-hunters") },
+            { ("Waist", "#belt-for-hunters") },
+            { ("Legs", "#legs-for-hunters") },
+            { ("Feet", "#boots-for-hunters") },
+            { ("Neck", "#neck-for-hunters") },
+            { ("Ring", "#rings-for-hunters") },
+            { ("Trinket", "#trinkets-for-hunters") },
+            { ("Main Hand", "#one-hand-weapons-for-hunters") },
+            { ("Two Hand", "#two-hand-weapons-for-hunters") },
+            { ("Ranged/Relic", "#ranged-weapons-for-hunters") },
+        };
 
     public override string Phase5Url => throw new NotImplementedException();
-    public override List<(string, GuideMapping)> Phase5 => throw new NotImplementedException();
+    public override List<(string, GuideMapping)> Phase5 => new List<(string, GuideMapping)>
+        {
+            { ("Head", "#helm-for-hunters") },
+            { ("Shoulder", "#shoulder-for-hunters") },
+            { ("Back", "#back-for-hunters") },
+            { ("Chest", "#chest-for-hunters") },
+            { ("Wrist", "#bracers-for-hunters") },
+            { ("Hands", "#hands-for-hunters") },
+            { ("Waist", "#belt-for-hunters") },
+            { ("Legs", "#legs-for-hunters") },
+            { ("Feet", "#boots-for-hunters") },
+            { ("Neck", "#neck-for-hunters") },
+            { ("Ring", "#rings-for-hunters") },
+            { ("Trinket", "#trinkets-for-hunters") },
+            { ("Main Hand", "#one-hand-weapons-for-hunters") },
+            { ("Two Hand", "#two-hand-weapons-for-hunters") },
+            { ("Ranged/Relic", "#ranged-weapons-for-hunters") },
+        };
 }

@@ -51,12 +51,66 @@ internal class ClassicShamanElementalMapping : ClassicSpecMapping
             //TODO: Wait til ranged are added
         };
 
-    public override string Phase3Url => throw new NotImplementedException();
-    public override List<(string, GuideMapping)> Phase3 => throw new NotImplementedException();
+    public override string Phase3Url => "wow-classic-elemental-shaman-dps-blackwing-lair-best-in-slot-gear";
+    public override List<(string, GuideMapping)> Phase3 => new List<(string, GuideMapping)>
+        {
+            { ("Head", "#head-for-elemental-shaman") },
+            { ("Shoulder", "#shoulders-for-elemental-shaman") },
+            { ("Back", "#back-for-elemental-shaman") },
+            { ("Chest", "#chest-for-elemental-shaman") },
+            { ("Wrist", "#wrist-for-elemental-shaman") },
+            { ("Hands", "#hands-for-elemental-shaman") },
+            { ("Waist", "#waist-for-elemental-shaman") },
+            { ("Legs", "#legs-for-elemental-shaman") },
+            { ("Feet", "#feet-for-elemental-shaman") },
+            { ("Neck", "#neck-for-elemental-shaman") },
+            { ("Ring", "#ring-for-elemental-shaman") },
+            { ("Trinket", "#trinket-for-elemental-shaman") },
+            { ("Main Hand", "#one-handed-weapons-for-elemental-shaman") },
+            { ("Off Hand", "#off-hands-for-elemental-shaman") },
+            { ("Two Hand", "#two-handed-weapons-for-elemental-shaman") },
+            //TODO: Wait til ranged are added
+        };
 
     public override string Phase4Url => throw new NotImplementedException();
-    public override List<(string, GuideMapping)> Phase4 => throw new NotImplementedException();
+    public override List<(string, GuideMapping)> Phase4 => new List<(string, GuideMapping)>
+        {
+            { ("Head", "#head-for-elemental-shaman") },
+            { ("Shoulder", "#shoulders-for-elemental-shaman") },
+            { ("Back", "#back-for-elemental-shaman") },
+            { ("Chest", "#chest-for-elemental-shaman") },
+            { ("Wrist", "#wrist-for-elemental-shaman") },
+            { ("Hands", "#hands-for-elemental-shaman") },
+            { ("Waist", "#waist-for-elemental-shaman") },
+            { ("Legs", "#legs-for-elemental-shaman") },
+            { ("Feet", "#feet-for-elemental-shaman") },
+            { ("Neck", "#neck-for-elemental-shaman") },
+            { ("Ring", "#ring-for-elemental-shaman") },
+            { ("Trinket", "#trinket-for-elemental-shaman") },
+            { ("Main Hand", "#one-handed-weapons-for-elemental-shaman") },
+            { ("Off Hand", "#off-hands-for-elemental-shaman") },
+            { ("Two Hand", "#two-handed-weapons-for-elemental-shaman") },
+            //TODO: Wait til ranged are added
+        };
 
     public override string Phase5Url => throw new NotImplementedException();
-    public override List<(string, GuideMapping)> Phase5 => throw new NotImplementedException();
+    public override List<(string, GuideMapping)> Phase5 => new List<(string, GuideMapping)>
+        {
+            { ("Head", "#head-for-elemental-shaman") },
+            { ("Shoulder", "#shoulders-for-elemental-shaman") },
+            { ("Back", "#back-for-elemental-shaman") },
+            { ("Chest", "#chest-for-elemental-shaman") },
+            { ("Wrist", "#wrist-for-elemental-shaman") },
+            { ("Hands", "#hands-for-elemental-shaman") },
+            { ("Waist", "#waist-for-elemental-shaman") },
+            { ("Legs", "#legs-for-elemental-shaman") },
+            { ("Feet", "#feet-for-elemental-shaman") },
+            { ("Neck", "#neck-for-elemental-shaman") },
+            { ("Ring", "#ring-for-elemental-shaman") },
+            { ("Trinket", "#trinket-for-elemental-shaman") },
+            { ("Main Hand", "#one-handed-weapons-for-elemental-shaman") },
+            { ("Off Hand", "#off-hands-for-elemental-shaman") },
+            { ("Two Hand", "#two-handed-weapons-for-elemental-shaman") },
+            //TODO: Wait til ranged are added
+        };
 }

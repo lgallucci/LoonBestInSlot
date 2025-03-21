@@ -53,8 +53,26 @@ internal class ClassicDruidBalanceMapping : ClassicSpecMapping
             { ("Ranged/Relic", "#idols") },
         };
 
-    public override string Phase3Url => throw new NotImplementedException();
-    public override List<(string, GuideMapping)> Phase3 => throw new NotImplementedException();
+    public override string Phase3Url => "wow-classic-balance-druid-dps-blackwing-lair-best-in-slot-gear";
+    public override List<(string, GuideMapping)> Phase3 =>  new List<(string, GuideMapping)>
+        {
+            { ("Head", "#helm") },        
+            { ("Shoulder", "#shoulder") },
+            { ("Back", "#back") },
+            { ("Chest", "#chest") },
+            { ("Wrist", "#bracers") },
+            { ("Hands", "#hands") },
+            { ("Waist", "#belt") },
+            { ("Legs", "#legs") },
+            { ("Feet", "#boots") },
+            { ("Neck", "#neck") },
+            { ("Ring", "#rings") },
+            { ("Trinket", "#trinkets") },
+            { ("Main Hand", "#one-hand-weapons") },
+            { ("Off Hand", "#off-hand-items") },
+            { ("Two Hand", "#two-hand-weapons") },
+            { ("Ranged/Relic", "#idols") },
+        };
 
     public override string Phase4Url => throw new NotImplementedException();
     public override List<(string, GuideMapping)> Phase4 => throw new NotImplementedException();
