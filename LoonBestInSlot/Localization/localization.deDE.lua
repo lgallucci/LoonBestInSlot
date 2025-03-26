@@ -3,6 +3,7 @@ if GetLocale() == "deDE" then
   LBIS.L["1200 Tickets - Amulet of the Darkmoon"] = "1200 Lose - Amulett des Dunkelmonds";
   LBIS.L["1200 Tickets - Orb of the Darkmoon"] = "1200 Lose - Kugel des Dunkelmonds";
 --  LBIS.L["2xJang'thraze the Protector"] = "";
+--  LBIS.L["3 Drakes"] = "";
   LBIS.L["A Better Ingredient"] = "Eine bessere Zutat";
 --  LBIS.L["A Broken Ritual"] = "";
   LBIS.L["A Collection of Heads"] = "Die Schädelsammlung";
@@ -210,6 +211,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Death From Below"] = "Tod von unten";
   LBIS.L["Death Knight Darkreaver"] = "Todesritter Schattensichel";
   LBIS.L["Death Speaker Jargba"] = "Todessprecher Jargba";
+--  LBIS.L["Death Talon Overseer"] = "";
 --  LBIS.L["Death's Advance"] = "";
   LBIS.L["Death's Embrace"] = "Umarmung des Todes";
   LBIS.L["Deathsworn Captain (Rare)"] = "Todeshöriger Captain (Selten)";
@@ -238,6 +240,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Doling Justice"] = "Gerechtigkeit üben";
 --  LBIS.L["Dps"] = "";
 --  LBIS.L["Dragonmaw Centurion"] = "";
+--  LBIS.L["Drakes"] = "";
   LBIS.L["Drape of Unyielding Strength"] = "Tuch der unnachgiebigen Stärke";
   LBIS.L["Dreamscythe"] = "Traumsense";
   LBIS.L["Drop"] = "Raid";
@@ -535,6 +538,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Mekgineer Thermaplugg"] = "Robogenieur Thermaplugg";
 --  LBIS.L["MeleeDps"] = "";
   LBIS.L["Meshlok the Harvester (Rare)"] = "Meshlok der Ernter (Selten)";
+--  LBIS.L["Middle Bosses"] = "";
   LBIS.L["Miner Johnson (Rare)"] = "Minenarbeiter Johnson (Selten)";
   LBIS.L["Missing In Action"] = "Vermisst";
 --  LBIS.L["Mith'rethis the Enchanter"] = "";
@@ -726,6 +730,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Shadowpriest Sezz'ziz"] = "Schattenpriester Sezz'ziz";
   LBIS.L["Shadowshard Fragments"] = "Schattensplitter";
 --  LBIS.L["Shadowtooth Emissary"] = "";
+  LBIS.L["Shards of the Felvine"] = "Die Splitter der Teufelsranke";
   LBIS.L["Shazzrah"] = "Shazzrah";
 --  LBIS.L["Shifting Scale Talisman"] = "";
   LBIS.L["Shirt"] = "Hemd";

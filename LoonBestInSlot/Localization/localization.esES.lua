@@ -3,6 +3,7 @@ if GetLocale() == "esES" then
   LBIS.L["1200 Tickets - Amulet of the Darkmoon"] = "1200 vales: amuleto de la Luna Negra";
   LBIS.L["1200 Tickets - Orb of the Darkmoon"] = "1200 vales: orbe de la Luna Negra";
 --  LBIS.L["2xJang'thraze the Protector"] = "";
+--  LBIS.L["3 Drakes"] = "";
   LBIS.L["A Better Ingredient"] = "Un ingrediente mejor";
 --  LBIS.L["A Broken Ritual"] = "";
   LBIS.L["A Collection of Heads"] = "Una colección de cabezas";
@@ -210,6 +211,7 @@ if GetLocale() == "esES" then
   LBIS.L["Death From Below"] = "Muertos desde abajo";
   LBIS.L["Death Knight Darkreaver"] = "Caballero de la Muerte Atracoscuro";
   LBIS.L["Death Speaker Jargba"] = "Médium Jargba";
+--  LBIS.L["Death Talon Overseer"] = "";
 --  LBIS.L["Death's Advance"] = "";
   LBIS.L["Death's Embrace"] = "Abrazo de la Muerte";
   LBIS.L["Deathsworn Captain (Rare)"] = "Capitán Juramorte (Raro)";
@@ -238,6 +240,7 @@ if GetLocale() == "esES" then
   LBIS.L["Doling Justice"] = "La justicia del castigo";
 --  LBIS.L["Dps"] = "";
 --  LBIS.L["Dragonmaw Centurion"] = "";
+--  LBIS.L["Drakes"] = "";
   LBIS.L["Drape of Unyielding Strength"] = "El mantón de fuerza implacable";
   LBIS.L["Dreamscythe"] = "Guadañasueños";
   LBIS.L["Drop"] = "Soltar";
@@ -535,6 +538,7 @@ if GetLocale() == "esES" then
   LBIS.L["Mekgineer Thermaplugg"] = "Mekigeniero Termochufe";
 --  LBIS.L["MeleeDps"] = "";
   LBIS.L["Meshlok the Harvester (Rare)"] = "Meshlok el Cosechador (Raro)";
+--  LBIS.L["Middle Bosses"] = "";
   LBIS.L["Miner Johnson (Rare)"] = "Minero Johnson (Raro)";
   LBIS.L["Missing In Action"] = "Desaparecido en combate";
 --  LBIS.L["Mith'rethis the Enchanter"] = "";
@@ -726,6 +730,7 @@ if GetLocale() == "esES" then
   LBIS.L["Shadowpriest Sezz'ziz"] = "Sacerdote oscuro Sezz'ziz";
   LBIS.L["Shadowshard Fragments"] = "Trozos Oscuros";
 --  LBIS.L["Shadowtooth Emissary"] = "";
+  LBIS.L["Shards of the Felvine"] = "Fragmentos de gangrevid";
   LBIS.L["Shazzrah"] = "Shazzrah";
 --  LBIS.L["Shifting Scale Talisman"] = "";
   LBIS.L["Shirt"] = "Camisa";

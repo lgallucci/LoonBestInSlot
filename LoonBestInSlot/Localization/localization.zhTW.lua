@@ -3,6 +3,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["1200 Tickets - Amulet of the Darkmoon"] = "1200張獎券 - 暗月護符";
   LBIS.L["1200 Tickets - Orb of the Darkmoon"] = "1200張獎券 - 暗月寶珠";
 --  LBIS.L["2xJang'thraze the Protector"] = "";
+--  LBIS.L["3 Drakes"] = "";
   LBIS.L["A Better Ingredient"] = "更好的材料";
 --  LBIS.L["A Broken Ritual"] = "";
   LBIS.L["A Collection of Heads"] = "收集頭顱";
@@ -210,6 +211,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Death From Below"] = "水下伏兵";
   LBIS.L["Death Knight Darkreaver"] = "死亡騎士達克雷爾";
   LBIS.L["Death Speaker Jargba"] = "亡語者賈格巴";
+--  LBIS.L["Death Talon Overseer"] = "";
 --  LBIS.L["Death's Advance"] = "";
   LBIS.L["Death's Embrace"] = "死亡的擁抱";
   LBIS.L["Deathsworn Captain (Rare)"] = "死亡誓言者隊長 (精良)";
@@ -238,6 +240,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Doling Justice"] = "菲拉斯的正義";
 --  LBIS.L["Dps"] = "";
 --  LBIS.L["Dragonmaw Centurion"] = "";
+--  LBIS.L["Drakes"] = "";
   LBIS.L["Drape of Unyielding Strength"] = "不屈力量披氅";
   LBIS.L["Dreamscythe"] = "德姆塞卡爾";
   LBIS.L["Drop"] = "掉落";
@@ -535,6 +538,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Mekgineer Thermaplugg"] = "麥克尼爾·瑟瑪普拉格";
 --  LBIS.L["MeleeDps"] = "";
   LBIS.L["Meshlok the Harvester (Rare)"] = "『收割者』麥什洛克 (精良)";
+--  LBIS.L["Middle Bosses"] = "";
   LBIS.L["Miner Johnson (Rare)"] = "礦工約翰森 (精良)";
   LBIS.L["Missing In Action"] = "失蹤人員";
 --  LBIS.L["Mith'rethis the Enchanter"] = "";
@@ -726,6 +730,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Shadowpriest Sezz'ziz"] = "暗影祭司塞瑟斯";
   LBIS.L["Shadowshard Fragments"] = "裂影碎片";
 --  LBIS.L["Shadowtooth Emissary"] = "";
+  LBIS.L["Shards of the Felvine"] = "魔藤裂片";
   LBIS.L["Shazzrah"] = "沙斯拉爾";
 --  LBIS.L["Shifting Scale Talisman"] = "";
   LBIS.L["Shirt"] = "襯衣";

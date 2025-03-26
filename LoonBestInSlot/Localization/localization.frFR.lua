@@ -3,6 +3,7 @@ if GetLocale() == "frFR" then
   LBIS.L["1200 Tickets - Amulet of the Darkmoon"] = "1200 bons - Amulette de la Sombrelune";
   LBIS.L["1200 Tickets - Orb of the Darkmoon"] = "1200 bons - Orbe de Sombrelune";
 --  LBIS.L["2xJang'thraze the Protector"] = "";
+--  LBIS.L["3 Drakes"] = "";
   LBIS.L["A Better Ingredient"] = "Un meilleur ingrédient";
 --  LBIS.L["A Broken Ritual"] = "";
   LBIS.L["A Collection of Heads"] = "Une collection de têtes";
@@ -210,6 +211,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Death From Below"] = "La mort venue d'en bas";
   LBIS.L["Death Knight Darkreaver"] = "Chevalier de la mort Ravassombre";
   LBIS.L["Death Speaker Jargba"] = "Nécrorateur Jargba";
+--  LBIS.L["Death Talon Overseer"] = "";
 --  LBIS.L["Death's Advance"] = "";
   LBIS.L["Death's Embrace"] = "La caresse de la mort";
   LBIS.L["Deathsworn Captain (Rare)"] = "Capitaine Ligemort (Rare)";
@@ -238,6 +240,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Doling Justice"] = "Justice de châtiment";
 --  LBIS.L["Dps"] = "";
 --  LBIS.L["Dragonmaw Centurion"] = "";
+--  LBIS.L["Drakes"] = "";
   LBIS.L["Drape of Unyielding Strength"] = "Drapé de force inflexible";
   LBIS.L["Dreamscythe"] = "Fauche-rêve";
   LBIS.L["Drop"] = "Butin";
@@ -535,6 +538,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Mekgineer Thermaplugg"] = "Mekgénieur Thermaplugg";
 --  LBIS.L["MeleeDps"] = "";
   LBIS.L["Meshlok the Harvester (Rare)"] = "Meshlok le Moissonneur (Rare)";
+--  LBIS.L["Middle Bosses"] = "";
   LBIS.L["Miner Johnson (Rare)"] = "Mineur Johnson (Rare)";
   LBIS.L["Missing In Action"] = "Porté disparu";
 --  LBIS.L["Mith'rethis the Enchanter"] = "";
@@ -726,6 +730,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Shadowpriest Sezz'ziz"] = "Prêtre des ombres Sezz'ziz";
   LBIS.L["Shadowshard Fragments"] = "Fragments d'Ombréclat";
 --  LBIS.L["Shadowtooth Emissary"] = "";
+  LBIS.L["Shards of the Felvine"] = "Fragment de la Gangrevigne";
   LBIS.L["Shazzrah"] = "Shazzrah";
 --  LBIS.L["Shifting Scale Talisman"] = "";
   LBIS.L["Shirt"] = "Chemise";

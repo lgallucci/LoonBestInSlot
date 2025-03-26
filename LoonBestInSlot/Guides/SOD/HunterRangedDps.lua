@@ -725,6 +725,7 @@ local function LoadData()
     LBIS:AddItem(spec7, "227455", LBIS.L["Ring"], "Alt") --Ocean's Breeze
     LBIS:AddItem(spec7, "236334", LBIS.L["Trinket"], "BIS") --Slayer's Crest
     LBIS:AddItem(spec7, "236302", LBIS.L["Trinket"], "BIS") --Eye of Diminution
+    LBIS:AddItem(spec7, "236268", LBIS.L["Trinket"], "BIS") --Kiss of the Spider
     LBIS:AddItem(spec7, "233990", LBIS.L["Trinket"], "BIS") --Speedstone
     LBIS:AddItem(spec7, "233627", LBIS.L["Trinket"], "Alt") --Jom Gabbar
     LBIS:AddItem(spec7, "236352", LBIS.L["Trinket"], "Alt") --Mark of the Champion

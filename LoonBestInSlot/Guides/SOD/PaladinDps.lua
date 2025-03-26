@@ -830,8 +830,8 @@ local function LoadData()
     LBIS:AddItem(spec7, "230741", LBIS.L["Feet"], "Alt") --Chromatic Boots
     LBIS:AddItem(spec7, "236342", LBIS.L["Neck"], "BIS") --Stormrage's Talisman of Seething
     LBIS:AddItem(spec7, "228354", LBIS.L["Neck"], "BIS") --Blazefury Medallion
-    LBIS:AddItem(spec7, "235886", LBIS.L["Neck"], "Alt") --Kaigy's Clasp
     LBIS:AddItem(spec7, "236316", LBIS.L["Neck"], "Alt") --Sadist's Collar
+    LBIS:AddItem(spec7, "235886", LBIS.L["Neck"], "Alt") --Kaigy's Clasp
     LBIS:AddItem(spec7, "237280", LBIS.L["Neck"], "Alt") --Medallion of the Dawn
     LBIS:AddItem(spec7, "231902", LBIS.L["Neck"], "Alt") --Ada's Amulet
     LBIS:AddItem(spec7, "234116", LBIS.L["Neck"], "Alt") --Fury of the Forgotten Swarm

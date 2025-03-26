@@ -3,6 +3,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["1200 Tickets - Amulet of the Darkmoon"] = "1200 билетов – амулет Новолуния";
   LBIS.L["1200 Tickets - Orb of the Darkmoon"] = "1200 билетов – сфера Новолуния";
 --  LBIS.L["2xJang'thraze the Protector"] = "";
+--  LBIS.L["3 Drakes"] = "";
   LBIS.L["A Better Ingredient"] = "Лучший ингредиент";
 --  LBIS.L["A Broken Ritual"] = "";
   LBIS.L["A Collection of Heads"] = "Коллекция голов";
@@ -210,6 +211,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Death From Below"] = "Смерть со дна морского";
   LBIS.L["Death Knight Darkreaver"] = "Рыцарь смерти Темный Терзатель";
   LBIS.L["Death Speaker Jargba"] = "Вестник смерти Джаргба";
+--  LBIS.L["Death Talon Overseer"] = "";
 --  LBIS.L["Death's Advance"] = "";
   LBIS.L["Death's Embrace"] = "Объятия Смерти";
   LBIS.L["Deathsworn Captain (Rare)"] = "Капитан служителей Смерти (Редкое)";
@@ -238,6 +240,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Doling Justice"] = "Небольшое возмездие";
 --  LBIS.L["Dps"] = "";
 --  LBIS.L["Dragonmaw Centurion"] = "";
+--  LBIS.L["Drakes"] = "";
   LBIS.L["Drape of Unyielding Strength"] = "Пелерина неумолимой силы";
   LBIS.L["Dreamscythe"] = "Жнец Снов";
   LBIS.L["Drop"] = "Добыча";
@@ -535,6 +538,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Mekgineer Thermaplugg"] = "Мекжинер Термоштепсель";
 --  LBIS.L["MeleeDps"] = "";
   LBIS.L["Meshlok the Harvester (Rare)"] = "Мешлок Жнец (Редкое)";
+--  LBIS.L["Middle Bosses"] = "";
   LBIS.L["Miner Johnson (Rare)"] = "Шахтер Джонсон (Редкое)";
   LBIS.L["Missing In Action"] = "Пропавший без вести";
 --  LBIS.L["Mith'rethis the Enchanter"] = "";
@@ -726,6 +730,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Shadowpriest Sezz'ziz"] = "Темный жрец Шезз'зиз";
   LBIS.L["Shadowshard Fragments"] = "Фрагменты осколка сумрака";
 --  LBIS.L["Shadowtooth Emissary"] = "";
+  LBIS.L["Shards of the Felvine"] = "Осколки сквернита";
   LBIS.L["Shazzrah"] = "Шаззрах";
 --  LBIS.L["Shifting Scale Talisman"] = "";
   LBIS.L["Shirt"] = "Рубашка";

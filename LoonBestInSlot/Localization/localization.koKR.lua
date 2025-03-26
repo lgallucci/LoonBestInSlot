@@ -3,6 +3,7 @@ if GetLocale() == "koKR" then
   LBIS.L["1200 Tickets - Amulet of the Darkmoon"] = "상품권 1200 매 - 다크문의 아뮬렛";
   LBIS.L["1200 Tickets - Orb of the Darkmoon"] = "상품권 1200매 - 다크문의 보주";
 --  LBIS.L["2xJang'thraze the Protector"] = "";
+--  LBIS.L["3 Drakes"] = "";
   LBIS.L["A Better Ingredient"] = "더욱 강력한 재료";
 --  LBIS.L["A Broken Ritual"] = "";
   LBIS.L["A Collection of Heads"] = "머리카락 수집";
@@ -210,6 +211,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Death From Below"] = "나가의 공격";
   LBIS.L["Death Knight Darkreaver"] = "죽음의 기사 다크리버";
   LBIS.L["Death Speaker Jargba"] = "죽음의 예언자 잘그바";
+--  LBIS.L["Death Talon Overseer"] = "";
 --  LBIS.L["Death's Advance"] = "";
   LBIS.L["Death's Embrace"] = "죽음의 은총";
   LBIS.L["Deathsworn Captain (Rare)"] = "죽음의 경비대장 (희귀)";
@@ -238,6 +240,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Doling Justice"] = "정의의 실현";
 --  LBIS.L["Dps"] = "";
 --  LBIS.L["Dragonmaw Centurion"] = "";
+--  LBIS.L["Drakes"] = "";
   LBIS.L["Drape of Unyielding Strength"] = "굴하지 않는 힘의 망토";
   LBIS.L["Dreamscythe"] = "드림사이드";
   LBIS.L["Drop"] = "드롭";
@@ -535,6 +538,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Mekgineer Thermaplugg"] = "멕기니어 텔마플러그";
 --  LBIS.L["MeleeDps"] = "";
   LBIS.L["Meshlok the Harvester (Rare)"] = "정원사 메슬로크 (희귀)";
+--  LBIS.L["Middle Bosses"] = "";
   LBIS.L["Miner Johnson (Rare)"] = "광부 존슨 (희귀)";
   LBIS.L["Missing In Action"] = "교전 중 실종";
 --  LBIS.L["Mith'rethis the Enchanter"] = "";
@@ -726,6 +730,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Shadowpriest Sezz'ziz"] = "어둠의사제 세즈지즈";
   LBIS.L["Shadowshard Fragments"] = "음영석 조각";
 --  LBIS.L["Shadowtooth Emissary"] = "";
+  LBIS.L["Shards of the Felvine"] = "악령덩굴 조각";
   LBIS.L["Shazzrah"] = "샤즈라";
 --  LBIS.L["Shifting Scale Talisman"] = "";
   LBIS.L["Shirt"] = "속옷";
