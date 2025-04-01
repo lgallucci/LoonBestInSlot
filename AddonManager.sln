@@ -142,8 +142,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LibUIDropDownMenu", "LibUID
 		LoonBestInSlot\libs\LibUIDropDownMenu\LibUIDropDownMenu.xml = LoonBestInSlot\libs\LibUIDropDownMenu\LibUIDropDownMenu.xml
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddonManager.Ui", "AddonManager.Ui\AddonManager.Ui.csproj", "{7449193D-84F6-418F-8E56-7C0C4D8B725C}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DB", "DB", "{71B13F0F-1281-47E2-BEC9-4D7D3021AAC4}"
 	ProjectSection(SolutionItems) = preProject
 		LoonBestInSlot\DB\EnchantSources.lua = LoonBestInSlot\DB\EnchantSources.lua
@@ -187,6 +185,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Guides", "Guides", "{64AD18
 		LoonBestInSlot\Guides\WarriorProtection.lua = LoonBestInSlot\Guides\WarriorProtection.lua
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddonManager.Avalonia", "AddonManager.Avalonia\AddonManager.Avalonia.csproj", "{8CF03284-E489-4A16-8882-A795FCF83939}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -197,12 +197,10 @@ Global
 		{F209D92A-FC25-4EA9-8C90-225F72146230}.Debug|x64.Build.0 = Debug|x64
 		{F209D92A-FC25-4EA9-8C90-225F72146230}.Release|x64.ActiveCfg = Release|x64
 		{F209D92A-FC25-4EA9-8C90-225F72146230}.Release|x64.Build.0 = Release|x64
-		{7449193D-84F6-418F-8E56-7C0C4D8B725C}.Debug|x64.ActiveCfg = Debug|x64
-		{7449193D-84F6-418F-8E56-7C0C4D8B725C}.Debug|x64.Build.0 = Debug|x64
-		{7449193D-84F6-418F-8E56-7C0C4D8B725C}.Debug|x64.Deploy.0 = Debug|x64
-		{7449193D-84F6-418F-8E56-7C0C4D8B725C}.Release|x64.ActiveCfg = Release|x64
-		{7449193D-84F6-418F-8E56-7C0C4D8B725C}.Release|x64.Build.0 = Release|x64
-		{7449193D-84F6-418F-8E56-7C0C4D8B725C}.Release|x64.Deploy.0 = Release|x64
+		{8CF03284-E489-4A16-8882-A795FCF83939}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8CF03284-E489-4A16-8882-A795FCF83939}.Debug|x64.Build.0 = Debug|Any CPU
+		{8CF03284-E489-4A16-8882-A795FCF83939}.Release|x64.ActiveCfg = Release|Any CPU
+		{8CF03284-E489-4A16-8882-A795FCF83939}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
