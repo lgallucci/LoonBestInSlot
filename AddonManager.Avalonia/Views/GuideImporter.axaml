@@ -1,0 +1,35 @@
+<!-- Copyright (c) Microsoft Corporation and Contributors. -->
+<!-- Licensed under the MIT License. -->
+
+<UserControl x:Class="AddonManager.Avalonia.Views.GuideImporter"
+             xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="using:AddonManager.Avalonia.ViewModels"
+             d:DesignWidth="1280" d:DesignHeight="800"
+             x:CompileBindings="True"
+             x:DataType="vm:GuideImporterViewModel"
+             mc:Ignorable="d">
+    <Design.DataContext>
+        <vm:GuideImporterViewModel />
+    </Design.DataContext>
+    <Grid>
+        <Button x:Name="btnImport" Content="Import" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Command="{Binding Import_Click}"/>
+        <Button x:Name="btnImportAll" Content="ImportAll" HorizontalAlignment="Left" Margin="75,10,0,0" VerticalAlignment="Top" Command="{Binding ImportAll_Click}"/>
+        <ScrollViewer Margin="0,50,0,0" BorderBrush="Gray" BorderThickness="1">
+            <TextBox x:Name="ConsoleOut" TextWrapping="Wrap" />
+        </ScrollViewer>
+        <ComboBox x:Name="cmbVersions" HorizontalAlignment="Left" Margin="160,9,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0" SelectionChanged="Version_Changed" />
+        <ComboBox x:Name="cmbSpec" HorizontalAlignment="Left" Margin="284,9,0,0" VerticalAlignment="Top" Width="170" SelectedIndex="0" />
+        <ComboBox x:Name="cmbPhase" HorizontalAlignment="Left" Margin="458,9,0,0" VerticalAlignment="Top" Width="145" SelectedIndex="0" />
+        <Button x:Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Margin="608,10,0,10" VerticalAlignment="Top" Command="{Binding Cancel_Click}"/>
+            
+        <Button x:Name="btnLocalize" Content="Localize" Margin="10,10,120,10" VerticalAlignment="Top" HorizontalAlignment="Right" Command="{Binding Localize_Click}"/>
+        <Button x:Name="btnRefreshItems" Content="RefreshItems" Margin="10,10,10,10" VerticalAlignment="Top" HorizontalAlignment="Right" Command="{Binding Refresh_Click}"/>
+        <Button x:Name="btnImporters" Content="Importers" Margin="10,10,195,10" VerticalAlignment="Top" HorizontalAlignment="Right" Command="{Binding Importers_Click}"/>
+        <Button x:Name="btnRefreshAll" Content="Refresh All" Margin="10,10,285,10" VerticalAlignment="Top" HorizontalAlignment="Right" Command="{Binding Refresh_All_Click}"/>
+        <!-- <Button x:Name="btnTemp" Content="Temp" Margin="10,10,435,10" VerticalAlignment="Top" HorizontalAlignment="Right" Command="{Binding Temp_Click"/>IsEnabled="False"/>-->
+    </Grid>
+</UserControl>
+

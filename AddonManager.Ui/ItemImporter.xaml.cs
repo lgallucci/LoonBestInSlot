@@ -14,7 +14,7 @@ namespace AddonManager.Ui;
 /// <summary>
 /// An empty page that can be used on its own or navigated to within a Frame.
 /// </summary>
-public sealed partial class ItemImporter : Page
+public partial class ItemImporter : Page
 {
     public string[] ImporterList = { 
         "EmblemImporter", "ProfessionImporter", "DungeonImporter", 
