@@ -24,4 +24,10 @@
   <ItemGroup>
     <ProjectReference Include="../AddonManager/AddonManager.csproj" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Views/ItemImporter.axaml.cs">
+      <DependentUpon>ItemImporter.axaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
 </Project>

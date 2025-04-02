@@ -1,0 +1,30 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="using:AddonManager.Avalonia.ViewModels"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="AddonManager.Avalonia.Views.ItemImporter"
+             x:DataType="vm:ItemImporterViewModel">
+
+    <Design.DataContext>
+        <vm:ItemImporterViewModel />
+    </Design.DataContext>
+    <Grid>
+        <Button Content="Import" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Click="ConvertClick" />
+        <ComboBox x:Name="cmbImporterType" HorizontalAlignment="Left" Margin="75,9,0,0" VerticalAlignment="Top" Width="150">
+            <ComboBoxItem Content="EmblemImporter" Tag="EmblemImporter" IsSelected="True"/>
+            <ComboBoxItem Content="ProfessionImporter" Tag="ProfessionImporter"/>
+            <ComboBoxItem Content="DungeonImporter" Tag="DungeonImporter"/>
+            <ComboBoxItem Content="RaidImporter" Tag="RaidImporter"/>
+            <ComboBoxItem Content="PvPImporter" Tag="PvPImporter"/>
+            <ComboBoxItem Content="TierSetImporter" Tag="TierSetImporter"/>
+            <ComboBoxItem Content="ReputationImporter" Tag="ReputationImporter"/>
+            <ComboBoxItem Content="VendorImporter" Tag="VendorImporter"/>
+        </ComboBox>
+        <TextBlock x:Name="lblStatus" HorizontalAlignment="Left" Margin="255,14,0,0" Width="150" Text="Ready !"/>
+        <ScrollViewer Margin="0,50,0,0" BorderBrush="Gray" BorderThickness="1">
+            <TextBox x:Name="txtJsonToParse" TextWrapping="Wrap" />
+        </ScrollViewer>
+    </Grid>
+</UserControl>

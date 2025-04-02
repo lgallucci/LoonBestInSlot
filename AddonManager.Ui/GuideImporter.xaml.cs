@@ -140,21 +140,4 @@ public partial class GuideImporter : Page
 
         ConsoleOut.Text += $"Refresh All Complete!";
     }
-
-    internal static void RecursiveBoxSearch(IElement headerElement, Func<IElement, bool> action)
-    {
-        foreach (var boxElement in headerElement.Children)
-        {
-            if (boxElement is IHtmlAnchorElement)
-            {
-                bool goodAnchor = action(boxElement);
-                if (!goodAnchor)
-                    RecursiveBoxSearch(boxElement, action);
-            }
-            else
-            {
-                RecursiveBoxSearch(boxElement, action);
-            }
-        }
-    }
 }

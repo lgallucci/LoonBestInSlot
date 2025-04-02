@@ -5,14 +5,20 @@
         xmlns:vm="using:AddonManager.Avalonia.ViewModels"
         mc:Ignorable="d" d:DesignWidth="1280" d:DesignHeight="800"
         x:Class="AddonManager.Avalonia.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
         Title="Loon Best in Slot Addon Manager">
-
 
     <Design.DataContext>
         <vm:MainWindowViewModel />
     </Design.DataContext>
 
     <Grid RowDefinitions="*,Auto" Margin="10">
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Spacing="5"
+					HorizontalAlignment="Right">
+            <Button Command="{Binding NavigateImporterCommand}" Content="Importer" />
+            <Button Command="{Binding NavigateGuideCommand}" Content="Guide" />
+        </StackPanel>
+
         <TransitioningContentControl Content="{Binding CurrentPage}" />
     </Grid>
 </Window>
