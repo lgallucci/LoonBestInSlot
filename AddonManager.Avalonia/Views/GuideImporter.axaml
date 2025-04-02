@@ -22,7 +22,7 @@
         </ScrollViewer>
         <ComboBox x:Name="cmbVersions" HorizontalAlignment="Left" Margin="160,9,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0" ItemsSource="{Binding VersionComboBoxItems}" SelectionChanged="VersionChanged" />
         <ComboBox x:Name="cmbSpec" HorizontalAlignment="Left" Margin="284,9,0,0" VerticalAlignment="Top" Width="170" SelectedIndex="0" ItemsSource="{Binding SpecComboBoxItems}" />
-        <ComboBox x:Name="cmbPhase" HorizontalAlignment="Left" Margin="458,9,0,0" VerticalAlignment="Top" Width="145" SelectedIndex="0" ItemSource="{Binding PhaseComboBoxItems}" />
+        <ComboBox x:Name="cmbPhase" HorizontalAlignment="Left" Margin="458,9,0,0" VerticalAlignment="Top" Width="145" SelectedIndex="0" ItemsSource="{Binding PhaseComboBoxItems}" />
         <Button x:Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Margin="608,10,0,10" VerticalAlignment="Top" Click="CancelClick"/>
             
         <Button x:Name="btnLocalize" Content="Localize" Margin="10,10,120,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="LocalizeClick"/>
