@@ -1266,6 +1266,7 @@ local function LoadData()
     LBIS:AddItem(spec7, "233645", LBIS.L["Hands"], "Alt") --Gloves of the Immortal
     LBIS:AddItem(spec7, "231091", LBIS.L["Hands"], "Alt") --Nemesis Handguards
     LBIS:AddItem(spec7, "233631", LBIS.L["Hands"], "Alt") --Dark Storm Gauntlets
+    LBIS:AddItem(spec7, "236069", LBIS.L["Waist"], "BIS") --Plagueheart Waistguard
     LBIS:AddItem(spec7, "236066", LBIS.L["Waist"], "Alt") --Plagueheart Belt
     LBIS:AddItem(spec7, "233633", LBIS.L["Waist"], "Alt") --Eyestalk Waist Cord
     LBIS:AddItem(spec7, "231097", LBIS.L["Waist"], "Alt") --Nemesis Cord
