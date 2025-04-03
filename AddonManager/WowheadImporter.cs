@@ -136,7 +136,7 @@ public static class WowheadImporter
 
             if (classGuideMapping != null && classGuideMapping.WebAddress != "do_not_use")
             {
-                var guide = ItemSpecFileManager.ReadGuide(Constants.AddonPath + $@"\Guides\{classGuideMapping.GuideFolder}\{className.Replace(" ", "")}.lua");
+                var guide = ItemSpecFileManager.ReadGuide(Constants.CombinePath(Constants.AddonPath, $@"\Guides\{classGuideMapping.GuideFolder}\{className.Replace(" ", "")}.lua"));
 
                 itemsAndEnchants = new WowheadGuideParser().ParseWowheadGuide(classGuideMapping, doc);
 
@@ -151,7 +151,7 @@ public static class WowheadImporter
                 }
                 guide.Item2[phaseNumber] = itemsAndEnchants.Item1.Values.ToList();
 
-                ItemSpecFileManager.WriteItemSpec(Constants.AddonPath + $@"\Guides\{classGuideMapping.GuideFolder}\{className.Replace(" ", "")}.lua", classGuideMapping.ClassName, classGuideMapping.SpecName, classGuideMapping.GuideFolder == "SOD",
+                ItemSpecFileManager.WriteItemSpec(Constants.CombinePath(Constants.AddonPath, $@"\Guides\{classGuideMapping.GuideFolder}\{className.Replace(" ", "")}.lua"), classGuideMapping.ClassName, classGuideMapping.SpecName, classGuideMapping.GuideFolder == "SOD",
                     guide.Item1, guide.Item2);
             }
             else
@@ -520,7 +520,7 @@ public static class WowheadImporter
 
     private static HashSet<int> UpdateTierPieces(Dictionary<int, CsvLootTable> csvLootTable, SortedDictionary<int, ItemSource> itemSources)
     {
-        var jsonFileString = File.ReadAllText(@$"{Constants.ItemDbPath}\TierSetList.json");
+        var jsonFileString = File.ReadAllText(Constants.CombinePath(Constants.ItemDbPath, @$"\TierSetList.json"));
         DatabaseItems tierPieces = JsonConvert.DeserializeObject<DatabaseItems>(jsonFileString) ?? new DatabaseItems();
 
         var tokenKeys = new HashSet<int>();
@@ -579,7 +579,7 @@ public static class WowheadImporter
     {
         //Read file into dictionary
         DatabaseItems dbItem;
-        var jsonFileString = File.ReadAllText(@$"{Constants.ItemDbPath}\{fileName}.json");
+        var jsonFileString = File.ReadAllText(Constants.CombinePath(Constants.ItemDbPath, @$"\{fileName}.json"));
         dbItem = JsonConvert.DeserializeObject<DatabaseItems>(jsonFileString) ?? new DatabaseItems();
 
         AddToCsvLootTable(dbItem, csvLootTable);

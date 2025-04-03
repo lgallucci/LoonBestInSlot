@@ -6,9 +6,9 @@ using System;
 
 namespace AddonManager.Avalonia.Views;
 
-public partial class ItemImporter : UserControl
+public partial class ItemImporterView : UserControl
 {
-    public ItemImporter()
+    public ItemImporterView()
     {
         InitializeComponent();
     }

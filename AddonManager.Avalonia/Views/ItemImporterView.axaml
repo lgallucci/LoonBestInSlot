@@ -4,7 +4,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:vm="using:AddonManager.Avalonia.ViewModels"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-             x:Class="AddonManager.Avalonia.Views.ItemImporter"
+             x:Class="AddonManager.Avalonia.Views.ItemImporterView"
              x:DataType="vm:ItemImporterViewModel">
 
     <Design.DataContext>

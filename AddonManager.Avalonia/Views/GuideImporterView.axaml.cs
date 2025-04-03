@@ -10,13 +10,14 @@ using AddonManager.FileManagers;
 using AddonManager.Models;
 using Avalonia.Controls;
 using Avalonia.Interactivity;
+using DynamicData;
 
 namespace AddonManager.Avalonia.Views;
 
-public partial class GuideImporter : UserControl
+public partial class GuideImporterView : UserControl
 {
 
-    public GuideImporter()
+    public GuideImporterView()
     {
         InitializeComponent();
     }
@@ -117,6 +118,7 @@ public partial class GuideImporter : UserControl
 
     private void VersionChanged(object sender, RoutedEventArgs e)
     {
-        ((GuideImporterViewModel)this.DataContext).SpecComboBoxItems = new ObservableCollection<string>(GetClassMappings().Select(gm => $"{gm.ClassName}{gm.SpecName}").Distinct());
+        ((GuideImporterViewModel)this.DataContext).SpecComboBoxItems.Clear();
+        ((GuideImporterViewModel)this.DataContext).SpecComboBoxItems.AddRange(GetClassMappings().Select(gm => $"{gm.ClassName}{gm.SpecName}").Distinct());
     }
 }

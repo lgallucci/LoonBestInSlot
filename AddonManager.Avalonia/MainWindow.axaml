@@ -13,12 +13,13 @@
     </Design.DataContext>
 
     <Grid RowDefinitions="*,Auto" Margin="10">
+        <TransitioningContentControl Content="{Binding CurrentPage}" />
+        
         <StackPanel Grid.Row="1" Orientation="Horizontal" Spacing="5"
 					HorizontalAlignment="Right">
-            <Button Command="{Binding NavigateImporterCommand}" Content="Importer" />
-            <Button Command="{Binding NavigateGuideCommand}" Content="Guide" />
+            <Button Command="{Binding NavigateImporterCommand}" Content="Importers" />
+            <Button Command="{Binding NavigateGuideCommand}" Content="Guides" />
         </StackPanel>
 
-        <TransitioningContentControl Content="{Binding CurrentPage}" />
     </Grid>
 </Window>

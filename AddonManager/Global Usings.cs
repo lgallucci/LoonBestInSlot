@@ -4,12 +4,59 @@ global using System.Collections.Generic;
 global using System.Linq;
 global using System.Text;
 global using System.Threading.Tasks;
+using System.IO;
 
 public static class Constants
 {
-    public static string AddonPath = @$"C:\GIT\LoonBestInSlot\LoonBestInSlot";
+    public static string AddonPath 
+    {
+        get 
+        {
+            if (Environment.OSVersion.Platform == PlatformID.Win32NT)
+            {
+                return @$"C:\GIT\LoonBestInSlot\LoonBestInSlot";
+            }
+            else
+            {
+                return @$"/media/louis/System/GIT/LoonBestInSlot/LoonBestInSlot";
+            }
+        }
+    }
 
-    public static string ItemDbPath = @$"C:\GIT\LoonBestInSlot\AddonManager\ItemDatabase";
+    public static string ItemDbPath
+    {
+        get 
+        {
+            if (Environment.OSVersion.Platform == PlatformID.Win32NT)
+            {
+                return @$"C:\GIT\LoonBestInSlot\AddonManager\ItemDatabase";
+            }
+            else
+            {
+                return @$"/media/louis/System/GIT/LoonBestInSlot/AddonManager/ItemDatabase";
+            }
+        }
+    }
 
-    public static string LocalizationPath = @$"C:\GIT\LoonBestInSlot\AddonManager\LocalizationCreator";
+    public static string LocalizationPath     
+    {
+        get 
+        {
+            if (Environment.OSVersion.Platform == PlatformID.Win32NT)
+            {
+                return @$"C:\GIT\LoonBestInSlot\AddonManager\LocalizationCreator";
+            }
+            else
+            {
+                return @$"/media/louis/System/GIT/LoonBestInSlot/AddonManager/LocalizationCreator";
+            }
+        }
+    }
+
+    internal static string CombinePath(string addonPath, string path)
+    {
+        addonPath = addonPath.TrimEnd('/').TrimEnd('\\').Replace('/', Path.DirectorySeparatorChar).Replace('\\', Path.DirectorySeparatorChar);
+        path = path.TrimStart('/').TrimStart('\\').Replace('/', Path.DirectorySeparatorChar).Replace('\\', Path.DirectorySeparatorChar);
+        return Path.Combine(addonPath, path);
+    }
 }
