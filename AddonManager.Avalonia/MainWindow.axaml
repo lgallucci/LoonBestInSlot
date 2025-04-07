@@ -3,7 +3,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:vm="using:AddonManager.Avalonia.ViewModels"
-        mc:Ignorable="d" d:DesignWidth="1280" d:DesignHeight="800"
+        mc:Ignorable="d" d:DesignWidth="1000" d:DesignHeight="800"  Width="1000" Height="800"
         x:Class="AddonManager.Avalonia.MainWindow"
         x:DataType="vm:MainWindowViewModel"
         Title="Loon Best in Slot Addon Manager">
