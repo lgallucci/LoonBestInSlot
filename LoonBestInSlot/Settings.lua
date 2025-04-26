@@ -65,7 +65,8 @@ LBISSettingsDefault =
 		[LBIS.L["Phase 4"]] = true,
 		[LBIS.L["Phase 5"]] = true,
 		[LBIS.L["Phase 6"]] = true,
-		[LBIS.L["Phase 7"]] = true
+		[LBIS.L["Phase 7"]] = true,
+		[LBIS.L["Phase 8"]] = true
 	}
 };
 
@@ -700,11 +701,20 @@ local lbis_options = {
 			width = 1.1,
 			order = 60,
 		},
+		showPhase7 = {
+			type = "toggle",
+			name = LBIS.L["Phase 8"],
+			desc = LBIS.L["Phase 8"],
+			get = function(info) return LBISSettings.PhaseTooltip[LBIS.L["Phase 8"]] end,
+			set = function(info, val) LBISSettings.PhaseTooltip[LBIS.L["Phase 8"]] = val end,
+			width = 1.1,
+			order = 61,
+		},
 		spacer3 = {
 			type = "header",
 			name = "",
 			width = "full",
-			order = 61,
+			order = 62,
 		},
 		showCustom = {
 			type = "toggle",
@@ -713,7 +723,7 @@ local lbis_options = {
 			get = function(info) return LBISSettings.ShowCustom end,
 			set = function(info, val) LBISSettings.ShowCustom = val end,
 			width = 1.1,
-			order = 62,
+			order = 63,
 		},
 		hideObsolete = {
 			type = "toggle",
@@ -722,7 +732,7 @@ local lbis_options = {
 			get = function(info) return LBISSettings.HideObsolete end,
 			set = function(info, val) LBISSettings.HideObsolete = val end,
 			width = 1.1,
-			order = 63,
+			order = 64,
 		},
 	}
 };

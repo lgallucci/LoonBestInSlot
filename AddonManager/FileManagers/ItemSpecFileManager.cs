@@ -21,6 +21,7 @@ public static class ItemSpecFileManager
         itemSB.AppendLine($"    local spec5 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"5\")");
         itemSB.AppendLine($"    local spec6 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"6\")");
         itemSB.AppendLine($"    local spec7 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"7\")");
+        itemSB.AppendLine($"    local spec8 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"8\")");
 
         itemSB.AppendLine();
 
