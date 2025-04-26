@@ -364,7 +364,7 @@ public class WowheadGuideParser
         else
             return;
 
-        var item = enchantAnchor.PathName.Replace("/classic", "").Replace("/item=", "").Replace("/spell=", "");
+        var item = enchantAnchor.PathName.Replace("/classic-ptr", "").Replace("/classic", "").Replace("/item=", "").Replace("/spell=", "");
         var itemIdIndex = item.IndexOf("/");
         if (itemIdIndex == -1)
             itemIdIndex = item.IndexOf("&");
@@ -479,7 +479,7 @@ public class WowheadGuideParser
 
             if (((IHtmlAnchorElement)child).PathName.Contains("/item="))
             {
-                var item = ((IHtmlAnchorElement)child).PathName.Replace("/classic", "").Replace("/item=", "");
+                var item = ((IHtmlAnchorElement)child).PathName.Replace("/classic-ptr", "").Replace("/classic", "").Replace("/item=", "");
 
                 var itemIdIndex = item.IndexOf("/");
                 if (itemIdIndex == -1)
