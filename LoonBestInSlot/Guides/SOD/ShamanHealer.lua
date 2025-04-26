@@ -7,6 +7,7 @@ local function LoadData()
     local spec5 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Healer"], "5")
     local spec6 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Healer"], "6")
     local spec7 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Healer"], "7")
+    local spec8 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Healer"], "8")
 
     LBIS:AddEnchant(spec8, "468359", LBIS.L["Head"]) --
     LBIS:AddEnchant(spec8, "24420", LBIS.L["Shoulder"]) --Zandalar Signet of Serenity

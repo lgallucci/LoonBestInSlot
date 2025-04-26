@@ -7,6 +7,7 @@ local function LoadData()
     local spec5 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Feral Dps"], "5")
     local spec6 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Feral Dps"], "6")
     local spec7 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Feral Dps"], "7")
+    local spec8 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Feral Dps"], "8")
 
     LBIS:AddEnchant(spec8, "432190", LBIS.L["Head"]) --Wolfshead Trophy
     LBIS:AddEnchant(spec8, "1219937", LBIS.L["Shoulder"]) --

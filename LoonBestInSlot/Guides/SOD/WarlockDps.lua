@@ -7,6 +7,7 @@ local function LoadData()
     local spec5 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Dps"], "5")
     local spec6 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Dps"], "6")
     local spec7 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Dps"], "7")
+    local spec8 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Dps"], "8")
 
     LBIS:AddEnchant(spec8, "468365", LBIS.L["Head"]) --Hoodoo Hex
     LBIS:AddEnchant(spec8, "28161", LBIS.L["Head"]) --Savage Guard

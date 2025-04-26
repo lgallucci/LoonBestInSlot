@@ -26,6 +26,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Ahn'Qiraj (Hard)"] = "安其拉";
   LBIS.L["Akiris by the Bundle"] = "一捆海蛇草";
   LBIS.L["Aku'mai"] = "阿库麦尔";
+--  LBIS.L["Alexei the Beastlord"] = "";
   LBIS.L["All"] = "全部";
   LBIS.L["Allegiance to the Old Gods"] = "上古之神的仆从";
   LBIS.L["Alterac Mountains"] = "奥特兰克山脉";
@@ -90,6 +91,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Bag"] = "背包";
   LBIS.L["Balance"] = "平衡";
 --  LBIS.L["Balance Dps"] = "";
+  LBIS.L["Balnazzar"] = "巴纳扎尔";
 --  LBIS.L["Balzaphon (scourge event only)"] = "巴尔萨冯";
   LBIS.L["Bannok Grimaxe (Rare)"] = "班诺克·巨斧 (精良)";
 --  LBIS.L["Barian Maryla"] = "";
@@ -117,6 +119,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Blacksmithing"] = "锻造";
 --  LBIS.L["Blacksmithing Trainer"] = "";
   LBIS.L["Blackwing Lair"] = "黑翼之巢";
+--  LBIS.L["Blades of Light"] = "";
   LBIS.L["Blasted Lands"] = "诅咒之地";
 --  LBIS.L["Blasted Lands, Burning Steppes, Eastern Plaguelands, …"] = "";
   LBIS.L["Blind Hunter (Rare)"] = "盲眼猎手 (精良)";
@@ -128,6 +131,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Bloodlord Mandokir"] = "血领主曼多基尔";
   LBIS.L["Bloodmage Thalnos"] = "血法师萨尔诺斯";
 --  LBIS.L["Bloodscalp Witch Doctor"] = "";
+--  LBIS.L["Bookcase"] = "";
   LBIS.L["Booty Bay"] = "藏宝海湾";
 --  LBIS.L["Boss Drop"] = "";
   LBIS.L["Breastplate of Bloodthirst"] = "嗜血胸甲";
@@ -201,6 +205,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Darkmoon Elementals Deck"] = "暗月元素套牌";
   LBIS.L["Darkmoon Faire"] = "暗月马戏团";
 --  LBIS.L["Darkmoon Plagues Deck"] = "";
+  LBIS.L["Darkmoon Portals Deck"] = "暗月入口套牌";
 --  LBIS.L["Darkmoon Wilds Deck"] = "";
   LBIS.L["Darkshore"] = "黑海岸";
   LBIS.L["Darnassus"] = "达纳苏斯";
@@ -272,6 +277,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Emperor Dagran Thaurissan"] = "达格兰·索瑞森大帝";
   LBIS.L["Emperor Vek'lor"] = "维克洛尔大帝";
   LBIS.L["Emperor Vek'nilash"] = "维克尼拉斯大帝";
+--  LBIS.L["Enchanted Text"] = "";
   LBIS.L["Enchanting"] = "附魔";
 --  LBIS.L["Enchanting Trainer"] = "";
 --  LBIS.L["Enchanting Vendor"] = "";
@@ -356,6 +362,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Gordok Tribute"] = "";
   LBIS.L["Gorosh the Dervish"] = "修行者高罗什";
   LBIS.L["Gothik the Harvester"] = "收割者戈提克";
+--  LBIS.L["Grand Crusader Caldoran"] = "";
 --  LBIS.L["Grand Crusader Dathrohan/Balnazzar"] = "";
   LBIS.L["Grand Widow Faerlina"] = "黑女巫法琳娜";
 --  LBIS.L["Grimand\'s Armor"] = "";
@@ -392,6 +399,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Hidden Enemies"] = "隐藏的敌人";
   LBIS.L["Hidden Treasures"] = "隐藏的宝藏";
 --  LBIS.L["Hide Obsolete Items"] = "";
+--  LBIS.L["High Commander Beatrix"] = "";
   LBIS.L["High Inquisitor Fairbanks"] = "大检察官法尔班克斯";
   LBIS.L["High Inquisitor Whitemane"] = "大检察官怀特迈恩";
   LBIS.L["High Interrogator Gerstahn"] = "审讯官格斯塔恩";
@@ -484,6 +492,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Lethtendris"] = "蕾瑟塔蒂丝";
 --  LBIS.L["Level 10-20 Zones"] = "";
 --  LBIS.L["Lieutenant General Nokhor"] = "";
+--  LBIS.L["Lillian Voss"] = "";
 --  LBIS.L["Lo'Grosh"] = "";
   LBIS.L["Loatheb"] = "洛欧塞布";
   LBIS.L["Loch Modan"] = "洛克莫丹";
@@ -516,6 +525,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Lumbering Horror"] = "";
   LBIS.L["Maexxna"] = "迈克斯纳";
 --  LBIS.L["Mage Quest"] = "";
+  LBIS.L["Mage Tower"] = "法师塔";
   LBIS.L["Mage's Wand"] = "法师的魔杖";
   LBIS.L["Magister Kalendris"] = "卡雷迪斯镇长";
   LBIS.L["Magistrate Barthilas"] = "巴瑟拉斯镇长";
@@ -530,6 +540,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Mana Remnant"] = "";
   LBIS.L["Maraudon"] = "玛拉顿";
   LBIS.L["Marduk Blackpool"] = "马杜克·布莱克波尔";
+--  LBIS.L["Mason the Echo"] = "";
 --  LBIS.L["Master Enchanting Trainer"] = "";
 --  LBIS.L["Mathredis Firestar (Librams)"] = " (圣契)";
   LBIS.L["Maxwell's Mission"] = "麦克斯韦尔的任务";
@@ -608,6 +619,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Phase 5"] = "";
 --  LBIS.L["Phase 6"] = "";
 --  LBIS.L["Phase 7"] = "";
+--  LBIS.L["Phase 8"] = "";
 --  LBIS.L["Pix Xizzix - Booty Bay"] = "";
 --  LBIS.L["Plaguelands"] = "";
   LBIS.L["Plaguemaw the Rotting"] = "腐烂的普雷莫尔";
@@ -661,6 +673,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Razorgore the Untamed"] = "狂野的拉佐格尔";
   LBIS.L["Razorlash"] = "锐刺鞭笞者";
 --  LBIS.L["Razormaw Matriarch"] = "";
+--  LBIS.L["Reborn Council"] = "";
   LBIS.L["Reception from Tyrande"] = "泰兰德的接待";
   LBIS.L["Red Silk Bandanas"] = "红色丝质面罩";
   LBIS.L["Redridge Mountains"] = "赤脊山";
@@ -691,6 +704,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Rotgrip"] = "洛特格里普";
   LBIS.L["Ruins of Ahn'Qiraj"] = "安其拉废墟";
 --  LBIS.L["Ruins of Ahn'Qiraj (Hard)"] = "安其拉废墟";
+--  LBIS.L["Rune of Power"] = "";
 --  LBIS.L["Sairuh Maryla"] = "";
   LBIS.L["Samophlange Manual"] = "主动式负载平衡器说明书";
   LBIS.L["Sapphiron"] = "萨菲隆";
@@ -703,6 +717,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Scarlet Champion"] = "";
   LBIS.L["Scarlet Commander Mograine"] = "血色十字军指挥官莫格莱尼";
 --  LBIS.L["Scarlet Enchanter"] = "";
+--  LBIS.L["Scarlet Enclave"] = "";
   LBIS.L["Scarlet Monastery"] = "血色修道院";
 --  LBIS.L["Scarlet Spellbinder"] = "";
   LBIS.L["Scholomance"] = "通灵学院";
@@ -750,6 +765,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Slavering Ghoul"] = "";
   LBIS.L["Sneed's Shredder"] = "斯尼德的伐木机";
   LBIS.L["Solakar Flamewreath"] = "索拉卡·火冠";
+--  LBIS.L["Solistrasza"] = "";
   LBIS.L["Solution to Doom"] = "化解灾难";
 --  LBIS.L["Sothos and Jarien"] = "";
   LBIS.L["Southsea Shakedown"] = "南海复仇";
@@ -784,6 +800,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Superior Armaments of Battle - Revered Amongst the Dawn"] = "精良的作战装备 - 银色黎明崇敬";
 --  LBIS.L["Supply Officer"] = "";
   LBIS.L["Swamp of Sorrows"] = "悲伤沼泽";
+--  LBIS.L["Sword in the Stone"] = "";
 --  LBIS.L["Syncretis's Sigil"] = "";
 --  LBIS.L["Syncretist's Crest"] = "";
 --  LBIS.L["Syncretist's Seal"] = "";
@@ -815,6 +832,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["The Completed Orb of Dar'Orahil"] = "达奥拉赫宝珠";
   LBIS.L["The Completed Orb of Noh'Orahil"] = "诺奥拉赫宝珠";
   LBIS.L["The Completed Robe"] = "完成金线血袍";
+--  LBIS.L["The Corrupted Emblem"] = "";
   LBIS.L["The Corrupter"] = "堕落者";
   LBIS.L["The Crone of the Kraul"] = "卡尔加·刺肋";
   LBIS.L["The Crown of Will"] = "意志之冠";
@@ -865,6 +883,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["The Princess's Surprise"] = "语出惊人的公主";
   LBIS.L["The Prophet Skeram"] = "预言者斯克拉姆";
   LBIS.L["The Restless Souls"] = "永不安息的灵魂";
+--  LBIS.L["The Right Path"] = "";
   LBIS.L["The Savior of Kalimdor"] = "卡利姆多的救世主";
   LBIS.L["The Scarlet Oracle, Demetria"] = "血色十字军圣者，德米提雅";
 --  LBIS.L["The Shade of Eranikus"] = "";

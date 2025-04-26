@@ -7,6 +7,7 @@ local function LoadData()
     local spec5 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Tank"], "5")
     local spec6 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Tank"], "6")
     local spec7 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Tank"], "7")
+    local spec8 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Tank"], "8")
 
     LBIS:AddEnchant(spec8, "468368", LBIS.L["Head"]) --Hoodoo Curse
     LBIS:AddEnchant(spec8, "1219510", LBIS.L["Shoulder"]) --
