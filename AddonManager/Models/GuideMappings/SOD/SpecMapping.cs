@@ -8,7 +8,7 @@ namespace AddonManager.Models.GuideMappings.SOD;
 internal abstract class SODSpecMapping
 {
     public string GuideFolder = "SOD";
-    public int CurrentPhaseNumber { get; } = 7;
+    public int CurrentPhaseNumber { get; } = 8;
     public abstract string UrlBase { get; }
     public abstract string Class { get; }
     public abstract string Spec { get; }
