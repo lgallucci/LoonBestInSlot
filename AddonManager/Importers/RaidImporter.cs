@@ -8,13 +8,7 @@ public class RaidImporter : LootImporter
 {
     private Dictionary<string, string> raidUriList = new Dictionary<string, string>
     {
-        // { @"https://www.wowhead.com/classic/guide/season-of-discovery/blackfathom-deeps-level-up-raid-loot", "Blackfathom Deeps" },
-        // { @"https://www.wowhead.com/classic/guide/season-of-discovery/gnomeregan-level-up-raid-loot", "Gnomeregan" },
-        // { @"https://www.wowhead.com/classic/guide/season-of-discovery/sunken-temple-level-up-raid-loot", "Sunken Temple" }
-        // //{ @"https://www.wowhead.com/classic/guide/season-of-discovery/raids/molten-core-overview-loot", "Molten Core"},
-        // { @"https://www.wowhead.com/classic/npc=10184/onyxia#drops;mode:som40", ("Onyxia", "Onyxia's Lair")},
-        //{ @"https://www.wowhead.com/classic/guide/season-of-discovery/raids/blackwing-lair-loot", "Blackwing Lair" },
-        //{ @"https://www.wowhead.com/classic/guide/season-of-discovery/raids/zul-gurub-loot", "Zul'Gurub" },
+        { @"https://www.wowhead.com/classic/guide/season-of-discovery/raids/scarlet-enclave-loot", "Scarlet Enclave" },
     };
 
     private List<string> excludedWords = new List<string>()
@@ -32,14 +26,14 @@ public class RaidImporter : LootImporter
 
     private Dictionary<string, (string, string)> bossUriList = new Dictionary<string, (string, string)>
     {
-        { @"https://www.wowhead.com/classic/npc=12435/razorgore-the-untamed#drops", ("Razorgore the Untamed", "Blackwing Lair") },
-        { @"https://www.wowhead.com/classic/npc=13020/vaelastrasz-the-corrupt#drops", ("Vaelastrasz the Corrupt", "Blackwing Lair") },
-        { @"https://www.wowhead.com/classic/npc=12017/broodlord-lashlayer#drops", ("Broodlord Lashlayer", "Blackwing Lair") },
-        { @"https://www.wowhead.com/classic/npc=11983/firemaw#drops", ("Firemaw", "Blackwing Lair") },
-        { @"https://www.wowhead.com/classic/npc=14601/ebonroc#drops", ("Ebonroc", "Blackwing Lair") },
-        { @"https://www.wowhead.com/classic/npc=11981/flamegor#drops", ("Flamegor", "Blackwing Lair") },
-        { @"https://www.wowhead.com/classic/npc=14020/chromaggus#drops", ("Chromaggus", "Blackwing Lair") },
-        { @"https://www.wowhead.com/classic/npc=11583/nefarian#drops", ("Nefarian", "Blackwing Lair") },
+        { @"https://www.wowhead.com/classic/npc=240811/balnazzar#drops", ("Balnazzar", "Scarlet Enclave") },
+        { @"https://www.wowhead.com/classic/npc=240812/high-commander-beatrix#drops", ("High Commander Beatrix", "Scarlet Enclave") },
+        { @"https://www.wowhead.com/classic/npc=238954/solistrasza#drops", ("Solistrasza", "Scarlet Enclave") },
+        { @"https://www.wowhead.com/classic/npc=240794/alexei-the-beastlord#drops", ("Alexei the Beastlord", "Scarlet Enclave") },
+        { @"https://www.wowhead.com/classic/npc=241021/mason-the-echo#drops", ("Mason the Echo", "Scarlet Enclave") },
+        // { @"", ("Reborn Council", "Scarlet Enclave") },
+        // { @"", ("Lillian Voss", "Scarlet Enclave") },
+        { @"https://www.wowhead.com/classic/npc=241006/grand-crusader-caldoran#drops", ("Grand Crusader Caldoran", "Scarlet Enclave") },
     };
     
 
@@ -52,11 +46,55 @@ public class RaidImporter : LootImporter
         // {
         //     items.AddItems(await ConvertRaidLoot(raidUri, items, writeToLog));
         // }
+        foreach(var raidUri in raidUriList)
+        {
+            await ConvertGeneralRaidLoot(raidUri, items, writeToLog);
+        }
 
-        await GetItemDrops(items, bossUriList.Keys.Where(b => b.Contains("drops")), writeToLog);
-        await GetItemContains(items, bossUriList.Keys.Where(b => b.Contains("contains")), writeToLog);
+        // await GetItemDrops(items, bossUriList.Keys.Where(b => b.Contains("drops")), writeToLog);
+        // await GetItemContains(items, bossUriList.Keys.Where(b => b.Contains("contains")), writeToLog);
 
         return items;
+    }
+
+    private async Task ConvertGeneralRaidLoot(KeyValuePair<string, string> raidUri, DatabaseItems items, Action<string> writeToLog)
+    {
+        
+        await Common.LoadFromWebPage(raidUri.Key, (uri, doc) =>
+        {
+            var table = doc.QuerySelector("div.markup-table-wrapper table") as IHtmlTableElement;
+            if (table != null)
+            {
+                LoopThroughTable(table, (itemId, itemName, bossName) => {
+
+                    if (bossName == "Charred Emblem")
+                        bossName = "Grand Crusader Caldoran";
+
+                    if (bossName == "Wing of Balnazzar")
+                        bossName = "Balnazzar";
+
+                    if (bossName == "Caladboulder")
+                        bossName = "Sword in the Stone";
+
+                    if (bossName == "TBD")
+                        bossName = "unknown";
+
+                    if (itemId > 0 && !excludedWords.Any(w => itemName.Contains(w)))
+                    {
+                        items.AddItem(itemId, new DatabaseItem() 
+                        {
+                            Name = itemName,
+                            Source = bossName,
+                            SourceType = "Drop",
+                            SourceNumber = "0",
+                            SourceLocation = raidUri.Value,
+                        });
+                    }
+                }, (itemId, itemName, questName, faction) => {
+                    throw new NotImplementedException("Quest drops not implemented yet.");
+                });
+            }
+        }, writeToLog);
     }
 
     private async Task GetItemDrops(DatabaseItems items, IEnumerable<string> uriList, Action<string> writeToLog)
@@ -171,7 +209,7 @@ public class RaidImporter : LootImporter
 
     private (int, string) GetItemFromTableRow(IHtmlTableRowElement row)
     {
-        var tableCell = row.Cells[0];
+        var tableCell = row.Cells[1];
         var itemElement = tableCell.QuerySelector("a");
 
         return GetItemFromAnchor((IHtmlAnchorElement?)itemElement);

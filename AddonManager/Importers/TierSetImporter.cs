@@ -10,31 +10,37 @@ public class TierSetImporter : LootImporter
 {
     private Dictionary<string, string> armorTokenUris = new Dictionary<string, string>
     {
-        // { "https://www.wowhead.com/classic/item=236231/desecrated-breastplate#currency-for", "Naxxramas"},
-        // { "https://www.wowhead.com/classic/item=236232/desecrated-waistguard#currency-for", "Naxxramas"},
-        // { "https://www.wowhead.com/classic/item=236233/desecrated-gauntlets#currency-for", "Naxxramas"},
-        // { "https://www.wowhead.com/classic/item=236234/desecrated-sabatons#currency-for", "Naxxramas"},
-        // { "https://www.wowhead.com/classic/item=236235/desecrated-bracers#currency-for", "Naxxramas"},
-        // { "https://www.wowhead.com/classic/item=236236/desecrated-helmet#currency-for", "Naxxramas"},
-        // { "https://www.wowhead.com/classic/item=236237/desecrated-pauldrons#currency-for", "Naxxramas"},
-        // { "https://www.wowhead.com/classic/item=236238/desecrated-legplates#currency-for", "Naxxramas"},
-        // { "https://www.wowhead.com/classic/item=236239/desecrated-sandals#currency-for", "Naxxramas"},
-        // { "https://www.wowhead.com/classic/item=236240/desecrated-shoulderpads#currency-for", "Naxxramas"},
-        // { "https://www.wowhead.com/classic/item=236241/desecrated-circlet#currency-for", "Naxxramas"},
-        // { "https://www.wowhead.com/classic/item=236242/desecrated-robe#currency-for", "Naxxramas"},
-        // { "https://www.wowhead.com/classic/item=236243/desecrated-gloves#currency-for", "Naxxramas"},
-        // { "https://www.wowhead.com/classic/item=236244/desecrated-belt#currency-for", "Naxxramas"},
-        // { "https://www.wowhead.com/classic/item=236245/desecrated-bindings#currency-for", "Naxxramas"},
-        // { "https://www.wowhead.com/classic/item=236246/desecrated-leggings#currency-for", "Naxxramas"},
-        // { "https://www.wowhead.com/classic/item=236247/desecrated-wristguards#currency-for", "Naxxramas"},
-        // { "https://www.wowhead.com/classic/item=236248/desecrated-boots#currency-for", "Naxxramas"},
-        // { "https://www.wowhead.com/classic/item=236249/desecrated-headpiece#currency-for", "Naxxramas"},
-        // { "https://www.wowhead.com/classic/item=236250/desecrated-handguards#currency-for", "Naxxramas"},
-        // { "https://www.wowhead.com/classic/item=236251/desecrated-tunic#currency-for", "Naxxramas"},
-        // { "https://www.wowhead.com/classic/item=236252/desecrated-girdle#currency-for", "Naxxramas"},
-        // { "https://www.wowhead.com/classic/item=236253/desecrated-legguards#currency-for", "Naxxramas"},
-        // { "https://www.wowhead.com/classic/item=236254/desecrated-spaulders#currency-for", "Naxxramas"},
-        { "https://www.wowhead.com/classic/item=237381/desecrated-ring#currency-for", "Naxxramas"},
+        { "https://www.wowhead.com/classic/item=239722/consecrated-wristguards#currency-for", "Scarlet Enclave"},
+        { "https://www.wowhead.com/classic/item=239719/consecrated-bindings#currency-for", "Scarlet Enclave"},
+        { "https://www.wowhead.com/classic/item=239759/consecrated-bracers#currency-for", "Scarlet Enclave"},
+        
+        { "https://www.wowhead.com/classic/item=239760/consecrated-waistguard#currency-for", "Scarlet Enclave"},
+        { "https://www.wowhead.com/classic/item=239718/consecrated-belt#currency-for", "Scarlet Enclave"},
+        { "https://www.wowhead.com/classic/item=239756/consecrated-girdle#currency-for", "Scarlet Enclave"},        
+        
+        { "https://www.wowhead.com/classic/item=239707/consecrated-helmet#currency-for", "Scarlet Enclave"},
+        { "https://www.wowhead.com/classic/item=239714/consecrated-circlet#currency-for", "Scarlet Enclave"},
+        { "https://www.wowhead.com/classic/item=239729/consecrated-headpiece#currency-for", "Scarlet Enclave"},    
+        
+        { "https://www.wowhead.com/classic/item=239706/consecrated-sabatons#currency-for", "Scarlet Enclave"},
+        { "https://www.wowhead.com/classic/item=239710/consecrated-sandals#currency-for", "Scarlet Enclave"},
+        { "https://www.wowhead.com/classic/item=239726/consecrated-boots#currency-for", "Scarlet Enclave"},
+        
+        { "https://www.wowhead.com/classic/item=239762/consecrated-gauntlets#currency-for", "Scarlet Enclave"},
+        { "https://www.wowhead.com/classic/item=239730/consecrated-handguards#currency-for", "Scarlet Enclave"},
+        { "https://www.wowhead.com/classic/item=239716/consecrated-gloves#currency-for", "Scarlet Enclave"},
+        
+        { "https://www.wowhead.com/classic/item=239708/consecrated-pauldrons#currency-for", "Scarlet Enclave"},
+        { "https://www.wowhead.com/classic/item=239712/consecrated-shoulderpads#currency-for", "Scarlet Enclave"},
+        { "https://www.wowhead.com/classic/item=239758/consecrated-spaulders#currency-for", "Scarlet Enclave"},
+        
+        { "https://www.wowhead.com/classic/item=239721/consecrated-leggings#currency-for", "Scarlet Enclave"},
+        { "https://www.wowhead.com/classic/item=239757/consecrated-legguards#currency-for", "Scarlet Enclave"},
+        { "https://www.wowhead.com/classic/item=239709/consecrated-legplates#currency-for", "Scarlet Enclave"},
+        
+        { "https://www.wowhead.com/classic/item=239715/consecrated-robe#currency-for", "Scarlet Enclave"},
+        { "https://www.wowhead.com/classic/item=239761/consecrated-breastplate#currency-for", "Scarlet Enclave"},
+        { "https://www.wowhead.com/classic/item=239731/consecrated-tunic#currency-for", "Scarlet Enclave"},
     };
 
     internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, Action<string> writeToText)

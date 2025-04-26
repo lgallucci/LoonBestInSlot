@@ -451,9 +451,8 @@ public static class WowheadImporter
         ItemSourceFileManager.WriteItemSources(itemSources);
     }
 
-    private static List<string> _bossNames = new List<string>() { "the prophet skeram", "battleguard sartura", "fankriss the unyielding",
-                                                                "princess huhuran", "emperor vek'nilash", "emperor vek'lor", "c'thun", 
-                                                                "princess yauj", "vem", "lord kri", "viscidus", "ouro"};
+    private static List<string> _bossNames = new List<string>() { "balnazzar", "high commander beatrix", "solistrasza", "alexei the beastlord",
+                                                                 "mason the echo", "vishas", "lillian voss", "grand crusader caldoran"};
 
     private static bool AreAllBosses(IHtmlCollection<IElement> rowElements)
     {
@@ -471,7 +470,7 @@ public static class WowheadImporter
                                                                 "zul'farrak", "the temple of atal'hakkar", "blackrock depths", 
                                                                 "lower blackrock spire", "upper blackrock spire", "scholomance",
                                                                 "stratholme live", "stratholme undead", "blackrock spire",
-                                                                "dire maul: east", "dire maul: west", "dire maul: north" };
+                                                                "dire maul: east", "dire maul: west", "dire maul: north", "karazhan crypts" };
     private static bool IsDungeonName(string location)
     {
         return _dungeons.Contains(location.ToLower());

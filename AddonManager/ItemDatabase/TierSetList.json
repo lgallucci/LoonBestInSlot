@@ -8119,6 +8119,1478 @@
       "SourceNumber": "236251",
       "SourceLocation": "Naxxramas",
       "SourceFaction": "B"
+    },
+    "239512": {
+      "Name": "Lightbreaker Wrists",
+      "Source": "Consecrated Bracers",
+      "SourceType": "TierToken",
+      "SourceNumber": "239759",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239513": {
+      "Name": "Lightbreaker Belt",
+      "Source": "Consecrated Waistguard",
+      "SourceType": "TierToken",
+      "SourceNumber": "239760",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239514": {
+      "Name": "Lightbreaker Grips",
+      "Source": "Consecrated Gauntlets",
+      "SourceType": "TierToken",
+      "SourceNumber": "239762",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239515": {
+      "Name": "Lightbreaker Greaves",
+      "Source": "Consecrated Sabatons",
+      "SourceType": "TierToken",
+      "SourceNumber": "239706",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239516": {
+      "Name": "Lightbreaker Shoulders",
+      "Source": "Consecrated Pauldrons",
+      "SourceType": "TierToken",
+      "SourceNumber": "239708",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239517": {
+      "Name": "Lightbreaker Greathelm",
+      "Source": "Consecrated Helmet",
+      "SourceType": "TierToken",
+      "SourceNumber": "239707",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239518": {
+      "Name": "Lightbreaker Tassets",
+      "Source": "Consecrated Legplates",
+      "SourceType": "TierToken",
+      "SourceNumber": "239709",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239519": {
+      "Name": "Lightbreaker Cuirass",
+      "Source": "Consecrated Breastplate",
+      "SourceType": "TierToken",
+      "SourceNumber": "239761",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239520": {
+      "Name": "Lightbreaker Bracers",
+      "Source": "Consecrated Bracers",
+      "SourceType": "TierToken",
+      "SourceNumber": "239759",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239521": {
+      "Name": "Lightbreaker Waistguard",
+      "Source": "Consecrated Waistguard",
+      "SourceType": "TierToken",
+      "SourceNumber": "239760",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239522": {
+      "Name": "Lightbreaker Gauntlets",
+      "Source": "Consecrated Gauntlets",
+      "SourceType": "TierToken",
+      "SourceNumber": "239762",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239523": {
+      "Name": "Lightbreaker Sabatons",
+      "Source": "Consecrated Sabatons",
+      "SourceType": "TierToken",
+      "SourceNumber": "239706",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239524": {
+      "Name": "Lightbreaker Pauldrons",
+      "Source": "Consecrated Pauldrons",
+      "SourceType": "TierToken",
+      "SourceNumber": "239708",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239525": {
+      "Name": "Lightbreaker Helmet",
+      "Source": "Consecrated Helmet",
+      "SourceType": "TierToken",
+      "SourceNumber": "239707",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239526": {
+      "Name": "Lightbreaker Legplates",
+      "Source": "Consecrated Legplates",
+      "SourceType": "TierToken",
+      "SourceNumber": "239709",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239527": {
+      "Name": "Lightbreaker Breastplate",
+      "Source": "Consecrated Breastplate",
+      "SourceType": "TierToken",
+      "SourceNumber": "239761",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239529": {
+      "Name": "Dawnstalker Breastplate",
+      "Source": "Consecrated Breastplate",
+      "SourceType": "TierToken",
+      "SourceNumber": "239761",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239530": {
+      "Name": "Dawnstalker Greaves",
+      "Source": "Consecrated Sabatons",
+      "SourceType": "TierToken",
+      "SourceNumber": "239706",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239531": {
+      "Name": "Dawnstalker Gauntlets",
+      "Source": "Consecrated Gauntlets",
+      "SourceType": "TierToken",
+      "SourceNumber": "239762",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239532": {
+      "Name": "Dawnstalker Visor",
+      "Source": "Consecrated Helmet",
+      "SourceType": "TierToken",
+      "SourceNumber": "239707",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239533": {
+      "Name": "Dawnstalker Leggings",
+      "Source": "Consecrated Legplates",
+      "SourceType": "TierToken",
+      "SourceNumber": "239709",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239534": {
+      "Name": "Dawnstalker Pauldrons",
+      "Source": "Consecrated Pauldrons",
+      "SourceType": "TierToken",
+      "SourceNumber": "239708",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239535": {
+      "Name": "Dawnstalker Belt",
+      "Source": "Consecrated Waistguard",
+      "SourceType": "TierToken",
+      "SourceNumber": "239760",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239536": {
+      "Name": "Dawnstalker Vambraces",
+      "Source": "Consecrated Bracers",
+      "SourceType": "TierToken",
+      "SourceNumber": "239759",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239537": {
+      "Name": "Dawnstalker Boots",
+      "Source": "Consecrated Sabatons",
+      "SourceType": "TierToken",
+      "SourceNumber": "239706",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239538": {
+      "Name": "Dawnstalker Girdle",
+      "Source": "Consecrated Waistguard",
+      "SourceType": "TierToken",
+      "SourceNumber": "239760",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239539": {
+      "Name": "Dawnstalker Handguards",
+      "Source": "Consecrated Gauntlets",
+      "SourceType": "TierToken",
+      "SourceNumber": "239762",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239540": {
+      "Name": "Dawnstalker Headpiece",
+      "Source": "Consecrated Helmet",
+      "SourceType": "TierToken",
+      "SourceNumber": "239707",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239541": {
+      "Name": "Dawnstalker Legguards",
+      "Source": "Consecrated Legplates",
+      "SourceType": "TierToken",
+      "SourceNumber": "239709",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239542": {
+      "Name": "Dawnstalker Spaulders",
+      "Source": "Consecrated Pauldrons",
+      "SourceType": "TierToken",
+      "SourceNumber": "239708",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239543": {
+      "Name": "Dawnstalker Tunic",
+      "Source": "Consecrated Breastplate",
+      "SourceType": "TierToken",
+      "SourceNumber": "239761",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239544": {
+      "Name": "Dawnstalker Wristguards",
+      "Source": "Consecrated Bracers",
+      "SourceType": "TierToken",
+      "SourceNumber": "239759",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239547": {
+      "Name": "Duskwraith Wristguards",
+      "Source": "Consecrated Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "239719",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239548": {
+      "Name": "Duskwraith Chestguard",
+      "Source": "Consecrated Robe",
+      "SourceType": "TierToken",
+      "SourceNumber": "239715",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239549": {
+      "Name": "Duskwraith Grips",
+      "Source": "Consecrated Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "239716",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239550": {
+      "Name": "Duskwraith Mask",
+      "Source": "Consecrated Circlet",
+      "SourceType": "TierToken",
+      "SourceNumber": "239714",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239551": {
+      "Name": "Duskwraith Leggings",
+      "Source": "Consecrated Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "239721",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239552": {
+      "Name": "Duskwraith Mantle",
+      "Source": "Consecrated Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "239712",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239553": {
+      "Name": "Duskwraith Treads",
+      "Source": "Consecrated Sandals",
+      "SourceType": "TierToken",
+      "SourceNumber": "239710",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239554": {
+      "Name": "Duskwraith Belt",
+      "Source": "Consecrated Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "239718",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239555": {
+      "Name": "Duskwraith Bracers",
+      "Source": "Consecrated Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "239719",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239556": {
+      "Name": "Duskwraith Waistguard",
+      "Source": "Consecrated Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "239718",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239557": {
+      "Name": "Duskwraith Gauntlets",
+      "Source": "Consecrated Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "239716",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239558": {
+      "Name": "Duskwraith Sabatons",
+      "Source": "Consecrated Sandals",
+      "SourceType": "TierToken",
+      "SourceNumber": "239710",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239559": {
+      "Name": "Duskwraith Pauldrons",
+      "Source": "Consecrated Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "239712",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239560": {
+      "Name": "Duskwraith Helmet",
+      "Source": "Consecrated Circlet",
+      "SourceType": "TierToken",
+      "SourceNumber": "239714",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239561": {
+      "Name": "Duskwraith Legplates",
+      "Source": "Consecrated Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "239721",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239562": {
+      "Name": "Duskwraith Breastplate",
+      "Source": "Consecrated Robe",
+      "SourceType": "TierToken",
+      "SourceNumber": "239715",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239565": {
+      "Name": "Garb of Revelation",
+      "Source": "Consecrated Robe",
+      "SourceType": "TierToken",
+      "SourceNumber": "239715",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239572": {
+      "Name": "Boots of Revelation",
+      "Source": "Consecrated Sandals",
+      "SourceType": "TierToken",
+      "SourceNumber": "239710",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239574": {
+      "Name": "Hands of Revelation",
+      "Source": "Consecrated Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "239716",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239575": {
+      "Name": "Crown of Revelation",
+      "Source": "Consecrated Circlet",
+      "SourceType": "TierToken",
+      "SourceNumber": "239714",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239577": {
+      "Name": "Pants of Revelation",
+      "Source": "Consecrated Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "239721",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239581": {
+      "Name": "Mantle of Revelation",
+      "Source": "Consecrated Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "239712",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239582": {
+      "Name": "Girdle of Revelation",
+      "Source": "Consecrated Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "239718",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239583": {
+      "Name": "Wrists of Revelation",
+      "Source": "Consecrated Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "239719",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239584": {
+      "Name": "Gloves of Revelation",
+      "Source": "Consecrated Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "239716",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239585": {
+      "Name": "Circlet of Revelation",
+      "Source": "Consecrated Circlet",
+      "SourceType": "TierToken",
+      "SourceNumber": "239714",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239586": {
+      "Name": "Shoulderpads of Revelation",
+      "Source": "Consecrated Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "239712",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239587": {
+      "Name": "Leggings of Revelation",
+      "Source": "Consecrated Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "239721",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239588": {
+      "Name": "Bindings of Revelation",
+      "Source": "Consecrated Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "239719",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239589": {
+      "Name": "Sandals of Revelation",
+      "Source": "Consecrated Sandals",
+      "SourceType": "TierToken",
+      "SourceNumber": "239710",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239590": {
+      "Name": "Belt of Revelation",
+      "Source": "Consecrated Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "239718",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239591": {
+      "Name": "Robe of Revelation",
+      "Source": "Consecrated Robe",
+      "SourceType": "TierToken",
+      "SourceNumber": "239715",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240020": {
+      "Name": "Inquisition Legguards",
+      "Source": "Consecrated Legguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "239757",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240021": {
+      "Name": "Inquisition Spaulders",
+      "Source": "Consecrated Spaulders",
+      "SourceType": "TierToken",
+      "SourceNumber": "239758",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240022": {
+      "Name": "Inquisition Boots",
+      "Source": "Consecrated Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "239726",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240023": {
+      "Name": "Inquisition Vambraces",
+      "Source": "Consecrated Wristguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "239722",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240024": {
+      "Name": "Inquisition Belt",
+      "Source": "Consecrated Girdle",
+      "SourceType": "TierToken",
+      "SourceNumber": "239756",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240025": {
+      "Name": "Inquisition Shoulderplates",
+      "Source": "Consecrated Spaulders",
+      "SourceType": "TierToken",
+      "SourceNumber": "239758",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240026": {
+      "Name": "Inquisition Leggings",
+      "Source": "Consecrated Legguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "239757",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240027": {
+      "Name": "Inquisition Helmet",
+      "Source": "Consecrated Headpiece",
+      "SourceType": "TierToken",
+      "SourceNumber": "239729",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240028": {
+      "Name": "Inquisition Gloves",
+      "Source": "Consecrated Handguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "239730",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240029": {
+      "Name": "Inquisition Greaves",
+      "Source": "Consecrated Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "239726",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240030": {
+      "Name": "Inquisition Breastplate",
+      "Source": "Consecrated Tunic",
+      "SourceType": "TierToken",
+      "SourceNumber": "239731",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240031": {
+      "Name": "Inquisition Bracers",
+      "Source": "Consecrated Wristguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "239722",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240032": {
+      "Name": "Inquisition Waistguard",
+      "Source": "Consecrated Girdle",
+      "SourceType": "TierToken",
+      "SourceNumber": "239756",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240033": {
+      "Name": "Inquisition Pauldrons",
+      "Source": "Consecrated Spaulders",
+      "SourceType": "TierToken",
+      "SourceNumber": "239758",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240034": {
+      "Name": "Inquisition Legplates",
+      "Source": "Consecrated Legguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "239757",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240035": {
+      "Name": "Inquisition Crown",
+      "Source": "Consecrated Headpiece",
+      "SourceType": "TierToken",
+      "SourceNumber": "239729",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240036": {
+      "Name": "Inquisition Gauntlets",
+      "Source": "Consecrated Handguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "239730",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240037": {
+      "Name": "Inquisition Sabatons",
+      "Source": "Consecrated Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "239726",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240038": {
+      "Name": "Inquisition Chestguard",
+      "Source": "Consecrated Tunic",
+      "SourceType": "TierToken",
+      "SourceNumber": "239731",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240039": {
+      "Name": "Inquisition Tunic",
+      "Source": "Consecrated Tunic",
+      "SourceType": "TierToken",
+      "SourceNumber": "239731",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240040": {
+      "Name": "Inquisition Headpiece",
+      "Source": "Consecrated Headpiece",
+      "SourceType": "TierToken",
+      "SourceNumber": "239729",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240041": {
+      "Name": "Inquisition Handguards",
+      "Source": "Consecrated Handguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "239730",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240042": {
+      "Name": "Inquisition Wristguards",
+      "Source": "Consecrated Wristguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "239722",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240043": {
+      "Name": "Inquisition Girdle",
+      "Source": "Consecrated Girdle",
+      "SourceType": "TierToken",
+      "SourceNumber": "239756",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240044": {
+      "Name": "Fireleaf Wristwraps",
+      "Source": "Consecrated Bracers",
+      "SourceType": "TierToken",
+      "SourceNumber": "239759",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240045": {
+      "Name": "Fireleaf Waistguard",
+      "Source": "Consecrated Waistguard",
+      "SourceType": "TierToken",
+      "SourceNumber": "239760",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240046": {
+      "Name": "Fireleaf Mantle",
+      "Source": "Consecrated Pauldrons",
+      "SourceType": "TierToken",
+      "SourceNumber": "239708",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240047": {
+      "Name": "Fireleaf Pants",
+      "Source": "Consecrated Legplates",
+      "SourceType": "TierToken",
+      "SourceNumber": "239709",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240048": {
+      "Name": "Fireleaf Hood",
+      "Source": "Consecrated Helmet",
+      "SourceType": "TierToken",
+      "SourceNumber": "239707",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240049": {
+      "Name": "Fireleaf Mitts",
+      "Source": "Consecrated Gauntlets",
+      "SourceType": "TierToken",
+      "SourceNumber": "239762",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240050": {
+      "Name": "Fireleaf Boots",
+      "Source": "Consecrated Sabatons",
+      "SourceType": "TierToken",
+      "SourceNumber": "239706",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240051": {
+      "Name": "Fireleaf Garb",
+      "Source": "Consecrated Breastplate",
+      "SourceType": "TierToken",
+      "SourceNumber": "239761",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240052": {
+      "Name": "Fireleaf Bindings",
+      "Source": "Consecrated Bracers",
+      "SourceType": "TierToken",
+      "SourceNumber": "239759",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240053": {
+      "Name": "Fireleaf Belt",
+      "Source": "Consecrated Waistguard",
+      "SourceType": "TierToken",
+      "SourceNumber": "239760",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240054": {
+      "Name": "Fireleaf Shoulderpads",
+      "Source": "Consecrated Pauldrons",
+      "SourceType": "TierToken",
+      "SourceNumber": "239708",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240055": {
+      "Name": "Fireleaf Leggings",
+      "Source": "Consecrated Legplates",
+      "SourceType": "TierToken",
+      "SourceNumber": "239709",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240056": {
+      "Name": "Fireleaf Circlet",
+      "Source": "Consecrated Helmet",
+      "SourceType": "TierToken",
+      "SourceNumber": "239707",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240057": {
+      "Name": "Fireleaf Gloves",
+      "Source": "Consecrated Gauntlets",
+      "SourceType": "TierToken",
+      "SourceNumber": "239762",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240058": {
+      "Name": "Fireleaf Sandals",
+      "Source": "Consecrated Sabatons",
+      "SourceType": "TierToken",
+      "SourceNumber": "239706",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240059": {
+      "Name": "Fireleaf Robe",
+      "Source": "Consecrated Breastplate",
+      "SourceType": "TierToken",
+      "SourceNumber": "239761",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240060": {
+      "Name": "Waywatcher Wraps",
+      "Source": "Consecrated Wristguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "239722",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240061": {
+      "Name": "Waywatcher Sash",
+      "Source": "Consecrated Girdle",
+      "SourceType": "TierToken",
+      "SourceNumber": "239756",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240062": {
+      "Name": "Waywatcher Shoulderpads",
+      "Source": "Consecrated Spaulders",
+      "SourceType": "TierToken",
+      "SourceNumber": "239758",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240063": {
+      "Name": "Waywatcher Trousers",
+      "Source": "Consecrated Legguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "239757",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240064": {
+      "Name": "Waywatcher Cowl",
+      "Source": "Consecrated Headpiece",
+      "SourceType": "TierToken",
+      "SourceNumber": "239729",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240065": {
+      "Name": "Waywatcher Grips",
+      "Source": "Consecrated Handguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "239730",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240066": {
+      "Name": "Waywatcher Stompers",
+      "Source": "Consecrated Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "239726",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240067": {
+      "Name": "Waywatcher Vest",
+      "Source": "Consecrated Tunic",
+      "SourceType": "TierToken",
+      "SourceNumber": "239731",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240068": {
+      "Name": "Waywatcher Bindings",
+      "Source": "Consecrated Wristguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "239722",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240069": {
+      "Name": "Waywatcher Cord",
+      "Source": "Consecrated Girdle",
+      "SourceType": "TierToken",
+      "SourceNumber": "239756",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240070": {
+      "Name": "Waywatcher Mantle",
+      "Source": "Consecrated Spaulders",
+      "SourceType": "TierToken",
+      "SourceNumber": "239758",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240071": {
+      "Name": "Waywatcher Kilt",
+      "Source": "Consecrated Legguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "239757",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240072": {
+      "Name": "Waywatcher Hood",
+      "Source": "Consecrated Headpiece",
+      "SourceType": "TierToken",
+      "SourceNumber": "239729",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240073": {
+      "Name": "Waywatcher Mitts",
+      "Source": "Consecrated Handguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "239730",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240074": {
+      "Name": "Waywatcher Sandals",
+      "Source": "Consecrated Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "239726",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240075": {
+      "Name": "Waywatcher Leathers",
+      "Source": "Consecrated Tunic",
+      "SourceType": "TierToken",
+      "SourceNumber": "239731",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240076": {
+      "Name": "Waywatcher Bracers",
+      "Source": "Consecrated Wristguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "239722",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240077": {
+      "Name": "Waywatcher Waistguard",
+      "Source": "Consecrated Girdle",
+      "SourceType": "TierToken",
+      "SourceNumber": "239756",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240078": {
+      "Name": "Waywatcher Pauldrons",
+      "Source": "Consecrated Spaulders",
+      "SourceType": "TierToken",
+      "SourceNumber": "239758",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240079": {
+      "Name": "Waywatcher Leggings",
+      "Source": "Consecrated Legguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "239757",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240080": {
+      "Name": "Waywatcher Headdress",
+      "Source": "Consecrated Headpiece",
+      "SourceType": "TierToken",
+      "SourceNumber": "239729",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240081": {
+      "Name": "Waywatcher Gauntlets",
+      "Source": "Consecrated Handguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "239730",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240082": {
+      "Name": "Waywatcher Sabatons",
+      "Source": "Consecrated Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "239726",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240083": {
+      "Name": "Waywatcher Armor",
+      "Source": "Consecrated Tunic",
+      "SourceType": "TierToken",
+      "SourceNumber": "239731",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240084": {
+      "Name": "Waywatcher Wristguards",
+      "Source": "Consecrated Wristguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "239722",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240085": {
+      "Name": "Waywatcher Girdle",
+      "Source": "Consecrated Girdle",
+      "SourceType": "TierToken",
+      "SourceNumber": "239756",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240086": {
+      "Name": "Waywatcher Spaulders",
+      "Source": "Consecrated Spaulders",
+      "SourceType": "TierToken",
+      "SourceNumber": "239758",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240087": {
+      "Name": "Waywatcher Legguards",
+      "Source": "Consecrated Legguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "239757",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240088": {
+      "Name": "Waywatcher Headpiece",
+      "Source": "Consecrated Headpiece",
+      "SourceType": "TierToken",
+      "SourceNumber": "239729",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240089": {
+      "Name": "Waywatcher Handguards",
+      "Source": "Consecrated Handguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "239730",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240090": {
+      "Name": "Waywatcher Boots",
+      "Source": "Consecrated Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "239726",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240091": {
+      "Name": "Waywatcher Tunic",
+      "Source": "Consecrated Tunic",
+      "SourceType": "TierToken",
+      "SourceNumber": "239731",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240092": {
+      "Name": "Soulcrusher Tunic",
+      "Source": "Consecrated Tunic",
+      "SourceType": "TierToken",
+      "SourceNumber": "239731",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240093": {
+      "Name": "Soulcrusher Boots",
+      "Source": "Consecrated Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "239726",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240095": {
+      "Name": "Soulcrusher Handguards",
+      "Source": "Consecrated Handguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "239730",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240096": {
+      "Name": "Soulcrusher Headpiece",
+      "Source": "Consecrated Headpiece",
+      "SourceType": "TierToken",
+      "SourceNumber": "239729",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240097": {
+      "Name": "Soulcrusher Legguards",
+      "Source": "Consecrated Legguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "239757",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240098": {
+      "Name": "Soulcrusher Spaulders",
+      "Source": "Consecrated Spaulders",
+      "SourceType": "TierToken",
+      "SourceNumber": "239758",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240099": {
+      "Name": "Soulcrusher Girdle",
+      "Source": "Consecrated Girdle",
+      "SourceType": "TierToken",
+      "SourceNumber": "239756",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240100": {
+      "Name": "Soulcrusher Wristguards",
+      "Source": "Consecrated Wristguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "239722",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240101": {
+      "Name": "Soulcrusher Chestguard",
+      "Source": "Consecrated Tunic",
+      "SourceType": "TierToken",
+      "SourceNumber": "239731",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240102": {
+      "Name": "Soulcrusher Sabatons",
+      "Source": "Consecrated Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "239726",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240103": {
+      "Name": "Soulcrusher Gloves",
+      "Source": "Consecrated Handguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "239730",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240104": {
+      "Name": "Soulcrusher Faceguard",
+      "Source": "Consecrated Headpiece",
+      "SourceType": "TierToken",
+      "SourceNumber": "239729",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240105": {
+      "Name": "Soulcrusher Legplates",
+      "Source": "Consecrated Legguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "239757",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240106": {
+      "Name": "Soulcrusher Pauldrons",
+      "Source": "Consecrated Spaulders",
+      "SourceType": "TierToken",
+      "SourceNumber": "239758",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240107": {
+      "Name": "Soulcrusher Waistguard",
+      "Source": "Consecrated Girdle",
+      "SourceType": "TierToken",
+      "SourceNumber": "239756",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240108": {
+      "Name": "Soulcrusher Bracers",
+      "Source": "Consecrated Wristguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "239722",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240109": {
+      "Name": "Soulcrusher Embrace",
+      "Source": "Consecrated Tunic",
+      "SourceType": "TierToken",
+      "SourceNumber": "239731",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240110": {
+      "Name": "Soulcrusher Greaves",
+      "Source": "Consecrated Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "239726",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240122": {
+      "Name": "Soulcrusher Mitts",
+      "Source": "Consecrated Handguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "239730",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240123": {
+      "Name": "Soulcrusher Crown",
+      "Source": "Consecrated Headpiece",
+      "SourceType": "TierToken",
+      "SourceNumber": "239729",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240124": {
+      "Name": "Soulcrusher Kilt",
+      "Source": "Consecrated Legguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "239757",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240125": {
+      "Name": "Soulcrusher Mantle",
+      "Source": "Consecrated Spaulders",
+      "SourceType": "TierToken",
+      "SourceNumber": "239758",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240126": {
+      "Name": "Soulcrusher Cord",
+      "Source": "Consecrated Girdle",
+      "SourceType": "TierToken",
+      "SourceNumber": "239756",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240127": {
+      "Name": "Soulcrusher Bindings",
+      "Source": "Consecrated Wristguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "239722",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240128": {
+      "Name": "Soulcrusher Armor",
+      "Source": "Consecrated Tunic",
+      "SourceType": "TierToken",
+      "SourceNumber": "239731",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240129": {
+      "Name": "Soulcrusher Treads",
+      "Source": "Consecrated Boots",
+      "SourceType": "TierToken",
+      "SourceNumber": "239726",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240130": {
+      "Name": "Soulcrusher Grips",
+      "Source": "Consecrated Handguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "239730",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240131": {
+      "Name": "Soulcrusher Helmet",
+      "Source": "Consecrated Headpiece",
+      "SourceType": "TierToken",
+      "SourceNumber": "239729",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240134": {
+      "Name": "Soulcrusher Leggings",
+      "Source": "Consecrated Legguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "239757",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240135": {
+      "Name": "Soulcrusher Epaulets",
+      "Source": "Consecrated Spaulders",
+      "SourceType": "TierToken",
+      "SourceNumber": "239758",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240136": {
+      "Name": "Soulcrusher Belt",
+      "Source": "Consecrated Girdle",
+      "SourceType": "TierToken",
+      "SourceNumber": "239756",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240137": {
+      "Name": "Soulcrusher Vambraces",
+      "Source": "Consecrated Wristguards",
+      "SourceType": "TierToken",
+      "SourceNumber": "239722",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240138": {
+      "Name": "Heretic Robe",
+      "Source": "Consecrated Robe",
+      "SourceType": "TierToken",
+      "SourceNumber": "239715",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240139": {
+      "Name": "Heretic Sandals",
+      "Source": "Consecrated Sandals",
+      "SourceType": "TierToken",
+      "SourceNumber": "239710",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240140": {
+      "Name": "Heretic Gloves",
+      "Source": "Consecrated Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "239716",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240141": {
+      "Name": "Heretic Cowl",
+      "Source": "Consecrated Circlet",
+      "SourceType": "TierToken",
+      "SourceNumber": "239714",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240142": {
+      "Name": "Heretic Leggings",
+      "Source": "Consecrated Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "239721",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240143": {
+      "Name": "Heretic Shoulderpads",
+      "Source": "Consecrated Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "239712",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240144": {
+      "Name": "Heretic Belt",
+      "Source": "Consecrated Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "239718",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240145": {
+      "Name": "Heretic Bindings",
+      "Source": "Consecrated Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "239719",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240146": {
+      "Name": "Heretic Garb",
+      "Source": "Consecrated Robe",
+      "SourceType": "TierToken",
+      "SourceNumber": "239715",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240147": {
+      "Name": "Heretic Handguards",
+      "Source": "Consecrated Gloves",
+      "SourceType": "TierToken",
+      "SourceNumber": "239716",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240148": {
+      "Name": "Heretic Hood",
+      "Source": "Consecrated Circlet",
+      "SourceType": "TierToken",
+      "SourceNumber": "239714",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240149": {
+      "Name": "Heretic Pants",
+      "Source": "Consecrated Leggings",
+      "SourceType": "TierToken",
+      "SourceNumber": "239721",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240150": {
+      "Name": "Heretic Mantle",
+      "Source": "Consecrated Shoulderpads",
+      "SourceType": "TierToken",
+      "SourceNumber": "239712",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240151": {
+      "Name": "Heretic Waistguard",
+      "Source": "Consecrated Belt",
+      "SourceType": "TierToken",
+      "SourceNumber": "239718",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240152": {
+      "Name": "Heretic Wristguards",
+      "Source": "Consecrated Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "239719",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240153": {
+      "Name": "Heretic Boots",
+      "Source": "Consecrated Sandals",
+      "SourceType": "TierToken",
+      "SourceNumber": "239710",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
     }
   }
 }

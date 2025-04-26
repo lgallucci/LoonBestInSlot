@@ -8408,6 +8408,14 @@
       "SourceLocation": "Naxxramas",
       "SourceFaction": "B"
     },
+    "236317": {
+      "Name": "Vis'era the Gutrender",
+      "Source": "Solistrasza",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
     "236319": {
       "Name": "Leggings of Apocalypse",
       "Source": "The Four Horseman",
@@ -8638,6 +8646,894 @@
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "238945": {
+      "Name": "Caladboulder",
+      "Source": "Sword in the Stone",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "238961": {
+      "Name": "Caladbolg",
+      "Source": "Sword in the Stone",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239060": {
+      "Name": "Will of the Mountain",
+      "Source": "Mason the Echo",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239117": {
+      "Name": "Crusader's Chalice",
+      "Source": "Grand Crusader Caldoran",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239196": {
+      "Name": "Ruined Lightforged Blade",
+      "Source": "High Commander Beatrix",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239215": {
+      "Name": "Charred Emblem",
+      "Source": "Grand Crusader Caldoran",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239216": {
+      "Name": "Lightforged Iron",
+      "Source": "High Commander Beatrix & Alexei the Beastlord & Mason the Echo & Grand Crusader Caldoran",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239301": {
+      "Name": "Corrupted Ashbringer",
+      "Source": "Blades of Light",
+      "SourceType": "Quest",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239694": {
+      "Name": "Covenant of Light",
+      "Source": "High Commander Beatrix",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239695": {
+      "Name": "Scarlet Steed",
+      "Source": "Grand Crusader Caldoran",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239706": {
+      "Name": "Consecrated Sabatons",
+      "Source": "Alexei the Beastlord",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239707": {
+      "Name": "Consecrated Helmet",
+      "Source": "Solistrasza",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239708": {
+      "Name": "Consecrated Pauldrons",
+      "Source": "Reborn Council",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239709": {
+      "Name": "Consecrated Legplates",
+      "Source": "Lillian Voss",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239710": {
+      "Name": "Consecrated Sandals",
+      "Source": "Alexei the Beastlord",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239712": {
+      "Name": "Consecrated Shoulderpads",
+      "Source": "Reborn Council",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239714": {
+      "Name": "Consecrated Circlet",
+      "Source": "Solistrasza",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239715": {
+      "Name": "Consecrated Robe",
+      "Source": "Grand Crusader Caldoran",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239716": {
+      "Name": "Consecrated Gloves",
+      "Source": "Mason the Echo",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239718": {
+      "Name": "Consecrated Belt",
+      "Source": "High Commander Beatrix",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239719": {
+      "Name": "Consecrated Bindings",
+      "Source": "Balnazzar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239721": {
+      "Name": "Consecrated Leggings",
+      "Source": "Lillian Voss",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239722": {
+      "Name": "Consecrated Wristguards",
+      "Source": "Balnazzar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239726": {
+      "Name": "Consecrated Boots",
+      "Source": "Alexei the Beastlord",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239729": {
+      "Name": "Consecrated Headpiece",
+      "Source": "Solistrasza",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239730": {
+      "Name": "Consecrated Handguards",
+      "Source": "Mason the Echo",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239731": {
+      "Name": "Consecrated Tunic",
+      "Source": "Grand Crusader Caldoran",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239756": {
+      "Name": "Consecrated Girdle",
+      "Source": "High Commander Beatrix",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239757": {
+      "Name": "Consecrated Legguards",
+      "Source": "Lillian Voss",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239758": {
+      "Name": "Consecrated Spaulders",
+      "Source": "Reborn Council",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239759": {
+      "Name": "Consecrated Bracers",
+      "Source": "Balnazzar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239760": {
+      "Name": "Consecrated Waistguard",
+      "Source": "High Commander Beatrix",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239761": {
+      "Name": "Consecrated Breastplate",
+      "Source": "Grand Crusader Caldoran",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "239762": {
+      "Name": "Consecrated Gauntlets",
+      "Source": "Mason the Echo",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240174": {
+      "Name": "Solistra, Fang of the First Light",
+      "Source": "Solistrasza",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240195": {
+      "Name": "Invisible Sword",
+      "Source": "unknown",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240839": {
+      "Name": "Thal'kituun, the Unseen Guest",
+      "Source": "Balnazzar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240841": {
+      "Name": "High Commander's Guard",
+      "Source": "Grand Crusader Caldoran",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240842": {
+      "Name": "Scarlet Rotbringer",
+      "Source": "Lillian Voss",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240843": {
+      "Name": "Starter's Pistol",
+      "Source": "Mason the Echo",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240849": {
+      "Name": "Staff of the Glade",
+      "Source": "Alexei the Beastlord",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240850": {
+      "Name": "Lightfist Hammer",
+      "Source": "Solistrasza",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240851": {
+      "Name": "Regicide",
+      "Source": "Grand Crusader Caldoran",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240852": {
+      "Name": "Crimson Cleaver",
+      "Source": "Grand Crusader Caldoran",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240919": {
+      "Name": "Ravagane",
+      "Source": "Reborn Council",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240920": {
+      "Name": "Leogan",
+      "Source": "Grand Crusader Caldoran",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240921": {
+      "Name": "Scarlet Smashbringer",
+      "Source": "Grand Crusader Caldoran",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240922": {
+      "Name": "Deception",
+      "Source": "Balnazzar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240924": {
+      "Name": "Poleaxe of the Beast",
+      "Source": "Alexei the Beastlord",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240925": {
+      "Name": "Experiment-800M",
+      "Source": "Mason the Echo",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "240997": {
+      "Name": "Fratley's Spur",
+      "Source": "High Commander Beatrix",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241001": {
+      "Name": "Tyr's Fall",
+      "Source": "Grand Crusader Caldoran",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241002": {
+      "Name": "Remnants of the Red",
+      "Source": "Solistrasza",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241003": {
+      "Name": "Mirage, Rod of Illusion",
+      "Source": "Reborn Council",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241006": {
+      "Name": "Spire of Sacrifice",
+      "Source": "Grand Crusader Caldoran",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241008": {
+      "Name": "Condemnation",
+      "Source": "Reborn Council",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241011": {
+      "Name": "Greatstaff of Fealty",
+      "Source": "Mason the Echo",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241017": {
+      "Name": "Demon's Folly",
+      "Source": "Balnazzar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241018": {
+      "Name": "Nathrezim Heart",
+      "Source": "Balnazzar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241021": {
+      "Name": "The Light",
+      "Source": "Grand Crusader Caldoran",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241022": {
+      "Name": "Dawnbringer's Cloak",
+      "Source": "Solistrasza",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241023": {
+      "Name": "Drape of the Dastardly",
+      "Source": "Mason the Echo",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241024": {
+      "Name": "Scarlet Commander's Cape",
+      "Source": "Grand Crusader Caldoran",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241025": {
+      "Name": "Flag of the Broken Admiral",
+      "Source": "Mason the Echo",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241026": {
+      "Name": "Cardinal's Shawl",
+      "Source": "High Commander Beatrix",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241027": {
+      "Name": "Shield Warden's Guard",
+      "Source": "High Commander Beatrix",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241028": {
+      "Name": "Nathrezim Loop",
+      "Source": "Balnazzar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241029": {
+      "Name": "Baelin's Band",
+      "Source": "Grand Crusader Caldoran",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241030": {
+      "Name": "Mason's Fraternity Ring",
+      "Source": "Mason the Echo",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241032": {
+      "Name": "Ring of Resurrection",
+      "Source": "Grand Crusader Caldoran",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241034": {
+      "Name": "Heart of Light",
+      "Source": "Solistrasza",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241038": {
+      "Name": "Sir Dornel's Didgeridoo",
+      "Source": "Alexei the Beastlord",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241039": {
+      "Name": "Infusion of Souls",
+      "Source": "Grand Crusader Caldoran",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241068": {
+      "Name": "Stiltz's Standard",
+      "Source": "High Commander Beatrix",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241069": {
+      "Name": "Choke Chain",
+      "Source": "Alexei the Beastlord",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241071": {
+      "Name": "Talisman of the Scarlet Scoundrel",
+      "Source": "Mason the Echo",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241073": {
+      "Name": "Touch of Light",
+      "Source": "Solistrasza",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241074": {
+      "Name": "Helm of the Red Crusade",
+      "Source": "High Commander Beatrix",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241076": {
+      "Name": "Cowl of the Covenant",
+      "Source": "High Commander Beatrix",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241077": {
+      "Name": "Cardinal's Chapeau",
+      "Source": "High Commander Beatrix",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241079": {
+      "Name": "Weight of the World",
+      "Source": "Alexei the Beastlord",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241152": {
+      "Name": "Dawnwrought Shoulders",
+      "Source": "Balnazzar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241154": {
+      "Name": "Bearskin Mantle",
+      "Source": "Alexei the Beastlord",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241157": {
+      "Name": "Scarlet Chestplate",
+      "Source": "Balnazzar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241158": {
+      "Name": "Chains of the Abandoned",
+      "Source": "Alexei the Beastlord",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241159": {
+      "Name": "Monastery Garb",
+      "Source": "High Commander Beatrix",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241162": {
+      "Name": "Sunblessed Leathers",
+      "Source": "Alexei the Beastlord",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241163": {
+      "Name": "Sunblaze Bracers",
+      "Source": "Solistrasza",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241164": {
+      "Name": "Scrapped Argent Leathers",
+      "Source": "Alexei the Beastlord",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241165": {
+      "Name": "Penitent Wraps",
+      "Source": "Alexei the Beastlord",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241166": {
+      "Name": "Dawnstripped Bands",
+      "Source": "Solistrasza",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241167": {
+      "Name": "Prisoner Shackles",
+      "Source": "Alexei the Beastlord",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241168": {
+      "Name": "Sunblaze Grips",
+      "Source": "Solistrasza",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241170": {
+      "Name": "Enclave Protectors",
+      "Source": "High Commander Beatrix",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241171": {
+      "Name": "Gloves of Departed Souls",
+      "Source": "Balnazzar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241173": {
+      "Name": "High Wizard Wrap",
+      "Source": "High Commander Beatrix",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241176": {
+      "Name": "Diesalven's Demise",
+      "Source": "Balnazzar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241177": {
+      "Name": "Kilt of the Scarlet Arcanist",
+      "Source": "High Commander Beatrix",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241178": {
+      "Name": "Stalwart Pain Plate",
+      "Source": "Balnazzar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241179": {
+      "Name": "Leggings of Catastrophe",
+      "Source": "Balnazzar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241180": {
+      "Name": "Lightscale Leggings",
+      "Source": "Solistrasza",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241181": {
+      "Name": "Dawnworn Chain Leggings",
+      "Source": "Mason the Echo",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241182": {
+      "Name": "Templar Plate Legguards",
+      "Source": "Mason the Echo",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241183": {
+      "Name": "Ashwalkers",
+      "Source": "Mason the Echo",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241184": {
+      "Name": "Savior Sandals",
+      "Source": "Balnazzar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241185": {
+      "Name": "Bear Training Boots",
+      "Source": "Alexei the Beastlord",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241186": {
+      "Name": "Polished Scarlet Mail Boots",
+      "Source": "Solistrasza",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "241187": {
+      "Name": "Crimson Wartreads",
+      "Source": "Mason the Echo",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "242364": {
+      "Name": "Mature Light Dragon Sinew",
+      "Source": "Solistrasza",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "242365": {
+      "Name": "Wing of Balnazzar",
+      "Source": "Balnazzar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
+      "SourceFaction": "B"
+    },
+    "242793": {
+      "Name": "Portable Cannon",
+      "Source": "Mason the Echo",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Scarlet Enclave",
       "SourceFaction": "B"
     }
   }
