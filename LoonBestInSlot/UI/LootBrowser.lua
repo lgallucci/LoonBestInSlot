@@ -345,7 +345,7 @@ local function createDropDowns(window)
                 LBIS.L["Blackwing Lair"], LBIS.L["Zul'Gurub"],
                 LBIS.L["Ruins of Ahn'Qiraj"], LBIS.L["Ahn'Qiraj"],
                 LBIS.L["Naxxramas"], LBIS.L["Karazhan Crypts"],
-                LBIs.L["Scarlet Enclave"],                 
+                LBIS.L["Scarlet Enclave"],                 
             },
             ['defaultVal']= LBISSettings.SelectedZone,
             ['changeFunc']=function(dropdown_frame, dropdown_val)

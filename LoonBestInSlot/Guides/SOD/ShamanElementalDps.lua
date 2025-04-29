@@ -905,8 +905,8 @@ local function LoadData()
     LBIS:AddItem(spec8, "227003", LBIS.L["Shoulder"], "Alt") --Pauldrons of The Five Thunders
     LBIS:AddItem(spec8, "220745", LBIS.L["Shoulder"], "Alt") --Membrane of Dark Neurosis
     LBIS:AddItem(spec8, "231659", LBIS.L["Shoulder"], "Alt") --Warlord's Mail Spaulders
-    LBIS:AddItem(spec8, "236327", LBIS.L["Back"], "BIS") --Cloak of the Necropolis
     LBIS:AddItem(spec8, "233436", LBIS.L["Back"], "BIS") --Cloak of the Gathering Storm
+    LBIS:AddItem(spec8, "236327", LBIS.L["Back"], "BIS") --Cloak of the Necropolis
     LBIS:AddItem(spec8, "233630", LBIS.L["Back"], "Alt") --Cloak of the Devoured
     LBIS:AddItem(spec8, "231300", LBIS.L["Back"], "Alt") --Cloak of Consumption
     LBIS:AddItem(spec8, "236289", LBIS.L["Back"], "Alt") --Cloak of Suturing
@@ -1028,9 +1028,9 @@ local function LoadData()
     LBIS:AddItem(spec8, "14558", LBIS.L["Neck"], "Alt") --Lady Maye's Pendant
     LBIS:AddItem(spec8, "1443", LBIS.L["Neck"], "Alt") --Jeweled Amulet of Cainwyn
     LBIS:AddItem(spec8, "236157", LBIS.L["Ring"], "BIS") --Band of the Earthshatterer
-    LBIS:AddItem(spec8, "236273", LBIS.L["Ring"], "BIS") --Band of the Inevitable
+    LBIS:AddItem(spec8, "241031", LBIS.L["Ring"], "BIS") --Barthalomew's Promise
     LBIS:AddItem(spec8, "233437", LBIS.L["Ring"], "BIS") --Ring of the Gathering Storm
-    LBIS:AddItem(spec8, "241031", LBIS.L["Ring"], "Alt") --Barthalomew's Promise
+    LBIS:AddItem(spec8, "236273", LBIS.L["Ring"], "Alt") --Band of the Inevitable
     LBIS:AddItem(spec8, "234032", LBIS.L["Ring"], "Alt") --Signet Ring of the Bronze Dragonflight
     LBIS:AddItem(spec8, "234028", LBIS.L["Ring"], "Alt") --Signet Ring of the Bronze Dragonflight
     LBIS:AddItem(spec8, "234024", LBIS.L["Ring"], "Alt") --Signet Ring of the Bronze Dragonflight
@@ -1068,8 +1068,9 @@ local function LoadData()
     LBIS:AddItem(spec8, "12930", LBIS.L["Trinket"], "Alt") --Briarwood Reed
     LBIS:AddItem(spec8, "13968", LBIS.L["Trinket"], "Alt") --Eye of the Beast
     LBIS:AddItem(spec8, "18471", LBIS.L["Trinket"], "Alt") --Royal Seal of Eldre'Thalas
-    LBIS:AddItem(spec8, "241001", LBIS.L["Main Hand"], "BIS") --Tyr's Fall
-    LBIS:AddItem(spec8, "233435", LBIS.L["Main Hand"], "BIS") --Hammer of the Gathering Storm
+    LBIS:AddItem(spec8, "241003", LBIS.L["Main Hand"], "BIS") --Mirage, Rod of Illusion
+    LBIS:AddItem(spec8, "241001", LBIS.L["Main Hand"], "Alt") --Tyr's Fall
+    LBIS:AddItem(spec8, "233435", LBIS.L["Main Hand"], "Alt") --Hammer of the Gathering Storm
     LBIS:AddItem(spec8, "240998", LBIS.L["Main Hand"], "Alt") --Soporific Blade
     LBIS:AddItem(spec8, "241006", LBIS.L["Main Hand"], "Alt") --Spire of Sacrifice
     LBIS:AddItem(spec8, "236348", LBIS.L["Main Hand"], "Alt") --Hammer of the Twisting Nether
@@ -1100,8 +1101,8 @@ local function LoadData()
     LBIS:AddItem(spec8, "220601", LBIS.L["Off Hand"], "Alt") --Hakkari Witch Doctor's Guard
     LBIS:AddItem(spec8, "223545", LBIS.L["Off Hand"], "Alt") --Gizlock's Hypertech Buckler
     LBIS:AddItem(spec8, "216501", LBIS.L["Off Hand"], "Alt") --Bloodstorm Barrier
-    LBIS:AddItem(spec8, "234480", LBIS.L["Ranged/Relic"], "BIS") --Totem of Pyroclastic Thunder
     LBIS:AddItem(spec8, "228176", LBIS.L["Ranged/Relic"], "BIS") --Totem of Thunder
+    LBIS:AddItem(spec8, "234480", LBIS.L["Ranged/Relic"], "BIS") --Totem of Pyroclastic Thunder
     LBIS:AddItem(spec8, "232409", LBIS.L["Ranged/Relic"], "Alt") --Totem of the Elements
 end
 if LBIS.IsSOD then
