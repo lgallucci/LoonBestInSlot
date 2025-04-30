@@ -7,6 +7,7 @@ local function LoadData()
     local spec5 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Dps"], "5")
     local spec6 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Dps"], "6")
     local spec7 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Dps"], "7")
+    local spec8 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Dps"], "8")
 
     LBIS:AddEnchant(spec3, "22844", LBIS.L["Head"]) --
     LBIS:AddEnchant(spec3, "22599", LBIS.L["Shoulder"]) --
@@ -138,7 +139,7 @@ local function LoadData()
     LBIS:AddItem(spec3, "13170", LBIS.L["Legs"], "Alt") --Skyshroud Leggings
     LBIS:AddItem(spec3, "16927", LBIS.L["Feet"], "BIS") --Nemesis Boots
     LBIS:AddItem(spec3, "23291", LBIS.L["Feet"], "Alt") --Knight-Lieutenant's Silk Walkers
-    LBIS:AddItem(spec3, "16800", LBIS.L["Feet"], "Alt") --Arcanist Boots
+    LBIS:AddItem(spec3, "16803", LBIS.L["Feet"], "Alt") --Felheart Slippers
     LBIS:AddItem(spec3, "18814", LBIS.L["Neck"], "BIS") --Choker of the Fire Lord
     LBIS:AddItem(spec3, "19426", LBIS.L["Neck"], "Alt") --Orb of the Darkmoon
     LBIS:AddItem(spec3, "17109", LBIS.L["Neck"], "Alt") --Choker of Enlightenment

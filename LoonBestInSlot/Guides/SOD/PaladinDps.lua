@@ -1000,10 +1000,10 @@ local function LoadData()
     LBIS:AddItem(spec8, "228078", LBIS.L["Trinket"], "Alt") --Accursed Chalice
     LBIS:AddItem(spec8, "239301", LBIS.L["Two Hand"], "BIS") --Corrupted Ashbringer
     LBIS:AddItem(spec8, "240920", LBIS.L["Two Hand"], "BIS") --Leogan
-    LBIS:AddItem(spec8, "240919", LBIS.L["Two Hand"], "BIS") --Ravagane
+    LBIS:AddItem(spec8, "237512", LBIS.L["Two Hand"], "Alt") --Blade of Inquisition
     LBIS:AddItem(spec8, "236299", LBIS.L["Two Hand"], "Alt") --Claymore of Unholy Might
     LBIS:AddItem(spec8, "229749", LBIS.L["Two Hand"], "Alt") --Truthbearer
-    LBIS:AddItem(spec8, "237512", LBIS.L["Two Hand"], "Alt") --Blade of Inquisition
+    LBIS:AddItem(spec8, "240919", LBIS.L["Two Hand"], "Alt") --Ravagane
     LBIS:AddItem(spec8, "238961", LBIS.L["Two Hand"], "Alt") --Caladbolg
     LBIS:AddItem(spec8, "234981", LBIS.L["Two Hand"], "Alt") --Kalimdor's Revenge
     LBIS:AddItem(spec8, "236317", LBIS.L["Two Hand"], "Alt") --Vis'era the Gutrender

@@ -2174,6 +2174,7 @@ LBIS.ItemSources =
     [16799] = { Name = "Arcanist Bindings", SourceType = LBIS.L["Drop"], Source = LBIS.L["Trash Drop"], SourceNumber = "0", SourceLocation = LBIS.L["Molten Core"], SourceFaction = "B" },
     [16800] = { Name = "Arcanist Boots", SourceType = LBIS.L["Drop"], Source = LBIS.L["Lucifron"], SourceNumber = "0", SourceLocation = LBIS.L["Molten Core"], SourceFaction = "B" },
     [16801] = { Name = "Arcanist Gloves", SourceType = LBIS.L["Drop"], Source = LBIS.L["Shazzrah"], SourceNumber = "0", SourceLocation = LBIS.L["Molten Core"], SourceFaction = "B" },
+    [16803] = { Name = "Felheart Slippers", SourceType = LBIS.L["Drop"], Source = LBIS.L["Shazzrah"], SourceNumber = "0", SourceLocation = LBIS.L["Molten Core"], SourceFaction = "B" },
     [16804] = { Name = "Felheart Bracers", SourceType = LBIS.L["Drop"], Source = LBIS.L["Molten Destroyer"], SourceNumber = "0", SourceLocation = LBIS.L["Molten Core"], SourceFaction = "B" },
     [16805] = { Name = "Felheart Gloves", SourceType = LBIS.L["Drop"], Source = LBIS.L["Lucifron"], SourceNumber = "0", SourceLocation = LBIS.L["Molten Core"], SourceFaction = "B" },
     [16810] = { Name = "Felheart Pants", SourceType = LBIS.L["Drop"], Source = LBIS.L["Magmadar"], SourceNumber = "0", SourceLocation = LBIS.L["Molten Core"], SourceFaction = "B" },

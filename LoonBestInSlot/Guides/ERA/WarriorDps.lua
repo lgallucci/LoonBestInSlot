@@ -7,6 +7,7 @@ local function LoadData()
     local spec5 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Dps"], "5")
     local spec6 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Dps"], "6")
     local spec7 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Dps"], "7")
+    local spec8 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Dps"], "8")
 
     LBIS:AddEnchant(spec3, "15397", LBIS.L["Head"]) --
     LBIS:AddEnchant(spec3, "22599", LBIS.L["Shoulder"]) --

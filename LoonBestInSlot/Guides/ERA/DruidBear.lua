@@ -7,6 +7,7 @@ local function LoadData()
     local spec5 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Bear"], "5")
     local spec6 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Bear"], "6")
     local spec7 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Bear"], "7")
+    local spec8 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Bear"], "8")
 
     LBIS:AddEnchant(spec3, "22840", LBIS.L["Head"]) --
     LBIS:AddEnchant(spec3, "22599", LBIS.L["Shoulder"]) --
