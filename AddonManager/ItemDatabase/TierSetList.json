@@ -1,5 +1,221 @@
 {
   "Items": {
+    "19822": {
+      "Name": "Zandalar Vindicator's Breastplate",
+      "Source": "Primal Hakkari Kossack",
+      "SourceType": "TierToken",
+      "SourceNumber": "19723",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "19823": {
+      "Name": "Zandalar Vindicator's Belt",
+      "Source": "Primal Hakkari Girdle",
+      "SourceType": "TierToken",
+      "SourceNumber": "19719",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "19824": {
+      "Name": "Zandalar Vindicator's Armguards",
+      "Source": "Primal Hakkari Armsplint",
+      "SourceType": "TierToken",
+      "SourceNumber": "19717",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "19825": {
+      "Name": "Zandalar Freethinker's Breastplate",
+      "Source": "Primal Hakkari Tabard",
+      "SourceType": "TierToken",
+      "SourceNumber": "19722",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "A"
+    },
+    "19826": {
+      "Name": "Zandalar Freethinker's Belt",
+      "Source": "Primal Hakkari Shawl",
+      "SourceType": "TierToken",
+      "SourceNumber": "19721",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "A"
+    },
+    "19827": {
+      "Name": "Zandalar Freethinker's Armguards",
+      "Source": "Primal Hakkari Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "19716",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "A"
+    },
+    "19828": {
+      "Name": "Zandalar Augur's Hauberk",
+      "Source": "Primal Hakkari Tabard",
+      "SourceType": "TierToken",
+      "SourceNumber": "19722",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "H"
+    },
+    "19829": {
+      "Name": "Zandalar Augur's Belt",
+      "Source": "Primal Hakkari Girdle",
+      "SourceType": "TierToken",
+      "SourceNumber": "19719",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "H"
+    },
+    "19830": {
+      "Name": "Zandalar Augur's Bracers",
+      "Source": "Primal Hakkari Armsplint",
+      "SourceType": "TierToken",
+      "SourceNumber": "19717",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "H"
+    },
+    "19831": {
+      "Name": "Zandalar Predator's Mantle",
+      "Source": "Primal Hakkari Aegis",
+      "SourceType": "TierToken",
+      "SourceNumber": "19724",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "19832": {
+      "Name": "Zandalar Predator's Belt",
+      "Source": "Primal Hakkari Shawl",
+      "SourceType": "TierToken",
+      "SourceNumber": "19721",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "19833": {
+      "Name": "Zandalar Predator's Bracers",
+      "Source": "Primal Hakkari Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "19716",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "19834": {
+      "Name": "Zandalar Madcap's Tunic",
+      "Source": "Primal Hakkari Aegis",
+      "SourceType": "TierToken",
+      "SourceNumber": "19724",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "19835": {
+      "Name": "Zandalar Madcap's Mantle",
+      "Source": "Primal Hakkari Girdle",
+      "SourceType": "TierToken",
+      "SourceNumber": "19719",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "19836": {
+      "Name": "Zandalar Madcap's Bracers",
+      "Source": "Primal Hakkari Armsplint",
+      "SourceType": "TierToken",
+      "SourceNumber": "19717",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "19838": {
+      "Name": "Zandalar Haruspex's Tunic",
+      "Source": "Primal Hakkari Tabard",
+      "SourceType": "TierToken",
+      "SourceNumber": "19722",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "19839": {
+      "Name": "Zandalar Haruspex's Belt",
+      "Source": "Primal Hakkari Sash",
+      "SourceType": "TierToken",
+      "SourceNumber": "19720",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "19840": {
+      "Name": "Zandalar Haruspex's Bracers",
+      "Source": "Primal Hakkari Stanchion",
+      "SourceType": "TierToken",
+      "SourceNumber": "19718",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "19841": {
+      "Name": "Zandalar Confessor's Mantle",
+      "Source": "Primal Hakkari Aegis",
+      "SourceType": "TierToken",
+      "SourceNumber": "19724",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "19842": {
+      "Name": "Zandalar Confessor's Bindings",
+      "Source": "Primal Hakkari Sash",
+      "SourceType": "TierToken",
+      "SourceNumber": "19720",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "19843": {
+      "Name": "Zandalar Confessor's Wraps",
+      "Source": "Primal Hakkari Stanchion",
+      "SourceType": "TierToken",
+      "SourceNumber": "19718",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "19845": {
+      "Name": "Zandalar Illusionist's Mantle",
+      "Source": "Primal Hakkari Shawl",
+      "SourceType": "TierToken",
+      "SourceNumber": "19721",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "19846": {
+      "Name": "Zandalar Illusionist's Wraps",
+      "Source": "Primal Hakkari Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "19716",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "19848": {
+      "Name": "Zandalar Demoniac's Wraps",
+      "Source": "Primal Hakkari Stanchion",
+      "SourceType": "TierToken",
+      "SourceNumber": "19718",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "19849": {
+      "Name": "Zandalar Demoniac's Mantle",
+      "Source": "Primal Hakkari Sash",
+      "SourceType": "TierToken",
+      "SourceNumber": "19720",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "20033": {
+      "Name": "Zandalar Demoniac's Robe",
+      "Source": "Primal Hakkari Kossack",
+      "SourceType": "TierToken",
+      "SourceNumber": "19723",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "20034": {
+      "Name": "Zandalar Illusionist's Robe",
+      "Source": "Primal Hakkari Kossack",
+      "SourceType": "TierToken",
+      "SourceNumber": "19723",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
     "22416": {
       "Name": "Dreadnaught Breastplate",
       "Source": "Desecrated Breastplate",
@@ -3854,6 +4070,222 @@
       "SourceType": "TierToken",
       "SourceNumber": "231715",
       "SourceLocation": "Blackwing Lair",
+      "SourceFaction": "B"
+    },
+    "231317": {
+      "Name": "Zandalar Haruspex's Tunic",
+      "Source": "Primal Hakkari Tabard",
+      "SourceType": "TierToken",
+      "SourceNumber": "19722",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231318": {
+      "Name": "Zandalar Haruspex's Belt",
+      "Source": "Primal Hakkari Sash",
+      "SourceType": "TierToken",
+      "SourceNumber": "19720",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231319": {
+      "Name": "Zandalar Haruspex's Bracers",
+      "Source": "Primal Hakkari Stanchion",
+      "SourceType": "TierToken",
+      "SourceNumber": "19718",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231321": {
+      "Name": "Zandalar Predator's Mantle",
+      "Source": "Primal Hakkari Aegis",
+      "SourceType": "TierToken",
+      "SourceNumber": "19724",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231322": {
+      "Name": "Zandalar Predator's Belt",
+      "Source": "Primal Hakkari Shawl",
+      "SourceType": "TierToken",
+      "SourceNumber": "19721",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231323": {
+      "Name": "Zandalar Predator's Bracers",
+      "Source": "Primal Hakkari Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "19716",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231325": {
+      "Name": "Zandalar Illusionist's Mantle",
+      "Source": "Primal Hakkari Shawl",
+      "SourceType": "TierToken",
+      "SourceNumber": "19721",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231326": {
+      "Name": "Zandalar Illusionist's Wraps",
+      "Source": "Primal Hakkari Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "19716",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231327": {
+      "Name": "Zandalar Illusionist's Robe",
+      "Source": "Primal Hakkari Kossack",
+      "SourceType": "TierToken",
+      "SourceNumber": "19723",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231329": {
+      "Name": "Zandalar Freethinker's Breastplate",
+      "Source": "Primal Hakkari Tabard",
+      "SourceType": "TierToken",
+      "SourceNumber": "19722",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "A"
+    },
+    "231330": {
+      "Name": "Zandalar Freethinker's Belt",
+      "Source": "Primal Hakkari Shawl",
+      "SourceType": "TierToken",
+      "SourceNumber": "19721",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "A"
+    },
+    "231331": {
+      "Name": "Zandalar Freethinker's Armguards",
+      "Source": "Primal Hakkari Bindings",
+      "SourceType": "TierToken",
+      "SourceNumber": "19716",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "A"
+    },
+    "231333": {
+      "Name": "Zandalar Confessor's Mantle",
+      "Source": "Primal Hakkari Aegis",
+      "SourceType": "TierToken",
+      "SourceNumber": "19724",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231334": {
+      "Name": "Zandalar Confessor's Bindings",
+      "Source": "Primal Hakkari Sash",
+      "SourceType": "TierToken",
+      "SourceNumber": "19720",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231335": {
+      "Name": "Zandalar Confessor's Wraps",
+      "Source": "Primal Hakkari Stanchion",
+      "SourceType": "TierToken",
+      "SourceNumber": "19718",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231337": {
+      "Name": "Zandalar Madcap's Tunic",
+      "Source": "Primal Hakkari Aegis",
+      "SourceType": "TierToken",
+      "SourceNumber": "19724",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231338": {
+      "Name": "Zandalar Madcap's Mantle",
+      "Source": "Primal Hakkari Girdle",
+      "SourceType": "TierToken",
+      "SourceNumber": "19719",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231339": {
+      "Name": "Zandalar Madcap's Bracers",
+      "Source": "Primal Hakkari Armsplint",
+      "SourceType": "TierToken",
+      "SourceNumber": "19717",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231341": {
+      "Name": "Zandalar Augur's Hauberk",
+      "Source": "Primal Hakkari Tabard",
+      "SourceType": "TierToken",
+      "SourceNumber": "19722",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "H"
+    },
+    "231342": {
+      "Name": "Zandalar Augur's Belt",
+      "Source": "Primal Hakkari Girdle",
+      "SourceType": "TierToken",
+      "SourceNumber": "19719",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "H"
+    },
+    "231343": {
+      "Name": "Zandalar Augur's Bracers",
+      "Source": "Primal Hakkari Armsplint",
+      "SourceType": "TierToken",
+      "SourceNumber": "19717",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "H"
+    },
+    "231347": {
+      "Name": "Zandalar Demoniac's Wraps",
+      "Source": "Primal Hakkari Stanchion",
+      "SourceType": "TierToken",
+      "SourceNumber": "19718",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231348": {
+      "Name": "Zandalar Demoniac's Robe",
+      "Source": "Primal Hakkari Kossack",
+      "SourceType": "TierToken",
+      "SourceNumber": "19723",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231349": {
+      "Name": "Zandalar Demoniac's Mantle",
+      "Source": "Primal Hakkari Sash",
+      "SourceType": "TierToken",
+      "SourceNumber": "19720",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231351": {
+      "Name": "Zandalar Vindicator's Armguards",
+      "Source": "Primal Hakkari Armsplint",
+      "SourceType": "TierToken",
+      "SourceNumber": "19717",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231352": {
+      "Name": "Zandalar Vindicator's Belt",
+      "Source": "Primal Hakkari Girdle",
+      "SourceType": "TierToken",
+      "SourceNumber": "19719",
+      "SourceLocation": "Zul'Gurub",
+      "SourceFaction": "B"
+    },
+    "231353": {
+      "Name": "Zandalar Vindicator's Breastplate",
+      "Source": "Primal Hakkari Kossack",
+      "SourceType": "TierToken",
+      "SourceNumber": "19723",
+      "SourceLocation": "Zul'Gurub",
       "SourceFaction": "B"
     },
     "232079": {

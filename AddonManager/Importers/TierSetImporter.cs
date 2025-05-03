@@ -10,37 +10,15 @@ public class TierSetImporter : LootImporter
 {
     private Dictionary<string, string> armorTokenUris = new Dictionary<string, string>
     {
-        { "https://www.wowhead.com/classic/item=239722/consecrated-wristguards#currency-for", "Scarlet Enclave"},
-        { "https://www.wowhead.com/classic/item=239719/consecrated-bindings#currency-for", "Scarlet Enclave"},
-        { "https://www.wowhead.com/classic/item=239759/consecrated-bracers#currency-for", "Scarlet Enclave"},
-        
-        { "https://www.wowhead.com/classic/item=239760/consecrated-waistguard#currency-for", "Scarlet Enclave"},
-        { "https://www.wowhead.com/classic/item=239718/consecrated-belt#currency-for", "Scarlet Enclave"},
-        { "https://www.wowhead.com/classic/item=239756/consecrated-girdle#currency-for", "Scarlet Enclave"},        
-        
-        { "https://www.wowhead.com/classic/item=239707/consecrated-helmet#currency-for", "Scarlet Enclave"},
-        { "https://www.wowhead.com/classic/item=239714/consecrated-circlet#currency-for", "Scarlet Enclave"},
-        { "https://www.wowhead.com/classic/item=239729/consecrated-headpiece#currency-for", "Scarlet Enclave"},    
-        
-        { "https://www.wowhead.com/classic/item=239706/consecrated-sabatons#currency-for", "Scarlet Enclave"},
-        { "https://www.wowhead.com/classic/item=239710/consecrated-sandals#currency-for", "Scarlet Enclave"},
-        { "https://www.wowhead.com/classic/item=239726/consecrated-boots#currency-for", "Scarlet Enclave"},
-        
-        { "https://www.wowhead.com/classic/item=239762/consecrated-gauntlets#currency-for", "Scarlet Enclave"},
-        { "https://www.wowhead.com/classic/item=239730/consecrated-handguards#currency-for", "Scarlet Enclave"},
-        { "https://www.wowhead.com/classic/item=239716/consecrated-gloves#currency-for", "Scarlet Enclave"},
-        
-        { "https://www.wowhead.com/classic/item=239708/consecrated-pauldrons#currency-for", "Scarlet Enclave"},
-        { "https://www.wowhead.com/classic/item=239712/consecrated-shoulderpads#currency-for", "Scarlet Enclave"},
-        { "https://www.wowhead.com/classic/item=239758/consecrated-spaulders#currency-for", "Scarlet Enclave"},
-        
-        { "https://www.wowhead.com/classic/item=239721/consecrated-leggings#currency-for", "Scarlet Enclave"},
-        { "https://www.wowhead.com/classic/item=239757/consecrated-legguards#currency-for", "Scarlet Enclave"},
-        { "https://www.wowhead.com/classic/item=239709/consecrated-legplates#currency-for", "Scarlet Enclave"},
-        
-        { "https://www.wowhead.com/classic/item=239715/consecrated-robe#currency-for", "Scarlet Enclave"},
-        { "https://www.wowhead.com/classic/item=239761/consecrated-breastplate#currency-for", "Scarlet Enclave"},
-        { "https://www.wowhead.com/classic/item=239731/consecrated-tunic#currency-for", "Scarlet Enclave"},
+        { "https://www.wowhead.com/classic/item=19724/primal-hakkari-aegis#objective-of", "Zul'Gurub"},
+        { "https://www.wowhead.com/classic/item=19717/primal-hakkari-armsplint#objective-of", "Zul'Gurub"},
+        { "https://www.wowhead.com/classic/item=19716/primal-hakkari-bindings#objective-of", "Zul'Gurub"},
+        { "https://www.wowhead.com/classic/item=19719/primal-hakkari-girdle#objective-of", "Zul'Gurub"},
+        { "https://www.wowhead.com/classic/item=19723/primal-hakkari-kossack#objective-of", "Zul'Gurub"},
+        { "https://www.wowhead.com/classic/item=19720/primal-hakkari-sash#objective-of", "Zul'Gurub"},
+        { "https://www.wowhead.com/classic/item=19721/primal-hakkari-shawl#objective-of", "Zul'Gurub"},
+        { "https://www.wowhead.com/classic/item=19718/primal-hakkari-stanchion#objective-of", "Zul'Gurub"},
+        { "https://www.wowhead.com/classic/item=19722/primal-hakkari-tabard#objective-of", "Zul'Gurub"},
     };
 
     internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, Action<string> writeToText)
