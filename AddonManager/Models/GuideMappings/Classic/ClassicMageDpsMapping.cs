@@ -65,22 +65,21 @@ internal class ClassicMageDpsMapping : ClassicSpecMapping
     public override string Phase4Url => "wow-classic-mage-dps-blackwing-lair-zg-best-in-slot-gear";
     public override List<(string, GuideMapping)> Phase4 => new List<(string, GuideMapping)>
         {
-            { ("Head", "#helm-for-mages") },
-            { ("Shoulder", "#shoulder-for-mages") },
-            { ("Back", "#back-for-mages") },
-            { ("Chest", "#chest-for-mages") },
-            { ("Wrist", "#bracers-for-mages") },
-            { ("Hands", "#hands-for-mages") },
-            { ("Waist", "#belt-for-mages") },
-            { ("Legs", "#legs-for-mages") },
-            { ("Feet", "#boots-for-mages") },
-            { ("Neck", "#neck-for-mages") },
-            { ("Ring", "#rings-for-mages") },
-            { ("Trinket", "#trinkets-for-mages") },
-            { ("Main Hand", "#one-hand-weapons-for-mages") },
-            { ("Off Hand", "#off-hand-items-for-mages") },
-            { ("Two Hand", "#two-hand-weapons-for-mages") },
-            { ("Ranged/Relic", "#wands-for-mages") },
+            { ("Head", "#head-for-mage-dps") },
+            { ("Shoulder", "#shoulders-for-mage-dps") },
+            { ("Back", "#back-for-mage-dps") },
+            { ("Chest", "#chest-for-mage-dps") },
+            { ("Wrist", "#wrist-for-mage-dps") },
+            { ("Hands", "#hands-for-mage-dps") },
+            { ("Waist", "#waist-for-mage-dps") },
+            { ("Legs", "#legs-for-mage-dps") },
+            { ("Feet", "#feet-for-mage-dps") },
+            { ("Neck", "#neck-for-mage-dps") },
+            { ("Ring", "#rings-for-mage-dps") },
+            { ("Trinket", "#trinkets-for-mage-dps") },
+            { ("Main Hand", "#weapons") },
+            { ("Off Hand", "#weapons-2") },
+            { ("Ranged/Relic", "#weapons-2") },
         };
 
     public override string Phase5Url => throw new NotImplementedException();

@@ -73,21 +73,20 @@ internal class ClassicDruidCatMapping : ClassicSpecMapping
     public override string Phase4Url => "wow-classic-feral-druid-dps-blackwing-lair-zg-best-in-slot-gear";
     public override List<(string, GuideMapping)> Phase4 => new List<(string, GuideMapping)>
         {
-            { ("Head", "#helm") },
-            { ("Shoulder", "#shoulder") },
-            { ("Back", "#back") },
-            { ("Chest", "#chest") },
-            { ("Wrist", "#bracers") },
-            { ("Hands", "#hands") },
-            { ("Waist", "#belt") },
-            { ("Legs", "#legs") },
-            { ("Feet", "#boots") },
-            { ("Neck", "#neck") },
-            { ("Ring", "#rings") },
-            { ("Trinket", "#trinkets") },
-            { ("Main Hand", "#one-hand-weapons") },
-            { ("Off Hand", "#off-hand-items") },
-            { ("Two Hand", "#two-hand-weapons") },
+            { ("Head", "#head-for-feral-druid-dps") },
+            { ("Shoulder", "#shoulders-for-feral-druid-dps") },
+            { ("Back", "#back-for-feral-druid-dps") },
+            { ("Chest", "#chest-for-feral-druid-dps") },
+            { ("Wrist", "#wrist-for-feral-druid-dps") },
+            { ("Hands", "#hands-for-feral-druid-dps") },
+            { ("Waist", "#waist-for-feral-druid-dps") },
+            { ("Legs", "#legs-for-feral-druid-dps") },
+            { ("Feet", "#feet-for-feral-druid-dps") },
+            { ("Neck", "#neck-for-feral-druid-dps") },
+            { ("Ring", "#rings-for-feral-druid-dps") },
+            { ("Trinket", "#trinkets-for-feral-druid-dps") },
+            { ("Main Hand", "#weapons-for-feral-druid-dps") },
+            { ("Ranged/Relic", "#idols-for-feral-druid-dps") },
         };
 
     public override string Phase5Url => throw new NotImplementedException();

@@ -73,20 +73,20 @@ internal class ClassicShamanEnhancementMapping : ClassicSpecMapping
     public override string Phase4Url => "wow-classic-enhancement-shaman-dps-blackwing-lair-zg-best-in-slot-gear";
     public override List<(string, GuideMapping)> Phase4 => new List<(string, GuideMapping)>
         {
-            { ("Head", "#head-for-enhancement-shaman") },
-            { ("Shoulder", "#shoulder-for-enhancement-shaman") },
-            { ("Back", "#back-for-enhancement-shaman") },
-            { ("Chest", "#chest-for-enhancement-shaman") },
-            { ("Wrist", "#wrist-for-enhancement-shaman") },
-            { ("Hands", "#hands-for-enhancement-shaman") },
-            { ("Waist", "#waist-for-enhancement-shaman") },
-            { ("Legs", "#legs-for-enhancement-shaman") },
-            { ("Feet", "#feet-for-enhancement-shaman") },
-            { ("Neck", "#neck-for-enhancement-shaman") },
-            { ("Ring", "#rings-for-enhancement-shaman") },
-            { ("Trinket", "#trinkets-for-enhancement-shaman") },
-            { ("Main Hand", "#one-handed-for-enhancement-shaman") },
-            { ("Two Hand", "#two-handed-for-enhancement-shaman") },
+            { ("Head", "#head-for-enhancement-shaman-dps") },
+            { ("Shoulder", "#shoulders-for-enhancement-shaman-dps") },
+            { ("Back", "#back-for-enhancement-shaman-dps") },
+            { ("Chest", "#chest-for-enhancement-shaman-dps") },
+            { ("Wrist", "#wrist-for-enhancement-shaman-dps") },
+            { ("Hands", "#hands-for-enhancement-shaman-dps") },
+            { ("Waist", "#waist-for-enhancement-shaman-dps") },
+            { ("Legs", "#legs-for-enhancement-shaman-dps") },
+            { ("Feet", "#feet-for-enhancement-shaman-dps") },
+            { ("Neck", "#neck-for-enhancement-shaman-dps") },
+            { ("Ring", "#rings-for-enhancement-shaman-dps") },
+            { ("Trinket", "#trinkets-for-enhancement-shaman-dps") },
+            { ("Main Hand", "#main-hand-weapons-for-enhancement-shaman-dps") },
+            { ("Off Hand", "#shields-for-enhancement-shaman-dps") },
             //TODO: Wait til ranged are added
         };
 

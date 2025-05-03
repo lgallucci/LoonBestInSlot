@@ -65,11 +65,10 @@ internal class ClassicWarlockDpsMapping : ClassicSpecMapping
     public override string Phase4Url => "wow-classic-warlock-dps-blackwing-lair-zg-best-in-slot-gear";
     public override List<(string, GuideMapping)> Phase4 => new List<(string, GuideMapping)>
         {
-            { ("Wrist", "#wrists") },
-            { ("Ring", "#ring") },
-            { ("Main Hand", "#weapon") },
-            { ("Off Hand", "#off-hand") },
-            { ("Ranged/Relic", "#ranged") }
+            { ("Main Hand", "#main-hand-weapons") },
+            { ("Two Hand", "#two-hand-weapons") },
+            { ("Off Hand", "#offhand-weapons") },
+            { ("Ranged/Relic", "#wands") }
         };
 
     public override string Phase5Url => throw new NotImplementedException();

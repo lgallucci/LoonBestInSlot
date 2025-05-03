@@ -75,21 +75,20 @@ internal class ClassicShamanElementalMapping : ClassicSpecMapping
     public override string Phase4Url => "wow-classic-elemental-shaman-dps-blackwing-lair-zg-best-in-slot-gear";
     public override List<(string, GuideMapping)> Phase4 => new List<(string, GuideMapping)>
         {
-            { ("Head", "#head-for-elemental-shaman") },
-            { ("Shoulder", "#shoulders-for-elemental-shaman") },
-            { ("Back", "#back-for-elemental-shaman") },
-            { ("Chest", "#chest-for-elemental-shaman") },
-            { ("Wrist", "#wrist-for-elemental-shaman") },
-            { ("Hands", "#hands-for-elemental-shaman") },
-            { ("Waist", "#waist-for-elemental-shaman") },
-            { ("Legs", "#legs-for-elemental-shaman") },
-            { ("Feet", "#feet-for-elemental-shaman") },
-            { ("Neck", "#neck-for-elemental-shaman") },
-            { ("Ring", "#ring-for-elemental-shaman") },
-            { ("Trinket", "#trinket-for-elemental-shaman") },
-            { ("Main Hand", "#one-handed-weapons-for-elemental-shaman") },
-            { ("Off Hand", "#off-hands-for-elemental-shaman") },
-            { ("Two Hand", "#two-handed-weapons-for-elemental-shaman") },
+            { ("Head", "#head-for-elemental-shaman-dps") },
+            { ("Shoulder", "#shoulders-for-elemental-shaman-dps") },
+            { ("Back", "#back-for-elemental-shaman-dps") },
+            { ("Chest", "#chest-for-elemental-shaman-dps") },
+            { ("Wrist", "#wrist-for-elemental-shaman-dps") },
+            { ("Hands", "#hands-for-elemental-shaman-dps") },
+            { ("Waist", "#waist-for-elemental-shaman-dps") },
+            { ("Legs", "#legs-for-elemental-shaman-dps") },
+            { ("Feet", "#feet-for-elemental-shaman-dps") },
+            { ("Neck", "#neck-for-elemental-shaman-dps") },
+            { ("Ring", "#rings-for-elemental-shaman-dps") },
+            { ("Trinket", "#trinkets-for-elemental-shaman-dps") },
+            { ("Main Hand", "#main-hand-weapons-for-elemental-shaman-dps") },
+            { ("Off Hand", "#off-hands-and-shields-for-elemental-shaman-dps") },
             //TODO: Wait til ranged are added
         };
 

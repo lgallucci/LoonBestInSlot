@@ -73,21 +73,21 @@ internal class ClassicDruidRestorationMapping : ClassicSpecMapping
     public override string Phase4Url => "wow-classic-druid-healing-blackwing-lair-zg-best-in-slot-gear";
     public override List<(string, GuideMapping)> Phase4 =>new List<(string, GuideMapping)>
         {
-            { ("Head", "#helm-for-druid-healers") },
-            { ("Shoulder", "#shoulder-for-druid-healers") },
-            { ("Back", "#back-for-druid-healers") },
-            { ("Chest", "#chest-for-druid-healers") },
-            { ("Wrist", "#bracers-for-druid-healers") },
-            { ("Hands", "#hands-for-druid-healers") },
-            { ("Waist", "#belt-for-druid-healers") },
-            { ("Legs", "#legs-for-druid-healers") },
-            { ("Feet", "#boots-for-druid-healers") },
-            { ("Neck", "#neck-for-druid-healers") },
-            { ("Ring", "#rings-for-druid-healers") },
-            { ("Trinket", "#trinkets-for-druid-healers") },
-            { ("Main Hand", "#one-hand-weapons-for-druid-healers") },
-            { ("Off Hand", "#off-hand-items-for-druid-healers") },
-            { ("Two Hand", "#two-hand-weapons-for-druid-healers") },
+            { ("Head", "#head-for-restoration-druid-healer") },
+            { ("Shoulder", "#shoulders-for-restoration-druid-healer") },
+            { ("Back", "#back-for-restoration-druid-healer") },
+            { ("Chest", "#chest-for-restoration-druid-healer") },
+            { ("Wrist", "#wrist-for-restoration-druid-healer") },
+            { ("Hands", "#hands-for-restoration-druid-healer") },
+            { ("Waist", "#waist-for-restoration-druid-healer") },
+            { ("Legs", "#legs-for-restoration-druid-healer") },
+            { ("Feet", "#feet-for-restoration-druid-healer") },
+            { ("Neck", "#neck-for-restoration-druid-healer") },
+            { ("Ring", "#rings-for-restoration-druid-healer") },
+            { ("Trinket", "#trinkets-for-restoration-druid-healer") },
+            { ("Main Hand", "#one-hand-weapons-for-restoration-druid-healer") },
+            { ("Off Hand", "#off-hand-weapons-for-restoration-druid-healer") },
+            { ("Two Hand", "#two-hand-weapons-for-restoration-druid-healer") },
         };
 
     public override string Phase5Url => throw new NotImplementedException();

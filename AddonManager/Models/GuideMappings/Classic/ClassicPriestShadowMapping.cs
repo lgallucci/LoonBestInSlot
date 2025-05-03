@@ -40,10 +40,22 @@ internal class ClassicPriestShadowMapping : ClassicSpecMapping
     public override string Phase4Url => "wow-classic-shadow-priest-dps-blackwing-lair-zg-best-in-slot-gear";
     public override List<(string, GuideMapping)> Phase4 => new List<(string, GuideMapping)>
         {
-            { ("Main Hand", "#main-hand") },
-            { ("Off Hand", "#off-hand") },
-            { ("Two Hand", "#main-hand-2") },
-            { ("Ranged/Relic", "#ranged") },
+            { ("Head", "#head-for-shadow-priest-dps") },
+            { ("Shoulder", "#shoulders-for-shadow-priest-dps") },
+            { ("Back", "#back-for-shadow-priest-dps") },
+            { ("Chest", "#chest-for-shadow-priest-dps") },
+            { ("Wrist", "#wrist-for-shadow-priest-dps") },
+            { ("Hands", "#hands-for-shadow-priest-dps") },
+            { ("Waist", "#waist-for-shadow-priest-dps") },
+            { ("Legs", "#legs-for-shadow-priest-dps") },
+            { ("Feet", "#feet-for-shadow-priest-dps") },
+            { ("Neck", "#neck-for-shadow-priest-dps") },
+            { ("Ring", "#rings-for-shadow-priest-dps") },
+            { ("Trinket", "#trinkets-for-shadow-priest-dps") },
+            { ("Main Hand", "#main-hand-weapons-for-shadow-priest-dps") },
+            { ("Off Hand", "#off-hand-weapons-for-shadow-priest-dps") },
+            { ("Two Hand", "#staves-for-shadow-priest-dps") },
+            { ("Ranged/Relic", "#wands-for-shadow-priest-dps") },
         };
 
     public override string Phase5Url => throw new NotImplementedException();
