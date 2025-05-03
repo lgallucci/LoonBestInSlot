@@ -8,7 +8,8 @@ public class RaidImporter : LootImporter
 {
     private Dictionary<string, string> raidUriList = new Dictionary<string, string>
     {
-        { @"https://www.wowhead.com/classic/guide/season-of-discovery/raids/scarlet-enclave-loot", "Scarlet Enclave" },
+        //{ @"https://www.wowhead.com/classic/guide/season-of-discovery/raids/scarlet-enclave-loot", "Scarlet Enclave" },
+        { @"https://www.wowhead.com/classic/guide/wow-classic-zulgurub-loot-guide", "Zul'Gurub" },
     };
 
     private List<string> excludedWords = new List<string>()
@@ -26,14 +27,24 @@ public class RaidImporter : LootImporter
 
     private Dictionary<string, (string, string)> bossUriList = new Dictionary<string, (string, string)>
     {
-        { @"https://www.wowhead.com/classic/npc=240811/balnazzar#drops", ("Balnazzar", "Scarlet Enclave") },
-        { @"https://www.wowhead.com/classic/npc=240812/high-commander-beatrix#drops", ("High Commander Beatrix", "Scarlet Enclave") },
-        { @"https://www.wowhead.com/classic/npc=238954/solistrasza#drops", ("Solistrasza", "Scarlet Enclave") },
-        { @"https://www.wowhead.com/classic/npc=240794/alexei-the-beastlord#drops", ("Alexei the Beastlord", "Scarlet Enclave") },
-        { @"https://www.wowhead.com/classic/npc=241021/mason-the-echo#drops", ("Mason the Echo", "Scarlet Enclave") },
         // { @"", ("Reborn Council", "Scarlet Enclave") },
         // { @"", ("Lillian Voss", "Scarlet Enclave") },
-        { @"https://www.wowhead.com/classic/npc=241006/grand-crusader-caldoran#drops", ("Grand Crusader Caldoran", "Scarlet Enclave") },
+        
+        //Edge of Madness
+        { @"https://www.wowhead.com/classic/npc=15082/grilek#drops", ("Gri'lek (Madness)", "Zul'Gurub") },
+        { @"https://www.wowhead.com/classic/npc=15083/hazzarah#drops", ("Hazza'rah (Madness)", "Zul'Gurub") },
+        { @"https://www.wowhead.com/classic/npc=15084/renataki#drops", ("Renataki (Madness)", "Zul'Gurub") },
+        { @"https://www.wowhead.com/classic/npc=15085/wushoolay#drops", ("Wushoolay (Madness)", "Zul'Gurub") },
+
+        { @"https://www.wowhead.com/classic/npc=14507/high-priest-venoxis#drops", ("High Priest Venoxis", "Zul'Gurub") },
+        { @"https://www.wowhead.com/classic/npc=14517/high-priestess-jeklik#drops", ("High Priestess Jeklik", "Zul'Gurub") },
+        { @"https://www.wowhead.com/classic/npc=14510/high-priestess-marli#drops", ("High Priestess Mar'li", "Zul'Gurub") },
+        { @"https://www.wowhead.com/classic/npc=14509/high-priest-thekal#drops", ("High Priest Thekal", "Zul'Gurub") },
+        { @"https://www.wowhead.com/classic/npc=14515/high-priestess-arlokk#drops", ("High Priestess Arlokk", "Zul'Gurub") },
+        { @"https://www.wowhead.com/classic/npc=14834/hakkar#drops", ("Hakkar", "Zul'Gurub") },
+        { @"https://www.wowhead.com/classic/npc=11382/bloodlord-mandokir#drops", ("Bloodlord Mandokir", "Zul'Gurub") },
+        { @"https://www.wowhead.com/classic/npc=15114/gahzranka#drops", ("Gahz'ranka", "Zul'Gurub") },
+        { @"https://www.wowhead.com/classic/npc=11380/jindo-the-hexxer#drops", ("Jin'do the Hexxer", "Zul'Gurub") },
     };
     
 
@@ -51,48 +62,59 @@ public class RaidImporter : LootImporter
             await ConvertGeneralRaidLoot(raidUri, items, writeToLog);
         }
 
-        // await GetItemDrops(items, bossUriList.Keys.Where(b => b.Contains("drops")), writeToLog);
+         //await GetItemDrops(items, bossUriList.Keys.Where(b => b.Contains("drops")), writeToLog);
         // await GetItemContains(items, bossUriList.Keys.Where(b => b.Contains("contains")), writeToLog);
 
         return items;
     }
+
+    private List<string> _madnessBosses = new List<string>() { "Gri'lek", "Hazza'rah", "Renataki", "Wushoolay" };
 
     private async Task ConvertGeneralRaidLoot(KeyValuePair<string, string> raidUri, DatabaseItems items, Action<string> writeToLog)
     {
         
         await Common.LoadFromWebPage(raidUri.Key, (uri, doc) =>
         {
-            var table = doc.QuerySelector("div.markup-table-wrapper table") as IHtmlTableElement;
-            if (table != null)
+            var tables = doc.QuerySelectorAll("div.markup-table-wrapper table");
+            foreach(var table in tables)
             {
-                LoopThroughTable(table, (itemId, itemName, bossName) => {
+                if (table != null)
+                {
+                    LoopThroughTable(table as IHtmlTableElement, (itemId, itemName, bossName) => {
 
-                    if (bossName == "Charred Emblem")
-                        bossName = "Grand Crusader Caldoran";
+                        if (bossName == "Charred Emblem")
+                            bossName = "Grand Crusader Caldoran";
 
-                    if (bossName == "Wing of Balnazzar")
-                        bossName = "Balnazzar";
+                        if (bossName == "Wing of Balnazzar")
+                            bossName = "Balnazzar";
 
-                    if (bossName == "Caladboulder")
-                        bossName = "Sword in the Stone";
+                        if (bossName == "Caladboulder")
+                            bossName = "Sword in the Stone";
 
-                    if (bossName == "TBD")
-                        bossName = "unknown";
+                        if (bossName == "TBD")
+                            bossName = "unknown";
 
-                    if (itemId > 0 && !excludedWords.Any(w => itemName.Contains(w)))
-                    {
-                        items.AddItem(itemId, new DatabaseItem() 
+                        if (_madnessBosses.Contains(bossName))
+                            bossName = bossName + " (Madness)";
+
+                        if (bossName == "Zone Drop")
+                            bossName = "Trash Mobs";
+
+                        if (itemId > 0 && !excludedWords.Any(w => itemName.Contains(w)))
                         {
-                            Name = itemName,
-                            Source = bossName,
-                            SourceType = "Drop",
-                            SourceNumber = "0",
-                            SourceLocation = raidUri.Value,
-                        });
-                    }
-                }, (itemId, itemName, questName, faction) => {
-                    throw new NotImplementedException("Quest drops not implemented yet.");
-                });
+                            items.AddItem(itemId, new DatabaseItem() 
+                            {
+                                Name = itemName,
+                                Source = bossName,
+                                SourceType = "Drop",
+                                SourceNumber = "0",
+                                SourceLocation = raidUri.Value,
+                            });
+                        }
+                    }, (itemId, itemName, questName, faction) => {
+                        throw new NotImplementedException("Quest drops not implemented yet.");
+                    });
+                }
             }
         }, writeToLog);
     }

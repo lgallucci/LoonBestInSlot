@@ -380,7 +380,7 @@ public static class WowheadImporter
                         else if (AreAllBosses(rowElements))
                             itemSources[itemId].Source = AddLocalizeText("Various Bosses");
                         else
-                            itemSources[itemId].Source = AddLocalizeText("World Drop");
+                            itemSources[itemId].Source = AddLocalizeText("Trash Mobs");
                         
                         if (location.ToLower() == "the temple of atal'hakkar")
                             location = "Sunken Temple";
@@ -452,7 +452,7 @@ public static class WowheadImporter
     }
 
     private static List<string> _bossNames = new List<string>() { "balnazzar", "high commander beatrix", "solistrasza", "alexei the beastlord",
-                                                                 "mason the echo", "vishas", "lillian voss", "grand crusader caldoran"};
+                                                                 "mason the echo", "vishas", "lillian voss", "grand crusader caldoran", };
 
     private static bool AreAllBosses(IHtmlCollection<IElement> rowElements)
     {

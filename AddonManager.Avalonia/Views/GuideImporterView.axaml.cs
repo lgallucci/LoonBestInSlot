@@ -118,6 +118,8 @@ public partial class GuideImporterView : UserControl
 
     private void VersionChanged(object sender, RoutedEventArgs e)
     {
+        if (this.DataContext == null)
+            return;
         ((GuideImporterViewModel)this.DataContext).SpecComboBoxItems.Clear();
         ((GuideImporterViewModel)this.DataContext).SpecComboBoxItems.AddRange(GetClassMappings().Select(gm => $"{gm.ClassName}{gm.SpecName}").Distinct());
     }

@@ -35,7 +35,13 @@ public class DatabaseItems
             if (Items[itemId].SourceLocation == converted.SourceLocation)
             {
                 if (Items[itemId].CombineCount > 4)
-                    Items[itemId].Source = "Various Bosses";
+                {
+                    var sourceSplit = Items[itemId].Source.Split("&");
+                    if (sourceSplit.All(s => s.Contains("High Priest")) && converted.Source.Contains("High Priest"))
+                        Items[itemId].Source = "High Priests";
+                    else
+                        Items[itemId].Source = "Various Bosses";
+                }
                 else
                     if (!Items[itemId].Source.Contains(converted.Source))
                         Items[itemId].Source += $" & {converted.Source}";
