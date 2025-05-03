@@ -70,7 +70,7 @@ internal class ClassicDruidRestorationMapping : ClassicSpecMapping
             { ("Two Hand", "#two-hand-weapons-for-druid-healers") },
         };
 
-    public override string Phase4Url => throw new NotImplementedException();
+    public override string Phase4Url => "wow-classic-druid-healing-blackwing-lair-zg-best-in-slot-gear";
     public override List<(string, GuideMapping)> Phase4 =>new List<(string, GuideMapping)>
         {
             { ("Head", "#helm-for-druid-healers") },

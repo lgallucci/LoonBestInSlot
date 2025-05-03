@@ -72,7 +72,7 @@ internal class ClassicShamanElementalMapping : ClassicSpecMapping
             //TODO: Wait til ranged are added
         };
 
-    public override string Phase4Url => throw new NotImplementedException();
+    public override string Phase4Url => "wow-classic-elemental-shaman-dps-blackwing-lair-zg-best-in-slot-gear";
     public override List<(string, GuideMapping)> Phase4 => new List<(string, GuideMapping)>
         {
             { ("Head", "#head-for-elemental-shaman") },

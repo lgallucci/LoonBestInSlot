@@ -72,8 +72,26 @@ internal class ClassicDruidBearMapping : ClassicSpecMapping
             //TODO: Wait til ranged are added
         };
 
-    public override string Phase4Url => throw new NotImplementedException();
-    public override List<(string, GuideMapping)> Phase4 => throw new NotImplementedException();
+    public override string Phase4Url => "wow-classic-feral-druid-tank-blackwing-lair-zg-best-in-slot-gear";
+    public override List<(string, GuideMapping)> Phase4 => new List<(string, GuideMapping)>
+        {
+            { ("Head", "#helm-for-druid-tanks") },
+            { ("Shoulder", "#shoulder-for-druid-tanks") },
+            { ("Back", "#back-for-druid-tanks") },
+            { ("Chest", "#chest-for-druid-tanks") },
+            { ("Wrist", "#bracers-for-druid-tanks") },
+            { ("Hands", "#hands-for-druid-tanks") },
+            { ("Waist", "#belt-for-druid-tanks") },
+            { ("Legs", "#legs-for-druid-tanks") },
+            { ("Feet", "#boots-for-druid-tanks") },
+            { ("Neck", "#neck-for-druid-tanks") },
+            { ("Ring", "#rings-for-druid-tanks") },
+            { ("Trinket", "#trinkets-for-druid-tanks") },
+            { ("Main Hand", "#one-hand-weapons-for-druid-tanks") },
+            { ("Off Hand", "#off-hand-items-for-druid-tanks") },
+            { ("Two Hand", "#two-hand-weapons-for-druid-tanks") },
+            //TODO: Wait til ranged are added
+        };
 
     public override string Phase5Url => throw new NotImplementedException();
     public override List<(string, GuideMapping)> Phase5 => throw new NotImplementedException();

@@ -67,7 +67,7 @@ internal class ClassicPaladinTankMapping : ClassicSpecMapping
             { ("Off Hand", "#shield-for-paladin-tanks") },
         };        
 
-    public override string Phase4Url => throw new NotImplementedException();
+    public override string Phase4Url => "wow-classic-paladin-tank-blackwing-lair-best-in-slot-gear";
     public override List<(string, GuideMapping)> Phase4 => new List<(string, GuideMapping)>
         { 
             { ("Head", "#helm-for-paladin-tanks") },

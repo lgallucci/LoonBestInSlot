@@ -70,8 +70,25 @@ internal class ClassicDruidCatMapping : ClassicSpecMapping
             { ("Two Hand", "#two-hand-weapons") },
         };
 
-    public override string Phase4Url => throw new NotImplementedException();
-    public override List<(string, GuideMapping)> Phase4 => throw new NotImplementedException();
+    public override string Phase4Url => "wow-classic-feral-druid-dps-blackwing-lair-zg-best-in-slot-gear";
+    public override List<(string, GuideMapping)> Phase4 => new List<(string, GuideMapping)>
+        {
+            { ("Head", "#helm") },
+            { ("Shoulder", "#shoulder") },
+            { ("Back", "#back") },
+            { ("Chest", "#chest") },
+            { ("Wrist", "#bracers") },
+            { ("Hands", "#hands") },
+            { ("Waist", "#belt") },
+            { ("Legs", "#legs") },
+            { ("Feet", "#boots") },
+            { ("Neck", "#neck") },
+            { ("Ring", "#rings") },
+            { ("Trinket", "#trinkets") },
+            { ("Main Hand", "#one-hand-weapons") },
+            { ("Off Hand", "#off-hand-items") },
+            { ("Two Hand", "#two-hand-weapons") },
+        };
 
     public override string Phase5Url => throw new NotImplementedException();
     public override List<(string, GuideMapping)> Phase5 => throw new NotImplementedException();

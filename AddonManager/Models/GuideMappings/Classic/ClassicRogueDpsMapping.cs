@@ -76,7 +76,7 @@ internal class ClassicRogueDpsMapping : ClassicSpecMapping
             { ("Ranged/Relic", "#ranged-weapons-for-rogues") },
         };
 
-    public override string Phase4Url => throw new NotImplementedException();
+    public override string Phase4Url => "wow-classic-rogue-dps-blackwing-lair-zg-best-in-slot-gear";
     public override List<(string, GuideMapping)> Phase4 => new List<(string, GuideMapping)>
         {
             { ("Head", "#helm-for-rogues") },

@@ -69,7 +69,7 @@ internal class ClassicPaladinHolyMapping : ClassicSpecMapping
             //TODO: Wait til ranged are added
         };
 
-    public override string Phase4Url => throw new NotImplementedException();
+    public override string Phase4Url => "wow-classic-paladin-healing-blackwing-lair-zg-best-in-slot-gear";
     public override List<(string, GuideMapping)> Phase4 => new List<(string, GuideMapping)>
         {
             { ("Head", "#helm-for-paladin-healers") },

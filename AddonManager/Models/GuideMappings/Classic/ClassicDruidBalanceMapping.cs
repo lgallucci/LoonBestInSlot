@@ -74,8 +74,27 @@ internal class ClassicDruidBalanceMapping : ClassicSpecMapping
             { ("Ranged/Relic", "#idols") },
         };
 
-    public override string Phase4Url => throw new NotImplementedException();
-    public override List<(string, GuideMapping)> Phase4 => throw new NotImplementedException();
+    public override string Phase4Url => "wow-classic-balance-druid-dps-blackwing-lair-zg-best-in-slot-gear";
+    public override List<(string, GuideMapping)> Phase4 => new List<(string, GuideMapping)>
+        {
+            { ("Head", "#head-for-balance-druid-dps") },        
+            { ("Shoulder", "#shoulders-for-balance-druid-dps") },
+            { ("Back", "#back-for-balance-druid-dps") },
+            { ("Chest", "#chest-for-balance-druid-dps") },
+            { ("Wrist", "#wrist-for-balance-druid-dps") },
+            { ("Hands", "#hands-for-balance-druid-dps") },
+            { ("Waist", "#waist-for-balance-druid-dps") },
+            { ("Legs", "#legs-for-balance-druid-dps") },
+            { ("Feet", "#feet-for-balance-druid-dps") },
+            { ("Neck", "#neck-for-balance-druid-dps") },
+            { ("Ring", "#rings-for-balance-druid-dps") },
+            { ("Trinket", "#trinkets-for-balance-druid-dps") },
+            { ("Main Hand", "#one-hand-weapons-for-balance-druid-dps") },
+            { ("Off Hand", "#off-hand-weapons-for-balance-druid-dps") },
+            { ("Two Hand", "#two-hand-weapons-for-balance-druid-dps") },
+            { ("Ranged/Relic", "#idols") },
+        };
+
 
     public override string Phase5Url => throw new NotImplementedException();
     public override List<(string, GuideMapping)> Phase5 => throw new NotImplementedException();

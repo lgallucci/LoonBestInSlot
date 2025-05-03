@@ -37,9 +37,21 @@ internal class ClassicPriestShadowMapping : ClassicSpecMapping
             { ("Ranged/Relic", "#ranged") },
         };
 
-    public override string Phase4Url => throw new NotImplementedException();
-    public override List<(string, GuideMapping)> Phase4 => throw new NotImplementedException();
+    public override string Phase4Url => "wow-classic-shadow-priest-dps-blackwing-lair-zg-best-in-slot-gear";
+    public override List<(string, GuideMapping)> Phase4 => new List<(string, GuideMapping)>
+        {
+            { ("Main Hand", "#main-hand") },
+            { ("Off Hand", "#off-hand") },
+            { ("Two Hand", "#main-hand-2") },
+            { ("Ranged/Relic", "#ranged") },
+        };
 
     public override string Phase5Url => throw new NotImplementedException();
-    public override List<(string, GuideMapping)> Phase5 => throw new NotImplementedException();
+    public override List<(string, GuideMapping)> Phase5 => new List<(string, GuideMapping)>
+        {
+            { ("Main Hand", "#main-hand") },
+            { ("Off Hand", "#off-hand") },
+            { ("Two Hand", "#main-hand-2") },
+            { ("Ranged/Relic", "#ranged") },
+        };
 }
