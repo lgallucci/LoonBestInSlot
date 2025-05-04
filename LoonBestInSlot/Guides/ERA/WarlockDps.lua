@@ -9,18 +9,14 @@ local function LoadData()
     local spec7 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Dps"], "7")
     local spec8 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Dps"], "8")
 
-    LBIS:AddEnchant(spec4, "22844", LBIS.L["Head"]) --
-    LBIS:AddEnchant(spec4, "22599", LBIS.L["Shoulder"]) --
+    LBIS:AddEnchant(spec4, "24165", LBIS.L["Head/Legs"]) --
+    LBIS:AddEnchant(spec4, "24421", LBIS.L["Shoulder"]) --
     LBIS:AddEnchant(spec4, "20014", LBIS.L["Back"]) --
     LBIS:AddEnchant(spec4, "20025", LBIS.L["Chest"]) --
     LBIS:AddEnchant(spec4, "20008", LBIS.L["Wrist"]) --
     LBIS:AddEnchant(spec4, "13947", LBIS.L["Hands"]) --
-    LBIS:AddEnchant(spec4, "22844", LBIS.L["Legs"]) --
     LBIS:AddEnchant(spec4, "13890", LBIS.L["Feet"]) --
     LBIS:AddEnchant(spec4, "22749", LBIS.L["Main Hand"]) --
-    LBIS:AddEnchant(spec4, "24165", LBIS.L["Head"]) --
-    LBIS:AddEnchant(spec4, "24421", LBIS.L["Shoulder"]) --
-    LBIS:AddEnchant(spec4, "24165", LBIS.L["Legs"]) --
 
     LBIS:AddItem(spec1, "16929", LBIS.L["Head"], "BIS") --Nemesis Skullcap
     LBIS:AddItem(spec1, "14112", LBIS.L["Shoulder"], "BIS") --Felcloth Shoulders

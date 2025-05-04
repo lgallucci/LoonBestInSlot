@@ -9,16 +9,14 @@ local function LoadData()
     local spec7 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Retribution"], "7")
     local spec8 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Retribution"], "8")
 
-    LBIS:AddEnchant(spec4, "15397", LBIS.L["Head"]) --
+    LBIS:AddEnchant(spec4, "15397", LBIS.L["Head/Legs"]) --
     LBIS:AddEnchant(spec4, "22599", LBIS.L["Shoulder"]) --
     LBIS:AddEnchant(spec4, "13882", LBIS.L["Back"]) --
     LBIS:AddEnchant(spec4, "20025", LBIS.L["Chest"]) --
     LBIS:AddEnchant(spec4, "20010", LBIS.L["Wrist"]) --
     LBIS:AddEnchant(spec4, "20013", LBIS.L["Hands"]) --
-    LBIS:AddEnchant(spec4, "15397", LBIS.L["Legs"]) --
-    LBIS:AddEnchant(spec4, "20023", LBIS.L["Feet"]) --
-    LBIS:AddEnchant(spec4, "20034", LBIS.L["Main Hand"]) --
     LBIS:AddEnchant(spec4, "13935", LBIS.L["Feet"]) --
+    LBIS:AddEnchant(spec4, "20034", LBIS.L["Main Hand"]) --
 
     LBIS:AddItem(spec1, "12640", LBIS.L["Head"], "BIS") --Lionheart Helm
     LBIS:AddItem(spec1, "12587", LBIS.L["Head"], "Alt") --Eye of Rend

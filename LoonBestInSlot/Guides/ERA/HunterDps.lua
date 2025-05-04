@@ -9,19 +9,15 @@ local function LoadData()
     local spec7 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Dps"], "7")
     local spec8 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Dps"], "8")
 
-    LBIS:AddEnchant(spec4, "15402", LBIS.L["Head"]) --
+    LBIS:AddEnchant(spec4, "15402", LBIS.L["Head/Legs"]) --
     LBIS:AddEnchant(spec4, "22599", LBIS.L["Shoulder"]) --
     LBIS:AddEnchant(spec4, "13882", LBIS.L["Back"]) --
     LBIS:AddEnchant(spec4, "20025", LBIS.L["Chest"]) --
     LBIS:AddEnchant(spec4, "7779", LBIS.L["Wrist"]) --
     LBIS:AddEnchant(spec4, "20012", LBIS.L["Hands"]) --
-    LBIS:AddEnchant(spec4, "15402", LBIS.L["Legs"]) --
     LBIS:AddEnchant(spec4, "20023", LBIS.L["Feet"]) --
-    LBIS:AddEnchant(spec4, "20030", LBIS.L["Main Hand"]) --
-    LBIS:AddEnchant(spec4, "12460", LBIS.L["Ranged/Relic"]) --
+    LBIS:AddEnchant(spec4, "23800", LBIS.L["Main Hand/Off Hand"]) --
     LBIS:AddEnchant(spec4, "22779", LBIS.L["Ranged/Relic"]) --
-    LBIS:AddEnchant(spec4, "23800", LBIS.L["Main Hand"]) --
-    LBIS:AddEnchant(spec4, "23800", LBIS.L["Off Hand"]) --
 
     LBIS:AddItem(spec1, "16939", LBIS.L["Head"], "BIS") --Dragonstalker's Helm
     LBIS:AddItem(spec1, "16846", LBIS.L["Head"], "Alt") --Giantstalker's Helmet

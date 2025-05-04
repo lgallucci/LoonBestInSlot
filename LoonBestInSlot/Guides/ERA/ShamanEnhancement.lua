@@ -9,20 +9,14 @@ local function LoadData()
     local spec7 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Enhancement"], "7")
     local spec8 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Enhancement"], "8")
 
-    LBIS:AddEnchant(spec4, "15397", LBIS.L["Head"]) --
+    LBIS:AddEnchant(spec4, "15397", LBIS.L["Head/Legs"]) --
     LBIS:AddEnchant(spec4, "22599", LBIS.L["Shoulder"]) --
     LBIS:AddEnchant(spec4, "13882", LBIS.L["Back"]) --
     LBIS:AddEnchant(spec4, "20025", LBIS.L["Chest"]) --
     LBIS:AddEnchant(spec4, "20010", LBIS.L["Wrist"]) --
-    LBIS:AddEnchant(spec4, "23801", LBIS.L["Wrist"]) --
-    LBIS:AddEnchant(spec4, "13948", LBIS.L["Hands"]) --
-    LBIS:AddEnchant(spec4, "15397", LBIS.L["Legs"]) --
-    LBIS:AddEnchant(spec4, "13890", LBIS.L["Feet"]) --
-    LBIS:AddEnchant(spec4, "20034", LBIS.L["Main Hand"]) --
-    LBIS:AddEnchant(spec4, "20034", LBIS.L["Two Hand"]) --
-    LBIS:AddEnchant(spec4, "20036", LBIS.L["Two Hand"]) --
     LBIS:AddEnchant(spec4, "20013", LBIS.L["Hands"]) --
     LBIS:AddEnchant(spec4, "20023", LBIS.L["Feet"]) --
+    LBIS:AddEnchant(spec4, "20034", LBIS.L["Main Hand"]) --
 
     LBIS:AddItem(spec1, "18817", LBIS.L["Head"], "BIS") --Crown of Destruction
     LBIS:AddItem(spec1, "13359", LBIS.L["Head"], "Alt") --Crown of Tyranny

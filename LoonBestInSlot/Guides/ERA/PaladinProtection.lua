@@ -9,17 +9,15 @@ local function LoadData()
     local spec7 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Protection"], "7")
     local spec8 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Protection"], "8")
 
-    LBIS:AddEnchant(spec4, "15389", LBIS.L["Head"]) --
+    LBIS:AddEnchant(spec4, "15389", LBIS.L["Head/Legs"]) --
     LBIS:AddEnchant(spec4, "22599", LBIS.L["Shoulder"]) --
     LBIS:AddEnchant(spec4, "20015", LBIS.L["Back"]) --
     LBIS:AddEnchant(spec4, "20026", LBIS.L["Chest"]) --
     LBIS:AddEnchant(spec4, "13931", LBIS.L["Wrist"]) --
-    LBIS:AddEnchant(spec4, "20012", LBIS.L["Hands"]) --
-    LBIS:AddEnchant(spec4, "15389", LBIS.L["Legs"]) --
+    LBIS:AddEnchant(spec4, "20013", LBIS.L["Hands"]) --
     LBIS:AddEnchant(spec4, "13890", LBIS.L["Feet"]) --
     LBIS:AddEnchant(spec4, "20034", LBIS.L["Main Hand"]) --
     LBIS:AddEnchant(spec4, "20017", LBIS.L["Off Hand"]) --
-    LBIS:AddEnchant(spec4, "20013", LBIS.L["Hands"]) --
 
     LBIS:AddItem(spec1, "16955", LBIS.L["Head"], "BIS") --Judgement Crown
     LBIS:AddItem(spec1, "12620", LBIS.L["Head"], "Alt") --Enchanted Thorium Helm

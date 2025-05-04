@@ -9,23 +9,16 @@ local function LoadData()
     local spec7 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Protection"], "7")
     local spec8 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Protection"], "8")
 
-    LBIS:AddEnchant(spec4, "15389", LBIS.L["Head"]) --
-    LBIS:AddEnchant(spec4, "22599", LBIS.L["Shoulder"]) --
+    LBIS:AddEnchant(spec4, "24149", LBIS.L["Head/Legs"]) --
+    LBIS:AddEnchant(spec4, "24422", LBIS.L["Shoulder"]) --
     LBIS:AddEnchant(spec4, "13882", LBIS.L["Back"]) --
     LBIS:AddEnchant(spec4, "20025", LBIS.L["Chest"]) --
     LBIS:AddEnchant(spec4, "20011", LBIS.L["Wrist"]) --
     LBIS:AddEnchant(spec4, "20013", LBIS.L["Hands"]) --
-    LBIS:AddEnchant(spec4, "15389", LBIS.L["Legs"]) --
     LBIS:AddEnchant(spec4, "13890", LBIS.L["Feet"]) --
     LBIS:AddEnchant(spec4, "20034", LBIS.L["Main Hand"]) --
-    LBIS:AddEnchant(spec4, "20034", LBIS.L["Off Hand"]) --
-    LBIS:AddEnchant(spec4, "12460", LBIS.L["Ranged/Relic"]) --
-    LBIS:AddEnchant(spec4, "20012", LBIS.L["Hands"]) --
-    LBIS:AddEnchant(spec4, "20017", LBIS.L["Off Hand"]) --
-    LBIS:AddEnchant(spec4, "24149", LBIS.L["Head"]) --
-    LBIS:AddEnchant(spec4, "24422", LBIS.L["Shoulder"]) --
-    LBIS:AddEnchant(spec4, "24149", LBIS.L["Legs"]) --
     LBIS:AddEnchant(spec4, "23800", LBIS.L["Off Hand"]) --
+    LBIS:AddEnchant(spec4, "12460", LBIS.L["Ranged/Relic"]) --
 
     LBIS:AddItem(spec1, "16963", LBIS.L["Head"], "BIS") --Helm of Wrath
     LBIS:AddItem(spec1, "12640", LBIS.L["Head"], "Alt") --Lionheart Helm

@@ -9,19 +9,14 @@ local function LoadData()
     local spec7 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Holy"], "7")
     local spec8 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Holy"], "8")
 
-    LBIS:AddEnchant(spec4, "22844", LBIS.L["Head"]) --
-    LBIS:AddEnchant(spec4, "22599", LBIS.L["Shoulder"]) --
+    LBIS:AddEnchant(spec4, "24160", LBIS.L["Head/Legs"]) --
+    LBIS:AddEnchant(spec4, "24420", LBIS.L["Shoulder"]) --
     LBIS:AddEnchant(spec4, "20014", LBIS.L["Back"]) --
     LBIS:AddEnchant(spec4, "20025", LBIS.L["Chest"]) --
-    LBIS:AddEnchant(spec4, "20008", LBIS.L["Wrist"]) --
+    LBIS:AddEnchant(spec4, "23802", LBIS.L["Wrist"]) --
     LBIS:AddEnchant(spec4, "13947", LBIS.L["Hands"]) --
-    LBIS:AddEnchant(spec4, "22844", LBIS.L["Legs"]) --
     LBIS:AddEnchant(spec4, "13890", LBIS.L["Feet"]) --
     LBIS:AddEnchant(spec4, "22750", LBIS.L["Main Hand"]) --
-    LBIS:AddEnchant(spec4, "24160", LBIS.L["Head"]) --
-    LBIS:AddEnchant(spec4, "24420", LBIS.L["Shoulder"]) --
-    LBIS:AddEnchant(spec4, "23802", LBIS.L["Wrist"]) --
-    LBIS:AddEnchant(spec4, "24160", LBIS.L["Legs"]) --
 
     LBIS:AddItem(spec1, "16955", LBIS.L["Head"], "BIS") --Judgement Crown
     LBIS:AddItem(spec1, "12960", LBIS.L["Head"], "Alt") --Tribal War Feathers

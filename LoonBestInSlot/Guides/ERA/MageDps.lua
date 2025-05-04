@@ -9,13 +9,11 @@ local function LoadData()
     local spec7 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Dps"], "7")
     local spec8 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Dps"], "8")
 
-    LBIS:AddEnchant(spec4, "22844", LBIS.L["Head"]) --
+    LBIS:AddEnchant(spec4, "22844", LBIS.L["Head/Legs"]) --
     LBIS:AddEnchant(spec4, "22599", LBIS.L["Shoulder"]) --
     LBIS:AddEnchant(spec4, "20014", LBIS.L["Back"]) --
     LBIS:AddEnchant(spec4, "20025", LBIS.L["Chest"]) --
     LBIS:AddEnchant(spec4, "20008", LBIS.L["Wrist"]) --
-    LBIS:AddEnchant(spec4, "13947", LBIS.L["Hands"]) --
-    LBIS:AddEnchant(spec4, "22844", LBIS.L["Legs"]) --
     LBIS:AddEnchant(spec4, "13890", LBIS.L["Feet"]) --
     LBIS:AddEnchant(spec4, "22749", LBIS.L["Main Hand"]) --
 
@@ -223,7 +221,7 @@ local function LoadData()
     LBIS:AddItem(spec4, "19347", LBIS.L["Main Hand"], "BIS") --Claw of Chromaggus
     LBIS:AddItem(spec4, "17103", LBIS.L["Main Hand"], "Alt") --Azuresong Mageblade
     LBIS:AddItem(spec4, "19310", LBIS.L["Off Hand"], "BIS") --Tome of the Ice Lord
-    LBIS:AddItem(spec4, "11904", LBIS.L["Off Hand"], "BIS") --Spirit of Aquementas
+    LBIS:AddItem(spec4, "11904", LBIS.L["Off Hand/Ranged/Relic"], "BIS") --Spirit of Aquementas
     LBIS:AddItem(spec4, "19130", LBIS.L["Ranged/Relic"], "BIS") --Cold Snap
 end
 if not LBIS.IsSOD then
