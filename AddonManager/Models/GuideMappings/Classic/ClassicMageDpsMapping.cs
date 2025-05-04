@@ -79,7 +79,7 @@ internal class ClassicMageDpsMapping : ClassicSpecMapping
             { ("Trinket", "#trinkets-for-mage-dps") },
             { ("Main Hand", "#weapons") },
             { ("Off Hand", "#weapons-2") },
-            { ("Ranged/Relic", "#weapons-2") },
+            { ("Ranged/Relic", "#weapons-3") },
         };
 
     public override string Phase5Url => throw new NotImplementedException();
