@@ -1050,7 +1050,14 @@
       "The Only Song I Know...": "La única canción que conozco",
       "The Wrath of Neptulon": "La cólera de Neptulon",
       "The Duke of Cynders": "Duque de las Brasas",
-      "Shards of the Felvine": "Fragmentos de gangrevid"
+      "Shards of the Felvine": "Fragmentos de gangrevid",
+      "Balnazzar": "Balnazzar",
+      "Darkmoon Portals Deck": "La baraja de Portales de la Luna Negra",
+      "Mage Tower": "Torre de los Magos",
+      "Did You Lose This?": "¿Has perdido esto?",
+      "High Priestess Jeklik": "Suma Sacerdotisa Jeklik",
+      "High Priestess Mar'li": "Suma Sacerdotisa Mar'li",
+      "Lethtendris's Web": "La Membrana de Lethtendris"
     },
     "esMX": {
       "# Best for:": "# Mejor para",
@@ -2073,7 +2080,14 @@
       "The Only Song I Know...": "La única canción que conozco",
       "The Wrath of Neptulon": "La cólera de Neptulon",
       "The Duke of Cynders": "Duque de las Brasas",
-      "Shards of the Felvine": "Fragmentos de gangrevid"
+      "Shards of the Felvine": "Fragmentos de gangrevid",
+      "Balnazzar": "Balnazzar",
+      "Darkmoon Portals Deck": "La baraja de Portales de la Luna Negra",
+      "Mage Tower": "Torre de los Magos",
+      "Did You Lose This?": "¿Has perdido esto?",
+      "High Priestess Jeklik": "Suma sacerdotisa Jeklik",
+      "High Priestess Mar'li": "Suma sacerdotisa Mar'li",
+      "Lethtendris's Web": "La membrana de Lethtendris"
     },
     "deDE": {
       "# Best for:": "# Beste für",
@@ -3177,7 +3191,15 @@
       "The Only Song I Know...": "Das Einzige, das ich kann...",
       "The Wrath of Neptulon": "Der Zorn von Neptulon",
       "The Duke of Cynders": "Der Fürst der Asche",
-      "Shards of the Felvine": "Die Splitter der Teufelsranke"
+      "Shards of the Felvine": "Die Splitter der Teufelsranke",
+      "Balnazzar": "Balnazzar",
+      "Darkmoon Portals Deck": "Portalkartenset des Dunkelmond-Jahrmarkts",
+      "Mage Tower": "Magierturm",
+      "Did You Lose This?": "Habt Ihr das verloren?",
+      "Dragons of Nightmare": "Drachen des Alptraums",
+      "High Priestess Jeklik": "Hohepriesterin Jeklik",
+      "High Priestess Mar'li": "Hohepriesterin Mar'li",
+      "Lethtendris's Web": "Lethtendris' Netz"
     },
     "frFR": {
       "# Best for:": "# Meilleur pour",
@@ -4215,7 +4237,15 @@
       "The Only Song I Know...": "C'est tout ce que j'ai à mon répertoire...",
       "The Wrath of Neptulon": "Le courroux de Neptulon",
       "The Duke of Cynders": "Le duc des Cendres",
-      "Shards of the Felvine": "Fragment de la Gangrevigne"
+      "Shards of the Felvine": "Fragment de la Gangrevigne",
+      "Balnazzar": "Balnazzar",
+      "Darkmoon Portals Deck": "Suite de Portails de Sombrelune",
+      "Mage Tower": "Tour des mages",
+      "Did You Lose This?": "Est-ce que ceci est à vous ?",
+      "Dragons of Nightmare": "Dragons du Cauchemar",
+      "High Priestess Jeklik": "Grande prêtresse Jeklik",
+      "High Priestess Mar'li": "Grande prêtresse Mar'li",
+      "Lethtendris's Web": "Le filet de Lethtendris"
     },
     "ruRU": {
       "# Best for:": "# Лучшее для",
@@ -5248,7 +5278,15 @@
       "The Only Song I Know...": "Не разгуляешься...",
       "The Wrath of Neptulon": "Гнев Нептулона",
       "The Duke of Cynders": "Огарцог",
-      "Shards of the Felvine": "Осколки сквернита"
+      "Shards of the Felvine": "Осколки сквернита",
+      "Balnazzar": "Балназзар",
+      "Darkmoon Portals Deck": "Карты Новолуния:Порталы",
+      "Mage Tower": "Башня магов",
+      "Did You Lose This?": "Не ее ли ищете?",
+      "Dragons of Nightmare": "Драконы Кошмара",
+      "High Priestess Jeklik": "Верховная жрица Джеклик",
+      "High Priestess Mar'li": "Верховная жрица Мар'ли",
+      "Lethtendris's Web": "Сеть Лефтендрис"
     },
     "zhCN": {
       "# Best for:": "# 最适合",
@@ -6281,7 +6319,15 @@
       "The Only Song I Know...": "我只会唱这一首歌......",
       "The Wrath of Neptulon": "耐普图洛斯的愤怒",
       "The Duke of Cynders": "灰烬公爵",
-      "Shards of the Felvine": "魔藤碎片"
+      "Shards of the Felvine": "魔藤碎片",
+      "Balnazzar": "巴纳扎尔",
+      "Darkmoon Portals Deck": "暗月入口套牌",
+      "Mage Tower": "法师塔",
+      "Did You Lose This?": "秘银会的认可",
+      "Dragons of Nightmare": "梦魇之龙",
+      "High Priestess Jeklik": "高阶祭司耶克里克",
+      "High Priestess Mar'li": "高阶祭司玛尔里",
+      "Lethtendris's Web": "蕾瑟塔蒂丝的网"
     },
     "koKR": {
       "# Best for:": "# BIS 직업:",
@@ -7407,7 +7453,15 @@
       "The Only Song I Know...": "유일한 제조법...",
       "The Wrath of Neptulon": "넵튤론의 분노",
       "The Duke of Cynders": "불꽃의 군주",
-      "Shards of the Felvine": "악령덩굴 조각"
+      "Shards of the Felvine": "악령덩굴 조각",
+      "Balnazzar": "발나자르",
+      "Darkmoon Portals Deck": "다크문 차원문 카드 한 벌",
+      "Mage Tower": "마법사 탑",
+      "Did You Lose This?": "잃어버린 물건",
+      "Dragons of Nightmare": "악몽의 용",
+      "High Priestess Jeklik": "대여사제 제클릭",
+      "High Priestess Mar'li": "대여사제 말리",
+      "Lethtendris's Web": "레스텐드리스의 그물"
     },
     "zhTW": {
       "# Best for:": "# 最适合",
@@ -8437,7 +8491,15 @@
       "The Only Song I Know...": "唯一本領……",
       "The Wrath of Neptulon": "奈普圖隆的憤怒",
       "The Duke of Cynders": "烏爾之書",
-      "Shards of the Felvine": "魔藤裂片"
+      "Shards of the Felvine": "魔藤裂片",
+      "Balnazzar": "巴納札爾",
+      "Darkmoon Portals Deck": "暗月傳送門套卡",
+      "Mage Tower": "法師塔",
+      "Did You Lose This?": "秘銀會的認可",
+      "Dragons of Nightmare": "夢魘之龍",
+      "High Priestess Jeklik": "高階祭司耶克里克",
+      "High Priestess Mar'li": "高階祭司瑪俐",
+      "Lethtendris's Web": "蕾瑟塔蒂絲的網"
     }
   }
 }
