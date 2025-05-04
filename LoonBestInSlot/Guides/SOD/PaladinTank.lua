@@ -9,26 +9,17 @@ local function LoadData()
     local spec7 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Tank"], "7")
     local spec8 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Tank"], "8")
 
-    LBIS:AddEnchant(spec8, "468328", LBIS.L["Head"]) --
-    LBIS:AddEnchant(spec8, "1219512", LBIS.L["Shoulder"]) --
-    LBIS:AddEnchant(spec8, "24422", LBIS.L["Shoulder"]) --
+    LBIS:AddEnchant(spec8, "468328", LBIS.L["Head/Legs"]) --
+    LBIS:AddEnchant(spec8, "1219863", LBIS.L["Shoulder"]) --
+    LBIS:AddEnchant(spec8, "1219511", LBIS.L["Shoulder"]) --
     LBIS:AddEnchant(spec8, "1219587", LBIS.L["Back"]) --
-    LBIS:AddEnchant(spec8, "13882", LBIS.L["Back"]) --
     LBIS:AddEnchant(spec8, "1213616", LBIS.L["Chest"]) --
     LBIS:AddEnchant(spec8, "20010", LBIS.L["Wrist"]) --
     LBIS:AddEnchant(spec8, "13948", LBIS.L["Hands"]) --
-    LBIS:AddEnchant(spec8, "468328", LBIS.L["Legs"]) --
-    LBIS:AddEnchant(spec8, "13890", LBIS.L["Feet"]) --
-    LBIS:AddEnchant(spec8, "20034", LBIS.L["Main Hand"]) --
-    LBIS:AddEnchant(spec8, "13689", LBIS.L["Off Hand"]) --
-    LBIS:AddEnchant(spec8, "463871", LBIS.L["Off Hand"]) --
-    LBIS:AddEnchant(spec8, "24160", LBIS.L["Legs"]) --
-    LBIS:AddEnchant(spec8, "22840", LBIS.L["Head"]) --
-    LBIS:AddEnchant(spec8, "446451", LBIS.L["Shoulder"]) --
-    LBIS:AddEnchant(spec8, "22840", LBIS.L["Legs"]) --
-    LBIS:AddEnchant(spec8, "1219511", LBIS.L["Shoulder"]) --
     LBIS:AddEnchant(spec8, "20023", LBIS.L["Feet"]) --
+    LBIS:AddEnchant(spec8, "20034", LBIS.L["Main Hand"]) --
     LBIS:AddEnchant(spec8, "1231128", LBIS.L["Main Hand"]) --
+    LBIS:AddEnchant(spec8, "463871", LBIS.L["Off Hand"]) --
 
     LBIS:AddItem(spec0, "226607", LBIS.L["Head"], "BIS") --Lawbringer Headguard
     LBIS:AddItem(spec0, "233795", LBIS.L["Head"], "Alt Stam") --Razorspike Headcage

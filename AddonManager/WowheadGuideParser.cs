@@ -261,10 +261,10 @@ public class WowheadGuideParser
         return (items, enchants);
     }
 
-    public (Dictionary<int, ItemSpec>, Dictionary<string, EnchantSpec>) ParseWowheadGuide(ClassGuideMapping classGuide, IHtmlDocument doc)
+    public (Dictionary<int, ItemSpec>, Dictionary<int, EnchantSpec>) ParseWowheadGuide(ClassGuideMapping classGuide, IHtmlDocument doc)
     {
         var items = new Dictionary<int, ItemSpec>();
-        var enchants = new Dictionary<string, EnchantSpec>();
+        var enchants = new Dictionary<int, EnchantSpec>();
 
         LoopThroughEnchants(doc, (enchantAnchor, slot) => {
             ParseEnchant(enchantAnchor, slot, enchants);
@@ -302,14 +302,17 @@ public class WowheadGuideParser
         {
             var slotId = gearSlot.Attributes["data-slot-id"];
             
-            var enchantDiv = gearSlot.QuerySelector(".gear-planner-slots-group-slot-enchant");
+            var enchantDivs = gearSlot.QuerySelectorAll(".gear-planner-slots-group-slot-enchant");
 
-            Common.RecursiveBoxSearch(enchantDiv, (child) => {
-                var enchantAnchor = (IHtmlAnchorElement)child;
-                if (enchantAnchor.PathName.Contains("classic/"))
-                    return foundEnchant(enchantAnchor, GetSlotFromId(slotId.Value));
-                return false;
-            });
+            foreach (var enchantDiv in enchantDivs)
+            {
+                Common.RecursiveBoxSearch(enchantDiv, (child) => {
+                    var enchantAnchor = (IHtmlAnchorElement)child;
+                    if (enchantAnchor.PathName.Contains("classic/"))
+                        return foundEnchant(enchantAnchor, GetSlotFromId(slotId.Value));
+                    return false;
+                });
+            }            
         }
     }
 
@@ -354,7 +357,7 @@ public class WowheadGuideParser
         }
     }
 
-    private void ParseEnchant(IHtmlAnchorElement enchantAnchor, string slot, Dictionary<string, EnchantSpec> enchants)
+    private void ParseEnchant(IHtmlAnchorElement enchantAnchor, string slot, Dictionary<int, EnchantSpec> enchants)
     {
         bool isSpell = false;
         if (enchantAnchor.PathName.Contains("/item="))
@@ -392,15 +395,22 @@ public class WowheadGuideParser
             }
         }
 
-        if (!enchants.ContainsKey(itemId + slot))
+        if (!enchants.ContainsKey(itemId))
         {
-            enchants.Add(itemId + slot, new EnchantSpec
+            enchants.Add(itemId, new EnchantSpec
             {
                 EnchantId = itemId,
                 Name = itemName ?? "unknown",
                 Slot = slot,
                 TextureId = textureId
             });
+        }
+        else
+        {
+            if (!enchants[itemId].Slot.Contains(slot))
+            {
+                enchants[itemId].Slot = $"{enchants[itemId].Slot}/{slot}";
+            }
         }
     }
 

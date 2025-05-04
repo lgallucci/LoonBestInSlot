@@ -9,35 +9,22 @@ local function LoadData()
     local spec7 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Tank"], "7")
     local spec8 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Tank"], "8")
 
-    LBIS:AddEnchant(spec8, "468376", LBIS.L["Head"]) --Presence of Valor
-    LBIS:AddEnchant(spec8, "1219512", LBIS.L["Shoulder"]) --
-    LBIS:AddEnchant(spec8, "24422", LBIS.L["Shoulder"]) --
+    LBIS:AddEnchant(spec8, "468376", LBIS.L["Head/Legs"]) --
+    LBIS:AddEnchant(spec8, "1219751", LBIS.L["Shoulder"]) --
+    LBIS:AddEnchant(spec8, "1219511", LBIS.L["Shoulder"]) --
     LBIS:AddEnchant(spec8, "1219587", LBIS.L["Back"]) --
     LBIS:AddEnchant(spec8, "1213616", LBIS.L["Chest"]) --
-    LBIS:AddEnchant(spec8, "20010", LBIS.L["Wrist"]) --Enchant Bracer - Superior Strength
-    LBIS:AddEnchant(spec8, "13945", LBIS.L["Wrist"]) --Enchant Bracer - Greater Stamina
-    LBIS:AddEnchant(spec8, "25080", LBIS.L["Hands"]) --Enchant Gloves - Superior Agility
-    LBIS:AddEnchant(spec8, "468376", LBIS.L["Legs"]) --Presence of Valor
-    LBIS:AddEnchant(spec8, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
+    LBIS:AddEnchant(spec8, "398538", LBIS.L["Wrist"]) --
+    LBIS:AddEnchant(spec8, "1217203", LBIS.L["Wrist"]) --
+    LBIS:AddEnchant(spec8, "25080", LBIS.L["Hands"]) --
+    LBIS:AddEnchant(spec8, "20023", LBIS.L["Feet"]) --
     LBIS:AddEnchant(spec8, "13935", LBIS.L["Feet"]) --
-    LBIS:AddEnchant(spec8, "20034", LBIS.L["Main Hand"]) --Enchant Weapon - Crusader
+    LBIS:AddEnchant(spec8, "20020", LBIS.L["Feet"]) --
+    LBIS:AddEnchant(spec8, "20034", LBIS.L["Main Hand"]) --
+    LBIS:AddEnchant(spec8, "1231128", LBIS.L["Main Hand"]) --
     LBIS:AddEnchant(spec8, "1220623", LBIS.L["Off Hand"]) --
     LBIS:AddEnchant(spec8, "1219581", LBIS.L["Off Hand"]) --
     LBIS:AddEnchant(spec8, "22779", LBIS.L["Ranged/Relic"]) --
-    LBIS:AddEnchant(spec8, "12460", LBIS.L["Ranged/Relic"]) --Sniper Scope
-    LBIS:AddEnchant(spec8, "15397", LBIS.L["Head"]) --
-    LBIS:AddEnchant(spec8, "15397", LBIS.L["Legs"]) --
-    LBIS:AddEnchant(spec8, "15394", LBIS.L["Head"]) --
-    LBIS:AddEnchant(spec8, "460963", LBIS.L["Shoulder"]) --
-    LBIS:AddEnchant(spec8, "461129", LBIS.L["Back"]) --
-    LBIS:AddEnchant(spec8, "20012", LBIS.L["Hands"]) --
-    LBIS:AddEnchant(spec8, "15394", LBIS.L["Legs"]) --
-    LBIS:AddEnchant(spec8, "1219511", LBIS.L["Shoulder"]) --
-    LBIS:AddEnchant(spec8, "1217203", LBIS.L["Wrist"]) --
-    LBIS:AddEnchant(spec8, "20020", LBIS.L["Feet"]) --
-    LBIS:AddEnchant(spec8, "1231128", LBIS.L["Main Hand"]) --
-    LBIS:AddEnchant(spec8, "398538", LBIS.L["Wrist"]) --
-    LBIS:AddEnchant(spec8, "20023", LBIS.L["Feet"]) --
 
     LBIS:AddItem(spec0, "235871", LBIS.L["Head"], "BIS") --Clutching Death Helm
     LBIS:AddItem(spec0, "233795", LBIS.L["Head"], "BIS") --Razorspike Headcage

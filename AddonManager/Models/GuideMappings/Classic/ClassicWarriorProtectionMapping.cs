@@ -76,21 +76,22 @@ internal class ClassicWarriorProtectionMapping : ClassicSpecMapping
     public override string Phase4Url => "wow-classic-warrior-tank-blackwing-lair-zg-best-in-slot-gear";
     public override List<(string, GuideMapping)> Phase4 => new List<(string, GuideMapping)>
         {
-            { ("Head", "#head-for-protection-warrior-tank") },
-            { ("Shoulder", "#shoulders-for-protection-warrior-tank") },
-            { ("Back", "#back-for-protection-warrior-tank") },
-            { ("Chest", "#chest-for-protection-warrior-tank") },
-            { ("Wrist", "#wrist-for-protection-warrior-tank") },
-            { ("Hands", "#hands-for-protection-warrior-tank") },
-            { ("Waist", "#waist-for-protection-warrior-tank") },
-            { ("Legs", "#legs-for-protection-warrior-tank") },
-            { ("Feet", "#feet-for-protection-warrior-tank") },
-            { ("Neck", "#neck-for-protection-warrior-tank") },
-            { ("Ring", "#rings-for-protection-warrior-tank") },
-            { ("Trinket", "#trinkets-for-protection-warrior-tank") },
-            { ("Main Hand", "#weapons ~ h4") },
-            { ("Off Hand", "#shields-for-protection-warrior-tank") },
-            { ("Ranged/Relic", "#guns-and-bows-for-protection-warrior-tank") }
+            { ("Head", "#helm") },
+            { ("Shoulder", "#shoulders") },
+            { ("Back", "#back") },
+            { ("Chest", "#chest") },
+            { ("Wrist", "#bracers") },
+            { ("Hands", "#hands") },
+            { ("Waist", "#belt") },
+            { ("Legs", "#legs") },
+            { ("Feet", "#boots") },
+            { ("Neck", "#neck") },
+            { ("Ring", "#rings") },
+            { ("Trinket", "#trinkets") },
+            { ("Main Hand", "#main-hand-weapons") },
+            { ("Off Hand", "#off-hand-weapons") },
+            { ("Off Hand", "#shields") },
+            { ("Ranged/Relic", "#ranged-weapons") }
         };
 
     public override string Phase5Url => throw new NotImplementedException();

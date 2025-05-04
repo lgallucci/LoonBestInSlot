@@ -25,6 +25,7 @@ public static class ItemSpecFileManager
 
         itemSB.AppendLine();
 
+        enchantsList.Sort();
         foreach (var enchant in enchantsList)
         {
             itemSB.AppendLine($"    LBIS:AddEnchant(spec{itemsList.Keys.Max()}, \"{enchant.EnchantId}\", LBIS.L[\"{enchant.Slot}\"]) --{enchant.Name}");

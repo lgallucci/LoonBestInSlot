@@ -9,28 +9,17 @@ local function LoadData()
     local spec7 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Feral Dps"], "7")
     local spec8 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Feral Dps"], "8")
 
-    LBIS:AddEnchant(spec8, "432190", LBIS.L["Head"]) --Wolfshead Trophy
+    LBIS:AddEnchant(spec8, "432190", LBIS.L["Head"]) --
     LBIS:AddEnchant(spec8, "1219937", LBIS.L["Shoulder"]) --
     LBIS:AddEnchant(spec8, "1219512", LBIS.L["Shoulder"]) --
-    LBIS:AddEnchant(spec8, "24422", LBIS.L["Shoulder"]) --Zandalar Signet of Might
-    LBIS:AddEnchant(spec8, "25084", LBIS.L["Back"]) --Enchant Cloak - Subtlety
-    LBIS:AddEnchant(spec8, "13882", LBIS.L["Back"]) --Enchant Cloak - Lesser Agility
-    LBIS:AddEnchant(spec8, "461129", LBIS.L["Back"]) --Hydraxian Coronation
-    LBIS:AddEnchant(spec8, "25082", LBIS.L["Back"]) --Enchant Cloak - Greater Nature Resistance
-    LBIS:AddEnchant(spec8, "1213616", LBIS.L["Chest"]) --Enchant Chest - Living Stats
-    LBIS:AddEnchant(spec8, "20025", LBIS.L["Chest"]) --Enchant Chest - Greater Stats
-    LBIS:AddEnchant(spec8, "1217203", LBIS.L["Wrist"]) --Enchant Bracer - Agility
-    LBIS:AddEnchant(spec8, "20010", LBIS.L["Wrist"]) --Enchant Bracer - Superior Strength
-    LBIS:AddEnchant(spec8, "25080", LBIS.L["Hands"]) --Enchant Gloves - Superior Agility
-    LBIS:AddEnchant(spec8, "468321", LBIS.L["Legs"]) --Animist's Fury
-    LBIS:AddEnchant(spec8, "15394", LBIS.L["Legs"]) --Lesser Arcanum of Resilience
-    LBIS:AddEnchant(spec8, "20023", LBIS.L["Feet"]) --Enchant Boots - Greater Agility
-    LBIS:AddEnchant(spec8, "20034", LBIS.L["Two Hand"]) --Enchant Weapon - Crusader
-    LBIS:AddEnchant(spec8, "1232172", LBIS.L["Main Hand"]) --
+    LBIS:AddEnchant(spec8, "25084", LBIS.L["Back"]) --
+    LBIS:AddEnchant(spec8, "1213616", LBIS.L["Chest"]) --
+    LBIS:AddEnchant(spec8, "1217203", LBIS.L["Wrist"]) --
+    LBIS:AddEnchant(spec8, "25080", LBIS.L["Hands"]) --
+    LBIS:AddEnchant(spec8, "468321", LBIS.L["Legs"]) --
+    LBIS:AddEnchant(spec8, "20023", LBIS.L["Feet"]) --
     LBIS:AddEnchant(spec8, "20034", LBIS.L["Main Hand"]) --
-    LBIS:AddEnchant(spec8, "446451", LBIS.L["Shoulder"]) --
-    LBIS:AddEnchant(spec8, "1219587", LBIS.L["Back"]) --
-    LBIS:AddEnchant(spec8, "15402", LBIS.L["Legs"]) --
+    LBIS:AddEnchant(spec8, "1232172", LBIS.L["Main Hand"]) --
 
     LBIS:AddItem(spec0, "226659", LBIS.L["Head"], "BIS") --Cenarion Horns
     LBIS:AddItem(spec0, "231689", LBIS.L["Head"], "Alt") --Field Marshal's Dragonhide Headguard

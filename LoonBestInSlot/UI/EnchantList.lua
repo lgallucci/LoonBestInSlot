@@ -144,7 +144,7 @@ function LBIS.EnchantList:UpdateItems()
         end
 
         for enchantId, specEnchant in LBIS:spairs(specEnchants, itemSortFunction) do
-
+            
             local specEnchantSource = LBIS.EnchantSources[specEnchant.Id];
 
             if specEnchantSource == nil then

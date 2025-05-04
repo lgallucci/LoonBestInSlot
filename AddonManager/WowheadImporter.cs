@@ -129,7 +129,7 @@ public static class WowheadImporter
     private static string ImportClassInternal(ClassGuideMapping classGuideMapping, int phaseNumber, IHtmlDocument doc, Action<string> logFunc)
     {
         var sb = new StringBuilder();
-        (Dictionary<int, ItemSpec>, Dictionary<string, EnchantSpec>) itemsAndEnchants;
+        (Dictionary<int, ItemSpec>, Dictionary<int, EnchantSpec>) itemsAndEnchants;
         try
         {
             var className = $"{classGuideMapping.ClassName.Replace(" ", "")}{classGuideMapping.SpecName}";
@@ -144,9 +144,10 @@ public static class WowheadImporter
 
                 WriteItemsInternal(itemsAndEnchants.Item1, logFunc);
                 
+                guide.Item1.Clear();
                 foreach(var enchant in itemsAndEnchants.Item2)
                 {
-                    if (!guide.Item1.Any(e => e.EnchantId == enchant.Value.EnchantId && e.Slot == enchant.Value.Slot))
+                    if (!guide.Item1.Any(e => e.EnchantId == enchant.Key))
                         guide.Item1.Add(enchant.Value);
                 }
                 guide.Item2[phaseNumber] = itemsAndEnchants.Item1.Values.ToList();
@@ -210,17 +211,17 @@ public static class WowheadImporter
         ItemSourceFileManager.WriteItemSources(itemSources);
     }
 
-    private static void WriteEnchantsInternal(Dictionary<string, EnchantSpec> enchants, Action<string> logFunc)
+    private static void WriteEnchantsInternal(Dictionary<int, EnchantSpec> enchants, Action<string> logFunc)
     {
         var enchantSources = ItemSourceFileManager.ReadEnchantSources();
 
         foreach (var enchant in enchants)
         {
-            if (!enchantSources.ContainsKey(enchant.Value.EnchantId) && enchant.Value.EnchantId > 0)
+            if (!enchantSources.ContainsKey(enchant.Key) && enchant.Key > 0)
             {
-                enchantSources.Add(enchant.Value.EnchantId, new EnchantSource
+                enchantSources.Add(enchant.Key, new EnchantSource
                 {
-                    EnchantId = enchant.Value.EnchantId,
+                    EnchantId = enchant.Key,
                     DesignId = 99999,
                     Name = enchant.Value.Name,
                     Source = "\"unknown\"",
@@ -229,7 +230,7 @@ public static class WowheadImporter
                 });
             }
 
-            logFunc($"{enchant.Value.EnchantId}: {enchant.Value.Name} - {enchant.Value.Slot}");
+            logFunc($"{enchant.Key}: {enchant.Value.Name} - {enchant.Value.Slot}");
         }
 
         ItemSourceFileManager.WriteEnchantSources(enchantSources);

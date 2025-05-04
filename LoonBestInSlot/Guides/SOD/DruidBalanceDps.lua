@@ -9,20 +9,16 @@ local function LoadData()
     local spec7 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance Dps"], "7")
     local spec8 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance Dps"], "8")
 
-    LBIS:AddEnchant(spec8, "468318", LBIS.L["Head"]) --Animist's Balance
+    LBIS:AddEnchant(spec8, "468318", LBIS.L["Head/Legs"]) --
+    LBIS:AddEnchant(spec8, "1219946", LBIS.L["Shoulder"]) --
+    LBIS:AddEnchant(spec8, "1219951", LBIS.L["Shoulder"]) --
     LBIS:AddEnchant(spec8, "1219510", LBIS.L["Shoulder"]) --
-    LBIS:AddEnchant(spec8, "25082", LBIS.L["Back"]) --Enchant Cloak - Greater Nature Resistance
-    LBIS:AddEnchant(spec8, "25084", LBIS.L["Back"]) --Enchant Cloak - Subtlety
-    LBIS:AddEnchant(spec8, "1213829", LBIS.L["Chest"]) --Glowing Chitin Armor Kit
+    LBIS:AddEnchant(spec8, "25084", LBIS.L["Back"]) --
+    LBIS:AddEnchant(spec8, "1213829", LBIS.L["Chest/Feet"]) --
     LBIS:AddEnchant(spec8, "1220624", LBIS.L["Wrist"]) --
-    LBIS:AddEnchant(spec8, "1213626", LBIS.L["Hands"]) --Enchant Gloves - Arcane Power
-    LBIS:AddEnchant(spec8, "468318", LBIS.L["Legs"]) --Animist's Balance
-    LBIS:AddEnchant(spec8, "1213829", LBIS.L["Feet"]) --Glowing Chitin Armor Kit
+    LBIS:AddEnchant(spec8, "1213626", LBIS.L["Hands"]) --
     LBIS:AddEnchant(spec8, "1219580", LBIS.L["Main Hand"]) --
     LBIS:AddEnchant(spec8, "1231139", LBIS.L["Main Hand"]) --
-    LBIS:AddEnchant(spec8, "22749", LBIS.L["Main Hand"]) --
-    LBIS:AddEnchant(spec8, "24421", LBIS.L["Shoulder"]) --
-    LBIS:AddEnchant(spec8, "1217189", LBIS.L["Wrist"]) --
 
     LBIS:AddItem(spec0, "235869", LBIS.L["Head"], "BIS") --The Master's Cowl
     LBIS:AddItem(spec0, "228677", LBIS.L["Head"], "Alt") --Spellweaver's Turban

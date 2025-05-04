@@ -9,19 +9,14 @@ local function LoadData()
     local spec7 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Dps"], "7")
     local spec8 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Dps"], "8")
 
-    LBIS:AddEnchant(spec8, "468344", LBIS.L["Head"]) --Prophetic Curse
+    LBIS:AddEnchant(spec8, "468344", LBIS.L["Head/Legs"]) --
+    LBIS:AddEnchant(spec8, "1219835", LBIS.L["Shoulder"]) --
     LBIS:AddEnchant(spec8, "1219510", LBIS.L["Shoulder"]) --
-    LBIS:AddEnchant(spec8, "461129", LBIS.L["Back"]) --Hydraxian Coronation
-    LBIS:AddEnchant(spec8, "1213829", LBIS.L["Chest"]) --Glowing Chitin Armor Kit
-    LBIS:AddEnchant(spec8, "1220624", LBIS.L["Wrist"]) --
-    LBIS:AddEnchant(spec8, "25073", LBIS.L["Hands"]) --Enchant Gloves - Shadow Power
-    LBIS:AddEnchant(spec8, "468344", LBIS.L["Legs"]) --Prophetic Curse
-    LBIS:AddEnchant(spec8, "1213829", LBIS.L["Feet"]) --Glowing Chitin Armor Kit
-    LBIS:AddEnchant(spec8, "1219580", LBIS.L["Main Hand"]) --
-    LBIS:AddEnchant(spec8, "22749", LBIS.L["Two Hand"]) --Enchant Weapon - Spell Power
-    LBIS:AddEnchant(spec8, "446459", LBIS.L["Shoulder"]) --
-    LBIS:AddEnchant(spec8, "22749", LBIS.L["Main Hand"]) --
     LBIS:AddEnchant(spec8, "13522", LBIS.L["Back"]) --
+    LBIS:AddEnchant(spec8, "1213829", LBIS.L["Chest/Feet"]) --
+    LBIS:AddEnchant(spec8, "1220624", LBIS.L["Wrist"]) --
+    LBIS:AddEnchant(spec8, "25073", LBIS.L["Hands"]) --
+    LBIS:AddEnchant(spec8, "22749", LBIS.L["Main Hand"]) --
 
     LBIS:AddItem(spec0, "226584", LBIS.L["Head"], "BIS") --Crown of Prophecy
     LBIS:AddItem(spec0, "226957", LBIS.L["Head"], "Alt") --Virtuous Cowl

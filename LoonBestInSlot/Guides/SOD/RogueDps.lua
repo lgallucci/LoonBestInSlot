@@ -9,28 +9,15 @@ local function LoadData()
     local spec7 = LBIS:RegisterSpec(LBIS.L["Rogue"], LBIS.L["Dps"], "7")
     local spec8 = LBIS:RegisterSpec(LBIS.L["Rogue"], LBIS.L["Dps"], "8")
 
-    LBIS:AddEnchant(spec8, "468349", LBIS.L["Head"]) --Death's Advance
-    LBIS:AddEnchant(spec8, "1219512", LBIS.L["Shoulder"]) --
+    LBIS:AddEnchant(spec8, "468349", LBIS.L["Head/Legs"]) --
     LBIS:AddEnchant(spec8, "1219776", LBIS.L["Shoulder"]) --
-    LBIS:AddEnchant(spec8, "1219770", LBIS.L["Shoulder"]) --
-    LBIS:AddEnchant(spec8, "24422", LBIS.L["Shoulder"]) --Zandalar Signet of Might
+    LBIS:AddEnchant(spec8, "1219512", LBIS.L["Shoulder"]) --
     LBIS:AddEnchant(spec8, "1219587", LBIS.L["Back"]) --
-    LBIS:AddEnchant(spec8, "20025", LBIS.L["Chest"]) --Enchant Chest - Greater Stats
-    LBIS:AddEnchant(spec8, "20010", LBIS.L["Wrist"]) --Enchant Bracer - Superior Strength
-    LBIS:AddEnchant(spec8, "20012", LBIS.L["Hands"]) --Enchant Gloves - Greater Agility
-    LBIS:AddEnchant(spec8, "468349", LBIS.L["Legs"]) --Death's Advance
-    LBIS:AddEnchant(spec8, "20023", LBIS.L["Feet"]) --Enchant Boots - Greater Agility
-    LBIS:AddEnchant(spec8, "20034", LBIS.L["Main Hand"]) --Enchant Weapon - Crusader
-    LBIS:AddEnchant(spec8, "20034", LBIS.L["Off Hand"]) --Enchant Weapon - Crusader
-    LBIS:AddEnchant(spec8, "12460", LBIS.L["Ranged/Relic"]) --Sniper Scope
+    LBIS:AddEnchant(spec8, "1213616", LBIS.L["Chest"]) --
     LBIS:AddEnchant(spec8, "1217203", LBIS.L["Wrist"]) --
     LBIS:AddEnchant(spec8, "25080", LBIS.L["Hands"]) --
-    LBIS:AddEnchant(spec8, "15402", LBIS.L["Head"]) --
-    LBIS:AddEnchant(spec8, "446451", LBIS.L["Shoulder"]) --
-    LBIS:AddEnchant(spec8, "15402", LBIS.L["Legs"]) --
-    LBIS:AddEnchant(spec8, "1213616", LBIS.L["Chest"]) --
-    LBIS:AddEnchant(spec8, "1231128", LBIS.L["Main Hand"]) --
-    LBIS:AddEnchant(spec8, "1231128", LBIS.L["Off Hand"]) --
+    LBIS:AddEnchant(spec8, "20023", LBIS.L["Feet"]) --
+    LBIS:AddEnchant(spec8, "1231128", LBIS.L["Main Hand/Off Hand"]) --
 
     LBIS:AddItem(spec0, "226446", LBIS.L["Head"], "BIS") --Nightslayer Cover
     LBIS:AddItem(spec0, "22005", LBIS.L["Head"], "Alt") --Darkmantle Cap

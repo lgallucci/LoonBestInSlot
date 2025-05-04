@@ -9,33 +9,13 @@ local function LoadData()
     local spec7 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Tank"], "7")
     local spec8 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Tank"], "8")
 
-    LBIS:AddEnchant(spec8, "468368", LBIS.L["Head"]) --Hoodoo Curse
-    LBIS:AddEnchant(spec8, "1219510", LBIS.L["Shoulder"]) --
-    LBIS:AddEnchant(spec8, "24421", LBIS.L["Shoulder"]) --Zandalar Signet of Mojo
-    LBIS:AddEnchant(spec8, "25086", LBIS.L["Back"]) --Enchant Cloak - Dodge
-    LBIS:AddEnchant(spec8, "13522", LBIS.L["Back"]) --Enchant Cloak - Lesser Shadow Resistance
-    LBIS:AddEnchant(spec8, "1213829", LBIS.L["Chest"]) --Glowing Chitin Armor Kit
-    LBIS:AddEnchant(spec8, "20026", LBIS.L["Chest"]) --Enchant Chest - Major Health
-    LBIS:AddEnchant(spec8, "20011", LBIS.L["Wrist"]) --Enchant Bracer - Superior Stamina
-    LBIS:AddEnchant(spec8, "13931", LBIS.L["Wrist"]) --Enchant Bracer - Deflection
-    LBIS:AddEnchant(spec8, "1213829", LBIS.L["Hands"]) --Glowing Chitin Armor Kit
-    LBIS:AddEnchant(spec8, "25078", LBIS.L["Hands"]) --Enchant Gloves - Fire Power
-    LBIS:AddEnchant(spec8, "13948", LBIS.L["Hands"]) --Enchant Gloves - Minor Haste
-    LBIS:AddEnchant(spec8, "468368", LBIS.L["Legs"]) --Hoodoo Curse
-    LBIS:AddEnchant(spec8, "1213829", LBIS.L["Feet"]) --Glowing Chitin Armor Kit
-    LBIS:AddEnchant(spec8, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
-    LBIS:AddEnchant(spec8, "20020", LBIS.L["Feet"]) --Enchant Boots - Greater Stamina
-    LBIS:AddEnchant(spec8, "1219580", LBIS.L["Main Hand"]) --
-    LBIS:AddEnchant(spec8, "22749", LBIS.L["Main Hand"]) --Enchant Weapon - Spell Power
-    LBIS:AddEnchant(spec8, "22749", LBIS.L["Two Hand"]) --Enchant Weapon - Spell Power
-    LBIS:AddEnchant(spec8, "15394", LBIS.L["Head"]) --
-    LBIS:AddEnchant(spec8, "446459", LBIS.L["Shoulder"]) --
-    LBIS:AddEnchant(spec8, "461129", LBIS.L["Back"]) --
-    LBIS:AddEnchant(spec8, "13945", LBIS.L["Wrist"]) --
-    LBIS:AddEnchant(spec8, "15394", LBIS.L["Legs"]) --
+    LBIS:AddEnchant(spec8, "468368", LBIS.L["Head/Legs"]) --
+    LBIS:AddEnchant(spec8, "1219794", LBIS.L["Shoulder"]) --
     LBIS:AddEnchant(spec8, "1219511", LBIS.L["Shoulder"]) --
-    LBIS:AddEnchant(spec8, "22725", LBIS.L["Chest"]) --
-    LBIS:AddEnchant(spec8, "22725", LBIS.L["Feet"]) --
+    LBIS:AddEnchant(spec8, "25086", LBIS.L["Back"]) --
+    LBIS:AddEnchant(spec8, "22725", LBIS.L["Chest/Feet"]) --
+    LBIS:AddEnchant(spec8, "20011", LBIS.L["Wrist"]) --
+    LBIS:AddEnchant(spec8, "25078", LBIS.L["Hands"]) --
     LBIS:AddEnchant(spec8, "1231139", LBIS.L["Main Hand"]) --
 
     LBIS:AddItem(spec0, "216922", LBIS.L["Head"], "BIS") --Felheart Crown

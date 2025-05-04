@@ -9,29 +9,18 @@ local function LoadData()
     local spec7 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Dps"], "7")
     local spec8 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Dps"], "8")
 
-    LBIS:AddEnchant(spec8, "468365", LBIS.L["Head"]) --Hoodoo Hex
-    LBIS:AddEnchant(spec8, "28161", LBIS.L["Head"]) --Savage Guard
+    LBIS:AddEnchant(spec8, "468365", LBIS.L["Head/Legs"]) --
+    LBIS:AddEnchant(spec8, "1219802", LBIS.L["Shoulder"]) --
+    LBIS:AddEnchant(spec8, "1219792", LBIS.L["Shoulder"]) --
+    LBIS:AddEnchant(spec8, "1219790", LBIS.L["Shoulder"]) --
     LBIS:AddEnchant(spec8, "1219510", LBIS.L["Shoulder"]) --
-    LBIS:AddEnchant(spec8, "24421", LBIS.L["Shoulder"]) --
-    LBIS:AddEnchant(spec8, "25084", LBIS.L["Back"]) --Enchant Cloak - Subtlety
-    LBIS:AddEnchant(spec8, "461129", LBIS.L["Back"]) --Hydraxian Coronation
-    LBIS:AddEnchant(spec8, "25082", LBIS.L["Back"]) --Enchant Cloak - Greater Nature Resistance
-    LBIS:AddEnchant(spec8, "1213829", LBIS.L["Chest"]) --Glowing Chitin Armor Kit
-    LBIS:AddEnchant(spec8, "20025", LBIS.L["Chest"]) --Enchant Chest - Greater Stats
+    LBIS:AddEnchant(spec8, "25084", LBIS.L["Back"]) --
+    LBIS:AddEnchant(spec8, "1213829", LBIS.L["Chest/Feet"]) --
     LBIS:AddEnchant(spec8, "1220624", LBIS.L["Wrist"]) --
-    LBIS:AddEnchant(spec8, "25078", LBIS.L["Hands"]) --Enchant Gloves - Fire Power
-    LBIS:AddEnchant(spec8, "25073", LBIS.L["Hands"]) --Enchant Gloves - Shadow Power
-    LBIS:AddEnchant(spec8, "468365", LBIS.L["Legs"]) --Hoodoo Hex
-    LBIS:AddEnchant(spec8, "28161", LBIS.L["Legs"]) --Savage Guard
-    LBIS:AddEnchant(spec8, "1213829", LBIS.L["Feet"]) --Glowing Chitin Armor Kit
-    LBIS:AddEnchant(spec8, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
-    LBIS:AddEnchant(spec8, "1219580", LBIS.L["Main Hand"]) --
-    LBIS:AddEnchant(spec8, "22749", LBIS.L["Main Hand"]) --Enchant Weapon - Spell Power
-    LBIS:AddEnchant(spec8, "22844", LBIS.L["Head"]) --
-    LBIS:AddEnchant(spec8, "446459", LBIS.L["Shoulder"]) --
-    LBIS:AddEnchant(spec8, "20008", LBIS.L["Wrist"]) --
-    LBIS:AddEnchant(spec8, "22844", LBIS.L["Legs"]) --
+    LBIS:AddEnchant(spec8, "25078", LBIS.L["Hands"]) --
+    LBIS:AddEnchant(spec8, "25073", LBIS.L["Hands"]) --
     LBIS:AddEnchant(spec8, "1231139", LBIS.L["Main Hand"]) --
+    LBIS:AddEnchant(spec8, "1219580", LBIS.L["Main Hand"]) --
 
     LBIS:AddItem(spec0, "226549", LBIS.L["Head"], "BIS") --Felheart Horns
     LBIS:AddItem(spec0, "226909", LBIS.L["Head"], "BIS") --Deathmist Mask

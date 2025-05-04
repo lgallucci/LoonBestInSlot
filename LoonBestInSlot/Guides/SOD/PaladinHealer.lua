@@ -9,20 +9,6 @@ local function LoadData()
     local spec7 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Healer"], "7")
     local spec8 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Healer"], "8")
 
-    LBIS:AddEnchant(spec8, "468332", LBIS.L["Head"]) --Syncretist's Crest
-    LBIS:AddEnchant(spec8, "24420", LBIS.L["Shoulder"]) --Zandalar Signet of Serenity
-    LBIS:AddEnchant(spec8, "20014", LBIS.L["Back"]) --
-    LBIS:AddEnchant(spec8, "461129", LBIS.L["Back"]) --Hydraxian Coronation
-    LBIS:AddEnchant(spec8, "1213829", LBIS.L["Chest"]) --Glowing Chitin Armor Kit
-    LBIS:AddEnchant(spec8, "23802", LBIS.L["Wrist"]) --Enchant Bracer - Healing Power
-    LBIS:AddEnchant(spec8, "25079", LBIS.L["Hands"]) --Enchant Gloves - Healing Power
-    LBIS:AddEnchant(spec8, "468332", LBIS.L["Legs"]) --Syncretist's Crest
-    LBIS:AddEnchant(spec8, "1213829", LBIS.L["Feet"]) --Glowing Chitin Armor Kit
-    LBIS:AddEnchant(spec8, "22750", LBIS.L["Main Hand"]) --Enchant Weapon - Healing Power
-    LBIS:AddEnchant(spec8, "463871", LBIS.L["Off Hand"]) --Enchant Shield - Law of Nature
-    LBIS:AddEnchant(spec8, "446472", LBIS.L["Shoulder"]) --
-    LBIS:AddEnchant(spec8, "15404", LBIS.L["Head"]) --
-    LBIS:AddEnchant(spec8, "15404", LBIS.L["Legs"]) --
 
     LBIS:AddItem(spec0, "226590", LBIS.L["Head"], "BIS") --Lawbringer Helm
     LBIS:AddItem(spec0, "235869", LBIS.L["Head"], "Alt") --The Master's Cowl

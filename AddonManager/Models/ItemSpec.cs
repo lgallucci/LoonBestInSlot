@@ -58,8 +58,50 @@ public class ItemSpec : IComparable<ItemSpec>
     public int ItemOrder { get; set; }
 }
 
-public class EnchantSpec
+public class EnchantSpec : IComparable<EnchantSpec>
 {
+    public static Dictionary<string, int> SortOrder = new Dictionary<string, int> 
+    { 
+        { "Head", 0 }, 
+        { "Shoulder", 1 }, 
+        { "Back", 2 }, 
+        { "Chest", 3 }, 
+        { "Wrist", 4 },
+        { "Hands", 5 }, 
+        { "Waist", 6 }, 
+        { "Legs", 7 }, 
+        { "Feet", 8 }, 
+        { "Neck", 9 }, 
+        { "Ring", 10 }, 
+        { "Trinket", 11 },
+        { "Main Hand", 12 }, 
+        { "Off Hand", 13 },
+        { "Two Hand", 14 }, 
+        { "Ranged", 15 },
+        { "unknown", 16 } 
+    };
+
+    public int CompareTo(EnchantSpec? other)
+    {
+        if (other == null)
+            return -1;
+
+        var slot = this.Slot.Split("/").First();
+        var otherSlot = other.Slot.Split("/").First();
+        if (SortOrder[slot] < SortOrder[otherSlot])
+        {
+            return -1;
+        }
+        else if (SortOrder[slot] > SortOrder[otherSlot])
+        {
+            return 1;
+        }
+        else
+        {
+            return -1;
+        }
+    }
+    
     public int EnchantId { get; set; }
     public string Name { get; set; } = string.Empty;
     public string Slot { get; set; } = string.Empty;

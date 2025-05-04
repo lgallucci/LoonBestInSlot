@@ -9,33 +9,17 @@ local function LoadData()
     local spec7 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Tank"], "7")
     local spec8 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Tank"], "8")
 
-    LBIS:AddEnchant(spec8, "468362", LBIS.L["Head"]) --Vodouisant's Vigilance
-    LBIS:AddEnchant(spec8, "468354", LBIS.L["Head"]) --Vodouisant's Shroud
-    LBIS:AddEnchant(spec8, "468351", LBIS.L["Head"]) --Vodouisant's Embrace
+    LBIS:AddEnchant(spec8, "468362", LBIS.L["Head/Legs"]) --
+    LBIS:AddEnchant(spec8, "1219909", LBIS.L["Shoulder"]) --
     LBIS:AddEnchant(spec8, "1219894", LBIS.L["Shoulder"]) --
-    LBIS:AddEnchant(spec8, "1219916", LBIS.L["Shoulder"]) --
-    LBIS:AddEnchant(spec8, "25086", LBIS.L["Back"]) --Enchant Cloak - Dodge
-    LBIS:AddEnchant(spec8, "22725", LBIS.L["Chest"]) --
-    LBIS:AddEnchant(spec8, "1213833", LBIS.L["Chest"]) --Sharpened Chitin Armor Kit
-    LBIS:AddEnchant(spec8, "13931", LBIS.L["Wrist"]) --Enchant Bracer - Deflection
-    LBIS:AddEnchant(spec8, "1213833", LBIS.L["Hands"]) --Sharpened Chitin Armor Kit
-    LBIS:AddEnchant(spec8, "20013", LBIS.L["Hands"]) --Enchant Gloves - Greater Strength
-    LBIS:AddEnchant(spec8, "468362", LBIS.L["Legs"]) --Vodouisant's Vigilance
-    LBIS:AddEnchant(spec8, "468354", LBIS.L["Legs"]) --Vodouisant's Shroud
-    LBIS:AddEnchant(spec8, "468351", LBIS.L["Legs"]) --Vodouisant's Embrace
-    LBIS:AddEnchant(spec8, "22725", LBIS.L["Feet"]) --
-    LBIS:AddEnchant(spec8, "1213833", LBIS.L["Feet"]) --Sharpened Chitin Armor Kit
-    LBIS:AddEnchant(spec8, "22749", LBIS.L["Main Hand"]) --Enchant Weapon - Spell Power
-    LBIS:AddEnchant(spec8, "20034", LBIS.L["Main Hand"]) --Enchant Weapon - Crusader
-    LBIS:AddEnchant(spec8, "463871", LBIS.L["Off Hand"]) --Enchant Shield - Law of Nature
-    LBIS:AddEnchant(spec8, "446451", LBIS.L["Shoulder"]) --
-    LBIS:AddEnchant(spec8, "13939", LBIS.L["Wrist"]) --
-    LBIS:AddEnchant(spec8, "24421", LBIS.L["Shoulder"]) --
-    LBIS:AddEnchant(spec8, "22725", LBIS.L["Hands"]) --
     LBIS:AddEnchant(spec8, "1219511", LBIS.L["Shoulder"]) --
+    LBIS:AddEnchant(spec8, "25086", LBIS.L["Back"]) --
+    LBIS:AddEnchant(spec8, "22725", LBIS.L["Chest/Hands/Feet"]) --
+    LBIS:AddEnchant(spec8, "13931", LBIS.L["Wrist"]) --
     LBIS:AddEnchant(spec8, "13890", LBIS.L["Feet"]) --
+    LBIS:AddEnchant(spec8, "20034", LBIS.L["Main Hand"]) --
     LBIS:AddEnchant(spec8, "1231128", LBIS.L["Main Hand"]) --
-    LBIS:AddEnchant(spec8, "1231164", LBIS.L["Main Hand"]) --
+    LBIS:AddEnchant(spec8, "463871", LBIS.L["Off Hand"]) --
 
     LBIS:AddItem(spec0, "226630", LBIS.L["Head"], "BIS") --Earthfury Greathelm
     LBIS:AddItem(spec0, "227029", LBIS.L["Head"], "Alt") --Headpiece of The Five Thunders

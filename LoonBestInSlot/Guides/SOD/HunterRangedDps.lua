@@ -9,26 +9,17 @@ local function LoadData()
     local spec7 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["RangedDps"], "7")
     local spec8 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["RangedDps"], "8")
 
-    LBIS:AddEnchant(spec8, "468325", LBIS.L["Head"]) --Falcon's Call
-    LBIS:AddEnchant(spec8, "468383", LBIS.L["Head"]) --Falcon's Fury
+    LBIS:AddEnchant(spec8, "468325", LBIS.L["Head/Legs"]) --
     LBIS:AddEnchant(spec8, "1219811", LBIS.L["Shoulder"]) --
     LBIS:AddEnchant(spec8, "1219809", LBIS.L["Shoulder"]) --
     LBIS:AddEnchant(spec8, "1219512", LBIS.L["Shoulder"]) --
     LBIS:AddEnchant(spec8, "1219587", LBIS.L["Back"]) --
     LBIS:AddEnchant(spec8, "1213616", LBIS.L["Chest"]) --
-    LBIS:AddEnchant(spec8, "1217203", LBIS.L["Wrist"]) --Enchant Bracer - Agility
-    LBIS:AddEnchant(spec8, "25080", LBIS.L["Hands"]) --Enchant Gloves - Superior Agility
-    LBIS:AddEnchant(spec8, "468325", LBIS.L["Legs"]) --Falcon's Call
-    LBIS:AddEnchant(spec8, "468383", LBIS.L["Legs"]) --Falcon's Fury
-    LBIS:AddEnchant(spec8, "20023", LBIS.L["Feet"]) --Enchant Boots - Greater Agility
-    LBIS:AddEnchant(spec8, "23800", LBIS.L["Main Hand"]) --Enchant Weapon - Agility
-    LBIS:AddEnchant(spec8, "27837", LBIS.L["Two Hand"]) --Enchant 2H Weapon - Agility
-    LBIS:AddEnchant(spec8, "1217206", LBIS.L["Ranged/Relic"]) --Obsidian Scope
+    LBIS:AddEnchant(spec8, "1217203", LBIS.L["Wrist"]) --
+    LBIS:AddEnchant(spec8, "25080", LBIS.L["Hands"]) --
+    LBIS:AddEnchant(spec8, "20023", LBIS.L["Feet"]) --
     LBIS:AddEnchant(spec8, "27837", LBIS.L["Main Hand"]) --
-    LBIS:AddEnchant(spec8, "23800", LBIS.L["Off Hand"]) --
-    LBIS:AddEnchant(spec8, "15402", LBIS.L["Head"]) --
-    LBIS:AddEnchant(spec8, "446451", LBIS.L["Shoulder"]) --
-    LBIS:AddEnchant(spec8, "15402", LBIS.L["Legs"]) --
+    LBIS:AddEnchant(spec8, "1217206", LBIS.L["Ranged/Relic"]) --
 
     LBIS:AddItem(spec0, "226533", LBIS.L["Head"], "BIS") --Giantstalker's Helmet
     LBIS:AddItem(spec0, "23306", LBIS.L["Head"], "Alt") --Lieutenant Commander's Chain Helm

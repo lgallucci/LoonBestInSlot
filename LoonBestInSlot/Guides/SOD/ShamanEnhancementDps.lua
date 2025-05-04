@@ -9,24 +9,17 @@ local function LoadData()
     local spec7 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Enhancement Dps"], "7")
     local spec8 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Enhancement Dps"], "8")
 
-    LBIS:AddEnchant(spec8, "468351", LBIS.L["Head"]) --Vodouisant's Embrace
-    LBIS:AddEnchant(spec8, "468354", LBIS.L["Head"]) --Vodouisant's Shroud
+    LBIS:AddEnchant(spec8, "468354", LBIS.L["Head/Legs"]) --
+    LBIS:AddEnchant(spec8, "468351", LBIS.L["Head/Legs"]) --
+    LBIS:AddEnchant(spec8, "1219909", LBIS.L["Shoulder"]) --
     LBIS:AddEnchant(spec8, "1219512", LBIS.L["Shoulder"]) --
-    LBIS:AddEnchant(spec8, "24422", LBIS.L["Shoulder"]) --Zandalar Signet of Might
     LBIS:AddEnchant(spec8, "1219587", LBIS.L["Back"]) --
-    LBIS:AddEnchant(spec8, "13882", LBIS.L["Back"]) --Enchant Cloak - Lesser Agility
-    LBIS:AddEnchant(spec8, "20025", LBIS.L["Chest"]) --Enchant Chest - Greater Stats
-    LBIS:AddEnchant(spec8, "20010", LBIS.L["Wrist"]) --Enchant Bracer - Superior Strength
-    LBIS:AddEnchant(spec8, "13948", LBIS.L["Hands"]) --Enchant Gloves - Minor Haste
-    LBIS:AddEnchant(spec8, "468351", LBIS.L["Legs"]) --Vodouisant's Embrace
-    LBIS:AddEnchant(spec8, "468354", LBIS.L["Legs"]) --Vodouisant's Shroud
+    LBIS:AddEnchant(spec8, "20025", LBIS.L["Chest"]) --
+    LBIS:AddEnchant(spec8, "20010", LBIS.L["Wrist"]) --
+    LBIS:AddEnchant(spec8, "1219586", LBIS.L["Hands"]) --
+    LBIS:AddEnchant(spec8, "13948", LBIS.L["Hands"]) --
     LBIS:AddEnchant(spec8, "20023", LBIS.L["Feet"]) --
-    LBIS:AddEnchant(spec8, "20034", LBIS.L["Main Hand"]) --Enchant Weapon - Crusader
-    LBIS:AddEnchant(spec8, "20034", LBIS.L["Off Hand"]) --Enchant Weapon - Crusader
-    LBIS:AddEnchant(spec8, "20013", LBIS.L["Hands"]) --
-    LBIS:AddEnchant(spec8, "22840", LBIS.L["Head"]) --
-    LBIS:AddEnchant(spec8, "446451", LBIS.L["Shoulder"]) --
-    LBIS:AddEnchant(spec8, "22840", LBIS.L["Legs"]) --
+    LBIS:AddEnchant(spec8, "1231128", LBIS.L["Main Hand/Off Hand"]) --
     LBIS:AddEnchant(spec8, "1232172", LBIS.L["Main Hand"]) --
 
     LBIS:AddItem(spec0, "226638", LBIS.L["Head"], "BIS") --Earthfury Headpiece

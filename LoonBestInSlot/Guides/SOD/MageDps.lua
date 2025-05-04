@@ -9,23 +9,15 @@ local function LoadData()
     local spec7 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Dps"], "7")
     local spec8 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Dps"], "8")
 
-    LBIS:AddEnchant(spec8, "468380", LBIS.L["Head"]) --Presence of Sight
-    LBIS:AddEnchant(spec8, "1219859", LBIS.L["Shoulder"]) --
+    LBIS:AddEnchant(spec8, "468380", LBIS.L["Head/Legs"]) --
     LBIS:AddEnchant(spec8, "1219851", LBIS.L["Shoulder"]) --
-    LBIS:AddEnchant(spec8, "24421", LBIS.L["Shoulder"]) --Zandalar Signet of Mojo
+    LBIS:AddEnchant(spec8, "1219510", LBIS.L["Shoulder"]) --
     LBIS:AddEnchant(spec8, "25084", LBIS.L["Back"]) --
     LBIS:AddEnchant(spec8, "1213829", LBIS.L["Chest"]) --
     LBIS:AddEnchant(spec8, "1220624", LBIS.L["Wrist"]) --
-    LBIS:AddEnchant(spec8, "25078", LBIS.L["Hands"]) --Enchant Gloves - Fire Power
-    LBIS:AddEnchant(spec8, "25074", LBIS.L["Hands"]) --Enchant Gloves - Frost Power
-    LBIS:AddEnchant(spec8, "468380", LBIS.L["Legs"]) --Presence of Sight
-    LBIS:AddEnchant(spec8, "1213829", LBIS.L["Feet"]) --
-    LBIS:AddEnchant(spec8, "1219580", LBIS.L["Main Hand"]) --
-    LBIS:AddEnchant(spec8, "20014", LBIS.L["Back"]) --
-    LBIS:AddEnchant(spec8, "20025", LBIS.L["Chest"]) --
+    LBIS:AddEnchant(spec8, "25074", LBIS.L["Hands"]) --
+    LBIS:AddEnchant(spec8, "25078", LBIS.L["Hands"]) --
     LBIS:AddEnchant(spec8, "13890", LBIS.L["Feet"]) --
-    LBIS:AddEnchant(spec8, "22749", LBIS.L["Main Hand"]) --
-    LBIS:AddEnchant(spec8, "1219510", LBIS.L["Shoulder"]) --
     LBIS:AddEnchant(spec8, "1231139", LBIS.L["Main Hand"]) --
 
     LBIS:AddItem(spec0, "226562", LBIS.L["Head"], "BIS") --Arcanist Crown

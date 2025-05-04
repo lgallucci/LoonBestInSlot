@@ -9,29 +9,17 @@ local function LoadData()
     local spec7 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Tank"], "7")
     local spec8 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Tank"], "8")
 
-    LBIS:AddEnchant(spec8, "468323", LBIS.L["Head"]) --Animist's Roar
-    LBIS:AddEnchant(spec8, "432190", LBIS.L["Head"]) --Wolfshead Trophy
-    LBIS:AddEnchant(spec8, "1219511", LBIS.L["Shoulder"]) --
+    LBIS:AddEnchant(spec8, "468323", LBIS.L["Head/Legs"]) --
     LBIS:AddEnchant(spec8, "24422", LBIS.L["Shoulder"]) --
-    LBIS:AddEnchant(spec8, "25086", LBIS.L["Back"]) --Enchant Cloak - Dodge
-    LBIS:AddEnchant(spec8, "13882", LBIS.L["Back"]) --Enchant Cloak - Lesser Agility
-    LBIS:AddEnchant(spec8, "1213616", LBIS.L["Chest"]) --Enchant Chest - Living Stats
-    LBIS:AddEnchant(spec8, "20010", LBIS.L["Wrist"]) --Enchant Bracer - Superior Strength
-    LBIS:AddEnchant(spec8, "25072", LBIS.L["Hands"]) --Enchant Gloves - Threat
-    LBIS:AddEnchant(spec8, "25080", LBIS.L["Hands"]) --Enchant Gloves - Superior Agility
-    LBIS:AddEnchant(spec8, "468323", LBIS.L["Legs"]) --Animist's Roar
-    LBIS:AddEnchant(spec8, "468321", LBIS.L["Legs"]) --Animist's Fury
-    LBIS:AddEnchant(spec8, "20023", LBIS.L["Feet"]) --Enchant Boots - Greater Agility
-    LBIS:AddEnchant(spec8, "20034", LBIS.L["Main Hand"]) --Enchant Weapon - Crusader
-    LBIS:AddEnchant(spec8, "446451", LBIS.L["Shoulder"]) --
-    LBIS:AddEnchant(spec8, "20025", LBIS.L["Chest"]) --
-    LBIS:AddEnchant(spec8, "20013", LBIS.L["Hands"]) --
-    LBIS:AddEnchant(spec8, "15397", LBIS.L["Legs"]) --
-    LBIS:AddEnchant(spec8, "15397", LBIS.L["Head"]) --
+    LBIS:AddEnchant(spec8, "1219511", LBIS.L["Shoulder"]) --
+    LBIS:AddEnchant(spec8, "25086", LBIS.L["Back"]) --
+    LBIS:AddEnchant(spec8, "1213616", LBIS.L["Chest"]) --
+    LBIS:AddEnchant(spec8, "20010", LBIS.L["Wrist"]) --
+    LBIS:AddEnchant(spec8, "25072", LBIS.L["Hands"]) --
     LBIS:AddEnchant(spec8, "13948", LBIS.L["Hands"]) --
-    LBIS:AddEnchant(spec8, "15402", LBIS.L["Legs"]) --
-    LBIS:AddEnchant(spec8, "13890", LBIS.L["Feet"]) --
-    LBIS:AddEnchant(spec8, "1219586", LBIS.L["Hands"]) --
+    LBIS:AddEnchant(spec8, "20023", LBIS.L["Feet"]) --
+    LBIS:AddEnchant(spec8, "20034", LBIS.L["Main Hand"]) --
+    LBIS:AddEnchant(spec8, "1232172", LBIS.L["Main Hand"]) --
 
     LBIS:AddItem(spec0, "226792", LBIS.L["Head"], "BIS") --Feralheart Cap
     LBIS:AddItem(spec0, "228111", LBIS.L["Head"], "Alt") --Mask of the Godslayer

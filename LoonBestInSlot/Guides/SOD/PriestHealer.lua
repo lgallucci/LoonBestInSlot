@@ -9,27 +9,6 @@ local function LoadData()
     local spec7 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Healer"], "7")
     local spec8 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Healer"], "8")
 
-    LBIS:AddEnchant(spec8, "468342", LBIS.L["Head"]) --Prophetic Aura
-    LBIS:AddEnchant(spec8, "1219826", LBIS.L["Shoulder"]) --
-    LBIS:AddEnchant(spec8, "1219507", LBIS.L["Shoulder"]) --
-    LBIS:AddEnchant(spec8, "24420", LBIS.L["Shoulder"]) --Zandalar Signet of Serenity
-    LBIS:AddEnchant(spec8, "20014", LBIS.L["Back"]) --Enchant Cloak - Greater Resistance
-    LBIS:AddEnchant(spec8, "20025", LBIS.L["Chest"]) --Enchant Chest - Greater Stats
-    LBIS:AddEnchant(spec8, "1213829", LBIS.L["Chest"]) --
-    LBIS:AddEnchant(spec8, "1213616", LBIS.L["Chest"]) --
-    LBIS:AddEnchant(spec8, "23802", LBIS.L["Wrist"]) --Enchant Bracer - Healing Power
-    LBIS:AddEnchant(spec8, "25079", LBIS.L["Hands"]) --
-    LBIS:AddEnchant(spec8, "468342", LBIS.L["Legs"]) --Prophetic Aura
-    LBIS:AddEnchant(spec8, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
-    LBIS:AddEnchant(spec8, "1213829", LBIS.L["Feet"]) --Glowing Chitin Armor Kit
-    LBIS:AddEnchant(spec8, "1219580", LBIS.L["Main Hand"]) --
-    LBIS:AddEnchant(spec8, "22750", LBIS.L["Main Hand"]) --Enchant Weapon - Healing Power
-    LBIS:AddEnchant(spec8, "23804", LBIS.L["Main Hand"]) --Enchant Weapon - Mighty Intellect
-    LBIS:AddEnchant(spec8, "22750", LBIS.L["Two Hand"]) --Enchant Weapon - Healing Power
-    LBIS:AddEnchant(spec8, "23804", LBIS.L["Two Hand"]) --Enchant Weapon - Mighty Intellect
-    LBIS:AddEnchant(spec8, "15340", LBIS.L["Head"]) --
-    LBIS:AddEnchant(spec8, "446472", LBIS.L["Shoulder"]) --
-    LBIS:AddEnchant(spec8, "15340", LBIS.L["Legs"]) --
 
     LBIS:AddItem(spec0, "226573", LBIS.L["Head"], "BIS") --Circlet of Prophecy
     LBIS:AddItem(spec0, "226947", LBIS.L["Head"], "Alt") --Virtuous Crown

@@ -9,22 +9,15 @@ local function LoadData()
     local spec7 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Healer"], "7")
     local spec8 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Healer"], "8")
 
-    LBIS:AddEnchant(spec8, "468314", LBIS.L["Head"]) --Animist's Caress
+    LBIS:AddEnchant(spec8, "468314", LBIS.L["Head/Legs"]) --
+    LBIS:AddEnchant(spec8, "1219932", LBIS.L["Shoulder"]) --
     LBIS:AddEnchant(spec8, "1219510", LBIS.L["Shoulder"]) --
-    LBIS:AddEnchant(spec8, "24420", LBIS.L["Shoulder"]) --Zandalar Signet of Serenity
-    LBIS:AddEnchant(spec8, "25084", LBIS.L["Back"]) --Enchant Cloak - Subtlety
-    LBIS:AddEnchant(spec8, "1213829", LBIS.L["Chest"]) --Glowing Chitin Armor Kit
-    LBIS:AddEnchant(spec8, "23802", LBIS.L["Wrist"]) --Enchant Bracer - Healing Power
-    LBIS:AddEnchant(spec8, "25079", LBIS.L["Hands"]) --Enchant Gloves - Healing Power
-    LBIS:AddEnchant(spec8, "468314", LBIS.L["Legs"]) --Animist's Caress
-    LBIS:AddEnchant(spec8, "13890", LBIS.L["Feet"]) --Enchant Boots - Minor Speed
-    LBIS:AddEnchant(spec8, "20024", LBIS.L["Feet"]) --Enchant Boots - Spirit
-    LBIS:AddEnchant(spec8, "22750", LBIS.L["Main Hand"]) --Enchant Weapon - Healing Power
-    LBIS:AddEnchant(spec8, "22750", LBIS.L["Two Hand"]) --Enchant Weapon - Healing Power
-    LBIS:AddEnchant(spec8, "22844", LBIS.L["Head"]) --
+    LBIS:AddEnchant(spec8, "25084", LBIS.L["Back"]) --
     LBIS:AddEnchant(spec8, "20014", LBIS.L["Back"]) --
-    LBIS:AddEnchant(spec8, "22844", LBIS.L["Legs"]) --
-    LBIS:AddEnchant(spec8, "1219577", LBIS.L["Off Hand"]) --
+    LBIS:AddEnchant(spec8, "1213829", LBIS.L["Chest"]) --
+    LBIS:AddEnchant(spec8, "23802", LBIS.L["Wrist"]) --
+    LBIS:AddEnchant(spec8, "25079", LBIS.L["Hands"]) --
+    LBIS:AddEnchant(spec8, "13890", LBIS.L["Feet"]) --
     LBIS:AddEnchant(spec8, "1219580", LBIS.L["Main Hand"]) --
 
     LBIS:AddItem(spec0, "237288", LBIS.L["Head"], "BIS") --Sanctified Leather Helm
