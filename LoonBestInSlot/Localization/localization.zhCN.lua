@@ -173,6 +173,8 @@ if GetLocale() == "zhCN" then
   LBIS.L["Charlga Razorflank"] = "卡尔加·刺肋";
   LBIS.L["Chest"] = "胸部";
 --  LBIS.L["Chest of the Seven"] = "";
+--  LBIS.L["Chest/Feet"] = "";
+--  LBIS.L["Chest/Hands/Feet"] = "";
   LBIS.L["Chief Ukorz Sandscalp"] = "乌克兹·沙顶";
   LBIS.L["Cho'Rush the Observer"] = "观察者克鲁什";
   LBIS.L["Chromaggus"] = "克洛玛古斯";
@@ -388,6 +390,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Halycon"] = "哈雷肯";
 --  LBIS.L["Handor"] = "";
   LBIS.L["Hands"] = "手";
+--  LBIS.L["Hands/Feet"] = "";
 --  LBIS.L["Harbinger of Sin"] = "";
   LBIS.L["Harnessing Shadows"] = "束缚之影";
 --  LBIS.L["Hazza'rah (Madness)"] = "哈扎拉尔";
@@ -395,6 +398,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Hazzas and Morphaz"] = "";
   LBIS.L["Head"] = "头部";
 --  LBIS.L["Head of Ossirian the Unscarred"] = "";
+--  LBIS.L["Head/Legs"] = "";
   LBIS.L["Healer"] = "治疗者";
 --  LBIS.L["Heart of Hakkar"] = "";
   LBIS.L["Hearthsinger Forresten (Rare)"] = "弗雷斯特恩 (精良)";
@@ -498,6 +502,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Legendary"] = "传说";
   LBIS.L["Legplates of the Chromatic Defier"] = "多彩挑战者腿甲";
   LBIS.L["Legs"] = "腿部";
+--  LBIS.L["Legs/Head"] = "";
   LBIS.L["Lethon"] = "莱索恩";
   LBIS.L["Lethtendris"] = "蕾瑟塔蒂丝";
   LBIS.L["Lethtendris's Web"] = "蕾瑟塔蒂丝的网";
@@ -602,6 +607,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Obsidian Sentinel"] = "黑曜石哨兵";
   LBIS.L["Odo the Blindwatcher"] = "盲眼守卫奥杜";
   LBIS.L["Off Hand"] = "副手";
+--  LBIS.L["Off Hand/Ranged/Relic"] = "";
   LBIS.L["Oggleflint"] = "奥格弗林特";
   LBIS.L["Ogom the Wretched"] = "可悲的奥戈姆";
   LBIS.L["Oh Brother. . ."] = "我的兄弟......";
@@ -1006,6 +1012,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["You Have Served Us Well"] = "干得好";
   LBIS.L["Ysondre"] = "绿龙";
 --  LBIS.L["Zalgo the Explorer"] = "";
+  LBIS.L["Zandalar Tribe"] = "赞达拉部族";
 --  LBIS.L["Zandalar Tribe Necklace"] = "";
 --  LBIS.L["Zarena Cromwind"] = "";
   LBIS.L["Zerillis"] = "泽雷利斯";

@@ -173,6 +173,8 @@ if GetLocale() == "deDE" then
   LBIS.L["Charlga Razorflank"] = "Charlga Klingenflanke";
   LBIS.L["Chest"] = "Brust";
 --  LBIS.L["Chest of the Seven"] = "";
+--  LBIS.L["Chest/Feet"] = "";
+--  LBIS.L["Chest/Hands/Feet"] = "";
   LBIS.L["Chief Ukorz Sandscalp"] = "Häuptling Ukorz Sandwüter";
   LBIS.L["Cho'Rush the Observer"] = "Cho'Rush der Beobachter";
   LBIS.L["Chromaggus"] = "Chromaggus";
@@ -388,6 +390,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Halycon"] = "Halycon";
 --  LBIS.L["Handor"] = "";
   LBIS.L["Hands"] = "Hände";
+--  LBIS.L["Hands/Feet"] = "";
 --  LBIS.L["Harbinger of Sin"] = "";
   LBIS.L["Harnessing Shadows"] = "Schatten einspannen";
 --  LBIS.L["Hazza'rah (Madness)"] = "Hazza'rah";
@@ -395,6 +398,7 @@ if GetLocale() == "deDE" then
 --  LBIS.L["Hazzas and Morphaz"] = "";
   LBIS.L["Head"] = "Kopf";
 --  LBIS.L["Head of Ossirian the Unscarred"] = "";
+--  LBIS.L["Head/Legs"] = "";
   LBIS.L["Healer"] = "Heilung";
 --  LBIS.L["Heart of Hakkar"] = "";
   LBIS.L["Hearthsinger Forresten (Rare)"] = "Herdsinger Forresten (Selten)";
@@ -498,6 +502,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Legendary"] = "Legendär";
   LBIS.L["Legplates of the Chromatic Defier"] = "Beinplatten des chromatischen Widersetzers";
   LBIS.L["Legs"] = "Beine";
+--  LBIS.L["Legs/Head"] = "";
   LBIS.L["Lethon"] = "Lethon";
   LBIS.L["Lethtendris"] = "Lethtendris";
   LBIS.L["Lethtendris's Web"] = "Lethtendris' Netz";
@@ -602,6 +607,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Obsidian Sentinel"] = "Obsidianschildwache";
   LBIS.L["Odo the Blindwatcher"] = "Odo der Blindseher";
   LBIS.L["Off Hand"] = "Schildhand";
+--  LBIS.L["Off Hand/Ranged/Relic"] = "";
   LBIS.L["Oggleflint"] = "Flintauge";
   LBIS.L["Ogom the Wretched"] = "Ogom der Elende";
   LBIS.L["Oh Brother. . ."] = "Oh Bruder...";
@@ -1006,6 +1012,7 @@ if GetLocale() == "deDE" then
   LBIS.L["You Have Served Us Well"] = "Ihr habt uns gut gedient";
   LBIS.L["Ysondre"] = "Ysondre";
 --  LBIS.L["Zalgo the Explorer"] = "";
+  LBIS.L["Zandalar Tribe"] = "Stamm der Zandalari";
 --  LBIS.L["Zandalar Tribe Necklace"] = "";
 --  LBIS.L["Zarena Cromwind"] = "";
   LBIS.L["Zerillis"] = "Zerillis";

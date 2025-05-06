@@ -15,9 +15,8 @@ itemSlotOrder[LBIS.L["Ring"]] = 10;
 itemSlotOrder[LBIS.L["Trinket"]] = 11;
 itemSlotOrder[LBIS.L["Main Hand"]] = 12;
 itemSlotOrder[LBIS.L["Off Hand"]] = 13;
-itemSlotOrder[LBIS.L["Main Hand/Off Hand"]] = 14;
-itemSlotOrder[LBIS.L["Two Hand"]] = 15;
-itemSlotOrder[LBIS.L["Ranged/Relic"]] = 16;
+itemSlotOrder[LBIS.L["Two Hand"]] = 14;
+itemSlotOrder[LBIS.L["Ranged"]] = 15;
 
 local function itemSortFunction(table, k1, k2)
 
@@ -27,10 +26,13 @@ local function itemSortFunction(table, k1, k2)
     local item1Score = 0;
     local item2Score = 0;
     
-    if itemSlotOrder[item1.Slot] > itemSlotOrder[item2.Slot] then
+    local firstSlots = strsplit("/", item1.Slot);
+    local secondSlots = strsplit("/", item2.Slot);
+
+    if itemSlotOrder[firstSlots] < itemSlotOrder[secondSlots] then
         item1Score = item1Score * -10000;
     end
-    if itemSlotOrder[item1.Slot] < itemSlotOrder[item2.Slot] then
+    if itemSlotOrder[firstSlots] > itemSlotOrder[secondSlots] then
         item2Score = item2Score * -10000;
     end
 

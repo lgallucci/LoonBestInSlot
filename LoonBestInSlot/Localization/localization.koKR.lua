@@ -173,6 +173,8 @@ if GetLocale() == "koKR" then
   LBIS.L["Charlga Razorflank"] = "서슬깃 차를가";
   LBIS.L["Chest"] = "가슴";
 --  LBIS.L["Chest of the Seven"] = "";
+--  LBIS.L["Chest/Feet"] = "";
+--  LBIS.L["Chest/Hands/Feet"] = "";
   LBIS.L["Chief Ukorz Sandscalp"] = "족장 우코르즈 샌드스칼프";
   LBIS.L["Cho'Rush the Observer"] = "정찰병 초루쉬";
   LBIS.L["Chromaggus"] = "크로마구스";
@@ -388,6 +390,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Halycon"] = "할리콘";
 --  LBIS.L["Handor"] = "";
   LBIS.L["Hands"] = "장갑";
+--  LBIS.L["Hands/Feet"] = "";
 --  LBIS.L["Harbinger of Sin"] = "";
   LBIS.L["Harnessing Shadows"] = "지배의 그림자";
 --  LBIS.L["Hazza'rah (Madness)"] = "하자라";
@@ -395,6 +398,7 @@ if GetLocale() == "koKR" then
 --  LBIS.L["Hazzas and Morphaz"] = "";
   LBIS.L["Head"] = "머리";
 --  LBIS.L["Head of Ossirian the Unscarred"] = "";
+--  LBIS.L["Head/Legs"] = "";
   LBIS.L["Healer"] = "치유 전담";
 --  LBIS.L["Heart of Hakkar"] = "";
   LBIS.L["Hearthsinger Forresten (Rare)"] = "하스싱어 포레스턴 (희귀)";
@@ -498,6 +502,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Legendary"] = "전설";
   LBIS.L["Legplates of the Chromatic Defier"] = "오색 파멸자의 다리갑옷";
   LBIS.L["Legs"] = "다리";
+--  LBIS.L["Legs/Head"] = "";
   LBIS.L["Lethon"] = "레손";
   LBIS.L["Lethtendris"] = "레스텐드리스";
   LBIS.L["Lethtendris's Web"] = "레스텐드리스의 그물";
@@ -602,6 +607,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Obsidian Sentinel"] = "흑요석 파수꾼";
   LBIS.L["Odo the Blindwatcher"] = "눈먼감시자 오도";
   LBIS.L["Off Hand"] = "보조장비";
+--  LBIS.L["Off Hand/Ranged/Relic"] = "";
   LBIS.L["Oggleflint"] = "오글플린트";
   LBIS.L["Ogom the Wretched"] = "비운의 오그옴";
   LBIS.L["Oh Brother. . ."] = "형제여...";
@@ -1006,6 +1012,7 @@ if GetLocale() == "koKR" then
   LBIS.L["You Have Served Us Well"] = "수고의 대가";
   LBIS.L["Ysondre"] = "이손드레";
 --  LBIS.L["Zalgo the Explorer"] = "";
+  LBIS.L["Zandalar Tribe"] = "잔달라 부족";
 --  LBIS.L["Zandalar Tribe Necklace"] = "";
 --  LBIS.L["Zarena Cromwind"] = "";
   LBIS.L["Zerillis"] = "제릴리스";
