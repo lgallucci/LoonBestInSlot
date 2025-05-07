@@ -9,6 +9,14 @@ local function LoadData()
     local spec7 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Healer"], "7")
     local spec8 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Healer"], "8")
 
+    LBIS:AddEnchant(spec8, "468342", LBIS.L["Head/Legs"]) --
+    LBIS:AddEnchant(spec8, "1219826", LBIS.L["Shoulder"]) --
+    LBIS:AddEnchant(spec8, "1219507", LBIS.L["Shoulder"]) --
+    LBIS:AddEnchant(spec8, "20014", LBIS.L["Back"]) --
+    LBIS:AddEnchant(spec8, "1213829", LBIS.L["Chest/Feet"]) --
+    LBIS:AddEnchant(spec8, "23802", LBIS.L["Wrist"]) --
+    LBIS:AddEnchant(spec8, "25079", LBIS.L["Hands"]) --
+    LBIS:AddEnchant(spec8, "1219580", LBIS.L["Main Hand"]) --
 
     LBIS:AddItem(spec0, "226573", LBIS.L["Head"], "BIS") --Circlet of Prophecy
     LBIS:AddItem(spec0, "226947", LBIS.L["Head"], "Alt") --Virtuous Crown

@@ -308,7 +308,8 @@ public class WowheadGuideParser
             {
                 Common.RecursiveBoxSearch(enchantDiv, (child) => {
                     var enchantAnchor = (IHtmlAnchorElement)child;
-                    if (enchantAnchor.PathName.Contains("classic/"))
+                    if (enchantAnchor.PathName.Contains("classic/") || 
+                        enchantAnchor.PathName.Contains("classic-ptr/"))
                         return foundEnchant(enchantAnchor, GetSlotFromId(slotId.Value));
                     return false;
                 });

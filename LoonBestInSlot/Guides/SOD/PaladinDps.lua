@@ -12,8 +12,8 @@ local function LoadData()
     LBIS:AddEnchant(spec8, "468330", LBIS.L["Head/Legs"]) --
     LBIS:AddEnchant(spec8, "1219882", LBIS.L["Shoulder"]) --
     LBIS:AddEnchant(spec8, "1219878", LBIS.L["Shoulder"]) --
-    LBIS:AddEnchant(spec8, "1219880", LBIS.L["Shoulder"]) --
     LBIS:AddEnchant(spec8, "1219885", LBIS.L["Shoulder"]) --
+    LBIS:AddEnchant(spec8, "1219880", LBIS.L["Shoulder"]) --
     LBIS:AddEnchant(spec8, "1219512", LBIS.L["Shoulder"]) --
     LBIS:AddEnchant(spec8, "1219587", LBIS.L["Back"]) --
     LBIS:AddEnchant(spec8, "1213616", LBIS.L["Chest"]) --

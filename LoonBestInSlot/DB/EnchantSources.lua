@@ -191,6 +191,7 @@ LBIS.EnchantSources =
     [1219851] = { Name = "Soul of the Cryomancer", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Brother Luctus"], SourceLocation = LBIS.L["Eastern Plaguelands"], TextureId = "236520" },
     [1219859] = { Name = "Soul of the Igniter", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Brother Luctus"], SourceLocation = LBIS.L["Eastern Plaguelands"], TextureId = "236528" },
     [1219863] = { Name = "Soul of the Radiant Defender", DesignId = "236532", ScrollId = "0", Source = LBIS.L["Brother Luctus"], SourceLocation = LBIS.L["Eastern Plaguelands"], TextureId = "236532" },
+    [1219875] = { Name = "Soul of the Vindicator", DesignId = "236544", ScrollId = "0", Source = LBIS.L["Brother Luctus"], SourceLocation = LBIS.L["Eastern Plaguelands"], TextureId = "236544" },
     [1219878] = { Name = "Soul of the Sealbearer", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Brother Luctus"], SourceLocation = LBIS.L["Eastern Plaguelands"], TextureId = "236547" },
     [1219880] = { Name = "Soul of the Judicator", DesignId = "236549", ScrollId = "0", Source = LBIS.L["Brother Luctus"], SourceLocation = LBIS.L["Eastern Plaguelands"], TextureId = "236549" },
     [1219882] = { Name = "Soul of the Retributor", DesignId = "236551", ScrollId = "0", Source = LBIS.L["Brother Luctus"], SourceLocation = LBIS.L["Eastern Plaguelands"], TextureId = "236551" },
