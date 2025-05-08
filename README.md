@@ -1,5 +1,5 @@
 # LoonBestInSlot
-Loon Best in Slot addon for WOW SOD Classic
+Loon Best in Slot addon for WOW Classic
 
 ## Features
 
