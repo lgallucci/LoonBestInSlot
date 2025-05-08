@@ -151,7 +151,7 @@ local lbis_options = {
 			desc = LBIS.L["Hunter"]..": "..LBIS.L["RangedDps"],
 			get = function(info) return LBISSettings.Tooltip[LBIS.L["RangedDps"]..LBIS.L["Hunter"]] end,
 			set = function(info, val) LBISSettings.Tooltip[LBIS.L["RangedDps"]..LBIS.L["Hunter"]] = val end,
-			width = 1.1,
+			width = 1.6,
 			order = 8,
 			hidden = not LBIS.IsSOD
 		},
@@ -161,17 +161,17 @@ local lbis_options = {
 			desc = LBIS.L["Hunter"]..": "..LBIS.L["MeleeDps"],
 			get = function(info) return LBISSettings.Tooltip[LBIS.L["MeleeDps"]..LBIS.L["Hunter"]] end,
 			set = function(info, val) LBISSettings.Tooltip[LBIS.L["MeleeDps"]..LBIS.L["Hunter"]] = val end,
-			width = 1.1,
+			width = 1.6,
 			order = 9,
 			hidden = not LBIS.IsSOD
 		},
 		showSodDpsMage = {
 			type = "toggle",
-			name = LBIS.L["Dps"]..": "..LBIS.L["Mage"],
-			desc = LBIS.L["Dps"]..": "..LBIS.L["Mage"],
+			name = LBIS.L["Mage"]..": "..LBIS.L["DPS"],
+			desc = LBIS.L["Mage"]..": "..LBIS.L["DPS"],
 			get = function(info) return LBISSettings.Tooltip[LBIS.L["Dps"]..LBIS.L["Mage"]] end,
 			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Dps"]..LBIS.L["Mage"]] = val end,
-			width = 1.1,
+			width = 1.6,
 			order = 10,
 			hidden = not LBIS.IsSOD
 		},
@@ -181,7 +181,7 @@ local lbis_options = {
 			desc = LBIS.L["Mage"]..": "..LBIS.L["Healer"],
 			get = function(info) return LBISSettings.Tooltip[LBIS.L["Healer"]..LBIS.L["Mage"]] end,
 			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Healer"]..LBIS.L["Mage"]] = val end,
-			width = 1.1,
+			width = 1.6,
 			order = 11,
 			hidden = not LBIS.IsSOD
 		},
@@ -221,7 +221,7 @@ local lbis_options = {
 			desc = LBIS.L["Priest"]..": "..LBIS.L["Dps"],
 			get = function(info) return LBISSettings.Tooltip[LBIS.L["Dps"]..LBIS.L["Priest"]] end,
 			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Dps"]..LBIS.L["Priest"]] = val end,
-			width = 1.1,
+			width = 1.6,
 			order = 15,
 			hidden = not LBIS.IsSOD
 		},
@@ -231,7 +231,7 @@ local lbis_options = {
 			desc = LBIS.L["Priest"]..": "..LBIS.L["Healer"],
 			get = function(info) return LBISSettings.Tooltip[LBIS.L["Healer"]..LBIS.L["Priest"]] end,
 			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Healer"]..LBIS.L["Priest"]] = val end,
-			width = 1.1,
+			width = 1.6,
 			order = 16,
 			hidden = not LBIS.IsSOD
 		},
@@ -241,7 +241,7 @@ local lbis_options = {
 			desc = LBIS.L["Rogue"].." "..LBIS.L["Dps"],
 			get = function(info) return LBISSettings.Tooltip[LBIS.L["Dps"]..LBIS.L["Rogue"]] end,
 			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Dps"]..LBIS.L["Rogue"]] = val end,
-			width = 1.1,
+			width = 1.6,
 			order = 17,
 			hidden = not LBIS.IsSOD
 		},
@@ -251,7 +251,7 @@ local lbis_options = {
 			desc = LBIS.L["Rogue"]..": "..LBIS.L["Tank"],
 			get = function(info) return LBISSettings.Tooltip[LBIS.L["Tank"]..LBIS.L["Rogue"]] end,
 			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Tank"]..LBIS.L["Rogue"]] = val end,
-			width = 1.1,
+			width = 1.6,
 			order = 18,
 			hidden = not LBIS.IsSOD
 		},
@@ -271,7 +271,7 @@ local lbis_options = {
 			desc = LBIS.L["Shaman"]..": "..LBIS.L["Enhancement Dps"],
 			get = function(info) return LBISSettings.Tooltip[LBIS.L["Enhancement Dps"]..LBIS.L["Shaman"]] end,
 			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Enhancement Dps"]..LBIS.L["Shaman"]] = val end,
-			width = 1.1,
+			width = 0.825,
 			order = 20,
 			hidden = not LBIS.IsSOD
 		},
@@ -281,7 +281,7 @@ local lbis_options = {
 			desc = LBIS.L["Shaman"]..": "..LBIS.L["Healer"],
 			get = function(info) return LBISSettings.Tooltip[LBIS.L["Healer"]..LBIS.L["Shaman"]] end,
 			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Healer"]..LBIS.L["Shaman"]] = val end,
-			width = 1.1,
+			width = 0.825,
 			order = 21,
 			hidden = not LBIS.IsSOD
 		},
@@ -291,7 +291,7 @@ local lbis_options = {
 			desc = LBIS.L["Shaman"]..": "..LBIS.L["Tank"],
 			get = function(info) return LBISSettings.Tooltip[LBIS.L["Tank"]..LBIS.L["Shaman"]] end,
 			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Tank"]..LBIS.L["Shaman"]] = val end,
-			width = 1.1,
+			width = 0.825,
 			order = 22,
 			hidden = not LBIS.IsSOD
 		},
@@ -301,7 +301,7 @@ local lbis_options = {
 			desc = LBIS.L["Warlock"]..": "..LBIS.L["Dps"],
 			get = function(info) return LBISSettings.Tooltip[LBIS.L["Dps"]..LBIS.L["Warlock"]] end,
 			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Dps"]..LBIS.L["Warlock"]] = val end,
-			width = 1.1,
+			width = 1.6,
 			order = 23,
 			hidden = not LBIS.IsSOD
 		},
@@ -311,7 +311,7 @@ local lbis_options = {
 			desc = LBIS.L["Warlock"]..": "..LBIS.L["Tank"],
 			get = function(info) return LBISSettings.Tooltip[LBIS.L["Tank"]..LBIS.L["Warlock"]] end,
 			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Tank"]..LBIS.L["Warlock"]] = val end,
-			width = 1.1,
+			width = 1.6,
 			order = 24,
 			hidden = not LBIS.IsSOD
 		},
@@ -321,7 +321,7 @@ local lbis_options = {
 			desc = LBIS.L["Warrior"]..": "..LBIS.L["Dps"],
 			get = function(info) return LBISSettings.Tooltip[LBIS.L["Dps"]..LBIS.L["Warrior"]] end,
 			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Dps"]..LBIS.L["Warrior"]] = val end,
-			width = 1.1,
+			width = 1.6,
 			order = 25,
 		},
 		showSodTankWarrior = {
@@ -330,7 +330,7 @@ local lbis_options = {
 			desc = LBIS.L["Warrior"]..": "..LBIS.L["Tank"],
 			get = function(info) return LBISSettings.Tooltip[LBIS.L["Tank"]..LBIS.L["Warrior"]] end,
 			set = function(info, val) LBISSettings.Tooltip[LBIS.L["Tank"]..LBIS.L["Warrior"]] = val end,
-			width = 1.1,
+			width = 1.6,
 			order = 26,
 			hidden = not LBIS.IsSOD
 		},
@@ -701,7 +701,7 @@ local lbis_options = {
 			width = 1.1,
 			order = 60,
 		},
-		showPhase7 = {
+		showPhase8 = {
 			type = "toggle",
 			name = LBIS.L["Phase 8"],
 			desc = LBIS.L["Phase 8"],
