@@ -677,6 +677,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Ragnaros"] = "拉格纳罗斯";
   LBIS.L["Ramaladni's Icy Grasp"] = "拉玛兰迪的寒冰之握";
   LBIS.L["Ramstein the Gorger"] = "吞咽者拉姆斯登";
+  LBIS.L["Ranged"] = "远程";
   LBIS.L["Ranged/Relic"] = "远程/圣物";
 --  LBIS.L["RangedDps"] = "";
   LBIS.L["Ras Frostwhisper"] = "莱斯·霜语";

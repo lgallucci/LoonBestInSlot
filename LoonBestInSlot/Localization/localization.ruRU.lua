@@ -677,6 +677,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Ragnaros"] = "Рагнарос";
   LBIS.L["Ramaladni's Icy Grasp"] = "Ледяная хватка Рамаладни";
   LBIS.L["Ramstein the Gorger"] = "Рамштайн Ненасытный";
+  LBIS.L["Ranged"] = "Дальний бой";
   LBIS.L["Ranged/Relic"] = "Для оружия дальнего боя/Реликвия";
 --  LBIS.L["RangedDps"] = "";
   LBIS.L["Ras Frostwhisper"] = "Рас Ледяной Шепот";

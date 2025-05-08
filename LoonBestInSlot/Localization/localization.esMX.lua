@@ -677,6 +677,7 @@ if GetLocale() == "esMX" then
   LBIS.L["Ragnaros"] = "Ragnaros";
   LBIS.L["Ramaladni's Icy Grasp"] = "La garra helada de Ramaladni";
   LBIS.L["Ramstein the Gorger"] = "Ramstein el Empachador";
+  LBIS.L["Ranged"] = "A distancia";
   LBIS.L["Ranged/Relic"] = "Rango/Relíquia";
 --  LBIS.L["RangedDps"] = "";
   LBIS.L["Ras Frostwhisper"] = "Ras Murmuhielo";

@@ -677,6 +677,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Ragnaros"] = "라그나로스";
   LBIS.L["Ramaladni's Icy Grasp"] = "라말라드니의 얼음 고리";
   LBIS.L["Ramstein the Gorger"] = "먹보 람스타인";
+  LBIS.L["Ranged"] = "원거리";
   LBIS.L["Ranged/Relic"] = "원거리 장비/성물";
 --  LBIS.L["RangedDps"] = "";
   LBIS.L["Ras Frostwhisper"] = "라스 프로스트위스퍼";

@@ -677,6 +677,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Ragnaros"] = "Ragnaros";
   LBIS.L["Ramaladni's Icy Grasp"] = "Ramaladnis eisiger Griff";
   LBIS.L["Ramstein the Gorger"] = "Ramstein der Verschlinger";
+  LBIS.L["Ranged"] = "Distanzkampf";
   LBIS.L["Ranged/Relic"] = "Distanz/Relikt";
 --  LBIS.L["RangedDps"] = "";
   LBIS.L["Ras Frostwhisper"] = "Ras Frostraunen";
