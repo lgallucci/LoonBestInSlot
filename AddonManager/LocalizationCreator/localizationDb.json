@@ -1058,7 +1058,17 @@
       "High Priestess Jeklik": "Suma Sacerdotisa Jeklik",
       "High Priestess Mar'li": "Suma Sacerdotisa Mar'li",
       "Lethtendris's Web": "La Membrana de Lethtendris",
-      "Zandalar Tribe": "Tribu Zandalar"
+      "Zandalar Tribe": "Tribu Zandalar",
+      "Ranged": "Rango",
+      "Furen's Armor": "La armadura de Furen",
+      "Chest/Feet": "Pecho/Pies",
+      "Chest/Hands/Feet": "Pecho/Manos/Pies",
+      "Grand Crusader Dathrohan/Balnazzar": "Gran Cruzado Dathrohan/Balnazzar",
+      "Hands/Feet": "Manos/Pies",
+      "Head/Legs": "Cabeza/Piernas",
+      "Lower Blackrock Spire/Scholomance": "Cumbre de Roca Negra Inferior/Scholomance",
+      "Off Hand/Ranged/Relic": "Mano izquierda/A distancia/Reliquia",
+      "Scholomance/Stratholme": "Scholomance/Stratholme"
     },
     "esMX": {
       "# Best for:": "# Mejor para",
@@ -2089,7 +2099,17 @@
       "High Priestess Jeklik": "Suma sacerdotisa Jeklik",
       "High Priestess Mar'li": "Suma sacerdotisa Mar'li",
       "Lethtendris's Web": "La membrana de Lethtendris",
-      "Zandalar Tribe": "Tribu Zandalar"
+      "Zandalar Tribe": "Tribu Zandalar",
+      "Ranged": "Rango",
+      "Furen's Armor": "La armadura de Furen",
+      "Chest/Feet": "Pecho/Pies",
+      "Chest/Hands/Feet": "Pecho/Manos/Pies",
+      "Grand Crusader Dathrohan/Balnazzar": "Gran cruzado Dathrohan/Balnazzar",
+      "Hands/Feet": "Manos/Pies",
+      "Head/Legs": "Cabeza/Piernas",
+      "Lower Blackrock Spire/Scholomance": "Cumbre de Roca Negra Inferior/Scholomance",
+      "Off Hand/Ranged/Relic": "Mano izquierda/A distancia/Reliquia",
+      "Scholomance/Stratholme": "Scholomance/Stratholme"
     },
     "deDE": {
       "# Best for:": "# Beste für",
@@ -2406,7 +2426,7 @@
       "Icecrown Citadel": "Die Eiskronenzitadelle",
       "Idol": "Götze",
       "Libram": "Buchband",
-      "Ranged": "Distanz",
+      "Ranged": "Distanzkampf",
       "Relic": "Relikt",
       "Shield": "Schild",
       "The Ruby Sanctum": "Das Rubinsanktum",
@@ -3202,7 +3222,16 @@
       "High Priestess Jeklik": "Hohepriesterin Jeklik",
       "High Priestess Mar'li": "Hohepriesterin Mar'li",
       "Lethtendris's Web": "Lethtendris' Netz",
-      "Zandalar Tribe": "Stamm der Zandalari"
+      "Zandalar Tribe": "Stamm der Zandalari",
+      "Furen's Armor": "Furens Rüstung",
+      "Chest/Feet": "Brust/Füße",
+      "Chest/Hands/Feet": "Brust/Hände/Füße",
+      "Grand Crusader Dathrohan/Balnazzar": "Oberster Kreuzzügler Dathrohan/Balnazzar",
+      "Hands/Feet": "Hände/Füße",
+      "Head/Legs": "Kopf/Beine",
+      "Lower Blackrock Spire/Scholomance": "Untere Schwarzfelsspitze/Scholomance",
+      "Off Hand/Ranged/Relic": "Schildhand/Distanzkampf/Relikt",
+      "Scholomance/Stratholme": "Scholomance/Stratholme"
     },
     "frFR": {
       "# Best for:": "# Meilleur pour",
@@ -4249,7 +4278,17 @@
       "High Priestess Jeklik": "Grande prêtresse Jeklik",
       "High Priestess Mar'li": "Grande prêtresse Mar'li",
       "Lethtendris's Web": "Le filet de Lethtendris",
-      "Zandalar Tribe": "Tribu Zandalar"
+      "Zandalar Tribe": "Tribu Zandalar",
+      "Ranged": "Distance",
+      "Furen's Armor": "L'armure de Furen",
+      "Chest/Feet": "Torse/Pieds",
+      "Chest/Hands/Feet": "Torse/Mains/Pieds",
+      "Grand Crusader Dathrohan/Balnazzar": "Grand croisé Dathrohan/Balnazzar",
+      "Hands/Feet": "Mains/Pieds",
+      "Head/Legs": "Tête/Jambes",
+      "Lower Blackrock Spire/Scholomance": "Pic Blackrock Inférieur/Scholomance",
+      "Off Hand/Ranged/Relic": "Main gauche/Distance/Relique",
+      "Scholomance/Stratholme": "Scholomance/Stratholme"
     },
     "ruRU": {
       "# Best for:": "# Лучшее для",
@@ -5291,7 +5330,18 @@
       "High Priestess Jeklik": "Верховная жрица Джеклик",
       "High Priestess Mar'li": "Верховная жрица Мар'ли",
       "Lethtendris's Web": "Сеть Лефтендрис",
-      "Zandalar Tribe": "Племя Зандалари"
+      "Zandalar Tribe": "Племя Зандалари",
+      "Ranged": "Дальний бой",
+      "Furen's Armor": "Доспехи Фьюрена",
+      "Grimand's Armor": "Доспехи Гриманда",
+      "Chest/Feet": "Грудь/Ступни",
+      "Chest/Hands/Feet": "Грудь/Кисти рук/Ступни",
+      "Grand Crusader Dathrohan/Balnazzar": "Верховный рыцарь Датрохан/Балназзар",
+      "Hands/Feet": "Кисти рук/Ступни",
+      "Head/Legs": "Голова/Ноги",
+      "Lower Blackrock Spire/Scholomance": "Нижняя часть вершины Черной Горы/Некроситет",
+      "Off Hand/Ranged/Relic": "Левая рука/Дальний бой/Реликвия",
+      "Scholomance/Stratholme": "Некроситет/Стратхольм"
     },
     "zhCN": {
       "# Best for:": "# 最适合",
@@ -6333,7 +6383,17 @@
       "High Priestess Jeklik": "高阶祭司耶克里克",
       "High Priestess Mar'li": "高阶祭司玛尔里",
       "Lethtendris's Web": "蕾瑟塔蒂丝的网",
-      "Zandalar Tribe": "赞达拉部族"
+      "Zandalar Tribe": "赞达拉部族",
+      "Ranged": "远程",
+      "Furen's Armor": "弗伦的铠甲",
+      "Chest/Feet": "胸部/脚",
+      "Chest/Hands/Feet": "胸部/手/脚",
+      "Grand Crusader Dathrohan/Balnazzar": "大十字军战士达索汉/巴纳扎尔",
+      "Hands/Feet": "手/脚",
+      "Head/Legs": "头部/腿部",
+      "Lower Blackrock Spire/Scholomance": "黑石塔下层/通灵学院",
+      "Off Hand/Ranged/Relic": "副手/远程/圣物",
+      "Scholomance/Stratholme": "通灵学院/斯坦索姆"
     },
     "koKR": {
       "# Best for:": "# BIS 직업:",
@@ -6702,7 +6762,7 @@
       "Judgement at the Eye of Eternity": "영원의 눈에서의 심판 (10인)",
       "Libram": "성서",
       "Naxxramas": "낙스라마스",
-      "Ranged": "원거리 장비",
+      "Ranged": "원거리",
       "Relic": "성물",
       "Shield": "방패",
       "Show Custom": "커스텀 보이기",
@@ -7468,7 +7528,16 @@
       "High Priestess Jeklik": "대여사제 제클릭",
       "High Priestess Mar'li": "대여사제 말리",
       "Lethtendris's Web": "레스텐드리스의 그물",
-      "Zandalar Tribe": "잔달라 부족"
+      "Zandalar Tribe": "잔달라 부족",
+      "Furen's Armor": "푸렌의 갑옷",
+      "Chest/Feet": "가슴/발",
+      "Chest/Hands/Feet": "가슴/손/발",
+      "Grand Crusader Dathrohan/Balnazzar": "붉은십자군 사령관 다스로한/발나자르",
+      "Hands/Feet": "손/발",
+      "Head/Legs": "머리/다리",
+      "Lower Blackrock Spire/Scholomance": "검은바위 첨탑 (하층)/스칼로맨스",
+      "Off Hand/Ranged/Relic": "보조장비/원거리/성물",
+      "Scholomance/Stratholme": "스칼로맨스/스트라솔름"
     },
     "zhTW": {
       "# Best for:": "# 最适合",
@@ -8507,7 +8576,17 @@
       "High Priestess Jeklik": "高階祭司耶克里克",
       "High Priestess Mar'li": "高階祭司瑪俐",
       "Lethtendris's Web": "蕾瑟塔蒂絲的網",
-      "Zandalar Tribe": "贊達拉部族"
+      "Zandalar Tribe": "贊達拉部族",
+      "Ranged": "遠程",
+      "Furen's Armor": "弗倫的護甲",
+      "Chest/Feet": "胸部/腳",
+      "Chest/Hands/Feet": "胸部/手/腳",
+      "Grand Crusader Dathrohan/Balnazzar": "大十字軍戰士達索漢/巴納札爾",
+      "Hands/Feet": "手/腳",
+      "Head/Legs": "頭部/腿部",
+      "Lower Blackrock Spire/Scholomance": "黑石塔下層/通靈學院",
+      "Off Hand/Ranged/Relic": "副手/遠程/聖物",
+      "Scholomance/Stratholme": "通靈學院/斯坦索姆"
     }
   }
 }

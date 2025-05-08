@@ -173,8 +173,8 @@ if GetLocale() == "ruRU" then
   LBIS.L["Charlga Razorflank"] = "Чарлга Остробок";
   LBIS.L["Chest"] = "Грудь";
 --  LBIS.L["Chest of the Seven"] = "";
---  LBIS.L["Chest/Feet"] = "";
---  LBIS.L["Chest/Hands/Feet"] = "";
+  LBIS.L["Chest/Feet"] = "Грудь/Ступни";
+  LBIS.L["Chest/Hands/Feet"] = "Грудь/Кисти рук/Ступни";
   LBIS.L["Chief Ukorz Sandscalp"] = "Вождь Укорз Песчаная Плешь";
   LBIS.L["Cho'Rush the Observer"] = "Чо'Раш Наблюдатель";
   LBIS.L["Chromaggus"] = "Хроммагус";
@@ -335,7 +335,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Free at Last"] = "Долгожданная свобода";
   LBIS.L["Friendly"] = "Союзник";
   LBIS.L["Frost Shock and You"] = "Ледяной шок и вы";
---  LBIS.L["Furen\'s Armor"] = "";
+  LBIS.L["Furen's Armor"] = "Доспехи Фьюрена";
   LBIS.L["Gahz'ranka"] = "Газ'ранка";
   LBIS.L["Gahz'rilla"] = "Газ'рилла";
   LBIS.L["Galgann Firehammer"] = "Галганн Огнемолот";
@@ -371,10 +371,10 @@ if GetLocale() == "ruRU" then
   LBIS.L["Gorosh the Dervish"] = "Горош Дервиш";
   LBIS.L["Gothik the Harvester"] = "Готик Жнец";
 --  LBIS.L["Grand Crusader Caldoran"] = "";
---  LBIS.L["Grand Crusader Dathrohan/Balnazzar"] = "";
+  LBIS.L["Grand Crusader Dathrohan/Balnazzar"] = "Верховный рыцарь Датрохан/Балназзар";
   LBIS.L["Grand Widow Faerlina"] = "Великая вдова Фарлина";
 --  LBIS.L["Gri'lek (Madness)"] = "Грилек";
---  LBIS.L["Grimand\'s Armor"] = "";
+  LBIS.L["Grimand's Armor"] = "Доспехи Гриманда";
   LBIS.L["Grimlok"] = "Гримлок";
 --  LBIS.L["Grimroot"] = "";
   LBIS.L["Grimtotem Spying"] = "Наблюдение за Зловещим Тотемом";
@@ -390,7 +390,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Halycon"] = "Халикон";
 --  LBIS.L["Handor"] = "";
   LBIS.L["Hands"] = "Кисти рук";
---  LBIS.L["Hands/Feet"] = "";
+  LBIS.L["Hands/Feet"] = "Кисти рук/Ступни";
 --  LBIS.L["Harbinger of Sin"] = "";
   LBIS.L["Harnessing Shadows"] = "Укрощая тени";
 --  LBIS.L["Hazza'rah (Madness)"] = "Хазза'рах";
@@ -398,7 +398,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Hazzas and Morphaz"] = "";
   LBIS.L["Head"] = "Голова";
 --  LBIS.L["Head of Ossirian the Unscarred"] = "";
---  LBIS.L["Head/Legs"] = "";
+  LBIS.L["Head/Legs"] = "Голова/Ноги";
   LBIS.L["Healer"] = "Лекарь";
 --  LBIS.L["Heart of Hakkar"] = "";
   LBIS.L["Hearthsinger Forresten (Rare)"] = "Певчий Форрестен (Редкое)";
@@ -502,7 +502,6 @@ if GetLocale() == "ruRU" then
   LBIS.L["Legendary"] = "Легендарное";
   LBIS.L["Legplates of the Chromatic Defier"] = "Ножные латы всецветного воина";
   LBIS.L["Legs"] = "Ноги";
---  LBIS.L["Legs/Head"] = "";
   LBIS.L["Lethon"] = "Летон";
   LBIS.L["Lethtendris"] = "Лефтендрис";
   LBIS.L["Lethtendris's Web"] = "Сеть Лефтендрис";
@@ -536,7 +535,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Lorgus Jett"] = "Лоргус Джетт";
 --  LBIS.L["Lost Whelp"] = "";
   LBIS.L["Lower Blackrock Spire"] = "Нижняя часть вершины Черной Горы";
---  LBIS.L["Lower Blackrock Spire/Scholomance"] = "";
+  LBIS.L["Lower Blackrock Spire/Scholomance"] = "Нижняя часть вершины Черной Горы/Некроситет";
   LBIS.L["Lucifron"] = "Люцифрон";
 --  LBIS.L["Lumbering Horror"] = "";
 --  LBIS.L["Madness Trinket"] = "";
@@ -607,7 +606,6 @@ if GetLocale() == "ruRU" then
   LBIS.L["Obsidian Sentinel"] = "Обсидиановый часовой";
   LBIS.L["Odo the Blindwatcher"] = "Одо Слепой Страж";
   LBIS.L["Off Hand"] = "Левая рука";
---  LBIS.L["Off Hand/Ranged/Relic"] = "";
   LBIS.L["Oggleflint"] = "Огглфлинт";
   LBIS.L["Ogom the Wretched"] = "Огом Презренный";
   LBIS.L["Oh Brother. . ."] = "О, брат мой...";
@@ -677,7 +675,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Ragnaros"] = "Рагнарос";
   LBIS.L["Ramaladni's Icy Grasp"] = "Ледяная хватка Рамаладни";
   LBIS.L["Ramstein the Gorger"] = "Рамштайн Ненасытный";
-  LBIS.L["Ranged"] = "Дальний бой";
+  LBIS.L["Ranged"] = "Для оружия дальнего боя";
   LBIS.L["Ranged/Relic"] = "Для оружия дальнего боя/Реликвия";
 --  LBIS.L["RangedDps"] = "";
   LBIS.L["Ras Frostwhisper"] = "Рас Ледяной Шепот";
@@ -740,7 +738,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Scarlet Spellbinder"] = "";
   LBIS.L["Scholomance"] = "Некроситет";
 --  LBIS.L["Scholomance Necrolyte"] = "";
---  LBIS.L["Scholomance/Stratholme"] = "";
+  LBIS.L["Scholomance/Stratholme"] = "Некроситет/Стратхольм";
   LBIS.L["Search for Incendicite"] = "Поиски огневита";
   LBIS.L["Searing Gorge"] = "Тлеющее ущелье";
   LBIS.L["Secret of the Circle"] = "Тайна камня";
@@ -809,8 +807,8 @@ if GetLocale() == "ruRU" then
   LBIS.L["Stratholme"] = "Стратхольм";
 --  LBIS.L["Stratholme Live"] = "";
 --  LBIS.L["Stratholme Undead"] = "";
---  LBIS.L["Stratholme Undead/Scholomance"] = "";
---  LBIS.L["STX-04/BD"] = "";
+--  LBIS.L["Stratholme Undead/Scholomance"] = "/Некроситет";
+--  LBIS.L["STX-04/BD"] = "/";
   LBIS.L["Sulfuron Harbinger"] = "Предвестник Сульфурон";
   LBIS.L["Sunken Temple"] = "Затонувший храм";
   LBIS.L["Superior Armaments of Battle - Exalted Amongst the Dawn"] = "Превосходное боевое снаряжениее – Восторг Рассвета";

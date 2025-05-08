@@ -10,6 +10,7 @@ local function LoadData()
     local spec8 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Elemental Dps"], "8")
 
     LBIS:AddEnchant(spec8, "468354", LBIS.L["Head/Legs"]) --
+    LBIS:AddEnchant(spec8, "468359", LBIS.L["Head/Legs"]) --
     LBIS:AddEnchant(spec8, "1219909", LBIS.L["Shoulder"]) --
     LBIS:AddEnchant(spec8, "1219916", LBIS.L["Shoulder"]) --
     LBIS:AddEnchant(spec8, "1219510", LBIS.L["Shoulder"]) --
@@ -18,7 +19,6 @@ local function LoadData()
     LBIS:AddEnchant(spec8, "20008", LBIS.L["Wrist"]) --
     LBIS:AddEnchant(spec8, "1213829", LBIS.L["Hands/Feet"]) --
     LBIS:AddEnchant(spec8, "416054", LBIS.L["Waist"]) --
-    LBIS:AddEnchant(spec8, "468359", LBIS.L["Legs/Head"]) --
     LBIS:AddEnchant(spec8, "23804", LBIS.L["Main Hand"]) --
     LBIS:AddEnchant(spec8, "1231139", LBIS.L["Main Hand"]) --
     LBIS:AddEnchant(spec8, "463871", LBIS.L["Off Hand"]) --

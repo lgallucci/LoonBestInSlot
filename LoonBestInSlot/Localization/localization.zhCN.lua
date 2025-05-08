@@ -173,8 +173,8 @@ if GetLocale() == "zhCN" then
   LBIS.L["Charlga Razorflank"] = "卡尔加·刺肋";
   LBIS.L["Chest"] = "胸部";
 --  LBIS.L["Chest of the Seven"] = "";
---  LBIS.L["Chest/Feet"] = "";
---  LBIS.L["Chest/Hands/Feet"] = "";
+  LBIS.L["Chest/Feet"] = "胸部/脚";
+  LBIS.L["Chest/Hands/Feet"] = "胸部/手/脚";
   LBIS.L["Chief Ukorz Sandscalp"] = "乌克兹·沙顶";
   LBIS.L["Cho'Rush the Observer"] = "观察者克鲁什";
   LBIS.L["Chromaggus"] = "克洛玛古斯";
@@ -335,7 +335,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Free at Last"] = "终获解救";
   LBIS.L["Friendly"] = "友方";
   LBIS.L["Frost Shock and You"] = "你与冰霜震击";
---  LBIS.L["Furen\'s Armor"] = "";
+  LBIS.L["Furen's Armor"] = "弗伦的铠甲";
   LBIS.L["Gahz'ranka"] = "加兹兰卡";
   LBIS.L["Gahz'rilla"] = "加兹瑞拉";
   LBIS.L["Galgann Firehammer"] = "加加恩·火锤";
@@ -371,10 +371,10 @@ if GetLocale() == "zhCN" then
   LBIS.L["Gorosh the Dervish"] = "修行者高罗什";
   LBIS.L["Gothik the Harvester"] = "收割者戈提克";
 --  LBIS.L["Grand Crusader Caldoran"] = "";
---  LBIS.L["Grand Crusader Dathrohan/Balnazzar"] = "";
+  LBIS.L["Grand Crusader Dathrohan/Balnazzar"] = "大十字军战士达索汉/巴纳扎尔";
   LBIS.L["Grand Widow Faerlina"] = "黑女巫法琳娜";
 --  LBIS.L["Gri'lek (Madness)"] = "格里雷克";
---  LBIS.L["Grimand\'s Armor"] = "";
+--  LBIS.L["Grimand's Armor"] = "";
   LBIS.L["Grimlok"] = "格瑞姆洛克";
 --  LBIS.L["Grimroot"] = "";
   LBIS.L["Grimtotem Spying"] = "恐怖图腾的密信";
@@ -390,7 +390,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Halycon"] = "哈雷肯";
 --  LBIS.L["Handor"] = "";
   LBIS.L["Hands"] = "手";
---  LBIS.L["Hands/Feet"] = "";
+  LBIS.L["Hands/Feet"] = "手/脚";
 --  LBIS.L["Harbinger of Sin"] = "";
   LBIS.L["Harnessing Shadows"] = "束缚之影";
 --  LBIS.L["Hazza'rah (Madness)"] = "哈扎拉尔";
@@ -398,7 +398,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Hazzas and Morphaz"] = "";
   LBIS.L["Head"] = "头部";
 --  LBIS.L["Head of Ossirian the Unscarred"] = "";
---  LBIS.L["Head/Legs"] = "";
+  LBIS.L["Head/Legs"] = "头部/腿部";
   LBIS.L["Healer"] = "治疗者";
 --  LBIS.L["Heart of Hakkar"] = "";
   LBIS.L["Hearthsinger Forresten (Rare)"] = "弗雷斯特恩 (精良)";
@@ -502,7 +502,6 @@ if GetLocale() == "zhCN" then
   LBIS.L["Legendary"] = "传说";
   LBIS.L["Legplates of the Chromatic Defier"] = "多彩挑战者腿甲";
   LBIS.L["Legs"] = "腿部";
---  LBIS.L["Legs/Head"] = "";
   LBIS.L["Lethon"] = "莱索恩";
   LBIS.L["Lethtendris"] = "蕾瑟塔蒂丝";
   LBIS.L["Lethtendris's Web"] = "蕾瑟塔蒂丝的网";
@@ -536,7 +535,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Lorgus Jett"] = "洛古斯·杰特";
 --  LBIS.L["Lost Whelp"] = "";
   LBIS.L["Lower Blackrock Spire"] = "黑石塔下层";
---  LBIS.L["Lower Blackrock Spire/Scholomance"] = "";
+  LBIS.L["Lower Blackrock Spire/Scholomance"] = "黑石塔下层/通灵学院";
   LBIS.L["Lucifron"] = "鲁西弗隆";
 --  LBIS.L["Lumbering Horror"] = "";
 --  LBIS.L["Madness Trinket"] = "";
@@ -607,7 +606,6 @@ if GetLocale() == "zhCN" then
   LBIS.L["Obsidian Sentinel"] = "黑曜石哨兵";
   LBIS.L["Odo the Blindwatcher"] = "盲眼守卫奥杜";
   LBIS.L["Off Hand"] = "副手";
---  LBIS.L["Off Hand/Ranged/Relic"] = "";
   LBIS.L["Oggleflint"] = "奥格弗林特";
   LBIS.L["Ogom the Wretched"] = "可悲的奥戈姆";
   LBIS.L["Oh Brother. . ."] = "我的兄弟......";
@@ -740,7 +738,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Scarlet Spellbinder"] = "";
   LBIS.L["Scholomance"] = "通灵学院";
 --  LBIS.L["Scholomance Necrolyte"] = "";
---  LBIS.L["Scholomance/Stratholme"] = "";
+  LBIS.L["Scholomance/Stratholme"] = "通灵学院/斯坦索姆";
   LBIS.L["Search for Incendicite"] = "火岩矿石";
   LBIS.L["Searing Gorge"] = "灼热峡谷";
   LBIS.L["Secret of the Circle"] = "雕像群的秘密";
@@ -809,8 +807,8 @@ if GetLocale() == "zhCN" then
   LBIS.L["Stratholme"] = "斯坦索姆";
 --  LBIS.L["Stratholme Live"] = "";
 --  LBIS.L["Stratholme Undead"] = "";
---  LBIS.L["Stratholme Undead/Scholomance"] = "";
---  LBIS.L["STX-04/BD"] = "";
+--  LBIS.L["Stratholme Undead/Scholomance"] = "/通灵学院";
+--  LBIS.L["STX-04/BD"] = "/";
   LBIS.L["Sulfuron Harbinger"] = "萨弗隆先驱者";
   LBIS.L["Sunken Temple"] = "沉没的神庙";
   LBIS.L["Superior Armaments of Battle - Exalted Amongst the Dawn"] = "精良的作战装备 - 银色黎明崇拜";

@@ -173,8 +173,8 @@ if GetLocale() == "esMX" then
   LBIS.L["Charlga Razorflank"] = "Charlga Filonavaja";
   LBIS.L["Chest"] = "Torso";
 --  LBIS.L["Chest of the Seven"] = "";
---  LBIS.L["Chest/Feet"] = "";
---  LBIS.L["Chest/Hands/Feet"] = "";
+  LBIS.L["Chest/Feet"] = "Pecho/Pies";
+  LBIS.L["Chest/Hands/Feet"] = "Pecho/Manos/Pies";
   LBIS.L["Chief Ukorz Sandscalp"] = "Jefe Ukorz Cabellarena";
   LBIS.L["Cho'Rush the Observer"] = "Cho'Rush el Observador";
   LBIS.L["Chromaggus"] = "Chromaggus";
@@ -335,7 +335,7 @@ if GetLocale() == "esMX" then
   LBIS.L["Free at Last"] = "Al fin libre";
   LBIS.L["Friendly"] = "Aliado";
   LBIS.L["Frost Shock and You"] = "El choque de Escarcha y tú";
---  LBIS.L["Furen\'s Armor"] = "";
+  LBIS.L["Furen's Armor"] = "La armadura de Furen";
   LBIS.L["Gahz'ranka"] = "Gahz'ranka";
   LBIS.L["Gahz'rilla"] = "Gahz'rilla";
   LBIS.L["Galgann Firehammer"] = "Galgann Flamartillo";
@@ -371,10 +371,10 @@ if GetLocale() == "esMX" then
   LBIS.L["Gorosh the Dervish"] = "Gorosh el Endemoniado";
   LBIS.L["Gothik the Harvester"] = "Gothik el Cosechador";
 --  LBIS.L["Grand Crusader Caldoran"] = "";
---  LBIS.L["Grand Crusader Dathrohan/Balnazzar"] = "";
+  LBIS.L["Grand Crusader Dathrohan/Balnazzar"] = "Gran cruzado Dathrohan/Balnazzar";
   LBIS.L["Grand Widow Faerlina"] = "Gran Viuda Faerlina";
 --  LBIS.L["Gri'lek (Madness)"] = "Gri'lek";
---  LBIS.L["Grimand\'s Armor"] = "";
+--  LBIS.L["Grimand's Armor"] = "";
   LBIS.L["Grimlok"] = "Grimlok";
 --  LBIS.L["Grimroot"] = "";
   LBIS.L["Grimtotem Spying"] = "Espiando a los Tótem Siniestro";
@@ -390,7 +390,7 @@ if GetLocale() == "esMX" then
   LBIS.L["Halycon"] = "Halycon";
 --  LBIS.L["Handor"] = "";
   LBIS.L["Hands"] = "Manos";
---  LBIS.L["Hands/Feet"] = "";
+  LBIS.L["Hands/Feet"] = "Manos/Pies";
 --  LBIS.L["Harbinger of Sin"] = "";
   LBIS.L["Harnessing Shadows"] = "Sombras acechadoras";
 --  LBIS.L["Hazza'rah (Madness)"] = "Hazza'rah";
@@ -398,7 +398,7 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Hazzas and Morphaz"] = "";
   LBIS.L["Head"] = "Cabeza";
 --  LBIS.L["Head of Ossirian the Unscarred"] = "";
---  LBIS.L["Head/Legs"] = "";
+  LBIS.L["Head/Legs"] = "Cabeza/Piernas";
   LBIS.L["Healer"] = "Sanador";
 --  LBIS.L["Heart of Hakkar"] = "";
   LBIS.L["Hearthsinger Forresten (Rare)"] = "Cantachimeneas Forresten (Raro)";
@@ -502,7 +502,6 @@ if GetLocale() == "esMX" then
   LBIS.L["Legendary"] = "Legendario";
   LBIS.L["Legplates of the Chromatic Defier"] = "Quijotes del Desafiante cromático";
   LBIS.L["Legs"] = "Piernas";
---  LBIS.L["Legs/Head"] = "";
   LBIS.L["Lethon"] = "Lethon";
   LBIS.L["Lethtendris"] = "Lethtendris";
   LBIS.L["Lethtendris's Web"] = "La membrana de Lethtendris";
@@ -536,7 +535,7 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Lorgus Jett"] = "";
 --  LBIS.L["Lost Whelp"] = "";
   LBIS.L["Lower Blackrock Spire"] = "Cumbre de Roca Negra Inferior";
---  LBIS.L["Lower Blackrock Spire/Scholomance"] = "";
+  LBIS.L["Lower Blackrock Spire/Scholomance"] = "Cumbre de Roca Negra Inferior/Scholomance";
   LBIS.L["Lucifron"] = "Lucifron";
 --  LBIS.L["Lumbering Horror"] = "";
 --  LBIS.L["Madness Trinket"] = "";
@@ -607,7 +606,6 @@ if GetLocale() == "esMX" then
   LBIS.L["Obsidian Sentinel"] = "Centinela obsidiana";
   LBIS.L["Odo the Blindwatcher"] = "Odo el Vigía Ciego";
   LBIS.L["Off Hand"] = "Mano Izquierda";
---  LBIS.L["Off Hand/Ranged/Relic"] = "";
   LBIS.L["Oggleflint"] = "Ogglesílex";
   LBIS.L["Ogom the Wretched"] = "Ogom el Desdichado";
   LBIS.L["Oh Brother. . ."] = "Oh, hermano...";
@@ -677,7 +675,7 @@ if GetLocale() == "esMX" then
   LBIS.L["Ragnaros"] = "Ragnaros";
   LBIS.L["Ramaladni's Icy Grasp"] = "La garra helada de Ramaladni";
   LBIS.L["Ramstein the Gorger"] = "Ramstein el Empachador";
-  LBIS.L["Ranged"] = "A distancia";
+  LBIS.L["Ranged"] = "Rango";
   LBIS.L["Ranged/Relic"] = "Rango/Relíquia";
 --  LBIS.L["RangedDps"] = "";
   LBIS.L["Ras Frostwhisper"] = "Ras Murmuhielo";
@@ -740,7 +738,7 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Scarlet Spellbinder"] = "";
   LBIS.L["Scholomance"] = "Scholomance";
 --  LBIS.L["Scholomance Necrolyte"] = "";
---  LBIS.L["Scholomance/Stratholme"] = "";
+  LBIS.L["Scholomance/Stratholme"] = "Scholomance/Stratholme";
   LBIS.L["Search for Incendicite"] = "Búsqueda de incendicita";
   LBIS.L["Searing Gorge"] = "La Garganta de Fuego";
   LBIS.L["Secret of the Circle"] = "El secreto del círculo";
@@ -809,8 +807,8 @@ if GetLocale() == "esMX" then
   LBIS.L["Stratholme"] = "Stratholme";
 --  LBIS.L["Stratholme Live"] = "";
 --  LBIS.L["Stratholme Undead"] = "";
---  LBIS.L["Stratholme Undead/Scholomance"] = "";
---  LBIS.L["STX-04/BD"] = "";
+--  LBIS.L["Stratholme Undead/Scholomance"] = "/Scholomance";
+--  LBIS.L["STX-04/BD"] = "/";
   LBIS.L["Sulfuron Harbinger"] = "Sulfuron Presagista";
   LBIS.L["Sunken Temple"] = "Templo Sumergido";
   LBIS.L["Superior Armaments of Battle - Exalted Amongst the Dawn"] = "Armamento superior de batalla: exaltado con El Alba";
