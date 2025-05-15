@@ -250,7 +250,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Divino-matic Rod"] = "探水棒";
   LBIS.L["Doctor Theolen Krastinov"] = "瑟爾林·卡斯迪諾夫教授";
   LBIS.L["Doling Justice"] = "菲拉斯的正義";
---  LBIS.L["Dps"] = "";
+  LBIS.L["DPS"] = "每秒傷害";
 --  LBIS.L["Dragonmaw Centurion"] = "";
   LBIS.L["Dragons of Nightmare"] = "夢魘之龍";
 --  LBIS.L["Drakes"] = "";

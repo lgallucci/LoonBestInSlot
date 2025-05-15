@@ -250,7 +250,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Divino-matic Rod"] = "Wünschel-mato-Rute";
   LBIS.L["Doctor Theolen Krastinov"] = "Doktor Theolen Krastinov";
   LBIS.L["Doling Justice"] = "Gerechtigkeit üben";
---  LBIS.L["Dps"] = "";
+  LBIS.L["DPS"] = "SPS";
 --  LBIS.L["Dragonmaw Centurion"] = "";
   LBIS.L["Dragons of Nightmare"] = "Drachen des Alptraums";
 --  LBIS.L["Drakes"] = "";

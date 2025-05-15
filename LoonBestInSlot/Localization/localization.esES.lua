@@ -250,7 +250,7 @@ if GetLocale() == "esES" then
   LBIS.L["Divino-matic Rod"] = "Vara divinomática";
   LBIS.L["Doctor Theolen Krastinov"] = "Doctor Theolen Krastinov";
   LBIS.L["Doling Justice"] = "La justicia del castigo";
---  LBIS.L["Dps"] = "";
+  LBIS.L["DPS"] = "DPS";
 --  LBIS.L["Dragonmaw Centurion"] = "";
 --  LBIS.L["Dragons of Nightmare"] = "";
 --  LBIS.L["Drakes"] = "";

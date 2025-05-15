@@ -158,7 +158,7 @@
       "Maexxna": "Maexxna",
       "Mage-Lord Urom": "Señor de la Magia Urom",
       "Maiden of Grief": "Doncella de Pena",
-      "Main Hand": "Mano Derecha",
+      "Main Hand": "Mano derecha",
       "Main Hand/Off Hand": "Mano derecha/Mano izquierda",
       "Mal'Ganis": "Mal'Ganis",
       "Malygos": "Malygos",
@@ -1068,7 +1068,9 @@
       "Head/Legs": "Cabeza/Piernas",
       "Lower Blackrock Spire/Scholomance": "Cumbre de Roca Negra Inferior/Scholomance",
       "Off Hand/Ranged/Relic": "Mano izquierda/A distancia/Reliquia",
-      "Scholomance/Stratholme": "Scholomance/Stratholme"
+      "Scholomance/Stratholme": "Scholomance/Stratholme",
+      "DPS": "DPS",
+      "Dps": "DPS"
     },
     "esMX": {
       "# Best for:": "# Mejor para",
@@ -1217,7 +1219,7 @@
       "Maexxna": "Maexxna",
       "Mage-Lord Urom": "Señor de la Magia Urom",
       "Maiden of Grief": "Doncella de Pena",
-      "Main Hand": "Mano Derecha",
+      "Main Hand": "Mano derecha",
       "Main Hand/Off Hand": "Mano derecha/Mano izquierda",
       "Mal'Ganis": "Mal'Ganis",
       "Malygos": "Malygos",
@@ -2109,7 +2111,9 @@
       "Head/Legs": "Cabeza/Piernas",
       "Lower Blackrock Spire/Scholomance": "Cumbre de Roca Negra Inferior/Scholomance",
       "Off Hand/Ranged/Relic": "Mano izquierda/A distancia/Reliquia",
-      "Scholomance/Stratholme": "Scholomance/Stratholme"
+      "Scholomance/Stratholme": "Scholomance/Stratholme",
+      "DPS": "DPS",
+      "Dps": "DPS"
     },
     "deDE": {
       "# Best for:": "# Beste für",
@@ -2426,7 +2430,7 @@
       "Icecrown Citadel": "Die Eiskronenzitadelle",
       "Idol": "Götze",
       "Libram": "Buchband",
-      "Ranged": "Distanzkampf",
+      "Ranged": "Distanz",
       "Relic": "Relikt",
       "Shield": "Schild",
       "The Ruby Sanctum": "Das Rubinsanktum",
@@ -3231,7 +3235,9 @@
       "Head/Legs": "Kopf/Beine",
       "Lower Blackrock Spire/Scholomance": "Untere Schwarzfelsspitze/Scholomance",
       "Off Hand/Ranged/Relic": "Schildhand/Distanzkampf/Relikt",
-      "Scholomance/Stratholme": "Scholomance/Stratholme"
+      "Scholomance/Stratholme": "Scholomance/Stratholme",
+      "DPS": "SPS",
+      "Dps": "SPS"
     },
     "frFR": {
       "# Best for:": "# Meilleur pour",
@@ -4279,7 +4285,7 @@
       "High Priestess Mar'li": "Grande prêtresse Mar'li",
       "Lethtendris's Web": "Le filet de Lethtendris",
       "Zandalar Tribe": "Tribu Zandalar",
-      "Ranged": "Distance",
+      "Ranged": "À distance",
       "Furen's Armor": "L'armure de Furen",
       "Chest/Feet": "Torse/Pieds",
       "Chest/Hands/Feet": "Torse/Mains/Pieds",
@@ -4288,7 +4294,9 @@
       "Head/Legs": "Tête/Jambes",
       "Lower Blackrock Spire/Scholomance": "Pic Blackrock Inférieur/Scholomance",
       "Off Hand/Ranged/Relic": "Main gauche/Distance/Relique",
-      "Scholomance/Stratholme": "Scholomance/Stratholme"
+      "Scholomance/Stratholme": "Scholomance/Stratholme",
+      "DPS": "DPS",
+      "Dps": "DPS"
     },
     "ruRU": {
       "# Best for:": "# Лучшее для",
@@ -5331,7 +5339,7 @@
       "High Priestess Mar'li": "Верховная жрица Мар'ли",
       "Lethtendris's Web": "Сеть Лефтендрис",
       "Zandalar Tribe": "Племя Зандалари",
-      "Ranged": "Дальний бой",
+      "Ranged": "Для оружия дальнего боя",
       "Furen's Armor": "Доспехи Фьюрена",
       "Grimand's Armor": "Доспехи Гриманда",
       "Chest/Feet": "Грудь/Ступни",
@@ -5341,7 +5349,9 @@
       "Head/Legs": "Голова/Ноги",
       "Lower Blackrock Spire/Scholomance": "Нижняя часть вершины Черной Горы/Некроситет",
       "Off Hand/Ranged/Relic": "Левая рука/Дальний бой/Реликвия",
-      "Scholomance/Stratholme": "Некроситет/Стратхольм"
+      "Scholomance/Stratholme": "Некроситет/Стратхольм",
+      "DPS": "Урон в сек",
+      "Dps": "Урон в сек"
     },
     "zhCN": {
       "# Best for:": "# 最适合",
@@ -6393,7 +6403,9 @@
       "Head/Legs": "头部/腿部",
       "Lower Blackrock Spire/Scholomance": "黑石塔下层/通灵学院",
       "Off Hand/Ranged/Relic": "副手/远程/圣物",
-      "Scholomance/Stratholme": "通灵学院/斯坦索姆"
+      "Scholomance/Stratholme": "通灵学院/斯坦索姆",
+      "DPS": "每秒伤害",
+      "Dps": "每秒伤害"
     },
     "koKR": {
       "# Best for:": "# BIS 직업:",
@@ -6762,7 +6774,7 @@
       "Judgement at the Eye of Eternity": "영원의 눈에서의 심판 (10인)",
       "Libram": "성서",
       "Naxxramas": "낙스라마스",
-      "Ranged": "원거리",
+      "Ranged": "원거리 장비",
       "Relic": "성물",
       "Shield": "방패",
       "Show Custom": "커스텀 보이기",
@@ -7537,7 +7549,9 @@
       "Head/Legs": "머리/다리",
       "Lower Blackrock Spire/Scholomance": "검은바위 첨탑 (하층)/스칼로맨스",
       "Off Hand/Ranged/Relic": "보조장비/원거리/성물",
-      "Scholomance/Stratholme": "스칼로맨스/스트라솔름"
+      "Scholomance/Stratholme": "스칼로맨스/스트라솔름",
+      "DPS": "초당 공격력",
+      "Dps": "초당 공격력"
     },
     "zhTW": {
       "# Best for:": "# 最适合",
@@ -8586,7 +8600,9 @@
       "Head/Legs": "頭部/腿部",
       "Lower Blackrock Spire/Scholomance": "黑石塔下層/通靈學院",
       "Off Hand/Ranged/Relic": "副手/遠程/聖物",
-      "Scholomance/Stratholme": "通靈學院/斯坦索姆"
+      "Scholomance/Stratholme": "通靈學院/斯坦索姆",
+      "DPS": "每秒傷害",
+      "Dps": "每秒傷害"
     }
   }
 }

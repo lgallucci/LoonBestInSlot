@@ -250,7 +250,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Divino-matic Rod"] = "자동 탐사막대";
   LBIS.L["Doctor Theolen Krastinov"] = "학자 테올린 크라스티노브";
   LBIS.L["Doling Justice"] = "정의의 실현";
---  LBIS.L["Dps"] = "";
+  LBIS.L["DPS"] = "초당 공격력";
 --  LBIS.L["Dragonmaw Centurion"] = "";
   LBIS.L["Dragons of Nightmare"] = "악몽의 용";
 --  LBIS.L["Drakes"] = "";

@@ -250,7 +250,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Divino-matic Rod"] = "Изыскательский жезл";
   LBIS.L["Doctor Theolen Krastinov"] = "Доктор Теолен Крастинов";
   LBIS.L["Doling Justice"] = "Небольшое возмездие";
---  LBIS.L["Dps"] = "";
+  LBIS.L["DPS"] = "Урон в сек";
 --  LBIS.L["Dragonmaw Centurion"] = "";
   LBIS.L["Dragons of Nightmare"] = "Драконы Кошмара";
 --  LBIS.L["Drakes"] = "";
