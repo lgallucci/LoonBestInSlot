@@ -973,8 +973,8 @@ local function LoadData()
     LBIS:AddItem(spec8, "242310", LBIS.L["Trinket"], "BIS") --Hand of Reborn Justice
     LBIS:AddItem(spec8, "241038", LBIS.L["Trinket"], "BIS") --Sir Dornel's Didgeridoo
     LBIS:AddItem(spec8, "241037", LBIS.L["Trinket"], "BIS") --Abandoned Experiment
+    LBIS:AddItem(spec8, "241241", LBIS.L["Trinket"], "BIS") --Lucky Doubloon
     LBIS:AddItem(spec8, "242314", LBIS.L["Trinket"], "Alt") --Cinders of the Fallen Crusade
-    LBIS:AddItem(spec8, "241241", LBIS.L["Trinket"], "Alt") --Lucky Doubloon
     LBIS:AddItem(spec8, "233990", LBIS.L["Trinket"], "Alt") --Speedstone
     LBIS:AddItem(spec8, "236268", LBIS.L["Trinket"], "Alt") --Kiss of the Spider
     LBIS:AddItem(spec8, "236302", LBIS.L["Trinket"], "Alt") --Eye of Diminution

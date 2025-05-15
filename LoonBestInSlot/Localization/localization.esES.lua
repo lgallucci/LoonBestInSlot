@@ -549,7 +549,7 @@ if GetLocale() == "esES" then
   LBIS.L["Magmus"] = "Magmus";
 --  LBIS.L["Mai'zin - Stranglethorn Vale"] = "";
 --  LBIS.L["Main City"] = "";
-  LBIS.L["Main Hand"] = "Mano Derecha";
+  LBIS.L["Main Hand"] = "Mano derecha";
   LBIS.L["Main Hand/Off Hand"] = "Mano derecha/Mano izquierda";
   LBIS.L["Majordomo Executus"] = "Mayordomo Executus";
   LBIS.L["Maleki the Pallid"] = "Maleki el Pálido";

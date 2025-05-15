@@ -538,7 +538,7 @@ local function LoadData()
     LBIS:AddItem(spec8, "233421", LBIS.L["Off Hand"], "Alt") --Scythe of the Unseen Path
     LBIS:AddItem(spec8, "230934", LBIS.L["Off Hand"], "Alt") --Arlokk's Grasp
     LBIS:AddItem(spec8, "239301", LBIS.L["Two Hand"], "BIS") --Corrupted Ashbringer
-    LBIS:AddItem(spec8, "238961", LBIS.L["Two Hand"], "Alt") --Caladbolg
+    LBIS:AddItem(spec8, "236317", LBIS.L["Two Hand"], "Alt") --Vis'era the Gutrender
     LBIS:AddItem(spec8, "237512", LBIS.L["Two Hand"], "Alt") --Blade of Inquisition
     LBIS:AddItem(spec8, "233640", LBIS.L["Two Hand"], "Alt") --Dark Edge of Insanity
     LBIS:AddItem(spec8, "230818", LBIS.L["Two Hand"], "Alt") --Ashkandi, Greatsword of the Brotherhood
