@@ -1,13 +1,13 @@
 local function LoadData()
-    local spec0 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["DPS"], "0")
-    local spec1 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["DPS"], "1")
-    local spec2 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["DPS"], "2")
-    local spec3 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["DPS"], "3")
-    local spec4 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["DPS"], "4")
-    local spec5 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["DPS"], "5")
-    local spec6 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["DPS"], "6")
-    local spec7 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["DPS"], "7")
-    local spec8 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["DPS"], "8")
+    local spec0 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Dps"], "0")
+    local spec1 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Dps"], "1")
+    local spec2 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Dps"], "2")
+    local spec3 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Dps"], "3")
+    local spec4 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Dps"], "4")
+    local spec5 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Dps"], "5")
+    local spec6 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Dps"], "6")
+    local spec7 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Dps"], "7")
+    local spec8 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Dps"], "8")
 
     LBIS:AddEnchant(spec4, "22844", LBIS.L["Head/Legs"]) --
     LBIS:AddEnchant(spec4, "22599", LBIS.L["Shoulder"]) --

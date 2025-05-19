@@ -747,7 +747,7 @@ local function LoadData()
     LBIS:AddItem(spec8, "228242", LBIS.L["Ring"], "Alt") --Heavy Dark Iron Ring
     LBIS:AddItem(spec8, "236337", LBIS.L["Trinket"], "BIS") --Glyph of Deflection
     LBIS:AddItem(spec8, "242314", LBIS.L["Trinket"], "BIS Thrt") --Cinders of the Fallen Crusade
-    LBIS:AddItem(spec8, "241034", LBIS.L["Trinket"], "BIS Mit") --Heart of Light
+    LBIS:AddItem(spec8, "241034", LBIS.L["Trinket"], "BIS Stam") --Heart of Light
     LBIS:AddItem(spec8, "230736", LBIS.L["Trinket"], "BIS") --Styleen's Impeding Scarab
     LBIS:AddItem(spec8, "233992", LBIS.L["Trinket"], "Alt Stam") --Lodestone of Retaliation
     LBIS:AddItem(spec8, "242310", LBIS.L["Trinket"], "Alt") --Hand of Reborn Justice
