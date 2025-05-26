@@ -106,6 +106,7 @@ LBIS.EnchantSources =
     [24161] = { Name = "Death's Embrace", DesignId = "19784", ScrollId = "0", Source = LBIS.L["Death's Embrace"], SourceLocation = LBIS.L["Zul'Gurub"], TextureId = "19784" },
     [24162] = { Name = "Falcon's Call", DesignId = "19785", ScrollId = "0", Source = LBIS.L["Falcon's Call"], SourceLocation = LBIS.L["Zul'Gurub"], TextureId = "19785" },
     [24163] = { Name = "Vodouisant's Vigilant Embrace", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Vodouisant's Vigilant Embrace"], SourceLocation = LBIS.L["Zul'Gurub"], TextureId = "19786" },
+    [24164] = { Name = "Presence of Sight", DesignId = "19787", ScrollId = "0", Source = LBIS.L["Presence of Sight"], SourceLocation = LBIS.L["Zul'Gurub"], TextureId = "" },
     [24165] = { Name = "Hoodoo Hex", DesignId = "19788", ScrollId = "0", Source = LBIS.L["Hoodoo Hex"], SourceLocation = LBIS.L["Zul'Gurub"], TextureId = "19788" },
     [24167] = { Name = "Prophetic Aura", DesignId = "19789", ScrollId = "0", Source = LBIS.L["Prophetic Aura"], SourceLocation = LBIS.L["Zul'Gurub"], TextureId = "19789" },
     [24168] = { Name = "Animist's Caress", DesignId = "19790", ScrollId = "0", Source = LBIS.L["Animist's Caress"], SourceLocation = LBIS.L["Zul'Gurub"], TextureId = "19790" },

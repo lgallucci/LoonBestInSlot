@@ -749,6 +749,7 @@ local function LoadData()
     LBIS:AddItem(spec8, "242314", LBIS.L["Trinket"], "BIS Thrt") --Cinders of the Fallen Crusade
     LBIS:AddItem(spec8, "241034", LBIS.L["Trinket"], "BIS Stam") --Heart of Light
     LBIS:AddItem(spec8, "230736", LBIS.L["Trinket"], "BIS") --Styleen's Impeding Scarab
+    LBIS:AddItem(spec8, "242793", LBIS.L["Trinket"], "Alt Thrt") --Portable Cannon
     LBIS:AddItem(spec8, "233992", LBIS.L["Trinket"], "Alt Stam") --Lodestone of Retaliation
     LBIS:AddItem(spec8, "242310", LBIS.L["Trinket"], "Alt") --Hand of Reborn Justice
     LBIS:AddItem(spec8, "233990", LBIS.L["Trinket"], "Alt") --Speedstone

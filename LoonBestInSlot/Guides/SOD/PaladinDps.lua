@@ -974,10 +974,11 @@ local function LoadData()
     LBIS:AddItem(spec8, "241038", LBIS.L["Trinket"], "BIS") --Sir Dornel's Didgeridoo
     LBIS:AddItem(spec8, "241037", LBIS.L["Trinket"], "BIS") --Abandoned Experiment
     LBIS:AddItem(spec8, "241241", LBIS.L["Trinket"], "BIS") --Lucky Doubloon
+    LBIS:AddItem(spec8, "233580", LBIS.L["Trinket"], "BIS") --Badge of the Swarmguard
     LBIS:AddItem(spec8, "242314", LBIS.L["Trinket"], "Alt") --Cinders of the Fallen Crusade
     LBIS:AddItem(spec8, "233990", LBIS.L["Trinket"], "Alt") --Speedstone
-    LBIS:AddItem(spec8, "236268", LBIS.L["Trinket"], "Alt") --Kiss of the Spider
     LBIS:AddItem(spec8, "236302", LBIS.L["Trinket"], "Alt") --Eye of Diminution
+    LBIS:AddItem(spec8, "236268", LBIS.L["Trinket"], "Alt") --Kiss of the Spider
     LBIS:AddItem(spec8, "230272", LBIS.L["Trinket"], "Alt") --Scrolls of Blinding Light
     LBIS:AddItem(spec8, "236334", LBIS.L["Trinket"], "Alt") --Slayer's Crest
     LBIS:AddItem(spec8, "233627", LBIS.L["Trinket"], "Alt") --Jom Gabbar
@@ -986,12 +987,12 @@ local function LoadData()
     LBIS:AddItem(spec8, "228078", LBIS.L["Trinket"], "Alt") --Accursed Chalice
     LBIS:AddItem(spec8, "239301", LBIS.L["Two Hand"], "BIS") --Corrupted Ashbringer
     LBIS:AddItem(spec8, "240920", LBIS.L["Two Hand"], "BIS") --Leogan
-    LBIS:AddItem(spec8, "237512", LBIS.L["Two Hand"], "Alt") --Blade of Inquisition
     LBIS:AddItem(spec8, "236299", LBIS.L["Two Hand"], "Alt") --Claymore of Unholy Might
-    LBIS:AddItem(spec8, "229749", LBIS.L["Two Hand"], "Alt") --Truthbearer
+    LBIS:AddItem(spec8, "237512", LBIS.L["Two Hand"], "Alt") --Blade of Inquisition
     LBIS:AddItem(spec8, "240919", LBIS.L["Two Hand"], "Alt") --Ravagane
-    LBIS:AddItem(spec8, "238961", LBIS.L["Two Hand"], "Alt") --Caladbolg
+    LBIS:AddItem(spec8, "229749", LBIS.L["Two Hand"], "Alt") --Truthbearer
     LBIS:AddItem(spec8, "234981", LBIS.L["Two Hand"], "Alt") --Kalimdor's Revenge
+    LBIS:AddItem(spec8, "238961", LBIS.L["Two Hand"], "Alt") --Caladbolg
     LBIS:AddItem(spec8, "236317", LBIS.L["Two Hand"], "Alt") --Vis'era the Gutrender
     LBIS:AddItem(spec8, "233490", LBIS.L["Two Hand"], "Alt") --Obsidian Champion
     LBIS:AddItem(spec8, "236340", LBIS.L["Two Hand"], "Alt") --Might of Menethil
