@@ -4,7 +4,7 @@ internal class SODPaladinDpsMapping : SODSpecMapping
 {
     public override string UrlBase => "https://www.wowhead.com/classic/guide/season-of-discovery/classes/paladin/";
     public override string Class => "Paladin";
-    public override string Spec => "Dps";
+    public override string Spec => "DPS";
 
     public override string PreRaidUrl => "dps-pre-raid-bis-gear-pve";
     public override List<(string, GuideMapping)> Phase0 => new List<(string, GuideMapping)>

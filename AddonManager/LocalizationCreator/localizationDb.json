@@ -1070,7 +1070,7 @@
       "Off Hand/Ranged/Relic": "Mano izquierda/A distancia/Reliquia",
       "Scholomance/Stratholme": "Scholomance/Stratholme",
       "DPS": "DPS",
-      "Dps": "DPS"
+      "DPS": "DPS"
     },
     "esMX": {
       "# Best for:": "# Mejor para",
@@ -2113,7 +2113,7 @@
       "Off Hand/Ranged/Relic": "Mano izquierda/A distancia/Reliquia",
       "Scholomance/Stratholme": "Scholomance/Stratholme",
       "DPS": "DPS",
-      "Dps": "DPS"
+      "DPS": "DPS"
     },
     "deDE": {
       "# Best for:": "# Beste für",
@@ -3237,7 +3237,7 @@
       "Off Hand/Ranged/Relic": "Schildhand/Distanzkampf/Relikt",
       "Scholomance/Stratholme": "Scholomance/Stratholme",
       "DPS": "SPS",
-      "Dps": "SPS"
+      "DPS": "SPS"
     },
     "frFR": {
       "# Best for:": "# Meilleur pour",
@@ -4296,7 +4296,7 @@
       "Off Hand/Ranged/Relic": "Main gauche/Distance/Relique",
       "Scholomance/Stratholme": "Scholomance/Stratholme",
       "DPS": "DPS",
-      "Dps": "DPS"
+      "DPS": "DPS"
     },
     "ruRU": {
       "# Best for:": "# Лучшее для",
@@ -5351,7 +5351,7 @@
       "Off Hand/Ranged/Relic": "Левая рука/Дальний бой/Реликвия",
       "Scholomance/Stratholme": "Некроситет/Стратхольм",
       "DPS": "Урон в сек",
-      "Dps": "Урон в сек"
+      "DPS": "Урон в сек"
     },
     "zhCN": {
       "# Best for:": "# 最适合",
@@ -6405,7 +6405,7 @@
       "Off Hand/Ranged/Relic": "副手/远程/圣物",
       "Scholomance/Stratholme": "通灵学院/斯坦索姆",
       "DPS": "每秒伤害",
-      "Dps": "每秒伤害"
+      "DPS": "每秒伤害"
     },
     "koKR": {
       "# Best for:": "# BIS 직업:",
@@ -7551,7 +7551,7 @@
       "Off Hand/Ranged/Relic": "보조장비/원거리/성물",
       "Scholomance/Stratholme": "스칼로맨스/스트라솔름",
       "DPS": "초당 공격력",
-      "Dps": "초당 공격력"
+      "DPS": "초당 공격력"
     },
     "zhTW": {
       "# Best for:": "# 最适合",
@@ -8602,7 +8602,7 @@
       "Off Hand/Ranged/Relic": "副手/遠程/聖物",
       "Scholomance/Stratholme": "通靈學院/斯坦索姆",
       "DPS": "每秒傷害",
-      "Dps": "每秒傷害"
+      "DPS": "每秒傷害"
     }
   }
 }

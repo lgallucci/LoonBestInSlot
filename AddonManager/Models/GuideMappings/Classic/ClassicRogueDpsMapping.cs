@@ -8,7 +8,7 @@ namespace AddonManager.Models.GuideMappings.Classic;
 internal class ClassicRogueDpsMapping : ClassicSpecMapping
 {
     public override string Class => "Rogue";
-    public override string Spec => "Dps";
+    public override string Spec => "DPS";
 
     public override string Phase1Url => "wow-classic-rogue-dps-molten-core-best-in-slot-gear";
     public override List<(string, GuideMapping)> Phase1 => new List<(string, GuideMapping)>
