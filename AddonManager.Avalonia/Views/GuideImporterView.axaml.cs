@@ -27,15 +27,14 @@ public partial class GuideImporterView : UserControl
     {
         ConsoleOut.Text = string.Empty;
         _importCancelToken = new CancellationTokenSource();
-        var mappingType = cmbPhase.SelectedValue.ToString();
 
         var spec = cmbSpec.SelectedValue.ToString();
 
-        var specMapping = GetClassMappings().FirstOrDefault(gm => spec == $"{gm.ClassName}{gm.SpecName}" && gm.MappingType == mappingType);
+        var specMapping = GetClassMappings().FirstOrDefault(gm => spec == $"{gm.ClassName}{gm.SpecName}");
 
         if (specMapping == null)
         {
-            ConsoleOut.Text = $"ERROR! Can't find class / spec / phase: {spec}, {mappingType}";
+            ConsoleOut.Text = $"ERROR! Can't find class / spec / phase: {spec}";
             return;
         }
 
@@ -64,10 +63,9 @@ public partial class GuideImporterView : UserControl
     {
         ConsoleOut.Text = string.Empty;
         _importCancelToken = new CancellationTokenSource();
-        var mappingType = cmbPhase.SelectedValue.ToString();
 
         string result = string.Empty;
-        var specMappingList = GetClassMappings().Where(gm => gm.MappingType == mappingType);
+        var specMappingList = GetClassMappings();
         await WowheadImporter.ImportClasses(specMappingList, specMappingList.First().Phase, _importCancelToken.Token, (log) => ConsoleOut.Text += log + Environment.NewLine);
     }
 

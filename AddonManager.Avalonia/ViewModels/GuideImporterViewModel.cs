@@ -6,8 +6,6 @@ using System.Reflection.Metadata.Ecma335;
 using System.Windows.Input;
 using Avalonia.Controls;
 using Avalonia.Interactivity;
-using System.Collections.ObjectModel;
-using System.Windows.Input;
 
 namespace AddonManager.Avalonia.ViewModels;
 

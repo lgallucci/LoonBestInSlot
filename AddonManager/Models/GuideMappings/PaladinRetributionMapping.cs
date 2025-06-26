@@ -4,28 +4,8 @@ namespace AddonManager.Models.GuideMappings;
 
 internal class PaladinRetributionMapping : SpecMapping
 {
-    public override string UrlBase => "paladin/retribution/";
     public override string Class => "Paladin";
     public override string Spec => "Retribution";
-
-    public override string Phase0Url => "dps-bis-gear-pre-raid";
-    public override List<(string, GuideMapping)> Phase0 => new List<(string, GuideMapping)>
-        {
-            { ("Head", "#head-for-retribution-paladin-dps") },
-            { ("Shoulder", "#shoulders-for-retribution-paladin-dps") },
-            { ("Back", "#back-for-retribution-paladin-dps") },
-            { ("Chest", "#chest-for-retribution-paladin-dps") },
-            { ("Wrist", "#wrist-for-retribution-paladin-dps") },
-            { ("Hands", "#gloves-for-retribution-paladin-dps") },
-            { ("Waist", "#waist-for-retribution-paladin-dps") },
-            { ("Legs", "#legs-for-retribution-paladin-dps") },
-            { ("Feet", "#boots-for-retribution-paladin-dps") },
-            { ("Neck", "#neck-for-retribution-paladin-dps") },
-            { ("Ring", "#rings-for-retribution-paladin-dps") },
-            { ("Trinket", "#trinkets-for-retribution-paladin-dps") },
-            { ("Two Hand", "#two-handed-weapons-for-retribution-paladin-dps") },
-            { ("Ranged/Relic", "#librams-for-retribution-paladin-dps") }
-        };
 
     public override string CurrentPhaseUrl => "dps-bis-gear-pve";
     public override List<(string, GuideMapping)> CurrentPhase => new List<(string, GuideMapping)>

@@ -179,6 +179,8 @@ public class WowheadGuideParser
         "p3",
         "phase 4",
         "p4",
+        "phase 5",
+        "p5",
         "alt",
         "10-man",
         "10 man",
@@ -259,7 +261,7 @@ public (Dictionary<int, GemSpec>, Dictionary<int, EnchantSpec>, Dictionary<int, 
         var enchants = new Dictionary<int, EnchantSpec>();
         var gems = new Dictionary<int, GemSpec>();
 
-        bool enchantsAndGems = int.Parse(classGuide.Phase.Replace("Phase", "")) == Constants.CurrentPhase;
+        bool enchantsAndGems = classGuide.Phase == Constants.CurrentPhase;
 
         LoopThroughEnchantsAndGems(doc, (enchantAnchor, slot) => {
                 ParseEnchant(enchantAnchor, slot, enchants);
@@ -286,7 +288,7 @@ public (Dictionary<int, GemSpec>, Dictionary<int, EnchantSpec>, Dictionary<int, 
                     if (isTierList)
                         rankText = tableRow?.ChildNodes[1].TextContent.Trim() ?? string.Empty;
                     htmlBisText = tableRow?.ChildNodes[0].TextContent.Trim() ?? string.Empty;
-                    var bisStatus = GetBisStatus(htmlBisText, rankText, isTierList, first, classGuide.Phase);
+                    var bisStatus = GetBisStatus(htmlBisText, rankText, isTierList, first);
                     if (itemChild != null)
                     {
                         ParseItemCell(itemChild, bisStatus, GetSlot(slot, htmlBisText, itemChild), items, itemOrderIndex);
@@ -314,7 +316,7 @@ public (Dictionary<int, GemSpec>, Dictionary<int, EnchantSpec>, Dictionary<int, 
                 Common.RecursiveBoxSearch(enchantDiv, (child) => {
                     var enchantAnchor = (IHtmlAnchorElement)child;
                     if (enchantAnchor.PathName.Contains("cata/"))
-                        return foundEnchant(enchantAnchor, GetSlotFromId(slotId.Value));
+                        return foundEnchant(enchantAnchor, GetSlotFromId(slotId?.Value));
                     return false;
                 });
             
@@ -323,13 +325,13 @@ public (Dictionary<int, GemSpec>, Dictionary<int, EnchantSpec>, Dictionary<int, 
                 Common.RecursiveBoxSearch(gemDiv, (child) => {
                     var gemAnchor = (IHtmlAnchorElement)child;
                     if (gemAnchor.PathName.Contains("cata/"))
-                        return foundGem(gemAnchor, GetSlotFromId(slotId.Value));
+                        return foundGem(gemAnchor, GetSlotFromId(slotId?.Value));
                     return false;
                 });
         }
     }
 
-    private string GetSlotFromId(string value)
+    private string GetSlotFromId(string? value)
     {
         switch(value)
         {
@@ -470,7 +472,7 @@ public (Dictionary<int, GemSpec>, Dictionary<int, EnchantSpec>, Dictionary<int, 
         return slot;
     }
 
-    private string GetBisStatus(string htmlBisText, string rankText, bool isTierList, bool first, string phase)
+    private string GetBisStatus(string htmlBisText, string rankText, bool isTierList, bool first)
     {
 
         var bisText = string.Empty;
@@ -484,15 +486,6 @@ public (Dictionary<int, GemSpec>, Dictionary<int, EnchantSpec>, Dictionary<int, 
         {
             if (_altTextSwaps.Any((s) =>
             {
-                if (phase == "Phase1" && (s.ToLower() == "phase 1" || s.ToLower() == "p1"))
-                    return false;
-                if (phase == "Phase2" && (s.ToLower() == "phase 2" || s.ToLower() == "p2"))
-                    return false;
-                else if (phase == "Phase3" && (s.ToLower() == "phase 3" || s.ToLower() == "p3"))
-                    return false;
-                else if (phase == "Phase4" && (s.ToLower() == "phase 4" || s.ToLower() == "p4"))
-                    return false;
-
                 return htmlBisText?.ToLower().Contains(s) ?? false;
             }))
             {

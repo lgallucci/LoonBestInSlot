@@ -168,30 +168,14 @@ public static class WowheadImporter
         return verificationSucceeded;
     }
 
-    public static async Task ImportClasses(string[] specList, int phaseNumber, CancellationToken cancelToken, Action<string> logFunc)
+    public static async Task ImportClasses(IEnumerable<ClassGuideMapping> specList, int phaseNumber, CancellationToken cancelToken, Action<string> logFunc)
     {
         var addresses = new List<string>();
         var addressToSpec = new Dictionary<string, ClassGuideMapping>();
-        string phaseString = string.Empty;
-        foreach (string spec in specList)
+        foreach (var specMapping in specList)
         {
-            if (phaseNumber == 99)
-                phaseString = "PrePatch";
-            else
-                phaseString = $"Phase{phaseNumber}";
-
-            var specMapping = new ClassSpecGuideMappings().GuideMappings.FirstOrDefault(gm => spec == $"{gm.ClassName.Replace(" ", "")}{gm.SpecName.Replace(" ", "")}" && gm.Phase == phaseString);
-
-            if (specMapping == null)
-            {
-                logFunc($"{spec} Failed! - Can't find Spec!");
-                continue;
-            } 
-            else
-            {
-                addresses.Add(specMapping.WebAddress);
-                addressToSpec.Add(specMapping.WebAddress, specMapping);
-            }
+            addresses.Add(specMapping.WebAddress);
+            addressToSpec.Add(specMapping.WebAddress, specMapping);
         }
 
         await Common.LoadFromWebPages(addresses, async (address, doc) =>

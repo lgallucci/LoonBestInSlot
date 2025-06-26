@@ -20,9 +20,8 @@
         <ScrollViewer Margin="0,50,0,0" BorderBrush="Gray" BorderThickness="1">
             <TextBox x:Name="ConsoleOut" TextWrapping="Wrap" />
         </ScrollViewer>
-        <ComboBox x:Name="cmbSpec" HorizontalAlignment="Left" Margin="284,9,0,0" VerticalAlignment="Top" Width="170" SelectedIndex="0" ItemsSource="{Binding SpecComboBoxItems}" />
-        <ComboBox x:Name="cmbPhase" HorizontalAlignment="Left" Margin="458,9,0,0" VerticalAlignment="Top" Width="145" SelectedIndex="0" ItemsSource="{Binding PhaseComboBoxItems}" />
-        <Button x:Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Margin="608,10,0,10" VerticalAlignment="Top" Click="CancelClick"/>
+        <ComboBox x:Name="cmbSpec" HorizontalAlignment="Left" Margin="160,9,0,0" VerticalAlignment="Top" Width="170" SelectedIndex="0" ItemsSource="{Binding SpecComboBoxItems}" />
+        <Button x:Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Margin="335,10,0,10" VerticalAlignment="Top" Click="CancelClick"/>
             
         <Button x:Name="btnLocalize" Content="Localize" Margin="10,10,120,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="LocalizeClick"/>
         <Button x:Name="btnRefreshItems" Content="RefreshItems" Margin="10,10,10,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="RefreshClick"/>

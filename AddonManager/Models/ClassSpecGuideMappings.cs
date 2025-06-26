@@ -3,29 +3,38 @@
 namespace AddonManager.Models;
 public class ClassGuideMapping
 {
-    public ClassGuideMapping(string webAddress, string specName, string className, string phase, List<(string, GuideMapping)> guideMappings)
+    public ClassGuideMapping(string webAddress, string specName, string className, int phase, List<(string, GuideMapping)> guideMappings)
     {
         WebAddress = webAddress;
         SpecName = specName;
         ClassName = className;
         Phase = phase;
+        
+        foreach (var mapping in guideMappings)
+        {
+            if (_mappings.ContainsKey(mapping.Item1))
+                _mappings[mapping.Item1] = new GuideMapping() { Enabled = false };
+        }
 
         foreach (var mapping in guideMappings)
         {
-            _mappings[mapping.Item1] = mapping.Item2;
-        }      
+            if (_mappings.ContainsKey(mapping.Item1) && _mappings[mapping.Item1].Enabled)
+                _mappings[mapping.Item1] = $"{_mappings[mapping.Item1].SlotHtmlId};{mapping.Item2.SlotHtmlId}";
+            else
+                _mappings[mapping.Item1] = mapping.Item2;
+        }   
     }
 
     public string WebAddress { get; set; }
     public string SpecName { get; set; }
     public string ClassName { get; set; }
-    public string Phase { get; set; }
+    public int Phase { get; set; }
 
-    public List<KeyValuePair<string, GuideMapping>> GuideMappings 
+    public IEnumerable<KeyValuePair<string, GuideMapping>> GuideMappings 
     { 
         get
         {
-            return _mappings.Where(m => m.Value.Enabled).ToList();
+            return _mappings.Where(m => m.Value.Enabled);
         }
     }
 
@@ -48,6 +57,11 @@ public class ClassGuideMapping
         { "Two Hand", new GuideMapping { Enabled = false } },
         { "Ranged/Relic", new GuideMapping { Enabled = false } },
     };
+
+    public override string ToString()
+    {
+        return ClassName+SpecName;
+    }
 }
 
 public class GuideMapping
