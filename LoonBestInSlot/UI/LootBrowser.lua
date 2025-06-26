@@ -342,27 +342,29 @@ local function createDropDowns(window)
     window.SourceDropDown:SetPoint("TOPLEFT", window, 450, -28);
 
     local function getZoneItems()
-        local items = { LBIS.L["All"], LBIS.L["Blackrock Caverns"], LBIS.L["The Deadmines"], LBIS.L["Grim Batol"], LBIS.L["Halls of Origination"], LBIS.L["Lost City of the Tol'vir"],
-            LBIS.L["Shadowfang Keep"], LBIS.L["The Stonecore"], LBIS.L["Throne of the Tides"], LBIS.L["Vortex Pinnacle"]}-- Phase 0
+        local items = { LBIS.L["Temple of the Jade Serpent"], LBIS.L["Stormstout Brewery"], LBIS.L["Mogu'shan Palace"], 
+        LBIS.L["Shado-Pan Monastery"], LBIS.L["Gate of the Setting Sun"], LBIS.L["Siege of Niuzao Temple"] }-- Phase 0
 
-        if LBIS.CurrentPhase >= 2 then
-            table.insert(items, LBIS.L["Zul'Aman"]);
-            table.insert(items, LBIS.L["Zul'Gurub"]);
-        end
 
         if LBIS.CurrentPhase >= 1 then            
-            table.insert(items, LBIS.L["Throne of the Four Winds"]);
-            table.insert(items, LBIS.L["Blackwing Descent"]);
-            table.insert(items, LBIS.L["The Bastion of Twilight"]);
-            table.insert(items, LBIS.L["Baradin Hold"]);
+            table.insert(items, LBIS.L["Mogu'shan Vaults"]);
+            table.insert(items, LBIS.L["Heart of Fear"]);
+            table.insert(items, LBIS.L["Terrace of Endless Spring"]);
+        end
+
+        if LBIS.CurrentPhase >= 2 then
         end
 
         if LBIS.CurrentPhase >= 3 then
-            table.insert(items, LBIS.L["Firelands"]);
+            table.insert(items, LBIS.L["Throne of Thunder"]);
         end
 
         if LBIS.CurrentPhase >= 4 then
-            table.insert(items, LBIS.L["Dragon Soul"]);
+            table.insert(items, LBIS.L[""]);
+        end
+
+        if LBIS.CurrentPhase >= 5 then
+            table.insert(items, LBIS.L["Siege of Orgrimmar"]);
         end
 
         return items;

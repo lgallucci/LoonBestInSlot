@@ -85,6 +85,9 @@ public class ClassSpecGuideMappings
         GuideMappings.AddRange(new MageArcaneMapping().ToList());
         GuideMappings.AddRange(new MageFireMapping().ToList());
         GuideMappings.AddRange(new MageFrostMapping().ToList());
+        GuideMappings.AddRange(new MonkBrewmaster().ToList());
+        GuideMappings.AddRange(new MonkMistweaver().ToList());
+        GuideMappings.AddRange(new MonkWindwalker().ToList());
         GuideMappings.AddRange(new PaladinHolyMapping().ToList());
         GuideMappings.AddRange(new PaladinProtectionMapping().ToList());
         GuideMappings.AddRange(new PaladinRetributionMapping().ToList());
