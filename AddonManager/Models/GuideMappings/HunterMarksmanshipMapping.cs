@@ -4,7 +4,7 @@ namespace AddonManager.Models.GuideMappings;
 
 internal class HunterMarksmanshipMapping : SpecMapping
 {
-    public override string UrlBase => "https://www.wowhead.com/mop-classic/guide/classes/hunter/marksmanship/";
+    public override string UrlBase => "hunter/marksmanship/";
     public override string Class => "Hunter";
     public override string Spec => "Marksmanship";
 

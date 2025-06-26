@@ -1,6 +1,5 @@
 ﻿using System.Net.Http;
 using System.Text.RegularExpressions;
-using System.Windows.Documents;
 using System.Xml.Serialization;
 using AddonManager.Models;
 using AngleSharp;

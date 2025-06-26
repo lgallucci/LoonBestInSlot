@@ -4,7 +4,7 @@ namespace AddonManager.Models.GuideMappings;
 
 internal class WarriorArmsMapping : SpecMapping
 {
-    public override string UrlBase => "https://www.wowhead.com/mop-classic/guide/classes/warrior/arms/";
+    public override string UrlBase => "warrior/arms/";
     public override string Class => "Warrior";
     public override string Spec => "Arms";
 

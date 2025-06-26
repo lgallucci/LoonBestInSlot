@@ -4,7 +4,7 @@ namespace AddonManager.Models.GuideMappings;
 
 internal class DruidBalanceMapping : SpecMapping
 {
-    public override string UrlBase => "https://www.wowhead.com/mop-classic/guide/classes/druid/balance/";
+    public override string UrlBase => "druid/balance/";
     public override string Class => "Druid";
     public override string Spec => "Balance";
 

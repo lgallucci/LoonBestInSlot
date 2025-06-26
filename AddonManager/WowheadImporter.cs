@@ -729,6 +729,38 @@ public static class WowheadImporter
         }
     }
 
+    public static void ImportNewItems()
+    {
+        var itemSources = ItemSourceFileManager.ReadItemSources();
+        var csvLootTable = new Dictionary<int, CsvLootTable>();
+
+        GetItems(csvLootTable, "DungeonItemList");
+        GetItems(csvLootTable, "RaidItemList");
+        GetItems(csvLootTable, "EmblemItemList");
+        GetItems(csvLootTable, "PvPItemList");
+        GetItems(csvLootTable, "ReputationItemList");
+        GetItems(csvLootTable, "ProfessionItemList");
+        
+        foreach (var csvItem in csvLootTable)
+        {
+            if (!itemSources.ContainsKey(csvItem.Key))
+            {
+                itemSources.Add(csvItem.Key, new ItemSource
+                {                    
+                    ItemId = csvItem.Value.ItemId,
+                    Name = csvItem.Value.Name,
+                    SourceType = string.Join("..\"~\"..", csvItem.Value.ItemSource.Select(s => AddLocalizeText(s.SourceType)).Distinct()),
+                    Source = string.Join("..\"~\"..", csvItem.Value.ItemSource.Select(s => AddLocalizeText(s.Source))),
+                    SourceNumber = string.Join("~", csvItem.Value.ItemSource.Select(s => s.SourceNumber)),
+                    SourceLocation = string.Join("..\"~\"..", csvItem.Value.ItemSource.Select(s => AddLocalizeText(s.SourceLocation))),
+                    SourceFaction = string.Join("..\"~\"..", csvItem.Value.ItemSource.First().SourceFaction)
+                });
+            }
+        }
+
+        ItemSourceFileManager.WriteItemSources(itemSources);
+    }
+
     private static void GetItems(Dictionary<int, CsvLootTable> csvLootTable, string fileName)
     {
         //Read file into dictionary

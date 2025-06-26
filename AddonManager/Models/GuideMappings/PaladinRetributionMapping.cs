@@ -4,7 +4,7 @@ namespace AddonManager.Models.GuideMappings;
 
 internal class PaladinRetributionMapping : SpecMapping
 {
-    public override string UrlBase => "https://www.wowhead.com/mop-classic/guide/classes/paladin/retribution/";
+    public override string UrlBase => "paladin/retribution/";
     public override string Class => "Paladin";
     public override string Spec => "Retribution";
 

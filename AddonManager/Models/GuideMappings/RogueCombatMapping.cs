@@ -4,7 +4,7 @@ namespace AddonManager.Models.GuideMappings;
 
 internal class RogueCombatMapping : SpecMapping
 {
-    public override string UrlBase => "https://www.wowhead.com/mop-classic/guide/classes/rogue/combat/";
+    public override string UrlBase => "rogue/combat/";
     public override string Class => "Rogue";
     public override string Spec => "Combat";
 

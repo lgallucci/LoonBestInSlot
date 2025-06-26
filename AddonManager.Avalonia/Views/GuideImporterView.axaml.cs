@@ -57,12 +57,7 @@ public partial class GuideImporterView : UserControl
     
     private IEnumerable<ClassGuideMapping> GetClassMappings()
     {
-        if (cmbVersions.SelectedItem == "SOD")
-        {
-            return new ClassSpecGuideMappings().SODGuideMappings;
-        }
-
-        return new ClassSpecGuideMappings().ClassicGuideMappings;
+        return new ClassSpecGuideMappings().GuideMappings;
     }
     
     private async void ImportAllClick(object sender, RoutedEventArgs e)

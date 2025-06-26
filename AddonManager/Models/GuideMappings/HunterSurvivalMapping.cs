@@ -4,7 +4,7 @@ namespace AddonManager.Models.GuideMappings;
 
 internal class HunterSurvivalMapping : SpecMapping
 {
-    public override string UrlBase => "https://www.wowhead.com/mop-classic/guide/classes/hunter/survival/";
+    public override string UrlBase => "hunter/survival/";
     public override string Class => "Hunter";
     public override string Spec => "Survival";
 

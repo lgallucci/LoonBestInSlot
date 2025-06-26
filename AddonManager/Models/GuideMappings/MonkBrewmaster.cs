@@ -4,7 +4,7 @@ namespace AddonManager.Models.GuideMappings;
 
 internal class MonkBrewmaster : SpecMapping
 {
-    public override string UrlBase => "https://www.wowhead.com/mop-classic/guide/classes/monk/brewmaster/";
+    public override string UrlBase => "monk/brewmaster/";
     public override string Class => "Monk";
     public override string Spec => "Brewmaster";
 

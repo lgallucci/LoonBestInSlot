@@ -4,7 +4,7 @@ namespace AddonManager.Models.GuideMappings;
 
 internal class MonkMistweaver : SpecMapping
 {
-    public override string UrlBase => "https://www.wowhead.com/mop-classic/guide/classes/monk/mistweaver/";
+    public override string UrlBase => "monk/mistweaver/";
     public override string Class => "Monk";
     public override string Spec => "Mistweaver";
 
