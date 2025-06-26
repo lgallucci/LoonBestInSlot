@@ -22,7 +22,7 @@ public partial class ItemImporterView : UserControl
 
     public async void ConvertClick(object sender, RoutedEventArgs args)
     {
-        var importerType = ((ComboBoxItem)cmbImporterType.SelectedValue).Content.ToString();
+        var importerType = ((ComboBoxItem?)cmbImporterType?.SelectedValue)?.Content?.ToString();
         lblStatus.Text = "Processing...";
         txtJsonToParse.Text = "";
         LootImporter importer;

@@ -162,7 +162,7 @@
     },
     "86047": {
       "Name": "Amulet of the Hidden Kings",
-      "Source": "The Spirit Kings",
+      "Source": "The Spirit Kings (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -170,7 +170,7 @@
     },
     "86071": {
       "Name": "Screaming Tiger, Qiang's Unbreakable Polearm",
-      "Source": "The Spirit Kings",
+      "Source": "The Spirit Kings (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -178,7 +178,7 @@
     },
     "86075": {
       "Name": "Steelskin, Qiang's Impervious Shield",
-      "Source": "The Spirit Kings",
+      "Source": "The Spirit Kings (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -186,7 +186,7 @@
     },
     "86076": {
       "Name": "Breastplate of the Kings' Guard",
-      "Source": "The Spirit Kings",
+      "Source": "The Spirit Kings (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -194,7 +194,7 @@
     },
     "86080": {
       "Name": "Shoulderguards of the Unflanked",
-      "Source": "The Spirit Kings",
+      "Source": "The Spirit Kings (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -202,7 +202,7 @@
     },
     "86081": {
       "Name": "Subetai's Pillaging Leggings",
-      "Source": "The Spirit Kings",
+      "Source": "The Spirit Kings (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -218,7 +218,7 @@
     },
     "86083": {
       "Name": "Zian's Choker of Coalesced Shadow",
-      "Source": "The Spirit Kings",
+      "Source": "The Spirit Kings (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -226,7 +226,7 @@
     },
     "86084": {
       "Name": "Meng's Treads of Insanity",
-      "Source": "The Spirit Kings",
+      "Source": "The Spirit Kings (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -234,7 +234,7 @@
     },
     "86086": {
       "Name": "Girdle of Delirious Visions",
-      "Source": "The Spirit Kings",
+      "Source": "The Spirit Kings (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -242,7 +242,7 @@
     },
     "86127": {
       "Name": "Bracers of Dark Thoughts",
-      "Source": "The Spirit Kings",
+      "Source": "The Spirit Kings (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -250,7 +250,7 @@
     },
     "86128": {
       "Name": "Undying Shadow Grips",
-      "Source": "The Spirit Kings",
+      "Source": "The Spirit Kings (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -258,7 +258,7 @@
     },
     "86129": {
       "Name": "Hood of Blind Eyes",
-      "Source": "The Spirit Kings",
+      "Source": "The Spirit Kings (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -266,7 +266,7 @@
     },
     "86130": {
       "Name": "Elegion, the Fanged Crescent",
-      "Source": "Elegon",
+      "Source": "Elegon (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -274,7 +274,7 @@
     },
     "86131": {
       "Name": "Vial of Dragon's Blood",
-      "Source": "Elegon",
+      "Source": "Elegon (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -282,7 +282,7 @@
     },
     "86132": {
       "Name": "Bottle of Infinite Stars",
-      "Source": "Elegon",
+      "Source": "Elegon (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -290,7 +290,7 @@
     },
     "86133": {
       "Name": "Light of the Cosmos",
-      "Source": "Elegon",
+      "Source": "Elegon (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -306,7 +306,7 @@
     },
     "86135": {
       "Name": "Starcrusher Gauntlets",
-      "Source": "Elegon",
+      "Source": "Elegon (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -314,7 +314,7 @@
     },
     "86136": {
       "Name": "Chestguard of Total Annihilation",
-      "Source": "Elegon",
+      "Source": "Elegon (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -322,7 +322,7 @@
     },
     "86137": {
       "Name": "Torch of the Celestial Spark",
-      "Source": "Elegon",
+      "Source": "Elegon (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -330,7 +330,7 @@
     },
     "86138": {
       "Name": "Phasewalker Striders",
-      "Source": "Elegon",
+      "Source": "Elegon (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -338,7 +338,7 @@
     },
     "86139": {
       "Name": "Orbital Belt",
-      "Source": "Elegon",
+      "Source": "Elegon (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -346,7 +346,7 @@
     },
     "86140": {
       "Name": "Starshatter",
-      "Source": "Elegon",
+      "Source": "Elegon (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -354,7 +354,7 @@
     },
     "86141": {
       "Name": "Shoulders of Empyreal Focus",
-      "Source": "Elegon",
+      "Source": "Elegon (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -362,7 +362,7 @@
     },
     "86153": {
       "Name": "Boots of the Still Breath",
-      "Source": "Imperial Vizier Zor'lok",
+      "Source": "Imperial Vizier Zor'lok (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -370,7 +370,7 @@
     },
     "86154": {
       "Name": "Hisek's Chrysanthemum Cape",
-      "Source": "Imperial Vizier Zor'lok",
+      "Source": "Imperial Vizier Zor'lok (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -378,7 +378,7 @@
     },
     "86155": {
       "Name": "Vizier's Ruby Signet",
-      "Source": "Imperial Vizier Zor'lok",
+      "Source": "Imperial Vizier Zor'lok (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -386,7 +386,7 @@
     },
     "86156": {
       "Name": "Fragment of Fear Made Flesh",
-      "Source": "Imperial Vizier Zor'lok",
+      "Source": "Imperial Vizier Zor'lok (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -394,7 +394,7 @@
     },
     "86157": {
       "Name": "Attenuating Bracers",
-      "Source": "Imperial Vizier Zor'lok",
+      "Source": "Imperial Vizier Zor'lok (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -402,7 +402,7 @@
     },
     "86158": {
       "Name": "Chestplate of the Forbidden Tower",
-      "Source": "Imperial Vizier Zor'lok",
+      "Source": "Imperial Vizier Zor'lok (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -410,7 +410,7 @@
     },
     "86159": {
       "Name": "Gauntlets of Undesired Gifts",
-      "Source": "Imperial Vizier Zor'lok",
+      "Source": "Imperial Vizier Zor'lok (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -418,7 +418,7 @@
     },
     "86160": {
       "Name": "Mail of Screaming Secrets",
-      "Source": "Imperial Vizier Zor'lok",
+      "Source": "Imperial Vizier Zor'lok (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -426,7 +426,7 @@
     },
     "86161": {
       "Name": "Gloves of Grasping Claws",
-      "Source": "Imperial Vizier Zor'lok",
+      "Source": "Imperial Vizier Zor'lok (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -434,7 +434,7 @@
     },
     "86162": {
       "Name": "Ring of the Bladed Tempest",
-      "Source": "Blade Lord Ta'yak",
+      "Source": "Blade Lord Ta'yak (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -442,7 +442,7 @@
     },
     "86163": {
       "Name": "Bracers of Unseen Strikes",
-      "Source": "Blade Lord Ta'yak",
+      "Source": "Blade Lord Ta'yak (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -450,7 +450,7 @@
     },
     "86164": {
       "Name": "Waistplate of Overwhelming Assault",
-      "Source": "Blade Lord Ta'yak",
+      "Source": "Blade Lord Ta'yak (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -458,7 +458,7 @@
     },
     "86165": {
       "Name": "Windblade Talons",
-      "Source": "Blade Lord Ta'yak",
+      "Source": "Blade Lord Ta'yak (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -466,7 +466,7 @@
     },
     "86166": {
       "Name": "Choker of the Unleashed Storm",
-      "Source": "Blade Lord Ta'yak",
+      "Source": "Blade Lord Ta'yak (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -474,7 +474,7 @@
     },
     "86167": {
       "Name": "Boots of the Blowing Wind",
-      "Source": "Blade Lord Ta'yak",
+      "Source": "Blade Lord Ta'yak (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -482,7 +482,7 @@
     },
     "86168": {
       "Name": "Bracers of Tempestuous Fury",
-      "Source": "Blade Lord Ta'yak",
+      "Source": "Blade Lord Ta'yak (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -490,7 +490,7 @@
     },
     "86169": {
       "Name": "Drape of Gathering Clouds",
-      "Source": "Blade Lord Ta'yak",
+      "Source": "Blade Lord Ta'yak (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -498,7 +498,7 @@
     },
     "86170": {
       "Name": "Twisting Wind Bracers",
-      "Source": "Blade Lord Ta'yak",
+      "Source": "Blade Lord Ta'yak (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -506,7 +506,7 @@
     },
     "86171": {
       "Name": "Tornado-Summoning Censer",
-      "Source": "Blade Lord Ta'yak",
+      "Source": "Blade Lord Ta'yak (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -514,7 +514,7 @@
     },
     "86200": {
       "Name": "Painful Thorned Ring",
-      "Source": "Wind Lord Mel'jarak",
+      "Source": "Wind Lord Mel'jarak (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -522,7 +522,7 @@
     },
     "86201": {
       "Name": "Impaling Treads",
-      "Source": "Wind Lord Mel'jarak",
+      "Source": "Wind Lord Mel'jarak (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -530,7 +530,7 @@
     },
     "86202": {
       "Name": "Cloak of Raining Blades",
-      "Source": "Wind Lord Mel'jarak",
+      "Source": "Wind Lord Mel'jarak (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -538,7 +538,7 @@
     },
     "86203": {
       "Name": "Articulated Legplates",
-      "Source": "Imperial Vizier Zor'lok",
+      "Source": "Imperial Vizier Zor'lok (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -546,7 +546,7 @@
     },
     "86204": {
       "Name": "Wingslasher Pauldrons",
-      "Source": "Wind Lord Mel'jarak",
+      "Source": "Wind Lord Mel'jarak (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -554,7 +554,7 @@
     },
     "86205": {
       "Name": "Korven's Amber-Sealed Beetle",
-      "Source": "Wind Lord Mel'jarak",
+      "Source": "Wind Lord Mel'jarak (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -562,7 +562,7 @@
     },
     "86210": {
       "Name": "Belt of Malleable Amber",
-      "Source": "Amber-Shaper Un'sok",
+      "Source": "Amber-Shaper Un'sok (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -570,7 +570,7 @@
     },
     "86211": {
       "Name": "Seal of the Profane",
-      "Source": "Amber-Shaper Un'sok",
+      "Source": "Amber-Shaper Un'sok (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -578,7 +578,7 @@
     },
     "86212": {
       "Name": "Treads of Deadly Secretions",
-      "Source": "Amber-Shaper Un'sok",
+      "Source": "Amber-Shaper Un'sok (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -586,7 +586,7 @@
     },
     "86213": {
       "Name": "Shoulderpads of Misshapen Life",
-      "Source": "Amber-Shaper Un'sok",
+      "Source": "Amber-Shaper Un'sok (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -594,7 +594,7 @@
     },
     "86214": {
       "Name": "Monstrous Stompers",
-      "Source": "Amber-Shaper Un'sok",
+      "Source": "Amber-Shaper Un'sok (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -602,7 +602,7 @@
     },
     "86217": {
       "Name": "Un'sok's Amber Scalpel",
-      "Source": "Amber-Shaper Un'sok",
+      "Source": "Amber-Shaper Un'sok (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -610,7 +610,7 @@
     },
     "86219": {
       "Name": "Scimitar of Seven Stars",
-      "Source": "Amber-Shaper Un'sok",
+      "Source": "Amber-Shaper Un'sok (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -618,7 +618,7 @@
     },
     "86226": {
       "Name": "Claws of Shek'zeer",
-      "Source": "Grand Empress Shek'zeer",
+      "Source": "Grand Empress Shek'zeer (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -626,7 +626,7 @@
     },
     "86227": {
       "Name": "Kri'tak, Imperial Scepter of the Swarm",
-      "Source": "Grand Empress Shek'zeer",
+      "Source": "Grand Empress Shek'zeer (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -634,7 +634,7 @@
     },
     "86228": {
       "Name": "Crown of the Doomed Empress",
-      "Source": "Grand Empress Shek'zeer",
+      "Source": "Grand Empress Shek'zeer (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -642,7 +642,7 @@
     },
     "86229": {
       "Name": "Leggings of Shadow Infestation",
-      "Source": "Grand Empress Shek'zeer",
+      "Source": "Grand Empress Shek'zeer (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -650,7 +650,7 @@
     },
     "86230": {
       "Name": "Bracers of Defiled Earth",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -658,7 +658,7 @@
     },
     "86231": {
       "Name": "Regail's Band of the Endless",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -666,7 +666,7 @@
     },
     "86232": {
       "Name": "Deepwater Greatboots",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -674,7 +674,7 @@
     },
     "86233": {
       "Name": "Shackle of Eversparks",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -682,7 +682,7 @@
     },
     "86234": {
       "Name": "Kaolan's Withering Necklace",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -690,7 +690,7 @@
     },
     "86315": {
       "Name": "Watersoul Signet",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -698,7 +698,7 @@
     },
     "86316": {
       "Name": "Cloak of Overwhelming Corruption",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -706,7 +706,7 @@
     },
     "86317": {
       "Name": "Cuffs of the Corrupted Waters",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -714,7 +714,7 @@
     },
     "86318": {
       "Name": "Casque of Expelled Corruption",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -722,7 +722,7 @@
     },
     "86319": {
       "Name": "Lightning Prisoner's Boots",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -730,7 +730,7 @@
     },
     "86320": {
       "Name": "Asani's Uncleansed Sandals",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -738,7 +738,7 @@
     },
     "86321": {
       "Name": "Gao-Rei, Staff of the Legendary Protector",
-      "Source": "Tsulong",
+      "Source": "Tsulong (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -746,7 +746,7 @@
     },
     "86322": {
       "Name": "Dread Shadow Ring",
-      "Source": "Tsulong",
+      "Source": "Tsulong (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -754,7 +754,7 @@
     },
     "86323": {
       "Name": "Stuff of Nightmares",
-      "Source": "Tsulong",
+      "Source": "Tsulong (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -762,7 +762,7 @@
     },
     "86324": {
       "Name": "Sunwrought Mail Hauberk",
-      "Source": "Tsulong",
+      "Source": "Tsulong (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -770,7 +770,7 @@
     },
     "86325": {
       "Name": "Daybreak Drape",
-      "Source": "Tsulong",
+      "Source": "Tsulong (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -778,7 +778,7 @@
     },
     "86326": {
       "Name": "Belt of Embodied Terror",
-      "Source": "Tsulong",
+      "Source": "Tsulong (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -786,7 +786,7 @@
     },
     "86327": {
       "Name": "Spirits of the Sun",
-      "Source": "Tsulong",
+      "Source": "Tsulong (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -794,7 +794,7 @@
     },
     "86328": {
       "Name": "Loshan, Terror Incarnate",
-      "Source": "Tsulong",
+      "Source": "Tsulong (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -802,7 +802,7 @@
     },
     "86329": {
       "Name": "Sollerets of Instability",
-      "Source": "Tsulong",
+      "Source": "Tsulong (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -810,7 +810,7 @@
     },
     "86330": {
       "Name": "Sandals of the Blackest Night",
-      "Source": "Tsulong",
+      "Source": "Tsulong (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -818,7 +818,7 @@
     },
     "86331": {
       "Name": "Taoren, the Soul Burner",
-      "Source": "Lei Shen",
+      "Source": "Lei Shen (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -826,7 +826,7 @@
     },
     "86332": {
       "Name": "Terror in the Mists",
-      "Source": "Lei Shen",
+      "Source": "Lei Shen (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -834,7 +834,7 @@
     },
     "86333": {
       "Name": "Cuirass of the Animated Protector",
-      "Source": "Lei Shen",
+      "Source": "Lei Shen (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -842,7 +842,7 @@
     },
     "86334": {
       "Name": "Robes of the Unknown Fear",
-      "Source": "Lei Shen",
+      "Source": "Lei Shen (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -850,7 +850,7 @@
     },
     "86335": {
       "Name": "Jin'ya, Orb of the Waterspeaker",
-      "Source": "Lei Shen",
+      "Source": "Lei Shen (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -858,7 +858,7 @@
     },
     "86336": {
       "Name": "Darkmist Vortex",
-      "Source": "Lei Shen",
+      "Source": "Lei Shen (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -866,7 +866,7 @@
     },
     "86337": {
       "Name": "Healer's Belt of Final Winter",
-      "Source": "Tsulong & Lei Shen",
+      "Source": "Tsulong (N) & Lei Shen (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -874,7 +874,7 @@
     },
     "86338": {
       "Name": "Invoker's Belt of Final Winter",
-      "Source": "Tsulong & Lei Shen",
+      "Source": "Tsulong (N) & Lei Shen (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -882,7 +882,7 @@
     },
     "86339": {
       "Name": "Sorcerer's Belt of Final Winter",
-      "Source": "Tsulong & Lei Shen",
+      "Source": "Tsulong (N) & Lei Shen (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -890,7 +890,7 @@
     },
     "86340": {
       "Name": "Weaver's Cord of Eternal Autumn",
-      "Source": "Tsulong & Lei Shen",
+      "Source": "Tsulong (N) & Lei Shen (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -898,7 +898,7 @@
     },
     "86341": {
       "Name": "Stalker's Cord of Eternal Autumn",
-      "Source": "Tsulong & Lei Shen",
+      "Source": "Tsulong (N) & Lei Shen (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -906,7 +906,7 @@
     },
     "86342": {
       "Name": "Binder's Chain of Unending Summer",
-      "Source": "Tsulong & Lei Shen",
+      "Source": "Tsulong (N) & Lei Shen (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -914,7 +914,7 @@
     },
     "86343": {
       "Name": "Ranger's Chain of Unending Summer",
-      "Source": "Tsulong & Lei Shen",
+      "Source": "Tsulong (N) & Lei Shen (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -922,7 +922,7 @@
     },
     "86383": {
       "Name": "Mender's Girdle of Endless Spring",
-      "Source": "Tsulong & Lei Shen",
+      "Source": "Tsulong (N) & Lei Shen (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -930,7 +930,7 @@
     },
     "86384": {
       "Name": "Protector's Girdle of Endless Spring",
-      "Source": "Tsulong & Lei Shen",
+      "Source": "Tsulong (N) & Lei Shen (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -938,7 +938,7 @@
     },
     "86385": {
       "Name": "Patroller's Girdle of Endless Spring",
-      "Source": "Tsulong & Lei Shen",
+      "Source": "Tsulong (N) & Lei Shen (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -946,7 +946,7 @@
     },
     "86386": {
       "Name": "Shin'ka, Execution of Dominion",
-      "Source": "Sha of Fear",
+      "Source": "Sha of Fear (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -954,7 +954,7 @@
     },
     "86387": {
       "Name": "Kilrak, Jaws of Terror",
-      "Source": "Sha of Fear",
+      "Source": "Sha of Fear (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -962,7 +962,7 @@
     },
     "86388": {
       "Name": "Essence of Terror",
-      "Source": "Sha of Fear",
+      "Source": "Sha of Fear (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -970,7 +970,7 @@
     },
     "86389": {
       "Name": "Dreadwoven Leggings of Failure",
-      "Source": "Sha of Fear",
+      "Source": "Sha of Fear (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -978,7 +978,7 @@
     },
     "86390": {
       "Name": "Regail's Crackling Dagger",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -986,7 +986,7 @@
     },
     "86391": {
       "Name": "Spiritsever",
-      "Source": "Lei Shen",
+      "Source": "Lei Shen (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -994,7 +994,7 @@
     },
     "86513": {
       "Name": "Robes of Torn Nightmares",
-      "Source": "Wind Lord Mel'jarak",
+      "Source": "Wind Lord Mel'jarak (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1002,7 +1002,7 @@
     },
     "86514": {
       "Name": "Clutches of Dying Hope",
-      "Source": "Wind Lord Mel'jarak",
+      "Source": "Wind Lord Mel'jarak (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1170,7 +1170,7 @@
     },
     "86776": {
       "Name": "Amulet of the Hidden Kings",
-      "Source": "The Spirit Kings",
+      "Source": "The Spirit Kings (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -1178,7 +1178,7 @@
     },
     "86777": {
       "Name": "Screaming Tiger, Qiang's Unbreakable Polearm",
-      "Source": "The Spirit Kings",
+      "Source": "The Spirit Kings (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -1186,7 +1186,7 @@
     },
     "86778": {
       "Name": "Steelskin, Qiang's Impervious Shield",
-      "Source": "The Spirit Kings",
+      "Source": "The Spirit Kings (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -1194,7 +1194,7 @@
     },
     "86779": {
       "Name": "Breastplate of the Kings' Guard",
-      "Source": "The Spirit Kings",
+      "Source": "The Spirit Kings (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -1202,7 +1202,7 @@
     },
     "86780": {
       "Name": "Shoulderguards of the Unflanked",
-      "Source": "The Spirit Kings",
+      "Source": "The Spirit Kings (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -1210,7 +1210,7 @@
     },
     "86781": {
       "Name": "Subetai's Pillaging Leggings",
-      "Source": "The Spirit Kings",
+      "Source": "The Spirit Kings (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -1226,7 +1226,7 @@
     },
     "86783": {
       "Name": "Zian's Choker of Coalesced Shadow",
-      "Source": "The Spirit Kings",
+      "Source": "The Spirit Kings (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -1234,7 +1234,7 @@
     },
     "86784": {
       "Name": "Meng's Treads of Insanity",
-      "Source": "The Spirit Kings",
+      "Source": "The Spirit Kings (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -1242,7 +1242,7 @@
     },
     "86785": {
       "Name": "Girdle of Delirious Visions",
-      "Source": "The Spirit Kings",
+      "Source": "The Spirit Kings (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -1250,7 +1250,7 @@
     },
     "86786": {
       "Name": "Bracers of Dark Thoughts",
-      "Source": "The Spirit Kings",
+      "Source": "The Spirit Kings (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -1258,7 +1258,7 @@
     },
     "86787": {
       "Name": "Undying Shadow Grips",
-      "Source": "The Spirit Kings",
+      "Source": "The Spirit Kings (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -1266,7 +1266,7 @@
     },
     "86788": {
       "Name": "Hood of Blind Eyes",
-      "Source": "The Spirit Kings",
+      "Source": "The Spirit Kings (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -1274,7 +1274,7 @@
     },
     "86789": {
       "Name": "Elegion, the Fanged Crescent",
-      "Source": "Elegon",
+      "Source": "Elegon (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -1282,7 +1282,7 @@
     },
     "86790": {
       "Name": "Vial of Dragon's Blood",
-      "Source": "Elegon",
+      "Source": "Elegon (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -1290,7 +1290,7 @@
     },
     "86791": {
       "Name": "Bottle of Infinite Stars",
-      "Source": "Elegon",
+      "Source": "Elegon (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -1298,7 +1298,7 @@
     },
     "86792": {
       "Name": "Light of the Cosmos",
-      "Source": "Elegon",
+      "Source": "Elegon (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -1314,7 +1314,7 @@
     },
     "86794": {
       "Name": "Starcrusher Gauntlets",
-      "Source": "Elegon",
+      "Source": "Elegon (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -1322,7 +1322,7 @@
     },
     "86795": {
       "Name": "Chestguard of Total Annihilation",
-      "Source": "Elegon",
+      "Source": "Elegon (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -1330,7 +1330,7 @@
     },
     "86796": {
       "Name": "Torch of the Celestial Spark",
-      "Source": "Elegon",
+      "Source": "Elegon (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -1338,7 +1338,7 @@
     },
     "86797": {
       "Name": "Phasewalker Striders",
-      "Source": "Elegon",
+      "Source": "Elegon (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -1346,7 +1346,7 @@
     },
     "86798": {
       "Name": "Orbital Belt",
-      "Source": "Elegon",
+      "Source": "Elegon (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -1354,7 +1354,7 @@
     },
     "86799": {
       "Name": "Starshatter",
-      "Source": "Elegon",
+      "Source": "Elegon (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -1362,7 +1362,7 @@
     },
     "86800": {
       "Name": "Shoulders of Empyreal Focus",
-      "Source": "Elegon",
+      "Source": "Elegon (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -1370,7 +1370,7 @@
     },
     "86801": {
       "Name": "Fang Kung, Spark of Titans",
-      "Source": "Will of the Emperor",
+      "Source": "Will of the Emperor (LFR) & Will of the Emperor (N) & Will of the Emperor (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -1378,7 +1378,7 @@
     },
     "86802": {
       "Name": "Lei Shen's Final Orders",
-      "Source": "Will of the Emperor",
+      "Source": "Will of the Emperor (LFR) & Will of the Emperor (N) & Will of the Emperor (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -1386,7 +1386,7 @@
     },
     "86803": {
       "Name": "Jang-xi's Devastating Legplates",
-      "Source": "Will of the Emperor",
+      "Source": "Will of the Emperor (LFR) & Will of the Emperor (N) & Will of the Emperor (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -1394,7 +1394,7 @@
     },
     "86804": {
       "Name": "Crown of Opportunistic Strikes",
-      "Source": "Will of the Emperor",
+      "Source": "Will of the Emperor (LFR) & Will of the Emperor (N) & Will of the Emperor (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -1402,7 +1402,7 @@
     },
     "86805": {
       "Name": "Qin-xi's Polarizing Seal",
-      "Source": "Will of the Emperor",
+      "Source": "Will of the Emperor (LFR) & Will of the Emperor (N) & Will of the Emperor (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -1410,7 +1410,7 @@
     },
     "86806": {
       "Name": "Tihan, Scepter of the Sleeping Emperor",
-      "Source": "Will of the Emperor",
+      "Source": "Will of the Emperor (LFR) & Will of the Emperor (N) & Will of the Emperor (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -1418,7 +1418,7 @@
     },
     "86807": {
       "Name": "Spaulders of the Emperor's Rage",
-      "Source": "Will of the Emperor",
+      "Source": "Will of the Emperor (LFR) & Will of the Emperor (N) & Will of the Emperor (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -1426,7 +1426,7 @@
     },
     "86808": {
       "Name": "Magnetized Leggings",
-      "Source": "Will of the Emperor",
+      "Source": "Will of the Emperor (LFR) & Will of the Emperor (N) & Will of the Emperor (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -1434,7 +1434,7 @@
     },
     "86809": {
       "Name": "Hood of Focused Energy",
-      "Source": "Will of the Emperor",
+      "Source": "Will of the Emperor (LFR) & Will of the Emperor (N) & Will of the Emperor (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -1442,7 +1442,7 @@
     },
     "86810": {
       "Name": "Worldwaker Cabochon",
-      "Source": "Will of the Emperor",
+      "Source": "Will of the Emperor (LFR) & Will of the Emperor (N) & Will of the Emperor (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -1450,7 +1450,7 @@
     },
     "86811": {
       "Name": "Boots of the Still Breath",
-      "Source": "Imperial Vizier Zor'lok",
+      "Source": "Imperial Vizier Zor'lok (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1458,7 +1458,7 @@
     },
     "86812": {
       "Name": "Hisek's Chrysanthemum Cape",
-      "Source": "Imperial Vizier Zor'lok",
+      "Source": "Imperial Vizier Zor'lok (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1466,7 +1466,7 @@
     },
     "86813": {
       "Name": "Vizier's Ruby Signet",
-      "Source": "Imperial Vizier Zor'lok",
+      "Source": "Imperial Vizier Zor'lok (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1474,7 +1474,7 @@
     },
     "86814": {
       "Name": "Fragment of Fear Made Flesh",
-      "Source": "Imperial Vizier Zor'lok",
+      "Source": "Imperial Vizier Zor'lok (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1482,7 +1482,7 @@
     },
     "86815": {
       "Name": "Attenuating Bracers",
-      "Source": "Imperial Vizier Zor'lok",
+      "Source": "Imperial Vizier Zor'lok (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1490,7 +1490,7 @@
     },
     "86816": {
       "Name": "Chestplate of the Forbidden Tower",
-      "Source": "Imperial Vizier Zor'lok",
+      "Source": "Imperial Vizier Zor'lok (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1498,7 +1498,7 @@
     },
     "86817": {
       "Name": "Gauntlets of Undesired Gifts",
-      "Source": "Imperial Vizier Zor'lok",
+      "Source": "Imperial Vizier Zor'lok (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1506,7 +1506,7 @@
     },
     "86818": {
       "Name": "Mail of Screaming Secrets",
-      "Source": "Imperial Vizier Zor'lok",
+      "Source": "Imperial Vizier Zor'lok (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1514,7 +1514,7 @@
     },
     "86819": {
       "Name": "Gloves of Grasping Claws",
-      "Source": "Imperial Vizier Zor'lok",
+      "Source": "Imperial Vizier Zor'lok (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1522,7 +1522,7 @@
     },
     "86820": {
       "Name": "Ring of the Bladed Tempest",
-      "Source": "Blade Lord Ta'yak",
+      "Source": "Blade Lord Ta'yak (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1530,7 +1530,7 @@
     },
     "86821": {
       "Name": "Bracers of Unseen Strikes",
-      "Source": "Blade Lord Ta'yak",
+      "Source": "Blade Lord Ta'yak (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1538,7 +1538,7 @@
     },
     "86822": {
       "Name": "Waistplate of Overwhelming Assault",
-      "Source": "Blade Lord Ta'yak",
+      "Source": "Blade Lord Ta'yak (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1546,7 +1546,7 @@
     },
     "86823": {
       "Name": "Windblade Talons",
-      "Source": "Blade Lord Ta'yak",
+      "Source": "Blade Lord Ta'yak (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1554,7 +1554,7 @@
     },
     "86824": {
       "Name": "Choker of the Unleashed Storm",
-      "Source": "Blade Lord Ta'yak",
+      "Source": "Blade Lord Ta'yak (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1562,7 +1562,7 @@
     },
     "86825": {
       "Name": "Boots of the Blowing Wind",
-      "Source": "Blade Lord Ta'yak",
+      "Source": "Blade Lord Ta'yak (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1570,7 +1570,7 @@
     },
     "86826": {
       "Name": "Bracers of Tempestuous Fury",
-      "Source": "Blade Lord Ta'yak",
+      "Source": "Blade Lord Ta'yak (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1578,7 +1578,7 @@
     },
     "86827": {
       "Name": "Drape of Gathering Clouds",
-      "Source": "Blade Lord Ta'yak",
+      "Source": "Blade Lord Ta'yak (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1586,7 +1586,7 @@
     },
     "86828": {
       "Name": "Twisting Wind Bracers",
-      "Source": "Blade Lord Ta'yak",
+      "Source": "Blade Lord Ta'yak (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1594,7 +1594,7 @@
     },
     "86829": {
       "Name": "Tornado-Summoning Censer",
-      "Source": "Blade Lord Ta'yak",
+      "Source": "Blade Lord Ta'yak (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1602,7 +1602,7 @@
     },
     "86830": {
       "Name": "Ring of the Shattered Shell",
-      "Source": "Garalon",
+      "Source": "Garalon (LFR) & Garalon (N) & Garalon (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1610,7 +1610,7 @@
     },
     "86831": {
       "Name": "Legbreaker Greatcloak",
-      "Source": "Garalon",
+      "Source": "Garalon (LFR) & Garalon (N) & Garalon (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1618,7 +1618,7 @@
     },
     "86832": {
       "Name": "Garalon's Hollow Skull",
-      "Source": "Garalon",
+      "Source": "Garalon (LFR) & Garalon (N) & Garalon (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1626,7 +1626,7 @@
     },
     "86833": {
       "Name": "Grips of the Leviathan",
-      "Source": "Garalon",
+      "Source": "Garalon (LFR) & Garalon (N) & Garalon (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1634,7 +1634,7 @@
     },
     "86834": {
       "Name": "Bonebreaker Gauntlets",
-      "Source": "Garalon",
+      "Source": "Garalon (LFR) & Garalon (N) & Garalon (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1642,7 +1642,7 @@
     },
     "86835": {
       "Name": "Necklace of Congealed Weaknesses",
-      "Source": "Garalon",
+      "Source": "Garalon (LFR) & Garalon (N) & Garalon (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1650,7 +1650,7 @@
     },
     "86836": {
       "Name": "Sandals of the Unbidden",
-      "Source": "Garalon",
+      "Source": "Garalon (LFR) & Garalon (N) & Garalon (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1658,7 +1658,7 @@
     },
     "86837": {
       "Name": "Grasps of Panic",
-      "Source": "Garalon",
+      "Source": "Garalon (LFR) & Garalon (N) & Garalon (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1666,7 +1666,7 @@
     },
     "86838": {
       "Name": "Robes of Eighty Lights",
-      "Source": "Garalon",
+      "Source": "Garalon (LFR) & Garalon (N) & Garalon (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1674,7 +1674,7 @@
     },
     "86839": {
       "Name": "Xaril's Hood of Intoxicating Vapors",
-      "Source": "Garalon",
+      "Source": "Garalon (LFR) & Garalon (N) & Garalon (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1682,7 +1682,7 @@
     },
     "86840": {
       "Name": "Stormwake Mistcloak",
-      "Source": "Garalon",
+      "Source": "Garalon (LFR) & Garalon (N) & Garalon (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1690,7 +1690,7 @@
     },
     "86851": {
       "Name": "Painful Thorned Ring",
-      "Source": "Wind Lord Mel'jarak",
+      "Source": "Wind Lord Mel'jarak (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1698,7 +1698,7 @@
     },
     "86852": {
       "Name": "Impaling Treads",
-      "Source": "Wind Lord Mel'jarak",
+      "Source": "Wind Lord Mel'jarak (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1706,7 +1706,7 @@
     },
     "86853": {
       "Name": "Cloak of Raining Blades",
-      "Source": "Wind Lord Mel'jarak",
+      "Source": "Wind Lord Mel'jarak (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1714,7 +1714,7 @@
     },
     "86854": {
       "Name": "Articulated Legplates",
-      "Source": "Imperial Vizier Zor'lok",
+      "Source": "Imperial Vizier Zor'lok (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1722,7 +1722,7 @@
     },
     "86855": {
       "Name": "Wingslasher Pauldrons",
-      "Source": "Wind Lord Mel'jarak",
+      "Source": "Wind Lord Mel'jarak (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1730,7 +1730,7 @@
     },
     "86856": {
       "Name": "Korven's Amber-Sealed Beetle",
-      "Source": "Wind Lord Mel'jarak",
+      "Source": "Wind Lord Mel'jarak (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1738,7 +1738,7 @@
     },
     "86857": {
       "Name": "Belt of Malleable Amber",
-      "Source": "Amber-Shaper Un'sok",
+      "Source": "Amber-Shaper Un'sok (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1746,7 +1746,7 @@
     },
     "86858": {
       "Name": "Seal of the Profane",
-      "Source": "Amber-Shaper Un'sok",
+      "Source": "Amber-Shaper Un'sok (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1754,7 +1754,7 @@
     },
     "86859": {
       "Name": "Treads of Deadly Secretions",
-      "Source": "Amber-Shaper Un'sok",
+      "Source": "Amber-Shaper Un'sok (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1762,7 +1762,7 @@
     },
     "86860": {
       "Name": "Shoulderpads of Misshapen Life",
-      "Source": "Amber-Shaper Un'sok",
+      "Source": "Amber-Shaper Un'sok (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1770,7 +1770,7 @@
     },
     "86861": {
       "Name": "Monstrous Stompers",
-      "Source": "Amber-Shaper Un'sok",
+      "Source": "Amber-Shaper Un'sok (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1778,7 +1778,7 @@
     },
     "86862": {
       "Name": "Un'sok's Amber Scalpel",
-      "Source": "Amber-Shaper Un'sok",
+      "Source": "Amber-Shaper Un'sok (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1786,7 +1786,7 @@
     },
     "86863": {
       "Name": "Scimitar of Seven Stars",
-      "Source": "Amber-Shaper Un'sok",
+      "Source": "Amber-Shaper Un'sok (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1794,7 +1794,7 @@
     },
     "86864": {
       "Name": "Claws of Shek'zeer",
-      "Source": "Grand Empress Shek'zeer",
+      "Source": "Grand Empress Shek'zeer (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1802,7 +1802,7 @@
     },
     "86865": {
       "Name": "Kri'tak, Imperial Scepter of the Swarm",
-      "Source": "Grand Empress Shek'zeer",
+      "Source": "Grand Empress Shek'zeer (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1810,7 +1810,7 @@
     },
     "86866": {
       "Name": "Crown of the Doomed Empress",
-      "Source": "Grand Empress Shek'zeer",
+      "Source": "Grand Empress Shek'zeer (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1818,7 +1818,7 @@
     },
     "86867": {
       "Name": "Leggings of Shadow Infestation",
-      "Source": "Grand Empress Shek'zeer",
+      "Source": "Grand Empress Shek'zeer (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1826,7 +1826,7 @@
     },
     "86868": {
       "Name": "Bracers of Defiled Earth",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1834,7 +1834,7 @@
     },
     "86869": {
       "Name": "Regail's Band of the Endless",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1842,7 +1842,7 @@
     },
     "86870": {
       "Name": "Deepwater Greatboots",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1850,7 +1850,7 @@
     },
     "86871": {
       "Name": "Shackle of Eversparks",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1858,7 +1858,7 @@
     },
     "86872": {
       "Name": "Kaolan's Withering Necklace",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1866,7 +1866,7 @@
     },
     "86873": {
       "Name": "Watersoul Signet",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1874,7 +1874,7 @@
     },
     "86874": {
       "Name": "Cloak of Overwhelming Corruption",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1882,7 +1882,7 @@
     },
     "86875": {
       "Name": "Cuffs of the Corrupted Waters",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1890,7 +1890,7 @@
     },
     "86876": {
       "Name": "Casque of Expelled Corruption",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1898,7 +1898,7 @@
     },
     "86877": {
       "Name": "Lightning Prisoner's Boots",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1906,7 +1906,7 @@
     },
     "86878": {
       "Name": "Asani's Uncleansed Sandals",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1914,7 +1914,7 @@
     },
     "86879": {
       "Name": "Gao-Rei, Staff of the Legendary Protector",
-      "Source": "Tsulong",
+      "Source": "Tsulong (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1922,7 +1922,7 @@
     },
     "86880": {
       "Name": "Dread Shadow Ring",
-      "Source": "Tsulong",
+      "Source": "Tsulong (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1930,7 +1930,7 @@
     },
     "86881": {
       "Name": "Stuff of Nightmares",
-      "Source": "Tsulong",
+      "Source": "Tsulong (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1938,7 +1938,7 @@
     },
     "86882": {
       "Name": "Sunwrought Mail Hauberk",
-      "Source": "Tsulong",
+      "Source": "Tsulong (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1946,7 +1946,7 @@
     },
     "86883": {
       "Name": "Daybreak Drape",
-      "Source": "Tsulong",
+      "Source": "Tsulong (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1954,7 +1954,7 @@
     },
     "86884": {
       "Name": "Belt of Embodied Terror",
-      "Source": "Tsulong",
+      "Source": "Tsulong (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1962,7 +1962,7 @@
     },
     "86885": {
       "Name": "Spirits of the Sun",
-      "Source": "Tsulong",
+      "Source": "Tsulong (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1970,7 +1970,7 @@
     },
     "86886": {
       "Name": "Loshan, Terror Incarnate",
-      "Source": "Tsulong",
+      "Source": "Tsulong (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1978,7 +1978,7 @@
     },
     "86887": {
       "Name": "Sollerets of Instability",
-      "Source": "Tsulong",
+      "Source": "Tsulong (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1986,7 +1986,7 @@
     },
     "86888": {
       "Name": "Sandals of the Blackest Night",
-      "Source": "Tsulong",
+      "Source": "Tsulong (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1994,7 +1994,7 @@
     },
     "86889": {
       "Name": "Taoren, the Soul Burner",
-      "Source": "Lei Shen",
+      "Source": "Lei Shen (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2002,7 +2002,7 @@
     },
     "86890": {
       "Name": "Terror in the Mists",
-      "Source": "Lei Shen",
+      "Source": "Lei Shen (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2010,7 +2010,7 @@
     },
     "86891": {
       "Name": "Cuirass of the Animated Protector",
-      "Source": "Lei Shen",
+      "Source": "Lei Shen (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2018,7 +2018,7 @@
     },
     "86892": {
       "Name": "Robes of the Unknown Fear",
-      "Source": "Lei Shen",
+      "Source": "Lei Shen (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2026,7 +2026,7 @@
     },
     "86893": {
       "Name": "Jin'ya, Orb of the Waterspeaker",
-      "Source": "Lei Shen",
+      "Source": "Lei Shen (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2034,7 +2034,7 @@
     },
     "86894": {
       "Name": "Darkmist Vortex",
-      "Source": "Lei Shen",
+      "Source": "Lei Shen (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2042,7 +2042,7 @@
     },
     "86895": {
       "Name": "Healer's Belt of Final Winter",
-      "Source": "Tsulong & Lei Shen",
+      "Source": "Tsulong (LFR) & Lei Shen (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2050,7 +2050,7 @@
     },
     "86896": {
       "Name": "Invoker's Belt of Final Winter",
-      "Source": "Tsulong & Lei Shen",
+      "Source": "Tsulong (LFR) & Lei Shen (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2058,7 +2058,7 @@
     },
     "86897": {
       "Name": "Sorcerer's Belt of Final Winter",
-      "Source": "Tsulong & Lei Shen",
+      "Source": "Tsulong (LFR) & Lei Shen (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2066,7 +2066,7 @@
     },
     "86898": {
       "Name": "Weaver's Cord of Eternal Autumn",
-      "Source": "Tsulong & Lei Shen",
+      "Source": "Tsulong (LFR) & Lei Shen (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2074,7 +2074,7 @@
     },
     "86899": {
       "Name": "Stalker's Cord of Eternal Autumn",
-      "Source": "Tsulong & Lei Shen",
+      "Source": "Tsulong (LFR) & Lei Shen (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2082,7 +2082,7 @@
     },
     "86900": {
       "Name": "Binder's Chain of Unending Summer",
-      "Source": "Tsulong & Lei Shen",
+      "Source": "Tsulong (LFR) & Lei Shen (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2090,7 +2090,7 @@
     },
     "86901": {
       "Name": "Ranger's Chain of Unending Summer",
-      "Source": "Tsulong & Lei Shen",
+      "Source": "Tsulong (LFR) & Lei Shen (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2098,7 +2098,7 @@
     },
     "86902": {
       "Name": "Mender's Girdle of Endless Spring",
-      "Source": "Tsulong & Lei Shen",
+      "Source": "Tsulong (LFR) & Lei Shen (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2106,7 +2106,7 @@
     },
     "86903": {
       "Name": "Protector's Girdle of Endless Spring",
-      "Source": "Tsulong & Lei Shen",
+      "Source": "Tsulong (LFR) & Lei Shen (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2114,7 +2114,7 @@
     },
     "86904": {
       "Name": "Patroller's Girdle of Endless Spring",
-      "Source": "Tsulong & Lei Shen",
+      "Source": "Tsulong (LFR) & Lei Shen (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2122,7 +2122,7 @@
     },
     "86905": {
       "Name": "Shin'ka, Execution of Dominion",
-      "Source": "Sha of Fear",
+      "Source": "Sha of Fear (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2130,7 +2130,7 @@
     },
     "86906": {
       "Name": "Kilrak, Jaws of Terror",
-      "Source": "Sha of Fear",
+      "Source": "Sha of Fear (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2138,7 +2138,7 @@
     },
     "86907": {
       "Name": "Essence of Terror",
-      "Source": "Sha of Fear",
+      "Source": "Sha of Fear (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2146,7 +2146,7 @@
     },
     "86908": {
       "Name": "Dreadwoven Leggings of Failure",
-      "Source": "Sha of Fear",
+      "Source": "Sha of Fear (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2154,7 +2154,7 @@
     },
     "86909": {
       "Name": "Regail's Crackling Dagger",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2162,7 +2162,7 @@
     },
     "86910": {
       "Name": "Spiritsever",
-      "Source": "Lei Shen",
+      "Source": "Lei Shen (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2170,7 +2170,7 @@
     },
     "86911": {
       "Name": "Robes of Torn Nightmares",
-      "Source": "Wind Lord Mel'jarak",
+      "Source": "Wind Lord Mel'jarak (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2178,7 +2178,7 @@
     },
     "86912": {
       "Name": "Clutches of Dying Hope",
-      "Source": "Wind Lord Mel'jarak",
+      "Source": "Wind Lord Mel'jarak (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2186,7 +2186,7 @@
     },
     "86943": {
       "Name": "Boots of the Still Breath",
-      "Source": "Imperial Vizier Zor'lok",
+      "Source": "Imperial Vizier Zor'lok (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2194,7 +2194,7 @@
     },
     "86944": {
       "Name": "Articulated Legplates",
-      "Source": "Imperial Vizier Zor'lok",
+      "Source": "Imperial Vizier Zor'lok (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2202,7 +2202,7 @@
     },
     "86945": {
       "Name": "Hisek's Chrysanthemum Cape",
-      "Source": "Imperial Vizier Zor'lok",
+      "Source": "Imperial Vizier Zor'lok (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2210,7 +2210,7 @@
     },
     "86946": {
       "Name": "Vizier's Ruby Signet",
-      "Source": "Imperial Vizier Zor'lok",
+      "Source": "Imperial Vizier Zor'lok (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2218,7 +2218,7 @@
     },
     "86947": {
       "Name": "Gloves of Grasping Claws",
-      "Source": "Imperial Vizier Zor'lok",
+      "Source": "Imperial Vizier Zor'lok (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2226,7 +2226,7 @@
     },
     "86948": {
       "Name": "Attenuating Bracers",
-      "Source": "Imperial Vizier Zor'lok",
+      "Source": "Imperial Vizier Zor'lok (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2234,7 +2234,7 @@
     },
     "86949": {
       "Name": "Fragment of Fear Made Flesh",
-      "Source": "Imperial Vizier Zor'lok",
+      "Source": "Imperial Vizier Zor'lok (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2242,7 +2242,7 @@
     },
     "86950": {
       "Name": "Gauntlets of Undesired Gifts",
-      "Source": "Imperial Vizier Zor'lok",
+      "Source": "Imperial Vizier Zor'lok (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2250,7 +2250,7 @@
     },
     "86951": {
       "Name": "Mail of Screaming Secrets",
-      "Source": "Imperial Vizier Zor'lok",
+      "Source": "Imperial Vizier Zor'lok (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2258,7 +2258,7 @@
     },
     "86952": {
       "Name": "Chestplate of the Forbidden Tower",
-      "Source": "Imperial Vizier Zor'lok",
+      "Source": "Imperial Vizier Zor'lok (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2266,7 +2266,7 @@
     },
     "86953": {
       "Name": "Choker of the Unleashed Storm",
-      "Source": "Blade Lord Ta'yak",
+      "Source": "Blade Lord Ta'yak (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2274,7 +2274,7 @@
     },
     "86954": {
       "Name": "Bracers of Unseen Strikes",
-      "Source": "Blade Lord Ta'yak",
+      "Source": "Blade Lord Ta'yak (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2282,7 +2282,7 @@
     },
     "86955": {
       "Name": "Waistplate of Overwhelming Assault",
-      "Source": "Blade Lord Ta'yak",
+      "Source": "Blade Lord Ta'yak (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2290,7 +2290,7 @@
     },
     "86956": {
       "Name": "Windblade Talons",
-      "Source": "Blade Lord Ta'yak",
+      "Source": "Blade Lord Ta'yak (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2298,7 +2298,7 @@
     },
     "86957": {
       "Name": "Ring of the Bladed Tempest",
-      "Source": "Blade Lord Ta'yak",
+      "Source": "Blade Lord Ta'yak (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2306,7 +2306,7 @@
     },
     "86958": {
       "Name": "Twisting Wind Bracers",
-      "Source": "Blade Lord Ta'yak",
+      "Source": "Blade Lord Ta'yak (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2314,7 +2314,7 @@
     },
     "86959": {
       "Name": "Boots of the Blowing Wind",
-      "Source": "Blade Lord Ta'yak",
+      "Source": "Blade Lord Ta'yak (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2322,7 +2322,7 @@
     },
     "86960": {
       "Name": "Tornado-Summoning Censer",
-      "Source": "Blade Lord Ta'yak",
+      "Source": "Blade Lord Ta'yak (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2330,7 +2330,7 @@
     },
     "86961": {
       "Name": "Drape of Gathering Clouds",
-      "Source": "Blade Lord Ta'yak",
+      "Source": "Blade Lord Ta'yak (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2338,7 +2338,7 @@
     },
     "86962": {
       "Name": "Bracers of Tempestuous Fury",
-      "Source": "Blade Lord Ta'yak",
+      "Source": "Blade Lord Ta'yak (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2346,7 +2346,7 @@
     },
     "86974": {
       "Name": "Painful Thorned Ring",
-      "Source": "Wind Lord Mel'jarak",
+      "Source": "Wind Lord Mel'jarak (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2354,7 +2354,7 @@
     },
     "86975": {
       "Name": "Robes of Torn Nightmares",
-      "Source": "Wind Lord Mel'jarak",
+      "Source": "Wind Lord Mel'jarak (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2362,7 +2362,7 @@
     },
     "86976": {
       "Name": "Korven's Amber-Sealed Beetle",
-      "Source": "Wind Lord Mel'jarak",
+      "Source": "Wind Lord Mel'jarak (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2370,7 +2370,7 @@
     },
     "86977": {
       "Name": "Clutches of Dying Hope",
-      "Source": "Wind Lord Mel'jarak",
+      "Source": "Wind Lord Mel'jarak (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2378,7 +2378,7 @@
     },
     "86978": {
       "Name": "Wingslasher Pauldrons",
-      "Source": "Wind Lord Mel'jarak",
+      "Source": "Wind Lord Mel'jarak (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2386,7 +2386,7 @@
     },
     "86979": {
       "Name": "Impaling Treads",
-      "Source": "Wind Lord Mel'jarak",
+      "Source": "Wind Lord Mel'jarak (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2394,7 +2394,7 @@
     },
     "86980": {
       "Name": "Cloak of Raining Blades",
-      "Source": "Wind Lord Mel'jarak",
+      "Source": "Wind Lord Mel'jarak (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2402,7 +2402,7 @@
     },
     "86981": {
       "Name": "Belt of Malleable Amber",
-      "Source": "Amber-Shaper Un'sok",
+      "Source": "Amber-Shaper Un'sok (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2410,7 +2410,7 @@
     },
     "86982": {
       "Name": "Seal of the Profane",
-      "Source": "Amber-Shaper Un'sok",
+      "Source": "Amber-Shaper Un'sok (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2418,7 +2418,7 @@
     },
     "86983": {
       "Name": "Un'sok's Amber Scalpel",
-      "Source": "Amber-Shaper Un'sok",
+      "Source": "Amber-Shaper Un'sok (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2426,7 +2426,7 @@
     },
     "86984": {
       "Name": "Treads of Deadly Secretions",
-      "Source": "Amber-Shaper Un'sok",
+      "Source": "Amber-Shaper Un'sok (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2434,7 +2434,7 @@
     },
     "86985": {
       "Name": "Monstrous Stompers",
-      "Source": "Amber-Shaper Un'sok",
+      "Source": "Amber-Shaper Un'sok (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2442,7 +2442,7 @@
     },
     "86986": {
       "Name": "Shoulderpads of Misshapen Life",
-      "Source": "Amber-Shaper Un'sok",
+      "Source": "Amber-Shaper Un'sok (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2450,7 +2450,7 @@
     },
     "86987": {
       "Name": "Scimitar of Seven Stars",
-      "Source": "Amber-Shaper Un'sok",
+      "Source": "Amber-Shaper Un'sok (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2458,7 +2458,7 @@
     },
     "86988": {
       "Name": "Claws of Shek'zeer",
-      "Source": "Grand Empress Shek'zeer",
+      "Source": "Grand Empress Shek'zeer (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2466,7 +2466,7 @@
     },
     "86989": {
       "Name": "Leggings of Shadow Infestation",
-      "Source": "Grand Empress Shek'zeer",
+      "Source": "Grand Empress Shek'zeer (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2474,7 +2474,7 @@
     },
     "86990": {
       "Name": "Kri'tak, Imperial Scepter of the Swarm",
-      "Source": "Grand Empress Shek'zeer",
+      "Source": "Grand Empress Shek'zeer (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2482,7 +2482,7 @@
     },
     "86991": {
       "Name": "Crown of the Doomed Empress",
-      "Source": "Grand Empress Shek'zeer",
+      "Source": "Grand Empress Shek'zeer (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2658,7 +2658,7 @@
     },
     "87045": {
       "Name": "Amulet of the Hidden Kings",
-      "Source": "The Spirit Kings",
+      "Source": "The Spirit Kings (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -2666,7 +2666,7 @@
     },
     "87046": {
       "Name": "Screaming Tiger, Qiang's Unbreakable Polearm",
-      "Source": "The Spirit Kings",
+      "Source": "The Spirit Kings (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -2674,7 +2674,7 @@
     },
     "87047": {
       "Name": "Subetai's Pillaging Leggings",
-      "Source": "The Spirit Kings",
+      "Source": "The Spirit Kings (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -2682,7 +2682,7 @@
     },
     "87048": {
       "Name": "Breastplate of the Kings' Guard",
-      "Source": "The Spirit Kings",
+      "Source": "The Spirit Kings (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -2690,7 +2690,7 @@
     },
     "87049": {
       "Name": "Shoulderguards of the Unflanked",
-      "Source": "The Spirit Kings",
+      "Source": "The Spirit Kings (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -2698,7 +2698,7 @@
     },
     "87050": {
       "Name": "Steelskin, Qiang's Impervious Shield",
-      "Source": "The Spirit Kings",
+      "Source": "The Spirit Kings (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -2706,7 +2706,7 @@
     },
     "87051": {
       "Name": "Hood of Blind Eyes",
-      "Source": "The Spirit Kings",
+      "Source": "The Spirit Kings (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -2714,7 +2714,7 @@
     },
     "87052": {
       "Name": "Undying Shadow Grips",
-      "Source": "The Spirit Kings",
+      "Source": "The Spirit Kings (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -2722,7 +2722,7 @@
     },
     "87053": {
       "Name": "Zian's Choker of Coalesced Shadow",
-      "Source": "The Spirit Kings",
+      "Source": "The Spirit Kings (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -2730,7 +2730,7 @@
     },
     "87054": {
       "Name": "Bracers of Dark Thoughts",
-      "Source": "The Spirit Kings",
+      "Source": "The Spirit Kings (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -2738,7 +2738,7 @@
     },
     "87055": {
       "Name": "Meng's Treads of Insanity",
-      "Source": "The Spirit Kings",
+      "Source": "The Spirit Kings (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -2746,7 +2746,7 @@
     },
     "87056": {
       "Name": "Girdle of Delirious Visions",
-      "Source": "The Spirit Kings",
+      "Source": "The Spirit Kings (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -2754,7 +2754,7 @@
     },
     "87057": {
       "Name": "Bottle of Infinite Stars",
-      "Source": "Elegon",
+      "Source": "Elegon (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -2762,7 +2762,7 @@
     },
     "87058": {
       "Name": "Chestguard of Total Annihilation",
-      "Source": "Elegon",
+      "Source": "Elegon (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -2770,7 +2770,7 @@
     },
     "87059": {
       "Name": "Starcrusher Gauntlets",
-      "Source": "Elegon",
+      "Source": "Elegon (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -2786,7 +2786,7 @@
     },
     "87061": {
       "Name": "Starshatter",
-      "Source": "Elegon",
+      "Source": "Elegon (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -2794,7 +2794,7 @@
     },
     "87062": {
       "Name": "Elegion, the Fanged Crescent",
-      "Source": "Elegon",
+      "Source": "Elegon (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -2802,7 +2802,7 @@
     },
     "87063": {
       "Name": "Vial of Dragon's Blood",
-      "Source": "Elegon",
+      "Source": "Elegon (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -2810,7 +2810,7 @@
     },
     "87064": {
       "Name": "Orbital Belt",
-      "Source": "Elegon",
+      "Source": "Elegon (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -2818,7 +2818,7 @@
     },
     "87065": {
       "Name": "Light of the Cosmos",
-      "Source": "Elegon",
+      "Source": "Elegon (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -2826,7 +2826,7 @@
     },
     "87066": {
       "Name": "Torch of the Celestial Spark",
-      "Source": "Elegon",
+      "Source": "Elegon (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -2834,7 +2834,7 @@
     },
     "87067": {
       "Name": "Phasewalker Striders",
-      "Source": "Elegon",
+      "Source": "Elegon (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -2842,7 +2842,7 @@
     },
     "87068": {
       "Name": "Shoulders of Empyreal Focus",
-      "Source": "Elegon",
+      "Source": "Elegon (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -2850,7 +2850,7 @@
     },
     "87144": {
       "Name": "Regail's Band of the Endless",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2858,7 +2858,7 @@
     },
     "87145": {
       "Name": "Bracers of Defiled Earth",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2866,7 +2866,7 @@
     },
     "87146": {
       "Name": "Deepwater Greatboots",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2874,7 +2874,7 @@
     },
     "87147": {
       "Name": "Shackle of Eversparks",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2882,7 +2882,7 @@
     },
     "87148": {
       "Name": "Kaolan's Withering Necklace",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2890,7 +2890,7 @@
     },
     "87149": {
       "Name": "Cuffs of the Corrupted Waters",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2898,7 +2898,7 @@
     },
     "87150": {
       "Name": "Cloak of Overwhelming Corruption",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2906,7 +2906,7 @@
     },
     "87151": {
       "Name": "Watersoul Signet",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2914,7 +2914,7 @@
     },
     "87152": {
       "Name": "Regail's Crackling Dagger",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2922,7 +2922,7 @@
     },
     "87153": {
       "Name": "Asani's Uncleansed Sandals",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2930,7 +2930,7 @@
     },
     "87154": {
       "Name": "Lightning Prisoner's Boots",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2938,7 +2938,7 @@
     },
     "87155": {
       "Name": "Casque of Expelled Corruption",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2946,7 +2946,7 @@
     },
     "87156": {
       "Name": "Gao-Rei, Staff of the Legendary Protector",
-      "Source": "Tsulong",
+      "Source": "Tsulong (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2954,7 +2954,7 @@
     },
     "87157": {
       "Name": "Sunwrought Mail Hauberk",
-      "Source": "Tsulong",
+      "Source": "Tsulong (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2962,7 +2962,7 @@
     },
     "87158": {
       "Name": "Dread Shadow Ring",
-      "Source": "Tsulong",
+      "Source": "Tsulong (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2970,7 +2970,7 @@
     },
     "87159": {
       "Name": "Daybreak Drape",
-      "Source": "Tsulong",
+      "Source": "Tsulong (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2978,7 +2978,7 @@
     },
     "87160": {
       "Name": "Stuff of Nightmares",
-      "Source": "Tsulong",
+      "Source": "Tsulong (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2986,7 +2986,7 @@
     },
     "87161": {
       "Name": "Belt of Embodied Terror",
-      "Source": "Tsulong",
+      "Source": "Tsulong (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2994,7 +2994,7 @@
     },
     "87162": {
       "Name": "Sandals of the Blackest Night",
-      "Source": "Tsulong",
+      "Source": "Tsulong (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3002,7 +3002,7 @@
     },
     "87163": {
       "Name": "Spirits of the Sun",
-      "Source": "Tsulong",
+      "Source": "Tsulong (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3010,7 +3010,7 @@
     },
     "87164": {
       "Name": "Loshan, Terror Incarnate",
-      "Source": "Tsulong",
+      "Source": "Tsulong (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3018,7 +3018,7 @@
     },
     "87165": {
       "Name": "Sollerets of Instability",
-      "Source": "Tsulong",
+      "Source": "Tsulong (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3026,7 +3026,7 @@
     },
     "87166": {
       "Name": "Spiritsever",
-      "Source": "Lei Shen",
+      "Source": "Lei Shen (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3034,7 +3034,7 @@
     },
     "87167": {
       "Name": "Terror in the Mists",
-      "Source": "Lei Shen",
+      "Source": "Lei Shen (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3042,7 +3042,7 @@
     },
     "87168": {
       "Name": "Taoren, the Soul Burner",
-      "Source": "Lei Shen",
+      "Source": "Lei Shen (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3050,7 +3050,7 @@
     },
     "87169": {
       "Name": "Robes of the Unknown Fear",
-      "Source": "Lei Shen",
+      "Source": "Lei Shen (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3058,7 +3058,7 @@
     },
     "87170": {
       "Name": "Jin'ya, Orb of the Waterspeaker",
-      "Source": "Lei Shen",
+      "Source": "Lei Shen (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3066,7 +3066,7 @@
     },
     "87171": {
       "Name": "Cuirass of the Animated Protector",
-      "Source": "Lei Shen",
+      "Source": "Lei Shen (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3074,7 +3074,7 @@
     },
     "87172": {
       "Name": "Darkmist Vortex",
-      "Source": "Lei Shen",
+      "Source": "Lei Shen (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3082,7 +3082,7 @@
     },
     "87173": {
       "Name": "Kilrak, Jaws of Terror",
-      "Source": "Sha of Fear",
+      "Source": "Sha of Fear (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3090,7 +3090,7 @@
     },
     "87174": {
       "Name": "Dreadwoven Leggings of Failure",
-      "Source": "Sha of Fear",
+      "Source": "Sha of Fear (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3098,7 +3098,7 @@
     },
     "87175": {
       "Name": "Essence of Terror",
-      "Source": "Sha of Fear",
+      "Source": "Sha of Fear (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3106,7 +3106,7 @@
     },
     "87176": {
       "Name": "Shin'ka, Execution of Dominion",
-      "Source": "Sha of Fear",
+      "Source": "Sha of Fear (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3114,7 +3114,7 @@
     },
     "87177": {
       "Name": "Invoker's Belt of Final Winter",
-      "Source": "Tsulong & Lei Shen",
+      "Source": "Tsulong (H) & Lei Shen (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3122,7 +3122,7 @@
     },
     "87178": {
       "Name": "Healer's Belt of Final Winter",
-      "Source": "Tsulong & Lei Shen",
+      "Source": "Tsulong (H) & Lei Shen (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3130,7 +3130,7 @@
     },
     "87179": {
       "Name": "Sorcerer's Belt of Final Winter",
-      "Source": "Tsulong & Lei Shen",
+      "Source": "Tsulong (H) & Lei Shen (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3138,7 +3138,7 @@
     },
     "87180": {
       "Name": "Stalker's Cord of Eternal Autumn",
-      "Source": "Tsulong & Lei Shen",
+      "Source": "Tsulong (H) & Lei Shen (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3146,7 +3146,7 @@
     },
     "87181": {
       "Name": "Weaver's Cord of Eternal Autumn",
-      "Source": "Tsulong & Lei Shen",
+      "Source": "Tsulong (H) & Lei Shen (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3154,7 +3154,7 @@
     },
     "87182": {
       "Name": "Ranger's Chain of Unending Summer",
-      "Source": "Tsulong & Lei Shen",
+      "Source": "Tsulong (H) & Lei Shen (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3162,7 +3162,7 @@
     },
     "87183": {
       "Name": "Binder's Chain of Unending Summer",
-      "Source": "Tsulong & Lei Shen",
+      "Source": "Tsulong (H) & Lei Shen (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3170,7 +3170,7 @@
     },
     "87184": {
       "Name": "Mender's Girdle of Endless Spring",
-      "Source": "Tsulong & Lei Shen",
+      "Source": "Tsulong (H) & Lei Shen (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3178,7 +3178,7 @@
     },
     "87185": {
       "Name": "Protector's Girdle of Endless Spring",
-      "Source": "Tsulong & Lei Shen",
+      "Source": "Tsulong (H) & Lei Shen (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3186,7 +3186,7 @@
     },
     "87186": {
       "Name": "Patroller's Girdle of Endless Spring",
-      "Source": "Tsulong & Lei Shen",
+      "Source": "Tsulong (H) & Lei Shen (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3202,7 +3202,7 @@
     },
     "87209": {
       "Name": "Sigil of Wisdom",
-      "Source": "Feng the Accursed (N)~Imperial Vizier Zor'lok~Blade Lord Ta'yak~Wind Lord Mel'jarak~Amber-Shaper Un'sok~Grand Empress Shek'zeer~Protector Kaolan~Tsulong~Sha of Fear",
+      "Source": "Feng the Accursed (N)~Imperial Vizier Zor'lok (N)~Blade Lord Ta'yak (N)~Wind Lord Mel'jarak (N)~Amber-Shaper Un'sok (N)~Grand Empress Shek'zeer (N)~Protector Kaolan (N)~Tsulong (N)~Sha of Fear (N)",
       "SourceType": "Drop",
       "SourceNumber": "0~0~0~0~0~0~0~0~0",
       "SourceLocation": "Mogu'Shan Vaults~Heart of Fear~Heart of Fear~Heart of Fear~Heart of Fear~Heart of Fear~Heart of Fear~Heart of Fear~Heart of Fear",
@@ -3210,7 +3210,7 @@
     },
     "87210": {
       "Name": "Chimera of Fear",
-      "Source": "Sha of Fear",
+      "Source": "Sha of Fear (LFR) & Sha of Fear (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3218,7 +3218,7 @@
     },
     "87822": {
       "Name": "Zor'lok's Fizzing Chestguard",
-      "Source": "Imperial Vizier Zor'lok",
+      "Source": "Imperial Vizier Zor'lok (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3226,7 +3226,7 @@
     },
     "87823": {
       "Name": "Zor'lok's Fizzing Chestguard",
-      "Source": "Imperial Vizier Zor'lok",
+      "Source": "Imperial Vizier Zor'lok (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3234,7 +3234,7 @@
     },
     "87824": {
       "Name": "Zor'lok's Fizzing Chestguard",
-      "Source": "Imperial Vizier Zor'lok",
+      "Source": "Imperial Vizier Zor'lok (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3242,7 +3242,7 @@
     },
     "87826": {
       "Name": "Grips of Terra Cotta",
-      "Source": "Will of the Emperor",
+      "Source": "Will of the Emperor (LFR) & Will of the Emperor (N) & Will of the Emperor (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -3250,7 +3250,7 @@
     },
     "89234": {
       "Name": "Helm of the Shadowy Vanquisher",
-      "Source": "Sha of Fear",
+      "Source": "Sha of Fear (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3258,7 +3258,7 @@
     },
     "89235": {
       "Name": "Helm of the Shadowy Conqueror",
-      "Source": "Sha of Fear",
+      "Source": "Sha of Fear (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3266,7 +3266,7 @@
     },
     "89236": {
       "Name": "Helm of the Shadowy Protector",
-      "Source": "Sha of Fear",
+      "Source": "Sha of Fear (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3274,7 +3274,7 @@
     },
     "89237": {
       "Name": "Chest of the Shadowy Conqueror",
-      "Source": "Grand Empress Shek'zeer",
+      "Source": "Grand Empress Shek'zeer (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3282,7 +3282,7 @@
     },
     "89238": {
       "Name": "Chest of the Shadowy Protector",
-      "Source": "Grand Empress Shek'zeer",
+      "Source": "Grand Empress Shek'zeer (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3290,7 +3290,7 @@
     },
     "89239": {
       "Name": "Chest of the Shadowy Vanquisher",
-      "Source": "Grand Empress Shek'zeer",
+      "Source": "Grand Empress Shek'zeer (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3298,7 +3298,7 @@
     },
     "89240": {
       "Name": "Gauntlets of the Shadowy Conqueror",
-      "Source": "Wind Lord Mel'jarak",
+      "Source": "Wind Lord Mel'jarak (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3306,7 +3306,7 @@
     },
     "89241": {
       "Name": "Gauntlets of the Shadowy Protector",
-      "Source": "Wind Lord Mel'jarak",
+      "Source": "Wind Lord Mel'jarak (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3314,7 +3314,7 @@
     },
     "89242": {
       "Name": "Gauntlets of the Shadowy Vanquisher",
-      "Source": "Wind Lord Mel'jarak",
+      "Source": "Wind Lord Mel'jarak (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3322,7 +3322,7 @@
     },
     "89243": {
       "Name": "Leggings of the Shadowy Conqueror",
-      "Source": "Amber-Shaper Un'sok",
+      "Source": "Amber-Shaper Un'sok (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3330,7 +3330,7 @@
     },
     "89244": {
       "Name": "Leggings of the Shadowy Protector",
-      "Source": "Amber-Shaper Un'sok",
+      "Source": "Amber-Shaper Un'sok (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3338,7 +3338,7 @@
     },
     "89245": {
       "Name": "Leggings of the Shadowy Vanquisher",
-      "Source": "Amber-Shaper Un'sok",
+      "Source": "Amber-Shaper Un'sok (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3346,7 +3346,7 @@
     },
     "89246": {
       "Name": "Shoulders of the Shadowy Conqueror",
-      "Source": "Lei Shen",
+      "Source": "Lei Shen (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3354,7 +3354,7 @@
     },
     "89247": {
       "Name": "Shoulders of the Shadowy Protector",
-      "Source": "Lei Shen",
+      "Source": "Lei Shen (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3362,7 +3362,7 @@
     },
     "89248": {
       "Name": "Shoulders of the Shadowy Vanquisher",
-      "Source": "Lei Shen",
+      "Source": "Lei Shen (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3370,7 +3370,7 @@
     },
     "89249": {
       "Name": "Chest of the Shadowy Vanquisher",
-      "Source": "Grand Empress Shek'zeer",
+      "Source": "Grand Empress Shek'zeer (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3378,7 +3378,7 @@
     },
     "89250": {
       "Name": "Chest of the Shadowy Conqueror",
-      "Source": "Grand Empress Shek'zeer",
+      "Source": "Grand Empress Shek'zeer (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3386,7 +3386,7 @@
     },
     "89251": {
       "Name": "Chest of the Shadowy Protector",
-      "Source": "Grand Empress Shek'zeer",
+      "Source": "Grand Empress Shek'zeer (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3394,7 +3394,7 @@
     },
     "89252": {
       "Name": "Leggings of the Shadowy Vanquisher",
-      "Source": "Amber-Shaper Un'sok",
+      "Source": "Amber-Shaper Un'sok (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3402,7 +3402,7 @@
     },
     "89253": {
       "Name": "Leggings of the Shadowy Conqueror",
-      "Source": "Amber-Shaper Un'sok",
+      "Source": "Amber-Shaper Un'sok (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3410,7 +3410,7 @@
     },
     "89254": {
       "Name": "Leggings of the Shadowy Protector",
-      "Source": "Amber-Shaper Un'sok",
+      "Source": "Amber-Shaper Un'sok (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3418,7 +3418,7 @@
     },
     "89255": {
       "Name": "Gauntlets of the Shadowy Vanquisher",
-      "Source": "Wind Lord Mel'jarak",
+      "Source": "Wind Lord Mel'jarak (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3426,7 +3426,7 @@
     },
     "89256": {
       "Name": "Gauntlets of the Shadowy Conqueror",
-      "Source": "Wind Lord Mel'jarak",
+      "Source": "Wind Lord Mel'jarak (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3434,7 +3434,7 @@
     },
     "89257": {
       "Name": "Gauntlets of the Shadowy Protector",
-      "Source": "Wind Lord Mel'jarak",
+      "Source": "Wind Lord Mel'jarak (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3442,7 +3442,7 @@
     },
     "89258": {
       "Name": "Helm of the Shadowy Vanquisher",
-      "Source": "Sha of Fear",
+      "Source": "Sha of Fear (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3450,7 +3450,7 @@
     },
     "89259": {
       "Name": "Helm of the Shadowy Conqueror",
-      "Source": "Sha of Fear",
+      "Source": "Sha of Fear (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3458,7 +3458,7 @@
     },
     "89260": {
       "Name": "Helm of the Shadowy Protector",
-      "Source": "Sha of Fear",
+      "Source": "Sha of Fear (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3466,7 +3466,7 @@
     },
     "89261": {
       "Name": "Shoulders of the Shadowy Vanquisher",
-      "Source": "Lei Shen",
+      "Source": "Lei Shen (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3474,7 +3474,7 @@
     },
     "89262": {
       "Name": "Shoulders of the Shadowy Conqueror",
-      "Source": "Lei Shen",
+      "Source": "Lei Shen (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3482,7 +3482,7 @@
     },
     "89263": {
       "Name": "Shoulders of the Shadowy Protector",
-      "Source": "Lei Shen",
+      "Source": "Lei Shen (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3490,7 +3490,7 @@
     },
     "89264": {
       "Name": "Chest of the Shadowy Vanquisher",
-      "Source": "Grand Empress Shek'zeer",
+      "Source": "Grand Empress Shek'zeer (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3498,7 +3498,7 @@
     },
     "89265": {
       "Name": "Chest of the Shadowy Conqueror",
-      "Source": "Grand Empress Shek'zeer",
+      "Source": "Grand Empress Shek'zeer (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3506,7 +3506,7 @@
     },
     "89266": {
       "Name": "Chest of the Shadowy Protector",
-      "Source": "Grand Empress Shek'zeer",
+      "Source": "Grand Empress Shek'zeer (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3514,7 +3514,7 @@
     },
     "89267": {
       "Name": "Leggings of the Shadowy Vanquisher",
-      "Source": "Amber-Shaper Un'sok",
+      "Source": "Amber-Shaper Un'sok (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3522,7 +3522,7 @@
     },
     "89268": {
       "Name": "Leggings of the Shadowy Conqueror",
-      "Source": "Amber-Shaper Un'sok",
+      "Source": "Amber-Shaper Un'sok (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3530,7 +3530,7 @@
     },
     "89269": {
       "Name": "Leggings of the Shadowy Protector",
-      "Source": "Amber-Shaper Un'sok",
+      "Source": "Amber-Shaper Un'sok (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3538,7 +3538,7 @@
     },
     "89270": {
       "Name": "Gauntlets of the Shadowy Vanquisher",
-      "Source": "Wind Lord Mel'jarak",
+      "Source": "Wind Lord Mel'jarak (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3546,7 +3546,7 @@
     },
     "89271": {
       "Name": "Gauntlets of the Shadowy Conqueror",
-      "Source": "Wind Lord Mel'jarak",
+      "Source": "Wind Lord Mel'jarak (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3554,7 +3554,7 @@
     },
     "89272": {
       "Name": "Gauntlets of the Shadowy Protector",
-      "Source": "Wind Lord Mel'jarak",
+      "Source": "Wind Lord Mel'jarak (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3562,7 +3562,7 @@
     },
     "89273": {
       "Name": "Helm of the Shadowy Vanquisher",
-      "Source": "Sha of Fear",
+      "Source": "Sha of Fear (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3570,7 +3570,7 @@
     },
     "89274": {
       "Name": "Helm of the Shadowy Conqueror",
-      "Source": "Sha of Fear",
+      "Source": "Sha of Fear (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3578,7 +3578,7 @@
     },
     "89275": {
       "Name": "Helm of the Shadowy Protector",
-      "Source": "Sha of Fear",
+      "Source": "Sha of Fear (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3586,7 +3586,7 @@
     },
     "89276": {
       "Name": "Shoulders of the Shadowy Vanquisher",
-      "Source": "Lei Shen",
+      "Source": "Lei Shen (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3594,7 +3594,7 @@
     },
     "89277": {
       "Name": "Shoulders of the Shadowy Conqueror",
-      "Source": "Lei Shen",
+      "Source": "Lei Shen (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3602,7 +3602,7 @@
     },
     "89278": {
       "Name": "Shoulders of the Shadowy Protector",
-      "Source": "Lei Shen",
+      "Source": "Lei Shen (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3674,7 +3674,7 @@
     },
     "89818": {
       "Name": "Bracers of Violent Meditation",
-      "Source": "The Spirit Kings",
+      "Source": "The Spirit Kings (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -3682,7 +3682,7 @@
     },
     "89819": {
       "Name": "Mindshard Drape",
-      "Source": "The Spirit Kings",
+      "Source": "The Spirit Kings (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -3690,7 +3690,7 @@
     },
     "89821": {
       "Name": "Crown of Keening Stars",
-      "Source": "Elegon",
+      "Source": "Elegon (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -3698,7 +3698,7 @@
     },
     "89822": {
       "Name": "Galaxyfire Girdle",
-      "Source": "Elegon",
+      "Source": "Elegon (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -3706,7 +3706,7 @@
     },
     "89824": {
       "Name": "Band of Bursting Novas",
-      "Source": "Elegon",
+      "Source": "Elegon (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -3714,7 +3714,7 @@
     },
     "89826": {
       "Name": "Warbelt of Sealed Pods",
-      "Source": "Imperial Vizier Zor'lok",
+      "Source": "Imperial Vizier Zor'lok (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3722,7 +3722,7 @@
     },
     "89827": {
       "Name": "Pheromone-Coated Choker",
-      "Source": "Imperial Vizier Zor'lok",
+      "Source": "Imperial Vizier Zor'lok (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3730,7 +3730,7 @@
     },
     "89828": {
       "Name": "Pauldrons of the Broken Blade",
-      "Source": "Blade Lord Ta'yak",
+      "Source": "Blade Lord Ta'yak (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3738,7 +3738,7 @@
     },
     "89829": {
       "Name": "Scent-Soaked Sandals",
-      "Source": "Imperial Vizier Zor'lok",
+      "Source": "Imperial Vizier Zor'lok (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3746,7 +3746,7 @@
     },
     "89830": {
       "Name": "Sword Dancer's Leggings",
-      "Source": "Blade Lord Ta'yak",
+      "Source": "Blade Lord Ta'yak (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3754,7 +3754,7 @@
     },
     "89831": {
       "Name": "Hood of Stilled Winds",
-      "Source": "Blade Lord Ta'yak",
+      "Source": "Blade Lord Ta'yak (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3762,7 +3762,7 @@
     },
     "89835": {
       "Name": "Hood of Dark Dreams",
-      "Source": "Grand Empress Shek'zeer",
+      "Source": "Grand Empress Shek'zeer (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3770,7 +3770,7 @@
     },
     "89836": {
       "Name": "Shadow Heart Spaulders",
-      "Source": "Grand Empress Shek'zeer",
+      "Source": "Grand Empress Shek'zeer (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3778,7 +3778,7 @@
     },
     "89837": {
       "Name": "Legplates of Regal Reinforcement",
-      "Source": "Grand Empress Shek'zeer",
+      "Source": "Grand Empress Shek'zeer (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3786,7 +3786,7 @@
     },
     "89839": {
       "Name": "Shadowgrip Girdle",
-      "Source": "Sha of Fear",
+      "Source": "Sha of Fear (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3794,7 +3794,7 @@
     },
     "89841": {
       "Name": "Legguards of Failing Purification",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3802,7 +3802,7 @@
     },
     "89842": {
       "Name": "Gauntlets of the Shadow's Caress",
-      "Source": "Tsulong",
+      "Source": "Tsulong (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3810,7 +3810,7 @@
     },
     "89843": {
       "Name": "Grasps of Serpentine Might",
-      "Source": "Tsulong",
+      "Source": "Tsulong (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3818,7 +3818,7 @@
     },
     "89883": {
       "Name": "Shoulderpads of Twisted Fate",
-      "Source": "Tsulong",
+      "Source": "Tsulong (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3826,7 +3826,7 @@
     },
     "89884": {
       "Name": "Fear-Blackened Leggings",
-      "Source": "Tsulong",
+      "Source": "Tsulong (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3834,7 +3834,7 @@
     },
     "89885": {
       "Name": "Waterborne Shoulderguards",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3842,7 +3842,7 @@
     },
     "89886": {
       "Name": "Wrap of Instant Petrification",
-      "Source": "Sha of Fear",
+      "Source": "Sha of Fear (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3850,7 +3850,7 @@
     },
     "89887": {
       "Name": "Robes of Pinioned Eyes",
-      "Source": "Sha of Fear",
+      "Source": "Sha of Fear (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3858,7 +3858,7 @@
     },
     "89917": {
       "Name": "Pheromone-Coated Choker",
-      "Source": "Imperial Vizier Zor'lok",
+      "Source": "Imperial Vizier Zor'lok (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3866,7 +3866,7 @@
     },
     "89918": {
       "Name": "Scent-Soaked Sandals",
-      "Source": "Imperial Vizier Zor'lok",
+      "Source": "Imperial Vizier Zor'lok (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3874,7 +3874,7 @@
     },
     "89919": {
       "Name": "Warbelt of Sealed Pods",
-      "Source": "Imperial Vizier Zor'lok",
+      "Source": "Imperial Vizier Zor'lok (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3882,7 +3882,7 @@
     },
     "89920": {
       "Name": "Sword Dancer's Leggings",
-      "Source": "Blade Lord Ta'yak",
+      "Source": "Blade Lord Ta'yak (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3890,7 +3890,7 @@
     },
     "89921": {
       "Name": "Pauldrons of the Broken Blade",
-      "Source": "Blade Lord Ta'yak",
+      "Source": "Blade Lord Ta'yak (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3898,7 +3898,7 @@
     },
     "89922": {
       "Name": "Hood of Stilled Winds",
-      "Source": "Blade Lord Ta'yak",
+      "Source": "Blade Lord Ta'yak (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3906,7 +3906,7 @@
     },
     "89926": {
       "Name": "Shadow Heart Spaulders",
-      "Source": "Grand Empress Shek'zeer",
+      "Source": "Grand Empress Shek'zeer (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3914,7 +3914,7 @@
     },
     "89927": {
       "Name": "Hood of Dark Dreams",
-      "Source": "Grand Empress Shek'zeer",
+      "Source": "Grand Empress Shek'zeer (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3922,7 +3922,7 @@
     },
     "89928": {
       "Name": "Legplates of Regal Reinforcement",
-      "Source": "Grand Empress Shek'zeer",
+      "Source": "Grand Empress Shek'zeer (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3970,7 +3970,7 @@
     },
     "89935": {
       "Name": "Bracers of Violent Meditation",
-      "Source": "The Spirit Kings",
+      "Source": "The Spirit Kings (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -3978,7 +3978,7 @@
     },
     "89936": {
       "Name": "Mindshard Drape",
-      "Source": "The Spirit Kings",
+      "Source": "The Spirit Kings (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -3986,7 +3986,7 @@
     },
     "89937": {
       "Name": "Band of Bursting Novas",
-      "Source": "Elegon",
+      "Source": "Elegon (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -3994,7 +3994,7 @@
     },
     "89938": {
       "Name": "Galaxyfire Girdle",
-      "Source": "Elegon",
+      "Source": "Elegon (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -4002,7 +4002,7 @@
     },
     "89939": {
       "Name": "Crown of Keening Stars",
-      "Source": "Elegon",
+      "Source": "Elegon (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -4010,7 +4010,7 @@
     },
     "89943": {
       "Name": "Legguards of Failing Purification",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4018,7 +4018,7 @@
     },
     "89944": {
       "Name": "Waterborne Shoulderguards",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4026,7 +4026,7 @@
     },
     "89945": {
       "Name": "Gauntlets of the Shadow's Caress",
-      "Source": "Tsulong",
+      "Source": "Tsulong (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4034,7 +4034,7 @@
     },
     "89946": {
       "Name": "Grasps of Serpentine Might",
-      "Source": "Tsulong",
+      "Source": "Tsulong (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4042,7 +4042,7 @@
     },
     "89947": {
       "Name": "Shoulderpads of Twisted Fate",
-      "Source": "Tsulong",
+      "Source": "Tsulong (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4050,7 +4050,7 @@
     },
     "89948": {
       "Name": "Fear-Blackened Leggings",
-      "Source": "Tsulong",
+      "Source": "Tsulong (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4058,7 +4058,7 @@
     },
     "89949": {
       "Name": "Robes of Pinioned Eyes",
-      "Source": "Sha of Fear",
+      "Source": "Sha of Fear (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4066,7 +4066,7 @@
     },
     "89950": {
       "Name": "Wrap of Instant Petrification",
-      "Source": "Sha of Fear",
+      "Source": "Sha of Fear (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4074,7 +4074,7 @@
     },
     "89951": {
       "Name": "Shadowgrip Girdle",
-      "Source": "Sha of Fear",
+      "Source": "Sha of Fear (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4082,7 +4082,7 @@
     },
     "89952": {
       "Name": "Pheromone-Coated Choker",
-      "Source": "Imperial Vizier Zor'lok",
+      "Source": "Imperial Vizier Zor'lok (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4090,7 +4090,7 @@
     },
     "89953": {
       "Name": "Scent-Soaked Sandals",
-      "Source": "Imperial Vizier Zor'lok",
+      "Source": "Imperial Vizier Zor'lok (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4098,7 +4098,7 @@
     },
     "89954": {
       "Name": "Warbelt of Sealed Pods",
-      "Source": "Imperial Vizier Zor'lok",
+      "Source": "Imperial Vizier Zor'lok (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4106,7 +4106,7 @@
     },
     "89955": {
       "Name": "Sword Dancer's Leggings",
-      "Source": "Blade Lord Ta'yak",
+      "Source": "Blade Lord Ta'yak (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4114,7 +4114,7 @@
     },
     "89956": {
       "Name": "Pauldrons of the Broken Blade",
-      "Source": "Blade Lord Ta'yak",
+      "Source": "Blade Lord Ta'yak (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4122,7 +4122,7 @@
     },
     "89957": {
       "Name": "Hood of Stilled Winds",
-      "Source": "Blade Lord Ta'yak",
+      "Source": "Blade Lord Ta'yak (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4130,7 +4130,7 @@
     },
     "89958": {
       "Name": "Garalon's Graven Carapace",
-      "Source": "Garalon",
+      "Source": "Garalon (LFR) & Garalon (N) & Garalon (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4138,7 +4138,7 @@
     },
     "89959": {
       "Name": "Shoulders of Foaming Fluids",
-      "Source": "Garalon",
+      "Source": "Garalon (LFR) & Garalon (N) & Garalon (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4146,7 +4146,7 @@
     },
     "89960": {
       "Name": "Vestments of Steaming Ichor",
-      "Source": "Garalon",
+      "Source": "Garalon (LFR) & Garalon (N) & Garalon (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4154,7 +4154,7 @@
     },
     "89961": {
       "Name": "Shadow Heart Spaulders",
-      "Source": "Grand Empress Shek'zeer",
+      "Source": "Grand Empress Shek'zeer (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4162,7 +4162,7 @@
     },
     "89962": {
       "Name": "Hood of Dark Dreams",
-      "Source": "Grand Empress Shek'zeer",
+      "Source": "Grand Empress Shek'zeer (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4170,7 +4170,7 @@
     },
     "89963": {
       "Name": "Legplates of Regal Reinforcement",
-      "Source": "Grand Empress Shek'zeer",
+      "Source": "Grand Empress Shek'zeer (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4218,7 +4218,7 @@
     },
     "89970": {
       "Name": "Bracers of Violent Meditation",
-      "Source": "The Spirit Kings",
+      "Source": "The Spirit Kings (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -4226,7 +4226,7 @@
     },
     "89971": {
       "Name": "Mindshard Drape",
-      "Source": "The Spirit Kings",
+      "Source": "The Spirit Kings (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -4234,7 +4234,7 @@
     },
     "89972": {
       "Name": "Band of Bursting Novas",
-      "Source": "Elegon",
+      "Source": "Elegon (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -4242,7 +4242,7 @@
     },
     "89973": {
       "Name": "Galaxyfire Girdle",
-      "Source": "Elegon",
+      "Source": "Elegon (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -4250,7 +4250,7 @@
     },
     "89974": {
       "Name": "Crown of Keening Stars",
-      "Source": "Elegon",
+      "Source": "Elegon (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -4258,7 +4258,7 @@
     },
     "89975": {
       "Name": "Dreadeye Gaze",
-      "Source": "Will of the Emperor",
+      "Source": "Will of the Emperor (LFR) & Will of the Emperor (N) & Will of the Emperor (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -4266,7 +4266,7 @@
     },
     "89976": {
       "Name": "Chestguard of Eternal Vigilance",
-      "Source": "Will of the Emperor",
+      "Source": "Will of the Emperor (LFR) & Will of the Emperor (N) & Will of the Emperor (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -4274,7 +4274,7 @@
     },
     "89977": {
       "Name": "Enameled Grips of Solemnity",
-      "Source": "Will of the Emperor",
+      "Source": "Will of the Emperor (LFR) & Will of the Emperor (N) & Will of the Emperor (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -4282,7 +4282,7 @@
     },
     "89978": {
       "Name": "Legguards of Failing Purification",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4290,7 +4290,7 @@
     },
     "89979": {
       "Name": "Waterborne Shoulderguards",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4298,7 +4298,7 @@
     },
     "89980": {
       "Name": "Gauntlets of the Shadow's Caress",
-      "Source": "Tsulong",
+      "Source": "Tsulong (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4306,7 +4306,7 @@
     },
     "89981": {
       "Name": "Grasps of Serpentine Might",
-      "Source": "Tsulong",
+      "Source": "Tsulong (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4314,7 +4314,7 @@
     },
     "89982": {
       "Name": "Shoulderpads of Twisted Fate",
-      "Source": "Tsulong",
+      "Source": "Tsulong (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4322,7 +4322,7 @@
     },
     "89983": {
       "Name": "Fear-Blackened Leggings",
-      "Source": "Tsulong",
+      "Source": "Tsulong (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4330,7 +4330,7 @@
     },
     "89984": {
       "Name": "Robes of Pinioned Eyes",
-      "Source": "Sha of Fear",
+      "Source": "Sha of Fear (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4338,7 +4338,7 @@
     },
     "89985": {
       "Name": "Wrap of Instant Petrification",
-      "Source": "Sha of Fear",
+      "Source": "Sha of Fear (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4346,7 +4346,7 @@
     },
     "89986": {
       "Name": "Shadowgrip Girdle",
-      "Source": "Sha of Fear",
+      "Source": "Sha of Fear (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4354,7 +4354,7 @@
     },
     "90503": {
       "Name": "Regail's Band of the Endless",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4362,7 +4362,7 @@
     },
     "90504": {
       "Name": "Legguards of Failing Purification",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4370,7 +4370,7 @@
     },
     "90505": {
       "Name": "Waterborne Shoulderguards",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4378,7 +4378,7 @@
     },
     "90506": {
       "Name": "Bracers of Defiled Earth",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4386,7 +4386,7 @@
     },
     "90507": {
       "Name": "Deepwater Greatboots",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4394,7 +4394,7 @@
     },
     "90508": {
       "Name": "Shackle of Eversparks",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4402,7 +4402,7 @@
     },
     "90509": {
       "Name": "Kaolan's Withering Necklace",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4410,7 +4410,7 @@
     },
     "90510": {
       "Name": "Cuffs of the Corrupted Waters",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4418,7 +4418,7 @@
     },
     "90511": {
       "Name": "Watersoul Signet",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4426,7 +4426,7 @@
     },
     "90512": {
       "Name": "Cloak of Overwhelming Corruption",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4434,7 +4434,7 @@
     },
     "90513": {
       "Name": "Regail's Crackling Dagger",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4442,7 +4442,7 @@
     },
     "90514": {
       "Name": "Asani's Uncleansed Sandals",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4450,7 +4450,7 @@
     },
     "90515": {
       "Name": "Lightning Prisoner's Boots",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4458,7 +4458,7 @@
     },
     "90516": {
       "Name": "Casque of Expelled Corruption",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4466,7 +4466,7 @@
     },
     "90517": {
       "Name": "Regail's Band of the Endless",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4474,7 +4474,7 @@
     },
     "90518": {
       "Name": "Legguards of Failing Purification",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4482,7 +4482,7 @@
     },
     "90519": {
       "Name": "Waterborne Shoulderguards",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4490,7 +4490,7 @@
     },
     "90520": {
       "Name": "Bracers of Defiled Earth",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4498,7 +4498,7 @@
     },
     "90521": {
       "Name": "Deepwater Greatboots",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4506,7 +4506,7 @@
     },
     "90522": {
       "Name": "Shackle of Eversparks",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4514,7 +4514,7 @@
     },
     "90523": {
       "Name": "Kaolan's Withering Necklace",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4522,7 +4522,7 @@
     },
     "90524": {
       "Name": "Cuffs of the Corrupted Waters",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4530,7 +4530,7 @@
     },
     "90525": {
       "Name": "Watersoul Signet",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4538,7 +4538,7 @@
     },
     "90526": {
       "Name": "Cloak of Overwhelming Corruption",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4546,7 +4546,7 @@
     },
     "90527": {
       "Name": "Regail's Crackling Dagger",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4554,7 +4554,7 @@
     },
     "90528": {
       "Name": "Asani's Uncleansed Sandals",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4562,7 +4562,7 @@
     },
     "90529": {
       "Name": "Lightning Prisoner's Boots",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4570,7 +4570,7 @@
     },
     "90530": {
       "Name": "Casque of Expelled Corruption",
-      "Source": "Protector Kaolan",
+      "Source": "Protector Kaolan (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4578,7 +4578,7 @@
     },
     "90738": {
       "Name": "Kaz'tik's Stormseizer Gauntlets",
-      "Source": "Blade Lord Ta'yak",
+      "Source": "Blade Lord Ta'yak (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4586,7 +4586,7 @@
     },
     "90739": {
       "Name": "Kaz'tik's Stormseizer Gauntlets",
-      "Source": "Blade Lord Ta'yak",
+      "Source": "Blade Lord Ta'yak (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4594,7 +4594,7 @@
     },
     "90740": {
       "Name": "Kaz'tik's Stormseizer Gauntlets",
-      "Source": "Blade Lord Ta'yak",
+      "Source": "Blade Lord Ta'yak (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
