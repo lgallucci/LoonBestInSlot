@@ -343,8 +343,8 @@ local function createDropDowns(window)
 
     local function getZoneItems()
         local items = { LBIS.L["Temple of the Jade Serpent"], LBIS.L["Stormstout Brewery"], LBIS.L["Mogu'shan Palace"], 
-        LBIS.L["Shado-Pan Monastery"], LBIS.L["Gate of the Setting Sun"], LBIS.L["Siege of Niuzao Temple"] }-- Phase 0
-
+        LBIS.L["Shado-Pan Monastery"], LBIS.L["Gate of the Setting Sun"], LBIS.L["Siege of Niuzao Temple"],
+        LBIS.L["Heroic: Scarlet Halls"], LBIS.L["Heroic: Scarlet Monestary"], LBIS.L["Heroic: Scholomance"]  }-- Phase 0
 
         if LBIS.CurrentPhase >= 1 then            
             table.insert(items, LBIS.L["Mogu'shan Vaults"]);

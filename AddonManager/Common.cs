@@ -228,35 +228,37 @@ public static class Common
     {
         if (rowElements != null && rowElements.Length > 0)
         {
+            if (rowElements.Length == 50)
+                System.Diagnostics.Debug.WriteLine($"Warning: Found 50 items in {uri}, this is likely a bug in the importer, please report it!");
             foreach (var row in rowElements)
-            {
-                var success = false;
-                var itemId = 0; // Get ItemId from Row
-                var itemName = "";
-
-                RecursiveBoxSearch(row.Children[2], (anchorObject) =>
                 {
-                    if (success) return true;
+                    var success = false;
+                    var itemId = 0; // Get ItemId from Row
+                    var itemName = "";
 
-                    var item = ((IHtmlAnchorElement)anchorObject).PathName.Replace("/mop-classic/", "/").Replace("/item=", "").Replace("/spell=", "");
-                    itemName = anchorObject.TextContent;
-
-                    var itemIdIndex = item.IndexOf("/");
-                    if (itemIdIndex == -1)
-                        itemIdIndex = item.IndexOf("&");
-
-                    if (itemIdIndex > -1)
+                    RecursiveBoxSearch(row.Children[2], (anchorObject) =>
                     {
-                        item = item.Substring(0, itemIdIndex);
+                        if (success) return true;
 
-                        success = Int32.TryParse(item, out itemId);
+                        var item = ((IHtmlAnchorElement)anchorObject).PathName.Replace("/mop-classic/", "/").Replace("/item=", "").Replace("/spell=", "");
+                        itemName = anchorObject.TextContent;
 
-                        func(uri, row, itemId, anchorObject);
-                    }
-                    return success;
-                });
+                        var itemIdIndex = item.IndexOf("/");
+                        if (itemIdIndex == -1)
+                            itemIdIndex = item.IndexOf("&");
 
-            }
+                        if (itemIdIndex > -1)
+                        {
+                            item = item.Substring(0, itemIdIndex);
+
+                            success = Int32.TryParse(item, out itemId);
+
+                            func(uri, row, itemId, anchorObject);
+                        }
+                        return success;
+                    });
+
+                }
         }
     }
 }
