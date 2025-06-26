@@ -375,7 +375,7 @@ public (Dictionary<int, GemSpec>, Dictionary<int, EnchantSpec>, Dictionary<int, 
     {
         if (anchorElement.PathName.Contains("/item="))
         {
-            var item = anchorElement.PathName.Replace("/wotlk", "").Replace("/cata/", "/").Replace("/item=", "");
+            var item = anchorElement.PathName.Replace("/wotlk", "").Replace("/mop-classic/", "/").Replace("/item=", "");
             var itemIdIndex = item.IndexOf("/");
             if (itemIdIndex == -1)
                 itemIdIndex = item.IndexOf("&");
@@ -419,7 +419,7 @@ public (Dictionary<int, GemSpec>, Dictionary<int, EnchantSpec>, Dictionary<int, 
         else
             return;
 
-        var item = enchantAnchor.PathName.Replace("/wotlk", "").Replace("/cata/", "/").Replace("/item=", "").Replace("/spell=", "");
+        var item = enchantAnchor.PathName.Replace("/wotlk", "").Replace("/mop-classic/", "/").Replace("/item=", "").Replace("/spell=", "");
         var itemIdIndex = item.IndexOf("/");
         if (itemIdIndex == -1)
             itemIdIndex = item.IndexOf("&");
@@ -532,7 +532,7 @@ public (Dictionary<int, GemSpec>, Dictionary<int, EnchantSpec>, Dictionary<int, 
 
             if (child.PathName.Contains("/item="))
             {
-                var item = child.PathName.Replace("/wotlk", "").Replace("/cata/", "/").Replace("/item=", "");
+                var item = child.PathName.Replace("/wotlk", "").Replace("/mop-classic/", "/").Replace("/item=", "");
 
                 var itemIdIndex = item.IndexOf("/");
                 if (itemIdIndex == -1)

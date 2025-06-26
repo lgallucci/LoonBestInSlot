@@ -10,11 +10,11 @@ public class VendorImporter : LootImporter
 {
     private Dictionary<string, (string, string)> wowheadUriList = new Dictionary<string, (string, string)>
     {
-        { @"https://www.wowhead.com/cata/npc=52822/zenvorka#sells", ("Zen'Vorka", "Molten Front") },
-        { @"https://www.wowhead.com/cata/npc=53881/ayla-shadowstorm", ("Ayla Shadowstorm", "Molten Front")},
-        { @"https://www.wowhead.com/cata/npc=53214/damek-bloombeard", ("Damek Bloombeard", "Molten Front")},
-        { @"https://www.wowhead.com/cata/npc=53882/varlan-highbough", ("Varlan Highbough", "Molten Front")},
-        { @"https://www.wowhead.com/cata/npc=54402/lurah-wrathvine", ("Lurah Wrathvine", "Mount Hyjal")}
+        { @"https://www.wowhead.com/mop-classic/npc=52822/zenvorka#sells", ("Zen'Vorka", "Molten Front") },
+        { @"https://www.wowhead.com/mop-classic/npc=53881/ayla-shadowstorm", ("Ayla Shadowstorm", "Molten Front")},
+        { @"https://www.wowhead.com/mop-classic/npc=53214/damek-bloombeard", ("Damek Bloombeard", "Molten Front")},
+        { @"https://www.wowhead.com/mop-classic/npc=53882/varlan-highbough", ("Varlan Highbough", "Molten Front")},
+        { @"https://www.wowhead.com/mop-classic/npc=54402/lurah-wrathvine", ("Lurah Wrathvine", "Mount Hyjal")}
     };
 
     internal override string FileName { get => "VendorItemList"; }

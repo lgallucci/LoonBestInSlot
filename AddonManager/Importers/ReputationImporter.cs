@@ -8,11 +8,11 @@ public class ReputationImporter : LootImporter
 {
     private Dictionary<string, string> wowheadUriList = new Dictionary<string, string>
     {
-        { @"https://www.wowhead.com/cata/npc=50314/provisioner-whitecloud", "Guardians of Hyjal, B" },
-        { @"https://www.wowhead.com/cata/npc=54401/naresir-stormfury", "Avengers of Hyjal, B" },
-        { @"https://www.wowhead.com/cata/npc=45408/dlom-the-collector", "Therazane, B" },
-        { @"https://www.wowhead.com/cata/npc=48617/blacksmith-abasi", "Ramkahen, B" },
-        { @"https://www.wowhead.com/cata/npc=50324/provisioner-arok", "The Earthen Ring, B" },
+        { @"https://www.wowhead.com/mop-classic/npc=50314/provisioner-whitecloud", "Guardians of Hyjal, B" },
+        { @"https://www.wowhead.com/mop-classic/npc=54401/naresir-stormfury", "Avengers of Hyjal, B" },
+        { @"https://www.wowhead.com/mop-classic/npc=45408/dlom-the-collector", "Therazane, B" },
+        { @"https://www.wowhead.com/mop-classic/npc=48617/blacksmith-abasi", "Ramkahen, B" },
+        { @"https://www.wowhead.com/mop-classic/npc=50324/provisioner-arok", "The Earthen Ring, B" },
         { @"https://www.wowhead.com/npc=49386/craw-macgraw", "The Wildhammer Clan, A" },
         { @"https://www.wowhead.com/npc=49387/grot-deathblow", "The Dragonmaw Clan, H" },
         { @"https://www.wowhead.com/npc=47328/quartermaster-brazie", "Baradin's Wardens, A" },

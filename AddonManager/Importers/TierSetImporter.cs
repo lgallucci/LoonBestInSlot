@@ -111,7 +111,7 @@ public class TierSetImporter : LootImporter
                     if (cellAnchor != null)
                     {
                         int itemId = 0;
-                        var item = cellAnchor.PathName.Replace("/cata/", "/").Replace("/item=", "");
+                        var item = cellAnchor.PathName.Replace("/mop-classic/", "/").Replace("/item=", "");
 
                         var itemIdIndex = item.IndexOf("/");
                         if (itemIdIndex == -1)
@@ -133,7 +133,7 @@ public class TierSetImporter : LootImporter
 
                         var tokens = string.Empty;
                         Common.RecursiveBoxSearch(row.Children[10], (anchor) => {
-                            var token = anchor.PathName.Replace("/cata/", "/").Replace("/item=", "");
+                            var token = anchor.PathName.Replace("/mop-classic/", "/").Replace("/item=", "");
 
                             var tokenIdIndex = token.IndexOf("/");
                             if (tokenIdIndex == -1)

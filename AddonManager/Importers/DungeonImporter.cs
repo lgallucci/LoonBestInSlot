@@ -20,13 +20,12 @@ public class DungeonImporter : LootImporter
     };
     private Dictionary<string, string> dungeonUriList = new Dictionary<string, string>
         {
-            { @"https://www.wowhead.com/cata/guide/dungeons/zulaman-loot", "Zul'Aman" },
-            { @"https://www.wowhead.com/cata/guide/dungeons/zulgurub-loot", "Zul'Gurub" },
+            { @"https://www.wowhead.com/mop-classic/guide/dungeons/zulaman-loot", "Zul'Aman" },
         };
 
     private Dictionary<string, string> _bossUriList = new Dictionary<string, string>()
     {
-        { @"https://www.wowhead.com/cata/npc=54123/echo-of-sylvanas#drops", "Echo of Sylvanas, End Time"},
+        { @"https://www.wowhead.com/mop-classic/npc=54123/echo-of-sylvanas#drops", "Echo of Sylvanas, End Time"},
     };
 
     public DungeonImporter(CancellationToken cancellationToken) : base(cancellationToken)

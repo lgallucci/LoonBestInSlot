@@ -4,7 +4,7 @@ namespace AddonManager.Models.GuideMappings;
 
 internal class MonkWindwalker : SpecMapping
 {
-    public override string UrlBase => "https://www.wowhead.com/cata/guide/classes/monk/windwalker/";
+    public override string UrlBase => "https://www.wowhead.com/mop-classic/guide/classes/monk/windwalker/";
     public override string Class => "Monk";
     public override string Spec => "Windwalker";
 

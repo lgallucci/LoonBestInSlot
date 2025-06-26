@@ -11,73 +11,12 @@ public class EmblemImporter : LootImporter
 {
     private List<string> wowheadUriList = new List<string>
     {
-        // "https://www.wowhead.com/cata/npc=44245/faldren-tillsdale#sells",
-        // "https://www.wowhead.com/cata/npc=44245/faldren-tillsdale#sells;50",
-        // "https://www.wowhead.com/cata/npc=44245/faldren-tillsdale#sells;100",
-        // "https://www.wowhead.com/cata/npc=44245/faldren-tillsdale#sells;150",
-        // "https://www.wowhead.com/cata/npc=44245/faldren-tillsdale#sells;200",
-        // "https://www.wowhead.com/cata/npc=44245/faldren-tillsdale#sells;250",
-        // "https://www.wowhead.com/cata/npc=44245/faldren-tillsdale#sells;300",
-        // "https://www.wowhead.com/cata/npc=44245/faldren-tillsdale#sells;350",
-        // "https://www.wowhead.com/cata/npc=44245/faldren-tillsdale#sells;400",
-        // "https://www.wowhead.com/cata/npc=44245/faldren-tillsdale#sells;450",
-        // "https://www.wowhead.com/cata/npc=44245/faldren-tillsdale#sells;500",
-        // "https://www.wowhead.com/cata/npc=44245/faldren-tillsdale#sells;550",
-        // "https://www.wowhead.com/cata/npc=44245/faldren-tillsdale#sells;600",
-        // "https://www.wowhead.com/cata/npc=44245/faldren-tillsdale#sells;650",
-        // "https://www.wowhead.com/cata/npc=44245/faldren-tillsdale#sells;700",
-        // "https://www.wowhead.com/cata/npc=44245/faldren-tillsdale#sells;750",
-        // "https://www.wowhead.com/cata/npc=44245/faldren-tillsdale#sells;800",
-        // "https://www.wowhead.com/cata/npc=46556/jamusvaz#sells",
-        // "https://www.wowhead.com/cata/npc=46556/jamusvaz#sells;50",
-        // "https://www.wowhead.com/cata/npc=46556/jamusvaz#sells;100",
-        // "https://www.wowhead.com/cata/npc=46556/jamusvaz#sells;150",
-        // "https://www.wowhead.com/cata/npc=46556/jamusvaz#sells;200",
-        // "https://www.wowhead.com/cata/npc=46556/jamusvaz#sells;250",
-        // "https://www.wowhead.com/cata/npc=46556/jamusvaz#sells;300",
-        // "https://www.wowhead.com/cata/npc=46556/jamusvaz#sells;350",
-        // "https://www.wowhead.com/cata/npc=46556/jamusvaz#sells;400",
-        // "https://www.wowhead.com/cata/npc=46556/jamusvaz#sells;450",
-        // "https://www.wowhead.com/cata/npc=46556/jamusvaz#sells;500",
-        // "https://www.wowhead.com/cata/npc=46556/jamusvaz#sells;550",
-        // "https://www.wowhead.com/cata/npc=46556/jamusvaz#sells;600",
-        // "https://www.wowhead.com/cata/npc=46556/jamusvaz#sells;650",
-        // "https://www.wowhead.com/cata/npc=46556/jamusvaz#sells;700",
-        // "https://www.wowhead.com/cata/npc=46556/jamusvaz#sells;750",
-        // "https://www.wowhead.com/cata/npc=46556/jamusvaz#sells;800",
-        // "https://www.wowhead.com/cata/npc=44246/magatha-silverton#sells",
-        // "https://www.wowhead.com/cata/npc=44246/magatha-silverton#sells;50",
-        // "https://www.wowhead.com/cata/npc=44246/magatha-silverton#sells;100",
-        // "https://www.wowhead.com/cata/npc=44246/magatha-silverton#sells;150",
-        // "https://www.wowhead.com/cata/npc=44246/magatha-silverton#sells;200",
-        // "https://www.wowhead.com/cata/npc=44246/magatha-silverton#sells;250",
-        // "https://www.wowhead.com/cata/npc=44246/magatha-silverton#sells;300",
-        // "https://www.wowhead.com/cata/npc=44246/magatha-silverton#sells;350",
-        // "https://www.wowhead.com/cata/npc=44246/magatha-silverton#sells;400",
-        // "https://www.wowhead.com/cata/npc=44246/magatha-silverton#sells;450",
-        // "https://www.wowhead.com/cata/npc=44246/magatha-silverton#sells;500",
-        // "https://www.wowhead.com/cata/npc=46555/gunra#sells",
-        // "https://www.wowhead.com/cata/npc=46555/gunra#sells;50",
-        // "https://www.wowhead.com/cata/npc=46555/gunra#sells;100",
-        // "https://www.wowhead.com/cata/npc=46555/gunra#sells;150",
-        // "https://www.wowhead.com/cata/npc=46555/gunra#sells;200",
-        // "https://www.wowhead.com/cata/npc=46555/gunra#sells;250",
-        // "https://www.wowhead.com/cata/npc=46555/gunra#sells;300",
-        // "https://www.wowhead.com/cata/npc=46555/gunra#sells;350",
-        // "https://www.wowhead.com/cata/npc=46555/gunra#sells;400",
-        // "https://www.wowhead.com/cata/npc=46555/gunra#sells;450",
-        // "https://www.wowhead.com/cata/npc=46555/gunra#sells;500",
-        "https://www.wowhead.com/cata/npc=241467/sylstrasza#sells;",
-        "https://www.wowhead.com/cata/npc=241467/sylstrasza#sells;50",
-        "https://www.wowhead.com/cata/npc=241467/sylstrasza#sells;100",
-        "https://www.wowhead.com/cata/npc=241468/zarstrasza#sells",
-        "https://www.wowhead.com/cata/npc=241468/zarstrasza#sells;50",
-        "https://www.wowhead.com/cata/npc=241468/zarstrasza#sells;100"
+        // "https://www.wowhead.com/mop-classic/npc=44245/faldren-tillsdale#sells",
     };
 
     private List<string> guideUriList = new List<string>()
     {
-        "https://www.wowhead.com/cata/guide/dungeons/elemental-rune-protocol-inferno-dungeons-overview",
+        "https://www.wowhead.com/mop-classic/guide/dungeons/elemental-rune-protocol-inferno-dungeons-overview",
     };
 
     public EmblemImporter(CancellationToken cancellationToken) : base(cancellationToken)
@@ -100,33 +39,6 @@ public class EmblemImporter : LootImporter
     private Dictionary<int, int> _idSwaps = new Dictionary<int, int>
     {
         {232950, 65374}, //Gale Rouser Belt
-        {232951, 65384}, //Gale Rouser Leggings
-        {232973, 65371}, //Wind Stalker Belt
-        {232974, 65381}, //Wind Stalker Leggings
-        {232965, 65376}, //Soul Breath Belt
-        {232966, 65383}, //Soul Breath Leggings
-        {232948, 69885}, //Cloudburst Necklace
-        {232956, 69880}, //Mistral Pendant
-        {232958, 69883}, //Permafrost Choker
-        {232960, 69882}, //Planetary Amulet
-        {232949, 65382}, //Cloudburst Ring
-        {232954, 65367}, //Mistral Circle
-        {232959, 65372}, //Permafrost Signet
-        {232961, 65373}, //Planetary Band
-        {232947, 69879}, //Cloudburst Cloak
-        {232955, 69884}, //Mistral Drape
-        {232957, 69878}, //Permafrost Cape
-        {232962, 69881}, //Planetary Drape
-        {232952, 65377}, //Lightning Well Belt
-        {232953, 65386}, //Lightning Well Legguards
-        {232967, 65368}, //Star Chaser Belt
-        {232968, 65378}, //Star Chaser Legguards
-        {232963, 65369}, //Sky Strider Belt
-        {232964, 65379}, //Sky Strider Greaves
-        {232969, 65375}, //Tempest Keeper Belt
-        {232970, 65385}, //Tempest Keeper Leggings
-        {232971, 65370}, //Thunder Wall Belt
-        {232972, 65380}, //Thunder Wall Greaves
     };
 
     private async Task ReadFromGuidePage(DatabaseItems items, Action<string> writeToLog)
@@ -150,7 +62,7 @@ public class EmblemImporter : LootImporter
                 {
                     Common.RecursiveBoxSearch(row, (anchorObject) => 
                     {
-                        var item = anchorObject.PathName.Replace("/cata/", "/").Replace("/currency=", "").Replace("/item=", "").Replace("/?item=", "");
+                        var item = anchorObject.PathName.Replace("/mop-classic/", "/").Replace("/currency=", "").Replace("/item=", "").Replace("/?item=", "");
                         var itemName = anchorObject.TextContent.Trim();
                         var itemId = 0;
                         var itemIdIndex = item.IndexOf("/");
@@ -196,7 +108,7 @@ public class EmblemImporter : LootImporter
 
             Common.RecursiveBoxSearch(row.Children[10], (anchorObject) =>
             {
-                var item = anchorObject.PathName.Replace("/cata/", "/").Replace("/currency=", "").Replace("/item=", "").Replace("/?item=", "");
+                var item = anchorObject.PathName.Replace("/mop-classic/", "/").Replace("/currency=", "").Replace("/item=", "").Replace("/?item=", "");
 
                 var currencyIdIndex = item.IndexOf("/");
                 if (currencyIdIndex == -1)

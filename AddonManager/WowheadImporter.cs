@@ -326,7 +326,7 @@ public static class WowheadImporter
         GemSpec? gemSpec = null;
         try 
         {
-            IHtmlDocument? doc = await Common.LoadFromWebPage($"https://www.wowhead.com/cata/item={gemId}#taught-by-item", writeToLog);
+            IHtmlDocument? doc = await Common.LoadFromWebPage($"https://www.wowhead.com/mop-classic/item={gemId}#taught-by-item", writeToLog);
 
             if (doc != null)
             {
@@ -528,13 +528,13 @@ public static class WowheadImporter
         var sources = new Dictionary<int, List<(string, string)>>();
 
         var webAddresses = itemSources.Where((i) => i.Value.SourceType == @"LBIS.L[""unknown""]")
-                                           .Select((i) => $"https://www.wowhead.com/cata/item={i.Key}/");
+                                           .Select((i) => $"https://www.wowhead.com/mop-classic/item={i.Key}/");
         try 
         {
             await Common.LoadFromWebPages(webAddresses, (uri, doc) =>
             {
                 var name = doc.Title?.Replace(" - Item - Cataclysm Classic", "").Trim() ?? "unknown";
-                var itemId = Int32.Parse(uri.Replace("https://www.wowhead.com/cata/item=", "").TrimEnd('/'));
+                var itemId = Int32.Parse(uri.Replace("https://www.wowhead.com/mop-classic/item=", "").TrimEnd('/'));
                 var rowElements = doc.QuerySelectorAll("#tab-dropped-by .listview-mode-default .listview-row");
                 
                 itemSources[itemId].Name = name;

@@ -238,7 +238,7 @@ public static class Common
                 {
                     if (success) return true;
 
-                    var item = ((IHtmlAnchorElement)anchorObject).PathName.Replace("/cata/", "/").Replace("/item=", "").Replace("/spell=", "");
+                    var item = ((IHtmlAnchorElement)anchorObject).PathName.Replace("/mop-classic/", "/").Replace("/item=", "").Replace("/spell=", "");
                     itemName = anchorObject.TextContent;
 
                     var itemIdIndex = item.IndexOf("/");
