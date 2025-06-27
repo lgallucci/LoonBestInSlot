@@ -6,6 +6,9 @@ using System.Reflection.Metadata.Ecma335;
 using System.Windows.Input;
 using Avalonia.Controls;
 using Avalonia.Interactivity;
+using AddonManager.Models;
+using System.Linq;
+using DynamicData;
 
 namespace AddonManager.Avalonia.ViewModels;
 
@@ -16,16 +19,9 @@ public class GuideImporterViewModel : PageViewModelBase
 {
     public GuideImporterViewModel()
     {
-        VersionComboBoxItems.Add("SOD");
-        VersionComboBoxItems.Add("Classic");
-        
-        PhaseComboBoxItems.Add("CurrentPhase");
-        PhaseComboBoxItems.Add("PreRaid");
+        SpecComboBoxItems.AddRange(new ClassSpecGuideMappings().GuideMappings.Select(gm => $"{gm.ClassName}{gm.SpecName}").Distinct());
     }
-
-    public ObservableCollection<string> VersionComboBoxItems { get; set; } = new ObservableCollection<string>();
     public ObservableCollection<string> SpecComboBoxItems { get; set; } = new ObservableCollection<string>();
-    public ObservableCollection<string> PhaseComboBoxItems { get; set; } = new ObservableCollection<string>();
     
     public override bool CanNavigateImport { get => true; protected set => throw new NotImplementedException(); }
     public override bool CanNavigateGuide { get => false; protected set => throw new NotImplementedException(); }
