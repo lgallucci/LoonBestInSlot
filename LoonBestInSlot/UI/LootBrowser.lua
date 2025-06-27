@@ -295,6 +295,9 @@ local function createDropDowns(window)
         if LBIS.CurrentPhase >= 4 then
             table.insert(phases, LBIS.L["Phase 4"]);
         end
+        if LBIS.CurrentPhase >= 5 then
+            table.insert(phases, LBIS.L["Phase 5"]);
+        end
         table.insert(phases, LBIS.L["BIS"]);
         return phases;
     end
@@ -331,7 +334,8 @@ local function createDropDowns(window)
         ['name']='source',
         ['parent']=window,
         ['title']='Source:',
-        ['items']= { LBIS.L["All"], LBIS.L["Drop"], LBIS.L["Profession"], LBIS.L["Reputation"], LBIS.L["Token"], LBIS.L["Vendor"], LBIS.L["Quest"], LBIS.L["PvP"] },
+        ['items']= { LBIS.L["All"], LBIS.L["Drop"], LBIS.L["Profession"], LBIS.L["Reputation"], LBIS.L["Token"], 
+            LBIS.L["Vendor"], LBIS.L["Quest"], LBIS.L["PvP"] },
         ['defaultVal']= LBISSettings.SelectedSourceType,
         ['changeFunc']=function(dropdown_frame, dropdown_val)
             LBISSettings.SelectedSourceType = dropdown_val;
@@ -343,8 +347,8 @@ local function createDropDowns(window)
 
     local function getZoneItems()
         local items = { LBIS.L["Temple of the Jade Serpent"], LBIS.L["Stormstout Brewery"], LBIS.L["Mogu'shan Palace"], 
-        LBIS.L["Shado-Pan Monastery"], LBIS.L["Gate of the Setting Sun"], LBIS.L["Siege of Niuzao Temple"],
-        LBIS.L["Heroic: Scarlet Halls"], LBIS.L["Heroic: Scarlet Monestary"], LBIS.L["Heroic: Scholomance"]  }-- Phase 0
+            LBIS.L["Shado-Pan Monastery"], LBIS.L["Gate of the Setting Sun"], LBIS.L["Siege of Niuzao Temple"],
+            LBIS.L["Heroic: Scarlet Halls"], LBIS.L["Heroic: Scarlet Monestary"], LBIS.L["Heroic: Scholomance"]  }-- Phase 0
 
         if LBIS.CurrentPhase >= 1 then            
             table.insert(items, LBIS.L["Mogu'shan Vaults"]);
