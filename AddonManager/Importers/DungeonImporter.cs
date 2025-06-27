@@ -108,8 +108,8 @@ public class DungeonImporter : LootImporter
     private void InternalItemsParse(Dictionary<string, string> uriList, string webAddress, IElement row, int itemId, int itemLevel, IElement item, DatabaseItems items)
     {
         var itemName = item.TextContent;
-        var isPurple = (item.ClassName?.Contains("q4") ?? false) || (item.ClassName?.Contains("q5") ?? false);
-        if (!isPurple) return;
+        var isBlue = (item.ClassName?.Contains("q3") ?? false) || (item.ClassName?.Contains("q4") ?? false) || (item.ClassName?.Contains("q5") ?? false);
+        if (!isBlue) return;
         if (excludedWords.Any(w => itemName.Contains(w))) return;
 
         var sourceFaction = "B";
