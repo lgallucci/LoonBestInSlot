@@ -1,4 +1,4 @@
-## Interface: 40400
+## Interface: 50500
 ## X-Min-Interface: 100206
 ## X-Min-Interface-Classic: 11501
 ## X-Min-Interface-BCC: 20504
@@ -9,7 +9,7 @@
 ## OptionalDeps: LinkWrangler
 ## SavedVariables: LBISServerSettings
 ## SavedVariablesPerCharacter: LBISSettings
-## Version: 4.8.0
+## Version: 6.0.0
 
 libs\LibStub.lua
 libs\CallbackHandler-1.0.lua
