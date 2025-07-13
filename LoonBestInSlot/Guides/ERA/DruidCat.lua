@@ -9,14 +9,15 @@ local function LoadData()
     local spec7 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Cat"], "7")
     local spec8 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Cat"], "8")
 
-    LBIS:AddEnchant(spec4, "15402", LBIS.L["Head/Legs"]) --
-    LBIS:AddEnchant(spec4, "22599", LBIS.L["Shoulder"]) --
-    LBIS:AddEnchant(spec4, "13882", LBIS.L["Back"]) --
-    LBIS:AddEnchant(spec4, "20025", LBIS.L["Chest"]) --
-    LBIS:AddEnchant(spec4, "20010", LBIS.L["Wrist"]) --
-    LBIS:AddEnchant(spec4, "20012", LBIS.L["Hands"]) --
-    LBIS:AddEnchant(spec4, "13890", LBIS.L["Feet"]) --
-    LBIS:AddEnchant(spec4, "7218", LBIS.L["Main Hand"]) --
+    LBIS:AddEnchant(spec5, "15402", LBIS.L["Head"]) --
+    LBIS:AddEnchant(spec5, "24422", LBIS.L["Shoulder"]) --
+    LBIS:AddEnchant(spec5, "13882", LBIS.L["Back"]) --
+    LBIS:AddEnchant(spec5, "20025", LBIS.L["Chest"]) --
+    LBIS:AddEnchant(spec5, "20010", LBIS.L["Wrist"]) --
+    LBIS:AddEnchant(spec5, "25080", LBIS.L["Hands"]) --
+    LBIS:AddEnchant(spec5, "22840", LBIS.L["Legs"]) --
+    LBIS:AddEnchant(spec5, "13890", LBIS.L["Feet"]) --
+    LBIS:AddEnchant(spec5, "7218", LBIS.L["Main Hand"]) --
 
     LBIS:AddItem(spec1, "8345", LBIS.L["Head"], "BIS") --Wolfshead Helm
     LBIS:AddItem(spec1, "13404", LBIS.L["Head"], "Alt") --Mask of the Unforgiven
@@ -313,6 +314,98 @@ local function LoadData()
     LBIS:AddItem(spec4, "18867", LBIS.L["Main Hand"], "Alt") --Grand Marshal's Battle Hammer
     LBIS:AddItem(spec4, "18868", LBIS.L["Main Hand"], "Alt") --High Warlord's Pulverizer
     LBIS:AddItem(spec4, "23198", LBIS.L["Ranged/Relic"], "BIS") --Idol of Brutality
+
+    LBIS:AddItem(spec5, "8345", LBIS.L["Head"], "BIS") --Wolfshead Helm
+    LBIS:AddItem(spec5, "21455", LBIS.L["Head"], "Alt") --Southwind Helm
+    LBIS:AddItem(spec5, "16451", LBIS.L["Head"], "Alt") --Field Marshal's Dragonhide Helmet
+    LBIS:AddItem(spec5, "16550", LBIS.L["Head"], "Alt") --Warlord's Dragonhide Helmet
+    LBIS:AddItem(spec5, "23308", LBIS.L["Head"], "Alt") --Lieutenant Commander's Dragonhide Headguard
+    LBIS:AddItem(spec5, "23253", LBIS.L["Head"], "Alt") --Champion's Dragonhide Headguard
+    LBIS:AddItem(spec5, "13404", LBIS.L["Head"], "Alt") --Mask of the Unforgiven
+    LBIS:AddItem(spec5, "16707", LBIS.L["Head"], "Alt") --Shadowcraft Cap
+    LBIS:AddItem(spec5, "18698", LBIS.L["Head"], "Alt") --Tattered Leather Hood
+    LBIS:AddItem(spec5, "21665", LBIS.L["Shoulder"], "BIS") --Mantle of Wicked Revenge
+    LBIS:AddItem(spec5, "16551", LBIS.L["Shoulder"], "Alt") --Warlord's Dragonhide Epaulets
+    LBIS:AddItem(spec5, "16449", LBIS.L["Shoulder"], "Alt") --Field Marshal's Dragonhide Spaulders
+    LBIS:AddItem(spec5, "19389", LBIS.L["Shoulder"], "Alt") --Taut Dragonhide Shoulderpads
+    LBIS:AddItem(spec5, "12927", LBIS.L["Shoulder"], "Alt") --Truestrike Shoulders
+    LBIS:AddItem(spec5, "23309", LBIS.L["Shoulder"], "Alt") --Lieutenant Commander's Dragonhide Shoulders
+    LBIS:AddItem(spec5, "23254", LBIS.L["Shoulder"], "Alt") --Champion's Dragonhide Shoulders
+    LBIS:AddItem(spec5, "21710", LBIS.L["Back"], "BIS") --Cloak of the Fallen God
+    LBIS:AddItem(spec5, "21701", LBIS.L["Back"], "Alt") --Cloak of Concentrated Hatred
+    LBIS:AddItem(spec5, "18541", LBIS.L["Back"], "Alt") --Puissant Cape
+    LBIS:AddItem(spec5, "19398", LBIS.L["Back"], "Alt") --Cloak of Firemaw
+    LBIS:AddItem(spec5, "18689", LBIS.L["Back"], "Alt") --Phantasmal Cloak
+    LBIS:AddItem(spec5, "21680", LBIS.L["Chest"], "BIS") --Vest of Swift Execution
+    LBIS:AddItem(spec5, "19405", LBIS.L["Chest"], "Alt") --Malfurion's Blessed Bulwark
+    LBIS:AddItem(spec5, "16452", LBIS.L["Chest"], "Alt") --Field Marshal's Dragonhide Breastplate
+    LBIS:AddItem(spec5, "16549", LBIS.L["Chest"], "Alt") --Warlord's Dragonhide Hauberk
+    LBIS:AddItem(spec5, "12757", LBIS.L["Chest"], "Alt") --Breastplate of Bloodthirst
+    LBIS:AddItem(spec5, "23294", LBIS.L["Chest"], "Alt") --Knight-Captain's Dragonhide Chestpiece
+    LBIS:AddItem(spec5, "22877", LBIS.L["Chest"], "Alt") --Legionnaire's Dragonhide Chestpiece
+    LBIS:AddItem(spec5, "19439", LBIS.L["Chest"], "Alt") --Interlaced Shadow Jerkin
+    LBIS:AddItem(spec5, "21602", LBIS.L["Wrist"], "BIS") --Qiraji Execution Bracers
+    LBIS:AddItem(spec5, "19587", LBIS.L["Wrist"], "BIS") --Forest Stalker's Bracers
+    LBIS:AddItem(spec5, "19146", LBIS.L["Wrist"], "Alt") --Wristguards of Stability
+    LBIS:AddItem(spec5, "18375", LBIS.L["Wrist"], "Alt") --Bracers of the Eclipse
+    LBIS:AddItem(spec5, "22204", LBIS.L["Wrist"], "Alt") --Wristguards of Renown
+    LBIS:AddItem(spec5, "18700", LBIS.L["Wrist"], "Alt") --Malefic Bracers
+    LBIS:AddItem(spec5, "21672", LBIS.L["Hands"], "BIS") --Gloves of Enforcement
+    LBIS:AddItem(spec5, "21605", LBIS.L["Hands"], "Alt") --Gloves of the Hidden Temple
+    LBIS:AddItem(spec5, "16448", LBIS.L["Hands"], "Alt") --Marshal's Dragonhide Gauntlets
+    LBIS:AddItem(spec5, "16555", LBIS.L["Hands"], "Alt") --General's Dragonhide Gloves
+    LBIS:AddItem(spec5, "15063", LBIS.L["Hands"], "Alt") --Devilsaur Gauntlets
+    LBIS:AddItem(spec5, "18544", LBIS.L["Hands"], "Alt") --Doomhide Gauntlets
+    LBIS:AddItem(spec5, "18823", LBIS.L["Hands"], "Alt") --Aged Core Leather Gloves
+    LBIS:AddItem(spec5, "21586", LBIS.L["Waist"], "BIS") --Belt of Never-ending Agony
+    LBIS:AddItem(spec5, "19396", LBIS.L["Waist"], "Alt") --Taut Dragonhide Belt
+    LBIS:AddItem(spec5, "20045", LBIS.L["Waist"], "Alt") --Highlander's Leather Girdle
+    LBIS:AddItem(spec5, "20190", LBIS.L["Waist"], "Alt") --Defiler's Leather Girdle
+    LBIS:AddItem(spec5, "19163", LBIS.L["Waist"], "Alt") --Molten Belt
+    LBIS:AddItem(spec5, "13252", LBIS.L["Waist"], "Alt") --Cloudrunner Girdle
+    LBIS:AddItem(spec5, "19093", LBIS.L["Waist"], "Alt") --Stormpike Leather Girdle
+    LBIS:AddItem(spec5, "19089", LBIS.L["Waist"], "Alt") --Frostwolf Leather Belt
+    LBIS:AddItem(spec5, "16450", LBIS.L["Legs"], "BIS") --Marshal's Dragonhide Legguards
+    LBIS:AddItem(spec5, "16552", LBIS.L["Legs"], "BIS") --General's Dragonhide Leggings
+    LBIS:AddItem(spec5, "21356", LBIS.L["Legs"], "Alt") --Genesis Trousers
+    LBIS:AddItem(spec5, "22749", LBIS.L["Legs"], "Alt") --Sentinel's Leather Pants
+    LBIS:AddItem(spec5, "22740", LBIS.L["Legs"], "Alt") --Outrider's Leather Pants
+    LBIS:AddItem(spec5, "15062", LBIS.L["Legs"], "Alt") --Devilsaur Leggings
+    LBIS:AddItem(spec5, "22878", LBIS.L["Legs"], "Alt") --Legionnaire's Dragonhide Leggings
+    LBIS:AddItem(spec5, "23295", LBIS.L["Legs"], "Alt") --Knight-Captain's Dragonhide Leggings
+    LBIS:AddItem(spec5, "20665", LBIS.L["Legs"], "Alt") --Abyssal Leather Leggings
+    LBIS:AddItem(spec5, "21493", LBIS.L["Feet"], "BIS") --Boots of the Vanguard
+    LBIS:AddItem(spec5, "19381", LBIS.L["Feet"], "BIS") --Boots of the Shadow Flame
+    LBIS:AddItem(spec5, "20052", LBIS.L["Feet"], "Alt") --Highlander's Leather Boots
+    LBIS:AddItem(spec5, "20186", LBIS.L["Feet"], "Alt") --Defiler's Leather Boots
+    LBIS:AddItem(spec5, "16459", LBIS.L["Feet"], "Alt") --Marshal's Dragonhide Boots
+    LBIS:AddItem(spec5, "16554", LBIS.L["Feet"], "Alt") --General's Dragonhide Boots
+    LBIS:AddItem(spec5, "22472", LBIS.L["Feet"], "Alt") --Boots of Ferocity
+    LBIS:AddItem(spec5, "13210", LBIS.L["Feet"], "Alt Thrt") --Pads of the Dread Wolf
+    LBIS:AddItem(spec5, "14641", LBIS.L["Feet"], "Alt") --Cadaverous Walkers
+    LBIS:AddItem(spec5, "19377", LBIS.L["Neck"], "BIS") --Prestor's Talisman of Connivery
+    LBIS:AddItem(spec5, "18404", LBIS.L["Neck"], "Alt") --Onyxia Tooth Pendant
+    LBIS:AddItem(spec5, "22150", LBIS.L["Neck"], "Alt") --Beads of Ogre Might
+    LBIS:AddItem(spec5, "19491", LBIS.L["Neck"], "Alt") --Amulet of the Darkmoon
+    LBIS:AddItem(spec5, "17063", LBIS.L["Ring"], "BIS") --Band of Accuria
+    LBIS:AddItem(spec5, "21205", LBIS.L["Ring"], "BIS") --Signet Ring of the Bronze Dragonflight
+    LBIS:AddItem(spec5, "19384", LBIS.L["Ring"], "BIS") --Master Dragonslayer's Ring
+    LBIS:AddItem(spec5, "19325", LBIS.L["Ring"], "Alt") --Don Julio's Band
+    LBIS:AddItem(spec5, "18821", LBIS.L["Ring"], "Alt") --Quick Strike Ring
+    LBIS:AddItem(spec5, "19376", LBIS.L["Ring"], "Alt Mit") --Archimtiros' Ring of Reckoning
+    LBIS:AddItem(spec5, "18879", LBIS.L["Ring"], "Alt Mit") --Heavy Dark Iron Ring
+    LBIS:AddItem(spec5, "19406", LBIS.L["Trinket"], "BIS") --Drake Fang Talisman
+    LBIS:AddItem(spec5, "23570", LBIS.L["Trinket"], "BIS") --Jom Gabbar
+    LBIS:AddItem(spec5, "21180", LBIS.L["Trinket"], "BIS") --Earthstrike
+    LBIS:AddItem(spec5, "13965", LBIS.L["Trinket"], "Alt") --Blackhand's Breadth
+    LBIS:AddItem(spec5, "19120", LBIS.L["Trinket"], "Alt") --Rune of the Guard Captain
+    LBIS:AddItem(spec5, "9449", LBIS.L["Main Hand"], "BIS") --Manual Crowd Pummeler
+    LBIS:AddItem(spec5, "21268", LBIS.L["Main Hand"], "Alt") --Blessed Qiraji War Hammer
+    LBIS:AddItem(spec5, "20580", LBIS.L["Main Hand"], "Alt") --Hammer of Bestial Fury
+    LBIS:AddItem(spec5, "19358", LBIS.L["Main Hand"], "Alt") --Draconic Maul
+    LBIS:AddItem(spec5, "19323", LBIS.L["Main Hand"], "Alt") --The Unstoppable Force
+    LBIS:AddItem(spec5, "19357", LBIS.L["Main Hand"], "Alt") --Herald of Woe
+    LBIS:AddItem(spec5, "22397", LBIS.L["Ranged/Relic"], "BIS") --Idol of Ferocity
 end
 if not LBIS.IsSOD then
     LoadData();

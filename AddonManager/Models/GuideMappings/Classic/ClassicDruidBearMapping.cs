@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace AddonManager.Models.GuideMappings.Classic;
+
 internal class ClassicDruidBearMapping : ClassicSpecMapping
 {
     public override string Class => "Druid";
@@ -29,7 +30,7 @@ internal class ClassicDruidBearMapping : ClassicSpecMapping
             { ("Two Hand", "#two-hand-weapons-for-druid-tanks") },
             //TODO: Wait til ranged are added
         };
-    
+
     public override string Phase2Url => "wow-classic-druid-tank-molten-core-phase-2-best-in-slot-gear";
     public override List<(string, GuideMapping)> Phase2 => new List<(string, GuideMapping)>
         {
@@ -91,6 +92,26 @@ internal class ClassicDruidBearMapping : ClassicSpecMapping
             //TODO: Wait til ranged are added
         };
 
-    public override string Phase5Url => throw new NotImplementedException();
-    public override List<(string, GuideMapping)> Phase5 => throw new NotImplementedException();
+    public override string Phase5Url => "wow-classic-feral-druid-tank-ahnqiraj-best-in-slot-gear";
+    public override List<(string, GuideMapping)> Phase5 => new List<(string, GuideMapping)>
+    {
+        { ("Head", "#head-for-feral-druid-tank-in-wow-classic-phase-5") },
+        { ("Shoulder", "#shoulders-for-feral-druid-tank-in-wow-classic-phase-5") },
+        { ("Back", "#back-for-feral-druid-tank-in-wow-classic-phase-5") },
+        { ("Chest", "#chest-for-feral-druid-tank-in-wow-classic-phase-5") },
+        { ("Wrist", "#wrist-for-feral-druid-tank-in-wow-classic-phase-5") },
+        { ("Hands", "#hands-for-feral-druid-tank-in-wow-classic-phase-5") },
+        { ("Waist", "#waist-for-feral-druid-tank-in-wow-classic-phase-5") },
+        { ("Legs", "#legs-for-feral-druid-tank-in-wow-classic-phase-5") },
+        { ("Feet", "#feet-for-feral-druid-tank-in-wow-classic-phase-5") },
+        { ("Neck", "#neck-for-feral-druid-tank-in-wow-classic-phase-5") },
+        { ("Ring", "#rings-for-feral-druid-tank-in-wow-classic-phase-5") },
+        { ("Trinket", "#trinkets-for-feral-druid-tank-in-wow-classic-phase-5") },
+        { ("Main Hand", "#weapons-for-feral-druid-tank-in-wow-classic-phase-5") },
+        { ("Ranged/Relic", "#idols-for-feral-druid-tank-in-wow-classic-phase-5") },
+    };
+
+    public override string Phase6Url => throw new NotImplementedException();
+
+    public override List<(string, GuideMapping)> Phase6 => throw new NotImplementedException();
 }

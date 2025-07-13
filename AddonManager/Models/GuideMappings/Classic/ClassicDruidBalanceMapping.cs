@@ -14,7 +14,7 @@ internal class ClassicDruidBalanceMapping : ClassicSpecMapping
     public override string Phase1Url => "wow-classic-balance-druid-dps-molten-core-best-in-slot-gear";
     public override List<(string, GuideMapping)> Phase1 => new List<(string, GuideMapping)>
         {
-            { ("Head", "#helm-for-balance-druids") },        
+            { ("Head", "#helm-for-balance-druids") },
             { ("Shoulder", "#shoulder-for-balance-druids") },
             { ("Back", "#back-for-balance-druids") },
             { ("Chest", "#chest-for-balance-druids") },
@@ -31,11 +31,11 @@ internal class ClassicDruidBalanceMapping : ClassicSpecMapping
             { ("Two Hand", "#two-hand-weapons-for-balance-druids") },
             { ("Ranged/Relic", "#idols-for-balance-druids") },
         };
-    
+
     public override string Phase2Url => "wow-classic-balance-druid-dps-molten-core-phase-2-best-in-slot-gear";
-    public override List<(string, GuideMapping)> Phase2 =>  new List<(string, GuideMapping)>
+    public override List<(string, GuideMapping)> Phase2 => new List<(string, GuideMapping)>
         {
-            { ("Head", "#helm") },        
+            { ("Head", "#helm") },
             { ("Shoulder", "#shoulder") },
             { ("Back", "#back") },
             { ("Chest", "#chest") },
@@ -54,9 +54,9 @@ internal class ClassicDruidBalanceMapping : ClassicSpecMapping
         };
 
     public override string Phase3Url => "wow-classic-balance-druid-dps-blackwing-lair-best-in-slot-gear";
-    public override List<(string, GuideMapping)> Phase3 =>  new List<(string, GuideMapping)>
+    public override List<(string, GuideMapping)> Phase3 => new List<(string, GuideMapping)>
         {
-            { ("Head", "#head-for-balance-druid-dps") },        
+            { ("Head", "#head-for-balance-druid-dps") },
             { ("Shoulder", "#shoulders-for-balance-druid-dps") },
             { ("Back", "#back-for-balance-druid-dps") },
             { ("Chest", "#chest-for-balance-druid-dps") },
@@ -77,7 +77,7 @@ internal class ClassicDruidBalanceMapping : ClassicSpecMapping
     public override string Phase4Url => "wow-classic-balance-druid-dps-blackwing-lair-zg-best-in-slot-gear";
     public override List<(string, GuideMapping)> Phase4 => new List<(string, GuideMapping)>
         {
-            { ("Head", "#head-for-balance-druid-dps-in-wow-classic-phase-4") },        
+            { ("Head", "#head-for-balance-druid-dps-in-wow-classic-phase-4") },
             { ("Shoulder", "#shoulders-for-balance-druid-dps-in-wow-classic-phase-4") },
             { ("Back", "#back-for-balance-druid-dps-in-wow-classic-phase-4") },
             { ("Chest", "#chest-for-balance-druid-dps-in-wow-classic-phase-4") },
@@ -95,7 +95,27 @@ internal class ClassicDruidBalanceMapping : ClassicSpecMapping
             { ("Ranged/Relic", "#idols-for-balance-druid-dps-in-wow-classic-phase-4") },
         };
 
+    public override string Phase5Url => "wow-classic-balance-druid-dps-ahnqiraj-best-in-slot-gear";
+    public override List<(string, GuideMapping)> Phase5 => new List<(string, GuideMapping)>
+     {
+            { ("Head", "#head-for-balance-druid-dps-in-wow-classic-phase-5") },        
+            { ("Shoulder", "#shoulders-for-balance-druid-dps-in-wow-classic-phase-5") },
+            { ("Back", "#back-for-balance-druid-dps-in-wow-classic-phase-5") },
+            { ("Chest", "#chest-for-balance-druid-dps-in-wow-classic-phase-5") },
+            { ("Wrist", "#wrist-for-balance-druid-dps-in-wow-classic-phase-5") },
+            { ("Hands", "#hands-for-balance-druid-dps-in-wow-classic-phase-5") },
+            { ("Waist", "#waist-for-balance-druid-dps-in-wow-classic-phase-5") },
+            { ("Legs", "#legs-for-balance-druid-dps-in-wow-classic-phase-5") },
+            { ("Feet", "#feet-for-balance-druid-dps-in-wow-classic-phase-5") },
+            { ("Neck", "#neck-for-balance-druid-dps-in-wow-classic-phase-5") },
+            { ("Ring", "#rings-for-balance-druid-dps-in-wow-classic-phase-5") },
+            { ("Trinket", "#trinkets-for-balance-druid-dps-in-wow-classic-phase-5") },
+            { ("Main Hand", "#one-hand-weapons-for-balance-druid-dps-in-wow-classic-phase-5") },
+            { ("Off Hand", "#off-hand-weapons-for-balance-druid-dps-in-wow-classic-phase-5") },
+            { ("Two Hand", "#two-hand-weapons-for-balance-druid-dps-in-wow-classic-phase-5") },
+            { ("Ranged/Relic", "#idols-for-balance-druid-dps-in-wow-classic-phase-5") },
+        };
 
-    public override string Phase5Url => throw new NotImplementedException();
-    public override List<(string, GuideMapping)> Phase5 => throw new NotImplementedException();
+    public override string Phase6Url => throw new NotImplementedException();
+    public override List<(string, GuideMapping)> Phase6 => throw new NotImplementedException();
 }

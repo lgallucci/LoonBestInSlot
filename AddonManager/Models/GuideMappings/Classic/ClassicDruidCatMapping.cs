@@ -89,6 +89,26 @@ internal class ClassicDruidCatMapping : ClassicSpecMapping
             { ("Ranged/Relic", "#idols-for-feral-druid-dps") },
         };
 
-    public override string Phase5Url => throw new NotImplementedException();
-    public override List<(string, GuideMapping)> Phase5 => throw new NotImplementedException();
+    public override string Phase5Url => "wow-classic-feral-druid-dps-ahnqiraj-best-in-slot-gear";
+    public override List<(string, GuideMapping)> Phase5 =>new List<(string, GuideMapping)>
+    {
+        { ("Head", "#head-for-feral-druid-dps-in-wow-classic-phase-5") },
+        { ("Shoulder", "#shoulders-for-feral-druid-dps-in-wow-classic-phase-5") },
+        { ("Back", "#back-for-feral-druid-dps-in-wow-classic-phase-5") },
+        { ("Chest", "#chest-for-feral-druid-dps-in-wow-classic-phase-5") },
+        { ("Wrist", "#wrist-for-feral-druid-dps-in-wow-classic-phase-5") },
+        { ("Hands", "#hands-for-feral-druid-dps-in-wow-classic-phase-5") },
+        { ("Waist", "#waist-for-feral-druid-dps-in-wow-classic-phase-5") },
+        { ("Legs", "#legs-for-feral-druid-dps-in-wow-classic-phase-5") },
+        { ("Feet", "#feet-for-feral-druid-dps-in-wow-classic-phase-5") },
+        { ("Neck", "#neck-for-feral-druid-dps-in-wow-classic-phase-5") },
+        { ("Ring", "#rings-for-feral-druid-dps-in-wow-classic-phase-5") },
+        { ("Trinket", "#trinkets-for-feral-druid-dps-in-wow-classic-phase-5") },
+        { ("Main Hand", "#weapons-for-feral-druid-dps-in-wow-classic-phase-5") },
+        { ("Ranged/Relic", "#idols-for-feral-druid-dps-in-wow-classic-phase-5") },
+    };
+
+    public override string Phase6Url => throw new NotImplementedException();
+
+    public override List<(string, GuideMapping)> Phase6 => throw new NotImplementedException();
 }
