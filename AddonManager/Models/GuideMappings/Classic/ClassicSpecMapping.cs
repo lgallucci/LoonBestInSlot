@@ -8,7 +8,7 @@ namespace AddonManager.Models.GuideMappings.Classic;
 internal abstract class ClassicSpecMapping
 {
     public string GuideFolder = "ERA";
-    public int CurrentPhaseNumber { get; } = 4;
+    public int CurrentPhaseNumber { get; } = 5;
     public string UrlBase => "https://www.wowhead.com/classic/guide/";
     public abstract string Class { get; }
     public abstract string Spec { get; }
@@ -23,6 +23,8 @@ internal abstract class ClassicSpecMapping
     public abstract List<(string, GuideMapping)> Phase4 { get; }
     public abstract string Phase5Url { get; }
     public abstract List<(string, GuideMapping)> Phase5 { get; }
+    public abstract string Phase6Url { get; }
+    public abstract List<(string, GuideMapping)> Phase6 { get; }
 
     public string CurrentUrl { 
         get {
@@ -38,6 +40,8 @@ internal abstract class ClassicSpecMapping
                     return Phase4Url;
                 case 5:
                     return Phase5Url;
+                case 6:
+                    return Phase6Url;
                 default:
                     throw new Exception("Invalid Phase !");
             }
@@ -57,6 +61,8 @@ internal abstract class ClassicSpecMapping
                     return Phase4;
                 case 5:
                     return Phase5;
+                case 6:
+                    return Phase6;
                 default:
                     throw new Exception("Invalid Phase !");
             }

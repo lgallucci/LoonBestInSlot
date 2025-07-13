@@ -85,7 +85,7 @@ internal class ClassicPaladinRetributionMapping : ClassicSpecMapping
             //TODO: Wait til ranged are added
         };
 
-    public override string Phase5Url => throw new NotImplementedException();
+    public override string Phase5Url => "wow-classic-paladin-dps-ahnqiraj-best-in-slot-gear";
     public override List<(string, GuideMapping)> Phase5 => new List<(string, GuideMapping)>
         {
             { ("Head", "#helm-for-paladin-dps") },
@@ -101,6 +101,10 @@ internal class ClassicPaladinRetributionMapping : ClassicSpecMapping
             { ("Ring", "#rings-for-paladin-dps") },
             { ("Trinket", "#trinkets-for-paladin-dps") },
             { ("Two Hand", "#two-hand-weapons-for-paladin-dps") },
-            //TODO: Wait til ranged are added
+            //{ ("Ranged/Relic", "#librams-for-paladin-dps") },
         };
+
+    public override string Phase6Url => throw new NotImplementedException();
+
+    public override List<(string, GuideMapping)> Phase6 => throw new NotImplementedException();
 }

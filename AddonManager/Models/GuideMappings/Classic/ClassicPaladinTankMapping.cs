@@ -86,9 +86,9 @@ internal class ClassicPaladinTankMapping : ClassicSpecMapping
             { ("Off Hand", "#shield-for-paladin-tanks") },
         };        
 
-    public override string Phase5Url => throw new NotImplementedException();
+    public override string Phase5Url => "wow-classic-paladin-tank-ahnqiraj-best-in-slot-gear";
     public override List<(string, GuideMapping)> Phase5 => new List<(string, GuideMapping)>
-        { 
+        {
             { ("Head", "#helm-for-paladin-tanks") },
             { ("Shoulder", "#shoulder-for-paladin-tanks") },
             { ("Back", "#back-for-paladin-tanks") },
@@ -103,5 +103,9 @@ internal class ClassicPaladinTankMapping : ClassicSpecMapping
             { ("Trinket", "#trinkets-for-paladin-tanks") },
             { ("Main Hand", "#main-hand-weapon-for-paladin-tanks") },
             { ("Off Hand", "#shield-for-paladin-tanks") },
-        };        
+            //{ ("Ranged/Relic", "#ranged-for-paladin-tanks") },
+        };
+
+    public override string Phase6Url => throw new NotImplementedException();
+    public override List<(string, GuideMapping)> Phase6 => throw new NotImplementedException();
 }

@@ -71,24 +71,27 @@ internal class ClassicWarlockDpsMapping : ClassicSpecMapping
             { ("Ranged/Relic", "#wands") }
         };
 
-    public override string Phase5Url => throw new NotImplementedException();
+    public override string Phase5Url => "wow-classic-warlock-dps-ahnqiraj-best-in-slot-gear";
     public override List<(string, GuideMapping)> Phase5 => new List<(string, GuideMapping)>
         {
-            { ("Head", "#head-for-warlocks") },
-            { ("Shoulder", "#shoulders-for-warlocks") },
-            { ("Back", "#back-for-warlocks") },
-            { ("Chest", "#chest-for-warlocks") },
-            { ("Wrist", "#wrist-for-warlocks") },
-            { ("Hands", "#hands-for-warlocks") },
-            { ("Waist", "#waist-for-warlocks") },
-            { ("Legs", "#legs-for-warlocks") },
-            { ("Feet", "#feet-for-warlocks") },
-            { ("Neck", "#neck-for-warlocks") },
-            { ("Ring", "#rings-for-warlocks") },
-            { ("Trinket", "#trinkets-for-warlocks") },
-            { ("Main Hand", "#main-hand-for-warlocks") },
-            { ("Off Hand", "#off-hand-for-warlocks") },
-            { ("Two Hand", "#off-hand-for-warlocks ~ h4") },
-            { ("Ranged/Relic", "#wand-for-warlocks") }
+            { ("Head", "#head") },
+            { ("Shoulder", "#shoulders") },
+            { ("Back", "#back") },
+            { ("Chest", "#chest") },
+            { ("Wrist", "#wrist") },
+            { ("Hands", "#hands") },
+            { ("Waist", "#waist") },
+            { ("Legs", "#legs") },
+            { ("Feet", "#feet") },
+            { ("Neck", "#neck") },
+            { ("Ring", "#rings") },
+            { ("Trinket", "#trinkets") },
+            { ("Main Hand", "#main-hand-weapons") },
+            { ("Off Hand", "#offhand-weapons") },
+            { ("Two Hand", "#two-hand-weapons") },
+            { ("Ranged/Relic", "#wands") }
         };
+
+    public override string Phase6Url => throw new NotImplementedException();
+    public override List<(string, GuideMapping)> Phase6 => throw new NotImplementedException();
 }

@@ -92,24 +92,27 @@ internal class ClassicShamanRestorationMapping : ClassicSpecMapping
             //TODO: Wait til ranged are added
         };
 
-    public override string Phase5Url => throw new NotImplementedException();
+    public override string Phase5Url => "wow-classic-shaman-healing-ahnqiraj-best-in-slot-gear";
     public override List<(string, GuideMapping)> Phase5 => new List<(string, GuideMapping)>
         {
-            { ("Head", "#head-for-shaman-healer") },
-            { ("Shoulder", "#shoulder-for-shaman-healer") },
-            { ("Back", "#back-for-shaman-healer") },
-            { ("Chest", "#chest-for-shaman-healer") },
-            { ("Wrist", "#wrist-for-shaman-healer") },
-            { ("Hands", "#hands-for-shaman-healer") },
-            { ("Waist", "#waist-for-shaman-healer") },
-            { ("Legs", "#legs-for-shaman-healer") },
-            { ("Feet", "#feet-for-shaman-healer") },
-            { ("Neck", "#neck-for-shaman-healer") },
-            { ("Ring", "#ring-for-shaman-healer") },
-            { ("Trinket", "#trinket-for-shaman-healer") },
-            { ("Main Hand", "#one-hand-for-shaman-healer") },
-            { ("Off Hand", "#off-hand-for-shaman-healer") },
-            { ("Two Hand", "#two-hand-for-shaman-healer") },
-            //TODO: Wait til ranged are added
-        };
+            { ("Head", "#head-for-restoration-shaman-healer-in-wow-classic-phase-5") },
+            { ("Shoulder", "#shoulders-for-restoration-shaman-healer-in-wow-classic-phase-5") },
+            { ("Back", "#back-for-restoration-shaman-healer-in-wow-classic-phase-5") },
+            { ("Chest", "#chest-for-restoration-shaman-healer-in-wow-classic-phase-5") },
+            { ("Wrist", "#wrist-for-restoration-shaman-healer-in-wow-classic-phase-5") },
+            { ("Hands", "#hands-for-restoration-shaman-healer-in-wow-classic-phase-5") },
+            { ("Waist", "#waist-for-restoration-shaman-healer-in-wow-classic-phase-5") },
+            { ("Legs", "#legs-for-restoration-shaman-healer-in-wow-classic-phase-5") },
+            { ("Feet", "#feet-for-restoration-shaman-healer-in-wow-classic-phase-5") },
+            { ("Neck", "#neck-for-restoration-shaman-healer-in-wow-classic-phase-5") },
+            { ("Ring", "#rings-for-restoration-shaman-healer-in-wow-classic-phase-5") },
+            { ("Trinket", "#trinkets-for-restoration-shaman-healer-in-wow-classic-phase-5") },
+            { ("Main Hand", "#main-hand-weapons-for-restoration-shaman-healer-in-wow-classic-phase-5") },
+            { ("Off Hand", "#off-hands-and-shields-for-restoration-shaman-healer-in-wow-classic-phase-5") },
+            { ("Ranged/Relic", "#relics-for-restoration-shaman-healer-in-wow-classic-phase-5") }
+    };
+
+    public override string Phase6Url => throw new NotImplementedException();
+
+    public override List<(string, GuideMapping)> Phase6 => throw new NotImplementedException();
 }

@@ -1,6 +1,7 @@
 LBIS.EnchantSources =
 {
     [2833] = { Name = "Heavy Armor Kit", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Leatherworking Trainer"], SourceLocation = "", TextureId = "4265" },
+    [3975] = { Name = "Standard Scope", DesignId = "4406", ScrollId = "0", Source = LBIS.L["Engineering Trainer"], SourceLocation = "", TextureId = "4406" },
     [6296] = { Name = "Fiery Blaze Enchantment", DesignId = "5421", ScrollId = "0", Source = LBIS.L["Sigrun Ironhew"], SourceLocation = LBIS.L["Badlands"], TextureId = "5421" },
     [7218] = { Name = "Weapon Counterweight", DesignId = "99999", ScrollId = "0", Source = LBIS.L["Blacksmithing Trainer"], SourceLocation = "", TextureId = "6043" },
     [7221] = { Name = "Iron Shield Spike", DesignId = "6044", ScrollId = "0", Source = LBIS.L["World Drop"], SourceLocation = "", TextureId = "6042" },

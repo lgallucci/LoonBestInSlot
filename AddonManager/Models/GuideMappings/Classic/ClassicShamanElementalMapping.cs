@@ -92,24 +92,27 @@ internal class ClassicShamanElementalMapping : ClassicSpecMapping
             //TODO: Wait til ranged are added
         };
 
-    public override string Phase5Url => throw new NotImplementedException();
+    public override string Phase5Url => "wow-classic-elemental-shaman-dps-ahnqiraj-best-in-slot-gear";
     public override List<(string, GuideMapping)> Phase5 => new List<(string, GuideMapping)>
         {
-            { ("Head", "#head-for-elemental-shaman") },
-            { ("Shoulder", "#shoulders-for-elemental-shaman") },
-            { ("Back", "#back-for-elemental-shaman") },
-            { ("Chest", "#chest-for-elemental-shaman") },
-            { ("Wrist", "#wrist-for-elemental-shaman") },
-            { ("Hands", "#hands-for-elemental-shaman") },
-            { ("Waist", "#waist-for-elemental-shaman") },
-            { ("Legs", "#legs-for-elemental-shaman") },
-            { ("Feet", "#feet-for-elemental-shaman") },
-            { ("Neck", "#neck-for-elemental-shaman") },
-            { ("Ring", "#ring-for-elemental-shaman") },
-            { ("Trinket", "#trinket-for-elemental-shaman") },
-            { ("Main Hand", "#one-handed-weapons-for-elemental-shaman") },
-            { ("Off Hand", "#off-hands-for-elemental-shaman") },
-            { ("Two Hand", "#two-handed-weapons-for-elemental-shaman") },
-            //TODO: Wait til ranged are added
+            { ("Head", "#head-for-elemental-shaman-dps-in-phase-5") },
+            { ("Shoulder", "#shoulders-for-elemental-shaman-dps-in-phase-5") },
+            { ("Back", "#back-for-elemental-shaman-dps-in-phase-5") },
+            { ("Chest", "#chest-for-elemental-shaman-dps-in-phase-5") },
+            { ("Wrist", "#wrist-for-elemental-shaman-dps-in-phase-5") },
+            { ("Hands", "#hands-for-elemental-shaman-dps-in-phase-5") },
+            { ("Waist", "#waist-for-elemental-shaman-dps-in-phase-5") },
+            { ("Legs", "#legs-for-elemental-shaman-dps-in-phase-5") },
+            { ("Feet", "#feet-for-elemental-shaman-dps-in-phase-5") },
+            { ("Neck", "#neck-for-elemental-shaman-dps-in-phase-5") },
+            { ("Ring", "#rings-for-elemental-shaman-dps-in-phase-5") },
+            { ("Trinket", "#trinkets-for-elemental-shaman-dps-in-phase-5") },
+            { ("Main Hand", "#main-hand-weapons-for-elemental-shaman-dps-in-phase-5") },
+            { ("Off Hand", "#off-hands-and-shields-for-elemental-shaman-dps-in-phase-5") },
+            { ("Ranged/Relic", "#relics-for-elemental-shaman-dps-in-phase-5") }
         };
+
+    public override string Phase6Url => throw new NotImplementedException();
+
+    public override List<(string, GuideMapping)> Phase6 => throw new NotImplementedException();
 }
