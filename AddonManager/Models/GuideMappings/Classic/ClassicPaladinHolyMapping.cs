@@ -89,23 +89,26 @@ internal class ClassicPaladinHolyMapping : ClassicSpecMapping
             //TODO: Wait til ranged are added
         };
 
-    public override string Phase5Url => throw new NotImplementedException();
+    public override string Phase5Url => "wow-classic-paladin-healing-ahnqiraj-best-in-slot-gear";
     public override List<(string, GuideMapping)> Phase5 => new List<(string, GuideMapping)>
         {
-            { ("Head", "#helm-for-paladin-healers") },
-            { ("Shoulder", "#shoulder-for-paladin-healers") },
-            { ("Back", "#back-for-paladin-healers") },
-            { ("Chest", "#chest-for-paladin-healers") },
-            { ("Wrist", "#bracers-for-paladin-healers") },
-            { ("Hands", "#hands-for-paladin-healers") },
-            { ("Waist", "#belt-for-paladin-healers") },
-            { ("Legs", "#legs-for-paladin-healers") },
-            { ("Feet", "#boots-for-paladin-healers") },
-            { ("Neck", "#neck-for-paladin-healers") },
-            { ("Ring", "#rings-for-paladin-healers") },
-            { ("Trinket", "#trinkets-for-paladin-healers") },
-            { ("Main Hand", "#weapons-for-paladin-healers") },
-            { ("Off Hand", "#off-hand-items-for-paladin-healers") },
-            //TODO: Wait til ranged are added
+            { ("Head", "#head-for-holy-paladin-healing-in-wow-classic-phase-5") },
+            { ("Shoulder", "#shoulders-for-holy-paladin-healing-in-wow-classic-phase-5") },
+            { ("Back", "#back-for-holy-paladin-healing-in-wow-classic-phase-5") },
+            { ("Chest", "#chest-for-holy-paladin-healing-in-wow-classic-phase-5") },
+            { ("Wrist", "#wrist-for-holy-paladin-healing-in-wow-classic-phase-5") },
+            { ("Hands", "#hands-for-holy-paladin-healing-in-wow-classic-phase-5") },
+            { ("Waist", "#waist-for-holy-paladin-healing-in-wow-classic-phase-5") },
+            { ("Legs", "#legs-for-holy-paladin-healing-in-wow-classic-phase-5") },
+            { ("Feet", "#feet-for-holy-paladin-healing-in-wow-classic-phase-5") },
+            { ("Neck", "#neck-for-holy-paladin-healing-in-wow-classic-phase-5") },
+            { ("Ring", "#rings-for-holy-paladin-healing-in-wow-classic-phase-5") },
+            { ("Trinket", "#trinkets-for-holy-paladin-healing-in-wow-classic-phase-5") },
+            { ("Main Hand", "#main-hand-weapons-for-holy-paladin-healing-in-wow-classic-phase-5") },
+            { ("Off Hand", "#off-hand-weapons-for-holy-paladin-healing-in-wow-classic-phase-5") },
+            { ("Ranged/Relic", "#librams-for-holy-paladin-healing-in-wow-classic-phase-5") },
         };
+
+    public override string Phase6Url => throw new NotImplementedException();
+    public override List<(string, GuideMapping)> Phase6 => throw new NotImplementedException();
 }

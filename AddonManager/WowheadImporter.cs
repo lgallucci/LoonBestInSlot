@@ -132,7 +132,7 @@ public static class WowheadImporter
         (Dictionary<int, ItemSpec>, Dictionary<int, EnchantSpec>) itemsAndEnchants;
         try
         {
-            var className = $"{classGuideMapping.ClassName.Replace(" ", "")}{classGuideMapping.SpecName}";
+            var className = $"{classGuideMapping.ClassName.Replace(" ", "")}{classGuideMapping.SpecName.Replace("DPS", "Dps")}";
 
             if (classGuideMapping != null && classGuideMapping.WebAddress != "do_not_use")
             {

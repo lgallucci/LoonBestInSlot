@@ -94,7 +94,7 @@ internal class ClassicWarriorProtectionMapping : ClassicSpecMapping
             { ("Ranged/Relic", "#ranged-weapons") }
         };
 
-    public override string Phase5Url => throw new NotImplementedException();
+    public override string Phase5Url => "wow-classic-warrior-tank-ahnqiraj-best-in-slot-gear";
     public override List<(string, GuideMapping)> Phase5 => new List<(string, GuideMapping)>
         {
             { ("Head", "#helm") },
@@ -114,4 +114,7 @@ internal class ClassicWarriorProtectionMapping : ClassicSpecMapping
             { ("Off Hand", "#shields") },
             { ("Ranged/Relic", "#ranged-weapons") }
         };
+
+    public override string Phase6Url => throw new NotImplementedException();
+    public override List<(string, GuideMapping)> Phase6 => throw new NotImplementedException();
 }

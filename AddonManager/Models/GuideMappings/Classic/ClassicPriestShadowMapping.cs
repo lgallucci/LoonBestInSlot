@@ -58,12 +58,28 @@ internal class ClassicPriestShadowMapping : ClassicSpecMapping
             { ("Ranged/Relic", "#wands-for-shadow-priest-dps") },
         };
 
-    public override string Phase5Url => throw new NotImplementedException();
+    public override string Phase5Url => "wow-classic-shadow-priest-dps-ahnqiraj-best-in-slot-gear";
     public override List<(string, GuideMapping)> Phase5 => new List<(string, GuideMapping)>
         {
-            { ("Main Hand", "#main-hand") },
-            { ("Off Hand", "#off-hand") },
-            { ("Two Hand", "#main-hand-2") },
-            { ("Ranged/Relic", "#ranged") },
+            { ("Head", "#head-for-shadow-priest-dps-in-wow-classic-phase-5") },
+            { ("Shoulder", "#shoulders-for-shadow-priest-dps-in-wow-classic-phase-5") },
+            { ("Back", "#back-for-shadow-priest-dps-in-wow-classic-phase-5") },
+            { ("Chest", "#chest-for-shadow-priest-dps-in-wow-classic-phase-5") },
+            { ("Wrist", "#wrist-for-shadow-priest-dps-in-wow-classic-phase-5") },
+            { ("Hands", "#hands-for-shadow-priest-dps-in-wow-classic-phase-5") },
+            { ("Waist", "#waist-for-shadow-priest-dps-in-wow-classic-phase-5") },
+            { ("Legs", "#legs-for-shadow-priest-dps-in-wow-classic-phase-5") },
+            { ("Feet", "#feet-for-shadow-priest-dps-in-wow-classic-phase-5") },
+            { ("Neck", "#neck-for-shadow-priest-dps-in-wow-classic-phase-5") },
+            { ("Ring", "#rings-for-shadow-priest-dps-in-wow-classic-phase-5") },
+            { ("Trinket", "#trinkets-for-shadow-priest-dps-in-wow-classic-phase-5") },
+            { ("Main Hand", "#main-hand-weapons-for-shadow-priest-dps-in-wow-classic-phase-5") },
+            { ("Off Hand", "#off-hand-weapons-for-shadow-priest-dps-in-wow-classic-phase-5") },
+            { ("Two Hand", "#staves-for-shadow-priest-dps-in-wow-classic-phase-5") },
+            { ("Ranged/Relic", "#wands-for-shadow-priest-dps-in-wow-classic-phase-5") },
         };
+
+    public override string Phase6Url => throw new NotImplementedException();
+
+    public override List<(string, GuideMapping)> Phase6 => throw new NotImplementedException();
 }
