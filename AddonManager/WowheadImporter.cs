@@ -221,7 +221,7 @@ public static class WowheadImporter
             var className = $"{classGuideMapping.ClassName.Replace(" ", "")}{classGuideMapping.SpecName}";
             if (classGuideMapping != null && classGuideMapping.WebAddress != "do_not_use")
             {
-                var guide = ItemSpecFileManager.ReadGuide(Constants.AddonPath + $@"\Guides\{className.Replace(" ", "")}.lua");
+                var guide = ItemSpecFileManager.ReadGuide(Constants.CombinePath(Constants.AddonPath, $@"\Guides\{className.Replace(" ", "")}.lua"));
 
                 itemsAndEnchants = new WowheadGuideParser().ParseWowheadGuide(classGuideMapping, doc, logFunc);
 
@@ -264,7 +264,7 @@ public static class WowheadImporter
                 WriteGemsInternal(guide.Item1, logFunc);
                 WriteEnchantsInternal(guide.Item2, logFunc);
                 WriteItemsInternal(guide.Item3[phaseNumber], logFunc);
-                ItemSpecFileManager.WriteItemSpec(Constants.AddonPath + $@"\Guides\{className.Replace(" ", "")}.lua", classGuideMapping.ClassName, classGuideMapping.SpecName,
+                ItemSpecFileManager.WriteItemSpec(Constants.CombinePath(Constants.AddonPath, $@"\Guides\{className.Replace(" ", "")}.lua"), classGuideMapping.ClassName, classGuideMapping.SpecName,
                     guide.Item1, guide.Item2, guide.Item3);
             }
             else
@@ -654,7 +654,7 @@ public static class WowheadImporter
 
     private static void UpdateTierPieces(Dictionary<int, CsvLootTable> csvLootTable, SortedDictionary<int, ItemSource> itemSources)
     {
-        var jsonFileString = File.ReadAllText(@$"{Constants.ItemDbPath}\TierSetList.json");
+        var jsonFileString = File.ReadAllText(Constants.CombinePath(Constants.ItemDbPath, @$"\TierSetList.json"));
         DatabaseItems tierPieces = JsonConvert.DeserializeObject<DatabaseItems>(jsonFileString) ?? new DatabaseItems();
 
         foreach (var tierPiece in tierPieces.Items)
@@ -749,7 +749,7 @@ public static class WowheadImporter
     {
         //Read file into dictionary
         DatabaseItems dbItem;
-        var jsonFileString = File.ReadAllText(@$"{Constants.ItemDbPath}\{fileName}.json");
+        var jsonFileString = File.ReadAllText(Constants.CombinePath(Constants.ItemDbPath, @$"\{fileName}.json"));
         dbItem = JsonConvert.DeserializeObject<DatabaseItems>(jsonFileString) ?? new DatabaseItems();
 
         AddToCsvLootTable(dbItem, csvLootTable);

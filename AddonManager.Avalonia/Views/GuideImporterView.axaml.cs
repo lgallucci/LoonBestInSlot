@@ -29,8 +29,9 @@ public partial class GuideImporterView : UserControl
         _importCancelToken = new CancellationTokenSource();
 
         var spec = cmbSpec.SelectedValue.ToString();
+        var selectedPhase = cmbPhase.SelectedIndex;
 
-        var specMapping = GetClassMappings().FirstOrDefault(gm => spec == $"{gm.ClassName}{gm.SpecName}");
+        var specMapping = GetClassMappings().FirstOrDefault(gm => spec == $"{gm.ClassName}{gm.SpecName}" && gm.Phase == selectedPhase);
 
         if (specMapping == null)
         {

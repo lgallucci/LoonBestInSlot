@@ -12,14 +12,23 @@ internal abstract class SpecMapping
     public abstract string Class { get; }
     public abstract string Spec { get; }
 
-    public abstract string CurrentPhaseUrl { get; }
-    public abstract List<(string, GuideMapping)> CurrentPhase { get; }
+    public abstract string PreRaidUrl { get; }
+    public abstract string Phase1Url { get; }
+    public abstract string Phase2Url { get; }
+    public abstract string Phase3Url { get; }
+    public abstract string Phase4Url { get; }
+    public abstract string Phase5Url { get; }
 
     public List<ClassGuideMapping> ToList()
     {
         var list = new List<ClassGuideMapping>
         {
-            new ClassGuideMapping(UrlBase + CurrentPhaseUrl, Spec, Class, CurrentPhaseNumber, CurrentPhase)
+            new ClassGuideMapping(UrlBase + PreRaidUrl, Spec, Class, 0),
+            new ClassGuideMapping(UrlBase + Phase1Url, Spec, Class, 1),
+            new ClassGuideMapping(UrlBase + Phase2Url, Spec, Class, 2),
+            new ClassGuideMapping(UrlBase + Phase3Url, Spec, Class, 3),
+            new ClassGuideMapping(UrlBase + Phase4Url, Spec, Class, 4),
+            new ClassGuideMapping(UrlBase + Phase5Url, Spec, Class, 5)
         };
 
         return list;

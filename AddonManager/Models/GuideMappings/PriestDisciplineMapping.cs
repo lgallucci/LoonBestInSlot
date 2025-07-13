@@ -6,13 +6,10 @@ internal class PriestDisciplineMapping : SpecMapping
 {
     public override string Class => "Priest";
     public override string Spec => "Discipline";
-
-    public override string CurrentPhaseUrl => "";
-    public override List<(string, GuideMapping)> CurrentPhase => new List<(string, GuideMapping)>
-    {
-        { ("Main Hand", "") },
-        { ("Off Hand", "") },
-        { ("Two Hand", "") },
-        { ("Ranged/Relic", "") }
-    };
+    public override string PreRaidUrl => "healer-best-gear-bis-pre-raid";
+    public override string Phase1Url => "healer-best-gear-bis-pve";
+    public override string Phase2Url => "";
+    public override string Phase3Url => "";
+    public override string Phase4Url => "";
+    public override string Phase5Url => "";
 }

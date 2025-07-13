@@ -18,102 +18,17 @@ public class WowheadGuideParser
 
     private Dictionary<int, int> _gemSwaps = new Dictionary<int, int>()
     {
-        { 4013, 40133 },
-        { 32206, 68778 },
+        {0, 0} //
     };
 
     private Dictionary<int, int> _gemPhases = new Dictionary<int, int>()
     {
-        { 40112, 3 },
-        { 40113, 3 },
-        { 40114, 3 },
-        { 40119, 3 },
-        { 40123, 3 },
-        { 40125, 3 },
-        { 40126, 3 },
-        { 40128, 3 },
-        { 40129, 3 },
-        { 40133, 3 },
-        { 40141, 3 },
-        { 40148, 3 },
-        { 40150, 3 },
-        { 40153, 3 },
-        { 40155, 3 },
-        { 40157, 3 },
-        { 40159, 3 },
-        { 40162, 3 },
-        { 40166, 3 },
-        { 40167, 3 },
-        { 45880, 3 },
+        {0, 0} //
     };
 
     private Dictionary<int, int> _enchantSwaps = new Dictionary<int, int>()
     {
-        { 2892, 2823}, //Deadly Poison
-        { 6947, 8679 }, //Instant Poison
-        { 38967, 44529 }, //Enchant Gloves - Major Agility
-        { 39300, 52639 }, //Spring Loaded Cloak Expander
-        { 44457, 60663 }, //Enchant Cloak - Major Agility
-        { 52743, 74189 }, //Enchant Boots - Earthen Vitality
-        { 52749, 74198 }, //Enchant Gloves - Haste
-        { 52757, 74213 }, //Enchant Boots - Major Agility
-        { 52768, 74235 }, //Enchant Off-Hand - Superior Intellect
-        { 52769, 74236 }, //Enchant Boots - Precision
-        { 52773, 74240 }, //Enchant Cloak - Greater Intellect
-        { 52774, 74242 }, //Enchant Weapon - Power Torrent
-        { 52776, 74246 }, //Enchant Weapon - Landslide
-        { 52777, 74247 }, //Enchant Cloak - Greater Critical Strike
-        { 52779, 74250 }, //Enchant Chest - Peerless Stats
-        { 52780, 74251 }, //Enchant Chest - Greater Stamina
-        { 52781, 74252 }, //Enchant Boots - Assassin's Step
-        { 52782, 74253 }, //Enchant Boots - Lavawalker
-        { 52784, 74255 }, //Enchant Gloves - Greater Mastery
-        { 54448, 75152 }, //Powerful Enchanted Spellthread
-        { 54450, 75150 }, //Powerful Ghostly Spellthread
-        { 55054, 76168 }, //Ebonsteel Belt Buckle
-        { 56517, 78166 }, //Heavy Savage Armor Kit
-        { 56550, 78171 }, //Dragonscale Leg Armor
-        { 59595, 81933 }, //R19 Threatfinder
-        { 62333, 86854 }, //Greater Inscription of Unbreakable Quartz
-        { 62343, 86899 }, //Greater Inscription of Charged Lodestone
-        { 62345, 86901 }, //Greater Inscription of Jagged Stone
-        { 62346, 86907 }, //Greater Inscription of Shattered Crystal
-        { 62366, 86931 }, //Arcanum of the Earthen Ring
-        { 62367, 86932 }, //Arcanum of Hyjal
-        { 62368, 86933 }, //Arcanum of the Dragonmaw
-        { 62369, 86934 }, //Arcanum of the Ramkahen
-        { 62422, 86933 }, //Arcanum of the Wildhammer
-        { 68134, 95471 }, //Enchant 2H Weapon - Mighty Agility
-        { 68784, 96264 }, //Enchant Bracer - Agility
-        { 68786, 96262 }, //Enchant Bracer - Mighty Intellect
-        { 71720, 101598 }, //Drakehide Leg Armor
-        { 59594, 81932 }, //Gnomish X-Ray Scope
-        { 41111, 55002 }, //Flexweave Underlay
-        { 41118, 55016 }, //Nitro Boosts
-        { 52750, 74199 }, //Enchant Boots - Haste
-        { 38956, 44494 }, //Enchant Cloak - Superior Nature Resistance
-        { 44947, 62256 }, //Enchant Bracer - Major Stamina
-        { 56551, 78172 }, //Charscale Leg Armor
-        { 56502, 78169 }, //Scorched Leg Armor
-        { 52744, 74191 }, //Enchant Chest - Mighty Stats
-        { 44815, 44575 }, //Enchant Bracer - Greater Assault
-        { 52760, 74223 }, //Enchant Weapon - Hurricane
-        { 44465, 60692 }, //Enchant Chest - Powerful Stats
-        { 52785, 74256 }, //Enchant Bracer - Greater Speed
-        { 52766, 74232 }, //Enchant Bracer - Precision
-        { 52687, 74132 }, //Enchant Gloves - Mastery
-        { 44493, 59621 }, //Enchant Weapon - Berserking
-        { 52772, 74239 }, //Enchant Bracer - Greater Expertise
-        { 68763, 86933 }, //Arcanum of the Dragonmaw
-        { 68716, 86901 }, //Greater Inscription of Jagged Stone
-        { 52767, 74234 }, //Enchant Cloak - Protection
-        { 68766, 86934 }, //Arcanum of Ramkahen
-        { 226459, 86854 }, //Greater Inscription of Unbreakable Quartz
-        { 226460, 86907 }, //Greater Inscription of Shattered Crystal
-        { 226462, 86901 }, //Greater Inscription of Jagged Stone
-        { 68785, 96261 }, //Enchant Bracer - Major Strength
-        { 34207, 44769 }, //Glove Reinforcements
-        { 70139, 99623 }, //Flintlocke's Woodchucker
+        {0, 0} //
      };
 
     private List<int> _excludeEnchants = new List<int>() 
@@ -124,12 +39,7 @@ public class WowheadGuideParser
 
     private Dictionary<int, string> _itemSwaps = new Dictionary<int, string>()
     {
-        { 5000, "11994" }, //Coral Band
-        { 58186, "56310" }, //Skullcracker Ring
-        { 68712, "62464,62469"}, //Impatience of Youth
-        { 68710, "62465,62470" }, //Stump of Time
-        { 68709, "62463,62468" }, //Unsolvable Riddle
-        { 65546, "60461"}, //Vicious Gladiator Legs
+        {0, "0"} //
     };
 
     private Dictionary<string, string> _altModifierTextSwaps = new Dictionary<string, string>()
@@ -153,8 +63,7 @@ public class WowheadGuideParser
 
     private Dictionary<int, int> _duplicateItemIds = new Dictionary<int, int>() 
     {
-        {213087, 213088},
-        {213088, 213087}
+        {0, 0}
     };
 
     private List<string> _bisTextSwaps = new()
@@ -234,28 +143,7 @@ public class WowheadGuideParser
         }
     }
 
-    class MyFormatter : IMarkupFormatter
-    {
-        public string CloseTag(IElement element, bool selfClosing)
-        {
-
-            string closeTag = HtmlMarkupFormatter.Instance.CloseTag(element, selfClosing);
-
-            if (closeTag == "</tr>" ||
-                closeTag == "</table>")
-                closeTag += "\n";
-
-            return closeTag;
-        }
-        public string Comment(IComment comment) => HtmlMarkupFormatter.Instance.Comment(comment);
-        public string Doctype(IDocumentType doctype) => HtmlMarkupFormatter.Instance.Doctype(doctype);
-        public string LiteralText(ICharacterData text) => HtmlMarkupFormatter.Instance.LiteralText(text);
-        public string OpenTag(IElement element, bool selfClosing) => HtmlMarkupFormatter.Instance.OpenTag(element, selfClosing);
-        public string Processing(IProcessingInstruction processing) => HtmlMarkupFormatter.Instance.Processing(processing);
-        public string Text(ICharacterData text) => text.Data;
-    }
-
-public (Dictionary<int, GemSpec>, Dictionary<int, EnchantSpec>, Dictionary<int, ItemSpec>) ParseWowheadGuide(ClassGuideMapping classGuide, IHtmlDocument doc, Action<string> logFunc)
+    public (Dictionary<int, GemSpec>, Dictionary<int, EnchantSpec>, Dictionary<int, ItemSpec>) ParseWowheadGuide(ClassGuideMapping classGuide, IHtmlDocument doc, Action<string> logFunc)
     {
         var items = new Dictionary<int, ItemSpec>();
         var enchants = new Dictionary<int, EnchantSpec>();
@@ -273,31 +161,26 @@ public (Dictionary<int, GemSpec>, Dictionary<int, EnchantSpec>, Dictionary<int, 
             }
         );
 
-        LoopThroughMappings(doc, classGuide, 
-            (enchantAnchor, slot) =>
+        bool first = true;
+        var tables = doc.QuerySelectorAll(".wh-center .markup-table-wrapper table");
+        foreach (var table in tables)
+        {
+            if (table == null || table is not IHtmlTableElement)
             {
-                if (enchantsAndGems)
-                    ParseEnchant(enchantAnchor, slot, enchants);
-            },
-            (table, slot, htmlId) =>
+                throw new InvalidOperationException("Expected table element, but found: " + table?.NodeName);
+            }
+            var t = (IHtmlTableElement)table;
+            LoopThroughTable(t, (tableRow, itemChild, itemOrderIndex, slot) =>
             {
-                bool first = true;
-                LoopThroughTable(table, (tableRow, itemChild, itemOrderIndex, isTierList) =>
+                var bisText = first ? "BIS" : "Alt";
+
+                if (itemChild != null)
                 {
-                    string htmlBisText = string.Empty, rankText = string.Empty;
-                    if (isTierList)
-                        rankText = tableRow?.ChildNodes[1].TextContent.Trim() ?? string.Empty;
-                    htmlBisText = tableRow?.ChildNodes[0].TextContent.Trim() ?? string.Empty;
-                    var bisStatus = GetBisStatus(htmlBisText, rankText, isTierList, first);
-                    if (itemChild != null)
-                    {
-                        ParseItemCell(itemChild, bisStatus, GetSlot(slot, htmlBisText, itemChild), items, itemOrderIndex);
-                        if (enchantsAndGems)
-                            ParseGemCell(tableRow, gems, logFunc);
-                    }
-                    first = false;
-                });
+                    ParseItemCell(itemChild, bisText, GetSlot(slot, bisText, itemChild), items, itemOrderIndex);
+                }
             });
+            first = false;
+        }
 
         return (gems, enchants, items);
     }
@@ -306,23 +189,25 @@ public (Dictionary<int, GemSpec>, Dictionary<int, EnchantSpec>, Dictionary<int, 
     {
         var gearSlots = doc.QuerySelectorAll(".wow-gear-slot");
 
-        foreach(var gearSlot in gearSlots)
+        foreach (var gearSlot in gearSlots)
         {
             var slotId = gearSlot.Attributes["data-slot-id"];
-            
+
             var enchantDiv = gearSlot.QuerySelector(".wow-gear-slot-enchant");
 
             if (enchantDiv != null)
-                Common.RecursiveBoxSearch(enchantDiv, (child) => {
+                Common.RecursiveBoxSearch(enchantDiv, (child) =>
+                {
                     var enchantAnchor = (IHtmlAnchorElement)child;
                     if (enchantAnchor.PathName.Contains("cata/"))
                         return foundEnchant(enchantAnchor, GetSlotFromId(slotId?.Value));
                     return false;
                 });
-            
+
             var gemDivs = gearSlot.QuerySelectorAll(".wow-gear-slot-socket");
-            foreach(var gemDiv in gemDivs)
-                Common.RecursiveBoxSearch(gemDiv, (child) => {
+            foreach (var gemDiv in gemDivs)
+                Common.RecursiveBoxSearch(gemDiv, (child) =>
+                {
                     var gemAnchor = (IHtmlAnchorElement)child;
                     if (gemAnchor.PathName.Contains("cata/"))
                         return foundGem(gemAnchor, GetSlotFromId(slotId?.Value));
@@ -397,19 +282,6 @@ public (Dictionary<int, GemSpec>, Dictionary<int, EnchantSpec>, Dictionary<int, 
         }
     }
 
-    private void ParseGemCell(INode? tableRow, Dictionary<int, GemSpec> gems, Action<string> logFunc)
-    {
-        var gemCell = tableRow?.ChildNodes[2];
-        if (gemCell != null)
-        {
-            Common.RecursiveBoxSearch((IElement)gemCell, (anchorElement) => 
-            {
-                ParseGem(anchorElement, gems);                
-                return false;
-            });
-        }
-    }
-
     private void ParseEnchant(IHtmlAnchorElement enchantAnchor, string slot, Dictionary<int, EnchantSpec> enchants)
     {
         bool isSpell = false;
@@ -462,54 +334,11 @@ public (Dictionary<int, GemSpec>, Dictionary<int, EnchantSpec>, Dictionary<int, 
         }
     }
 
-    private string GetSlot(string slot, string bisStatus, IElement itemChild)
+    private string GetSlot(string slot)
     {
-        if (slot == "Main Hand" && bisStatus.ToUpper().Contains("OH") && !bisStatus.Contains("MH"))
-            return "Off Hand";
-        else if (slot == "Main Hand" && bisStatus.ToUpper().Contains("2H") && !bisStatus.Contains("MH") || itemChild.TextContent.Contains("Staff"))
-            return "Two Hand";
+        var slotSwaps = new SlotSwaps();
 
-        return slot;
-    }
-
-    private string GetBisStatus(string htmlBisText, string rankText, bool isTierList, bool first)
-    {
-
-        var bisText = string.Empty;
-        if (first)
-            bisText = "BIS";
-        else if (isTierList)
-        {
-            bisText = rankText.Contains("S") ? "BIS" : "Alt";
-        }
-        else
-        {
-            if (_altTextSwaps.Any((s) =>
-            {
-                return htmlBisText?.ToLower().Contains(s) ?? false;
-            }))
-            {
-                bisText = "Alt";
-            }
-            else
-            {
-                bisText = _bisTextSwaps.Any(s => htmlBisText?.ToLower().Contains(s) ?? false) ? "BIS" : "Alt";
-            }
-        }
-
-        var altText = string.Empty;
-        foreach (var tankSwap in _altModifierTextSwaps)
-            if ((!htmlBisText?.ToLower().Contains("no") ?? false) &&
-                (htmlBisText?.ToLower().Contains(tankSwap.Key) ?? false))
-            {
-                if (!_altModifierNotSwaps.ContainsKey(tankSwap.Key) ||
-                    (!htmlBisText?.ToLower().Contains(_altModifierNotSwaps[tankSwap.Key]) ?? false))
-                {
-                    altText = $" {tankSwap.Value}";
-                    break;
-                }
-            }
-        return bisText.Trim() + altText;
+        return slotSwaps[slot];
     }
 
     private List<int> ParseItemCell(IElement itemChild, string bisStatus, string slot, Dictionary<int, ItemSpec> items, int itemOrderIndex)
@@ -607,34 +436,36 @@ public (Dictionary<int, GemSpec>, Dictionary<int, EnchantSpec>, Dictionary<int, 
         return itemIds;
     }
 
-    private void LoopThroughTable(IHtmlTableElement? table, Action<INode, IElement?, int, bool> action)
+    private void LoopThroughTable(IHtmlTableElement table, Action<INode, IElement?, int, string> action)
     {
         var itemOrderIndex = 0;
         var firstRow = false;
         var tableRows = table?.FirstChild?.ChildNodes;
         if (tableRows != null)
         {
-            bool isTierList = false;
             foreach (var tableRow in tableRows)
             {
+                var slot = string.Empty;
                 var tierlistNumber = 0;
                 if (!firstRow || tableRow.NodeName != "TR")
                 {
-                    if (tableRow.ChildNodes[0].TextContent.Contains("Rank"))
-                    {   
-                        tierlistNumber = 0;
-                    }
-                    if (tableRow.ChildNodes[1].TextContent.Contains("Rank"))
+                    if (tableRow.ChildNodes[0].TextContent.Contains("Slot"))
                     {
-                        tierlistNumber = 1;
+                        slot = tableRow.ChildNodes[0].TextContent.Trim();
+                    }
+                    else if (tableRow.ChildNodes[0].TextContent.Contains("Reputation")) { }
+                    else
+                    {
+                        throw new InvalidOperationException("Expected table row to start with 'Slot' or 'Reputation', but found: " + tableRow.ChildNodes[0].TextContent);
                     }
                     firstRow = true;
                     continue;
-                }
+                } 
 
                 IElement? itemChild = null;
+                
 
-                for(int i = tierlistNumber + 1; i < tableRow.ChildNodes.Length; i++)
+                for (int i = tierlistNumber + 1; i < tableRow.ChildNodes.Length; i++)
                 {
                     var rowChild = tableRow.ChildNodes[i];
                     if (rowChild.NodeType == NodeType.Element)
@@ -647,110 +478,10 @@ public (Dictionary<int, GemSpec>, Dictionary<int, EnchantSpec>, Dictionary<int, 
                     }
                 }
 
-                action(tableRow, itemChild, itemOrderIndex, isTierList);
+                action(tableRow, itemChild, itemOrderIndex, slot);
 
                 itemOrderIndex++;
             }
         }
-    }
-
-    private void LoopThroughMappings(IHtmlDocument doc, ClassGuideMapping specMapping, Action<IHtmlAnchorElement, string> foundEnchant, Action<IHtmlTableElement?, string, string> foundTable)
-    {
-        foreach (var guideMapping in specMapping.GuideMappings)
-        {
-            bool foundEnchantText = false;
-            foreach (var htmlMapping in guideMapping.Value.SlotHtmlId.Split(";"))
-            {
-                var headerElement = doc.QuerySelector(htmlMapping);
-                if (headerElement != null)
-                {
-                    var nextSibling = headerElement.NextElementSibling;
-                    IHtmlTableElement? tableElement = null;
-                    int elementCounter = 0;
-                    while (nextSibling != null)
-                    {
-                        if (Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended.*for new").Success)
-                            foundEnchantText = false;
-
-                        //try to find enchant.
-                        if (nextSibling is IHtmlAnchorElement && foundEnchantText)
-                        {
-                            foundEnchant((IHtmlAnchorElement)nextSibling, guideMapping.Key);
-                        }
-
-                        if (Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended bis.*enchant").Success ||
-                            Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended bis.*enchants").Success ||
-                            Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended bis.*armor").Success ||
-                            Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended bis.*scope").Success ||
-                            Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended bis.*inscription").Success ||
-                            Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended bis.*tinker").Success ||
-                            Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended bis.*runeforge").Success ||
-                            Regex.Match(nextSibling.TextContent.Trim().ToLower(), "recommended shield enchant").Success ||
-                            Regex.Match(nextSibling.TextContent.Trim().ToLower(), "bis.*enchant").Success)
-                        {
-                            foundEnchantText = true;
-                        }
-
-                        if (foundEnchantText)
-                        {
-                            Common.RecursiveBoxSearch(nextSibling, (anchorElement) => 
-                            {
-                                if (anchorElement != null)
-                                    foundEnchant(anchorElement, guideMapping.Key);
-                                return false;
-                            });
-                        }
-
-                        tableElement = FindTableElement(nextSibling);
-                        if (tableElement != null)
-                            break;
-
-                        nextSibling = nextSibling?.NextElementSibling;
-                        elementCounter++;
-                    }
-
-                    foundEnchantText = false;
-                    
-                    if (tableElement != null)
-                    {                            
-                        foundTable(tableElement, guideMapping.Key, htmlMapping);
-                    }
-                    else
-                    {
-                        throw new ParseException($"Failed to find table for {htmlMapping} after {elementCounter} hops");
-                    }
-                }
-                else
-                {
-                    throw new ParseException($"Failed to find {htmlMapping}");
-                }
-            }
-        }
-    }
-
-    private IHtmlTableElement? FindTableElement(IElement nextSibling)
-    {
-        if (nextSibling is IHtmlTableElement)
-        {
-            if(((IHtmlTableElement)nextSibling).Rows.First().ChildNodes.Count() > 1)
-            {
-                return (IHtmlTableElement)nextSibling;
-            }
-        }
-         else if(nextSibling.ClassName == "markup-table-wrapper")
-         {
-            if(((IHtmlTableElement)nextSibling.FirstChild).Rows.First().ChildNodes.Count() > 1)
-                return (IHtmlTableElement)nextSibling.FirstChild;
-         }
-         else if(nextSibling.ClassName == "wh-center")
-         {
-            foreach(var child in nextSibling.Children)
-            {
-                if (child.ClassName == "markup-table-wrapper")
-                    if (((IHtmlTableElement)child.FirstChild).Rows.First().ChildNodes.Count() > 1)
-                       return (IHtmlTableElement)child.FirstChild; 
-            }
-         }
-         return null;
     }
 }
