@@ -19,7 +19,7 @@ LBIS.IsSOD = C_Seasons and C_Seasons.HasActiveSeason() and C_Seasons.GetActiveSe
 if LBIS.IsSOD then
 	LBIS.CurrentPhase = 8;
 else
-	LBIS.CurrentPhase = 4;
+	LBIS.CurrentPhase = 5;
 end
 
 LBIS.EventFrame = CreateFrame("FRAME",addonName.."Events")
