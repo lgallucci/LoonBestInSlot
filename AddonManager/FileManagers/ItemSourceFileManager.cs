@@ -8,7 +8,7 @@ public static class ItemSourceFileManager
     {
         SortedDictionary<int, ItemSource> items = new SortedDictionary<int, ItemSource>();
 
-        string[] itemSources = System.IO.File.ReadAllLines(@$"{Constants.AddonPath}\DB\ItemSources.lua");
+        string[] itemSources = System.IO.File.ReadAllLines(Constants.CombinePath(Constants.AddonPath, @$"\DB\ItemSources.lua"));
 
         foreach (var itemSource in itemSources)
         {
@@ -74,7 +74,7 @@ public static class ItemSourceFileManager
     {
         SortedDictionary<int, GemSource> gems = new SortedDictionary<int, GemSource>();
 
-        string[] gemSources = System.IO.File.ReadAllLines($@"{Constants.AddonPath}\DB\GemSources.lua");
+        string[] gemSources = System.IO.File.ReadAllLines(Constants.CombinePath(Constants.AddonPath, @$"\DB\GemSources.lua"));
 
         foreach (var gemSource in gemSources)
         {
@@ -134,7 +134,7 @@ public static class ItemSourceFileManager
     {
         SortedDictionary<int, EnchantSource> enchants = new SortedDictionary<int, EnchantSource>();
 
-        string[] enchantSources = System.IO.File.ReadAllLines($@"{Constants.AddonPath}\DB\EnchantSources.lua");
+        string[] enchantSources = System.IO.File.ReadAllLines(Constants.CombinePath(Constants.AddonPath, @$"\DB\EnchantSources.lua"));
 
         foreach (var enchantSource in enchantSources)
         {
@@ -200,7 +200,7 @@ public static class ItemSourceFileManager
     {
         SortedDictionary<int, TierSource> tiers = new SortedDictionary<int, TierSource>();
 
-        string[] tierSources = System.IO.File.ReadAllLines($@"{Constants.AddonPath}\DB\TierSources.lua");
+        string[] tierSources = System.IO.File.ReadAllLines(Constants.CombinePath(Constants.AddonPath, @$"\DB\TierSources.lua"));
 
         foreach (var tierSource in tierSources)
         {
@@ -250,7 +250,7 @@ public static class ItemSourceFileManager
                     $"SourceFaction = \"{source.Value.SourceFaction}\" }},");
         }
         itemSourceSB.AppendLine("}");
-        System.IO.File.WriteAllText(Constants.AddonPath + "\\DB\\ItemSources.lua", itemSourceSB.ToString());
+        System.IO.File.WriteAllText(Constants.CombinePath(Constants.AddonPath, @$"\\DB\\ItemSources.lua"), itemSourceSB.ToString());
     }
 
     public static void WriteGemSources(SortedDictionary<int, GemSource> sources)
@@ -268,7 +268,7 @@ public static class ItemSourceFileManager
                     $"SourceLocation = {source.Value.SourceLocation} }},");
         }
         itemSourceSB.AppendLine("}");
-        System.IO.File.WriteAllText(Constants.AddonPath + "\\DB\\GemSources.lua", itemSourceSB.ToString());
+        System.IO.File.WriteAllText(Constants.CombinePath(Constants.AddonPath, @$"\\DB\\GemSources.lua"), itemSourceSB.ToString());
     }
 
     public static void WriteEnchantSources(SortedDictionary<int, EnchantSource> sources)
@@ -288,7 +288,7 @@ public static class ItemSourceFileManager
                     $"TextureId = \"{source.Value.TextureId}\" }},");
         }
         itemSourceSB.AppendLine("}");
-        System.IO.File.WriteAllText(Constants.AddonPath + "\\DB\\EnchantSources.lua", itemSourceSB.ToString());
+        System.IO.File.WriteAllText(Constants.CombinePath(Constants.AddonPath, @$"\\DB\\EnchantSources.lua"), itemSourceSB.ToString());
     }
 
     public static void WriteTierSources(SortedDictionary<int, TierSource> sources)
@@ -304,6 +304,6 @@ public static class ItemSourceFileManager
                 " },");
         }
         tierSourceSB.AppendLine("}");
-        System.IO.File.WriteAllText(Constants.AddonPath + "\\DB\\TierSources.lua", tierSourceSB.ToString());
+        System.IO.File.WriteAllText(Constants.CombinePath(Constants.AddonPath, @$"\\DB\\TierSources.lua"), tierSourceSB.ToString());
     }
 }

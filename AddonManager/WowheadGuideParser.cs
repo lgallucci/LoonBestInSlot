@@ -1,11 +1,14 @@
-﻿using System.Net.Http;
+﻿using System.IO;
+using System.Net.Http;
 using System.Text.RegularExpressions;
+using System.Threading.Tasks;
 using System.Xml.Serialization;
 using AddonManager.Models;
 using AngleSharp;
 using AngleSharp.Dom;
 using AngleSharp.Html;
 using AngleSharp.Html.Dom;
+using Newtonsoft.Json;
 
 namespace AddonManager;
 
@@ -102,6 +105,23 @@ public class WowheadGuideParser
     {
         private Dictionary<string, string> _slotSwaps = new Dictionary<string, string>()
         {
+            { "Head", "Head" }, 
+            { "Shoulder", "Shoulder" }, 
+            { "Back", "Back" }, 
+            { "Chest", "Chest" }, 
+            { "Wrist", "Wrist" },
+            { "Hands", "Hands" }, 
+            { "Waist", "Waist" }, 
+            { "Legs", "Legs" }, 
+            { "Feet", "Feet" }, 
+            { "Neck", "Neck" }, 
+            { "Ring", "Ring" }, 
+            { "Trinket", "Trinket" },  
+            { "Trinkets", "Trinket" },  
+            { "Main Hand", "Main Hand" }, 
+            { "Off Hand", "Off Hand" },
+            { "Two Hand", "Two Hand" }, 
+            { "Ranged/Relic", "Ranged/Relic" },
             { "Helm", "Head" },
             { "Boots", "Feet" },
             { "Belt", "Waist" },
@@ -109,11 +129,15 @@ public class WowheadGuideParser
             { "Bracers", "Wrist" },
             { "Shoulders", "Shoulder" },
             { "Cloak", "Back" },
+            { "Cape", "Back" },
+            { "Gloves", "Hands" },
             { "Main-Hand", "Main Hand" },
             { "Main-Hand Weapon", "Main Hand" },
+            { "1h Weapon", "Main Hand" },
             { "Off-Hand Weapon", "Off Hand" },
             { "Off-Hand weapon", "Off Hand" },
             { "Off-Hand", "Off Hand" },
+            { "Offhand", "Off Hand" },
             { "Shield", "Off Hand" },
             { "Weapon", "Two Hand" },
             { "Two-Hand Weapon", "Two Hand" },
@@ -128,7 +152,7 @@ public class WowheadGuideParser
             { "Trinket - Throughput", "Trinket" },
             { "Trinket - Sustain", "Trinket" },
             { "Feet - Alternative", "Feet" },
-            { "Legs - Alternative", "Feet" }
+            { "Legs - Alternative", "Feet" },
         };
         // Setting up indexers
         public string this[string i]
@@ -138,7 +162,7 @@ public class WowheadGuideParser
             {
                 if (this._slotSwaps.ContainsKey(i))
                     return _slotSwaps[i];
-                return i;
+                return "unknown";
             }
         }
     }
@@ -170,17 +194,28 @@ public class WowheadGuideParser
                 throw new InvalidOperationException("Expected table element, but found: " + table?.NodeName);
             }
             var t = (IHtmlTableElement)table;
-            LoopThroughTable(t, (tableRow, itemChild, itemOrderIndex, slot) =>
+            LoopThroughTable(t, async (tableRow, itemChild, itemOrderIndex, slot) =>
             {
                 var bisText = first ? "BIS" : "Alt";
 
                 if (itemChild != null)
                 {
-                    ParseItemCell(itemChild, bisText, GetSlot(slot, bisText, itemChild), items, itemOrderIndex);
+                    await ParseItemCell(itemChild, bisText, GetSlot(slot), items, itemOrderIndex, logFunc);
                 }
             });
             first = false;
         }
+
+        var jsonFileString = File.ReadAllText(Constants.CombinePath(Constants.ItemDbPath, @$"\ItemSlots.json"));
+        var itemSlots = JsonConvert.DeserializeObject<Dictionary<int, string>>(jsonFileString) ?? new Dictionary<int, string>();
+        foreach(var item in items.Values)
+        {
+            if (!itemSlots.ContainsKey(item.ItemId))
+            {
+                itemSlots.Add(item.ItemId, item.Slot);
+            }
+        }      
+        File.WriteAllText(Constants.CombinePath(Constants.ItemDbPath, @$"\ItemSlots.json"), JsonConvert.SerializeObject(itemSlots, Formatting.Indented));
 
         return (gems, enchants, items);
     }
@@ -341,12 +376,12 @@ public class WowheadGuideParser
         return slotSwaps[slot];
     }
 
-    private List<int> ParseItemCell(IElement itemChild, string bisStatus, string slot, Dictionary<int, ItemSpec> items, int itemOrderIndex)
+    private async Task<List<int>> ParseItemCell(IElement itemChild, string bisStatus, string slot, Dictionary<int, ItemSpec> items, int itemOrderIndex, Action<string> logFunc)
     {
         bool foundAnchor = false;
 
         List<int> itemIds = new List<int>();
-        Common.RecursiveBoxSearch(itemChild, (child) =>
+        await Common.RecursiveBoxSearchAsync(itemChild, async (child) =>
         {
             foundAnchor = true;
             bool foundItem = false;
@@ -381,10 +416,15 @@ public class WowheadGuideParser
                         guideItemIds = _itemSwaps[guideItemId].Split(',').Select(i => int.Parse(i.Trim())).ToList();
                     }
 
-                    foreach(var itemId in guideItemIds)
+                    foreach (var itemId in guideItemIds)
                     {
                         if (!items.ContainsKey(itemId))
                         {
+                            if (slot == "unknown")
+                            {
+                                slot = await GetSlotFromItemId(itemId, logFunc);
+                            }
+
                             items.Add(itemId, new ItemSpec
                             {
                                 ItemId = itemId,
@@ -407,7 +447,7 @@ public class WowheadGuideParser
                         }
                         else
                         {
-                            if (!items[itemId].Slot.Contains(slot))
+                            if (!items[itemId].Slot.Contains(slot) && slot != "unknown")
                             {
                                 items[itemId].Slot = $"{items[itemId].Slot}~{slot}";
                                 if (items[itemId].BisStatus != bisStatus)
@@ -415,7 +455,7 @@ public class WowheadGuideParser
                             }
                         }
                         itemIds.Add(itemId);
-                    }
+                    }    
                 }
             }
             return foundItem;
@@ -436,6 +476,40 @@ public class WowheadGuideParser
         return itemIds;
     }
 
+    private async Task<string> GetSlotFromItemId(int itemId, Action<string> writeToLog)
+    {        
+        var jsonFileString = File.ReadAllText(Constants.CombinePath(Constants.ItemDbPath, @$"\ItemSlots.json"));
+        var itemSlots = JsonConvert.DeserializeObject<Dictionary<int, string>>(jsonFileString) ?? new Dictionary<int, string>();
+
+        if (itemSlots.TryGetValue(itemId, out var slot))
+        {
+            return slot;
+        }
+        else
+        {
+            var doc = await Common.LoadFromWebPage($"https://www.wowhead.com/mop-classic/item={itemId}", writeToLog);
+
+            if (doc == null)
+            {
+                throw new InvalidOperationException($"Failed to load item page for item ID {itemId}.");
+            }
+
+            var breadcrumb = doc.QuerySelector(".breadcrumb");
+            if (breadcrumb == null)
+            {
+                throw new InvalidOperationException($"Failed to load item page for item ID {itemId}.");
+            }
+
+            var lastBreadcrumb = breadcrumb.LastElementChild;
+            if (lastBreadcrumb == null)
+            {
+                throw new InvalidOperationException($"Failed to load item page for item ID {itemId}.");
+            }
+            
+            return lastBreadcrumb.TextContent.Trim();
+        }
+    }
+
     private void LoopThroughTable(IHtmlTableElement table, Action<INode, IElement?, int, string> action)
     {
         var itemOrderIndex = 0;
@@ -443,15 +517,15 @@ public class WowheadGuideParser
         var tableRows = table?.FirstChild?.ChildNodes;
         if (tableRows != null)
         {
+            bool isSlot = false;
             foreach (var tableRow in tableRows)
             {
                 var slot = string.Empty;
-                var tierlistNumber = 0;
                 if (!firstRow || tableRow.NodeName != "TR")
                 {
                     if (tableRow.ChildNodes[0].TextContent.Contains("Slot"))
                     {
-                        slot = tableRow.ChildNodes[0].TextContent.Trim();
+                        isSlot = true;
                     }
                     else if (tableRow.ChildNodes[0].TextContent.Contains("Reputation")) { }
                     else
@@ -460,12 +534,14 @@ public class WowheadGuideParser
                     }
                     firstRow = true;
                     continue;
-                } 
+                }
 
                 IElement? itemChild = null;
                 
-
-                for (int i = tierlistNumber + 1; i < tableRow.ChildNodes.Length; i++)
+                if (isSlot)
+                    slot = tableRow.ChildNodes[0].TextContent.Trim();
+                    
+                for (int i = 0; i < tableRow.ChildNodes.Length; i++)
                 {
                     var rowChild = tableRow.ChildNodes[i];
                     if (rowChild.NodeType == NodeType.Element)
@@ -477,7 +553,6 @@ public class WowheadGuideParser
                         }
                     }
                 }
-
                 action(tableRow, itemChild, itemOrderIndex, slot);
 
                 itemOrderIndex++;

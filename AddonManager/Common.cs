@@ -1,4 +1,5 @@
-﻿using AngleSharp.Dom;
+﻿using System.Threading.Tasks;
+using AngleSharp.Dom;
 using AngleSharp.Html.Dom;
 using AngleSharp.Html.Parser;
 using PuppeteerSharp;
@@ -118,6 +119,23 @@ public static class Common
             else
             {
                 RecursiveBoxSearch(boxElement, action);
+            }
+        }
+    }
+
+    public static async Task RecursiveBoxSearchAsync(INode headerElement, Func<IHtmlAnchorElement, Task<bool>> action)
+    {
+        foreach (var boxElement in headerElement.ChildNodes)
+        {
+            if (boxElement is IHtmlAnchorElement)
+            {
+                bool goodAnchor = await action((IHtmlAnchorElement)boxElement);
+                if (!goodAnchor)
+                    await RecursiveBoxSearchAsync(boxElement, action);
+            }
+            else
+            {
+                await RecursiveBoxSearchAsync(boxElement, action);
             }
         }
     }
