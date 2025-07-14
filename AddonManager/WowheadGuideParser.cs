@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System.Formats.Tar;
+using System.IO;
 using System.Net.Http;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
@@ -105,22 +106,22 @@ public class WowheadGuideParser
     {
         private Dictionary<string, string> _slotSwaps = new Dictionary<string, string>()
         {
-            { "Head", "Head" }, 
-            { "Shoulder", "Shoulder" }, 
-            { "Back", "Back" }, 
-            { "Chest", "Chest" }, 
+            { "Head", "Head" },
+            { "Shoulder", "Shoulder" },
+            { "Back", "Back" },
+            { "Chest", "Chest" },
             { "Wrist", "Wrist" },
-            { "Hands", "Hands" }, 
-            { "Waist", "Waist" }, 
-            { "Legs", "Legs" }, 
-            { "Feet", "Feet" }, 
-            { "Neck", "Neck" }, 
-            { "Ring", "Ring" }, 
-            { "Trinket", "Trinket" },  
-            { "Trinkets", "Trinket" },  
-            { "Main Hand", "Main Hand" }, 
+            { "Hands", "Hands" },
+            { "Waist", "Waist" },
+            { "Legs", "Legs" },
+            { "Feet", "Feet" },
+            { "Neck", "Neck" },
+            { "Ring", "Ring" },
+            { "Trinket", "Trinket" },
+            { "Trinkets", "Trinket" },
+            { "Main Hand", "Main Hand" },
             { "Off Hand", "Off Hand" },
-            { "Two Hand", "Two Hand" }, 
+            { "Two Hand", "Two Hand" },
             { "Ranged/Relic", "Ranged/Relic" },
             { "Helm", "Head" },
             { "Boots", "Feet" },
@@ -129,7 +130,9 @@ public class WowheadGuideParser
             { "Bracers", "Wrist" },
             { "Shoulders", "Shoulder" },
             { "Cloak", "Back" },
+            { "Cloaks", "Back" },
             { "Cape", "Back" },
+            { "Amulets", "Neck"},
             { "Gloves", "Hands" },
             { "Main-Hand", "Main Hand" },
             { "Main-Hand Weapon", "Main Hand" },
@@ -152,7 +155,7 @@ public class WowheadGuideParser
             { "Trinket - Throughput", "Trinket" },
             { "Trinket - Sustain", "Trinket" },
             { "Feet - Alternative", "Feet" },
-            { "Legs - Alternative", "Feet" },
+            { "Legs - Alternative", "Feet" }
         };
         // Setting up indexers
         public string this[string i]
@@ -162,12 +165,14 @@ public class WowheadGuideParser
             {
                 if (this._slotSwaps.ContainsKey(i))
                     return _slotSwaps[i];
-                return "unknown";
+                else if (string.IsNullOrWhiteSpace(i))
+                    return "unknown";
+                throw new KeyNotFoundException($"Slot '{i}' not found in slot swaps.");
             }
         }
     }
 
-    public (Dictionary<int, GemSpec>, Dictionary<int, EnchantSpec>, Dictionary<int, ItemSpec>) ParseWowheadGuide(ClassGuideMapping classGuide, IHtmlDocument doc, Action<string> logFunc)
+    public async Task<(Dictionary<int, GemSpec>, Dictionary<int, EnchantSpec>, Dictionary<int, ItemSpec>)> ParseWowheadGuide(ClassGuideMapping classGuide, IHtmlDocument doc, Action<string> logFunc)
     {
         var items = new Dictionary<int, ItemSpec>();
         var enchants = new Dictionary<int, EnchantSpec>();
@@ -175,6 +180,7 @@ public class WowheadGuideParser
 
         bool enchantsAndGems = classGuide.Phase == Constants.CurrentPhase;
 
+        //Get Gems and Enchants
         LoopThroughEnchantsAndGems(doc, (enchantAnchor, slot) => {
                 ParseEnchant(enchantAnchor, slot, enchants);
                 return true;
@@ -185,6 +191,7 @@ public class WowheadGuideParser
             }
         );
 
+        //Get Items
         bool first = true;
         var tables = doc.QuerySelectorAll(".wh-center .markup-table-wrapper table");
         foreach (var table in tables)
@@ -194,16 +201,36 @@ public class WowheadGuideParser
                 throw new InvalidOperationException("Expected table element, but found: " + table?.NodeName);
             }
             var t = (IHtmlTableElement)table;
-            LoopThroughTable(t, async (tableRow, itemChild, itemOrderIndex, slot) =>
+            await LoopThroughTable(t, async (tableRow, itemChild, itemOrderIndex, slot) =>
             {
                 var bisText = first ? "BIS" : "Alt";
 
                 if (itemChild != null)
                 {
-                    await ParseItemCell(itemChild, bisText, GetSlot(slot), items, itemOrderIndex, logFunc);
+                    await ParseItemCell(itemChild, bisText, slot, items, itemOrderIndex, logFunc);
                 }
             });
             first = false;
+        }
+
+        //Get Crafted Gear
+        var craftedGear = doc.QuerySelectorAll("#crafted-gear ~ .exclude-units");
+        if (craftedGear != null)
+        {
+            foreach (var gear in craftedGear)
+            {
+                throw new NotImplementedException("Crafted gear parsing is not implemented yet.");
+            }
+        }
+
+        //Get Gems
+        var gemList = doc.QuerySelectorAll("#gemming ~ .exclude-units");
+        if (gemList != null)
+        {
+            foreach (var gemItem in gemList)
+            {
+                throw new NotImplementedException("Gems parsing is not implemented yet.");
+            }
         }
 
         var jsonFileString = File.ReadAllText(Constants.CombinePath(Constants.ItemDbPath, @$"\ItemSlots.json"));
@@ -228,23 +255,23 @@ public class WowheadGuideParser
         {
             var slotId = gearSlot.Attributes["data-slot-id"];
 
-            var enchantDiv = gearSlot.QuerySelector(".wow-gear-slot-enchant");
+            var enchantDiv = gearSlot.QuerySelector(".wow-gear-slot-enchants");
 
             if (enchantDiv != null)
                 Common.RecursiveBoxSearch(enchantDiv, (child) =>
                 {
                     var enchantAnchor = (IHtmlAnchorElement)child;
-                    if (enchantAnchor.PathName.Contains("cata/"))
+                    if (enchantAnchor.PathName.Contains("mop-classic/"))
                         return foundEnchant(enchantAnchor, GetSlotFromId(slotId?.Value));
                     return false;
                 });
 
-            var gemDivs = gearSlot.QuerySelectorAll(".wow-gear-slot-socket");
+            var gemDivs = gearSlot.QuerySelectorAll(".wow-gear-slot-sockets");
             foreach (var gemDiv in gemDivs)
                 Common.RecursiveBoxSearch(gemDiv, (child) =>
                 {
                     var gemAnchor = (IHtmlAnchorElement)child;
-                    if (gemAnchor.PathName.Contains("cata/"))
+                    if (gemAnchor.PathName.Contains("mop-classic/"))
                         return foundGem(gemAnchor, GetSlotFromId(slotId?.Value));
                     return false;
                 });
@@ -385,6 +412,7 @@ public class WowheadGuideParser
         {
             foundAnchor = true;
             bool foundItem = false;
+            var itemSlot = string.Empty;
 
             if (child.PathName.Contains("/item="))
             {
@@ -395,7 +423,7 @@ public class WowheadGuideParser
                     itemIdIndex = item.IndexOf("&");
                 if (itemIdIndex != -1)
                     item = item.Substring(0, itemIdIndex);
-                    
+
                 var itemName = child.TextContent.Trim();
 
                 bool skippedItem = false;
@@ -418,11 +446,12 @@ public class WowheadGuideParser
 
                     foreach (var itemId in guideItemIds)
                     {
+                        itemSlot = GetSlot(slot);
                         if (!items.ContainsKey(itemId))
                         {
-                            if (slot == "unknown")
+                            if (itemSlot == "unknown")
                             {
-                                slot = await GetSlotFromItemId(itemId, logFunc);
+                                itemSlot = await GetSlotFromItemId(itemId, logFunc);
                             }
 
                             items.Add(itemId, new ItemSpec
@@ -430,7 +459,7 @@ public class WowheadGuideParser
                                 ItemId = itemId,
                                 Name = itemName ?? "unknown",
                                 BisStatus = bisStatus ?? "unknown",
-                                Slot = slot,
+                                Slot = itemSlot,
                                 ItemOrder = itemOrderIndex
                             });
                             if (_duplicateItemIds.ContainsKey(itemId) && !items.ContainsKey(_duplicateItemIds[itemId]))
@@ -440,22 +469,22 @@ public class WowheadGuideParser
                                     ItemId = _duplicateItemIds[itemId],
                                     Name = itemName ?? "unknown",
                                     BisStatus = bisStatus ?? "unknown",
-                                    Slot = slot,
+                                    Slot = itemSlot,
                                     ItemOrder = itemOrderIndex
                                 });
                             }
                         }
                         else
                         {
-                            if (!items[itemId].Slot.Contains(slot) && slot != "unknown")
+                            if (!items[itemId].Slot.Contains(itemSlot) && itemSlot != "unknown")
                             {
-                                items[itemId].Slot = $"{items[itemId].Slot}~{slot}";
+                                items[itemId].Slot = $"{items[itemId].Slot}~{itemSlot}";
                                 if (items[itemId].BisStatus != bisStatus)
                                     items[itemId].BisStatus = $"{items[itemId].BisStatus}/{bisStatus}";
                             }
                         }
                         itemIds.Add(itemId);
-                    }    
+                    }
                 }
             }
             return foundItem;
@@ -506,11 +535,16 @@ public class WowheadGuideParser
                 throw new InvalidOperationException($"Failed to load item page for item ID {itemId}.");
             }
             
-            return lastBreadcrumb.TextContent.Trim();
+            if (lastBreadcrumb.TextContent.Contains("..."))
+            {
+                lastBreadcrumb = lastBreadcrumb.PreviousElementSibling;
+            }
+
+            return GetSlot(lastBreadcrumb?.TextContent?.Trim() ?? "");
         }
     }
 
-    private void LoopThroughTable(IHtmlTableElement table, Action<INode, IElement?, int, string> action)
+    private async Task LoopThroughTable(IHtmlTableElement table, Func<INode, IElement?, int, string, Task> action)
     {
         var itemOrderIndex = 0;
         var firstRow = false;
@@ -528,9 +562,14 @@ public class WowheadGuideParser
                         isSlot = true;
                     }
                     else if (tableRow.ChildNodes[0].TextContent.Contains("Reputation")) { }
+                    else if (tableRow.ChildNodes[0].TextContent.Contains("Set Count") || 
+                             tableRow.ChildNodes[0].TextContent.Contains("2 Piece") ||
+                             tableRow.ChildNodes[0].TextContent.Contains("4 Piece")) { 
+                        continue;
+                    }
                     else
                     {
-                        throw new InvalidOperationException("Expected table row to start with 'Slot' or 'Reputation', but found: " + tableRow.ChildNodes[0].TextContent);
+                        return; // Skip if not correct type of table.
                     }
                     firstRow = true;
                     continue;
@@ -553,7 +592,7 @@ public class WowheadGuideParser
                         }
                     }
                 }
-                action(tableRow, itemChild, itemOrderIndex, slot);
+                await action(tableRow, itemChild, itemOrderIndex, slot);
 
                 itemOrderIndex++;
             }

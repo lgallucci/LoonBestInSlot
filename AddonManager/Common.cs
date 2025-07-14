@@ -1,5 +1,4 @@
-﻿using System.Threading.Tasks;
-using AngleSharp.Dom;
+﻿using AngleSharp.Dom;
 using AngleSharp.Html.Dom;
 using AngleSharp.Html.Parser;
 using PuppeteerSharp;
@@ -7,14 +6,14 @@ using PuppeteerSharp;
 namespace AddonManager;
 public static class Common
 {
-    public static async Task LoadFromWebPages(IEnumerable<string> pageAddresses, Action<string, IHtmlDocument> func, Action<string> writeToLog, CancellationToken? cancelToken = null, bool waitForIdle = true)    
-    {        
+    public static async Task LoadFromWebPages(IEnumerable<string> pageAddresses, Action<string, IHtmlDocument> func, Action<string> writeToLog, CancellationToken? cancelToken = null)    
+    {
         IHtmlDocument? content;
 
         await new BrowserFetcher().DownloadAsync();
         using (var browser = await Puppeteer.LaunchAsync(new LaunchOptions
         {
-            Headless = true,
+            Headless = true,            
             IgnoreHTTPSErrors = true,
         }))
         {
@@ -22,15 +21,15 @@ public static class Common
             int count = 0;
             foreach (var pageAddress in pageAddresses)
             {
-                content = await RetryPageLoad(browser, pageAddress, writeToLog, cancelToken, ++count, total, waitForIdle);
+                content = await RetryPageLoad(browser, pageAddress, writeToLog, cancelToken, ++count, total);
 
                 if (content != null)
-                    func(pageAddress, content);
+                    func(pageAddress, content);      
             }
         }
     }
 
-    public static async Task LoadFromWebPages(IEnumerable<string> pageAddresses, Func<string, IHtmlDocument, Task> func, Action<string> writeToLog, CancellationToken? cancelToken = null, bool waitForIdle = true)    
+    public static async Task LoadFromWebPages(IEnumerable<string> pageAddresses, Func<string, IHtmlDocument, Task> func, Action<string> writeToLog, CancellationToken? cancelToken = null)    
     {        
         IHtmlDocument? content;
 
@@ -45,7 +44,7 @@ public static class Common
             int count = 0;
             foreach (var pageAddress in pageAddresses)
             {
-                content = await RetryPageLoad(browser, pageAddress, writeToLog, cancelToken, ++count, total, waitForIdle);
+                content = await RetryPageLoad(browser, pageAddress, writeToLog, cancelToken, ++count, total);
 
                 if (content != null)
                     await func(pageAddress, content);
@@ -53,7 +52,7 @@ public static class Common
         }
     }
 
-    internal static async Task<IHtmlDocument?> LoadFromWebPage(string pageAddress, Action<string> writeToLog, CancellationToken? cancelToken = null, bool waitForIdle = true)
+    internal static async Task<IHtmlDocument?> LoadFromWebPage(string pageAddress, Action<string> writeToLog, CancellationToken? cancelToken = null)
     {
         await new BrowserFetcher().DownloadAsync();
         using (var browser = await Puppeteer.LaunchAsync(new LaunchOptions
@@ -62,11 +61,11 @@ public static class Common
             IgnoreHTTPSErrors = true,
         }))
         {
-            return await RetryPageLoad(browser, pageAddress, writeToLog, cancelToken, 1, 1, waitForIdle);
+            return await RetryPageLoad(browser, pageAddress, writeToLog, cancelToken, 1, 1);
         }
     }
 
-    private static async Task<IHtmlDocument?> RetryPageLoad(IBrowser browser, string pageAddress, Action<string> writeToLog, CancellationToken? cancelToken, int count, int total, bool waitForIdle)
+    private static async Task<IHtmlDocument?> RetryPageLoad(IBrowser browser, string pageAddress, Action<string> writeToLog, CancellationToken? cancelToken, int count, int total)
     {
         for (var i = 0; i < 3; i++)
         {
@@ -78,13 +77,13 @@ public static class Common
             System.Diagnostics.Debug.WriteLine($"Starting WebPage ({pageAddress})...");
             using (var page = await browser.NewPageAsync())
             {
-                try
+                try 
                 {
                     page.DefaultTimeout = 30000; // or you can set this as 0
-                    if (waitForIdle)
-                        await page.GoToAsync(pageAddress, WaitUntilNavigation.Networkidle2);
-                    else
-                        await page.GoToAsync(pageAddress, WaitUntilNavigation.DOMContentLoaded);
+
+                    await page.GoToAsync(pageAddress);
+                    await page.WaitForSelectorAsync("#main-contents");
+
                     var content = await page.GetContentAsync();
 
                     System.Diagnostics.Debug.WriteLine($"Retrieved Content ({content.Substring(0, 10)})...");
@@ -99,16 +98,16 @@ public static class Common
                 }
                 catch
                 {
-                    writeToLog($"Failed to read from {pageAddress} {count}/{total} ({i + 1}/3)");
+                    writeToLog($"Failed to read from {pageAddress} {count}/{total} ({i+1}/3)");
                 }
             }
         }
         return null;
     }
 
-    public static void RecursiveBoxSearch(INode headerElement, Func<IHtmlAnchorElement, bool> action)
+    public static void RecursiveBoxSearch(IElement headerElement, Func<IHtmlAnchorElement, bool> action)
     {
-        foreach (var boxElement in headerElement.ChildNodes)
+        foreach (var boxElement in headerElement.Children)
         {
             if (boxElement is IHtmlAnchorElement)
             {
@@ -123,9 +122,9 @@ public static class Common
         }
     }
 
-    public static async Task RecursiveBoxSearchAsync(INode headerElement, Func<IHtmlAnchorElement, Task<bool>> action)
+    public static async Task RecursiveBoxSearchAsync(IElement headerElement, Func<IHtmlAnchorElement, Task<bool>> action)
     {
-        foreach (var boxElement in headerElement.ChildNodes)
+        foreach (var boxElement in headerElement.Children)
         {
             if (boxElement is IHtmlAnchorElement)
             {
@@ -140,12 +139,12 @@ public static class Common
         }
     }
 
-    internal static async Task ReadWowheadContainsList(IEnumerable<string> webAddresses, Action<string, IElement, int, IElement> func, Action<string> writeToLog, CancellationToken? _importCancelToken)
+    internal static async Task ReadWowheadContainsList(IEnumerable<string> webAddresses, Action<string, IElement, int, IElement> func, Action<string> writeToLog, CancellationToken? _importCancelToken)   
     {
         await Common.LoadFromWebPages(webAddresses, (uri, doc) => ReadWowheadContainsList(doc, uri, func), writeToLog, _importCancelToken);
     }
 
-    internal static async Task ReadWowheadDropsList(IEnumerable<string> webAddresses, Action<string, IElement, int, IElement> func, Action<string> writeToLog, CancellationToken? _importCancelToken)
+    internal static async Task ReadWowheadDropsList(IEnumerable<string> webAddresses, Action<string, IElement, int, IElement> func, Action<string> writeToLog, CancellationToken? _importCancelToken)   
     {
         await Common.LoadFromWebPages(webAddresses, (uri, doc) => ReadWowheadDropsList(doc, uri, func), writeToLog, _importCancelToken);
     }
@@ -155,23 +154,13 @@ public static class Common
         await Common.LoadFromWebPages(webAddresses, (uri, doc) => ReadWowheadDroppedByList(doc, uri, func), writeToLog);
     }
 
-    internal static async Task ReadEvoWowSellsList(IEnumerable<string> webAddresses, Action<string, IElement, int, IElement> func, Action<string> writeToLog)
-    {
-        await Common.LoadFromWebPages(webAddresses, (uri, doc) =>
-        {
-            var rowElements = doc.QuerySelectorAll("#tab-currency-for .listview-mode-default tr");
-
-            ReadEvoWowItemsList(doc, uri, rowElements, func);
-        }, writeToLog);
-    }
-
     internal static async Task ReadWowheadSellsList(IEnumerable<string> webAddresses, Action<string, IElement, int, IElement> func, Action<string> writeToLog, CancellationToken? cancelToken = null)
     {
         await Common.LoadFromWebPages(webAddresses, (uri, doc) => ReadWowheadSellsList(doc, uri, func), writeToLog, cancelToken);
     }
 
     internal static void ReadWowheadSellsList(IHtmlDocument doc, string uri, Action<string, IElement, int, IElement> func)
-    {
+    {        
         var rowElements = doc.QuerySelectorAll("#tab-sells .listview-mode-default .listview-row");
 
         ReadWowheadItemsList(doc, uri, rowElements, func);
@@ -198,7 +187,7 @@ public static class Common
         ReadWowheadItemsList(doc, uri, rowElements, func);
     }
 
-    private static void ReadEvoWowItemsList(IHtmlDocument doc, string uri, IHtmlCollection<IElement> rowElements, Action<string, IElement, int, IElement> func)
+private static void ReadEvoWowItemsList(IHtmlDocument doc, string uri, IHtmlCollection<IElement> rowElements, Action<string, IElement, int, IElement> func)
     {
         if (rowElements != null && rowElements.Length > 0)
         {
@@ -240,34 +229,34 @@ public static class Common
             if (rowElements.Length == 50)
                 System.Diagnostics.Debug.WriteLine($"Warning: Found 50 items in {uri}, this is likely a bug in the importer, please report it!");
             foreach (var row in rowElements)
+            {
+                var success = false;
+                var itemId = 0; // Get ItemId from Row
+                var itemName = "";
+
+                RecursiveBoxSearch(row.Children[2], (anchorObject) =>
                 {
-                    var success = false;
-                    var itemId = 0; // Get ItemId from Row
-                    var itemName = "";
+                    if (success) return true;
 
-                    RecursiveBoxSearch(row.Children[2], (anchorObject) =>
+                    var item = ((IHtmlAnchorElement)anchorObject).PathName.Replace("/mop-classic/", "/").Replace("/item=", "").Replace("/spell=", "");
+                    itemName = anchorObject.TextContent;
+
+                    var itemIdIndex = item.IndexOf("/");
+                    if (itemIdIndex == -1)
+                        itemIdIndex = item.IndexOf("&");
+
+                    if (itemIdIndex > -1)
                     {
-                        if (success) return true;
+                        item = item.Substring(0, itemIdIndex);
 
-                        var item = ((IHtmlAnchorElement)anchorObject).PathName.Replace("/mop-classic/", "/").Replace("/item=", "").Replace("/spell=", "");
-                        itemName = anchorObject.TextContent;
+                        success = Int32.TryParse(item, out itemId);
 
-                        var itemIdIndex = item.IndexOf("/");
-                        if (itemIdIndex == -1)
-                            itemIdIndex = item.IndexOf("&");
+                        func(uri, row, itemId, anchorObject);
+                    }
+                    return success;
+                });
 
-                        if (itemIdIndex > -1)
-                        {
-                            item = item.Substring(0, itemIdIndex);
-
-                            success = Int32.TryParse(item, out itemId);
-
-                            func(uri, row, itemId, anchorObject);
-                        }
-                        return success;
-                    });
-
-                }
+            }
         }
     }
 }

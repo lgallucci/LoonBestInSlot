@@ -1,5 +1,4 @@
 {
-  "89339": "Shoulder",
   "86702": "Head",
   "86856": "Neck",
   "86699": "Shoulder",
@@ -37,5 +36,15 @@
   "81133": "Trinket",
   "81264": "Trinket",
   "87544": "Main Hand",
-  "81076": "Off Hand"
+  "81076": "Off Hand",
+  "89063": "Waist",
+  "89067": "Neck",
+  "89087": "Legs",
+  "89078": "Back",
+  "89080": "Trinket",
+  "89081": "Trinket",
+  "89338": "Head",
+  "89339": "Shoulder",
+  "89434": "Chest",
+  "88877": "Feet"
 }

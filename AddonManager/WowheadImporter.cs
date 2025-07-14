@@ -195,7 +195,7 @@ public static class WowheadImporter
             {
                 logFunc($"{spec.ClassName} {spec.SpecName} Failed! - {ex.Message.Substring(0, 150)}...");
             }
-        }, logFunc, cancelToken, true);
+        }, logFunc, cancelToken);
 
         logFunc($"Done!");
     }
@@ -204,7 +204,7 @@ public static class WowheadImporter
     {
         var result = string.Empty;
 
-        var doc = await Common.LoadFromWebPage(classGuide.WebAddress, logFunc, cancelToken, true);
+        var doc = await Common.LoadFromWebPage(classGuide.WebAddress, logFunc, cancelToken);
 
         if (doc != null)
             result = await ImportClassInternal(classGuide, phaseNumber, doc, logFunc);
@@ -223,7 +223,7 @@ public static class WowheadImporter
             {
                 var guide = ItemSpecFileManager.ReadGuide(Constants.CombinePath(Constants.AddonPath, $@"\Guides\{className.Replace(" ", "")}.lua"));
 
-                itemsAndEnchants = new WowheadGuideParser().ParseWowheadGuide(classGuideMapping, doc, logFunc);
+                itemsAndEnchants = await new WowheadGuideParser().ParseWowheadGuide(classGuideMapping, doc, logFunc);
 
                 var gemSources = new List<GemSpec>();
                 foreach(var gem in itemsAndEnchants.Item1) 
@@ -315,7 +315,8 @@ public static class WowheadImporter
             if (doc != null)
             {
                 var name = doc.Title?.Split("-")[0].Trim() ?? "unknown";
-                var isMeta = doc.QuerySelector("#main-precontents div span ~ span ~ span ~ span")?.TextContent == "Meta";
+                var breadcrumb = doc.QuerySelector(".breadcrumb");
+                var isMeta = breadcrumb?.LastElementChild?.TextContent == "Meta";
                 var quality = doc.QuerySelector(".wowhead-tooltip b")?.ClassName;
 
                 int itemQuality = 0;

@@ -11,12 +11,15 @@ public class EmblemImporter : LootImporter
 {
     private List<string> wowheadUriList = new List<string>
     {
-        // "https://www.wowhead.com/mop-classic/npc=44245/faldren-tillsdale#sells",
+        "https://www.wowhead.com/mop-classic/npc=248108/avatar-of-the-august-celestials#sells",
+        "https://www.wowhead.com/mop-classic/npc=248108/avatar-of-the-august-celestials#sells;50",
+        "https://www.wowhead.com/mop-classic/npc=248108/avatar-of-the-august-celestials#sells;100",
+        "https://www.wowhead.com/mop-classic/npc=248108/avatar-of-the-august-celestials#sells;150",
+        "https://www.wowhead.com/mop-classic/npc=248108/avatar-of-the-august-celestials#sells;200"
     };
 
     private List<string> guideUriList = new List<string>()
     {
-        "https://www.wowhead.com/mop-classic/guide/dungeons/elemental-rune-protocol-inferno-dungeons-overview",
     };
 
     public EmblemImporter(CancellationToken cancellationToken) : base(cancellationToken)
@@ -132,6 +135,7 @@ public class EmblemImporter : LootImporter
                             item == "2589" ? "Sidereal Essence" :
                             item == "2711" ? "Defiler's Scourgestone" :
                             item == "3148" ? "Fissure Stone Fragment" :
+                            item == "3350" ? "August Stone Fragment" :
                             item == "3281" ? "Obsidian Fragment" :
                             item == "47242" ? "Trophy" :
                             item == "52025" ? "Vanquisher's Mark" :

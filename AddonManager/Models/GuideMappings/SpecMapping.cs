@@ -8,9 +8,10 @@ namespace AddonManager.Models.GuideMappings;
 internal abstract class SpecMapping
 {
     public int CurrentPhaseNumber { get; } = 0;
-    public string UrlBase => "https://www.wowhead.com/mop-classic/guide/classes/" + Class.ToLower() + "/" + Spec.ToLower() + "/";
+    public string UrlBase => "https://www.wowhead.com/mop-classic/guide/classes/" + Class.ToLower() + "/" + SpecUrl.ToLower() + "/";
     public abstract string Class { get; }
     public abstract string Spec { get; }
+    public virtual string SpecUrl => Spec.ToLower();
 
     public abstract string PreRaidUrl { get; }
     public abstract string Phase1Url { get; }

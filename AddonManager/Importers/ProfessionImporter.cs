@@ -82,7 +82,7 @@ public class ProfessionImporter : LootImporter
 
     private int GetIdFromAnchor(IHtmlAnchorElement anchor, string anchorType)
     {
-        var item = anchor.PathName.Replace("/cata", "").Replace(anchorType, "");
+        var item = anchor.PathName.Replace("/mop-classic", "").Replace(anchorType, "");
         var itemIdIndex = item.IndexOf("/");
         if (itemIdIndex == -1)
             itemIdIndex = item.IndexOf("&");
