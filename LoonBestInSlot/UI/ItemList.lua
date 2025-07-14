@@ -16,9 +16,7 @@ itemSlotOrder[LBIS.L["Trinket"]] = 11;
 itemSlotOrder[LBIS.L["Main Hand"]] = 12;
 itemSlotOrder[LBIS.L["Off Hand"]] = 13;
 itemSlotOrder[LBIS.L["Main Hand~Off Hand"]] = 14;
-itemSlotOrder[LBIS.L["Two Hand"]] = 15;
-itemSlotOrder[LBIS.L["Main Hand~Two Hand"]] = 16;
-itemSlotOrder[LBIS.L["Ranged/Relic"]] = 17;
+itemSlotOrder[LBIS.L["Ranged/Relic"]] = 15;
 
 local function itemSortFunction(table, k1, k2)
 
@@ -110,7 +108,6 @@ slotToWowCodes[LBIS.L["Ring"]] = "FINGER0SLOT,FINGER1SLOT";
 slotToWowCodes[LBIS.L["Trinket"]] = "TRINKET0SLOT,TRINKET1SLOT";
 slotToWowCodes[LBIS.L["Main Hand"]] = "MAINHANDSLOT";
 slotToWowCodes[LBIS.L["Off Hand"]] = "SECONDARYHANDSLOT";
-slotToWowCodes[LBIS.L["Two Hand"]] = "MAINHANDSLOT";
 local function IsNotObsolete(specItem)
     if LBISSettings.HideObsolete then
 

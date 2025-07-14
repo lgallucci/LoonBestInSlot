@@ -130,7 +130,6 @@ itemSlots["INVTYPE_WEAPON"] = LBIS.L["Main Hand"].."/"..LBIS.L["Off Hand"];
 itemSlots["INVTYPE_SHIELD"] = LBIS.L["Off Hand"];
 itemSlots["INVTYPE_RANGED"] = LBIS.L["Ranged/Relic"];
 itemSlots["INVTYPE_CLOAK"] = LBIS.L["Back"];
-itemSlots["INVTYPE_2HWEAPON"] = LBIS.L["Two Hand"];
 itemSlots["INVTYPE_BAG"] = LBIS.L["Bag"];
 itemSlots["INVTYPE_TABARD"] = LBIS.L["Tabard"];
 itemSlots["INVTYPE_ROBE"] = LBIS.L["Chest"];

@@ -16,10 +16,17 @@ namespace AddonManager;
 public class WowheadGuideParser
 {
     private static readonly string[] excludedItemNames = { "of Shadow Wrath", "of Healing", "of Nature's Wrath", "of Nature Protection",
-                                                            "of the Tiger", "of Agility", "of the Squire", "Stolen Silver", "Rocket Fuel Leak", "Blood Shield" };
+                                                            "of the Tiger", "of Agility", "of the Squire", "Flashing Tinker's Gear",
+                                                            "Son of Galleon's Saddle" };
+
+    private static readonly string[] _itemLists = {
+        "#rare-mobs",
+        "#crafted-gear",
+        "#galleon",
+        "#galleon-warbands",
+    };
 
     private Random _rand = new Random(DateTime.Now.Millisecond);
-
     private Dictionary<int, int> _gemSwaps = new Dictionary<int, int>()
     {
         {0, 0} //
@@ -46,60 +53,9 @@ public class WowheadGuideParser
         {0, "0"} //
     };
 
-    private Dictionary<string, string> _altModifierTextSwaps = new Dictionary<string, string>()
-    {
-        { "stam", "Stam" },
-        { "mitigation", "Mit" },
-        { "def", "Mit" },
-        { "armor", "Mit" },
-        { "dodge", "Mit" },
-        { "parry", "Mit" },
-        { "threat", "Thrt" },
-        { "ffb", "FFB" },
-        { "melee", "Melee" },
-        { "ranged", "Ranged" }
-    };
-
-    private Dictionary<string, string> _altModifierNotSwaps = new Dictionary<string, string>()
-    {
-        { "armor", "armor pen" },
-    };
-
     private Dictionary<int, int> _duplicateItemIds = new Dictionary<int, int>() 
     {
         {0, 0}
-    };
-
-    private List<string> _bisTextSwaps = new()
-    {
-        "bis",
-        "recommended",
-        "recommended",
-        "best in slot",
-        "best"
-    };
-    private List<string> _altTextSwaps = new()
-    {
-        "prebis",
-        "tbc",
-        "pre-raid",
-        "pre-bis",
-        "phase 1",
-        "p1",
-        "phase 2",
-        "p2",
-        "phase 3",
-        "p3",
-        "phase 4",
-        "p4",
-        "phase 5",
-        "p5",
-        "alt",
-        "10-man",
-        "10 man",
-        "potentially bis",
-        "Tier 11",
-        "T11",
     };
 
     private class SlotSwaps
@@ -121,10 +77,11 @@ public class WowheadGuideParser
             { "Trinkets", "Trinket" },
             { "Main Hand", "Main Hand" },
             { "Off Hand", "Off Hand" },
-            { "Two Hand", "Two Hand" },
+            { "Two Hand", "Main Hand" },
             { "Ranged/Relic", "Ranged/Relic" },
             { "Helm", "Head" },
             { "Boots", "Feet" },
+            { "Rings", "Ring" },
             { "Belt", "Waist" },
             { "Finger", "Ring" },
             { "Bracers", "Wrist" },
@@ -142,9 +99,11 @@ public class WowheadGuideParser
             { "Off-Hand", "Off Hand" },
             { "Offhand", "Off Hand" },
             { "Shield", "Off Hand" },
-            { "Weapon", "Two Hand" },
-            { "Two-Hand Weapon", "Two Hand" },
-            { "Two Hand Weapon", "Two Hand" },
+            { "Weapon", "Main Hand" },
+            { "Two-Hand Weapon", "Main Hand" },
+            { "Two-Handed Swords", "Main Hand" },
+            { "Two Hand Weapon", "Main Hand" },
+            { "Mainhand", "Main Hand" },
             { "Ranged Weapon", "Ranged/Relic" },
             { "Sigil", "Ranged/Relic" },
             { "Relic", "Ranged/Relic" },
@@ -156,6 +115,7 @@ public class WowheadGuideParser
             { "Trinket - Sustain", "Trinket" },
             { "Feet - Alternative", "Feet" },
             { "Legs - Alternative", "Feet" }
+
         };
         // Setting up indexers
         public string this[string i]
@@ -213,25 +173,38 @@ public class WowheadGuideParser
             first = false;
         }
 
-        //Get Crafted Gear
-        var craftedGear = doc.QuerySelectorAll("#crafted-gear ~ .exclude-units");
-        if (craftedGear != null)
-        {
-            foreach (var gear in craftedGear)
-            {
-                throw new NotImplementedException("Crafted gear parsing is not implemented yet.");
-            }
-        }
+        // //Get Gems
+        // var gemList = GetExcludeUnitsTilNextHeader(doc, "#gemming");
+        // if (gemList != null)
+        // {
+        //     foreach (var gemItem in gemList)
+        //     {
+        //         Common.RecursiveBoxSearch(gemItem, (child) =>
+        //         {
+        //             var gemAnchor = (IHtmlAnchorElement)child;
 
-        //Get Gems
-        var gemList = doc.QuerySelectorAll("#gemming ~ .exclude-units");
-        if (gemList != null)
-        {
-            foreach (var gemItem in gemList)
-            {
-                throw new NotImplementedException("Gems parsing is not implemented yet.");
-            }
-        }
+        //             if (gemAnchor.PathName.Contains("mop-classic/"))
+        //             {
+        //                 ParseGem(gemAnchor, gems);
+        //                 return true;
+        //             }
+        //             return false;
+        //         });                
+        //     }
+        // }
+
+        // //Get List Items
+        // int itemOrderIndex = 0;
+        // foreach (var itemListHtml in _itemLists)
+        // {
+        //     var itemList = GetExcludeUnitsTilNextHeader(doc, itemListHtml);
+
+        //     foreach (var item in itemList)
+        //     {
+        //         itemOrderIndex++;
+        //         await ParseItemCell(item, "Alt", "", items, itemOrderIndex, logFunc);                
+        //     }
+        // }
 
         var jsonFileString = File.ReadAllText(Constants.CombinePath(Constants.ItemDbPath, @$"\ItemSlots.json"));
         var itemSlots = JsonConvert.DeserializeObject<Dictionary<int, string>>(jsonFileString) ?? new Dictionary<int, string>();
@@ -246,7 +219,29 @@ public class WowheadGuideParser
 
         return (gems, enchants, items);
     }
-    
+
+    private IEnumerable<IElement> GetExcludeUnitsTilNextHeader(IHtmlDocument doc, string headerId)
+    {
+        var elements = new List<IElement>();
+        var gearSlots = doc.QuerySelector(headerId);
+
+        if (gearSlots == null)
+        {
+            return Enumerable.Empty<IElement>();
+        }
+
+        var nextSibling = gearSlots.NextElementSibling;
+        while (nextSibling != null && nextSibling.NodeName != "H2" && nextSibling.NodeName != "H3")
+        {
+            if (nextSibling.NodeName == "UL" && nextSibling.ClassList.Contains("exclude-units"))
+            {
+                elements.AddRange(nextSibling.QuerySelectorAll("li"));
+            }
+            nextSibling = nextSibling.NextElementSibling;
+        }
+        return elements;
+    }
+
     private void LoopThroughEnchantsAndGems(IHtmlDocument doc, Func<IHtmlAnchorElement, string, bool> foundEnchant, Func<IHtmlAnchorElement, string, bool> foundGem)
     {
         var gearSlots = doc.QuerySelectorAll(".wow-gear-slot");
