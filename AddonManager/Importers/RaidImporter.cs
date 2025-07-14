@@ -26,25 +26,27 @@ public class RaidImporter : LootImporter
 
 
     private Dictionary<string, (string, string)> bossUriList = new Dictionary<string, (string, string)>
-    {
-        // { @"", ("Reborn Council", "Scarlet Enclave") },
-        // { @"", ("Lillian Voss", "Scarlet Enclave") },
-        
-        //Edge of Madness
-        { @"https://www.wowhead.com/classic/npc=15082/grilek#drops", ("Gri'lek (Madness)", "Zul'Gurub") },
-        { @"https://www.wowhead.com/classic/npc=15083/hazzarah#drops", ("Hazza'rah (Madness)", "Zul'Gurub") },
-        { @"https://www.wowhead.com/classic/npc=15084/renataki#drops", ("Renataki (Madness)", "Zul'Gurub") },
-        { @"https://www.wowhead.com/classic/npc=15085/wushoolay#drops", ("Wushoolay (Madness)", "Zul'Gurub") },
+    {        
+        { @"https://www.wowhead.com/classic/npc=15263/the-prophet-skeram#drops", ("The Prophet Skeram", "Ahn'Qiraj") },
+        { @"https://www.wowhead.com/classic/npc=15516/battleguard-sartura#drops", ("Battleguard Sartura", "Ahn'Qiraj") },
+        { @"https://www.wowhead.com/classic/npc=15510/fankriss-the-unyielding#drops", ("Fankriss the Unyielding", "Ahn'Qiraj") },
+        { @"https://www.wowhead.com/classic/npc=15509/princess-huhuran#drops", ("Princess Huhuran", "Ahn'Qiraj") },
+        { @"https://www.wowhead.com/classic/npc=15276/emperor-veklor#drops", ("Twin Emperors", "Ahn'Qiraj") },
+        { @"https://www.wowhead.com/classic/npc=15275/emperor-veknilash#drops", ("Twin Emperors", "Ahn'Qiraj") },
+        { @"https://www.wowhead.com/classic/npc=15727/cthun#drops", ("C'Thun", "Ahn'Qiraj") },
+        { @"https://www.wowhead.com/classic/npc=15543/princess-yauj#drops", ("Bug Trio", "Ahn'Qiraj") },
+        { @"https://www.wowhead.com/classic/npc=15544/vem#drops", ("Bug Trio", "Ahn'Qiraj") },
+        { @"https://www.wowhead.com/classic/npc=15511/lord-kri#drops", ("Bug Trio", "Ahn'Qiraj") },
+        { @"https://www.wowhead.com/classic/npc=15299/viscidus#drops", ("Viscidus", "Ahn'Qiraj") },
+        { @"https://www.wowhead.com/classic/npc=15517/ouro#drops", ("Ouro", "Ahn'Qiraj") },
 
-        { @"https://www.wowhead.com/classic/npc=14507/high-priest-venoxis#drops", ("High Priest Venoxis", "Zul'Gurub") },
-        { @"https://www.wowhead.com/classic/npc=14517/high-priestess-jeklik#drops", ("High Priestess Jeklik", "Zul'Gurub") },
-        { @"https://www.wowhead.com/classic/npc=14510/high-priestess-marli#drops", ("High Priestess Mar'li", "Zul'Gurub") },
-        { @"https://www.wowhead.com/classic/npc=14509/high-priest-thekal#drops", ("High Priest Thekal", "Zul'Gurub") },
-        { @"https://www.wowhead.com/classic/npc=14515/high-priestess-arlokk#drops", ("High Priestess Arlokk", "Zul'Gurub") },
-        { @"https://www.wowhead.com/classic/npc=14834/hakkar#drops", ("Hakkar", "Zul'Gurub") },
-        { @"https://www.wowhead.com/classic/npc=11382/bloodlord-mandokir#drops", ("Bloodlord Mandokir", "Zul'Gurub") },
-        { @"https://www.wowhead.com/classic/npc=15114/gahzranka#drops", ("Gahz'ranka", "Zul'Gurub") },
-        { @"https://www.wowhead.com/classic/npc=11380/jindo-the-hexxer#drops", ("Jin'do the Hexxer", "Zul'Gurub") },
+        { @"https://www.wowhead.com/classic/npc=15348/kurinnaxx#drops", ("Kurinnaxx", "Ruins of Ahn'Qiraj") },
+        { @"https://www.wowhead.com/classic/npc=15341/general-rajaxx#drops", ("General Rajaxx", "Ruins of Ahn'Qiraj") },
+        { @"https://www.wowhead.com/classic/npc=15340/moam#drops", ("Moam", "Ruins of Ahn'Qiraj") },
+        { @"https://www.wowhead.com/classic/npc=15370/buru-the-gorger#drops", ("Buru the Gorger", "Ruins of Ahn'Qiraj") },
+        { @"https://www.wowhead.com/classic/npc=15369/ayamiss-the-hunter#drops", ("Ayamiss the Hunter", "Ruins of Ahn'Qiraj") },
+        { @"https://www.wowhead.com/classic/npc=15339/ossirian-the-unscarred#drops", ("Ossirian the Unscarred", "Ruins of Ahn'Qiraj") },
+        { @"https://www.wowhead.com/classic/npc=15339/ossirian-the-unscarred#drops;50", ("Ossirian the Unscarred", "Ruins of Ahn'Qiraj") },
     };
     
 
@@ -57,12 +59,12 @@ public class RaidImporter : LootImporter
         // {
         //     items.AddItems(await ConvertRaidLoot(raidUri, items, writeToLog));
         // }
-        foreach(var raidUri in raidUriList)
-        {
-            await ConvertGeneralRaidLoot(raidUri, items, writeToLog);
-        }
+        // foreach(var raidUri in raidUriList)
+        // {
+        //     await ConvertGeneralRaidLoot(raidUri, items, writeToLog);
+        // }
 
-         //await GetItemDrops(items, bossUriList.Keys.Where(b => b.Contains("drops")), writeToLog);
+        await GetItemDrops(items, bossUriList.Keys.Where(b => b.Contains("drops")), writeToLog);
         // await GetItemContains(items, bossUriList.Keys.Where(b => b.Contains("contains")), writeToLog);
 
         return items;
@@ -123,8 +125,8 @@ public class RaidImporter : LootImporter
     {
         await Common.ReadWowheadDropsList(uriList, (uri, row, itemId, item) => {
             var sourceFaction = "B";
-            var isPurple = (item.ClassName?.Contains("q4") ?? false) || (item.ClassName?.Contains("q5") ?? false);
-            if (!isPurple) return;
+            var isBlue = (item.ClassName?.Contains("q4") ?? false) || (item.ClassName?.Contains("q4") ?? false) || (item.ClassName?.Contains("q5") ?? false);
+            if (!isBlue) return;
             if (row.Children[6].Children.Count() > 0)
             {
                 var factionColumn = (IElement)row.Children[6].ChildNodes[0];

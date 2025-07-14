@@ -7306,7 +7306,7 @@
     },
     "233365": {
       "Name": "Intact Viscera",
-      "Source": "Emperor Vek'lor & Emperor Vek'nilash & Ouro",
+      "Source": "Twin Emperors & Ouro",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Ahn'Qiraj",
@@ -7314,7 +7314,7 @@
     },
     "233367": {
       "Name": "Intact Peritoneum",
-      "Source": "Emperor Vek'lor & Emperor Vek'nilash & Ouro",
+      "Source": "Twin Emperors & Ouro",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Ahn'Qiraj",
@@ -7322,7 +7322,7 @@
     },
     "233368": {
       "Name": "Intact Entrails",
-      "Source": "Emperor Vek'lor & Emperor Vek'nilash & Ouro",
+      "Source": "Twin Emperors & Ouro",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Ahn'Qiraj",
@@ -7458,7 +7458,7 @@
     },
     "233519": {
       "Name": "Cape of the Trinity",
-      "Source": "Princess Yauj & Vem & Lord Kri",
+      "Source": "Bug Trio",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Ahn'Qiraj",
@@ -7466,7 +7466,7 @@
     },
     "233520": {
       "Name": "Robes of the Triumvirate",
-      "Source": "Princess Yauj & Vem & Lord Kri",
+      "Source": "Bug Trio",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Ahn'Qiraj",
@@ -7474,7 +7474,7 @@
     },
     "233521": {
       "Name": "Ternary Mantle",
-      "Source": "Princess Yauj & Vem & Lord Kri",
+      "Source": "Bug Trio",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Ahn'Qiraj",
@@ -7482,7 +7482,7 @@
     },
     "233522": {
       "Name": "Guise of the Devourer",
-      "Source": "Princess Yauj & Vem & Lord Kri",
+      "Source": "Bug Trio",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Ahn'Qiraj",
@@ -7490,7 +7490,7 @@
     },
     "233523": {
       "Name": "Triad Girdle",
-      "Source": "Princess Yauj & Vem & Lord Kri",
+      "Source": "Bug Trio",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Ahn'Qiraj",
@@ -7498,7 +7498,7 @@
     },
     "233524": {
       "Name": "Angelista's Touch",
-      "Source": "Princess Yauj & Vem & Lord Kri",
+      "Source": "Bug Trio",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Ahn'Qiraj",
@@ -7506,7 +7506,7 @@
     },
     "233559": {
       "Name": "Gloves of Ebru",
-      "Source": "Princess Yauj & Vem & Lord Kri",
+      "Source": "Bug Trio",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Ahn'Qiraj",
@@ -7514,7 +7514,7 @@
     },
     "233560": {
       "Name": "Ooze-ridden Gauntlets",
-      "Source": "Princess Yauj & Vem & Lord Kri",
+      "Source": "Bug Trio",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Ahn'Qiraj",
@@ -7522,7 +7522,7 @@
     },
     "233561": {
       "Name": "Boots of the Fallen Hero",
-      "Source": "Princess Yauj & Vem & Lord Kri",
+      "Source": "Bug Trio",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Ahn'Qiraj",
@@ -7530,7 +7530,7 @@
     },
     "233562": {
       "Name": "Angelista's Charm",
-      "Source": "Princess Yauj & Vem & Lord Kri",
+      "Source": "Bug Trio",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Ahn'Qiraj",
@@ -7538,7 +7538,7 @@
     },
     "233563": {
       "Name": "Mantle of Phrenic Power",
-      "Source": "Princess Yauj & Vem & Lord Kri",
+      "Source": "Bug Trio",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Ahn'Qiraj",
@@ -7546,7 +7546,7 @@
     },
     "233564": {
       "Name": "Bile-Covered Gauntlets",
-      "Source": "Princess Yauj & Vem & Lord Kri",
+      "Source": "Bug Trio",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Ahn'Qiraj",
@@ -7554,7 +7554,7 @@
     },
     "233565": {
       "Name": "Ukko's Ring of Darkness",
-      "Source": "Princess Yauj & Vem & Lord Kri",
+      "Source": "Bug Trio",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Ahn'Qiraj",
@@ -7562,7 +7562,7 @@
     },
     "233566": {
       "Name": "Mantle of the Desert's Fury",
-      "Source": "Princess Yauj & Vem & Lord Kri",
+      "Source": "Bug Trio",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Ahn'Qiraj",
@@ -7570,7 +7570,7 @@
     },
     "233567": {
       "Name": "Mantle of the Desert Crusade",
-      "Source": "Vem & Lord Kri",
+      "Source": "Bug Trio",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Ahn'Qiraj",
@@ -7578,7 +7578,7 @@
     },
     "233568": {
       "Name": "Vest of Swift Execution",
-      "Source": "Princess Yauj & Vem & Lord Kri",
+      "Source": "Bug Trio",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Ahn'Qiraj",
@@ -7586,7 +7586,7 @@
     },
     "233569": {
       "Name": "Ring of the Devoured",
-      "Source": "Princess Yauj & Vem & Lord Kri",
+      "Source": "Bug Trio",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Ahn'Qiraj",
@@ -7594,7 +7594,7 @@
     },
     "233570": {
       "Name": "Petrified Scarab",
-      "Source": "Vem & Lord Kri",
+      "Source": "Bug Trio",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Ahn'Qiraj",
@@ -7602,7 +7602,7 @@
     },
     "233571": {
       "Name": "Wand of Qiraji Nobility",
-      "Source": "Princess Yauj & Vem & Lord Kri",
+      "Source": "Bug Trio",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Ahn'Qiraj",
@@ -7714,7 +7714,7 @@
     },
     "233585": {
       "Name": "Ancient Qiraji Ripper",
-      "Source": "Fankriss the Unyielding",
+      "Source": "Fankriss the Unyielding & C'Thun",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Ahn'Qiraj",
@@ -7722,7 +7722,7 @@
     },
     "233586": {
       "Name": "Jaw of the Sand Reaver",
-      "Source": "Fankriss the Unyielding",
+      "Source": "Fankriss the Unyielding & C'Thun",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Ahn'Qiraj",
@@ -7826,7 +7826,7 @@
     },
     "233599": {
       "Name": "Sharpened Silithid Femur",
-      "Source": "Viscidus",
+      "Source": "Viscidus & C'Thun",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Ahn'Qiraj",
@@ -7922,7 +7922,7 @@
     },
     "233611": {
       "Name": "Boots of Epiphany",
-      "Source": "Emperor Vek'lor",
+      "Source": "Twin Emperors",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Ahn'Qiraj",
@@ -7930,7 +7930,7 @@
     },
     "233612": {
       "Name": "Qiraji Execution Bracers",
-      "Source": "Emperor Vek'lor",
+      "Source": "Twin Emperors",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Ahn'Qiraj",
@@ -7938,7 +7938,7 @@
     },
     "233613": {
       "Name": "Vek'lor's Gloves of Devastation",
-      "Source": "Emperor Vek'lor",
+      "Source": "Twin Emperors",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Ahn'Qiraj",
@@ -7946,7 +7946,7 @@
     },
     "233614": {
       "Name": "Royal Qiraji Belt",
-      "Source": "Emperor Vek'lor",
+      "Source": "Twin Emperors",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Ahn'Qiraj",
@@ -7954,7 +7954,7 @@
     },
     "233615": {
       "Name": "Ring of Emperor Vek'lor",
-      "Source": "Emperor Vek'lor",
+      "Source": "Twin Emperors",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Ahn'Qiraj",
@@ -7962,7 +7962,7 @@
     },
     "233616": {
       "Name": "Royal Scepter of Vek'lor",
-      "Source": "Emperor Vek'lor",
+      "Source": "Twin Emperors",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Ahn'Qiraj",
@@ -7970,7 +7970,7 @@
     },
     "233617": {
       "Name": "Bracelets of Royal Redemption",
-      "Source": "Emperor Vek'lor & Emperor Vek'nilash",
+      "Source": "Twin Emperors",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Ahn'Qiraj",
@@ -7978,7 +7978,7 @@
     },
     "233618": {
       "Name": "Gloves of the Hidden Temple",
-      "Source": "Emperor Vek'lor & Emperor Vek'nilash",
+      "Source": "Twin Emperors",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Ahn'Qiraj",
@@ -7986,7 +7986,7 @@
     },
     "233619": {
       "Name": "Regenerating Belt of Vek'nilash",
-      "Source": "Emperor Vek'lor & Emperor Vek'nilash",
+      "Source": "Twin Emperors",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Ahn'Qiraj",
@@ -7994,7 +7994,7 @@
     },
     "233620": {
       "Name": "Amulet of Vek'nilash",
-      "Source": "Emperor Vek'lor & Emperor Vek'nilash",
+      "Source": "Twin Emperors",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Ahn'Qiraj",
@@ -8002,7 +8002,7 @@
     },
     "233621": {
       "Name": "Kalimdor's Revenge",
-      "Source": "Emperor Vek'lor & Emperor Vek'nilash",
+      "Source": "Twin Emperors",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Ahn'Qiraj",
@@ -8010,7 +8010,7 @@
     },
     "233622": {
       "Name": "Grasp of the Fallen Emperor",
-      "Source": "Emperor Vek'nilash",
+      "Source": "Twin Emperors",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Ahn'Qiraj",
@@ -8018,7 +8018,7 @@
     },
     "233623": {
       "Name": "Belt of the Fallen Emperor",
-      "Source": "Emperor Vek'nilash",
+      "Source": "Twin Emperors",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Ahn'Qiraj",
@@ -8072,6 +8072,14 @@
       "SourceLocation": "Ahn'Qiraj",
       "SourceFaction": "B"
     },
+    "233630": {
+      "Name": "Cloak of the Devoured",
+      "Source": "C'Thun",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
     "233631": {
       "Name": "Dark Storm Gauntlets",
       "Source": "C'Thun",
@@ -8080,8 +8088,56 @@
       "SourceLocation": "Ahn'Qiraj",
       "SourceFaction": "B"
     },
+    "233632": {
+      "Name": "Grasp of the Old God",
+      "Source": "C'Thun",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233633": {
+      "Name": "Eyestalk Waist Cord",
+      "Source": "C'Thun",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
     "233634": {
       "Name": "Death's Sting",
+      "Source": "C'Thun",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233635": {
+      "Name": "Belt of Never-ending Agony",
+      "Source": "C'Thun",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233636": {
+      "Name": "Scepter of the False Prophet",
+      "Source": "C'Thun",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233637": {
+      "Name": "Gauntlets of Annihilation",
+      "Source": "C'Thun",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233638": {
+      "Name": "Ring of the Godslayer",
       "Source": "C'Thun",
       "SourceType": "Drop",
       "SourceNumber": "0",
@@ -8106,6 +8162,14 @@
     },
     "233641": {
       "Name": "Cloak of Clarity",
+      "Source": "C'Thun",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "233642": {
+      "Name": "Mark of C'Thun",
       "Source": "C'Thun",
       "SourceType": "Drop",
       "SourceNumber": "0",
@@ -8579,6 +8643,70 @@
     "234115": {
       "Name": "Staff of the Ruins",
       "Source": "Ossirian the Unscarred",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234116": {
+      "Name": "Fury of the Forgotten Swarm",
+      "Source": "General Rajaxx",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234117": {
+      "Name": "Treads of the Wandering Nomad",
+      "Source": "Moam",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234118": {
+      "Name": "Gavel of Qiraji Authority",
+      "Source": "Kurinnaxx",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234119": {
+      "Name": "Antenna of Invigoration",
+      "Source": "General Rajaxx",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234120": {
+      "Name": "Helm of the Holy Avenger",
+      "Source": "Moam",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234121": {
+      "Name": "Silithid Husked Launcher",
+      "Source": "Kurinnaxx",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234122": {
+      "Name": "The Lost Kris of Zedd",
+      "Source": "Moam",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Ruins of Ahn'Qiraj",
+      "SourceFaction": "B"
+    },
+    "234123": {
+      "Name": "Coif of Elemental Fury",
+      "Source": "Moam",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Ruins of Ahn'Qiraj",
