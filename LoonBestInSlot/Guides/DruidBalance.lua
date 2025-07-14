@@ -3,3 +3,87 @@ local spec1 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance"], "1")
 local spec2 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance"], "2")
 local spec3 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance"], "3")
 local spec4 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance"], "4")
+local spec5 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance"], "5")
+
+LBIS:AddGem(spec0, "76885", "3", "True") --Burning Primal Diamond
+LBIS:AddGem(spec0, "76686", "3", "False") --Purified Imperial Amethyst
+LBIS:AddGem(spec0, "76660", "3", "False") --Potent Vermilion Onyx
+LBIS:AddGem(spec0, "76694", "3", "False") --Brilliant Primordial Ruby
+LBIS:AddGem(spec0, "76667", "3", "False") --Wicked Vermilion Onyx
+LBIS:AddGem(spec0, "76668", "3", "False") --Reckless Vermilion Onyx
+LBIS:AddGem(spec0, "76699", "3", "False") --Quick Sun's Radiance
+LBIS:AddGem(spec0, "76697", "3", "False") --Smooth Sun's Radiance
+LBIS:AddGem(spec0, "76651", "3", "False") --Energized Wild Jade
+LBIS:AddGem(spec0, "77542", "3", "False") --Quick Tinker's Gear
+LBIS:AddGem(spec0, "77541", "3", "False") --Smooth Tinker's Gear
+
+LBIS:AddEnchant(spec0, "121195", LBIS.L["Shoulder"]) --
+LBIS:AddEnchant(spec0, "142173", LBIS.L["Back"]) --
+LBIS:AddEnchant(spec0, "142175", LBIS.L["Chest"]) --
+LBIS:AddEnchant(spec0, "141170", LBIS.L["Wrist"]) --
+LBIS:AddEnchant(spec0, "141173", LBIS.L["Hands"]) --
+LBIS:AddEnchant(spec0, "82175", LBIS.L["Hands"]) --
+LBIS:AddEnchant(spec0, "125496", LBIS.L["Legs"]) --
+LBIS:AddEnchant(spec0, "104427", LBIS.L["Main Hand"]) --
+
+LBIS:AddItem(spec0, "89308", LBIS.L["Head"], "BIS") --Snowdrift Helm
+LBIS:AddItem(spec0, "89957", LBIS.L["Head"], "Alt") --Hood of Stilled Winds
+LBIS:AddItem(spec0, "81262", LBIS.L["Head"], "Alt") --Hood of Viridian Residue
+LBIS:AddItem(spec0, "77535", LBIS.L["Head"], "Alt") --Camouflage Retinal Armor
+LBIS:AddItem(spec0, "90410", LBIS.L["Head"], "Alt") --Cap of Wandering Pride
+LBIS:AddItem(spec0, "86644", LBIS.L["Shoulder"], "BIS") --Eternal Blossom Shoulderwraps
+LBIS:AddItem(spec0, "89342", LBIS.L["Shoulder"], "Alt") --Whitepetal Shouldergarb
+LBIS:AddItem(spec0, "81690", LBIS.L["Shoulder"], "Alt") --Incarnadine Scarlet Spaulders
+LBIS:AddItem(spec0, "89078", LBIS.L["Back"], "BIS") --Sagewhisper's Wrap
+LBIS:AddItem(spec0, "89077", LBIS.L["Back"], "Alt") --Cloak of Snow Blossoms
+LBIS:AddItem(spec0, "81084", LBIS.L["Back"], "Alt") --Cape of Entanglement
+LBIS:AddItem(spec0, "86840", LBIS.L["Back"], "Alt") --Stormwake Mistcloak
+LBIS:AddItem(spec0, "86645", LBIS.L["Chest"], "BIS") --Eternal Blossom Vestment
+LBIS:AddItem(spec0, "89432", LBIS.L["Chest"], "Alt") --Mistfall Robes
+LBIS:AddItem(spec0, "85829", LBIS.L["Chest"], "Alt") --Nightfire Robe
+LBIS:AddItem(spec0, "81275", LBIS.L["Chest"], "Alt") --Chestwrap of Arcing Flame
+LBIS:AddItem(spec0, "90419", LBIS.L["Chest"], "Alt") --Fireproofed Chestguard
+LBIS:AddItem(spec0, "86786", LBIS.L["Wrist"], "BIS") --Bracers of Dark Thoughts
+LBIS:AddItem(spec0, "88885", LBIS.L["Wrist"], "Alt") --Clever Ashyo's Armbands
+LBIS:AddItem(spec0, "81179", LBIS.L["Wrist"], "Alt") --Star Summoner Bracers
+LBIS:AddItem(spec0, "86648", LBIS.L["Hands"], "BIS") --Eternal Blossom Gloves
+LBIS:AddItem(spec0, "88743", LBIS.L["Hands"], "Alt") --Ogo's Elder Gloves
+LBIS:AddItem(spec0, "85827", LBIS.L["Hands"], "Alt") --Liferuned Leather Gloves
+LBIS:AddItem(spec0, "82827", LBIS.L["Hands"], "Alt") --Rattling Gloves
+LBIS:AddItem(spec0, "86746", LBIS.L["Waist"], "BIS") --Stonebound Cinch
+LBIS:AddItem(spec0, "81238", LBIS.L["Waist"], "Alt") --Hurricane Belt
+LBIS:AddItem(spec0, "90450", LBIS.L["Waist"], "Alt") --Carrot-Holder Belt
+LBIS:AddItem(spec0, "86646", LBIS.L["Legs"], "BIS") --Eternal Blossom Leggings
+LBIS:AddItem(spec0, "89089", LBIS.L["Legs"], "Alt") --Wind-Reaver Greaves
+LBIS:AddItem(spec0, "81093", LBIS.L["Legs"], "Alt") --Darkbinder Leggings
+LBIS:AddItem(spec0, "86878", LBIS.L["Feet"], "BIS") --Asani's Uncleansed Sandals
+LBIS:AddItem(spec0, "88876", LBIS.L["Feet"], "Alt") --Boots of the High Adept
+LBIS:AddItem(spec0, "90441", LBIS.L["Feet"], "Alt") --Stompdodger Boots
+LBIS:AddItem(spec0, "81111", LBIS.L["Feet"], "Alt") --Airstream Treads
+LBIS:AddItem(spec0, "89067", LBIS.L["Neck"], "BIS") --Links of the Lucid
+LBIS:AddItem(spec0, "89068", LBIS.L["Neck"], "Alt") --Wire of the Wakener
+LBIS:AddItem(spec0, "86856", LBIS.L["Neck"], "Alt") --Korven's Amber-Sealed Beetle
+LBIS:AddItem(spec0, "81095", LBIS.L["Neck"], "Alt") --Pendant of Precise Timing
+LBIS:AddItem(spec0, "90430", LBIS.L["Neck"], "Alt") --Stomphowl Pendant
+LBIS:AddItem(spec0, "90429", LBIS.L["Neck"], "Alt") --Necklace of Imbued Fury
+LBIS:AddItem(spec0, "89072", LBIS.L["Ring"], "BIS") --Simple Harmonius Ring
+LBIS:AddItem(spec0, "86873", LBIS.L["Ring"], "BIS") --Watersoul Signet
+LBIS:AddItem(spec0, "89073", LBIS.L["Ring"], "Alt") --Leven's Circle of Hope
+LBIS:AddItem(spec0, "86814", LBIS.L["Ring"], "Alt") --Fragment of Fear Made Flesh
+LBIS:AddItem(spec0, "81563", LBIS.L["Ring"], "Alt") --Beastbinder Ring
+LBIS:AddItem(spec0, "81232", LBIS.L["Ring"], "Alt") --Viscous Ring
+LBIS:AddItem(spec0, "90434", LBIS.L["Ring"], "Alt") --Steaming Seal of Flame
+LBIS:AddItem(spec0, "90435", LBIS.L["Ring"], "Alt") --Ring of Wretched Flames
+LBIS:AddItem(spec0, "79331", LBIS.L["Trinket"], "BIS") --Relic of Yu'lon
+LBIS:AddItem(spec0, "86907", LBIS.L["Trinket"], "BIS") --Essence of Terror
+LBIS:AddItem(spec0, "89081", LBIS.L["Trinket"], "Alt") --Blossom of Pure Snow
+LBIS:AddItem(spec0, "75274", LBIS.L["Trinket"], "Alt") --Zen Alchemist Stone
+LBIS:AddItem(spec0, "81192", LBIS.L["Trinket"], "Alt") --Vision of the Predator
+LBIS:AddItem(spec0, "86792", LBIS.L["Trinket"], "Alt") --Light of the Cosmos
+LBIS:AddItem(spec0, "81263", LBIS.L["Trinket"], "Alt") --Flashfrozen Resin Globule
+LBIS:AddItem(spec0, "86893", LBIS.L["Main Hand"], "BIS") --Jin'ya, Orb of the Waterspeaker
+LBIS:AddItem(spec0, "89395", LBIS.L["Main Hand"], "Alt") --Amber Scythe of Klaxxi'vess
+LBIS:AddItem(spec0, "89392", LBIS.L["Main Hand"], "Alt") --Amber Spine of Klaxxi'vess
+LBIS:AddItem(spec0, "79340", LBIS.L["Main Hand"], "Alt") --Inscribed Crane Staff
+LBIS:AddItem(spec0, "82859", LBIS.L["Main Hand"], "Alt") --Headmaster's Will
+LBIS:AddItem(spec0, "81079", LBIS.L["Main Hand"], "Alt") --Staff of Trembling Will

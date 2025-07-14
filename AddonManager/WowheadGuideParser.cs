@@ -16,16 +16,23 @@ namespace AddonManager;
 public class WowheadGuideParser
 {
     private static readonly string[] excludedItemNames = { "of Shadow Wrath", "of Healing", "of Nature's Wrath", "of Nature Protection",
-                                                            "of the Tiger", "of Agility", "of the Squire", "Flashing Tinker's Gear",
-                                                            "Son of Galleon's Saddle" };
+                                                            "of the Tiger", "of Agility", "of the Squire" };
+
+    private static readonly int[] _excludedItemIds = { 77544, 89783, 89230, 92522, 95559, 93220, 93215, 93224, 79323, 84196,
+                                                       83787, 83788, 89797, 89800, 97131, 89798, 85262, 89307, 89305, 89306, 
+                                                       87781, 87783, 87782, 89797 };
 
     private static readonly string[] _itemLists = {
         "#rare-mobs",
+        "#rare-boes",
+        "#sha-of-anger",
         "#crafted-gear",
+        "#crafting-professions",
         "#galleon",
         "#galleon-warbands",
     };
 
+    private SlotSwaps _slotSwaps = new SlotSwaps();
     private Random _rand = new Random(DateTime.Now.Millisecond);
     private Dictionary<int, int> _gemSwaps = new Dictionary<int, int>()
     {
@@ -57,95 +64,25 @@ public class WowheadGuideParser
     {
         {0, 0}
     };
-
-    private class SlotSwaps
-    {
-        private Dictionary<string, string> _slotSwaps = new Dictionary<string, string>()
-        {
-            { "Head", "Head" },
-            { "Shoulder", "Shoulder" },
-            { "Back", "Back" },
-            { "Chest", "Chest" },
-            { "Wrist", "Wrist" },
-            { "Hands", "Hands" },
-            { "Waist", "Waist" },
-            { "Legs", "Legs" },
-            { "Feet", "Feet" },
-            { "Neck", "Neck" },
-            { "Ring", "Ring" },
-            { "Trinket", "Trinket" },
-            { "Trinkets", "Trinket" },
-            { "Main Hand", "Main Hand" },
-            { "Off Hand", "Off Hand" },
-            { "Two Hand", "Main Hand" },
-            { "Ranged/Relic", "Ranged/Relic" },
-            { "Helm", "Head" },
-            { "Boots", "Feet" },
-            { "Rings", "Ring" },
-            { "Belt", "Waist" },
-            { "Finger", "Ring" },
-            { "Bracers", "Wrist" },
-            { "Shoulders", "Shoulder" },
-            { "Cloak", "Back" },
-            { "Cloaks", "Back" },
-            { "Cape", "Back" },
-            { "Amulets", "Neck"},
-            { "Gloves", "Hands" },
-            { "Main-Hand", "Main Hand" },
-            { "Main-Hand Weapon", "Main Hand" },
-            { "1h Weapon", "Main Hand" },
-            { "Off-Hand Weapon", "Off Hand" },
-            { "Off-Hand weapon", "Off Hand" },
-            { "Off-Hand", "Off Hand" },
-            { "Offhand", "Off Hand" },
-            { "Shield", "Off Hand" },
-            { "Weapon", "Main Hand" },
-            { "Two-Hand Weapon", "Main Hand" },
-            { "Two-Handed Swords", "Main Hand" },
-            { "Two Hand Weapon", "Main Hand" },
-            { "Mainhand", "Main Hand" },
-            { "Ranged Weapon", "Ranged/Relic" },
-            { "Sigil", "Ranged/Relic" },
-            { "Relic", "Ranged/Relic" },
-            { "Libram", "Ranged/Relic" },
-            { "Idol", "Ranged/Relic" },
-            { "Wand", "Ranged/Relic" },
-            { "Ranged", "Ranged/Relic" },
-            { "Trinket - Throughput", "Trinket" },
-            { "Trinket - Sustain", "Trinket" },
-            { "Feet - Alternative", "Feet" },
-            { "Legs - Alternative", "Feet" }
-
-        };
-        // Setting up indexers
-        public string this[string i]
-        {
-            // get indexer allows square brackets to read data
-            get
-            {
-                if (this._slotSwaps.ContainsKey(i))
-                    return _slotSwaps[i];
-                else if (string.IsNullOrWhiteSpace(i))
-                    return "unknown";
-                throw new KeyNotFoundException($"Slot '{i}' not found in slot swaps.");
-            }
-        }
-    }
-
-    public async Task<(Dictionary<int, GemSpec>, Dictionary<int, EnchantSpec>, Dictionary<int, ItemSpec>)> ParseWowheadGuide(ClassGuideMapping classGuide, IHtmlDocument doc, Action<string> logFunc)
+    
+    public (Dictionary<int, GemSpec>, Dictionary<int, EnchantSpec>, Dictionary<int, ItemSpec>) ParseWowheadGuide(ClassGuideMapping classGuide, IHtmlDocument doc, Action<string> logFunc)
     {
         var items = new Dictionary<int, ItemSpec>();
         var enchants = new Dictionary<int, EnchantSpec>();
         var gems = new Dictionary<int, GemSpec>();
+        var jsonFileString = File.ReadAllText(Constants.CombinePath(Constants.ItemDbPath, @$"\ItemSlots.json"));
+        var itemSlots = JsonConvert.DeserializeObject<Dictionary<int, string>>(jsonFileString) ?? new Dictionary<int, string>();
 
         bool enchantsAndGems = classGuide.Phase == Constants.CurrentPhase;
 
         //Get Gems and Enchants
-        LoopThroughEnchantsAndGems(doc, (enchantAnchor, slot) => {
-                ParseEnchant(enchantAnchor, slot, enchants);
-                return true;
-            },
-            (gemAnchor, slot) => {
+        LoopThroughEnchantsAndGems(doc, (enchantAnchor, slot) =>
+        {
+            ParseEnchant(enchantAnchor, slot, enchants);
+            return true;
+        },
+            (gemAnchor, slot) =>
+            {
                 ParseGem(gemAnchor, gems);
                 return true;
             }
@@ -161,61 +98,50 @@ public class WowheadGuideParser
                 throw new InvalidOperationException("Expected table element, but found: " + table?.NodeName);
             }
             var t = (IHtmlTableElement)table;
-            await LoopThroughTable(t, async (tableRow, itemChild, itemOrderIndex, slot) =>
+            LoopThroughTable(t, (tableRow, itemChild, itemOrderIndex, slot) =>
             {
                 var bisText = first ? "BIS" : "Alt";
 
                 if (itemChild != null)
                 {
-                    await ParseItemCell(itemChild, bisText, slot, items, itemOrderIndex, logFunc);
+                    ParseItemCell(itemChild, bisText, slot, items, itemOrderIndex, logFunc);
                 }
             });
             first = false;
         }
 
-        // //Get Gems
-        // var gemList = GetExcludeUnitsTilNextHeader(doc, "#gemming");
-        // if (gemList != null)
-        // {
-        //     foreach (var gemItem in gemList)
-        //     {
-        //         Common.RecursiveBoxSearch(gemItem, (child) =>
-        //         {
-        //             var gemAnchor = (IHtmlAnchorElement)child;
-
-        //             if (gemAnchor.PathName.Contains("mop-classic/"))
-        //             {
-        //                 ParseGem(gemAnchor, gems);
-        //                 return true;
-        //             }
-        //             return false;
-        //         });                
-        //     }
-        // }
-
-        // //Get List Items
-        // int itemOrderIndex = 0;
-        // foreach (var itemListHtml in _itemLists)
-        // {
-        //     var itemList = GetExcludeUnitsTilNextHeader(doc, itemListHtml);
-
-        //     foreach (var item in itemList)
-        //     {
-        //         itemOrderIndex++;
-        //         await ParseItemCell(item, "Alt", "", items, itemOrderIndex, logFunc);                
-        //     }
-        // }
-
-        var jsonFileString = File.ReadAllText(Constants.CombinePath(Constants.ItemDbPath, @$"\ItemSlots.json"));
-        var itemSlots = JsonConvert.DeserializeObject<Dictionary<int, string>>(jsonFileString) ?? new Dictionary<int, string>();
-        foreach(var item in items.Values)
+        //Get Gems
+        var gemList = GetExcludeUnitsTilNextHeader(doc, "#gemming");
+        if (gemList != null)
         {
-            if (!itemSlots.ContainsKey(item.ItemId))
+            foreach (var gemItem in gemList)
             {
-                itemSlots.Add(item.ItemId, item.Slot);
+                Common.RecursiveBoxSearch(gemItem, (child) =>
+                {
+                    var gemAnchor = (IHtmlAnchorElement)child;
+
+                    if (gemAnchor.PathName.Contains("mop-classic/"))
+                    {
+                        ParseGem(gemAnchor, gems);
+                        return true;
+                    }
+                    return false;
+                });
             }
-        }      
-        File.WriteAllText(Constants.CombinePath(Constants.ItemDbPath, @$"\ItemSlots.json"), JsonConvert.SerializeObject(itemSlots, Formatting.Indented));
+        }
+
+        //Get List Items
+        int itemOrderIndex = 0;
+        foreach (var itemListHtml in _itemLists)
+        {
+            var itemList = GetExcludeUnitsTilNextHeader(doc, itemListHtml);
+
+            foreach (var item in itemList)
+            {
+                itemOrderIndex++;
+                ParseItemCell(item, "Alt", "", items, itemOrderIndex, logFunc);
+            }
+        }
 
         return (gems, enchants, items);
     }
@@ -391,19 +317,12 @@ public class WowheadGuideParser
         }
     }
 
-    private string GetSlot(string slot)
-    {
-        var slotSwaps = new SlotSwaps();
-
-        return slotSwaps[slot];
-    }
-
-    private async Task<List<int>> ParseItemCell(IElement itemChild, string bisStatus, string slot, Dictionary<int, ItemSpec> items, int itemOrderIndex, Action<string> logFunc)
+    private List<int> ParseItemCell(IElement itemChild, string bisStatus, string slot, Dictionary<int, ItemSpec> items, int itemOrderIndex, Action<string> logFunc)
     {
         bool foundAnchor = false;
 
         List<int> itemIds = new List<int>();
-        await Common.RecursiveBoxSearchAsync(itemChild, async (child) =>
+        Common.RecursiveBoxSearch(itemChild, (child) =>
         {
             foundAnchor = true;
             bool foundItem = false;
@@ -441,14 +360,14 @@ public class WowheadGuideParser
 
                     foreach (var itemId in guideItemIds)
                     {
-                        itemSlot = GetSlot(slot);
+                        if (_excludedItemIds.Contains(itemId))
+                        {
+                            continue;
+                        }
+
+                        itemSlot = _slotSwaps[slot];
                         if (!items.ContainsKey(itemId))
                         {
-                            if (itemSlot == "unknown")
-                            {
-                                itemSlot = await GetSlotFromItemId(itemId, logFunc);
-                            }
-
                             items.Add(itemId, new ItemSpec
                             {
                                 ItemId = itemId,
@@ -500,46 +419,7 @@ public class WowheadGuideParser
         return itemIds;
     }
 
-    private async Task<string> GetSlotFromItemId(int itemId, Action<string> writeToLog)
-    {        
-        var jsonFileString = File.ReadAllText(Constants.CombinePath(Constants.ItemDbPath, @$"\ItemSlots.json"));
-        var itemSlots = JsonConvert.DeserializeObject<Dictionary<int, string>>(jsonFileString) ?? new Dictionary<int, string>();
-
-        if (itemSlots.TryGetValue(itemId, out var slot))
-        {
-            return slot;
-        }
-        else
-        {
-            var doc = await Common.LoadFromWebPage($"https://www.wowhead.com/mop-classic/item={itemId}", writeToLog);
-
-            if (doc == null)
-            {
-                throw new InvalidOperationException($"Failed to load item page for item ID {itemId}.");
-            }
-
-            var breadcrumb = doc.QuerySelector(".breadcrumb");
-            if (breadcrumb == null)
-            {
-                throw new InvalidOperationException($"Failed to load item page for item ID {itemId}.");
-            }
-
-            var lastBreadcrumb = breadcrumb.LastElementChild;
-            if (lastBreadcrumb == null)
-            {
-                throw new InvalidOperationException($"Failed to load item page for item ID {itemId}.");
-            }
-            
-            if (lastBreadcrumb.TextContent.Contains("..."))
-            {
-                lastBreadcrumb = lastBreadcrumb.PreviousElementSibling;
-            }
-
-            return GetSlot(lastBreadcrumb?.TextContent?.Trim() ?? "");
-        }
-    }
-
-    private async Task LoopThroughTable(IHtmlTableElement table, Func<INode, IElement?, int, string, Task> action)
+    private void LoopThroughTable(IHtmlTableElement table, Action<INode, IElement?, int, string> action)
     {
         var itemOrderIndex = 0;
         var firstRow = false;
@@ -587,7 +467,7 @@ public class WowheadGuideParser
                         }
                     }
                 }
-                await action(tableRow, itemChild, itemOrderIndex, slot);
+                action(tableRow, itemChild, itemOrderIndex, slot);
 
                 itemOrderIndex++;
             }

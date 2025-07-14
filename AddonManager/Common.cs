@@ -122,23 +122,6 @@ public static class Common
         }
     }
 
-    public static async Task RecursiveBoxSearchAsync(IElement headerElement, Func<IHtmlAnchorElement, Task<bool>> action)
-    {
-        foreach (var boxElement in headerElement.Children)
-        {
-            if (boxElement is IHtmlAnchorElement)
-            {
-                bool goodAnchor = await action((IHtmlAnchorElement)boxElement);
-                if (!goodAnchor)
-                    await RecursiveBoxSearchAsync(boxElement, action);
-            }
-            else
-            {
-                await RecursiveBoxSearchAsync(boxElement, action);
-            }
-        }
-    }
-
     internal static async Task ReadWowheadContainsList(IEnumerable<string> webAddresses, Action<string, IElement, int, IElement> func, Action<string> writeToLog, CancellationToken? _importCancelToken)   
     {
         await Common.LoadFromWebPages(webAddresses, (uri, doc) => ReadWowheadContainsList(doc, uri, func), writeToLog, _importCancelToken);

@@ -31,7 +31,7 @@ public partial class GuideImporterView : UserControl
         var spec = cmbSpec?.SelectedValue?.ToString();
         var selectedPhase = cmbPhase.SelectedIndex;
 
-        var specMapping = GetClassMappings().FirstOrDefault(gm => spec == $"{gm.ClassName}{gm.SpecName}" && gm.Phase == selectedPhase);
+        var specMapping = GetClassMappings(selectedPhase).FirstOrDefault(gm => spec == $"{gm.ClassName}{gm.SpecName}");
 
         if (specMapping == null)
         {
@@ -55,9 +55,9 @@ public partial class GuideImporterView : UserControl
         }
     }
     
-    private IEnumerable<ClassGuideMapping> GetClassMappings()
+    private IEnumerable<ClassGuideMapping> GetClassMappings(int selectedPhase)
     {
-        return new ClassSpecGuideMappings().GuideMappings;
+        return new ClassSpecGuideMappings().GuideMappings.Where(cm => cm.Phase == selectedPhase);
     }
     
     private async void ImportAllClick(object sender, RoutedEventArgs e)
@@ -66,7 +66,8 @@ public partial class GuideImporterView : UserControl
         _importCancelToken = new CancellationTokenSource();
 
         string result = string.Empty;
-        var specMappingList = GetClassMappings();
+        var selectedPhase = cmbPhase.SelectedIndex;
+        var specMappingList = GetClassMappings(selectedPhase);
         await WowheadImporter.ImportClasses(specMappingList, specMappingList.First().Phase, _importCancelToken.Token, (log) => ConsoleOut.Text += log + Environment.NewLine);
     }
 
