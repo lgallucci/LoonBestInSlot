@@ -13,8 +13,8 @@ public static class Common
         await new BrowserFetcher().DownloadAsync();
         using (var browser = await Puppeteer.LaunchAsync(new LaunchOptions
         {
-            Headless = true,            
-            IgnoreHTTPSErrors = true,
+            Headless = true,
+            IgnoreHTTPSErrors = true,     
         }))
         {
             var total = pageAddresses.Count();
@@ -58,7 +58,7 @@ public static class Common
         using (var browser = await Puppeteer.LaunchAsync(new LaunchOptions
         {
             Headless = true,
-            IgnoreHTTPSErrors = true,
+            IgnoreHTTPSErrors = true,   
         }))
         {
             return await RetryPageLoad(browser, pageAddress, writeToLog, cancelToken, 1, 1);
@@ -79,6 +79,21 @@ public static class Common
             {
                 try 
                 {
+                    await page.SetRequestInterceptionAsync(true);
+                    page.Request += async (sender, e) =>
+                    {
+                        var request = e.Request;
+                        if (request.IsNavigationRequest && request.RedirectChain.Length > 0)
+                        {
+                            // Abort the redirect request
+                            await request.AbortAsync(); 
+                        }
+                        else
+                        {
+                            // Continue with the request if it's not a redirect or not a navigation request
+                            await request.ContinueAsync(); 
+                        }
+                    };
                     page.DefaultTimeout = 30000; // or you can set this as 0
 
                     await page.GoToAsync(pageAddress);
