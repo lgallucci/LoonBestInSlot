@@ -95,18 +95,19 @@ LBIS:AddItem(spec0, "89069", LBIS.L["Ring"], "Alt") --Ring of the Golden Stair
 LBIS:AddItem(spec0, "90862", LBIS.L["Ring"], "Alt") --Seal of the Bloodseeker
 LBIS:AddItem(spec0, "90860", LBIS.L["Ring"], "Alt") --Seal of the Unscathed
 LBIS:AddItem(spec0, "81124", LBIS.L["Ring"], "Alt") --Crystallized Droplet
-LBIS:AddItem(spec0, "86880", LBIS.L["Ring"], "Alt") --Dread Shadow Ring
-LBIS:AddItem(spec0, "81251", LBIS.L["Ring"], "Alt") --Blade Trap Signet
 LBIS:AddItem(spec0, "84828", LBIS.L["Ring"], "Alt") --Malevolent Gladiator's Signet of Cruelty
 LBIS:AddItem(spec0, "86813", LBIS.L["Ring"], "Alt") --Vizier's Ruby Signet
+LBIS:AddItem(spec0, "81251", LBIS.L["Ring"], "Alt") --Blade Trap Signet
+LBIS:AddItem(spec0, "86880", LBIS.L["Ring"], "Alt") --Dread Shadow Ring
 LBIS:AddItem(spec0, "90438", LBIS.L["Ring"], "Alt") --Signet of the Bandit Lord
 LBIS:AddItem(spec0, "90436", LBIS.L["Ring"], "Alt") --Circle of Scaled Fury
 LBIS:AddItem(spec0, "79329", LBIS.L["Trinket"], "BIS") --Relic of Niuzao
 LBIS:AddItem(spec0, "81138", LBIS.L["Trinket"], "BIS") --Carbonic Carbuncle
-LBIS:AddItem(spec0, "89083", LBIS.L["Trinket"], "Alt") --Iron Belly Wok
 LBIS:AddItem(spec0, "89079", LBIS.L["Trinket"], "Alt") --Lao-Chin's Liquid Courage
+LBIS:AddItem(spec0, "89083", LBIS.L["Trinket"], "Alt") --Iron Belly Wok
 LBIS:AddItem(spec0, "79327", LBIS.L["Trinket"], "Alt") --Relic of Xuen
 LBIS:AddItem(spec0, "75274", LBIS.L["Trinket"], "Alt") --Zen Alchemist Stone
+LBIS:AddItem(spec0, "77530", LBIS.L["Trinket"], "Alt") --Ghost Iron Dragonling
 LBIS:AddItem(spec0, "86894", LBIS.L["Trinket"], "Alt") --Darkmist Vortex
 LBIS:AddItem(spec0, "81243", LBIS.L["Trinket"], "Alt") --Iron Protector Talisman
 LBIS:AddItem(spec0, "86802", LBIS.L["Trinket"], "Alt") --Lei Shen's Final Orders

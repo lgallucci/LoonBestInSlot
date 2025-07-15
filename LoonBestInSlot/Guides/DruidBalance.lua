@@ -27,8 +27,8 @@ LBIS:AddEnchant(spec0, "125496", LBIS.L["Legs"]) --
 LBIS:AddEnchant(spec0, "104427", LBIS.L["Main Hand"]) --
 
 LBIS:AddItem(spec0, "89308", LBIS.L["Head"], "BIS") --Snowdrift Helm
-LBIS:AddItem(spec0, "89957", LBIS.L["Head"], "Alt") --Hood of Stilled Winds
 LBIS:AddItem(spec0, "81262", LBIS.L["Head"], "Alt") --Hood of Viridian Residue
+LBIS:AddItem(spec0, "89957", LBIS.L["Head"], "Alt") --Hood of Stilled Winds
 LBIS:AddItem(spec0, "77535", LBIS.L["Head"], "Alt") --Camouflage Retinal Armor
 LBIS:AddItem(spec0, "90410", LBIS.L["Head"], "Alt") --Cap of Wandering Pride
 LBIS:AddItem(spec0, "86644", LBIS.L["Shoulder"], "BIS") --Eternal Blossom Shoulderwraps
@@ -36,8 +36,8 @@ LBIS:AddItem(spec0, "89342", LBIS.L["Shoulder"], "Alt") --Whitepetal Shouldergar
 LBIS:AddItem(spec0, "81690", LBIS.L["Shoulder"], "Alt") --Incarnadine Scarlet Spaulders
 LBIS:AddItem(spec0, "89078", LBIS.L["Back"], "BIS") --Sagewhisper's Wrap
 LBIS:AddItem(spec0, "89077", LBIS.L["Back"], "Alt") --Cloak of Snow Blossoms
-LBIS:AddItem(spec0, "81084", LBIS.L["Back"], "Alt") --Cape of Entanglement
 LBIS:AddItem(spec0, "86840", LBIS.L["Back"], "Alt") --Stormwake Mistcloak
+LBIS:AddItem(spec0, "81084", LBIS.L["Back"], "Alt") --Cape of Entanglement
 LBIS:AddItem(spec0, "86645", LBIS.L["Chest"], "BIS") --Eternal Blossom Vestment
 LBIS:AddItem(spec0, "89432", LBIS.L["Chest"], "Alt") --Mistfall Robes
 LBIS:AddItem(spec0, "85829", LBIS.L["Chest"], "Alt") --Nightfire Robe
@@ -51,6 +51,7 @@ LBIS:AddItem(spec0, "88743", LBIS.L["Hands"], "Alt") --Ogo's Elder Gloves
 LBIS:AddItem(spec0, "85827", LBIS.L["Hands"], "Alt") --Liferuned Leather Gloves
 LBIS:AddItem(spec0, "82827", LBIS.L["Hands"], "Alt") --Rattling Gloves
 LBIS:AddItem(spec0, "86746", LBIS.L["Waist"], "BIS") --Stonebound Cinch
+LBIS:AddItem(spec0, "89061", LBIS.L["Waist"], "Alt") --Klaxxi Lash of the Harbinger
 LBIS:AddItem(spec0, "81238", LBIS.L["Waist"], "Alt") --Hurricane Belt
 LBIS:AddItem(spec0, "90450", LBIS.L["Waist"], "Alt") --Carrot-Holder Belt
 LBIS:AddItem(spec0, "86646", LBIS.L["Legs"], "BIS") --Eternal Blossom Leggings
@@ -62,8 +63,8 @@ LBIS:AddItem(spec0, "90441", LBIS.L["Feet"], "Alt") --Stompdodger Boots
 LBIS:AddItem(spec0, "81111", LBIS.L["Feet"], "Alt") --Airstream Treads
 LBIS:AddItem(spec0, "89067", LBIS.L["Neck"], "BIS") --Links of the Lucid
 LBIS:AddItem(spec0, "89068", LBIS.L["Neck"], "Alt") --Wire of the Wakener
-LBIS:AddItem(spec0, "86856", LBIS.L["Neck"], "Alt") --Korven's Amber-Sealed Beetle
 LBIS:AddItem(spec0, "81095", LBIS.L["Neck"], "Alt") --Pendant of Precise Timing
+LBIS:AddItem(spec0, "86856", LBIS.L["Neck"], "Alt") --Korven's Amber-Sealed Beetle
 LBIS:AddItem(spec0, "90430", LBIS.L["Neck"], "Alt") --Stomphowl Pendant
 LBIS:AddItem(spec0, "90429", LBIS.L["Neck"], "Alt") --Necklace of Imbued Fury
 LBIS:AddItem(spec0, "89072", LBIS.L["Ring"], "BIS") --Simple Harmonius Ring
