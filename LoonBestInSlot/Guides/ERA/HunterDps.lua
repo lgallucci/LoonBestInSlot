@@ -390,7 +390,7 @@ local function LoadData()
     LBIS:AddItem(spec5, "13359", LBIS.L["Head"], "Alt") --Crown of Tyranny
     LBIS:AddItem(spec5, "16468", LBIS.L["Shoulder"], "BIS") --Field Marshal's Chain Spaulders
     LBIS:AddItem(spec5, "16568", LBIS.L["Shoulder"], "BIS") --Warlord's Chain Shoulders
-    LBIS:AddItem(spec5, "21665", LBIS.L["Shoulder/Two Hand"], "BIS") --Mantle of Wicked Revenge
+    LBIS:AddItem(spec5, "21665", LBIS.L["Shoulder"], "BIS") --Mantle of Wicked Revenge
     LBIS:AddItem(spec5, "16937", LBIS.L["Shoulder"], "Alt") --Dragonstalker's Spaulders
     LBIS:AddItem(spec5, "21474", LBIS.L["Shoulder"], "Alt") --Chitinous Shoulderguards
     LBIS:AddItem(spec5, "23307", LBIS.L["Shoulder"], "Alt") --Lieutenant Commander's Chain Shoulders
