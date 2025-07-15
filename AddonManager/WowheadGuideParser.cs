@@ -393,6 +393,10 @@ public class WowheadGuideParser
                         {
                             if (!items[itemId].Slot.Contains(itemSlot) && itemSlot != "unknown")
                             {
+                                if (items[itemId].Slot.Contains("Off Hand") && itemSlot.Contains("Main Hand"))
+                                {
+                                    continue;
+                                }
                                 items[itemId].Slot = $"{items[itemId].Slot}~{itemSlot}";
                                 if (items[itemId].BisStatus != bisStatus)
                                     items[itemId].BisStatus = $"{items[itemId].BisStatus}/{bisStatus}";

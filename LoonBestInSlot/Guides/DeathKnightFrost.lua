@@ -82,4 +82,4 @@ LBIS:AddItem(spec0, "87545", LBIS.L["Main Hand~Off Hand"], "BIS") --Inelava, Spi
 LBIS:AddItem(spec0, "87652", LBIS.L["Main Hand"], "Alt") --Ook-Breaker Mace
 LBIS:AddItem(spec0, "89398", LBIS.L["Main Hand"], "Alt") --Amber Flammard of Klaxxi'vess
 LBIS:AddItem(spec0, "86789", LBIS.L["Main Hand"], "Alt") --Elegion, the Fanged Crescent
-LBIS:AddItem(spec0, "86863", LBIS.L["Off Hand~Main Hand"], "BIS") --Scimitar of Seven Stars
+LBIS:AddItem(spec0, "86863", LBIS.L["Off Hand"], "BIS") --Scimitar of Seven Stars
