@@ -64,6 +64,78 @@
       "SourceLocation": "80237",
       "SourceFaction": "B"
     },
+    "52318": {
+      "Name": "Band of Blades",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "73498",
+      "SourceFaction": "B"
+    },
+    "52319": {
+      "Name": "Ring of Warring Elements",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "73502",
+      "SourceFaction": "B"
+    },
+    "52320": {
+      "Name": "Elementium Moebius Band",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "73503",
+      "SourceFaction": "B"
+    },
+    "52321": {
+      "Name": "Entwined Elementium Choker",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "73504",
+      "SourceFaction": "B"
+    },
+    "52322": {
+      "Name": "Eye of Many Deaths",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "73505",
+      "SourceFaction": "B"
+    },
+    "52323": {
+      "Name": "Elementium Guardian",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "73506",
+      "SourceFaction": "B"
+    },
+    "52348": {
+      "Name": "Elementium Destroyer's Ring",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "73520",
+      "SourceFaction": "B"
+    },
+    "52350": {
+      "Name": "Brazen Elementium Medallion",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "73521",
+      "SourceFaction": "B"
+    },
+    "52489": {
+      "Name": "Rhinestone Sunglasses",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "73623",
+      "SourceFaction": "B"
+    },
     "54440": {
       "Name": "Dream of Destruction",
       "Source": "Tailoring (525)",
@@ -558,6 +630,14 @@
       "SourceType": "Profession",
       "SourceNumber": "0",
       "SourceLocation": "84430",
+      "SourceFaction": "B"
+    },
+    "69852": {
+      "Name": "Punisher's Band",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "98921",
       "SourceFaction": "B"
     },
     "69936": {
@@ -1200,6 +1280,54 @@
       "SourceLocation": "1216336",
       "SourceFaction": "B"
     },
+    "70071": {
+      "Name": "Bloodthirsty Sapphire Ring",
+      "Source": "Jewelcrafting (515)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "1216323",
+      "SourceFaction": "B"
+    },
+    "70072": {
+      "Name": "Bloodthirsty Amberjewel Band",
+      "Source": "Jewelcrafting (515)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "1216328",
+      "SourceFaction": "B"
+    },
+    "70073": {
+      "Name": "Bloodthirsty Ruby Signet",
+      "Source": "Jewelcrafting (515)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "1216329",
+      "SourceFaction": "B"
+    },
+    "70074": {
+      "Name": "Bloodthirsty Sapphire Necklace",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "1216330",
+      "SourceFaction": "B"
+    },
+    "70075": {
+      "Name": "Bloodthirsty Amberjewel Pendant",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "1216321",
+      "SourceFaction": "B"
+    },
+    "70076": {
+      "Name": "Bloodthirsty Ruby Choker",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "1216331",
+      "SourceFaction": "B"
+    },
     "70077": {
       "Name": "Bloodthirsty Charm of Triumph",
       "Source": "Inscription (510)",
@@ -1326,6 +1454,534 @@
       "SourceType": "Profession",
       "SourceNumber": "0",
       "SourceLocation": "101599",
+      "SourceFaction": "B"
+    },
+    "71817": {
+      "Name": "Rigid Deepholm Iolite",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101735",
+      "SourceFaction": "B"
+    },
+    "71818": {
+      "Name": "Stormy Deepholm Iolite",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101740",
+      "SourceFaction": "B"
+    },
+    "71819": {
+      "Name": "Sparkling Deepholm Iolite",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101741",
+      "SourceFaction": "B"
+    },
+    "71820": {
+      "Name": "Solid Deepholm Iolite",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101742",
+      "SourceFaction": "B"
+    },
+    "71822": {
+      "Name": "Misty Elven Peridot",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101743",
+      "SourceFaction": "B"
+    },
+    "71823": {
+      "Name": "Piercing Elven Peridot",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101744",
+      "SourceFaction": "B"
+    },
+    "71824": {
+      "Name": "Lightning Elven Peridot",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101745",
+      "SourceFaction": "B"
+    },
+    "71825": {
+      "Name": "Sensei's Elven Peridot",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101746",
+      "SourceFaction": "B"
+    },
+    "71826": {
+      "Name": "Infused Elven Peridot",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101747",
+      "SourceFaction": "B"
+    },
+    "71827": {
+      "Name": "Zen Elven Peridot",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101748",
+      "SourceFaction": "B"
+    },
+    "71828": {
+      "Name": "Balanced Elven Peridot",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101749",
+      "SourceFaction": "B"
+    },
+    "71829": {
+      "Name": "Vivid Elven Peridot",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101750",
+      "SourceFaction": "B"
+    },
+    "71830": {
+      "Name": "Turbid Elven Peridot",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101751",
+      "SourceFaction": "B"
+    },
+    "71831": {
+      "Name": "Radiant Elven Peridot",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101752",
+      "SourceFaction": "B"
+    },
+    "71832": {
+      "Name": "Shattered Elven Peridot",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101753",
+      "SourceFaction": "B"
+    },
+    "71833": {
+      "Name": "Energized Elven Peridot",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101754",
+      "SourceFaction": "B"
+    },
+    "71834": {
+      "Name": "Jagged Elven Peridot",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101755",
+      "SourceFaction": "B"
+    },
+    "71835": {
+      "Name": "Regal Elven Peridot",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101756",
+      "SourceFaction": "B"
+    },
+    "71836": {
+      "Name": "Forceful Elven Peridot",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101757",
+      "SourceFaction": "B"
+    },
+    "71837": {
+      "Name": "Nimble Elven Peridot",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101758",
+      "SourceFaction": "B"
+    },
+    "71838": {
+      "Name": "Puissant Elven Peridot",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101759",
+      "SourceFaction": "B"
+    },
+    "71839": {
+      "Name": "Steady Elven Peridot",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101760",
+      "SourceFaction": "B"
+    },
+    "71840": {
+      "Name": "Deadly Lava Coral",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101761",
+      "SourceFaction": "B"
+    },
+    "71841": {
+      "Name": "Crafty Lava Coral",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101762",
+      "SourceFaction": "B"
+    },
+    "71842": {
+      "Name": "Potent Lava Coral",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101763",
+      "SourceFaction": "B"
+    },
+    "71843": {
+      "Name": "Inscribed Lava Coral",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101764",
+      "SourceFaction": "B"
+    },
+    "71844": {
+      "Name": "Polished Lava Coral",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101765",
+      "SourceFaction": "B"
+    },
+    "71845": {
+      "Name": "Resolute Lava Coral",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101766",
+      "SourceFaction": "B"
+    },
+    "71846": {
+      "Name": "Stalwart Lava Coral",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101767",
+      "SourceFaction": "B"
+    },
+    "71847": {
+      "Name": "Champion's Lava Coral",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101768",
+      "SourceFaction": "B"
+    },
+    "71848": {
+      "Name": "Deft Lava Coral",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101769",
+      "SourceFaction": "B"
+    },
+    "71849": {
+      "Name": "Wicked Lava Coral",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101770",
+      "SourceFaction": "B"
+    },
+    "71850": {
+      "Name": "Reckless Lava Coral",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101771",
+      "SourceFaction": "B"
+    },
+    "71851": {
+      "Name": "Fierce Lava Coral",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101772",
+      "SourceFaction": "B"
+    },
+    "71852": {
+      "Name": "Adept Lava Coral",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101773",
+      "SourceFaction": "B"
+    },
+    "71853": {
+      "Name": "Keen Lava Coral",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101774",
+      "SourceFaction": "B"
+    },
+    "71854": {
+      "Name": "Artful Lava Coral",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101775",
+      "SourceFaction": "B"
+    },
+    "71855": {
+      "Name": "Fine Lava Coral",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101776",
+      "SourceFaction": "B"
+    },
+    "71856": {
+      "Name": "Skillful Lava Coral",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101777",
+      "SourceFaction": "B"
+    },
+    "71857": {
+      "Name": "Lucent Lava Coral",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101778",
+      "SourceFaction": "B"
+    },
+    "71858": {
+      "Name": "Tenuous Lava Coral",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101779",
+      "SourceFaction": "B"
+    },
+    "71859": {
+      "Name": "Willful Lava Coral",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101780",
+      "SourceFaction": "B"
+    },
+    "71860": {
+      "Name": "Splendid Lava Coral",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101781",
+      "SourceFaction": "B"
+    },
+    "71861": {
+      "Name": "Resplendent Lava Coral",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101782",
+      "SourceFaction": "B"
+    },
+    "71862": {
+      "Name": "Glinting Shadow Spinel",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101783",
+      "SourceFaction": "B"
+    },
+    "71863": {
+      "Name": "Accurate Shadow Spinel",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101784",
+      "SourceFaction": "B"
+    },
+    "71864": {
+      "Name": "Veiled Shadow Spinel",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101785",
+      "SourceFaction": "B"
+    },
+    "71865": {
+      "Name": "Retaliating Shadow Spinel",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101786",
+      "SourceFaction": "B"
+    },
+    "71866": {
+      "Name": "Etched Shadow Spinel",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101787",
+      "SourceFaction": "B"
+    },
+    "71867": {
+      "Name": "Mysterious Shadow Spinel",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101788",
+      "SourceFaction": "B"
+    },
+    "71868": {
+      "Name": "Purified Shadow Spinel",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101789",
+      "SourceFaction": "B"
+    },
+    "71869": {
+      "Name": "Shifting Shadow Spinel",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101790",
+      "SourceFaction": "B"
+    },
+    "71870": {
+      "Name": "Guardian's Shadow Spinel",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101791",
+      "SourceFaction": "B"
+    },
+    "71871": {
+      "Name": "Timeless Shadow Spinel",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101792",
+      "SourceFaction": "B"
+    },
+    "71872": {
+      "Name": "Defender's Shadow Spinel",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101793",
+      "SourceFaction": "B"
+    },
+    "71873": {
+      "Name": "Sovereign Shadow Spinel",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101794",
+      "SourceFaction": "B"
+    },
+    "71874": {
+      "Name": "Smooth Lightstone",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101800",
+      "SourceFaction": "B"
+    },
+    "71875": {
+      "Name": "Subtle Lightstone",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101801",
+      "SourceFaction": "B"
+    },
+    "71876": {
+      "Name": "Quick Lightstone",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101802",
+      "SourceFaction": "B"
+    },
+    "71877": {
+      "Name": "Fractured Lightstone",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101803",
+      "SourceFaction": "B"
+    },
+    "71878": {
+      "Name": "Mystic Lightstone",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101804",
+      "SourceFaction": "B"
+    },
+    "71879": {
+      "Name": "Delicate Queen's Garnet",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101795",
+      "SourceFaction": "B"
+    },
+    "71880": {
+      "Name": "Precise Queen's Garnet",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101796",
+      "SourceFaction": "B"
+    },
+    "71881": {
+      "Name": "Brilliant Queen's Garnet",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101797",
+      "SourceFaction": "B"
+    },
+    "71882": {
+      "Name": "Flashing Queen's Garnet",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101798",
+      "SourceFaction": "B"
+    },
+    "71883": {
+      "Name": "Bold Queen's Garnet",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "101799",
       "SourceFaction": "B"
     },
     "71980": {
@@ -1536,12 +2192,36 @@
       "SourceLocation": "1224161",
       "SourceFaction": "B"
     },
+    "75067": {
+      "Name": "Vicious Sapphire Ring",
+      "Source": "Jewelcrafting (510)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "99539",
+      "SourceFaction": "B"
+    },
+    "75068": {
+      "Name": "Vicious Amberjewel Band",
+      "Source": "Jewelcrafting (510)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "99540",
+      "SourceFaction": "B"
+    },
     "75070": {
       "Name": "Vicious Embersilk Gloves",
       "Source": "Tailoring (515)",
       "SourceType": "Profession",
       "SourceNumber": "0",
       "SourceLocation": "1224158",
+      "SourceFaction": "B"
+    },
+    "75071": {
+      "Name": "Vicious Ruby Signet",
+      "Source": "Jewelcrafting (510)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "99541",
       "SourceFaction": "B"
     },
     "75072": {
@@ -1558,6 +2238,30 @@
       "SourceType": "Profession",
       "SourceNumber": "0",
       "SourceLocation": "1224157",
+      "SourceFaction": "B"
+    },
+    "75074": {
+      "Name": "Vicious Sapphire Necklace",
+      "Source": "Jewelcrafting (520)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "99542",
+      "SourceFaction": "B"
+    },
+    "75075": {
+      "Name": "Vicious Amberjewel Pendant",
+      "Source": "Jewelcrafting (520)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "99543",
+      "SourceFaction": "B"
+    },
+    "75078": {
+      "Name": "Vicious Ruby Choker",
+      "Source": "Jewelcrafting (520)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "99544",
       "SourceFaction": "B"
     },
     "75080": {
@@ -2214,6 +2918,1158 @@
       "SourceType": "Profession",
       "SourceNumber": "0",
       "SourceLocation": "114778",
+      "SourceFaction": "B"
+    },
+    "76502": {
+      "Name": "Rigid Lapis Lazuli",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107617",
+      "SourceFaction": "B"
+    },
+    "76504": {
+      "Name": "Stormy Lapis Lazuli",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107621",
+      "SourceFaction": "B"
+    },
+    "76505": {
+      "Name": "Sparkling Lapis Lazuli",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107620",
+      "SourceFaction": "B"
+    },
+    "76506": {
+      "Name": "Solid Lapis Lazuli",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107619",
+      "SourceFaction": "B"
+    },
+    "76507": {
+      "Name": "Misty Alexandrite",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107605",
+      "SourceFaction": "B"
+    },
+    "76508": {
+      "Name": "Piercing Alexandrite",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107607",
+      "SourceFaction": "B"
+    },
+    "76509": {
+      "Name": "Lightning Alexandrite",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107604",
+      "SourceFaction": "B"
+    },
+    "76510": {
+      "Name": "Sensei's Alexandrite",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107611",
+      "SourceFaction": "B"
+    },
+    "76511": {
+      "Name": "Effulgent Alexandrite",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107599",
+      "SourceFaction": "B"
+    },
+    "76512": {
+      "Name": "Zen Alexandrite",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107616",
+      "SourceFaction": "B"
+    },
+    "76513": {
+      "Name": "Balanced Alexandrite",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107598",
+      "SourceFaction": "B"
+    },
+    "76514": {
+      "Name": "Vivid Alexandrite",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107615",
+      "SourceFaction": "B"
+    },
+    "76515": {
+      "Name": "Turbid Alexandrite",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107614",
+      "SourceFaction": "B"
+    },
+    "76517": {
+      "Name": "Radiant Alexandrite",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107609",
+      "SourceFaction": "B"
+    },
+    "76518": {
+      "Name": "Shattered Alexandrite",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107612",
+      "SourceFaction": "B"
+    },
+    "76519": {
+      "Name": "Energized Alexandrite",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107600",
+      "SourceFaction": "B"
+    },
+    "76520": {
+      "Name": "Jagged Alexandrite",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107602",
+      "SourceFaction": "B"
+    },
+    "76521": {
+      "Name": "Regal Alexandrite",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107610",
+      "SourceFaction": "B"
+    },
+    "76522": {
+      "Name": "Forceful Alexandrite",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107601",
+      "SourceFaction": "B"
+    },
+    "76524": {
+      "Name": "Puissant Alexandrite",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107608",
+      "SourceFaction": "B"
+    },
+    "76525": {
+      "Name": "Steady Alexandrite",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107613",
+      "SourceFaction": "B"
+    },
+    "76526": {
+      "Name": "Deadly Tiger Opal",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107649",
+      "SourceFaction": "B"
+    },
+    "76527": {
+      "Name": "Crafty Tiger Opal",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107648",
+      "SourceFaction": "B"
+    },
+    "76528": {
+      "Name": "Potent Tiger Opal",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107657",
+      "SourceFaction": "B"
+    },
+    "76529": {
+      "Name": "Inscribed Tiger Opal",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107653",
+      "SourceFaction": "B"
+    },
+    "76530": {
+      "Name": "Polished Tiger Opal",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107656",
+      "SourceFaction": "B"
+    },
+    "76531": {
+      "Name": "Resolute Tiger Opal",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107659",
+      "SourceFaction": "B"
+    },
+    "76532": {
+      "Name": "Stalwart Tiger Opal",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107663",
+      "SourceFaction": "B"
+    },
+    "76533": {
+      "Name": "Champion's Tiger Opal",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107647",
+      "SourceFaction": "B"
+    },
+    "76534": {
+      "Name": "Deft Tiger Opal",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107650",
+      "SourceFaction": "B"
+    },
+    "76535": {
+      "Name": "Wicked Tiger Opal",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107666",
+      "SourceFaction": "B"
+    },
+    "76536": {
+      "Name": "Reckless Tiger Opal",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107658",
+      "SourceFaction": "B"
+    },
+    "76537": {
+      "Name": "Fierce Tiger Opal",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107651",
+      "SourceFaction": "B"
+    },
+    "76538": {
+      "Name": "Adept Tiger Opal",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107645",
+      "SourceFaction": "B"
+    },
+    "76539": {
+      "Name": "Keen Tiger Opal",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107654",
+      "SourceFaction": "B"
+    },
+    "76540": {
+      "Name": "Artful Tiger Opal",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107646",
+      "SourceFaction": "B"
+    },
+    "76541": {
+      "Name": "Fine Tiger Opal",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107652",
+      "SourceFaction": "B"
+    },
+    "76542": {
+      "Name": "Skillful Tiger Opal",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107661",
+      "SourceFaction": "B"
+    },
+    "76543": {
+      "Name": "Lucent Tiger Opal",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107655",
+      "SourceFaction": "B"
+    },
+    "76544": {
+      "Name": "Tenuous Tiger Opal",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107665",
+      "SourceFaction": "B"
+    },
+    "76545": {
+      "Name": "Willful Tiger Opal",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107667",
+      "SourceFaction": "B"
+    },
+    "76546": {
+      "Name": "Splendid Tiger Opal",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107662",
+      "SourceFaction": "B"
+    },
+    "76547": {
+      "Name": "Resplendent Tiger Opal",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107660",
+      "SourceFaction": "B"
+    },
+    "76548": {
+      "Name": "Glinting Roguestone",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107631",
+      "SourceFaction": "B"
+    },
+    "76549": {
+      "Name": "Accurate Roguestone",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107627",
+      "SourceFaction": "B"
+    },
+    "76550": {
+      "Name": "Veiled Roguestone",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107639",
+      "SourceFaction": "B"
+    },
+    "76551": {
+      "Name": "Retaliating Roguestone",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107635",
+      "SourceFaction": "B"
+    },
+    "76552": {
+      "Name": "Etched Roguestone",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107630",
+      "SourceFaction": "B"
+    },
+    "76553": {
+      "Name": "Mysterious Roguestone",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107633",
+      "SourceFaction": "B"
+    },
+    "76554": {
+      "Name": "Purified Roguestone",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107634",
+      "SourceFaction": "B"
+    },
+    "76555": {
+      "Name": "Shifting Roguestone",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107636",
+      "SourceFaction": "B"
+    },
+    "76556": {
+      "Name": "Guardian's Roguestone",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107632",
+      "SourceFaction": "B"
+    },
+    "76557": {
+      "Name": "Timeless Roguestone",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107638",
+      "SourceFaction": "B"
+    },
+    "76558": {
+      "Name": "Defender's Roguestone",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107628",
+      "SourceFaction": "B"
+    },
+    "76559": {
+      "Name": "Sovereign Roguestone",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107637",
+      "SourceFaction": "B"
+    },
+    "76560": {
+      "Name": "Delicate Pandarian Garnet",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107624",
+      "SourceFaction": "B"
+    },
+    "76561": {
+      "Name": "Precise Pandarian Garnet",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107626",
+      "SourceFaction": "B"
+    },
+    "76562": {
+      "Name": "Brilliant Pandarian Garnet",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107623",
+      "SourceFaction": "B"
+    },
+    "76563": {
+      "Name": "Flashing Pandarian Garnet",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107625",
+      "SourceFaction": "B"
+    },
+    "76564": {
+      "Name": "Bold Pandarian Garnet",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107622",
+      "SourceFaction": "B"
+    },
+    "76565": {
+      "Name": "Smooth Sunstone",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107643",
+      "SourceFaction": "B"
+    },
+    "76566": {
+      "Name": "Subtle Sunstone",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107644",
+      "SourceFaction": "B"
+    },
+    "76567": {
+      "Name": "Quick Sunstone",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107642",
+      "SourceFaction": "B"
+    },
+    "76568": {
+      "Name": "Fractured Sunstone",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107640",
+      "SourceFaction": "B"
+    },
+    "76569": {
+      "Name": "Mystic Sunstone",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107641",
+      "SourceFaction": "B"
+    },
+    "76636": {
+      "Name": "Rigid River's Heart",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "106947",
+      "SourceFaction": "B"
+    },
+    "76637": {
+      "Name": "Stormy River's Heart",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "106948",
+      "SourceFaction": "B"
+    },
+    "76638": {
+      "Name": "Sparkling River's Heart",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "106949",
+      "SourceFaction": "B"
+    },
+    "76639": {
+      "Name": "Solid River's Heart",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "106950",
+      "SourceFaction": "B"
+    },
+    "76640": {
+      "Name": "Misty Wild Jade",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "106953",
+      "SourceFaction": "B"
+    },
+    "76641": {
+      "Name": "Piercing Wild Jade",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "106954",
+      "SourceFaction": "B"
+    },
+    "76642": {
+      "Name": "Lightning Wild Jade",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "106955",
+      "SourceFaction": "B"
+    },
+    "76643": {
+      "Name": "Sensei's Wild Jade",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "106956",
+      "SourceFaction": "B"
+    },
+    "76644": {
+      "Name": "Effulgent Wild Jade",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "106957",
+      "SourceFaction": "B"
+    },
+    "76645": {
+      "Name": "Zen Wild Jade",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "106958",
+      "SourceFaction": "B"
+    },
+    "76646": {
+      "Name": "Balanced Wild Jade",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "106960",
+      "SourceFaction": "B"
+    },
+    "76647": {
+      "Name": "Vivid Wild Jade",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "106961",
+      "SourceFaction": "B"
+    },
+    "76648": {
+      "Name": "Turbid Wild Jade",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "106962",
+      "SourceFaction": "B"
+    },
+    "76649": {
+      "Name": "Radiant Wild Jade",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107743",
+      "SourceFaction": "B"
+    },
+    "76650": {
+      "Name": "Shattered Wild Jade",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107745",
+      "SourceFaction": "B"
+    },
+    "76651": {
+      "Name": "Energized Wild Jade",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107737",
+      "SourceFaction": "B"
+    },
+    "76652": {
+      "Name": "Jagged Wild Jade",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107739",
+      "SourceFaction": "B"
+    },
+    "76653": {
+      "Name": "Regal Wild Jade",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107744",
+      "SourceFaction": "B"
+    },
+    "76654": {
+      "Name": "Forceful Wild Jade",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107738",
+      "SourceFaction": "B"
+    },
+    "76656": {
+      "Name": "Puissant Wild Jade",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107742",
+      "SourceFaction": "B"
+    },
+    "76657": {
+      "Name": "Steady Wild Jade",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107746",
+      "SourceFaction": "B"
+    },
+    "76658": {
+      "Name": "Deadly Vermilion Onyx",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107719",
+      "SourceFaction": "B"
+    },
+    "76659": {
+      "Name": "Crafty Vermilion Onyx",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107718",
+      "SourceFaction": "B"
+    },
+    "76660": {
+      "Name": "Potent Vermilion Onyx",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107727",
+      "SourceFaction": "B"
+    },
+    "76661": {
+      "Name": "Inscribed Vermilion Onyx",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107723",
+      "SourceFaction": "B"
+    },
+    "76662": {
+      "Name": "Polished Vermilion Onyx",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107726",
+      "SourceFaction": "B"
+    },
+    "76663": {
+      "Name": "Resolute Vermilion Onyx",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107729",
+      "SourceFaction": "B"
+    },
+    "76664": {
+      "Name": "Stalwart Vermilion Onyx",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107733",
+      "SourceFaction": "B"
+    },
+    "76665": {
+      "Name": "Champion's Vermilion Onyx",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107717",
+      "SourceFaction": "B"
+    },
+    "76666": {
+      "Name": "Deft Vermilion Onyx",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107720",
+      "SourceFaction": "B"
+    },
+    "76667": {
+      "Name": "Wicked Vermilion Onyx",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107735",
+      "SourceFaction": "B"
+    },
+    "76668": {
+      "Name": "Reckless Vermilion Onyx",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107728",
+      "SourceFaction": "B"
+    },
+    "76669": {
+      "Name": "Fierce Vermilion Onyx",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107721",
+      "SourceFaction": "B"
+    },
+    "76670": {
+      "Name": "Adept Vermilion Onyx",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107715",
+      "SourceFaction": "B"
+    },
+    "76671": {
+      "Name": "Keen Vermilion Onyx",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107724",
+      "SourceFaction": "B"
+    },
+    "76672": {
+      "Name": "Artful Vermilion Onyx",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107716",
+      "SourceFaction": "B"
+    },
+    "76673": {
+      "Name": "Fine Vermilion Onyx",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107722",
+      "SourceFaction": "B"
+    },
+    "76674": {
+      "Name": "Skillful Vermilion Onyx",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107731",
+      "SourceFaction": "B"
+    },
+    "76675": {
+      "Name": "Lucent Vermilion Onyx",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107725",
+      "SourceFaction": "B"
+    },
+    "76676": {
+      "Name": "Tenuous Vermilion Onyx",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107734",
+      "SourceFaction": "B"
+    },
+    "76677": {
+      "Name": "Willful Vermilion Onyx",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107736",
+      "SourceFaction": "B"
+    },
+    "76678": {
+      "Name": "Splendid Vermilion Onyx",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107732",
+      "SourceFaction": "B"
+    },
+    "76679": {
+      "Name": "Resplendent Vermilion Onyx",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107730",
+      "SourceFaction": "B"
+    },
+    "76680": {
+      "Name": "Glinting Imperial Amethyst",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107696",
+      "SourceFaction": "B"
+    },
+    "76681": {
+      "Name": "Accurate Imperial Amethyst",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107693",
+      "SourceFaction": "B"
+    },
+    "76682": {
+      "Name": "Veiled Imperial Amethyst",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107704",
+      "SourceFaction": "B"
+    },
+    "76683": {
+      "Name": "Retaliating Imperial Amethyst",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107700",
+      "SourceFaction": "B"
+    },
+    "76684": {
+      "Name": "Etched Imperial Amethyst",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107695",
+      "SourceFaction": "B"
+    },
+    "76685": {
+      "Name": "Mysterious Imperial Amethyst",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107698",
+      "SourceFaction": "B"
+    },
+    "76686": {
+      "Name": "Purified Imperial Amethyst",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107699",
+      "SourceFaction": "B"
+    },
+    "76687": {
+      "Name": "Shifting Imperial Amethyst",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107701",
+      "SourceFaction": "B"
+    },
+    "76688": {
+      "Name": "Guardian's Imperial Amethyst",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107697",
+      "SourceFaction": "B"
+    },
+    "76689": {
+      "Name": "Timeless Imperial Amethyst",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107703",
+      "SourceFaction": "B"
+    },
+    "76690": {
+      "Name": "Defender's Imperial Amethyst",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107694",
+      "SourceFaction": "B"
+    },
+    "76691": {
+      "Name": "Sovereign Imperial Amethyst",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107702",
+      "SourceFaction": "B"
+    },
+    "76692": {
+      "Name": "Delicate Primordial Ruby",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107707",
+      "SourceFaction": "B"
+    },
+    "76693": {
+      "Name": "Precise Primordial Ruby",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107709",
+      "SourceFaction": "B"
+    },
+    "76694": {
+      "Name": "Brilliant Primordial Ruby",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107706",
+      "SourceFaction": "B"
+    },
+    "76695": {
+      "Name": "Flashing Primordial Ruby",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107708",
+      "SourceFaction": "B"
+    },
+    "76696": {
+      "Name": "Bold Primordial Ruby",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107705",
+      "SourceFaction": "B"
+    },
+    "76697": {
+      "Name": "Smooth Sun's Radiance",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107713",
+      "SourceFaction": "B"
+    },
+    "76698": {
+      "Name": "Subtle Sun's Radiance",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107714",
+      "SourceFaction": "B"
+    },
+    "76699": {
+      "Name": "Quick Sun's Radiance",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107712",
+      "SourceFaction": "B"
+    },
+    "76700": {
+      "Name": "Fractured Sun's Radiance",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107710",
+      "SourceFaction": "B"
+    },
+    "76701": {
+      "Name": "Mystic Sun's Radiance",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107711",
+      "SourceFaction": "B"
+    },
+    "76879": {
+      "Name": "Ember Primal Diamond",
+      "Source": "Jewelcrafting (575)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107759",
+      "SourceFaction": "B"
+    },
+    "76884": {
+      "Name": "Agile Primal Diamond",
+      "Source": "Jewelcrafting (575)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107753",
+      "SourceFaction": "B"
+    },
+    "76885": {
+      "Name": "Burning Primal Diamond",
+      "Source": "Jewelcrafting (575)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107756",
+      "SourceFaction": "B"
+    },
+    "76886": {
+      "Name": "Reverberating Primal Diamond",
+      "Source": "Jewelcrafting (575)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107767",
+      "SourceFaction": "B"
+    },
+    "76887": {
+      "Name": "Fleet Primal Diamond",
+      "Source": "Jewelcrafting (575)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107763",
+      "SourceFaction": "B"
+    },
+    "76888": {
+      "Name": "Revitalizing Primal Diamond",
+      "Source": "Jewelcrafting (575)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107768",
+      "SourceFaction": "B"
+    },
+    "76890": {
+      "Name": "Destructive Primal Diamond",
+      "Source": "Jewelcrafting (575)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107757",
+      "SourceFaction": "B"
+    },
+    "76891": {
+      "Name": "Powerful Primal Diamond",
+      "Source": "Jewelcrafting (575)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107766",
+      "SourceFaction": "B"
+    },
+    "76892": {
+      "Name": "Enigmatic Primal Diamond",
+      "Source": "Jewelcrafting (575)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107760",
+      "SourceFaction": "B"
+    },
+    "76893": {
+      "Name": "Impassive Primal Diamond",
+      "Source": "Jewelcrafting (575)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107765",
+      "SourceFaction": "B"
+    },
+    "76894": {
+      "Name": "Forlorn Primal Diamond",
+      "Source": "Jewelcrafting (575)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107764",
+      "SourceFaction": "B"
+    },
+    "76895": {
+      "Name": "Austere Primal Diamond",
+      "Source": "Jewelcrafting (575)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107754",
+      "SourceFaction": "B"
+    },
+    "76896": {
+      "Name": "Eternal Primal Diamond",
+      "Source": "Jewelcrafting (575)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107762",
+      "SourceFaction": "B"
+    },
+    "76897": {
+      "Name": "Effulgent Primal Diamond",
+      "Source": "Jewelcrafting (575)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107758",
       "SourceFaction": "B"
     },
     "77467": {
@@ -2880,6 +4736,30 @@
       "SourceLocation": "130325",
       "SourceFaction": "B"
     },
+    "82453": {
+      "Name": "Jeweled Onyx Panther",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "120045",
+      "SourceFaction": "B"
+    },
+    "82774": {
+      "Name": "Jade Owl",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "131897",
+      "SourceFaction": "B"
+    },
+    "82775": {
+      "Name": "Sapphire Cub",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "131898",
+      "SourceFaction": "B"
+    },
     "82896": {
       "Name": "Spiritguard Shoulders",
       "Source": "Blacksmithing (535)",
@@ -3536,6 +5416,38 @@
       "SourceLocation": "126996",
       "SourceFaction": "B"
     },
+    "83087": {
+      "Name": "Ruby Panther",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "121841",
+      "SourceFaction": "B"
+    },
+    "83088": {
+      "Name": "Jade Panther",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "121844",
+      "SourceFaction": "B"
+    },
+    "83089": {
+      "Name": "Sunstone Panther",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "121843",
+      "SourceFaction": "B"
+    },
+    "83090": {
+      "Name": "Sapphire Panther",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "121842",
+      "SourceFaction": "B"
+    },
     "83096": {
       "Name": "Glyph of Incite",
       "Source": "Inscription (595)",
@@ -3550,6 +5462,102 @@
       "SourceType": "Profession",
       "SourceNumber": "0",
       "SourceLocation": "122030",
+      "SourceFaction": "B"
+    },
+    "83141": {
+      "Name": "Bold Serpent's Eye",
+      "Source": "Jewelcrafting (550)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "122675",
+      "SourceFaction": "B"
+    },
+    "83142": {
+      "Name": "Quick Serpent's Eye",
+      "Source": "Jewelcrafting (550)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "122682",
+      "SourceFaction": "B"
+    },
+    "83143": {
+      "Name": "Fractured Serpent's Eye",
+      "Source": "Jewelcrafting (550)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "122684",
+      "SourceFaction": "B"
+    },
+    "83144": {
+      "Name": "Rigid Serpent's Eye",
+      "Source": "Jewelcrafting (550)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "122681",
+      "SourceFaction": "B"
+    },
+    "83145": {
+      "Name": "Subtle Serpent's Eye",
+      "Source": "Jewelcrafting (550)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "122679",
+      "SourceFaction": "B"
+    },
+    "83146": {
+      "Name": "Smooth Serpent's Eye",
+      "Source": "Jewelcrafting (550)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "122680",
+      "SourceFaction": "B"
+    },
+    "83147": {
+      "Name": "Precise Serpent's Eye",
+      "Source": "Jewelcrafting (550)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "122683",
+      "SourceFaction": "B"
+    },
+    "83148": {
+      "Name": "Solid Serpent's Eye",
+      "Source": "Jewelcrafting (550)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "122678",
+      "SourceFaction": "B"
+    },
+    "83149": {
+      "Name": "Sparkling Serpent's Eye",
+      "Source": "Jewelcrafting (550)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "122677",
+      "SourceFaction": "B"
+    },
+    "83150": {
+      "Name": "Brilliant Serpent's Eye",
+      "Source": "Jewelcrafting (550)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "122676",
+      "SourceFaction": "B"
+    },
+    "83151": {
+      "Name": "Delicate Serpent's Eye",
+      "Source": "Jewelcrafting (550)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "122674",
+      "SourceFaction": "B"
+    },
+    "83152": {
+      "Name": "Flashing Serpent's Eye",
+      "Source": "Jewelcrafting (550)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "122685",
       "SourceFaction": "B"
     },
     "83763": {
@@ -3574,6 +5582,110 @@
       "SourceType": "Profession",
       "SourceNumber": "0",
       "SourceLocation": "124127",
+      "SourceFaction": "B"
+    },
+    "83793": {
+      "Name": "Ornate Band",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "122661",
+      "SourceFaction": "B"
+    },
+    "83794": {
+      "Name": "Shadowfire Necklace",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "122662",
+      "SourceFaction": "B"
+    },
+    "83795": {
+      "Name": "Scrying Roguestone",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "122663",
+      "SourceFaction": "B"
+    },
+    "83796": {
+      "Name": "Heart of the Earth",
+      "Source": "Jewelcrafting (575)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "122664",
+      "SourceFaction": "B"
+    },
+    "83798": {
+      "Name": "Roguestone Shadowband",
+      "Source": "Jewelcrafting (575)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "122665",
+      "SourceFaction": "B"
+    },
+    "83799": {
+      "Name": "Lord's Signet",
+      "Source": "Jewelcrafting (575)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "122666",
+      "SourceFaction": "B"
+    },
+    "83800": {
+      "Name": "Lionsfall Ring",
+      "Source": "Jewelcrafting (575)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "122667",
+      "SourceFaction": "B"
+    },
+    "83801": {
+      "Name": "Band of Blood",
+      "Source": "Jewelcrafting (575)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "122668",
+      "SourceFaction": "B"
+    },
+    "83802": {
+      "Name": "Reflection of the Sea",
+      "Source": "Jewelcrafting (575)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "122669",
+      "SourceFaction": "B"
+    },
+    "83803": {
+      "Name": "Golembreaker Amulet",
+      "Source": "Jewelcrafting (575)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "122670",
+      "SourceFaction": "B"
+    },
+    "83804": {
+      "Name": "Widow Chain",
+      "Source": "Jewelcrafting (575)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "122671",
+      "SourceFaction": "B"
+    },
+    "83805": {
+      "Name": "Skymage Circle",
+      "Source": "Jewelcrafting (575)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "122672",
+      "SourceFaction": "B"
+    },
+    "83806": {
+      "Name": "Tiger Opal Pendant",
+      "Source": "Jewelcrafting (575)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "122673",
       "SourceFaction": "B"
     },
     "84652": {
@@ -4632,6 +6744,38 @@
       "SourceLocation": "127009",
       "SourceFaction": "B"
     },
+    "89674": {
+      "Name": "Tense Imperial Amethyst",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "130658",
+      "SourceFaction": "B"
+    },
+    "89675": {
+      "Name": "Tense Roguestone",
+      "Source": "Jewelcrafting (575)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "130655",
+      "SourceFaction": "B"
+    },
+    "89678": {
+      "Name": "Assassin's Roguestone",
+      "Source": "Jewelcrafting (575)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "130656",
+      "SourceFaction": "B"
+    },
+    "89680": {
+      "Name": "Assassin's Imperial Amethyst",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "130657",
+      "SourceFaction": "B"
+    },
     "89868": {
       "Name": "Glyph of the Cheetah",
       "Source": "Inscription (595)",
@@ -4662,6 +6806,62 @@
       "SourceType": "Profession",
       "SourceNumber": "0",
       "SourceLocation": "131563",
+      "SourceFaction": "B"
+    },
+    "90395": {
+      "Name": "River's Heart",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "131593",
+      "SourceFaction": "B"
+    },
+    "90397": {
+      "Name": "Wild Jade",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "131688",
+      "SourceFaction": "B"
+    },
+    "90398": {
+      "Name": "Sun's Radiance",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "131695",
+      "SourceFaction": "B"
+    },
+    "90399": {
+      "Name": "Imperial Amethyst",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "131691",
+      "SourceFaction": "B"
+    },
+    "90400": {
+      "Name": "Vermilion Onyx",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "131690",
+      "SourceFaction": "B"
+    },
+    "90401": {
+      "Name": "Primordial Ruby",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "131686",
+      "SourceFaction": "B"
+    },
+    "90406": {
+      "Name": "Secrets of the Stone",
+      "Source": "Jewelcrafting (605)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "131759",
       "SourceFaction": "B"
     },
     "90715": {
@@ -4710,6 +6910,54 @@
       "SourceType": "Profession",
       "SourceNumber": "0",
       "SourceLocation": "114779",
+      "SourceFaction": "B"
+    },
+    "93404": {
+      "Name": "Resplendent Serpent's Eye",
+      "Source": "Jewelcrafting (575)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "136269",
+      "SourceFaction": "B"
+    },
+    "93405": {
+      "Name": "Lucent Serpent's Eye",
+      "Source": "Jewelcrafting (575)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "136270",
+      "SourceFaction": "B"
+    },
+    "93406": {
+      "Name": "Willful Serpent's Eye",
+      "Source": "Jewelcrafting (575)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "136272",
+      "SourceFaction": "B"
+    },
+    "93408": {
+      "Name": "Tense Serpent's Eye",
+      "Source": "Jewelcrafting (575)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "136273",
+      "SourceFaction": "B"
+    },
+    "93409": {
+      "Name": "Assassin's Serpent's Eye",
+      "Source": "Jewelcrafting (575)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "136274",
+      "SourceFaction": "B"
+    },
+    "93410": {
+      "Name": "Mysterious Serpent's Eye",
+      "Source": "Jewelcrafting (575)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "136275",
       "SourceFaction": "B"
     },
     "93420": {
@@ -4998,6 +7246,22 @@
       "SourceType": "Profession",
       "SourceNumber": "0",
       "SourceLocation": "137942",
+      "SourceFaction": "B"
+    },
+    "93705": {
+      "Name": "Nimble Wild Jade",
+      "Source": "Jewelcrafting (600)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107740",
+      "SourceFaction": "B"
+    },
+    "93706": {
+      "Name": "Nimble Alexandrite",
+      "Source": "Jewelcrafting (525)",
+      "SourceType": "Profession",
+      "SourceNumber": "0",
+      "SourceLocation": "107606",
       "SourceFaction": "B"
     },
     "94113": {

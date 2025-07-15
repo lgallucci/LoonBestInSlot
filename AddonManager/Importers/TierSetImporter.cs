@@ -168,6 +168,6 @@ public class TierSetImporter : LootImporter
                     }
                 }
             }
-        }, writeToText, _importCancelToken);
+        }, writeToText, _importCancelToken, true);
     }
 }

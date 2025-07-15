@@ -53,8 +53,10 @@ if GetLocale() == "koKR" then
   LBIS.L["Commander Durand"] = "사령관 듀란드";
   LBIS.L["Commander Ri'mok"] = "사령관 리모크";
   LBIS.L["Commander Vo'jak"] = "장로 진바크";
+--  LBIS.L["Crane Deck"] = "";
   LBIS.L["Custom"] = "사용자 설정";
   LBIS.L["Darkmaster Gandling"] = "암흑스승 간틀링";
+  LBIS.L["Darkmoon Faire"] = "다크문 축제";
   LBIS.L["Demonology"] = "악마";
   LBIS.L["Deselect"] = "선택 해제";
   LBIS.L["Destruction"] = "true";
@@ -166,6 +168,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Ook-Ook"] = "우끼우끼";
   LBIS.L["Open Browser Window"] = "창 열기";
   LBIS.L["Open Settings"] = "설정 창 열기";
+--  LBIS.L["Ox Deck"] = "";
   LBIS.L["Phase 1"] = "1 페이즈";
   LBIS.L["Phase 2"] = "2 페이즈";
   LBIS.L["Phase 3"] = "3 페이즈";
@@ -191,6 +194,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Ring"] = "손가락";
   LBIS.L["Saboteur Kip'tilak"] = "파괴자 키프틸락";
   LBIS.L["Select"] = "선택";
+--  LBIS.L["Serpent Deck"] = "";
   LBIS.L["Settings"] = "설정";
   LBIS.L["Sha of Doubt"] = "의심의 샤";
   LBIS.L["Sha of Fear (H)"] = "공포의 샤 (H)";
@@ -236,6 +240,7 @@ if GetLocale() == "koKR" then
   LBIS.L["The Stone Guard (N)"] = "바위 수호자 (N)";
   LBIS.L["Throne of Thunder"] = "천둥의 왕좌";
 --  LBIS.L["Tier Token"] = "";
+--  LBIS.L["Tiger Deck"] = "";
   LBIS.L["Token"] = "토큰";
   LBIS.L["Transmute"] = "변환식";
   LBIS.L["Trial of the King"] = "왕의 시험";

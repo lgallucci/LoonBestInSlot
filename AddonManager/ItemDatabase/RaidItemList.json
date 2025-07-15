@@ -160,6 +160,102 @@
       "SourceLocation": "Mogu'Shan Vaults",
       "SourceFaction": "B"
     },
+    "85991": {
+      "Name": "Soulgrasp Choker",
+      "Source": "Gara'jal the Spiritbinder (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "85992": {
+      "Name": "Sollerets of Spirit Splitting",
+      "Source": "Gara'jal the Spiritbinder (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "85993": {
+      "Name": "Fetters of Death",
+      "Source": "Gara'jal the Spiritbinder (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "85994": {
+      "Name": "Gara'kal, Fist of the Spiritbinder",
+      "Source": "Gara'jal the Spiritbinder (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "85995": {
+      "Name": "Netherrealm Shoulderpads",
+      "Source": "Gara'jal the Spiritbinder (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "85996": {
+      "Name": "Eye of the Ancient Spirit",
+      "Source": "Gara'jal the Spiritbinder (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "85997": {
+      "Name": "Sandals of the Severed Soul",
+      "Source": "Gara'jal the Spiritbinder (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "86027": {
+      "Name": "Bindings of Ancient Spirits",
+      "Source": "Gara'jal the Spiritbinder (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "86038": {
+      "Name": "Circuit of the Frail Soul",
+      "Source": "Gara'jal the Spiritbinder (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "86039": {
+      "Name": "Spaulders of the Divided Mind",
+      "Source": "Gara'jal the Spiritbinder (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "86040": {
+      "Name": "Leggings of Imprisoned Will",
+      "Source": "Gara'jal the Spiritbinder (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "86041": {
+      "Name": "Shadowsummoner Spaulders",
+      "Source": "Gara'jal the Spiritbinder (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
     "86047": {
       "Name": "Amulet of the Hidden Kings",
       "Source": "The Spirit Kings (N)",
@@ -360,6 +456,86 @@
       "SourceLocation": "Mogu'Shan Vaults",
       "SourceFaction": "B"
     },
+    "86142": {
+      "Name": "Fang Kung, Spark of Titans",
+      "Source": "Will of the Emperor (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "86144": {
+      "Name": "Lei Shen's Final Orders",
+      "Source": "Will of the Emperor (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "86145": {
+      "Name": "Jang-xi's Devastating Legplates",
+      "Source": "Will of the Emperor (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "86146": {
+      "Name": "Crown of Opportunistic Strikes",
+      "Source": "Will of the Emperor (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "86147": {
+      "Name": "Qin-xi's Polarizing Seal",
+      "Source": "Will of the Emperor (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "86148": {
+      "Name": "Tihan, Scepter of the Sleeping Emperor",
+      "Source": "Will of the Emperor (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "86149": {
+      "Name": "Spaulders of the Emperor's Rage",
+      "Source": "Will of the Emperor (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "86150": {
+      "Name": "Magnetized Leggings",
+      "Source": "Will of the Emperor (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "86151": {
+      "Name": "Hood of Focused Energy",
+      "Source": "Will of the Emperor (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "86152": {
+      "Name": "Worldwaker Cabochon",
+      "Source": "Will of the Emperor (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
     "86153": {
       "Name": "Boots of the Still Breath",
       "Source": "Imperial Vizier Zor'lok (N)",
@@ -507,6 +683,94 @@
     "86171": {
       "Name": "Tornado-Summoning Censer",
       "Source": "Blade Lord Ta'yak (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Heart of Fear",
+      "SourceFaction": "B"
+    },
+    "86172": {
+      "Name": "Ring of the Shattered Shell",
+      "Source": "Garalon (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Heart of Fear",
+      "SourceFaction": "B"
+    },
+    "86173": {
+      "Name": "Legbreaker Greatcloak",
+      "Source": "Garalon (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Heart of Fear",
+      "SourceFaction": "B"
+    },
+    "86174": {
+      "Name": "Garalon's Hollow Skull",
+      "Source": "Garalon (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Heart of Fear",
+      "SourceFaction": "B"
+    },
+    "86175": {
+      "Name": "Grips of the Leviathan",
+      "Source": "Garalon (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Heart of Fear",
+      "SourceFaction": "B"
+    },
+    "86176": {
+      "Name": "Bonebreaker Gauntlets",
+      "Source": "Garalon (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Heart of Fear",
+      "SourceFaction": "B"
+    },
+    "86177": {
+      "Name": "Necklace of Congealed Weaknesses",
+      "Source": "Garalon (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Heart of Fear",
+      "SourceFaction": "B"
+    },
+    "86178": {
+      "Name": "Sandals of the Unbidden",
+      "Source": "Garalon (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Heart of Fear",
+      "SourceFaction": "B"
+    },
+    "86179": {
+      "Name": "Grasps of Panic",
+      "Source": "Garalon (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Heart of Fear",
+      "SourceFaction": "B"
+    },
+    "86180": {
+      "Name": "Robes of Eighty Lights",
+      "Source": "Garalon (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Heart of Fear",
+      "SourceFaction": "B"
+    },
+    "86181": {
+      "Name": "Xaril's Hood of Intoxicating Vapors",
+      "Source": "Garalon (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Heart of Fear",
+      "SourceFaction": "B"
+    },
+    "86182": {
+      "Name": "Stormwake Mistcloak",
+      "Source": "Garalon (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1168,6 +1432,102 @@
       "SourceLocation": "Mogu'Shan Vaults",
       "SourceFaction": "B"
     },
+    "86759": {
+      "Name": "Soulgrasp Choker",
+      "Source": "Gara'jal the Spiritbinder (LFR)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "86760": {
+      "Name": "Sollerets of Spirit Splitting",
+      "Source": "Gara'jal the Spiritbinder (LFR)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "86761": {
+      "Name": "Fetters of Death",
+      "Source": "Gara'jal the Spiritbinder (LFR)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "86762": {
+      "Name": "Gara'kal, Fist of the Spiritbinder",
+      "Source": "Gara'jal the Spiritbinder (LFR)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "86763": {
+      "Name": "Netherrealm Shoulderpads",
+      "Source": "Gara'jal the Spiritbinder (LFR)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "86764": {
+      "Name": "Eye of the Ancient Spirit",
+      "Source": "Gara'jal the Spiritbinder (LFR)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "86765": {
+      "Name": "Sandals of the Severed Soul",
+      "Source": "Gara'jal the Spiritbinder (LFR)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "86766": {
+      "Name": "Bindings of Ancient Spirits",
+      "Source": "Gara'jal the Spiritbinder (LFR)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "86767": {
+      "Name": "Circuit of the Frail Soul",
+      "Source": "Gara'jal the Spiritbinder (LFR)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "86768": {
+      "Name": "Spaulders of the Divided Mind",
+      "Source": "Gara'jal the Spiritbinder (LFR)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "86769": {
+      "Name": "Leggings of Imprisoned Will",
+      "Source": "Gara'jal the Spiritbinder (LFR)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "86770": {
+      "Name": "Shadowsummoner Spaulders",
+      "Source": "Gara'jal the Spiritbinder (LFR)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
     "86776": {
       "Name": "Amulet of the Hidden Kings",
       "Source": "The Spirit Kings (LFR)",
@@ -1370,7 +1730,7 @@
     },
     "86801": {
       "Name": "Fang Kung, Spark of Titans",
-      "Source": "Will of the Emperor (LFR) & Will of the Emperor (N) & Will of the Emperor (H)",
+      "Source": "Will of the Emperor (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -1378,7 +1738,7 @@
     },
     "86802": {
       "Name": "Lei Shen's Final Orders",
-      "Source": "Will of the Emperor (LFR) & Will of the Emperor (N) & Will of the Emperor (H)",
+      "Source": "Will of the Emperor (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -1386,7 +1746,7 @@
     },
     "86803": {
       "Name": "Jang-xi's Devastating Legplates",
-      "Source": "Will of the Emperor (LFR) & Will of the Emperor (N) & Will of the Emperor (H)",
+      "Source": "Will of the Emperor (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -1394,7 +1754,7 @@
     },
     "86804": {
       "Name": "Crown of Opportunistic Strikes",
-      "Source": "Will of the Emperor (LFR) & Will of the Emperor (N) & Will of the Emperor (H)",
+      "Source": "Will of the Emperor (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -1402,7 +1762,7 @@
     },
     "86805": {
       "Name": "Qin-xi's Polarizing Seal",
-      "Source": "Will of the Emperor (LFR) & Will of the Emperor (N) & Will of the Emperor (H)",
+      "Source": "Will of the Emperor (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -1410,7 +1770,7 @@
     },
     "86806": {
       "Name": "Tihan, Scepter of the Sleeping Emperor",
-      "Source": "Will of the Emperor (LFR) & Will of the Emperor (N) & Will of the Emperor (H)",
+      "Source": "Will of the Emperor (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -1418,7 +1778,7 @@
     },
     "86807": {
       "Name": "Spaulders of the Emperor's Rage",
-      "Source": "Will of the Emperor (LFR) & Will of the Emperor (N) & Will of the Emperor (H)",
+      "Source": "Will of the Emperor (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -1426,7 +1786,7 @@
     },
     "86808": {
       "Name": "Magnetized Leggings",
-      "Source": "Will of the Emperor (LFR) & Will of the Emperor (N) & Will of the Emperor (H)",
+      "Source": "Will of the Emperor (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -1434,7 +1794,7 @@
     },
     "86809": {
       "Name": "Hood of Focused Energy",
-      "Source": "Will of the Emperor (LFR) & Will of the Emperor (N) & Will of the Emperor (H)",
+      "Source": "Will of the Emperor (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -1442,7 +1802,7 @@
     },
     "86810": {
       "Name": "Worldwaker Cabochon",
-      "Source": "Will of the Emperor (LFR) & Will of the Emperor (N) & Will of the Emperor (H)",
+      "Source": "Will of the Emperor (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -1602,7 +1962,7 @@
     },
     "86830": {
       "Name": "Ring of the Shattered Shell",
-      "Source": "Garalon (LFR) & Garalon (N) & Garalon (H)",
+      "Source": "Garalon (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1610,7 +1970,7 @@
     },
     "86831": {
       "Name": "Legbreaker Greatcloak",
-      "Source": "Garalon (LFR) & Garalon (N) & Garalon (H)",
+      "Source": "Garalon (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1618,7 +1978,7 @@
     },
     "86832": {
       "Name": "Garalon's Hollow Skull",
-      "Source": "Garalon (LFR) & Garalon (N) & Garalon (H)",
+      "Source": "Garalon (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1626,7 +1986,7 @@
     },
     "86833": {
       "Name": "Grips of the Leviathan",
-      "Source": "Garalon (LFR) & Garalon (N) & Garalon (H)",
+      "Source": "Garalon (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1634,7 +1994,7 @@
     },
     "86834": {
       "Name": "Bonebreaker Gauntlets",
-      "Source": "Garalon (LFR) & Garalon (N) & Garalon (H)",
+      "Source": "Garalon (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1642,7 +2002,7 @@
     },
     "86835": {
       "Name": "Necklace of Congealed Weaknesses",
-      "Source": "Garalon (LFR) & Garalon (N) & Garalon (H)",
+      "Source": "Garalon (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1650,7 +2010,7 @@
     },
     "86836": {
       "Name": "Sandals of the Unbidden",
-      "Source": "Garalon (LFR) & Garalon (N) & Garalon (H)",
+      "Source": "Garalon (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1658,7 +2018,7 @@
     },
     "86837": {
       "Name": "Grasps of Panic",
-      "Source": "Garalon (LFR) & Garalon (N) & Garalon (H)",
+      "Source": "Garalon (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1666,7 +2026,7 @@
     },
     "86838": {
       "Name": "Robes of Eighty Lights",
-      "Source": "Garalon (LFR) & Garalon (N) & Garalon (H)",
+      "Source": "Garalon (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1674,7 +2034,7 @@
     },
     "86839": {
       "Name": "Xaril's Hood of Intoxicating Vapors",
-      "Source": "Garalon (LFR) & Garalon (N) & Garalon (H)",
+      "Source": "Garalon (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -1682,7 +2042,7 @@
     },
     "86840": {
       "Name": "Stormwake Mistcloak",
-      "Source": "Garalon (LFR) & Garalon (N) & Garalon (H)",
+      "Source": "Garalon (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -2344,6 +2704,94 @@
       "SourceLocation": "Heart of Fear",
       "SourceFaction": "B"
     },
+    "86963": {
+      "Name": "Legbreaker Greatcloak",
+      "Source": "Garalon (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Heart of Fear",
+      "SourceFaction": "B"
+    },
+    "86964": {
+      "Name": "Bonebreaker Gauntlets",
+      "Source": "Garalon (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Heart of Fear",
+      "SourceFaction": "B"
+    },
+    "86965": {
+      "Name": "Grips of the Leviathan",
+      "Source": "Garalon (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Heart of Fear",
+      "SourceFaction": "B"
+    },
+    "86966": {
+      "Name": "Garalon's Hollow Skull",
+      "Source": "Garalon (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Heart of Fear",
+      "SourceFaction": "B"
+    },
+    "86967": {
+      "Name": "Necklace of Congealed Weaknesses",
+      "Source": "Garalon (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Heart of Fear",
+      "SourceFaction": "B"
+    },
+    "86968": {
+      "Name": "Ring of the Shattered Shell",
+      "Source": "Garalon (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Heart of Fear",
+      "SourceFaction": "B"
+    },
+    "86969": {
+      "Name": "Sandals of the Unbidden",
+      "Source": "Garalon (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Heart of Fear",
+      "SourceFaction": "B"
+    },
+    "86970": {
+      "Name": "Xaril's Hood of Intoxicating Vapors",
+      "Source": "Garalon (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Heart of Fear",
+      "SourceFaction": "B"
+    },
+    "86971": {
+      "Name": "Stormwake Mistcloak",
+      "Source": "Garalon (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Heart of Fear",
+      "SourceFaction": "B"
+    },
+    "86972": {
+      "Name": "Robes of Eighty Lights",
+      "Source": "Garalon (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Heart of Fear",
+      "SourceFaction": "B"
+    },
+    "86973": {
+      "Name": "Grasps of Panic",
+      "Source": "Garalon (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Heart of Fear",
+      "SourceFaction": "B"
+    },
     "86974": {
       "Name": "Painful Thorned Ring",
       "Source": "Wind Lord Mel'jarak (H)",
@@ -2648,6 +3096,102 @@
       "SourceLocation": "Mogu'Shan Vaults",
       "SourceFaction": "B"
     },
+    "87032": {
+      "Name": "Gara'kal, Fist of the Spiritbinder",
+      "Source": "Gara'jal the Spiritbinder (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "87033": {
+      "Name": "Netherrealm Shoulderpads",
+      "Source": "Gara'jal the Spiritbinder (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "87034": {
+      "Name": "Fetters of Death",
+      "Source": "Gara'jal the Spiritbinder (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "87035": {
+      "Name": "Sollerets of Spirit Splitting",
+      "Source": "Gara'jal the Spiritbinder (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "87036": {
+      "Name": "Soulgrasp Choker",
+      "Source": "Gara'jal the Spiritbinder (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "87037": {
+      "Name": "Sandals of the Severed Soul",
+      "Source": "Gara'jal the Spiritbinder (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "87038": {
+      "Name": "Shadowsummoner Spaulders",
+      "Source": "Gara'jal the Spiritbinder (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "87039": {
+      "Name": "Eye of the Ancient Spirit",
+      "Source": "Gara'jal the Spiritbinder (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "87040": {
+      "Name": "Circuit of the Frail Soul",
+      "Source": "Gara'jal the Spiritbinder (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "87041": {
+      "Name": "Spaulders of the Divided Mind",
+      "Source": "Gara'jal the Spiritbinder (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "87042": {
+      "Name": "Leggings of Imprisoned Will",
+      "Source": "Gara'jal the Spiritbinder (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "87043": {
+      "Name": "Bindings of Ancient Spirits",
+      "Source": "Gara'jal the Spiritbinder (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
     "87044": {
       "Name": "Arrow Breaking Windcloak",
       "Source": "Feng the Accursed (H)",
@@ -2843,6 +3387,86 @@
     "87068": {
       "Name": "Shoulders of Empyreal Focus",
       "Source": "Elegon (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "87069": {
+      "Name": "Fang Kung, Spark of Titans",
+      "Source": "Will of the Emperor (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "87070": {
+      "Name": "Crown of Opportunistic Strikes",
+      "Source": "Will of the Emperor (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "87071": {
+      "Name": "Jang-xi's Devastating Legplates",
+      "Source": "Will of the Emperor (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "87072": {
+      "Name": "Lei Shen's Final Orders",
+      "Source": "Will of the Emperor (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "87073": {
+      "Name": "Hood of Focused Energy",
+      "Source": "Will of the Emperor (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "87074": {
+      "Name": "Tihan, Scepter of the Sleeping Emperor",
+      "Source": "Will of the Emperor (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "87075": {
+      "Name": "Qin-xi's Polarizing Seal",
+      "Source": "Will of the Emperor (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "87076": {
+      "Name": "Worldwaker Cabochon",
+      "Source": "Will of the Emperor (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "87077": {
+      "Name": "Magnetized Leggings",
+      "Source": "Will of the Emperor (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "87078": {
+      "Name": "Spaulders of the Emperor's Rage",
+      "Source": "Will of the Emperor (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -3200,14 +3824,6 @@
       "SourceLocation": "Mogu'Shan Vaults",
       "SourceFaction": "B"
     },
-    "87209": {
-      "Name": "Sigil of Wisdom",
-      "Source": "Feng the Accursed (N)~Imperial Vizier Zor'lok (N)~Blade Lord Ta'yak (N)~Wind Lord Mel'jarak (N)~Amber-Shaper Un'sok (N)~Grand Empress Shek'zeer (N)~Protector Kaolan (N)~Tsulong (N)~Sha of Fear (N)",
-      "SourceType": "Drop",
-      "SourceNumber": "0~0~0~0~0~0~0~0~0",
-      "SourceLocation": "Mogu'Shan Vaults~Heart of Fear~Heart of Fear~Heart of Fear~Heart of Fear~Heart of Fear~Terrace of Endless Spring~Terrace of Endless Spring~Terrace of Endless Spring",
-      "SourceFaction": "B"
-    },
     "87210": {
       "Name": "Chimera of Fear",
       "Source": "Sha of Fear (LFR) & Sha of Fear (N)",
@@ -3240,9 +3856,25 @@
       "SourceLocation": "Heart of Fear",
       "SourceFaction": "B"
     },
+    "87825": {
+      "Name": "Grips of Terra Cotta",
+      "Source": "Will of the Emperor (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
     "87826": {
       "Name": "Grips of Terra Cotta",
-      "Source": "Will of the Emperor (LFR) & Will of the Emperor (N) & Will of the Emperor (H)",
+      "Source": "Will of the Emperor (LFR)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "87827": {
+      "Name": "Grips of Terra Cotta",
+      "Source": "Will of the Emperor (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -3672,6 +4304,14 @@
       "SourceLocation": "Mogu'Shan Vaults",
       "SourceFaction": "B"
     },
+    "89817": {
+      "Name": "Bonded Soul Bracers",
+      "Source": "Gara'jal the Spiritbinder (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
     "89818": {
       "Name": "Bracers of Violent Meditation",
       "Source": "The Spirit Kings (N)",
@@ -3683,6 +4323,14 @@
     "89819": {
       "Name": "Mindshard Drape",
       "Source": "The Spirit Kings (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "89820": {
+      "Name": "Dreadeye Gaze",
+      "Source": "Will of the Emperor (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -3704,9 +4352,25 @@
       "SourceLocation": "Mogu'Shan Vaults",
       "SourceFaction": "B"
     },
+    "89823": {
+      "Name": "Chestguard of Eternal Vigilance",
+      "Source": "Will of the Emperor (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
     "89824": {
       "Name": "Band of Bursting Novas",
       "Source": "Elegon (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "89825": {
+      "Name": "Enameled Grips of Solemnity",
+      "Source": "Will of the Emperor (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -3755,6 +4419,30 @@
     "89831": {
       "Name": "Hood of Stilled Winds",
       "Source": "Blade Lord Ta'yak (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Heart of Fear",
+      "SourceFaction": "B"
+    },
+    "89832": {
+      "Name": "Garalon's Graven Carapace",
+      "Source": "Garalon (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Heart of Fear",
+      "SourceFaction": "B"
+    },
+    "89833": {
+      "Name": "Shoulders of Foaming Fluids",
+      "Source": "Garalon (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Heart of Fear",
+      "SourceFaction": "B"
+    },
+    "89834": {
+      "Name": "Vestments of Steaming Ichor",
+      "Source": "Garalon (N)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -3904,6 +4592,30 @@
       "SourceLocation": "Heart of Fear",
       "SourceFaction": "B"
     },
+    "89923": {
+      "Name": "Garalon's Graven Carapace",
+      "Source": "Garalon (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Heart of Fear",
+      "SourceFaction": "B"
+    },
+    "89924": {
+      "Name": "Shoulders of Foaming Fluids",
+      "Source": "Garalon (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Heart of Fear",
+      "SourceFaction": "B"
+    },
+    "89925": {
+      "Name": "Vestments of Steaming Ichor",
+      "Source": "Garalon (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Heart of Fear",
+      "SourceFaction": "B"
+    },
     "89926": {
       "Name": "Shadow Heart Spaulders",
       "Source": "Grand Empress Shek'zeer (H)",
@@ -3968,6 +4680,14 @@
       "SourceLocation": "Mogu'Shan Vaults",
       "SourceFaction": "B"
     },
+    "89934": {
+      "Name": "Bonded Soul Bracers",
+      "Source": "Gara'jal the Spiritbinder (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
     "89935": {
       "Name": "Bracers of Violent Meditation",
       "Source": "The Spirit Kings (H)",
@@ -4003,6 +4723,30 @@
     "89939": {
       "Name": "Crown of Keening Stars",
       "Source": "Elegon (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "89940": {
+      "Name": "Dreadeye Gaze",
+      "Source": "Will of the Emperor (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "89941": {
+      "Name": "Chestguard of Eternal Vigilance",
+      "Source": "Will of the Emperor (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
+    "89942": {
+      "Name": "Enameled Grips of Solemnity",
+      "Source": "Will of the Emperor (H)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -4130,7 +4874,7 @@
     },
     "89958": {
       "Name": "Garalon's Graven Carapace",
-      "Source": "Garalon (LFR) & Garalon (N) & Garalon (H)",
+      "Source": "Garalon (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4138,7 +4882,7 @@
     },
     "89959": {
       "Name": "Shoulders of Foaming Fluids",
-      "Source": "Garalon (LFR) & Garalon (N) & Garalon (H)",
+      "Source": "Garalon (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4146,7 +4890,7 @@
     },
     "89960": {
       "Name": "Vestments of Steaming Ichor",
-      "Source": "Garalon (LFR) & Garalon (N) & Garalon (H)",
+      "Source": "Garalon (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Heart of Fear",
@@ -4216,6 +4960,14 @@
       "SourceLocation": "Mogu'Shan Vaults",
       "SourceFaction": "B"
     },
+    "89969": {
+      "Name": "Bonded Soul Bracers",
+      "Source": "Gara'jal the Spiritbinder (LFR)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mogu'Shan Vaults",
+      "SourceFaction": "B"
+    },
     "89970": {
       "Name": "Bracers of Violent Meditation",
       "Source": "The Spirit Kings (LFR)",
@@ -4258,7 +5010,7 @@
     },
     "89975": {
       "Name": "Dreadeye Gaze",
-      "Source": "Will of the Emperor (LFR) & Will of the Emperor (N) & Will of the Emperor (H)",
+      "Source": "Will of the Emperor (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -4266,7 +5018,7 @@
     },
     "89976": {
       "Name": "Chestguard of Eternal Vigilance",
-      "Source": "Will of the Emperor (LFR) & Will of the Emperor (N) & Will of the Emperor (H)",
+      "Source": "Will of the Emperor (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",
@@ -4274,7 +5026,7 @@
     },
     "89977": {
       "Name": "Enameled Grips of Solemnity",
-      "Source": "Will of the Emperor (LFR) & Will of the Emperor (N) & Will of the Emperor (H)",
+      "Source": "Will of the Emperor (LFR)",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Mogu'Shan Vaults",

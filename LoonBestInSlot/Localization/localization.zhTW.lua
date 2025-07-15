@@ -53,8 +53,10 @@ if GetLocale() == "zhTW" then
   LBIS.L["Commander Durand"] = "指揮官杜蘭德";
   LBIS.L["Commander Ri'mok"] = "指揮官黎莫克";
   LBIS.L["Commander Vo'jak"] = "指揮官沃賈克";
+--  LBIS.L["Crane Deck"] = "";
   LBIS.L["Custom"] = "自訂";
   LBIS.L["Darkmaster Gandling"] = "黑暗院長加丁";
+  LBIS.L["Darkmoon Faire"] = "暗月馬戲團";
   LBIS.L["Demonology"] = "惡魔學識";
 --  LBIS.L["Deselect"] = "";
   LBIS.L["Destruction"] = "毀滅";
@@ -166,6 +168,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Ook-Ook"] = "歐克·歐克";
 --  LBIS.L["Open Browser Window"] = "";
 --  LBIS.L["Open Settings"] = "";
+--  LBIS.L["Ox Deck"] = "";
 --  LBIS.L["Phase 1"] = "";
 --  LBIS.L["Phase 2"] = "";
 --  LBIS.L["Phase 3"] = "";
@@ -191,6 +194,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Ring"] = "手指";
   LBIS.L["Saboteur Kip'tilak"] = "『破壞者』奇普提拉克";
   LBIS.L["Select"] = "Select";
+--  LBIS.L["Serpent Deck"] = "";
   LBIS.L["Settings"] = "設定";
   LBIS.L["Sha of Doubt"] = "疑惑之煞";
 --  LBIS.L["Sha of Fear (H)"] = "恐懼之煞";
@@ -236,6 +240,7 @@ if GetLocale() == "zhTW" then
 --  LBIS.L["The Stone Guard (N)"] = "石衛士";
   LBIS.L["Throne of Thunder"] = "雷霆王座";
 --  LBIS.L["Tier Token"] = "";
+--  LBIS.L["Tiger Deck"] = "";
   LBIS.L["Token"] = "代幣";
 --  LBIS.L["Transmute"] = "";
   LBIS.L["Trial of the King"] = "帝王的試煉";

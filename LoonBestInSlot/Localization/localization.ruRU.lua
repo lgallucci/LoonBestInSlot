@@ -53,8 +53,10 @@ if GetLocale() == "ruRU" then
   LBIS.L["Commander Durand"] = "Командир Дюранд";
   LBIS.L["Commander Ri'mok"] = "Командир Ри'мок";
   LBIS.L["Commander Vo'jak"] = "Командир Во'цзак";
+--  LBIS.L["Crane Deck"] = "";
   LBIS.L["Custom"] = "Вручную";
   LBIS.L["Darkmaster Gandling"] = "Темный магистр Гандлинг";
+  LBIS.L["Darkmoon Faire"] = "Ярмарка Новолуния";
   LBIS.L["Demonology"] = "Демонология";
 --  LBIS.L["Deselect"] = "";
   LBIS.L["Destruction"] = "Разрушение";
@@ -166,6 +168,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Ook-Ook"] = "Ук-Ук";
 --  LBIS.L["Open Browser Window"] = "";
 --  LBIS.L["Open Settings"] = "";
+--  LBIS.L["Ox Deck"] = "";
 --  LBIS.L["Phase 1"] = "";
 --  LBIS.L["Phase 2"] = "";
 --  LBIS.L["Phase 3"] = "";
@@ -191,6 +194,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Ring"] = "Палец";
   LBIS.L["Saboteur Kip'tilak"] = "Диверсант Кип'тилак";
   LBIS.L["Select"] = "Выбрать";
+--  LBIS.L["Serpent Deck"] = "";
   LBIS.L["Settings"] = "Параметры";
   LBIS.L["Sha of Doubt"] = "Ша Сомнения";
   LBIS.L["Sha of Fear (H)"] = "Ша Страха (Гер)";
@@ -236,6 +240,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["The Stone Guard (N)"] = "Каменные стражи (Нормал)";
   LBIS.L["Throne of Thunder"] = "Престол Гроз";
 --  LBIS.L["Tier Token"] = "";
+--  LBIS.L["Tiger Deck"] = "";
   LBIS.L["Token"] = "Фрагмент";
 --  LBIS.L["Transmute"] = "";
   LBIS.L["Trial of the King"] = "Королевское испытание";

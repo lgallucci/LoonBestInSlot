@@ -651,7 +651,7 @@ public static class WowheadImporter
         {
             await Common.LoadFromWebPages(webAddresses, (uri, doc) =>
             {
-                var name = doc.Title?.Replace(" - Item - Cataclysm Classic", "").Trim() ?? "unknown";
+                var name = doc.Title?.Replace(" - Item - Mists of Pandaria Classic", "").Trim() ?? "unknown";
                 var itemId = Int32.Parse(uri.Replace("https://www.wowhead.com/mop-classic/item=", "").TrimEnd('/'));
                 var rowElements = doc.QuerySelectorAll("#tab-dropped-by .listview-mode-default .listview-row");
 

@@ -35,7 +35,14 @@ public class ProfessionImporter : LootImporter
         { @"https://www.wowhead.com/mop-classic/skill=773/inscription#recipes;100", "Inscription" },
         { @"https://www.wowhead.com/mop-classic/skill=171/alchemy#recipes", "Alchemy" },
         { @"https://www.wowhead.com/mop-classic/skill=171/alchemy#recipes;50", "Alchemy" },
-        { @"https://www.wowhead.com/mop-classic/skill=171/alchemy#recipes;100", "Alchemy" }
+        { @"https://www.wowhead.com/mop-classic/skill=171/alchemy#recipes;100", "Alchemy" },
+        { @"https://www.wowhead.com/mop-classic/skill=755/jewelcrafting", "Jewelcrafting" },
+        { @"https://www.wowhead.com/mop-classic/skill=755/jewelcrafting#recipes;50", "Jewelcrafting" },
+        { @"https://www.wowhead.com/mop-classic/skill=755/jewelcrafting#recipes;100", "Jewelcrafting" },
+        { @"https://www.wowhead.com/mop-classic/skill=755/jewelcrafting#recipes;150", "Jewelcrafting" },
+        { @"https://www.wowhead.com/mop-classic/skill=755/jewelcrafting#recipes;200", "Jewelcrafting" },
+        { @"https://www.wowhead.com/mop-classic/skill=755/jewelcrafting#recipes;250", "Jewelcrafting" },
+        { @"https://www.wowhead.com/mop-classic/skill=755/jewelcrafting#recipes;300", "Jewelcrafting" }
     };
     private int minSkillLevel = 501;
 

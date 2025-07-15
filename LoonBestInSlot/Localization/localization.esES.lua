@@ -53,8 +53,10 @@ if GetLocale() == "esES" then
   LBIS.L["Commander Durand"] = "Comandante Durand";
   LBIS.L["Commander Ri'mok"] = "Comandante Ri'mok";
   LBIS.L["Commander Vo'jak"] = "Comandante Vo'jak";
+--  LBIS.L["Crane Deck"] = "";
   LBIS.L["Custom"] = "Personalizado";
   LBIS.L["Darkmaster Gandling"] = "Maestro oscuro Gandling";
+  LBIS.L["Darkmoon Faire"] = "Feria de la Luna Negra";
   LBIS.L["Demonology"] = "Demonología";
 --  LBIS.L["Deselect"] = "";
   LBIS.L["Destruction"] = "Destrucción";
@@ -166,6 +168,7 @@ if GetLocale() == "esES" then
   LBIS.L["Ook-Ook"] = "Ook-Ook";
 --  LBIS.L["Open Browser Window"] = "";
 --  LBIS.L["Open Settings"] = "";
+--  LBIS.L["Ox Deck"] = "";
   LBIS.L["Phase 1"] = "Fase 1";
   LBIS.L["Phase 2"] = "Fase 2";
   LBIS.L["Phase 3"] = "Fase 3";
@@ -191,6 +194,7 @@ if GetLocale() == "esES" then
   LBIS.L["Ring"] = "Anillo";
   LBIS.L["Saboteur Kip'tilak"] = "Saboteador Kip'tilak";
   LBIS.L["Select"] = "Seleccionar";
+--  LBIS.L["Serpent Deck"] = "";
   LBIS.L["Settings"] = "Configuración";
   LBIS.L["Sha of Doubt"] = "Sha de la duda";
 --  LBIS.L["Sha of Fear (H)"] = "Sha del miedo";
@@ -236,6 +240,7 @@ if GetLocale() == "esES" then
 --  LBIS.L["The Stone Guard (N)"] = "Guardia de piedra";
   LBIS.L["Throne of Thunder"] = "Solio del Trueno";
 --  LBIS.L["Tier Token"] = "";
+--  LBIS.L["Tiger Deck"] = "";
   LBIS.L["Token"] = "Ficha";
   LBIS.L["Transmute"] = "Transmutar";
   LBIS.L["Trial of the King"] = "Prueba del Rey";

@@ -6,7 +6,7 @@ using PuppeteerSharp;
 namespace AddonManager;
 public static class Common
 {
-    public static async Task LoadFromWebPages(IEnumerable<string> pageAddresses, Action<string, IHtmlDocument> func, Action<string> writeToLog, CancellationToken? cancelToken = null)    
+    public static async Task LoadFromWebPages(IEnumerable<string> pageAddresses, Action<string, IHtmlDocument> func, Action<string> writeToLog, CancellationToken? cancelToken = null, bool blockRedirects = false)
     {
         IHtmlDocument? content;
 
@@ -21,7 +21,7 @@ public static class Common
             int count = 0;
             foreach (var pageAddress in pageAddresses)
             {
-                content = await RetryPageLoad(browser, pageAddress, writeToLog, cancelToken, ++count, total);
+                content = await RetryPageLoad(browser, pageAddress, writeToLog, cancelToken, ++count, total, blockRedirects);
 
                 if (content != null)
                     func(pageAddress, content);      
@@ -29,7 +29,7 @@ public static class Common
         }
     }
 
-    public static async Task LoadFromWebPages(IEnumerable<string> pageAddresses, Func<string, IHtmlDocument, Task> func, Action<string> writeToLog, CancellationToken? cancelToken = null)    
+    public static async Task LoadFromWebPages(IEnumerable<string> pageAddresses, Func<string, IHtmlDocument, Task> func, Action<string> writeToLog, CancellationToken? cancelToken = null, bool blockRedirects = false)
     {        
         IHtmlDocument? content;
 
@@ -44,7 +44,7 @@ public static class Common
             int count = 0;
             foreach (var pageAddress in pageAddresses)
             {
-                content = await RetryPageLoad(browser, pageAddress, writeToLog, cancelToken, ++count, total);
+                content = await RetryPageLoad(browser, pageAddress, writeToLog, cancelToken, ++count, total, blockRedirects);
 
                 if (content != null)
                     await func(pageAddress, content);
@@ -52,7 +52,7 @@ public static class Common
         }
     }
 
-    internal static async Task<IHtmlDocument?> LoadFromWebPage(string pageAddress, Action<string> writeToLog, CancellationToken? cancelToken = null)
+    internal static async Task<IHtmlDocument?> LoadFromWebPage(string pageAddress, Action<string> writeToLog, CancellationToken? cancelToken = null, bool blockRedirects = false)
     {
         await new BrowserFetcher().DownloadAsync();
         using (var browser = await Puppeteer.LaunchAsync(new LaunchOptions
@@ -61,11 +61,11 @@ public static class Common
             IgnoreHTTPSErrors = true,   
         }))
         {
-            return await RetryPageLoad(browser, pageAddress, writeToLog, cancelToken, 1, 1);
+            return await RetryPageLoad(browser, pageAddress, writeToLog, cancelToken, 1, 1, blockRedirects);
         }
     }
 
-    private static async Task<IHtmlDocument?> RetryPageLoad(IBrowser browser, string pageAddress, Action<string> writeToLog, CancellationToken? cancelToken, int count, int total)
+    private static async Task<IHtmlDocument?> RetryPageLoad(IBrowser browser, string pageAddress, Action<string> writeToLog, CancellationToken? cancelToken, int count, int total, bool blockRedirects)
     {
         for (var i = 0; i < 3; i++)
         {
@@ -79,21 +79,24 @@ public static class Common
             {
                 try 
                 {
-                    await page.SetRequestInterceptionAsync(true);
-                    page.Request += async (sender, e) =>
+                    if (blockRedirects)
                     {
-                        var request = e.Request;
-                        if (request.IsNavigationRequest && request.RedirectChain.Length > 0)
+                        await page.SetRequestInterceptionAsync(true);
+                        page.Request += async (sender, e) =>
                         {
-                            // Abort the redirect request
-                            await request.AbortAsync(); 
-                        }
-                        else
-                        {
-                            // Continue with the request if it's not a redirect or not a navigation request
-                            await request.ContinueAsync(); 
-                        }
-                    };
+                            var request = e.Request;
+                            if (request.IsNavigationRequest && request.RedirectChain.Length > 0)
+                            {
+                                // Abort the redirect request
+                                await request.AbortAsync(); 
+                            }
+                            else
+                            {
+                                // Continue with the request if it's not a redirect or not a navigation request
+                                await request.ContinueAsync(); 
+                            }
+                        };
+                    }
                     page.DefaultTimeout = 30000; // or you can set this as 0
 
                     await page.GoToAsync(pageAddress);
@@ -111,9 +114,9 @@ public static class Common
 
                     return doc;
                 }
-                catch
+                catch (Exception ex)
                 {
-                    writeToLog($"Failed to read from {pageAddress} {count}/{total} ({i+1}/3)");
+                    writeToLog($"Failed to read from {pageAddress} {count}/{total} ({i+1}/3) : {ex.Message}");
                 }
             }
         }
