@@ -384,7 +384,7 @@ local function LoadData()
     LBIS:AddItem(spec5, "17103", LBIS.L["Main Hand"], "Alt") --Azuresong Mageblade
     LBIS:AddItem(spec5, "21597", LBIS.L["Off Hand"], "BIS") --Royal Scepter of Vek'lor
     LBIS:AddItem(spec5, "19310", LBIS.L["Off Hand"], "BIS") --Tome of the Ice Lord
-    LBIS:AddItem(spec5, "11904", LBIS.L["Off Hand/Ranged/Relic"], "BIS") --Spirit of Aquementas
+    LBIS:AddItem(spec5, "11904", LBIS.L["Off Hand"], "BIS") --Spirit of Aquementas
     LBIS:AddItem(spec5, "21603", LBIS.L["Ranged/Relic"], "BIS") --Wand of Qiraji Nobility
     LBIS:AddItem(spec5, "19130", LBIS.L["Ranged/Relic"], "BIS") --Cold Snap
 end

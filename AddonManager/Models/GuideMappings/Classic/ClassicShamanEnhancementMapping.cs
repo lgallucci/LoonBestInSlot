@@ -94,7 +94,7 @@ internal class ClassicShamanEnhancementMapping : ClassicSpecMapping
     public override List<(string, GuideMapping)> Phase5 => new List<(string, GuideMapping)>
         {
             { ("Head", "#head-for-enhancement-shaman-dps") },
-            { ("Shoulder", "#shoulder-for-enhancement-shaman-dps") },
+            { ("Shoulder", "#shoulders-for-enhancement-shaman-dps") },
             { ("Back", "#back-for-enhancement-shaman-dps") },
             { ("Chest", "#chest-for-enhancement-shaman-dps") },
             { ("Wrist", "#wrist-for-enhancement-shaman-dps") },
@@ -105,9 +105,10 @@ internal class ClassicShamanEnhancementMapping : ClassicSpecMapping
             { ("Neck", "#neck-for-enhancement-shaman-dps") },
             { ("Ring", "#rings-for-enhancement-shaman-dps") },
             { ("Trinket", "#trinkets-for-enhancement-shaman-dps") },
-            { ("Main Hand", "#one-handed-for-enhancement-shaman-dps") },
-            { ("Two Hand", "#two-handed-for-enhancement-shaman-dps") },
-            { ("Ranged/Relic", "#relics-for-enhancement-shaman-dps") }
+            { ("Main Hand", "#one-hand-duel-wield-weapons-for-enhancement-shaman-dps") },
+            { ("Off Hand", "#shield-offhand-for-enhancement-shaman-dps") },
+            { ("Two Hand", "#two-hand-weapons-for-enhancement-shaman-dps") },
+            { ("Ranged/Relic", "#totems-for-enhancement-shaman-dps") }
 
         };
 
