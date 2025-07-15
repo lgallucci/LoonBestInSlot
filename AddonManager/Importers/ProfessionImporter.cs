@@ -9,12 +9,35 @@ public class ProfessionImporter : LootImporter
     private Dictionary<string, string> professionUriList = new Dictionary<string, string>
     {
         { @"https://www.wowhead.com/mop-classic/skill=202/engineering#recipes", "Engineering" },
+        { @"https://www.wowhead.com/mop-classic/skill=202/engineering#recipes;50", "Engineering" },
+        { @"https://www.wowhead.com/mop-classic/skill=202/engineering#recipes;100", "Engineering" },
         { @"https://www.wowhead.com/mop-classic/skill=165/leatherworking#recipes", "Leatherworking" },
+        { @"https://www.wowhead.com/mop-classic/skill=165/leatherworking#recipes;50", "Leatherworking" },
+        { @"https://www.wowhead.com/mop-classic/skill=165/leatherworking#recipes;100", "Leatherworking" },
+        { @"https://www.wowhead.com/mop-classic/skill=165/leatherworking#recipes;150", "Leatherworking" },
+        { @"https://www.wowhead.com/mop-classic/skill=165/leatherworking#recipes;200", "Leatherworking" },
+        { @"https://www.wowhead.com/mop-classic/skill=165/leatherworking#recipes;250", "Leatherworking" },
+        { @"https://www.wowhead.com/mop-classic/skill=165/leatherworking#recipes;300", "Leatherworking" },
+        { @"https://www.wowhead.com/mop-classic/skill=165/leatherworking#recipes;350", "Leatherworking" },
         { @"https://www.wowhead.com/mop-classic/skill=197/tailoring#recipes", "Tailoring" },
+        { @"https://www.wowhead.com/mop-classic/skill=197/tailoring#recipes;50", "Tailoring" },
+        { @"https://www.wowhead.com/mop-classic/skill=197/tailoring#recipes;100", "Tailoring" },
+        { @"https://www.wowhead.com/mop-classic/skill=197/tailoring#recipes;150", "Tailoring" },
+        { @"https://www.wowhead.com/mop-classic/skill=197/tailoring#recipes;200", "Tailoring" },
         { @"https://www.wowhead.com/mop-classic/skill=164/blacksmithing#recipes", "Blacksmithing" },
+        { @"https://www.wowhead.com/mop-classic/skill=164/blacksmithing#recipes;50", "Blacksmithing" },
+        { @"https://www.wowhead.com/mop-classic/skill=164/blacksmithing#recipes;100", "Blacksmithing" },
+        { @"https://www.wowhead.com/mop-classic/skill=164/blacksmithing#recipes;150", "Blacksmithing" },
+        { @"https://www.wowhead.com/mop-classic/skill=164/blacksmithing#recipes;200", "Blacksmithing" },
+        { @"https://www.wowhead.com/mop-classic/skill=164/blacksmithing#recipes;250", "Blacksmithing" },
         { @"https://www.wowhead.com/mop-classic/skill=773/inscription#recipes", "Inscription"},
+        { @"https://www.wowhead.com/mop-classic/skill=773/inscription#recipes;50", "Inscription" },
+        { @"https://www.wowhead.com/mop-classic/skill=773/inscription#recipes;100", "Inscription" },
+        { @"https://www.wowhead.com/mop-classic/skill=171/alchemy#recipes", "Alchemy" },
+        { @"https://www.wowhead.com/mop-classic/skill=171/alchemy#recipes;50", "Alchemy" },
+        { @"https://www.wowhead.com/mop-classic/skill=171/alchemy#recipes;100", "Alchemy" }
     };
-    private int minSkillLevel = 451;
+    private int minSkillLevel = 501;
 
     public ProfessionImporter(CancellationToken cancellationToken) : base(cancellationToken)
     {
@@ -37,8 +60,10 @@ public class ProfessionImporter : LootImporter
 
                 var skillSplit = element.Children[4].TextContent.Split('(', ')');
                 var skillRequired = skillSplit.Length > 1 ? skillSplit[1] : "0";
+                if (skillRequired == "??")
+                    skillRequired = "505";
                 if (int.Parse(skillRequired) < minSkillLevel)
-                    continue;
+                        continue;
 
                 //recursively find all anchors
                 FindAllAnchors(element.Children[0], (anchor) => {
