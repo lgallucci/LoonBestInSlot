@@ -21,7 +21,7 @@ public class WowheadGuideParser
     private static readonly int[] _excludedItemIds = { 77544, 89783, 89230, 92522, 95559, 93220, 93215, 93224, 79323, 84196,
                                                        83787, 83788, 89797, 89800, 97131, 89798, 85262, 89307, 89305, 89306,
                                                        87781, 87783, 87782, 89797, 72104, 79324, 86369, 86368, 77545, 79325,
-                                                       87218, 87220, 86565, 89799, 77542, 77543 };
+                                                       87218, 87220, 86565, 89799, 77542, 77543, 82445 };
 
     private static readonly string[] _itemLists = {
         "#rare-mobs",
@@ -442,11 +442,6 @@ public class WowheadGuideParser
                         isSlot = true;
                     }
                     else if (tableRow.ChildNodes[0].TextContent.Contains("Reputation")) { }
-                    else if (tableRow.ChildNodes[0].TextContent.Contains("Set Count") || 
-                             tableRow.ChildNodes[0].TextContent.Contains("2 Piece") ||
-                             tableRow.ChildNodes[0].TextContent.Contains("4 Piece")) { 
-                        continue;
-                    }
                     else
                     {
                         return; // Skip if not correct type of table.

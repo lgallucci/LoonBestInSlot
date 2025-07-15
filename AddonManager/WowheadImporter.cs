@@ -29,6 +29,7 @@ public class SlotSwaps
         { "Two Hand", "Main Hand" },
         { "Ranged/Relic", "Ranged/Relic" },
         { "Helm", "Head" },
+        { "Helmet", "Head" },
         { "Boots", "Feet" },
         { "Rings", "Ring" },
         { "Belt", "Waist" },
@@ -108,7 +109,8 @@ public class SlotSwaps
         { "Main Hand alternative", "Main Hand" },
         { "Main & Off hand", "Main Hand~Off Hand"},
         { "Main & Off Hand", "Main Hand~Off Hand" },
-        { "Main & Off Hand alternative", "Main Hand~Off Hand" }
+        { "Main & Off Hand alternative", "Main Hand~Off Hand" },
+        { "Two-hand", "Main Hand" },
     };
     // Setting up indexers
     public string this[string i]
@@ -454,6 +456,8 @@ public static class WowheadImporter
                     itemQuality = 3;
                 else if (quality?.Contains("q4") ?? false)
                     itemQuality = 4;
+                else if (quality?.Contains("q5") ?? false)
+                    itemQuality = 5;
 
                 gemSpec = new GemSpec
                 {
