@@ -2,7 +2,7 @@
 
 if not AL then return end
 
--- These localization strings are translated on Curseforge: https://www.curseforge.com/wow/addons/atlaslootclassic/localization
+-- These localization strings are translated on Curseforge: https://www.curseforge.com/wow/addons/atlaslootclassic-cata/localization
 AL["--- or ---"] = "--- o ---"
 AL["%s will finish loading after combat."] = "%s terminará cargando después de combate."
 AL["(%d) Set:"] = "(%d) Conjunto:"
@@ -47,8 +47,7 @@ AL["Add sound into chat"] = "Añade sonido al chat"
 AL["Alt + Left Click"] = "Alt + Clic Izquierdo"
 --[[Translation missing --]]
 --[[ AL["Alt + Right Click"] = "Alt + Right Click"--]] 
---[[Translation missing --]]
---[[ AL["Anub'Rekhan"] = "Anub'Rekhan"--]] 
+AL["Anub'Rekhan"] = "Anub'Rekhan"
 AL["AQ opening"] = "Apertura de AQ"
 --[[Translation missing --]]
 --[[ AL["Arena"] = "Arena"--]] 
@@ -57,6 +56,8 @@ AL["Atlas map"] = "Mapa de Atlas"
 AL["AtlasLoot"] = "AtlasLoot"
 AL["AtlasLoot Modules"] = "Módulos de AtlasLoot"
 AL["Balzaphon"] = "Balzaphon"
+--[[Translation missing --]]
+--[[ AL["Bloodthirsty %s"] = "Bloodthirsty %s"--]] 
 AL["Bonus"] = "Bonus"
 AL["Bought with..."] = "Comprado con..."
 AL["Bow"] = "Arco"
@@ -64,6 +65,12 @@ AL["Bow"] = "Arco"
 --[[ AL["Brutal %s"] = "Brutal %s"--]] 
 --[[Translation missing --]]
 --[[ AL["Cancel"] = "Cancel"--]] 
+--[[Translation missing --]]
+--[[ AL["Cataclysmic %s"] = "Cataclysmic %s"--]] 
+--[[Translation missing --]]
+--[[ AL["Cataclysmic (Elite) %s"] = "Cataclysmic (Elite) %s"--]] 
+--[[Translation missing --]]
+--[[ AL["Celestial"] = "Celestial"--]] 
 --[[Translation missing --]]
 --[[ AL["Change item note"] = "Change item note"--]] 
 AL["Chat Link"] = "Enlace de Chat"
@@ -92,8 +99,7 @@ AL["Dagger"] = "Daga"
 AL["Dress up"] = "Probar"
 AL["Droprate:"] = "Prob. de conseguirse: "
 AL["Dungeons and Raids"] = "Mazmorras y Bandas"
---[[Translation missing --]]
---[[ AL["Enhancements"] = "Enhancements"--]] 
+AL["Enhancements"] = "Mejoras"
 --[[Translation missing --]]
 --[[ AL["Enter a note for %s"] = "Enter a note for %s"--]] 
 AL["Factions"] = "Facciones"
@@ -101,18 +107,16 @@ AL["Favourites"] = "Favoritos"
 AL["Fishing Pole"] = "Caña de pescar"
 AL["Fist Weapon"] = "Arma de puño"
 --[[Translation missing --]]
+--[[ AL["Flexible"] = "Flexible"--]] 
+--[[Translation missing --]]
 --[[ AL["Furious %s"] = "Furious %s"--]] 
 AL["Global base list"] = "Lista basado en Mundial"
 AL["Global lists"] = "Listas Mundiales"
---[[Translation missing --]]
---[[ AL["Gluth"] = "Gluth"--]] 
+AL["Gluth"] = "Gluth"
 AL["gold"] = "Oro"
---[[Translation missing --]]
---[[ AL["Gothik the Harvester"] = "Gothik the Harvester"--]] 
---[[Translation missing --]]
---[[ AL["Grand Widow Faerlina"] = "Grand Widow Faerlina"--]] 
---[[Translation missing --]]
---[[ AL["Grobbulus"] = "Grobbulus"--]] 
+AL["Gothik the Harvester"] = "Gothik el Cosechador"
+AL["Grand Widow Faerlina"] = "Gran Viuda Faerlina"
+AL["Grobbulus"] = "Grobbulus"
 AL["Gun"] = "Arma de fuego"
 --[[Translation missing --]]
 --[[ AL["H"] = "H"--]] 
@@ -120,13 +124,14 @@ AL["Gun"] = "Arma de fuego"
 --[[ AL["Hateful %s"] = "Hateful %s"--]] 
 --[[Translation missing --]]
 --[[ AL["Headless Horseman"] = "Headless Horseman"--]] 
---[[Translation missing --]]
---[[ AL["Heigan the Unclean"] = "Heigan the Unclean"--]] 
+AL["Heigan the Unclean"] = "Heigan el Impuro"
 --[[Translation missing --]]
 --[[ AL["Heirloom"] = "Heirloom"--]] 
 --[[Translation missing --]]
 --[[ AL["Heroes' %s"] = "Heroes' %s"--]] 
 AL["Heroic"] = "Heroico"
+--[[Translation missing --]]
+--[[ AL["Heroic %s"] = "Heroic %s"--]] 
 --[[Translation missing --]]
 --[[ AL["Heroic Sanctified %s"] = "Heroic Sanctified %s"--]] 
 AL["Honor Hold"] = "Bastión del Honor"
@@ -134,15 +139,12 @@ AL["Honor Hold"] = "Bastión del Honor"
 --[[ AL["Horde Expedition"] = "Horde Expedition"--]] 
 --[[Translation missing --]]
 --[[ AL["Import done!"] = "Import done!"--]] 
---[[Translation missing --]]
---[[ AL["Instructor Razuvious"] = "Instructor Razuvious"--]] 
---[[Translation missing --]]
---[[ AL["Item level:"] = "Item level:"--]] 
+AL["Instructor Razuvious"] = "Instructor Razuvious"
+AL["Item level:"] = "Nivel de objeto:"
 --[[Translation missing --]]
 --[[ AL["ItemID:"] = "ItemID:"--]] 
 AL["Items"] = "Objetos"
---[[Translation missing --]]
---[[ AL["Kel'Thuzad"] = "Kel'Thuzad"--]] 
+AL["Kel'Thuzad"] = "Kel'Thuzad"
 AL["Key"] = "Llave"
 AL["Keys"] = "Llaves"
 AL["Kurenai"] = "Kurenai"
@@ -155,10 +157,8 @@ AL["Lists"] = "Listas"
 --[[Translation missing --]]
 --[[ AL["Loatheb"] = "Loatheb"--]] 
 AL["Loot"] = "Botín"
---[[Translation missing --]]
---[[ AL["Lord Blackwood"] = "Lord Blackwood"--]] 
---[[Translation missing --]]
---[[ AL["Maexxna"] = "Maexxna"--]] 
+AL["Lord Blackwood"] = "Lord Bosque Negro"
+AL["Maexxna"] = "Maexxna"
 AL["Main"] = "Principal"
 --[[Translation missing --]]
 --[[ AL["Malformed link"] = "Malformed link"--]] 
@@ -172,19 +172,19 @@ AL["Module %s is not installed."] = "Módulo %s no es instalado."
 AL["New version available!"] = "¡Nueva versión disponible!"
 AL["No module found."] = "No se encuentra módulo."
 AL["Normal"] = "Normal"
---[[Translation missing --]]
---[[ AL["Noth the Plaguebringer"] = "Noth the Plaguebringer"--]] 
+AL["Noth the Plaguebringer"] = "Noth el Pesteador"
 AL["One-Hand, Axe"] = "Una mano, Hacha"
 AL["One-Hand, Mace"] = "Una mano, Maza"
 AL["One-Hand, Sword"] = "Una mano, Espada"
 --[[Translation missing --]]
 --[[ AL["Onyxia"] = "Onyxia"--]] 
-AL["Open AtlasLoot"] = "Abre AtlasLoot"
-AL["Open AtlasLoot without auto select"] = "Abre AtlasLoot sin selección automática."
-AL["Open Favourites"] = "Abre favoritos"
-AL["Open Options"] = "Opciones de Abrir"
+AL["Open AtlasLoot"] = "Abrir AtlasLoot"
+AL["Open AtlasLoot without auto select"] = "Abrir AtlasLoot sin selección automática."
+AL["Open Favourites"] = "Abrir favoritos"
+AL["Open Options"] = "Opciones de apertura"
+AL["Patchwerk"] = "Remendejo"
 --[[Translation missing --]]
---[[ AL["Patchwerk"] = "Patchwerk"--]] 
+--[[ AL["Patterns"] = "Patterns"--]] 
 AL["Plans"] = "Diseños"
 AL["Polearm"] = "Arma de asta"
 --[[Translation missing --]]
@@ -202,25 +202,28 @@ AL["Regen"] = "Regeneración"
 --[[Translation missing --]]
 --[[ AL["Relentless %s"] = "Relentless %s"--]] 
 AL["Remove item from list"] = "Quitar objeto de la lista"
+--[[Translation missing --]]
+--[[ AL["Removed"] = "Removed"--]] 
 AL["Reputation"] = "Reputación"
 --[[Translation missing --]]
 --[[ AL["Requesting favorite list from %s ..."] = "Requesting favorite list from %s ..."--]] 
 AL["Required module %s is currently disabled."] = "Módulo requerido %s es desactivado."
 AL["Required module %s is not installed."] = "Módulo requerido %s no es instalado."
---[[Translation missing --]]
---[[ AL["Revanchion"] = "Revanchion"--]] 
+AL["Revanchion"] = "Revanchion"
 AL["Right Click"] = "Clic Derecho"
 AL["Right-click to close Atlas window."] = "Clic Derecho para cerrar la ventana de Atlas."
 --[[Translation missing --]]
---[[ AL["Sanctified %s"] = "Sanctified %s"--]] 
+--[[ AL["Ruthless %s"] = "Ruthless %s"--]] 
 --[[Translation missing --]]
---[[ AL["Sapphiron"] = "Sapphiron"--]] 
+--[[ AL["Ruthless (Elite) %s"] = "Ruthless (Elite) %s"--]] 
+--[[Translation missing --]]
+--[[ AL["Sanctified %s"] = "Sanctified %s"--]] 
+AL["Sapphiron"] = "Sapphiron"
 --[[Translation missing --]]
 --[[ AL["Savage %s"] = "Savage %s"--]] 
 --[[Translation missing --]]
 --[[ AL["Save"] = "Save"--]] 
---[[Translation missing --]]
---[[ AL["Scorn"] = "Scorn"--]] 
+AL["Scorn"] = "Desdén"
 AL["Select Module"] = "Seleccionar módulo"
 AL["Select Subcategory"] = "Seleccionar subcategoría"
 AL["Set Favourite"] = "Seleccionar favorito"
@@ -230,8 +233,8 @@ AL["Sets"] = "Conjuntos"
 AL["Settings"] = "Configuración"
 AL["Sever"] = "Cercenador"
 AL["Shield"] = "Escudo"
-AL["Shift + Left Click"] = "Shift + Clic Izquierdo"
-AL["Shift + Right Click"] = "Shift + Clic Derecho"
+AL["Shift + Left Click"] = "Mayús + Clic Izquierdo"
+AL["Shift + Right Click"] = "Mayús + Clic Derecho"
 --[[Translation missing --]]
 --[[ AL["Show Achievements."] = "Show Achievements."--]] 
 AL["Show additional items."] = "Mostrar más objetos."
@@ -252,10 +255,8 @@ AL["Slash commands:"] = "Comandos Slash:"
 AL["Sounds"] = "Sonidos"
 AL["Special"] = "Especial"
 AL["Staff"] = "Bastón"
---[[Translation missing --]]
---[[ AL["Thaddius"] = "Thaddius"--]] 
---[[Translation missing --]]
---[[ AL["The Four Horsemen"] = "The Four Horsemen"--]] 
+AL["Thaddius"] = "Thaddius"
+AL["The Four Horsemen"] = "Los Cuatro Jinetes"
 AL["The Mag'har"] = "Los Mag'har"
 --[[Translation missing --]]
 --[[ AL["The Silver Covenant"] = "The Silver Covenant"--]] 
@@ -266,8 +267,7 @@ AL["Tier %s Sets"] = "Conjuntos de Tier %s"
 AL["Toggle AtlasLoot"] = "Alternar AtlasLoot"
 AL["Token for..."] = "Token para..."
 AL["Tranquillien"] = "Tranquillien"
---[[Translation missing --]]
---[[ AL["Trash Mobs"] = "Trash Mobs"--]] 
+AL["Trash Mobs"] = "Bichos"
 --[[Translation missing --]]
 --[[ AL["Triumphant %s"] = "Triumphant %s"--]] 
 AL["Two-Hand, Axe"] = "Dos manos, Hacha"
@@ -277,6 +277,10 @@ AL["Undress item"] = "Desvestir objeto"
 --[[Translation missing --]]
 --[[ AL["Valorous %s"] = "Valorous %s"--]] 
 AL["Vendor"] = "Vendedor"
+--[[Translation missing --]]
+--[[ AL["Vicious %s"] = "Vicious %s"--]] 
+--[[Translation missing --]]
+--[[ AL["Vicious (Elite) %s"] = "Vicious (Elite) %s"--]] 
 AL["Wand"] = "Varita"
 AL["Weapons"] = "Armas"
 AL["Wintersaber Trainers"] = "Entrenadores de Sableinvernales"

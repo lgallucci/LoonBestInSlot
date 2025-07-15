@@ -2,7 +2,7 @@
 
 if not AL then return end
 
--- These localization strings are translated on Curseforge: https://www.curseforge.com/wow/addons/atlaslootclassic/localization
+-- These localization strings are translated on Curseforge: https://www.curseforge.com/wow/addons/atlaslootclassic-cata/localization
 -- Collections
 AL["'%s %s' Vendor"] = "Vendedor de '%s %s'"
 AL["%s Sets"] = "Conjuntos de %s"
@@ -10,7 +10,11 @@ AL["'%s' Vendor"] = "'%s' Vendedor"
 AL["Abyssal Dukes"] = "Duques abisales"
 AL["Abyssal Lords"] = "Lords abisales"
 AL["Abyssal Templars"] = "Templarios abisales"
+--[[Translation missing --]]
+--[[ AL["Additional Armaments"] = "Additional Armaments"--]] 
 AL["Ahune"] = "Ahune"
+--[[Translation missing --]]
+--[[ AL["All Quests Done"] = "All Quests Done"--]] 
 --[[Translation missing --]]
 --[[ AL["Apothecary Hummel"] = "Apothecary Hummel"--]] 
 --[[Translation missing --]]
@@ -26,13 +30,20 @@ AL["Box of Chocolates"] = "Caja de bombones"
 AL["Brewfest"] = "Fiesta de la Cerveza"
 AL["Brightly Colored Egg"] = "Huevo de colores vivos"
 --[[Translation missing --]]
---[[ AL["Capitals"] = "Capitals"--]] 
+--[[ AL["Calling the Ancients"] = "Calling the Ancients"--]] 
+AL["Capitals"] = "Capitales"
 --[[Translation missing --]]
 --[[ AL["Card Game Tabards"] = "Card Game Tabards"--]] 
+--[[Translation missing --]]
+--[[ AL["Cata"] = "Cata"--]] 
+--[[Translation missing --]]
+--[[ AL["Cataclysm"] = "Cataclysm"--]] 
 AL["Childrens Week"] = "Semana de los Niños"
 AL["Crimson Templar"] = "Templario Carmesí"
 --[[Translation missing --]]
 --[[ AL["Day of the Dead"] = "Day of the Dead"--]] 
+--[[Translation missing --]]
+--[[ AL["Defiler's Scourgestone"] = "Defiler's Scourgestone"--]] 
 AL["Drops"] = "Despoja"
 AL["Dungeon Set %s"] = "Conjunto de mazmorra %s"
 AL["Dungeon Sets"] = "Conjuntos de mazmorra"
@@ -50,19 +61,31 @@ AL["Elemental Invasions"] = "Invasión elemental"
 --[[ AL["Emblem of Valor"] = "Emblem of Valor"--]] 
 AL["Equip"] = "Armadura"
 AL["Faction Mounts"] = "Monturas de facción"
+--[[Translation missing --]]
+--[[ AL["Favors of the World Tree"] = "Favors of the World Tree"--]] 
 AL["Feast of Winter Veil"] = "El festín del Festival de Invierno"
 AL["Festive Gift"] = "Obsequio festivo"
+--[[Translation missing --]]
+--[[ AL["Filling the Moonwell"] = "Filling the Moonwell"--]] 
 AL["First Prize"] = "Primer precio"
+--[[Translation missing --]]
+--[[ AL["Fissure Stone Fragment"] = "Fissure Stone Fragment"--]] 
 AL["Food"] = "Comida"
 AL["Gaily Wrapped Present"] = "Regalo con envoltorio alegre"
 AL["Gently Shaken Gift"] = "Regalo ligeramente agitado"
 AL["Gift of Adoration"] = "Ofrenda de adoración"
+--[[Translation missing --]]
+--[[ AL["Guild"] = "Guild"--]] 
 AL["Gurubashi Arena"] = "Arena Gurubashi"
 AL["Hallow's End"] = "Halloween"
 AL["Harvest Festival"] = "Festival de la Cosecha"
 AL["High Marshal Whirlaxis"] = "Alto mariscal Eje Torbellino"
 AL["Hoary Templar"] = "Templario vetusto"
 AL["Idols"] = "Ídolos"
+--[[Translation missing --]]
+--[[ AL["Justice Points"] = "Justice Points"--]] 
+--[[Translation missing --]]
+--[[ AL["Legendaries"] = "Legendaries"--]] 
 AL["Legendarys"] = "Legendarios"
 AL["Librams"] = "Tratados"
 AL["Lord Skwol"] = "Lord Skwol"
@@ -72,8 +95,18 @@ AL["Lunar Festival"] = "Festival Lunar"
 AL["Lunar Festival Fireworks Pack"] = "Paquete de fuegos artificiales del Festival Lunar"
 AL["Masks"] = "Máscaras"
 AL["Midsummer Festival"] = "Festival de Fuego del Solsticio de Verano"
+--[[Translation missing --]]
+--[[ AL["Molten Front"] = "Molten Front"--]] 
 AL["Noblegarden"] = "Jardín Noble"
+--[[Translation missing --]]
+--[[ AL["Obsidian Fragment"] = "Obsidian Fragment"--]] 
 AL["One-Handed Weapons"] = "Armas de una mano"
+--[[Translation missing --]]
+--[[ AL["P1"] = "P1"--]] 
+--[[Translation missing --]]
+--[[ AL["P3"] = "P3"--]] 
+--[[Translation missing --]]
+--[[ AL["P4"] = "P4"--]] 
 --[[Translation missing --]]
 --[[ AL["Pilgrim's Bounty"] = "Pilgrim's Bounty"--]] 
 AL["Prince Skaldrenox"] = "Príncipe Skaldrenox"
@@ -85,9 +118,13 @@ AL["Scarlet Monastery - Graveyard"] = "Monasterio Escarlata - Cementerio"
 AL["Scourge Invasion"] = "Invasión de la Plaga"
 --[[Translation missing --]]
 --[[ AL["Sidereal Essence"] = "Sidereal Essence"--]] 
+--[[Translation missing --]]
+--[[ AL["Sidereal Essence: 1 for 1"] = "Sidereal Essence: 1 for 1"--]] 
 AL["Silithus Abyssal"] = "Abisal Silithus"
 AL["Smokywood Pastures"] = "Pastos de Bosquehumeante"
 AL["Smokywood Pastures Special Gift"] = "Obsequio especial de Pastos de Bosquehumeante"
+--[[Translation missing --]]
+--[[ AL["Stolen Present"] = "Stolen Present"--]] 
 AL["Stranglethorn Fishing Extravaganza"] = "Gran espectáculo de pesca de Tuercespina"
 AL["Sunmote"] = "Mota de sol"
 AL["The Duke of Cynders"] = "Duque de las Brasas"
@@ -103,6 +140,8 @@ AL["Two-Handed Weapons"] = "Armas de dos manos"
 AL["Unobtainable"] = "Inobtenible"
 --[[Translation missing --]]
 --[[ AL["Unobtainable Tabards"] = "Unobtainable Tabards"--]] 
+--[[Translation missing --]]
+--[[ AL["Valor Points"] = "Valor Points"--]] 
 AL["Wands"] = "Varitas"
 AL["World Epics"] = "Épicos del Mundo"
 AL["World Events"] = "Eventos del Mundo"

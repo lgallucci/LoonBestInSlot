@@ -16,7 +16,7 @@ public static class Constants
         {
             if (Environment.OSVersion.Platform == PlatformID.Win32NT)
             {
-                return @$"C:\GIT\LoonBestInSlot\LoonBestInSlot";
+                return @$"C:\GIT\LoonBestInSlot\LoonBestInSlot\";
             }
             else
             {
@@ -31,7 +31,7 @@ public static class Constants
         {
             if (Environment.OSVersion.Platform == PlatformID.Win32NT)
             {
-                return @$"C:\GIT\LoonBestInSlot\AddonManager\ItemDatabase";
+                return @$"C:\GIT\LoonBestInSlot\AddonManager\ItemDatabase\";
             }
             else
             {
@@ -46,7 +46,7 @@ public static class Constants
         {
             if (Environment.OSVersion.Platform == PlatformID.Win32NT)
             {
-                return @$"C:\GIT\LoonBestInSlot\AddonManager\LocalizationCreator";
+                return @$"C:\GIT\LoonBestInSlot\AddonManager\LocalizationCreator\";
             }
             else
             {

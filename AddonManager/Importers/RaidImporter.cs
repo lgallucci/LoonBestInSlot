@@ -50,18 +50,18 @@ public class RaidImporter : LootImporter
         { @"https://www.wowhead.com/mop-classic/npc=62837/grand-empress-shekzeer#drops;mode:h25", "Grand Empress Shek'zeer (H), Heart of Fear" },
 
         //Terrace of Endless Spring
-        { @"https://www.wowhead.com/mop-classic/npc=60583/protector-kaolan#drops;mode:lfr", "Protector Kaolan (LFR), Heart of Fear" },
-        { @"https://www.wowhead.com/mop-classic/npc=60583/protector-kaolan#drops;mode:n25", "Protector Kaolan (N), Heart of Fear" },
-        { @"https://www.wowhead.com/mop-classic/npc=60583/protector-kaolan#drops;mode:h25", "Protector Kaolan (H), Heart of Fear" },
-        { @"https://www.wowhead.com/mop-classic/npc=62442/tsulong#drops;mode:lfr", "Tsulong (LFR), Heart of Fear" },
-        { @"https://www.wowhead.com/mop-classic/npc=62442/tsulong#drops;mode:n25", "Tsulong (N), Heart of Fear" },
-        { @"https://www.wowhead.com/mop-classic/npc=62442/tsulong#drops;mode:h25", "Tsulong (H), Heart of Fear" },
-        { @"https://www.wowhead.com/mop-classic/npc=62983/lei-shi#drops;mode:lfr", "Lei Shen (LFR), Heart of Fear" },
-        { @"https://www.wowhead.com/mop-classic/npc=62983/lei-shi#drops;mode:n25", "Lei Shen (N), Heart of Fear" },
-        { @"https://www.wowhead.com/mop-classic/npc=62983/lei-shi#drops;mode:h25", "Lei Shen (H), Heart of Fear" },
-        { @"https://www.wowhead.com/mop-classic/npc=60999/sha-of-fear#drops;mode:lfr", "Sha of Fear (LFR), Heart of Fear" },
-        { @"https://www.wowhead.com/mop-classic/npc=60999/sha-of-fear#drops;mode:n25", "Sha of Fear (N), Heart of Fear" },
-        { @"https://www.wowhead.com/mop-classic/npc=60999/sha-of-fear#drops;mode:h25", "Sha of Fear (H), Heart of Fear" },
+        { @"https://www.wowhead.com/mop-classic/npc=60583/protector-kaolan#drops;mode:lfr", "Protector Kaolan (LFR), Terrace of Endless Spring" },
+        { @"https://www.wowhead.com/mop-classic/npc=60583/protector-kaolan#drops;mode:n25", "Protector Kaolan (N), Terrace of Endless Spring" },
+        { @"https://www.wowhead.com/mop-classic/npc=60583/protector-kaolan#drops;mode:h25", "Protector Kaolan (H), Terrace of Endless Spring" },
+        { @"https://www.wowhead.com/mop-classic/npc=62442/tsulong#drops;mode:lfr", "Tsulong (LFR), Terrace of Endless Spring" },
+        { @"https://www.wowhead.com/mop-classic/npc=62442/tsulong#drops;mode:n25", "Tsulong (N), Terrace of Endless Spring" },
+        { @"https://www.wowhead.com/mop-classic/npc=62442/tsulong#drops;mode:h25", "Tsulong (H), Terrace of Endless Spring" },
+        { @"https://www.wowhead.com/mop-classic/npc=62983/lei-shi#drops;mode:lfr", "Lei Shen (LFR), Terrace of Endless Spring" },
+        { @"https://www.wowhead.com/mop-classic/npc=62983/lei-shi#drops;mode:n25", "Lei Shen (N), Terrace of Endless Spring" },
+        { @"https://www.wowhead.com/mop-classic/npc=62983/lei-shi#drops;mode:h25", "Lei Shen (H), Terrace of Endless Spring" },
+        { @"https://www.wowhead.com/mop-classic/npc=60999/sha-of-fear#drops;mode:lfr", "Sha of Fear (LFR), Terrace of Endless Spring" },
+        { @"https://www.wowhead.com/mop-classic/npc=60999/sha-of-fear#drops;mode:n25", "Sha of Fear (N), Terrace of Endless Spring" },
+        { @"https://www.wowhead.com/mop-classic/npc=60999/sha-of-fear#drops;mode:h25", "Sha of Fear (H), Terrace of Endless Spring" },
     };
 
     private Dictionary<string, string> wowheadContainsUriList = new Dictionary<string, string>
