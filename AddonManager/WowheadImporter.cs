@@ -1009,10 +1009,9 @@ public static class WowheadImporter
                     gemSources[itemId].SourceLocation = AddLocalizeText(dropElements[0].Children[2].TextContent.Trim());
                 }
             }, writeToLog, cancelToken);
-        }
-        catch
+        } catch (Exception ex)
         {
-            writeToLog("Error !");
+            writeToLog($"Error ! {ex.Message}");
         }
 
         ItemSourceFileManager.WriteGemSources(gemSources);

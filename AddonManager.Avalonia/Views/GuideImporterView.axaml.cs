@@ -96,9 +96,9 @@ public partial class GuideImporterView : UserControl
     {
         ConsoleOut.Text = string.Empty;
 
-        //await RefreshAllGemSources();
+        await RefreshAllGemSources();
         await RefreshAllEnchantSources();
-        //await RefreshAllItemSources();
+        await RefreshAllItemSources();
 
         ConsoleOut.Text = $"Refresh All Complete!" + Environment.NewLine + ConsoleOut.Text;
     }
@@ -127,6 +127,5 @@ public partial class GuideImporterView : UserControl
         await WowheadImporter.UpdateItemsFromWowhead(_importCancelToken.Token, (s) => { ConsoleOut.Text = s + Environment.NewLine + ConsoleOut.Text; });
 
         WowheadImporter.RefreshItems();
-
     }
 }

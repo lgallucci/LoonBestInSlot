@@ -8,7 +8,12 @@ public class ReputationImporter : LootImporter
 {
     private Dictionary<string, string> wowheadUriList = new Dictionary<string, string>
     {
-        { @"https://www.wowhead.com/mop-classic/npc=64599/ambersmith-zikk", "The Klaxxi, B" },
+        { @"https://www.wowhead.com/npc=64599/ambersmith-zikk#sells", "The Klaxxi, B" },
+        { @"https://www.wowhead.com/npc=64599/ambersmith-zikk#sells;50", "The Klaxxi, B" },
+        { @"https://www.wowhead.com/npc=64032/sage-whiteheart#sells", "The August Celestials, B" },
+        { @"https://www.wowhead.com/npc=59908/jaluu-the-generous#sells", "The Golden Lotus, B" },
+        { @"https://www.wowhead.com/npc=59908/jaluu-the-generous#sells;50", "The Golden Lotus, B" },
+        { @"https://www.wowhead.com/npc=64595/rushi-the-fox#sells", "Shado-Pan, B" }
     };
 
     public ReputationImporter(CancellationToken cancellationToken) : base(cancellationToken)
@@ -41,7 +46,7 @@ public class ReputationImporter : LootImporter
                     SourceFaction = sourceSplit[1].Trim()
                 });
             }
-        }, writeToLog, _importCancelToken);
+        }, writeToLog, _importCancelToken, true);
 
         return items;
     }

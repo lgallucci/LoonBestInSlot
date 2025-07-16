@@ -1,5 +1,1308 @@
 {
   "Items": {
-    
+    "84557": {
+      "Name": "Formula: Enchant Bracer - Greater Agility",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "84559": {
+      "Name": "Formula: Enchant Bracer - Super Intellect",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "84561": {
+      "Name": "Formula: Enchant Bracer - Exceptional Strength",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "84580": {
+      "Name": "Formula: Enchant Weapon - River's Song",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "84583": {
+      "Name": "Formula: Enchant Weapon - Jade Spirit",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "84584": {
+      "Name": "Formula: Enchant Weapon - Dancing Steel",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "86235": {
+      "Name": "Pattern: Angerhide Leg Armor",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "86237": {
+      "Name": "Pattern: Chestguard of Earthen Harmony",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "86273": {
+      "Name": "Pattern: Gloves of Earthen Harmony",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "86274": {
+      "Name": "Pattern: Greyshadow Chestguard",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "86275": {
+      "Name": "Pattern: Greyshadow Gloves",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "86276": {
+      "Name": "Pattern: Ironscale Leg Armor",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "86277": {
+      "Name": "Pattern: Lifekeeper's Gloves",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "86278": {
+      "Name": "Pattern: Lifekeeper's Robe",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "86295": {
+      "Name": "Pattern: Shadowleather Leg Armor",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "86308": {
+      "Name": "Pattern: Wildblood Gloves",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "86309": {
+      "Name": "Pattern: Wildblood Vest",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "86368": {
+      "Name": "Pattern: Spelltwister's Grand Robe",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "86369": {
+      "Name": "Pattern: Spelltwister's Gloves",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "86370": {
+      "Name": "Pattern: Robes of Creation",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "86371": {
+      "Name": "Pattern: Gloves of Creation",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "86375": {
+      "Name": "Pattern: Greater Pearlescent Spellthread",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "86376": {
+      "Name": "Pattern: Greater Cerulean Spellthread",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "86377": {
+      "Name": "Pattern: Royal Satchel",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "87781": {
+      "Name": "Reins of the Azure Riding Crane",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "87782": {
+      "Name": "Reins of the Golden Riding Crane",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "87783": {
+      "Name": "Reins of the Regal Riding Crane",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "88741": {
+      "Name": "Gloves of Red Feathers",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "88742": {
+      "Name": "Sunspeaker's Flared Gloves",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "88743": {
+      "Name": "Ogo's Elder Gloves",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "88744": {
+      "Name": "Fingers of the Loneliest Monk",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "88745": {
+      "Name": "Sentinel Commander's Gauntlets",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "88746": {
+      "Name": "Gloves of the Overwhelming Swarm",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "88747": {
+      "Name": "Streetfighter's Iron Knuckles",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "88748": {
+      "Name": "Ravenmane's Gloves",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "88749": {
+      "Name": "Gauntlets of Jade Sutras",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "88862": {
+      "Name": "Tankiss Warstompers",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "88864": {
+      "Name": "Yu'lon Guardian Boots",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "88865": {
+      "Name": "Bramblestaff Boots",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "88866": {
+      "Name": "Steps of the War Serpent",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "88867": {
+      "Name": "Sandals of the Elder Sage",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "88868": {
+      "Name": "Tukka-Tuk's Hairy Boots",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "88876": {
+      "Name": "Boots of the High Adept",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "88877": {
+      "Name": "Storm-Sing Sandals",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "88878": {
+      "Name": "Void Flame Slippers",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "88879": {
+      "Name": "Braided Black and White Bracer",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "88880": {
+      "Name": "Battle Shadow Bracers",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "88881": {
+      "Name": "Fallen Sentinel Bracers",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "88882": {
+      "Name": "Tiger-Striped Wristguards",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "88883": {
+      "Name": "Brewmaster Chani's Bracers",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "88884": {
+      "Name": "Quillpaw Family Bracers",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "88885": {
+      "Name": "Clever Ashyo's Armbands",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "88892": {
+      "Name": "Bracers of Inlaid Jade",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "88893": {
+      "Name": "Minh's Beaten Bracers",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "88995": {
+      "Name": "Shado-Pan Dragon Gun",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89069": {
+      "Name": "Ring of the Golden Stair",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89070": {
+      "Name": "Anji's Keepsake",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89071": {
+      "Name": "Alani's Inflexible Ring",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89072": {
+      "Name": "Simple Harmonious Ring",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89073": {
+      "Name": "Leven's Circle of Hope",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89074": {
+      "Name": "Cloak of the Dark Disciple",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89075": {
+      "Name": "Yi's Cloak of Courage",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89076": {
+      "Name": "Blackguard Cape",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89077": {
+      "Name": "Cloak of Snow Blossoms",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89078": {
+      "Name": "Sagewhisper's Wrap",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89079": {
+      "Name": "Lao-Chin's Liquid Courage",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89080": {
+      "Name": "Scroll of Revered Ancestors",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89081": {
+      "Name": "Blossom of Pure Snow",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89082": {
+      "Name": "Hawkmaster's Talon",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89083": {
+      "Name": "Iron Belly Wok",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89096": {
+      "Name": "Six Pool's Open Helm",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89124": {
+      "Name": "Celestial Offering",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "89216": {
+      "Name": "Yi's Least Favorite Helmet",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89232": {
+      "Name": "Mogu Rune of Paralysis",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89280": {
+      "Name": "Voice Amplyifying Greathelm",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89291": {
+      "Name": "Hawkmaster's Headguard",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89296": {
+      "Name": "Nightwatcher's Helm",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89300": {
+      "Name": "Red Smoke Bandana",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89301": {
+      "Name": "Stack of Wooden Boards",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "89302": {
+      "Name": "Stack of Bamboo",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "89303": {
+      "Name": "Stack of Stone Blocks",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "89304": {
+      "Name": "Reins of the Thundering August Cloud Serpent",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "89305": {
+      "Name": "Reins of the Green Shado-Pan Riding Tiger",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "89306": {
+      "Name": "Reins of the Red Shado-Pan Riding Tiger",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "89307": {
+      "Name": "Reins of the Blue Shado-Pan Riding Tiger",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "89308": {
+      "Name": "Snowdrift Helm",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89337": {
+      "Name": "Firecracker Corona",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89338": {
+      "Name": "Yalia's Cowl",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89339": {
+      "Name": "Tenderheart Shoulders",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89340": {
+      "Name": "Mantle of the Golden Sun",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89341": {
+      "Name": "Imperion Spaulders",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89342": {
+      "Name": "Whitepetal Shouldergarb",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89343": {
+      "Name": "Mindbender Shoulders",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89344": {
+      "Name": "Windwalker Spaulders",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89345": {
+      "Name": "Stonetoe Spaulders",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89346": {
+      "Name": "Shoulders of Autumnlight",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89347": {
+      "Name": "Paleblade Shoulderguards",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89420": {
+      "Name": "Dawnblade's Chestguard",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89421": {
+      "Name": "Cuirass of the Twin Monoliths",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89423": {
+      "Name": "Battleguard of Guo-Lai",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89429": {
+      "Name": "Robes of the Setting Sun",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89430": {
+      "Name": "Breastplate of the Golden Pagoda",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89431": {
+      "Name": "Softfoot Silentwrap",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89432": {
+      "Name": "Mistfall Robes",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89433": {
+      "Name": "Vestments of Thundering Skies",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89434": {
+      "Name": "Robe of the Five Sisters",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89522": {
+      "Name": "Mark of the Dancing Crane",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89523": {
+      "Name": "Etched Golden Loop",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89524": {
+      "Name": "Sorcerer-King's Seal",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89525": {
+      "Name": "Thunderstone Ring",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89526": {
+      "Name": "Signet of the Slumbering Emperor",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89527": {
+      "Name": "Amulet of Swirling Mists",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89528": {
+      "Name": "Necklace of Jade Pearls",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89529": {
+      "Name": "Pendant of Endless Inquisition",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89530": {
+      "Name": "Triumphant Conqueror's Chain",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89531": {
+      "Name": "Gorget of Usurped Kings",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89532": {
+      "Name": "Bladesong Cloak",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89533": {
+      "Name": "Cloak of Ancient Curses",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89534": {
+      "Name": "Pressed Flower Cloak",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89535": {
+      "Name": "Ribcracker's Cloak",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89537": {
+      "Name": "Cloak of the Silent Mountain",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89642": {
+      "Name": "Bracers of Eternal Resolve",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89643": {
+      "Name": "Tranquility Bindings",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89648": {
+      "Name": "Bracers of Inner Light",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89649": {
+      "Name": "Serrated Forearm Guards",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89651": {
+      "Name": "Krompf's Fine-Tuning Gloves",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89652": {
+      "Name": "Wandering Friar's Gloves",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89653": {
+      "Name": "Surehand Grips",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89654": {
+      "Name": "Gloves of Forgotten Wisdom",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89655": {
+      "Name": "Brushcutter's Gloves",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89656": {
+      "Name": "Gauntlets of Restraint",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89657": {
+      "Name": "Wall Breaker Gauntlets",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89658": {
+      "Name": "Subversive Leggings",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89659": {
+      "Name": "Leggings of Unfinished Conquest",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89660": {
+      "Name": "Brambleguard Leggings",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89661": {
+      "Name": "Tough Mushanhide Leggings",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89662": {
+      "Name": "Snowpack Waders",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89663": {
+      "Name": "Leggings of Twisted Vines",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89664": {
+      "Name": "Valiant's Shinguards",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89665": {
+      "Name": "Leggings of Ponderous Advance",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89666": {
+      "Name": "Vestment of the Ascendant Tribe",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89667": {
+      "Name": "Refurbished Zandalari Vestment",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89668": {
+      "Name": "Mountain Stream Ringmail",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89669": {
+      "Name": "Undergrowth Stalker Chestpiece",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89670": {
+      "Name": "Inner Serenity Chestplate",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89671": {
+      "Name": "Chestplate of the Stone Lion",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89672": {
+      "Name": "Robe of Quiet Meditation",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89673": {
+      "Name": "Robe of Eternal Dynasty",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89797": {
+      "Name": "Golden Lotus Tabard",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "89798": {
+      "Name": "Klaxxi Tabard",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "89799": {
+      "Name": "August Celestials Tabard",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "89800": {
+      "Name": "Shado-Pan Tabard",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "89801": {
+      "Name": "Replica Shado-Pan Helmet",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "90531": {
+      "Name": "Plans: Ghost Iron Shield Spike",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "90532": {
+      "Name": "Plans: Living Steel Weapon Chain",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "90844": {
+      "Name": "Replica Shado-Pan Helmet",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "90845": {
+      "Name": "Replica Shado-Pan Helmet",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "90846": {
+      "Name": "Replica Shado-Pan Helmet",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "92522": {
+      "Name": "Grand Commendation of the Klaxxi",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "93215": {
+      "Name": "Grand Commendation of the Golden Lotus",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "93220": {
+      "Name": "Grand Commendation of the Shado-Pan",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "93224": {
+      "Name": "Grand Commendation of the August Celestials",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "138877": {
+      "Name": "Formula: Tome of Illusions: Secrets of the Shado-Pan",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    }
   }
 }

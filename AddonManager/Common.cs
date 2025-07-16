@@ -155,9 +155,9 @@ public static class Common
         await Common.LoadFromWebPages(webAddresses, (uri, doc) => ReadWowheadDroppedByList(doc, uri, func), writeToLog);
     }
 
-    internal static async Task ReadWowheadSellsList(IEnumerable<string> webAddresses, Action<string, IElement, int, IElement> func, Action<string> writeToLog, CancellationToken? cancelToken = null)
+    internal static async Task ReadWowheadSellsList(IEnumerable<string> webAddresses, Action<string, IElement, int, IElement> func, Action<string> writeToLog, CancellationToken? cancelToken = null, bool blockRedirects = false)
     {
-        await Common.LoadFromWebPages(webAddresses, (uri, doc) => ReadWowheadSellsList(doc, uri, func), writeToLog, cancelToken);
+        await Common.LoadFromWebPages(webAddresses, (uri, doc) => ReadWowheadSellsList(doc, uri, func), writeToLog, cancelToken, blockRedirects);
     }
 
     internal static void ReadWowheadSellsList(IHtmlDocument doc, string uri, Action<string, IElement, int, IElement> func)
