@@ -218,7 +218,6 @@ function LBIS:AddEnchant(bisEntry, id, slot)
 
 	local enchantSource = LBIS.EnchantSources[enchantId];
 	local designId = tonumber(enchantSource.DesignId);
-	local scrollId = tonumber(enchantSource.ScrollId);
 
 	local item = { Id = enchantId, Slot = slot, Phase = "", Bis = "" };
 
@@ -243,14 +242,6 @@ function LBIS:AddEnchant(bisEntry, id, slot)
 		end
 
 		LBIS.ItemsByIdAndSpec[designId][bisEntry.Id] = item;
-	end
-
-	if scrollId > 0 then
-		if not LBIS.ItemsByIdAndSpec[scrollId] then
-			LBIS.ItemsByIdAndSpec[scrollId] = {}
-		end
-
-		LBIS.ItemsByIdAndSpec[scrollId][bisEntry.Id] = item;
 	end
 
 	LBIS.EnchantsBySpecAndId[bisEntry.Id][enchantId] = item;

@@ -94,20 +94,39 @@ public partial class GuideImporterView : UserControl
 
     private async void RefreshAllClick(object sender, RoutedEventArgs e)
     {
-        await RefreshAllItemSources();
+        ConsoleOut.Text = string.Empty;
+
+        //await RefreshAllGemSources();
+        await RefreshAllEnchantSources();
+        //await RefreshAllItemSources();
+
+        ConsoleOut.Text = $"Refresh All Complete!" + Environment.NewLine + ConsoleOut.Text;
+    }
+
+    private async Task RefreshAllGemSources()
+    {
+        ConsoleOut.Text = $"Refreshing Gems..." + Environment.NewLine + ConsoleOut.Text;
+        _importCancelToken = new CancellationTokenSource();
+        await WowheadImporter.UpdateGemsFromWowhead(_importCancelToken.Token, (s) => { ConsoleOut.Text = s + Environment.NewLine + ConsoleOut.Text; });
+    }
+
+    private async Task RefreshAllEnchantSources()
+    {
+        ConsoleOut.Text = $"Refreshing Enchants..." + Environment.NewLine + ConsoleOut.Text;
+        _importCancelToken = new CancellationTokenSource();
+        await WowheadImporter.UpdateEnchantsFromWowhead(_importCancelToken.Token, (s) => { ConsoleOut.Text = s + Environment.NewLine + ConsoleOut.Text; });
     }
 
     private async Task RefreshAllItemSources()
     {
+        ConsoleOut.Text = $"Refreshing Items..." + Environment.NewLine + ConsoleOut.Text;
         _importCancelToken = new CancellationTokenSource();
-        
+
         WowheadImporter.ImportNewItems();
-        
-        ConsoleOut.Text = string.Empty;
+
         await WowheadImporter.UpdateItemsFromWowhead(_importCancelToken.Token, (s) => { ConsoleOut.Text = s + Environment.NewLine + ConsoleOut.Text; });
 
         WowheadImporter.RefreshItems();
 
-        ConsoleOut.Text += $"Refresh All Complete!";
     }
 }

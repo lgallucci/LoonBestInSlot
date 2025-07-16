@@ -4,6 +4,7 @@ using Newtonsoft.Json;
 using System.IO;
 using System.Security;
 using AngleSharp.Html.Dom;
+using AngleSharp.Dom;
 
 namespace AddonManager;
 
@@ -639,106 +640,6 @@ public static class WowheadImporter
         ItemSourceFileManager.WriteItemSources(itemSources);
     }
 
-    public static async Task UpdateItemsFromWowhead(CancellationToken cancelToken, Action<string> writeToLog)
-    {
-        var itemSources = ItemSourceFileManager.ReadItemSources();
-
-        var sources = new Dictionary<int, List<(string, string)>>();
-
-        var webAddresses = itemSources.Where((i) => i.Value.SourceType == @"LBIS.L[""unknown""]")
-                                           .Select((i) => $"https://www.wowhead.com/mop-classic/item={i.Key}/");
-        try
-        {
-            await Common.LoadFromWebPages(webAddresses, (uri, doc) =>
-            {
-                var name = doc.Title?.Replace(" - Item - Mists of Pandaria Classic", "").Trim() ?? "unknown";
-                var itemId = Int32.Parse(uri.Replace("https://www.wowhead.com/mop-classic/item=", "").TrimEnd('/'));
-                var rowElements = doc.QuerySelectorAll("#tab-dropped-by .listview-mode-default .listview-row");
-
-                itemSources[itemId].Name = name;
-                if (rowElements != null && rowElements.Length > 0)
-                {
-                    var source = rowElements[0].Children[0].TextContent.Trim();
-                    var location = rowElements[0].Children[2].TextContent.Trim();
-
-                    if (rowElements.Length == 1)
-                    {
-                        itemSources[itemId].SourceType = AddLocalizeText("Drop");
-                        itemSources[itemId].Source = AddLocalizeText(source);
-                        itemSources[itemId].SourceNumber = "0";
-                        itemSources[itemId].SourceLocation = AddLocalizeText(location);
-                        itemSources[itemId].SourceFaction = "B";
-                    }
-                    else if (rowElements.All(r => r.Children[2].TextContent.Trim() == location))
-                    {
-                        if (IsDungeonName(location))
-                            itemSources[itemId].Source = AddLocalizeText("Trash Mobs");
-                        else
-                            itemSources[itemId].Source = AddLocalizeText("World Drop");
-
-                        itemSources[itemId].SourceType = AddLocalizeText("Drop");
-                        itemSources[itemId].SourceNumber = "0";
-                        itemSources[itemId].SourceLocation = AddLocalizeText(location);
-                        itemSources[itemId].SourceFaction = "B";
-                    }
-                    else
-                    {
-                        itemSources[itemId].SourceType = AddLocalizeText("Drop");
-                        itemSources[itemId].Source = AddLocalizeText("World Drop");
-                        itemSources[itemId].SourceNumber = "0";
-                        itemSources[itemId].SourceLocation = string.Empty;
-                        itemSources[itemId].SourceFaction = "B";
-                    }
-                }
-                else
-                {
-                    rowElements = doc.QuerySelectorAll("#tab-reward-from-q .listview-mode-default .listview-row");
-                    if (rowElements != null && rowElements.Length > 0)
-                    {
-                        var source = string.Empty;
-                        var faction = string.Empty;
-                        var sourceLocation = string.Empty;
-                        foreach (var row in rowElements)
-                        {
-                            if (row.Children[3].Children.Length > 0 && row.Children[3].Children[0].ClassName == "icon-alliance" && string.IsNullOrWhiteSpace(faction))
-                                faction = "A";
-                            else if (row.Children[3].Children.Length > 0 && row.Children[3].Children[0].ClassName == "icon-horde" && string.IsNullOrWhiteSpace(faction))
-                                faction = "H";
-                            else
-                                faction = "B";
-
-                            if (row.Children[0].TextContent.Trim() != source)
-                            {
-                                if (!string.IsNullOrWhiteSpace(source))
-                                    source += " & ";
-                                source += row.Children[0].TextContent.Trim();
-                            }
-
-                            if (row.Children[7].TextContent.Trim() != sourceLocation)
-                            {
-                                if (!string.IsNullOrWhiteSpace(sourceLocation))
-                                    sourceLocation += " & ";
-                                sourceLocation += row.Children[7].TextContent.Trim();
-                            }
-                        }
-
-                        itemSources[itemId].SourceType = AddLocalizeText("Quest");
-                        itemSources[itemId].Source = AddLocalizeText(source);
-                        itemSources[itemId].SourceNumber = "0";
-                        itemSources[itemId].SourceLocation = AddLocalizeText(sourceLocation);
-                        itemSources[itemId].SourceFaction = faction;
-                    }
-                }
-            }, writeToLog, cancelToken);
-
-        }
-        catch
-        {
-            writeToLog("Error !");
-        }
-        ItemSourceFileManager.WriteItemSources(itemSources);
-    }
-
     private static List<string> _dungeons = new List<string>() { "zul'gurub", "zul'aman", };
 
     private static bool IsDungeonName(string location)
@@ -931,4 +832,318 @@ public static class WowheadImporter
         }
     }
 
+    public static async Task UpdateItemsFromWowhead(CancellationToken cancelToken, Action<string> writeToLog)
+    {
+        var itemSources = ItemSourceFileManager.ReadItemSources();
+
+        var sources = new Dictionary<int, List<(string, string)>>();
+
+        var webAddresses = itemSources.Where((i) => i.Value.SourceType == @"LBIS.L[""unknown""]")
+                                           .Select((i) => $"https://www.wowhead.com/mop-classic/item={i.Key}/");
+        try
+        {
+            await Common.LoadFromWebPages(webAddresses, (uri, doc) =>
+            {
+                var name = doc.Title?.Replace(" - Item - Mists of Pandaria Classic", "").Trim() ?? "\"unknown\"";
+                var itemId = Int32.Parse(uri.Replace("https://www.wowhead.com/mop-classic/item=", "").TrimEnd('/'));
+                var rowElements = doc.QuerySelectorAll("#tab-dropped-by .listview-mode-default .listview-row");
+
+                itemSources[itemId].Name = name;
+                if (rowElements != null && rowElements.Length > 0)
+                {
+                    var source = rowElements[0].Children[0].TextContent.Trim();
+                    var location = rowElements[0].Children[2].TextContent.Trim();
+
+                    if (rowElements.Length == 1)
+                    {
+                        itemSources[itemId].SourceType = AddLocalizeText("Drop");
+                        itemSources[itemId].Source = AddLocalizeText(source);
+                        itemSources[itemId].SourceNumber = "0";
+                        itemSources[itemId].SourceLocation = AddLocalizeText(location);
+                        itemSources[itemId].SourceFaction = "B";
+                    }
+                    else if (rowElements.All(r => r.Children[2].TextContent.Trim() == location))
+                    {
+                        if (IsDungeonName(location))
+                            itemSources[itemId].Source = AddLocalizeText("Trash Mobs");
+                        else
+                            itemSources[itemId].Source = AddLocalizeText("World Drop");
+
+                        itemSources[itemId].SourceType = AddLocalizeText("Drop");
+                        itemSources[itemId].SourceNumber = "0";
+                        itemSources[itemId].SourceLocation = AddLocalizeText(location);
+                        itemSources[itemId].SourceFaction = "B";
+                    }
+                    else
+                    {
+                        itemSources[itemId].SourceType = AddLocalizeText("Drop");
+                        itemSources[itemId].Source = AddLocalizeText("World Drop");
+                        itemSources[itemId].SourceNumber = "0";
+                        itemSources[itemId].SourceLocation = string.Empty;
+                        itemSources[itemId].SourceFaction = "B";
+                    }
+                }
+                else
+                {
+                    rowElements = doc.QuerySelectorAll("#tab-reward-from-q .listview-mode-default .listview-row");
+                    if (rowElements != null && rowElements.Length > 0)
+                    {
+                        var source = string.Empty;
+                        var faction = string.Empty;
+                        var sourceLocation = string.Empty;
+                        foreach (var row in rowElements)
+                        {
+                            if (row.Children[3].Children.Length > 0 && row.Children[3].Children[0].ClassName == "icon-alliance" && string.IsNullOrWhiteSpace(faction))
+                                faction = "A";
+                            else if (row.Children[3].Children.Length > 0 && row.Children[3].Children[0].ClassName == "icon-horde" && string.IsNullOrWhiteSpace(faction))
+                                faction = "H";
+                            else
+                                faction = "B";
+
+                            if (row.Children[0].TextContent.Trim() != source)
+                            {
+                                if (!string.IsNullOrWhiteSpace(source))
+                                    source += " & ";
+                                source += row.Children[0].TextContent.Trim();
+                            }
+
+                            if (row.Children[7].TextContent.Trim() != sourceLocation)
+                            {
+                                if (!string.IsNullOrWhiteSpace(sourceLocation))
+                                    sourceLocation += " & ";
+                                sourceLocation += row.Children[7].TextContent.Trim();
+                            }
+                        }
+
+                        itemSources[itemId].SourceType = AddLocalizeText("Quest");
+                        itemSources[itemId].Source = AddLocalizeText(source);
+                        itemSources[itemId].SourceNumber = "0";
+                        itemSources[itemId].SourceLocation = AddLocalizeText(sourceLocation);
+                        itemSources[itemId].SourceFaction = faction;
+                    }
+                }
+            }, writeToLog, cancelToken);
+
+        }
+        catch
+        {
+            writeToLog("Error !");
+        }
+        ItemSourceFileManager.WriteItemSources(itemSources);
+    }
+
+    public static async Task UpdateGemsFromWowhead(CancellationToken cancelToken, Action<object> writeToLog)
+    {
+        var gemSources = ItemSourceFileManager.ReadGemSources();
+
+        var sources = new Dictionary<int, List<(string, string)>>();
+        var webAddresses = gemSources.Where((i) => i.Value.Source == "\"unknown\"")
+                                     .Select((i) => $"https://www.wowhead.com/mop-classic/item={i.Key}#taught-by-item");
+
+        var designAddresses = new Dictionary<string, int>();
+
+        try
+        {
+            await Common.LoadFromWebPages(webAddresses, (uri, doc) =>
+            {
+                var name = doc.Title?.Replace(" - Item - Mists of Pandaria Classic", "").Trim() ?? "\"unknown\"";
+                var itemId = Int32.Parse(uri.Replace("https://www.wowhead.com/mop-classic/item=", "").Replace("#taught-by-item", "").TrimEnd('/'));
+                var taughtElements = doc.QuerySelectorAll("#tab-taught-by-item .listview-mode-default .listview-row");
+                var soldElements = doc.QuerySelectorAll("#tab-sold-by .listview-mode-default .listview-row");
+
+                var designId = 99999;
+                gemSources[itemId].Name = name;
+                if (taughtElements != null && taughtElements.Length > 0)
+                {
+                    if (taughtElements.Length == 1)
+                    {
+                        Common.RecursiveBoxSearch(taughtElements[0].Children[2], (anchor) =>
+                        {
+                            var item = anchor.PathName.Replace("/wotlk", "").Replace("/mop-classic/", "/").Replace("/item=", "").Replace("/spell=", "");
+                            var itemIdIndex = item.IndexOf("/");
+                            if (itemIdIndex == -1)
+                                itemIdIndex = item.IndexOf("&");
+                            item = item.Substring(0, itemIdIndex);
+                            designId = Int32.Parse(item);
+
+                            designAddresses.Add(anchor.Href, itemId);
+
+                            return true;
+                        });
+                    }
+                }
+                else if (soldElements.Any(se => se.TextContent.Contains("Engineering Supplies")))
+                {
+                    gemSources[itemId].Source = AddLocalizeText("Engineering Supplies");
+                    gemSources[itemId].SourceLocation = AddLocalizeText("Faction Capital");
+                }
+                gemSources[itemId].DesignId = designId;
+
+            }, writeToLog, cancelToken);
+
+            await Common.LoadFromWebPages(designAddresses.Keys.ToList(), (uri, doc) =>
+            {
+                var name = doc.Title?.Replace(" - Item - Mists of Pandaria Classic", "").Trim() ?? "\"unknown\"";
+                var soldElements = doc.QuerySelectorAll("#tab-sold-by .listview-mode-default .listview-row");
+                var dropElements = doc.QuerySelectorAll("#tab-dropped-by .listview-mode-default .listview-row");
+                var itemId = designAddresses[uri];
+
+                if (soldElements.Any(re => re.Children[0].TextContent.Trim().Contains("Jewelcrafting Supplies")))
+                {
+                    gemSources[itemId].Source = AddLocalizeText("Jewelcrafting Supplies");
+                    gemSources[itemId].SourceLocation = AddLocalizeText("Faction Capital");
+                }
+                else if (soldElements.Any(re => re.Children[0].TextContent.Trim().Contains("Engineering Supplies")))
+                {
+                    gemSources[itemId].Source = AddLocalizeText("Engineering Supplies");
+                    gemSources[itemId].SourceLocation = AddLocalizeText("Faction Capital");
+                }
+                else if (dropElements.Count() > 5)
+                {
+                    gemSources[itemId].Source = AddLocalizeText("World Drop");
+                    gemSources[itemId].SourceLocation = "\"\"";
+                }
+                else if (dropElements.Count() == 1)
+                {
+                    gemSources[itemId].Source = AddLocalizeText(dropElements[0].Children[0].TextContent.Trim());
+                    gemSources[itemId].SourceLocation = AddLocalizeText(dropElements[0].Children[2].TextContent.Trim());
+                }
+            }, writeToLog, cancelToken);
+        }
+        catch
+        {
+            writeToLog("Error !");
+        }
+
+        ItemSourceFileManager.WriteGemSources(gemSources);
+    }
+
+    public static async Task UpdateEnchantsFromWowhead(CancellationToken cancelToken, Action<object> writeToLog)
+    {
+        var enchantSources = ItemSourceFileManager.ReadEnchantSources();
+
+        var sources = new Dictionary<int, List<(string, string)>>();
+        var webAddresses = enchantSources.Where((i) => i.Value.Source == "unknown")
+                                     .Select((i) => $"https://www.wowhead.com/mop-classic/spell={i.Key}/");
+
+        var scrollAddresses = new Dictionary<string, int>();
+
+        try
+        {
+            await Common.LoadFromWebPages(webAddresses, (uri, doc) =>
+            {
+                var name = doc.Title?.Replace(" - Spell - Mists of Pandaria Classic", "").Trim() ?? "\"unknown\"";
+                var spellId = Int32.Parse(uri.Replace("https://www.wowhead.com/mop-classic/spell=", "").TrimEnd('/'));
+                var taughtElements = doc.QuerySelectorAll("#tab-taught-by-npc .listview-mode-default .listview-row");
+                var taughtItemElements = doc.QuerySelectorAll("#tab-taught-by-item .listview-mode-default .listview-row");
+                var usedByElements = doc.QuerySelectorAll("#tab-used-by-item .listview-mode-default .listview-row");
+                var recipeElements = doc.QuerySelectorAll("#tab-recipes .listview-mode-default .listview-row");
+
+                enchantSources[spellId].Name = name;
+
+                if (taughtItemElements.Any(re => re.Children[9].TextContent.Trim().Contains("Enchanting Formula")))
+                {
+                    Common.RecursiveBoxSearch(taughtItemElements[0].Children[2], (anchor) =>
+                    {
+                        var item = anchor.PathName.Replace("/wotlk", "").Replace("/mop-classic/", "/").Replace("/item=", "").Replace("/spell=", "");
+                        var itemIdIndex = item.IndexOf("/");
+                        if (itemIdIndex == -1)
+                            itemIdIndex = item.IndexOf("&");
+                        item = item.Substring(0, itemIdIndex);
+                        var designId = Int32.Parse(item);
+
+                        scrollAddresses.Add(anchor.Href, spellId);
+
+                        enchantSources[spellId].DesignId = designId;
+                        enchantSources[spellId].TextureId = designId.ToString();
+                        return true;
+                    });
+                } 
+                else if (taughtElements.Any(re => re.Children[0].TextContent.Trim().Contains("Engineering Trainer") ||
+                                                    re.Children[8].TextContent.Trim().Contains("Inscription Trainer") ||
+                                                    re.Children[8].TextContent.Trim().Contains("Tailoring Trainer") ||
+                                                    re.Children[8].TextContent.Trim().Contains("Engineering Trainer")))
+                {
+                    var source = usedByElements[0].Children[8].TextContent.Trim().Contains("Leatherworking") ? "Leatherworking Trainer" : "";
+                    source = usedByElements[0].Children[8].TextContent.Trim().Contains("Inscription") ? "Inscription Trainer" : source;
+                    source = usedByElements[0].Children[8].TextContent.Trim().Contains("Tailoring") ? "Tailoring Trainer" : source;
+                    source = usedByElements[0].Children[8].TextContent.Trim().Contains("Engineering") ? "Engineering Trainer" : source;
+
+                    enchantSources[spellId].Source = AddLocalizeText(source);
+                    enchantSources[spellId].SourceLocation = AddLocalizeText("Faction Capital");
+                    enchantSources[spellId].DesignId = 99999;
+                    enchantSources[spellId].TextureId = "";
+                }
+                else if (usedByElements.Any(re => re.Children[8].TextContent.Trim().Contains("Leatherworking") ||
+                                                    re.Children[8].TextContent.Trim().Contains("Inscription") ||
+                                                    re.Children[8].TextContent.Trim().Contains("Tailoring") ||
+                                                    re.Children[8].TextContent.Trim().Contains("Engineering")))
+                {
+                    Common.RecursiveBoxSearch(usedByElements[0].Children[2], (anchor) =>
+                    {
+                        var item = anchor.PathName.Replace("/wotlk", "").Replace("/mop-classic/", "/").Replace("/item=", "").Replace("/spell=", "");
+                        var itemIdIndex = item.IndexOf("/");
+                        if (itemIdIndex == -1)
+                            itemIdIndex = item.IndexOf("&");
+                        item = item.Substring(0, itemIdIndex);
+                        var designId = Int32.Parse(item);
+
+                        var source = usedByElements[0].Children[8].TextContent.Trim().Contains("Leatherworking") ? "Leatherworking Trainer" : "";
+                        source = usedByElements[0].Children[8].TextContent.Trim().Contains("Inscription") ? "Inscription Trainer" : source;
+                        source = usedByElements[0].Children[8].TextContent.Trim().Contains("Tailoring") ? "Tailoring Trainer" : source;
+                        source = usedByElements[0].Children[8].TextContent.Trim().Contains("Engineering") ? "Engineering Trainer" : source;
+
+                        enchantSources[spellId].Source = AddLocalizeText(source);
+                        enchantSources[spellId].SourceLocation = AddLocalizeText("Faction Capital");
+                        enchantSources[spellId].DesignId = designId;
+                        enchantSources[spellId].TextureId = designId.ToString();
+                        return true;
+                    });
+                } else if (recipeElements.Any(re => re.Children[4].TextContent.Trim().Contains("Engineering") ||
+                                                    re.Children[4].TextContent.Trim().Contains("Inscription") ||
+                                                    re.Children[4].TextContent.Trim().Contains("Tailoring") ||
+                                                    re.Children[4].TextContent.Trim().Contains("Engineering")))
+                {
+                    
+                        var source = usedByElements[0].Children[4].TextContent.Trim().Contains("Leatherworking") ? "Leatherworking Trainer" : "";
+                        source = usedByElements[0].Children[4].TextContent.Trim().Contains("Inscription") ? "Inscription Trainer" : source;
+                        source = usedByElements[0].Children[4].TextContent.Trim().Contains("Tailoring") ? "Tailoring Trainer" : source;
+                        source = usedByElements[0].Children[4].TextContent.Trim().Contains("Engineering") ? "Engineering Trainer" : source;
+
+
+                    enchantSources[spellId].Source = AddLocalizeText(source);
+                    enchantSources[spellId].SourceLocation = AddLocalizeText("Faction Capital");
+                    enchantSources[spellId].DesignId = 99999;
+                    enchantSources[spellId].TextureId = "";
+                }
+
+            }, writeToLog, cancelToken);
+
+            await Common.LoadFromWebPages(scrollAddresses.Keys, (uri, doc) =>
+            {
+                var spellId = scrollAddresses[uri];
+                var dropElements = doc.QuerySelectorAll("#tab-dropped-by .listview-mode-default .listview-row");
+
+                if (dropElements.Count() > 5)
+                {
+                    enchantSources[spellId].Source = AddLocalizeText("World Drop");
+                    enchantSources[spellId].SourceLocation = "\"\"";
+                }
+                else if (dropElements.Count() == 1)
+                {
+                    enchantSources[spellId].Source = AddLocalizeText(dropElements[0].Children[0].TextContent.Trim());
+                    enchantSources[spellId].SourceLocation = AddLocalizeText(dropElements[0].Children[2].TextContent.Trim());
+                }
+                else {
+                    enchantSources[spellId].Source = AddLocalizeText("Enchanting Trainer");
+                    enchantSources[spellId].SourceLocation = AddLocalizeText("Faction Capital");
+                }
+
+            }, writeToLog, cancelToken);
+        } catch (Exception ex)
+        {
+            writeToLog($"Error ! {ex.Message}");
+        }
+        ItemSourceFileManager.WriteEnchantSources(enchantSources);
+    }
 }
