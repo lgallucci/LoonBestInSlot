@@ -3617,6 +3617,7 @@ LBIS.ItemSources =
     [21621] = { Name = "Cloak of the Golden Hive", SourceType = LBIS.L["Drop"], Source = LBIS.L["Princess Huhuran"], SourceNumber = "0", SourceLocation = LBIS.L["Ahn'Qiraj"], SourceFaction = "B" },
     [21622] = { Name = "Sharpened Silithid Femur", SourceType = LBIS.L["Drop"], Source = LBIS.L["Viscidus"], SourceNumber = "0", SourceLocation = LBIS.L["Ahn'Qiraj"], SourceFaction = "B" },
     [21625] = { Name = "Scarab Brooch", SourceType = LBIS.L["Drop"], Source = LBIS.L["Viscidus"], SourceNumber = "0", SourceLocation = LBIS.L["Ahn'Qiraj"], SourceFaction = "B" },
+    [21635] = { Name = "Barb of the Sand Reaver", SourceType = LBIS.L["Drop"], Source = LBIS.L["Fankriss the Unyielding"], SourceNumber = "0", SourceLocation = LBIS.L["Ahn'Qiraj"], SourceFaction = "B" },
     [21639] = { Name = "Pauldrons of the Unrelenting", SourceType = LBIS.L["Drop"], Source = LBIS.L["Fankriss the Unyielding"], SourceNumber = "0", SourceLocation = LBIS.L["Ahn'Qiraj"], SourceFaction = "B" },
     [21647] = { Name = "Fetish of the Sand Reaver", SourceType = LBIS.L["Drop"], Source = LBIS.L["Fankriss the Unyielding"], SourceNumber = "0", SourceLocation = LBIS.L["Ahn'Qiraj"], SourceFaction = "B" },
     [21650] = { Name = "Ancient Qiraji Ripper", SourceType = LBIS.L["Drop"], Source = LBIS.L["Fankriss the Unyielding"], SourceNumber = "0", SourceLocation = LBIS.L["Ahn'Qiraj"], SourceFaction = "B" },

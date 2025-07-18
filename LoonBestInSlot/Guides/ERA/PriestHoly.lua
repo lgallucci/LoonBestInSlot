@@ -415,8 +415,8 @@ local function LoadData()
     LBIS:AddItem(spec5, "16814", LBIS.L["Legs"], "Alt") --Pants of Prophecy
     LBIS:AddItem(spec5, "18386", LBIS.L["Legs"], "Alt") --Padre's Trousers
     LBIS:AddItem(spec5, "19899", LBIS.L["Legs"], "Alt") --Ritualistic Legguards
-    LBIS:AddItem(spec5, "17603", LBIS.L["Legs"], "Alt") --Marshal's Satin Pants
     LBIS:AddItem(spec5, "17625", LBIS.L["Legs"], "Alt") --General's Satin Leggings
+    LBIS:AddItem(spec5, "17603", LBIS.L["Legs"], "Alt") --Marshal's Satin Pants
     LBIS:AddItem(spec5, "11841", LBIS.L["Legs"], "Alt") --Senior Designer's Pantaloons
     LBIS:AddItem(spec5, "22085", LBIS.L["Legs"], "Alt") --Virtuous Skirt
     LBIS:AddItem(spec5, "22882", LBIS.L["Legs"], "Alt") --Legionnaire's Satin Legguards
@@ -452,6 +452,7 @@ local function LoadData()
     LBIS:AddItem(spec5, "19397", LBIS.L["Ring"], "Alt") --Ring of Blackrock
     LBIS:AddItem(spec5, "20636", LBIS.L["Trinket"], "BIS") --Hibernation Crystal
     LBIS:AddItem(spec5, "19395", LBIS.L["Trinket"], "BIS") --Rejuvenating Gem
+    LBIS:AddItem(spec5, "21625", LBIS.L["Trinket"], "BIS") --Scarab Brooch
     LBIS:AddItem(spec5, "19288", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Blue Dragon
     LBIS:AddItem(spec5, "18469", LBIS.L["Trinket"], "Alt") --Royal Seal of Eldre'Thalas
     LBIS:AddItem(spec5, "22268", LBIS.L["Trinket"], "Alt") --Draconic Infused Emblem
@@ -461,8 +462,8 @@ local function LoadData()
     LBIS:AddItem(spec5, "11819", LBIS.L["Trinket"], "Alt") --Second Wind
     LBIS:AddItem(spec5, "11832", LBIS.L["Trinket"], "Alt") --Burst of Knowledge
     LBIS:AddItem(spec5, "21839", LBIS.L["Main Hand"], "BIS") --Scepter of the False Prophet
-    LBIS:AddItem(spec5, "23454", LBIS.L["Main Hand"], "Alt") --Grand Marshal's Warhammer
     LBIS:AddItem(spec5, "23464", LBIS.L["Main Hand"], "Alt") --High Warlord's Battle Mace
+    LBIS:AddItem(spec5, "23454", LBIS.L["Main Hand"], "Alt") --Grand Marshal's Warhammer
     LBIS:AddItem(spec5, "21523", LBIS.L["Main Hand"], "Alt") --Fang of Korialstrasz
     LBIS:AddItem(spec5, "21410", LBIS.L["Main Hand"], "Alt") --Gavel of Infinite Wisdom
     LBIS:AddItem(spec5, "19360", LBIS.L["Main Hand"], "Alt") --Lok'amir il Romathis
