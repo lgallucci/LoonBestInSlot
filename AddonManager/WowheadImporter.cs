@@ -937,7 +937,7 @@ public static class WowheadImporter
         var gemSources = ItemSourceFileManager.ReadGemSources();
 
         var sources = new Dictionary<int, List<(string, string)>>();
-        var webAddresses = gemSources.Where((i) => i.Value.Source == "\"unknown\"")
+        var webAddresses = gemSources.Where((i) => i.Value.Source == "unknown")
                                      .Select((i) => $"https://www.wowhead.com/mop-classic/item={i.Key}#taught-by-item");
 
         var designAddresses = new Dictionary<string, int>();
@@ -1063,10 +1063,10 @@ public static class WowheadImporter
                                                     re.Children[8].TextContent.Trim().Contains("Tailoring Trainer") ||
                                                     re.Children[8].TextContent.Trim().Contains("Engineering Trainer")))
                 {
-                    var source = usedByElements[0].Children[8].TextContent.Trim().Contains("Leatherworking") ? "Leatherworking Trainer" : "";
-                    source = usedByElements[0].Children[8].TextContent.Trim().Contains("Inscription") ? "Inscription Trainer" : source;
-                    source = usedByElements[0].Children[8].TextContent.Trim().Contains("Tailoring") ? "Tailoring Trainer" : source;
-                    source = usedByElements[0].Children[8].TextContent.Trim().Contains("Engineering") ? "Engineering Trainer" : source;
+                    var source = taughtElements[0].Children[8].TextContent.Trim().Contains("Leatherworking") ? "Leatherworking Trainer" : "";
+                    source = taughtElements[0].Children[8].TextContent.Trim().Contains("Inscription") ? "Inscription Trainer" : source;
+                    source = taughtElements[0].Children[8].TextContent.Trim().Contains("Tailoring") ? "Tailoring Trainer" : source;
+                    source = taughtElements[0].Children[8].TextContent.Trim().Contains("Engineering") ? "Engineering Trainer" : source;
 
                     enchantSources[spellId].Source = AddLocalizeText(source);
                     enchantSources[spellId].SourceLocation = AddLocalizeText("Faction Capital");
@@ -1104,10 +1104,10 @@ public static class WowheadImporter
                                                     re.Children[4].TextContent.Trim().Contains("Engineering")))
                 {
                     
-                        var source = usedByElements[0].Children[4].TextContent.Trim().Contains("Leatherworking") ? "Leatherworking Trainer" : "";
-                        source = usedByElements[0].Children[4].TextContent.Trim().Contains("Inscription") ? "Inscription Trainer" : source;
-                        source = usedByElements[0].Children[4].TextContent.Trim().Contains("Tailoring") ? "Tailoring Trainer" : source;
-                        source = usedByElements[0].Children[4].TextContent.Trim().Contains("Engineering") ? "Engineering Trainer" : source;
+                        var source = recipeElements[0].Children[4].TextContent.Trim().Contains("Leatherworking") ? "Leatherworking Trainer" : "";
+                        source = recipeElements[0].Children[4].TextContent.Trim().Contains("Inscription") ? "Inscription Trainer" : source;
+                        source = recipeElements[0].Children[4].TextContent.Trim().Contains("Tailoring") ? "Tailoring Trainer" : source;
+                        source = recipeElements[0].Children[4].TextContent.Trim().Contains("Engineering") ? "Engineering Trainer" : source;
 
 
                     enchantSources[spellId].Source = AddLocalizeText(source);

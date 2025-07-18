@@ -1295,14 +1295,6 @@
       "SourceNumber": "0",
       "SourceLocation": "Revered",
       "SourceFaction": "B"
-    },
-    "138877": {
-      "Name": "Formula: Tome of Illusions: Secrets of the Shado-Pan",
-      "Source": "Shado-Pan",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
     }
   }
 }

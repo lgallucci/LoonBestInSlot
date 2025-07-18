@@ -51,6 +51,7 @@ LBIS.EnchantSources =
     [125481] = { Name = "Lightweave Embroidery", DesignId = "99999", Source = LBIS.L["Tailoring Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "" },
     [125483] = { Name = "Swordguard Embroidery", DesignId = "99999", Source = LBIS.L["Tailoring Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "" },
     [125496] = { Name = "Master's Spellthread", DesignId = "99999", Source = LBIS.L["Tailoring Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "" },
+    [126731] = { Name = "Synapse Springs", DesignId = "99999", Source = LBIS.L["Engineering Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "" },
     [127013] = { Name = "Crane Wing Inscription", DesignId = "87578", Source = LBIS.L["Inscription Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "87578" },
     [130749] = { Name = "Enchant Bracer - Exceptional Strength (Scaling)", DesignId = "99999", Source = LBIS.L["Enchanting Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "" },
     [130758] = { Name = "Enchant Shield - Greater Parry", DesignId = "99999", Source = LBIS.L["Enchanting Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "" },
