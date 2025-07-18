@@ -105,17 +105,17 @@ LBIS:AddItem(spec1, "86978", LBIS.L["Shoulder"], "Alt") --Wingslasher Pauldrons
 LBIS:AddItem(spec1, "84926", LBIS.L["Shoulder"], "Alt") --Malevolent Gladiator's Linked Spaulders
 LBIS:AddItem(spec1, "86855", LBIS.L["Shoulder"], "Alt") --Wingslasher Pauldrons
 LBIS:AddItem(spec1, "86963", LBIS.L["Back"], "BIS") --Legbreaker Greatcloak
+LBIS:AddItem(spec1, "89532", LBIS.L["Back"], "Alt") --Bladesong Cloak
 LBIS:AddItem(spec1, "89076", LBIS.L["Back"], "Alt") --Blackguard Cape
 LBIS:AddItem(spec1, "86831", LBIS.L["Back"], "Alt") --Legbreaker Greatcloak
 LBIS:AddItem(spec1, "87044", LBIS.L["Back"], "Alt") --Arrow Breaking Windcloak
 LBIS:AddItem(spec1, "81123", LBIS.L["Back"], "Alt") --Wind-Soaked Drape
-LBIS:AddItem(spec1, "89532", LBIS.L["Back"], "Alt") --Bladesong Cloak
 LBIS:AddItem(spec1, "87134", LBIS.L["Chest"], "BIS") --Firebird's Cuirass
+LBIS:AddItem(spec1, "89669", LBIS.L["Chest"], "Alt") --Undergrowth Stalker Chestpiece
 LBIS:AddItem(spec1, "89430", LBIS.L["Chest"], "Alt") --Breastplate of the Golden Pagoda
 LBIS:AddItem(spec1, "87823", LBIS.L["Chest"], "Alt") --Zor'lok's Fizzing Chestguard
 LBIS:AddItem(spec1, "89929", LBIS.L["Chest"], "Alt") --Stonefang Chestguard
 LBIS:AddItem(spec1, "81285", LBIS.L["Chest"], "Alt") --Galedodger Chestguard
-LBIS:AddItem(spec1, "89669", LBIS.L["Chest"], "Alt") --Undergrowth Stalker Chestpiece
 LBIS:AddItem(spec1, "87014", LBIS.L["Wrist"], "BIS") --Stonemaw Armguards
 LBIS:AddItem(spec1, "89647", LBIS.L["Wrist"], "Alt") --Entombed Traitor's Wristguards
 LBIS:AddItem(spec1, "88882", LBIS.L["Wrist"], "Alt") --Tiger-Striped Wristguards
