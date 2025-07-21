@@ -17,6 +17,7 @@ public class EmblemImporter : LootImporter
         "https://www.wowhead.com/mop-classic/npc=248108/avatar-of-the-august-celestials#sells;150",
         "https://www.wowhead.com/mop-classic/npc=248108/avatar-of-the-august-celestials#sells;200",
         "https://www.wowhead.com/mop-classic/npc=64606/commander-oxheart#sells",
+        "https://www.wowhead.com/mop-classic/npc=64607/commander-lo-ping#sells",
     };
 
     private List<string> guideUriList = new List<string>()

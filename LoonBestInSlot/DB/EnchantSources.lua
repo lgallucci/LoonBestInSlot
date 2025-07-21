@@ -16,6 +16,7 @@ LBIS.EnchantSources =
     [104397] = { Name = "Enchant Chest - Superior Stamina", DesignId = "84565", Source = LBIS.L["Enchanting Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "84565" },
     [104398] = { Name = "Enchant Cloak - Accuracy", DesignId = "84568", Source = LBIS.L["Enchanting Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "84568" },
     [104401] = { Name = "Enchant Cloak - Greater Protection", DesignId = "84566", Source = LBIS.L["Enchanting Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "84566" },
+    [104403] = { Name = "Enchant Cloak - Superior Intellect", DesignId = "84569", Source = LBIS.L["Enchanting Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "84569" },
     [104404] = { Name = "Enchant Cloak - Superior Critical Strike", DesignId = "84567", Source = LBIS.L["Enchanting Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "84567" },
     [104407] = { Name = "Enchant Boots - Greater Haste", DesignId = "84554", Source = LBIS.L["Enchanting Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "84554" },
     [104408] = { Name = "Enchant Boots - Greater Precision", DesignId = "84555", Source = LBIS.L["Enchanting Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "84555" },
