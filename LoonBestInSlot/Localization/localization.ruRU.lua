@@ -1,5 +1,6 @@
 if GetLocale() == "ruRU" then
   LBIS.L["# Best for:"] = "# Лучшее для";
+--  LBIS.L["Aethis"] = "";
   LBIS.L["Affliction"] = "Колдовство";
   LBIS.L["Alchemy (505)"] = "Алхимия (505)";
   LBIS.L["Alchemy (510)"] = "Алхимия (510)";
@@ -150,6 +151,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Jewelcrafting (605)"] = "Ювелирное дело (605)";
 --  LBIS.L["Jewelcrafting Supplies"] = "";
 --  LBIS.L["Kor'kron Arcweaver"] = "";
+--  LBIS.L["Kor'nas Nightsavage"] = "";
   LBIS.L["Kun-Lai Summit"] = "Вершина Кунь-Лай";
   LBIS.L["Leatherworking (510)"] = "Кожевничество (510)";
   LBIS.L["Leatherworking (515)"] = "Кожевничество (515)";
@@ -188,6 +190,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Mogu'Shan Vaults"] = "";
 --  LBIS.L["Mogu'shan Vaults,"] = "";
   LBIS.L["Monk"] = "Монах";
+--  LBIS.L["Morgrinn Crackfang"] = "";
   LBIS.L["Neck"] = "Шея";
 --  LBIS.L["New Features"] = "";
   LBIS.L["None"] = "Нет";
@@ -222,6 +225,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Ring"] = "Палец";
 --  LBIS.L["Rogue Pickpocket"] = "";
   LBIS.L["Saboteur Kip'tilak"] = "Диверсант Кип'тилак";
+--  LBIS.L["Sarnak"] = "";
   LBIS.L["Select"] = "Выбрать";
 --  LBIS.L["Serpent Deck"] = "";
   LBIS.L["Settings"] = "Параметры";
@@ -292,6 +296,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Tsulong (N)"] = "Цулон (Нормал)";
   LBIS.L["Unholy"] = "Нечестивость";
 --  LBIS.L["unknown"] = "";
+--  LBIS.L["Urobi the Walker"] = "";
   LBIS.L["Vale of Eternal Blossoms"] = "Вечноцветущий дол";
   LBIS.L["Valley of the Four Winds"] = "Долина Четырех Ветров";
 --  LBIS.L["Various Bosses"] = "";

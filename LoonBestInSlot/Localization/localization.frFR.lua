@@ -1,5 +1,6 @@
 if GetLocale() == "frFR" then
   LBIS.L["# Best for:"] = "# Meilleur pour";
+--  LBIS.L["Aethis"] = "";
   LBIS.L["Affliction"] = "Affliction";
   LBIS.L["Alchemy (505)"] = "Alchimie (505)";
   LBIS.L["Alchemy (510)"] = "Alchimie (510)";
@@ -150,6 +151,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Jewelcrafting (605)"] = "Joaillerie (605)";
 --  LBIS.L["Jewelcrafting Supplies"] = "";
 --  LBIS.L["Kor'kron Arcweaver"] = "";
+--  LBIS.L["Kor'nas Nightsavage"] = "";
   LBIS.L["Kun-Lai Summit"] = "Sommet de Kun-Lai";
   LBIS.L["Leatherworking (510)"] = "Travail du cuir (510)";
   LBIS.L["Leatherworking (515)"] = "Travail du cuir (515)";
@@ -188,6 +190,7 @@ if GetLocale() == "frFR" then
 --  LBIS.L["Mogu'Shan Vaults"] = "";
 --  LBIS.L["Mogu'shan Vaults,"] = "";
   LBIS.L["Monk"] = "Moine";
+--  LBIS.L["Morgrinn Crackfang"] = "";
   LBIS.L["Neck"] = "Cou";
 --  LBIS.L["New Features"] = "";
   LBIS.L["None"] = "Aucune";
@@ -222,6 +225,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Ring"] = "Anneau";
 --  LBIS.L["Rogue Pickpocket"] = "";
   LBIS.L["Saboteur Kip'tilak"] = "Saboteur Kip'tilak";
+--  LBIS.L["Sarnak"] = "";
   LBIS.L["Select"] = "Sélectionner";
 --  LBIS.L["Serpent Deck"] = "";
   LBIS.L["Settings"] = "Réglages";
@@ -292,6 +296,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Tsulong (N)"] = "Tsulong (N)";
   LBIS.L["Unholy"] = "Impie";
 --  LBIS.L["unknown"] = "";
+--  LBIS.L["Urobi the Walker"] = "";
   LBIS.L["Vale of Eternal Blossoms"] = "Val de l’Éternel printemps";
   LBIS.L["Valley of the Four Winds"] = "Vallée des Quatre vents";
 --  LBIS.L["Various Bosses"] = "";

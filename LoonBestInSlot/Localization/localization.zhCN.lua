@@ -1,5 +1,6 @@
 if GetLocale() == "zhCN" then
   LBIS.L["# Best for:"] = "# 最适合";
+--  LBIS.L["Aethis"] = "";
   LBIS.L["Affliction"] = "痛苦";
   LBIS.L["Alchemy (505)"] = "炼金术 (505)";
   LBIS.L["Alchemy (510)"] = "炼金术 (510)";
@@ -150,6 +151,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Jewelcrafting (605)"] = "珠宝加工 (605)";
 --  LBIS.L["Jewelcrafting Supplies"] = "";
 --  LBIS.L["Kor'kron Arcweaver"] = "";
+--  LBIS.L["Kor'nas Nightsavage"] = "";
   LBIS.L["Kun-Lai Summit"] = "昆莱山";
   LBIS.L["Leatherworking (510)"] = "制皮 (510)";
   LBIS.L["Leatherworking (515)"] = "制皮 (515)";
@@ -188,6 +190,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Mogu'Shan Vaults"] = "";
 --  LBIS.L["Mogu'shan Vaults,"] = "";
   LBIS.L["Monk"] = "LOCALIZED_CLASS_NAMES_MALE.MONK";
+--  LBIS.L["Morgrinn Crackfang"] = "";
   LBIS.L["Neck"] = "颈部";
 --  LBIS.L["New Features"] = "";
   LBIS.L["None"] = "暂无";
@@ -222,6 +225,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Ring"] = "手指";
 --  LBIS.L["Rogue Pickpocket"] = "";
   LBIS.L["Saboteur Kip'tilak"] = "破坏者吉普提拉克";
+--  LBIS.L["Sarnak"] = "";
   LBIS.L["Select"] = "选择";
 --  LBIS.L["Serpent Deck"] = "";
   LBIS.L["Settings"] = "设置";
@@ -292,6 +296,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Tsulong (N)"] = "烛龙 (普通)";
   LBIS.L["Unholy"] = "邪恶";
 --  LBIS.L["unknown"] = "";
+--  LBIS.L["Urobi the Walker"] = "";
   LBIS.L["Vale of Eternal Blossoms"] = "锦绣谷";
   LBIS.L["Valley of the Four Winds"] = "四风谷";
 --  LBIS.L["Various Bosses"] = "";

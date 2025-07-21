@@ -1,5 +1,6 @@
 if GetLocale() == "koKR" then
   LBIS.L["# Best for:"] = "# BIS 직업:";
+--  LBIS.L["Aethis"] = "";
   LBIS.L["Affliction"] = "고통";
   LBIS.L["Alchemy (505)"] = "연금술 (505)";
   LBIS.L["Alchemy (510)"] = "연금술 (510)";
@@ -150,6 +151,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Jewelcrafting (605)"] = "보석세공 (605)";
 --  LBIS.L["Jewelcrafting Supplies"] = "";
 --  LBIS.L["Kor'kron Arcweaver"] = "";
+--  LBIS.L["Kor'nas Nightsavage"] = "";
   LBIS.L["Kun-Lai Summit"] = "쿤라이 봉우리";
   LBIS.L["Leatherworking (510)"] = "가죽세공 (510)";
   LBIS.L["Leatherworking (515)"] = "가죽세공 (515)";
@@ -188,6 +190,7 @@ if GetLocale() == "koKR" then
 --  LBIS.L["Mogu'Shan Vaults"] = "";
 --  LBIS.L["Mogu'shan Vaults,"] = "";
   LBIS.L["Monk"] = "수도사";
+--  LBIS.L["Morgrinn Crackfang"] = "";
   LBIS.L["Neck"] = "목";
   LBIS.L["New Features"] = "새로운 기능";
   LBIS.L["None"] = "없음";
@@ -222,6 +225,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Ring"] = "손가락";
 --  LBIS.L["Rogue Pickpocket"] = "";
   LBIS.L["Saboteur Kip'tilak"] = "파괴자 키프틸락";
+--  LBIS.L["Sarnak"] = "";
   LBIS.L["Select"] = "선택";
 --  LBIS.L["Serpent Deck"] = "";
   LBIS.L["Settings"] = "설정";
@@ -292,6 +296,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Tsulong (N)"] = "출롱 (N)";
   LBIS.L["Unholy"] = "부정";
 --  LBIS.L["unknown"] = "";
+--  LBIS.L["Urobi the Walker"] = "";
   LBIS.L["Vale of Eternal Blossoms"] = "영원꽃 골짜기";
   LBIS.L["Valley of the Four Winds"] = "네 바람의 계곡";
   LBIS.L["Various Bosses"] = "기타 보스들";
