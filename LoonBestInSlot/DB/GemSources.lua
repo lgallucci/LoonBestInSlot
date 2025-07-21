@@ -4,6 +4,7 @@ LBIS.GemSources =
     [59478] = { Name = "Smooth Cogwheel", DesignId = "99999", Source = LBIS.L["Engineering Supplies"], SourceLocation = LBIS.L["Faction Capital"] },
     [59479] = { Name = "Quick Cogwheel", DesignId = "99999", Source = LBIS.L["Engineering Supplies"], SourceLocation = LBIS.L["Faction Capital"] },
     [59480] = { Name = "Fractured Cogwheel", DesignId = "99999", Source = LBIS.L["Engineering Supplies"], SourceLocation = LBIS.L["Faction Capital"] },
+    [59493] = { Name = "Rigid Cogwheel", DesignId = "99999", Source = LBIS.L["Engineering Supplies"], SourceLocation = LBIS.L["Faction Capital"] },
     [68779] = { Name = "Reverberating Shadowspirit Diamond", DesignId = "68782", Source = LBIS.L["World Drop"], SourceLocation = "" },
     [68780] = { Name = "Burning Shadowspirit Diamond", DesignId = "68783", Source = LBIS.L["World Drop"], SourceLocation = "" },
     [76618] = { Name = "Perfect Etched Roguestone", DesignId = "83850", Source = LBIS.L["Jewelcrafting Supplies"], SourceLocation = LBIS.L["The Jade Forest"] },

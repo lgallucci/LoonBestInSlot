@@ -1,12 +1,14 @@
 LBIS.EnchantSources =
 {
     [8024] = { Name = "Flametongue Weapon", DesignId = "99999", Source = LBIS.L["Shaman Spell"], SourceLocation = "", TextureId = "" },
+    [51730] = { Name = "Earthliving Weapon", DesignId = "99999", Source = LBIS.L["Shaman Spell"], SourceLocation = "", TextureId = "" },
     [53343] = { Name = "Rune of Razorice", DesignId = "99999", Source = LBIS.L["Death Knight Spell"], SourceLocation = "", TextureId = "" },
     [53344] = { Name = "Rune of the Fallen Crusader", DesignId = "99999", Source = LBIS.L["Death Knight Spell"], SourceLocation = "", TextureId = "" },
     [54999] = { Name = "Hyperspeed Accelerators", DesignId = "99999", Source = LBIS.L["Engineering Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "" },
     [55642] = { Name = "Lightweave Embroidery", DesignId = "99999", Source = LBIS.L["Tailoring Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "" },
     [74230] = { Name = "Enchant Cloak - Critical Strike", DesignId = "99999", Source = LBIS.L["Enchanting Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "" },
     [82175] = { Name = "Synapse Springs", DesignId = "99999", Source = LBIS.L["Engineering Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "" },
+    [96264] = { Name = "Enchant Bracer - Agility", DesignId = "68787", Source = LBIS.L["World Drop"], SourceLocation = "", TextureId = "68787" },
     [104338] = { Name = "Enchant Bracer - Mastery", DesignId = "84560", Source = LBIS.L["Enchanting Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "84560" },
     [104385] = { Name = "Enchant Bracer - Major Dodge", DesignId = "84558", Source = LBIS.L["Enchanting Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "84558" },
     [104389] = { Name = "Enchant Bracer - Super Intellect", DesignId = "84559", Source = LBIS.L["Enchanting Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "84559" },
@@ -29,6 +31,7 @@ LBIS.EnchantSources =
     [104425] = { Name = "Enchant Weapon - Windsong", DesignId = "84582", Source = LBIS.L["Enchanting Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "84582" },
     [104427] = { Name = "Enchant Weapon - Jade Spirit", DesignId = "84583", Source = LBIS.L["Enchanting Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "84583" },
     [104434] = { Name = "Enchant Weapon - Dancing Steel", DesignId = "84584", Source = LBIS.L["Enchanting Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "84584" },
+    [104440] = { Name = "Enchant Weapon - Colossus", DesignId = "84579", Source = LBIS.L["Enchanting Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "84579" },
     [104442] = { Name = "Enchant Weapon - River's Song", DesignId = "84580", Source = LBIS.L["Enchanting Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "84580" },
     [104445] = { Name = "Enchant Off-Hand - Major Intellect", DesignId = "84574", Source = LBIS.L["Enchanting Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "84574" },
     [109086] = { Name = "Lord Blastington's Scope of Doom", DesignId = "77529", Source = LBIS.L["Engineering Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "77529" },
@@ -66,6 +69,7 @@ LBIS.EnchantSources =
     [141177] = { Name = "Enchant Weapon - Jade Spirit", DesignId = "99999", Source = LBIS.L["Enchanting Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "" },
     [141330] = { Name = "Synapse Springs", DesignId = "99999", Source = LBIS.L["Engineering Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "" },
     [141862] = { Name = "Enchant Gloves - Superior Mastery", DesignId = "99999", Source = LBIS.L["Enchanting Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "" },
+    [141868] = { Name = "Enchant Bracer - Mastery", DesignId = "99999", Source = LBIS.L["Enchanting Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "" },
     [142173] = { Name = "Lightweave Embroidery", DesignId = "99999", Source = LBIS.L["Tailoring Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "" },
     [142175] = { Name = "Enchant Chest - Glorious Stats", DesignId = "99999", Source = LBIS.L["Enchanting Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "" },
 }
