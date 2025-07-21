@@ -100,8 +100,8 @@ LBIS:AddItem(spec0, "84790", LBIS.L["Main Hand"], "Alt") --Malevolent Gladiator'
 LBIS:AddItem(spec0, "86905", LBIS.L["Main Hand"], "Alt") --Shin'ka, Execution of Dominion
 
 LBIS:AddItem(spec1, "87101", LBIS.L["Head"], "BIS") --White Tiger Helmet
-LBIS:AddItem(spec1, "86681", LBIS.L["Head"], "Alt") --White Tiger Helmet
 LBIS:AddItem(spec1, "81241", LBIS.L["Head"], "Alt") --Meteoric Greathelm
+LBIS:AddItem(spec1, "86681", LBIS.L["Head"], "Alt") --White Tiger Helmet
 LBIS:AddItem(spec1, "87024", LBIS.L["Head"], "Alt") --Nullification Greathelm
 LBIS:AddItem(spec1, "77539", LBIS.L["Head"], "Alt") --Reinforced Retinal Armor
 LBIS:AddItem(spec1, "89280", LBIS.L["Head"], "Alt") --Voice Amplyifying Greathelm
@@ -109,24 +109,25 @@ LBIS:AddItem(spec1, "86986", LBIS.L["Shoulder"], "BIS") --Shoulderpads of Missha
 LBIS:AddItem(spec1, "89345", LBIS.L["Shoulder"], "Alt") --Stonetoe Spaulders
 LBIS:AddItem(spec1, "86860", LBIS.L["Shoulder"], "Alt") --Shoulderpads of Misshapen Life
 LBIS:AddItem(spec1, "81098", LBIS.L["Shoulder"], "Alt") --Acid-Scarred Spaulders
-LBIS:AddItem(spec1, "86947", LBIS.L["Back"], "BIS") --Gloves of Grasping Claws
+LBIS:AddItem(spec1, "86945", LBIS.L["Back"], "BIS") --Hisek's Chrysanthemum Cape
 LBIS:AddItem(spec1, "89074", LBIS.L["Back"], "Alt") --Cloak of the Dark Disciple
 LBIS:AddItem(spec1, "86812", LBIS.L["Back"], "Alt") --Hisek's Chrysanthemum Cape
 LBIS:AddItem(spec1, "81234", LBIS.L["Back"], "Alt") --Drape of the Screeching Swarm
 LBIS:AddItem(spec1, "87026", LBIS.L["Back"], "Alt") --Cloak of Peacock Feathers
+LBIS:AddItem(spec1, "86947", LBIS.L["Back"], "Alt") --Gloves of Grasping Claws
 LBIS:AddItem(spec1, "87099", LBIS.L["Chest"], "BIS") --White Tiger Battleplate
 LBIS:AddItem(spec1, "89420", LBIS.L["Chest"], "Alt") --Dawnblade's Chestguard
 LBIS:AddItem(spec1, "90600", LBIS.L["Chest"], "Alt") --Ferocious Plate of the Golden Lotus
 LBIS:AddItem(spec1, "82975", LBIS.L["Chest"], "Alt") --Ghost Reaver's Breastplate
-LBIS:AddItem(spec1, "81083", LBIS.L["Chest"], "Alt") --Riverbed Chestguard
 LBIS:AddItem(spec1, "87048", LBIS.L["Chest"], "Alt") --Breastplate of the Kings' Guard
 LBIS:AddItem(spec1, "86683", LBIS.L["Chest"], "Alt") --White Tiger Battleplate
+LBIS:AddItem(spec1, "81083", LBIS.L["Chest"], "Alt") --Riverbed Chestguard
 LBIS:AddItem(spec1, "89923", LBIS.L["Chest"], "Alt") --Garalon's Graven Carapace
 LBIS:AddItem(spec1, "90506", LBIS.L["Wrist"], "BIS") --Bracers of Defiled Earth
 LBIS:AddItem(spec1, "88879", LBIS.L["Wrist"], "Alt") --Braided Black and White Bracer
+LBIS:AddItem(spec1, "81694", LBIS.L["Wrist"], "Alt") --Commanding Bracers
 LBIS:AddItem(spec1, "89934", LBIS.L["Wrist"], "Alt") --Bonded Soul Bracers
 LBIS:AddItem(spec1, "86868", LBIS.L["Wrist"], "Alt") --Bracers of Defiled Earth
-LBIS:AddItem(spec1, "81694", LBIS.L["Wrist"], "Alt") --Commanding Bracers
 LBIS:AddItem(spec1, "87100", LBIS.L["Hands"], "BIS") --White Tiger Gauntlets
 LBIS:AddItem(spec1, "88747", LBIS.L["Hands"], "Alt") --Streetfighter's Iron Knuckles
 LBIS:AddItem(spec1, "87407", LBIS.L["Hands"], "Alt") --Bloodforged Warfists
@@ -141,14 +142,14 @@ LBIS:AddItem(spec1, "90456", LBIS.L["Waist"], "Alt") --Cord of Crazed Strength
 LBIS:AddItem(spec1, "81190", LBIS.L["Waist"], "Alt") --Grenadier's Belt
 LBIS:AddItem(spec1, "87102", LBIS.L["Legs"], "BIS") --White Tiger Legplates
 LBIS:AddItem(spec1, "89095", LBIS.L["Legs"], "Alt") --Legguards of the Unscathed
-LBIS:AddItem(spec1, "86660", LBIS.L["Legs"], "Alt") --White Tiger Legguards
 LBIS:AddItem(spec1, "87071", LBIS.L["Legs"], "Alt") --Jang-xi's Devastating Legplates
 LBIS:AddItem(spec1, "82812", LBIS.L["Legs"], "Alt") --Pyretic Legguards
+LBIS:AddItem(spec1, "86660", LBIS.L["Legs"], "Alt") --White Tiger Legguards
 LBIS:AddItem(spec1, "86979", LBIS.L["Feet"], "BIS") --Impaling Treads
 LBIS:AddItem(spec1, "88862", LBIS.L["Feet"], "Alt") --Tankiss Warstompers
+LBIS:AddItem(spec1, "86852", LBIS.L["Feet"], "Alt") --Impaling Treads
 LBIS:AddItem(spec1, "87015", LBIS.L["Feet"], "Alt") --Jasper Clawfeet
 LBIS:AddItem(spec1, "81113", LBIS.L["Feet"], "Alt") --Spike-Soled Stompers
-LBIS:AddItem(spec1, "86852", LBIS.L["Feet"], "Alt") --Impaling Treads
 LBIS:AddItem(spec1, "90508", LBIS.L["Neck"], "BIS") --Shackle of Eversparks
 LBIS:AddItem(spec1, "89064", LBIS.L["Neck"], "Alt") --Bloodseeker's Solitaire
 LBIS:AddItem(spec1, "86967", LBIS.L["Neck"], "Alt") --Necklace of Congealed Weaknesses
