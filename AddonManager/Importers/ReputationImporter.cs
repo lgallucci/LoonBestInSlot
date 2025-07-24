@@ -30,8 +30,9 @@ public class ReputationImporter : LootImporter
         await Common.ReadWowheadSellsList(wowheadUriList.Keys.ToList(), (uri, row, itemId, item) =>
         {
             var standingColumn = row.Children[5];
-            var itemName = item.TextContent;
-            if (standingColumn != null)
+            var itemName = item.TextContent;            
+
+            if (standingColumn != null && !IsExcluded(itemName))
             {
                 var reputation = standingColumn.TextContent;
 
@@ -50,5 +51,17 @@ public class ReputationImporter : LootImporter
         }, writeToLog, _importCancelToken, true);
 
         return items;
+    }
+
+    private bool IsExcluded(string itemName)
+    {
+        if (itemName.StartsWith("Plans: ") ||
+            itemName.StartsWith("Pattern: ") ||
+            itemName.StartsWith("Recipe: ") ||
+            itemName.StartsWith("Reins of "))
+        {
+            return true;
+        }
+        return false;
     }
 }

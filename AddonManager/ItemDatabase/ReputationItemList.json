@@ -1,227 +1,11 @@
 {
   "Items": {
-    "84557": {
-      "Name": "Formula: Enchant Bracer - Greater Agility",
-      "Source": "The August Celestials",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
-    },
-    "84559": {
-      "Name": "Formula: Enchant Bracer - Super Intellect",
-      "Source": "The August Celestials",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
-    },
-    "84561": {
-      "Name": "Formula: Enchant Bracer - Exceptional Strength",
-      "Source": "The August Celestials",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
-    },
-    "84580": {
-      "Name": "Formula: Enchant Weapon - River's Song",
-      "Source": "Shado-Pan",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
-    },
-    "84583": {
-      "Name": "Formula: Enchant Weapon - Jade Spirit",
-      "Source": "Shado-Pan",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
-    },
-    "84584": {
-      "Name": "Formula: Enchant Weapon - Dancing Steel",
-      "Source": "Shado-Pan",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
-    },
-    "86235": {
-      "Name": "Pattern: Angerhide Leg Armor",
-      "Source": "The Golden Lotus",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Honored",
-      "SourceFaction": "B"
-    },
-    "86237": {
-      "Name": "Pattern: Chestguard of Earthen Harmony",
-      "Source": "The Golden Lotus",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Honored",
-      "SourceFaction": "B"
-    },
-    "86273": {
-      "Name": "Pattern: Gloves of Earthen Harmony",
-      "Source": "The Golden Lotus",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Honored",
-      "SourceFaction": "B"
-    },
-    "86274": {
-      "Name": "Pattern: Greyshadow Chestguard",
-      "Source": "The Golden Lotus",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Honored",
-      "SourceFaction": "B"
-    },
-    "86275": {
-      "Name": "Pattern: Greyshadow Gloves",
-      "Source": "The Golden Lotus",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Honored",
-      "SourceFaction": "B"
-    },
-    "86276": {
-      "Name": "Pattern: Ironscale Leg Armor",
-      "Source": "The Golden Lotus",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Honored",
-      "SourceFaction": "B"
-    },
-    "86277": {
-      "Name": "Pattern: Lifekeeper's Gloves",
-      "Source": "The Golden Lotus",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Honored",
-      "SourceFaction": "B"
-    },
-    "86278": {
-      "Name": "Pattern: Lifekeeper's Robe",
-      "Source": "The Golden Lotus",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Honored",
-      "SourceFaction": "B"
-    },
-    "86295": {
-      "Name": "Pattern: Shadowleather Leg Armor",
-      "Source": "The Golden Lotus",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Honored",
-      "SourceFaction": "B"
-    },
-    "86308": {
-      "Name": "Pattern: Wildblood Gloves",
-      "Source": "The Golden Lotus",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Honored",
-      "SourceFaction": "B"
-    },
-    "86309": {
-      "Name": "Pattern: Wildblood Vest",
-      "Source": "The Golden Lotus",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Honored",
-      "SourceFaction": "B"
-    },
-    "86368": {
-      "Name": "Pattern: Spelltwister's Grand Robe",
-      "Source": "The Golden Lotus",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Honored",
-      "SourceFaction": "B"
-    },
-    "86369": {
-      "Name": "Pattern: Spelltwister's Gloves",
-      "Source": "The Golden Lotus",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Honored",
-      "SourceFaction": "B"
-    },
-    "86370": {
-      "Name": "Pattern: Robes of Creation",
-      "Source": "The Golden Lotus",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Honored",
-      "SourceFaction": "B"
-    },
-    "86371": {
-      "Name": "Pattern: Gloves of Creation",
-      "Source": "The Golden Lotus",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Honored",
-      "SourceFaction": "B"
-    },
-    "86375": {
-      "Name": "Pattern: Greater Pearlescent Spellthread",
-      "Source": "The Golden Lotus",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Honored",
-      "SourceFaction": "B"
-    },
-    "86376": {
-      "Name": "Pattern: Greater Cerulean Spellthread",
-      "Source": "The Golden Lotus",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Honored",
-      "SourceFaction": "B"
-    },
-    "86377": {
-      "Name": "Pattern: Royal Satchel",
-      "Source": "The August Celestials",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Exalted",
-      "SourceFaction": "B"
-    },
-    "87781": {
-      "Name": "Reins of the Azure Riding Crane",
-      "Source": "The Golden Lotus",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Exalted",
-      "SourceFaction": "B"
-    },
-    "87782": {
-      "Name": "Reins of the Golden Riding Crane",
-      "Source": "The Golden Lotus",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Exalted",
-      "SourceFaction": "B"
-    },
-    "87783": {
-      "Name": "Reins of the Regal Riding Crane",
-      "Source": "The Golden Lotus",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Exalted",
-      "SourceFaction": "B"
-    },
     "88741": {
       "Name": "Gloves of Red Feathers",
       "Source": "The August Celestials",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Honored",
       "SourceFaction": "B"
     },
     "88742": {
@@ -229,7 +13,7 @@
       "Source": "The August Celestials",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Honored",
       "SourceFaction": "B"
     },
     "88743": {
@@ -237,7 +21,7 @@
       "Source": "The August Celestials",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Honored",
       "SourceFaction": "B"
     },
     "88744": {
@@ -245,7 +29,7 @@
       "Source": "The August Celestials",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Honored",
       "SourceFaction": "B"
     },
     "88745": {
@@ -253,7 +37,7 @@
       "Source": "The August Celestials",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Honored",
       "SourceFaction": "B"
     },
     "88746": {
@@ -261,7 +45,7 @@
       "Source": "The August Celestials",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Honored",
       "SourceFaction": "B"
     },
     "88747": {
@@ -269,7 +53,7 @@
       "Source": "The August Celestials",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Honored",
       "SourceFaction": "B"
     },
     "88748": {
@@ -277,7 +61,7 @@
       "Source": "The August Celestials",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Honored",
       "SourceFaction": "B"
     },
     "88749": {
@@ -285,7 +69,7 @@
       "Source": "The August Celestials",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Honored",
       "SourceFaction": "B"
     },
     "88862": {
@@ -293,7 +77,7 @@
       "Source": "The August Celestials",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Revered",
       "SourceFaction": "B"
     },
     "88864": {
@@ -301,7 +85,7 @@
       "Source": "The August Celestials",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Revered",
       "SourceFaction": "B"
     },
     "88865": {
@@ -309,7 +93,7 @@
       "Source": "The August Celestials",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Revered",
       "SourceFaction": "B"
     },
     "88866": {
@@ -317,7 +101,7 @@
       "Source": "The August Celestials",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Revered",
       "SourceFaction": "B"
     },
     "88867": {
@@ -325,7 +109,7 @@
       "Source": "The August Celestials",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Revered",
       "SourceFaction": "B"
     },
     "88868": {
@@ -333,7 +117,7 @@
       "Source": "The August Celestials",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Revered",
       "SourceFaction": "B"
     },
     "88876": {
@@ -341,7 +125,7 @@
       "Source": "The August Celestials",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Revered",
       "SourceFaction": "B"
     },
     "88877": {
@@ -349,7 +133,7 @@
       "Source": "The August Celestials",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Revered",
       "SourceFaction": "B"
     },
     "88878": {
@@ -357,7 +141,7 @@
       "Source": "The August Celestials",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Revered",
       "SourceFaction": "B"
     },
     "88879": {
@@ -365,7 +149,7 @@
       "Source": "The August Celestials",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Honored",
       "SourceFaction": "B"
     },
     "88880": {
@@ -373,7 +157,7 @@
       "Source": "The August Celestials",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Honored",
       "SourceFaction": "B"
     },
     "88881": {
@@ -381,7 +165,7 @@
       "Source": "The August Celestials",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Honored",
       "SourceFaction": "B"
     },
     "88882": {
@@ -389,7 +173,7 @@
       "Source": "The August Celestials",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Honored",
       "SourceFaction": "B"
     },
     "88883": {
@@ -397,7 +181,7 @@
       "Source": "The August Celestials",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Honored",
       "SourceFaction": "B"
     },
     "88884": {
@@ -405,7 +189,7 @@
       "Source": "The August Celestials",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Honored",
       "SourceFaction": "B"
     },
     "88885": {
@@ -413,7 +197,7 @@
       "Source": "The August Celestials",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Honored",
       "SourceFaction": "B"
     },
     "88892": {
@@ -421,7 +205,7 @@
       "Source": "The August Celestials",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Honored",
       "SourceFaction": "B"
     },
     "88893": {
@@ -429,7 +213,7 @@
       "Source": "The August Celestials",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Honored",
       "SourceFaction": "B"
     },
     "88995": {
@@ -440,12 +224,124 @@
       "SourceLocation": "",
       "SourceFaction": "B"
     },
+    "89055": {
+      "Name": "Klaxxi Lash of the Rescinder",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "89056": {
+      "Name": "Klaxxi Lash of the Consumer",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "89057": {
+      "Name": "Klaxxi Lash of the Doubter",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "89058": {
+      "Name": "Klaxxi Lash of the Winnower",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "89059": {
+      "Name": "Klaxxi Lash of the Precursor",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "89060": {
+      "Name": "Klaxxi Lash of the Borrower",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "89061": {
+      "Name": "Klaxxi Lash of the Harbinger",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "89062": {
+      "Name": "Klaxxi Lash of the Orator",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "89063": {
+      "Name": "Klaxxi Lash of the Seeker",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "89064": {
+      "Name": "Bloodseeker's Solitaire",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "89065": {
+      "Name": "Choker of the Klaxxi'va",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "89066": {
+      "Name": "Paragon's Pale Pendant",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "89067": {
+      "Name": "Links of the Lucid",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "89068": {
+      "Name": "Wire of the Wakener",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
     "89069": {
       "Name": "Ring of the Golden Stair",
       "Source": "The Golden Lotus",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Honored",
       "SourceFaction": "B"
     },
     "89070": {
@@ -453,7 +349,7 @@
       "Source": "The Golden Lotus",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Honored",
       "SourceFaction": "B"
     },
     "89071": {
@@ -461,15 +357,15 @@
       "Source": "The Golden Lotus",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Honored",
       "SourceFaction": "B"
     },
     "89072": {
-      "Name": "Simple Harmonious Ring",
+      "Name": "Simple Harmonius Ring",
       "Source": "The Golden Lotus",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Honored",
       "SourceFaction": "B"
     },
     "89073": {
@@ -477,7 +373,7 @@
       "Source": "The Golden Lotus",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Honored",
       "SourceFaction": "B"
     },
     "89074": {
@@ -485,7 +381,7 @@
       "Source": "Shado-Pan",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Honored",
       "SourceFaction": "B"
     },
     "89075": {
@@ -493,7 +389,7 @@
       "Source": "Shado-Pan",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Honored",
       "SourceFaction": "B"
     },
     "89076": {
@@ -501,7 +397,7 @@
       "Source": "Shado-Pan",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Honored",
       "SourceFaction": "B"
     },
     "89077": {
@@ -509,7 +405,7 @@
       "Source": "Shado-Pan",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Honored",
       "SourceFaction": "B"
     },
     "89078": {
@@ -517,7 +413,7 @@
       "Source": "Shado-Pan",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Honored",
       "SourceFaction": "B"
     },
     "89079": {
@@ -525,7 +421,7 @@
       "Source": "Shado-Pan",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Honored",
       "SourceFaction": "B"
     },
     "89080": {
@@ -533,7 +429,7 @@
       "Source": "Shado-Pan",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Honored",
       "SourceFaction": "B"
     },
     "89081": {
@@ -541,7 +437,7 @@
       "Source": "Shado-Pan",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Honored",
       "SourceFaction": "B"
     },
     "89082": {
@@ -549,7 +445,7 @@
       "Source": "Shado-Pan",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Honored",
       "SourceFaction": "B"
     },
     "89083": {
@@ -557,7 +453,79 @@
       "Source": "Shado-Pan",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "89087": {
+      "Name": "Poisoncrafter's Kilt",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "89088": {
+      "Name": "Leggings of the Poisoned Soul",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "89089": {
+      "Name": "Wind-Reaver Greaves",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "89090": {
+      "Name": "Dreadsworn Slayer Legs",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "89091": {
+      "Name": "Swarmkeeper's Leggings",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "89092": {
+      "Name": "Locust Swarm Legguards",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "89093": {
+      "Name": "Kovok's Riven Legguards",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "89094": {
+      "Name": "Ambersmith Legplates",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "89095": {
+      "Name": "Legguards of the Unscathed",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
       "SourceFaction": "B"
     },
     "89096": {
@@ -565,7 +533,7 @@
       "Source": "Shado-Pan",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Revered",
       "SourceFaction": "B"
     },
     "89124": {
@@ -581,7 +549,15 @@
       "Source": "Shado-Pan",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "89230": {
+      "Name": "Restorative Amber",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
       "SourceFaction": "B"
     },
     "89232": {
@@ -597,7 +573,7 @@
       "Source": "Shado-Pan",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Revered",
       "SourceFaction": "B"
     },
     "89291": {
@@ -605,7 +581,7 @@
       "Source": "Shado-Pan",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Revered",
       "SourceFaction": "B"
     },
     "89296": {
@@ -613,7 +589,7 @@
       "Source": "Shado-Pan",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Revered",
       "SourceFaction": "B"
     },
     "89300": {
@@ -621,7 +597,7 @@
       "Source": "Shado-Pan",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Revered",
       "SourceFaction": "B"
     },
     "89301": {
@@ -648,44 +624,12 @@
       "SourceLocation": "Honored",
       "SourceFaction": "B"
     },
-    "89304": {
-      "Name": "Reins of the Thundering August Cloud Serpent",
-      "Source": "The August Celestials",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Exalted",
-      "SourceFaction": "B"
-    },
-    "89305": {
-      "Name": "Reins of the Green Shado-Pan Riding Tiger",
-      "Source": "Shado-Pan",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Exalted",
-      "SourceFaction": "B"
-    },
-    "89306": {
-      "Name": "Reins of the Red Shado-Pan Riding Tiger",
-      "Source": "Shado-Pan",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Exalted",
-      "SourceFaction": "B"
-    },
-    "89307": {
-      "Name": "Reins of the Blue Shado-Pan Riding Tiger",
-      "Source": "Shado-Pan",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Exalted",
-      "SourceFaction": "B"
-    },
     "89308": {
       "Name": "Snowdrift Helm",
       "Source": "Shado-Pan",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Revered",
       "SourceFaction": "B"
     },
     "89337": {
@@ -693,7 +637,7 @@
       "Source": "Shado-Pan",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Revered",
       "SourceFaction": "B"
     },
     "89338": {
@@ -701,7 +645,7 @@
       "Source": "Shado-Pan",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Revered",
       "SourceFaction": "B"
     },
     "89339": {
@@ -709,7 +653,7 @@
       "Source": "The Golden Lotus",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Honored",
       "SourceFaction": "B"
     },
     "89340": {
@@ -717,7 +661,7 @@
       "Source": "The Golden Lotus",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Honored",
       "SourceFaction": "B"
     },
     "89341": {
@@ -725,7 +669,7 @@
       "Source": "The Golden Lotus",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Honored",
       "SourceFaction": "B"
     },
     "89342": {
@@ -733,7 +677,7 @@
       "Source": "The Golden Lotus",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Honored",
       "SourceFaction": "B"
     },
     "89343": {
@@ -741,7 +685,7 @@
       "Source": "The Golden Lotus",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Honored",
       "SourceFaction": "B"
     },
     "89344": {
@@ -749,7 +693,7 @@
       "Source": "The Golden Lotus",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Honored",
       "SourceFaction": "B"
     },
     "89345": {
@@ -757,7 +701,7 @@
       "Source": "The Golden Lotus",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Honored",
       "SourceFaction": "B"
     },
     "89346": {
@@ -765,7 +709,7 @@
       "Source": "The Golden Lotus",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Honored",
       "SourceFaction": "B"
     },
     "89347": {
@@ -773,7 +717,79 @@
       "Source": "The Golden Lotus",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "89392": {
+      "Name": "Amber Spine of Klaxxi'vess",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "89393": {
+      "Name": "Amber Slicer of Klaxxi'vess",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "89394": {
+      "Name": "Amber Spear of Klaxxi'vess",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "89395": {
+      "Name": "Amber Scythe of Klaxxi'vess",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "89396": {
+      "Name": "Amber Espada of Klaxxi'vess",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "89397": {
+      "Name": "Amber Saber of Klaxxi'vess",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "89398": {
+      "Name": "Amber Flammard of Klaxxi'vess",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "89399": {
+      "Name": "Amber Sprayer of Klaxxi'vess",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "89400": {
+      "Name": "Amber Sledge of Klaxxi'vess",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
       "SourceFaction": "B"
     },
     "89420": {
@@ -781,7 +797,7 @@
       "Source": "The Golden Lotus",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Revered",
       "SourceFaction": "B"
     },
     "89421": {
@@ -789,7 +805,7 @@
       "Source": "The Golden Lotus",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Revered",
       "SourceFaction": "B"
     },
     "89423": {
@@ -797,7 +813,7 @@
       "Source": "The Golden Lotus",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Revered",
       "SourceFaction": "B"
     },
     "89429": {
@@ -805,7 +821,7 @@
       "Source": "The Golden Lotus",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Revered",
       "SourceFaction": "B"
     },
     "89430": {
@@ -813,7 +829,7 @@
       "Source": "The Golden Lotus",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Revered",
       "SourceFaction": "B"
     },
     "89431": {
@@ -821,7 +837,7 @@
       "Source": "The Golden Lotus",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Revered",
       "SourceFaction": "B"
     },
     "89432": {
@@ -829,7 +845,7 @@
       "Source": "The Golden Lotus",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Revered",
       "SourceFaction": "B"
     },
     "89433": {
@@ -837,7 +853,7 @@
       "Source": "The Golden Lotus",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Revered",
       "SourceFaction": "B"
     },
     "89434": {
@@ -845,7 +861,7 @@
       "Source": "The Golden Lotus",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "Revered",
       "SourceFaction": "B"
     },
     "89522": {
@@ -984,6 +1000,38 @@
       "SourceLocation": "",
       "SourceFaction": "B"
     },
+    "89644": {
+      "Name": "Sudden Insight Bracers",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89645": {
+      "Name": "Cruel Mercy Bracers",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89646": {
+      "Name": "Runoff Wristguards",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89647": {
+      "Name": "Entombed Traitor's Wristguards",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
     "89648": {
       "Name": "Bracers of Inner Light",
       "Source": "The Golden Lotus",
@@ -995,6 +1043,14 @@
     "89649": {
       "Name": "Serrated Forearm Guards",
       "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "",
+      "SourceFaction": "B"
+    },
+    "89650": {
+      "Name": "Emperor's Riding Gloves",
+      "Source": "The Klaxxi",
       "SourceType": "Reputation",
       "SourceNumber": "0",
       "SourceLocation": "",
@@ -1224,22 +1280,6 @@
       "SourceLocation": "Exalted",
       "SourceFaction": "B"
     },
-    "90531": {
-      "Name": "Plans: Ghost Iron Shield Spike",
-      "Source": "The Klaxxi",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Honored",
-      "SourceFaction": "B"
-    },
-    "90532": {
-      "Name": "Plans: Living Steel Weapon Chain",
-      "Source": "The Klaxxi",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Honored",
-      "SourceFaction": "B"
-    },
     "90844": {
       "Name": "Replica Shado-Pan Helmet",
       "Source": "Shado-Pan",
@@ -1262,38 +1302,6 @@
       "SourceType": "Reputation",
       "SourceNumber": "0",
       "SourceLocation": "Exalted",
-      "SourceFaction": "B"
-    },
-    "92522": {
-      "Name": "Grand Commendation of the Klaxxi",
-      "Source": "The Klaxxi",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
-    },
-    "93215": {
-      "Name": "Grand Commendation of the Golden Lotus",
-      "Source": "The Golden Lotus",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
-    },
-    "93220": {
-      "Name": "Grand Commendation of the Shado-Pan",
-      "Source": "Shado-Pan",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
-    },
-    "93224": {
-      "Name": "Grand Commendation of the August Celestials",
-      "Source": "The August Celestials",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Revered",
       "SourceFaction": "B"
     }
   }

@@ -81,10 +81,10 @@ public class DungeonImporter : LootImporter
         { @"https://www.wowhead.com/mop-classic/npc=59200/lilian-voss#drops;mode:heroic", "Lilian Voss, Heroic: Scholomance"},
         { @"https://www.wowhead.com/mop-classic/npc=59080/darkmaster-gandling#drops;mode:heroic", "Darkmaster Gandling, Heroic: Scholomance"},
 
-        { @"https://www.wowhead.com/mop-classic/npc=59789/thalnos-the-soulrender#drops;mode:heroic", "Thalnos the Soulrender, Heroic: Scarlet Monestary"},
-        { @"https://www.wowhead.com/mop-classic/npc=59223/brother-korloff#drops;mode:heroic", "Brother Korloff, Heroic: Scarlet Monestary"},
-        { @"https://www.wowhead.com/mop-classic/npc=60040/commander-durand#drops;mode:heroic", "Commander Durand, Heroic: Scarlet Monestary"},
-        { @"https://www.wowhead.com/mop-classic/npc=3977/high-inquisitor-whitemane#drops;mode:heroic", "High Inquisitor Whitemane, Heroic: Scarlet Monestary"},
+        { @"https://www.wowhead.com/mop-classic/npc=59789/thalnos-the-soulrender#drops;mode:heroic", "Thalnos the Soulrender, Heroic: Scarlet Monastery"},
+        { @"https://www.wowhead.com/mop-classic/npc=59223/brother-korloff#drops;mode:heroic", "Brother Korloff, Heroic: Scarlet Monastery"},
+        { @"https://www.wowhead.com/mop-classic/npc=60040/commander-durand#drops;mode:heroic", "Commander Durand, Heroic: Scarlet Monastery"},
+        { @"https://www.wowhead.com/mop-classic/npc=3977/high-inquisitor-whitemane#drops;mode:heroic", "High Inquisitor Whitemane, Heroic: Scarlet Monastery"},
     };
 
     public DungeonImporter(CancellationToken cancellationToken) : base(cancellationToken)

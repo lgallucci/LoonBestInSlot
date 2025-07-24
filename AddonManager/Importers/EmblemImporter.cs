@@ -17,6 +17,10 @@ public class EmblemImporter : LootImporter
         "https://www.wowhead.com/mop-classic/npc=248108/avatar-of-the-august-celestials#sells;150",
         "https://www.wowhead.com/mop-classic/npc=248108/avatar-of-the-august-celestials#sells;200",
         "https://www.wowhead.com/mop-classic/npc=64606/commander-oxheart#sells",
+        "https://www.wowhead.com/mop-classic/npc=64606/commander-oxheart#sells;50",
+        "https://www.wowhead.com/mop-classic/npc=64606/commander-oxheart#sells;100",
+        "https://www.wowhead.com/mop-classic/npc=64606/commander-oxheart#sells;150",
+        "https://www.wowhead.com/mop-classic/npc=64606/commander-oxheart#sells;200",
         "https://www.wowhead.com/mop-classic/npc=64607/commander-lo-ping#sells",
     };
 
