@@ -13,15 +13,15 @@ LBIS:AddGem(spec0, "76699", "3", "False") --Quick Sun's Radiance
 LBIS:AddGem(spec0, "76693", "3", "False") --Precise Primordial Ruby
 LBIS:AddGem(spec0, "76667", "3", "False") --Wicked Vermilion Onyx
 LBIS:AddGem(spec0, "77543", "3", "False") --Precise Tinker's Gear
-LBIS:AddGem(spec0, "76654", "3", "False") --Forceful Wild Jade
-LBIS:AddGem(spec0, "76636", "3", "False") --Rigid River's Heart
+LBIS:AddGem(spec0, "76681", "3", "False") --Accurate Imperial Amethyst
 LBIS:AddGem(spec0, "76639", "3", "False") --Solid River's Heart
+LBIS:AddGem(spec0, "76636", "3", "False") --Rigid River's Heart
 LBIS:AddGem(spec0, "76700", "3", "False") --Fractured Sun's Radiance
 LBIS:AddGem(spec0, "77542", "3", "False") --Quick Tinker's Gear
 LBIS:AddGem(spec0, "77547", "3", "False") --Fractured Tinker's Gear
 LBIS:AddGem(spec0, "77540", "3", "False") --Subtle Tinker's Gear
 LBIS:AddGem(spec0, "77544", "3", "False") --Flashing Tinker's Gear
-LBIS:AddGem(spec0, "76681", "3", "False") --Accurate Imperial Amethyst
+LBIS:AddGem(spec0, "76654", "3", "False") --Forceful Wild Jade
 LBIS:AddGem(spec0, "77545", "3", "False") --Rigid Tinker's Gear
 
 LBIS:AddEnchant(spec1, "121194", LBIS.L["Shoulder"]) --
@@ -93,6 +93,7 @@ LBIS:AddItem(spec0, "91656", LBIS.L["Feet"], "BIS") --Malevolent Gladiator's War
 LBIS:AddItem(spec0, "88864", LBIS.L["Feet"], "Alt") --Yu'lon Guardian Boots
 LBIS:AddItem(spec0, "88862", LBIS.L["Feet"], "Alt") --Tankiss Warstompers
 LBIS:AddItem(spec0, "84999", LBIS.L["Feet"], "Alt") --Malevolent Gladiator's Warboots of Alacrity
+LBIS:AddItem(spec0, "81073", LBIS.L["Feet"], "Alt") --Stonestep Boots
 LBIS:AddItem(spec0, "86852", LBIS.L["Feet"], "Alt") --Impaling Treads
 LBIS:AddItem(spec0, "90446", LBIS.L["Feet"], "Alt") --Silverspur Warboots
 LBIS:AddItem(spec0, "90447", LBIS.L["Feet"], "Alt") --Stompers of Vigorous Stomping
@@ -122,15 +123,15 @@ LBIS:AddItem(spec0, "79327", LBIS.L["Trinket"], "Alt") --Relic of Xuen
 LBIS:AddItem(spec0, "75274", LBIS.L["Trinket"], "Alt") --Zen Alchemist Stone
 LBIS:AddItem(spec0, "86881", LBIS.L["Trinket"], "Alt") --Stuff of Nightmares
 LBIS:AddItem(spec0, "81268", LBIS.L["Trinket"], "Alt") --Lessons of the Darkmaster
-LBIS:AddItem(spec0, "77530", LBIS.L["Trinket"], "Alt") --Ghost Iron Dragonling
 LBIS:AddItem(spec0, "86775", LBIS.L["Trinket"], "Alt") --Jade Warlord Figurine
+LBIS:AddItem(spec0, "77530", LBIS.L["Trinket"], "Alt") --Ghost Iron Dragonling
 LBIS:AddItem(spec0, "81061", LBIS.L["Main Hand"], "BIS") --Ook's Hozen Slicer
 LBIS:AddItem(spec0, "86863", LBIS.L["Main Hand"], "Alt") --Scimitar of Seven Stars
 LBIS:AddItem(spec0, "86789", LBIS.L["Main Hand"], "Alt") --Elegion, the Fanged Crescent
 LBIS:AddItem(spec0, "90575", LBIS.L["Off Hand"], "BIS") --Sutiru's Brazen Bulwark
 LBIS:AddItem(spec0, "81233", LBIS.L["Off Hand"], "Alt") --Impervious Carapace
-LBIS:AddItem(spec0, "86778", LBIS.L["Off Hand"], "Alt") --Steelskin, Qiang's Impervious Shield
 LBIS:AddItem(spec0, "84910", LBIS.L["Off Hand"], "Alt") --Malevolent Gladiator's Shield Wall
+LBIS:AddItem(spec0, "86778", LBIS.L["Off Hand"], "Alt") --Steelskin, Qiang's Impervious Shield
 
 LBIS:AddItem(spec1, "87111", LBIS.L["Head"], "BIS") --White Tiger Faceguard
 LBIS:AddItem(spec1, "77539", LBIS.L["Head"], "Alt") --Reinforced Retinal Armor

@@ -1035,6 +1035,7 @@ LBIS.ItemSources =
     [84986] = { Name = "Malevolent Gladiator's Armplates of Alacrity", SourceType = LBIS.L["Drop"], Source = LBIS.L["Sha of Anger"], SourceNumber = "0", SourceLocation = LBIS.L["Kun-Lai Summit"], SourceFaction = "B" },
     [84999] = { Name = "Malevolent Gladiator's Warboots of Alacrity", SourceType = LBIS.L["unknown"], Source = LBIS.L["unknown"], SourceNumber = "0", SourceLocation = LBIS.L["unknown"], SourceFaction = "B" },
     [85000] = { Name = "Malevolent Gladiator's Warboots of Cruelty", SourceType = LBIS.L["unknown"], Source = LBIS.L["unknown"], SourceNumber = "0", SourceLocation = LBIS.L["unknown"], SourceFaction = "B" },
+    [85063] = { Name = "Malevolent Gladiator's Plate Legguards", SourceType = LBIS.L["unknown"], Source = LBIS.L["unknown"], SourceNumber = "0", SourceLocation = LBIS.L["unknown"], SourceFaction = "B" },
     [85091] = { Name = "Malevolent Gladiator's Scaled Shoulders", SourceType = LBIS.L["unknown"], Source = LBIS.L["unknown"], SourceNumber = "0", SourceLocation = LBIS.L["unknown"], SourceFaction = "B" },
     [85101] = { Name = "Malevolent Gladiator's Waistband of Accuracy", SourceType = LBIS.L["unknown"], Source = LBIS.L["unknown"], SourceNumber = "0", SourceLocation = LBIS.L["unknown"], SourceFaction = "B" },
     [85175] = { Name = "Crest of the Clan Lords", SourceType = LBIS.L["Drop"], Source = LBIS.L["Trial of the King"], SourceNumber = "0", SourceLocation = LBIS.L["Mogu'shan Palace"], SourceFaction = "B" },
