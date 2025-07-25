@@ -19,6 +19,7 @@ if GetLocale() == "esMX" then
   LBIS.L["Arcane"] = "Arcano";
   LBIS.L["Arms"] = "Armas";
 --  LBIS.L["Armsmaster Harlan"] = "";
+--  LBIS.L["Arness the Scale"] = "";
   LBIS.L["Assassination"] = "Asesinato";
 --  LBIS.L["August Stone Fragment"] = "";
   LBIS.L["Back"] = "Espalda";
@@ -55,6 +56,7 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Commander Durand"] = "";
 --  LBIS.L["Commander Ri'mok"] = "";
 --  LBIS.L["Commander Vo'jak"] = "";
+--  LBIS.L["Cournith Waterstrider"] = "";
 --  LBIS.L["Crane Deck"] = "";
   LBIS.L["Custom"] = "Personalizado";
   LBIS.L["Darkmaster Gandling"] = "Maestro oscuro Gandling";
@@ -115,7 +117,7 @@ if GetLocale() == "esMX" then
   LBIS.L["Head"] = "Cabeza";
   LBIS.L["Heart of Fear"] = "Corazón del Miedo";
 --  LBIS.L["Heroic: Scarlet Halls"] = "";
---  LBIS.L["Heroic: Scarlet Monestary"] = "";
+--  LBIS.L["Heroic: Scarlet Monastery"] = "";
 --  LBIS.L["Heroic: Scholomance"] = "";
 --  LBIS.L["Hide Obsolete Items"] = "";
   LBIS.L["High Inquisitor Whitemane"] = "Alta inquisidora Melenablanca";
@@ -152,6 +154,7 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Jewelcrafting Supplies"] = "";
 --  LBIS.L["Kor'kron Arcweaver"] = "";
 --  LBIS.L["Kor'nas Nightsavage"] = "";
+  LBIS.L["Krasarang Wilds"] = "Espesura Krasarang";
   LBIS.L["Kun-Lai Summit"] = "Cima Kun-Lai";
   LBIS.L["Leatherworking (510)"] = "Peletería (510)";
   LBIS.L["Leatherworking (515)"] = "Peletería (515)";
@@ -212,11 +215,13 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Protector Kaolan (LFR)"] = " (LFR)";
 --  LBIS.L["Protector Kaolan (N)"] = "";
   LBIS.L["PvP"] = "JcJ";
+--  LBIS.L["Qu'nas"] = "";
   LBIS.L["Quest"] = "Misión";
   LBIS.L["Quiver"] = "Carcaj";
   LBIS.L["Raigonn"] = "Raigonn";
   LBIS.L["Ranged/Relic"] = "Rango/Relíquia";
   LBIS.L["Rattlegore"] = "Traquesangre";
+--  LBIS.L["Remnants of Anger"] = "";
   LBIS.L["Reputation"] = "Reputación";
   LBIS.L["Restoration"] = "Recuperación";
   LBIS.L["Retribution"] = "Reprensión";
@@ -226,6 +231,7 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Rogue Pickpocket"] = "";
 --  LBIS.L["Saboteur Kip'tilak"] = "";
 --  LBIS.L["Sarnak"] = "";
+--  LBIS.L["Scarlet Fanatic"] = "";
   LBIS.L["Select"] = "Seleccionar";
 --  LBIS.L["Serpent Deck"] = "";
   LBIS.L["Settings"] = "Configuración";
@@ -271,6 +277,7 @@ if GetLocale() == "esMX" then
   LBIS.L["Terrace of Endless Spring"] = "Veranda de la Primavera Eterna";
 --  LBIS.L["Thalnos the Soulrender"] = "";
   LBIS.L["The August Celestials"] = "Los Augustos Celestiales";
+--  LBIS.L["The Final Power"] = "";
 --  LBIS.L["The Golden Lotus"] = "";
   LBIS.L["The Jade Forest"] = "El Bosque de Jade";
   LBIS.L["The Klaxxi"] = "Los Klaxxi";

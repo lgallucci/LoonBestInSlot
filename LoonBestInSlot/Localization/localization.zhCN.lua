@@ -19,6 +19,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Arcane"] = "奥术";
   LBIS.L["Arms"] = "武器";
   LBIS.L["Armsmaster Harlan"] = "武器大师哈兰";
+--  LBIS.L["Arness the Scale"] = "";
   LBIS.L["Assassination"] = "奇袭";
 --  LBIS.L["August Stone Fragment"] = "";
   LBIS.L["Back"] = "背部";
@@ -55,6 +56,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Commander Durand"] = "指挥官杜兰德";
   LBIS.L["Commander Ri'mok"] = "指挥官瑞魔克";
   LBIS.L["Commander Vo'jak"] = "指挥官沃加克";
+--  LBIS.L["Cournith Waterstrider"] = "";
 --  LBIS.L["Crane Deck"] = "";
   LBIS.L["Custom"] = "自定义";
   LBIS.L["Darkmaster Gandling"] = "黑暗院长加丁";
@@ -115,7 +117,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Head"] = "头部";
   LBIS.L["Heart of Fear"] = "恐惧之心";
 --  LBIS.L["Heroic: Scarlet Halls"] = "";
---  LBIS.L["Heroic: Scarlet Monestary"] = "";
+--  LBIS.L["Heroic: Scarlet Monastery"] = "";
 --  LBIS.L["Heroic: Scholomance"] = "";
 --  LBIS.L["Hide Obsolete Items"] = "";
   LBIS.L["High Inquisitor Whitemane"] = "大检察官怀特迈恩";
@@ -152,6 +154,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Jewelcrafting Supplies"] = "";
 --  LBIS.L["Kor'kron Arcweaver"] = "";
 --  LBIS.L["Kor'nas Nightsavage"] = "";
+  LBIS.L["Krasarang Wilds"] = "卡桑琅丛林";
   LBIS.L["Kun-Lai Summit"] = "昆莱山";
   LBIS.L["Leatherworking (510)"] = "制皮 (510)";
   LBIS.L["Leatherworking (515)"] = "制皮 (515)";
@@ -212,11 +215,13 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Protector Kaolan (LFR)"] = "守护者考兰";
   LBIS.L["Protector Kaolan (N)"] = "守护者考兰 (普通)";
   LBIS.L["PvP"] = "PvP";
+--  LBIS.L["Qu'nas"] = "";
   LBIS.L["Quest"] = "任务";
   LBIS.L["Quiver"] = "箭袋";
   LBIS.L["Raigonn"] = "莱公";
   LBIS.L["Ranged/Relic"] = "远程/圣物";
   LBIS.L["Rattlegore"] = "血骨傀儡";
+--  LBIS.L["Remnants of Anger"] = "";
   LBIS.L["Reputation"] = "声望";
   LBIS.L["Restoration"] = "恢复";
   LBIS.L["Retribution"] = "惩戒";
@@ -226,6 +231,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Rogue Pickpocket"] = "";
   LBIS.L["Saboteur Kip'tilak"] = "破坏者吉普提拉克";
 --  LBIS.L["Sarnak"] = "";
+--  LBIS.L["Scarlet Fanatic"] = "";
   LBIS.L["Select"] = "选择";
 --  LBIS.L["Serpent Deck"] = "";
   LBIS.L["Settings"] = "设置";
@@ -271,6 +277,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Terrace of Endless Spring"] = "永春台";
   LBIS.L["Thalnos the Soulrender"] = "裂魂者萨尔诺斯";
   LBIS.L["The August Celestials"] = "至尊天神";
+--  LBIS.L["The Final Power"] = "";
 --  LBIS.L["The Golden Lotus"] = "";
   LBIS.L["The Jade Forest"] = "翡翠林";
   LBIS.L["The Klaxxi"] = "卡拉克西";

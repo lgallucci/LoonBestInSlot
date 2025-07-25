@@ -19,6 +19,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Arcane"] = "Тайная магия";
   LBIS.L["Arms"] = "Оружие";
   LBIS.L["Armsmaster Harlan"] = "Воитель Гарлан";
+--  LBIS.L["Arness the Scale"] = "";
   LBIS.L["Assassination"] = "Убийство";
 --  LBIS.L["August Stone Fragment"] = "";
   LBIS.L["Back"] = "Спина";
@@ -55,6 +56,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Commander Durand"] = "Командир Дюранд";
   LBIS.L["Commander Ri'mok"] = "Командир Ри'мок";
   LBIS.L["Commander Vo'jak"] = "Командир Во'цзак";
+--  LBIS.L["Cournith Waterstrider"] = "";
 --  LBIS.L["Crane Deck"] = "";
   LBIS.L["Custom"] = "Вручную";
   LBIS.L["Darkmaster Gandling"] = "Темный магистр Гандлинг";
@@ -115,7 +117,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Head"] = "Голова";
   LBIS.L["Heart of Fear"] = "Сердце Страха";
 --  LBIS.L["Heroic: Scarlet Halls"] = "";
---  LBIS.L["Heroic: Scarlet Monestary"] = "";
+--  LBIS.L["Heroic: Scarlet Monastery"] = "";
 --  LBIS.L["Heroic: Scholomance"] = "";
 --  LBIS.L["Hide Obsolete Items"] = "";
   LBIS.L["High Inquisitor Whitemane"] = "Верховный инквизитор Вайтмейн";
@@ -152,6 +154,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Jewelcrafting Supplies"] = "";
 --  LBIS.L["Kor'kron Arcweaver"] = "";
 --  LBIS.L["Kor'nas Nightsavage"] = "";
+  LBIS.L["Krasarang Wilds"] = "Красарангские джунгли";
   LBIS.L["Kun-Lai Summit"] = "Вершина Кунь-Лай";
   LBIS.L["Leatherworking (510)"] = "Кожевничество (510)";
   LBIS.L["Leatherworking (515)"] = "Кожевничество (515)";
@@ -212,11 +215,13 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Protector Kaolan (LFR)"] = "Защитник Каолань";
   LBIS.L["Protector Kaolan (N)"] = "Защитник Каолань (Нормал)";
   LBIS.L["PvP"] = "PvP";
+--  LBIS.L["Qu'nas"] = "";
   LBIS.L["Quest"] = "Задание";
   LBIS.L["Quiver"] = "Колчан";
   LBIS.L["Raigonn"] = "Райгонн";
   LBIS.L["Ranged/Relic"] = "Для оружия дальнего боя/Реликвия";
   LBIS.L["Rattlegore"] = "Громоклин";
+--  LBIS.L["Remnants of Anger"] = "";
   LBIS.L["Reputation"] = "Репутация";
   LBIS.L["Restoration"] = "Восстановление ";
   LBIS.L["Retribution"] = "Возмездие";
@@ -226,6 +231,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Rogue Pickpocket"] = "";
   LBIS.L["Saboteur Kip'tilak"] = "Диверсант Кип'тилак";
 --  LBIS.L["Sarnak"] = "";
+--  LBIS.L["Scarlet Fanatic"] = "";
   LBIS.L["Select"] = "Выбрать";
 --  LBIS.L["Serpent Deck"] = "";
   LBIS.L["Settings"] = "Параметры";
@@ -271,6 +277,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Terrace of Endless Spring"] = "Терраса Вечной Весны";
   LBIS.L["Thalnos the Soulrender"] = "Талнос Воздаятель Душ";
   LBIS.L["The August Celestials"] = "Небожители";
+--  LBIS.L["The Final Power"] = "";
 --  LBIS.L["The Golden Lotus"] = "";
   LBIS.L["The Jade Forest"] = "Нефритовый лес";
   LBIS.L["The Klaxxi"] = "Клакси";

@@ -19,6 +19,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Arcane"] = "비전";
   LBIS.L["Arms"] = "무기";
   LBIS.L["Armsmaster Harlan"] = "무기전문가 할란";
+--  LBIS.L["Arness the Scale"] = "";
   LBIS.L["Assassination"] = "암살";
 --  LBIS.L["August Stone Fragment"] = "";
   LBIS.L["Back"] = "등";
@@ -55,6 +56,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Commander Durand"] = "사령관 듀란드";
   LBIS.L["Commander Ri'mok"] = "사령관 리모크";
   LBIS.L["Commander Vo'jak"] = "장로 진바크";
+--  LBIS.L["Cournith Waterstrider"] = "";
 --  LBIS.L["Crane Deck"] = "";
   LBIS.L["Custom"] = "사용자 설정";
   LBIS.L["Darkmaster Gandling"] = "암흑스승 간틀링";
@@ -115,7 +117,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Head"] = "머리";
   LBIS.L["Heart of Fear"] = "공포의 심장";
 --  LBIS.L["Heroic: Scarlet Halls"] = "";
---  LBIS.L["Heroic: Scarlet Monestary"] = "";
+--  LBIS.L["Heroic: Scarlet Monastery"] = "";
 --  LBIS.L["Heroic: Scholomance"] = "";
 --  LBIS.L["Hide Obsolete Items"] = "";
   LBIS.L["High Inquisitor Whitemane"] = "종교재판관 화이트메인";
@@ -152,6 +154,7 @@ if GetLocale() == "koKR" then
 --  LBIS.L["Jewelcrafting Supplies"] = "";
 --  LBIS.L["Kor'kron Arcweaver"] = "";
 --  LBIS.L["Kor'nas Nightsavage"] = "";
+  LBIS.L["Krasarang Wilds"] = "크라사랑 밀림";
   LBIS.L["Kun-Lai Summit"] = "쿤라이 봉우리";
   LBIS.L["Leatherworking (510)"] = "가죽세공 (510)";
   LBIS.L["Leatherworking (515)"] = "가죽세공 (515)";
@@ -212,11 +215,13 @@ if GetLocale() == "koKR" then
 --  LBIS.L["Protector Kaolan (LFR)"] = "수호병 카오란";
   LBIS.L["Protector Kaolan (N)"] = "수호병 카오란 (N)";
   LBIS.L["PvP"] = "PvP";
+--  LBIS.L["Qu'nas"] = "";
   LBIS.L["Quest"] = "퀘스트";
   LBIS.L["Quiver"] = "화살통";
   LBIS.L["Raigonn"] = "라이곤";
   LBIS.L["Ranged/Relic"] = "원거리 장비/성물";
   LBIS.L["Rattlegore"] = "들창어금니";
+--  LBIS.L["Remnants of Anger"] = "";
   LBIS.L["Reputation"] = "평판";
   LBIS.L["Restoration"] = "회복 / 복원";
   LBIS.L["Retribution"] = "징벌";
@@ -226,6 +231,7 @@ if GetLocale() == "koKR" then
 --  LBIS.L["Rogue Pickpocket"] = "";
   LBIS.L["Saboteur Kip'tilak"] = "파괴자 키프틸락";
 --  LBIS.L["Sarnak"] = "";
+--  LBIS.L["Scarlet Fanatic"] = "";
   LBIS.L["Select"] = "선택";
 --  LBIS.L["Serpent Deck"] = "";
   LBIS.L["Settings"] = "설정";
@@ -271,6 +277,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Terrace of Endless Spring"] = "영원한 봄의 정원";
   LBIS.L["Thalnos the Soulrender"] = "영혼분리자 탈노스";
   LBIS.L["The August Celestials"] = "위대한 천신회";
+--  LBIS.L["The Final Power"] = "";
 --  LBIS.L["The Golden Lotus"] = "";
   LBIS.L["The Jade Forest"] = "비취 숲";
   LBIS.L["The Klaxxi"] = "클락시";
