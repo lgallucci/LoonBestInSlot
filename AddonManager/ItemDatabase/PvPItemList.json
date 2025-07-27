@@ -1,5 +1,2764 @@
 {
   "Items": {
-    
+    "84344": {
+      "Name": "Dreadful Gladiator's Badge of Conquest",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84345": {
+      "Name": "Dreadful Gladiator's Cape of Cruelty",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84346": {
+      "Name": "Dreadful Gladiator's Cape of Prowess",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84347": {
+      "Name": "Dreadful Gladiator's Necklace of Proficiency",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84348": {
+      "Name": "Dreadful Gladiator's Necklace of Prowess",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84349": {
+      "Name": "Dreadful Gladiator's Insignia of Conquest",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84351": {
+      "Name": "Dreadful Gladiator's Ring of Cruelty",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84352": {
+      "Name": "Dreadful Gladiator's Ring of Accuracy",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84353": {
+      "Name": "Dreadful Gladiator's Cord of Cruelty",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84354": {
+      "Name": "Dreadful Gladiator's Cord of Accuracy",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84355": {
+      "Name": "Dreadful Gladiator's Cord of Meditation",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84356": {
+      "Name": "Dreadful Gladiator's Treads of Cruelty",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84357": {
+      "Name": "Dreadful Gladiator's Treads of Alacrity",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84358": {
+      "Name": "Dreadful Gladiator's Treads of Meditation",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84359": {
+      "Name": "Dreadful Gladiator's Cuffs of Accuracy",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84360": {
+      "Name": "Dreadful Gladiator's Cuffs of Prowess",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84361": {
+      "Name": "Dreadful Gladiator's Cuffs of Meditation",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84362": {
+      "Name": "Dreadful Gladiator's Drape of Prowess",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84363": {
+      "Name": "Dreadful Gladiator's Drape of Cruelty",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84364": {
+      "Name": "Dreadful Gladiator's Drape of Meditation",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84365": {
+      "Name": "Dreadful Gladiator's Pendant of Alacrity",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84366": {
+      "Name": "Dreadful Gladiator's Pendant of Cruelty",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84367": {
+      "Name": "Dreadful Gladiator's Pendant of Meditation",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84369": {
+      "Name": "Dreadful Gladiator's Band of Cruelty",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84370": {
+      "Name": "Dreadful Gladiator's Band of Accuracy",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84371": {
+      "Name": "Dreadful Gladiator's Band of Meditation",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84372": {
+      "Name": "Dreadful Gladiator's Dreadplate Chestpiece",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84373": {
+      "Name": "Dreadful Gladiator's Dreadplate Gauntlets",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84374": {
+      "Name": "Dreadful Gladiator's Dreadplate Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84375": {
+      "Name": "Dreadful Gladiator's Dreadplate Legguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84376": {
+      "Name": "Dreadful Gladiator's Dreadplate Shoulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84377": {
+      "Name": "Dreadful Gladiator's Dragonhide Gloves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84378": {
+      "Name": "Dreadful Gladiator's Dragonhide Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84379": {
+      "Name": "Dreadful Gladiator's Dragonhide Legguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84380": {
+      "Name": "Dreadful Gladiator's Dragonhide Robes",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84381": {
+      "Name": "Dreadful Gladiator's Dragonhide Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84382": {
+      "Name": "Dreadful Gladiator's Belt of Meditation",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84383": {
+      "Name": "Dreadful Gladiator's Footguards of Meditation",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84384": {
+      "Name": "Dreadful Gladiator's Bindings of Meditation",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84385": {
+      "Name": "Dreadful Gladiator's Kodohide Gloves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84386": {
+      "Name": "Dreadful Gladiator's Kodohide Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84387": {
+      "Name": "Dreadful Gladiator's Kodohide Legguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84388": {
+      "Name": "Dreadful Gladiator's Kodohide Robes",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84389": {
+      "Name": "Dreadful Gladiator's Kodohide Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84390": {
+      "Name": "Dreadful Gladiator's Belt of Cruelty",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84391": {
+      "Name": "Dreadful Gladiator's Footguards of Alacrity",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84392": {
+      "Name": "Dreadful Gladiator's Bindings of Prowess",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84393": {
+      "Name": "Dreadful Gladiator's Wyrmhide Gloves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84394": {
+      "Name": "Dreadful Gladiator's Wyrmhide Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84395": {
+      "Name": "Dreadful Gladiator's Wyrmhide Legguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84396": {
+      "Name": "Dreadful Gladiator's Wyrmhide Robes",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84397": {
+      "Name": "Dreadful Gladiator's Wyrmhide Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84399": {
+      "Name": "Dreadful Gladiator's Emblem of Cruelty",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84400": {
+      "Name": "Dreadful Gladiator's Emblem of Tenacity",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84401": {
+      "Name": "Dreadful Gladiator's Emblem of Meditation",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84402": {
+      "Name": "Dreadful Gladiator's Links of Cruelty",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84403": {
+      "Name": "Dreadful Gladiator's Links of Accuracy",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84404": {
+      "Name": "Dreadful Gladiator's Sabatons of Cruelty",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84405": {
+      "Name": "Dreadful Gladiator's Sabatons of Alacrity",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84406": {
+      "Name": "Dreadful Gladiator's Wristguards of Alacrity",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84407": {
+      "Name": "Dreadful Gladiator's Wristguards of Accuracy",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84408": {
+      "Name": "Dreadful Gladiator's Chain Armor",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84409": {
+      "Name": "Dreadful Gladiator's Chain Gauntlets",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84410": {
+      "Name": "Dreadful Gladiator's Chain Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84411": {
+      "Name": "Dreadful Gladiator's Chain Leggings",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84412": {
+      "Name": "Dreadful Gladiator's Chain Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84413": {
+      "Name": "Dreadful Gladiator's Silk Handguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84414": {
+      "Name": "Dreadful Gladiator's Silk Cowl",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84415": {
+      "Name": "Dreadful Gladiator's Silk Trousers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84416": {
+      "Name": "Dreadful Gladiator's Silk Robe",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84417": {
+      "Name": "Dreadful Gladiator's Silk Amice",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84418": {
+      "Name": "Dreadful Gladiator's Scaled Chestpiece",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84419": {
+      "Name": "Dreadful Gladiator's Scaled Gauntlets",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84420": {
+      "Name": "Dreadful Gladiator's Scaled Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84421": {
+      "Name": "Dreadful Gladiator's Scaled Legguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84422": {
+      "Name": "Dreadful Gladiator's Scaled Shoulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84423": {
+      "Name": "Dreadful Gladiator's Clasp of Cruelty",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84424": {
+      "Name": "Dreadful Gladiator's Clasp of Meditation",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84425": {
+      "Name": "Dreadful Gladiator's Greaves of Alacrity",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84426": {
+      "Name": "Dreadful Gladiator's Greaves of Meditation",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84427": {
+      "Name": "Dreadful Gladiator's Bracers of Prowess",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84428": {
+      "Name": "Dreadful Gladiator's Bracers of Meditation",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84429": {
+      "Name": "Dreadful Gladiator's Ornamented Chestguard",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84430": {
+      "Name": "Dreadful Gladiator's Ornamented Gloves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84431": {
+      "Name": "Dreadful Gladiator's Ornamented Headcover",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84432": {
+      "Name": "Dreadful Gladiator's Ornamented Legplates",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84433": {
+      "Name": "Dreadful Gladiator's Ornamented Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84434": {
+      "Name": "Dreadful Gladiator's Girdle of Accuracy",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84435": {
+      "Name": "Dreadful Gladiator's Girdle of Prowess",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84436": {
+      "Name": "Dreadful Gladiator's Warboots of Cruelty",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84437": {
+      "Name": "Dreadful Gladiator's Warboots of Alacrity",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84438": {
+      "Name": "Dreadful Gladiator's Armplates of Proficiency",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84439": {
+      "Name": "Dreadful Gladiator's Armplates of Alacrity",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84440": {
+      "Name": "Dreadful Gladiator's Mooncloth Gloves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84441": {
+      "Name": "Dreadful Gladiator's Mooncloth Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84442": {
+      "Name": "Dreadful Gladiator's Mooncloth Leggings",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84443": {
+      "Name": "Dreadful Gladiator's Mooncloth Robe",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84444": {
+      "Name": "Dreadful Gladiator's Mooncloth Mantle",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84445": {
+      "Name": "Dreadful Gladiator's Satin Gloves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84446": {
+      "Name": "Dreadful Gladiator's Satin Hood",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84447": {
+      "Name": "Dreadful Gladiator's Satin Leggings",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84448": {
+      "Name": "Dreadful Gladiator's Satin Robe",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84449": {
+      "Name": "Dreadful Gladiator's Satin Mantle",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84451": {
+      "Name": "Dreadful Gladiator's Medallion of Cruelty",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84453": {
+      "Name": "Dreadful Gladiator's Medallion of Tenacity",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84455": {
+      "Name": "Dreadful Gladiator's Medallion of Meditation",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84456": {
+      "Name": "Dreadful Gladiator's Waistband of Cruelty",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84457": {
+      "Name": "Dreadful Gladiator's Waistband of Accuracy",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84458": {
+      "Name": "Dreadful Gladiator's Boots of Cruelty",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84459": {
+      "Name": "Dreadful Gladiator's Boots of Alacrity",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84460": {
+      "Name": "Dreadful Gladiator's Armwraps of Alacrity",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84461": {
+      "Name": "Dreadful Gladiator's Armwraps of Accuracy",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84462": {
+      "Name": "Dreadful Gladiator's Leather Tunic",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84463": {
+      "Name": "Dreadful Gladiator's Leather Gloves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84464": {
+      "Name": "Dreadful Gladiator's Leather Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84465": {
+      "Name": "Dreadful Gladiator's Leather Legguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84466": {
+      "Name": "Dreadful Gladiator's Leather Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84467": {
+      "Name": "Dreadful Gladiator's Waistguard of Meditation",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84468": {
+      "Name": "Dreadful Gladiator's Footguards of Alacrity",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84469": {
+      "Name": "Dreadful Gladiator's Footguards of Meditation",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84470": {
+      "Name": "Dreadful Gladiator's Armbands of Prowess",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84471": {
+      "Name": "Dreadful Gladiator's Armbands of Meditation",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84472": {
+      "Name": "Dreadful Gladiator's Ringmail Armor",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84473": {
+      "Name": "Dreadful Gladiator's Ringmail Gauntlets",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84474": {
+      "Name": "Dreadful Gladiator's Ringmail Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84475": {
+      "Name": "Dreadful Gladiator's Ringmail Leggings",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84476": {
+      "Name": "Dreadful Gladiator's Ringmail Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84477": {
+      "Name": "Dreadful Gladiator's Linked Armor",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84478": {
+      "Name": "Dreadful Gladiator's Linked Gauntlets",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84479": {
+      "Name": "Dreadful Gladiator's Linked Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84480": {
+      "Name": "Dreadful Gladiator's Linked Leggings",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84481": {
+      "Name": "Dreadful Gladiator's Linked Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84482": {
+      "Name": "Dreadful Gladiator's Waistguard of Cruelty",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84483": {
+      "Name": "Dreadful Gladiator's Mail Armor",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84484": {
+      "Name": "Dreadful Gladiator's Mail Gauntlets",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84485": {
+      "Name": "Dreadful Gladiator's Mail Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84486": {
+      "Name": "Dreadful Gladiator's Mail Leggings",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84487": {
+      "Name": "Dreadful Gladiator's Mail Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84488": {
+      "Name": "Dreadful Gladiator's Badge of Dominance",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84489": {
+      "Name": "Dreadful Gladiator's Insignia of Dominance",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84490": {
+      "Name": "Dreadful Gladiator's Badge of Victory",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84491": {
+      "Name": "Dreadful Gladiator's Cloak of Alacrity",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84492": {
+      "Name": "Dreadful Gladiator's Cloak of Prowess",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84493": {
+      "Name": "Dreadful Gladiator's Choker of Proficiency",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84494": {
+      "Name": "Dreadful Gladiator's Choker of Accuracy",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84495": {
+      "Name": "Dreadful Gladiator's Insignia of Victory",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84497": {
+      "Name": "Dreadful Gladiator's Signet of Cruelty",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84498": {
+      "Name": "Dreadful Gladiator's Signet of Accuracy",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84499": {
+      "Name": "Dreadful Gladiator's Felweave Handguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84500": {
+      "Name": "Dreadful Gladiator's Felweave Cowl",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84501": {
+      "Name": "Dreadful Gladiator's Felweave Trousers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84502": {
+      "Name": "Dreadful Gladiator's Felweave Raiment",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84503": {
+      "Name": "Dreadful Gladiator's Felweave Amice",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84504": {
+      "Name": "Dreadful Gladiator's Plate Chestpiece",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84505": {
+      "Name": "Dreadful Gladiator's Plate Gauntlets",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84506": {
+      "Name": "Dreadful Gladiator's Plate Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84507": {
+      "Name": "Dreadful Gladiator's Plate Legguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84508": {
+      "Name": "Dreadful Gladiator's Plate Shoulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84543": {
+      "Name": "Dreadful Gladiator's Ironskin Gloves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84544": {
+      "Name": "Dreadful Gladiator's Ironskin Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84545": {
+      "Name": "Dreadful Gladiator's Ironskin Legguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84546": {
+      "Name": "Dreadful Gladiator's Ironskin Tunic",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84547": {
+      "Name": "Dreadful Gladiator's Ironskin Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84548": {
+      "Name": "Dreadful Gladiator's Copperskin Gloves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84549": {
+      "Name": "Dreadful Gladiator's Copperskin Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84550": {
+      "Name": "Dreadful Gladiator's Copperskin Legguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84551": {
+      "Name": "Dreadful Gladiator's Copperskin Tunic",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84552": {
+      "Name": "Dreadful Gladiator's Copperskin Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84695": {
+      "Name": "Dreadful Gladiator's Spellblade",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84696": {
+      "Name": "Dreadful Gladiator's Ripper",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84699": {
+      "Name": "Dreadful Gladiator's Render",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84700": {
+      "Name": "Dreadful Gladiator's Pummeler",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84701": {
+      "Name": "Dreadful Gladiator's Cleaver",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84702": {
+      "Name": "Dreadful Gladiator's Hacker",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84705": {
+      "Name": "Dreadful Gladiator's Longbow",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "3500",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84706": {
+      "Name": "Dreadful Gladiator's Rifle",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "3500",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84707": {
+      "Name": "Dreadful Gladiator's Decapitator",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "3500",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84708": {
+      "Name": "Dreadful Gladiator's Shanker",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84710": {
+      "Name": "Dreadful Gladiator's Slicer",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84711": {
+      "Name": "Dreadful Gladiator's Endgame",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1000",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84712": {
+      "Name": "Dreadful Gladiator's Reprieve",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1000",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84713": {
+      "Name": "Dreadful Gladiator's Shield Wall",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1000",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84714": {
+      "Name": "Dreadful Gladiator's Barrier",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1000",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84715": {
+      "Name": "Dreadful Gladiator's Redoubt",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1000",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84716": {
+      "Name": "Dreadful Gladiator's Quickblade",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84717": {
+      "Name": "Dreadful Gladiator's Greatsword",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "3500",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84719": {
+      "Name": "Dreadful Gladiator's Bonecracker",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84720": {
+      "Name": "Dreadful Gladiator's Gavel",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84721": {
+      "Name": "Dreadful Gladiator's Bonegrinder",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "3500",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84722": {
+      "Name": "Dreadful Gladiator's Pike",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "3500",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84723": {
+      "Name": "Dreadful Gladiator's Battle Staff",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "3500",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84724": {
+      "Name": "Dreadful Gladiator's Energy Staff",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "3500",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84725": {
+      "Name": "Dreadful Gladiator's Staff",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "3500",
+      "SourceLocation": "Honor Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84785": {
+      "Name": "Malevolent Gladiator's Bonegrinder",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "3500",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84786": {
+      "Name": "Malevolent Gladiator's Pike",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "3500",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84787": {
+      "Name": "Malevolent Gladiator's Battle Staff",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "3500",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84788": {
+      "Name": "Malevolent Gladiator's Energy Staff",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "3500",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84789": {
+      "Name": "Malevolent Gladiator's Staff",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "3500",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84790": {
+      "Name": "Malevolent Gladiator's Greatsword",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "3500",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84791": {
+      "Name": "Malevolent Gladiator's Decapitator",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "3500",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84795": {
+      "Name": "Malevolent Gladiator's Dreadplate Chestpiece",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84796": {
+      "Name": "Malevolent Gladiator's Chain Armor",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84798": {
+      "Name": "Malevolent Gladiator's Mail Armor",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84799": {
+      "Name": "Malevolent Gladiator's Linked Armor",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84800": {
+      "Name": "Malevolent Gladiator's Ringmail Armor",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84801": {
+      "Name": "Malevolent Gladiator's Drape of Cruelty",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84802": {
+      "Name": "Malevolent Gladiator's Drape of Meditation",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84803": {
+      "Name": "Malevolent Gladiator's Drape of Prowess",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84804": {
+      "Name": "Malevolent Gladiator's Cape of Cruelty",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84805": {
+      "Name": "Malevolent Gladiator's Cape of Prowess",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84806": {
+      "Name": "Malevolent Gladiator's Cloak of Prowess",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84807": {
+      "Name": "Malevolent Gladiator's Cloak of Alacrity",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84808": {
+      "Name": "Malevolent Gladiator's Boots of Cruelty",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84809": {
+      "Name": "Malevolent Gladiator's Boots of Alacrity",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84810": {
+      "Name": "Malevolent Gladiator's Warboots of Cruelty",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84813": {
+      "Name": "Malevolent Gladiator's Footguards of Meditation",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84814": {
+      "Name": "Malevolent Gladiator's Treads of Cruelty",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84815": {
+      "Name": "Malevolent Gladiator's Treads of Alacrity",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84816": {
+      "Name": "Malevolent Gladiator's Treads of Meditation",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84817": {
+      "Name": "Malevolent Gladiator's Sabatons of Cruelty",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84818": {
+      "Name": "Malevolent Gladiator's Sabatons of Alacrity",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84819": {
+      "Name": "Malevolent Gladiator's Footguards of Alacrity",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84820": {
+      "Name": "Malevolent Gladiator's Footguards of Alacrity",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84821": {
+      "Name": "Malevolent Gladiator's Footguards of Meditation",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84822": {
+      "Name": "Malevolent Gladiator's Warboots of Alacrity",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84823": {
+      "Name": "Malevolent Gladiator's Band of Cruelty",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84824": {
+      "Name": "Malevolent Gladiator's Band of Accuracy",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84825": {
+      "Name": "Malevolent Gladiator's Band of Meditation",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84826": {
+      "Name": "Malevolent Gladiator's Ring of Cruelty",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84827": {
+      "Name": "Malevolent Gladiator's Ring of Accuracy",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84828": {
+      "Name": "Malevolent Gladiator's Signet of Cruelty",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84829": {
+      "Name": "Malevolent Gladiator's Signet of Accuracy",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84832": {
+      "Name": "Malevolent Gladiator's Dragonhide Gloves",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84833": {
+      "Name": "Malevolent Gladiator's Kodohide Gloves",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84835": {
+      "Name": "Malevolent Gladiator's Dreadplate Gauntlets",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84837": {
+      "Name": "Malevolent Gladiator's Silk Handguards",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84838": {
+      "Name": "Malevolent Gladiator's Satin Gloves",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84841": {
+      "Name": "Malevolent Gladiator's Chain Gauntlets",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84843": {
+      "Name": "Malevolent Gladiator's Wyrmhide Gloves",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84844": {
+      "Name": "Malevolent Gladiator's Linked Gauntlets",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84845": {
+      "Name": "Malevolent Gladiator's Mail Gauntlets",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84846": {
+      "Name": "Malevolent Gladiator's Mooncloth Gloves",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84847": {
+      "Name": "Malevolent Gladiator's Ringmail Gauntlets",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84850": {
+      "Name": "Malevolent Gladiator's Kodohide Helm",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84852": {
+      "Name": "Malevolent Gladiator's Dragonhide Helm",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84853": {
+      "Name": "Malevolent Gladiator's Dreadplate Helm",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84855": {
+      "Name": "Malevolent Gladiator's Silk Cowl",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84858": {
+      "Name": "Malevolent Gladiator's Chain Helm",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84860": {
+      "Name": "Malevolent Gladiator's Mail Helm",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84861": {
+      "Name": "Malevolent Gladiator's Wyrmhide Helm",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84862": {
+      "Name": "Malevolent Gladiator's Linked Helm",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84863": {
+      "Name": "Malevolent Gladiator's Mooncloth Helm",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84864": {
+      "Name": "Malevolent Gladiator's Satin Hood",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84865": {
+      "Name": "Malevolent Gladiator's Ringmail Helm",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84866": {
+      "Name": "Malevolent Gladiator's Endgame",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1000",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84867": {
+      "Name": "Malevolent Gladiator's Reprieve",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1000",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84871": {
+      "Name": "Malevolent Gladiator's Dragonhide Legguards",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84872": {
+      "Name": "Malevolent Gladiator's Dreadplate Legguards",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84874": {
+      "Name": "Malevolent Gladiator's Chain Leggings",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84875": {
+      "Name": "Malevolent Gladiator's Silk Trousers",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84879": {
+      "Name": "Malevolent Gladiator's Mail Leggings",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84880": {
+      "Name": "Malevolent Gladiator's Wyrmhide Legguards",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84881": {
+      "Name": "Malevolent Gladiator's Linked Leggings",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84882": {
+      "Name": "Malevolent Gladiator's Kodohide Legguards",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84883": {
+      "Name": "Malevolent Gladiator's Mooncloth Leggings",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84884": {
+      "Name": "Malevolent Gladiator's Satin Leggings",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84885": {
+      "Name": "Malevolent Gladiator's Ringmail Leggings",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84886": {
+      "Name": "Malevolent Gladiator's Pendant of Alacrity",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84887": {
+      "Name": "Malevolent Gladiator's Pendant of Cruelty",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84888": {
+      "Name": "Malevolent Gladiator's Pendant of Meditation",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84889": {
+      "Name": "Malevolent Gladiator's Necklace of Proficiency",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84890": {
+      "Name": "Malevolent Gladiator's Necklace of Prowess",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84891": {
+      "Name": "Malevolent Gladiator's Choker of Proficiency",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84892": {
+      "Name": "Malevolent Gladiator's Choker of Accuracy",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84896": {
+      "Name": "Malevolent Gladiator's Longbow",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "3500",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84900": {
+      "Name": "Malevolent Gladiator's Rifle",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "3500",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84901": {
+      "Name": "Malevolent Gladiator's Dragonhide Robes",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84904": {
+      "Name": "Malevolent Gladiator's Silk Robe",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84906": {
+      "Name": "Malevolent Gladiator's Wyrmhide Robes",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84907": {
+      "Name": "Malevolent Gladiator's Kodohide Robes",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84908": {
+      "Name": "Malevolent Gladiator's Mooncloth Robe",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84909": {
+      "Name": "Malevolent Gladiator's Satin Robe",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84910": {
+      "Name": "Malevolent Gladiator's Shield Wall",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1000",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84911": {
+      "Name": "Malevolent Gladiator's Barrier",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1000",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84912": {
+      "Name": "Malevolent Gladiator's Redoubt",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1000",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84916": {
+      "Name": "Malevolent Gladiator's Dragonhide Spaulders",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84917": {
+      "Name": "Malevolent Gladiator's Silk Amice",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84918": {
+      "Name": "Malevolent Gladiator's Dreadplate Shoulders",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84921": {
+      "Name": "Malevolent Gladiator's Chain Spaulders",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84924": {
+      "Name": "Malevolent Gladiator's Mail Spaulders",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84925": {
+      "Name": "Malevolent Gladiator's Wyrmhide Spaulders",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84926": {
+      "Name": "Malevolent Gladiator's Linked Spaulders",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84927": {
+      "Name": "Malevolent Gladiator's Kodohide Spaulders",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84928": {
+      "Name": "Malevolent Gladiator's Mooncloth Mantle",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84929": {
+      "Name": "Malevolent Gladiator's Satin Mantle",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84930": {
+      "Name": "Malevolent Gladiator's Ringmail Spaulders",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84931": {
+      "Name": "Malevolent Gladiator's Medallion of Tenacity",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84933": {
+      "Name": "Malevolent Gladiator's Medallion of Meditation",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84934": {
+      "Name": "Malevolent Gladiator's Badge of Conquest",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84935": {
+      "Name": "Malevolent Gladiator's Insignia of Conquest",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84936": {
+      "Name": "Malevolent Gladiator's Emblem of Cruelty",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84937": {
+      "Name": "Malevolent Gladiator's Insignia of Victory",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84938": {
+      "Name": "Malevolent Gladiator's Emblem of Tenacity",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84939": {
+      "Name": "Malevolent Gladiator's Emblem of Meditation",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84940": {
+      "Name": "Malevolent Gladiator's Badge of Dominance",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84941": {
+      "Name": "Malevolent Gladiator's Insignia of Dominance",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84942": {
+      "Name": "Malevolent Gladiator's Badge of Victory",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84944": {
+      "Name": "Malevolent Gladiator's Medallion of Cruelty",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84946": {
+      "Name": "Malevolent Gladiator's Waistguard of Meditation",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84947": {
+      "Name": "Malevolent Gladiator's Waistband of Cruelty",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84948": {
+      "Name": "Malevolent Gladiator's Waistband of Accuracy",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84949": {
+      "Name": "Malevolent Gladiator's Girdle of Accuracy",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84950": {
+      "Name": "Malevolent Gladiator's Girdle of Prowess",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84953": {
+      "Name": "Malevolent Gladiator's Belt of Meditation",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84954": {
+      "Name": "Malevolent Gladiator's Cord of Cruelty",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84955": {
+      "Name": "Malevolent Gladiator's Cord of Accuracy",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84956": {
+      "Name": "Malevolent Gladiator's Cord of Meditation",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84957": {
+      "Name": "Malevolent Gladiator's Links of Accuracy",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84958": {
+      "Name": "Malevolent Gladiator's Links of Cruelty",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84959": {
+      "Name": "Malevolent Gladiator's Waistguard of Cruelty",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84960": {
+      "Name": "Malevolent Gladiator's Belt of Cruelty",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84961": {
+      "Name": "Malevolent Gladiator's Spellblade",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84962": {
+      "Name": "Malevolent Gladiator's Ripper",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84963": {
+      "Name": "Malevolent Gladiator's Render",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84964": {
+      "Name": "Malevolent Gladiator's Pummeler",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84965": {
+      "Name": "Malevolent Gladiator's Cleaver",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84966": {
+      "Name": "Malevolent Gladiator's Hacker",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84967": {
+      "Name": "Malevolent Gladiator's Shanker",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84968": {
+      "Name": "Malevolent Gladiator's Slicer",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84969": {
+      "Name": "Malevolent Gladiator's Quickblade",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84970": {
+      "Name": "Malevolent Gladiator's Bonecracker",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1750",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84971": {
+      "Name": "Malevolent Gladiator's Gavel",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84972": {
+      "Name": "Malevolent Gladiator's Armwraps of Alacrity",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84973": {
+      "Name": "Malevolent Gladiator's Armwraps of Accuracy",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84976": {
+      "Name": "Malevolent Gladiator's Bindings of Meditation",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84977": {
+      "Name": "Malevolent Gladiator's Cuffs of Accuracy",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84978": {
+      "Name": "Malevolent Gladiator's Cuffs of Prowess",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84979": {
+      "Name": "Malevolent Gladiator's Cuffs of Meditation",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84980": {
+      "Name": "Malevolent Gladiator's Wristguards of Alacrity",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84981": {
+      "Name": "Malevolent Gladiator's Wristguards of Accuracy",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84982": {
+      "Name": "Malevolent Gladiator's Bindings of Prowess",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84983": {
+      "Name": "Malevolent Gladiator's Armbands of Prowess",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84984": {
+      "Name": "Malevolent Gladiator's Armbands of Meditation",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84985": {
+      "Name": "Malevolent Gladiator's Armplates of Proficiency",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    },
+    "84986": {
+      "Name": "Malevolent Gladiator's Armplates of Alacrity",
+      "Source": "Conquest Points",
+      "SourceType": "PvP",
+      "SourceNumber": "1250",
+      "SourceLocation": "Conquest Quartermaster, Kun-Lai Summit",
+      "SourceFaction": "B"
+    }
   }
 }

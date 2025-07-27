@@ -9,14 +9,14 @@ public class PvPImporter : LootImporter
 {
     private Dictionary<string, Tuple<string, string>> wowheadUriList = new Dictionary<string, Tuple<string, string>>
     {
-        { @"https://www.wowhead.com/mop-classic/npc=46595/blood-guard-zarshi#sells", new Tuple<string, string>("Bloodthirsty, Arcanum of Vicious, Greater Inscription of Vicious", "Faction PVP Vendor") },
-        { @"https://www.wowhead.com/mop-classic/npc=46595/blood-guard-zarshi#sells;50", new Tuple<string, string>("Bloodthirsty, Arcanum of Vicious, Greater Inscription of Vicious", "Faction PVP Vendor") },
-        { @"https://www.wowhead.com/mop-classic/npc=46595/blood-guard-zarshi#sells;100", new Tuple<string, string>("Bloodthirsty, Arcanum of Vicious, Greater Inscription of Vicious", "Faction PVP Vendor") },
-        { @"https://www.wowhead.com/mop-classic/npc=46595/blood-guard-zarshi#sells;150", new Tuple<string, string>("Bloodthirsty, Arcanum of Vicious, Greater Inscription of Vicious", "Faction PVP Vendor") },
-        { @"https://www.wowhead.com/mop-classic/npc=46594/sergeant-thunderhorn#sells", new Tuple<string, string>("Vicious", "Faction PVP Vendor") },
-        { @"https://www.wowhead.com/mop-classic/npc=46594/sergeant-thunderhorn#sells;50", new Tuple<string, string>("Vicious", "Faction PVP Vendor") },
-        { @"https://www.wowhead.com/mop-classic/npc=46594/sergeant-thunderhorn#sells;100", new Tuple<string, string>("Vicious", "Faction PVP Vendor") },
-        { @"https://www.wowhead.com/mop-classic/npc=46594/sergeant-thunderhorn#sells;150", new Tuple<string, string>("Vicious", "Faction PVP Vendor") },
+        { @"https://www.wowhead.com/mop-classic/npc=65164/loknor-bloodfist#sells", new Tuple<string, string>("Dreadful", "Honor Quartermaster, Kun-Lai Summit") },
+        { @"https://www.wowhead.com/mop-classic/npc=65164/loknor-bloodfist#sells;50", new Tuple<string, string>("Dreadful", "Honor Quartermaster, Kun-Lai Summit") },
+        { @"https://www.wowhead.com/mop-classic/npc=65164/loknor-bloodfist#sells;100", new Tuple<string, string>("Dreadful", "Honor Quartermaster, Kun-Lai Summit") },
+        { @"https://www.wowhead.com/mop-classic/npc=65164/loknor-bloodfist#sells;150", new Tuple<string, string>("Dreadful", "Honor Quartermaster, Kun-Lai Summit") },
+        { @"https://www.wowhead.com/mop-classic/npc=65165/doris-chiltonius#sells", new Tuple<string, string>("Malevolent", "Conquest Quartermaster, Kun-Lai Summit") },
+        { @"https://www.wowhead.com/mop-classic/npc=65165/doris-chiltonius#sells;50", new Tuple<string, string>("Malevolent", "Conquest Quartermaster, Kun-Lai Summit") },
+        { @"https://www.wowhead.com/mop-classic/npc=65165/doris-chiltonius#sells;100", new Tuple<string, string>("Malevolent", "Conquest Quartermaster, Kun-Lai Summit") },
+        { @"https://www.wowhead.com/mop-classic/npc=65165/doris-chiltonius#sells;150", new Tuple<string, string>("Malevolent", "Conquest Quartermaster, Kun-Lai Summit") },
     };
 
     public PvPImporter(CancellationToken cancellationToken) : base(cancellationToken)
