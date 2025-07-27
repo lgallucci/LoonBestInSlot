@@ -67,7 +67,7 @@ LBIS:AddItem(spec0, "89092", LBIS.L["Legs"], "Alt") --Locust Swarm Legguards
 LBIS:AddItem(spec0, "89091", LBIS.L["Legs"], "Alt") --Swarmkeeper's Leggings
 LBIS:AddItem(spec0, "90719", LBIS.L["Legs"], "Alt") --Go-Kan's Golden Trousers
 LBIS:AddItem(spec0, "86781", LBIS.L["Legs"], "Alt") --Subetai's Pillaging Leggings
-LBIS:AddItem(spec0, "81092", LBIS.L["Legs"], "Alt") --Leggings of the Charging Soul
+LBIS:AddItem(spec0, "81077", LBIS.L["Legs"], "Alt") --Hopping Mad Leggings
 LBIS:AddItem(spec0, "84874", LBIS.L["Legs"], "Alt") --Malevolent Gladiator's Chain Leggings
 LBIS:AddItem(spec0, "89955", LBIS.L["Legs"], "Alt") --Sword Dancer's Leggings
 LBIS:AddItem(spec0, "86861", LBIS.L["Feet"], "BIS") --Monstrous Stompers

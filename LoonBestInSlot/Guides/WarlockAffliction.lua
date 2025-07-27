@@ -37,20 +37,20 @@ LBIS:AddEnchant(spec1, "104427", LBIS.L["Main Hand"]) --
 LBIS:AddEnchant(spec1, "104445", LBIS.L["Off Hand"]) --
 
 LBIS:AddItem(spec0, "77533", LBIS.L["Head"], "BIS") --Lightweight Retinal Armor
+LBIS:AddItem(spec0, "86839", LBIS.L["Head"], "Alt") --Xaril's Hood of Intoxicating Vapors
 LBIS:AddItem(spec0, "81289", LBIS.L["Head"], "Alt") --Breezeswept Hood
 LBIS:AddItem(spec0, "86710", LBIS.L["Head"], "Alt") --Sha-Skin Hood
-LBIS:AddItem(spec0, "86839", LBIS.L["Head"], "Alt") --Xaril's Hood of Intoxicating Vapors
 LBIS:AddItem(spec0, "89337", LBIS.L["Head"], "Alt") --Firecracker Corona
 LBIS:AddItem(spec0, "81291", LBIS.L["Shoulder"], "BIS") --Whisperwind Spaulders
 LBIS:AddItem(spec0, "89340", LBIS.L["Shoulder"], "Alt") --Mantle of the Golden Sun
-LBIS:AddItem(spec0, "86770", LBIS.L["Shoulder"], "Alt") --Shadowsummoner Spaulders
 LBIS:AddItem(spec0, "86713", LBIS.L["Shoulder"], "Alt") --Sha-Skin Mantle
+LBIS:AddItem(spec0, "86770", LBIS.L["Shoulder"], "Alt") --Shadowsummoner Spaulders
 LBIS:AddItem(spec0, "89077", LBIS.L["Back"], "BIS") --Cloak of Snow Blossoms
 LBIS:AddItem(spec0, "81575", LBIS.L["Back"], "Alt") --Scorched Earth Cloak
 LBIS:AddItem(spec0, "86874", LBIS.L["Back"], "Alt") --Cloak of Overwhelming Corruption
 LBIS:AddItem(spec0, "82437", LBIS.L["Chest"], "BIS") --Spelltwister's Grand Robe
-LBIS:AddItem(spec0, "86712", LBIS.L["Chest"], "Alt") --Sha-Skin Robes
 LBIS:AddItem(spec0, "81188", LBIS.L["Chest"], "Alt") --Robes of Fevered Dreams
+LBIS:AddItem(spec0, "86712", LBIS.L["Chest"], "Alt") --Sha-Skin Robes
 LBIS:AddItem(spec0, "89433", LBIS.L["Chest"], "Alt") --Vestments of Thundering Skies
 LBIS:AddItem(spec0, "81064", LBIS.L["Wrist"], "BIS") --Bracers of Displaced Air
 LBIS:AddItem(spec0, "88893", LBIS.L["Wrist"], "Alt") --Minh's Beaten Bracers
@@ -58,12 +58,12 @@ LBIS:AddItem(spec0, "86828", LBIS.L["Wrist"], "Alt") --Twisting Wind Bracers
 LBIS:AddItem(spec0, "82438", LBIS.L["Hands"], "BIS") --Spelltwister's Gloves
 LBIS:AddItem(spec0, "88742", LBIS.L["Hands"], "Alt") --Sunspeaker's Flared Gloves
 LBIS:AddItem(spec0, "85369", LBIS.L["Hands"], "Alt") --Sha-Skin Gloves
-LBIS:AddItem(spec0, "86709", LBIS.L["Hands"], "Alt") --Sha-Skin Gloves
 LBIS:AddItem(spec0, "81102", LBIS.L["Hands"], "Alt") --Gloves of Enraged Slaughter
+LBIS:AddItem(spec0, "86709", LBIS.L["Hands"], "Alt") --Sha-Skin Gloves
 LBIS:AddItem(spec0, "82861", LBIS.L["Waist"], "BIS") --Incineration Belt
 LBIS:AddItem(spec0, "89062", LBIS.L["Waist"], "Alt") --Klaxxi Lash of the Orator
-LBIS:AddItem(spec0, "86857", LBIS.L["Waist"], "Alt") --Belt of Malleable Amber
 LBIS:AddItem(spec0, "86798", LBIS.L["Waist"], "Alt") --Orbital Belt
+LBIS:AddItem(spec0, "86857", LBIS.L["Waist"], "Alt") --Belt of Malleable Amber
 LBIS:AddItem(spec0, "81106", LBIS.L["Legs"], "BIS") --Leggings of the Frenzy
 LBIS:AddItem(spec0, "98073", LBIS.L["Legs"], "Alt") --Leggings of the Poisoned Soul
 LBIS:AddItem(spec0, "90721", LBIS.L["Legs"], "Alt") --Cournith Waterstrider's Silken Finery
@@ -71,37 +71,35 @@ LBIS:AddItem(spec0, "85371", LBIS.L["Legs"], "Alt") --Sha-Skin Leggings
 LBIS:AddItem(spec0, "89088", LBIS.L["Legs"], "Alt") --Leggings of the Poisoned Soul
 LBIS:AddItem(spec0, "86711", LBIS.L["Legs"], "Alt") --Sha-Skin Leggings
 LBIS:AddItem(spec0, "81699", LBIS.L["Feet"], "BIS") --Scarlet Sandals
+LBIS:AddItem(spec0, "88878", LBIS.L["Feet"], "Alt") --Void Flame Slippers
 LBIS:AddItem(spec0, "86836", LBIS.L["Feet"], "Alt") --Sandals of the Unbidden
 LBIS:AddItem(spec0, "86888", LBIS.L["Feet"], "Alt") --Sandals of the Blackest Night
 LBIS:AddItem(spec0, "81255", LBIS.L["Feet"], "Alt") --Soulbinder Treads
-LBIS:AddItem(spec0, "88878", LBIS.L["Feet"], "Alt") --Void Flame Slippers
 LBIS:AddItem(spec0, "89068", LBIS.L["Neck"], "BIS") --Wire of the Wakener
-LBIS:AddItem(spec0, "81566", LBIS.L["Neck"], "Alt") --Anarchist's Pendant
 LBIS:AddItem(spec0, "86810", LBIS.L["Neck"], "Alt") --Worldwaker Cabochon
+LBIS:AddItem(spec0, "81566", LBIS.L["Neck"], "Alt") --Anarchist's Pendant
 LBIS:AddItem(spec0, "90596", LBIS.L["Neck"], "Alt") --Burning Necklace of the Golden Lotus
 LBIS:AddItem(spec0, "81560", LBIS.L["Ring"], "BIS") --Signet of the Hidden Door
 LBIS:AddItem(spec0, "90859", LBIS.L["Ring"], "BIS") --Seal of the Lucid
-LBIS:AddItem(spec0, "86873", LBIS.L["Ring"], "Alt") --Watersoul Signet
 LBIS:AddItem(spec0, "81182", LBIS.L["Ring"], "Alt") --Eye of the Tornado
 LBIS:AddItem(spec0, "90435", LBIS.L["Ring"], "Alt") --Ring of Wretched Flames
+LBIS:AddItem(spec0, "86873", LBIS.L["Ring"], "Alt") --Watersoul Signet
 LBIS:AddItem(spec0, "89072", LBIS.L["Ring"], "Alt") --Simple Harmonius Ring
 LBIS:AddItem(spec0, "86814", LBIS.L["Ring"], "Alt") --Fragment of Fear Made Flesh
 LBIS:AddItem(spec0, "79331", LBIS.L["Trinket"], "BIS") --Relic of Yu'lon
 LBIS:AddItem(spec0, "81192", LBIS.L["Trinket"], "BIS") --Vision of the Predator
 LBIS:AddItem(spec0, "89081", LBIS.L["Trinket"], "Alt") --Blossom of Pure Snow
 LBIS:AddItem(spec0, "86907", LBIS.L["Trinket"], "Alt") --Essence of Terror
-LBIS:AddItem(spec0, "86792", LBIS.L["Trinket"], "Alt") --Light of the Cosmos
 LBIS:AddItem(spec0, "81263", LBIS.L["Trinket"], "Alt") --Flashfrozen Resin Globule
+LBIS:AddItem(spec0, "86792", LBIS.L["Trinket"], "Alt") --Light of the Cosmos
 LBIS:AddItem(spec0, "82826", LBIS.L["Main Hand"], "BIS") --Necromantic Wand
-LBIS:AddItem(spec0, "89395", LBIS.L["Main Hand"], "Alt") --Amber Scythe of Klaxxi'vess
-LBIS:AddItem(spec0, "89397", LBIS.L["Main Hand"], "Alt") --Amber Saber of Klaxxi'vess
 LBIS:AddItem(spec0, "87642", LBIS.L["Main Hand"], "Alt") --Darkstaff of Annihilation
 LBIS:AddItem(spec0, "86796", LBIS.L["Main Hand"], "Alt") --Torch of the Celestial Spark
-LBIS:AddItem(spec0, "86862", LBIS.L["Main Hand"], "Alt") --Un'sok's Amber Scalpel
 LBIS:AddItem(spec0, "86886", LBIS.L["Main Hand"], "Alt") --Loshan, Terror Incarnate
+LBIS:AddItem(spec0, "86862", LBIS.L["Main Hand"], "Alt") --Un'sok's Amber Scalpel
 LBIS:AddItem(spec0, "79334", LBIS.L["Off Hand"], "BIS") --Inscribed Jade Fan
-LBIS:AddItem(spec0, "81076", LBIS.L["Off Hand"], "Alt") --Bottle of Potent Potables
 LBIS:AddItem(spec0, "86829", LBIS.L["Off Hand"], "Alt") --Tornado-Summoning Censer
+LBIS:AddItem(spec0, "81076", LBIS.L["Off Hand"], "Alt") --Bottle of Potent Potables
 
 LBIS:AddItem(spec1, "87188", LBIS.L["Head"], "BIS") --Sha-Skin Hood
 LBIS:AddItem(spec1, "81289", LBIS.L["Head"], "Alt") --Breezeswept Hood
@@ -129,59 +127,57 @@ LBIS:AddItem(spec1, "87027", LBIS.L["Chest"], "Alt") --Imperial Ghostbinder's Ro
 LBIS:AddItem(spec1, "81188", LBIS.L["Chest"], "Alt") --Robes of Fevered Dreams
 LBIS:AddItem(spec1, "86712", LBIS.L["Chest"], "Alt") --Sha-Skin Robes
 LBIS:AddItem(spec1, "86958", LBIS.L["Wrist"], "BIS") --Twisting Wind Bracers
+LBIS:AddItem(spec1, "86828", LBIS.L["Wrist"], "Alt") --Twisting Wind Bracers
 LBIS:AddItem(spec1, "81064", LBIS.L["Wrist"], "Alt") --Bracers of Displaced Air
 LBIS:AddItem(spec1, "88893", LBIS.L["Wrist"], "Alt") --Minh's Beaten Bracers
-LBIS:AddItem(spec1, "86828", LBIS.L["Wrist"], "Alt") --Twisting Wind Bracers
 LBIS:AddItem(spec1, "87187", LBIS.L["Hands"], "BIS") --Sha-Skin Gloves
 LBIS:AddItem(spec1, "88742", LBIS.L["Hands"], "Alt") --Sunspeaker's Flared Gloves
 LBIS:AddItem(spec1, "82438", LBIS.L["Hands"], "Alt") --Spelltwister's Gloves
 LBIS:AddItem(spec1, "86709", LBIS.L["Hands"], "Alt") --Sha-Skin Gloves
-LBIS:AddItem(spec1, "87052", LBIS.L["Hands"], "Alt") --Undying Shadow Grips
 LBIS:AddItem(spec1, "81102", LBIS.L["Hands"], "Alt") --Gloves of Enraged Slaughter
+LBIS:AddItem(spec1, "87052", LBIS.L["Hands"], "Alt") --Undying Shadow Grips
 LBIS:AddItem(spec1, "86981", LBIS.L["Waist"], "BIS") --Belt of Malleable Amber
 LBIS:AddItem(spec1, "89062", LBIS.L["Waist"], "Alt") --Klaxxi Lash of the Orator
-LBIS:AddItem(spec1, "82861", LBIS.L["Waist"], "Alt") --Incineration Belt
 LBIS:AddItem(spec1, "86857", LBIS.L["Waist"], "Alt") --Belt of Malleable Amber
 LBIS:AddItem(spec1, "87064", LBIS.L["Waist"], "Alt") --Orbital Belt
+LBIS:AddItem(spec1, "82861", LBIS.L["Waist"], "Alt") --Incineration Belt
 LBIS:AddItem(spec1, "87189", LBIS.L["Legs"], "BIS") --Sha-Skin Leggings
 LBIS:AddItem(spec1, "98073", LBIS.L["Legs"], "Alt") --Leggings of the Poisoned Soul
 LBIS:AddItem(spec1, "86711", LBIS.L["Legs"], "Alt") --Sha-Skin Leggings
-LBIS:AddItem(spec1, "81106", LBIS.L["Legs"], "Alt") --Leggings of the Frenzy
 LBIS:AddItem(spec1, "87017", LBIS.L["Legs"], "Alt") --Jade Dust Leggings
+LBIS:AddItem(spec1, "81106", LBIS.L["Legs"], "Alt") --Leggings of the Frenzy
 LBIS:AddItem(spec1, "87162", LBIS.L["Feet"], "BIS") --Sandals of the Blackest Night
 LBIS:AddItem(spec1, "86969", LBIS.L["Feet"], "Alt") --Sandals of the Unbidden
-LBIS:AddItem(spec1, "81255", LBIS.L["Feet"], "Alt") --Soulbinder Treads
 LBIS:AddItem(spec1, "88878", LBIS.L["Feet"], "Alt") --Void Flame Slippers
+LBIS:AddItem(spec1, "81255", LBIS.L["Feet"], "Alt") --Soulbinder Treads
 LBIS:AddItem(spec1, "86888", LBIS.L["Feet"], "Alt") --Sandals of the Blackest Night
 LBIS:AddItem(spec1, "87028", LBIS.L["Neck"], "BIS") --Amulet of Seven Curses
 LBIS:AddItem(spec1, "89068", LBIS.L["Neck"], "Alt") --Wire of the Wakener
-LBIS:AddItem(spec1, "86810", LBIS.L["Neck"], "Alt") --Worldwaker Cabochon
 LBIS:AddItem(spec1, "81566", LBIS.L["Neck"], "Alt") --Anarchist's Pendant
+LBIS:AddItem(spec1, "86810", LBIS.L["Neck"], "Alt") --Worldwaker Cabochon
 LBIS:AddItem(spec1, "90596", LBIS.L["Neck"], "Alt") --Burning Necklace of the Golden Lotus
 LBIS:AddItem(spec1, "90511", LBIS.L["Ring"], "BIS") --Watersoul Signet
 LBIS:AddItem(spec1, "86949", LBIS.L["Ring"], "BIS") --Fragment of Fear Made Flesh
-LBIS:AddItem(spec1, "86873", LBIS.L["Ring"], "Alt") --Watersoul Signet
 LBIS:AddItem(spec1, "89072", LBIS.L["Ring"], "Alt") --Simple Harmonius Ring
+LBIS:AddItem(spec1, "86873", LBIS.L["Ring"], "Alt") --Watersoul Signet
 LBIS:AddItem(spec1, "81182", LBIS.L["Ring"], "Alt") --Eye of the Tornado
-LBIS:AddItem(spec1, "81560", LBIS.L["Ring"], "Alt") --Signet of the Hidden Door
-LBIS:AddItem(spec1, "86814", LBIS.L["Ring"], "Alt") --Fragment of Fear Made Flesh
 LBIS:AddItem(spec1, "90859", LBIS.L["Ring"], "Alt") --Seal of the Lucid
+LBIS:AddItem(spec1, "86814", LBIS.L["Ring"], "Alt") --Fragment of Fear Made Flesh
+LBIS:AddItem(spec1, "81560", LBIS.L["Ring"], "Alt") --Signet of the Hidden Door
 LBIS:AddItem(spec1, "87175", LBIS.L["Trinket"], "BIS") --Essence of Terror
 LBIS:AddItem(spec1, "87065", LBIS.L["Trinket"], "BIS") --Light of the Cosmos
 LBIS:AddItem(spec1, "89081", LBIS.L["Trinket"], "Alt") --Blossom of Pure Snow
-LBIS:AddItem(spec1, "81192", LBIS.L["Trinket"], "Alt") --Vision of the Predator
 LBIS:AddItem(spec1, "86792", LBIS.L["Trinket"], "Alt") --Light of the Cosmos
 LBIS:AddItem(spec1, "79331", LBIS.L["Trinket"], "Alt") --Relic of Yu'lon
+LBIS:AddItem(spec1, "81192", LBIS.L["Trinket"], "Alt") --Vision of the Predator
 LBIS:AddItem(spec1, "86907", LBIS.L["Trinket"], "Alt") --Essence of Terror
 LBIS:AddItem(spec1, "81263", LBIS.L["Trinket"], "Alt") --Flashfrozen Resin Globule
 LBIS:AddItem(spec1, "87164", LBIS.L["Main Hand"], "BIS") --Loshan, Terror Incarnate
-LBIS:AddItem(spec1, "89397", LBIS.L["Main Hand"], "Alt") --Amber Saber of Klaxxi'vess
-LBIS:AddItem(spec1, "89395", LBIS.L["Main Hand"], "Alt") --Amber Scythe of Klaxxi'vess
-LBIS:AddItem(spec1, "86886", LBIS.L["Main Hand"], "Alt") --Loshan, Terror Incarnate
-LBIS:AddItem(spec1, "86983", LBIS.L["Main Hand"], "Alt") --Un'sok's Amber Scalpel
-LBIS:AddItem(spec1, "87066", LBIS.L["Main Hand"], "Alt") --Torch of the Celestial Spark
 LBIS:AddItem(spec1, "82826", LBIS.L["Main Hand"], "Alt") --Necromantic Wand
+LBIS:AddItem(spec1, "87066", LBIS.L["Main Hand"], "Alt") --Torch of the Celestial Spark
+LBIS:AddItem(spec1, "86983", LBIS.L["Main Hand"], "Alt") --Un'sok's Amber Scalpel
+LBIS:AddItem(spec1, "86886", LBIS.L["Main Hand"], "Alt") --Loshan, Terror Incarnate
 LBIS:AddItem(spec1, "86960", LBIS.L["Off Hand"], "BIS") --Tornado-Summoning Censer
 LBIS:AddItem(spec1, "79334", LBIS.L["Off Hand"], "Alt") --Inscribed Jade Fan
-LBIS:AddItem(spec1, "81076", LBIS.L["Off Hand"], "Alt") --Bottle of Potent Potables
 LBIS:AddItem(spec1, "86829", LBIS.L["Off Hand"], "Alt") --Tornado-Summoning Censer
+LBIS:AddItem(spec1, "81076", LBIS.L["Off Hand"], "Alt") --Bottle of Potent Potables

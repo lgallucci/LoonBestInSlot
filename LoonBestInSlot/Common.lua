@@ -616,7 +616,7 @@ function LBIS.CreateItemRow(f, specItem, specItemSource)
                     LBIS:GetItemInfo(tonumber(tokenNumber2), function(tierToken2)
                         showSourceButton(tierToken, tierToken2, "Token:", false);
                     end);
-                else                    
+                else 
                     showSourceButton(tierToken, nil, "Token:", false);
                 end
             end);
