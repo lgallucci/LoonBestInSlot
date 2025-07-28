@@ -38,13 +38,18 @@ public class ReputationImporter : LootImporter
 
                 var sourceSplit = wowheadUriList[uri].Split(",");
 
+                var (currencySource, currencyNumber) = EmblemImporter.GetSourceText(row.Children[11]);
+
+                var sourceLocation = reputation == string.Empty ? $"{currencyNumber} {currencySource}" : currencySource != string.Empty ? $"{reputation} ({currencyNumber} {currencySource})" : reputation;
+                var sourceType = reputation == string.Empty ? "Token" : "Reputation";
+
                 var successfulAdd = items.Items.TryAdd(itemId, new DatabaseItem
                 {
                     Name = itemName,
                     SourceNumber = "0",
                     Source = sourceSplit[0].Trim(),
-                    SourceLocation = reputation,
-                    SourceType = "Reputation",
+                    SourceLocation = sourceLocation,
+                    SourceType = sourceType,
                     SourceFaction = sourceSplit[1].Trim()
                 });
             }

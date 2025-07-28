@@ -108,14 +108,49 @@ public class EmblemImporter : LootImporter
     {
         await Common.ReadWowheadSellsList(wowheadUriList.Where(u => u.Contains("wowhead")), (uri, row, itemId, item) =>
         {
-            var success = false;
             var currencySource = "";
             var currencyNumber = "";
             var currencySourceLocation = "Emblem Vendor";
             var sourceFaction = "B";
             var itemName = item.TextContent;
 
-            Common.RecursiveBoxSearch(row.Children[10], (anchorObject) =>
+            (currencySource, currencyNumber) = GetSourceText(row.Children[10]);            
+
+            if (row.Children[6].Children.Count() > 0)
+            {
+                var factionColumn = (IElement)row.Children[6].ChildNodes[0];
+                if (factionColumn?.ClassName == "icon-horde")
+                    sourceFaction = "H";
+                else if (factionColumn?.ClassName == "icon-alliance")
+                    sourceFaction = "A";
+            }
+
+            if (items.Items.ContainsKey(itemId))
+            {
+                items.Items.Remove(itemId);
+            }
+
+            if (!currencySource.Contains("unknown"))
+            {
+                var successfulAdd = items.Items.TryAdd(itemId, new DatabaseItem
+                {
+                    Name = itemName,
+                    SourceNumber = currencyNumber,
+                    Source = currencySource,
+                    SourceLocation = currencySourceLocation,
+                    SourceType = "Dungeon Token",
+                    SourceFaction = sourceFaction
+                });
+            }
+        }, writeToLog, _importCancelToken);
+    }
+
+    public static (string, string) GetSourceText(IElement currencyCell)
+    {
+        var success = false;
+        var currencySource = "";
+        var currencyNumber = "";
+        Common.RecursiveBoxSearch(currencyCell, (anchorObject) =>
             {
                 var item = anchorObject.PathName.Replace("/mop-classic/", "/").Replace("/currency=", "").Replace("/item=", "").Replace("/?item=", "");
 
@@ -167,33 +202,7 @@ public class EmblemImporter : LootImporter
                 return success;
             });
 
-            if (row.Children[6].Children.Count() > 0)
-            {
-                var factionColumn = (IElement)row.Children[6].ChildNodes[0];
-                if (factionColumn?.ClassName == "icon-horde")
-                    sourceFaction = "H";
-                else if (factionColumn?.ClassName == "icon-alliance")
-                    sourceFaction = "A";
-            }
-
-            if (items.Items.ContainsKey(itemId))
-            {
-                items.Items.Remove(itemId);
-            }
-
-            if (!currencySource.Contains("unknown"))
-            {
-                var successfulAdd = items.Items.TryAdd(itemId, new DatabaseItem
-                {
-                    Name = itemName,
-                    SourceNumber = currencyNumber,
-                    Source = currencySource,
-                    SourceLocation = currencySourceLocation,
-                    SourceType = "Dungeon Token",
-                    SourceFaction = sourceFaction
-                });
-            }
-        }, writeToLog, _importCancelToken);
+        return (currencySource, currencyNumber);
     }
 
     private async Task ReadFromAtlasLoot(DatabaseItems items, Action<string> writeToLog) 
