@@ -435,8 +435,8 @@ local function LoadData()
     LBIS:AddItem(spec5, "16480", LBIS.L["Shoulder"], "Alt") --Field Marshal's Plate Shoulderguards
     LBIS:AddItem(spec5, "16544", LBIS.L["Shoulder"], "Alt") --Warlord's Plate Shoulders
     LBIS:AddItem(spec5, "19394", LBIS.L["Shoulder"], "Alt") --Drake Talon Pauldrons
-    LBIS:AddItem(spec5, "23315", LBIS.L["Shoulder"], "Alt") --Lieutenant Commander's Plate Shoulders
     LBIS:AddItem(spec5, "23243", LBIS.L["Shoulder"], "Alt") --Champion's Plate Shoulders
+    LBIS:AddItem(spec5, "23315", LBIS.L["Shoulder"], "Alt") --Lieutenant Commander's Plate Shoulders
     LBIS:AddItem(spec5, "20057", LBIS.L["Shoulder"], "Alt") --Highlander's Plate Spaulders
     LBIS:AddItem(spec5, "20212", LBIS.L["Shoulder"], "Alt") --Defiler's Plate Spaulders
     LBIS:AddItem(spec5, "20683", LBIS.L["Shoulder"], "Alt") --Abyssal Plate Epaulets
@@ -516,6 +516,8 @@ local function LoadData()
     LBIS:AddItem(spec5, "20130", LBIS.L["Trinket"], "BIS") --Diamond Flask
     LBIS:AddItem(spec5, "19406", LBIS.L["Trinket"], "BIS") --Drake Fang Talisman
     LBIS:AddItem(spec5, "11815", LBIS.L["Trinket"], "Alt") --Hand of Justice
+    LBIS:AddItem(spec5, "13965", LBIS.L["Trinket"], "Alt") --Blackhand's Breadth
+    LBIS:AddItem(spec5, "19120", LBIS.L["Trinket"], "Alt") --Rune of the Guard Captain
     LBIS:AddItem(spec5, "21670", LBIS.L["Trinket"], "Alt") --Badge of the Swarmguard
     LBIS:AddItem(spec5, "21647", LBIS.L["Trinket"], "Alt") --Fetish of the Sand Reaver
     LBIS:AddItem(spec5, "17112", LBIS.L["Main Hand"], "BIS") --Empyrean Demolisher
