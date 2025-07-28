@@ -1069,7 +1069,6 @@
       "Lower Blackrock Spire/Scholomance": "Cumbre de Roca Negra Inferior/Scholomance",
       "Off Hand/Ranged/Relic": "Mano izquierda/A distancia/Reliquia",
       "Scholomance/Stratholme": "Scholomance/Stratholme",
-      "DPS": "DPS",
       "DPS": "DPS"
     },
     "esMX": {
@@ -2112,7 +2111,6 @@
       "Lower Blackrock Spire/Scholomance": "Cumbre de Roca Negra Inferior/Scholomance",
       "Off Hand/Ranged/Relic": "Mano izquierda/A distancia/Reliquia",
       "Scholomance/Stratholme": "Scholomance/Stratholme",
-      "DPS": "DPS",
       "DPS": "DPS"
     },
     "deDE": {
@@ -3236,7 +3234,6 @@
       "Lower Blackrock Spire/Scholomance": "Untere Schwarzfelsspitze/Scholomance",
       "Off Hand/Ranged/Relic": "Schildhand/Distanzkampf/Relikt",
       "Scholomance/Stratholme": "Scholomance/Stratholme",
-      "DPS": "SPS",
       "DPS": "SPS"
     },
     "frFR": {
@@ -4295,7 +4292,6 @@
       "Lower Blackrock Spire/Scholomance": "Pic Blackrock Inférieur/Scholomance",
       "Off Hand/Ranged/Relic": "Main gauche/Distance/Relique",
       "Scholomance/Stratholme": "Scholomance/Stratholme",
-      "DPS": "DPS",
       "DPS": "DPS"
     },
     "ruRU": {
@@ -5350,7 +5346,6 @@
       "Lower Blackrock Spire/Scholomance": "Нижняя часть вершины Черной Горы/Некроситет",
       "Off Hand/Ranged/Relic": "Левая рука/Дальний бой/Реликвия",
       "Scholomance/Stratholme": "Некроситет/Стратхольм",
-      "DPS": "Урон в сек",
       "DPS": "Урон в сек"
     },
     "zhCN": {
@@ -6404,7 +6399,6 @@
       "Lower Blackrock Spire/Scholomance": "黑石塔下层/通灵学院",
       "Off Hand/Ranged/Relic": "副手/远程/圣物",
       "Scholomance/Stratholme": "通灵学院/斯坦索姆",
-      "DPS": "每秒伤害",
       "DPS": "每秒伤害"
     },
     "koKR": {
@@ -7550,7 +7544,6 @@
       "Lower Blackrock Spire/Scholomance": "검은바위 첨탑 (하층)/스칼로맨스",
       "Off Hand/Ranged/Relic": "보조장비/원거리/성물",
       "Scholomance/Stratholme": "스칼로맨스/스트라솔름",
-      "DPS": "초당 공격력",
       "DPS": "초당 공격력"
     },
     "zhTW": {
@@ -8601,7 +8594,6 @@
       "Lower Blackrock Spire/Scholomance": "黑石塔下層/通靈學院",
       "Off Hand/Ranged/Relic": "副手/遠程/聖物",
       "Scholomance/Stratholme": "通靈學院/斯坦索姆",
-      "DPS": "每秒傷害",
       "DPS": "每秒傷害"
     }
   }
