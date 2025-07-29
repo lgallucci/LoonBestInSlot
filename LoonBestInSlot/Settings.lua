@@ -323,6 +323,7 @@ local lbis_options = {
 			set = function(info, val) LBISSettings.Tooltip[LBIS.L["DPS"]..LBIS.L["Warrior"]] = val end,
 			width = 1.6,
 			order = 25,
+			hidden = not LBIS.IsSOD
 		},
 		showSodTankWarrior = {
 			type = "toggle",
