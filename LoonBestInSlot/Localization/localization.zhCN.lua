@@ -190,7 +190,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Mistweaver"] = "织物";
   LBIS.L["Mogu'shan Palace"] = "魔古山宫殿";
   LBIS.L["Mogu'shan Vaults"] = "魔古山宝库";
---  LBIS.L["Mogu'Shan Vaults"] = "";
+--  LBIS.L["Mogu'shan Vaults"] = "";
 --  LBIS.L["Mogu'shan Vaults,"] = "";
   LBIS.L["Monk"] = "LOCALIZED_CLASS_NAMES_MALE.MONK";
 --  LBIS.L["Morgrinn Crackfang"] = "";

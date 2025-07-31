@@ -122,6 +122,7 @@ public class SlotSwaps
         { "Trinket (Alternative)", "Trinket" },
         { "Mainhand (Alternative)", "Main Hand" }
     };
+    
     // Setting up indexers
     public string this[string i]
     {

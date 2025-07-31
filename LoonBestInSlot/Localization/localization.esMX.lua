@@ -190,7 +190,7 @@ if GetLocale() == "esMX" then
   LBIS.L["Mistweaver"] = "Tejedor de niebla";
   LBIS.L["Mogu'shan Palace"] = "Palacio Mogu'shan";
   LBIS.L["Mogu'shan Vaults"] = "Cámaras Mogu'shan";
---  LBIS.L["Mogu'Shan Vaults"] = "";
+--  LBIS.L["Mogu'shan Vaults"] = "";
 --  LBIS.L["Mogu'shan Vaults,"] = "";
   LBIS.L["Monk"] = "LOCALIZED_CLASS_NAMES_MALE.MONK";
 --  LBIS.L["Morgrinn Crackfang"] = "";

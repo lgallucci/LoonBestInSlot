@@ -190,7 +190,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Mistweaver"] = "";
   LBIS.L["Mogu'shan Palace"] = "Дворец Могу'шан";
   LBIS.L["Mogu'shan Vaults"] = "Подземелья Могу'шан";
---  LBIS.L["Mogu'Shan Vaults"] = "";
+--  LBIS.L["Mogu'shan Vaults"] = "";
 --  LBIS.L["Mogu'shan Vaults,"] = "";
   LBIS.L["Monk"] = "Монах";
 --  LBIS.L["Morgrinn Crackfang"] = "";

@@ -190,7 +190,7 @@ if GetLocale() == "frFR" then
 --  LBIS.L["Mistweaver"] = "";
   LBIS.L["Mogu'shan Palace"] = "Palais Mogu’shan";
   LBIS.L["Mogu'shan Vaults"] = "Caveaux Mogu’shan";
---  LBIS.L["Mogu'Shan Vaults"] = "";
+--  LBIS.L["Mogu'shan Vaults"] = "";
 --  LBIS.L["Mogu'shan Vaults,"] = "";
   LBIS.L["Monk"] = "Moine";
 --  LBIS.L["Morgrinn Crackfang"] = "";
