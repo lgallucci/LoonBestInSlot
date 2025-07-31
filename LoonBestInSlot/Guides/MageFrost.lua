@@ -84,7 +84,6 @@ LBIS:AddItem(spec0, "90435", LBIS.L["Ring"], "Alt") --Ring of Wretched Flames
 LBIS:AddItem(spec0, "79331", LBIS.L["Trinket"], "BIS") --Relic of Yu'lon
 LBIS:AddItem(spec0, "81263", LBIS.L["Trinket"], "BIS") --Flashfrozen Resin Globule
 LBIS:AddItem(spec0, "89081", LBIS.L["Trinket"], "Alt") --Blossom of Pure Snow
-LBIS:AddItem(spec0, "87175", LBIS.L["Trinket"], "Alt") --Essence of Terror
 LBIS:AddItem(spec0, "81192", LBIS.L["Trinket"], "Alt") --Vision of the Predator
 LBIS:AddItem(spec0, "86907", LBIS.L["Trinket"], "Alt") --Essence of Terror
 LBIS:AddItem(spec0, "86792", LBIS.L["Trinket"], "Alt") --Light of the Cosmos
