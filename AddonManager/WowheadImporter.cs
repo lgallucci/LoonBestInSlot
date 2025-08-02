@@ -746,10 +746,16 @@ public static class WowheadImporter
                     };
                     foreach (var source in csvLootTable[tokenKey].ItemSource)
                     {
+                        var sourceText = source.Source;
+                        if (source.SourceType == "Dungeon Token")
+                        { 
+                            sourceText = sourceText + " (" + source.SourceNumber + ")";
+                        }
+
                         newLootTable.AddItem(new ImportItemSource
                         {
                             SourceType = tierPiece.Value.SourceType,
-                            Source = source.Source,
+                            Source = sourceText,
                             SourceNumber = tierPiece.Value.SourceNumber,
                             SourceLocation = source.SourceLocation,
                             SourceFaction = tierPiece.Value.SourceFaction
