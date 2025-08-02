@@ -120,7 +120,9 @@ public class SlotSwaps
         { "1h Weapon (Ultra Rare)", "Main Hand" },
         { "1h Weapon (Weaker but Accessible)", "Main Hand" },
         { "Trinket (Alternative)", "Trinket" },
-        { "Mainhand (Alternative)", "Main Hand" }
+        { "Mainhand (Alternative)", "Main Hand" },
+        { "1h Weapon (Common)", "Main Hand" },
+        { "2h Weapon (If no Epic Offhand)", "Main Hand" }
     };
     
     // Setting up indexers

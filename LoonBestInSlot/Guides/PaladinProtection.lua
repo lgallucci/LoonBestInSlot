@@ -8,20 +8,20 @@ local spec5 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Protection"], "5")
 LBIS:AddGem(spec0, "76895", "3", "True") --Austere Primal Diamond
 LBIS:AddGem(spec0, "76886", "3", "True") --Reverberating Primal Diamond
 LBIS:AddGem(spec0, "89881", "5", "False") --Crystallized Terror
-LBIS:AddGem(spec0, "76642", "3", "False") --Lightning Wild Jade
-LBIS:AddGem(spec0, "76699", "3", "False") --Quick Sun's Radiance
-LBIS:AddGem(spec0, "76693", "3", "False") --Precise Primordial Ruby
-LBIS:AddGem(spec0, "76667", "3", "False") --Wicked Vermilion Onyx
-LBIS:AddGem(spec0, "77543", "3", "False") --Precise Tinker's Gear
-LBIS:AddGem(spec0, "76654", "3", "False") --Forceful Wild Jade
-LBIS:AddGem(spec0, "76636", "3", "False") --Rigid River's Heart
-LBIS:AddGem(spec0, "76639", "3", "False") --Solid River's Heart
-LBIS:AddGem(spec0, "76700", "3", "False") --Fractured Sun's Radiance
-LBIS:AddGem(spec0, "77542", "3", "False") --Quick Tinker's Gear
-LBIS:AddGem(spec0, "77547", "3", "False") --Fractured Tinker's Gear
-LBIS:AddGem(spec0, "77540", "3", "False") --Subtle Tinker's Gear
 LBIS:AddGem(spec0, "77544", "3", "False") --Flashing Tinker's Gear
+LBIS:AddGem(spec0, "77540", "3", "False") --Subtle Tinker's Gear
+LBIS:AddGem(spec0, "77547", "3", "False") --Fractured Tinker's Gear
+LBIS:AddGem(spec0, "77542", "3", "False") --Quick Tinker's Gear
+LBIS:AddGem(spec0, "76700", "3", "False") --Fractured Sun's Radiance
+LBIS:AddGem(spec0, "76636", "3", "False") --Rigid River's Heart
 LBIS:AddGem(spec0, "76681", "3", "False") --Accurate Imperial Amethyst
+LBIS:AddGem(spec0, "76654", "3", "False") --Forceful Wild Jade
+LBIS:AddGem(spec0, "77543", "3", "False") --Precise Tinker's Gear
+LBIS:AddGem(spec0, "76667", "3", "False") --Wicked Vermilion Onyx
+LBIS:AddGem(spec0, "76693", "3", "False") --Precise Primordial Ruby
+LBIS:AddGem(spec0, "76699", "3", "False") --Quick Sun's Radiance
+LBIS:AddGem(spec0, "76642", "3", "False") --Lightning Wild Jade
+LBIS:AddGem(spec0, "76639", "3", "False") --Solid River's Heart
 LBIS:AddGem(spec0, "77545", "3", "False") --Rigid Tinker's Gear
 
 LBIS:AddEnchant(spec1, "121194", LBIS.L["Shoulder"]) --
@@ -97,7 +97,7 @@ LBIS:AddItem(spec0, "81073", LBIS.L["Feet"], "Alt") --Stonestep Boots
 LBIS:AddItem(spec0, "86852", LBIS.L["Feet"], "Alt") --Impaling Treads
 LBIS:AddItem(spec0, "90446", LBIS.L["Feet"], "Alt") --Silverspur Warboots
 LBIS:AddItem(spec0, "90447", LBIS.L["Feet"], "Alt") --Stompers of Vigorous Stomping
-LBIS:AddItem(spec0, "84892", LBIS.L["Neck"], "BIS") --Malevolent Gladiator's Choker of Accuracy
+LBIS:AddItem(spec0, "90582", LBIS.L["Neck"], "BIS") --Buc-Zakai Memento
 LBIS:AddItem(spec0, "89066", LBIS.L["Neck"], "Alt") --Paragon's Pale Pendant
 LBIS:AddItem(spec0, "89064", LBIS.L["Neck"], "Alt") --Bloodseeker's Solitaire
 LBIS:AddItem(spec0, "86871", LBIS.L["Neck"], "Alt") --Shackle of Eversparks

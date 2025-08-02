@@ -87,9 +87,10 @@ LBIS:AddItem(spec0, "81266", LBIS.L["Trinket"], "Alt") --Price of Progress
 LBIS:AddItem(spec0, "87544", LBIS.L["Main Hand"], "BIS") --Je'lyu, Spirit of the Serpent
 LBIS:AddItem(spec0, "87649", LBIS.L["Main Hand"], "Alt") --Pool-Stirrer
 LBIS:AddItem(spec0, "87642", LBIS.L["Main Hand"], "Alt") --Darkstaff of Annihilation
-LBIS:AddItem(spec0, "86886", LBIS.L["Main Hand"], "Alt") --Loshan, Terror Incarnate
 LBIS:AddItem(spec0, "86865", LBIS.L["Main Hand"], "Alt") --Kri'tak, Imperial Scepter of the Swarm
+LBIS:AddItem(spec0, "86886", LBIS.L["Main Hand"], "Alt") --Loshan, Terror Incarnate
 LBIS:AddItem(spec0, "86806", LBIS.L["Main Hand"], "Alt") --Tihan, Scepter of the Sleeping Emperor
+LBIS:AddItem(spec0, "81094", LBIS.L["Main Hand"], "Alt") --Carapace Breaker
 LBIS:AddItem(spec0, "81079", LBIS.L["Main Hand"], "Alt") --Staff of Trembling Will
 LBIS:AddItem(spec0, "79335", LBIS.L["Off Hand"], "BIS") --Inscribed Red Fan
 LBIS:AddItem(spec0, "89426", LBIS.L["Off Hand"], "Alt") --Fan of Fiery Winds
@@ -147,20 +148,20 @@ LBIS:AddItem(spec1, "87067", LBIS.L["Feet"], "Alt") --Phasewalker Striders
 LBIS:AddItem(spec1, "86878", LBIS.L["Feet"], "Alt") --Asani's Uncleansed Sandals
 LBIS:AddItem(spec1, "86976", LBIS.L["Neck"], "BIS") --Korven's Amber-Sealed Beetle
 LBIS:AddItem(spec1, "89067", LBIS.L["Neck"], "Alt") --Links of the Lucid
-LBIS:AddItem(spec1, "87076", LBIS.L["Neck"], "Alt") --Worldwaker Cabochon
-LBIS:AddItem(spec1, "86856", LBIS.L["Neck"], "Alt") --Korven's Amber-Sealed Beetle
 LBIS:AddItem(spec1, "81254", LBIS.L["Neck"], "Alt") --Mindcapture Pendant
+LBIS:AddItem(spec1, "86856", LBIS.L["Neck"], "Alt") --Korven's Amber-Sealed Beetle
+LBIS:AddItem(spec1, "87076", LBIS.L["Neck"], "Alt") --Worldwaker Cabochon
 LBIS:AddItem(spec1, "90595", LBIS.L["Neck"], "Alt") --Mending Necklace of the Golden Lotus
 LBIS:AddItem(spec1, "90511", LBIS.L["Ring"], "BIS") --Watersoul Signet
 LBIS:AddItem(spec1, "86982", LBIS.L["Ring"], "BIS") --Seal of the Profane
 LBIS:AddItem(spec1, "89073", LBIS.L["Ring"], "Alt") --Leven's Circle of Hope
 LBIS:AddItem(spec1, "90858", LBIS.L["Ring"], "Alt") --Seal of the Prime
+LBIS:AddItem(spec1, "86873", LBIS.L["Ring"], "Alt") --Watersoul Signet
 LBIS:AddItem(spec1, "81141", LBIS.L["Ring"], "Alt") --Alemental Seal
 LBIS:AddItem(spec1, "89933", LBIS.L["Ring"], "Alt") --Feng's Ring of Dreams
-LBIS:AddItem(spec1, "86873", LBIS.L["Ring"], "Alt") --Watersoul Signet
 LBIS:AddItem(spec1, "86767", LBIS.L["Ring"], "Alt") --Circuit of the Frail Soul
-LBIS:AddItem(spec1, "81563", LBIS.L["Ring"], "Alt") --Beastbinder Ring
 LBIS:AddItem(spec1, "87040", LBIS.L["Ring"], "Alt") --Circuit of the Frail Soul
+LBIS:AddItem(spec1, "81563", LBIS.L["Ring"], "Alt") --Beastbinder Ring
 LBIS:AddItem(spec1, "87163", LBIS.L["Trinket"], "BIS") --Spirits of the Sun
 LBIS:AddItem(spec1, "87075", LBIS.L["Trinket"], "BIS") --Qin-xi's Polarizing Seal
 LBIS:AddItem(spec1, "89081", LBIS.L["Trinket"], "Alt") --Blossom of Pure Snow
@@ -168,15 +169,16 @@ LBIS:AddItem(spec1, "89080", LBIS.L["Trinket"], "Alt") --Scroll of Revered Ances
 LBIS:AddItem(spec1, "75274", LBIS.L["Trinket"], "Alt") --Zen Alchemist Stone
 LBIS:AddItem(spec1, "81133", LBIS.L["Trinket"], "Alt") --Empty Fruit Barrel
 LBIS:AddItem(spec1, "86885", LBIS.L["Trinket"], "Alt") --Spirits of the Sun
-LBIS:AddItem(spec1, "79330", LBIS.L["Trinket"], "Alt") --Relic of Chi-Ji
-LBIS:AddItem(spec1, "86805", LBIS.L["Trinket"], "Alt") --Qin-xi's Polarizing Seal
 LBIS:AddItem(spec1, "81266", LBIS.L["Trinket"], "Alt") --Price of Progress
+LBIS:AddItem(spec1, "86805", LBIS.L["Trinket"], "Alt") --Qin-xi's Polarizing Seal
+LBIS:AddItem(spec1, "79330", LBIS.L["Trinket"], "Alt") --Relic of Chi-Ji
 LBIS:AddItem(spec1, "87164", LBIS.L["Main Hand"], "BIS") --Loshan, Terror Incarnate
-LBIS:AddItem(spec1, "86886", LBIS.L["Main Hand"], "Alt") --Loshan, Terror Incarnate
 LBIS:AddItem(spec1, "87544", LBIS.L["Main Hand"], "Alt") --Je'lyu, Spirit of the Serpent
 LBIS:AddItem(spec1, "87074", LBIS.L["Main Hand"], "Alt") --Tihan, Scepter of the Sleeping Emperor
 LBIS:AddItem(spec1, "86990", LBIS.L["Main Hand"], "Alt") --Kri'tak, Imperial Scepter of the Swarm
+LBIS:AddItem(spec1, "86886", LBIS.L["Main Hand"], "Alt") --Loshan, Terror Incarnate
+LBIS:AddItem(spec1, "81094", LBIS.L["Main Hand"], "Alt") --Carapace Breaker
 LBIS:AddItem(spec1, "81079", LBIS.L["Main Hand"], "Alt") --Staff of Trembling Will
 LBIS:AddItem(spec1, "89425", LBIS.L["Off Hand"], "BIS") --Fan of Fiery Winds
-LBIS:AddItem(spec1, "81076", LBIS.L["Off Hand"], "Alt") --Bottle of Potent Potables
 LBIS:AddItem(spec1, "89426", LBIS.L["Off Hand"], "Alt") --Fan of Fiery Winds
+LBIS:AddItem(spec1, "81076", LBIS.L["Off Hand"], "Alt") --Bottle of Potent Potables
