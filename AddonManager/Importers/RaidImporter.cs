@@ -10,56 +10,40 @@ public class RaidImporter : LootImporter
     private Dictionary<string, string> wowheadUriList = new Dictionary<string, string>
     {
         //Mogu'shan Vaults
-        { @"https://www.wowhead.com/mop-classic/npc=60047/amethyst-guardian#drops;mode:lfr", "The Stone Guard (LFR), Mogu'shan Vaults" },
         { @"https://www.wowhead.com/mop-classic/npc=60047/amethyst-guardian#drops;mode:n25", "The Stone Guard (N), Mogu'shan Vaults" },
         { @"https://www.wowhead.com/mop-classic/npc=60047/amethyst-guardian#drops;mode:h25", "The Stone Guard (H), Mogu'shan Vaults" },
-        { @"https://www.wowhead.com/mop-classic/npc=60009/feng-the-accursed#drops;mode:lfr", "Feng the Accursed (LFR), Mogu'shan Vaults" },
         { @"https://www.wowhead.com/mop-classic/npc=60009/feng-the-accursed#drops;mode:n25", "Feng the Accursed (N), Mogu'shan Vaults" },
         { @"https://www.wowhead.com/mop-classic/npc=60009/feng-the-accursed#drops;mode:h25", "Feng the Accursed (H), Mogu'shan Vaults" },
-        { @"https://www.wowhead.com/mop-classic/npc=60143/garajal-the-spiritbinder#drops;mode:lfr", "Gara'jal the Spiritbinder (LFR), Mogu'shan Vaults" },
         { @"https://www.wowhead.com/mop-classic/npc=60143/garajal-the-spiritbinder#drops;mode:n25", "Gara'jal the Spiritbinder (N), Mogu'shan Vaults" },
         { @"https://www.wowhead.com/mop-classic/npc=60143/garajal-the-spiritbinder#drops;mode:h25", "Gara'jal the Spiritbinder (H), Mogu'shan Vaults" },
-        { @"https://www.wowhead.com/mop-classic/npc=60701/zian-of-the-endless-shadow#drops;mode:lfr", "The Spirit Kings (LFR), Mogu'shan Vaults" },
         { @"https://www.wowhead.com/mop-classic/npc=60701/zian-of-the-endless-shadow#drops;mode:n25", "The Spirit Kings (N), Mogu'shan Vaults" },
         { @"https://www.wowhead.com/mop-classic/npc=60701/zian-of-the-endless-shadow#drops;mode:h25", "The Spirit Kings (H), Mogu'shan Vaults" },
-        { @"https://www.wowhead.com/mop-classic/npc=60410/elegon#drops;mode:lfr", "Elegon (LFR), Mogu'shan Vaults" },
         { @"https://www.wowhead.com/mop-classic/npc=60410/elegon#drops;mode:n25", "Elegon (N), Mogu'shan Vaults" },
         { @"https://www.wowhead.com/mop-classic/npc=60410/elegon#drops;mode:h25", "Elegon (H), Mogu'shan Vaults" },
-        { @"https://www.wowhead.com/mop-classic/npc=60400/jan-xi#drops;mode:lfr", "Will of the Emperor (LFR), Mogu'shan Vaults" },
         { @"https://www.wowhead.com/mop-classic/npc=60400/jan-xi#drops;mode:n25", "Will of the Emperor (N), Mogu'shan Vaults" },
         { @"https://www.wowhead.com/mop-classic/npc=60400/jan-xi#drops;mode:h25", "Will of the Emperor (H), Mogu'shan Vaults" },
 
         //Heart of Fear
-        { @"https://www.wowhead.com/mop-classic/npc=62980/imperial-vizier-zorlok#drops;mode:lfr", "Imperial Vizier Zor'lok (LFR), Heart of Fear" },
         { @"https://www.wowhead.com/mop-classic/npc=62980/imperial-vizier-zorlok#drops;mode:n25", "Imperial Vizier Zor'lok (N), Heart of Fear" },
         { @"https://www.wowhead.com/mop-classic/npc=62980/imperial-vizier-zorlok#drops;mode:h25", "Imperial Vizier Zor'lok (H), Heart of Fear" },
-        { @"https://www.wowhead.com/mop-classic/npc=62543/blade-lord-tayak#drops;mode:lfr", "Blade Lord Ta'yak (LFR), Heart of Fear" },
         { @"https://www.wowhead.com/mop-classic/npc=62543/blade-lord-tayak#drops;mode:n25", "Blade Lord Ta'yak (N), Heart of Fear" },
         { @"https://www.wowhead.com/mop-classic/npc=62543/blade-lord-tayak#drops;mode:h25", "Blade Lord Ta'yak (H), Heart of Fear" },
-        { @"https://www.wowhead.com/mop-classic/npc=62164/garalon#drops;mode:lfr", "Garalon (LFR), Heart of Fear" },
         { @"https://www.wowhead.com/mop-classic/npc=62164/garalon#drops;mode:n25", "Garalon (N), Heart of Fear" },
         { @"https://www.wowhead.com/mop-classic/npc=62164/garalon#drops;mode:h25", "Garalon (H), Heart of Fear" },
-        { @"https://www.wowhead.com/mop-classic/npc=62397/wind-lord-meljarak#drops;mode:lfr", "Wind Lord Mel'jarak (LFR), Heart of Fear" },
         { @"https://www.wowhead.com/mop-classic/npc=62397/wind-lord-meljarak#drops;mode:n25", "Wind Lord Mel'jarak (N), Heart of Fear" },
         { @"https://www.wowhead.com/mop-classic/npc=62397/wind-lord-meljarak#drops;mode:h25", "Wind Lord Mel'jarak (H), Heart of Fear" },
-        { @"https://www.wowhead.com/mop-classic/npc=62511/amber-shaper-unsok#drops;mode:lfr", "Amber-Shaper Un'sok (LFR), Heart of Fear" },
         { @"https://www.wowhead.com/mop-classic/npc=62511/amber-shaper-unsok#drops;mode:n25", "Amber-Shaper Un'sok (N), Heart of Fear" },
         { @"https://www.wowhead.com/mop-classic/npc=62511/amber-shaper-unsok#drops;mode:h25", "Amber-Shaper Un'sok (H), Heart of Fear" },
-        { @"https://www.wowhead.com/mop-classic/npc=62837/grand-empress-shekzeer#drops;mode:lfr", "Grand Empress Shek'zeer (LFR), Heart of Fear" },
         { @"https://www.wowhead.com/mop-classic/npc=62837/grand-empress-shekzeer#drops;mode:n25", "Grand Empress Shek'zeer (N), Heart of Fear" },
         { @"https://www.wowhead.com/mop-classic/npc=62837/grand-empress-shekzeer#drops;mode:h25", "Grand Empress Shek'zeer (H), Heart of Fear" },
 
         //Terrace of Endless Spring
-        { @"https://www.wowhead.com/mop-classic/npc=60583/protector-kaolan#drops;mode:lfr", "Protector Kaolan (LFR), Terrace of Endless Spring" },
         { @"https://www.wowhead.com/mop-classic/npc=60583/protector-kaolan#drops;mode:n25", "Protector Kaolan (N), Terrace of Endless Spring" },
         { @"https://www.wowhead.com/mop-classic/npc=60583/protector-kaolan#drops;mode:h25", "Protector Kaolan (H), Terrace of Endless Spring" },
-        { @"https://www.wowhead.com/mop-classic/npc=62442/tsulong#drops;mode:lfr", "Tsulong (LFR), Terrace of Endless Spring" },
         { @"https://www.wowhead.com/mop-classic/npc=62442/tsulong#drops;mode:n25", "Tsulong (N), Terrace of Endless Spring" },
         { @"https://www.wowhead.com/mop-classic/npc=62442/tsulong#drops;mode:h25", "Tsulong (H), Terrace of Endless Spring" },
-        { @"https://www.wowhead.com/mop-classic/npc=62983/lei-shi#drops;mode:lfr", "Lei Shen (LFR), Terrace of Endless Spring" },
         { @"https://www.wowhead.com/mop-classic/npc=62983/lei-shi#drops;mode:n25", "Lei Shen (N), Terrace of Endless Spring" },
         { @"https://www.wowhead.com/mop-classic/npc=62983/lei-shi#drops;mode:h25", "Lei Shen (H), Terrace of Endless Spring" },
-        { @"https://www.wowhead.com/mop-classic/npc=60999/sha-of-fear#drops;mode:lfr", "Sha of Fear (LFR), Terrace of Endless Spring" },
         { @"https://www.wowhead.com/mop-classic/npc=60999/sha-of-fear#drops;mode:n25", "Sha of Fear (N), Terrace of Endless Spring" },
         { @"https://www.wowhead.com/mop-classic/npc=60999/sha-of-fear#drops;mode:h25", "Sha of Fear (H), Terrace of Endless Spring" },
     };
@@ -77,12 +61,14 @@ public class RaidImporter : LootImporter
     {
         "Reins of the",
         "Plans: ",
-        "Pattern: ", 
+        "Pattern: ",
         "Formula: ",
         "Trophy of the Crusade",
         "Large Satchel",
         "Dragon Hide Bag",
-        "Shadowfrost Shard"
+        "Shadowfrost Shard",
+        "Sigil of Power",
+        "Sigil of Wisdom",
     };
 
     public RaidImporter(CancellationToken cancellationToken) : base(cancellationToken)
