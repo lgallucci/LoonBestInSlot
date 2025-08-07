@@ -2763,6 +2763,7 @@ LBIS.ItemSources =
     [90860] = { Name = "Seal of the Unscathed", SourceType = LBIS.L["Quest"], Source = LBIS.L["Shadow of the Empire"], SourceNumber = "0", SourceLocation = LBIS.L["Dread Wastes"], SourceFaction = "B" },
     [90861] = { Name = "Seal of the Windreaver", SourceType = LBIS.L["Quest"], Source = LBIS.L["Shadow of the Empire"], SourceNumber = "0", SourceLocation = LBIS.L["Dread Wastes"], SourceFaction = "B" },
     [90862] = { Name = "Seal of the Bloodseeker", SourceType = LBIS.L["Quest"], Source = LBIS.L["Shadow of the Empire"], SourceNumber = "0", SourceLocation = LBIS.L["Dread Wastes"], SourceFaction = "B" },
+    [90907] = { Name = "Boots of Unbreakable Umbrage", SourceType = LBIS.L["Quest"], Source = LBIS.L["Remnants of Anger"], SourceNumber = "0", SourceLocation = LBIS.L["Townlong Steppes"], SourceFaction = "B" },
     [90909] = { Name = "Intemperate Greatboots", SourceType = LBIS.L["Quest"], Source = LBIS.L["Remnants of Anger"], SourceNumber = "0", SourceLocation = LBIS.L["Townlong Steppes"], SourceFaction = "B" },
     [91656] = { Name = "Malevolent Gladiator's Warboots of Alacrity", SourceType = LBIS.L["unknown"], Source = LBIS.L["unknown"], SourceNumber = "0", SourceLocation = LBIS.L["unknown"], SourceFaction = "B" },
     [92522] = { Name = "Grand Commendation of the Klaxxi", SourceType = LBIS.L["Reputation"], Source = LBIS.L["The Klaxxi"], SourceNumber = "0", SourceLocation = LBIS.L["Revered"], SourceFaction = "B" },

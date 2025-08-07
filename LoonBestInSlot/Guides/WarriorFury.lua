@@ -81,7 +81,7 @@ LBIS:AddItem(spec0, "87551", LBIS.L["Neck"], "Alt") --Helios, Durand's Soul of P
 LBIS:AddItem(spec0, "90592", LBIS.L["Neck"], "Alt") --Ferocious Necklace of the Golden Lotus
 LBIS:AddItem(spec0, "86871", LBIS.L["Neck"], "Alt") --Shackle of Eversparks
 LBIS:AddItem(spec0, "90582", LBIS.L["Neck"], "Alt") --Buc-Zakai Memento
-LBIS:AddItem(spec0, "90432", LBIS.L["Neck"], "Alt") --Hellrider's Choker
+LBIS:AddItem(spec0, "90433", LBIS.L["Neck"], "Alt") --Mushan Rider's Collar
 LBIS:AddItem(spec0, "89069", LBIS.L["Ring"], "BIS") --Ring of the Golden Stair
 LBIS:AddItem(spec0, "81251", LBIS.L["Ring"], "BIS") --Blade Trap Signet
 LBIS:AddItem(spec0, "90581", LBIS.L["Ring"], "Alt") --Jan-Ho's Unwavering Seal
