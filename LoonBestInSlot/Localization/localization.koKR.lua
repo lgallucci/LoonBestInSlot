@@ -198,7 +198,6 @@ if GetLocale() == "koKR" then
   LBIS.L["Mogu'shan Palace"] = "모구샨 궁전";
   LBIS.L["Mogu'shan Vaults"] = "모구샨 금고";
 --  LBIS.L["Mogu'shan Vaults,"] = "";
-  LBIS.L["Monk"] = "수도사";
 --  LBIS.L["Morgrinn Crackfang"] = "";
   LBIS.L["Neck"] = "목";
   LBIS.L["New Features"] = "새로운 기능";

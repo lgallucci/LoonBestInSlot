@@ -198,7 +198,6 @@ if GetLocale() == "zhTW" then
   LBIS.L["Mogu'shan Palace"] = "魔古山宮";
   LBIS.L["Mogu'shan Vaults"] = "魔古山寶庫";
 --  LBIS.L["Mogu'shan Vaults,"] = "";
-  LBIS.L["Monk"] = "武僧";
 --  LBIS.L["Morgrinn Crackfang"] = "";
   LBIS.L["Neck"] = "頸部";
 --  LBIS.L["New Features"] = "";

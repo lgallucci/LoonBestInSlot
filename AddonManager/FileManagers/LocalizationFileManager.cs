@@ -49,7 +49,7 @@ public static class LocalizationFileManager
         }
     }
 
-    public static string[] _exludedList = new[] { "Druid", "Hunter", "Mage", "Paladin", "Priest", "Rogue", "Shaman", "Warlock", "Warrior", "Death Knight" };
+    public static string[] _exludedList = new[] { "Druid", "Hunter", "Mage", "Paladin", "Priest", "Rogue", "Shaman", "Warlock", "Warrior", "Death Knight", "Monk" };
 
     public static void WriteLocalizationFiles()
     {

@@ -198,7 +198,6 @@ if GetLocale() == "deDE" then
   LBIS.L["Mogu'shan Palace"] = "Der Mogu'shanpalast";
   LBIS.L["Mogu'shan Vaults"] = "Das Mogu'shangewölbe";
 --  LBIS.L["Mogu'shan Vaults,"] = "";
-  LBIS.L["Monk"] = "Mönch";
 --  LBIS.L["Morgrinn Crackfang"] = "";
   LBIS.L["Neck"] = "Hals";
 --  LBIS.L["New Features"] = "";
