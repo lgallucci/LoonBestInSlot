@@ -88,7 +88,7 @@ LBIS:AddItem(spec0, "86890", LBIS.L["Trinket"], "Alt") --Terror in the Mists
 LBIS:AddItem(spec0, "81125", LBIS.L["Trinket"], "Alt") --Windswept Pages
 LBIS:AddItem(spec0, "88150", LBIS.L["Main Hand"], "BIS") --Krol Scimitar
 LBIS:AddItem(spec0, "89400", LBIS.L["Main Hand"], "Alt") --Amber Sledge of Klaxxi'vess
-LBIS:AddItem(spec0, "82971", LBIS.L["Main Hand"], "Alt") --Masterwork Ghost-Forged Blade
+LBIS:AddItem(spec0, "82974", LBIS.L["Main Hand"], "Alt") --Masterwork Ghost Shard
 LBIS:AddItem(spec0, "86864", LBIS.L["Main Hand"], "Alt") --Claws of Shek'zeer
 LBIS:AddItem(spec0, "87543", LBIS.L["Main Hand"], "Alt") --Ka'eng, Breath of the Shadow
 LBIS:AddItem(spec0, "81089", LBIS.L["Main Hand"], "Alt") --Crescent of Ichor
