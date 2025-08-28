@@ -172,14 +172,14 @@ LBIS:AddItem(spec1, "81191", LBIS.L["Ring"], "Alt") --Pulled Grenade Pin
 LBIS:AddItem(spec1, "86869", LBIS.L["Ring"], "Alt") --Regail's Band of the Endless
 LBIS:AddItem(spec1, "90861", LBIS.L["Ring"], "Alt") --Seal of the Windreaver
 LBIS:AddItem(spec1, "87167", LBIS.L["Trinket"], "BIS") --Terror in the Mists
-LBIS:AddItem(spec1, "79328", LBIS.L["Trinket"], "BIS") --Relic of Xuen
+LBIS:AddItem(spec1, "87057", LBIS.L["Trinket"], "BIS") --Bottle of Infinite Stars
 LBIS:AddItem(spec1, "89082", LBIS.L["Trinket"], "Alt") --Hawkmaster's Talon
 LBIS:AddItem(spec1, "75274", LBIS.L["Trinket"], "Alt") --Zen Alchemist Stone
 LBIS:AddItem(spec1, "77530", LBIS.L["Trinket"], "Alt") --Ghost Iron Dragonling
 LBIS:AddItem(spec1, "81267", LBIS.L["Trinket"], "Alt") --Searing Words
 LBIS:AddItem(spec1, "86890", LBIS.L["Trinket"], "Alt") --Terror in the Mists
-LBIS:AddItem(spec1, "87057", LBIS.L["Trinket"], "Alt") --Bottle of Infinite Stars
 LBIS:AddItem(spec1, "86791", LBIS.L["Trinket"], "Alt") --Bottle of Infinite Stars
+LBIS:AddItem(spec1, "79328", LBIS.L["Trinket"], "Alt") --Relic of Xuen
 LBIS:AddItem(spec1, "81125", LBIS.L["Trinket"], "Alt") --Windswept Pages
 LBIS:AddItem(spec1, "87156", LBIS.L["Main Hand"], "BIS") --Gao-Rei, Staff of the Legendary Protector
 LBIS:AddItem(spec1, "89394", LBIS.L["Main Hand"], "Alt") --Amber Spear of Klaxxi'vess

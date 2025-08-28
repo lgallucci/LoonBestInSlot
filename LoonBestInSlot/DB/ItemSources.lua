@@ -1633,6 +1633,7 @@ LBIS.ItemSources =
     [86180] = { Name = "Robes of Eighty Lights", SourceType = LBIS.L["Drop"], Source = LBIS.L["Garalon (N)"], SourceNumber = "0", SourceLocation = LBIS.L["Heart of Fear"], SourceFaction = "B" },
     [86181] = { Name = "Xaril's Hood of Intoxicating Vapors", SourceType = LBIS.L["Drop"], Source = LBIS.L["Garalon (N)"], SourceNumber = "0", SourceLocation = LBIS.L["Heart of Fear"], SourceFaction = "B" },
     [86182] = { Name = "Stormwake Mistcloak", SourceType = LBIS.L["Drop"], Source = LBIS.L["Garalon (N)"], SourceNumber = "0", SourceLocation = LBIS.L["Heart of Fear"], SourceFaction = "B" },
+    [86188] = { Name = "Inlaid Cricket Bracers", SourceType = LBIS.L["Drop"], Source = LBIS.L["Trash Mobs"], SourceNumber = "0", SourceLocation = LBIS.L["Heart of Fear"], SourceFaction = "B" },
     [86189] = { Name = "Jagged Hornet Bracers", SourceType = LBIS.L["Drop"], Source = LBIS.L["Trash Mobs"], SourceNumber = "0", SourceLocation = LBIS.L["Heart of Fear"], SourceFaction = "B" },
     [86200] = { Name = "Painful Thorned Ring", SourceType = LBIS.L["Drop"], Source = LBIS.L["Wind Lord Mel'jarak (N)"], SourceNumber = "0", SourceLocation = LBIS.L["Heart of Fear"], SourceFaction = "B" },
     [86201] = { Name = "Impaling Treads", SourceType = LBIS.L["Drop"], Source = LBIS.L["Wind Lord Mel'jarak (N)"], SourceNumber = "0", SourceLocation = LBIS.L["Heart of Fear"], SourceFaction = "B" },

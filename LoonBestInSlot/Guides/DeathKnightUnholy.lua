@@ -143,7 +143,7 @@ LBIS:AddItem(spec1, "86979", LBIS.L["Feet"], "BIS") --Impaling Treads
 LBIS:AddItem(spec1, "81284", LBIS.L["Feet"], "Alt") --Anchoring Sabatons
 LBIS:AddItem(spec1, "87015", LBIS.L["Feet"], "Alt") --Jasper Clawfeet
 LBIS:AddItem(spec1, "86852", LBIS.L["Feet"], "Alt") --Impaling Treads
-LBIS:AddItem(spec1, "87147", LBIS.L["Neck"], "BIS") --Shackle of Eversparks
+LBIS:AddItem(spec1, "90508", LBIS.L["Neck"], "BIS") --Shackle of Eversparks
 LBIS:AddItem(spec1, "89064", LBIS.L["Neck"], "Alt") --Bloodseeker's Solitaire
 LBIS:AddItem(spec1, "86871", LBIS.L["Neck"], "Alt") --Shackle of Eversparks
 LBIS:AddItem(spec1, "86967", LBIS.L["Neck"], "Alt") --Necklace of Congealed Weaknesses

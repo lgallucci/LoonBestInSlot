@@ -23,6 +23,7 @@ LBIS:AddEnchant(spec1, "104338", LBIS.L["Wrist"]) --
 LBIS:AddEnchant(spec1, "104419", LBIS.L["Hands"]) --
 LBIS:AddEnchant(spec1, "82175", LBIS.L["Hands"]) --
 LBIS:AddEnchant(spec1, "124561", LBIS.L["Legs"]) --
+LBIS:AddEnchant(spec1, "122388", LBIS.L["Legs"]) --
 LBIS:AddEnchant(spec1, "104407", LBIS.L["Feet"]) --
 LBIS:AddEnchant(spec1, "104434", LBIS.L["Main Hand"]) --
 

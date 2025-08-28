@@ -95,15 +95,15 @@ LBIS:AddItem(spec0, "86910", LBIS.L["Main Hand"], "Alt") --Spiritsever
 LBIS:AddItem(spec0, "82813", LBIS.L["Main Hand"], "Alt") --Koegler's Ritual Knife
 
 LBIS:AddItem(spec1, "87070", LBIS.L["Head"], "BIS") --Crown of Opportunistic Strikes
-LBIS:AddItem(spec1, "86641", LBIS.L["Head"], "Alt") --Helmet of the Thousandfold Blades
-LBIS:AddItem(spec1, "81283", LBIS.L["Head"], "Alt") --Windblast Helm
 LBIS:AddItem(spec1, "87126", LBIS.L["Head"], "Alt") --Helmet of the Thousandfold Blades
-LBIS:AddItem(spec1, "89300", LBIS.L["Head"], "Alt") --Red Smoke Bandana
+LBIS:AddItem(spec1, "81283", LBIS.L["Head"], "Alt") --Windblast Helm
+LBIS:AddItem(spec1, "86641", LBIS.L["Head"], "Alt") --Helmet of the Thousandfold Blades
 LBIS:AddItem(spec1, "77534", LBIS.L["Head"], "Alt") --Agile Retinal Armor
+LBIS:AddItem(spec1, "89300", LBIS.L["Head"], "Alt") --Red Smoke Bandana
 LBIS:AddItem(spec1, "89926", LBIS.L["Shoulder"], "BIS") --Shadow Heart Spaulders
 LBIS:AddItem(spec1, "89341", LBIS.L["Shoulder"], "Alt") --Imperion Spaulders
-LBIS:AddItem(spec1, "87128", LBIS.L["Shoulder"], "Alt") --Spaulders of the Thousandfold Blades
 LBIS:AddItem(spec1, "81071", LBIS.L["Shoulder"], "Alt") --Doubtridden Shoulderguards
+LBIS:AddItem(spec1, "87128", LBIS.L["Shoulder"], "Alt") --Spaulders of the Thousandfold Blades
 LBIS:AddItem(spec1, "86639", LBIS.L["Shoulder"], "Alt") --Spaulders of the Thousandfold Blades
 LBIS:AddItem(spec1, "86963", LBIS.L["Back"], "BIS") --Legbreaker Greatcloak
 LBIS:AddItem(spec1, "89076", LBIS.L["Back"], "Alt") --Blackguard Cape
@@ -123,23 +123,23 @@ LBIS:AddItem(spec1, "86964", LBIS.L["Hands"], "BIS") --Bonebreaker Gauntlets
 LBIS:AddItem(spec1, "88744", LBIS.L["Hands"], "Alt") --Fingers of the Loneliest Monk
 LBIS:AddItem(spec1, "85824", LBIS.L["Hands"], "Alt") --Greyshadow Gloves
 LBIS:AddItem(spec1, "85828", LBIS.L["Hands"], "Alt") --Murderer's Gloves
-LBIS:AddItem(spec1, "86642", LBIS.L["Hands"], "Alt") --Gloves of the Thousandfold Blades
-LBIS:AddItem(spec1, "81695", LBIS.L["Hands"], "Alt") --Hound Trainer's Gloves
 LBIS:AddItem(spec1, "87125", LBIS.L["Hands"], "Alt") --Gloves of the Thousandfold Blades
+LBIS:AddItem(spec1, "81695", LBIS.L["Hands"], "Alt") --Hound Trainer's Gloves
+LBIS:AddItem(spec1, "86642", LBIS.L["Hands"], "Alt") --Gloves of the Thousandfold Blades
 LBIS:AddItem(spec1, "87022", LBIS.L["Waist"], "BIS") --Tomb Raider's Girdle
 LBIS:AddItem(spec1, "89060", LBIS.L["Waist"], "Alt") --Klaxxi Lash of the Borrower
 LBIS:AddItem(spec1, "86750", LBIS.L["Waist"], "Alt") --Tomb Raider's Girdle
-LBIS:AddItem(spec1, "81135", LBIS.L["Waist"], "Alt") --Belt of Brazen Inebriation
 LBIS:AddItem(spec1, "87180", LBIS.L["Waist"], "Alt") --Stalker's Cord of Eternal Autumn
+LBIS:AddItem(spec1, "81135", LBIS.L["Waist"], "Alt") --Belt of Brazen Inebriation
 LBIS:AddItem(spec1, "87127", LBIS.L["Legs"], "BIS") --Legguards of the Thousandfold Blades
 LBIS:AddItem(spec1, "89090", LBIS.L["Legs"], "Alt") --Dreadsworn Slayer Legs
-LBIS:AddItem(spec1, "82851", LBIS.L["Legs"], "Alt") --Ghostwoven Legguards
 LBIS:AddItem(spec1, "90504", LBIS.L["Legs"], "Alt") --Legguards of Failing Purification
+LBIS:AddItem(spec1, "82851", LBIS.L["Legs"], "Alt") --Ghostwoven Legguards
 LBIS:AddItem(spec1, "86640", LBIS.L["Legs"], "Alt") --Legguards of the Thousandfold Blades
 LBIS:AddItem(spec1, "86984", LBIS.L["Feet"], "BIS") --Treads of Deadly Secretions
 LBIS:AddItem(spec1, "88868", LBIS.L["Feet"], "Alt") --Tukka-Tuk's Hairy Boots
-LBIS:AddItem(spec1, "86811", LBIS.L["Feet"], "Alt") --Boots of the Still Breath
 LBIS:AddItem(spec1, "81249", LBIS.L["Feet"], "Alt") --Boots of Plummeting Death
+LBIS:AddItem(spec1, "86811", LBIS.L["Feet"], "Alt") --Boots of the Still Breath
 LBIS:AddItem(spec1, "89917", LBIS.L["Neck"], "BIS") --Pheromone-Coated Choker
 LBIS:AddItem(spec1, "89065", LBIS.L["Neck"], "Alt") --Choker of the Klaxxi'va
 LBIS:AddItem(spec1, "89952", LBIS.L["Neck"], "Alt") --Pheromone-Coated Choker
@@ -149,21 +149,21 @@ LBIS:AddItem(spec1, "86974", LBIS.L["Ring"], "BIS") --Painful Thorned Ring
 LBIS:AddItem(spec1, "89932", LBIS.L["Ring"], "BIS") --Feng's Seal of Binding
 LBIS:AddItem(spec1, "89070", LBIS.L["Ring"], "Alt") --Anji's Keepsake
 LBIS:AddItem(spec1, "90861", LBIS.L["Ring"], "Alt") --Seal of the Windreaver
-LBIS:AddItem(spec1, "81186", LBIS.L["Ring"], "Alt") --Seal of Hateful Meditation
 LBIS:AddItem(spec1, "86869", LBIS.L["Ring"], "Alt") --Regail's Band of the Endless
-LBIS:AddItem(spec1, "81128", LBIS.L["Ring"], "Alt") --Signet of Dancing Jade
+LBIS:AddItem(spec1, "81186", LBIS.L["Ring"], "Alt") --Seal of Hateful Meditation
 LBIS:AddItem(spec1, "86851", LBIS.L["Ring"], "Alt") --Painful Thorned Ring
+LBIS:AddItem(spec1, "81128", LBIS.L["Ring"], "Alt") --Signet of Dancing Jade
 LBIS:AddItem(spec1, "90503", LBIS.L["Ring"], "Alt") --Regail's Band of the Endless
 LBIS:AddItem(spec1, "87057", LBIS.L["Trinket"], "BIS") --Bottle of Infinite Stars
 LBIS:AddItem(spec1, "79328", LBIS.L["Trinket"], "BIS") --Relic of Xuen
 LBIS:AddItem(spec1, "89082", LBIS.L["Trinket"], "Alt") --Hawkmaster's Talon
 LBIS:AddItem(spec1, "81267", LBIS.L["Trinket"], "Alt") --Searing Words
 LBIS:AddItem(spec1, "86890", LBIS.L["Trinket"], "Alt") --Terror in the Mists
-LBIS:AddItem(spec1, "86791", LBIS.L["Trinket"], "Alt") --Bottle of Infinite Stars
-LBIS:AddItem(spec1, "81265", LBIS.L["Trinket"], "Alt") --Flashing Steel Talisman
 LBIS:AddItem(spec1, "87167", LBIS.L["Trinket"], "Alt") --Terror in the Mists
-LBIS:AddItem(spec1, "86910", LBIS.L["Main Hand~Off Hand"], "BIS") --Spiritsever
+LBIS:AddItem(spec1, "81265", LBIS.L["Trinket"], "Alt") --Flashing Steel Talisman
+LBIS:AddItem(spec1, "86791", LBIS.L["Trinket"], "Alt") --Bottle of Infinite Stars
 LBIS:AddItem(spec1, "87012", LBIS.L["Main Hand"], "BIS") --Dagger of the Seven Stars
+LBIS:AddItem(spec1, "86910", LBIS.L["Main Hand~Off Hand"], "BIS") --Spiritsever
 LBIS:AddItem(spec1, "89393", LBIS.L["Main Hand"], "Alt") --Amber Slicer of Klaxxi'vess
 LBIS:AddItem(spec1, "82974", LBIS.L["Main Hand"], "Alt") --Masterwork Ghost Shard
 LBIS:AddItem(spec1, "87547", LBIS.L["Main Hand"], "Alt") --Tolakesh, Horn of the Black Ox
