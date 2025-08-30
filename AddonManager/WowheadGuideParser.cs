@@ -45,6 +45,11 @@ public class WowheadGuideParser
         {0, 0} //
     };
 
+    private Dictionary<int, int> _spellEnchantSwaps = new Dictionary<int, int>()
+    {
+        { 142175, 104395}, //Enchant Chest - Glorious Stats
+        { 104335, 104395} //Enchant Chest - Glorious Stats
+     };
     private Dictionary<int, int> _enchantSwaps = new Dictionary<int, int>()
     {
         {0, 0} //
@@ -78,10 +83,10 @@ public class WowheadGuideParser
 
         //Get Gems and Enchants
         LoopThroughEnchantsAndGems(doc, (enchantAnchor, slot) =>
-        {
-            ParseEnchant(enchantAnchor, slot, enchants);
-            return true;
-        },
+            {
+                ParseEnchant(enchantAnchor, slot, enchants);
+                return true;
+            },
             (gemAnchor, slot) =>
             {
                 ParseGem(gemAnchor, gems);
@@ -284,38 +289,44 @@ public class WowheadGuideParser
         if (itemIdIndex > -1)
         {
             item = item.Substring(0, itemIdIndex);
-            var itemName = enchantAnchor.TextContent.Trim();
-            var itemId = Int32.Parse(item);
-            bool skippedItem = false;
-            foreach (var excludedName in excludedItemNames)
-                if (itemName.EndsWith(excludedName) || _excludeEnchants.Contains(itemId))
-                    skippedItem = true;
-            if (!skippedItem)
+        }
+
+        var itemName = enchantAnchor.TextContent.Trim();
+        var itemId = Int32.Parse(item);
+        bool skippedItem = false;
+        foreach (var excludedName in excludedItemNames)
+            if (itemName.EndsWith(excludedName) || _excludeEnchants.Contains(itemId))
+                skippedItem = true;
+        if (!skippedItem)
+        {
+            var textureId = "";
+            if (isSpell == false && _enchantSwaps.ContainsKey(itemId))
             {
-                var textureId = "";
-                if (isSpell == false && _enchantSwaps.ContainsKey(itemId))
+                textureId = itemId.ToString();
+                itemId = _enchantSwaps[itemId];
+            }
+            if (_spellEnchantSwaps.ContainsKey(itemId))
+            {
+                itemId = _spellEnchantSwaps[itemId];
+            }
+            if (!enchants.ContainsKey(itemId))
+            {
+                enchants.Add(itemId, new EnchantSpec
                 {
-                    textureId = itemId.ToString();
-                    itemId = _enchantSwaps[itemId];
-                }
-                if (!enchants.ContainsKey(itemId))
-                {
-                    enchants.Add(itemId, new EnchantSpec
-                    {
-                        EnchantId = itemId,
-                        Name = itemName ?? "unknown",
-                        Slot = slot,
-                        TextureId = textureId
-                    });
-                }
-                else
-                {
-                    var slotList = enchants[itemId].Slot.Split("~").ToList();
-                    slotList.Add(slot);
-                    enchants[itemId].Slot = string.Join("~", slotList.Distinct());
-                }
+                    EnchantId = itemId,
+                    Name = itemName ?? "unknown",
+                    Slot = slot,
+                    TextureId = textureId
+                });
+            }
+            else
+            {
+                var slotList = enchants[itemId].Slot.Split("~").ToList();
+                slotList.Add(slot);
+                enchants[itemId].Slot = string.Join("~", slotList.Distinct());
             }
         }
+        
     }
 
     private List<int> ParseItemCell(IElement itemChild, string bisStatus, string slot, Dictionary<int, ItemSpec> items, int itemOrderIndex, Action<string> logFunc)

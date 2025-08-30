@@ -7,6 +7,7 @@ local spec5 = LBIS:RegisterSpec(LBIS.L["Death Knight"], LBIS.L["Blood"], "5")
 
 LBIS:AddGem(spec0, "76886", "3", "True") --Reverberating Primal Diamond
 LBIS:AddGem(spec0, "76895", "3", "True") --Austere Primal Diamond
+LBIS:AddGem(spec0, "89881", "5", "False") --Crystallized Terror
 LBIS:AddGem(spec0, "77544", "3", "False") --Flashing Tinker's Gear
 LBIS:AddGem(spec0, "77540", "3", "False") --Subtle Tinker's Gear
 LBIS:AddGem(spec0, "76664", "3", "False") --Stalwart Vermilion Onyx
@@ -19,7 +20,6 @@ LBIS:AddGem(spec0, "76639", "3", "False") --Solid River's Heart
 LBIS:AddGem(spec0, "76656", "3", "False") --Puissant Wild Jade
 LBIS:AddGem(spec0, "76690", "3", "False") --Defender's Imperial Amethyst
 LBIS:AddGem(spec0, "52234", "3", "False") --Retaliating Demonseye
-LBIS:AddGem(spec0, "89881", "0", "False") --Crystallized Terror
 
 LBIS:AddEnchant(spec1, "121192", LBIS.L["Shoulder"]) --
 LBIS:AddEnchant(spec1, "104398", LBIS.L["Back"]) --

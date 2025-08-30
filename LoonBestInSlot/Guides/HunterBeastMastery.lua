@@ -15,7 +15,6 @@ LBIS:AddGem(spec0, "89873", "0", "False") --Crystallized Dread
 
 LBIS:AddEnchant(spec1, "121193", LBIS.L["Shoulder"]) --
 LBIS:AddEnchant(spec1, "104404", LBIS.L["Back"]) --
-LBIS:AddEnchant(spec1, "142175", LBIS.L["Chest"]) --
 LBIS:AddEnchant(spec1, "104395", LBIS.L["Chest"]) --
 LBIS:AddEnchant(spec1, "124551", LBIS.L["Wrist"]) --
 LBIS:AddEnchant(spec1, "126731", LBIS.L["Hands"]) --

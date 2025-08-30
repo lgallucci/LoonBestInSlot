@@ -16,7 +16,7 @@ LBIS:AddGem(spec0, "77541", "3", "False") --Smooth Tinker's Gear
 LBIS:AddEnchant(spec1, "121195", LBIS.L["Shoulder"]) --
 LBIS:AddEnchant(spec1, "141168", LBIS.L["Back"]) --
 LBIS:AddEnchant(spec1, "55642", LBIS.L["Back"]) --
-LBIS:AddEnchant(spec1, "142175", LBIS.L["Chest"]) --
+LBIS:AddEnchant(spec1, "104395", LBIS.L["Chest"]) --
 LBIS:AddEnchant(spec1, "141868", LBIS.L["Wrist"]) --
 LBIS:AddEnchant(spec1, "141170", LBIS.L["Wrist"]) --
 LBIS:AddEnchant(spec1, "141173", LBIS.L["Hands"]) --

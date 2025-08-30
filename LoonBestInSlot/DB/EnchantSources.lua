@@ -71,5 +71,4 @@ LBIS.EnchantSources =
     [141862] = { Name = "Enchant Gloves - Superior Mastery", DesignId = "99999", Source = LBIS.L["Enchanting Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "" },
     [141868] = { Name = "Enchant Bracer - Mastery", DesignId = "99999", Source = LBIS.L["Enchanting Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "" },
     [142173] = { Name = "Lightweave Embroidery", DesignId = "99999", Source = LBIS.L["Tailoring Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "" },
-    [142175] = { Name = "Enchant Chest - Glorious Stats", DesignId = "99999", Source = LBIS.L["Enchanting Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "" },
 }

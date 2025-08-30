@@ -6,6 +6,7 @@ local spec4 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Retribution"], "4")
 local spec5 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Retribution"], "5")
 
 LBIS:AddGem(spec0, "76886", "3", "True") --Reverberating Primal Diamond
+LBIS:AddGem(spec0, "89881", "5", "False") --Crystallized Terror
 LBIS:AddGem(spec0, "76684", "3", "False") --Etched Imperial Amethyst
 LBIS:AddGem(spec0, "76699", "3", "False") --Quick Sun's Radiance
 LBIS:AddGem(spec0, "76669", "3", "False") --Fierce Vermilion Onyx
@@ -13,7 +14,6 @@ LBIS:AddGem(spec0, "76642", "3", "False") --Lightning Wild Jade
 LBIS:AddGem(spec0, "77542", "3", "False") --Quick Tinker's Gear
 LBIS:AddGem(spec0, "77543", "3", "False") --Precise Tinker's Gear
 LBIS:AddGem(spec0, "76636", "3", "False") --Rigid River's Heart
-LBIS:AddGem(spec0, "89881", "0", "False") --Crystallized Terror
 
 LBIS:AddEnchant(spec1, "121192", LBIS.L["Shoulder"]) --
 LBIS:AddEnchant(spec1, "125483", LBIS.L["Back"]) --

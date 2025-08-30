@@ -6,6 +6,7 @@ local spec4 = LBIS:RegisterSpec(LBIS.L["Death Knight"], LBIS.L["Unholy"], "4")
 local spec5 = LBIS:RegisterSpec(LBIS.L["Death Knight"], LBIS.L["Unholy"], "5")
 
 LBIS:AddGem(spec0, "76886", "3", "True") --Reverberating Primal Diamond
+LBIS:AddGem(spec0, "89881", "5", "False") --Crystallized Terror
 LBIS:AddGem(spec0, "76684", "3", "False") --Etched Imperial Amethyst
 LBIS:AddGem(spec0, "76661", "3", "False") --Inscribed Vermilion Onyx
 LBIS:AddGem(spec0, "76696", "3", "False") --Bold Primordial Ruby
@@ -15,11 +16,9 @@ LBIS:AddGem(spec0, "77545", "3", "False") --Rigid Tinker's Gear
 LBIS:AddGem(spec0, "76669", "3", "False") --Fierce Vermilion Onyx
 LBIS:AddGem(spec0, "76681", "3", "False") --Accurate Imperial Amethyst
 LBIS:AddGem(spec0, "77542", "3", "False") --Quick Tinker's Gear
-LBIS:AddGem(spec0, "89881", "0", "False") --Crystallized Terror
 
 LBIS:AddEnchant(spec1, "121192", LBIS.L["Shoulder"]) --
 LBIS:AddEnchant(spec1, "104404", LBIS.L["Back"]) --
-LBIS:AddEnchant(spec1, "142175", LBIS.L["Chest"]) --
 LBIS:AddEnchant(spec1, "104395", LBIS.L["Chest"]) --
 LBIS:AddEnchant(spec1, "104390", LBIS.L["Wrist"]) --
 LBIS:AddEnchant(spec1, "104338", LBIS.L["Wrist"]) --

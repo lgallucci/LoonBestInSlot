@@ -17,6 +17,7 @@ LBIS:AddGem(spec0, "77546", "3", "False") --Sparkling Tinker's Gear
 
 LBIS:AddEnchant(spec1, "121195", LBIS.L["Shoulder"]) --
 LBIS:AddEnchant(spec1, "104403", LBIS.L["Back"]) --
+LBIS:AddEnchant(spec1, "104395", LBIS.L["Chest"]) --
 LBIS:AddEnchant(spec1, "104389", LBIS.L["Wrist"]) --
 LBIS:AddEnchant(spec1, "104416", LBIS.L["Hands"]) --
 LBIS:AddEnchant(spec1, "122393", LBIS.L["Legs"]) --

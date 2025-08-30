@@ -6,6 +6,7 @@ local spec4 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Arcane"], "4")
 local spec5 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Arcane"], "5")
 
 LBIS:AddGem(spec0, "76885", "3", "True") --Burning Primal Diamond
+LBIS:AddGem(spec0, "89882", "5", "False") --Crystallized Horror
 LBIS:AddGem(spec0, "76682", "3", "False") --Veiled Imperial Amethyst
 LBIS:AddGem(spec0, "76694", "3", "False") --Brilliant Primordial Ruby
 LBIS:AddGem(spec0, "76668", "3", "False") --Reckless Vermilion Onyx
@@ -166,14 +167,14 @@ LBIS:AddItem(spec1, "90511", LBIS.L["Ring"], "Alt") --Watersoul Signet
 LBIS:AddItem(spec1, "81189", LBIS.L["Ring"], "Alt") --Ring of Malice
 LBIS:AddItem(spec1, "86873", LBIS.L["Ring"], "Alt") --Watersoul Signet
 LBIS:AddItem(spec1, "87175", LBIS.L["Trinket"], "BIS") --Essence of Terror
-LBIS:AddItem(spec1, "87065", LBIS.L["Trinket"], "BIS") --Light of the Cosmos
+LBIS:AddItem(spec1, "79331", LBIS.L["Trinket"], "BIS") --Relic of Yu'lon
 LBIS:AddItem(spec1, "89081", LBIS.L["Trinket"], "Alt") --Blossom of Pure Snow
 LBIS:AddItem(spec1, "86907", LBIS.L["Trinket"], "Alt") --Essence of Terror
-LBIS:AddItem(spec1, "79331", LBIS.L["Trinket"], "Alt") --Relic of Yu'lon
 LBIS:AddItem(spec1, "81192", LBIS.L["Trinket"], "Alt") --Vision of the Predator
 LBIS:AddItem(spec1, "81263", LBIS.L["Trinket"], "Alt") --Flashfrozen Resin Globule
+LBIS:AddItem(spec1, "87065", LBIS.L["Trinket"], "Alt") --Light of the Cosmos
 LBIS:AddItem(spec1, "86792", LBIS.L["Trinket"], "Alt") --Light of the Cosmos
-LBIS:AddItem(spec1, "90513", LBIS.L["Main Hand"], "BIS") --Regail's Crackling Dagger
+LBIS:AddItem(spec1, "87164", LBIS.L["Main Hand"], "BIS") --Loshan, Terror Incarnate
 LBIS:AddItem(spec1, "89397", LBIS.L["Main Hand"], "Alt") --Amber Saber of Klaxxi'vess
 LBIS:AddItem(spec1, "89395", LBIS.L["Main Hand"], "Alt") --Amber Scythe of Klaxxi'vess
 LBIS:AddItem(spec1, "87066", LBIS.L["Main Hand"], "Alt") --Torch of the Celestial Spark

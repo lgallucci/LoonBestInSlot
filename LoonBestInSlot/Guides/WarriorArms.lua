@@ -6,6 +6,7 @@ local spec4 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Arms"], "4")
 local spec5 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Arms"], "5")
 
 LBIS:AddGem(spec0, "76886", "3", "True") --Reverberating Primal Diamond
+LBIS:AddGem(spec0, "89881", "5", "False") --Crystallized Terror
 LBIS:AddGem(spec0, "77541", "3", "False") --Smooth Tinker's Gear
 LBIS:AddGem(spec0, "77545", "3", "False") --Rigid Tinker's Gear
 LBIS:AddGem(spec0, "76661", "3", "False") --Inscribed Vermilion Onyx
@@ -19,7 +20,6 @@ LBIS:AddGem(spec0, "76641", "3", "False") --Piercing Wild Jade
 LBIS:AddGem(spec0, "77543", "3", "False") --Precise Tinker's Gear
 LBIS:AddGem(spec0, "76659", "3", "False") --Crafty Vermilion Onyx
 LBIS:AddGem(spec0, "76618", "3", "False") --Perfect Etched Roguestone
-LBIS:AddGem(spec0, "89881", "0", "False") --Crystallized Terror
 
 LBIS:AddEnchant(spec1, "121192", LBIS.L["Shoulder"]) --
 LBIS:AddEnchant(spec1, "104404", LBIS.L["Back"]) --

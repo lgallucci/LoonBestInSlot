@@ -21,7 +21,6 @@ LBIS:AddGem(spec0, "76651", "3", "False") --Energized Wild Jade
 LBIS:AddEnchant(spec1, "141167", LBIS.L["Shoulder"]) --
 LBIS:AddEnchant(spec1, "121195", LBIS.L["Shoulder"]) --
 LBIS:AddEnchant(spec1, "125481", LBIS.L["Back"]) --
-LBIS:AddEnchant(spec1, "142175", LBIS.L["Chest"]) --
 LBIS:AddEnchant(spec1, "104395", LBIS.L["Chest"]) --
 LBIS:AddEnchant(spec1, "141170", LBIS.L["Wrist"]) --
 LBIS:AddEnchant(spec1, "104389", LBIS.L["Wrist"]) --
