@@ -34,6 +34,7 @@ LBIS.EnchantSources =
     [104440] = { Name = "Enchant Weapon - Colossus", DesignId = "84579", Source = LBIS.L["Enchanting Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "84579" },
     [104442] = { Name = "Enchant Weapon - River's Song", DesignId = "84580", Source = LBIS.L["Enchanting Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "84580" },
     [104445] = { Name = "Enchant Off-Hand - Major Intellect", DesignId = "84574", Source = LBIS.L["Enchanting Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "84574" },
+    [108789] = { Name = "Phase Fingers", DesignId = "99999", Source = LBIS.L["Engineering Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "" },
     [109086] = { Name = "Lord Blastington's Scope of Doom", DesignId = "77529", Source = LBIS.L["Engineering Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "77529" },
     [113046] = { Name = "Secret Tiger Claw Inscription", DesignId = "87584", Source = LBIS.L["Inscription Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "87584" },
     [121192] = { Name = "Greater Tiger Fang Inscription", DesignId = "83006", Source = LBIS.L["Inscription Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "83006" },

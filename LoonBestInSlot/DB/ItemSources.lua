@@ -2256,6 +2256,7 @@ LBIS.ItemSources =
     [87197] = { Name = "Chestguard of Resounding Rings", SourceType = LBIS.L["Tier Token"], Source = LBIS.L["Grand Empress Shek'zeer (H)"], SourceNumber = "89251", SourceLocation = LBIS.L["Heart of Fear"], SourceFaction = "B" },
     [87198] = { Name = "Handguards of Resounding Rings", SourceType = LBIS.L["Tier Token"], Source = LBIS.L["Wind Lord Mel'jarak (H)"], SourceNumber = "89257", SourceLocation = LBIS.L["Heart of Fear"], SourceFaction = "B" },
     [87199] = { Name = "Faceguard of Resounding Rings", SourceType = LBIS.L["Tier Token"], Source = LBIS.L["Sha of Fear (H)"], SourceNumber = "89260", SourceLocation = LBIS.L["Terrace of Endless Spring"], SourceFaction = "B" },
+    [87201] = { Name = "Shoulderguards of Resounding Rings", SourceType = LBIS.L["Tier Token"], Source = LBIS.L["Lei Shen (H)"], SourceNumber = "89263", SourceLocation = LBIS.L["Terrace of Endless Spring"], SourceFaction = "B" },
     [87210] = { Name = "Chimera of Fear", SourceType = LBIS.L["Drop"], Source = LBIS.L["Sha of Fear (N)"], SourceNumber = "0", SourceLocation = LBIS.L["Terrace of Endless Spring"], SourceFaction = "B" },
     [87213] = { Name = "Mist-Piercing Goggles", SourceType = LBIS.L["Profession"], Source = LBIS.L["Engineering (525)"], SourceNumber = "0", SourceLocation = "127130", SourceFaction = "B" },
     [87214] = { Name = "Blingtron 4000", SourceType = LBIS.L["Profession"], Source = LBIS.L["Engineering (600)"], SourceNumber = "0", SourceLocation = "127129", SourceFaction = "B" },
