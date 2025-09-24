@@ -6,6 +6,7 @@ local spec4 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Fire"], "4")
 local spec5 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Fire"], "5")
 
 LBIS:AddGem(spec0, "76885", "3", "True") --Burning Primal Diamond
+LBIS:AddGem(spec0, "89882", "5", "False") --Crystallized Horror
 LBIS:AddGem(spec0, "76682", "3", "False") --Veiled Imperial Amethyst
 LBIS:AddGem(spec0, "76660", "3", "False") --Potent Vermilion Onyx
 LBIS:AddGem(spec0, "76694", "3", "False") --Brilliant Primordial Ruby
@@ -171,7 +172,7 @@ LBIS:AddItem(spec1, "79331", LBIS.L["Trinket"], "Alt") --Relic of Yu'lon
 LBIS:AddItem(spec1, "81192", LBIS.L["Trinket"], "Alt") --Vision of the Predator
 LBIS:AddItem(spec1, "81263", LBIS.L["Trinket"], "Alt") --Flashfrozen Resin Globule
 LBIS:AddItem(spec1, "86792", LBIS.L["Trinket"], "Alt") --Light of the Cosmos
-LBIS:AddItem(spec1, "90513", LBIS.L["Main Hand"], "BIS") --Regail's Crackling Dagger
+LBIS:AddItem(spec1, "87164", LBIS.L["Main Hand"], "BIS") --Loshan, Terror Incarnate
 LBIS:AddItem(spec1, "89395", LBIS.L["Main Hand"], "Alt") --Amber Scythe of Klaxxi'vess
 LBIS:AddItem(spec1, "89397", LBIS.L["Main Hand"], "Alt") --Amber Saber of Klaxxi'vess
 LBIS:AddItem(spec1, "86909", LBIS.L["Main Hand"], "Alt") --Regail's Crackling Dagger

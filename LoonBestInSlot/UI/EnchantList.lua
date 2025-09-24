@@ -84,7 +84,8 @@ local function createItemRow(f, specEnchant, specEnchantSource)
         t:SetText((item.Link or item.Name):gsub("[%[%]]", ""));
         t:SetPoint("TOPLEFT", b, "TOPRIGHT", 2, -2);
 
-        local st = f:CreateFontString(nil, nil,"GameFontNormalGraySmall");
+        local st = f:CreateFontString(nil, nil,"GameFontNormalSmall");
+        st:SetTextColor(.6, .6, .6);
         st:SetText(specEnchant.Slot:gsub("~", "/"));
         st:SetPoint("BOTTOMLEFT", b, "BOTTOMRIGHT", 2, 2);
         
