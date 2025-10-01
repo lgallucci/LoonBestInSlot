@@ -15,7 +15,7 @@ public class ReputationImporter : LootImporter
         { @"https://www.wowhead.com/mop-classic/npc=59908/jaluu-the-generous#sells;50", "The Golden Lotus, B" },
         { @"https://www.wowhead.com/mop-classic/npc=64595/rushi-the-fox#sells", "Shado-Pan, B" },
         { @"https://www.wowhead.com/mop-classic/npc=64595/rushi-the-fox#sells;50", "Shado-Pan, B" },
-        { @"https://www.wowhead.com/mop-classic/npc=69059/agent-malley#sells", "Operation Shieldwall, A" },
+        { @"https://www.wowhead.com/mop-classic/npc=69059/agent-malley#sells", "Operation: Shieldwall, A" },
         { @"https://www.wowhead.com/mop-classic/npc=69060/tuskripper-grukna#sells", "Dominance Offensive, H" },
     };
 

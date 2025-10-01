@@ -72,6 +72,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Deselect"] = "";
   LBIS.L["Destruction"] = "Разрушение";
   LBIS.L["Discipline"] = "Послушание";
+  LBIS.L["Dominance Offensive"] = "Армия Покорителей";
   LBIS.L["Dread Wastes"] = "Жуткие пустоши";
   LBIS.L["Drop"] = "Добыча";
 --  LBIS.L["Dungeon Token"] = "";
@@ -131,6 +132,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Honor Quartermaster, Kun-Lai Summit"] = "";
   LBIS.L["Honored"] = "Уважение";
 --  LBIS.L["Honored (1250 Valor Points)"] = "Уважение";
+--  LBIS.L["Honored (1750 Justice Points)"] = "Уважение";
 --  LBIS.L["Honored (1750 Valor Points)"] = "Уважение";
   LBIS.L["Hoptallus"] = "Прыгопотам";
   LBIS.L["Houndmaster Braun"] = "Псарь Браун";
@@ -206,6 +208,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Ook-Ook"] = "Ук-Ук";
 --  LBIS.L["Open Browser Window"] = "";
 --  LBIS.L["Open Settings"] = "";
+  LBIS.L["Operation: Shieldwall"] = "Операция Заслон";
 --  LBIS.L["Ox Deck"] = "";
 --  LBIS.L["Phase 1"] = "";
 --  LBIS.L["Phase 2"] = "";

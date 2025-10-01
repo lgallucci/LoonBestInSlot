@@ -72,6 +72,7 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Deselect"] = "";
   LBIS.L["Destruction"] = "Destrucción";
   LBIS.L["Discipline"] = "Disciplina";
+  LBIS.L["Dominance Offensive"] = "Ofensiva de Dominancia";
   LBIS.L["Dread Wastes"] = "Desierto del Pavor";
   LBIS.L["Drop"] = "Botín";
 --  LBIS.L["Dungeon Token"] = "";
@@ -131,6 +132,7 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Honor Quartermaster, Kun-Lai Summit"] = "";
   LBIS.L["Honored"] = "Honorable";
 --  LBIS.L["Honored (1250 Valor Points)"] = "Honorable";
+--  LBIS.L["Honored (1750 Justice Points)"] = "Honorable";
 --  LBIS.L["Honored (1750 Valor Points)"] = "Honorable";
 --  LBIS.L["Hoptallus"] = "";
 --  LBIS.L["Houndmaster Braun"] = "";
@@ -206,6 +208,7 @@ if GetLocale() == "esMX" then
   LBIS.L["Ook-Ook"] = "Ook-Ook";
 --  LBIS.L["Open Browser Window"] = "";
 --  LBIS.L["Open Settings"] = "";
+  LBIS.L["Operation: Shieldwall"] = "Muro de escudos";
 --  LBIS.L["Ox Deck"] = "";
 --  LBIS.L["Phase 1"] = "";
 --  LBIS.L["Phase 2"] = "";

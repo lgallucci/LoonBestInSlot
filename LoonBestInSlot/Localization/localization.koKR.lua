@@ -72,6 +72,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Deselect"] = "선택 해제";
   LBIS.L["Destruction"] = "true";
   LBIS.L["Discipline"] = "true";
+  LBIS.L["Dominance Offensive"] = "지배령 선봉대";
   LBIS.L["Dread Wastes"] = "공포의 황무지";
   LBIS.L["Drop"] = "획득";
   LBIS.L["Dungeon Token"] = "토큰";
@@ -131,6 +132,7 @@ if GetLocale() == "koKR" then
 --  LBIS.L["Honor Quartermaster, Kun-Lai Summit"] = "";
   LBIS.L["Honored"] = "우호적";
 --  LBIS.L["Honored (1250 Valor Points)"] = "우호적";
+--  LBIS.L["Honored (1750 Justice Points)"] = "우호적";
 --  LBIS.L["Honored (1750 Valor Points)"] = "우호적";
   LBIS.L["Hoptallus"] = "홉탈루스";
   LBIS.L["Houndmaster Braun"] = "사냥개조련사 브라운";
@@ -206,6 +208,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Ook-Ook"] = "우끼우끼";
   LBIS.L["Open Browser Window"] = "창 열기";
   LBIS.L["Open Settings"] = "설정 창 열기";
+  LBIS.L["Operation: Shieldwall"] = "철벽방패 작전대";
 --  LBIS.L["Ox Deck"] = "";
   LBIS.L["Phase 1"] = "1 페이즈";
   LBIS.L["Phase 2"] = "2 페이즈";

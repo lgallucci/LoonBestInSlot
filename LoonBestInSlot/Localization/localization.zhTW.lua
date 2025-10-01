@@ -72,6 +72,7 @@ if GetLocale() == "zhTW" then
 --  LBIS.L["Deselect"] = "";
   LBIS.L["Destruction"] = "毀滅";
   LBIS.L["Discipline"] = "戒律";
+  LBIS.L["Dominance Offensive"] = "制霸先鋒軍";
   LBIS.L["Dread Wastes"] = "悚然荒野";
   LBIS.L["Drop"] = "掉落";
 --  LBIS.L["Dungeon Token"] = "";
@@ -131,6 +132,7 @@ if GetLocale() == "zhTW" then
 --  LBIS.L["Honor Quartermaster, Kun-Lai Summit"] = "";
   LBIS.L["Honored"] = "尊敬";
 --  LBIS.L["Honored (1250 Valor Points)"] = "尊敬";
+--  LBIS.L["Honored (1750 Justice Points)"] = "尊敬";
 --  LBIS.L["Honored (1750 Valor Points)"] = "尊敬";
   LBIS.L["Hoptallus"] = "跳跳巨兔妖";
   LBIS.L["Houndmaster Braun"] = "馴犬者布勞恩";
@@ -206,6 +208,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Ook-Ook"] = "歐克·歐克";
 --  LBIS.L["Open Browser Window"] = "";
 --  LBIS.L["Open Settings"] = "";
+  LBIS.L["Operation: Shieldwall"] = "鐵壁特遣行動";
 --  LBIS.L["Ox Deck"] = "";
 --  LBIS.L["Phase 1"] = "";
 --  LBIS.L["Phase 2"] = "";

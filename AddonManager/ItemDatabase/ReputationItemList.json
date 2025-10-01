@@ -1306,7 +1306,7 @@
     },
     "93243": {
       "Name": "Signet of the Shieldwall",
-      "Source": "Operation Shieldwall",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
       "SourceLocation": "Honored (1250 Valor Points)",
@@ -1314,7 +1314,7 @@
     },
     "93244": {
       "Name": "Band of the Shieldwall",
-      "Source": "Operation Shieldwall",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
       "SourceLocation": "Honored (1250 Valor Points)",
@@ -1322,7 +1322,7 @@
     },
     "93245": {
       "Name": "Loop of the Shieldwall",
-      "Source": "Operation Shieldwall",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
       "SourceLocation": "Honored (1250 Valor Points)",
@@ -1330,7 +1330,7 @@
     },
     "93246": {
       "Name": "Circle of the Shieldwall",
-      "Source": "Operation Shieldwall",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
       "SourceLocation": "Honored (1250 Valor Points)",
@@ -1338,7 +1338,7 @@
     },
     "93247": {
       "Name": "Seal of the Shieldwall",
-      "Source": "Operation Shieldwall",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
       "SourceLocation": "Honored (1250 Valor Points)",
@@ -1426,7 +1426,7 @@
     },
     "93258": {
       "Name": "Arrowflight Medallion",
-      "Source": "Operation Shieldwall",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
       "SourceLocation": "Revered (1750 Valor Points)",
@@ -1434,7 +1434,7 @@
     },
     "93259": {
       "Name": "Shock-Charger Medallion",
-      "Source": "Operation Shieldwall",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
       "SourceLocation": "Revered (1750 Valor Points)",
@@ -1442,7 +1442,7 @@
     },
     "93260": {
       "Name": "Heartwarmer Medallion",
-      "Source": "Operation Shieldwall",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
       "SourceLocation": "Revered (1750 Valor Points)",
@@ -1450,7 +1450,7 @@
     },
     "93261": {
       "Name": "Helmbreaker Medallion",
-      "Source": "Operation Shieldwall",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
       "SourceLocation": "Revered (1750 Valor Points)",
@@ -1458,7 +1458,7 @@
     },
     "93262": {
       "Name": "Vaporshield Medallion",
-      "Source": "Operation Shieldwall",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
       "SourceLocation": "Revered (1750 Valor Points)",
@@ -1538,7 +1538,7 @@
     },
     "93272": {
       "Name": "Sabatons of the Sullied Shore",
-      "Source": "Operation Shieldwall",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
       "SourceLocation": "Revered (1750 Valor Points)",
@@ -1546,7 +1546,7 @@
     },
     "93273": {
       "Name": "Sea-Soaked Sollerets",
-      "Source": "Operation Shieldwall",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
       "SourceLocation": "Revered (1750 Valor Points)",
@@ -1554,7 +1554,7 @@
     },
     "93274": {
       "Name": "Greatboots of Flashing Light",
-      "Source": "Operation Shieldwall",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
       "SourceLocation": "Revered (1750 Valor Points)",
@@ -1562,7 +1562,7 @@
     },
     "93275": {
       "Name": "Totem-Binder Boots",
-      "Source": "Operation Shieldwall",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
       "SourceLocation": "Revered (1750 Valor Points)",
@@ -1570,7 +1570,7 @@
     },
     "93276": {
       "Name": "Odlaw's Everwalkers",
-      "Source": "Operation Shieldwall",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
       "SourceLocation": "Revered (1750 Valor Points)",
@@ -1578,7 +1578,7 @@
     },
     "93277": {
       "Name": "Statue Summoner's Treads",
-      "Source": "Operation Shieldwall",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
       "SourceLocation": "Revered (1750 Valor Points)",
@@ -1586,7 +1586,7 @@
     },
     "93278": {
       "Name": "Crab-Leather Tabi",
-      "Source": "Operation Shieldwall",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
       "SourceLocation": "Revered (1750 Valor Points)",
@@ -1594,7 +1594,7 @@
     },
     "93279": {
       "Name": "Shieldwarden Slippers",
-      "Source": "Operation Shieldwall",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
       "SourceLocation": "Revered (1750 Valor Points)",
@@ -1602,7 +1602,7 @@
     },
     "93280": {
       "Name": "Sandals of Oiled Silk",
-      "Source": "Operation Shieldwall",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
       "SourceLocation": "Revered (1750 Valor Points)",
@@ -1682,7 +1682,7 @@
     },
     "93332": {
       "Name": "Girdle of Crushing Strength",
-      "Source": "Operation Shieldwall",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
       "SourceLocation": "Revered (1750 Valor Points)",
@@ -1690,7 +1690,7 @@
     },
     "93333": {
       "Name": "Waistplate of Immobility",
-      "Source": "Operation Shieldwall",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
       "SourceLocation": "Revered (1750 Valor Points)",
@@ -1698,7 +1698,7 @@
     },
     "93334": {
       "Name": "Divide's Loyal Clasp",
-      "Source": "Operation Shieldwall",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
       "SourceLocation": "Revered (1750 Valor Points)",
@@ -1706,7 +1706,7 @@
     },
     "93335": {
       "Name": "Chain of Flaming Arrows",
-      "Source": "Operation Shieldwall",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
       "SourceLocation": "Revered (1750 Valor Points)",
@@ -1714,7 +1714,7 @@
     },
     "93336": {
       "Name": "Links of Bonded Blood",
-      "Source": "Operation Shieldwall",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
       "SourceLocation": "Revered (1750 Valor Points)",
@@ -1722,7 +1722,7 @@
     },
     "93337": {
       "Name": "Prevenge's Swashbuckling Cinch",
-      "Source": "Operation Shieldwall",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
       "SourceLocation": "Revered (1750 Valor Points)",
@@ -1730,7 +1730,7 @@
     },
     "93338": {
       "Name": "Soothing Straps",
-      "Source": "Operation Shieldwall",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
       "SourceLocation": "Revered (1750 Valor Points)",
@@ -1738,7 +1738,7 @@
     },
     "93339": {
       "Name": "Bon-iy's Unbreakable Cord",
-      "Source": "Operation Shieldwall",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
       "SourceLocation": "Revered (1750 Valor Points)",
@@ -1746,7 +1746,7 @@
     },
     "93340": {
       "Name": "Sash of Bouncing Power",
-      "Source": "Operation Shieldwall",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
       "SourceLocation": "Revered (1750 Valor Points)",
@@ -1794,7 +1794,7 @@
     },
     "93346": {
       "Name": "Deadeye Badge of the Shieldwall",
-      "Source": "Operation Shieldwall",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
       "SourceLocation": "Honored (1750 Justice Points)",
@@ -1802,7 +1802,7 @@
     },
     "93347": {
       "Name": "Arcane Badge of the Shieldwall",
-      "Source": "Operation Shieldwall",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
       "SourceLocation": "Honored (1750 Justice Points)",
@@ -1810,7 +1810,7 @@
     },
     "93348": {
       "Name": "Mending Badge of the Shieldwall",
-      "Source": "Operation Shieldwall",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
       "SourceLocation": "Honored (1750 Justice Points)",
@@ -1818,7 +1818,7 @@
     },
     "93349": {
       "Name": "Knightly Badge of the Shieldwall",
-      "Source": "Operation Shieldwall",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
       "SourceLocation": "Honored (1750 Justice Points)",
@@ -1826,7 +1826,7 @@
     },
     "93350": {
       "Name": "Durable Badge of the Shieldwall",
-      "Source": "Operation Shieldwall",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
       "SourceLocation": "Honored (1750 Justice Points)",

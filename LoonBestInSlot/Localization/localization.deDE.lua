@@ -72,6 +72,7 @@ if GetLocale() == "deDE" then
 --  LBIS.L["Deselect"] = "";
   LBIS.L["Destruction"] = "Zerstörung";
   LBIS.L["Discipline"] = "Disziplin";
+  LBIS.L["Dominance Offensive"] = "Herrschaftsoffensive";
   LBIS.L["Dread Wastes"] = "Schreckensöde";
   LBIS.L["Drop"] = "Beute";
   LBIS.L["Dungeon Token"] = "Dungeon-Token";
@@ -131,6 +132,7 @@ if GetLocale() == "deDE" then
 --  LBIS.L["Honor Quartermaster, Kun-Lai Summit"] = "";
   LBIS.L["Honored"] = "Wohlwollend";
 --  LBIS.L["Honored (1250 Valor Points)"] = "Wohlwollend";
+--  LBIS.L["Honored (1750 Justice Points)"] = "Wohlwollend";
 --  LBIS.L["Honored (1750 Valor Points)"] = "Wohlwollend";
   LBIS.L["Hoptallus"] = "Hopsallus";
   LBIS.L["Houndmaster Braun"] = "Hundemeister Braun";
@@ -206,6 +208,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Ook-Ook"] = "Uuk-Uuk";
   LBIS.L["Open Browser Window"] = "Browserfenster öffnen";
 --  LBIS.L["Open Settings"] = "";
+  LBIS.L["Operation: Shieldwall"] = "Operation Schildwall";
 --  LBIS.L["Ox Deck"] = "";
   LBIS.L["Phase 1"] = "Phase 1";
   LBIS.L["Phase 2"] = "Phase 2";
