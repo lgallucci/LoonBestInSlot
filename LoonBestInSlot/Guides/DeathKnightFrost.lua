@@ -19,19 +19,19 @@ LBIS:AddGem(spec0, "77545", "3", "False") --Rigid Tinker's Gear
 LBIS:AddGem(spec0, "77547", "3", "False") --Fractured Tinker's Gear
 LBIS:AddGem(spec0, "76681", "3", "False") --Accurate Imperial Amethyst
 
-LBIS:AddEnchant(spec1, "121192", LBIS.L["Shoulder"]) --
-LBIS:AddEnchant(spec1, "104404", LBIS.L["Back"]) --
-LBIS:AddEnchant(spec1, "104398", LBIS.L["Back"]) --
-LBIS:AddEnchant(spec1, "104395", LBIS.L["Chest"]) --
-LBIS:AddEnchant(spec1, "104390", LBIS.L["Wrist"]) --
-LBIS:AddEnchant(spec1, "104338", LBIS.L["Wrist"]) --
-LBIS:AddEnchant(spec1, "126731", LBIS.L["Hands"]) --
-LBIS:AddEnchant(spec1, "104419", LBIS.L["Hands"]) --
-LBIS:AddEnchant(spec1, "82175", LBIS.L["Hands"]) --
-LBIS:AddEnchant(spec1, "122388", LBIS.L["Legs"]) --
-LBIS:AddEnchant(spec1, "104414", LBIS.L["Feet"]) --
-LBIS:AddEnchant(spec1, "53344", LBIS.L["Main Hand"]) --
-LBIS:AddEnchant(spec1, "53343", LBIS.L["Off Hand"]) --
+LBIS:AddEnchant(spec2, "121192", LBIS.L["Shoulder"]) --
+LBIS:AddEnchant(spec2, "104404", LBIS.L["Back"]) --
+LBIS:AddEnchant(spec2, "104398", LBIS.L["Back"]) --
+LBIS:AddEnchant(spec2, "104395", LBIS.L["Chest"]) --
+LBIS:AddEnchant(spec2, "104390", LBIS.L["Wrist"]) --
+LBIS:AddEnchant(spec2, "104338", LBIS.L["Wrist"]) --
+LBIS:AddEnchant(spec2, "126731", LBIS.L["Hands"]) --
+LBIS:AddEnchant(spec2, "104419", LBIS.L["Hands"]) --
+LBIS:AddEnchant(spec2, "82175", LBIS.L["Hands"]) --
+LBIS:AddEnchant(spec2, "122388", LBIS.L["Legs"]) --
+LBIS:AddEnchant(spec2, "104414", LBIS.L["Feet"]) --
+LBIS:AddEnchant(spec2, "53344", LBIS.L["Main Hand"]) --
+LBIS:AddEnchant(spec2, "53343", LBIS.L["Off Hand"]) --
 
 LBIS:AddItem(spec0, "77538", LBIS.L["Head"], "BIS") --Specialized Retinal Armor
 LBIS:AddItem(spec0, "81241", LBIS.L["Head"], "Alt") --Meteoric Greathelm
@@ -175,3 +175,66 @@ LBIS:AddItem(spec1, "87545", LBIS.L["Main Hand~Off Hand"], "Alt") --Inelava, Spi
 LBIS:AddItem(spec1, "86906", LBIS.L["Main Hand"], "Alt") --Kilrak, Jaws of Terror
 LBIS:AddItem(spec1, "86987", LBIS.L["Off Hand"], "BIS") --Scimitar of Seven Stars
 LBIS:AddItem(spec1, "86863", LBIS.L["Off Hand"], "Alt") --Scimitar of Seven Stars
+
+LBIS:AddItem(spec2, "86915", LBIS.L["Head"], "BIS") --Helmet of the Lost Catacomb
+LBIS:AddItem(spec2, "86676", LBIS.L["Head"], "Alt") --Helmet of the Lost Catacomb
+LBIS:AddItem(spec2, "81241", LBIS.L["Head"], "Alt") --Meteoric Greathelm
+LBIS:AddItem(spec2, "89280", LBIS.L["Head"], "Alt") --Voice Amplyifying Greathelm
+LBIS:AddItem(spec2, "86986", LBIS.L["Shoulder"], "BIS") --Shoulderpads of Misshapen Life
+LBIS:AddItem(spec2, "89345", LBIS.L["Shoulder"], "Alt") --Stonetoe Spaulders
+LBIS:AddItem(spec2, "86674", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Lost Catacomb
+LBIS:AddItem(spec2, "81098", LBIS.L["Shoulder"], "Alt") --Acid-Scarred Spaulders
+LBIS:AddItem(spec2, "86860", LBIS.L["Shoulder"], "Alt") --Shoulderpads of Misshapen Life
+LBIS:AddItem(spec2, "86945", LBIS.L["Back"], "BIS") --Hisek's Chrysanthemum Cape
+LBIS:AddItem(spec2, "89074", LBIS.L["Back"], "Alt") --Cloak of the Dark Disciple
+LBIS:AddItem(spec2, "81234", LBIS.L["Back"], "Alt") --Drape of the Screeching Swarm
+LBIS:AddItem(spec2, "86812", LBIS.L["Back"], "Alt") --Hisek's Chrysanthemum Cape
+LBIS:AddItem(spec2, "86913", LBIS.L["Chest"], "BIS") --Breastplate of the Lost Catacomb
+LBIS:AddItem(spec2, "89420", LBIS.L["Chest"], "Alt") --Dawnblade's Chestguard
+LBIS:AddItem(spec2, "87402", LBIS.L["Chest"], "Alt") --Ornate Battleplate of the Master
+LBIS:AddItem(spec2, "81187", LBIS.L["Chest"], "Alt") --Hateshatter Chestplate
+LBIS:AddItem(spec2, "85338", LBIS.L["Chest"], "Alt") --Breastplate of the Lost Catacomb
+LBIS:AddItem(spec2, "89958", LBIS.L["Chest"], "Alt") --Garalon's Graven Carapace
+LBIS:AddItem(spec2, "90506", LBIS.L["Wrist"], "BIS") --Bracers of Defiled Earth
+LBIS:AddItem(spec2, "81694", LBIS.L["Wrist"], "Alt") --Commanding Bracers
+LBIS:AddItem(spec2, "86868", LBIS.L["Wrist"], "Alt") --Bracers of Defiled Earth
+LBIS:AddItem(spec2, "86914", LBIS.L["Hands"], "BIS") --Gauntlets of the Lost Catacomb
+LBIS:AddItem(spec2, "87407", LBIS.L["Hands"], "Alt") --Bloodforged Warfists
+LBIS:AddItem(spec2, "82856", LBIS.L["Hands"], "Alt") --Dark Blaze Gauntlets
+LBIS:AddItem(spec2, "86677", LBIS.L["Hands"], "Alt") --Gauntlets of the Lost Catacomb
+LBIS:AddItem(spec2, "86955", LBIS.L["Waist"], "BIS") --Waistplate of Overwhelming Assault
+LBIS:AddItem(spec2, "89055", LBIS.L["Waist"], "Alt") --Klaxxi Lash of the Rescinder
+LBIS:AddItem(spec2, "81190", LBIS.L["Waist"], "Alt") --Grenadier's Belt
+LBIS:AddItem(spec2, "86822", LBIS.L["Waist"], "Alt") --Waistplate of Overwhelming Assault
+LBIS:AddItem(spec2, "86916", LBIS.L["Legs"], "BIS") --Greaves of the Lost Catacomb
+LBIS:AddItem(spec2, "89095", LBIS.L["Legs"], "Alt") --Legguards of the Unscathed
+LBIS:AddItem(spec2, "82812", LBIS.L["Legs"], "Alt") --Pyretic Legguards
+LBIS:AddItem(spec2, "86675", LBIS.L["Legs"], "Alt") --Greaves of the Lost Catacomb
+LBIS:AddItem(spec2, "86979", LBIS.L["Feet"], "BIS") --Impaling Treads
+LBIS:AddItem(spec2, "81284", LBIS.L["Feet"], "Alt") --Anchoring Sabatons
+LBIS:AddItem(spec2, "86852", LBIS.L["Feet"], "Alt") --Impaling Treads
+LBIS:AddItem(spec2, "90508", LBIS.L["Neck"], "BIS") --Shackle of Eversparks
+LBIS:AddItem(spec2, "89064", LBIS.L["Neck"], "Alt") --Bloodseeker's Solitaire
+LBIS:AddItem(spec2, "86871", LBIS.L["Neck"], "Alt") --Shackle of Eversparks
+LBIS:AddItem(spec2, "87551", LBIS.L["Neck"], "Alt") --Helios, Durand's Soul of Purity
+LBIS:AddItem(spec2, "86957", LBIS.L["Ring"], "BIS") --Ring of the Bladed Tempest
+LBIS:AddItem(spec2, "87158", LBIS.L["Ring"], "BIS") --Dread Shadow Ring
+LBIS:AddItem(spec2, "89069", LBIS.L["Ring"], "Alt") --Ring of the Golden Stair
+LBIS:AddItem(spec2, "81561", LBIS.L["Ring"], "Alt") --Firefinger Ring
+LBIS:AddItem(spec2, "81251", LBIS.L["Ring"], "Alt") --Blade Trap Signet
+LBIS:AddItem(spec2, "86880", LBIS.L["Ring"], "Alt") --Dread Shadow Ring
+LBIS:AddItem(spec2, "86820", LBIS.L["Ring"], "Alt") --Ring of the Bladed Tempest
+LBIS:AddItem(spec2, "87172", LBIS.L["Trinket"], "BIS") --Darkmist Vortex
+LBIS:AddItem(spec2, "87072", LBIS.L["Trinket"], "BIS") --Lei Shen's Final Orders
+LBIS:AddItem(spec2, "89083", LBIS.L["Trinket"], "Alt") --Iron Belly Wok
+LBIS:AddItem(spec2, "79327", LBIS.L["Trinket"], "Alt") --Relic of Xuen
+LBIS:AddItem(spec2, "81138", LBIS.L["Trinket"], "Alt") --Carbonic Carbuncle
+LBIS:AddItem(spec2, "81268", LBIS.L["Trinket"], "Alt") --Lessons of the Darkmaster
+LBIS:AddItem(spec2, "86802", LBIS.L["Trinket"], "Alt") --Lei Shen's Final Orders
+LBIS:AddItem(spec2, "86894", LBIS.L["Trinket"], "Alt") --Darkmist Vortex
+LBIS:AddItem(spec2, "87173", LBIS.L["Main Hand~Off Hand"], "BIS") --Kilrak, Jaws of Terror
+LBIS:AddItem(spec2, "89398", LBIS.L["Main Hand"], "Alt") --Amber Flammard of Klaxxi'vess
+LBIS:AddItem(spec2, "87545", LBIS.L["Main Hand~Off Hand"], "Alt") --Inelava, Spirit of Inebriation
+LBIS:AddItem(spec2, "86906", LBIS.L["Main Hand"], "Alt") --Kilrak, Jaws of Terror
+LBIS:AddItem(spec2, "86987", LBIS.L["Off Hand"], "Alt") --Scimitar of Seven Stars
+LBIS:AddItem(spec2, "86863", LBIS.L["Off Hand"], "Alt") --Scimitar of Seven Stars

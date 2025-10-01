@@ -13,19 +13,20 @@ LBIS:AddGem(spec0, "77542", "3", "False") --Quick Tinker's Gear
 LBIS:AddGem(spec0, "77543", "3", "False") --Precise Tinker's Gear
 LBIS:AddGem(spec0, "89873", "0", "False") --Crystallized Dread
 
-LBIS:AddEnchant(spec1, "121193", LBIS.L["Shoulder"]) --
-LBIS:AddEnchant(spec1, "104398", LBIS.L["Back"]) --
-LBIS:AddEnchant(spec1, "74230", LBIS.L["Back"]) --
-LBIS:AddEnchant(spec1, "104395", LBIS.L["Chest"]) --
-LBIS:AddEnchant(spec1, "104391", LBIS.L["Wrist"]) --
-LBIS:AddEnchant(spec1, "104338", LBIS.L["Wrist"]) --
-LBIS:AddEnchant(spec1, "141173", LBIS.L["Hands"]) --
-LBIS:AddEnchant(spec1, "104416", LBIS.L["Hands"]) --
-LBIS:AddEnchant(spec1, "82175", LBIS.L["Hands"]) --
-LBIS:AddEnchant(spec1, "122387", LBIS.L["Legs"]) --
-LBIS:AddEnchant(spec1, "104409", LBIS.L["Feet"]) --
-LBIS:AddEnchant(spec1, "104434", LBIS.L["Main Hand~Off Hand"]) --
-LBIS:AddEnchant(spec1, "104425", LBIS.L["Main Hand~Off Hand"]) --
+LBIS:AddEnchant(spec2, "121193", LBIS.L["Shoulder"]) --
+LBIS:AddEnchant(spec2, "125483", LBIS.L["Back"]) --
+LBIS:AddEnchant(spec2, "104398", LBIS.L["Back"]) --
+LBIS:AddEnchant(spec2, "74230", LBIS.L["Back"]) --
+LBIS:AddEnchant(spec2, "104395", LBIS.L["Chest"]) --
+LBIS:AddEnchant(spec2, "104391", LBIS.L["Wrist"]) --
+LBIS:AddEnchant(spec2, "104338", LBIS.L["Wrist"]) --
+LBIS:AddEnchant(spec2, "141173", LBIS.L["Hands"]) --
+LBIS:AddEnchant(spec2, "104416", LBIS.L["Hands"]) --
+LBIS:AddEnchant(spec2, "82175", LBIS.L["Hands"]) --
+LBIS:AddEnchant(spec2, "122387", LBIS.L["Legs"]) --
+LBIS:AddEnchant(spec2, "104409", LBIS.L["Feet"]) --
+LBIS:AddEnchant(spec2, "104434", LBIS.L["Main Hand~Off Hand"]) --
+LBIS:AddEnchant(spec2, "104425", LBIS.L["Main Hand~Off Hand"]) --
 
 LBIS:AddItem(spec0, "77534", LBIS.L["Head"], "BIS") --Agile Retinal Armor
 LBIS:AddItem(spec0, "86641", LBIS.L["Head"], "Alt") --Helmet of the Thousandfold Blades
@@ -174,3 +175,71 @@ LBIS:AddItem(spec1, "82971", LBIS.L["Main Hand"], "Alt") --Masterwork Ghost-Forg
 LBIS:AddItem(spec1, "87543", LBIS.L["Main Hand"], "Alt") --Ka'eng, Breath of the Shadow
 LBIS:AddItem(spec1, "87032", LBIS.L["Main Hand"], "Alt") --Gara'kal, Fist of the Spiritbinder
 LBIS:AddItem(spec1, "81089", LBIS.L["Main Hand"], "Alt") --Crescent of Ichor
+
+LBIS:AddItem(spec2, "87126", LBIS.L["Head"], "BIS") --Helmet of the Thousandfold Blades
+LBIS:AddItem(spec2, "81283", LBIS.L["Head"], "Alt") --Windblast Helm
+LBIS:AddItem(spec2, "86641", LBIS.L["Head"], "Alt") --Helmet of the Thousandfold Blades
+LBIS:AddItem(spec2, "77534", LBIS.L["Head"], "Alt") --Agile Retinal Armor
+LBIS:AddItem(spec2, "89300", LBIS.L["Head"], "Alt") --Red Smoke Bandana
+LBIS:AddItem(spec2, "87128", LBIS.L["Shoulder"], "BIS") --Spaulders of the Thousandfold Blades
+LBIS:AddItem(spec2, "89341", LBIS.L["Shoulder"], "Alt") --Imperion Spaulders
+LBIS:AddItem(spec2, "81071", LBIS.L["Shoulder"], "Alt") --Doubtridden Shoulderguards
+LBIS:AddItem(spec2, "86639", LBIS.L["Shoulder"], "Alt") --Spaulders of the Thousandfold Blades
+LBIS:AddItem(spec2, "86963", LBIS.L["Back"], "BIS") --Legbreaker Greatcloak
+LBIS:AddItem(spec2, "89076", LBIS.L["Back"], "Alt") --Blackguard Cape
+LBIS:AddItem(spec2, "86831", LBIS.L["Back"], "Alt") --Legbreaker Greatcloak
+LBIS:AddItem(spec2, "81282", LBIS.L["Back"], "Alt") --Aerial Bombardment Cloak
+LBIS:AddItem(spec2, "87124", LBIS.L["Chest"], "BIS") --Tunic of the Thousandfold Blades
+LBIS:AddItem(spec2, "89431", LBIS.L["Chest"], "Alt") --Softfoot Silentwrap
+LBIS:AddItem(spec2, "85823", LBIS.L["Chest"], "Alt") --Greyshadow Chestguard
+LBIS:AddItem(spec2, "81080", LBIS.L["Chest"], "Alt") --Nimbletoe Chestguard
+LBIS:AddItem(spec2, "86795", LBIS.L["Chest"], "Alt") --Chestguard of Total Annihilation
+LBIS:AddItem(spec2, "85788", LBIS.L["Chest"], "Alt") --Chestguard of Nemeses
+LBIS:AddItem(spec2, "86954", LBIS.L["Wrist"], "BIS") --Bracers of Unseen Strikes
+LBIS:AddItem(spec2, "88884", LBIS.L["Wrist"], "Alt") --Quillpaw Family Bracers
+LBIS:AddItem(spec2, "81090", LBIS.L["Wrist"], "Alt") --Saboteur's Stabilizing Bracers
+LBIS:AddItem(spec2, "86821", LBIS.L["Wrist"], "Alt") --Bracers of Unseen Strikes
+LBIS:AddItem(spec2, "87125", LBIS.L["Hands"], "BIS") --Gloves of the Thousandfold Blades
+LBIS:AddItem(spec2, "88744", LBIS.L["Hands"], "Alt") --Fingers of the Loneliest Monk
+LBIS:AddItem(spec2, "85824", LBIS.L["Hands"], "Alt") --Greyshadow Gloves
+LBIS:AddItem(spec2, "85828", LBIS.L["Hands"], "Alt") --Murderer's Gloves
+LBIS:AddItem(spec2, "82858", LBIS.L["Hands"], "Alt") --Tombstone Gauntlets
+LBIS:AddItem(spec2, "86642", LBIS.L["Hands"], "Alt") --Gloves of the Thousandfold Blades
+LBIS:AddItem(spec2, "87180", LBIS.L["Waist"], "BIS") --Stalker's Cord of Eternal Autumn
+LBIS:AddItem(spec2, "89060", LBIS.L["Waist"], "Alt") --Klaxxi Lash of the Borrower
+LBIS:AddItem(spec2, "86750", LBIS.L["Waist"], "Alt") --Tomb Raider's Girdle
+LBIS:AddItem(spec2, "81135", LBIS.L["Waist"], "Alt") --Belt of Brazen Inebriation
+LBIS:AddItem(spec2, "90504", LBIS.L["Legs"], "BIS") --Legguards of Failing Purification
+LBIS:AddItem(spec2, "89090", LBIS.L["Legs"], "Alt") --Dreadsworn Slayer Legs
+LBIS:AddItem(spec2, "82851", LBIS.L["Legs"], "Alt") --Ghostwoven Legguards
+LBIS:AddItem(spec2, "86640", LBIS.L["Legs"], "Alt") --Legguards of the Thousandfold Blades
+LBIS:AddItem(spec2, "86943", LBIS.L["Feet"], "BIS") --Boots of the Still Breath
+LBIS:AddItem(spec2, "88868", LBIS.L["Feet"], "Alt") --Tukka-Tuk's Hairy Boots
+LBIS:AddItem(spec2, "86811", LBIS.L["Feet"], "Alt") --Boots of the Still Breath
+LBIS:AddItem(spec2, "81249", LBIS.L["Feet"], "Alt") --Boots of Plummeting Death
+LBIS:AddItem(spec2, "89917", LBIS.L["Neck"], "BIS") --Pheromone-Coated Choker
+LBIS:AddItem(spec2, "89065", LBIS.L["Neck"], "Alt") --Choker of the Klaxxi'va
+LBIS:AddItem(spec2, "81564", LBIS.L["Neck"], "Alt") --Scorched Scarlet Key
+LBIS:AddItem(spec2, "89952", LBIS.L["Neck"], "Alt") --Pheromone-Coated Choker
+LBIS:AddItem(spec2, "90593", LBIS.L["Neck"], "Alt") --Delicate Necklace of the Golden Lotus
+LBIS:AddItem(spec2, "86974", LBIS.L["Ring"], "BIS") --Painful Thorned Ring
+LBIS:AddItem(spec2, "90503", LBIS.L["Ring"], "BIS") --Regail's Band of the Endless
+LBIS:AddItem(spec2, "89070", LBIS.L["Ring"], "Alt") --Anji's Keepsake
+LBIS:AddItem(spec2, "90861", LBIS.L["Ring"], "Alt") --Seal of the Windreaver
+LBIS:AddItem(spec2, "86869", LBIS.L["Ring"], "Alt") --Regail's Band of the Endless
+LBIS:AddItem(spec2, "81186", LBIS.L["Ring"], "Alt") --Seal of Hateful Meditation
+LBIS:AddItem(spec2, "81128", LBIS.L["Ring"], "Alt") --Signet of Dancing Jade
+LBIS:AddItem(spec2, "86851", LBIS.L["Ring"], "Alt") --Painful Thorned Ring
+LBIS:AddItem(spec2, "87057", LBIS.L["Trinket"], "BIS") --Bottle of Infinite Stars
+LBIS:AddItem(spec2, "87167", LBIS.L["Trinket"], "BIS") --Terror in the Mists
+LBIS:AddItem(spec2, "89082", LBIS.L["Trinket"], "Alt") --Hawkmaster's Talon
+LBIS:AddItem(spec2, "81267", LBIS.L["Trinket"], "Alt") --Searing Words
+LBIS:AddItem(spec2, "86890", LBIS.L["Trinket"], "Alt") --Terror in the Mists
+LBIS:AddItem(spec2, "81125", LBIS.L["Trinket"], "Alt") --Windswept Pages
+LBIS:AddItem(spec2, "86791", LBIS.L["Trinket"], "Alt") --Bottle of Infinite Stars
+LBIS:AddItem(spec2, "86864", LBIS.L["Main Hand~Off Hand"], "BIS") --Claws of Shek'zeer
+LBIS:AddItem(spec2, "86988", LBIS.L["Main Hand"], "BIS") --Claws of Shek'zeer
+LBIS:AddItem(spec2, "89400", LBIS.L["Main Hand"], "Alt") --Amber Sledge of Klaxxi'vess
+LBIS:AddItem(spec2, "82971", LBIS.L["Main Hand"], "Alt") --Masterwork Ghost-Forged Blade
+LBIS:AddItem(spec2, "87543", LBIS.L["Main Hand"], "Alt") --Ka'eng, Breath of the Shadow
+LBIS:AddItem(spec2, "81089", LBIS.L["Main Hand"], "Alt") --Crescent of Ichor

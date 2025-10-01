@@ -13,16 +13,16 @@ LBIS:AddGem(spec0, "77541", "3", "False") --Smooth Tinker's Gear
 LBIS:AddGem(spec0, "77543", "3", "False") --Precise Tinker's Gear
 LBIS:AddGem(spec0, "89873", "0", "False") --Crystallized Dread
 
-LBIS:AddEnchant(spec1, "121193", LBIS.L["Shoulder"]) --
-LBIS:AddEnchant(spec1, "104404", LBIS.L["Back"]) --
-LBIS:AddEnchant(spec1, "104395", LBIS.L["Chest"]) --
-LBIS:AddEnchant(spec1, "124551", LBIS.L["Wrist"]) --
-LBIS:AddEnchant(spec1, "126731", LBIS.L["Hands"]) --
-LBIS:AddEnchant(spec1, "104417", LBIS.L["Hands"]) --
-LBIS:AddEnchant(spec1, "82175", LBIS.L["Hands"]) --
-LBIS:AddEnchant(spec1, "122387", LBIS.L["Legs"]) --
-LBIS:AddEnchant(spec1, "104409", LBIS.L["Feet"]) --
-LBIS:AddEnchant(spec1, "109086", LBIS.L["Main Hand"]) --
+LBIS:AddEnchant(spec2, "121193", LBIS.L["Shoulder"]) --
+LBIS:AddEnchant(spec2, "104404", LBIS.L["Back"]) --
+LBIS:AddEnchant(spec2, "104395", LBIS.L["Chest"]) --
+LBIS:AddEnchant(spec2, "124551", LBIS.L["Wrist"]) --
+LBIS:AddEnchant(spec2, "126731", LBIS.L["Hands"]) --
+LBIS:AddEnchant(spec2, "104417", LBIS.L["Hands"]) --
+LBIS:AddEnchant(spec2, "82175", LBIS.L["Hands"]) --
+LBIS:AddEnchant(spec2, "122387", LBIS.L["Legs"]) --
+LBIS:AddEnchant(spec2, "104409", LBIS.L["Feet"]) --
+LBIS:AddEnchant(spec2, "109086", LBIS.L["Main Hand"]) --
 
 LBIS:AddItem(spec0, "86636", LBIS.L["Head"], "BIS") --Yaungol Slayer's Headguard
 LBIS:AddItem(spec0, "81105", LBIS.L["Head"], "Alt") --Swarmcall Helm
@@ -181,3 +181,72 @@ LBIS:AddItem(spec1, "87069", LBIS.L["Main Hand"], "Alt") --Fang Kung, Spark of T
 LBIS:AddItem(spec1, "89399", LBIS.L["Ranged/Relic"], "Alt") --Amber Sprayer of Klaxxi'vess
 LBIS:AddItem(spec1, "86889", LBIS.L["Ranged/Relic"], "Alt") --Taoren, the Soul Burner
 LBIS:AddItem(spec1, "87546", LBIS.L["Ranged/Relic"], "Alt") --Klatith, Fangs of the Swarm
+
+LBIS:AddItem(spec2, "87004", LBIS.L["Head"], "BIS") --Yaungol Slayer's Headguard
+LBIS:AddItem(spec2, "81105", LBIS.L["Head"], "Alt") --Swarmcall Helm
+LBIS:AddItem(spec2, "86636", LBIS.L["Head"], "Alt") --Yaungol Slayer's Headguard
+LBIS:AddItem(spec2, "89291", LBIS.L["Head"], "Alt") --Hawkmaster's Headguard
+LBIS:AddItem(spec2, "89296", LBIS.L["Head"], "Alt") --Nightwatcher's Helm
+LBIS:AddItem(spec2, "77536", LBIS.L["Head"], "Alt") --Deadly Retinal Armor
+LBIS:AddItem(spec2, "90505", LBIS.L["Shoulder"], "BIS") --Waterborne Shoulderguards
+LBIS:AddItem(spec2, "89344", LBIS.L["Shoulder"], "Alt") --Windwalker Spaulders
+LBIS:AddItem(spec2, "81099", LBIS.L["Shoulder"], "Alt") --Shadowspine Shoulderguards
+LBIS:AddItem(spec2, "86634", LBIS.L["Shoulder"], "Alt") --Yaungol Slayer's Spaulders
+LBIS:AddItem(spec2, "86963", LBIS.L["Back"], "BIS") --Legbreaker Greatcloak
+LBIS:AddItem(spec2, "89076", LBIS.L["Back"], "Alt") --Blackguard Cape
+LBIS:AddItem(spec2, "86831", LBIS.L["Back"], "Alt") --Legbreaker Greatcloak
+LBIS:AddItem(spec2, "81123", LBIS.L["Back"], "Alt") --Wind-Soaked Drape
+LBIS:AddItem(spec2, "87002", LBIS.L["Chest"], "BIS") --Yaungol Slayer's Tunic
+LBIS:AddItem(spec2, "89430", LBIS.L["Chest"], "Alt") --Breastplate of the Golden Pagoda
+LBIS:AddItem(spec2, "85830", LBIS.L["Chest"], "Alt") --Raiment of Blood and Bone
+LBIS:AddItem(spec2, "86638", LBIS.L["Chest"], "Alt") --Yaungol Slayer's Tunic
+LBIS:AddItem(spec2, "100968", LBIS.L["Chest"], "Alt") --Galedodger Chestguard
+LBIS:AddItem(spec2, "85787", LBIS.L["Chest"], "Alt") --Chestguard of Earthen Harmony
+LBIS:AddItem(spec2, "87014", LBIS.L["Wrist"], "BIS") --Stonemaw Armguards
+LBIS:AddItem(spec2, "88882", LBIS.L["Wrist"], "Alt") --Tiger-Striped Wristguards
+LBIS:AddItem(spec2, "86740", LBIS.L["Wrist"], "Alt") --Stonemaw Armguards
+LBIS:AddItem(spec2, "81252", LBIS.L["Wrist"], "Alt") --Groundshaker Bracers
+LBIS:AddItem(spec2, "87003", LBIS.L["Hands"], "BIS") --Yaungol Slayer's Gloves
+LBIS:AddItem(spec2, "88745", LBIS.L["Hands"], "Alt") --Sentinel Commander's Gauntlets
+LBIS:AddItem(spec2, "85831", LBIS.L["Hands"], "Alt") --Raven Lord's Gloves
+LBIS:AddItem(spec2, "86637", LBIS.L["Hands"], "Alt") --Yaungol Slayer's Gloves
+LBIS:AddItem(spec2, "81074", LBIS.L["Hands"], "Alt") --Hopecrusher Gauntlets
+LBIS:AddItem(spec2, "89951", LBIS.L["Waist"], "BIS") --Shadowgrip Girdle
+LBIS:AddItem(spec2, "89059", LBIS.L["Waist"], "Alt") --Klaxxi Lash of the Precursor
+LBIS:AddItem(spec2, "89058", LBIS.L["Waist"], "Alt") --Klaxxi Lash of the Winnower
+LBIS:AddItem(spec2, "81085", LBIS.L["Waist"], "Alt") --Impaler's Girdle
+LBIS:AddItem(spec2, "89986", LBIS.L["Waist"], "Alt") --Shadowgrip Girdle
+LBIS:AddItem(spec2, "87005", LBIS.L["Legs"], "BIS") --Yaungol Slayer's Legguards
+LBIS:AddItem(spec2, "89092", LBIS.L["Legs"], "Alt") --Locust Swarm Legguards
+LBIS:AddItem(spec2, "89091", LBIS.L["Legs"], "Alt") --Swarmkeeper's Leggings
+LBIS:AddItem(spec2, "89955", LBIS.L["Legs"], "Alt") --Sword Dancer's Leggings
+LBIS:AddItem(spec2, "81092", LBIS.L["Legs"], "Alt") --Leggings of the Charging Soul
+LBIS:AddItem(spec2, "86985", LBIS.L["Feet"], "BIS") --Monstrous Stompers
+LBIS:AddItem(spec2, "88866", LBIS.L["Feet"], "Alt") --Steps of the War Serpent
+LBIS:AddItem(spec2, "86861", LBIS.L["Feet"], "Alt") --Monstrous Stompers
+LBIS:AddItem(spec2, "81112", LBIS.L["Feet"], "Alt") --Treads of Fixation
+LBIS:AddItem(spec2, "86953", LBIS.L["Neck"], "BIS") --Choker of the Unleashed Storm
+LBIS:AddItem(spec2, "89065", LBIS.L["Neck"], "Alt") --Choker of the Klaxxi'va
+LBIS:AddItem(spec2, "81564", LBIS.L["Neck"], "Alt") --Scorched Scarlet Key
+LBIS:AddItem(spec2, "86824", LBIS.L["Neck"], "Alt") --Choker of the Unleashed Storm
+LBIS:AddItem(spec2, "90593", LBIS.L["Neck"], "Alt") --Delicate Necklace of the Golden Lotus
+LBIS:AddItem(spec2, "90503", LBIS.L["Ring"], "BIS") --Regail's Band of the Endless
+LBIS:AddItem(spec2, "86974", LBIS.L["Ring"], "BIS") --Painful Thorned Ring
+LBIS:AddItem(spec2, "89070", LBIS.L["Ring"], "Alt") --Anji's Keepsake
+LBIS:AddItem(spec2, "90861", LBIS.L["Ring"], "Alt") --Seal of the Windreaver
+LBIS:AddItem(spec2, "86851", LBIS.L["Ring"], "Alt") --Painful Thorned Ring
+LBIS:AddItem(spec2, "81191", LBIS.L["Ring"], "Alt") --Pulled Grenade Pin
+LBIS:AddItem(spec2, "81128", LBIS.L["Ring"], "Alt") --Signet of Dancing Jade
+LBIS:AddItem(spec2, "86869", LBIS.L["Ring"], "Alt") --Regail's Band of the Endless
+LBIS:AddItem(spec2, "87167", LBIS.L["Trinket"], "BIS") --Terror in the Mists
+LBIS:AddItem(spec2, "87057", LBIS.L["Trinket"], "BIS") --Bottle of Infinite Stars
+LBIS:AddItem(spec2, "89082", LBIS.L["Trinket"], "Alt") --Hawkmaster's Talon
+LBIS:AddItem(spec2, "79328", LBIS.L["Trinket"], "Alt") --Relic of Xuen
+LBIS:AddItem(spec2, "88355", LBIS.L["Trinket"], "Alt") --Searing Words
+LBIS:AddItem(spec2, "86890", LBIS.L["Trinket"], "Alt") --Terror in the Mists
+LBIS:AddItem(spec2, "81265", LBIS.L["Trinket"], "Alt") --Flashing Steel Talisman
+LBIS:AddItem(spec2, "86907", LBIS.L["Trinket"], "Alt") --Essence of Terror
+LBIS:AddItem(spec2, "87168", LBIS.L["Main Hand"], "BIS") --Taoren, the Soul Burner
+LBIS:AddItem(spec2, "89399", LBIS.L["Ranged/Relic"], "Alt") --Amber Sprayer of Klaxxi'vess
+LBIS:AddItem(spec2, "87546", LBIS.L["Ranged/Relic"], "Alt") --Klatith, Fangs of the Swarm
+LBIS:AddItem(spec2, "86889", LBIS.L["Ranged/Relic"], "Alt") --Taoren, the Soul Burner

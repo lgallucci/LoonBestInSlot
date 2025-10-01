@@ -15,16 +15,16 @@ LBIS:AddGem(spec0, "76668", "3", "False") --Reckless Vermilion Onyx
 LBIS:AddGem(spec0, "76660", "3", "False") --Potent Vermilion Onyx
 LBIS:AddGem(spec0, "77546", "3", "False") --Sparkling Tinker's Gear
 
-LBIS:AddEnchant(spec1, "121195", LBIS.L["Shoulder"]) --
-LBIS:AddEnchant(spec1, "104403", LBIS.L["Back"]) --
-LBIS:AddEnchant(spec1, "104395", LBIS.L["Chest"]) --
-LBIS:AddEnchant(spec1, "104389", LBIS.L["Wrist"]) --
-LBIS:AddEnchant(spec1, "104416", LBIS.L["Hands"]) --
-LBIS:AddEnchant(spec1, "122393", LBIS.L["Legs"]) --
-LBIS:AddEnchant(spec1, "104414", LBIS.L["Feet"]) --
-LBIS:AddEnchant(spec1, "104427", LBIS.L["Main Hand"]) --
-LBIS:AddEnchant(spec1, "104425", LBIS.L["Main Hand"]) --
-LBIS:AddEnchant(spec1, "104445", LBIS.L["Off Hand"]) --
+LBIS:AddEnchant(spec2, "121195", LBIS.L["Shoulder"]) --
+LBIS:AddEnchant(spec2, "104403", LBIS.L["Back"]) --
+LBIS:AddEnchant(spec2, "104395", LBIS.L["Chest"]) --
+LBIS:AddEnchant(spec2, "104389", LBIS.L["Wrist"]) --
+LBIS:AddEnchant(spec2, "104416", LBIS.L["Hands"]) --
+LBIS:AddEnchant(spec2, "122393", LBIS.L["Legs"]) --
+LBIS:AddEnchant(spec2, "104414", LBIS.L["Feet"]) --
+LBIS:AddEnchant(spec2, "104427", LBIS.L["Main Hand"]) --
+LBIS:AddEnchant(spec2, "104425", LBIS.L["Main Hand"]) --
+LBIS:AddEnchant(spec2, "104445", LBIS.L["Off Hand"]) --
 
 LBIS:AddItem(spec0, "77535", LBIS.L["Head"], "BIS") --Camouflage Retinal Armor
 LBIS:AddItem(spec0, "89957", LBIS.L["Head"], "Alt") --Hood of Stilled Winds
@@ -183,3 +183,4 @@ LBIS:AddItem(spec1, "81079", LBIS.L["Main Hand"], "Alt") --Staff of Trembling Wi
 LBIS:AddItem(spec1, "89425", LBIS.L["Off Hand"], "BIS") --Fan of Fiery Winds
 LBIS:AddItem(spec1, "89426", LBIS.L["Off Hand"], "Alt") --Fan of Fiery Winds
 LBIS:AddItem(spec1, "81076", LBIS.L["Off Hand"], "Alt") --Bottle of Potent Potables
+
