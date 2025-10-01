@@ -9,7 +9,7 @@ internal class MonkWindwalkerMapping : SpecMapping
 
     public override string PreRaidUrl => "dps-best-gear-bis-pre-raid";
     public override string Phase1Url => "dps-best-gear-bis-pve";
-    public override string Phase2Url => "";
+    public override string Phase2Url => "dps-best-gear-bis-pve";
     public override string Phase3Url => "";
     public override string Phase4Url => "";
     public override string Phase5Url => "";

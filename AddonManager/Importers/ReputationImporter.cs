@@ -14,7 +14,9 @@ public class ReputationImporter : LootImporter
         { @"https://www.wowhead.com/mop-classic/npc=59908/jaluu-the-generous#sells", "The Golden Lotus, B" },
         { @"https://www.wowhead.com/mop-classic/npc=59908/jaluu-the-generous#sells;50", "The Golden Lotus, B" },
         { @"https://www.wowhead.com/mop-classic/npc=64595/rushi-the-fox#sells", "Shado-Pan, B" },
-        { @"https://www.wowhead.com/mop-classic/npc=64595/rushi-the-fox#sells;50", "Shado-Pan, B" }
+        { @"https://www.wowhead.com/mop-classic/npc=64595/rushi-the-fox#sells;50", "Shado-Pan, B" },
+        { @"https://www.wowhead.com/mop-classic/npc=69059/agent-malley#sells", "Operation Shieldwall, A" },
+        { @"https://www.wowhead.com/mop-classic/npc=69060/tuskripper-grukna#sells", "Dominance Offensive, H" },
     };
 
     public ReputationImporter(CancellationToken cancellationToken) : base(cancellationToken)
@@ -63,6 +65,9 @@ public class ReputationImporter : LootImporter
         if (itemName.StartsWith("Plans: ") ||
             itemName.StartsWith("Pattern: ") ||
             itemName.StartsWith("Recipe: ") ||
+            itemName.StartsWith("Formula: ") ||
+            itemName.StartsWith("Grand Armored ") ||
+            itemName.StartsWith("Grand Commendation ") ||
             itemName.StartsWith("Reins of "))
         {
             return true;

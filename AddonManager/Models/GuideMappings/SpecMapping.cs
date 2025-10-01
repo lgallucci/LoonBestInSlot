@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 namespace AddonManager.Models.GuideMappings;
 internal abstract class SpecMapping
 {
-    public int CurrentPhaseNumber { get; } = 0;
     public string UrlBase => "https://www.wowhead.com/mop-classic/guide/classes/" + Class.Replace(" ", "-").ToLower() + "/" + SpecUrl.Replace(" ", "-").ToLower() + "/";
     public abstract string Class { get; }
     public abstract string Spec { get; }

@@ -21,7 +21,7 @@ public class GuideImporterViewModel : PageViewModelBase
     {
         SpecComboBoxItems.AddRange(new ClassSpecGuideMappings().GuideMappings.Select(gm => $"{gm.ClassName}{gm.SpecName}").Distinct());
         PhaseComboBoxItems.AddRange(["PreRaid", "Phase 1", "Phase 2", "Phase 3", "Phase 4", "Phase 5"]);
-        PhaseComboBoxSelectedIndex = 1;
+        PhaseComboBoxSelectedIndex = 2;
     }
     public ObservableCollection<string> SpecComboBoxItems { get; set; } = new ObservableCollection<string>();
     public ObservableCollection<string> PhaseComboBoxItems { get; set; } = new ObservableCollection<string>();
