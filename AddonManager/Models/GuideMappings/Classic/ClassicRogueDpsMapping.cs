@@ -116,6 +116,23 @@ internal class ClassicRogueDpsMapping : ClassicSpecMapping
             { ("Ranged/Relic", "#guns-and-bows-for-rogue-dps") },
         };
 
-    public override string Phase6Url => throw new NotImplementedException();
-    public override List<(string, GuideMapping)> Phase6 => throw new NotImplementedException();
+    public override string Phase6Url => "wow-classic-rogue-dps-naxxramas-best-in-slot-gear";
+    public override List<(string, GuideMapping)> Phase6 => new List<(string, GuideMapping)>
+        {
+            { ("Head", "#head-for-rogue-dps") },
+            { ("Shoulder", "#shoulders-for-rogue-dps") },
+            { ("Back", "#back-for-rogue-dps") },
+            { ("Chest", "#chest-for-rogue-dps") },
+            { ("Wrist", "#wrist-for-rogue-dps") },
+            { ("Hands", "#hands-for-rogue-dps") },
+            { ("Waist", "#waist-for-rogue-dps") },
+            { ("Legs", "#legs-for-rogue-dps") },
+            { ("Feet", "#feet-for-rogue-dps") },
+            { ("Neck", "#neck-for-rogue-dps") },
+            { ("Ring", "#rings-for-rogue-dps") },
+            { ("Trinket", "#trinkets-for-rogue-dps") },
+            { ("Main Hand", "#main-hand-weapons-for-rogue-dps") },
+            { ("Off Hand", "#off-hand-weapons-for-rogue-dps") },
+            { ("Ranged/Relic", "#guns-and-bows-for-rogue-dps") },
+        };
 }

@@ -109,6 +109,23 @@ internal class ClassicPaladinHolyMapping : ClassicSpecMapping
             { ("Ranged/Relic", "#librams-for-holy-paladin-healing-in-wow-classic-phase-5") },
         };
 
-    public override string Phase6Url => throw new NotImplementedException();
-    public override List<(string, GuideMapping)> Phase6 => throw new NotImplementedException();
+    public override string Phase6Url => "wow-classic-paladin-healing-naxxramas-best-in-slot-gear";
+    public override List<(string, GuideMapping)> Phase6 => new List<(string, GuideMapping)>
+        {
+            { ("Head", "#head-for-holy-paladin-healing-in-wow-classic-phase-6") },
+            { ("Shoulder", "#shoulders-for-holy-paladin-healing-in-wow-classic-phase-6") },
+            { ("Back", "#back-for-holy-paladin-healing-in-wow-classic-phase-6") },
+            { ("Chest", "#chest-for-holy-paladin-healing-in-wow-classic-phase-6") },
+            { ("Wrist", "#wrist-for-holy-paladin-healing-in-wow-classic-phase-6") },
+            { ("Hands", "#hands-for-holy-paladin-healing-in-wow-classic-phase-6") },
+            { ("Waist", "#waist-for-holy-paladin-healing-in-wow-classic-phase-6") },
+            { ("Legs", "#legs-for-holy-paladin-healing-in-wow-classic-phase-6") },
+            { ("Feet", "#feet-for-holy-paladin-healing-in-wow-classic-phase-6") },
+            { ("Neck", "#neck-for-holy-paladin-healing-in-wow-classic-phase-6") },
+            { ("Ring", "#rings-for-holy-paladin-healing-in-wow-classic-phase-6") },
+            { ("Trinket", "#trinkets-for-holy-paladin-healing-in-wow-classic-phase-6") },
+            { ("Main Hand", "#main-hand-weapons-for-holy-paladin-healing-in-wow-classic-phase-6") },
+            { ("Off Hand", "#off-hand-weapons-for-holy-paladin-healing-in-wow-classic-phase-6") },
+            { ("Ranged/Relic", "#librams-for-holy-paladin-healing-in-wow-classic-phase-6") },
+        };
 }

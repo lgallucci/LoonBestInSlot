@@ -111,7 +111,22 @@ internal class ClassicDruidBearMapping : ClassicSpecMapping
         { ("Ranged/Relic", "#idols-for-feral-druid-tank-in-wow-classic-phase-5") },
     };
 
-    public override string Phase6Url => throw new NotImplementedException();
-
-    public override List<(string, GuideMapping)> Phase6 => throw new NotImplementedException();
+    public override string Phase6Url => "wow-classic-feral-druid-tank-naxxramas-best-in-slot-gear";
+    public override List<(string, GuideMapping)> Phase6 => new List<(string, GuideMapping)>
+    {
+        { ("Head", "#head-for-feral-druid-tank-in-wow-classic-phase-6") },
+        { ("Shoulder", "#shoulders-for-feral-druid-tank-in-wow-classic-phase-6") },
+        { ("Back", "#back-for-feral-druid-tank-in-wow-classic-phase-6") },
+        { ("Chest", "#chest-for-feral-druid-tank-in-wow-classic-phase-6") },
+        { ("Wrist", "#wrist-for-feral-druid-tank-in-wow-classic-phase-6") },
+        { ("Hands", "#hands-for-feral-druid-tank-in-wow-classic-phase-6") },
+        { ("Waist", "#waist-for-feral-druid-tank-in-wow-classic-phase-6") },
+        { ("Legs", "#legs-for-feral-druid-tank-in-wow-classic-phase-6") },
+        { ("Feet", "#feet-for-feral-druid-tank-in-wow-classic-phase-6") },
+        { ("Neck", "#neck-for-feral-druid-tank-in-wow-classic-phase-6") },
+        { ("Ring", "#rings-for-feral-druid-tank-in-wow-classic-phase-6") },
+        { ("Trinket", "#trinkets-for-feral-druid-tank-in-wow-classic-phase-6") },
+        { ("Main Hand", "#weapons-for-feral-druid-tank-in-wow-classic-phase-6") },
+        { ("Ranged/Relic", "#idols-for-feral-druid-tank-in-wow-classic-phase-6") },
+    };
 }

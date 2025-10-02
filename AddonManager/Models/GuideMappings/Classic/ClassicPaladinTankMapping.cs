@@ -106,6 +106,23 @@ internal class ClassicPaladinTankMapping : ClassicSpecMapping
             //{ ("Ranged/Relic", "#ranged-for-paladin-tanks") },
         };
 
-    public override string Phase6Url => throw new NotImplementedException();
-    public override List<(string, GuideMapping)> Phase6 => throw new NotImplementedException();
+    public override string Phase6Url => "wow-classic-paladin-tank-naxxramas-best-in-slot-gear";
+    public override List<(string, GuideMapping)> Phase6 => new List<(string, GuideMapping)>
+        {
+            { ("Head", "#helm-for-paladin-tanks") },
+            { ("Shoulder", "#shoulder-for-paladin-tanks") },
+            { ("Back", "#back-for-paladin-tanks") },
+            { ("Chest", "#chest-for-paladin-tanks") },
+            { ("Wrist", "#bracers-for-paladin-tanks") },
+            { ("Hands", "#hands-for-paladin-tanks") },
+            { ("Waist", "#belt-for-paladin-tanks") },
+            { ("Legs", "#legs-for-paladin-tanks") },
+            { ("Feet", "#boots-for-paladin-tanks") },
+            { ("Neck", "#neck-for-paladin-tanks") },
+            { ("Ring", "#rings-for-paladin-tanks") },
+            { ("Trinket", "#trinkets-for-paladin-tanks") },
+            { ("Main Hand", "#main-hand-weapon-for-paladin-tanks") },
+            { ("Off Hand", "#shield-for-paladin-tanks") },
+            //{ ("Ranged/Relic", "#ranged-for-paladin-tanks") },
+        };
 }

@@ -104,7 +104,23 @@ internal class ClassicPaladinRetributionMapping : ClassicSpecMapping
             //{ ("Ranged/Relic", "#librams-for-paladin-dps") },
         };
 
-    public override string Phase6Url => throw new NotImplementedException();
+    public override string Phase6Url => "wow-classic-paladin-dps-naxxramas-best-in-slot-gear";
 
-    public override List<(string, GuideMapping)> Phase6 => throw new NotImplementedException();
+    public override List<(string, GuideMapping)> Phase6 => new List<(string, GuideMapping)>
+        {
+            { ("Head", "#helm-for-paladin-dps") },
+            { ("Shoulder", "#shoulder-for-paladin-dps") },
+            { ("Back", "#back-for-paladin-dps") },
+            { ("Chest", "#chest-for-paladin-dps") },
+            { ("Wrist", "#bracers-for-paladin-dps") },
+            { ("Hands", "#hands-for-paladin-dps") },
+            { ("Waist", "#belt-for-paladin-dps") },
+            { ("Legs", "#legs-for-paladin-dps") },
+            { ("Feet", "#boots-for-paladin-dps") },
+            { ("Neck", "#neck-for-paladin-dps") },
+            { ("Ring", "#rings-for-paladin-dps") },
+            { ("Trinket", "#trinkets-for-paladin-dps") },
+            { ("Two Hand", "#two-hand-weapons-for-paladin-dps") },
+            { ("Ranged/Relic", "#librams") },
+        };
 }

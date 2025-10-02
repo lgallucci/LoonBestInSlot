@@ -112,6 +112,24 @@ internal class ClassicShamanEnhancementMapping : ClassicSpecMapping
 
         };
 
-    public override string Phase6Url => throw new NotImplementedException();
-    public override List<(string, GuideMapping)> Phase6 => throw new NotImplementedException();
+    public override string Phase6Url => "wow-classic-enhancement-shaman-dps-naxxramas-best-in-slot-gear";
+    public override List<(string, GuideMapping)> Phase6 => new List<(string, GuideMapping)>
+        {
+            { ("Head", "#head") },
+            { ("Shoulder", "#shoulders") },
+            { ("Back", "#back") },
+            { ("Chest", "#chest") },
+            { ("Wrist", "#wrist") },
+            { ("Hands", "#hands") },
+            { ("Waist", "#waist") },
+            { ("Legs", "#legs") },
+            { ("Feet", "#feet") },
+            { ("Neck", "#neck") },
+            { ("Ring", "#rings") },
+            { ("Trinket", "#trinkets") },
+            { ("Main Hand", "#one-hand-duel-wield-weapons") },
+            { ("Off Hand", "#shield-offhand") },
+            { ("Two Hand", "#two-hand-weapons") },
+            { ("Ranged/Relic", "#totems") }
+        };
 }

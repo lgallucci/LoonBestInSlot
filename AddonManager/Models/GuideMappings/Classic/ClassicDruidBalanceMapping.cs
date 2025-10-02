@@ -116,6 +116,24 @@ internal class ClassicDruidBalanceMapping : ClassicSpecMapping
             { ("Ranged/Relic", "#idols-for-balance-druid-dps-in-wow-classic-phase-5") },
         };
 
-    public override string Phase6Url => throw new NotImplementedException();
-    public override List<(string, GuideMapping)> Phase6 => throw new NotImplementedException();
+    public override string Phase6Url => "wow-classic-balance-druid-dps-naxxramas-best-in-slot-gear";
+    public override List<(string, GuideMapping)> Phase6 => new List<(string, GuideMapping)>
+     {
+            { ("Head", "#head-for-balance-druid-dps-in-wow-classic-phase-6") },        
+            { ("Shoulder", "#shoulders-for-balance-druid-dps-in-wow-classic-phase-6") },
+            { ("Back", "#back-for-balance-druid-dps-in-wow-classic-phase-6") },
+            { ("Chest", "#chest-for-balance-druid-dps-in-wow-classic-phase-6") },
+            { ("Wrist", "#wrist-for-balance-druid-dps-in-wow-classic-phase-6") },
+            { ("Hands", "#hands-for-balance-druid-dps-in-wow-classic-phase-6") },
+            { ("Waist", "#waist-for-balance-druid-dps-in-wow-classic-phase-6") },
+            { ("Legs", "#legs-for-balance-druid-dps-in-wow-classic-phase-6") },
+            { ("Feet", "#feet-for-balance-druid-dps-in-wow-classic-phase-6") },
+            { ("Neck", "#neck-for-balance-druid-dps-in-wow-classic-phase-6") },
+            { ("Ring", "#rings-for-balance-druid-dps-in-wow-classic-phase-6") },
+            { ("Trinket", "#trinkets-for-balance-druid-dps-in-wow-classic-phase-6") },
+            { ("Main Hand", "#one-hand-weapons-for-balance-druid-dps-in-wow-classic-phase-6") },
+            { ("Off Hand", "#off-hand-weapons-for-balance-druid-dps-in-wow-classic-phase-6") },
+            { ("Two Hand", "#two-hand-weapons-for-balance-druid-dps-in-wow-classic-phase-6") },
+            { ("Ranged/Relic", "#idols-for-balance-druid-dps-in-wow-classic-phase-6") },
+        };
 }

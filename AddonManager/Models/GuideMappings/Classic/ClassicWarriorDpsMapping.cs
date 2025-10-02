@@ -99,6 +99,23 @@ internal class ClassicWarriorDpsMapping : ClassicSpecMapping
             { ("Ranged/Relic", "#ranged-weapons") }
         };
 
-    public override string Phase6Url => throw new NotImplementedException();
-    public override List<(string, GuideMapping)> Phase6 => throw new NotImplementedException();
+    public override string Phase6Url => "wow-classic-fury-warrior-dps-naxxramas-best-in-slot-gear";
+    public override List<(string, GuideMapping)> Phase6 => new List<(string, GuideMapping)>
+        {
+            { ("Head", "#helm") },
+            { ("Shoulder", "#shoulders") },
+            { ("Back", "#back") },
+            { ("Chest", "#chest") },
+            { ("Wrist", "#bracers") },
+            { ("Hands", "#hands") },
+            { ("Waist", "#belt") },
+            { ("Legs", "#legs") },
+            { ("Feet", "#boots") },
+            { ("Neck", "#neck") },
+            { ("Ring", "#rings") },
+            { ("Trinket", "#trinkets") },
+            { ("Main Hand", "#main-hand-weapons") },
+            { ("Off Hand", "#off-hand-weapons") },
+            { ("Ranged/Relic", "#ranged-weapons") }
+        };
 }

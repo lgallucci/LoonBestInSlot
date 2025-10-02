@@ -79,7 +79,24 @@ internal class ClassicPriestShadowMapping : ClassicSpecMapping
             { ("Ranged/Relic", "#wands-for-shadow-priest-dps-in-wow-classic-phase-5") },
         };
 
-    public override string Phase6Url => throw new NotImplementedException();
-
-    public override List<(string, GuideMapping)> Phase6 => throw new NotImplementedException();
+    public override string Phase6Url => "wow-classic-shadow-priest-dps-naxxramas-best-in-slot-gear";
+    public override List<(string, GuideMapping)> Phase6 => new List<(string, GuideMapping)>
+        {
+            { ("Head", "#head") },
+            { ("Shoulder", "#shoulders") },
+            { ("Back", "#back") },
+            { ("Chest", "#chest") },
+            { ("Wrist", "#wrist") },
+            { ("Hands", "#hands") },
+            { ("Waist", "#waist") },
+            { ("Legs", "#legs") },
+            { ("Feet", "#feet") },
+            { ("Neck", "#neck") },
+            { ("Ring", "#rings") },
+            { ("Trinket", "#trinkets") },
+            { ("Main Hand", "#main-hand-weapons") },
+            { ("Off Hand", "#off-hand-weapons") },
+            { ("Two Hand", "#staves") },
+            { ("Ranged/Relic", "#wands") },
+        };
 }

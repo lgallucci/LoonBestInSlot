@@ -102,6 +102,24 @@ internal class ClassicMageDpsMapping : ClassicSpecMapping
             { ("Ranged/Relic", "#weapons-3") },
         };
 
-    public override string Phase6Url => throw new NotImplementedException();
-    public override List<(string, GuideMapping)> Phase6 => throw new NotImplementedException();
+    public override string Phase6Url => "wow-classic-mage-dps-naxxramas-best-in-slot-gear";
+    public override List<(string, GuideMapping)> Phase6 => new List<(string, GuideMapping)>
+        {
+            { ("Head", "#head-for-mage-dps-in-phase-6") },
+            { ("Shoulder", "#shoulders-for-mage-dps-in-phase-6") },
+            { ("Back", "#back-for-mage-dps-in-phase-6") },
+            { ("Chest", "#chest-for-mage-dps-in-phase-6") },
+            { ("Wrist", "#wrist-for-mage-dps-in-phase-6") },
+            { ("Hands", "#hands-for-mage-dps-in-phase-6") },
+            { ("Waist", "#waist-for-mage-dps-in-phase-6") },
+            { ("Legs", "#legs-for-mage-dps-in-phase-6") },
+            { ("Feet", "#feet-for-mage-dps-in-phase-6") },
+            { ("Neck", "#neck-for-mage-dps-in-phase-6") },
+            { ("Ring", "#rings-for-mage-dps-in-phase-6") },
+            { ("Trinket", "#trinkets-for-mage-dps-in-phase-6") },
+            { ("Main Hand", "#main-hand") },
+            { ("Two Hand", "#two-hand") },
+            { ("Off Hand", "#off-hand") },
+            { ("Ranged/Relic", "#wands") },
+        };
 }

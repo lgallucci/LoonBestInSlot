@@ -110,6 +110,23 @@ internal class ClassicHunterDpsMapping : ClassicSpecMapping
             { ("Ranged/Relic", "#guns-and-bows-for-hunter-dps") },
         };
 
-    public override string Phase6Url => throw new NotImplementedException();
-    public override List<(string, GuideMapping)> Phase6 => throw new NotImplementedException();
+    public override string Phase6Url => "wow-classic-hunter-dps-naxxramas-best-in-slot-gear";
+    public override List<(string, GuideMapping)> Phase6 => new List<(string, GuideMapping)>
+        {
+            { ("Head", "#head-for-hunter-dps") },
+            { ("Shoulder", "#shoulders-for-hunter-dps") },
+            { ("Back", "#back-for-hunter-dps") },
+            { ("Chest", "#chest-for-hunter-dps") },
+            { ("Wrist", "#wrist-for-hunter-dps") },
+            { ("Hands", "#hands-for-hunter-dps") },
+            { ("Waist", "#waist-for-hunter-dps") },
+            { ("Legs", "#legs-for-hunter-dps") },
+            { ("Feet", "#feet-for-hunter-dps") },
+            { ("Neck", "#neck-for-hunter-dps") },
+            { ("Ring", "#rings-for-hunter-dps") },
+            { ("Trinket", "#trinkets-for-hunter-dps") },
+            { ("Main Hand", "#duel-wield-weapons-for-hunter-dps") },
+            { ("Two Hand", "#two-handed-weapons-for-hunter-dps") },
+            { ("Ranged/Relic", "#guns-and-bows-for-hunter-dps") },
+        };
 }
