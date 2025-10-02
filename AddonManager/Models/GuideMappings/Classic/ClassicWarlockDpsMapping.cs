@@ -99,17 +99,17 @@ internal class ClassicWarlockDpsMapping : ClassicSpecMapping
             { ("Shoulder", "#shoulders") },
             { ("Back", "#back") },
             { ("Chest", "#chest") },
-            { ("Wrist", "#wrist") },
+            { ("Wrist", "#wrists") },
             { ("Hands", "#hands") },
             { ("Waist", "#waist") },
             { ("Legs", "#legs") },
             { ("Feet", "#feet") },
             { ("Neck", "#neck") },
-            { ("Ring", "#rings") },
+            { ("Ring", "#ring") },
             { ("Trinket", "#trinkets") },
-            { ("Main Hand", "#main-hand-weapons") },
-            { ("Off Hand", "#offhand-weapons") },
-            { ("Two Hand", "#two-hand-weapons") },
+            { ("Main Hand", "#main-hand") },
+            { ("Off Hand", "#off-hand") },
+            { ("Two Hand", "#staves") },
             { ("Ranged/Relic", "#wands") }
         };
 }

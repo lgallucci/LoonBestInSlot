@@ -123,6 +123,6 @@ internal class ClassicPaladinTankMapping : ClassicSpecMapping
             { ("Trinket", "#trinkets-for-paladin-tanks") },
             { ("Main Hand", "#main-hand-weapon-for-paladin-tanks") },
             { ("Off Hand", "#shield-for-paladin-tanks") },
-            //{ ("Ranged/Relic", "#ranged-for-paladin-tanks") },
+            //{ ("Ranged/Relic", "#ranged") },
         };
 }

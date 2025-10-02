@@ -112,19 +112,19 @@ internal class ClassicDruidCatMapping : ClassicSpecMapping
 
     public override List<(string, GuideMapping)> Phase6 => new List<(string, GuideMapping)>
     {
-        { ("Head", "#head-for-feral-druid-dps-in-wow-classic-phase-6") },
-        { ("Shoulder", "#shoulders-for-feral-druid-dps-in-wow-classic-phase-6") },
-        { ("Back", "#back-for-feral-druid-dps-in-wow-classic-phase-6") },
-        { ("Chest", "#chest-for-feral-druid-dps-in-wow-classic-phase-6") },
-        { ("Wrist", "#wrist-for-feral-druid-dps-in-wow-classic-phase-6") },
-        { ("Hands", "#hands-for-feral-druid-dps-in-wow-classic-phase-6") },
-        { ("Waist", "#waist-for-feral-druid-dps-in-wow-classic-phase-6") },
-        { ("Legs", "#legs-for-feral-druid-dps-in-wow-classic-phase-6") },
-        { ("Feet", "#feet-for-feral-druid-dps-in-wow-classic-phase-6") },
-        { ("Neck", "#neck-for-feral-druid-dps-in-wow-classic-phase-6") },
-        { ("Ring", "#rings-for-feral-druid-dps-in-wow-classic-phase-6") },
-        { ("Trinket", "#trinkets-for-feral-druid-dps-in-wow-classic-phase-6") },
-        { ("Main Hand", "#weapons-for-feral-druid-dps-in-wow-classic-phase-6") },
-        { ("Ranged/Relic", "#idols-for-feral-druid-dps-in-wow-classic-phase-6") },
+        { ("Head", "#head") },
+        { ("Shoulder", "#shoulders") },
+        { ("Back", "#back") },
+        { ("Chest", "#chest") },
+        { ("Wrist", "#wrists") },
+        { ("Hands", "#hands") },
+        { ("Waist", "#waist") },
+        { ("Legs", "#legs") },
+        { ("Feet", "#feet") },
+        { ("Neck", "#neck") },
+        { ("Ring", "#ring") },
+        { ("Trinket", "#trinkets") },
+        { ("Main Hand", "#weapons") },
+        { ("Ranged/Relic", "#idols") },
     };
 }

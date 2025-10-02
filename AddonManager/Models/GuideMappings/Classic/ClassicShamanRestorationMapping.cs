@@ -122,14 +122,15 @@ internal class ClassicShamanRestorationMapping : ClassicSpecMapping
             { ("Chest", "#chest") },
             { ("Wrist", "#wrist") },
             { ("Hands", "#hands") },
-            { ("Waist", "#waist") },
+            { ("Waist", "#wasit") },
             { ("Legs", "#legs") },
             { ("Feet", "#feet") },
             { ("Neck", "#neck") },
             { ("Ring", "#rings") },
             { ("Trinket", "#trinkets") },
-            { ("Main Hand", "#main-hand-weapons") },
-            { ("Off Hand", "#off-hands-and-shields") },
+            { ("Main Hand", "#main-hand") },
+            { ("Off Hand", "#off-hand") },
+            { ("Two Hand", "#two-hand") },
             { ("Ranged/Relic", "#relics") }
     };
 }

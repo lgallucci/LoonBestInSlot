@@ -120,16 +120,17 @@ internal class ClassicShamanElementalMapping : ClassicSpecMapping
             { ("Shoulder", "#shoulders") },
             { ("Back", "#back") },
             { ("Chest", "#chest") },
-            { ("Wrist", "#wrist") },
+            { ("Wrist", "#wrists") },
             { ("Hands", "#hands") },
             { ("Waist", "#waist") },
             { ("Legs", "#legs") },
             { ("Feet", "#feet") },
             { ("Neck", "#neck") },
-            { ("Ring", "#rings") },
+            { ("Ring", "#ring") },
             { ("Trinket", "#trinkets") },
-            { ("Main Hand", "#main-hand-weapons") },
-            { ("Off Hand", "#off-hands-and-shields") },
-            { ("Ranged/Relic", "#relics") }
+            { ("Two Hand", "#two-hand") },
+            { ("Main Hand", "#main-hand") },
+            { ("Off Hand", "#off-hand") },
+            { ("Ranged/Relic", "#totem") }
         };
 }

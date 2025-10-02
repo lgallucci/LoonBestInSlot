@@ -108,19 +108,19 @@ internal class ClassicPaladinRetributionMapping : ClassicSpecMapping
 
     public override List<(string, GuideMapping)> Phase6 => new List<(string, GuideMapping)>
         {
-            { ("Head", "#helm-for-paladin-dps") },
-            { ("Shoulder", "#shoulder-for-paladin-dps") },
-            { ("Back", "#back-for-paladin-dps") },
-            { ("Chest", "#chest-for-paladin-dps") },
-            { ("Wrist", "#bracers-for-paladin-dps") },
-            { ("Hands", "#hands-for-paladin-dps") },
-            { ("Waist", "#belt-for-paladin-dps") },
-            { ("Legs", "#legs-for-paladin-dps") },
-            { ("Feet", "#boots-for-paladin-dps") },
-            { ("Neck", "#neck-for-paladin-dps") },
-            { ("Ring", "#rings-for-paladin-dps") },
-            { ("Trinket", "#trinkets-for-paladin-dps") },
-            { ("Two Hand", "#two-hand-weapons-for-paladin-dps") },
+            { ("Head", "#head") },
+            { ("Shoulder", "#shoulders") },
+            { ("Back", "#back") },
+            { ("Chest", "#chest") },
+            { ("Wrist", "#wrist") },
+            { ("Hands", "#hands") },
+            { ("Waist", "#waist") },
+            { ("Legs", "#legs") },
+            { ("Feet", "#feet") },
+            { ("Neck", "#neck") },
+            { ("Ring", "#rings") },
+            { ("Trinket", "#trinkets") },
+            { ("Two Hand", "#two-hand") },
             { ("Ranged/Relic", "#librams") },
         };
 }

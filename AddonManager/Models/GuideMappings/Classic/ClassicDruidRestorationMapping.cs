@@ -126,9 +126,9 @@ internal class ClassicDruidRestorationMapping : ClassicSpecMapping
             { ("Neck", "#neck") },
             { ("Ring", "#rings") },
             { ("Trinket", "#trinkets") },
-            { ("Main Hand", "#one-hand-weapons") },
-            { ("Off Hand", "#off-hand-weapons") },
-            { ("Two Hand", "#two-hand-weapons") },
+            { ("Main Hand", "#main-hand") },
+            { ("Off Hand", "#off-hand") },
+            { ("Two Hand", "#two-hand") },
             { ("Ranged/Relic", "#idols") },
         };
 }

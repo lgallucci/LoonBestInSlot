@@ -130,8 +130,8 @@ internal class ClassicPriestHolyMapping : ClassicSpecMapping
             { ("Neck", "#neck") },
             { ("Ring", "#rings") },
             { ("Trinket", "#trinkets") },
-            { ("Main Hand", "#main-hand-weapons") },
-            { ("Off Hand", "#off-hand-weapons") },
+            { ("Main Hand", "#main-hand") },
+            { ("Off Hand", "#off-hand") },
             { ("Two Hand", "#staves") },
             { ("Ranged/Relic", "#wands") },
         };

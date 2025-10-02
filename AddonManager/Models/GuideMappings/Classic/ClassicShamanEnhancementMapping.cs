@@ -127,9 +127,7 @@ internal class ClassicShamanEnhancementMapping : ClassicSpecMapping
             { ("Neck", "#neck") },
             { ("Ring", "#rings") },
             { ("Trinket", "#trinkets") },
-            { ("Main Hand", "#one-hand-duel-wield-weapons") },
-            { ("Off Hand", "#shield-offhand") },
-            { ("Two Hand", "#two-hand-weapons") },
-            { ("Ranged/Relic", "#totems") }
+            { ("Two Hand", "#two-hand") },
+            { ("Ranged/Relic", "#idols") }
         };
 }
