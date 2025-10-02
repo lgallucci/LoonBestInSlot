@@ -9536,8 +9536,24 @@
       "SourceLocation": "Scarlet Enclave",
       "SourceFaction": "B"
     },
+    "236318": {
+      "Name": "Seal of the Damned",
+      "Source": "The Four Horseman",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
     "236319": {
       "Name": "Leggings of Apocalypse",
+      "Source": "The Four Horseman",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "236320": {
+      "Name": "Warmth of Forgiveness",
       "Source": "The Four Horseman",
       "SourceType": "Drop",
       "SourceNumber": "0",
@@ -9755,6 +9771,14 @@
     "237381": {
       "Name": "Desecrated Ring",
       "Source": "Kel'Thuzad",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Naxxramas",
+      "SourceFaction": "B"
+    },
+    "237512": {
+      "Name": "Blade of Inquisition",
+      "Source": "The Four Horseman",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Naxxramas",
