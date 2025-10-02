@@ -15,6 +15,10 @@ public class ProfessionImporter : LootImporter
         { @"https://www.wowhead.com/classic/skill=333/enchanting", "Enchanting" }
     };
 
+    public ProfessionImporter(CancellationToken cancellationToken) : base(cancellationToken)
+    {
+    }
+
     internal override string FileName { get => "ProfessionItemList"; }
     internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, Action<string> writeToLog)
     {

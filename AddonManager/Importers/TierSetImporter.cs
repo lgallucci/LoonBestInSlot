@@ -34,6 +34,10 @@ public class TierSetImporter : LootImporter
 
     private Dictionary<int, int> recursiveItemsToQuery = new Dictionary<int, int>();
 
+    public TierSetImporter(CancellationToken cancellationToken) : base(cancellationToken)
+    {
+    }
+
     private IHtmlAnchorElement? RecursivelyFindFirstAnchor(IElement element)
     {
         IHtmlAnchorElement? result = null;

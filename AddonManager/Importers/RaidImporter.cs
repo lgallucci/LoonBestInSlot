@@ -26,28 +26,27 @@ public class RaidImporter : LootImporter
 
     private Dictionary<string, (string, string)> raidContainsList = new Dictionary<string, (string, string)>
     {
-        { @"https://www.wowhead.com/classic/object=181366/four-horsemen-chest#contains;mode:normal", ("The Four Horseman", "Naxxramas") },
     };
 
     private Dictionary<string, (string, string)> bossUriList = new Dictionary<string, (string, string)>
     {
-        { @"https://www.wowhead.com/classic/npc=15956/anubrekhan#drops", ("Anub'Rekhan", "Naxxramas") },
-        { @"https://www.wowhead.com/classic/npc=15953/grand-widow-faerlina#drops", ("Grand Widow Faerlina", "Naxxramas") },
-        { @"https://www.wowhead.com/classic/npc=15952/maexxna#drops", ("Maexxna", "Naxxramas") },
-        { @"https://www.wowhead.com/classic/npc=15954/noth-the-plaguebringer#drops", ("Noth the Plaguebringer", "Naxxramas") },
-        { @"https://www.wowhead.com/classic/npc=15936/heigan-the-unclean#drops", ("Heigan the Unclean", "Naxxramas") },
-        { @"https://www.wowhead.com/classic/npc=16011/loatheb#drops", ("Loatheb", "Naxxramas") },
-        { @"https://www.wowhead.com/classic/npc=16061/instructor-razuvious#drops", ("Instructor Razuvious", "Naxxramas") },
-        { @"https://www.wowhead.com/classic/npc=16060/gothik-the-harvester#drops", ("Gothik the Harvester", "Naxxramas") },
-        { @"https://www.wowhead.com/classic/npc=16028/patchwerk#drops", ("Patchwerk", "Naxxramas") },
-        { @"https://www.wowhead.com/classic/npc=15931/grobbulus#drops", ("Grobbulus", "Naxxramas") },
-        { @"https://www.wowhead.com/classic/npc=15932/gluth#drops", ("Gluth", "Naxxramas") },
-        { @"https://www.wowhead.com/classic/npc=15928/thaddius#drops", ("Thaddius", "Naxxramas") },
-        { @"https://www.wowhead.com/classic/npc=15989/sapphiron#drops", ("Sapphiron", "Naxxramas") },
-        { @"https://www.wowhead.com/classic/npc=15990/kelthuzad#drops#drops", ("Kel'Thuzad", "Naxxramas") },
+        { @"https://classicdb.ch/?npc=15956", ("Anub'Rekhan", "Naxxramas") },
+        { @"https://classicdb.ch/?npc=15953", ("Grand Widow Faerlina", "Naxxramas") },
+        { @"https://classicdb.ch/?npc=15952", ("Maexxna", "Naxxramas") },
+        { @"https://classicdb.ch/?npc=15954", ("Noth the Plaguebringer", "Naxxramas") },
+        { @"https://classicdb.ch/?npc=15936", ("Heigan the Unclean", "Naxxramas") },
+        { @"https://classicdb.ch/?npc=16011", ("Loatheb", "Naxxramas") },
+        { @"https://classicdb.ch/?npc=16061", ("Instructor Razuvious", "Naxxramas") },
+        { @"https://classicdb.ch/?npc=16060", ("Gothik the Harvester", "Naxxramas") },
+        { @"https://classicdb.ch/?npc=16028", ("Patchwerk", "Naxxramas") },
+        { @"https://classicdb.ch/?npc=15931", ("Grobbulus", "Naxxramas") },
+        { @"https://classicdb.ch/?npc=15932", ("Gluth", "Naxxramas") },
+        { @"https://classicdb.ch/?npc=15928", ("Thaddius", "Naxxramas") },
+        { @"https://classicdb.ch/?npc=15989", ("Sapphiron", "Naxxramas") },
+        { @"https://classicdb.ch/?npc=15990", ("Kel'Thuzad", "Naxxramas") },
+        { @"https://classicdb.ch/?object=181366", ("The Four Horseman", "Naxxramas") },
     };
     
-
     internal override string FileName { get => "RaidItemList"; }
     internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, Action<string> writeToLog)
     {
@@ -62,67 +61,134 @@ public class RaidImporter : LootImporter
         //     await ConvertGeneralRaidLoot(raidUri, items, writeToLog);
         // }
 
-        await GetItemContains(items, raidContainsList.Keys, writeToLog);
-        await GetItemDrops(items, bossUriList.Keys.Where(b => b.Contains("drops")), writeToLog);
-        // await GetItemContains(items, bossUriList.Keys.Where(b => b.Contains("contains")), writeToLog);
+        //await GetItemDrops(items, bossUriList.Keys.Where(b => b.Contains("drops")), writeToLog);
+        //await GetItemContains(items, bossUriList.Keys.Where(b => b.Contains("contains")), writeToLog);
+
+        await GetClassicDbItemDrops(items, bossUriList.Keys, writeToLog);
 
         return items;
     }
 
     private List<string> _madnessBosses = new List<string>() { "Gri'lek", "Hazza'rah", "Renataki", "Wushoolay" };
 
+    public RaidImporter(CancellationToken cancellationToken) : base(cancellationToken)
+    {
+    }
+
     private async Task ConvertGeneralRaidLoot(KeyValuePair<string, string> raidUri, DatabaseItems items, Action<string> writeToLog)
     {
-        
-        await Common.LoadFromWebPage(raidUri.Key, (uri, doc) =>
+        var doc = await Common.LoadFromWebPage(raidUri.Key, writeToLog);
+
+        var tables = doc.QuerySelectorAll("div.markup-table-wrapper table");
+        foreach(var table in tables)
         {
-            var tables = doc.QuerySelectorAll("div.markup-table-wrapper table");
-            foreach(var table in tables)
+            if (table != null)
             {
-                if (table != null)
-                {
-                    LoopThroughTable(table as IHtmlTableElement, (itemId, itemName, bossName) => {
+                LoopThroughTable(table as IHtmlTableElement, (itemId, itemName, bossName) => {
 
-                        if (bossName == "Charred Emblem")
-                            bossName = "Grand Crusader Caldoran";
+                    if (bossName == "Charred Emblem")
+                        bossName = "Grand Crusader Caldoran";
 
-                        if (bossName == "Wing of Balnazzar")
-                            bossName = "Balnazzar";
+                    if (bossName == "Wing of Balnazzar")
+                        bossName = "Balnazzar";
 
-                        if (bossName == "Caladboulder")
-                            bossName = "Sword in the Stone";
+                    if (bossName == "Caladboulder")
+                        bossName = "Sword in the Stone";
 
-                        if (bossName == "TBD")
-                            bossName = "unknown";
+                    if (bossName == "TBD")
+                        bossName = "unknown";
 
-                        if (_madnessBosses.Contains(bossName))
-                            bossName = bossName + " (Madness)";
+                    if (_madnessBosses.Contains(bossName))
+                        bossName = bossName + " (Madness)";
 
-                        if (bossName == "Zone Drop")
-                            bossName = "Trash Mobs";
+                    if (bossName == "Zone Drop")
+                        bossName = "Trash Mobs";
 
-                        if (itemId > 0 && !excludedWords.Any(w => itemName.Contains(w)))
+                    if (itemId > 0 && !excludedWords.Any(w => itemName.Contains(w)))
+                    {
+                        items.AddItem(itemId, new DatabaseItem() 
                         {
-                            items.AddItem(itemId, new DatabaseItem() 
-                            {
-                                Name = itemName,
-                                Source = bossName,
-                                SourceType = "Drop",
-                                SourceNumber = "0",
-                                SourceLocation = raidUri.Value,
-                            });
-                        }
-                    }, (itemId, itemName, questName, faction) => {
-                        throw new NotImplementedException("Quest drops not implemented yet.");
+                            Name = itemName,
+                            Source = bossName,
+                            SourceType = "Drop",
+                            SourceNumber = "0",
+                            SourceLocation = raidUri.Value,
+                        });
+                    }
+                }, (itemId, itemName, questName, faction) => {
+                    throw new NotImplementedException("Quest drops not implemented yet.");
+                });
+            }
+        }
+    }
+
+    private async Task GetClassicDbItemDrops(DatabaseItems items, IEnumerable<string> uriList, Action<string> writeToLog)
+    {
+        await Common.LoadFromWebPages(uriList, (uri, doc) =>
+        {
+            IHtmlCollection<IElement> rowElements = null;
+            if (uri.Contains("npc="))
+                rowElements = doc.QuerySelectorAll("#tab-drop .listview-mode-default tr");
+            else
+                rowElements = doc.QuerySelectorAll("#tab-contains .listview-mode-default tr");
+
+            if (rowElements != null && rowElements.Length > 0)
+            {
+                foreach (var row in rowElements)
+                {
+                    var success = false;
+                    var itemId = 0; // Get ItemId from Row 
+                    var itemName = "";
+
+                    Common.RecursiveBoxSearch(row.Children[1], (anchorObject) =>
+                    {
+                        if (success) return true;
+
+                        var item = ((IHtmlAnchorElement)anchorObject).Href.Replace("about:///?item=", "");
+                        itemName = anchorObject.TextContent;
+
+                        success = Int32.TryParse(item, out itemId);
+                        
+                        if (success)
+                            AddItems(items, uri, row, itemId, anchorObject);
+
+                        return success;
                     });
+
                 }
             }
-        }, writeToLog);
+        }, writeToLog, _importCancelToken);        
+    }
+
+    private void AddItems(DatabaseItems items, string uri, IElement row, int itemId, IHtmlAnchorElement item)
+    {
+        var sourceFaction = "B";
+        var isBlue = (item.ClassName?.Contains("q4") ?? false) || (item.ClassName?.Contains("q4") ?? false) || (item.ClassName?.Contains("q5") ?? false);
+        if (!isBlue) return;
+        if (row.Children[6].Children.Count() > 0)
+        {
+            var factionColumn = (IElement)row.Children[6].ChildNodes[0];
+            if (factionColumn?.ClassName == "icon-horde")
+                sourceFaction = "H";
+            else if (factionColumn?.ClassName == "icon-alliance")
+                sourceFaction = "A";
+        }
+
+        items.AddItem(itemId, new DatabaseItem
+        {
+            Name = item?.TextContent ?? "unknown",
+            Source = bossUriList[uri].Item1,
+            SourceType = "Drop",
+            SourceNumber = "0",
+            SourceLocation = bossUriList[uri].Item2,
+            SourceFaction = sourceFaction
+        });
     }
 
     private async Task GetItemDrops(DatabaseItems items, IEnumerable<string> uriList, Action<string> writeToLog)
     {
-        await Common.ReadWowheadDropsList(uriList, (uri, row, itemId, item) => {
+        await Common.ReadWowheadDropsList(uriList, (uri, row, itemId, item) =>
+        {
             var sourceFaction = "B";
             var isBlue = (item.ClassName?.Contains("q4") ?? false) || (item.ClassName?.Contains("q4") ?? false) || (item.ClassName?.Contains("q5") ?? false);
             if (!isBlue) return;
@@ -135,7 +201,7 @@ public class RaidImporter : LootImporter
                     sourceFaction = "A";
             }
 
-            items.AddItem(itemId, new DatabaseItem 
+            items.AddItem(itemId, new DatabaseItem
             {
                 Name = item?.TextContent ?? "unknown",
                 Source = bossUriList[uri].Item1,
@@ -144,12 +210,13 @@ public class RaidImporter : LootImporter
                 SourceLocation = bossUriList[uri].Item2,
                 SourceFaction = sourceFaction
             });
-        }, writeToLog);
+        }, writeToLog, _importCancelToken);
     }
 
     private async Task GetItemContains(DatabaseItems items, IEnumerable<string> uriList, Action<string> writeToLog)
     {
-        await Common.ReadWowheadContainsList(uriList, (uri, row, itemId, item) => {
+        await Common.ReadWowheadContainsList(uriList, (uri, row, itemId, item) =>
+        {
             var sourceFaction = "B";
             var isPurple = (item.ClassName?.Contains("q4") ?? false) || (item.ClassName?.Contains("q5") ?? false);
             if (!isPurple) return;
@@ -162,7 +229,7 @@ public class RaidImporter : LootImporter
                     sourceFaction = "A";
             }
 
-            items.AddItem(itemId, new DatabaseItem 
+            items.AddItem(itemId, new DatabaseItem
             {
                 Name = item?.TextContent ?? "unknown",
                 Source = raidContainsList[uri].Item1,
@@ -171,41 +238,40 @@ public class RaidImporter : LootImporter
                 SourceLocation = raidContainsList[uri].Item2,
                 SourceFaction = sourceFaction
             });
-        }, writeToLog);
+        }, writeToLog, _importCancelToken);
     }
 
     internal async Task<DatabaseItems> ConvertRaidLoot(KeyValuePair<string, string> raidUri, DatabaseItems items, Action<string> writeToLog)
     {
-        await Common.LoadFromWebPage(raidUri.Key, (uri, doc) =>
+        var doc = await Common.LoadFromWebPage(raidUri.Key, writeToLog);
+
+        foreach (var boss in bossTableQueries)
         {
-            foreach(var boss in bossTableQueries)
-            {
-                var bossTable = doc.QuerySelector(boss.Key);
-                var table = bossTable as IHtmlTableElement;
-                var firstRow = false;
+            var bossTable = doc.QuerySelector(boss.Key);
+            var table = bossTable as IHtmlTableElement;
+            var firstRow = false;
 
-                if (table != null)
-                    foreach (var row in table.Rows)
+            if (table != null)
+                foreach (var row in table.Rows)
+                {
+                    if (!firstRow)
                     {
-                        if (!firstRow)
-                        {
-                            firstRow = true;
-                            continue;
-                        }
-                        var (itemId, itemName) = GetItemFromTableRow(row);
-
-                        items.AddItem(itemId, new DatabaseItem() 
-                        {
-                            Name = itemName,
-                            Source = boss.Value,
-                            SourceType = "Drop",
-                            SourceNumber = "0",
-                            SourceLocation = raidUri.Value,
-                        });
+                        firstRow = true;
+                        continue;
                     }
+                    var (itemId, itemName) = GetItemFromTableRow(row);
 
-            }
-        }, writeToLog);
+                    items.AddItem(itemId, new DatabaseItem()
+                    {
+                        Name = itemName,
+                        Source = boss.Value,
+                        SourceType = "Drop",
+                        SourceNumber = "0",
+                        SourceLocation = raidUri.Value,
+                    });
+                }
+
+        }
 
         return items;
     }

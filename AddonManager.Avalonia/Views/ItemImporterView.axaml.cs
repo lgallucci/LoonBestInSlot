@@ -3,6 +3,7 @@ using Avalonia.Interactivity;
 using AddonManager.Importers;
 using System.Threading.Tasks;
 using System;
+using System.Threading;
 
 namespace AddonManager.Avalonia.Views;
 
@@ -11,6 +12,13 @@ public partial class ItemImporterView : UserControl
     public ItemImporterView()
     {
         InitializeComponent();
+    }
+
+    private CancellationTokenSource _cancellationTokenSource = new CancellationTokenSource();
+    public void CancelClick(object sender, RoutedEventArgs args)
+    {
+        _cancellationTokenSource?.Cancel();
+        lblStatus.Text = "Cancelled!";
     }
 
     public async void ConvertClick(object sender, RoutedEventArgs args)
@@ -22,28 +30,28 @@ public partial class ItemImporterView : UserControl
         switch (importerType)
         {
             case "EmblemImporter":
-                importer = new EmblemImporter();
+                importer = new EmblemImporter(_cancellationTokenSource.Token);
                 break;
             case "ProfessionImporter":
-                importer = new ProfessionImporter();
+                importer = new ProfessionImporter(_cancellationTokenSource.Token);
                 break;
             case "DungeonImporter":
-                importer = new DungeonImporter();
+                importer = new DungeonImporter(_cancellationTokenSource.Token);
                 break;
             case "RaidImporter":
-                importer = new RaidImporter();
+                importer = new RaidImporter(_cancellationTokenSource.Token);
                 break;
             case "PvPImporter":
-                importer = new PvPImporter();
+                importer = new PvPImporter(_cancellationTokenSource.Token);
                 break;
             case "ReputationImporter":
-                importer = new ReputationImporter();
+                importer = new ReputationImporter(_cancellationTokenSource.Token);
                 break;
             case "TierSetImporter":
-                importer = new TierSetImporter();
+                importer = new TierSetImporter(_cancellationTokenSource.Token);
                 break;
             case "VendorImporter":
-                importer = new VendorImporter();
+                importer = new VendorImporter(_cancellationTokenSource.Token);
                 break;
             default:
                 txtJsonToParse.Text = "Choose a Importer !";

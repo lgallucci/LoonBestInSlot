@@ -44,6 +44,10 @@ public class PvPImporter : LootImporter
         // { @"https://www.wowhead.com/classic/npc=14581/sergeant-thunderhorn", ("B", "Battlegrounds")}
     };
 
+    public PvPImporter(CancellationToken cancellationToken) : base(cancellationToken)
+    {
+    }
+
     internal override string FileName { get => "PvPItemList"; }
 
     internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, Action<string> writeToLog)

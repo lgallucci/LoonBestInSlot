@@ -27,6 +27,10 @@ public class VendorImporter : LootImporter
         //{ @"https://www.wowhead.com/classic/npc=15500/keyl-swiftclaw#sells", ("Ahn'Qiraj Tokens", "Silithus")}
     };
 
+    public VendorImporter(CancellationToken cancellationToken) : base(cancellationToken)
+    {
+    }
+
     internal override string FileName { get => "VendorItemList"; }
 
     internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, Action<string> writeToLog)

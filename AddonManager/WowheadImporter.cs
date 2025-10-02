@@ -108,20 +108,20 @@ public static class WowheadImporter
     public static async Task<string> ImportClass(ClassGuideMapping classGuide, int phaseNumber, CancellationToken cancelToken, Action<string> logFunc)
     {
         var result = string.Empty;
-        await Common.LoadFromWebPage(classGuide.WebAddress, (uri, doc) =>
-        {  try
-            {
-                result = ImportClassInternal(classGuide, phaseNumber, doc, logFunc);
-            }
-            catch (VerificationException vex)
-            {
-                logFunc($"{classGuide.ClassName} {classGuide.SpecName} Completed! - Verification Failed! - {vex.Message.Substring(0, vex.Message.Length > 150 ? 150 : vex.Message.Length - 1)}...");
-            }
-            catch (ParseException ex)
-            {
-                logFunc($"{classGuide.ClassName} {classGuide.SpecName} Failed! - {ex.Message.Substring(0, 150)}...");
-            }
-        }, logFunc, cancelToken);
+        var doc = await Common.LoadFromWebPage(classGuide.WebAddress, logFunc, cancelToken);
+
+        try
+        {
+            result = ImportClassInternal(classGuide, phaseNumber, doc, logFunc);
+        }
+        catch (VerificationException vex)
+        {
+            logFunc($"{classGuide.ClassName} {classGuide.SpecName} Completed! - Verification Failed! - {vex.Message.Substring(0, vex.Message.Length > 150 ? 150 : vex.Message.Length - 1)}...");
+        }
+        catch (ParseException ex)
+        {
+            logFunc($"{classGuide.ClassName} {classGuide.SpecName} Failed! - {ex.Message.Substring(0, 150)}...");
+        }
 
         return result;
     }

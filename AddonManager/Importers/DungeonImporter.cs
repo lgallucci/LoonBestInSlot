@@ -289,7 +289,7 @@ public class DungeonImporter : LootImporter
                     SourceLocation = dungeonName,
                     SourceFaction = sourceFaction
                 });
-        }, writeToLog);
+        }, writeToLog, _importCancelToken);
 
         return items;
     }
@@ -301,6 +301,10 @@ public class DungeonImporter : LootImporter
         {"The Rookery - Father Flame", "Solakar Flamewreath"},
         { "Doctor Theolen Krastinov <The Butcher>", "Doctor Theolen Krastinov"},
     };
+
+    public DungeonImporter(CancellationToken cancellationToken) : base(cancellationToken)
+    {
+    }
 
     private List<IHtmlAnchorElement> RecursivelyFindAnchors(IElement element)
     {

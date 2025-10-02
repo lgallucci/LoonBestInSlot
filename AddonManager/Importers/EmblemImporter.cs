@@ -17,6 +17,10 @@ public class EmblemImporter : LootImporter
         { @"https://www.wowhead.com/classic/npc=218115/maizin#sells;50"},
     };
 
+    public EmblemImporter(CancellationToken cancellationToken) : base(cancellationToken)
+    {
+    }
+
     internal override string FileName { get => "EmblemItemList"; }
 
     internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, Action<string> writeToLog)

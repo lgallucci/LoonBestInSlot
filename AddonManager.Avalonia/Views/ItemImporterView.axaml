@@ -12,7 +12,8 @@
     </Design.DataContext>
     <Grid>
         <Button Content="Import" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Click="ConvertClick" />
-        <ComboBox x:Name="cmbImporterType" HorizontalAlignment="Left" Margin="75,9,0,0" VerticalAlignment="Top" Width="150">
+        <Button Content="Cancel" HorizontalAlignment="Left" Margin="75,10,0,0" VerticalAlignment="Top" Click="CancelClick" />
+        <ComboBox x:Name="cmbImporterType" HorizontalAlignment="Left" Margin="140,9,0,0" VerticalAlignment="Top" Width="150">
             <ComboBoxItem Content="EmblemImporter" Tag="EmblemImporter" IsSelected="True"/>
             <ComboBoxItem Content="ProfessionImporter" Tag="ProfessionImporter"/>
             <ComboBoxItem Content="DungeonImporter" Tag="DungeonImporter"/>
@@ -22,7 +23,7 @@
             <ComboBoxItem Content="ReputationImporter" Tag="ReputationImporter"/>
             <ComboBoxItem Content="VendorImporter" Tag="VendorImporter"/>
         </ComboBox>
-        <TextBlock x:Name="lblStatus" HorizontalAlignment="Left" Margin="255,14,0,0" Width="150" Text="Ready !"/>
+        <TextBlock x:Name="lblStatus" HorizontalAlignment="Left" Margin="300,14,0,0" Width="150" Text="Ready !"/>
         <ScrollViewer Margin="0,50,0,0" BorderBrush="Gray" BorderThickness="1">
             <TextBox x:Name="txtJsonToParse" TextWrapping="Wrap" />
         </ScrollViewer>

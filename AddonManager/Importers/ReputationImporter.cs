@@ -13,6 +13,10 @@ public class ReputationImporter : LootImporter
         { @"https://www.wowhead.com/classic/npc=222685/quartermaster-kyleen#sells;50", "Emerald Wardens"}
     };
 
+    public ReputationImporter(CancellationToken cancellationToken) : base(cancellationToken)
+    {
+    }
+
     internal override string FileName { get => "ReputationItemList"; }
 
     internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, Action<string> writeToLog)
