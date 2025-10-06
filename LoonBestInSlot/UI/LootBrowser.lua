@@ -289,10 +289,8 @@ local function createDropDowns(window)
             ['parent']=window,
             ['title']='Phase:',
             ['items']= { LBIS.L["All"], 
-            --LBIS.L["PreRaid"], 
-            LBIS.L["Phase 1"], LBIS.L["Phase 2"], LBIS.L["Phase 3"], LBIS.L["Phase 4"], LBIS.L["Phase 5"],
-            --, LBIS.L["Phase 6"], 
-            "BIS" }, 
+            LBIS.L["PreRaid"], LBIS.L["Phase 1"], LBIS.L["Phase 2"], LBIS.L["Phase 3"], 
+            LBIS.L["Phase 4"], LBIS.L["Phase 5"], LBIS.L["Phase 6"], "BIS" }, 
             ['defaultVal']=LBISSettings.SelectedPhase,
             ['changeFunc']=function(dropdown_frame, dropdown_val)
                 LBISSettings.SelectedPhase = dropdown_val;
@@ -366,7 +364,7 @@ local function createDropDowns(window)
                 LBIS.L["Blackwing Lair"], 
                 LBIS.L["Zul'Gurub"],
                 LBIS.L["Ruins of Ahn'Qiraj"], LBIS.L["Ahn'Qiraj"],
-                --LBIS.L["Naxxramas"],
+                LBIS.L["Naxxramas"],
             },
             ['defaultVal']= LBISSettings.SelectedZone,
             ['changeFunc']=function(dropdown_frame, dropdown_val)
