@@ -538,14 +538,13 @@ local function LoadData()
     LBIS:AddItem(spec6, "21336", LBIS.L["Legs"], "Alt") --Doomcaller's Trousers
     LBIS:AddItem(spec6, "19683", LBIS.L["Legs"], "Alt") --Bloodvine Leggings
     LBIS:AddItem(spec6, "19133", LBIS.L["Legs"], "Alt") --Fel Infused Leggings
-    LBIS:AddItem(spec6, "17579", LBIS.L["Legs/Feet"], "Alt") --Marshal's Dreadweave Leggings
-    LBIS:AddItem(spec6, "17593", LBIS.L["Legs/Feet"], "Alt") --General's Dreadweave Pants
+    LBIS:AddItem(spec6, "17579", LBIS.L["Legs"], "Alt") --Marshal's Dreadweave Leggings
+    LBIS:AddItem(spec6, "17593", LBIS.L["Legs"], "Alt") --General's Dreadweave Pants
     LBIS:AddItem(spec6, "22508", LBIS.L["Feet"], "BIS") --Plagueheart Sandals
     LBIS:AddItem(spec6, "19684", LBIS.L["Feet"], "Alt") --Bloodvine Boots
     LBIS:AddItem(spec6, "21600", LBIS.L["Feet"], "Alt") --Boots of Epiphany
     LBIS:AddItem(spec6, "19131", LBIS.L["Feet"], "Alt") --Snowblind Shoes
     LBIS:AddItem(spec6, "21338", LBIS.L["Feet"], "Alt") --Doomcaller's Footwraps
-    LBIS:AddItem(spec6, "16930", LBIS.L["Feet"], "Alt") --Nemesis Leggings
     LBIS:AddItem(spec6, "23057", LBIS.L["Neck"], "BIS") --Gem of Trapped Innocents
     LBIS:AddItem(spec6, "21608", LBIS.L["Neck"], "BIS") --Amulet of Vek'nilash
     LBIS:AddItem(spec6, "18814", LBIS.L["Neck"], "Alt") --Choker of the Fire Lord

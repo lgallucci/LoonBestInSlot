@@ -617,14 +617,14 @@ local function LoadData()
     LBIS:AddItem(spec6, "17713", LBIS.L["Ring"], "Alt") --Blackstone Ring
     LBIS:AddItem(spec6, "13098", LBIS.L["Ring"], "Alt") --Painweaver Band
     LBIS:AddItem(spec6, "23206", LBIS.L["Trinket"], "BIS") --Mark of the Champion
-    LBIS:AddItem(spec6, "23041", LBIS.L["Trinket"], "BIS") --Slayer's Crest
+    LBIS:AddItem(spec6, "19953", LBIS.L["Trinket"], "BIS") --Renataki's Charm of Beasts
     LBIS:AddItem(spec6, "19406", LBIS.L["Trinket"], "BIS") --Drake Fang Talisman
-    LBIS:AddItem(spec6, "13965", LBIS.L["Trinket"], "Alt") --Blackhand's Breadth
-    LBIS:AddItem(spec6, "13209", LBIS.L["Trinket"], "Alt") --Seal of the Dawn
     LBIS:AddItem(spec6, "22954", LBIS.L["Trinket"], "Alt") --Kiss of the Spider
     LBIS:AddItem(spec6, "23570", LBIS.L["Trinket"], "Alt") --Jom Gabbar
+    LBIS:AddItem(spec6, "13965", LBIS.L["Trinket"], "Alt") --Blackhand's Breadth
+    LBIS:AddItem(spec6, "13209", LBIS.L["Trinket"], "Alt") --Seal of the Dawn
     LBIS:AddItem(spec6, "22802", LBIS.L["Main Hand/Off Hand"], "BIS") --Kingsfall
-    LBIS:AddItem(spec6, "23044", LBIS.L["Main Hand/Off Hand"], "Alt") --Harbinger of Doom
+    LBIS:AddItem(spec6, "23044", LBIS.L["Main Hand/Off Hand"], "BIS/Alt") --Harbinger of Doom
     LBIS:AddItem(spec6, "23014", LBIS.L["Main Hand/Off Hand"], "Alt") --Iblis, Blade of the Fallen Seraph
     LBIS:AddItem(spec6, "21244", LBIS.L["Main Hand/Off Hand"], "Alt") --Blessed Qiraji Pugio
     LBIS:AddItem(spec6, "22816", LBIS.L["Main Hand/Off Hand"], "Alt") --Hatchet of Sundered Bone
