@@ -256,12 +256,12 @@ LBIS:AddItem(spec2, "86858", LBIS.L["Ring"], "Alt") --Seal of the Profane
 LBIS:AddItem(spec2, "86873", LBIS.L["Ring"], "Alt") --Watersoul Signet
 LBIS:AddItem(spec2, "81232", LBIS.L["Ring"], "Alt") --Viscous Ring
 LBIS:AddItem(spec2, "87163", LBIS.L["Trinket"], "BIS") --Spirits of the Sun
-LBIS:AddItem(spec2, "79330", LBIS.L["Trinket"], "BIS") --Relic of Chi-Ji
+LBIS:AddItem(spec2, "79331", LBIS.L["Trinket"], "BIS") --Relic of Yu'lon
 LBIS:AddItem(spec2, "89080", LBIS.L["Trinket"], "Alt") --Scroll of Revered Ancestors
 LBIS:AddItem(spec2, "89081", LBIS.L["Trinket"], "Alt") --Blossom of Pure Snow
 LBIS:AddItem(spec2, "93260", LBIS.L["Trinket"], "Alt") --Heartwarmer Medallion
 LBIS:AddItem(spec2, "93255", LBIS.L["Trinket"], "Alt") --Cutstitcher Medallion
-LBIS:AddItem(spec2, "79331", LBIS.L["Trinket"], "Alt") --Relic of Yu'lon
+LBIS:AddItem(spec2, "79330", LBIS.L["Trinket"], "Alt") --Relic of Chi-Ji
 LBIS:AddItem(spec2, "93254", LBIS.L["Trinket"], "Alt") --Static-Caster's Medallion
 LBIS:AddItem(spec2, "93259", LBIS.L["Trinket"], "Alt") --Shock-Charger Medallion
 LBIS:AddItem(spec2, "75274", LBIS.L["Trinket"], "Alt") --Zen Alchemist Stone
