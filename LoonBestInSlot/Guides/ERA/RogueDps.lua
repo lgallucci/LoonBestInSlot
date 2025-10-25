@@ -19,6 +19,24 @@ local function LoadData()
     LBIS:AddEnchant(spec6, "20034", LBIS.L["Main Hand/Off Hand"]) --
     LBIS:AddEnchant(spec6, "12460", LBIS.L["Ranged/Relic"]) --
 
+    LBIS:AddItem(spec0, "13404", LBIS.L["Head"], "BIS") --Mask of the Unforgiven
+    LBIS:AddItem(spec0, "12927", LBIS.L["Shoulder"], "BIS") --Truestrike Shoulders
+    LBIS:AddItem(spec0, "13340", LBIS.L["Back"], "BIS") --Cape of the Black Baron
+    LBIS:AddItem(spec0, "14637", LBIS.L["Chest"], "BIS") --Cadaverous Armor
+    LBIS:AddItem(spec0, "16710", LBIS.L["Wrist"], "BIS") --Shadowcraft Bracers
+    LBIS:AddItem(spec0, "16712", LBIS.L["Hands"], "BIS") --Shadowcraft Gloves
+    LBIS:AddItem(spec0, "16713", LBIS.L["Waist"], "BIS") --Shadowcraft Belt
+    LBIS:AddItem(spec0, "16709", LBIS.L["Legs"], "BIS") --Shadowcraft Pants
+    LBIS:AddItem(spec0, "16711", LBIS.L["Feet"], "BIS") --Shadowcraft Boots
+    LBIS:AddItem(spec0, "15411", LBIS.L["Neck"], "BIS") --Mark of Fordring
+    LBIS:AddItem(spec0, "11815", LBIS.L["Trinket"], "Alt") --Hand of Justice
+    LBIS:AddItem(spec0, "13965", LBIS.L["Trinket"], "Alt") --Blackhand's Breadth
+    LBIS:AddItem(spec0, "12940", LBIS.L["Main Hand"], "Alt") --Dal'Rend's Sacred Charge
+    LBIS:AddItem(spec0, "12939", LBIS.L["Main Hand"], "Alt") --Dal'Rend's Tribal Guardian
+    LBIS:AddItem(spec0, "12783", LBIS.L["Main Hand"], "Alt") --Heartseeker
+    LBIS:AddItem(spec0, "14555", LBIS.L["Main Hand"], "Alt") --Alcor's Sunrazor
+    LBIS:AddItem(spec0, "12651", LBIS.L["Ranged"], "BIS") --Blackcrow
+
     LBIS:AddItem(spec1, "16908", LBIS.L["Head"], "BIS") --Bloodfang Hood
     LBIS:AddItem(spec1, "16821", LBIS.L["Head"], "Alt") --Nightslayer Cover
     LBIS:AddItem(spec1, "13404", LBIS.L["Head"], "Alt") --Mask of the Unforgiven

@@ -18,6 +18,37 @@ local function LoadData()
     LBIS:AddEnchant(spec6, "13890", LBIS.L["Feet"]) --
     LBIS:AddEnchant(spec6, "7218", LBIS.L["Main Hand"]) --
 
+    LBIS:AddItem(spec0, "13404", LBIS.L["Head"], "Alt") --Mask of the Unforgiven
+    LBIS:AddItem(spec0, "14539", LBIS.L["Head"], "Alt") --Bone Ring Helm
+    LBIS:AddItem(spec0, "19058", LBIS.L["Shoulder"], "Alt") --Golden Mantle of the Dawn
+    LBIS:AddItem(spec0, "10783", LBIS.L["Shoulder"], "Alt") --Atal'ai Spaulders
+    LBIS:AddItem(spec0, "12551", LBIS.L["Back"], "Alt") --Stoneshield Cloak
+    LBIS:AddItem(spec0, "13397", LBIS.L["Back"], "Alt") --Stoneskin Gargoyle Cape
+    LBIS:AddItem(spec0, "15064", LBIS.L["Chest"], "Alt") --Warbear Harness
+    LBIS:AddItem(spec0, "12757", LBIS.L["Chest"], "Alt") --Breastplate of Bloodthirst
+    LBIS:AddItem(spec0, "12966", LBIS.L["Wrist"], "Alt") --Blackmist Armguards
+    LBIS:AddItem(spec0, "18700", LBIS.L["Wrist"], "Alt") --Malefic Bracers
+    LBIS:AddItem(spec0, "13258", LBIS.L["Hands"], "Alt") --Slaghide Gauntlets
+    LBIS:AddItem(spec0, "15063", LBIS.L["Hands"], "Alt") --Devilsaur Gauntlets
+    LBIS:AddItem(spec0, "14502", LBIS.L["Waist"], "Alt") --Frostbite Girdle
+    LBIS:AddItem(spec0, "13252", LBIS.L["Waist"], "Alt") --Cloudrunner Girdle
+    LBIS:AddItem(spec0, "11821", LBIS.L["Legs"], "Alt") --Warstrife Leggings
+    LBIS:AddItem(spec0, "15062", LBIS.L["Legs"], "Alt") --Devilsaur Leggings
+    LBIS:AddItem(spec0, "18716", LBIS.L["Feet"], "Alt") --Ash Covered Boots
+    LBIS:AddItem(spec0, "16711", LBIS.L["Feet"], "Alt") --Shadowcraft Boots
+    LBIS:AddItem(spec0, "20186", LBIS.L["Feet"], "Alt") --Defiler's Leather Boots
+    LBIS:AddItem(spec0, "13177", LBIS.L["Neck"], "Alt") --Talisman of Evasion
+    LBIS:AddItem(spec0, "19491", LBIS.L["Neck"], "Alt") --Amulet of the Darkmoon
+    LBIS:AddItem(spec0, "15855", LBIS.L["Ring"], "Alt") --Ring of Protection
+    LBIS:AddItem(spec0, "2246", LBIS.L["Ring"], "Alt") --Myrmidon's Signet
+    LBIS:AddItem(spec0, "11669", LBIS.L["Ring"], "Alt") --Naglering
+    LBIS:AddItem(spec0, "13966", LBIS.L["Trinket"], "Alt") --Mark of Tyranny
+    LBIS:AddItem(spec0, "11811", LBIS.L["Trinket"], "Alt") --Smoking Heart of the Mountain
+    LBIS:AddItem(spec0, "9449", LBIS.L["Main Hand"], "Alt") --Manual Crowd Pummeler
+    LBIS:AddItem(spec0, "943", LBIS.L["Main Hand"], "Alt") --Warden Staff
+    LBIS:AddItem(spec0, "18531", LBIS.L["Main Hand"], "Alt") --Unyielding Maul
+    LBIS:AddItem(spec0, "23198", LBIS.L["Ranged"], "BIS") --Idol of Brutality
+
     LBIS:AddItem(spec1, "13404", LBIS.L["Head"], "BIS") --Mask of the Unforgiven
     LBIS:AddItem(spec1, "14539", LBIS.L["Head"], "Alt") --Bone Ring Helm
     LBIS:AddItem(spec1, "19139", LBIS.L["Shoulder"], "BIS") --Fireguard Shoulders

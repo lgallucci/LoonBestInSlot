@@ -7,7 +7,7 @@ public static class ItemSpecFileManager
 {
     public static void WriteItemSpec(string path, string className, string specName, bool isSod,
         List<EnchantSpec> enchantsList,
-        Dictionary<int, List<ItemSpec>> itemsList)
+        SortedDictionary<int, List<ItemSpec>> itemsList)
     {
         var itemSB = new StringBuilder();
 
@@ -56,15 +56,13 @@ public static class ItemSpecFileManager
         System.IO.File.WriteAllText(path, itemSB.ToString());
     }
 
-    public static Tuple<List<EnchantSpec>, Dictionary<int, List<ItemSpec>>> ReadGuide(string path)
+    public static Tuple<List<EnchantSpec>, SortedDictionary<int, List<ItemSpec>>> ReadGuide(string path)
     {
         var enchants = new List<EnchantSpec>();
-        var items = new Dictionary<int, List<ItemSpec>>();
+        var items = new SortedDictionary<int, List<ItemSpec>>();
 
         if (!System.IO.File.Exists(path))
-            return new Tuple<List<EnchantSpec>, Dictionary<int, List<ItemSpec>>>(
-                new List<EnchantSpec>(), 
-                new Dictionary<int, List<ItemSpec>>()); 
+            return new Tuple<List<EnchantSpec>, SortedDictionary<int, List<ItemSpec>>>(enchants, items);
 
         string[] itemSpecLines = System.IO.File.ReadAllLines(path);
 
@@ -113,7 +111,7 @@ public static class ItemSpecFileManager
             count++;
         }
 
-        return new Tuple<List<EnchantSpec>, Dictionary<int, List<ItemSpec>>>(enchants, items);
+        return new Tuple<List<EnchantSpec>, SortedDictionary<int, List<ItemSpec>>>(enchants, items);
 
     }
 }

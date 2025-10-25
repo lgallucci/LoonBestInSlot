@@ -18,6 +18,35 @@ local function LoadData()
     LBIS:AddEnchant(spec6, "13890", LBIS.L["Feet"]) --
     LBIS:AddEnchant(spec6, "22750", LBIS.L["Main Hand"]) --
 
+    LBIS:AddItem(spec0, "18490", LBIS.L["Head"], "Alt") --Insightful Hood
+    LBIS:AddItem(spec0, "13102", LBIS.L["Head"], "Alt") --Cassandra's Grace
+    LBIS:AddItem(spec0, "10041", LBIS.L["Head"], "Alt") --Dreamweave Circlet
+    LBIS:AddItem(spec0, "15061", LBIS.L["Shoulder"], "BIS") --Living Shoulders
+    LBIS:AddItem(spec0, "18510", LBIS.L["Back"], "Alt") --Hide of the Wild
+    LBIS:AddItem(spec0, "13386", LBIS.L["Back"], "Alt") --Archivist Cape
+    LBIS:AddItem(spec0, "20427", LBIS.L["Back"], "Alt") --Battle Healer's Cloak
+    LBIS:AddItem(spec0, "13346", LBIS.L["Chest"], "BIS") --Robes of the Exalted
+    LBIS:AddItem(spec0, "18263", LBIS.L["Wrist"], "Alt") --Flarecore Wraps
+    LBIS:AddItem(spec0, "18525", LBIS.L["Wrist"], "Alt") --Bracers of Prosperity
+    LBIS:AddItem(spec0, "12554", LBIS.L["Hands"], "Alt") --Hands of the Exalted Herald
+    LBIS:AddItem(spec0, "18309", LBIS.L["Hands"], "Alt") --Gloves of Restoration
+    LBIS:AddItem(spec0, "14553", LBIS.L["Waist"], "Alt") --Sash of Mercy
+    LBIS:AddItem(spec0, "18327", LBIS.L["Waist"], "Alt") --Whipvine Cord
+    LBIS:AddItem(spec0, "20171", LBIS.L["Waist"], "Alt") --Defiler's Lizardhide Girdle
+    LBIS:AddItem(spec0, "18386", LBIS.L["Legs"], "BIS") --Padre's Trousers
+    LBIS:AddItem(spec0, "13954", LBIS.L["Feet"], "Alt") --Verdant Footpads
+    LBIS:AddItem(spec0, "18507", LBIS.L["Feet"], "Alt") --Boots of the Full Moon
+    LBIS:AddItem(spec0, "18723", LBIS.L["Neck"], "BIS") --Animated Chain Necklace
+    LBIS:AddItem(spec0, "13178", LBIS.L["Ring"], "Alt") --Rosewine Circle
+    LBIS:AddItem(spec0, "16058", LBIS.L["Ring"], "Alt") --Fordring's Seal
+    LBIS:AddItem(spec0, "18470", LBIS.L["Trinket"], "Alt") --Royal Seal of Eldre'Thalas
+    LBIS:AddItem(spec0, "18371", LBIS.L["Trinket"], "Alt") --Mindtap Talisman
+    LBIS:AddItem(spec0, "11819", LBIS.L["Trinket"], "Alt") --Second Wind
+    LBIS:AddItem(spec0, "12930", LBIS.L["Trinket"], "Alt") --Briarwood Reed
+    LBIS:AddItem(spec0, "11923", LBIS.L["Main Hand"], "BIS") --The Hammer of Grace
+    LBIS:AddItem(spec0, "18523", LBIS.L["Off Hand"], "BIS") --Brightly Glowing Stone
+    LBIS:AddItem(spec0, "22398", LBIS.L["Ranged"], "BIS") --Idol of Rejuvenation
+
     LBIS:AddItem(spec1, "16900", LBIS.L["Head"], "BIS") --Stormrage Cover
     LBIS:AddItem(spec1, "13102", LBIS.L["Head"], "Alt") --Cassandra's Grace
     LBIS:AddItem(spec1, "18810", LBIS.L["Shoulder"], "BIS") --Wild Growth Spaulders

@@ -18,6 +18,35 @@ local function LoadData()
     LBIS:AddEnchant(spec6, "13890", LBIS.L["Feet"]) --
     LBIS:AddEnchant(spec6, "7218", LBIS.L["Main Hand"]) --
 
+    LBIS:AddItem(spec0, "8345", LBIS.L["Head"], "BIS") --Wolfshead Helm
+    LBIS:AddItem(spec0, "12927", LBIS.L["Shoulder"], "BIS") --Truestrike Shoulders
+    LBIS:AddItem(spec0, "13340", LBIS.L["Back"], "Alt") --Cape of the Black Baron
+    LBIS:AddItem(spec0, "13397", LBIS.L["Back"], "Alt") --Stoneskin Gargoyle Cape
+    LBIS:AddItem(spec0, "14637", LBIS.L["Chest"], "BIS") --Cadaverous Armor
+    LBIS:AddItem(spec0, "16710", LBIS.L["Wrist"], "Alt") --Shadowcraft Bracers
+    LBIS:AddItem(spec0, "13120", LBIS.L["Wrist"], "Alt") --Deepfury Bracers
+    LBIS:AddItem(spec0, "15063", LBIS.L["Hands"], "BIS") --Devilsaur Gauntlets
+    LBIS:AddItem(spec0, "13252", LBIS.L["Waist"], "Alt") --Cloudrunner Girdle
+    LBIS:AddItem(spec0, "11686", LBIS.L["Waist"], "Alt") --Girdle of Beastial Fury
+    LBIS:AddItem(spec0, "20190", LBIS.L["Waist"], "Alt") --Defiler's Leather Girdle
+    LBIS:AddItem(spec0, "15062", LBIS.L["Legs"], "BIS") --Devilsaur Leggings
+    LBIS:AddItem(spec0, "12553", LBIS.L["Feet"], "Alt") --Swiftwalker Boots
+    LBIS:AddItem(spec0, "20186", LBIS.L["Feet"], "Alt") --Defiler's Leather Boots
+    LBIS:AddItem(spec0, "15411", LBIS.L["Neck"], "Alt") --Mark of Fordring
+    LBIS:AddItem(spec0, "19491", LBIS.L["Neck"], "Alt") --Amulet of the Darkmoon
+    LBIS:AddItem(spec0, "17713", LBIS.L["Ring"], "Alt") --Blackstone Ring
+    LBIS:AddItem(spec0, "2246", LBIS.L["Ring"], "Alt") --Myrmidon's Signet
+    LBIS:AddItem(spec0, "13098", LBIS.L["Ring"], "Alt") --Painweaver Band
+    LBIS:AddItem(spec0, "13965", LBIS.L["Trinket"], "Alt") --Blackhand's Breadth
+    LBIS:AddItem(spec0, "11815", LBIS.L["Trinket"], "Alt") --Hand of Justice
+    LBIS:AddItem(spec0, "19120", LBIS.L["Trinket"], "Alt") --Rune of the Guard Captain
+    LBIS:AddItem(spec0, "18537", LBIS.L["Trinket"], "Alt") --Counterattack Lodestone
+    LBIS:AddItem(spec0, "10725", LBIS.L["Trinket"], "Alt") --Gnomish Battle Chicken
+    LBIS:AddItem(spec0, "9449", LBIS.L["Main Hand"], "Alt") --Manual Crowd Pummeler
+    LBIS:AddItem(spec0, "18420", LBIS.L["Main Hand"], "Alt") --Bonecrusher
+    LBIS:AddItem(spec0, "13167", LBIS.L["Main Hand"], "Alt") --Fist of Omokk
+    LBIS:AddItem(spec0, "22397", LBIS.L["Ranged"], "BIS") --Idol of Ferocity
+
     LBIS:AddItem(spec1, "8345", LBIS.L["Head"], "BIS") --Wolfshead Helm
     LBIS:AddItem(spec1, "13404", LBIS.L["Head"], "Alt") --Mask of the Unforgiven
     LBIS:AddItem(spec1, "12587", LBIS.L["Head"], "Alt") --Eye of Rend

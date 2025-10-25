@@ -18,6 +18,23 @@ local function LoadData()
     LBIS:AddEnchant(spec6, "13890", LBIS.L["Feet"]) --
     LBIS:AddEnchant(spec6, "22749", LBIS.L["Main Hand"]) --
 
+    LBIS:AddItem(spec0, "14112", LBIS.L["Shoulder"], "BIS") --Felcloth Shoulders
+    LBIS:AddItem(spec0, "13386", LBIS.L["Back"], "BIS") --Archivist Cape
+    LBIS:AddItem(spec0, "14136", LBIS.L["Chest"], "BIS") --Robe of Winter Night
+    LBIS:AddItem(spec0, "11766", LBIS.L["Wrist"], "BIS") --Flameweave Cuffs
+    LBIS:AddItem(spec0, "18407", LBIS.L["Hands"], "BIS") --Felcloth Gloves
+    LBIS:AddItem(spec0, "11662", LBIS.L["Waist"], "BIS") --Ban'thok Sash
+    LBIS:AddItem(spec0, "13170", LBIS.L["Legs"], "BIS") --Skyshroud Leggings
+    LBIS:AddItem(spec0, "18735", LBIS.L["Feet"], "BIS") --Maleki's Footwraps
+    LBIS:AddItem(spec0, "18691", LBIS.L["Neck"], "BIS") --Dark Advisor's Pendant
+    LBIS:AddItem(spec0, "13001", LBIS.L["Ring"], "Alt") --Maiden's Circle
+    LBIS:AddItem(spec0, "12543", LBIS.L["Ring"], "Alt") --Songstone of Ironforge
+    LBIS:AddItem(spec0, "12930", LBIS.L["Trinket"], "Alt") --Briarwood Reed
+    LBIS:AddItem(spec0, "18371", LBIS.L["Trinket"], "Alt") --Mindtap Talisman
+    LBIS:AddItem(spec0, "13349", LBIS.L["Main Hand"], "BIS") --Scepter of the Unholy
+    LBIS:AddItem(spec0, "10796", LBIS.L["Off Hand"], "BIS") --Drakestone
+    LBIS:AddItem(spec0, "13396", LBIS.L["Ranged"], "BIS") --Skul's Ghastly Touch
+
     LBIS:AddItem(spec1, "18727", LBIS.L["Head"], "Alt") --Crimson Felt Hat
     LBIS:AddItem(spec1, "14111", LBIS.L["Head"], "Alt") --Felcloth Hood
     LBIS:AddItem(spec1, "14112", LBIS.L["Shoulder"], "BIS") --Felcloth Shoulders

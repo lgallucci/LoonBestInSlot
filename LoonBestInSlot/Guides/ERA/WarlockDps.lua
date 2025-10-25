@@ -14,10 +14,28 @@ local function LoadData()
     LBIS:AddEnchant(spec6, "20014", LBIS.L["Back"]) --
     LBIS:AddEnchant(spec6, "20025", LBIS.L["Chest"]) --
     LBIS:AddEnchant(spec6, "20008", LBIS.L["Wrist"]) --
-    LBIS:AddEnchant(spec6, "25078", LBIS.L["Hands"]) --
     LBIS:AddEnchant(spec6, "25073", LBIS.L["Hands"]) --
+    LBIS:AddEnchant(spec6, "25078", LBIS.L["Hands"]) --
     LBIS:AddEnchant(spec6, "13890", LBIS.L["Feet"]) --
     LBIS:AddEnchant(spec6, "22749", LBIS.L["Main Hand"]) --
+
+    LBIS:AddItem(spec0, "22267", LBIS.L["Head"], "BIS") --Spellweaver's Turban
+    LBIS:AddItem(spec0, "20686", LBIS.L["Shoulder"], "BIS") --Abyssal Cloth Amice
+    LBIS:AddItem(spec0, "20697", LBIS.L["Back"], "BIS") --Crystalline Threaded Cape
+    LBIS:AddItem(spec0, "19682", LBIS.L["Chest"], "BIS") --Bloodvine Vest
+    LBIS:AddItem(spec0, "21186", LBIS.L["Wrist"], "BIS") --Rockfury Bracers
+    LBIS:AddItem(spec0, "10787", LBIS.L["Hands"], "BIS") --Atal'ai Gloves
+    LBIS:AddItem(spec0, "11662", LBIS.L["Waist"], "BIS") --Ban'thok Sash
+    LBIS:AddItem(spec0, "19683", LBIS.L["Legs"], "BIS") --Bloodvine Leggings
+    LBIS:AddItem(spec0, "19684", LBIS.L["Feet"], "BIS") --Bloodvine Boots
+    LBIS:AddItem(spec0, "22403", LBIS.L["Neck"], "BIS") --Diana's Pearl Necklace
+    LBIS:AddItem(spec0, "22339", LBIS.L["Ring"], "Alt") --Rune Band of Wizardry
+    LBIS:AddItem(spec0, "22433", LBIS.L["Ring"], "Alt") --Don Mauricio's Band of Domination
+    LBIS:AddItem(spec0, "12930", LBIS.L["Trinket"], "Alt") --Briarwood Reed
+    LBIS:AddItem(spec0, "13968", LBIS.L["Trinket"], "Alt") --Eye of the Beast
+    LBIS:AddItem(spec0, "22688", LBIS.L["Main Hand"], "BIS") --Verimonde's Last Resort
+    LBIS:AddItem(spec0, "22329", LBIS.L["Off Hand"], "BIS") --Scepter of Interminable Focus
+    LBIS:AddItem(spec0, "13396", LBIS.L["Ranged"], "BIS") --Skul's Ghastly Touch
 
     LBIS:AddItem(spec1, "16929", LBIS.L["Head"], "BIS") --Nemesis Skullcap
     LBIS:AddItem(spec1, "14112", LBIS.L["Shoulder"], "BIS") --Felcloth Shoulders

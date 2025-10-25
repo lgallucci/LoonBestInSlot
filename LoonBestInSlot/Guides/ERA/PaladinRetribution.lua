@@ -18,6 +18,22 @@ local function LoadData()
     LBIS:AddEnchant(spec6, "20023", LBIS.L["Feet"]) --
     LBIS:AddEnchant(spec6, "20034", LBIS.L["Main Hand"]) --
 
+    LBIS:AddItem(spec0, "13404", LBIS.L["Head"], "BIS") --Mask of the Unforgiven
+    LBIS:AddItem(spec0, "12927", LBIS.L["Shoulder"], "BIS") --Truestrike Shoulders
+    LBIS:AddItem(spec0, "13340", LBIS.L["Back"], "BIS") --Cape of the Black Baron
+    LBIS:AddItem(spec0, "11726", LBIS.L["Chest"], "BIS") --Savage Gladiator Chain
+    LBIS:AddItem(spec0, "12936", LBIS.L["Wrist"], "BIS") --Battleborn Armbraces
+    LBIS:AddItem(spec0, "13957", LBIS.L["Hands"], "BIS") --Gargoyle Slashers
+    LBIS:AddItem(spec0, "13959", LBIS.L["Waist"], "BIS") --Omokk's Girth Restrainer
+    LBIS:AddItem(spec0, "14554", LBIS.L["Legs"], "BIS") --Cloudkeeper Legplates
+    LBIS:AddItem(spec0, "14616", LBIS.L["Feet"], "BIS") --Bloodmail Boots
+    LBIS:AddItem(spec0, "15411", LBIS.L["Neck"], "BIS") --Mark of Fordring
+    LBIS:AddItem(spec0, "12548", LBIS.L["Ring"], "Alt") --Magni's Will
+    LBIS:AddItem(spec0, "13098", LBIS.L["Ring"], "Alt") --Painweaver Band
+    LBIS:AddItem(spec0, "11815", LBIS.L["Trinket"], "Alt") --Hand of Justice
+    LBIS:AddItem(spec0, "13965", LBIS.L["Trinket"], "Alt") --Blackhand's Breadth
+    LBIS:AddItem(spec0, "12784", LBIS.L["Main Hand"], "BIS") --Arcanite Reaper
+
     LBIS:AddItem(spec1, "12640", LBIS.L["Head"], "BIS") --Lionheart Helm
     LBIS:AddItem(spec1, "12587", LBIS.L["Head"], "Alt") --Eye of Rend
     LBIS:AddItem(spec1, "13404", LBIS.L["Head"], "Alt") --Mask of the Unforgiven

@@ -101,7 +101,10 @@ public static class Common
                     page.DefaultTimeout = 30000; // or you can set this as 0
 
                     await page.GoToAsync(pageAddress);
-                    await page.WaitForSelectorAsync("#main-contents");
+                    if (pageAddress.Contains("wowhead.com") || pageAddress.Contains("evowow.com"))
+                        await page.WaitForSelectorAsync("#main-contents");
+                    else if (pageAddress.Contains("icy-veins.com"))
+                        await page.WaitForSelectorAsync("#content");    
 
                     var content = await page.GetContentAsync();
 

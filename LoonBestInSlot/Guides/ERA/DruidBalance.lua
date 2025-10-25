@@ -18,6 +18,34 @@ local function LoadData()
     LBIS:AddEnchant(spec6, "13890", LBIS.L["Feet"]) --
     LBIS:AddEnchant(spec6, "22749", LBIS.L["Main Hand"]) --
 
+    LBIS:AddItem(spec0, "10504", LBIS.L["Head"], "Alt") --Green Lens
+    LBIS:AddItem(spec0, "10041", LBIS.L["Head"], "Alt") --Dreamweave Circlet
+    LBIS:AddItem(spec0, "18681", LBIS.L["Shoulder"], "Alt") --Burial Shawl
+    LBIS:AddItem(spec0, "13013", LBIS.L["Shoulder"], "Alt") --Elder Wizard's Mantle
+    LBIS:AddItem(spec0, "13386", LBIS.L["Back"], "Alt") --Archivist Cape
+    LBIS:AddItem(spec0, "11623", LBIS.L["Back"], "Alt") --Spritecaster Cape
+    LBIS:AddItem(spec0, "18385", LBIS.L["Chest"], "BIS") --Robe of Everlasting Night
+    LBIS:AddItem(spec0, "11766", LBIS.L["Wrist"], "Alt") --Flameweave Cuffs
+    LBIS:AddItem(spec0, "13409", LBIS.L["Wrist"], "Alt") --Tearfall Bracers
+    LBIS:AddItem(spec0, "13258", LBIS.L["Hands"], "Alt") --Slaghide Gauntlets
+    LBIS:AddItem(spec0, "13253", LBIS.L["Hands"], "Alt") --Hands of Power
+    LBIS:AddItem(spec0, "11662", LBIS.L["Waist"], "Alt") --Ban'thok Sash
+    LBIS:AddItem(spec0, "13956", LBIS.L["Waist"], "Alt") --Clutch of Andros
+    LBIS:AddItem(spec0, "20171", LBIS.L["Waist"], "Alt") --Defiler's Lizardhide Girdle
+    LBIS:AddItem(spec0, "13170", LBIS.L["Legs"], "Alt") --Skyshroud Leggings
+    LBIS:AddItem(spec0, "9484", LBIS.L["Legs"], "Alt") --Spellshock Leggings
+    LBIS:AddItem(spec0, "11822", LBIS.L["Feet"], "BIS") --Omnicast Boots
+    LBIS:AddItem(spec0, "12103", LBIS.L["Neck"], "BIS") --Star of Mystaria
+    LBIS:AddItem(spec0, "12545", LBIS.L["Ring"], "Alt") --Eye of Orgrimmar
+    LBIS:AddItem(spec0, "12543", LBIS.L["Ring"], "Alt") --Songstone of Ironforge
+    LBIS:AddItem(spec0, "13001", LBIS.L["Ring"], "Alt") --Maiden's Circle
+    LBIS:AddItem(spec0, "13968", LBIS.L["Trinket"], "Alt") --Eye of the Beast
+    LBIS:AddItem(spec0, "12930", LBIS.L["Trinket"], "Alt") --Briarwood Reed
+    LBIS:AddItem(spec0, "18534", LBIS.L["Main Hand"], "Alt") --Rod of the Ogre Magi
+    LBIS:AddItem(spec0, "13964", LBIS.L["Main Hand"], "Alt") --Witchblade
+    LBIS:AddItem(spec0, "10796", LBIS.L["Off Hand"], "BIS") --Drakestone
+    LBIS:AddItem(spec0, "23197", LBIS.L["Ranged"], "BIS") --Idol of the Moon
+
     LBIS:AddItem(spec1, "18727", LBIS.L["Head"], "BIS") --Crimson Felt Hat
     LBIS:AddItem(spec1, "10250", LBIS.L["Head"], "Alt") --Master's Hat
     LBIS:AddItem(spec1, "15999", LBIS.L["Head"], "Alt") --Spellpower Goggles Xtreme Plus

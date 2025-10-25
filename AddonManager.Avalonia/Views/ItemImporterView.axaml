@@ -22,6 +22,7 @@
             <ComboBoxItem Content="TierSetImporter" Tag="TierSetImporter"/>
             <ComboBoxItem Content="ReputationImporter" Tag="ReputationImporter"/>
             <ComboBoxItem Content="VendorImporter" Tag="VendorImporter"/>
+            <ComboBoxItem Content="PreRaidImporter" Tag="PreRaidImporter"/>
         </ComboBox>
         <TextBlock x:Name="lblStatus" HorizontalAlignment="Left" Margin="300,14,0,0" Width="150" Text="Ready !"/>
         <ScrollViewer Margin="0,50,0,0" BorderBrush="Gray" BorderThickness="1">

@@ -19,6 +19,24 @@ local function LoadData()
     LBIS:AddEnchant(spec6, "22750", LBIS.L["Main Hand"]) --
     LBIS:AddEnchant(spec6, "13933", LBIS.L["Off Hand"]) --
 
+    LBIS:AddItem(spec0, "18490", LBIS.L["Head"], "BIS") --Insightful Hood
+    LBIS:AddItem(spec0, "18681", LBIS.L["Shoulder"], "BIS") --Burial Shawl
+    LBIS:AddItem(spec0, "18510", LBIS.L["Back"], "BIS") --Hide of the Wild
+    LBIS:AddItem(spec0, "13346", LBIS.L["Chest"], "BIS") --Robes of the Exalted
+    LBIS:AddItem(spec0, "18459", LBIS.L["Wrist"], "BIS") --Gallant's Wristguards
+    LBIS:AddItem(spec0, "18527", LBIS.L["Hands"], "BIS") --Harmonious Gauntlets
+    LBIS:AddItem(spec0, "19162", LBIS.L["Waist"], "BIS") --Corehound Belt
+    LBIS:AddItem(spec0, "18386", LBIS.L["Legs"], "BIS") --Padre's Trousers
+    LBIS:AddItem(spec0, "16472", LBIS.L["Feet"], "BIS") --Marshal's Lamellar Boots
+    LBIS:AddItem(spec0, "18723", LBIS.L["Neck"], "BIS") --Animated Chain Necklace
+    LBIS:AddItem(spec0, "16058", LBIS.L["Ring"], "Alt") --Fordring's Seal
+    LBIS:AddItem(spec0, "18103", LBIS.L["Ring"], "Alt") --Band of Rumination
+    LBIS:AddItem(spec0, "22268", LBIS.L["Trinket"], "Alt") --Draconic Infused Emblem
+    LBIS:AddItem(spec0, "12930", LBIS.L["Trinket"], "Alt") --Briarwood Reed
+    LBIS:AddItem(spec0, "23454", LBIS.L["Main Hand"], "BIS") --Grand Marshal's Warhammer
+    LBIS:AddItem(spec0, "19312", LBIS.L["Off Hand"], "BIS") --Lei of the Lifegiver
+    LBIS:AddItem(spec0, "23201", LBIS.L["Ranged"], "BIS") --Libram of Divinity
+
     LBIS:AddItem(spec1, "16955", LBIS.L["Head"], "BIS") --Judgement Crown
     LBIS:AddItem(spec1, "12960", LBIS.L["Head"], "Alt") --Tribal War Feathers
     LBIS:AddItem(spec1, "18810", LBIS.L["Shoulder"], "BIS") --Wild Growth Spaulders
