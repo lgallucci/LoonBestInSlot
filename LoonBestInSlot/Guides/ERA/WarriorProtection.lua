@@ -18,8 +18,8 @@ local function LoadData()
     LBIS:AddEnchant(spec6, "13890", LBIS.L["Feet"]) --
     LBIS:AddEnchant(spec6, "20034", LBIS.L["Main Hand"]) --
     LBIS:AddEnchant(spec6, "23800", LBIS.L["Off Hand"]) --
-    LBIS:AddEnchant(spec6, "12460", LBIS.L["Ranged/Relic"]) --
     LBIS:AddEnchant(spec6, "3975", LBIS.L["Ranged/Relic"]) --
+    LBIS:AddEnchant(spec6, "12460", LBIS.L["Ranged/Relic"]) --
 
     LBIS:AddItem(spec0, "12640", LBIS.L["Head"], "Alt") --Lionheart Helm
     LBIS:AddItem(spec0, "23244", LBIS.L["Head"], "Alt") --Champion's Plate Helm

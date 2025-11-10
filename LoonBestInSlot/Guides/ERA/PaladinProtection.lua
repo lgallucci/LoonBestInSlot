@@ -17,7 +17,7 @@ local function LoadData()
     LBIS:AddEnchant(spec6, "25072", LBIS.L["Hands"]) --
     LBIS:AddEnchant(spec6, "13890", LBIS.L["Feet"]) --
     LBIS:AddEnchant(spec6, "20034", LBIS.L["Main Hand"]) --
-    LBIS:AddEnchant(spec6, "463871", LBIS.L["Off Hand"]) --
+    LBIS:AddEnchant(spec6, "13689", LBIS.L["Off Hand"]) --
 
     LBIS:AddItem(spec0, "12620", LBIS.L["Head"], "Alt") --Enchanted Thorium Helm
     LBIS:AddItem(spec0, "12952", LBIS.L["Head"], "Alt") --Gyth's Skull

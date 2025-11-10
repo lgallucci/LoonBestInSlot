@@ -7,6 +7,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["A Better Ingredient"] = "更好的材料";
 --  LBIS.L["A Broken Ritual"] = "";
   LBIS.L["A Collection of Heads"] = "收集頭顱";
+  LBIS.L["A Fair Trade"] = "公平交易";
   LBIS.L["A Final Blow"] = "最終一擊";
   LBIS.L["A Grim Discovery"] = "可怕的發現";
   LBIS.L["A Hero's Reward"] = "英雄的獎賞";
@@ -70,6 +71,7 @@ if GetLocale() == "zhTW" then
 --  LBIS.L["Argent Dawn Gloves"] = "";
 --  LBIS.L["Argent Dawn Mail Gloves"] = "";
   LBIS.L["Armaments of War"] = "軍備之戰";
+  LBIS.L["Arrows Are For Sissies"] = "弓箭是給娘娘腔用的";
   LBIS.L["Arugal Must Die"] = "除掉阿魯高";
   LBIS.L["Ashenvale"] = "梣谷";
 --  LBIS.L["Ashenvale and Stonetalon"] = "";
@@ -91,6 +93,7 @@ if GetLocale() == "zhTW" then
 --  LBIS.L["Azshara, Storm Cliffs"] = "";
   LBIS.L["Azshir the Sleepless"] = "不眠的艾希爾";
   LBIS.L["Azshir the Sleepless (Rare)"] = "不眠的艾希爾 (精良)";
+--  LBIS.L["Azure Templar<Abyssal Council>"] = "";
   LBIS.L["Azuregos"] = "艾索雷葛斯";
   LBIS.L["Back"] = "背部";
 --  LBIS.L["Badges of Justice"] = "";
@@ -106,6 +109,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Baron Aquanis"] = "阿奎尼斯男爵";
   LBIS.L["Baron Geddon"] = "迦頓男爵";
   LBIS.L["Baron Kazum"] = "卡蘇姆男爵";
+--  LBIS.L["Baron Kazum<Abyssal High Council>"] = "";
   LBIS.L["Baron Rivendare"] = "瑞文戴爾男爵";
   LBIS.L["Baron Silverlaine"] = "席瓦萊恩男爵";
   LBIS.L["Baroness Anastari"] = "安娜絲塔麗男爵夫人";
@@ -170,6 +174,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["C'Thun"] = "克蘇恩";
   LBIS.L["Calm Before the Storm"] = "暴風雨前的寧靜";
   LBIS.L["Cannon Master Willey"] = "砲手威利";
+  LBIS.L["Cap of the Scarlet Savant"] = "血色學者之帽";
   LBIS.L["Cape of Eternal Justice"] = "永恆公正斗篷";
   LBIS.L["Captain Greenskin"] = "綠皮隊長";
   LBIS.L["Captain Kromcrush"] = "克羅卡斯";
@@ -183,6 +188,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Champion's Battlegear"] = "勇士的裝備";
   LBIS.L["Charlga Razorflank"] = "卡爾加·刺肋";
   LBIS.L["Chest"] = "胸部";
+--  LBIS.L["Chest of Spoils"] = "";
 --  LBIS.L["Chest of the Seven"] = "";
   LBIS.L["Chest/Feet"] = "胸部/腳";
   LBIS.L["Chest/Hands/Feet"] = "胸部/手/腳";
@@ -191,6 +197,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Chromaggus"] = "克洛瑪古斯";
   LBIS.L["Chromatic Mantle of the Dawn"] = "炫彩黎明披肩";
   LBIS.L["Cleansing the Eye"] = "淨化帕雷斯之眼";
+  LBIS.L["Cloak of the Unseen Path"] = "隱秘通途披風";
   LBIS.L["Cloak of Veiled Shadows"] = "矇矓之影披風";
   LBIS.L["Codex of Defense"] = "防禦寶典";
   LBIS.L["Collecting Memories"] = "收集記憶";
@@ -248,6 +255,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Deathdealer's Leggings"] = "亡賈的護腿";
   LBIS.L["Deathdealer's Spaulders"] = "亡賈的肩甲";
   LBIS.L["Deathdealer's Vest"] = "亡賈的外衣";
+--  LBIS.L["Deathknight Cavalier"] = "";
   LBIS.L["Deathsworn Captain (Rare)"] = "死亡誓言者隊長 (精良)";
 --  LBIS.L["Defias Enchanter"] = "";
 --  LBIS.L["Defias Strip Miner"] = "";
@@ -274,8 +282,10 @@ if GetLocale() == "zhTW" then
   LBIS.L["Doctor Theolen Krastinov"] = "瑟爾林·卡斯迪諾夫教授";
   LBIS.L["Doling Justice"] = "菲拉斯的正義";
   LBIS.L["Doomcaller's Circlet"] = "厄運召喚者的頭環";
+--  LBIS.L["Doomcaller's FootwrapsWarlock"] = "";
   LBIS.L["Doomcaller's Mantle"] = "厄運召喚者的披肩";
   LBIS.L["Doomcaller's Robes"] = "厄運召喚者的長袍";
+--  LBIS.L["Doomcaller's TrousersWarlock"] = "";
   LBIS.L["DPS"] = "每秒傷害";
 --  LBIS.L["Dragonmaw Centurion"] = "";
   LBIS.L["Dragons of Nightmare"] = "夢魘之龍";
@@ -323,6 +333,7 @@ if GetLocale() == "zhTW" then
 --  LBIS.L["Enhancement Dps"] = "";
   LBIS.L["Enigma Boots"] = "神秘長靴";
   LBIS.L["Enigma Circlet"] = "神秘頭環";
+--  LBIS.L["Enigma LeggingsMage"] = "";
   LBIS.L["Enigma Robes"] = "謎團長袍";
   LBIS.L["Enigma Shoulderpads"] = "神秘肩墊";
   LBIS.L["Epic Armaments of Battle - Exalted Amongst the Dawn"] = "史詩級軍備之戰-銀色黎明聲望崇拜";
@@ -470,6 +481,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Horde Presence"] = "部落的示威";
   LBIS.L["Houndmaster Grebmar"] = "馴犬者格雷布瑪爾";
   LBIS.L["Houndmaster Loksey"] = "馴犬者洛克希";
+  LBIS.L["Houses of the Holy"] = "神聖之屋";
   LBIS.L["Howling in the Hills"] = "山中的嚎叫";
   LBIS.L["Hydraxian Waterlords"] = "海達希亞水元素";
   LBIS.L["Hydromancer Velratha"] = "水占師維蕾薩";
@@ -559,6 +571,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Lord Roccor"] = "洛考爾領主";
   LBIS.L["Lord Serpentis"] = "瑟芬迪斯領主";
   LBIS.L["Lord Skwol"] = "斯古恩領主";
+--  LBIS.L["Lord Skwol<Abyssal High Council>"] = "";
   LBIS.L["Lord Valthalak"] = "瓦薩拉克領主";
   LBIS.L["Lord Vyletongue"] = "維利塔恩領主";
 --  LBIS.L["Lorekeeper Lydros"] = "";
@@ -620,6 +633,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Mythology of the Titans"] = "泰坦神話";
 --  LBIS.L["Mythrin'dir"] = "";
 --  LBIS.L["N'ora Anyheart"] = "";
+--  LBIS.L["Naxrammas"] = "";
   LBIS.L["Naxxramas"] = "納克薩瑪斯";
   LBIS.L["Neck"] = "頸部";
   LBIS.L["Necklace Recovery, Take 3"] = "項鍊任務的終結";
@@ -681,10 +695,13 @@ if GetLocale() == "zhTW" then
   LBIS.L["Presence of Sight"] = "魔法的視域";
 --  LBIS.L["Present"] = "";
   LBIS.L["Prince Skaldrenox"] = "斯卡德諾克斯王子";
+--  LBIS.L["Prince Skaldrenox<Abyssal High Council>"] = "";
 --  LBIS.L["Prince Thunderaan"] = "";
   LBIS.L["Prince Tortheldrin"] = "托塞德林王子";
   LBIS.L["Princess Huhuran"] = "哈霍蘭公主";
   LBIS.L["Princess Theradras"] = "瑟萊德絲公主";
+  LBIS.L["Princess Yauj"] = "亞爾基公主";
+  LBIS.L["Pristine Enchanted South Seas Kelp"] = "原始附魔南海海藻";
 --  LBIS.L["Procrastimond's Gratitude"] = "";
   LBIS.L["Profession"] = "專業技能";
   LBIS.L["Prophetic Aura"] = "預言的光環";
@@ -816,6 +833,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Silithus"] = "希利蘇斯";
   LBIS.L["Silverpine Forest"] = "銀松森林";
 --  LBIS.L["Skeletal Raider"] = "";
+--  LBIS.L["Skeletal Steed"] = "";
 --  LBIS.L["Skeletal Warder"] = "";
   LBIS.L["Skul (Rare)"] = "斯庫爾 (精良)";
   LBIS.L["Skum"] = "斯卡姆";
@@ -830,6 +848,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Spirestone Butcher (Rare)"] = "尖石屠夫 (精良)";
   LBIS.L["Spirestone Lord Magus"] = "尖石首席魔導師";
 --  LBIS.L["Spirestone Mystic"] = "";
+--  LBIS.L["Spirit of Naxxramas"] = "";
 --  LBIS.L["Spirit Shards"] = "";
 --  LBIS.L["Splinter Fist"] = "";
 --  LBIS.L["Squire Rowe"] = "";
@@ -854,7 +873,9 @@ if GetLocale() == "zhTW" then
 --  LBIS.L["Stratholme Undead"] = "";
 --  LBIS.L["Stratholme Undead/Scholomance"] = "/通靈學院";
 --  LBIS.L["Striker's Diademr"] = "";
+--  LBIS.L["Striker's FootguardsHunter"] = "";
   LBIS.L["Striker's Hauberk"] = "打擊者鍊衫";
+--  LBIS.L["Striker's LeggingsHunter"] = "";
 --  LBIS.L["STX-04/BD"] = "/";
   LBIS.L["Sulfuron Harbinger"] = "薩弗隆先驅者";
   LBIS.L["Sunken Temple"] = "沉沒的神廟";
@@ -884,6 +905,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["The Ancient Leaf"] = "遠古石葉";
   LBIS.L["The Arcanist's Cookbook"] = "秘法師的烹飪書";
 --  LBIS.L["The Argent Dawn"] = "";
+  LBIS.L["The Argent Hold"] = "銀色黎明寶箱";
   LBIS.L["The Azure Key"] = "蒼藍鑰匙";
 --  LBIS.L["The Bad News..."] = "";
   LBIS.L["The Balance of Light and Shadow"] = "光與影的平衡";
@@ -1003,7 +1025,6 @@ if GetLocale() == "zhTW" then
   LBIS.L["Undercity"] = "幽暗城";
   LBIS.L["Underground Assault"] = "地底突襲";
   LBIS.L["Unfinished Gordok Business"] = "戈多克巨魔的事務";
---  LBIS.L["unknown"] = "";
   LBIS.L["Upper Blackrock Spire"] = "黑石塔上層";
   LBIS.L["Urok Doomhowl"] = "烏洛克";
   LBIS.L["Vaelastrasz the Corrupt"] = "墮落的瓦拉斯塔茲";

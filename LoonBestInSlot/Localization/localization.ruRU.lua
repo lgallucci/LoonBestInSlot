@@ -7,6 +7,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["A Better Ingredient"] = "Лучший ингредиент";
 --  LBIS.L["A Broken Ritual"] = "";
   LBIS.L["A Collection of Heads"] = "Коллекция голов";
+  LBIS.L["A Fair Trade"] = "Честная сделка";
   LBIS.L["A Final Blow"] = "Окончательный удар";
   LBIS.L["A Grim Discovery"] = "Зловещее открытие";
   LBIS.L["A Hero's Reward"] = "Награда для героя";
@@ -70,6 +71,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Argent Dawn Gloves"] = "Перчатки Серебряного Рассвета";
 --  LBIS.L["Argent Dawn Mail Gloves"] = "";
   LBIS.L["Armaments of War"] = "Оружие войны";
+  LBIS.L["Arrows Are For Sissies"] = "Стрелы – для неженок!";
   LBIS.L["Arugal Must Die"] = "Смерть Аругалу!";
   LBIS.L["Ashenvale"] = "Ясеневый лес";
 --  LBIS.L["Ashenvale and Stonetalon"] = "";
@@ -91,6 +93,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Azshara, Storm Cliffs"] = "";
   LBIS.L["Azshir the Sleepless"] = "Азшир Неспящий";
   LBIS.L["Azshir the Sleepless (Rare)"] = "Азшир Неспящий (Редкое)";
+--  LBIS.L["Azure Templar<Abyssal Council>"] = "";
   LBIS.L["Azuregos"] = "Азурегос";
   LBIS.L["Back"] = "Спина";
 --  LBIS.L["Badges of Justice"] = "";
@@ -106,6 +109,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Baron Aquanis"] = "Барон Акванис";
   LBIS.L["Baron Geddon"] = "Барон Геддон";
   LBIS.L["Baron Kazum"] = "Барон Казум";
+--  LBIS.L["Baron Kazum<Abyssal High Council>"] = "";
   LBIS.L["Baron Rivendare"] = "Барон Ривендер";
   LBIS.L["Baron Silverlaine"] = "Барон Сребролен";
   LBIS.L["Baroness Anastari"] = "Баронесса Анастари";
@@ -170,6 +174,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["C'Thun"] = "К'Тун";
   LBIS.L["Calm Before the Storm"] = "Затишье перед бурей";
   LBIS.L["Cannon Master Willey"] = "Мастер-канонир Вилли";
+  LBIS.L["Cap of the Scarlet Savant"] = "Шапка ученого из Алого ордена";
   LBIS.L["Cape of Eternal Justice"] = "Накидка Вечной справедливости";
   LBIS.L["Captain Greenskin"] = "Капитан Зеленямс";
   LBIS.L["Captain Kromcrush"] = "Капитан Давигром";
@@ -183,6 +188,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Champion's Battlegear"] = "Броня защитника";
   LBIS.L["Charlga Razorflank"] = "Чарлга Остробок";
   LBIS.L["Chest"] = "Грудь";
+--  LBIS.L["Chest of Spoils"] = "";
 --  LBIS.L["Chest of the Seven"] = "";
   LBIS.L["Chest/Feet"] = "Грудь/Ступни";
   LBIS.L["Chest/Hands/Feet"] = "Грудь/Кисти рук/Ступни";
@@ -191,6 +197,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Chromaggus"] = "Хроммагус";
   LBIS.L["Chromatic Mantle of the Dawn"] = "Многоцветная драгоценность Рассвета";
   LBIS.L["Cleansing the Eye"] = "Проклятое Око";
+  LBIS.L["Cloak of the Unseen Path"] = "Плащ Незримого пути";
   LBIS.L["Cloak of Veiled Shadows"] = "Плащ сокрытых теней";
   LBIS.L["Codex of Defense"] = "Кодекс Обороны";
   LBIS.L["Collecting Memories"] = "Сбор воспоминаний";
@@ -248,6 +255,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Deathdealer's Leggings"] = "Поножи торговца смертью";
   LBIS.L["Deathdealer's Spaulders"] = "Наплеч торговца смертью";
   LBIS.L["Deathdealer's Vest"] = "Жилет торговца смертью";
+--  LBIS.L["Deathknight Cavalier"] = "";
   LBIS.L["Deathsworn Captain (Rare)"] = "Капитан служителей Смерти (Редкое)";
 --  LBIS.L["Defias Enchanter"] = "";
 --  LBIS.L["Defias Strip Miner"] = "";
@@ -274,8 +282,10 @@ if GetLocale() == "ruRU" then
   LBIS.L["Doctor Theolen Krastinov"] = "Доктор Теолен Крастинов";
   LBIS.L["Doling Justice"] = "Небольшое возмездие";
   LBIS.L["Doomcaller's Circlet"] = "Венец призывателя рока";
+--  LBIS.L["Doomcaller's FootwrapsWarlock"] = "";
   LBIS.L["Doomcaller's Mantle"] = "Оплечье призывателя рока";
   LBIS.L["Doomcaller's Robes"] = "Одеяния призывателя рока";
+--  LBIS.L["Doomcaller's TrousersWarlock"] = "";
   LBIS.L["DPS"] = "Урон в сек";
 --  LBIS.L["Dragonmaw Centurion"] = "";
   LBIS.L["Dragons of Nightmare"] = "Драконы Кошмара";
@@ -323,6 +333,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Enhancement Dps"] = "";
   LBIS.L["Enigma Boots"] = "Сапоги Таинства";
   LBIS.L["Enigma Circlet"] = "Венец Таинства";
+--  LBIS.L["Enigma LeggingsMage"] = "";
   LBIS.L["Enigma Robes"] = "Одеяния Таинства";
   LBIS.L["Enigma Shoulderpads"] = "Наплечные пластины таинства";
   LBIS.L["Epic Armaments of Battle - Exalted Amongst the Dawn"] = "Легендарное боевое снаряжение – Восторг Рассвета";
@@ -470,6 +481,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Horde Presence"] = "Мощь Орды";
   LBIS.L["Houndmaster Grebmar"] = "Псарь Гребмар";
   LBIS.L["Houndmaster Loksey"] = "Псарь Локси";
+  LBIS.L["Houses of the Holy"] = "Святая вода";
   LBIS.L["Howling in the Hills"] = "Вой в холмах";
   LBIS.L["Hydraxian Waterlords"] = "Гидраксианские Повелители Вод";
   LBIS.L["Hydromancer Velratha"] = "Гидромант Велрата";
@@ -559,6 +571,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Lord Roccor"] = "Лорд Роккор";
   LBIS.L["Lord Serpentis"] = "Лорд Серпентис";
   LBIS.L["Lord Skwol"] = "Лорд Сквол";
+--  LBIS.L["Lord Skwol<Abyssal High Council>"] = "";
   LBIS.L["Lord Valthalak"] = "Лорд Вальталак";
   LBIS.L["Lord Vyletongue"] = "Лорд Злоязыкий";
 --  LBIS.L["Lorekeeper Lydros"] = "";
@@ -620,6 +633,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Mythology of the Titans"] = "Мифология Титанов";
 --  LBIS.L["Mythrin'dir"] = "";
 --  LBIS.L["N'ora Anyheart"] = "";
+--  LBIS.L["Naxrammas"] = "";
   LBIS.L["Naxxramas"] = "Наксрамас";
   LBIS.L["Neck"] = "Шея";
   LBIS.L["Necklace Recovery, Take 3"] = "Пропавшее ожерелье, этап 3";
@@ -681,10 +695,13 @@ if GetLocale() == "ruRU" then
   LBIS.L["Presence of Sight"] = "Явление прозрения";
 --  LBIS.L["Present"] = "";
   LBIS.L["Prince Skaldrenox"] = "Принц Скальдренокс";
+--  LBIS.L["Prince Skaldrenox<Abyssal High Council>"] = "";
 --  LBIS.L["Prince Thunderaan"] = "";
   LBIS.L["Prince Tortheldrin"] = "Принц Тортелдрин";
   LBIS.L["Princess Huhuran"] = "Принцесса Хухуран";
   LBIS.L["Princess Theradras"] = "Принцесса Терадрас";
+  LBIS.L["Princess Yauj"] = "Принцесса Яудж";
+  LBIS.L["Pristine Enchanted South Seas Kelp"] = "Безупречные зачарованные водоросли Южных морей";
 --  LBIS.L["Procrastimond's Gratitude"] = "";
   LBIS.L["Profession"] = "Профессия";
   LBIS.L["Prophetic Aura"] = "Пророческая аура";
@@ -816,6 +833,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Silithus"] = "Силитус";
   LBIS.L["Silverpine Forest"] = "Серебряный бор";
 --  LBIS.L["Skeletal Raider"] = "";
+--  LBIS.L["Skeletal Steed"] = "";
 --  LBIS.L["Skeletal Warder"] = "";
   LBIS.L["Skul (Rare)"] = "Череп (Редкое)";
   LBIS.L["Skum"] = "Шкам";
@@ -830,6 +848,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Spirestone Butcher (Rare)"] = "Мясник из клана Черной Вершины (Редкое)";
   LBIS.L["Spirestone Lord Magus"] = "Лорд-волхв из клана Черной Вершины";
 --  LBIS.L["Spirestone Mystic"] = "";
+--  LBIS.L["Spirit of Naxxramas"] = "";
 --  LBIS.L["Spirit Shards"] = "";
 --  LBIS.L["Splinter Fist"] = "";
 --  LBIS.L["Squire Rowe"] = "";
@@ -854,7 +873,9 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Stratholme Undead"] = "";
 --  LBIS.L["Stratholme Undead/Scholomance"] = "/Некроситет";
 --  LBIS.L["Striker's Diademr"] = "";
+--  LBIS.L["Striker's FootguardsHunter"] = "";
   LBIS.L["Striker's Hauberk"] = "Хауберк Бойца";
+--  LBIS.L["Striker's LeggingsHunter"] = "";
 --  LBIS.L["STX-04/BD"] = "/";
   LBIS.L["Sulfuron Harbinger"] = "Предвестник Сульфурон";
   LBIS.L["Sunken Temple"] = "Затонувший храм";
@@ -884,6 +905,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["The Ancient Leaf"] = "Древний лист";
   LBIS.L["The Arcanist's Cookbook"] = "Поваренная книга чародея";
 --  LBIS.L["The Argent Dawn"] = "";
+  LBIS.L["The Argent Hold"] = "Серебряный Оплот";
   LBIS.L["The Azure Key"] = "Лазурный ключ";
 --  LBIS.L["The Bad News..."] = "";
   LBIS.L["The Balance of Light and Shadow"] = "Баланс Света и Тьмы";
@@ -1003,7 +1025,6 @@ if GetLocale() == "ruRU" then
   LBIS.L["Undercity"] = "Подгород";
   LBIS.L["Underground Assault"] = "Битва под землей";
   LBIS.L["Unfinished Gordok Business"] = "Неоконченное дело Гордоков";
---  LBIS.L["unknown"] = "";
   LBIS.L["Upper Blackrock Spire"] = "Верхняя часть Вершины Черной горы";
   LBIS.L["Urok Doomhowl"] = "Аррок Смертный Вопль";
   LBIS.L["Vaelastrasz the Corrupt"] = "Валестраз Порочный";
