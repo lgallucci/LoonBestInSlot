@@ -1,4 +1,5 @@
-﻿
+﻿using System.Net;
+using System.Text.RegularExpressions;
 using AddonManager.Models;
 using AngleSharp.Dom;
 using AngleSharp.Html.Dom;
@@ -10,70 +11,26 @@ public class EmblemImporter : LootImporter
 {
     private List<string> wowheadUriList = new List<string>
     {
-        //@"https://www.wowhead.com/wotlk/npc=31580/arcanist-ivrenne",
-        //@"https://www.wowhead.com/wotlk/npc=31580/arcanist-ivrenne#sells;50",
-        //@"https://www.wowhead.com/wotlk/npc=31580/arcanist-ivrenne#sells;100",
-        //@"https://www.wowhead.com/wotlk/npc=31582/magistrix-lambriesse",
-        //@"https://www.wowhead.com/wotlk/npc=31582/magistrix-lambriesse#sells;50",
-        //@"https://www.wowhead.com/wotlk/npc=31582/magistrix-lambriesse#sells;100",
-        //@"https://www.wowhead.com/wotlk/npc=31579/arcanist-adurin",
-        //@"https://www.wowhead.com/wotlk/npc=31579/arcanist-adurin#sells;50",
-        //@"https://www.wowhead.com/wotlk/npc=31579/arcanist-adurin#sells;100",
-        //@"https://www.wowhead.com/wotlk/npc=31581/magister-brasael",
-        //@"https://www.wowhead.com/wotlk/npc=31581/magister-brasael#sells;50",
-        //@"https://www.wowhead.com/wotlk/npc=31581/magister-brasael#sells;100",
-        //@"https://www.wowhead.com/wotlk/npc=33964/arcanist-firael",
-        //@"https://www.wowhead.com/wotlk/npc=33964/arcanist-firael#sells;50",
-        //@"https://www.wowhead.com/wotlk/npc=33964/arcanist-firael#sells;100",
-        //@"https://www.wowhead.com/wotlk/npc=33963/magister-sarien",
-        //@"https://www.wowhead.com/wotlk/npc=33963/magister-sarien#sells;50",
-        //@"https://www.wowhead.com/wotlk/npc=33963/magister-sarien#sells;100",
-        //@"https://www.wowhead.com/wotlk/npc=35573/arcanist-asarina",
-        //@"https://www.wowhead.com/wotlk/npc=35573/arcanist-asarina#sells;50",vvvvvvvvvvvvvvvvvvvvvvvvvv
-        //@"https://www.wowhead.com/wotlk/npc=35573/arcanist-asarina#sells;100",
-        //@"https://www.wowhead.com/wotlk/npc=35579/aspirant-forudir",
-        //@"https://www.wowhead.com/wotlk/npc=35579/aspirant-forudir#sells;50",//TODO: More ?
-        //@"https://www.wowhead.com/wotlk/npc=35577/valiant-laradia",
-        //@"https://www.wowhead.com/wotlk/npc=35577/valiant-laradia#sells;50",//TODO: More ?
-        //@"https://www.wowhead.com/wotlk/npc=35580/aspirant-naradiel",
-        //@"https://www.wowhead.com/wotlk/npc=35580/aspirant-naradiel#sells;50",//TODO: More ?
-        //@"https://www.wowhead.com/wotlk/npc=35578/valiant-bressia",
-        //@"https://www.wowhead.com/wotlk/npc=35578/valiant-bressia#sells;50",//TODO: More ?
-        //@"https://www.wowhead.com/wotlk/npc=35574/magistrix-iruvia",
-        //@"https://www.wowhead.com/wotlk/npc=35574/magistrix-iruvia#sells;50",
-        //@"https://www.wowhead.com/wotlk/npc=35574/magistrix-iruvia#sells;100",
-        //@"https://www.wowhead.com/wotlk/npc=207128/animated-constellation",
-        //@"https://www.wowhead.com/wotlk/npc=207128/animated-constellation#sells;50",
-        //@"https://www.wowhead.com/wotlk/npc=211332/korralin-hoperender",
-        //@"https://www.wowhead.com/wotlk/npc=211332/korralin-hoperender#sells;50",
-        //@"https://www.wowhead.com/wotlk/npc=211340/kolara-dreamsmasher",
-        //@"https://www.wowhead.com/wotlk/npc=211340/kolara-dreamsmasher#sells;50",
-        //@"https://www.wowhead.com/wotlk/npc=37941/magister-arlan",
-        //@"https://www.wowhead.com/wotlk/npc=37941/magister-arlan#sells;50",
-        //@"https://www.wowhead.com/wotlk/npc=35496/rueben-lauren",
-        //@"https://www.wowhead.com/wotlk/npc=35496/rueben-lauren#sells;50",
-        //@"https://www.wowhead.com/wotlk/npc=35496/rueben-lauren#sells;100",
-        //@"https://www.wowhead.com/wotlk/npc=35498/horace-hunderland",
-        //@"https://www.wowhead.com/wotlk/npc=35498/horace-hunderland#sells;50",
-        //@"https://www.wowhead.com/wotlk/npc=35498/horace-hunderland#sells;100",
-        //@"https://www.wowhead.com/wotlk/npc=35500/matilda-brightlink",
-        //@"https://www.wowhead.com/wotlk/npc=35500/matilda-brightlink#sells;50",
-        //@"https://www.wowhead.com/wotlk/npc=35500/matilda-brightlink#sells;100",
-        //@"https://www.wowhead.com/wotlk/npc=35497/rafael-langrom",
-        //@"https://www.wowhead.com/wotlk/npc=35497/rafael-langrom#sells;50",
-        //@"https://www.wowhead.com/wotlk/npc=35497/rafael-langrom#sells;100",
-
-        //evowow
-        @"https://wotlk.evowow.com/?npc=35498#currency-for:0-2",
-        @"https://wotlk.evowow.com/?npc=35498#currency-for:50-2",
-        @"https://wotlk.evowow.com/?npc=35498#currency-for:100-2",
-        @"https://wotlk.evowow.com/?npc=35496#currency-for:0-2",
-        @"https://wotlk.evowow.com/?npc=35496#currency-for:50-2",
-        @"https://wotlk.evowow.com/?npc=35500#currency-for:0-2",
-        @"https://wotlk.evowow.com/?npc=35500#currency-for:50-2",
-        @"https://wotlk.evowow.com/?npc=35497#currency-for:0-2",
-        @"https://wotlk.evowow.com/?npc=35497#currency-for:50-2"
+        "https://www.wowhead.com/mop-classic/npc=248108/avatar-of-the-august-celestials#sells",
+        "https://www.wowhead.com/mop-classic/npc=248108/avatar-of-the-august-celestials#sells;50",
+        "https://www.wowhead.com/mop-classic/npc=248108/avatar-of-the-august-celestials#sells;100",
+        "https://www.wowhead.com/mop-classic/npc=248108/avatar-of-the-august-celestials#sells;150",
+        "https://www.wowhead.com/mop-classic/npc=248108/avatar-of-the-august-celestials#sells;200",
+        "https://www.wowhead.com/mop-classic/npc=64606/commander-oxheart#sells",
+        "https://www.wowhead.com/mop-classic/npc=64606/commander-oxheart#sells;50",
+        "https://www.wowhead.com/mop-classic/npc=64606/commander-oxheart#sells;100",
+        "https://www.wowhead.com/mop-classic/npc=64606/commander-oxheart#sells;150",
+        "https://www.wowhead.com/mop-classic/npc=64606/commander-oxheart#sells;200",
+        "https://www.wowhead.com/mop-classic/npc=64607/commander-lo-ping#sells",
     };
+
+    private List<string> guideUriList = new List<string>()
+    {
+    };
+
+    public EmblemImporter(CancellationToken cancellationToken) : base(cancellationToken)
+    {
+    }
 
     internal override string FileName { get => "EmblemItemList"; }
 
@@ -81,67 +38,87 @@ public class EmblemImporter : LootImporter
     {
         //items.Items.Clear();
 
-        await Common.ReadEvoWowSellsList(wowheadUriList.Where(u => u.Contains("evowow")), (uri, row, itemId, item) =>
+        await ReadFromItemPages(items, writeToLog);
+        //await ReadFromGuidePage(items, writeToLog);
+        //await ReadFromAtlasLoot(items, writeToLog);
+
+        return items;
+    }
+
+    private Dictionary<int, int> _idSwaps = new Dictionary<int, int>
+    {
+        {232950, 65374}, //Gale Rouser Belt
+    };
+
+    private async Task ReadFromGuidePage(DatabaseItems items, Action<string> writeToLog)
+    {
+        await Common.LoadFromWebPages(guideUriList, (uri, doc) =>
         {
-            var success = false;
+            var currencySourceLocation = "Emblem Vendor";
+            var sourceFaction = "B";
+            var currencyNumber = "-1";
+
+            var tables = doc.QuerySelectorAll(".markup-table-wrapper table");
+
+            foreach(IHtmlTableElement table in tables)
+            {
+                if (table.Rows[0].Cells[0].TextContent != "Item")
+                {
+                    continue;
+                }
+
+                foreach(var row in table.Rows)
+                {
+                    Common.RecursiveBoxSearch(row, (anchorObject) => 
+                    {
+                        var item = anchorObject.PathName.Replace("/mop-classic/", "/").Replace("/currency=", "").Replace("/item=", "").Replace("/?item=", "");
+                        var itemName = anchorObject.TextContent.Trim();
+                        var itemId = 0;
+                        var itemIdIndex = item.IndexOf("/");
+                        if (itemIdIndex == -1)
+                            itemIdIndex = item.IndexOf("&");
+                        item = item.Substring(0, itemIdIndex);
+                        int.TryParse(item, out itemId);
+
+                        if (_idSwaps.ContainsKey(itemId))
+                        {
+                            itemId = _idSwaps[itemId];
+                        }
+
+                        currencyNumber = row.Cells[2].TextContent;
+
+                        var successfulAdd = items.Items.TryAdd(itemId, new DatabaseItem
+                        {
+                            Name = itemName,
+                            SourceNumber = currencyNumber,
+                            Source = "Fissure Stone Fragment",
+                            SourceLocation = currencySourceLocation,
+                            SourceType = "Dungeon Token",
+                            SourceFaction = sourceFaction
+                        });
+
+                        return successfulAdd;
+                    });
+                }
+            }
+        }, writeToLog);
+    }
+
+    private async Task ReadFromItemPages(DatabaseItems items, Action<string> writeToLog)
+    {
+        await Common.ReadWowheadSellsList(wowheadUriList.Where(u => u.Contains("wowhead")), (uri, row, itemId, item) =>
+        {
             var currencySource = "";
             var currencyNumber = "";
-            var currencySourceLocation = "";
+            var currencySourceLocation = "Emblem Vendor";
             var sourceFaction = "B";
             var itemName = item.TextContent;
 
-            Common.RecursiveBoxSearch(row.Children[10], (anchorObject) =>
+            (currencySource, currencyNumber) = GetSourceText(row.Children[10]);            
+
+            if (row.Children[6].Children.Count() > 0)
             {
-                var item = ((IHtmlAnchorElement)anchorObject).Search.Replace("?currency=", "").Replace("?item=", "");
-
-                success = int.TryParse(item, out var currencyInteger);
-
-                if (success)
-                {
-                    var sourceText = item == "101" ? "Emblem of Heroism" :
-                        item == "102" ? "Emblem of Valor" :
-                        item == "221" ? "Emblem of Conquest" :
-                        item == "301" ? "Emblem of Triumph" :
-                        item == "341" ? "Emblem of Frost" :
-                        item == "2589" ? "Sidereal Essence" :
-                        item == "2711" ? "Defiler's Scourgestone" :
-                        item == "47242" ? "Trophy" :
-                        item == "52025" ? "Vanquisher's Mark" :
-                        item == "52026" ? "Protector's Mark" :
-                        item == "52027" ? "Conqueror's Mark" :
-                        item == "52028" ? "Vanquisher's Mark (H)" :
-                        item == "52029" ? "Protector's Mark (H)" :
-                        item == "52030" ? "Conqueror's Mark (H)" : "unknown";
-
-                    if (string.IsNullOrWhiteSpace(currencySource))
-                        currencySource = sourceText;
-                    else if (currencySource.Contains("'s Mark") && sourceText == "unknown")
-                        currencySource = $"{currencySource} & Lower Rank";
-                        //currencySource = $"{currencySource} & {{{item}}}";
-                    else
-                        currencySource = $"{currencySource} & {sourceText}";
-
-                    if (string.IsNullOrWhiteSpace(currencyNumber))
-                        currencyNumber = anchorObject.TextContent;
-                    else
-                        currencyNumber = $"{currencyNumber} & {anchorObject.TextContent}";
-
-                    if (item == "47242")
-                        currencySourceLocation = "Trial of the Crusader";
-                    else if (new[] { "52025", "52026", "52027" }.ToList().Contains(item))
-                        currencySourceLocation = "Icecrown Citadel";
-                    else if (new[] { "52028", "52029", "52030" }.ToList().Contains(item))
-                        currencySourceLocation = "Icecrown Citadel (25H)";
-                    else if (string.IsNullOrWhiteSpace(currencySourceLocation))
-                        currencySourceLocation = "Emblem Vendor";
-                }
-
-                return success;
-            });
-
-            if (row.Children[5].Children.Count() > 0)
-            {
-                var factionColumn = (IElement)row.Children[5].ChildNodes[0];
+                var factionColumn = (IElement)row.Children[6].ChildNodes[0];
                 if (factionColumn?.ClassName == "icon-horde")
                     sourceFaction = "H";
                 else if (factionColumn?.ClassName == "icon-alliance")
@@ -152,30 +129,30 @@ public class EmblemImporter : LootImporter
             {
                 items.Items.Remove(itemId);
             }
-            var successfulAdd = items.Items.TryAdd(itemId, new DatabaseItem
+
+            if (!currencySource.Contains("unknown"))
             {
-                Name = itemName,
-                SourceNumber = currencyNumber,
-                Source = currencySource,
-                SourceLocation = currencySourceLocation,
-                SourceType = "Dungeon Token",
-                SourceFaction = sourceFaction
-            });
-        }, writeToLog);
+                var successfulAdd = items.Items.TryAdd(itemId, new DatabaseItem
+                {
+                    Name = itemName,
+                    SourceNumber = currencyNumber,
+                    Source = currencySource,
+                    SourceLocation = currencySourceLocation,
+                    SourceType = "Dungeon Token",
+                    SourceFaction = sourceFaction
+                });
+            }
+        }, writeToLog, _importCancelToken);
+    }
 
-
-        await Common.ReadWowheadSellsList(wowheadUriList.Where(u => u.Contains("wowhead")), (uri, row, itemId, item) =>
-        {
-            var success = false;
-            var currencySource = "";
-            var currencyNumber = "";
-            var currencySourceLocation = "";
-            var sourceFaction = "B";
-            var itemName = item.TextContent;
-
-            Common.RecursiveBoxSearch(row.Children[10], (anchorObject) =>
+    public static (string, string) GetSourceText(IElement currencyCell)
+    {
+        var success = false;
+        var currencySource = "";
+        var currencyNumber = "";
+        Common.RecursiveBoxSearch(currencyCell, (anchorObject) =>
             {
-                var item = ((IHtmlAnchorElement)anchorObject).PathName.Replace("/wotlk", "").Replace("/currency=", "").Replace("/item=", "").Replace("/?item=", ""); ;
+                var item = anchorObject.PathName.Replace("/mop-classic/", "/").Replace("/currency=", "").Replace("/item=", "").Replace("/?item=", "");
 
                 var currencyIdIndex = item.IndexOf("/");
                 if (currencyIdIndex == -1)
@@ -194,8 +171,13 @@ public class EmblemImporter : LootImporter
                             item == "221" ? "Emblem of Conquest" :
                             item == "301" ? "Emblem of Triumph" :
                             item == "341" ? "Emblem of Frost" :
+                            item == "395" ? "Justice Points" :
+                            item == "396" ? "Valor Points" :
                             item == "2589" ? "Sidereal Essence" :
                             item == "2711" ? "Defiler's Scourgestone" :
+                            item == "3148" ? "Fissure Stone Fragment" :
+                            item == "3350" ? "August Stone Fragment" :
+                            item == "3281" ? "Obsidian Fragment" :
                             item == "47242" ? "Trophy" :
                             item == "52025" ? "Vanquisher's Mark" :
                             item == "52026" ? "Protector's Mark" :
@@ -215,44 +197,64 @@ public class EmblemImporter : LootImporter
                             currencyNumber = anchorObject.TextContent;
                         else
                             currencyNumber = $"{currencyNumber} & {anchorObject.TextContent}";
-
-                        if (item == "47242")
-                            currencySourceLocation = "Trial of the Crusader";
-                        else if (new[] { "52025", "52026", "52027" }.ToList().Contains(item))
-                            currencySourceLocation = "Icecrown Citadel";
-                        else if (new[] { "52028", "52029", "52030" }.ToList().Contains(item))
-                            currencySourceLocation = "Icecrown Citadel (25H)";
-                        else if (string.IsNullOrWhiteSpace(currencySourceLocation))
-                            currencySourceLocation = "Emblem Vendor";
                     }
                 }
                 return success;
             });
 
-            if (row.Children[6].Children.Count() > 0)
-            {
-                var factionColumn = (IElement)row.Children[6].ChildNodes[0];
-                if (factionColumn?.ClassName == "icon-horde")
-                    sourceFaction = "H";
-                else if (factionColumn?.ClassName == "icon-alliance")
-                    sourceFaction = "A";
-            }
+        return (currencySource, currencyNumber);
+    }
 
-            if (items.Items.ContainsKey(itemId))
-            {
-                items.Items.Remove(itemId);
-            }
-            var successfulAdd = items.Items.TryAdd(itemId, new DatabaseItem
-            {
-                Name = itemName,
-                SourceNumber = currencyNumber,
-                Source = currencySource,
-                SourceLocation = currencySourceLocation,
-                SourceType = "Dungeon Token",
-                SourceFaction = sourceFaction
-            });
-        }, writeToLog);
+    private async Task ReadFromAtlasLoot(DatabaseItems items, Action<string> writeToLog) 
+    {
+        var vendorPriceFile = @"E:\Blizzard\World of Warcraft\_classic_\Interface\Addons\AtlasLootClassic\Data\VendorPrice.lua";
 
-        return items;
+        var vendorLines = await System.IO.File.ReadAllLinesAsync(vendorPriceFile);
+        string pattern = @"\[(?<itemId>\d+)\] = ""(?<emblem>.*)"", -- (?<itemName>.+)";
+        Regex regex = new Regex(pattern);
+        var foundCata = false;
+
+        foreach(var vendorLine in vendorLines)
+        {        
+            foundCata = vendorLine.Contains("VENDOR_PRICES_RAW.CATA") || foundCata;
+
+            Match m = regex.Match(vendorLine.Trim());
+            if (m.Success && foundCata)
+            {
+                var itemId = Int32.Parse(m.Groups["itemId"].Value);
+                var emblem = m.Groups["emblem"].Value;
+                var itemName = m.Groups["itemName"].Value;
+
+                var emblemSplit = emblem.Split(":");
+                var currencySource = 
+                            emblemSplit[0] == "JusticePoints" ? "Justice Points" :
+                            emblemSplit[0] == "ValorPoints" ? "Valor Points" :
+                            emblemSplit[0] == "FissureStoneFragment" ? "Fissure Stone Fragment" :
+                            "unknown";
+                var currencyNumber = emblemSplit[1];
+
+                if (currencySource == "unknown")
+                {
+                    continue;
+                }
+                if (items.Items.ContainsKey(itemId))
+                {
+                    items.Items[itemId].SourceNumber = currencyNumber;
+                }
+                else 
+                {
+                    var successfulAdd = items.Items.TryAdd(itemId, new DatabaseItem
+                    {
+                        Name = itemName,
+                        SourceNumber = currencyNumber,
+                        Source = currencySource,
+                        SourceLocation = "Emblem Vendor",
+                        SourceType = "Dungeon Token",
+                        SourceFaction = "B"
+                    });
+                }
+            }
+        }
+
     }
 }

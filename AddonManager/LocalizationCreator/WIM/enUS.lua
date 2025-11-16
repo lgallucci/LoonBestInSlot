@@ -1,3 +1,4 @@
+---@diagnostic disable: undefined-global
 --[[
     Language Localization: enUS
     Translated by: name <email address>
@@ -17,10 +18,6 @@ WIM.AddLocale("enUS", {
     ["<Right-Click>"] = true,
     ["<Left-Click>"] = true,
     ["OK"] = true,
-    ["Cancel"] = true,
-    ["Unknown"] = true,
-    ["Click to update..."] = true,
-    ["Usage"] = true,
 
     ["state_resting"] = "Resting",
     ["state_combat"] = "Combat",
@@ -29,8 +26,6 @@ WIM.AddLocale("enUS", {
     ["state_party"] = "Party Instance",
     ["state_raid"] = "Raid Instance",
     ["state_other"] = "Normal (Other)",
-
-    ["<Shift-Click> to close window."] = true,
 
     ["A new version of WIM is available!\nYou can download the latest version from curse"] = true,
 
@@ -54,13 +49,6 @@ WIM.AddLocale("enUS", {
     ["Week"] = true,
     ["Month"] = true,
     ["Drag to set default spawn/position for message windows."] = true,
-    ["Up"] = true,
-    ["Down"] = true,
-    ["Left"] = true,
-    ["Right"] = true,
-    ["Ignore"] = true,
-    ["Block"] = true,
-    ["Enable WIM"] = true,
 
     ["Auto Close Friends after:"] = true,
     ["Auto Close Non-Friends after:"] = true,
@@ -79,14 +67,10 @@ WIM.AddLocale("enUS", {
     ["Display time stamps"] = true,
     ["This setting limits the\nwindow's minimum height."] = true,
     ["Requires /who querying."] = true,
-    ["Enable window fading effects."] = true,
     ["Enable window animations."] = true,
 
     ["Display minimap icon."] = true,
 
-    ["General"] = true,
-    ["History"] = true,
-    ["Filters"] = true,
     ["Plugins"] = true,
 
     ["Auto focus when window is shown."] = true,
@@ -172,8 +156,6 @@ WIM.AddLocale("enUS", {
     ["Apply to messages received."] = true,
     ["Apply to messages sent."] = true,
     ["Action to Perform:"] = true,
-    ["Allow"] = true,
-    ["Ignore"] = true,
     ["Blocked"] = true,
     ["Save"] = true,
     ["Cancel"] = true,
@@ -204,7 +186,6 @@ WIM.AddLocale("enUS", {
 
     -- Menu.lua --
     ["Whispers"] = true,
-    ["Chat"] = true,
 
     -- Negotiate.lua --
     ["WIM Update Available!"] = true,
@@ -347,7 +328,6 @@ WIM.AddLocale("enUS", {
     ["Configure general display settings when dealing with whispers."] = true,
     ["Color: Messages Sent"] = true,
     ["Color: Messages Received"] = true,
-    ["Use colors suggested by skin."] = true,
     ["Display user class icons and details."] = true,
     ["Requires who lookups."] = true,
     ["Display Shortcut Bar"] = true,

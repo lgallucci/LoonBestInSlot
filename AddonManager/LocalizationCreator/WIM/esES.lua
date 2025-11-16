@@ -1,3 +1,4 @@
+---@diagnostic disable: undefined-global
 --[[
     Language Localization: esES & esMX
     Translated by: Woopy - Loatheb (NA)
@@ -17,10 +18,6 @@ local translations = {
     ["<Right-Click>"] = "<Clic-Derecho>",
     ["<Left-Click>"] = "<Clic-Izquierdo>",
     ["OK"] = "OK",
-    ["Cancel"] = "Cancelar",
-    ["Unknown"] = "Desconocido",
-    ["Click to update..."] = "Haz clic para actualizar...",
-    ["Usage"] = "Uso",
 
     ["state_resting"] = "Ausente",
     ["state_combat"] = "Combate",
@@ -29,8 +26,6 @@ local translations = {
     ["state_party"] = "Grupo de Mazmorra",
     ["state_raid"] = "Grupo de Banda",
     ["state_other"] = "Normal (Otro)",
-
-    ["<Shift-Click> to close window."] = "<Shift-Clic> para cerrar la ventana",
 
     ["A new version of WIM is available!\nYou can download the latest version from curse"] = "¡Una nueva versión de WIN está disponible!\nPuede descargar la última versión en curse",
 
@@ -54,13 +49,6 @@ local translations = {
     ["Week"] = "Semana",
     ["Month"] = "Mes",
     ["Drag to set default spawn/position for message windows."] = "Arrastre para establecer la posición predeterminada para las ventanas de mensajes.",
-    ["Up"] = "Arriba",
-    ["Down"] = "Abajo",
-    ["Left"] = "Izquierdo",
-    ["Right"] = "Derecho",
-    ["Ignore"] = "Ignorar",
-    ["Block"] = "Bloquear",
-    ["Enable WIM"] = "Habilitar WIM",
 
     ["Auto Close Friends after:"] = "Cerrar amigos automáticamente después de:",
     ["Auto Close Non-Friends after:"] = "Cerrar automáticamente no amigos después de:",
@@ -79,14 +67,10 @@ local translations = {
     ["Display time stamps"] = "Mostrar sellos de tiempo",
     ["This setting limits the\nwindow's minimum height."] = "Esta configuración limita\nla altura mínima de window.",
     ["Requires /who querying."] = "Requiere consulta de /quien",
-    ["Enable window fading effects."] = "Habilitar efectos de desvanecimiento de ventana.",
     ["Enable window animations."] = "Habilitar animaciones de ventana.",
 
     ["Display minimap icon."] = "Mostrar icono de minimapa",
 
-    ["General"] = "General",
-    ["History"] = "Historia",
-    ["Filters"] = "Filtros",
     ["Plugins"] = "Plugins",
 
     ["Auto focus when window is shown."] = "Enfoque automático cuando se muestra la ventana.",
@@ -172,8 +156,6 @@ local translations = {
     ["Apply to messages received."] = "Aplicar a los mensajes recibidos.",
     ["Apply to messages sent."] = "Aplicar a los mensajes enviados.",
     ["Action to Perform:"] = "Acción a realizar:",
-    ["Allow"] = "Permitir",
-    ["Ignore"] = "Ignorar",
     ["Blocked"] = "Bloqueado",
     ["Save"] = "Guardar",
     ["Cancel"] = "Cancelar",
@@ -204,7 +186,6 @@ local translations = {
 
     -- Menu.lua --
     ["Whispers"] = "Susurros",
-    ["Chat"] = "Chat",
 
     -- Negotiate.lua --
     ["WIM Update Available!"] = "¡Actualización WIM disponible!",

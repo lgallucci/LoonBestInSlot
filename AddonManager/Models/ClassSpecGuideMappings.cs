@@ -3,65 +3,23 @@
 namespace AddonManager.Models;
 public class ClassGuideMapping
 {
-    public ClassGuideMapping(string webAddress, string specName, string className, string phase, List<(string, GuideMapping)> guideMappings)
+    public ClassGuideMapping(string webAddress, string specName, string className, int phase)
     {
         WebAddress = webAddress;
         SpecName = specName;
         ClassName = className;
-        Phase = phase;
-
-        if (Phase == "GemsEnchants")
-        {
-            _mappings.Clear();
-            foreach (var mapping in guideMappings)
-            {
-                if (_mappings.ContainsKey(mapping.Item1))
-                    _mappings[mapping.Item1] = $"{_mappings[mapping.Item1].SlotHtmlId};{mapping.Item2.SlotHtmlId}";
-                else
-                    _mappings[mapping.Item1] = mapping.Item2;
-            }
-        }
-        else
-        {
-            foreach (var mapping in guideMappings)
-            {
-                _mappings[mapping.Item1] = mapping.Item2;
-            }
-        }        
+        Phase = phase; 
     }
 
     public string WebAddress { get; set; }
     public string SpecName { get; set; }
     public string ClassName { get; set; }
-    public string Phase { get; set; }
+    public int Phase { get; set; }
 
-    public IEnumerable<KeyValuePair<string, GuideMapping>> GuideMappings 
-    { 
-        get
-        {
-            return _mappings.Where(m => m.Value.Enabled);
-        }
-    }
-
-    private Dictionary<string, GuideMapping> _mappings = new Dictionary<string, GuideMapping>
+    public override string ToString()
     {
-        { "Head", "#head" },
-        { "Shoulder", "#shoulders" },
-        { "Back", "#back" },
-        { "Chest", "#chest" },
-        { "Wrist", "#wrist" },
-        { "Hands", "#hands" },
-        { "Waist", "#waist" },
-        { "Legs", "#legs" },
-        { "Feet", "#feet" },
-        { "Neck", "#neck" },
-        { "Ring", "#rings" },
-        { "Trinket", "#trinkets" },
-        { "Main Hand", new GuideMapping { Enabled = false } },
-        { "Off Hand", new GuideMapping { Enabled = false } },
-        { "Two Hand", new GuideMapping { Enabled = false } },
-        { "Ranged/Relic", new GuideMapping { Enabled = false } },
-    };
+        return ClassName+SpecName;
+    }
 }
 
 public class GuideMapping
@@ -99,6 +57,9 @@ public class ClassSpecGuideMappings
         GuideMappings.AddRange(new MageArcaneMapping().ToList());
         GuideMappings.AddRange(new MageFireMapping().ToList());
         GuideMappings.AddRange(new MageFrostMapping().ToList());
+        GuideMappings.AddRange(new MonkBrewmasterMapping().ToList());
+        GuideMappings.AddRange(new MonkMistweaverMapping().ToList());
+        GuideMappings.AddRange(new MonkWindwalkerMapping().ToList());
         GuideMappings.AddRange(new PaladinHolyMapping().ToList());
         GuideMappings.AddRange(new PaladinProtectionMapping().ToList());
         GuideMappings.AddRange(new PaladinRetributionMapping().ToList());

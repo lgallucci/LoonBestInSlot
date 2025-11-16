@@ -8286,7 +8286,6 @@ l10n.questLookup["deDE"] = {
 [13120] = {"Todesblick", nil, {"Benutzt die Kugel des Todesblicks, um Kugeln in die Kugelhalterung des Monstrositätenlabors, des Fleischriesenlabors und des Kesselbereichs zu legen. Kehrt anschließend zu Dunkelreiterin Arly in die Schwarzwacht zurück."}},
 [13121] = {"Durch das Innere Auge", nil, {"Die Knochenhexe in Njorndar hat Euch beauftragt, das Auge des Lichkönigs zu benutzen, um an Informationen zu gelangen."}},
 [13122] = {"Der Geißelstein", nil, {"Der Schwarze Wächter im Tal der Echos möchte, dass Ihr ihm 15 Geißelsteine bringt."}},
-[13123] = {"WotLK Collector's Edition: - DEM - E - FLAG", nil, nil},
 [13124] = {"Der Kampf geht weiter", nil, {"Raelorasz möchte, dass Ihr Euch in das Oculus begebt und Belgaristrasz und seine Gefährten befreit."}},
 [13125] = {"Die Luft steht still", nil, {"Der Schwarze Wächter beim Tal der Echos in Eiskrone will, dass Ihr Salranax den Zerfleischer, Unterkönig Talonox und Hohepriester Yath'amon tötet."}},
 [13126] = {"Vereinte Front", nil, {"Belgaristrasz möchte, dass Ihr 10 Zentrifugenkonstrukte zerstört, um Varos' Schild zu beseitigen. Danach müsst Ihr Varos Wolkenwanderer besiegen."}},

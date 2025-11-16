@@ -8287,7 +8287,6 @@ l10n.questLookup["esMX"] = {
 [13120] = {"La mirada de la Muerte", nil, {"Usa el orbe de mirada de la Muerte para colocar orbes sobre el portaorbe de laboratorio de abominaciones, el portaorbe del laboratorio de gigantes de carne y en el portaorbe de la zona de la caldera y después vuelve con la jinete oscura Arly en La Guardia Negra."}},
 [13121] = {"A través del ojo", nil, {"La Bruja Osaria en el poblado Njorndar te ha encargado que uses el Ojo del Rey Exánime para conseguir información."}},
 [13122] = {"La piedra de la Plaga", nil, {"El Vigía de Ébano en el Valle de los Ecos en Corona de Hielo quiere que le lleves 15 piedras de la Plaga."}},
-[13123] = {"WotLK Collector's Edition: - DEM - E - FLAG", nil, nil},
 [13124] = {"La batalla continúa", nil, {"Raelorasz quiere que entres en El Oculus y que rescates a Belgaristrasz y a sus compañeros."}},
 [13125] = {"El aire permanece quieto", nil, {"El Vigía de Ébano en el Valle de los Ecos de Corona de Hielo quiere que mates a Salranx el Sacrificador, al infrarrey Talonox y al sumo sacerdote Yath'amon."}},
 [13126] = {"Un frente unido", nil, {"Belgaristrasz quiere que acabes con 10 ensamblajes de centrifugadoras para derribar el escudo de Varos. Entonces deberás derrotar a Varos Zancanubes."}},

@@ -1,3 +1,4 @@
+---@diagnostic disable: undefined-global
 -- enUS and enGB use the same global strings, however
 -- this is needed in order to format dates correctly.
 

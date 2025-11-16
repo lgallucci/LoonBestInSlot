@@ -1,1524 +1,1836 @@
 {
   "Items": {
-    "38452": {
-      "Name": "Bulwark of the Warchief",
-      "Source": "Horde Expedition",
+    "88741": {
+      "Name": "Gloves of Red Feathers",
+      "Source": "The August Celestials",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
+      "SourceLocation": "Honored (1750 Valor Points)",
       "SourceFaction": "B"
     },
-    "38453": {
-      "Name": "Shield of the Lion-hearted",
-      "Source": "Alliance Vanguard",
+    "88742": {
+      "Name": "Sunspeaker's Flared Gloves",
+      "Source": "The August Celestials",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
+      "SourceLocation": "Honored (1750 Valor Points)",
       "SourceFaction": "B"
     },
-    "38454": {
-      "Name": "Warsong Punisher",
-      "Source": "Horde Expedition",
+    "88743": {
+      "Name": "Ogo's Elder Gloves",
+      "Source": "The August Celestials",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
+      "SourceLocation": "Honored (1750 Valor Points)",
       "SourceFaction": "B"
     },
-    "38455": {
-      "Name": "Hammer of the Alliance Vanguard",
-      "Source": "Alliance Vanguard",
+    "88744": {
+      "Name": "Fingers of the Loneliest Monk",
+      "Source": "The August Celestials",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
+      "SourceLocation": "Honored (1750 Valor Points)",
       "SourceFaction": "B"
     },
-    "38456": {
-      "Name": "Sin'dorei Recurve Bow",
-      "Source": "Horde Expedition",
+    "88745": {
+      "Name": "Sentinel Commander's Gauntlets",
+      "Source": "The August Celestials",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
+      "SourceLocation": "Honored (1750 Valor Points)",
       "SourceFaction": "B"
     },
-    "38457": {
-      "Name": "Sawed-off Hand Cannon",
-      "Source": "Alliance Vanguard",
+    "88746": {
+      "Name": "Gloves of the Overwhelming Swarm",
+      "Source": "The August Celestials",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
+      "SourceLocation": "Honored (1750 Valor Points)",
       "SourceFaction": "B"
     },
-    "38458": {
-      "Name": "Darkspear Orb",
-      "Source": "Horde Expedition",
+    "88747": {
+      "Name": "Streetfighter's Iron Knuckles",
+      "Source": "The August Celestials",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
+      "SourceLocation": "Honored (1750 Valor Points)",
       "SourceFaction": "B"
     },
-    "38459": {
-      "Name": "Orb of the Eastern Kingdoms",
-      "Source": "Alliance Vanguard",
+    "88748": {
+      "Name": "Ravenmane's Gloves",
+      "Source": "The August Celestials",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
+      "SourceLocation": "Honored (1750 Valor Points)",
       "SourceFaction": "B"
     },
-    "38460": {
-      "Name": "Charged Wand of the Cleft",
-      "Source": "Horde Expedition",
+    "88749": {
+      "Name": "Gauntlets of Jade Sutras",
+      "Source": "The August Celestials",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
+      "SourceLocation": "Honored (1750 Valor Points)",
       "SourceFaction": "B"
     },
-    "38461": {
-      "Name": "Warsong Shanker",
-      "Source": "Horde Expedition",
+    "88862": {
+      "Name": "Tankiss Warstompers",
+      "Source": "The August Celestials",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
+      "SourceLocation": "Revered (1750 Valor Points)",
       "SourceFaction": "B"
     },
-    "38462": {
-      "Name": "Warsong Stormshield ",
-      "Source": "Horde Expedition",
+    "88864": {
+      "Name": "Yu'lon Guardian Boots",
+      "Source": "The August Celestials",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
+      "SourceLocation": "Revered (1750 Valor Points)",
       "SourceFaction": "B"
     },
-    "38463": {
-      "Name": "Lordaeron's Resolve ",
-      "Source": "Alliance Vanguard",
+    "88865": {
+      "Name": "Bramblestaff Boots",
+      "Source": "The August Celestials",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
+      "SourceLocation": "Revered (1750 Valor Points)",
       "SourceFaction": "B"
     },
-    "38464": {
-      "Name": "Gnomish Magician's Quill",
-      "Source": "Alliance Vanguard",
+    "88866": {
+      "Name": "Steps of the War Serpent",
+      "Source": "The August Celestials",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
+      "SourceLocation": "Revered (1750 Valor Points)",
       "SourceFaction": "B"
     },
-    "38465": {
-      "Name": "Vanguard Soldier's Dagger",
-      "Source": "Alliance Vanguard",
+    "88867": {
+      "Name": "Sandals of the Elder Sage",
+      "Source": "The August Celestials",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
+      "SourceLocation": "Revered (1750 Valor Points)",
       "SourceFaction": "B"
     },
-    "39878": {
-      "Name": "Mysterious Egg",
-      "Source": "The Oracles",
+    "88868": {
+      "Name": "Tukka-Tuk's Hairy Boots",
+      "Source": "The August Celestials",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
+      "SourceLocation": "Revered (1750 Valor Points)",
       "SourceFaction": "B"
     },
-    "41561": {
-      "Name": "Design: Reckless Huge Citrine",
-      "Source": "Frenzyheart Tribe",
+    "88876": {
+      "Name": "Boots of the High Adept",
+      "Source": "The August Celestials",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Friendly",
+      "SourceLocation": "Revered (1750 Valor Points)",
       "SourceFaction": "B"
     },
-    "41562": {
-      "Name": "Design: Deadly Huge Citrine",
-      "Source": "Knights of the Ebon Blade",
+    "88877": {
+      "Name": "Storm-Sing Sandals",
+      "Source": "The August Celestials",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Friendly",
+      "SourceLocation": "Revered (1750 Valor Points)",
       "SourceFaction": "B"
     },
-    "41567": {
-      "Name": "Design: Vivid Dark Jade",
-      "Source": "The Oracles",
+    "88878": {
+      "Name": "Void Flame Slippers",
+      "Source": "The August Celestials",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Friendly",
+      "SourceLocation": "Revered (1750 Valor Points)",
       "SourceFaction": "B"
     },
-    "41568": {
-      "Name": "Design: Seer's Dark Jade",
-      "Source": "The Kalu'ak",
+    "88879": {
+      "Name": "Braided Black and White Bracer",
+      "Source": "The August Celestials",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Friendly",
+      "SourceLocation": "Honored (1250 Valor Points)",
       "SourceFaction": "B"
     },
-    "41574": {
-      "Name": "Design: Defender's Shadow Crystal",
-      "Source": "The Kalu'ak",
+    "88880": {
+      "Name": "Battle Shadow Bracers",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored (1250 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "88881": {
+      "Name": "Fallen Sentinel Bracers",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored (1250 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "88882": {
+      "Name": "Tiger-Striped Wristguards",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored (1250 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "88883": {
+      "Name": "Brewmaster Chani's Bracers",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored (1250 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "88884": {
+      "Name": "Quillpaw Family Bracers",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored (1250 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "88885": {
+      "Name": "Clever Ashyo's Armbands",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored (1250 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "88892": {
+      "Name": "Bracers of Inlaid Jade",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored (1250 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "88893": {
+      "Name": "Minh's Beaten Bracers",
+      "Source": "The August Celestials",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored (1250 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "88995": {
+      "Name": "Shado-Pan Dragon Gun",
+      "Source": "Shado-Pan",
+      "SourceType": "Token",
+      "SourceNumber": "0",
+      "SourceLocation": "1750 Justice Points",
+      "SourceFaction": "B"
+    },
+    "89055": {
+      "Name": "Klaxxi Lash of the Rescinder",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored (1750 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89056": {
+      "Name": "Klaxxi Lash of the Consumer",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored (1750 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89057": {
+      "Name": "Klaxxi Lash of the Doubter",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored (1750 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89058": {
+      "Name": "Klaxxi Lash of the Winnower",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored (1750 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89059": {
+      "Name": "Klaxxi Lash of the Precursor",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored (1750 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89060": {
+      "Name": "Klaxxi Lash of the Borrower",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored (1750 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89061": {
+      "Name": "Klaxxi Lash of the Harbinger",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored (1750 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89062": {
+      "Name": "Klaxxi Lash of the Orator",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored (1750 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89063": {
+      "Name": "Klaxxi Lash of the Seeker",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored (1750 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89064": {
+      "Name": "Bloodseeker's Solitaire",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored (1250 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89065": {
+      "Name": "Choker of the Klaxxi'va",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored (1250 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89066": {
+      "Name": "Paragon's Pale Pendant",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored (1250 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89067": {
+      "Name": "Links of the Lucid",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored (1250 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89068": {
+      "Name": "Wire of the Wakener",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored (1250 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89069": {
+      "Name": "Ring of the Golden Stair",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored (1250 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89070": {
+      "Name": "Anji's Keepsake",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored (1250 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89071": {
+      "Name": "Alani's Inflexible Ring",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored (1250 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89072": {
+      "Name": "Simple Harmonius Ring",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored (1250 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89073": {
+      "Name": "Leven's Circle of Hope",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored (1250 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89074": {
+      "Name": "Cloak of the Dark Disciple",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored (1250 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89075": {
+      "Name": "Yi's Cloak of Courage",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored (1250 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89076": {
+      "Name": "Blackguard Cape",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored (1250 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89077": {
+      "Name": "Cloak of Snow Blossoms",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored (1250 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89078": {
+      "Name": "Sagewhisper's Wrap",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored (1250 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89079": {
+      "Name": "Lao-Chin's Liquid Courage",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored (1750 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89080": {
+      "Name": "Scroll of Revered Ancestors",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored (1750 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89081": {
+      "Name": "Blossom of Pure Snow",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored (1750 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89082": {
+      "Name": "Hawkmaster's Talon",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored (1750 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89083": {
+      "Name": "Iron Belly Wok",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored (1750 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89087": {
+      "Name": "Poisoncrafter's Kilt",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered (2500 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89088": {
+      "Name": "Leggings of the Poisoned Soul",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered (2500 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89089": {
+      "Name": "Wind-Reaver Greaves",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered (2500 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89090": {
+      "Name": "Dreadsworn Slayer Legs",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered (2500 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89091": {
+      "Name": "Swarmkeeper's Leggings",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered (2500 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89092": {
+      "Name": "Locust Swarm Legguards",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered (2500 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89093": {
+      "Name": "Kovok's Riven Legguards",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered (2500 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89094": {
+      "Name": "Ambersmith Legplates",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered (2500 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89095": {
+      "Name": "Legguards of the Unscathed",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered (2500 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89096": {
+      "Name": "Six Pool's Open Helm",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered (2500 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89124": {
+      "Name": "Celestial Offering",
+      "Source": "The August Celestials",
       "SourceType": "Reputation",
       "SourceNumber": "0",
       "SourceLocation": "Honored",
       "SourceFaction": "B"
     },
-    "41718": {
-      "Name": "Design: Runed Scarlet Ruby",
-      "Source": "Kirin Tor",
+    "89216": {
+      "Name": "Yi's Least Favorite Helmet",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered (2500 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89230": {
+      "Name": "Restorative Amber",
+      "Source": "The Klaxxi",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "89232": {
+      "Name": "Mogu Rune of Paralysis",
+      "Source": "The Golden Lotus",
+      "SourceType": "Token",
+      "SourceNumber": "0",
+      "SourceLocation": "1750 Justice Points",
+      "SourceFaction": "B"
+    },
+    "89280": {
+      "Name": "Voice Amplyifying Greathelm",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered (2500 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89291": {
+      "Name": "Hawkmaster's Headguard",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered (2500 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89296": {
+      "Name": "Nightwatcher's Helm",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered (2500 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89300": {
+      "Name": "Red Smoke Bandana",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered (2500 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89301": {
+      "Name": "Stack of Wooden Boards",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "89302": {
+      "Name": "Stack of Bamboo",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "89303": {
+      "Name": "Stack of Stone Blocks",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "89308": {
+      "Name": "Snowdrift Helm",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered (2500 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89337": {
+      "Name": "Firecracker Corona",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered (2500 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89338": {
+      "Name": "Yalia's Cowl",
+      "Source": "Shado-Pan",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered (2500 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89339": {
+      "Name": "Tenderheart Shoulders",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored (1750 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89340": {
+      "Name": "Mantle of the Golden Sun",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored (1750 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89341": {
+      "Name": "Imperion Spaulders",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored (1750 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89342": {
+      "Name": "Whitepetal Shouldergarb",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored (1750 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89343": {
+      "Name": "Mindbender Shoulders",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored (1750 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89344": {
+      "Name": "Windwalker Spaulders",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored (1750 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89345": {
+      "Name": "Stonetoe Spaulders",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored (1750 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89346": {
+      "Name": "Shoulders of Autumnlight",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored (1750 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89347": {
+      "Name": "Paleblade Shoulderguards",
+      "Source": "The Golden Lotus",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored (1750 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "89392": {
+      "Name": "Amber Spine of Klaxxi'vess",
+      "Source": "The Klaxxi",
       "SourceType": "Reputation",
       "SourceNumber": "0",
       "SourceLocation": "Exalted",
       "SourceFaction": "B"
     },
-    "41720": {
-      "Name": "Design: Smooth Autumn's Glow",
-      "Source": "The Sons of Hodir",
+    "89393": {
+      "Name": "Amber Slicer of Klaxxi'vess",
+      "Source": "The Klaxxi",
       "SourceType": "Reputation",
       "SourceNumber": "0",
       "SourceLocation": "Exalted",
       "SourceFaction": "B"
     },
-    "41721": {
-      "Name": "Design: Wicked Monarch Topaz",
-      "Source": "Knights of the Ebon Blade",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
-    },
-    "41722": {
-      "Name": "Design: Glimmering Monarch Topaz",
-      "Source": "The Wyrmrest Accord",
+    "89394": {
+      "Name": "Amber Spear of Klaxxi'vess",
+      "Source": "The Klaxxi",
       "SourceType": "Reputation",
       "SourceNumber": "0",
       "SourceLocation": "Exalted",
       "SourceFaction": "B"
     },
-    "41723": {
-      "Name": "Design: Jagged Forest Emerald",
-      "Source": "Frenzyheart Tribe",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
-    },
-    "41724": {
-      "Name": "Design: Sundered Forest Emerald",
-      "Source": "The Oracles",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
-    },
-    "41725": {
-      "Name": "Design: Glowing Twilight Opal",
-      "Source": "Knights of the Ebon Blade",
+    "89395": {
+      "Name": "Amber Scythe of Klaxxi'vess",
+      "Source": "The Klaxxi",
       "SourceType": "Reputation",
       "SourceNumber": "0",
       "SourceLocation": "Exalted",
       "SourceFaction": "B"
     },
-    "41726": {
-      "Name": "Design: Guardian's Twilight Opal",
-      "Source": "Argent Crusade",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
-    },
-    "42183": {
-      "Name": "Pattern: Abyssal Bag",
-      "Source": "Knights of the Ebon Blade",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
-    },
-    "42184": {
-      "Name": "Pattern: Glacial Bag",
-      "Source": "The Sons of Hodir",
+    "89396": {
+      "Name": "Amber Espada of Klaxxi'vess",
+      "Source": "The Klaxxi",
       "SourceType": "Reputation",
       "SourceNumber": "0",
       "SourceLocation": "Exalted",
       "SourceFaction": "B"
     },
-    "42185": {
-      "Name": "Pattern: Mysterious Bag",
-      "Source": "The Wyrmrest Accord",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
-    },
-    "42187": {
-      "Name": "Pattern: Brilliant Spellthread",
-      "Source": "Argent Crusade",
+    "89397": {
+      "Name": "Amber Saber of Klaxxi'vess",
+      "Source": "The Klaxxi",
       "SourceType": "Reputation",
       "SourceNumber": "0",
       "SourceLocation": "Exalted",
       "SourceFaction": "B"
     },
-    "42188": {
-      "Name": "Pattern: Sapphire Spellthread",
-      "Source": "Kirin Tor",
+    "89398": {
+      "Name": "Amber Flammard of Klaxxi'vess",
+      "Source": "The Klaxxi",
       "SourceType": "Reputation",
       "SourceNumber": "0",
       "SourceLocation": "Exalted",
       "SourceFaction": "B"
     },
-    "43154": {
-      "Name": "Tabard of the Argent Crusade",
-      "Source": "Argent Crusade",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Friendly",
-      "SourceFaction": "B"
-    },
-    "43155": {
-      "Name": "Tabard of the Ebon Blade",
-      "Source": "Knights of the Ebon Blade",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Friendly",
-      "SourceFaction": "B"
-    },
-    "43156": {
-      "Name": "Tabard of the Wyrmrest Accord",
-      "Source": "The Wyrmrest Accord",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Friendly",
-      "SourceFaction": "B"
-    },
-    "43157": {
-      "Name": "Tabard of the Kirin Tor",
-      "Source": "Kirin Tor",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Friendly",
-      "SourceFaction": "B"
-    },
-    "43955": {
-      "Name": "Reins of the Red Drake",
-      "Source": "The Wyrmrest Accord",
+    "89399": {
+      "Name": "Amber Sprayer of Klaxxi'vess",
+      "Source": "The Klaxxi",
       "SourceType": "Reputation",
       "SourceNumber": "0",
       "SourceLocation": "Exalted",
       "SourceFaction": "B"
     },
-    "43958": {
-      "Name": "Reins of the Ice Mammoth",
-      "Source": "The Sons of Hodir",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
-    },
-    "43961": {
-      "Name": "Reins of the Grand Ice Mammoth",
-      "Source": "The Sons of Hodir",
+    "89400": {
+      "Name": "Amber Sledge of Klaxxi'vess",
+      "Source": "The Klaxxi",
       "SourceType": "Reputation",
       "SourceNumber": "0",
       "SourceLocation": "Exalted",
       "SourceFaction": "B"
     },
-    "44049": {
-      "Name": "Freshly-Speared Emperor Salmon",
-      "Source": "The Kalu'ak",
+    "89420": {
+      "Name": "Dawnblade's Chestguard",
+      "Source": "The Golden Lotus",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Friendly",
+      "SourceLocation": "Revered (2500 Valor Points)",
       "SourceFaction": "B"
     },
-    "44050": {
-      "Name": "Mastercraft Kalu'ak Fishing Pole",
-      "Source": "The Kalu'ak",
+    "89421": {
+      "Name": "Cuirass of the Twin Monoliths",
+      "Source": "The Golden Lotus",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Exalted",
+      "SourceLocation": "Revered (2500 Valor Points)",
       "SourceFaction": "B"
     },
-    "44051": {
-      "Name": "Traditional Flensing Knife",
-      "Source": "The Kalu'ak",
+    "89423": {
+      "Name": "Battleguard of Guo-Lai",
+      "Source": "The Golden Lotus",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
+      "SourceLocation": "Revered (2500 Valor Points)",
       "SourceFaction": "B"
     },
-    "44052": {
-      "Name": "Totemic Purification Rod",
-      "Source": "The Kalu'ak",
+    "89429": {
+      "Name": "Robes of the Setting Sun",
+      "Source": "The Golden Lotus",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
+      "SourceLocation": "Revered (2500 Valor Points)",
       "SourceFaction": "B"
     },
-    "44053": {
-      "Name": "Whale-Stick Harpoon",
-      "Source": "The Kalu'ak",
+    "89430": {
+      "Name": "Breastplate of the Golden Pagoda",
+      "Source": "The Golden Lotus",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
+      "SourceLocation": "Revered (2500 Valor Points)",
       "SourceFaction": "B"
     },
-    "44054": {
-      "Name": "Whale-Skin Breastplate",
-      "Source": "The Kalu'ak",
+    "89431": {
+      "Name": "Softfoot Silentwrap",
+      "Source": "The Golden Lotus",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Honored",
+      "SourceLocation": "Revered (2500 Valor Points)",
       "SourceFaction": "B"
     },
-    "44055": {
-      "Name": "Whale-Skin Vest",
-      "Source": "The Kalu'ak",
+    "89432": {
+      "Name": "Mistfall Robes",
+      "Source": "The Golden Lotus",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Honored",
+      "SourceLocation": "Revered (2500 Valor Points)",
       "SourceFaction": "B"
     },
-    "44057": {
-      "Name": "Ivory-Reinforced Chestguard",
-      "Source": "The Kalu'ak",
+    "89433": {
+      "Name": "Vestments of Thundering Skies",
+      "Source": "The Golden Lotus",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Honored",
+      "SourceLocation": "Revered (2500 Valor Points)",
       "SourceFaction": "B"
     },
-    "44058": {
-      "Name": "Whalebone Carapace",
-      "Source": "The Kalu'ak",
+    "89434": {
+      "Name": "Robe of the Five Sisters",
+      "Source": "The Golden Lotus",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Honored",
+      "SourceLocation": "Revered (2500 Valor Points)",
       "SourceFaction": "B"
     },
-    "44059": {
-      "Name": "Cuttlefish Scale Breastplate",
-      "Source": "The Kalu'ak",
-      "SourceType": "Reputation",
+    "89522": {
+      "Name": "Mark of the Dancing Crane",
+      "Source": "Shado-Pan",
+      "SourceType": "Token",
       "SourceNumber": "0",
-      "SourceLocation": "Honored",
+      "SourceLocation": "1250 Justice Points",
       "SourceFaction": "B"
     },
-    "44060": {
-      "Name": "Cuttlefish Tooth Ringmail",
-      "Source": "The Kalu'ak",
-      "SourceType": "Reputation",
+    "89523": {
+      "Name": "Etched Golden Loop",
+      "Source": "Shado-Pan",
+      "SourceType": "Token",
       "SourceNumber": "0",
-      "SourceLocation": "Honored",
+      "SourceLocation": "1250 Justice Points",
       "SourceFaction": "B"
     },
-    "44061": {
-      "Name": "Pigment-Stained Robes",
-      "Source": "The Kalu'ak",
-      "SourceType": "Reputation",
+    "89524": {
+      "Name": "Sorcerer-King's Seal",
+      "Source": "Shado-Pan",
+      "SourceType": "Token",
       "SourceNumber": "0",
-      "SourceLocation": "Honored",
+      "SourceLocation": "1250 Justice Points",
       "SourceFaction": "B"
     },
-    "44062": {
-      "Name": "Turtle-Minders Robe",
-      "Source": "The Kalu'ak",
-      "SourceType": "Reputation",
+    "89525": {
+      "Name": "Thunderstone Ring",
+      "Source": "Shado-Pan",
+      "SourceType": "Token",
       "SourceNumber": "0",
-      "SourceLocation": "Honored",
+      "SourceLocation": "1250 Justice Points",
       "SourceFaction": "B"
     },
-    "44064": {
-      "Name": "Nepeta Leaf",
-      "Source": "Frenzyheart Tribe",
-      "SourceType": "Reputation",
+    "89526": {
+      "Name": "Signet of the Slumbering Emperor",
+      "Source": "Shado-Pan",
+      "SourceType": "Token",
       "SourceNumber": "0",
-      "SourceLocation": "Friendly",
+      "SourceLocation": "1250 Justice Points",
       "SourceFaction": "B"
     },
-    "44065": {
-      "Name": "Oracle Secret Solution",
-      "Source": "The Oracles",
-      "SourceType": "Reputation",
+    "89527": {
+      "Name": "Amulet of Swirling Mists",
+      "Source": "The Golden Lotus",
+      "SourceType": "Token",
       "SourceNumber": "0",
-      "SourceLocation": "Friendly",
+      "SourceLocation": "1250 Justice Points",
       "SourceFaction": "B"
     },
-    "44071": {
-      "Name": "Slow-Roasted Eel",
-      "Source": "The Oracles",
-      "SourceType": "Reputation",
+    "89528": {
+      "Name": "Necklace of Jade Pearls",
+      "Source": "The Golden Lotus",
+      "SourceType": "Token",
       "SourceNumber": "0",
-      "SourceLocation": "Honored",
+      "SourceLocation": "1250 Justice Points",
       "SourceFaction": "B"
     },
-    "44072": {
-      "Name": "Roasted Mystery Beast",
-      "Source": "Frenzyheart Tribe",
-      "SourceType": "Reputation",
+    "89529": {
+      "Name": "Pendant of Endless Inquisition",
+      "Source": "The Golden Lotus",
+      "SourceType": "Token",
       "SourceNumber": "0",
-      "SourceLocation": "Friendly",
+      "SourceLocation": "1250 Justice Points",
       "SourceFaction": "B"
     },
-    "44073": {
-      "Name": "Frenzyheart Insignia of Fury",
-      "Source": "Frenzyheart Tribe",
-      "SourceType": "Reputation",
+    "89530": {
+      "Name": "Triumphant Conqueror's Chain",
+      "Source": "The Golden Lotus",
+      "SourceType": "Token",
       "SourceNumber": "0",
-      "SourceLocation": "Exalted",
+      "SourceLocation": "1250 Justice Points",
       "SourceFaction": "B"
     },
-    "44074": {
-      "Name": "Oracle Talisman of Ablution",
-      "Source": "The Oracles",
-      "SourceType": "Reputation",
+    "89531": {
+      "Name": "Gorget of Usurped Kings",
+      "Source": "The Golden Lotus",
+      "SourceType": "Token",
       "SourceNumber": "0",
-      "SourceLocation": "Exalted",
+      "SourceLocation": "1250 Justice Points",
       "SourceFaction": "B"
     },
-    "44080": {
-      "Name": "Reins of the Ice Mammoth",
-      "Source": "The Sons of Hodir",
-      "SourceType": "Reputation",
+    "89532": {
+      "Name": "Bladesong Cloak",
+      "Source": "The August Celestials",
+      "SourceType": "Token",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
+      "SourceLocation": "1250 Justice Points",
       "SourceFaction": "B"
     },
-    "44086": {
-      "Name": "Reins of the Grand Ice Mammoth",
-      "Source": "The Sons of Hodir",
-      "SourceType": "Reputation",
+    "89533": {
+      "Name": "Cloak of Ancient Curses",
+      "Source": "The August Celestials",
+      "SourceType": "Token",
       "SourceNumber": "0",
-      "SourceLocation": "Exalted",
+      "SourceLocation": "1250 Justice Points",
       "SourceFaction": "B"
     },
-    "44104": {
-      "Name": "Fishy Cinch",
-      "Source": "The Oracles",
-      "SourceType": "Reputation",
+    "89534": {
+      "Name": "Pressed Flower Cloak",
+      "Source": "The August Celestials",
+      "SourceType": "Token",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
+      "SourceLocation": "1250 Justice Points",
       "SourceFaction": "B"
     },
-    "44106": {
-      "Name": "Glitterscale Wrap",
-      "Source": "The Oracles",
-      "SourceType": "Reputation",
+    "89535": {
+      "Name": "Ribcracker's Cloak",
+      "Source": "The August Celestials",
+      "SourceType": "Token",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
+      "SourceLocation": "1250 Justice Points",
       "SourceFaction": "B"
     },
-    "44108": {
-      "Name": "Shinygem Rod",
-      "Source": "The Oracles",
-      "SourceType": "Reputation",
+    "89537": {
+      "Name": "Cloak of the Silent Mountain",
+      "Source": "The August Celestials",
+      "SourceType": "Token",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
+      "SourceLocation": "1250 Justice Points",
       "SourceFaction": "B"
     },
-    "44109": {
-      "Name": "Toothslice Helm",
-      "Source": "The Oracles",
-      "SourceType": "Reputation",
+    "89642": {
+      "Name": "Bracers of Eternal Resolve",
+      "Source": "The Golden Lotus",
+      "SourceType": "Token",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
+      "SourceLocation": "1250 Justice Points",
       "SourceFaction": "B"
     },
-    "44110": {
-      "Name": "Sharkjaw Cap",
-      "Source": "The Oracles",
-      "SourceType": "Reputation",
+    "89643": {
+      "Name": "Tranquility Bindings",
+      "Source": "The Golden Lotus",
+      "SourceType": "Token",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
+      "SourceLocation": "1250 Justice Points",
       "SourceFaction": "B"
     },
-    "44111": {
-      "Name": "Gold Star Spaulders",
-      "Source": "The Oracles",
-      "SourceType": "Reputation",
+    "89644": {
+      "Name": "Sudden Insight Bracers",
+      "Source": "The Klaxxi",
+      "SourceType": "Token",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
+      "SourceLocation": "1250 Justice Points",
       "SourceFaction": "B"
     },
-    "44112": {
-      "Name": "Glimmershell Shoulder Protectors",
-      "Source": "The Oracles",
-      "SourceType": "Reputation",
+    "89645": {
+      "Name": "Cruel Mercy Bracers",
+      "Source": "The Klaxxi",
+      "SourceType": "Token",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
+      "SourceLocation": "1250 Justice Points",
       "SourceFaction": "B"
     },
-    "44116": {
-      "Name": "Muddied Crimson Gloves",
-      "Source": "Frenzyheart Tribe",
-      "SourceType": "Reputation",
+    "89646": {
+      "Name": "Runoff Wristguards",
+      "Source": "The Klaxxi",
+      "SourceType": "Token",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
+      "SourceLocation": "1250 Justice Points",
       "SourceFaction": "B"
     },
-    "44117": {
-      "Name": "Azure Strappy Pants",
-      "Source": "Frenzyheart Tribe",
-      "SourceType": "Reputation",
+    "89647": {
+      "Name": "Entombed Traitor's Wristguards",
+      "Source": "The Klaxxi",
+      "SourceType": "Token",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
+      "SourceLocation": "1250 Justice Points",
       "SourceFaction": "B"
     },
-    "44118": {
-      "Name": "Stolen Vrykul Harpoon",
-      "Source": "Frenzyheart Tribe",
-      "SourceType": "Reputation",
+    "89648": {
+      "Name": "Bracers of Inner Light",
+      "Source": "The Golden Lotus",
+      "SourceType": "Token",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
+      "SourceLocation": "1250 Justice Points",
       "SourceFaction": "B"
     },
-    "44120": {
-      "Name": "Giant-Sized Gauntlets",
-      "Source": "Frenzyheart Tribe",
-      "SourceType": "Reputation",
+    "89649": {
+      "Name": "Serrated Forearm Guards",
+      "Source": "The Golden Lotus",
+      "SourceType": "Token",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
+      "SourceLocation": "1250 Justice Points",
       "SourceFaction": "B"
     },
-    "44121": {
-      "Name": "Sparkly Shiny Gloves",
-      "Source": "Frenzyheart Tribe",
-      "SourceType": "Reputation",
+    "89650": {
+      "Name": "Emperor's Riding Gloves",
+      "Source": "The Klaxxi",
+      "SourceType": "Token",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
+      "SourceLocation": "1750 Justice Points",
       "SourceFaction": "B"
     },
-    "44122": {
-      "Name": "Scavenged Feathery Leggings",
-      "Source": "Frenzyheart Tribe",
-      "SourceType": "Reputation",
+    "89651": {
+      "Name": "Krompf's Fine-Tuning Gloves",
+      "Source": "The Klaxxi",
+      "SourceType": "Token",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
+      "SourceLocation": "1750 Justice Points",
       "SourceFaction": "B"
     },
-    "44123": {
-      "Name": "Discarded Titanium Legplates",
-      "Source": "Frenzyheart Tribe",
-      "SourceType": "Reputation",
+    "89652": {
+      "Name": "Wandering Friar's Gloves",
+      "Source": "The Golden Lotus",
+      "SourceType": "Token",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
+      "SourceLocation": "1750 Justice Points",
       "SourceFaction": "B"
     },
-    "44129": {
-      "Name": "Lesser Inscription of the Storm ",
-      "Source": "The Sons of Hodir",
-      "SourceType": "Reputation",
+    "89653": {
+      "Name": "Surehand Grips",
+      "Source": "The Golden Lotus",
+      "SourceType": "Token",
       "SourceNumber": "0",
-      "SourceLocation": "Honored",
+      "SourceLocation": "1750 Justice Points",
       "SourceFaction": "B"
     },
-    "44130": {
-      "Name": "Lesser Inscription of the Crag",
-      "Source": "The Sons of Hodir",
-      "SourceType": "Reputation",
+    "89654": {
+      "Name": "Gloves of Forgotten Wisdom",
+      "Source": "Shado-Pan",
+      "SourceType": "Token",
       "SourceNumber": "0",
-      "SourceLocation": "Honored",
+      "SourceLocation": "1750 Justice Points",
       "SourceFaction": "B"
     },
-    "44131": {
-      "Name": "Lesser Inscription of the Axe",
-      "Source": "The Sons of Hodir",
-      "SourceType": "Reputation",
+    "89655": {
+      "Name": "Brushcutter's Gloves",
+      "Source": "Shado-Pan",
+      "SourceType": "Token",
       "SourceNumber": "0",
-      "SourceLocation": "Honored",
+      "SourceLocation": "1750 Justice Points",
       "SourceFaction": "B"
     },
-    "44132": {
-      "Name": "Lesser Inscription of the Pinnacle",
-      "Source": "The Sons of Hodir",
-      "SourceType": "Reputation",
+    "89656": {
+      "Name": "Gauntlets of Restraint",
+      "Source": "Shado-Pan",
+      "SourceType": "Token",
       "SourceNumber": "0",
-      "SourceLocation": "Honored",
+      "SourceLocation": "1750 Justice Points",
       "SourceFaction": "B"
     },
-    "44133": {
-      "Name": "Greater Inscription of the Axe",
-      "Source": "The Sons of Hodir",
-      "SourceType": "Reputation",
+    "89657": {
+      "Name": "Wall Breaker Gauntlets",
+      "Source": "Shado-Pan",
+      "SourceType": "Token",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "1750 Justice Points",
       "SourceFaction": "B"
     },
-    "44134": {
-      "Name": "Greater Inscription of the Crag",
-      "Source": "The Sons of Hodir",
-      "SourceType": "Reputation",
+    "89658": {
+      "Name": "Subversive Leggings",
+      "Source": "The August Celestials",
+      "SourceType": "Token",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "2250 Justice Points",
       "SourceFaction": "B"
     },
-    "44135": {
-      "Name": "Greater Inscription of the Storm",
-      "Source": "The Sons of Hodir",
-      "SourceType": "Reputation",
+    "89659": {
+      "Name": "Leggings of Unfinished Conquest",
+      "Source": "The August Celestials",
+      "SourceType": "Token",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "2250 Justice Points",
       "SourceFaction": "B"
     },
-    "44136": {
-      "Name": "Greater Inscription of the Pinnacle",
-      "Source": "The Sons of Hodir",
-      "SourceType": "Reputation",
+    "89660": {
+      "Name": "Brambleguard Leggings",
+      "Source": "Shado-Pan",
+      "SourceType": "Token",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "2250 Justice Points",
       "SourceFaction": "B"
     },
-    "44137": {
-      "Name": "Arcanum of the Frosty Soul",
-      "Source": "The Sons of Hodir",
-      "SourceType": "Reputation",
+    "89661": {
+      "Name": "Tough Mushanhide Leggings",
+      "Source": "Shado-Pan",
+      "SourceType": "Token",
       "SourceNumber": "0",
-      "SourceLocation": "Honored",
+      "SourceLocation": "2250 Justice Points",
       "SourceFaction": "B"
     },
-    "44138": {
-      "Name": "Arcanum of Toxic Warding",
-      "Source": "Knights of the Ebon Blade",
-      "SourceType": "Reputation",
+    "89662": {
+      "Name": "Snowpack Waders",
+      "Source": "The Golden Lotus",
+      "SourceType": "Token",
       "SourceNumber": "0",
-      "SourceLocation": "Honored",
+      "SourceLocation": "2250 Justice Points",
       "SourceFaction": "B"
     },
-    "44139": {
-      "Name": "Arcanum of the Fleeing Shadow",
-      "Source": "Argent Crusade",
-      "SourceType": "Reputation",
+    "89663": {
+      "Name": "Leggings of Twisted Vines",
+      "Source": "The Golden Lotus",
+      "SourceType": "Token",
       "SourceNumber": "0",
-      "SourceLocation": "Honored",
+      "SourceLocation": "2250 Justice Points",
       "SourceFaction": "B"
     },
-    "44140": {
-      "Name": "Arcanum of the Eclipsed Moon",
-      "Source": "The Wyrmrest Accord",
-      "SourceType": "Reputation",
+    "89664": {
+      "Name": "Valiant's Shinguards",
+      "Source": "The August Celestials",
+      "SourceType": "Token",
       "SourceNumber": "0",
-      "SourceLocation": "Honored",
+      "SourceLocation": "2250 Justice Points",
       "SourceFaction": "B"
     },
-    "44141": {
-      "Name": "Arcanum of the Flame's Soul",
-      "Source": "Kirin Tor",
-      "SourceType": "Reputation",
+    "89665": {
+      "Name": "Leggings of Ponderous Advance",
+      "Source": "The August Celestials",
+      "SourceType": "Token",
       "SourceNumber": "0",
-      "SourceLocation": "Honored",
+      "SourceLocation": "2250 Justice Points",
       "SourceFaction": "B"
     },
-    "44149": {
-      "Name": "Arcanum of Torment",
-      "Source": "Knights of the Ebon Blade",
-      "SourceType": "Reputation",
+    "89666": {
+      "Name": "Vestment of the Ascendant Tribe",
+      "Source": "The August Celestials",
+      "SourceType": "Token",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "2250 Justice Points",
       "SourceFaction": "B"
     },
-    "44150": {
-      "Name": "Arcanum of the Stalwart Protector",
-      "Source": "Argent Crusade",
-      "SourceType": "Reputation",
+    "89667": {
+      "Name": "Refurbished Zandalari Vestment",
+      "Source": "The August Celestials",
+      "SourceType": "Token",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "2250 Justice Points",
       "SourceFaction": "B"
     },
-    "44152": {
-      "Name": "Arcanum of Blissful Mending",
-      "Source": "The Wyrmrest Accord",
-      "SourceType": "Reputation",
+    "89668": {
+      "Name": "Mountain Stream Ringmail",
+      "Source": "The August Celestials",
+      "SourceType": "Token",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "2250 Justice Points",
       "SourceFaction": "B"
     },
-    "44159": {
-      "Name": "Arcanum of Burning Mysteries",
-      "Source": "Kirin Tor",
-      "SourceType": "Reputation",
+    "89669": {
+      "Name": "Undergrowth Stalker Chestpiece",
+      "Source": "The August Celestials",
+      "SourceType": "Token",
       "SourceNumber": "0",
-      "SourceLocation": "",
+      "SourceLocation": "2250 Justice Points",
       "SourceFaction": "B"
     },
-    "44166": {
-      "Name": "Lightblade Rivener",
-      "Source": "Kirin Tor",
-      "SourceType": "Reputation",
+    "89670": {
+      "Name": "Inner Serenity Chestplate",
+      "Source": "The Klaxxi",
+      "SourceType": "Token",
       "SourceNumber": "0",
-      "SourceLocation": "Honored",
+      "SourceLocation": "2250 Justice Points",
       "SourceFaction": "B"
     },
-    "44167": {
-      "Name": "Shroud of Dedicated Research",
-      "Source": "Kirin Tor",
-      "SourceType": "Reputation",
+    "89671": {
+      "Name": "Chestplate of the Stone Lion",
+      "Source": "The Klaxxi",
+      "SourceType": "Token",
       "SourceNumber": "0",
-      "SourceLocation": "Honored",
+      "SourceLocation": "2250 Justice Points",
       "SourceFaction": "B"
     },
-    "44170": {
-      "Name": "Helm of the Majestic Stag",
-      "Source": "Kirin Tor",
-      "SourceType": "Reputation",
+    "89672": {
+      "Name": "Robe of Quiet Meditation",
+      "Source": "Shado-Pan",
+      "SourceType": "Token",
       "SourceNumber": "0",
-      "SourceLocation": "Honored",
+      "SourceLocation": "2250 Justice Points",
       "SourceFaction": "B"
     },
-    "44171": {
-      "Name": "Spaulders of Grounded Lightning",
-      "Source": "Kirin Tor",
-      "SourceType": "Reputation",
+    "89673": {
+      "Name": "Robe of Eternal Dynasty",
+      "Source": "Shado-Pan",
+      "SourceType": "Token",
       "SourceNumber": "0",
-      "SourceLocation": "Honored",
+      "SourceLocation": "2250 Justice Points",
       "SourceFaction": "B"
     },
-    "44173": {
-      "Name": "Flameheart Spell Scalpel",
-      "Source": "Kirin Tor",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
-    },
-    "44174": {
-      "Name": "Stave of Shrouded Mysteries",
-      "Source": "Kirin Tor",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
-    },
-    "44176": {
-      "Name": "Girdle of the Warrior Magi",
-      "Source": "Kirin Tor",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
-    },
-    "44179": {
-      "Name": "Mind-Expanding Leggings",
-      "Source": "Kirin Tor",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
-    },
-    "44180": {
-      "Name": "Robes of Crackling Flame",
-      "Source": "Kirin Tor",
+    "89797": {
+      "Name": "Golden Lotus Tabard",
+      "Source": "The Golden Lotus",
       "SourceType": "Reputation",
       "SourceNumber": "0",
       "SourceLocation": "Exalted",
       "SourceFaction": "B"
     },
-    "44181": {
-      "Name": "Ghostflicker Waistband",
-      "Source": "Kirin Tor",
+    "89798": {
+      "Name": "Klaxxi Tabard",
+      "Source": "The Klaxxi",
       "SourceType": "Reputation",
       "SourceNumber": "0",
       "SourceLocation": "Exalted",
       "SourceFaction": "B"
     },
-    "44182": {
-      "Name": "Boots of Twinkling Stars",
-      "Source": "Kirin Tor",
+    "89799": {
+      "Name": "August Celestials Tabard",
+      "Source": "The August Celestials",
       "SourceType": "Reputation",
       "SourceNumber": "0",
       "SourceLocation": "Exalted",
       "SourceFaction": "B"
     },
-    "44183": {
-      "Name": "Fireproven Gauntlets",
-      "Source": "Kirin Tor",
+    "89800": {
+      "Name": "Shado-Pan Tabard",
+      "Source": "Shado-Pan",
       "SourceType": "Reputation",
       "SourceNumber": "0",
       "SourceLocation": "Exalted",
       "SourceFaction": "B"
     },
-    "44187": {
-      "Name": "Fang of Truth",
-      "Source": "The Wyrmrest Accord",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Honored",
-      "SourceFaction": "B"
-    },
-    "44188": {
-      "Name": "Cloak of Peaceful Resolutions",
-      "Source": "The Wyrmrest Accord",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Honored",
-      "SourceFaction": "B"
-    },
-    "44189": {
-      "Name": "Giant Ring Belt",
-      "Source": "The Sons of Hodir",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Honored",
-      "SourceFaction": "B"
-    },
-    "44190": {
-      "Name": "Spaulders of Frozen Knives",
-      "Source": "The Sons of Hodir",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Honored",
-      "SourceFaction": "B"
-    },
-    "44192": {
-      "Name": "Stalactite Chopper",
-      "Source": "The Sons of Hodir",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
-    },
-    "44193": {
-      "Name": "Broken Stalactite",
-      "Source": "The Sons of Hodir",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
-    },
-    "44194": {
-      "Name": "Giant-Friend Kilt",
-      "Source": "The Sons of Hodir",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
-    },
-    "44195": {
-      "Name": "Spaulders of the Giant Lords",
-      "Source": "The Sons of Hodir",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
-    },
-    "44196": {
-      "Name": "Sash of the Wizened Wyrm",
-      "Source": "The Wyrmrest Accord",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Honored",
-      "SourceFaction": "B"
-    },
-    "44197": {
-      "Name": "Bracers of Accorded Courtesy",
-      "Source": "The Wyrmrest Accord",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Honored",
-      "SourceFaction": "B"
-    },
-    "44198": {
-      "Name": "Breastplate of the Solemn Council",
-      "Source": "The Wyrmrest Accord",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
-    },
-    "44199": {
-      "Name": "Gavel of the Brewing Storm",
-      "Source": "The Wyrmrest Accord",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
-    },
-    "44200": {
-      "Name": "Ancestral Sinew Wristguards",
-      "Source": "The Wyrmrest Accord",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
-    },
-    "44201": {
-      "Name": "Sabatons of Draconic Vigor",
-      "Source": "The Wyrmrest Accord",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
-    },
-    "44202": {
-      "Name": "Sandals of Crimson Fury",
-      "Source": "The Wyrmrest Accord",
+    "89801": {
+      "Name": "Replica Shado-Pan Helmet",
+      "Source": "Shado-Pan",
       "SourceType": "Reputation",
       "SourceNumber": "0",
       "SourceLocation": "Exalted",
       "SourceFaction": "B"
     },
-    "44203": {
-      "Name": "Dragonfriend Bracers",
-      "Source": "The Wyrmrest Accord",
+    "90844": {
+      "Name": "Replica Shado-Pan Helmet",
+      "Source": "Shado-Pan",
       "SourceType": "Reputation",
       "SourceNumber": "0",
       "SourceLocation": "Exalted",
       "SourceFaction": "B"
     },
-    "44204": {
-      "Name": "Grips of Fierce Pronouncements",
-      "Source": "The Wyrmrest Accord",
+    "90845": {
+      "Name": "Replica Shado-Pan Helmet",
+      "Source": "Shado-Pan",
       "SourceType": "Reputation",
       "SourceNumber": "0",
       "SourceLocation": "Exalted",
       "SourceFaction": "B"
     },
-    "44205": {
-      "Name": "Legplates of Bloody Reprisal",
-      "Source": "The Wyrmrest Accord",
+    "90846": {
+      "Name": "Replica Shado-Pan Helmet",
+      "Source": "Shado-Pan",
       "SourceType": "Reputation",
       "SourceNumber": "0",
       "SourceLocation": "Exalted",
       "SourceFaction": "B"
     },
-    "44214": {
-      "Name": "Purifying Torch",
-      "Source": "Argent Crusade",
+    "93243": {
+      "Name": "Signet of the Shieldwall",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
+      "SourceLocation": "Honored (1250 Valor Points)",
+      "SourceFaction": "A"
     },
-    "44216": {
-      "Name": "Cloak of Holy Extermination",
-      "Source": "Argent Crusade",
+    "93244": {
+      "Name": "Band of the Shieldwall",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Honored",
-      "SourceFaction": "B"
+      "SourceLocation": "Honored (1250 Valor Points)",
+      "SourceFaction": "A"
     },
-    "44239": {
-      "Name": "Standard Issue Legguards",
-      "Source": "Argent Crusade",
+    "93245": {
+      "Name": "Loop of the Shieldwall",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Honored",
-      "SourceFaction": "B"
+      "SourceLocation": "Honored (1250 Valor Points)",
+      "SourceFaction": "A"
     },
-    "44240": {
-      "Name": "Special Issue Legplates",
-      "Source": "Argent Crusade",
+    "93246": {
+      "Name": "Circle of the Shieldwall",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Honored",
-      "SourceFaction": "B"
+      "SourceLocation": "Honored (1250 Valor Points)",
+      "SourceFaction": "A"
     },
-    "44241": {
-      "Name": "Unholy Persuader",
-      "Source": "Knights of the Ebon Blade",
+    "93247": {
+      "Name": "Seal of the Shieldwall",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Honored",
-      "SourceFaction": "B"
+      "SourceLocation": "Honored (1250 Valor Points)",
+      "SourceFaction": "A"
     },
-    "44242": {
-      "Name": "Dark Soldier Cape",
-      "Source": "Knights of the Ebon Blade",
+    "93248": {
+      "Name": "Dominator's Signet",
+      "Source": "Dominance Offensive",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Honored",
-      "SourceFaction": "B"
+      "SourceLocation": "Honored (1250 Valor Points)",
+      "SourceFaction": "H"
     },
-    "44243": {
-      "Name": "Toxin-Tempered Sabatons",
-      "Source": "Knights of the Ebon Blade",
+    "93249": {
+      "Name": "Dominator's Band",
+      "Source": "Dominance Offensive",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Honored",
-      "SourceFaction": "B"
+      "SourceLocation": "Honored (1250 Valor Points)",
+      "SourceFaction": "H"
     },
-    "44244": {
-      "Name": "Argent Skeleton Crusher",
-      "Source": "Argent Crusade",
+    "93250": {
+      "Name": "Dominator's Loop",
+      "Source": "Dominance Offensive",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
+      "SourceLocation": "Honored (1250 Valor Points)",
+      "SourceFaction": "H"
     },
-    "44245": {
-      "Name": "Zombie Sweeper Shotgun",
-      "Source": "Argent Crusade",
+    "93251": {
+      "Name": "Dominator's Circle",
+      "Source": "Dominance Offensive",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
+      "SourceLocation": "Honored (1250 Valor Points)",
+      "SourceFaction": "H"
     },
-    "44247": {
-      "Name": "Fang-Deflecting Faceguard",
-      "Source": "Argent Crusade",
+    "93252": {
+      "Name": "Dominator's Seal",
+      "Source": "Dominance Offensive",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
+      "SourceLocation": "Honored (1250 Valor Points)",
+      "SourceFaction": "H"
     },
-    "44248": {
-      "Name": "Battle Mender's Helm",
-      "Source": "Argent Crusade",
+    "93253": {
+      "Name": "Woundripper Medallion",
+      "Source": "Dominance Offensive",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
+      "SourceLocation": "Revered (1750 Valor Points)",
+      "SourceFaction": "H"
     },
-    "44249": {
-      "Name": "Runeblade of Demonstrable Power",
-      "Source": "Knights of the Ebon Blade",
+    "93254": {
+      "Name": "Static-Caster's Medallion",
+      "Source": "Dominance Offensive",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
+      "SourceLocation": "Revered (1750 Valor Points)",
+      "SourceFaction": "H"
     },
-    "44250": {
-      "Name": "Reaper of Dark Souls",
-      "Source": "Knights of the Ebon Blade",
+    "93255": {
+      "Name": "Cutstitcher Medallion",
+      "Source": "Dominance Offensive",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
+      "SourceLocation": "Revered (1750 Valor Points)",
+      "SourceFaction": "H"
     },
-    "44256": {
-      "Name": "Sterile Flesh-Handling Gloves",
-      "Source": "Knights of the Ebon Blade",
+    "93256": {
+      "Name": "Skullrender Medallion",
+      "Source": "Dominance Offensive",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
+      "SourceLocation": "Revered (1750 Valor Points)",
+      "SourceFaction": "H"
     },
-    "44257": {
-      "Name": "Spaulders of the Black Arrow",
-      "Source": "Knights of the Ebon Blade",
+    "93257": {
+      "Name": "Medallion of Mystifying Vapors",
+      "Source": "Dominance Offensive",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
+      "SourceLocation": "Revered (1750 Valor Points)",
+      "SourceFaction": "H"
     },
-    "44258": {
-      "Name": "Wound-Binder's Wristguards",
-      "Source": "Knights of the Ebon Blade",
+    "93258": {
+      "Name": "Arrowflight Medallion",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
+      "SourceLocation": "Revered (1750 Valor Points)",
+      "SourceFaction": "A"
     },
-    "44283": {
-      "Name": "Signet of Hopeful Light",
-      "Source": "Argent Crusade",
+    "93259": {
+      "Name": "Shock-Charger Medallion",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Exalted",
-      "SourceFaction": "B"
+      "SourceLocation": "Revered (1750 Valor Points)",
+      "SourceFaction": "A"
     },
-    "44295": {
-      "Name": "Polished Regimental Hauberk",
-      "Source": "Argent Crusade",
+    "93260": {
+      "Name": "Heartwarmer Medallion",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Exalted",
-      "SourceFaction": "B"
+      "SourceLocation": "Revered (1750 Valor Points)",
+      "SourceFaction": "A"
     },
-    "44296": {
-      "Name": "Helm of Purified Thoughts",
-      "Source": "Argent Crusade",
+    "93261": {
+      "Name": "Helmbreaker Medallion",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Exalted",
-      "SourceFaction": "B"
+      "SourceLocation": "Revered (1750 Valor Points)",
+      "SourceFaction": "A"
     },
-    "44297": {
-      "Name": "Boots of the Neverending Path",
-      "Source": "Argent Crusade",
+    "93262": {
+      "Name": "Vaporshield Medallion",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Exalted",
-      "SourceFaction": "B"
+      "SourceLocation": "Revered (1750 Valor Points)",
+      "SourceFaction": "A"
     },
-    "44302": {
-      "Name": "Belt of Dark Mending",
-      "Source": "Knights of the Ebon Blade",
+    "93263": {
+      "Name": "Groundbreaker Sabatons",
+      "Source": "Dominance Offensive",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Exalted",
-      "SourceFaction": "B"
+      "SourceLocation": "Revered (1750 Valor Points)",
+      "SourceFaction": "H"
     },
-    "44303": {
-      "Name": "Darkheart Chestguard",
-      "Source": "Knights of the Ebon Blade",
+    "93264": {
+      "Name": "Cragchewer Sollerets",
+      "Source": "Dominance Offensive",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Exalted",
-      "SourceFaction": "B"
+      "SourceLocation": "Revered (1750 Valor Points)",
+      "SourceFaction": "H"
     },
-    "44305": {
-      "Name": "Kilt of Dark Mercy",
-      "Source": "Knights of the Ebon Blade",
+    "93265": {
+      "Name": "Scar Swallower Greatboots",
+      "Source": "Dominance Offensive",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Exalted",
-      "SourceFaction": "B"
+      "SourceLocation": "Revered (1750 Valor Points)",
+      "SourceFaction": "H"
     },
-    "44306": {
-      "Name": "Death-Inured Sabatons",
-      "Source": "Knights of the Ebon Blade",
+    "93266": {
+      "Name": "Boots of the Healing Stream",
+      "Source": "Dominance Offensive",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Exalted",
-      "SourceFaction": "B"
+      "SourceLocation": "Revered (1750 Valor Points)",
+      "SourceFaction": "H"
     },
-    "44502": {
-      "Name": "Schematic: Mechano-hog",
-      "Source": "Horde Expedition",
+    "93267": {
+      "Name": "Greaves of Manifest Destiny",
+      "Source": "Dominance Offensive",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Exalted",
-      "SourceFaction": "B"
+      "SourceLocation": "Revered (1750 Valor Points)",
+      "SourceFaction": "H"
     },
-    "44503": {
-      "Name": "Schematic: Mekgineer's Chopper",
-      "Source": "Alliance Vanguard",
+    "93268": {
+      "Name": "Treads of Rejuvenating Mists",
+      "Source": "Dominance Offensive",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Exalted",
-      "SourceFaction": "B"
+      "SourceLocation": "Revered (1750 Valor Points)",
+      "SourceFaction": "H"
     },
-    "44509": {
-      "Name": "Pattern: Trapper's Traveling Pack",
-      "Source": "The Kalu'ak",
+    "93269": {
+      "Name": "Troll-Toe Tabi",
+      "Source": "Dominance Offensive",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
+      "SourceLocation": "Revered (1750 Valor Points)",
+      "SourceFaction": "H"
     },
-    "44510": {
-      "Name": "Pattern: Mammoth Mining Bag",
-      "Source": "The Sons of Hodir",
+    "93270": {
+      "Name": "Slippers of Soothing Balm",
+      "Source": "Dominance Offensive",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Honored",
-      "SourceFaction": "B"
+      "SourceLocation": "Revered (1750 Valor Points)",
+      "SourceFaction": "H"
     },
-    "44511": {
-      "Name": "Pattern: Dragonscale Ammo Pouch",
-      "Source": "The Kalu'ak",
+    "93271": {
+      "Name": "Beach-Born Sandals",
+      "Source": "Dominance Offensive",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Honored",
-      "SourceFaction": "B"
+      "SourceLocation": "Revered (1750 Valor Points)",
+      "SourceFaction": "H"
     },
-    "44512": {
-      "Name": "Pattern: Nerubian Reinforced Quiver",
-      "Source": "Knights of the Ebon Blade",
+    "93272": {
+      "Name": "Sabatons of the Sullied Shore",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Honored",
-      "SourceFaction": "B"
+      "SourceLocation": "Revered (1750 Valor Points)",
+      "SourceFaction": "A"
     },
-    "44701": {
-      "Name": "Arcanum of the Savage Gladiator",
-      "Source": "Alliance Vanguard",
+    "93273": {
+      "Name": "Sea-Soaked Sollerets",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
-      "SourceFaction": "B"
+      "SourceLocation": "Revered (1750 Valor Points)",
+      "SourceFaction": "A"
     },
-    "44702": {
-      "Name": "Arcanum of the Savage Gladiator",
-      "Source": "Horde Expedition",
+    "93274": {
+      "Name": "Greatboots of Flashing Light",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "",
-      "SourceFaction": "B"
+      "SourceLocation": "Revered (1750 Valor Points)",
+      "SourceFaction": "A"
     },
-    "44717": {
-      "Name": "Disgusting Jar",
-      "Source": "Frenzyheart Tribe",
+    "93275": {
+      "Name": "Totem-Binder Boots",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
+      "SourceLocation": "Revered (1750 Valor Points)",
+      "SourceFaction": "A"
     },
-    "44723": {
-      "Name": "Nurtured Penguin Egg",
-      "Source": "The Kalu'ak",
+    "93276": {
+      "Name": "Odlaw's Everwalkers",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Exalted",
-      "SourceFaction": "B"
+      "SourceLocation": "Revered (1750 Valor Points)",
+      "SourceFaction": "A"
     },
-    "44937": {
-      "Name": "Plans: Titanium Plating",
-      "Source": "Alliance Vanguard",
+    "93277": {
+      "Name": "Statue Summoner's Treads",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Exalted",
-      "SourceFaction": "B"
+      "SourceLocation": "Revered (1750 Valor Points)",
+      "SourceFaction": "A"
     },
-    "44938": {
-      "Name": "Plans: Titanium Plating",
-      "Source": "Horde Expedition",
+    "93278": {
+      "Name": "Crab-Leather Tabi",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Exalted",
-      "SourceFaction": "B"
+      "SourceLocation": "Revered (1750 Valor Points)",
+      "SourceFaction": "A"
     },
-    "45774": {
-      "Name": "Pattern: Emerald Bag",
-      "Source": "The Kalu'ak",
+    "93279": {
+      "Name": "Shieldwarden Slippers",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
+      "SourceLocation": "Revered (1750 Valor Points)",
+      "SourceFaction": "A"
     },
-    "49953": {
-      "Name": "Pattern: Leggings of Woven Death",
-      "Source": "Ashen Verdict",
+    "93280": {
+      "Name": "Sandals of Oiled Silk",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
+      "SourceLocation": "Revered (1750 Valor Points)",
+      "SourceFaction": "A"
     },
-    "49954": {
-      "Name": "Pattern: Deathfrost Boots",
-      "Source": "Ashen Verdict",
+    "93323": {
+      "Name": "Kwon's Crushing Girdle",
+      "Source": "Dominance Offensive",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Honored",
-      "SourceFaction": "B"
+      "SourceLocation": "Revered (1750 Valor Points)",
+      "SourceFaction": "H"
     },
-    "49955": {
-      "Name": "Pattern: Lightweave Leggings",
-      "Source": "Ashen Verdict",
+    "93324": {
+      "Name": "Immovable Waistplate",
+      "Source": "Dominance Offensive",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
+      "SourceLocation": "Revered (1750 Valor Points)",
+      "SourceFaction": "H"
     },
-    "49956": {
-      "Name": "Pattern: Sandals of Consecration",
-      "Source": "Ashen Verdict",
+    "93325": {
+      "Name": "Divide's Greatheart Clasp",
+      "Source": "Dominance Offensive",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Honored",
-      "SourceFaction": "B"
+      "SourceLocation": "Revered (1750 Valor Points)",
+      "SourceFaction": "H"
     },
-    "49957": {
-      "Name": "Pattern: Legwraps of Unleashed Nature",
-      "Source": "Ashen Verdict",
+    "93326": {
+      "Name": "Shigi's Chain of Cheerful Summons",
+      "Source": "Dominance Offensive",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
+      "SourceLocation": "Revered (1750 Valor Points)",
+      "SourceFaction": "H"
     },
-    "49958": {
-      "Name": "Pattern: Blessed Cenarion Boots",
-      "Source": "Ashen Verdict",
+    "93327": {
+      "Name": "Bloodbinder Links",
+      "Source": "Dominance Offensive",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Honored",
-      "SourceFaction": "B"
+      "SourceLocation": "Revered (1750 Valor Points)",
+      "SourceFaction": "H"
     },
-    "49959": {
-      "Name": "Pattern: Bladeborn Leggings",
-      "Source": "Ashen Verdict",
+    "93328": {
+      "Name": "Prevenge's Dagger-Carrier",
+      "Source": "Dominance Offensive",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
+      "SourceLocation": "Revered (1750 Valor Points)",
+      "SourceFaction": "H"
     },
-    "49961": {
-      "Name": "Pattern: Footpads of Impending Death",
-      "Source": "Ashen Verdict",
+    "93329": {
+      "Name": "Bambrick's Striking Strap",
+      "Source": "Dominance Offensive",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Honored",
-      "SourceFaction": "B"
+      "SourceLocation": "Revered (1750 Valor Points)",
+      "SourceFaction": "H"
     },
-    "49962": {
-      "Name": "Pattern: Lightning-Infused Leggings",
-      "Source": "Ashen Verdict",
+    "93330": {
+      "Name": "Chang's Changing Cord",
+      "Source": "Dominance Offensive",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
+      "SourceLocation": "Revered (1750 Valor Points)",
+      "SourceFaction": "H"
     },
-    "49963": {
-      "Name": "Pattern: Earthsoul Boots",
-      "Source": "Ashen Verdict",
+    "93331": {
+      "Name": "Sash of Surehandedness",
+      "Source": "Dominance Offensive",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Honored",
-      "SourceFaction": "B"
+      "SourceLocation": "Revered (1750 Valor Points)",
+      "SourceFaction": "H"
     },
-    "49965": {
-      "Name": "Pattern: Draconic Bonesplinter Legguards",
-      "Source": "Ashen Verdict",
+    "93332": {
+      "Name": "Girdle of Crushing Strength",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
+      "SourceLocation": "Revered (1750 Valor Points)",
+      "SourceFaction": "A"
     },
-    "49966": {
-      "Name": "Pattern: Rock-Steady Treads",
-      "Source": "Ashen Verdict",
+    "93333": {
+      "Name": "Waistplate of Immobility",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Honored",
-      "SourceFaction": "B"
+      "SourceLocation": "Revered (1750 Valor Points)",
+      "SourceFaction": "A"
     },
-    "49969": {
-      "Name": "Plans: Puresteel Legplates",
-      "Source": "Ashen Verdict",
+    "93334": {
+      "Name": "Divide's Loyal Clasp",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
+      "SourceLocation": "Revered (1750 Valor Points)",
+      "SourceFaction": "A"
     },
-    "49970": {
-      "Name": "Plans: Protectors of Life",
-      "Source": "Ashen Verdict",
+    "93335": {
+      "Name": "Chain of Flaming Arrows",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Honored",
-      "SourceFaction": "B"
+      "SourceLocation": "Revered (1750 Valor Points)",
+      "SourceFaction": "A"
     },
-    "49971": {
-      "Name": "Plans: Legplates of Painful Death",
-      "Source": "Ashen Verdict",
+    "93336": {
+      "Name": "Links of Bonded Blood",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
+      "SourceLocation": "Revered (1750 Valor Points)",
+      "SourceFaction": "A"
     },
-    "49972": {
-      "Name": "Plans: Hellfrozen Bonegrinders",
-      "Source": "Ashen Verdict",
+    "93337": {
+      "Name": "Prevenge's Swashbuckling Cinch",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Honored",
-      "SourceFaction": "B"
+      "SourceLocation": "Revered (1750 Valor Points)",
+      "SourceFaction": "A"
     },
-    "49973": {
-      "Name": "Plans: Pillars of Might",
-      "Source": "Ashen Verdict",
+    "93338": {
+      "Name": "Soothing Straps",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
+      "SourceLocation": "Revered (1750 Valor Points)",
+      "SourceFaction": "A"
     },
-    "49974": {
-      "Name": "Plans: Boots of Kingly Upheaval",
-      "Source": "Ashen Verdict",
+    "93339": {
+      "Name": "Bon-iy's Unbreakable Cord",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Honored",
-      "SourceFaction": "B"
+      "SourceLocation": "Revered (1750 Valor Points)",
+      "SourceFaction": "A"
     },
-    "50335": {
-      "Name": "Greater Inscription of the Axe",
-      "Source": "The Sons of Hodir",
+    "93340": {
+      "Name": "Sash of Bouncing Power",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Exalted",
-      "SourceFaction": "B"
+      "SourceLocation": "Revered (1750 Valor Points)",
+      "SourceFaction": "A"
     },
-    "50336": {
-      "Name": "Greater Inscription of the Crag",
-      "Source": "The Sons of Hodir",
+    "93341": {
+      "Name": "Dominator's Deadeye Badge",
+      "Source": "Dominance Offensive",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Exalted",
-      "SourceFaction": "B"
+      "SourceLocation": "Honored (1750 Justice Points)",
+      "SourceFaction": "H"
     },
-    "50337": {
-      "Name": "Greater Inscription of the Pinnacle",
-      "Source": "The Sons of Hodir",
+    "93342": {
+      "Name": "Dominator's Arcane Badge",
+      "Source": "Dominance Offensive",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Exalted",
-      "SourceFaction": "B"
+      "SourceLocation": "Honored (1750 Justice Points)",
+      "SourceFaction": "H"
     },
-    "50338": {
-      "Name": "Greater Inscription of the Storm",
-      "Source": "The Sons of Hodir",
+    "93343": {
+      "Name": "Dominator's Mending Badge",
+      "Source": "Dominance Offensive",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Exalted",
-      "SourceFaction": "B"
+      "SourceLocation": "Honored (1750 Justice Points)",
+      "SourceFaction": "H"
     },
-    "50367": {
-      "Name": "Arcanum of Torment",
-      "Source": "Knights of the Ebon Blade",
+    "93344": {
+      "Name": "Dominator's Knightly Badge",
+      "Source": "Dominance Offensive",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
+      "SourceLocation": "Honored (1750 Justice Points)",
+      "SourceFaction": "H"
     },
-    "50368": {
-      "Name": "Arcanum of Burning Mysteries",
-      "Source": "Kirin Tor",
+    "93345": {
+      "Name": "Dominator's Durable Badge",
+      "Source": "Dominance Offensive",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
+      "SourceLocation": "Honored (1750 Justice Points)",
+      "SourceFaction": "H"
     },
-    "50369": {
-      "Name": "Arcanum of the Stalwart Protector",
-      "Source": "Argent Crusade",
+    "93346": {
+      "Name": "Deadeye Badge of the Shieldwall",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
+      "SourceLocation": "Honored (1750 Justice Points)",
+      "SourceFaction": "A"
     },
-    "50370": {
-      "Name": "Arcanum of Blissful Mending",
-      "Source": "The Wyrmrest Accord",
+    "93347": {
+      "Name": "Arcane Badge of the Shieldwall",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
-      "SourceFaction": "B"
+      "SourceLocation": "Honored (1750 Justice Points)",
+      "SourceFaction": "A"
     },
-    "50372": {
-      "Name": "Arcanum of the Savage Gladiator",
-      "Source": "Alliance Vanguard",
+    "93348": {
+      "Name": "Mending Badge of the Shieldwall",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Exalted",
-      "SourceFaction": "B"
+      "SourceLocation": "Honored (1750 Justice Points)",
+      "SourceFaction": "A"
     },
-    "50373": {
-      "Name": "Arcanum of the Savage Gladiator",
-      "Source": "Horde Expedition",
+    "93349": {
+      "Name": "Knightly Badge of the Shieldwall",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Exalted",
-      "SourceFaction": "B"
+      "SourceLocation": "Honored (1750 Justice Points)",
+      "SourceFaction": "A"
     },
-    "52022": {
-      "Name": "Plans: Shatter Rounds",
-      "Source": "Ashen Verdict",
+    "93350": {
+      "Name": "Durable Badge of the Shieldwall",
+      "Source": "Operation: Shieldwall",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Honored",
-      "SourceFaction": "B"
-    },
-    "52023": {
-      "Name": "Plans: Iceblade Arrow",
-      "Source": "Ashen Verdict",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Honored",
-      "SourceFaction": "B"
-    },
-    "206392": {
-      "Name": "Tabard of the Sons of Hodir",
-      "Source": "The Sons of Hodir",
-      "SourceType": "Reputation",
-      "SourceNumber": "0",
-      "SourceLocation": "Friendly",
-      "SourceFaction": "B"
+      "SourceLocation": "Honored (1750 Justice Points)",
+      "SourceFaction": "A"
     }
   }
 }
