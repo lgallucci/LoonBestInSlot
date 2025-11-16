@@ -184,7 +184,7 @@ if GetLocale() == "esES" then
 --  LBIS.L["Harrison Jones and the Temple of Uldum"] = "";
   LBIS.L["Hazza'rah"] = "Hazza'rah";
   LBIS.L["Head"] = "Cabeza";
-  LBIS.L["Head~Shoulder"] = "Cabeza~Hombro";
+  LBIS.L["Head~Shoulder"] = "Cabeza~Hombros";
   LBIS.L["Headless Horseman"] = "Cofre de los Cuatro Jinetes";
   LBIS.L["Helix Gearbreaker"] = "Helix Rompengranajes";
   LBIS.L["Hellscream's Reach"] = "Mando Grito Infernal";
