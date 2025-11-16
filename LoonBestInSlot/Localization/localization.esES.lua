@@ -330,7 +330,7 @@ if GetLocale() == "esES" then
   LBIS.L["Shattrath City"] = "Ciudad de Shattrath";
   LBIS.L["Shirt"] = "Camisa";
   LBIS.L["Sholazar Basin"] = "Cuenca de Sholazar";
-  LBIS.L["Shoulder"] = "Espalda";
+  LBIS.L["Shoulder"] = "Hombros";
 --  LBIS.L["Show Custom"] = "";
   LBIS.L["Show Minimap Button"] = "Botón Mostrar minimapa";
   LBIS.L["Show Tooltip"] = "Mostrar Descripción Emergente";
