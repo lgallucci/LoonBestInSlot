@@ -822,7 +822,7 @@ if GetLocale() == "esES" then
 --  LBIS.L["Shifting Scale Talisman"] = "";
   LBIS.L["Shirt"] = "Camisa";
   LBIS.L["Shizzle's Flyer"] = "El aparato volador de Shizzle";
-  LBIS.L["Shoulder"] = "Espalda";
+  LBIS.L["Shoulder"] = "Hombros";
 --  LBIS.L["Show Custom"] = "";
   LBIS.L["Show Minimap Button"] = "Botón Mostrar minimapa";
   LBIS.L["Show Tooltip"] = "Mostrar Descripción Emergente";
