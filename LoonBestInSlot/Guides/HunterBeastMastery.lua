@@ -23,6 +23,7 @@ LBIS:AddEnchant(spec2, "82175", LBIS.L["Hands"]) --
 LBIS:AddEnchant(spec2, "122387", LBIS.L["Legs"]) --
 LBIS:AddEnchant(spec2, "104409", LBIS.L["Feet"]) --
 LBIS:AddEnchant(spec2, "109086", LBIS.L["Main Hand"]) --
+LBIS:AddEnchant(spec2, "109085", LBIS.L["Main Hand"]) --
 
 LBIS:AddItem(spec0, "86636", LBIS.L["Head"], "BIS") --Yaungol Slayer's Headguard
 LBIS:AddItem(spec0, "81105", LBIS.L["Head"], "Alt") --Swarmcall Helm

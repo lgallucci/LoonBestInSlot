@@ -222,7 +222,7 @@ LBIS:AddItem(spec2, "86746", LBIS.L["Waist"], "Alt") --Stonebound Cinch
 LBIS:AddItem(spec2, "89948", LBIS.L["Legs"], "BIS") --Fear-Blackened Leggings
 LBIS:AddItem(spec2, "89089", LBIS.L["Legs"], "Alt") --Wind-Reaver Greaves
 LBIS:AddItem(spec2, "81126", LBIS.L["Legs"], "Alt") --Leggings of Whispered Dreams
-LBIS:AddItem(spec2, "86731", LBIS.L["Legs"], "Alt") --Red Crane Legwraps
+LBIS:AddItem(spec2, "89983", LBIS.L["Legs"], "Alt") --Fear-Blackened Leggings
 LBIS:AddItem(spec2, "90514", LBIS.L["Feet"], "BIS") --Asani's Uncleansed Sandals
 LBIS:AddItem(spec2, "88876", LBIS.L["Feet"], "Alt") --Boots of the High Adept
 LBIS:AddItem(spec2, "93268", LBIS.L["Feet"], "Alt") --Treads of Rejuvenating Mists
