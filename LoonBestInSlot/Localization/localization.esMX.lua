@@ -256,7 +256,7 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Shadow of the Empire"] = "";
 --  LBIS.L["Shaman Spell"] = "";
   LBIS.L["Shirt"] = "Camisa";
-  LBIS.L["Shoulder"] = "Hombro";
+  LBIS.L["Shoulder"] = "Hombros";
 --  LBIS.L["Show Custom"] = "";
 --  LBIS.L["Show Minimap Button"] = "";
 --  LBIS.L["Show Tooltip"] = "";
