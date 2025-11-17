@@ -256,7 +256,8 @@ if GetLocale() == "esES" then
 --  LBIS.L["Shadow of the Empire"] = "";
 --  LBIS.L["Shaman Spell"] = "";
   LBIS.L["Shirt"] = "Camisa";
-  LBIS.L["Shoulder"] = "Hombro";
+  LBIS.L["Sholazar Basin"] = "Cuenca de Sholazar";
+  LBIS.L["Shoulder"] = "Hombros";
 --  LBIS.L["Show Custom"] = "";
   LBIS.L["Show Minimap Button"] = "Botón Mostrar minimapa";
   LBIS.L["Show Tooltip"] = "Mostrar Descripción Emergente";
