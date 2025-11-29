@@ -15,9 +15,6 @@ LBISSettingsDefault =
 		minimapPos = 180
 	},
 	Tooltip = {
-		[LBIS.L["Blood"]..LBIS.L["Death Knight"]] = true,
-		[LBIS.L["Frost"]..LBIS.L["Death Knight"]] = true,
-		[LBIS.L["Unholy"]..LBIS.L["Death Knight"]] = true,
 		[LBIS.L["Balance"]..LBIS.L["Druid"]] = true,
 		[LBIS.L["Bear"]..LBIS.L["Druid"]] = true,
 		[LBIS.L["Cat"]..LBIS.L["Druid"]] = true,
@@ -28,18 +25,13 @@ LBISSettingsDefault =
 		[LBIS.L["Arcane"]..LBIS.L["Mage"]] = true,
 		[LBIS.L["Fire"]..LBIS.L["Mage"]] = true,
 		[LBIS.L["Frost"]..LBIS.L["Mage"]] = true,
-		[LBIS.L["Brewmaster"]..LBIS.L["Monk"]] = true,
-		[LBIS.L["Mistweaver"]..LBIS.L["Monk"]] = true,
-		[LBIS.L["Windwalker"]..LBIS.L["Monk"]] = true,
 		[LBIS.L["Holy"]..LBIS.L["Paladin"]] = true,
 		[LBIS.L["Protection"]..LBIS.L["Paladin"]] = true,
 		[LBIS.L["Retribution"]..LBIS.L["Paladin"]] = true,
 		[LBIS.L["Discipline"]..LBIS.L["Priest"]] = true,
 		[LBIS.L["Holy"]..LBIS.L["Priest"]] = true,
 		[LBIS.L["Shadow"]..LBIS.L["Priest"]] = true,
-		[LBIS.L["Assassination"]..LBIS.L["Rogue"]] = true,
-		[LBIS.L["Combat"]..LBIS.L["Rogue"]] = true,
-		[LBIS.L["Subtlety"]..LBIS.L["Rogue"]] = true,
+		[LBIS.L["Dps"]..LBIS.L["Rogue"]] = true,
 		[LBIS.L["Elemental"]..LBIS.L["Shaman"]] = true,
 		[LBIS.L["Enhancement"]..LBIS.L["Shaman"]] = true,
 		[LBIS.L["Restoration"]..LBIS.L["Shaman"]] = true,
@@ -167,33 +159,6 @@ end
 
 local function CreateClassOptions(lbis_options)
 
-	lbis_options.args["showBloodDk"] = {
-		type = "toggle",
-		name = LBIS.L["Death Knight"]..": "..LBIS.L["Blood"],
-		desc = LBIS.L["Death Knight"]..": "..LBIS.L["Blood"],
-		get = function(info) return LBISSettings.Tooltip[LBIS.L["Blood"]..LBIS.L["Death Knight"]] end,
-		set = function(info, val) LBISSettings.Tooltip[LBIS.L["Blood"]..LBIS.L["Death Knight"]] = val end,
-		width = 1.1,
-		order = 4,
-	};
-	lbis_options.args["showFrostDk"] = {
-		type = "toggle",
-		name = LBIS.L["Death Knight"]..": "..LBIS.L["Frost"],
-		desc = LBIS.L["Death Knight"]..": "..LBIS.L["Frost"],
-		get = function(info) return LBISSettings.Tooltip[LBIS.L["Frost"]..LBIS.L["Death Knight"]] end,
-		set = function(info, val) LBISSettings.Tooltip[LBIS.L["Frost"]..LBIS.L["Death Knight"]] = val end,
-		width = 1.1,
-		order = 5,
-	};
-	lbis_options.args["showUnholyDk"] = {
-		type = "toggle",
-		name = LBIS.L["Death Knight"]..": "..LBIS.L["Unholy"],
-		desc = LBIS.L["Death Knight"]..": "..LBIS.L["Unholy"],
-		get = function(info) return LBISSettings.Tooltip[LBIS.L["Unholy"]..LBIS.L["Death Knight"]] end,
-		set = function(info, val) LBISSettings.Tooltip[LBIS.L["Unholy"]..LBIS.L["Death Knight"]] = val end,
-		width = 1.1,
-		order = 6,
-	};
 	lbis_options.args["showBalanceDruid"] = {
 		type = "toggle",
 		name = LBIS.L["Druid"]..": "..LBIS.L["Balance"],
@@ -284,42 +249,6 @@ local function CreateClassOptions(lbis_options)
 		width = 1.1,
 		order = 16,
 	};
-	lbis_options.args["showBrewmasterMonk"] = {
-		type = "toggle",
-		name = LBIS.L["Monk"]..": "..LBIS.L["Brewmaster"],
-		desc = LBIS.L["Monk"]..": "..LBIS.L["Brewmaster"],
-		get = function(info) return LBISSettings.Tooltip[LBIS.L["Brewmaster"]..LBIS.L["Monk"]] end,
-		set = function(info, val) LBISSettings.Tooltip[LBIS.L["Brewmaster"]..LBIS.L["Monk"]] = val end,
-		width = 1.1,
-		order = 17,
-	};
-	lbis_options.args["showMistweaverMonk"] = {
-		type = "toggle",
-		name = LBIS.L["Monk"]..": "..LBIS.L["Mistweaver"],
-		desc = LBIS.L["Monk"]..": "..LBIS.L["Mistweaver"],
-		get = function(info) return LBISSettings.Tooltip[LBIS.L["Mistweaver"]..LBIS.L["Monk"]] end,
-		set = function(info, val) LBISSettings.Tooltip[LBIS.L["Mistweaver"]..LBIS.L["Monk"]] = val end,
-		width = 1.1,
-		order = 18,
-	};
-	lbis_options.args["showMistweaverMonk"] = {
-		type = "toggle",
-		name = LBIS.L["Monk"]..": "..LBIS.L["Mistweaver"],
-		desc = LBIS.L["Monk"]..": "..LBIS.L["Mistweaver"],
-		get = function(info) return LBISSettings.Tooltip[LBIS.L["Mistweaver"]..LBIS.L["Monk"]] end,
-		set = function(info, val) LBISSettings.Tooltip[LBIS.L["Mistweaver"]..LBIS.L["Monk"]] = val end,
-		width = 1.1,
-		order = 18,
-	};
-	lbis_options.args["showWindwalkerMonk"] = {
-		type = "toggle",
-		name = LBIS.L["Monk"]..": "..LBIS.L["Windwalker"],
-		desc = LBIS.L["Monk"]..": "..LBIS.L["Windwalker"],
-		get = function(info) return LBISSettings.Tooltip[LBIS.L["Windwalker"]..LBIS.L["Monk"]] end,
-		set = function(info, val) LBISSettings.Tooltip[LBIS.L["Windwalker"]..LBIS.L["Monk"]] = val end,
-		width = 1.1,
-		order = 19,
-	};
 	lbis_options.args["showProtPaladin"] = {
 		type = "toggle",
 		name = LBIS.L["Paladin"]..": "..LBIS.L["Protection"],
@@ -367,30 +296,12 @@ local function CreateClassOptions(lbis_options)
 	};
 	lbis_options.args["showAssRogue"] = {
 		type = "toggle",
-		name = LBIS.L["Rogue"]..": "..LBIS.L["Assassination"],
-		desc = LBIS.L["Rogue"]..": "..LBIS.L["Assassination"],
-		get = function(info) return LBISSettings.Tooltip[LBIS.L["Assassination"]..LBIS.L["Rogue"]] end,
-		set = function(info, val) LBISSettings.Tooltip[LBIS.L["Assassination"]..LBIS.L["Rogue"]] = val end,
+		name = LBIS.L["Rogue"]..": "..LBIS.L["Dps"],
+		desc = LBIS.L["Rogue"]..": "..LBIS.L["Dps"],
+		get = function(info) return LBISSettings.Tooltip[LBIS.L["Dps"]..LBIS.L["Rogue"]] end,
+		set = function(info, val) LBISSettings.Tooltip[LBIS.L["Dps"]..LBIS.L["Rogue"]] = val end,
 		width = 1.1,
 		order = 25,
-	};
-	lbis_options.args["showCombatRogue"] = {
-		type = "toggle",
-		name = LBIS.L["Rogue"]..": "..LBIS.L["Combat"],
-		desc = LBIS.L["Rogue"]..": "..LBIS.L["Combat"],
-		get = function(info) return LBISSettings.Tooltip[LBIS.L["Combat"]..LBIS.L["Rogue"]] end,
-		set = function(info, val) LBISSettings.Tooltip[LBIS.L["Combat"]..LBIS.L["Rogue"]] = val end,
-		width = 1.1,
-		order = 26,
-	};
-	lbis_options.args["showSubtletyRogue"] = {
-		type = "toggle",
-		name = LBIS.L["Rogue"]..": "..LBIS.L["Subtlety"],
-		desc = LBIS.L["Rogue"]..": "..LBIS.L["Subtlety"],
-		get = function(info) return LBISSettings.Tooltip[LBIS.L["Subtlety"]..LBIS.L["Rogue"]] end,
-		set = function(info, val) LBISSettings.Tooltip[LBIS.L["Subtlety"]..LBIS.L["Rogue"]] = val end,
-		width = 1.1,
-		order = 27,
 	};
 	lbis_options.args["showEleShaman"] = {
 		type = "toggle",
@@ -479,9 +390,6 @@ local function CreateClassOptions(lbis_options)
 		desc = LBIS.L["Select"].." "..LBIS.L["All"],
 		confirm = false,
 		func = function(info, val)
-			LBISSettings.Tooltip[LBIS.L["Blood"]..LBIS.L["Death Knight"]] = true;
-			LBISSettings.Tooltip[LBIS.L["Frost"]..LBIS.L["Death Knight"]] = true;
-			LBISSettings.Tooltip[LBIS.L["Unholy"]..LBIS.L["Death Knight"]] = true;
 			LBISSettings.Tooltip[LBIS.L["Balance"]..LBIS.L["Druid"]] = true;
 			LBISSettings.Tooltip[LBIS.L["Bear"]..LBIS.L["Druid"]] = true;
 			LBISSettings.Tooltip[LBIS.L["Cat"]..LBIS.L["Druid"]] = true;
@@ -492,18 +400,13 @@ local function CreateClassOptions(lbis_options)
 			LBISSettings.Tooltip[LBIS.L["Arcane"]..LBIS.L["Mage"]] = true;
 			LBISSettings.Tooltip[LBIS.L["Fire"]..LBIS.L["Mage"]] = true;
 			LBISSettings.Tooltip[LBIS.L["Frost"]..LBIS.L["Mage"]] = true;
-			LBISSettings.Tooltip[LBIS.L["Brewmaster"]..LBIS.L["Monk"]] = true;
-			LBISSettings.Tooltip[LBIS.L["Mistweaver"]..LBIS.L["Monk"]] = true;
-			LBISSettings.Tooltip[LBIS.L["Windwalker"]..LBIS.L["Monk"]] = true;
 			LBISSettings.Tooltip[LBIS.L["Holy"]..LBIS.L["Paladin"]] = true;
 			LBISSettings.Tooltip[LBIS.L["Protection"]..LBIS.L["Paladin"]] = true;
 			LBISSettings.Tooltip[LBIS.L["Retribution"]..LBIS.L["Paladin"]] = true;
 			LBISSettings.Tooltip[LBIS.L["Discipline"]..LBIS.L["Priest"]] = true;
 			LBISSettings.Tooltip[LBIS.L["Holy"]..LBIS.L["Priest"]] = true;
 			LBISSettings.Tooltip[LBIS.L["Shadow"]..LBIS.L["Priest"]] = true;
-			LBISSettings.Tooltip[LBIS.L["Assassination"]..LBIS.L["Rogue"]] = true;
-			LBISSettings.Tooltip[LBIS.L["Combat"]..LBIS.L["Rogue"]] = true;
-			LBISSettings.Tooltip[LBIS.L["Subtlety"]..LBIS.L["Rogue"]] = true;
+			LBISSettings.Tooltip[LBIS.L["Dps"]..LBIS.L["Rogue"]] = true;
 			LBISSettings.Tooltip[LBIS.L["Elemental"]..LBIS.L["Shaman"]] = true;
 			LBISSettings.Tooltip[LBIS.L["Enhancement"]..LBIS.L["Shaman"]] = true;
 			LBISSettings.Tooltip[LBIS.L["Restoration"]..LBIS.L["Shaman"]] = true;
@@ -523,9 +426,6 @@ local function CreateClassOptions(lbis_options)
 		desc = LBIS.L["Deselect"].." "..LBIS.L["All"],
 		confirm = false,
 		func = function(info, val)
-			LBISSettings.Tooltip[LBIS.L["Blood"]..LBIS.L["Death Knight"]] = false;
-			LBISSettings.Tooltip[LBIS.L["Frost"]..LBIS.L["Death Knight"]] = false;
-			LBISSettings.Tooltip[LBIS.L["Unholy"]..LBIS.L["Death Knight"]] = false;
 			LBISSettings.Tooltip[LBIS.L["Balance"]..LBIS.L["Druid"]] = false;
 			LBISSettings.Tooltip[LBIS.L["Bear"]..LBIS.L["Druid"]] = false;
 			LBISSettings.Tooltip[LBIS.L["Cat"]..LBIS.L["Druid"]] = false;
@@ -536,18 +436,12 @@ local function CreateClassOptions(lbis_options)
 			LBISSettings.Tooltip[LBIS.L["Arcane"]..LBIS.L["Mage"]] = false;
 			LBISSettings.Tooltip[LBIS.L["Fire"]..LBIS.L["Mage"]] = false;
 			LBISSettings.Tooltip[LBIS.L["Frost"]..LBIS.L["Mage"]] = false;
-			LBISSettings.Tooltip[LBIS.L["Brewmaster"]..LBIS.L["Monk"]] = false;
-			LBISSettings.Tooltip[LBIS.L["Mistweaver"]..LBIS.L["Monk"]] = false;
-			LBISSettings.Tooltip[LBIS.L["Windwalker"]..LBIS.L["Monk"]] = false;
 			LBISSettings.Tooltip[LBIS.L["Holy"]..LBIS.L["Paladin"]] = false;
 			LBISSettings.Tooltip[LBIS.L["Protection"]..LBIS.L["Paladin"]] = false;
 			LBISSettings.Tooltip[LBIS.L["Retribution"]..LBIS.L["Paladin"]] = false;
-			LBISSettings.Tooltip[LBIS.L["Discipline"]..LBIS.L["Priest"]] = false;
 			LBISSettings.Tooltip[LBIS.L["Holy"]..LBIS.L["Priest"]] = false;
 			LBISSettings.Tooltip[LBIS.L["Shadow"]..LBIS.L["Priest"]] = false;
-			LBISSettings.Tooltip[LBIS.L["Assassination"]..LBIS.L["Rogue"]] = false;
-			LBISSettings.Tooltip[LBIS.L["Combat"]..LBIS.L["Rogue"]] = false;
-			LBISSettings.Tooltip[LBIS.L["Subtlety"]..LBIS.L["Rogue"]] = false;
+			LBISSettings.Tooltip[LBIS.L["Dps"]..LBIS.L["Rogue"]] = false;
 			LBISSettings.Tooltip[LBIS.L["Elemental"]..LBIS.L["Shaman"]] = false;
 			LBISSettings.Tooltip[LBIS.L["Enhancement"]..LBIS.L["Shaman"]] = false;
 			LBISSettings.Tooltip[LBIS.L["Restoration"]..LBIS.L["Shaman"]] = false;

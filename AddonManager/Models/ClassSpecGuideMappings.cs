@@ -44,9 +44,6 @@ public class ClassSpecGuideMappings
     {
         GuideMappings = new List<ClassGuideMapping>();
 
-        GuideMappings.AddRange(new DeathKnightBloodMapping().ToList());
-        GuideMappings.AddRange(new DeathKnightFrostMapping().ToList());
-        GuideMappings.AddRange(new DeathKnightUnholyMapping().ToList());
         GuideMappings.AddRange(new DruidBalanceMapping().ToList());
         GuideMappings.AddRange(new DruidCatMapping().ToList());
         GuideMappings.AddRange(new DruidBearMapping().ToList());
@@ -57,18 +54,12 @@ public class ClassSpecGuideMappings
         GuideMappings.AddRange(new MageArcaneMapping().ToList());
         GuideMappings.AddRange(new MageFireMapping().ToList());
         GuideMappings.AddRange(new MageFrostMapping().ToList());
-        GuideMappings.AddRange(new MonkBrewmasterMapping().ToList());
-        GuideMappings.AddRange(new MonkMistweaverMapping().ToList());
-        GuideMappings.AddRange(new MonkWindwalkerMapping().ToList());
         GuideMappings.AddRange(new PaladinHolyMapping().ToList());
         GuideMappings.AddRange(new PaladinProtectionMapping().ToList());
         GuideMappings.AddRange(new PaladinRetributionMapping().ToList());
-        GuideMappings.AddRange(new PriestDisciplineMapping().ToList());
         GuideMappings.AddRange(new PriestHolyMapping().ToList());
         GuideMappings.AddRange(new PriestShadowMapping().ToList());
-        GuideMappings.AddRange(new RogueAssassinationMapping().ToList());
-        GuideMappings.AddRange(new RogueCombatMapping().ToList());
-        GuideMappings.AddRange(new RogueSubtletyMapping().ToList());
+        GuideMappings.AddRange(new RogueMapping().ToList());
         GuideMappings.AddRange(new ShamanElementalMapping().ToList());
         GuideMappings.AddRange(new ShamanEnhancementMapping().ToList());
         GuideMappings.AddRange(new ShamanRestorationMapping().ToList());

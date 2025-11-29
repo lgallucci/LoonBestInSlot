@@ -2,10 +2,10 @@
 
 namespace AddonManager.Models.GuideMappings;
 
-internal class RogueAssassinationMapping : SpecMapping
+internal class RogueMapping : SpecMapping
 {
     public override string Class => "Rogue";
-    public override string Spec => "Assassination";
+    public override string Spec => "Dps";
 
     public override string PreRaidUrl => "dps-best-gear-bis-pre-raid";
     public override string Phase1Url => "dps-best-gear-bis-pve";

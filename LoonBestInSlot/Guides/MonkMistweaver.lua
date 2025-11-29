@@ -1,6 +1,0 @@
-local spec0 = LBIS:RegisterSpec(LBIS.L["Monk"], LBIS.L["Mistweaver"], "0")
-local spec1 = LBIS:RegisterSpec(LBIS.L["Monk"], LBIS.L["Mistweaver"], "1")
-local spec2 = LBIS:RegisterSpec(LBIS.L["Monk"], LBIS.L["Mistweaver"], "2")
-local spec3 = LBIS:RegisterSpec(LBIS.L["Monk"], LBIS.L["Mistweaver"], "3")
-local spec4 = LBIS:RegisterSpec(LBIS.L["Monk"], LBIS.L["Mistweaver"], "4")
-local spec5 = LBIS:RegisterSpec(LBIS.L["Monk"], LBIS.L["Mistweaver"], "5")
