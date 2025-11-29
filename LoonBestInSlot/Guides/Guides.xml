@@ -1,8 +1,5 @@
 ﻿<Ui xmlns="http://www.blizzard.com/wow/ui/">
 
-	<Script file="DeathKnightBlood.lua" />
-	<Script file="DeathKnightFrost.lua" />
-	<Script file="DeathKnightUnholy.lua" />
 	<Script file="DruidBalance.lua" />
 	<Script file="DruidBear.lua" />
 	<Script file="DruidCat.lua" />
