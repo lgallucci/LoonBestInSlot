@@ -5,6 +5,7 @@ using System.IO;
 using System.Security;
 using AngleSharp.Html.Dom;
 using AngleSharp.Dom;
+using System.Text.RegularExpressions;
 
 namespace AddonManager;
 
@@ -848,7 +849,7 @@ public static class WowheadImporter
         {
             await Common.LoadFromWebPages(webAddresses, (uri, doc) =>
             {
-                var name = doc.Title?.Replace(" - Item - Mists of Pandaria Classic", "").Trim() ?? "\"unknown\"";
+                var name = doc.Title?.Replace(" - Item - TBC Classic", "").Trim() ?? "\"unknown\"";
                 var itemId = Int32.Parse(uri.Replace("https://www.wowhead.com/tbc/item=", "").TrimEnd('/'));
                 var rowElements = doc.QuerySelectorAll("#tab-dropped-by .listview-mode-default .listview-row");
 
@@ -950,7 +951,7 @@ public static class WowheadImporter
         {
             await Common.LoadFromWebPages(webAddresses, (uri, doc) =>
             {
-                var name = doc.Title?.Replace(" - Item - Mists of Pandaria Classic", "").Trim() ?? "\"unknown\"";
+                var name = doc.Title?.Replace(" - Item - TBC Classic", "").Trim() ?? "\"unknown\"";
                 var itemId = Int32.Parse(uri.Replace("https://www.wowhead.com/tbc/item=", "").Replace("#taught-by-item", "").TrimEnd('/'));
                 var taughtElements = doc.QuerySelectorAll("#tab-taught-by-item .listview-mode-default .listview-row");
                 var soldElements = doc.QuerySelectorAll("#tab-sold-by .listview-mode-default .listview-row");
@@ -987,7 +988,7 @@ public static class WowheadImporter
 
             await Common.LoadFromWebPages(designAddresses.Keys.ToList(), (uri, doc) =>
             {
-                var name = doc.Title?.Replace(" - Item - Mists of Pandaria Classic", "").Trim() ?? "\"unknown\"";
+                var name = doc.Title?.Replace(" - Item - TBC Classic", "").Trim() ?? "\"unknown\"";
                 var soldElements = doc.QuerySelectorAll("#tab-sold-by .listview-mode-default .listview-row");
                 var dropElements = doc.QuerySelectorAll("#tab-dropped-by .listview-mode-default .listview-row");
                 var itemId = designAddresses[uri];
@@ -1001,6 +1002,16 @@ public static class WowheadImporter
                 {
                     gemSources[itemId].Source = AddLocalizeText("Engineering Supplies");
                     gemSources[itemId].SourceLocation = AddLocalizeText("Faction Capital");
+                }
+                else if (soldElements.Any(re => re.Children[0].TextContent.Trim().Contains("Quartermaster")))
+                {
+                    var soldElement = soldElements.First(re => re.Children[0].TextContent.Trim().Contains("Quartermaster"));
+                    var repName = soldElement.Children[0].TextContent.Trim();
+
+                    MatchCollection matches = Regex.Matches(repName, @"<(.*?)>");
+
+                    gemSources[itemId].Source = AddLocalizeText(matches.FirstOrDefault()?.Groups[1].Value ?? "Quartermaster");
+                    gemSources[itemId].SourceLocation = AddLocalizeText(soldElement.Children[1].TextContent.Trim());
                 }
                 else if (dropElements.Count() > 5)
                 {
@@ -1035,7 +1046,7 @@ public static class WowheadImporter
         {
             await Common.LoadFromWebPages(webAddresses, (uri, doc) =>
             {
-                var name = doc.Title?.Replace(" - Spell - Mists of Pandaria Classic", "").Trim() ?? "\"unknown\"";
+                var name = doc.Title?.Replace(" - Spell - TBC Classic", "").Trim() ?? "\"unknown\"";
                 var spellId = Int32.Parse(uri.Replace("https://www.wowhead.com/tbc/spell=", "").TrimEnd('/'));
                 var taughtElements = doc.QuerySelectorAll("#tab-taught-by-npc .listview-mode-default .listview-row");
                 var taughtItemElements = doc.QuerySelectorAll("#tab-taught-by-item .listview-mode-default .listview-row");
@@ -1063,14 +1074,16 @@ public static class WowheadImporter
                     });
                 } 
                 else if (taughtElements.Any(re => re.Children[0].TextContent.Trim().Contains("Engineering Trainer") ||
-                                                    re.Children[8].TextContent.Trim().Contains("Inscription Trainer") ||
-                                                    re.Children[8].TextContent.Trim().Contains("Tailoring Trainer") ||
-                                                    re.Children[8].TextContent.Trim().Contains("Engineering Trainer")))
+                                                    re.Children[0].TextContent.Trim().Contains("Inscription Trainer") ||
+                                                    re.Children[0].TextContent.Trim().Contains("Tailoring Trainer") ||
+                                                    re.Children[0].TextContent.Trim().Contains("Engineering Trainer")||
+                                                    re.Children[0].TextContent.Trim().Contains("Enchanting Trainer")))
                 {
-                    var source = taughtElements[0].Children[8].TextContent.Trim().Contains("Leatherworking") ? "Leatherworking Trainer" : "";
-                    source = taughtElements[0].Children[8].TextContent.Trim().Contains("Inscription") ? "Inscription Trainer" : source;
-                    source = taughtElements[0].Children[8].TextContent.Trim().Contains("Tailoring") ? "Tailoring Trainer" : source;
-                    source = taughtElements[0].Children[8].TextContent.Trim().Contains("Engineering") ? "Engineering Trainer" : source;
+                    var source = taughtElements[0].Children[0].TextContent.Trim().Contains("Leatherworking") ? "Leatherworking Trainer" : "";
+                    source = taughtElements[0].Children[0].TextContent.Trim().Contains("Inscription") ? "Inscription Trainer" : source;
+                    source = taughtElements[0].Children[0].TextContent.Trim().Contains("Tailoring") ? "Tailoring Trainer" : source;
+                    source = taughtElements[0].Children[0].TextContent.Trim().Contains("Engineering") ? "Engineering Trainer" : source;
+                    source = taughtElements[0].Children[0].TextContent.Trim().Contains("Enchanting") ? "Enchanting Trainer" : source;
 
                     enchantSources[spellId].Source = AddLocalizeText(source);
                     enchantSources[spellId].SourceLocation = AddLocalizeText("Faction Capital");
@@ -1080,7 +1093,8 @@ public static class WowheadImporter
                 else if (usedByElements.Any(re => re.Children[8].TextContent.Trim().Contains("Leatherworking") ||
                                                     re.Children[8].TextContent.Trim().Contains("Inscription") ||
                                                     re.Children[8].TextContent.Trim().Contains("Tailoring") ||
-                                                    re.Children[8].TextContent.Trim().Contains("Engineering")))
+                                                    re.Children[8].TextContent.Trim().Contains("Engineering")||
+                                                    re.Children[8].TextContent.Trim().Contains("Enchanting")))
                 {
                     Common.RecursiveBoxSearch(usedByElements[0].Children[2], (anchor) =>
                     {
@@ -1095,6 +1109,7 @@ public static class WowheadImporter
                         source = usedByElements[0].Children[8].TextContent.Trim().Contains("Inscription") ? "Inscription Trainer" : source;
                         source = usedByElements[0].Children[8].TextContent.Trim().Contains("Tailoring") ? "Tailoring Trainer" : source;
                         source = usedByElements[0].Children[8].TextContent.Trim().Contains("Engineering") ? "Engineering Trainer" : source;
+                        source = usedByElements[0].Children[8].TextContent.Trim().Contains("Enchanting") ? "Enchanting Trainer" : source;
 
                         enchantSources[spellId].Source = AddLocalizeText(source);
                         enchantSources[spellId].SourceLocation = AddLocalizeText("Faction Capital");
@@ -1105,13 +1120,15 @@ public static class WowheadImporter
                 } else if (recipeElements.Any(re => re.Children[4].TextContent.Trim().Contains("Engineering") ||
                                                     re.Children[4].TextContent.Trim().Contains("Inscription") ||
                                                     re.Children[4].TextContent.Trim().Contains("Tailoring") ||
-                                                    re.Children[4].TextContent.Trim().Contains("Engineering")))
+                                                    re.Children[4].TextContent.Trim().Contains("Engineering")||
+                                                    re.Children[4].TextContent.Trim().Contains("Enchanting")))
                 {
                     
                         var source = recipeElements[0].Children[4].TextContent.Trim().Contains("Leatherworking") ? "Leatherworking Trainer" : "";
                         source = recipeElements[0].Children[4].TextContent.Trim().Contains("Inscription") ? "Inscription Trainer" : source;
                         source = recipeElements[0].Children[4].TextContent.Trim().Contains("Tailoring") ? "Tailoring Trainer" : source;
                         source = recipeElements[0].Children[4].TextContent.Trim().Contains("Engineering") ? "Engineering Trainer" : source;
+                        source = recipeElements[0].Children[4].TextContent.Trim().Contains("Enchanting") ? "Engineering Trainer" : source;
 
 
                     enchantSources[spellId].Source = AddLocalizeText(source);
