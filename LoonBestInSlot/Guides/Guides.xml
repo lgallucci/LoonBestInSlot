@@ -16,9 +16,7 @@
 	<Script file="PriestHoly.lua" />
 	<Script file="PriestDiscipline.lua" />
 	<Script file="PriestShadow.lua" />
-	<Script file="RogueAssassination.lua" />
-	<Script file="RogueSubtlety.lua" />
-	<Script file="RogueCombat.lua" />
+	<Script file="RogueDps.lua" />
 	<Script file="ShamanElemental.lua" />
 	<Script file="ShamanEnhancement.lua" />
 	<Script file="ShamanRestoration.lua" />

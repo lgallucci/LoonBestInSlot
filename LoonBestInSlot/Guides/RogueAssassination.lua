@@ -1,6 +1,0 @@
-local spec0 = LBIS:RegisterSpec(LBIS.L["Rogue"], LBIS.L["Assassination"], "0")
-local spec1 = LBIS:RegisterSpec(LBIS.L["Rogue"], LBIS.L["Assassination"], "1")
-local spec2 = LBIS:RegisterSpec(LBIS.L["Rogue"], LBIS.L["Assassination"], "2")
-local spec3 = LBIS:RegisterSpec(LBIS.L["Rogue"], LBIS.L["Assassination"], "3")
-local spec4 = LBIS:RegisterSpec(LBIS.L["Rogue"], LBIS.L["Assassination"], "4")
-local spec5 = LBIS:RegisterSpec(LBIS.L["Rogue"], LBIS.L["Assassination"], "5")

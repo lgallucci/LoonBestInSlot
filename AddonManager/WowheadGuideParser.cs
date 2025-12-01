@@ -462,17 +462,21 @@ public class WowheadGuideParser
         if (element == null)
             return "unknown";
 
-        if (element.NodeName == "H2" || element.NodeName == "H3" || element.NodeName == "H4")
+        if (element.NodeName == "H2" || element.NodeName == "H3" || element.NodeName == "H4" || element.NodeName == "H5")
         {
             var headerText = element.TextContent.Trim();
             var slotText = _slotSwaps.GetSlot(headerText.Split(" ")[0]);
-            if (slotText != "unknown" && !string.IsNullOrEmpty(slotText))
+            if (slotText == "unknown" || string.IsNullOrEmpty(slotText))
             {
+                slotText = _slotSwaps.GetSlot(headerText);
+            }
+            if (slotText != "unknown" && !string.IsNullOrEmpty(slotText))
+            { 
                 return slotText;
             }
         }
 
-        string result = string.Empty;
+        string result = "unknown";
         if (element is IHtmlTableElement)
         {
             Console.WriteLine("Found table element instead of slot header.  Stopping search.");
