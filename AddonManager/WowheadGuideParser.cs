@@ -23,15 +23,6 @@ public class WowheadGuideParser
                                                        87781, 87783, 87782, 89797, 72104, 79324, 86369, 86368, 77545, 79325,
                                                        87218, 87220, 86565, 89799, 77542, 77543, 82445, 93231 };
 
-    private static readonly string[] _itemLists = {
-        "#rare-mobs",
-        "#rare-boes",
-        "#sha-of-anger",
-        "#crafted-gear",
-        "#crafting-professions",
-        "#galleon",
-        "#galleon-warbands",
-    };
 
     private SlotSwaps _slotSwaps = new SlotSwaps();
     private Random _rand = new Random(DateTime.Now.Millisecond);
@@ -96,7 +87,7 @@ public class WowheadGuideParser
 
         //Get Items
         bool first = true;
-        var tables = doc.QuerySelectorAll(".wh-center .markup-table-wrapper table");
+        var tables = doc.QuerySelectorAll(".markup-table-wrapper table");
         foreach (var table in tables)
         {
             if (table == null || table is not IHtmlTableElement)
@@ -104,15 +95,13 @@ public class WowheadGuideParser
                 throw new InvalidOperationException("Expected table element, but found: " + table?.NodeName);
             }
             var t = (IHtmlTableElement)table;
-            LoopThroughTable(t, (tableRow, itemChild, itemOrderIndex, slot) =>
+            LoopThroughTable(t, (tableRow, itemChild, itemOrderIndex, bisText, slot) =>
             {
-                var bisText = first ? "BIS" : "Alt";
-
                 if (itemChild != null)
                 {
                     ParseItemCell(itemChild, bisText, slot, items, itemOrderIndex, logFunc);
                 }
-            });
+            }, "Phase " + classGuide.Phase);
             first = false;
         }
 
@@ -126,26 +115,13 @@ public class WowheadGuideParser
                 {
                     var gemAnchor = (IHtmlAnchorElement)child;
 
-                    if (gemAnchor.PathName.Contains("mop-classic/"))
+                    if (gemAnchor.PathName.Contains("tbc/"))
                     {
                         ParseGem(gemAnchor, gems);
                         return true;
                     }
                     return false;
                 });
-            }
-        }
-
-        //Get List Items
-        int itemOrderIndex = 0;
-        foreach (var itemListHtml in _itemLists)
-        {
-            var itemList = GetExcludeUnitsTilNextHeader(doc, itemListHtml);
-
-            foreach (var item in itemList)
-            {
-                itemOrderIndex++;
-                ParseItemCell(item, "Alt", "", items, itemOrderIndex, logFunc);
             }
         }
 
@@ -176,29 +152,29 @@ public class WowheadGuideParser
 
     private void LoopThroughEnchantsAndGems(IHtmlDocument doc, Func<IHtmlAnchorElement, string, bool> foundEnchant, Func<IHtmlAnchorElement, string, bool> foundGem)
     {
-        var gearSlots = doc.QuerySelectorAll(".wow-gear-slot");
+        var gearSlots = doc.QuerySelectorAll(".gear-planner-slots-group-slot");
 
         foreach (var gearSlot in gearSlots)
         {
             var slotId = gearSlot.Attributes["data-slot-id"];
 
-            var enchantDiv = gearSlot.QuerySelector(".wow-gear-slot-enchants");
+            var enchantDiv = gearSlot.QuerySelector(".gear-planner-slots-group-slot-enchant");
 
             if (enchantDiv != null)
                 Common.RecursiveBoxSearch(enchantDiv, (child) =>
                 {
                     var enchantAnchor = (IHtmlAnchorElement)child;
-                    if (enchantAnchor.PathName.Contains("mop-classic/"))
+                    if (enchantAnchor.PathName.Contains("tbc/"))
                         return foundEnchant(enchantAnchor, GetSlotFromId(slotId?.Value));
                     return false;
                 });
 
-            var gemDivs = gearSlot.QuerySelectorAll(".wow-gear-slot-sockets");
+            var gemDivs = gearSlot.QuerySelectorAll(".gear-planner-slots-group-slot-gem");
             foreach (var gemDiv in gemDivs)
                 Common.RecursiveBoxSearch(gemDiv, (child) =>
                 {
                     var gemAnchor = (IHtmlAnchorElement)child;
-                    if (gemAnchor.PathName.Contains("mop-classic/"))
+                    if (gemAnchor.PathName.Contains("tbc/"))
                         return foundGem(gemAnchor, GetSlotFromId(slotId?.Value));
                     return false;
                 });
@@ -242,7 +218,7 @@ public class WowheadGuideParser
             case "18":
                 return "Ranged/Relic";
             default:
-                return "Unknown";
+                throw new ArgumentOutOfRangeException(nameof(value), $"Unsupported slot id: {value}");
         }
     }
 
@@ -250,7 +226,7 @@ public class WowheadGuideParser
     {
         if (anchorElement.PathName.Contains("/item="))
         {
-            var item = anchorElement.PathName.Replace("/wotlk", "").Replace("/mop-classic/", "/").Replace("/item=", "");
+            var item = anchorElement.PathName.Replace("/wotlk", "").Replace("/tbc/", "/").Replace("/item=", "");
             var itemIdIndex = item.IndexOf("/");
             if (itemIdIndex == -1)
                 itemIdIndex = item.IndexOf("&");
@@ -281,7 +257,7 @@ public class WowheadGuideParser
         else
             return;
 
-        var item = enchantAnchor.PathName.Replace("/wotlk", "").Replace("/mop-classic/", "/").Replace("/item=", "").Replace("/spell=", "");
+        var item = enchantAnchor.PathName.Replace("/wotlk", "").Replace("/tbc/", "/").Replace("/item=", "").Replace("/spell=", "");
         var itemIdIndex = item.IndexOf("/");
         if (itemIdIndex == -1)
             itemIdIndex = item.IndexOf("&");
@@ -338,11 +314,10 @@ public class WowheadGuideParser
         {
             foundAnchor = true;
             bool foundItem = false;
-            var itemSlot = string.Empty;
 
             if (child.PathName.Contains("/item="))
             {
-                var item = child.PathName.Replace("/wotlk", "").Replace("/mop-classic/", "/").Replace("/item=", "");
+                var item = child.PathName.Replace("/tbc", "").Replace("/item=", "");
 
                 var itemIdIndex = item.IndexOf("/");
                 if (itemIdIndex == -1)
@@ -377,7 +352,6 @@ public class WowheadGuideParser
                             continue;
                         }
 
-                        itemSlot = _slotSwaps[slot];
                         if (!items.ContainsKey(itemId))
                         {
                             items.Add(itemId, new ItemSpec
@@ -385,7 +359,7 @@ public class WowheadGuideParser
                                 ItemId = itemId,
                                 Name = itemName ?? "unknown",
                                 BisStatus = bisStatus ?? "unknown",
-                                Slot = itemSlot,
+                                Slot = slot,
                                 ItemOrder = itemOrderIndex
                             });
                             if (_duplicateItemIds.ContainsKey(itemId) && !items.ContainsKey(_duplicateItemIds[itemId]))
@@ -395,20 +369,20 @@ public class WowheadGuideParser
                                     ItemId = _duplicateItemIds[itemId],
                                     Name = itemName ?? "unknown",
                                     BisStatus = bisStatus ?? "unknown",
-                                    Slot = itemSlot,
+                                    Slot = slot,
                                     ItemOrder = itemOrderIndex
                                 });
                             }
                         }
                         else
                         {
-                            if (!items[itemId].Slot.Contains(itemSlot) && itemSlot != "unknown")
+                            if (!items[itemId].Slot.Contains(slot) && slot != "unknown")
                             {
-                                if (items[itemId].Slot.Contains("Off Hand") && itemSlot.Contains("Main Hand"))
+                                if (items[itemId].Slot.Contains("Off Hand") && slot.Contains("Main Hand"))
                                 {
                                     continue;
                                 }
-                                items[itemId].Slot = $"{items[itemId].Slot}~{itemSlot}";
+                                items[itemId].Slot = $"{items[itemId].Slot}~{slot}";
                                 if (items[itemId].BisStatus != bisStatus)
                                     items[itemId].BisStatus = $"{items[itemId].BisStatus}/{bisStatus}";
                             }
@@ -435,53 +409,180 @@ public class WowheadGuideParser
         return itemIds;
     }
 
-    private void LoopThroughTable(IHtmlTableElement table, Action<INode, IElement?, int, string> action)
+    private void LoopThroughTable(IHtmlTableElement table, Action<INode, IElement?, int, string, string> action, string phase)
     {
         var itemOrderIndex = 0;
         var firstRow = false;
         var tableRows = table?.FirstChild?.ChildNodes;
+
+        var tableSlot = RecursivelyFindHeaderWithSlot(table?.ParentElement?.PreviousElementSibling);
         if (tableRows != null)
         {
-            bool isSlot = false;
             foreach (var tableRow in tableRows)
             {
-                var slot = string.Empty;
                 if (!firstRow || tableRow.NodeName != "TR")
                 {
-                    if (tableRow.ChildNodes[0].TextContent.Contains("Slot"))
+                    //check to make sure the table is correct.
+                    if ((tableRow.ChildNodes[0].TextContent.Trim() == "Priority" || tableRow.ChildNodes[0].TextContent.Trim() == "Rank") && 
+                        tableRow.ChildNodes[1].TextContent.Trim() == "Item" &&
+                        tableRow.ChildNodes[2].TextContent.Trim() == "Sockets" && 
+                        tableRow.ChildNodes[3].TextContent.Trim() == "Source")
                     {
-                        isSlot = true;
-                    }
-                    else if (tableRow.ChildNodes[0].TextContent.Contains("Reputation")) { }
-                    else
+                        firstRow = true;
+                        continue;
+                    } else
                     {
-                        return; // Skip if not correct type of table.
+                        break;
                     }
-                    firstRow = true;
-                    continue;
-                }
+                }             
 
-                IElement? itemChild = null;
-                
-                if (isSlot)
-                    slot = tableRow.ChildNodes[0].TextContent.Trim();
-                    
-                for (int i = 0; i < tableRow.ChildNodes.Length; i++)
-                {
-                    var rowChild = tableRow.ChildNodes[i];
-                    if (rowChild.NodeType == NodeType.Element)
-                    {
-                        if (rowChild.ChildNodes.Any(n => n.NodeName == "A" && ((IHtmlAnchorElement)n).PathName.Contains("/item=")))
-                        {
-                            itemChild = (IElement)rowChild;
-                            break;
-                        }
-                    }
-                }
-                action(tableRow, itemChild, itemOrderIndex, slot);
+                var slot = TryToGetSlot(tableSlot, tableRow.ChildNodes[0].TextContent.Trim());    
+
+                var bisText = GetBisText(tableRow.ChildNodes[0].TextContent.Trim(), itemOrderIndex == 0, phase);
+
+                action(tableRow, (IElement)tableRow.ChildNodes[1], itemOrderIndex, bisText, slot);
 
                 itemOrderIndex++;
             }
         }
+    }
+
+    private string TryToGetSlot(string slot, string bisStatus)
+    {
+        if (slot == "Main Hand" && bisStatus.ToUpper().Contains("OH") && !bisStatus.Contains("MH"))
+            return "Off Hand";
+        else if (slot == "Main Hand" && bisStatus.ToUpper().Contains("2H") && !bisStatus.Contains("MH"))
+            return "Two Hand";
+
+        return slot;
+    }
+
+    private string RecursivelyFindHeaderWithSlot(IElement? element)
+    {                       
+        if (element == null)
+            return "unknown";
+
+        if (element.NodeName == "H2" || element.NodeName == "H3" || element.NodeName == "H4")
+        {
+            var headerText = element.TextContent.Trim();
+            var slotText = _slotSwaps.GetSlot(headerText.Split(" ")[0]);
+            if (slotText != "unknown" && !string.IsNullOrEmpty(slotText))
+            {
+                return slotText;
+            }
+        }
+
+        string result = string.Empty;
+        if (element is IHtmlTableElement)
+        {
+            Console.WriteLine("Found table element instead of slot header.  Stopping search.");
+            return "exit";
+        }
+        if (result != "exit" && element.ChildElementCount > 0)
+        {
+            result = RecursivelyFindHeaderWithSlot(element.Children[0]);
+        }
+        if (result != "exit" && element.PreviousElementSibling != null)
+        {
+            result = RecursivelyFindHeaderWithSlot(element.PreviousElementSibling);
+        }
+
+        if (result == "exit")
+            return "unknown";
+        return result;
+    }
+
+    private List<string> _bisTextSwaps = new()
+    {
+        "bis",
+        "recommended",
+        "recommended",
+        "best in slot",
+        "best"
+    };
+
+    private Dictionary<string, string> _altModifierTextSwaps = new Dictionary<string, string>()
+    {
+        { "stam", "Stam" },
+        { "mitigation", "Mit" },
+        { "def", "Mit" },
+        { "armor", "Mit" },
+        { "dodge", "Mit" },
+        { "parry", "Mit" },
+        { "mit", "Mit" },
+        { "threat", "Thrt" },
+        { "ffb", "FFB" }
+    };
+
+    private Dictionary<string, string> _altModifierNotSwaps = new Dictionary<string, string>()
+    {
+        { "armor", "armor pen" },
+    };
+
+    private List<string> _altTextSwaps = new()
+    {
+        "prebis",
+        "tbc",
+        "pre-raid",
+        "pre-bis",
+        "phase 1",
+        "p1",
+        "phase 2",
+        "p2",
+        "phase 3",
+        "p3",
+        "phase 4",
+        "p4",
+        "alt",
+        "10-man",
+        "10 man"
+    };
+
+    private string GetBisText(string htmlBisText, bool first, string phase)
+    {
+        var bisText = string.Empty;
+        if (first)
+            bisText = "BIS";
+        // else if (isTierList)
+        // {
+        //     bisText = rankText.Contains("S") ? "BIS" : "Alt";
+        // }
+        else
+        {
+            if (_altTextSwaps.Any((s) =>
+            {
+                if (phase == "Phase1" && (s.ToLower() == "phase 1" || s.ToLower() == "p1"))
+                    return false;
+                if (phase == "Phase2" && (s.ToLower() == "phase 2" || s.ToLower() == "p2"))
+                    return false;
+                else if (phase == "Phase3" && (s.ToLower() == "phase 3" || s.ToLower() == "p3"))
+                    return false;
+                else if (phase == "Phase4" && (s.ToLower() == "phase 4" || s.ToLower() == "p4"))
+                    return false;
+
+                return htmlBisText?.ToLower().Contains(s) ?? false;
+            }))
+            {
+                bisText = "Alt";
+            }
+            else
+            {
+                bisText = _bisTextSwaps.Any(s => htmlBisText?.ToLower().Contains(s) ?? false) ? "BIS" : "Alt";
+            }
+        }
+
+        var altText = string.Empty;
+        foreach (var tankSwap in _altModifierTextSwaps)
+            if ((!htmlBisText?.ToLower().Contains("no") ?? false) &&
+                (htmlBisText?.ToLower().Contains(tankSwap.Key) ?? false))
+            {
+                if (!_altModifierNotSwaps.ContainsKey(tankSwap.Key) ||
+                    (!htmlBisText?.ToLower().Contains(_altModifierNotSwaps[tankSwap.Key]) ?? false))
+                {
+                    altText = $" {tankSwap.Value}";
+                    break;
+                }
+            }
+        return bisText.Trim() + altText;
     }
 }

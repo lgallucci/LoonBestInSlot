@@ -5,6 +5,22 @@ local spec3 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance"], "3")
 local spec4 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance"], "4")
 local spec5 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance"], "5")
 
+LBIS:AddGem(spec0, "34220", "3", "True") --Chaotic Skyfire Diamond
+LBIS:AddGem(spec0, "24056", "3", "False") --Glowing Nightseye
+LBIS:AddGem(spec0, "24030", "3", "False") --Runed Living Ruby
+LBIS:AddGem(spec0, "31867", "3", "False") --Veiled Noble Topaz
+LBIS:AddGem(spec0, "24029", "3", "False") --Teardrop Living Ruby
+
+LBIS:AddEnchant(spec0, "35447", LBIS.L["Head"]) --
+LBIS:AddEnchant(spec0, "35437", LBIS.L["Shoulder"]) --
+LBIS:AddEnchant(spec0, "25084", LBIS.L["Back"]) --
+LBIS:AddEnchant(spec0, "27960", LBIS.L["Chest"]) --
+LBIS:AddEnchant(spec0, "27917", LBIS.L["Wrist"]) --
+LBIS:AddEnchant(spec0, "33997", LBIS.L["Hands"]) --
+LBIS:AddEnchant(spec0, "31372", LBIS.L["Legs"]) --
+LBIS:AddEnchant(spec0, "34008", LBIS.L["Feet"]) --
+LBIS:AddEnchant(spec0, "27981", LBIS.L["Main Hand"]) --
+
 LBIS:AddItem(spec0, "32480", LBIS.L["Head"], "BIS") --Magnified Moon Specs
 LBIS:AddItem(spec0, "24266", LBIS.L["Head"], "Alt") --Spellstrike Hood
 LBIS:AddItem(spec0, "32057", LBIS.L["Head"], "Alt") --Merciless Gladiator's Wyrmhide Helm
@@ -15,8 +31,8 @@ LBIS:AddItem(spec0, "28137", LBIS.L["Head"], "Alt") --Gladiator's Wyrmhide Helm
 LBIS:AddItem(spec0, "28278", LBIS.L["Head"], "Alt") --Incanter's Cowl
 LBIS:AddItem(spec0, "28415", LBIS.L["Head"], "Alt") --Hood of Oblivion
 LBIS:AddItem(spec0, "27796", LBIS.L["Shoulder"], "BIS") --Mana-Etched Spaulders
-LBIS:AddItem(spec0, "32059", LBIS.L["Shoulder"], "Alt") --Merciless Gladiator's Wyrmhide Spaulders
 LBIS:AddItem(spec0, "27778", LBIS.L["Shoulder"], "BIS") --Spaulders of Oblivion
+LBIS:AddItem(spec0, "32059", LBIS.L["Shoulder"], "Alt") --Merciless Gladiator's Wyrmhide Spaulders
 LBIS:AddItem(spec0, "30925", LBIS.L["Shoulder"], "Alt") --Spaulders of the Torn-heart
 LBIS:AddItem(spec0, "27994", LBIS.L["Shoulder"], "Alt") --Mantle of Three Terrors
 LBIS:AddItem(spec0, "22983", LBIS.L["Shoulder"], "Alt") --Rime Covered Mantle
@@ -115,8 +131,8 @@ LBIS:AddItem(spec0, "12930", LBIS.L["Trinket"], "Alt") --Briarwood Reed
 LBIS:AddItem(spec0, "25936", LBIS.L["Trinket"], "Alt") --Terokkar Tablet of Vim
 LBIS:AddItem(spec0, "25620", LBIS.L["Trinket"], "Alt") --Ancient Crystal Talisman
 LBIS:AddItem(spec0, "25619", LBIS.L["Trinket"], "Alt") --Glowing Crystal Insignia
-LBIS:AddItem(spec0, "32963", LBIS.L["Main Hand"], "Alt") --Merciless Gladiator's Gavel
-LBIS:AddItem(spec0, "32053", LBIS.L["Main Hand"], "Alt") --Merciless Gladiator's Spellblade
+LBIS:AddItem(spec0, "32963", LBIS.L["Main Hand"], "BIS") --Merciless Gladiator's Gavel
+LBIS:AddItem(spec0, "32053", LBIS.L["Main Hand"], "BIS") --Merciless Gladiator's Spellblade
 LBIS:AddItem(spec0, "23554", LBIS.L["Main Hand"], "BIS") --Eternium Runed Blade
 LBIS:AddItem(spec0, "30832", LBIS.L["Main Hand"], "BIS") --Gavel of Unearthed Secrets
 LBIS:AddItem(spec0, "28297", LBIS.L["Main Hand"], "Alt") --Gladiator's Spellblade
@@ -126,16 +142,6 @@ LBIS:AddItem(spec0, "28931", LBIS.L["Main Hand"], "Alt") --High Warlord's Spellb
 LBIS:AddItem(spec0, "27937", LBIS.L["Main Hand"], "Alt") --Sky Breaker
 LBIS:AddItem(spec0, "27741", LBIS.L["Main Hand"], "Alt") --Bleeding Hollow Warhammer
 LBIS:AddItem(spec0, "27868", LBIS.L["Main Hand"], "Alt") --Runesong Dagger
-LBIS:AddItem(spec0, "32055", LBIS.L["Two-Hand"], "Alt") --Merciless Gladiator's War Staff
-LBIS:AddItem(spec0, "24557", LBIS.L["Two-Hand"], "Alt") --Gladiator's War Staff
-LBIS:AddItem(spec0, "35514", LBIS.L["Two-Hand"], "Alt") --Frostscythe of Lord Ahune
-LBIS:AddItem(spec0, "29355", LBIS.L["Two-Hand"], "Alt") --Terokk's Shadowstaff
-LBIS:AddItem(spec0, "27842", LBIS.L["Two-Hand"], "Alt") --Grand Scepter of the Nexus-Kings
-LBIS:AddItem(spec0, "29130", LBIS.L["Two-Hand"], "Alt") --Auchenai Staff
-LBIS:AddItem(spec0, "28935", LBIS.L["Two-Hand"], "Alt") --High Warlord's War Staff
-LBIS:AddItem(spec0, "28341", LBIS.L["Two-Hand"], "Alt") --Warpstaff of Arcanum
-LBIS:AddItem(spec0, "31308", LBIS.L["Two-Hand"], "Alt") --The Bringer of Death
-LBIS:AddItem(spec0, "28188", LBIS.L["Two-Hand"], "Alt") --Bloodfire Greatstaff
 LBIS:AddItem(spec0, "29271", LBIS.L["Off Hand"], "BIS") --Talisman of Kalecgos
 LBIS:AddItem(spec0, "29273", LBIS.L["Off Hand"], "Alt") --Khadgar's Knapsack
 LBIS:AddItem(spec0, "28412", LBIS.L["Off Hand"], "Alt") --Lamp of Peaceful Radiance
@@ -143,8 +149,17 @@ LBIS:AddItem(spec0, "23049", LBIS.L["Off Hand"], "Alt") --Sapphiron's Left Eye
 LBIS:AddItem(spec0, "28187", LBIS.L["Off Hand"], "Alt") --Star-Heart Lamp
 LBIS:AddItem(spec0, "28260", LBIS.L["Off Hand"], "Alt") --Manual of the Nethermancer
 LBIS:AddItem(spec0, "29330", LBIS.L["Off Hand"], "Alt") --The Saga of Terokk
-LBIS:AddItem(spec0, "27518", LBIS.L["Idol"], "BIS") --Ivory Idol of the Moongoddess
-LBIS:AddItem(spec0, "32387", LBIS.L["Idol"], "BIS") --Idol of the Raven Goddess
-LBIS:AddItem(spec0, "31025", LBIS.L["Idol"], "Alt") --Idol of the Avenger
-LBIS:AddItem(spec0, "23197", LBIS.L["Idol"], "Alt") --Idol of the Moon
-
+LBIS:AddItem(spec0, "32055", LBIS.L["Two Hand"], "BIS") --Merciless Gladiator's War Staff
+LBIS:AddItem(spec0, "24557", LBIS.L["Two Hand"], "Alt") --Gladiator's War Staff
+LBIS:AddItem(spec0, "35514", LBIS.L["Two Hand"], "Alt") --Frostscythe of Lord Ahune
+LBIS:AddItem(spec0, "29355", LBIS.L["Two Hand"], "Alt") --Terokk's Shadowstaff
+LBIS:AddItem(spec0, "27842", LBIS.L["Two Hand"], "Alt") --Grand Scepter of the Nexus-Kings
+LBIS:AddItem(spec0, "29130", LBIS.L["Two Hand"], "Alt") --Auchenai Staff
+LBIS:AddItem(spec0, "28935", LBIS.L["Two Hand"], "Alt") --High Warlord's War Staff
+LBIS:AddItem(spec0, "28341", LBIS.L["Two Hand"], "Alt") --Warpstaff of Arcanum
+LBIS:AddItem(spec0, "31308", LBIS.L["Two Hand"], "Alt") --The Bringer of Death
+LBIS:AddItem(spec0, "28188", LBIS.L["Two Hand"], "Alt") --Bloodfire Greatstaff
+LBIS:AddItem(spec0, "27518", LBIS.L["Ranged/Relic"], "BIS") --Ivory Idol of the Moongoddess
+LBIS:AddItem(spec0, "32387", LBIS.L["Ranged/Relic"], "BIS") --Idol of the Raven Goddess
+LBIS:AddItem(spec0, "31025", LBIS.L["Ranged/Relic"], "Alt") --Idol of the Avenger
+LBIS:AddItem(spec0, "23197", LBIS.L["Ranged/Relic"], "Alt") --Idol of the Moon

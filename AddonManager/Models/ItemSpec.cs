@@ -18,8 +18,9 @@ public class ItemSpec : IComparable<ItemSpec>
         { "Trinket", 11 },  
         { "Main Hand", 12 }, 
         { "Off Hand", 13 },
-        { "Ranged/Relic", 14 },
-        { "unknown", 15 } 
+        { "Two Hand", 14 },
+        { "Ranged/Relic", 15 },
+        { "unknown", 16 } 
     };
 
     public int CompareTo(ItemSpec? other)

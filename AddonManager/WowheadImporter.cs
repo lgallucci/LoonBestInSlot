@@ -13,117 +13,42 @@ public class SlotSwaps
     private Dictionary<string, string> _slotSwaps = new Dictionary<string, string>()
     {
         { "Head", "Head" },
+        { "Helm", "Head" },
         { "Shoulder", "Shoulder" },
+        { "Shoulders", "Shoulder" },
         { "Back", "Back" },
         { "Chest", "Chest" },
         { "Wrist", "Wrist" },
+        { "Wrists", "Wrist" },
         { "Hands", "Hands" },
         { "Waist", "Waist" },
         { "Legs", "Legs" },
         { "Feet", "Feet" },
         { "Neck", "Neck" },
         { "Ring", "Ring" },
+        { "Rings", "Ring" },
         { "Trinket", "Trinket" },
         { "Trinkets", "Trinket" },
-        { "Main Hand", "Main Hand" },
-        { "Off Hand", "Off Hand" },
-        { "Two Hand", "Main Hand" },
-        { "Ranged/Relic", "Ranged/Relic" },
-        { "Helm", "Head" },
-        { "Helmet", "Head" },
-        { "Boots", "Feet" },
-        { "Rings", "Ring" },
-        { "Belt", "Waist" },
-        { "Finger", "Ring" },
-        { "Bracers", "Wrist" },
-        { "Shoulders", "Shoulder" },
-        { "Cloak", "Back" },
-        { "Cloaks", "Back" },
-        { "Cape", "Back" },
-        { "Amulets", "Neck"},
-        { "Gloves", "Hands" },
-        { "Main-Hand", "Main Hand" },
-        { "Main-Hand Weapon", "Main Hand" },
-        { "Main-hand Weapon", "Main Hand" },
-        { "1h Weapon", "Main Hand" },
-        { "Off-Hand Weapon", "Off Hand" },
-        { "Off-Hand weapon", "Off Hand" },
-        { "Off-hand Weapon", "Off Hand" },
-        { "Off-Hand", "Off Hand" },
-        { "Offhand", "Off Hand" },
-        { "Shield", "Off Hand" },
-        { "Weapon", "Main Hand" },
-        { "Two-Hand Weapon", "Main Hand" },
-        { "Two Hand Weapon", "Main Hand" },
-        { "Mainhand", "Main Hand" },
-        { "Mainhand Alternative", "Main Hand" },
-        { "Ranged Weapon", "Ranged/Relic" },
-        { "Sigil", "Ranged/Relic" },
-        { "Relic", "Ranged/Relic" },
-        { "Libram", "Ranged/Relic" },
-        { "Idol", "Ranged/Relic" },
-        { "Wand", "Ranged/Relic" },
-        { "Ranged", "Ranged/Relic" },
-        { "Trinket - Throughput", "Trinket" },
-        { "Trinket - Sustain", "Trinket" },
-        { "Feet - Alternative", "Feet" },
-        { "Legs - Alternative", "Feet" },
-        { "Daggers", "Main Hand" },
-        { "Ring (Rare)", "Ring" },
-        { "Ring (Weaker, More Accessible)", "Ring" },
-        { "Fist Weapons", "Main Hand" },
-        { "Fist Weapon", "Main Hand" },
-        { "One-Handed Axes", "Main Hand" },
-        { "One-Handed Maces", "Main Hand" },
-        { "One-Handed Swords", "Main Hand" },
-        { "Two-Handed Axes", "Main Hand" },
-        { "Two-Handed Maces", "Main Hand" },
-        { "Two-Handed Swords", "Main Hand" },
-        { "Polearms", "Main Hand" },
-        { "Staves", "Main Hand" },
-        { "Bows", "Ranged/Relic" },
-        { "Crossbows", "Ranged/Relic" },
-        { "Guns", "Ranged/Relic" },
-        { "Wands", "Ranged/Relic" },
-        { "1h Weapon (Rare)", "Main Hand" },
-        { "1h Weapon (Weaker, More Accessible)", "Main Hand" },
-        { "Off-hand Frills", "Off Hand" },
-        { "Weapon (1h)", "Main Hand" },
-        { "Weapon (2h)", "Main Hand" },
+        { "1-Handed", "Main Hand" },
+        { "Main", "Main Hand" },
         { "Shields", "Off Hand" },
-        { "Weapon(s)", "Main Hand" },
-        { "Weapons", "Main Hand" },
-        { "Mainhand                (With Sha Gem)", "Main Hand" },
-        { "Mainhand                (With normal Gem)", "Main Hand" },
-        { "Two-Hand (Alternative)", "Main Hand" },
-        { "Main-hand", "Main Hand" },
-        { "Off-hand", "Off Hand" },
-        { "Alternative Weapons", "Main Hand" },
-        { "1H Weapon", "Main Hand" },
-        { "2H Weapon", "Main Hand" },
-        { "2h Weapon (Less Rare)", "Main Hand" },
-        { "Rare Drop Weapon", "Main Hand" },
-        { "Alternative 2H Weapon", "Main Hand" },
-        { "Alternative 1H Weapon", "Main Hand" },
-        { "Alternative Off-Hand", "Off Hand" },
-        { "Main hand", "Main Hand" },
-        { "Neck alternative", "Neck" },
-        { "Main Hand alternative", "Main Hand" },
-        { "Main & Off hand", "Main Hand~Off Hand"},
-        { "Main & Off Hand", "Main Hand~Off Hand" },
-        { "Main & Off Hand alternative", "Main Hand~Off Hand" },
-        { "Two-hand", "Main Hand" },
-        { "Trinkets (Alchemists)", "Trinket" },
-        { "Trinkets (Non-Alchemists)", "Trinket" },
-        { "Helm (Alternative)", "Head" },
-        { "Ring (Alternative)", "Ring" },
-        { "1h Weapon (Ultra Rare)", "Main Hand" },
-        { "1h Weapon (Weaker but Accessible)", "Main Hand" },
-        { "Trinket (Alternative)", "Trinket" },
-        { "Mainhand (Alternative)", "Main Hand" },
-        { "1h Weapon (Common)", "Main Hand" },
-        { "2h Weapon (If no Epic Offhand)", "Main Hand" },
-        { "2h Weapon (If no Epic Main-Hand)", "Main Hand" }
+        { "Shield", "Off Hand" },
+        { "Off", "Off Hand" },
+        { "Offhands", "Off Hand" },
+        { "Two", "Two Hand" },
+        { "2-Handed", "Two Hand" },
+        { "Staves", "Two Hand" },
+        { "Two-Handed Maces", "Two Hand" },
+        { "Two-Handed Axes", "Two Hand" },
+        { "Two-Handed Swords", "Two Hand" },
+        { "Polearms", "Two Hand" },
+        { "Bows", "Ranged/Relic" },
+        { "Guns", "Ranged/Relic" },
+        { "Crossbows", "Ranged/Relic" },
+        { "Idols", "Ranged/Relic" },
+        { "Totems", "Ranged/Relic" },
+        { "Librams", "Ranged/Relic" },
+        { "Ranged/Relic", "Ranged/Relic" }
     };
     
     // Setting up indexers
@@ -138,6 +63,16 @@ public class SlotSwaps
                 return "unknown";
             throw new KeyNotFoundException($"Slot '{i}' not found in slot swaps.");
         }
+    }
+
+    public string GetSlot(string slotName)
+    {
+        if (this._slotSwaps.ContainsKey(slotName))
+            return _slotSwaps[slotName];
+        else if (string.IsNullOrWhiteSpace(slotName))
+            return "unknown";
+        else 
+            return string.Empty;
     }
 }
 
@@ -171,60 +106,75 @@ public static class WowheadImporter
 
     private static List<string> _allowedSlots = new List<string>()
     { "Head", "Shoulder", "Back", "Chest", "Wrist", "Hands", "Waist", "Legs", "Feet", "Neck", "Ring",
-    "Trinket", "Main Hand", "Off Hand", "Main Hand~Off Hand", "Ranged/Relic"};
+    "Trinket", "Main Hand", "Off Hand", "Two Hand", "Main Hand~Off Hand", "Ranged/Relic"};
 
     private static HashSet<int> _tierPieces = new HashSet<int>
     {
-        //Tier 14
-        89259, //helm-of-the-shadowy-conqueror
-        89235, //helm-of-the-shadowy-conqueror
-        89274, //helm-of-the-shadowy-conqueror
-        89246, //shoulders-of-the-shadowy-conqueror
-        89262, //shoulders-of-the-shadowy-conqueror
-        89277, //shoulders-of-the-shadowy-conqueror
-        89237, //chest-of-the-shadowy-conqueror
-        89250, //chest-of-the-shadowy-conqueror
-        89265, //chest-of-the-shadowy-conqueror
-        89256, //gauntlets-of-the-shadowy-conqueror
-        89240, //gauntlets-of-the-shadowy-conqueror
-        89271, //gauntlets-of-the-shadowy-conqueror
-        89268, //leggings-of-the-shadowy-conqueror
-        89243, //leggings-of-the-shadowy-conqueror
-        89253, //leggings-of-the-shadowy-conqueror
-        89273, //helm-of-the-shadowy-vanquisher
-        89234, //helm-of-the-shadowy-vanquisher
-        89258, //helm-of-the-shadowy-vanquisher
-        89248, //shoulders-of-the-shadowy-vanquisher
-        89261, //shoulders-of-the-shadowy-vanquisher
-        89276, //shoulders-of-the-shadowy-vanquisher
-        89239, //chest-of-the-shadowy-vanquisher
-        89249, //chest-of-the-shadowy-vanquisher
-        89264, //chest-of-the-shadowy-vanquisher
-        89270, //gauntlets-of-the-shadowy-vanquisher
-        89242, //gauntlets-of-the-shadowy-vanquisher
-        89255, //gauntlets-of-the-shadowy-vanquisher
-        89245, //leggings-of-the-shadowy-vanquisher
-        89252, //leggings-of-the-shadowy-vanquisher
-        89267, //leggings-of-the-shadowy-vanquisher  
-        89275, //helm-of-the-shadowy-protector
-        89236, //helm-of-the-shadowy-protector
-        89260, //helm-of-the-shadowy-protector
-        89263, //shoulders-of-the-shadowy-protector
-        89247, //shoulders-of-the-shadowy-protector
-        89278, //shoulders-of-the-shadowy-protector
-        89251, //chest-of-the-shadowy-protector
-        89238, //chest-of-the-shadowy-protector
-        89266, //chest-of-the-shadowy-protector
-        89272, //gauntlets-of-the-shadowy-protector
-        89241, //gauntlets-of-the-shadowy-protector
-        89257, //gauntlets-of-the-shadowy-protector
-        89244, //leggings-of-the-shadowy-protector
-        89254, //leggings-of-the-shadowy-protector
-        89269, //leggings-of-the-shadowy-protector
+        //Tier 4
+        29761, //helm-of-the-fallen-defender
+        29764, //pauldrons-of-the-fallen-defender
+        29753, //chestguard-of-the-fallen-defender
+        29758, //gloves-of-the-fallen-defender
+        29767, //leggings-of-the-fallen-defender
 
-        //Tier 15
+        29759, //helm-of-the-fallen-hero
+        29762, //pauldrons-of-the-fallen-hero
+        29755, //chestguard-of-the-fallen-hero
+        29756, //gloves-of-the-fallen-hero
+        29765, //leggings-of-the-fallen-hero
 
-        //Tier 16
+        29760, //helm-of-the-shadowy-protector
+        29763, //pauldrons-of-the-shadowy-protector
+        29754, //chestguard-of-the-shadowy-protector
+        29757, //gloves-of-the-shadowy-protector
+        29766, //leggings-of-the-shadowy-protector
+
+        //Tier 5
+        30242, //helm-of-the-vanquished-champion
+        30248, //pauldrons-of-the-vanquished-champion
+        30236, //chestguard-of-the-vanquished-champion
+        30239, //gloves-of-the-vanquished-champion
+        30245, //leggings-of-the-vanquished-champion
+
+        30244, //helm-of-the-vanquished-hero
+        30250, //pauldrons-of-the-vanquished-hero
+        30238, //chestguard-of-the-vanquished-hero
+        30241, //gloves-of-the-vanquished-hero
+        30247, //leggings-of-the-vanquished-hero
+
+        30243, //helm-of-the-vanquished-defender
+        30249, //pauldrons-of-the-vanquished-defender
+        30237, //chestguard-of-the-vanquished-defender
+        30240, //gloves-of-the-vanquished-defender
+        30246, //leggings-of-the-vanquished-defender
+
+        //Tier 6
+        31096, //helm-of-the-forgotten-vanquisher
+        31102, //pauldrons-of-the-forgotten-vanquisher
+        31090, //chestguard-of-the-forgotten-vanquisher
+        31093, //gloves-of-the-forgotten-vanquisher
+        31099, //leggings-of-the-forgotten-vanquisher
+        34858, //boots-of-the-forgotten-vanquisher
+        34852, //bracers-of-the-forgotten-vanquisher
+        34855, //belt-of-the-forgotten-vanquisher
+
+        31095, //helm-of-the-forgotten-protector
+        31103, //pauldrons-of-the-forgotten-protector
+        31091, //chestguard-of-the-forgotten-protector
+        31094, //gloves-of-the-forgotten-protector
+        31100, //leggings-of-the-forgotten-protector
+        34857, //boots-of-the-forgotten-protector
+        34851, //bracers-of-the-forgotten-protector
+        34854, //belt-of-the-forgotten-protector
+
+        31097, //helm-of-the-forgotten-conqueror
+        31101, //pauldrons-of-the-forgotten-conqueror
+        31089, //chestguard-of-the-forgotten-conqueror
+        31092, //gloves-of-the-forgotten-conqueror
+        31098, //leggings-of-the-forgotten-conqueror
+        34856, //boots-of-the-forgotten-conqueror
+        34848, //bracers-of-the-forgotten-conqueror
+        34853, //belt-of-the-forgotten-conqueror
     };
 
     public static bool VerifyGuide(List<ItemSpec> items)
@@ -263,29 +213,38 @@ public static class WowheadImporter
     public static async Task ImportClasses(IEnumerable<ClassGuideMapping> specList, int phaseNumber, CancellationToken cancelToken, Action<string> logFunc)
     {
         var addresses = new List<string>();
-        var addressToSpec = new Dictionary<string, ClassGuideMapping>();
+        var addressToSpec = new Dictionary<string, List<ClassGuideMapping>>();
         foreach (var specMapping in specList)
         {
-            addresses.Add(specMapping.WebAddress);
-            addressToSpec.Add(specMapping.WebAddress, specMapping);
+            if (!addresses.Contains(specMapping.WebAddress))
+            {
+                addresses.Add(specMapping.WebAddress);
+                addressToSpec.Add(specMapping.WebAddress, new List<ClassGuideMapping> { specMapping });
+            } else
+            {
+                addressToSpec[specMapping.WebAddress].Add(specMapping);
+            }            
         }
 
         await Common.LoadFromWebPages(addresses, async (address, doc) =>
         {
-            var spec = addressToSpec[address];
-            try
+            var addressSpecList = addressToSpec[address];
+            foreach(var spec in addressSpecList)
             {
-                string result = await ImportClassInternal(spec, phaseNumber, doc, (s) => { });
+                try
+                {
+                    string result = await ImportClassInternal(spec, phaseNumber, doc, (s) => { });
 
-                logFunc($"{spec.ClassName} {spec.SpecName} Completed! - Verification Passed!");
-            }
-            catch (VerificationException vex)
-            {
-                logFunc($"{spec.ClassName} {spec.SpecName} Completed! - Verification Failed! - {vex.Message.Substring(0, vex.Message.Length > 150 ? 150 : vex.Message.Length - 1)}...");
-            }
-            catch (ParseException ex)
-            {
-                logFunc($"{spec.ClassName} {spec.SpecName} Failed! - {ex.Message.Substring(0, 150)}...");
+                    logFunc($"{spec.ClassName} {spec.SpecName} Completed! - Verification Passed!");
+                }
+                catch (VerificationException vex)
+                {
+                    logFunc($"{spec.ClassName} {spec.SpecName} Completed! - Verification Failed! - {vex.Message.Substring(0, vex.Message.Length > 150 ? 150 : vex.Message.Length - 1)}...");
+                }
+                catch (ParseException ex)
+                {
+                    logFunc($"{spec.ClassName} {spec.SpecName} Failed! - {ex.Message.Substring(0, 150)}...");
+                }
             }
         }, logFunc, cancelToken);
 
@@ -358,7 +317,6 @@ public static class WowheadImporter
                 }
                 File.WriteAllText(Constants.CombinePath(Constants.ItemDbPath, @$"\ItemSlots.json"), JsonConvert.SerializeObject(itemSlots, Formatting.Indented));
 
-
                 foreach (var enchant in itemsAndEnchants.Item2)
                 {
                     if (!guide.Item2.Any(e => e.EnchantId == enchant.Key))
@@ -394,7 +352,7 @@ public static class WowheadImporter
 
     private static async Task<string> GetSlotFromItemId(int itemId, Action<string> writeToLog)
     {
-        var doc = await Common.LoadFromWebPage($"https://www.wowhead.com/mop-classic/item={itemId}", writeToLog);
+        var doc = await Common.LoadFromWebPage($"https://www.wowhead.com/tbc/item={itemId}", writeToLog);
 
         if (doc == null)
         {
@@ -452,7 +410,7 @@ public static class WowheadImporter
         GemSpec? gemSpec = null;
         try
         {
-            IHtmlDocument? doc = await Common.LoadFromWebPage($"https://www.wowhead.com/mop-classic/item={gemId}#taught-by-item", writeToLog);
+            IHtmlDocument? doc = await Common.LoadFromWebPage($"https://www.wowhead.com/tbc/item={gemId}#taught-by-item", writeToLog);
 
             if (doc != null)
             {
@@ -858,13 +816,13 @@ public static class WowheadImporter
         var sources = new Dictionary<int, List<(string, string)>>();
 
         var webAddresses = itemSources.Where((i) => i.Value.SourceType == @"LBIS.L[""unknown""]")
-                                           .Select((i) => $"https://www.wowhead.com/mop-classic/item={i.Key}/");
+                                           .Select((i) => $"https://www.wowhead.com/tbc/item={i.Key}/");
         try
         {
             await Common.LoadFromWebPages(webAddresses, (uri, doc) =>
             {
                 var name = doc.Title?.Replace(" - Item - Mists of Pandaria Classic", "").Trim() ?? "\"unknown\"";
-                var itemId = Int32.Parse(uri.Replace("https://www.wowhead.com/mop-classic/item=", "").TrimEnd('/'));
+                var itemId = Int32.Parse(uri.Replace("https://www.wowhead.com/tbc/item=", "").TrimEnd('/'));
                 var rowElements = doc.QuerySelectorAll("#tab-dropped-by .listview-mode-default .listview-row");
 
                 itemSources[itemId].Name = name;
@@ -957,7 +915,7 @@ public static class WowheadImporter
 
         var sources = new Dictionary<int, List<(string, string)>>();
         var webAddresses = gemSources.Where((i) => i.Value.Source == "unknown")
-                                     .Select((i) => $"https://www.wowhead.com/mop-classic/item={i.Key}#taught-by-item");
+                                     .Select((i) => $"https://www.wowhead.com/tbc/item={i.Key}#taught-by-item");
 
         var designAddresses = new Dictionary<string, int>();
 
@@ -966,7 +924,7 @@ public static class WowheadImporter
             await Common.LoadFromWebPages(webAddresses, (uri, doc) =>
             {
                 var name = doc.Title?.Replace(" - Item - Mists of Pandaria Classic", "").Trim() ?? "\"unknown\"";
-                var itemId = Int32.Parse(uri.Replace("https://www.wowhead.com/mop-classic/item=", "").Replace("#taught-by-item", "").TrimEnd('/'));
+                var itemId = Int32.Parse(uri.Replace("https://www.wowhead.com/tbc/item=", "").Replace("#taught-by-item", "").TrimEnd('/'));
                 var taughtElements = doc.QuerySelectorAll("#tab-taught-by-item .listview-mode-default .listview-row");
                 var soldElements = doc.QuerySelectorAll("#tab-sold-by .listview-mode-default .listview-row");
 
@@ -978,7 +936,7 @@ public static class WowheadImporter
                     {
                         Common.RecursiveBoxSearch(taughtElements[0].Children[2], (anchor) =>
                         {
-                            var item = anchor.PathName.Replace("/wotlk", "").Replace("/mop-classic/", "/").Replace("/item=", "").Replace("/spell=", "");
+                            var item = anchor.PathName.Replace("/wotlk", "").Replace("/tbc/", "/").Replace("/item=", "").Replace("/spell=", "");
                             var itemIdIndex = item.IndexOf("/");
                             if (itemIdIndex == -1)
                                 itemIdIndex = item.IndexOf("&");
@@ -1042,7 +1000,7 @@ public static class WowheadImporter
 
         var sources = new Dictionary<int, List<(string, string)>>();
         var webAddresses = enchantSources.Where((i) => i.Value.Source == "unknown")
-                                     .Select((i) => $"https://www.wowhead.com/mop-classic/spell={i.Key}/");
+                                     .Select((i) => $"https://www.wowhead.com/tbc/spell={i.Key}/");
 
         var scrollAddresses = new Dictionary<string, int>();
 
@@ -1051,7 +1009,7 @@ public static class WowheadImporter
             await Common.LoadFromWebPages(webAddresses, (uri, doc) =>
             {
                 var name = doc.Title?.Replace(" - Spell - Mists of Pandaria Classic", "").Trim() ?? "\"unknown\"";
-                var spellId = Int32.Parse(uri.Replace("https://www.wowhead.com/mop-classic/spell=", "").TrimEnd('/'));
+                var spellId = Int32.Parse(uri.Replace("https://www.wowhead.com/tbc/spell=", "").TrimEnd('/'));
                 var taughtElements = doc.QuerySelectorAll("#tab-taught-by-npc .listview-mode-default .listview-row");
                 var taughtItemElements = doc.QuerySelectorAll("#tab-taught-by-item .listview-mode-default .listview-row");
                 var usedByElements = doc.QuerySelectorAll("#tab-used-by-item .listview-mode-default .listview-row");
@@ -1063,7 +1021,7 @@ public static class WowheadImporter
                 {
                     Common.RecursiveBoxSearch(taughtItemElements[0].Children[2], (anchor) =>
                     {
-                        var item = anchor.PathName.Replace("/wotlk", "").Replace("/mop-classic/", "/").Replace("/item=", "").Replace("/spell=", "");
+                        var item = anchor.PathName.Replace("/wotlk", "").Replace("/tbc/", "/").Replace("/item=", "").Replace("/spell=", "");
                         var itemIdIndex = item.IndexOf("/");
                         if (itemIdIndex == -1)
                             itemIdIndex = item.IndexOf("&");
@@ -1099,7 +1057,7 @@ public static class WowheadImporter
                 {
                     Common.RecursiveBoxSearch(usedByElements[0].Children[2], (anchor) =>
                     {
-                        var item = anchor.PathName.Replace("/wotlk", "").Replace("/mop-classic/", "/").Replace("/item=", "").Replace("/spell=", "");
+                        var item = anchor.PathName.Replace("/wotlk", "").Replace("/tbc/", "/").Replace("/item=", "").Replace("/spell=", "");
                         var itemIdIndex = item.IndexOf("/");
                         if (itemIdIndex == -1)
                             itemIdIndex = item.IndexOf("&");

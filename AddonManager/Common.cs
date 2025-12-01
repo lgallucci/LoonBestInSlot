@@ -239,7 +239,7 @@ private static void ReadEvoWowItemsList(IHtmlDocument doc, string uri, IHtmlColl
                 {
                     if (success) return true;
 
-                    var item = ((IHtmlAnchorElement)anchorObject).PathName.Replace("/mop-classic/", "/").Replace("/item=", "").Replace("/spell=", "");
+                    var item = ((IHtmlAnchorElement)anchorObject).PathName.Replace("/tbc/", "/").Replace("/item=", "").Replace("/spell=", "");
                     itemName = anchorObject.TextContent;
 
                     var itemIdIndex = item.IndexOf("/");

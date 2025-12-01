@@ -1,5 +1,25 @@
 LBIS.EnchantSources =
 {
-    [8024] = { Name = "Flametongue Weapon", DesignId = "99999", Source = LBIS.L["Shaman Spell"], SourceLocation = "", TextureId = "" },
-    
+    [25072] = { Name = "", DesignId = "99999", Source = "unknown", SourceLocation = "unknown", TextureId = "" },
+    [25080] = { Name = "", DesignId = "99999", Source = unknown, SourceLocation = unknown, TextureId = "" },
+    [25084] = { Name = "", DesignId = "99999", Source = unknown, SourceLocation = unknown, TextureId = "" },
+    [27899] = { Name = "", DesignId = "99999", Source = unknown, SourceLocation = unknown, TextureId = "" },
+    [27914] = { Name = "", DesignId = "99999", Source = "unknown", SourceLocation = "unknown", TextureId = "" },
+    [27917] = { Name = "", DesignId = "99999", Source = unknown, SourceLocation = unknown, TextureId = "" },
+    [27920] = { Name = "", DesignId = "99999", Source = unknown, SourceLocation = unknown, TextureId = "" },
+    [27960] = { Name = "", DesignId = "99999", Source = unknown, SourceLocation = unknown, TextureId = "" },
+    [27977] = { Name = "", DesignId = "99999", Source = unknown, SourceLocation = unknown, TextureId = "" },
+    [27981] = { Name = "", DesignId = "99999", Source = unknown, SourceLocation = unknown, TextureId = "" },
+    [31372] = { Name = "", DesignId = "99999", Source = unknown, SourceLocation = unknown, TextureId = "" },
+    [33997] = { Name = "", DesignId = "99999", Source = unknown, SourceLocation = unknown, TextureId = "" },
+    [34004] = { Name = "", DesignId = "99999", Source = unknown, SourceLocation = unknown, TextureId = "" },
+    [34007] = { Name = "", DesignId = "99999", Source = unknown, SourceLocation = unknown, TextureId = "" },
+    [34008] = { Name = "", DesignId = "99999", Source = unknown, SourceLocation = unknown, TextureId = "" },
+    [35407] = { Name = "", DesignId = "99999", Source = unknown, SourceLocation = unknown, TextureId = "" },
+    [35417] = { Name = "", DesignId = "99999", Source = "unknown", SourceLocation = "unknown", TextureId = "" },
+    [35437] = { Name = "", DesignId = "99999", Source = unknown, SourceLocation = unknown, TextureId = "" },
+    [35447] = { Name = "", DesignId = "99999", Source = unknown, SourceLocation = unknown, TextureId = "" },
+    [35452] = { Name = "", DesignId = "99999", Source = unknown, SourceLocation = unknown, TextureId = "" },
+    [35488] = { Name = "", DesignId = "99999", Source = unknown, SourceLocation = unknown, TextureId = "" },
+    [35495] = { Name = "", DesignId = "99999", Source = "unknown", SourceLocation = "unknown", TextureId = "" },
 }
