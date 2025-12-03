@@ -6,8 +6,8 @@ namespace AddonManager.FileManagers;
 public static class ItemSpecFileManager
 {
     public static void WriteItemSpec(string path, string className, string specName, 
-        List<GemSpec> gems, 
-        List<EnchantSpec> enchants,
+        Dictionary<int, List<GemSpec>> gemsList, 
+        Dictionary<int, List<EnchantSpec>> enchantsList,
         Dictionary<int, List<ItemSpec>> itemsList)
     {
         var itemSB = new StringBuilder();
@@ -20,20 +20,30 @@ public static class ItemSpecFileManager
         itemSB.AppendLine($"local spec5 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"5\")");
 
         itemSB.AppendLine();
-        gems.Sort();
-        foreach (var gem in gems)
+        foreach (var phaseGems in gemsList)
         {
-            string specString = $"spec{gem.Phase}";
+            var gems = phaseGems.Value;
+            gems.Sort();
+            foreach (var gem in gems)
+            {
+                string specString = $"spec{phaseGems.Key}";
 
-            itemSB.AppendLine($"LBIS:AddGem({specString}, \"{gem.GemId}\", \"{gem.Quality}\", \"{gem.IsMeta.ToString()}\") --{gem.Name}");
+                itemSB.AppendLine($"LBIS:AddGem({specString}, \"{gem.GemId}\", \"{gem.Quality}\", \"{gem.IsMeta.ToString()}\") --{gem.Name}");
+            }
         }
 
         itemSB.AppendLine();
-        enchants.Sort();
-        foreach (var enchant in enchants)
+        foreach (var phaseEnchants in enchantsList)
         {
-            itemSB.AppendLine($"LBIS:AddEnchant(spec{itemsList.Keys.Max()}, \"{enchant.EnchantId}\", LBIS.L[\"{enchant.Slot}\"]) --{enchant.Name}");
+            var enchants = phaseEnchants.Value;
+            enchants.Sort();
+
+            foreach (var enchant in enchants)
+            {
+                itemSB.AppendLine($"LBIS:AddEnchant(spec{phaseEnchants.Key}, \"{enchant.EnchantId}\", LBIS.L[\"{enchant.Slot}\"]) --{enchant.Name}");
+            }
         }
+
         foreach (var phaseItems in itemsList)
         {
             itemSB.AppendLine();
@@ -49,10 +59,10 @@ public static class ItemSpecFileManager
         System.IO.File.WriteAllText(path, itemSB.ToString());
     }
 
-    public static Tuple<List<GemSpec>, List<EnchantSpec>, Dictionary<int, List<ItemSpec>>> ReadGuide(string path)
+    public static Tuple<Dictionary<int, List<GemSpec>>, Dictionary<int, List<EnchantSpec>>, Dictionary<int, List<ItemSpec>>> ReadGuide(string path)
     {
-        var gems = new List<GemSpec>();
-        var enchants = new List<EnchantSpec>();
+        var gems = new Dictionary<int, List<GemSpec>>();
+        var enchants = new Dictionary<int, List<EnchantSpec>>();
         var items = new Dictionary<int, List<ItemSpec>>();
 
         string[] itemSpecLines = System.IO.File.ReadAllLines(path);
@@ -70,11 +80,15 @@ public static class ItemSpecFileManager
                 var itemSplit = itemSpecLine.Replace("LBIS:AddGem(spec", "").Trim().Split('"');
 
                 var gemId = Int32.Parse(itemSplit[1]);
-                gems.Add(new GemSpec
+                var phase = Int32.Parse(itemSplit[0].Replace(", ", ""));
+
+                if (!gems.ContainsKey(phase))
+                    gems.Add(phase, new List<GemSpec>());
+
+                gems[phase].Add(new GemSpec
                 {
                     GemId = gemId,
                     Name = itemSplit[6].Replace(") --", ""),
-                    Phase = Int32.Parse(itemSplit[0].Replace(", ", "")),
                     Quality = Int32.Parse(itemSplit[3]),
                     IsMeta = bool.Parse(itemSplit[5])
                 });
@@ -85,8 +99,13 @@ public static class ItemSpecFileManager
                 var itemSplit = itemSpecLine.Replace("LBIS:AddEnchant(spec", "").Trim().Split('"');
 
                 var enchantId = Int32.Parse(itemSplit[1]);
+                var phase = Int32.Parse(itemSplit[0].Replace(", ", ""));
                 var slot = itemSplit[3];
-                enchants.Add(new EnchantSpec
+
+                if (!enchants.ContainsKey(phase))
+                    enchants.Add(phase, new List<EnchantSpec>());
+
+                enchants[phase].Add(new EnchantSpec
                 {
                     EnchantId = enchantId,
                     Name = itemSplit[4].Replace("]) --", ""),
@@ -116,7 +135,7 @@ public static class ItemSpecFileManager
             }
         }
 
-        return new Tuple<List<GemSpec>, List<EnchantSpec>, Dictionary<int, List<ItemSpec>>>(gems, enchants, items);
+        return new Tuple<Dictionary<int, List<GemSpec>>, Dictionary<int, List<EnchantSpec>>, Dictionary<int, List<ItemSpec>>>(gems, enchants, items);
 
     }
 }

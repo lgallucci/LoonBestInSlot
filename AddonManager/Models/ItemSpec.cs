@@ -78,7 +78,6 @@ public class GemSpec : IComparable<GemSpec>
     public string Name { get; set; } = string.Empty;
     public int Quality { get; set; }
     public bool IsMeta { get; set; }
-    public int Phase { get; internal set; }
 }
 
 public class EnchantSpec : IComparable<EnchantSpec>

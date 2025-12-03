@@ -35,6 +35,8 @@ public class SlotSwaps
         { "Neck", "Neck" },
         { "Ring", "Ring" },
         { "Rings", "Ring" },
+        { "Finger", "Ring" },
+        { "Fingers", "Ring" },
         { "Mitigation Trinkets", "Trinket" },
         { "Stamina Trinkets", "Trinket" },
         { "Threat Generation Trinkets", "Trinket" },
@@ -76,7 +78,8 @@ public class SlotSwaps
         { "Librams", "Ranged/Relic" },
         { "Ranged/Relic", "Ranged/Relic" },
         { "Ranged", "Ranged/Relic" },
-        { "Wands", "Ranged/Relic"}
+        { "Wands", "Ranged/Relic"},
+        { "Miscellaneous", "Ranged/Relic" }
     };
     
     // Setting up indexers
@@ -304,10 +307,13 @@ public static class WowheadImporter
 
                 itemsAndEnchants = new WowheadGuideParser().ParseWowheadGuide(classGuideMapping, doc, logFunc);
 
+                if (!guide.Item1.ContainsKey(phaseNumber))
+                    guide.Item1.Add(phaseNumber, new List<GemSpec>());
+
                 var gemSources = new List<GemSpec>();
                 foreach (var gem in itemsAndEnchants.Item1)
                 {
-                    if (!guide.Item1.Any(g => g.GemId == gem.Key))
+                    if (!guide.Item1.Any(g => g.Value.Any(g => g.GemId == gem.Key)))
                     {
                         if (_gemSources.ContainsKey(gem.Key))
                         {
@@ -324,7 +330,7 @@ public static class WowheadImporter
                         }
                     }
                 }
-                guide.Item1.AddRange(gemSources);
+                guide.Item1[phaseNumber].AddRange(gemSources);
 
                 var jsonFileString = File.ReadAllText(Constants.CombinePath(Constants.ItemDbPath, @$"\ItemSlots.json"));
                 var itemSlots = JsonConvert.DeserializeObject<Dictionary<int, string>>(jsonFileString) ?? new Dictionary<int, string>();
@@ -345,11 +351,17 @@ public static class WowheadImporter
                 }
                 File.WriteAllText(Constants.CombinePath(Constants.ItemDbPath, @$"\ItemSlots.json"), JsonConvert.SerializeObject(itemSlots, Formatting.Indented));
 
+                if (!guide.Item2.ContainsKey(phaseNumber))
+                    guide.Item2.Add(phaseNumber, new List<EnchantSpec>());
+                else
+                    guide.Item2[phaseNumber].Clear();
+
+                
                 foreach (var enchant in itemsAndEnchants.Item2)
                 {
-                    if (!guide.Item2.Any(e => e.EnchantId == enchant.Key))
+                    if (!guide.Item2.Any(e => e.Value.Any(e => e.EnchantId == enchant.Key)))
                     {
-                        guide.Item2.Add(enchant.Value);
+                        guide.Item2[phaseNumber].Add(enchant.Value);
                     }
                 }
 
@@ -359,8 +371,8 @@ public static class WowheadImporter
                     guide.Item3[phaseNumber].Clear();
                 guide.Item3[phaseNumber].AddRange(itemsAndEnchants.Item3.Values.ToList());
 
-                WriteGemsInternal(guide.Item1, logFunc);
-                WriteEnchantsInternal(guide.Item2, logFunc);
+                WriteGemsInternal(guide.Item1[phaseNumber], logFunc);
+                WriteEnchantsInternal(guide.Item2[phaseNumber], logFunc);
                 WriteItemsInternal(guide.Item3[phaseNumber], logFunc);
                 ItemSpecFileManager.WriteItemSpec(Constants.CombinePath(Constants.AddonPath, $@"\Guides\{className.Replace(" ", "")}.lua"), classGuideMapping.ClassName, classGuideMapping.SpecName,
                     guide.Item1, guide.Item2, guide.Item3);
@@ -464,7 +476,6 @@ public static class WowheadImporter
                     GemId = gemId,
                     Name = name,
                     IsMeta = isMeta,
-                    Phase = 0,
                     Quality = itemQuality
                 };
             }

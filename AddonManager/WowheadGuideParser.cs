@@ -240,8 +240,7 @@ public class WowheadGuideParser
             if (!gems.ContainsKey(gemId))
             {
                 gems.Add(gemId, new GemSpec {
-                    GemId = gemId,
-                    Phase = 0
+                    GemId = gemId
                 });
             }
         }
