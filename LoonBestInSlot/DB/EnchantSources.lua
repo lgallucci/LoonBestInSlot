@@ -63,7 +63,7 @@ LBIS.EnchantSources =
     [35417] = { Name = "Greater Inscription of Vengeance", DesignId = "99999", Source = LBIS.L["Inscriber Saalyn"], SourceLocation = LBIS.L["Shattrath City"], TextureId = "" },
     [35433] = { Name = "Greater Inscription of the Knight", DesignId = "99999", Source = LBIS.L["Inscriber Saalyn"], SourceLocation = LBIS.L["Shattrath City"], TextureId = "" },
     [35437] = { Name = "Greater Inscription of the Orb", DesignId = "99999", Source = LBIS.L["Inscriber Saalyn"], SourceLocation = LBIS.L["Shattrath City"], TextureId = "" },
-    [35439] = { Name = "", DesignId = "99999", Source = "unknown", SourceLocation = "unknown", TextureId = "" },
+    [35439] = { Name = "", DesignId = "99999", Source = unknown, SourceLocation = unknown, TextureId = "" },
     [35443] = { Name = "Glyph of the Defender", DesignId = "99999", Source = LBIS.L["Alurmi"], SourceLocation = LBIS.L["Caverns of Time"], TextureId = "" },
     [35445] = { Name = "Glyph of Renewal", DesignId = "99999", Source = LBIS.L["Alurmi"], SourceLocation = LBIS.L["Caverns of Time"], TextureId = "" },
     [35447] = { Name = "Glyph of Power", DesignId = "99999", Source = LBIS.L["Alurmi"], SourceLocation = LBIS.L["Caverns of Time"], TextureId = "" },
@@ -73,5 +73,6 @@ LBIS.EnchantSources =
     [35495] = { Name = "Nethercleft Leg Armor", DesignId = "29536", Source = LBIS.L["Leatherworking Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "29536" },
     [37891] = { Name = "", DesignId = "99999", Source = unknown, SourceLocation = unknown, TextureId = "" },
     [42620] = { Name = "", DesignId = "99999", Source = unknown, SourceLocation = unknown, TextureId = "" },
+    [42974] = { Name = "", DesignId = "99999", Source = unknown, SourceLocation = unknown, TextureId = "" },
     [44968] = { Name = "Heavy Knothide Armor Kit", DesignId = "34330", Source = LBIS.L["Leatherworking Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "34330" },
 }

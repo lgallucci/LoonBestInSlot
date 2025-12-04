@@ -58,6 +58,8 @@ LBIS.GemSources =
     [32205] = { Name = "Smooth Lionseye", DesignId = "99999", Source = unknown, SourceLocation = unknown },
     [32206] = { Name = "Rigid Lionseye", DesignId = "99999", Source = unknown, SourceLocation = unknown },
     [32208] = { Name = "Thick Lionseye", DesignId = "99999", Source = LBIS.L["Indormi"], SourceLocation = LBIS.L["Hyjal Summit"] },
+    [32209] = { Name = "Mystic Lionseye", DesignId = "99999", Source = unknown, SourceLocation = unknown },
+    [32210] = { Name = "Great Lionseye", DesignId = "99999", Source = unknown, SourceLocation = unknown },
     [32211] = { Name = "Sovereign Shadowsong Amethyst", DesignId = "99999", Source = unknown, SourceLocation = unknown },
     [32212] = { Name = "Shifting Shadowsong Amethyst", DesignId = "99999", Source = unknown, SourceLocation = unknown },
     [32215] = { Name = "Glowing Shadowsong Amethyst", DesignId = "99999", Source = unknown, SourceLocation = unknown },
@@ -79,7 +81,7 @@ LBIS.GemSources =
     [35488] = { Name = "Runed Crimson Spinel", DesignId = "99999", Source = unknown, SourceLocation = unknown },
     [35501] = { Name = "Eternal Earthstorm Diamond", DesignId = "35502", Source = LBIS.L["Shattered Sun Quartermaster"], SourceLocation = LBIS.L["Isle of Quel'Danas"] },
     [35707] = { Name = "Regal Nightseye", DesignId = "35708", Source = LBIS.L["Shattered Sun Quartermaster"], SourceLocation = LBIS.L["Isle of Quel'Danas"] },
-    [35758] = { Name = "Steady Seaspray Emerald", DesignId = "99999", Source = "unknown", SourceLocation = "unknown" },
+    [35758] = { Name = "Steady Seaspray Emerald", DesignId = "99999", Source = unknown, SourceLocation = unknown },
     [38547] = { Name = "Inscribed Ornate Topaz", DesignId = "99999", Source = LBIS.L["Arena Vendor"], SourceLocation = LBIS.L["Shattrath City"] },
     [38549] = { Name = "Runed Ornate Ruby", DesignId = "99999", Source = LBIS.L["Arena Vendor"], SourceLocation = LBIS.L["Shattrath City"] },
 }
