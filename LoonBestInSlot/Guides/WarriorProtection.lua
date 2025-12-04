@@ -10,6 +10,8 @@ LBIS:AddGem(spec0, "24067", "3", "False") --Jagged Talasite
 LBIS:AddGem(spec0, "24033", "3", "False") --Solid Star of Elune
 LBIS:AddGem(spec0, "23118", "2", "False") --Solid Azure Moonstone
 LBIS:AddGem(spec1, "33782", "3", "False") --Steady Talasite
+LBIS:AddGem(spec2, "30549", "4", "False") --Shifting Tanzanite
+LBIS:AddGem(spec2, "34831", "3", "False") --Eye of the Sea
 
 LBIS:AddEnchant(spec0, "35443", LBIS.L["Head"]) --
 LBIS:AddEnchant(spec0, "44968", LBIS.L["Shoulder~Legs"]) --
@@ -200,3 +202,75 @@ LBIS:AddItem(spec1, "29266", LBIS.L["Off Hand"], "Alt") --Azure-Shield of Coldar
 LBIS:AddItem(spec1, "30724", LBIS.L["Ranged/Relic"], "BIS") --Barrel-Blade Longrifle
 LBIS:AddItem(spec1, "28319", LBIS.L["Ranged/Relic"], "Alt") --Gladiator's War Edge
 LBIS:AddItem(spec1, "28826", LBIS.L["Ranged/Relic"], "Alt") --Shuriken of Negation
+
+LBIS:AddItem(spec2, "32473", LBIS.L["Head"], "BIS Mit") --Tankatronic Goggles
+LBIS:AddItem(spec2, "30488", LBIS.L["Head"], "BIS Thrt") --Merciless Gladiator's Plate Helm
+LBIS:AddItem(spec2, "30115", LBIS.L["Head"], "Alt Mit") --Destroyer Greathelm
+LBIS:AddItem(spec2, "30120", LBIS.L["Head"], "Alt Thrt") --Destroyer Battle-Helm
+LBIS:AddItem(spec2, "30117", LBIS.L["Shoulder"], "BIS") --Destroyer Shoulderguards
+LBIS:AddItem(spec2, "30122", LBIS.L["Shoulder"], "BIS Thrt") --Destroyer Shoulderblades
+LBIS:AddItem(spec2, "30490", LBIS.L["Shoulder"], "Alt Thrt") --Merciless Gladiator's Plate Shoulders
+LBIS:AddItem(spec2, "28529", LBIS.L["Back"], "BIS") --Royal Cloak of Arathi Kings
+LBIS:AddItem(spec2, "29925", LBIS.L["Back"], "BIS Mit") --Phoenix-Wing Cloak
+LBIS:AddItem(spec2, "28672", LBIS.L["Back"], "Alt") --Drape of the Dark Reavers
+LBIS:AddItem(spec2, "29994", LBIS.L["Back"], "Alt") --Thalassian Wildercloak
+LBIS:AddItem(spec2, "30098", LBIS.L["Back"], "Alt") --Razor-Scale Battlecloak
+LBIS:AddItem(spec2, "28777", LBIS.L["Back"], "Alt") --Cloak of the Pit Stalker
+LBIS:AddItem(spec2, "30113", LBIS.L["Chest"], "BIS") --Destroyer Chestguard
+LBIS:AddItem(spec2, "28485", LBIS.L["Chest"], "BIS Thrt") --Bulwark of the Ancient Kings
+LBIS:AddItem(spec2, "30486", LBIS.L["Chest"], "Alt Thrt") --Merciless Gladiator's Plate Chestpiece
+LBIS:AddItem(spec2, "32818", LBIS.L["Wrist"], "BIS") --Veteran's Plate Bracers
+LBIS:AddItem(spec2, "28996", LBIS.L["Wrist"], "BIS") --Marshal's Plate Bracers
+LBIS:AddItem(spec2, "28502", LBIS.L["Wrist"], "Alt") --Vambraces of Courage
+LBIS:AddItem(spec2, "28795", LBIS.L["Wrist"], "Alt") --Bladespire Warbands
+LBIS:AddItem(spec2, "30114", LBIS.L["Hands"], "BIS") --Destroyer Handguards
+LBIS:AddItem(spec2, "29998", LBIS.L["Hands"], "BIS Mit") --Royal Gauntlets of Silvermoon
+LBIS:AddItem(spec2, "29947", LBIS.L["Hands"], "BIS Thrt") --Gloves of the Searing Grip
+LBIS:AddItem(spec2, "30644", LBIS.L["Hands"], "Alt Thrt") --Grips of Deftness
+LBIS:AddItem(spec2, "30106", LBIS.L["Waist"], "BIS Thrt") --Belt of One-Hundred Deaths
+LBIS:AddItem(spec2, "30096", LBIS.L["Waist"], "BIS Mit") --Girdle of the Invulnerable
+LBIS:AddItem(spec2, "32805", LBIS.L["Waist"], "Alt Thrt") --Veteran's Plate Belt
+LBIS:AddItem(spec2, "30032", LBIS.L["Waist"], "Alt") --Red Belt of Battle
+LBIS:AddItem(spec2, "30116", LBIS.L["Legs"], "BIS") --Destroyer Legguards
+LBIS:AddItem(spec2, "29950", LBIS.L["Legs"], "BIS Thrt") --Greaves of the Bloodwarder
+LBIS:AddItem(spec2, "30489", LBIS.L["Legs"], "Alt") --Merciless Gladiator's Plate Legguards
+LBIS:AddItem(spec2, "30121", LBIS.L["Legs"], "Alt Thrt") --Destroyer Greaves
+LBIS:AddItem(spec2, "32793", LBIS.L["Feet"], "BIS") --Veteran's Plate Greaves
+LBIS:AddItem(spec2, "32267", LBIS.L["Feet"], "BIS Mit") --Boots of the Resilient
+LBIS:AddItem(spec2, "28608", LBIS.L["Feet"], "Alt") --Ironstriders of Urgency
+LBIS:AddItem(spec2, "30099", LBIS.L["Neck"], "BIS") --Frayed Tether of the Drowned
+LBIS:AddItem(spec2, "33066", LBIS.L["Neck"], "Alt") --Veteran's Pendant of Triumph
+LBIS:AddItem(spec2, "35511", LBIS.L["Neck"], "Alt") --Hailstone Pendant
+LBIS:AddItem(spec2, "28674", LBIS.L["Neck"], "Alt") --Saberclaw Talisman
+LBIS:AddItem(spec2, "29294", LBIS.L["Ring"], "BIS Mit") --Band of Eternity
+LBIS:AddItem(spec2, "30834", LBIS.L["Ring"], "BIS Thrt") --Shapeshifter's Signet
+LBIS:AddItem(spec2, "29279", LBIS.L["Ring"], "Alt Mit") --Violet Signet of the Great Protector
+LBIS:AddItem(spec2, "28792", LBIS.L["Ring"], "Alt Mit") --A'dal's Signet of Defense
+LBIS:AddItem(spec2, "29283", LBIS.L["Ring"], "Alt") --Violet Signet of the Master Assassin
+LBIS:AddItem(spec2, "29298", LBIS.L["Ring"], "Alt") --Band of Eternity
+LBIS:AddItem(spec2, "30061", LBIS.L["Ring"], "Alt") --Ancestral Ring of Conquest
+LBIS:AddItem(spec2, "23836", LBIS.L["Trinket"], "BIS Stam") --Goblin Rocket Launcher
+LBIS:AddItem(spec2, "23835", LBIS.L["Trinket"], "Alt Stam") --Gnomish Poultryizer
+LBIS:AddItem(spec2, "30620", LBIS.L["Trinket"], "Alt Stam") --Spyglass of the Hidden Fleet
+LBIS:AddItem(spec2, "27770", LBIS.L["Trinket"], "Alt Stam") --Argussian Compass
+LBIS:AddItem(spec2, "31113", LBIS.L["Trinket"], "Alt Stam") --Violet Badge
+LBIS:AddItem(spec2, "29181", LBIS.L["Trinket"], "Alt Stam") --Timelapse Shard
+LBIS:AddItem(spec2, "28121", LBIS.L["Trinket"], "Alt Thrt") --Icon of Unyielding Courage
+LBIS:AddItem(spec2, "28579", LBIS.L["Trinket"], "Alt Thrt") --Romulo's Poison Vial
+LBIS:AddItem(spec2, "29387", LBIS.L["Trinket"], "Alt") --Gnomeregan Auto-Blocker 600
+LBIS:AddItem(spec2, "30058", LBIS.L["Main Hand"], "BIS") --Mallet of the Tides
+LBIS:AddItem(spec2, "29362", LBIS.L["Main Hand"], "BIS Mit") --The Sun Eater
+LBIS:AddItem(spec2, "30103", LBIS.L["Main Hand"], "Alt") --Fang of Vashj
+LBIS:AddItem(spec2, "28427", LBIS.L["Main Hand"], "Alt") --Blazefury
+LBIS:AddItem(spec2, "29165", LBIS.L["Main Hand"], "Alt") --Warbringer
+LBIS:AddItem(spec2, "28749", LBIS.L["Main Hand"], "Alt") --King's Defender
+LBIS:AddItem(spec2, "28825", LBIS.L["Off Hand"], "BIS") --Aldori Legacy Defender
+LBIS:AddItem(spec2, "32045", LBIS.L["Off Hand"], "Alt") --Merciless Gladiator's Shield Wall
+LBIS:AddItem(spec2, "28358", LBIS.L["Off Hand"], "Alt") --Gladiator's Shield Wall
+LBIS:AddItem(spec2, "28606", LBIS.L["Off Hand"], "Alt") --Shield of Impenetrable Darkness
+LBIS:AddItem(spec2, "32756", LBIS.L["Ranged/Relic"], "BIS Mit") --Gyro-Balanced Khorium Destroyer
+LBIS:AddItem(spec2, "30724", LBIS.L["Ranged/Relic"], "Alt Mit") --Barrel-Blade Longrifle
+LBIS:AddItem(spec2, "32054", LBIS.L["Ranged/Relic"], "Alt") --Merciless Gladiator's War Edge
+LBIS:AddItem(spec2, "30025", LBIS.L["Ranged/Relic"], "Alt") --Serpentshrine Shuriken
+LBIS:AddItem(spec2, "32645", LBIS.L["Ranged/Relic"], "Alt") --Crystalline Crossbow
+LBIS:AddItem(spec2, "28826", LBIS.L["Ranged/Relic"], "Alt Stam") --Shuriken of Negation

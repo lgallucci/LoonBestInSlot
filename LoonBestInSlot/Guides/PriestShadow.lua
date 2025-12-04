@@ -7,6 +7,8 @@ local spec5 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Shadow"], "5")
 
 LBIS:AddGem(spec0, "28118", "4", "False") --Runed Ornate Ruby
 LBIS:AddGem(spec0, "24030", "3", "False") --Runed Living Ruby
+LBIS:AddGem(spec2, "25893", "3", "True") --Mystical Skyfire Diamond
+LBIS:AddGem(spec2, "24056", "3", "False") --Glowing Nightseye
 
 LBIS:AddEnchant(spec0, "35447", LBIS.L["Head"]) --
 LBIS:AddEnchant(spec0, "35406", LBIS.L["Shoulder"]) --
@@ -17,6 +19,7 @@ LBIS:AddEnchant(spec0, "33997", LBIS.L["Hands"]) --
 LBIS:AddEnchant(spec0, "31372", LBIS.L["Legs"]) --
 LBIS:AddEnchant(spec0, "34008", LBIS.L["Feet"]) --
 LBIS:AddEnchant(spec0, "27982", LBIS.L["Main Hand"]) --
+LBIS:AddEnchant(spec2, "27924", LBIS.L["Ring"]) --
 
 LBIS:AddItem(spec0, "32494", LBIS.L["Head"], "BIS") --Destruction Holo-gogs
 LBIS:AddItem(spec0, "24266", LBIS.L["Head"], "BIS") --Spellstrike Hood
@@ -185,3 +188,66 @@ LBIS:AddItem(spec1, "29273", LBIS.L["Off Hand"], "Alt") --Khadgar's Knapsack
 LBIS:AddItem(spec1, "32872", LBIS.L["Ranged/Relic"], "BIS") --Illidari Rod of Discipline
 LBIS:AddItem(spec1, "29350", LBIS.L["Ranged/Relic"], "Alt") --The Black Stalk
 LBIS:AddItem(spec1, "28673", LBIS.L["Ranged/Relic"], "Alt") --Tirisfal Wand of Ascendancy
+
+LBIS:AddItem(spec2, "32494", LBIS.L["Head"], "BIS") --Destruction Holo-gogs
+LBIS:AddItem(spec2, "30161", LBIS.L["Head"], "BIS") --Hood of the Avatar
+LBIS:AddItem(spec2, "29986", LBIS.L["Head"], "Alt") --Cowl of the Grand Engineer
+LBIS:AddItem(spec2, "24266", LBIS.L["Head"], "Alt") --Spellstrike Hood
+LBIS:AddItem(spec2, "30163", LBIS.L["Shoulder"], "BIS") --Wings of the Avatar
+LBIS:AddItem(spec2, "21869", LBIS.L["Shoulder"], "BIS") --Frozen Shadoweave Shoulders
+LBIS:AddItem(spec2, "30079", LBIS.L["Shoulder"], "Alt") --Illidari Shoulderpads
+LBIS:AddItem(spec2, "29992", LBIS.L["Back"], "BIS") --Royal Cloak of the Sunstriders
+LBIS:AddItem(spec2, "28570", LBIS.L["Back"], "Alt") --Shadow-Cloak of Dalaran
+LBIS:AddItem(spec2, "30107", LBIS.L["Chest"], "BIS") --Vestments of the Sea-Witch
+LBIS:AddItem(spec2, "30159", LBIS.L["Chest"], "Alt") --Shroud of the Avatar
+LBIS:AddItem(spec2, "21871", LBIS.L["Chest"], "Alt") --Frozen Shadoweave Robe
+LBIS:AddItem(spec2, "30056", LBIS.L["Chest"], "Alt") --Robe of Hateful Echoes
+LBIS:AddItem(spec2, "29918", LBIS.L["Wrist"], "Alt") --Mindstorm Wristbands
+LBIS:AddItem(spec2, "28515", LBIS.L["Wrist"], "Alt") --Bands of Nefarious Deeds
+LBIS:AddItem(spec2, "28507", LBIS.L["Hands"], "BIS") --Handwraps of Flowing Thought
+LBIS:AddItem(spec2, "28780", LBIS.L["Hands"], "Alt") --Soul-Eater's Handwraps
+LBIS:AddItem(spec2, "30160", LBIS.L["Hands"], "Alt") --Handguards of the Avatar
+LBIS:AddItem(spec2, "29987", LBIS.L["Hands"], "Alt") --Gauntlets of the Sun King
+LBIS:AddItem(spec2, "30038", LBIS.L["Waist"], "BIS") --Belt of Blasting
+LBIS:AddItem(spec2, "30064", LBIS.L["Waist"], "Alt") --Cord of Screaming Terrors
+LBIS:AddItem(spec2, "28799", LBIS.L["Waist"], "Alt") --Belt of Divine Inspiration
+LBIS:AddItem(spec2, "29972", LBIS.L["Legs"], "BIS") --Trousers of the Astromancer
+LBIS:AddItem(spec2, "30162", LBIS.L["Legs"], "BIS") --Leggings of the Avatar
+LBIS:AddItem(spec2, "24262", LBIS.L["Legs"], "Alt") --Spellstrike Pants
+LBIS:AddItem(spec2, "30734", LBIS.L["Legs"], "Alt") --Leggings of the Seventh Circle
+LBIS:AddItem(spec2, "28594", LBIS.L["Legs"], "Alt") --Trial-Fire Trousers
+LBIS:AddItem(spec2, "21870", LBIS.L["Feet"], "BIS") --Frozen Shadoweave Boots
+LBIS:AddItem(spec2, "30050", LBIS.L["Feet"], "BIS") --Boots of the Shifting Nightmare
+LBIS:AddItem(spec2, "30067", LBIS.L["Feet"], "Alt") --Velvet Boots of the Guardian
+LBIS:AddItem(spec2, "30666", LBIS.L["Neck"], "BIS") --Ritssyn's Lost Pendant
+LBIS:AddItem(spec2, "24121", LBIS.L["Neck"], "BIS") --Chain of the Twilight Owl
+LBIS:AddItem(spec2, "24116", LBIS.L["Neck"], "BIS") --Eye of the Night
+LBIS:AddItem(spec2, "20966", LBIS.L["Neck"], "Alt") --Jade Pendant of Blasting
+LBIS:AddItem(spec2, "30015", LBIS.L["Neck"], "Alt") --The Sun King's Talisman
+LBIS:AddItem(spec2, "33921", LBIS.L["Neck"], "Alt") --Vindicator's Pendant of Dominance
+LBIS:AddItem(spec2, "30109", LBIS.L["Ring"], "BIS") --Ring of Endless Coils
+LBIS:AddItem(spec2, "29922", LBIS.L["Ring"], "BIS") --Band of Al'ar
+LBIS:AddItem(spec2, "21709", LBIS.L["Ring"], "Alt") --Ring of the Fallen God
+LBIS:AddItem(spec2, "23031", LBIS.L["Ring"], "Alt") --Band of the Inevitable
+LBIS:AddItem(spec2, "28753", LBIS.L["Ring"], "Alt") --Ring of Recurrence
+LBIS:AddItem(spec2, "29352", LBIS.L["Ring"], "Alt") --Cobalt Band of Tyrigosa
+LBIS:AddItem(spec2, "28793", LBIS.L["Ring"], "Alt") --Band of Crimson Fury
+LBIS:AddItem(spec2, "29287", LBIS.L["Ring"], "Alt") --Violet Signet of the Archmage
+LBIS:AddItem(spec2, "34073", LBIS.L["Ring"], "Alt") --The Horseman's Signet Ring
+LBIS:AddItem(spec2, "29370", LBIS.L["Trinket"], "BIS") --Icon of the Silver Crescent
+LBIS:AddItem(spec2, "27683", LBIS.L["Trinket"], "BIS") --Quagmirran's Eye
+LBIS:AddItem(spec2, "28789", LBIS.L["Trinket"], "BIS") --Eye of Magtheridon
+LBIS:AddItem(spec2, "23207", LBIS.L["Trinket"], "BIS") --Mark of the Champion
+LBIS:AddItem(spec2, "38290", LBIS.L["Trinket"], "BIS") --Dark Iron Smoking Pipe
+LBIS:AddItem(spec2, "23046", LBIS.L["Trinket"], "Alt") --The Restrained Essence of Sapphiron
+LBIS:AddItem(spec2, "28770", LBIS.L["Main Hand"], "BIS") --Nathrezim Mindblade
+LBIS:AddItem(spec2, "33687", LBIS.L["Main Hand"], "BIS") --Vengeful Gladiator's Gavel
+LBIS:AddItem(spec2, "30723", LBIS.L["Main Hand"], "BIS") --Talon of the Tempest
+LBIS:AddItem(spec2, "32963", LBIS.L["Main Hand"], "Alt") --Merciless Gladiator's Gavel
+LBIS:AddItem(spec2, "32450", LBIS.L["Main Hand"], "Alt") --Gladiator's Gavel
+LBIS:AddItem(spec2, "29272", LBIS.L["Off Hand"], "BIS") --Orb of the Soul-Eater
+LBIS:AddItem(spec2, "29273", LBIS.L["Off Hand"], "Alt") --Khadgar's Knapsack
+LBIS:AddItem(spec2, "29988", LBIS.L["Two Hand"], "BIS") --The Nexus Key
+LBIS:AddItem(spec2, "29982", LBIS.L["Ranged/Relic"], "BIS") --Wand of the Forgotten Star
+LBIS:AddItem(spec2, "32872", LBIS.L["Ranged/Relic"], "Alt") --Illidari Rod of Discipline
+LBIS:AddItem(spec2, "28673", LBIS.L["Ranged/Relic"], "Alt") --Tirisfal Wand of Ascendancy

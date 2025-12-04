@@ -422,10 +422,7 @@ public class WowheadGuideParser
                 if (!firstRow || tableRow.NodeName != "TR")
                 {
                     //check to make sure the table is correct.
-                    if ((tableRow.ChildNodes[0].TextContent.Trim() == "Priority" || tableRow.ChildNodes[0].TextContent.Trim() == "Rank") && 
-                        tableRow.ChildNodes[1].TextContent.Trim() == "Item" &&
-                        tableRow.ChildNodes[2].TextContent.Trim() == "Sockets" && 
-                        tableRow.ChildNodes[3].TextContent.Trim() == "Source")
+                    if (IsItemTable(tableRow))
                     {
                         firstRow = true;
                         continue;
@@ -446,6 +443,14 @@ public class WowheadGuideParser
         }
     }
 
+    private bool IsItemTable(INode tableRow)
+    {
+        return (tableRow.ChildNodes[0].TextContent.Trim() == "Priority" || tableRow.ChildNodes[0].TextContent.Trim() == "Rank") && 
+                tableRow.ChildNodes[1].TextContent.Trim() == "Item" &&
+                tableRow.ChildNodes[2].TextContent.Trim() == "Sockets" && 
+                tableRow.ChildNodes[3].TextContent.Trim() == "Source";
+    }
+
     private string TryToGetSlot(string slot, string bisStatus)
     {
         if (slot == "Main Hand" && bisStatus.ToUpper().Contains("OH") && !bisStatus.Contains("MH"))
@@ -464,11 +469,17 @@ public class WowheadGuideParser
         if (element.NodeName == "H2" || element.NodeName == "H3" || element.NodeName == "H4" || element.NodeName == "H5")
         {
             var headerText = element.TextContent.Trim();
-            var slotText = _slotSwaps.GetSlot(headerText.Split(" ")[0]);
+            var slotSplit = headerText.Split(" ");
+            var slotText = _slotSwaps.GetSlot(slotSplit[0]);
+            if ((slotText == "unknown" || string.IsNullOrEmpty(slotText)) && slotSplit.Length > 1)
+            {
+                slotText = _slotSwaps.GetSlot($"{slotSplit[0]} {slotSplit[1]}");
+            }            
             if (slotText == "unknown" || string.IsNullOrEmpty(slotText))
             {
                 slotText = _slotSwaps.GetSlot(headerText);
             }
+
             if (slotText != "unknown" && !string.IsNullOrEmpty(slotText))
             { 
                 return slotText;
@@ -476,7 +487,7 @@ public class WowheadGuideParser
         }
 
         string result = "unknown";
-        if (element is IHtmlTableElement)
+        if (element is IHtmlTableElement && IsItemTable(element?.FirstChild?.ChildNodes[0] ?? null))
         {
             Console.WriteLine("Found table element instead of slot header.  Stopping search.");
             return "exit";
