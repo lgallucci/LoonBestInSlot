@@ -21,6 +21,8 @@ LBIS:AddGem(spec4, "32226", "4", "False") --Jagged Seaspray Emerald
 LBIS:AddGem(spec4, "32217", "4", "False") --Inscribed Pyrestone
 LBIS:AddGem(spec4, "32205", "4", "False") --Smooth Lionseye
 LBIS:AddGem(spec4, "32223", "4", "False") --Enduring Seaspray Emerald
+LBIS:AddGem(spec5, "35501", "3", "True") --Eternal Earthstorm Diamond
+LBIS:AddGem(spec5, "32206", "4", "False") --Rigid Lionseye
 
 LBIS:AddEnchant(spec0, "35443", LBIS.L["Head"]) --
 LBIS:AddEnchant(spec0, "44968", LBIS.L["Shoulder~Legs"]) --
@@ -40,6 +42,9 @@ LBIS:AddEnchant(spec3, "35452", LBIS.L["Head"]) --
 LBIS:AddEnchant(spec3, "35439", LBIS.L["Shoulder"]) --
 LBIS:AddEnchant(spec4, "35402", LBIS.L["Shoulder"]) --
 LBIS:AddEnchant(spec4, "34007", LBIS.L["Feet"]) --
+LBIS:AddEnchant(spec5, "47051", LBIS.L["Back"]) --
+LBIS:AddEnchant(spec5, "27957", LBIS.L["Chest"]) --
+LBIS:AddEnchant(spec5, "44769", LBIS.L["Hands"]) --
 
 LBIS:AddItem(spec0, "32473", LBIS.L["Head"], "BIS") --Tankatronic Goggles
 LBIS:AddItem(spec0, "28180", LBIS.L["Head"], "Alt") --Myrmidon's Headdress
@@ -435,3 +440,53 @@ LBIS:AddItem(spec4, "29949", LBIS.L["Ranged/Relic"], "BIS Thrt") --Arcanite Stea
 LBIS:AddItem(spec4, "32756", LBIS.L["Ranged/Relic"], "BIS Mit") --Gyro-Balanced Khorium Destroyer
 LBIS:AddItem(spec4, "30025", LBIS.L["Ranged/Relic"], "Alt") --Serpentshrine Shuriken
 LBIS:AddItem(spec4, "33765", LBIS.L["Ranged/Relic"], "Alt") --Vengeful Gladiator's War Edge
+
+LBIS:AddItem(spec5, "34400", LBIS.L["Head"], "BIS Mit") --Crown of Dath'Remar
+LBIS:AddItem(spec5, "35068", LBIS.L["Head"], "BIS Thrt") --Brutal Gladiator's Plate Helm
+LBIS:AddItem(spec5, "34357", LBIS.L["Head"], "Alt Mit") --Hard Khorium Goggles
+LBIS:AddItem(spec5, "34354", LBIS.L["Head"], "Alt Thrt") --Mayhem Projection Goggles
+LBIS:AddItem(spec5, "34345", LBIS.L["Head"], "Alt Thrt") --Crown of Anasterian
+LBIS:AddItem(spec5, "35070", LBIS.L["Shoulder"], "BIS") --Brutal Gladiator's Plate Shoulders
+LBIS:AddItem(spec5, "34388", LBIS.L["Shoulder"], "BIS Thrt") --Pauldrons of Berserking
+LBIS:AddItem(spec5, "34192", LBIS.L["Shoulder"], "BIS Mit") --Pauldrons of Perseverance
+LBIS:AddItem(spec5, "30980", LBIS.L["Shoulder"], "Alt Mit") --Onslaught Shoulderguards
+LBIS:AddItem(spec5, "34190", LBIS.L["Back"], "BIS") --Crimson Paragon's Cover
+LBIS:AddItem(spec5, "34010", LBIS.L["Back"], "Alt") --Pepe's Shroud of Pacification
+LBIS:AddItem(spec5, "33593", LBIS.L["Back"], "Alt Mit") --Slikk's Cloak of Placation
+LBIS:AddItem(spec5, "35066", LBIS.L["Chest"], "BIS") --Brutal Gladiator's Plate Chestpiece
+LBIS:AddItem(spec5, "34377", LBIS.L["Chest"], "BIS Thrt") --Hard Khorium Battleplate
+LBIS:AddItem(spec5, "34394", LBIS.L["Chest"], "BIS Mit") --Breastplate of Agony's Aversion
+LBIS:AddItem(spec5, "34215", LBIS.L["Chest"], "Alt Thrt") --Warharness of Reckless Fury
+LBIS:AddItem(spec5, "30976", LBIS.L["Chest"], "Alt Mit") --Onslaught Chestguard
+LBIS:AddItem(spec5, "34442", LBIS.L["Wrist"], "BIS") --Onslaught Wristguards
+LBIS:AddItem(spec5, "33516", LBIS.L["Wrist"], "Alt") --Bracers of the Ancient Phalanx
+LBIS:AddItem(spec5, "32232", LBIS.L["Wrist"], "Alt Mit") --Eternium Shell Bracers
+LBIS:AddItem(spec5, "32280", LBIS.L["Hands"], "BIS") --Gauntlets of Enforcement
+LBIS:AddItem(spec5, "34352", LBIS.L["Hands"], "BIS Mit") --Borderland Fortress Grips
+LBIS:AddItem(spec5, "34378", LBIS.L["Hands"], "Alt") --Hard Khorium Battlefists
+LBIS:AddItem(spec5, "34341", LBIS.L["Hands"], "Alt") --Borderland Paingrips
+LBIS:AddItem(spec5, "34547", LBIS.L["Waist"], "BIS") --Onslaught Waistguard
+LBIS:AddItem(spec5, "34941", LBIS.L["Waist"], "Alt") --Girdle of the Fearless
+LBIS:AddItem(spec5, "34381", LBIS.L["Legs"], "BIS") --Felstrength Legplates
+LBIS:AddItem(spec5, "34940", LBIS.L["Legs"], "Alt") --Sunguard Legplates
+LBIS:AddItem(spec5, "35069", LBIS.L["Legs"], "Alt Thrt") --Brutal Gladiator's Plate Legguards
+LBIS:AddItem(spec5, "34382", LBIS.L["Legs"], "Alt Mit") --Judicator's Legguards
+LBIS:AddItem(spec5, "34568", LBIS.L["Feet"], "BIS") --Onslaught Boots
+LBIS:AddItem(spec5, "34178", LBIS.L["Neck"], "BIS") --Collar of the Pit Lord
+LBIS:AddItem(spec5, "33296", LBIS.L["Neck"], "BIS Thrt") --Brooch of Deftness
+LBIS:AddItem(spec5, "32362", LBIS.L["Neck"], "Alt Mit") --Pendant of Titans
+LBIS:AddItem(spec5, "34680", LBIS.L["Neck"], "Alt Mit") --Shattered Sun Pendant of Resolve
+LBIS:AddItem(spec5, "34164", LBIS.L["Main Hand"], "BIS") --Dragonscale-Encrusted Longblade
+LBIS:AddItem(spec5, "30874", LBIS.L["Main Hand"], "BIS Mit") --The Unbreakable Will
+LBIS:AddItem(spec5, "32254", LBIS.L["Main Hand"], "Alt") --The Brutalizer
+LBIS:AddItem(spec5, "32369", LBIS.L["Main Hand"], "Alt") --Blade of Savagery
+LBIS:AddItem(spec5, "32943", LBIS.L["Main Hand"], "Alt") --Swiftsteel Bludgeon
+LBIS:AddItem(spec5, "34165", LBIS.L["Main Hand"], "Alt") --Fang of Kalecgos
+LBIS:AddItem(spec5, "34185", LBIS.L["Off Hand"], "BIS") --Sword Breaker's Bulwark
+LBIS:AddItem(spec5, "32375", LBIS.L["Off Hand"], "Alt") --Bulwark of Azzinoth
+LBIS:AddItem(spec5, "35094", LBIS.L["Off Hand"], "Alt") --Brutal Gladiator's Shield Wall
+LBIS:AddItem(spec5, "32253", LBIS.L["Ranged/Relic"], "BIS") --Legionkiller
+LBIS:AddItem(spec5, "34349", LBIS.L["Ranged/Relic"], "BIS Thrt") --Blade of Life's Inevitability
+LBIS:AddItem(spec5, "32325", LBIS.L["Ranged/Relic"], "BIS Mit") --Rifle of the Stoic Guardian
+LBIS:AddItem(spec5, "29949", LBIS.L["Ranged/Relic"], "Alt") --Arcanite Steam-Pistol
+LBIS:AddItem(spec5, "33765", LBIS.L["Ranged/Relic"], "Alt") --Vengeful Gladiator's War Edge

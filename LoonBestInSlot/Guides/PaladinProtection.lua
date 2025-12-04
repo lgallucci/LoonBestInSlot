@@ -16,6 +16,7 @@ LBIS:AddGem(spec3, "32196", "4", "False") --Runed Crimson Spinel
 LBIS:AddGem(spec3, "32221", "4", "False") --Veiled Pyrestone
 LBIS:AddGem(spec4, "32210", "4", "False") --Great Lionseye
 LBIS:AddGem(spec4, "32215", "4", "False") --Glowing Shadowsong Amethyst
+LBIS:AddGem(spec5, "35488", "4", "False") --Runed Crimson Spinel
 
 LBIS:AddEnchant(spec0, "35447", LBIS.L["Head"]) --
 LBIS:AddEnchant(spec0, "35402", LBIS.L["Shoulder"]) --
@@ -36,6 +37,9 @@ LBIS:AddEnchant(spec1, "27957", LBIS.L["Chest"]) --
 LBIS:AddEnchant(spec1, "33997", LBIS.L["Hands"]) --
 LBIS:AddEnchant(spec2, "27917", LBIS.L["Wrist"]) --
 LBIS:AddEnchant(spec3, "29480", LBIS.L["Shoulder"]) --
+LBIS:AddEnchant(spec5, "47051", LBIS.L["Back"]) --
+LBIS:AddEnchant(spec5, "33992", LBIS.L["Chest"]) --
+LBIS:AddEnchant(spec5, "27927", LBIS.L["Ring"]) --
 
 LBIS:AddItem(spec0, "32083", LBIS.L["Head"], "BIS") --Faceguard of Determination
 LBIS:AddItem(spec0, "33697", LBIS.L["Head"], "BIS") --Vengeful Gladiator's Lamellar Helm
@@ -610,3 +614,95 @@ LBIS:AddItem(spec4, "34011", LBIS.L["Off Hand"], "Alt Thrt") --Illidari Runeshie
 LBIS:AddItem(spec4, "29388", LBIS.L["Ranged/Relic"], "BIS") --Libram of Repentance
 LBIS:AddItem(spec4, "32368", LBIS.L["Ranged/Relic"], "BIS Mit") --Tome of the Lightbringer
 LBIS:AddItem(spec4, "33504", LBIS.L["Ranged/Relic"], "BIS Thrt") --Libram of Divine Purpose
+
+LBIS:AddItem(spec5, "34401", LBIS.L["Head"], "BIS") --Helm of Uther's Resolve
+LBIS:AddItem(spec5, "34400", LBIS.L["Head"], "BIS Mit") --Crown of Dath'Remar
+LBIS:AddItem(spec5, "32521", LBIS.L["Head"], "Alt Mit") --Faceplate of the Impenetrable
+LBIS:AddItem(spec5, "30987", LBIS.L["Head"], "Alt") --Lightbringer Faceguard
+LBIS:AddItem(spec5, "34357", LBIS.L["Head"], "Alt") --Hard Khorium Goggles
+LBIS:AddItem(spec5, "34389", LBIS.L["Shoulder"], "BIS") --Spaulders of the Thalassian Defender
+LBIS:AddItem(spec5, "34192", LBIS.L["Shoulder"], "Alt Mit") --Pauldrons of Perseverance
+LBIS:AddItem(spec5, "30998", LBIS.L["Shoulder"], "Alt") --Lightbringer Shoulderguards
+LBIS:AddItem(spec5, "29070", LBIS.L["Shoulder"], "Alt Thrt") --Justicar Shoulderguards
+LBIS:AddItem(spec5, "34190", LBIS.L["Back"], "BIS Mit") --Crimson Paragon's Cover
+LBIS:AddItem(spec5, "33593", LBIS.L["Back"], "Alt Mit") --Slikk's Cloak of Placation
+LBIS:AddItem(spec5, "28766", LBIS.L["Back"], "Alt Thrt") --Ruby Drape of the Mysticant
+LBIS:AddItem(spec5, "34242", LBIS.L["Back"], "Alt Thrt") --Tattered Cape of Antonidas
+LBIS:AddItem(spec5, "29992", LBIS.L["Back"], "Alt Thrt") --Royal Cloak of the Sunstriders
+LBIS:AddItem(spec5, "34216", LBIS.L["Chest"], "BIS") --Heroic Judicator's Chestguard
+LBIS:AddItem(spec5, "34945", LBIS.L["Chest"], "BIS Thrt") --Shattrath Protectorate's Breastplate
+LBIS:AddItem(spec5, "30991", LBIS.L["Chest"], "Alt") --Lightbringer Chestguard
+LBIS:AddItem(spec5, "34939", LBIS.L["Chest"], "Alt Mit") --Chestplate of Stoicism
+LBIS:AddItem(spec5, "29066", LBIS.L["Chest"], "Alt Thrt") --Justicar Chestguard
+LBIS:AddItem(spec5, "34433", LBIS.L["Wrist"], "BIS") --Lightbringer Wristguards
+LBIS:AddItem(spec5, "32232", LBIS.L["Wrist"], "Alt Mit") --Eternium Shell Bracers
+LBIS:AddItem(spec5, "32279", LBIS.L["Wrist"], "Alt Thrt") --The Seeker's Wristguards
+LBIS:AddItem(spec5, "34352", LBIS.L["Hands"], "BIS Mit") --Borderland Fortress Grips
+LBIS:AddItem(spec5, "30985", LBIS.L["Hands"], "BIS") --Lightbringer Handguards
+LBIS:AddItem(spec5, "29998", LBIS.L["Hands"], "Alt") --Royal Gauntlets of Silvermoon
+LBIS:AddItem(spec5, "34488", LBIS.L["Waist"], "BIS") --Lightbringer Waistguard
+LBIS:AddItem(spec5, "32342", LBIS.L["Waist"], "Alt") --Girdle of Mighty Resolve
+LBIS:AddItem(spec5, "33524", LBIS.L["Waist"], "Alt Thrt") --Girdle of the Protector
+LBIS:AddItem(spec5, "34382", LBIS.L["Legs"], "BIS") --Judicator's Legguards
+LBIS:AddItem(spec5, "30995", LBIS.L["Legs"], "Alt") --Lightbringer Legguards
+LBIS:AddItem(spec5, "32263", LBIS.L["Legs"], "Alt Mit") --Praetorian's Legguards
+LBIS:AddItem(spec5, "34560", LBIS.L["Feet"], "BIS") --Lightbringer Stompers
+LBIS:AddItem(spec5, "32245", LBIS.L["Feet"], "Alt") --Tide-stomper's Greaves
+LBIS:AddItem(spec5, "34947", LBIS.L["Feet"], "Alt Thrt") --Blue's Greaves of the Righteous Guardian
+LBIS:AddItem(spec5, "34178", LBIS.L["Neck"], "BIS") --Collar of the Pit Lord
+LBIS:AddItem(spec5, "30007", LBIS.L["Neck"], "BIS") --The Darkener's Grasp
+LBIS:AddItem(spec5, "34678", LBIS.L["Neck"], "BIS Thrt") --Shattered Sun Pendant of Acumen
+LBIS:AddItem(spec5, "35133", LBIS.L["Neck"], "BIS Thrt") --Guardian's Pendant of Dominance
+LBIS:AddItem(spec5, "32362", LBIS.L["Neck"], "Alt") --Pendant of Titans
+LBIS:AddItem(spec5, "34680", LBIS.L["Neck"], "Alt") --Shattered Sun Pendant of Resolve
+LBIS:AddItem(spec5, "35290", LBIS.L["Neck"], "Alt Thrt") --Sin'dorei Pendant of Conquest
+LBIS:AddItem(spec5, "34213", LBIS.L["Ring"], "BIS Mit") --Ring of Hardened Resolve
+LBIS:AddItem(spec5, "34889", LBIS.L["Ring"], "BIS Thrt") --Fused Nethergon Band
+LBIS:AddItem(spec5, "34888", LBIS.L["Ring"], "BIS") --Ring of the Stalwart Protector
+LBIS:AddItem(spec5, "29305", LBIS.L["Ring"], "BIS Thrt") --Band of the Eternal Sage
+LBIS:AddItem(spec5, "34362", LBIS.L["Ring"], "Alt Thrt") --Loop of Forged Power
+LBIS:AddItem(spec5, "30083", LBIS.L["Ring"], "Alt") --Ring of Sundered Souls
+LBIS:AddItem(spec5, "29172", LBIS.L["Ring"], "Alt Thrt") --Ashyen's Gift
+LBIS:AddItem(spec5, "32261", LBIS.L["Ring"], "Alt") --Band of the Abyssal Lord
+LBIS:AddItem(spec5, "28793", LBIS.L["Ring"], "Alt Thrt") --Band of Crimson Fury
+LBIS:AddItem(spec5, "28555", LBIS.L["Ring"], "Alt Thrt") --Seal of the Exorcist
+LBIS:AddItem(spec5, "30028", LBIS.L["Ring"], "Alt Mit") --Seventh Ring of the Tirisfalen
+LBIS:AddItem(spec5, "29297", LBIS.L["Ring"], "Alt Mit") --Band of the Eternal Defender
+LBIS:AddItem(spec5, "33499", LBIS.L["Ring"], "Alt Mit") --Signet of the Last Defender
+LBIS:AddItem(spec5, "33054", LBIS.L["Ring"], "Alt Thrt") --The Seal of Danzalar
+LBIS:AddItem(spec5, "35129", LBIS.L["Ring"], "Alt Thrt") --Guardian's Band of Dominance
+LBIS:AddItem(spec5, "34473", LBIS.L["Trinket"], "BIS Stam") --Commendation of Kael'thas
+LBIS:AddItem(spec5, "33829", LBIS.L["Trinket"], "BIS") --Hex Shrunken Head
+LBIS:AddItem(spec5, "32501", LBIS.L["Trinket"], "BIS") --Shadowmoon Insignia
+LBIS:AddItem(spec5, "31858", LBIS.L["Trinket"], "Alt Stam") --Darkmoon Card: Vengeance
+LBIS:AddItem(spec5, "28528", LBIS.L["Trinket"], "Alt") --Moroes' Lucky Pocket Watch
+LBIS:AddItem(spec5, "29370", LBIS.L["Trinket"], "Alt") --Icon of the Silver Crescent
+LBIS:AddItem(spec5, "33830", LBIS.L["Trinket"], "Alt") --Ancient Aqir Artifact
+LBIS:AddItem(spec5, "31859", LBIS.L["Trinket"], "Alt Stam") --Darkmoon Card: Madness
+LBIS:AddItem(spec5, "23207", LBIS.L["Trinket"], "Alt") --Mark of the Champion
+LBIS:AddItem(spec5, "23836", LBIS.L["Trinket"], "Alt") --Goblin Rocket Launcher
+LBIS:AddItem(spec5, "30629", LBIS.L["Trinket"], "Alt") --Scarab of Displacement
+LBIS:AddItem(spec5, "34579", LBIS.L["Trinket"], "Alt") --Battlemaster's Audacity
+LBIS:AddItem(spec5, "23835", LBIS.L["Trinket"], "Alt") --Gnomish Poultryizer
+LBIS:AddItem(spec5, "24125", LBIS.L["Trinket"], "Alt") --Figurine - Dawnstone Crab
+LBIS:AddItem(spec5, "35700", LBIS.L["Trinket"], "Alt") --Figurine - Crimson Serpent
+LBIS:AddItem(spec5, "29387", LBIS.L["Trinket"], "Alt") --Gnomeregan Auto-Blocker 600
+LBIS:AddItem(spec5, "32864", LBIS.L["Trinket"], "Alt") --Commander's Badge
+LBIS:AddItem(spec5, "28789", LBIS.L["Trinket"], "Alt") --Eye of Magtheridon
+LBIS:AddItem(spec5, "32534", LBIS.L["Trinket"], "Alt") --Brooch of the Immortal King
+LBIS:AddItem(spec5, "30447", LBIS.L["Trinket"], "Alt") --Tome of Fiery Redemption
+LBIS:AddItem(spec5, "34428", LBIS.L["Trinket"], "Alt") --Steely Naaru Sliver
+LBIS:AddItem(spec5, "32489", LBIS.L["Trinket"], "Alt") --Ashtongue Talisman of Zeal
+LBIS:AddItem(spec5, "35014", LBIS.L["Main Hand"], "BIS") --Brutal Gladiator's Gavel
+LBIS:AddItem(spec5, "30910", LBIS.L["Main Hand"], "BIS") --Tempest of Chaos
+LBIS:AddItem(spec5, "34176", LBIS.L["Main Hand"], "Alt") --Reign of Misery
+LBIS:AddItem(spec5, "33687", LBIS.L["Main Hand"], "Alt") --Vengeful Gladiator's Gavel
+LBIS:AddItem(spec5, "34009", LBIS.L["Main Hand"], "Alt") --Hammer of Judgement
+LBIS:AddItem(spec5, "34185", LBIS.L["Off Hand"], "BIS") --Sword Breaker's Bulwark
+LBIS:AddItem(spec5, "34986", LBIS.L["Off Hand"], "BIS Thrt") --Brutal Gladiator's Barrier
+LBIS:AddItem(spec5, "35094", LBIS.L["Off Hand"], "Alt Mit") --Brutal Gladiator's Shield Wall
+LBIS:AddItem(spec5, "32375", LBIS.L["Off Hand"], "Alt") --Bulwark of Azzinoth
+LBIS:AddItem(spec5, "30909", LBIS.L["Off Hand"], "Alt Thrt") --Antonidas's Aegis of Rapt Concentration
+LBIS:AddItem(spec5, "29388", LBIS.L["Ranged/Relic"], "BIS") --Libram of Repentance
+LBIS:AddItem(spec5, "32368", LBIS.L["Ranged/Relic"], "BIS Mit") --Tome of the Lightbringer
+LBIS:AddItem(spec5, "33504", LBIS.L["Ranged/Relic"], "BIS Thrt") --Libram of Divine Purpose
