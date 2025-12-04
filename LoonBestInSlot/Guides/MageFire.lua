@@ -7,6 +7,9 @@ local spec5 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Fire"], "5")
 
 LBIS:AddGem(spec0, "24030", "3", "False") --Runed Living Ruby
 LBIS:AddGem(spec1, "30588", "4", "False") --Potent Fire Opal
+LBIS:AddGem(spec3, "25893", "3", "True") --Mystical Skyfire Diamond
+LBIS:AddGem(spec3, "32215", "4", "False") --Glowing Shadowsong Amethyst
+LBIS:AddGem(spec3, "32196", "4", "False") --Runed Crimson Spinel
 
 LBIS:AddEnchant(spec0, "35447", LBIS.L["Head"]) --
 LBIS:AddEnchant(spec0, "35406", LBIS.L["Shoulder"]) --
@@ -19,6 +22,7 @@ LBIS:AddEnchant(spec0, "34008", LBIS.L["Feet"]) --
 LBIS:AddEnchant(spec0, "27975", LBIS.L["Main Hand"]) --
 LBIS:AddEnchant(spec2, "33997", LBIS.L["Hands"]) --
 LBIS:AddEnchant(spec2, "27981", LBIS.L["Main Hand"]) --
+LBIS:AddEnchant(spec3, "27924", LBIS.L["Ring"]) --
 
 LBIS:AddItem(spec0, "24266", LBIS.L["Head"], "BIS") --Spellstrike Hood
 LBIS:AddItem(spec0, "32494", LBIS.L["Head"], "Alt") --Destruction Holo-gogs
@@ -503,3 +507,64 @@ LBIS:AddItem(spec2, "29350", LBIS.L["Ranged/Relic"], "Alt") --The Black Stalk
 LBIS:AddItem(spec2, "27890", LBIS.L["Ranged/Relic"], "Alt") --Wand of the Netherwing
 LBIS:AddItem(spec2, "31724", LBIS.L["Ranged/Relic"], "Alt") --Arakkoa Divining Rod
 LBIS:AddItem(spec2, "30523", LBIS.L["Ranged/Relic"], "Alt") --Hotshot Cattle Prod
+
+LBIS:AddItem(spec3, "32525", LBIS.L["Head"], "BIS") --Cowl of the Illidari High Lord
+LBIS:AddItem(spec3, "31056", LBIS.L["Head"], "Alt") --Cowl of the Tempest
+LBIS:AddItem(spec3, "32494", LBIS.L["Head"], "Alt") --Destruction Holo-gogs
+LBIS:AddItem(spec3, "31059", LBIS.L["Shoulder"], "BIS") --Mantle of the Tempest
+LBIS:AddItem(spec3, "32338", LBIS.L["Shoulder"], "Alt") --Blood-cursed Shoulderpads
+LBIS:AddItem(spec3, "30884", LBIS.L["Shoulder"], "Alt") --Hatefury Mantle
+LBIS:AddItem(spec3, "32587", LBIS.L["Shoulder"], "Alt") --Mantle of Nimble Thought
+LBIS:AddItem(spec3, "32524", LBIS.L["Back"], "BIS") --Shroud of the Highborne
+LBIS:AddItem(spec3, "32331", LBIS.L["Back"], "Alt") --Cloak of the Illidari Council
+LBIS:AddItem(spec3, "28797", LBIS.L["Back"], "Alt") --Brute Cloak of the Ogre-Magi
+LBIS:AddItem(spec3, "31057", LBIS.L["Chest"], "BIS") --Robes of the Tempest
+LBIS:AddItem(spec3, "30107", LBIS.L["Chest"], "Alt") --Vestments of the Sea-Witch
+LBIS:AddItem(spec3, "30913", LBIS.L["Chest"], "Alt") --Robes of Rhonin
+LBIS:AddItem(spec3, "21848", LBIS.L["Chest"], "Alt") --Spellfire Robe
+LBIS:AddItem(spec3, "32586", LBIS.L["Wrist"], "BIS") --Bracers of Nimble Thought
+LBIS:AddItem(spec3, "30870", LBIS.L["Wrist"], "Alt") --Cuffs of Devastation
+LBIS:AddItem(spec3, "29918", LBIS.L["Wrist"], "Alt") --Mindstorm Wristbands
+LBIS:AddItem(spec3, "33913", LBIS.L["Wrist"], "Alt") --Vindicator's Silk Cuffs
+LBIS:AddItem(spec3, "32655", LBIS.L["Wrist"], "Alt") --Crystalweave Bracers
+LBIS:AddItem(spec3, "24250", LBIS.L["Wrist"], "Alt") --Bracers of Havok
+LBIS:AddItem(spec3, "31055", LBIS.L["Hands"], "BIS") --Gloves of the Tempest
+LBIS:AddItem(spec3, "28507", LBIS.L["Hands"], "Alt") --Handwraps of Flowing Thought
+LBIS:AddItem(spec3, "29080", LBIS.L["Hands"], "Alt") --Gloves of the Aldor
+LBIS:AddItem(spec3, "30038", LBIS.L["Waist"], "BIS") --Belt of Blasting
+LBIS:AddItem(spec3, "30064", LBIS.L["Waist"], "Alt") --Cord of Screaming Terrors
+LBIS:AddItem(spec3, "30888", LBIS.L["Waist"], "Alt") --Anetheron's Noose
+LBIS:AddItem(spec3, "32256", LBIS.L["Waist"], "Alt") --Waistwrap of Infinity
+LBIS:AddItem(spec3, "21846", LBIS.L["Waist"], "Alt") --Spellfire Belt
+LBIS:AddItem(spec3, "31058", LBIS.L["Legs"], "BIS") --Leggings of the Tempest
+LBIS:AddItem(spec3, "30916", LBIS.L["Legs"], "Alt") --Leggings of Channeled Elements
+LBIS:AddItem(spec3, "24262", LBIS.L["Legs"], "Alt") --Spellstrike Pants
+LBIS:AddItem(spec3, "32239", LBIS.L["Feet"], "BIS") --Slippers of the Seacaller
+LBIS:AddItem(spec3, "30037", LBIS.L["Feet"], "Alt") --Boots of Blasting
+LBIS:AddItem(spec3, "30067", LBIS.L["Feet"], "Alt") --Velvet Boots of the Guardian
+LBIS:AddItem(spec3, "32589", LBIS.L["Neck"], "BIS") --Hellfire-Encased Pendant
+LBIS:AddItem(spec3, "32349", LBIS.L["Neck"], "BIS") --Translucent Spellthread Necklace
+LBIS:AddItem(spec3, "24116", LBIS.L["Neck"], "BIS") --Eye of the Night
+LBIS:AddItem(spec3, "24121", LBIS.L["Neck"], "BIS") --Chain of the Twilight Owl
+LBIS:AddItem(spec3, "32527", LBIS.L["Ring"], "BIS") --Ring of Ancient Knowledge
+LBIS:AddItem(spec3, "32247", LBIS.L["Ring"], "Alt") --Ring of Captured Storms
+LBIS:AddItem(spec3, "29305", LBIS.L["Ring"], "Alt") --Band of the Eternal Sage
+LBIS:AddItem(spec3, "28793", LBIS.L["Ring"], "Alt") --Band of Crimson Fury
+LBIS:AddItem(spec3, "29287", LBIS.L["Ring"], "Alt") --Violet Signet of the Archmage
+LBIS:AddItem(spec3, "32483", LBIS.L["Trinket"], "BIS") --The Skull of Gul'dan
+LBIS:AddItem(spec3, "30720", LBIS.L["Trinket"], "BIS") --Serpent-Coil Braid
+LBIS:AddItem(spec3, "32488", LBIS.L["Trinket"], "BIS") --Ashtongue Talisman of Insight
+LBIS:AddItem(spec3, "27683", LBIS.L["Trinket"], "Alt") --Quagmirran's Eye
+LBIS:AddItem(spec3, "29370", LBIS.L["Trinket"], "Alt") --Icon of the Silver Crescent
+LBIS:AddItem(spec3, "38290", LBIS.L["Trinket"], "Alt") --Dark Iron Smoking Pipe
+LBIS:AddItem(spec3, "30910", LBIS.L["Main Hand"], "BIS") --Tempest of Chaos
+LBIS:AddItem(spec3, "33763", LBIS.L["Main Hand"], "Alt") --Vengeful Gladiator's Spellblade
+LBIS:AddItem(spec3, "32053", LBIS.L["Main Hand"], "Alt") --Merciless Gladiator's Spellblade
+LBIS:AddItem(spec3, "30872", LBIS.L["Off Hand"], "BIS") --Chronicle of Dark Secrets
+LBIS:AddItem(spec3, "32361", LBIS.L["Off Hand"], "Alt") --Blind-Seers Icon
+LBIS:AddItem(spec3, "29270", LBIS.L["Off Hand"], "Alt") --Flametongue Seal
+LBIS:AddItem(spec3, "32374", LBIS.L["Two Hand"], "BIS") --Zhar'doom, Greatstaff of the Devourer
+LBIS:AddItem(spec3, "29982", LBIS.L["Ranged/Relic"], "BIS") --Wand of the Forgotten Star
+LBIS:AddItem(spec3, "32343", LBIS.L["Ranged/Relic"], "Alt") --Wand of Prismatic Focus
+LBIS:AddItem(spec3, "28673", LBIS.L["Ranged/Relic"], "Alt") --Tirisfal Wand of Ascendancy
+LBIS:AddItem(spec3, "29350", LBIS.L["Ranged/Relic"], "Alt") --The Black Stalk
