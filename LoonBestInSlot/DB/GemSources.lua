@@ -72,7 +72,7 @@ LBIS.GemSources =
     [32222] = { Name = "Wicked Pyrestone", DesignId = "99999", Source = LBIS.L["Indormi"], SourceLocation = LBIS.L["Hyjal Summit"] },
     [32223] = { Name = "Enduring Seaspray Emerald", DesignId = "99999", Source = LBIS.L["Indormi"], SourceLocation = LBIS.L["Hyjal Summit"] },
     [32226] = { Name = "Jagged Seaspray Emerald", DesignId = "99999", Source = LBIS.L["Indormi"], SourceLocation = LBIS.L["Hyjal Summit"] },
-    [32409] = { Name = "Relentless Earthstorm Diamond", DesignId = "99999", Source = LBIs.L["The Consortium (Exalted)"], SourceLocation = LBIS.L["Nagrand"] },
+    [32409] = { Name = "Relentless Earthstorm Diamond", DesignId = "99999", Source = LBIS.L["The Consortium (Exalted)"], SourceLocation = LBIS.L["Nagrand"] },
     [32836] = { Name = "Purified Shadow Pearl", DesignId = "99999", Source = LBIS.L["Jewelcrafting Trainer"], SourceLocation = LBIS.L["Shattrath City"] },
     [33131] = { Name = "Crimson Sun", DesignId = "33156", Source = LBIS.L["Consortium Quartermaster"], SourceLocation = LBIS.L["Nagrand"] },
     [33133] = { Name = "Don Julio's Heart", DesignId = "33305", Source = LBIS.L["Consortium Quartermaster"], SourceLocation = LBIS.L["Nagrand"] },

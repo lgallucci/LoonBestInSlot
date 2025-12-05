@@ -178,7 +178,7 @@ function LBIS:AddGem(bisEntry, id, quality, isMeta)
 
 	if searchedItem == nil then
 
-		searchedItem = { Id = gemId, Phase = "", Quality = quality, IsMeta = isMeta, Bis = "" }
+		searchedItem = { Id = gemId, Phase = bisEntry.Phase, Quality = quality, IsMeta = isMeta, Bis = "" }
 
 		if not LBIS.GemsBySpecAndId[bisEntry.Id] then
 			LBIS.GemsBySpecAndId[bisEntry.Id] = {}
@@ -219,7 +219,7 @@ function LBIS:AddEnchant(bisEntry, id, slot)
 	local enchantSource = LBIS.EnchantSources[enchantId];
 	local designId = tonumber(enchantSource.DesignId);
 
-	local item = { Id = enchantId, Slot = slot, Phase = "", Bis = "" };
+	local item = { Id = enchantId, Slot = slot, Phase = bisEntry.Phase, Bis = "" };
 
 	if enchantSource.IsSpell == "False" then
 

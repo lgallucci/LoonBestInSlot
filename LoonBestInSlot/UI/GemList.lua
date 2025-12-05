@@ -9,12 +9,18 @@ local function itemSortFunction(table, k1, k2)
     local item2Score = 0;
 
     if item1.IsMeta == "True" then
-        item1Score = item1Score + 100;
+        item1Score = item1Score + 1000;
     end
     if item2.IsMeta == "True" then
-        item2Score = item2Score + 100;
+        item2Score = item2Score + 1000;
     end
 
+    local _, lastNumber1 = LBIS:GetPhaseNumbers(item1.Phase)
+    local _, lastNumber2 = LBIS:GetPhaseNumbers(item2.Phase)
+
+    item1Score = item1Score + (lastNumber1 * 100);
+    item2Score = item2Score + (lastNumber2 * 100);
+    
     item1Score = item1Score + tonumber(item1.Quality);
     item2Score = item2Score + tonumber(item2.Quality);
 
