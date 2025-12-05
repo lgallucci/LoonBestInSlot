@@ -335,7 +335,7 @@ local function createDropDowns(window)
         ['parent']=window,
         ['title']='Source:',
         ['items']= { LBIS.L["All"], LBIS.L["Drop"], LBIS.L["Profession"], LBIS.L["Reputation"], LBIS.L["Token"], 
-            LBIS.L["Vendor"], LBIS.L["Quest"], LBIS.L["PvP"] },
+            LBIS.L["Vendor"], LBIS.L["Transmute"],  LBIS.L["Quest"], LBIS.L["PvP"] },
         ['defaultVal']= LBISSettings.SelectedSourceType,
         ['changeFunc']=function(dropdown_frame, dropdown_val)
             LBISSettings.SelectedSourceType = dropdown_val;
@@ -346,29 +346,30 @@ local function createDropDowns(window)
     window.SourceDropDown:SetPoint("TOPLEFT", window, 450, -28);
 
     local function getZoneItems()
-        local items = { LBIS.L["All"], LBIS.L["Temple of the Jade Serpent"], LBIS.L["Stormstout Brewery"], LBIS.L["Mogu'shan Palace"], 
-            LBIS.L["Shado-Pan Monastery"], LBIS.L["Gate of the Setting Sun"], LBIS.L["Siege of Niuzao Temple"],
-            LBIS.L["Heroic: Scarlet Halls"], LBIS.L["Heroic: Scarlet Monastery"], LBIS.L["Heroic: Scholomance"]  }-- Phase 0
+        local items = { LBIS.L["All"],  }-- Phase 0
 
         if LBIS.CurrentPhase >= 1 then            
-            table.insert(items, LBIS.L["Mogu'shan Vaults"]);
-            table.insert(items, LBIS.L["Heart of Fear"]);
-            table.insert(items, LBIS.L["Terrace of Endless Spring"]);
+            table.insert(items, LBIS.L["Karazhan"]);
+            table.insert(items, LBIS.L["Gruul's Lair"]);
+            table.insert(items, LBIS.L["Magtheridon's Lair"]);
         end
 
         if LBIS.CurrentPhase >= 2 then
+            table.insert(items, LBIS.L["Serpentshrine Cavern"]);
+            table.insert(items, LBIS.L["Tempest Keep"]);
         end
 
         if LBIS.CurrentPhase >= 3 then
-            table.insert(items, LBIS.L["Throne of Thunder"]);
+            table.insert(items, LBIS.L["Mount Hyjal"]);
+            table.insert(items, LBIS.L["Black Temple"]);
         end
 
         if LBIS.CurrentPhase >= 4 then
-            table.insert(items, LBIS.L[""]);
+            table.insert(items, LBIS.L["Zul'Aman"]);
         end
 
         if LBIS.CurrentPhase >= 5 then
-            table.insert(items, LBIS.L["Siege of Orgrimmar"]);
+            table.insert(items, LBIS.L["Sunwell Plateau"]);
         end
 
         return items;

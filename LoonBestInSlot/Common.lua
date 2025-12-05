@@ -507,6 +507,8 @@ local function createSourceTypeText(specItemSource)
             return "|cFFE52AED";
         elseif sourceType == LBIS.L["Drop"] then
             return "|cFF7727FF";
+        elseif sourceType == LBIS.L["Transmute"] then
+            return "|cFFFC6A03";
         else
             return "|cFFFFFFFF";
         end
@@ -622,6 +624,12 @@ function LBIS.CreateItemRow(f, specItem, specItemSource)
                 else 
                     showSourceButton(tierToken, nil, "Token:", false);
                 end
+            end);
+            printItemSource(specItem.Id, specItemSource, dl, false, true)
+            dl:SetPoint("TOPLEFT", d, "BOTTOMLEFT", 0, -5);
+        elseif specItemSource.SourceType == LBIS.L["Transmute"] then
+            LBIS:GetItemInfo(tonumber(specItemSource.SourceNumber), function(dungeonToken)
+                showSourceButton(dungeonToken, nil, "Source:", false);
             end);
             printItemSource(specItem.Id, specItemSource, dl, false, true)
             dl:SetPoint("TOPLEFT", d, "BOTTOMLEFT", 0, -5);
