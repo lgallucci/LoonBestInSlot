@@ -9,53 +9,65 @@ public class TierSetImporter : LootImporter
 {
     private List<string> armorTokenUris = new List<string>
     {
-        "https://www.wowhead.com/mop-classic/item=89259/helm-of-the-shadowy-conqueror#currency-for",
-        "https://www.wowhead.com/mop-classic/item=89235/helm-of-the-shadowy-conqueror#currency-for",
-        "https://www.wowhead.com/mop-classic/item=89274/helm-of-the-shadowy-conqueror#currency-for",
-        "https://www.wowhead.com/mop-classic/item=89246/shoulders-of-the-shadowy-conqueror#currency-for",
-        "https://www.wowhead.com/mop-classic/item=89262/shoulders-of-the-shadowy-conqueror#currency-for",
-        "https://www.wowhead.com/mop-classic/item=89277/shoulders-of-the-shadowy-conqueror#currency-for",
-        "https://www.wowhead.com/mop-classic/item=89237/chest-of-the-shadowy-conqueror#currency-for",
-        "https://www.wowhead.com/mop-classic/item=89250/chest-of-the-shadowy-conqueror#currency-for",
-        "https://www.wowhead.com/mop-classic/item=89265/chest-of-the-shadowy-conqueror#currency-for",
-        "https://www.wowhead.com/mop-classic/item=89256/gauntlets-of-the-shadowy-conqueror#currency-for",
-        "https://www.wowhead.com/mop-classic/item=89240/gauntlets-of-the-shadowy-conqueror#currency-for",
-        "https://www.wowhead.com/mop-classic/item=89271/gauntlets-of-the-shadowy-conqueror#currency-for",
-        "https://www.wowhead.com/mop-classic/item=89268/leggings-of-the-shadowy-conqueror#currency-for",
-        "https://www.wowhead.com/mop-classic/item=89243/leggings-of-the-shadowy-conqueror#currency-for",
-        "https://www.wowhead.com/mop-classic/item=89253/leggings-of-the-shadowy-conqueror#currency-for",
+        //Tier 4
+        "https://www.wowhead.com/tbc/item=29761/helm-of-the-fallen-defender#currency-for",
+        "https://www.wowhead.com/tbc/item=29764/pauldrons-of-the-fallen-defender#currency-for",
+        "https://www.wowhead.com/tbc/item=29753/chestguard-of-the-fallen-defender#currency-for",
+        "https://www.wowhead.com/tbc/item=29758/gloves-of-the-fallen-defender#currency-for",
+        "https://www.wowhead.com/tbc/item=29767/leggings-of-the-fallen-defender#currency-for",
+        "https://www.wowhead.com/tbc/item=29759/helm-of-the-fallen-hero#currency-for",
+        "https://www.wowhead.com/tbc/item=29762/pauldrons-of-the-fallen-hero#currency-for",
+        "https://www.wowhead.com/tbc/item=29755/chestguard-of-the-fallen-hero#currency-for",
+        "https://www.wowhead.com/tbc/item=29756/gloves-of-the-fallen-hero#currency-for",
+        "https://www.wowhead.com/tbc/item=29765/leggings-of-the-fallen-hero#currency-for",
+        "https://www.wowhead.com/tbc/item=29760/helm-of-the-fallen-champion#currency-for",
+        "https://www.wowhead.com/tbc/item=29763/pauldrons-of-the-fallen-champion#currency-for",
+        "https://www.wowhead.com/tbc/item=29754/chestguard-of-the-fallen-champion#currency-for",
+        "https://www.wowhead.com/tbc/item=29757/gloves-of-the-fallen-champion#currency-for",
+        "https://www.wowhead.com/tbc/item=29766/leggings-of-the-fallen-champion#currency-for",
 
-        "https://www.wowhead.com/mop-classic/item=89273/helm-of-the-shadowy-vanquisher#currency-for",
-        "https://www.wowhead.com/mop-classic/item=89234/helm-of-the-shadowy-vanquisher#currency-for",
-        "https://www.wowhead.com/mop-classic/item=89258/helm-of-the-shadowy-vanquisher#currency-for",
-        "https://www.wowhead.com/mop-classic/item=89248/shoulders-of-the-shadowy-vanquisher#currency-for",
-        "https://www.wowhead.com/mop-classic/item=89261/shoulders-of-the-shadowy-vanquisher#currency-for",
-        "https://www.wowhead.com/mop-classic/item=89276/shoulders-of-the-shadowy-vanquisher#currency-for",
-        "https://www.wowhead.com/mop-classic/item=89239/chest-of-the-shadowy-vanquisher#currency-for",
-        "https://www.wowhead.com/mop-classic/item=89249/chest-of-the-shadowy-vanquisher#currency-for",
-        "https://www.wowhead.com/mop-classic/item=89264/chest-of-the-shadowy-vanquisher#currency-for",
-        "https://www.wowhead.com/mop-classic/item=89270/gauntlets-of-the-shadowy-vanquisher#currency-for",
-        "https://www.wowhead.com/mop-classic/item=89242/gauntlets-of-the-shadowy-vanquisher#currency-for",
-        "https://www.wowhead.com/mop-classic/item=89255/gauntlets-of-the-shadowy-vanquisher#currency-for",
-        "https://www.wowhead.com/mop-classic/item=89245/leggings-of-the-shadowy-vanquisher#currency-for",
-        "https://www.wowhead.com/mop-classic/item=89252/leggings-of-the-shadowy-vanquisher#currency-for",
-        "https://www.wowhead.com/mop-classic/item=89267/leggings-of-the-shadowy-vanquisher#currency-for",  
+        //Tier 5
+        "https://www.wowhead.com/tbc/item=30242/helm-of-the-vanquished-champion#currency-for",
+        "https://www.wowhead.com/tbc/item=30248/pauldrons-of-the-vanquished-champion#currency-for",
+        "https://www.wowhead.com/tbc/item=30236/chestguard-of-the-vanquished-champion#currency-for",
+        "https://www.wowhead.com/tbc/item=30239/gloves-of-the-vanquished-champion#currency-for",
+        "https://www.wowhead.com/tbc/item=30245/leggings-of-the-vanquished-champion#currency-for",
+        "https://www.wowhead.com/tbc/item=30244/helm-of-the-vanquished-hero#currency-for",
+        "https://www.wowhead.com/tbc/item=30250/pauldrons-of-the-vanquished-hero#currency-for",
+        "https://www.wowhead.com/tbc/item=30238/chestguard-of-the-vanquished-hero#currency-for",
+        "https://www.wowhead.com/tbc/item=30241/gloves-of-the-vanquished-hero#currency-for",
+        "https://www.wowhead.com/tbc/item=30247/leggings-of-the-vanquished-hero#currency-for",
+        "https://www.wowhead.com/tbc/item=30243/helm-of-the-vanquished-defender#currency-for",
+        "https://www.wowhead.com/tbc/item=30249/pauldrons-of-the-vanquished-defender#currency-for",
+        "https://www.wowhead.com/tbc/item=30237/chestguard-of-the-vanquished-defender#currency-for",
+        "https://www.wowhead.com/tbc/item=30240/gloves-of-the-vanquished-defender#currency-for",
+        "https://www.wowhead.com/tbc/item=30246/leggings-of-the-vanquished-defender#currency-for",
 
-        "https://www.wowhead.com/mop-classic/item=89275/helm-of-the-shadowy-protector#currency-for",
-        "https://www.wowhead.com/mop-classic/item=89236/helm-of-the-shadowy-protector#currency-for",
-        "https://www.wowhead.com/mop-classic/item=89260/helm-of-the-shadowy-protector#currency-for",
-        "https://www.wowhead.com/mop-classic/item=89263/shoulders-of-the-shadowy-protector#currency-for",
-        "https://www.wowhead.com/mop-classic/item=89247/shoulders-of-the-shadowy-protector#currency-for",
-        "https://www.wowhead.com/mop-classic/item=89278/shoulders-of-the-shadowy-protector#currency-for",
-        "https://www.wowhead.com/mop-classic/item=89251/chest-of-the-shadowy-protector#currency-for",
-        "https://www.wowhead.com/mop-classic/item=89238/chest-of-the-shadowy-protector#currency-for",
-        "https://www.wowhead.com/mop-classic/item=89266/chest-of-the-shadowy-protector#currency-for",
-        "https://www.wowhead.com/mop-classic/item=89272/gauntlets-of-the-shadowy-protector#currency-for",
-        "https://www.wowhead.com/mop-classic/item=89241/gauntlets-of-the-shadowy-protector#currency-for",
-        "https://www.wowhead.com/mop-classic/item=89257/gauntlets-of-the-shadowy-protector#currency-for",
-        "https://www.wowhead.com/mop-classic/item=89244/leggings-of-the-shadowy-protector#currency-for",
-        "https://www.wowhead.com/mop-classic/item=89254/leggings-of-the-shadowy-protector#currency-for",
-        "https://www.wowhead.com/mop-classic/item=89269/leggings-of-the-shadowy-protector#currency-for",
+        //Tier 6
+        "https://www.wowhead.com/tbc/item=31096/helm-of-the-forgotten-vanquisher#currency-for",
+        "https://www.wowhead.com/tbc/item=31102/pauldrons-of-the-forgotten-vanquisher#currency-for",
+        "https://www.wowhead.com/tbc/item=31090/chestguard-of-the-forgotten-vanquisher#currency-for",
+        "https://www.wowhead.com/tbc/item=31093/gloves-of-the-forgotten-vanquisher#currency-for",
+        "https://www.wowhead.com/tbc/item=31099/leggings-of-the-forgotten-vanquisher#currency-for",
+        "https://www.wowhead.com/tbc/item=34858/boots-of-the-forgotten-vanquisher#currency-for",
+        "https://www.wowhead.com/tbc/item=34852/bracers-of-the-forgotten-vanquisher#currency-for",
+        "https://www.wowhead.com/tbc/item=34855/belt-of-the-forgotten-vanquisher#currency-for",
+        "https://www.wowhead.com/tbc/item=31095/helm-of-the-forgotten-protector#currency-for",
+        "https://www.wowhead.com/tbc/item=31103/pauldrons-of-the-forgotten-protector#currency-for",
+        "https://www.wowhead.com/tbc/item=31091/chestguard-of-the-forgotten-protector#currency-for",
+        "https://www.wowhead.com/tbc/item=31094/gloves-of-the-forgotten-protector#currency-for",
+        "https://www.wowhead.com/tbc/item=31100/leggings-of-the-forgotten-protector#currency-for",
+        "https://www.wowhead.com/tbc/item=34857/boots-of-the-forgotten-protector#currency-for",
+        "https://www.wowhead.com/tbc/item=34851/bracers-of-the-forgotten-protector#currency-for",
+        "https://www.wowhead.com/tbc/item=34854/belt-of-the-forgotten-protector#currency-for",
+        "https://www.wowhead.com/tbc/item=31097/helm-of-the-forgotten-conqueror#currency-for",
+        "https://www.wowhead.com/tbc/item=31101/pauldrons-of-the-forgotten-conqueror#currency-for",
+        "https://www.wowhead.com/tbc/item=31089/chestguard-of-the-forgotten-conqueror#currency-for",
+        "https://www.wowhead.com/tbc/item=31092/gloves-of-the-forgotten-conqueror#currency-for",
+        "https://www.wowhead.com/tbc/item=31098/leggings-of-the-forgotten-conqueror#currency-for",
+        "https://www.wowhead.com/tbc/item=34856/boots-of-the-forgotten-conqueror#currency-for",
+        "https://www.wowhead.com/tbc/item=34848/bracers-of-the-forgotten-conqueror#currency-for",
+        "https://www.wowhead.com/tbc/item=34853/belt-of-the-forgotten-conqueror#currency-for",
         
     };
 
@@ -111,7 +123,7 @@ public class TierSetImporter : LootImporter
                     if (cellAnchor != null)
                     {
                         int itemId = 0;
-                        var item = cellAnchor.PathName.Replace("/mop-classic/", "/").Replace("/item=", "");
+                        var item = cellAnchor.PathName.Replace("/tbc/", "/").Replace("/item=", "");
 
                         var itemIdIndex = item.IndexOf("/");
                         if (itemIdIndex == -1)
@@ -133,7 +145,7 @@ public class TierSetImporter : LootImporter
 
                         var tokens = string.Empty;
                         Common.RecursiveBoxSearch(row.Children[10], (anchor) => {
-                            var token = anchor.PathName.Replace("/mop-classic/", "/").Replace("/item=", "");
+                            var token = anchor.PathName.Replace("/tbc/", "/").Replace("/item=", "");
 
                             var tokenIdIndex = token.IndexOf("/");
                             if (tokenIdIndex == -1)

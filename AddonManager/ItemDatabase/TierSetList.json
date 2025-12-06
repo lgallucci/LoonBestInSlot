@@ -1,4 +1,2452 @@
 {
   "Items": {    
+    "28963": {
+      "Name": "Voidheart Crown",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29759",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "28964": {
+      "Name": "Voidheart Robe",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29755",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "28966": {
+      "Name": "Voidheart Leggings",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29765",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "28967": {
+      "Name": "Voidheart Mantle",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29762",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "28968": {
+      "Name": "Voidheart Gloves",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29756",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29011": {
+      "Name": "Warbringer Greathelm",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29761",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29012": {
+      "Name": "Warbringer Chestguard",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29753",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29015": {
+      "Name": "Warbringer Legguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29767",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29016": {
+      "Name": "Warbringer Shoulderguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29764",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29017": {
+      "Name": "Warbringer Handguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29758",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29019": {
+      "Name": "Warbringer Breastplate",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29753",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29020": {
+      "Name": "Warbringer Gauntlets",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29758",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29021": {
+      "Name": "Warbringer Battle-Helm",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29761",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29022": {
+      "Name": "Warbringer Greaves",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29767",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29023": {
+      "Name": "Warbringer Shoulderplates",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29764",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29028": {
+      "Name": "Cyclone Headdress",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29760",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29029": {
+      "Name": "Cyclone Hauberk",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29754",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29030": {
+      "Name": "Cyclone Kilt",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29766",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29031": {
+      "Name": "Cyclone Shoulderpads",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29763",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29032": {
+      "Name": "Cyclone Gloves",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29757",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29033": {
+      "Name": "Cyclone Chestguard",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29754",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29034": {
+      "Name": "Cyclone Handguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29757",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29035": {
+      "Name": "Cyclone Faceguard",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29760",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29036": {
+      "Name": "Cyclone Legguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29766",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29037": {
+      "Name": "Cyclone Shoulderguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29763",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29038": {
+      "Name": "Cyclone Breastplate",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29754",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29039": {
+      "Name": "Cyclone Gauntlets",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29757",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29040": {
+      "Name": "Cyclone Helm",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29760",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29042": {
+      "Name": "Cyclone War-Kilt",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29766",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29043": {
+      "Name": "Cyclone Shoulderplates",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29763",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29044": {
+      "Name": "Netherblade Facemask",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29760",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29045": {
+      "Name": "Netherblade Chestpiece",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29754",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29046": {
+      "Name": "Netherblade Breeches",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29766",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29047": {
+      "Name": "Netherblade Shoulderpads",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29763",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29048": {
+      "Name": "Netherblade Gloves",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29757",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29049": {
+      "Name": "Light-Collar of the Incarnate",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29761",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29050": {
+      "Name": "Robes of the Incarnate",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29753",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29053": {
+      "Name": "Trousers of the Incarnate",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29767",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29054": {
+      "Name": "Light-Mantle of the Incarnate",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29764",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29055": {
+      "Name": "Handwraps of the Incarnate",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29758",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29056": {
+      "Name": "Shroud of the Incarnate",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29753",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29057": {
+      "Name": "Gloves of the Incarnate",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29758",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29058": {
+      "Name": "Soul-Collar of the Incarnate",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29761",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29059": {
+      "Name": "Leggings of the Incarnate",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29767",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29060": {
+      "Name": "Soul-Mantle of the Incarnate",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29764",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29061": {
+      "Name": "Justicar Diadem",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29760",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29062": {
+      "Name": "Justicar Chestpiece",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29754",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29063": {
+      "Name": "Justicar Leggings",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29766",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29064": {
+      "Name": "Justicar Pauldrons",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29763",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29065": {
+      "Name": "Justicar Gloves",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29757",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29066": {
+      "Name": "Justicar Chestguard",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29754",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29067": {
+      "Name": "Justicar Handguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29757",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29068": {
+      "Name": "Justicar Faceguard",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29760",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29069": {
+      "Name": "Justicar Legguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29766",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29070": {
+      "Name": "Justicar Shoulderguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29763",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29071": {
+      "Name": "Justicar Breastplate",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29754",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29072": {
+      "Name": "Justicar Gauntlets",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29757",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29073": {
+      "Name": "Justicar Crown",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29760",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29074": {
+      "Name": "Justicar Greaves",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29766",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29075": {
+      "Name": "Justicar Shoulderplates",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29763",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29076": {
+      "Name": "Collar of the Aldor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29759",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29077": {
+      "Name": "Vestments of the Aldor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29755",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29078": {
+      "Name": "Legwraps of the Aldor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29765",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29079": {
+      "Name": "Pauldrons of the Aldor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29762",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29080": {
+      "Name": "Gloves of the Aldor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29756",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29081": {
+      "Name": "Demon Stalker Greathelm",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29759",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29082": {
+      "Name": "Demon Stalker Harness",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29755",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29083": {
+      "Name": "Demon Stalker Greaves",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29765",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29084": {
+      "Name": "Demon Stalker Shoulderguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29762",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29085": {
+      "Name": "Demon Stalker Gauntlets",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29756",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29086": {
+      "Name": "Crown of Malorne",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29761",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29087": {
+      "Name": "Chestguard of Malorne",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29753",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29088": {
+      "Name": "Legguards of Malorne",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29767",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29089": {
+      "Name": "Shoulderguards of Malorne",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29764",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29090": {
+      "Name": "Handguards of Malorne",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29758",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29091": {
+      "Name": "Chestpiece of Malorne",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29753",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29092": {
+      "Name": "Gloves of Malorne",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29758",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29093": {
+      "Name": "Antlers of Malorne",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29761",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29094": {
+      "Name": "Britches of Malorne",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29767",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29095": {
+      "Name": "Pauldrons of Malorne",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29764",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29096": {
+      "Name": "Breastplate of Malorne",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29753",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29097": {
+      "Name": "Gauntlets of Malorne",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29758",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29098": {
+      "Name": "Stag-Helm of Malorne",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29761",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29099": {
+      "Name": "Greaves of Malorne",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29767",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "29100": {
+      "Name": "Mantle of Malorne",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "29764",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30113": {
+      "Name": "Destroyer Chestguard",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30237",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30114": {
+      "Name": "Destroyer Handguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30240",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30115": {
+      "Name": "Destroyer Greathelm",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30243",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30116": {
+      "Name": "Destroyer Legguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30246",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30117": {
+      "Name": "Destroyer Shoulderguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30249",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30118": {
+      "Name": "Destroyer Breastplate",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30237",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30119": {
+      "Name": "Destroyer Gauntlets",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30240",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30120": {
+      "Name": "Destroyer Battle-Helm",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30243",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30121": {
+      "Name": "Destroyer Greaves",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30246",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30122": {
+      "Name": "Destroyer Shoulderblades",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30249",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30123": {
+      "Name": "Crystalforge Chestguard",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30236",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30124": {
+      "Name": "Crystalforge Handguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30239",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30125": {
+      "Name": "Crystalforge Faceguard",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30242",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30126": {
+      "Name": "Crystalforge Legguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30245",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30127": {
+      "Name": "Crystalforge Shoulderguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30248",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30129": {
+      "Name": "Crystalforge Breastplate",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30236",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30130": {
+      "Name": "Crystalforge Gauntlets",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30239",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30131": {
+      "Name": "Crystalforge War-Helm",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30242",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30132": {
+      "Name": "Crystalforge Greaves",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30245",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30133": {
+      "Name": "Crystalforge Shoulderbraces",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30248",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30134": {
+      "Name": "Crystalforge Chestpiece",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30236",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30135": {
+      "Name": "Crystalforge Gloves",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30239",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30136": {
+      "Name": "Crystalforge Greathelm",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30242",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30137": {
+      "Name": "Crystalforge Leggings",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30245",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30138": {
+      "Name": "Crystalforge Pauldrons",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30248",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30139": {
+      "Name": "Rift Stalker Hauberk",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30238",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30140": {
+      "Name": "Rift Stalker Gauntlets",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30241",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30141": {
+      "Name": "Rift Stalker Helm",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30244",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30142": {
+      "Name": "Rift Stalker Leggings",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30247",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30143": {
+      "Name": "Rift Stalker Mantle",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30250",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30144": {
+      "Name": "Deathmantle Chestguard",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30236",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30145": {
+      "Name": "Deathmantle Handguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30239",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30146": {
+      "Name": "Deathmantle Helm",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30242",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30148": {
+      "Name": "Deathmantle Legguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30245",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30149": {
+      "Name": "Deathmantle Shoulderpads",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30248",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30150": {
+      "Name": "Vestments of the Avatar",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30237",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30151": {
+      "Name": "Gloves of the Avatar",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30240",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30152": {
+      "Name": "Cowl of the Avatar",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30243",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30153": {
+      "Name": "Breeches of the Avatar",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30246",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30154": {
+      "Name": "Mantle of the Avatar",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30249",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30159": {
+      "Name": "Shroud of the Avatar",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30237",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30160": {
+      "Name": "Handguards of the Avatar",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30240",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30161": {
+      "Name": "Hood of the Avatar",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30243",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30162": {
+      "Name": "Leggings of the Avatar",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30246",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30163": {
+      "Name": "Wings of the Avatar",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30249",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30164": {
+      "Name": "Cataclysm Chestguard",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30236",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30165": {
+      "Name": "Cataclysm Gloves",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30239",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30166": {
+      "Name": "Cataclysm Headguard",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30242",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30167": {
+      "Name": "Cataclysm Legguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30245",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30168": {
+      "Name": "Cataclysm Shoulderguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30248",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30169": {
+      "Name": "Cataclysm Chestpiece",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30236",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30170": {
+      "Name": "Cataclysm Handgrips",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30239",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30171": {
+      "Name": "Cataclysm Headpiece",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30242",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30172": {
+      "Name": "Cataclysm Leggings",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30245",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30173": {
+      "Name": "Cataclysm Shoulderpads",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30248",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30185": {
+      "Name": "Cataclysm Chestplate",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30236",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30189": {
+      "Name": "Cataclysm Gauntlets",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30239",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30190": {
+      "Name": "Cataclysm Helm",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30242",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30192": {
+      "Name": "Cataclysm Legplates",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30245",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30194": {
+      "Name": "Cataclysm Shoulderplates",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30248",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30196": {
+      "Name": "Robes of Tirisfal",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30238",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30205": {
+      "Name": "Gloves of Tirisfal",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30241",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30206": {
+      "Name": "Cowl of Tirisfal",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30244",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30207": {
+      "Name": "Leggings of Tirisfal",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30247",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30210": {
+      "Name": "Mantle of Tirisfal",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30250",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30211": {
+      "Name": "Gloves of the Corruptor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30241",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30212": {
+      "Name": "Hood of the Corruptor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30244",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30213": {
+      "Name": "Leggings of the Corruptor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30247",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30214": {
+      "Name": "Robe of the Corruptor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30238",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30215": {
+      "Name": "Mantle of the Corruptor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30250",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30216": {
+      "Name": "Nordrassil Chestguard",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30237",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30217": {
+      "Name": "Nordrassil Gloves",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30240",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30219": {
+      "Name": "Nordrassil Headguard",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30243",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30220": {
+      "Name": "Nordrassil Life-Kilt",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30246",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30221": {
+      "Name": "Nordrassil Life-Mantle",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30249",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30222": {
+      "Name": "Nordrassil Chestplate",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30237",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30223": {
+      "Name": "Nordrassil Handgrips",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30240",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30228": {
+      "Name": "Nordrassil Headdress",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30243",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30229": {
+      "Name": "Nordrassil Feral-Kilt",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30246",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30230": {
+      "Name": "Nordrassil Feral-Mantle",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30249",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30231": {
+      "Name": "Nordrassil Chestpiece",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30237",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30232": {
+      "Name": "Nordrassil Gauntlets",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30240",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30233": {
+      "Name": "Nordrassil Headpiece",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30243",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30234": {
+      "Name": "Nordrassil Wrath-Kilt",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30246",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30235": {
+      "Name": "Nordrassil Wrath-Mantle",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "30249",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30969": {
+      "Name": "Onslaught Gauntlets",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31094",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30970": {
+      "Name": "Onslaught Handguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31094",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30972": {
+      "Name": "Onslaught Battle-Helm",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31095",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30974": {
+      "Name": "Onslaught Greathelm",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31095",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30975": {
+      "Name": "Onslaught Breastplate",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31091",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30976": {
+      "Name": "Onslaught Chestguard",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31091",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30977": {
+      "Name": "Onslaught Greaves",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31100",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30978": {
+      "Name": "Onslaught Legguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31100",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30979": {
+      "Name": "Onslaught Shoulderblades",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31103",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30980": {
+      "Name": "Onslaught Shoulderguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31103",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30982": {
+      "Name": "Lightbringer Gauntlets",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31092",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30983": {
+      "Name": "Lightbringer Gloves",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31092",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30985": {
+      "Name": "Lightbringer Handguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31092",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30987": {
+      "Name": "Lightbringer Faceguard",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31097",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30988": {
+      "Name": "Lightbringer Greathelm",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31097",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30989": {
+      "Name": "Lightbringer War-Helm",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31097",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30990": {
+      "Name": "Lightbringer Breastplate",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31089",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30991": {
+      "Name": "Lightbringer Chestguard",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31089",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30992": {
+      "Name": "Lightbringer Chestpiece",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31089",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30993": {
+      "Name": "Lightbringer Greaves",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31098",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30994": {
+      "Name": "Lightbringer Leggings",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31098",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30995": {
+      "Name": "Lightbringer Legguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31098",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30996": {
+      "Name": "Lightbringer Pauldrons",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31101",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30997": {
+      "Name": "Lightbringer Shoulderbraces",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31101",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "30998": {
+      "Name": "Lightbringer Shoulderguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31101",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31001": {
+      "Name": "Gronnstalker's Gloves",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31094",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31003": {
+      "Name": "Gronnstalker's Helmet",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31095",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31004": {
+      "Name": "Gronnstalker's Chestguard",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31091",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31005": {
+      "Name": "Gronnstalker's Leggings",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31100",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31006": {
+      "Name": "Gronnstalker's Spaulders",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31103",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31007": {
+      "Name": "Skyshatter Gloves",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31094",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31008": {
+      "Name": "Skyshatter Gauntlets",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31094",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31011": {
+      "Name": "Skyshatter Grips",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31094",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31012": {
+      "Name": "Skyshatter Helmet",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31095",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31014": {
+      "Name": "Skyshatter Headguard",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31095",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31015": {
+      "Name": "Skyshatter Cover",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31095",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31016": {
+      "Name": "Skyshatter Chestguard",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31091",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31017": {
+      "Name": "Skyshatter Breastplate",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31091",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31018": {
+      "Name": "Skyshatter Tunic",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31091",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31019": {
+      "Name": "Skyshatter Leggings",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31100",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31020": {
+      "Name": "Skyshatter Legguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31100",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31021": {
+      "Name": "Skyshatter Pants",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31100",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31022": {
+      "Name": "Skyshatter Shoulderpads",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31103",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31023": {
+      "Name": "Skyshatter Mantle",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31103",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31024": {
+      "Name": "Skyshatter Pauldrons",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31103",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31026": {
+      "Name": "Slayer's Handguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31093",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31027": {
+      "Name": "Slayer's Helm",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31096",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31028": {
+      "Name": "Slayer's Chestguard",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31090",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31029": {
+      "Name": "Slayer's Legguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31099",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31030": {
+      "Name": "Slayer's Shoulderpads",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31102",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31032": {
+      "Name": "Thunderheart Gloves",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31093",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31034": {
+      "Name": "Thunderheart Gauntlets",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31093",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31035": {
+      "Name": "Thunderheart Handguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31093",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31037": {
+      "Name": "Thunderheart Helmet",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31096",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31039": {
+      "Name": "Thunderheart Cover",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31096",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31040": {
+      "Name": "Thunderheart Headguard",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31096",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31041": {
+      "Name": "Thunderheart Tunic",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31090",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31042": {
+      "Name": "Thunderheart Chestguard",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31090",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31043": {
+      "Name": "Thunderheart Vest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31090",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31044": {
+      "Name": "Thunderheart Leggings",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31099",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31045": {
+      "Name": "Thunderheart Legguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31099",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31046": {
+      "Name": "Thunderheart Pants",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31099",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31047": {
+      "Name": "Thunderheart Spaulders",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31102",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31048": {
+      "Name": "Thunderheart Pauldrons",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31102",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31049": {
+      "Name": "Thunderheart Shoulderpads",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31102",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31050": {
+      "Name": "Gloves of the Malefic",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31092",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31051": {
+      "Name": "Hood of the Malefic",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31097",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31052": {
+      "Name": "Robe of the Malefic",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31089",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31053": {
+      "Name": "Leggings of the Malefic",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31098",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31054": {
+      "Name": "Mantle of the Malefic",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31101",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31055": {
+      "Name": "Gloves of the Tempest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31093",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31056": {
+      "Name": "Cowl of the Tempest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31096",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31057": {
+      "Name": "Robes of the Tempest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31090",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31058": {
+      "Name": "Leggings of the Tempest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31099",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31059": {
+      "Name": "Mantle of the Tempest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31102",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31060": {
+      "Name": "Gloves of Absolution",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31092",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31061": {
+      "Name": "Handguards of Absolution",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31092",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31063": {
+      "Name": "Cowl of Absolution",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31097",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31064": {
+      "Name": "Hood of Absolution",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31097",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31065": {
+      "Name": "Shroud of Absolution",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31089",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31066": {
+      "Name": "Vestments of Absolution",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31089",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31067": {
+      "Name": "Leggings of Absolution",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31098",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31068": {
+      "Name": "Breeches of Absolution",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31098",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31069": {
+      "Name": "Mantle of Absolution",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31101",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "31070": {
+      "Name": "Shoulderpads of Absolution",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "31101",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "34431": {
+      "Name": "Lightbringer Bands",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "34848",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "34432": {
+      "Name": "Lightbringer Bracers",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "34848",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "34433": {
+      "Name": "Lightbringer Wristguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "34848",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "34434": {
+      "Name": "Bracers of Absolution",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "34848",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "34435": {
+      "Name": "Cuffs of Absolution",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "34848",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "34436": {
+      "Name": "Bracers of the Malefic",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "34848",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "34437": {
+      "Name": "Skyshatter Bands",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "34851",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "34438": {
+      "Name": "Skyshatter Bracers",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "34851",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "34439": {
+      "Name": "Skyshatter Wristguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "34851",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "34441": {
+      "Name": "Onslaught Bracers",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "34851",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "34442": {
+      "Name": "Onslaught Wristguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "34851",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "34443": {
+      "Name": "Gronnstalker's Bracers",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "34851",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "34444": {
+      "Name": "Thunderheart Wristguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "34852",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "34445": {
+      "Name": "Thunderheart Bracers",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "34852",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "34446": {
+      "Name": "Thunderheart Bands",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "34852",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "34447": {
+      "Name": "Bracers of the Tempest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "34852",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "34448": {
+      "Name": "Slayer's Bracers",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "34852",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "34485": {
+      "Name": "Lightbringer Girdle",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "34853",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "34487": {
+      "Name": "Lightbringer Belt",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "34853",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "34488": {
+      "Name": "Lightbringer Waistguard",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "34853",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "34527": {
+      "Name": "Belt of Absolution",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "34853",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "34528": {
+      "Name": "Cord of Absolution",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "34853",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "34541": {
+      "Name": "Belt of the Malefic",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "34853",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "34542": {
+      "Name": "Skyshatter Cord",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "34854",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "34543": {
+      "Name": "Skyshatter Belt",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "34854",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "34545": {
+      "Name": "Skyshatter Girdle",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "34854",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "34546": {
+      "Name": "Onslaught Belt",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "34854",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "34547": {
+      "Name": "Onslaught Waistguard",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "34854",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "34549": {
+      "Name": "Gronnstalker's Belt",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "34854",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "34554": {
+      "Name": "Thunderheart Belt",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "34855",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "34555": {
+      "Name": "Thunderheart Cord",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "34855",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "34556": {
+      "Name": "Thunderheart Waistguard",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "34855",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "34557": {
+      "Name": "Belt of the Tempest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "34855",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "34558": {
+      "Name": "Slayer's Belt",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "34855",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "34559": {
+      "Name": "Lightbringer Treads",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "34856",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "34560": {
+      "Name": "Lightbringer Stompers",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "34856",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "34561": {
+      "Name": "Lightbringer Boots",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "34856",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "34562": {
+      "Name": "Boots of Absolution",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "34856",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "34563": {
+      "Name": "Treads of Absolution",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "34856",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "34564": {
+      "Name": "Boots of the Malefic",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "34856",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "34565": {
+      "Name": "Skyshatter Boots",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "34857",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "34566": {
+      "Name": "Skyshatter Treads",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "34857",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "34567": {
+      "Name": "Skyshatter Greaves",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "34857",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "34568": {
+      "Name": "Onslaught Boots",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "34857",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "34569": {
+      "Name": "Onslaught Treads",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "34857",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "34570": {
+      "Name": "Gronnstalker's Boots",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "34857",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "34571": {
+      "Name": "Thunderheart Boots",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "34858",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "34572": {
+      "Name": "Thunderheart Footwraps",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "34858",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "34573": {
+      "Name": "Thunderheart Treads",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "34858",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "34574": {
+      "Name": "Boots of the Tempest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "34858",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "34575": {
+      "Name": "Slayer's Boots",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "34858",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    }
   }
 }

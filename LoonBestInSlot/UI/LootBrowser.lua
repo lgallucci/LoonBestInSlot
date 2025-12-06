@@ -360,7 +360,7 @@ local function createDropDowns(window)
         end
 
         if LBIS.CurrentPhase >= 3 then
-            table.insert(items, LBIS.L["Mount Hyjal"]);
+            table.insert(items, LBIS.L["Hyjal Summit"]);
             table.insert(items, LBIS.L["Black Temple"]);
         end
 

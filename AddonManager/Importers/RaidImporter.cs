@@ -9,48 +9,84 @@ public class RaidImporter : LootImporter
 {
     private Dictionary<string, string> wowheadUriList = new Dictionary<string, string>
     {
-        //Mogu'shan Vaults
-        { @"https://www.wowhead.com/mop-classic/npc=60047/amethyst-guardian#drops;mode:n25", "The Stone Guard (N), Mogu'shan Vaults" },
-        { @"https://www.wowhead.com/mop-classic/npc=60047/amethyst-guardian#drops;mode:h25", "The Stone Guard (H), Mogu'shan Vaults" },
-        { @"https://www.wowhead.com/mop-classic/npc=60009/feng-the-accursed#drops;mode:n25", "Feng the Accursed (N), Mogu'shan Vaults" },
-        { @"https://www.wowhead.com/mop-classic/npc=60009/feng-the-accursed#drops;mode:h25", "Feng the Accursed (H), Mogu'shan Vaults" },
-        { @"https://www.wowhead.com/mop-classic/npc=60143/garajal-the-spiritbinder#drops;mode:n25", "Gara'jal the Spiritbinder (N), Mogu'shan Vaults" },
-        { @"https://www.wowhead.com/mop-classic/npc=60143/garajal-the-spiritbinder#drops;mode:h25", "Gara'jal the Spiritbinder (H), Mogu'shan Vaults" },
-        { @"https://www.wowhead.com/mop-classic/npc=60701/zian-of-the-endless-shadow#drops;mode:n25", "The Spirit Kings (N), Mogu'shan Vaults" },
-        { @"https://www.wowhead.com/mop-classic/npc=60701/zian-of-the-endless-shadow#drops;mode:h25", "The Spirit Kings (H), Mogu'shan Vaults" },
-        { @"https://www.wowhead.com/mop-classic/npc=60410/elegon#drops;mode:n25", "Elegon (N), Mogu'shan Vaults" },
-        { @"https://www.wowhead.com/mop-classic/npc=60410/elegon#drops;mode:h25", "Elegon (H), Mogu'shan Vaults" },
-        { @"https://www.wowhead.com/mop-classic/npc=60400/jan-xi#drops;mode:n25", "Will of the Emperor (N), Mogu'shan Vaults" },
-        { @"https://www.wowhead.com/mop-classic/npc=60400/jan-xi#drops;mode:h25", "Will of the Emperor (H), Mogu'shan Vaults" },
+        //Karazhan
+        { @"https://www.wowhead.com/tbc/npc=16180/shadikith-the-glider", "Servant Quarters,  Karazhan" },
+        { @"https://www.wowhead.com/tbc/npc=16181/rokad-the-ravager", "Servant Quarters,  Karazhan" },
+        { @"https://www.wowhead.com/tbc/npc=16179/hyakiss-the-lurker", "Servant Quarters,  Karazhan" },
+        { @"https://www.wowhead.com/tbc/npc=15550/attumen-the-huntsman", "Attumen the Huntsman, Karazhan" },
+        { @"https://www.wowhead.com/tbc/npc=15687/moroes", "Moroes, Karazhan" },
+        { @"https://www.wowhead.com/tbc/npc=16457/maiden-of-virtue", "Maiden of Virtue, Karazhan" },
+        { @"https://www.wowhead.com/tbc/npc=18168/the-crone", "Opera Event (Oz), Karazhan" },
+        { @"https://www.wowhead.com/tbc/npc=17521/the-big-bad-wolf", "Opera Event (Wolf), Karazhan" },
+        { @"https://www.wowhead.com/tbc/npc=17533/romulo", "Opera Event (Romeo), Karazhan" },
+        { @"https://www.wowhead.com/tbc/npc=17534/julianne", "Opera Event (Romeo), Karazhan" },
+        { @"https://www.wowhead.com/tbc/npc=15691/the-curator", "The Curator, Karazhan" },
+        { @"https://www.wowhead.com/tbc/npc=15688/terestian-illhoof", "Terestian Illhoof, Karazhan" },
+        { @"https://www.wowhead.com/tbc/npc=16524/shade-of-aran", "Shade of Aran, Karazhan" },
+        { @"https://www.wowhead.com/tbc/npc=15689/netherspite", "Netherspite, Karazhan" },
+        { @"https://www.wowhead.com/tbc/npc=17225/nightbane", "Nightbane, Karazhan" },
+        { @"https://www.wowhead.com/tbc/npc=15690/prince-malchezaar", "Prince Malchezaar, Karazhan" },
 
-        //Heart of Fear
-        { @"https://www.wowhead.com/mop-classic/npc=62980/imperial-vizier-zorlok#drops;mode:n25", "Imperial Vizier Zor'lok (N), Heart of Fear" },
-        { @"https://www.wowhead.com/mop-classic/npc=62980/imperial-vizier-zorlok#drops;mode:h25", "Imperial Vizier Zor'lok (H), Heart of Fear" },
-        { @"https://www.wowhead.com/mop-classic/npc=62543/blade-lord-tayak#drops;mode:n25", "Blade Lord Ta'yak (N), Heart of Fear" },
-        { @"https://www.wowhead.com/mop-classic/npc=62543/blade-lord-tayak#drops;mode:h25", "Blade Lord Ta'yak (H), Heart of Fear" },
-        { @"https://www.wowhead.com/mop-classic/npc=62164/garalon#drops;mode:n25", "Garalon (N), Heart of Fear" },
-        { @"https://www.wowhead.com/mop-classic/npc=62164/garalon#drops;mode:h25", "Garalon (H), Heart of Fear" },
-        { @"https://www.wowhead.com/mop-classic/npc=62397/wind-lord-meljarak#drops;mode:n25", "Wind Lord Mel'jarak (N), Heart of Fear" },
-        { @"https://www.wowhead.com/mop-classic/npc=62397/wind-lord-meljarak#drops;mode:h25", "Wind Lord Mel'jarak (H), Heart of Fear" },
-        { @"https://www.wowhead.com/mop-classic/npc=62511/amber-shaper-unsok#drops;mode:n25", "Amber-Shaper Un'sok (N), Heart of Fear" },
-        { @"https://www.wowhead.com/mop-classic/npc=62511/amber-shaper-unsok#drops;mode:h25", "Amber-Shaper Un'sok (H), Heart of Fear" },
-        { @"https://www.wowhead.com/mop-classic/npc=62837/grand-empress-shekzeer#drops;mode:n25", "Grand Empress Shek'zeer (N), Heart of Fear" },
-        { @"https://www.wowhead.com/mop-classic/npc=62837/grand-empress-shekzeer#drops;mode:h25", "Grand Empress Shek'zeer (H), Heart of Fear" },
+        //Gruul's Lair
+        { @"https://www.wowhead.com/tbc/npc=19044/gruul-the-dragonkiller", "Gruul, Gruul's Lair" },
+        { @"https://www.wowhead.com/tbc/npc=18831/high-king-maulgar", "High King Maulgar, Gruul's Lair" },
 
-        //Terrace of Endless Spring
-        { @"https://www.wowhead.com/mop-classic/npc=60583/protector-kaolan#drops;mode:n25", "Protector Kaolan (N), Terrace of Endless Spring" },
-        { @"https://www.wowhead.com/mop-classic/npc=60583/protector-kaolan#drops;mode:h25", "Protector Kaolan (H), Terrace of Endless Spring" },
-        { @"https://www.wowhead.com/mop-classic/npc=62442/tsulong#drops;mode:n25", "Tsulong (N), Terrace of Endless Spring" },
-        { @"https://www.wowhead.com/mop-classic/npc=62442/tsulong#drops;mode:h25", "Tsulong (H), Terrace of Endless Spring" },
-        { @"https://www.wowhead.com/mop-classic/npc=62983/lei-shi#drops;mode:n25", "Lei Shen (N), Terrace of Endless Spring" },
-        { @"https://www.wowhead.com/mop-classic/npc=62983/lei-shi#drops;mode:h25", "Lei Shen (H), Terrace of Endless Spring" },
-        { @"https://www.wowhead.com/mop-classic/npc=60999/sha-of-fear#drops;mode:n25", "Sha of Fear (N), Terrace of Endless Spring" },
-        { @"https://www.wowhead.com/mop-classic/npc=60999/sha-of-fear#drops;mode:h25", "Sha of Fear (H), Terrace of Endless Spring" },
+        //Magtheridon's Lair
+        { @"https://www.wowhead.com/tbc/npc=17257/magtheridon", "Magtheridon, Magtheridon's Lair" },
+
+        //Serpentshrine Cavern
+        { @"https://www.wowhead.com/tbc/npc=21216/hydross-the-unstable", "Hydross the Unstable, Serpentshrine Cavern" },
+        { @"https://www.wowhead.com/tbc/npc=21217/the-lurker-below", "The Lurker Below, Serpentshrine Cavern" },
+        { @"https://www.wowhead.com/tbc/npc=21215/leotheras-the-blind", "Leotheras the Blind, Serpentshrine Cavern" },
+        { @"https://www.wowhead.com/tbc/npc=21214/fathom-lord-karathress", "Fathom-Lord Karathress, Serpentshrine Cavern" },
+        { @"https://www.wowhead.com/tbc/npc=21213/morogrim-tidewalker", "Morogrim Tidewalker, Serpentshrine Cavern" },
+        { @"https://www.wowhead.com/tbc/npc=21212/lady-vashj", "Lady Vashj, Serpentshrine Cavern" },
+
+        //Tempest Keep
+        { @"https://www.wowhead.com/tbc/npc=19516/void-reaver", "Void Reaver, Tempest Keep" },
+        { @"https://www.wowhead.com/tbc/npc=19514/alar", "Al'ar, Tempest Keep" },
+        { @"https://www.wowhead.com/tbc/npc=18805/high-astromancer-solarian", "High Astromancer Solarian, Tempest Keep" },
+        { @"https://www.wowhead.com/tbc/npc=19622/kaelthas-sunstrider", "Kael'thas Sunstrider, Tempest Keep" },
+
+        //Hyjal Summit
+        { @"https://www.wowhead.com/tbc/npc=17767/rage-winterchill", "Rage Winterchill, Hyjal Summit" },
+        { @"https://www.wowhead.com/tbc/npc=17808/anetheron", "Anetheron, Hyjal Summit" },
+        { @"https://www.wowhead.com/tbc/npc=17888/kazrogal", "Kaz'rogal, Hyjal Summit" },
+        { @"https://www.wowhead.com/tbc/npc=17842/azgalor", "Azgalor, Hyjal Summit" },
+        { @"https://www.wowhead.com/tbc/npc=17968/archimonde", "Archimonde, Hyjal Summit" },
+
+        //Black Temple
+        { @"https://www.wowhead.com/tbc/npc=22887/high-warlord-najentus", "High Warlord Naj'entus, Black Temple" },
+        { @"https://www.wowhead.com/tbc/npc=22898/supremus", "Supremus, Black Temple" },
+        { @"https://www.wowhead.com/tbc/npc=22841/shade-of-akama", "Shade of Akama, Black Temple" },
+        { @"https://www.wowhead.com/tbc/npc=22871/teron-gorefiend", "Teron Gorefiend, Black Temple" },
+        { @"https://www.wowhead.com/tbc/npc=22948/gurtogg-bloodboil", "Gurtogg Bloodboil, Black Temple" },
+        { @"https://www.wowhead.com/tbc/npc=23420/essence-of-anger", "Reliquary of Souls, Black Temple" },
+        { @"https://www.wowhead.com/tbc/npc=22947/mother-shahraz", "Mother Shahraz, Black Temple" },
+        { @"https://www.wowhead.com/tbc/npc=22949/gathios-the-shatterer", "The Illidari Council, Black Temple" },
+        { @"https://www.wowhead.com/tbc/npc=22950/high-nethermancer-zerevor", "The Illidari Council, Black Temple" },
+        { @"https://www.wowhead.com/tbc/npc=22917/illidan-stormrage", "Illidan Stormrage, Black Temple" },
+
+        //Zul'Aman
+        { @"https://www.wowhead.com/tbc/npc=23574/akilzon", "Akil'zon <Eagle Avatar>, Zul'Aman" },
+        { @"https://www.wowhead.com/tbc/npc=23576/nalorakk", "Nalorakk <Bear Avatar>, Zul'Aman" },
+        { @"https://www.wowhead.com/tbc/npc=23578/janalai", "Jan'alai <Dragonhawk Avatar>, Zul'Aman" },
+        { @"https://www.wowhead.com/tbc/npc=23577/halazzi", "Halazzi <Lynx Avatar>, Zul'Aman" },
+        { @"https://www.wowhead.com/tbc/npc=24239/hex-lord-malacrass", "Hex Lord Malacrass, Zul'Aman" },
+        { @"https://www.wowhead.com/tbc/npc=23863/zuljin", "Zul'jin, Zul'Aman" },
+
+        //Sunwell Plateau
+        { @"https://www.wowhead.com/tbc/npc=24850/kalecgos", "Kalecgos, Sunwell Plateau" },
+        { @"https://www.wowhead.com/tbc/npc=24882/brutallus", "Brutallus, Sunwell Plateau" },
+        { @"https://www.wowhead.com/tbc/npc=25038/felmyst", "Felmyst, Sunwell Plateau" },
+        { @"https://www.wowhead.com/tbc/npc=25166/grand-warlock-alythess", "Eredar Twins, Sunwell Plateau" },
+        { @"https://www.wowhead.com/tbc/npc=25840/entropius", "M'uru, Sunwell Plateau" },
+        { @"https://www.wowhead.com/tbc/npc=25315/kiljaeden", "Kil'Jaeden, Sunwell Plateau" },
     };
 
     private Dictionary<string, string> wowheadContainsUriList = new Dictionary<string, string>
     {
-        //{ @"https://www.wowhead.com/mop-classic/object=194201/rare-cache-of-winter", "Hodir, Ulduar (25)" },
+        { @"https://www.wowhead.com/tbc/object=185119/dust-covered-chest", "Chess Event, Karazhan" },
     };
 
     private Dictionary<int, DatabaseItem> trashDrops = new Dictionary<int, DatabaseItem>()
