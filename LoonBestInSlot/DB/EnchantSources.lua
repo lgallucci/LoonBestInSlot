@@ -5,6 +5,7 @@ LBIS.EnchantSources =
     [53343] = { Name = "Rune of Razorice", DesignId = "99999", Source = LBIS.L["Death Knight Spell"], SourceLocation = "", TextureId = "" },
     [53344] = { Name = "Rune of the Fallen Crusader", DesignId = "99999", Source = LBIS.L["Death Knight Spell"], SourceLocation = "", TextureId = "" },
     [53365] = { Name = "Unholy Strength", DesignId = "99999", Source = LBIS.L["Death Knight Spell"], SourceLocation = "", TextureId = "" },
+    [53386] = { Name = "Cinderglacier", DesignId = "99999", Source = LBIS.L["Death Knight Spell"], SourceLocation = "", TextureId = "" },
     [54999] = { Name = "Hyperspeed Accelerators", DesignId = "99999", Source = LBIS.L["Engineering Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "" },
     [55642] = { Name = "Lightweave Embroidery", DesignId = "99999", Source = LBIS.L["Tailoring Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "" },
     [74230] = { Name = "Enchant Cloak - Critical Strike", DesignId = "99999", Source = LBIS.L["Enchanting Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "" },

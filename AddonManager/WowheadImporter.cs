@@ -112,6 +112,8 @@ public class SlotSwaps
         { "Main & Off hand", "Main Hand~Off Hand"},
         { "Main & Off Hand", "Main Hand~Off Hand" },
         { "Main & Off Hand alternative", "Main Hand~Off Hand" },
+        { "Mainhand & Offhand", "Main Hand~Off Hand" },
+        { "Main Hand & Off Hand", "Main Hand~Off Hand" },
         { "Two-hand", "Main Hand" },
         { "Trinkets (Alchemists)", "Trinket" },
         { "Trinkets (Non-Alchemists)", "Trinket" },
