@@ -9,43 +9,44 @@ public class RaidImporter : LootImporter
 {
     private Dictionary<string, string> wowheadUriList = new Dictionary<string, string>
     {
-        //Mogu'shan Vaults
-        { @"https://www.wowhead.com/mop-classic/npc=60047/amethyst-guardian#drops;mode:n25", "The Stone Guard (N), Mogu'shan Vaults" },
-        { @"https://www.wowhead.com/mop-classic/npc=60047/amethyst-guardian#drops;mode:h25", "The Stone Guard (H), Mogu'shan Vaults" },
-        { @"https://www.wowhead.com/mop-classic/npc=60009/feng-the-accursed#drops;mode:n25", "Feng the Accursed (N), Mogu'shan Vaults" },
-        { @"https://www.wowhead.com/mop-classic/npc=60009/feng-the-accursed#drops;mode:h25", "Feng the Accursed (H), Mogu'shan Vaults" },
-        { @"https://www.wowhead.com/mop-classic/npc=60143/garajal-the-spiritbinder#drops;mode:n25", "Gara'jal the Spiritbinder (N), Mogu'shan Vaults" },
-        { @"https://www.wowhead.com/mop-classic/npc=60143/garajal-the-spiritbinder#drops;mode:h25", "Gara'jal the Spiritbinder (H), Mogu'shan Vaults" },
-        { @"https://www.wowhead.com/mop-classic/npc=60701/zian-of-the-endless-shadow#drops;mode:n25", "The Spirit Kings (N), Mogu'shan Vaults" },
-        { @"https://www.wowhead.com/mop-classic/npc=60701/zian-of-the-endless-shadow#drops;mode:h25", "The Spirit Kings (H), Mogu'shan Vaults" },
-        { @"https://www.wowhead.com/mop-classic/npc=60410/elegon#drops;mode:n25", "Elegon (N), Mogu'shan Vaults" },
-        { @"https://www.wowhead.com/mop-classic/npc=60410/elegon#drops;mode:h25", "Elegon (H), Mogu'shan Vaults" },
-        { @"https://www.wowhead.com/mop-classic/npc=60400/jan-xi#drops;mode:n25", "Will of the Emperor (N), Mogu'shan Vaults" },
-        { @"https://www.wowhead.com/mop-classic/npc=60400/jan-xi#drops;mode:h25", "Will of the Emperor (H), Mogu'shan Vaults" },
+        //Oondasta
+        { @"https://www.wowhead.com/mop-classic/npc=69161/oondasta#drops", "Oondasta, Isle of Giants" },
 
-        //Heart of Fear
-        { @"https://www.wowhead.com/mop-classic/npc=62980/imperial-vizier-zorlok#drops;mode:n25", "Imperial Vizier Zor'lok (N), Heart of Fear" },
-        { @"https://www.wowhead.com/mop-classic/npc=62980/imperial-vizier-zorlok#drops;mode:h25", "Imperial Vizier Zor'lok (H), Heart of Fear" },
-        { @"https://www.wowhead.com/mop-classic/npc=62543/blade-lord-tayak#drops;mode:n25", "Blade Lord Ta'yak (N), Heart of Fear" },
-        { @"https://www.wowhead.com/mop-classic/npc=62543/blade-lord-tayak#drops;mode:h25", "Blade Lord Ta'yak (H), Heart of Fear" },
-        { @"https://www.wowhead.com/mop-classic/npc=62164/garalon#drops;mode:n25", "Garalon (N), Heart of Fear" },
-        { @"https://www.wowhead.com/mop-classic/npc=62164/garalon#drops;mode:h25", "Garalon (H), Heart of Fear" },
-        { @"https://www.wowhead.com/mop-classic/npc=62397/wind-lord-meljarak#drops;mode:n25", "Wind Lord Mel'jarak (N), Heart of Fear" },
-        { @"https://www.wowhead.com/mop-classic/npc=62397/wind-lord-meljarak#drops;mode:h25", "Wind Lord Mel'jarak (H), Heart of Fear" },
-        { @"https://www.wowhead.com/mop-classic/npc=62511/amber-shaper-unsok#drops;mode:n25", "Amber-Shaper Un'sok (N), Heart of Fear" },
-        { @"https://www.wowhead.com/mop-classic/npc=62511/amber-shaper-unsok#drops;mode:h25", "Amber-Shaper Un'sok (H), Heart of Fear" },
-        { @"https://www.wowhead.com/mop-classic/npc=62837/grand-empress-shekzeer#drops;mode:n25", "Grand Empress Shek'zeer (N), Heart of Fear" },
-        { @"https://www.wowhead.com/mop-classic/npc=62837/grand-empress-shekzeer#drops;mode:h25", "Grand Empress Shek'zeer (H), Heart of Fear" },
+        //Nalak
+        { @"https://www.wowhead.com/mop-classic/npc=69099/nalak#drops", "Nalak,  Isle of Thunder" },
+        { @"https://www.wowhead.com/mop-classic/npc=69099/nalak#drops;50", "Nalak,  Isle of Thunder" },
+        { @"https://www.wowhead.com/mop-classic/npc=69099/nalak#drops;100", "Nalak,  Isle of Thunder" },
+        { @"https://www.wowhead.com/mop-classic/npc=69099/nalak#drops;150", "Nalak,  Isle of Thunder" },
+        { @"https://www.wowhead.com/mop-classic/npc=69099/nalak#drops;200", "Nalak,  Isle of Thunder" },
+        { @"https://www.wowhead.com/mop-classic/npc=69099/nalak#drops;250", "Nalak,  Isle of Thunder" },
 
-        //Terrace of Endless Spring
-        { @"https://www.wowhead.com/mop-classic/npc=60583/protector-kaolan#drops;mode:n25", "Protector Kaolan (N), Terrace of Endless Spring" },
-        { @"https://www.wowhead.com/mop-classic/npc=60583/protector-kaolan#drops;mode:h25", "Protector Kaolan (H), Terrace of Endless Spring" },
-        { @"https://www.wowhead.com/mop-classic/npc=62442/tsulong#drops;mode:n25", "Tsulong (N), Terrace of Endless Spring" },
-        { @"https://www.wowhead.com/mop-classic/npc=62442/tsulong#drops;mode:h25", "Tsulong (H), Terrace of Endless Spring" },
-        { @"https://www.wowhead.com/mop-classic/npc=62983/lei-shi#drops;mode:n25", "Lei Shen (N), Terrace of Endless Spring" },
-        { @"https://www.wowhead.com/mop-classic/npc=62983/lei-shi#drops;mode:h25", "Lei Shen (H), Terrace of Endless Spring" },
-        { @"https://www.wowhead.com/mop-classic/npc=60999/sha-of-fear#drops;mode:n25", "Sha of Fear (N), Terrace of Endless Spring" },
-        { @"https://www.wowhead.com/mop-classic/npc=60999/sha-of-fear#drops;mode:h25", "Sha of Fear (H), Terrace of Endless Spring" },
+        //Throne of Thunder
+        { @"https://www.wowhead.com/mop-classic/npc=69465/jinrokh-the-breaker#drops;mode:n25", "Jin'rokh the Breaker (N), Throne of Thunder" },
+        { @"https://www.wowhead.com/mop-classic/npc=69465/jinrokh-the-breaker#drops;mode:h25", "Jin'rokh the Breaker (H), Throne of Thunder" },
+        { @"https://www.wowhead.com/mop-classic/npc=68476/horridon#drops;mode:n25", "Horridon (N), Throne of Thunder" },
+        { @"https://www.wowhead.com/mop-classic/npc=68476/horridon#drops;mode:h25", "Horridon (H), Throne of Thunder" },
+        { @"https://www.wowhead.com/mop-classic/npc=69132/high-priestess-marli#drops;mode:n25", "Council of Elders (N), Throne of Thunder" },
+        { @"https://www.wowhead.com/mop-classic/npc=69132/high-priestess-marli#drops;mode:h25", "Council of Elders (H), Throne of Thunder" },
+        { @"https://www.wowhead.com/mop-classic/npc=67977/tortos#drops;mode:n25", "Tortos (N), Throne of Thunder"},
+        { @"https://www.wowhead.com/mop-classic/npc=67977/tortos#drops;mode:h25", "Tortos (H), Throne of Thunder"},
+        { @"https://www.wowhead.com/mop-classic/npc=70212/flaming-head#drops;mode:n25", "Megaera (N), Throne of Thunder"},
+        { @"https://www.wowhead.com/mop-classic/npc=70212/flaming-head#drops;mode:h25", "Megaera (H), Throne of Thunder"},
+        { @"https://www.wowhead.com/mop-classic/npc=69712/ji-kun#drops;mode:n25", "Ji-Kun (N), Throne of Thunder"},
+        { @"https://www.wowhead.com/mop-classic/npc=69712/ji-kun#drops;mode:h25", "Ji-Kun (H), Throne of Thunder"},
+        { @"https://www.wowhead.com/mop-classic/npc=68036/durumu-the-forgotten#drops;mode:n25", "Durumu the Forgotten (N), Throne of Thunder"},
+        { @"https://www.wowhead.com/mop-classic/npc=68036/durumu-the-forgotten#drops;mode:h25", "Durumu the Forgotten (H), Throne of Thunder"},
+        { @"https://www.wowhead.com/mop-classic/npc=69017/primordius#drops;mode:n25", "Primordius (N), Throne of Thunder"},
+        { @"https://www.wowhead.com/mop-classic/npc=69017/primordius#drops;mode:h25", "Primordius (H), Throne of Thunder"},
+        { @"https://www.wowhead.com/mop-classic/npc=69427/dark-animus#drops;mode:n25", "Dark Animus (N), Throne of Thunder"},
+        { @"https://www.wowhead.com/mop-classic/npc=69427/dark-animus#drops;mode:h25", "Dark Animus (H), Throne of Thunder"},
+        { @"https://www.wowhead.com/mop-classic/npc=68078/iron-qon#drops;mode:n25", "Iron Qon (N), Throne of Thunder"},
+        { @"https://www.wowhead.com/mop-classic/npc=68078/iron-qon#drops;mode:h25", "Iron Qon (H), Throne of Thunder"},
+        { @"https://www.wowhead.com/mop-classic/npc=68904/suen#drops;mode:n25", "Twin Consorts (N), Throne of Thunder"},
+        { @"https://www.wowhead.com/mop-classic/npc=68904/suen#drops;mode:h25", "Twin Consorts (H), Throne of Thunder"},
+        { @"https://www.wowhead.com/mop-classic/npc=68397/lei-shen#drops;mode:n25", "Lei Shen (N), Throne of Thunder"},
+        { @"https://www.wowhead.com/mop-classic/npc=68397/lei-shen#drops;mode:h25", "Lei Shen (H), Throne of Thunder"},
+        { @"https://www.wowhead.com/mop-classic/npc=69473/ra-den#drops;mode:h25", "Ra-den (H), Throne of Thunder"},
+
     };
 
     private Dictionary<string, string> wowheadContainsUriList = new Dictionary<string, string>
@@ -78,7 +79,7 @@ public class RaidImporter : LootImporter
     internal override string FileName { get => "RaidItemList"; }
     internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, Action<string> writeToLog)
     {
-        items.Items.Clear();
+        //items.Items.Clear();
 
         await Common.ReadWowheadDropsList(wowheadUriList.Keys.ToList(), (webAddress, row, itemId, item) =>
         {

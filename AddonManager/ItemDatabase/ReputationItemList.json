@@ -1831,6 +1831,526 @@
       "SourceNumber": "0",
       "SourceLocation": "Honored (1750 Justice Points)",
       "SourceFaction": "A"
+    },
+    "95122": {
+      "Name": "Wisp-Weave Pantaloons",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly",
+      "SourceFaction": "B"
+    },
+    "95123": {
+      "Name": "Charfire Leggings",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly",
+      "SourceFaction": "B"
+    },
+    "95124": {
+      "Name": "Trousers of Waning Shadow",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly",
+      "SourceFaction": "B"
+    },
+    "95125": {
+      "Name": "Legguards of Hidden Knives",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly",
+      "SourceFaction": "B"
+    },
+    "95126": {
+      "Name": "Kilt of Rising Thunder",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly",
+      "SourceFaction": "B"
+    },
+    "95127": {
+      "Name": "Homeguard Leggings",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly",
+      "SourceFaction": "B"
+    },
+    "95128": {
+      "Name": "Bonecrusher Bracers",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly",
+      "SourceFaction": "B"
+    },
+    "95129": {
+      "Name": "Axebinder Wristguards",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly",
+      "SourceFaction": "B"
+    },
+    "95130": {
+      "Name": "Softscar Armplates",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly",
+      "SourceFaction": "B"
+    },
+    "95131": {
+      "Name": "Powderburn Bracers",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly",
+      "SourceFaction": "B"
+    },
+    "95132": {
+      "Name": "Spiritcaller Cuffs",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly",
+      "SourceFaction": "B"
+    },
+    "95133": {
+      "Name": "Willow-Weave Armbands",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly",
+      "SourceFaction": "B"
+    },
+    "95134": {
+      "Name": "Hearthfire Armwraps",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly",
+      "SourceFaction": "B"
+    },
+    "95135": {
+      "Name": "Bracers of Shielding Thought",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly",
+      "SourceFaction": "B"
+    },
+    "95136": {
+      "Name": "Troll-Burner Bracers",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly",
+      "SourceFaction": "B"
+    },
+    "95137": {
+      "Name": "Seal of the Shado-Pan Assault",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly",
+      "SourceFaction": "B"
+    },
+    "95138": {
+      "Name": "Signet of the Shado-Pan Assault",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly",
+      "SourceFaction": "B"
+    },
+    "95139": {
+      "Name": "Ring of the Shado-Pan Assault",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly",
+      "SourceFaction": "B"
+    },
+    "95140": {
+      "Name": "Band of the Shado-Pan Assault",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly",
+      "SourceFaction": "B"
+    },
+    "95141": {
+      "Name": "Loop of the Shado-Pan Assault",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly",
+      "SourceFaction": "B"
+    },
+    "95142": {
+      "Name": "Striker's Battletags",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Neutral",
+      "SourceFaction": "B"
+    },
+    "95143": {
+      "Name": "Flanker's Battletags",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Neutral",
+      "SourceFaction": "B"
+    },
+    "95144": {
+      "Name": "Vanguard's Battletags",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Neutral",
+      "SourceFaction": "B"
+    },
+    "95145": {
+      "Name": "Mender's Battletags",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Neutral",
+      "SourceFaction": "B"
+    },
+    "95146": {
+      "Name": "Destroyer's Battletags",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Neutral",
+      "SourceFaction": "B"
+    },
+    "95517": {
+      "Name": "Shan'ze Scholar's Girdle",
+      "Source": "Sunreaver Onslaught",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "H"
+    },
+    "95518": {
+      "Name": "Pain-Binder Girdle",
+      "Source": "Sunreaver Onslaught",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "H"
+    },
+    "95519": {
+      "Name": "Skumblade-Tooth Girdle",
+      "Source": "Sunreaver Onslaught",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "H"
+    },
+    "95520": {
+      "Name": "Girdle of Shan'ze Glory",
+      "Source": "Sunreaver Onslaught",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "H"
+    },
+    "95521": {
+      "Name": "Cinch of the Dead Forest's Vigil",
+      "Source": "Sunreaver Onslaught",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "H"
+    },
+    "95522": {
+      "Name": "Rotting Bog Cinch",
+      "Source": "Sunreaver Onslaught",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "H"
+    },
+    "95523": {
+      "Name": "Belt of Loa Charms",
+      "Source": "Sunreaver Onslaught",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "H"
+    },
+    "95524": {
+      "Name": "Thunder Caressed Waistguard",
+      "Source": "Sunreaver Onslaught",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "H"
+    },
+    "95525": {
+      "Name": "Skumblade Ritualist Links",
+      "Source": "Sunreaver Onslaught",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "H"
+    },
+    "95526": {
+      "Name": "Shan'ze Scholar's Girdle",
+      "Source": "Kirin Tor Offensive",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "A"
+    },
+    "95527": {
+      "Name": "Pain-Binder Girdle",
+      "Source": "Kirin Tor Offensive",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "A"
+    },
+    "95528": {
+      "Name": "Skumblade-Tooth Girdle",
+      "Source": "Kirin Tor Offensive",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "A"
+    },
+    "95529": {
+      "Name": "Girdle of Shan'ze Glory",
+      "Source": "Kirin Tor Offensive",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "A"
+    },
+    "95530": {
+      "Name": "Cinch of the Dead Forest's Vigil",
+      "Source": "Kirin Tor Offensive",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "A"
+    },
+    "95531": {
+      "Name": "Rotting Bog Cinch",
+      "Source": "Kirin Tor Offensive",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "A"
+    },
+    "95532": {
+      "Name": "Belt of Loa Charms",
+      "Source": "Kirin Tor Offensive",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "A"
+    },
+    "95533": {
+      "Name": "Thunder Caressed Waistguard",
+      "Source": "Kirin Tor Offensive",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "A"
+    },
+    "95534": {
+      "Name": "Skumblade Ritualist Links",
+      "Source": "Kirin Tor Offensive",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "A"
+    },
+    "95591": {
+      "Name": "Kirin Tor Offensive Tabard",
+      "Source": "Kirin Tor Offensive",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "A"
+    },
+    "95592": {
+      "Name": "Sunreaver Onslaught Tabard",
+      "Source": "Sunreaver Onslaught",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "H"
+    },
+    "97187": {
+      "Name": "Refurbished Band of Jin",
+      "Source": "Kirin Tor Offensive",
+      "SourceType": "Token",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "A"
+    },
+    "97188": {
+      "Name": "Restored Hexxer's Signet",
+      "Source": "Kirin Tor Offensive",
+      "SourceType": "Token",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "A"
+    },
+    "97189": {
+      "Name": "Ancient Primalist's Seal",
+      "Source": "Kirin Tor Offensive",
+      "SourceType": "Token",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "A"
+    },
+    "97190": {
+      "Name": "Refurbished Seal of Jin",
+      "Source": "Kirin Tor Offensive",
+      "SourceType": "Token",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "A"
+    },
+    "97191": {
+      "Name": "Ancient Overlord's Onyx Band",
+      "Source": "Kirin Tor Offensive",
+      "SourceType": "Token",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "A"
+    },
+    "97192": {
+      "Name": "Refurbished Band of Jin",
+      "Source": "Sunreaver Onslaught",
+      "SourceType": "Token",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "H"
+    },
+    "97193": {
+      "Name": "Restored Hexxer's Signet",
+      "Source": "Sunreaver Onslaught",
+      "SourceType": "Token",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "H"
+    },
+    "97194": {
+      "Name": "Ancient Primalist's Seal",
+      "Source": "Sunreaver Onslaught",
+      "SourceType": "Token",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "H"
+    },
+    "97195": {
+      "Name": "Refurbished Seal of Jin",
+      "Source": "Sunreaver Onslaught",
+      "SourceType": "Token",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "H"
+    },
+    "97196": {
+      "Name": "Ancient Overlord's Onyx Band",
+      "Source": "Sunreaver Onslaught",
+      "SourceType": "Token",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "H"
+    },
+    "97203": {
+      "Name": "Thunder-Chaser Cloak",
+      "Source": "Kirin Tor Offensive",
+      "SourceType": "Token",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "A"
+    },
+    "97204": {
+      "Name": "Static-Collecting Cloak",
+      "Source": "Kirin Tor Offensive",
+      "SourceType": "Token",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "A"
+    },
+    "97205": {
+      "Name": "Shan'ze Gravetender Cloak",
+      "Source": "Kirin Tor Offensive",
+      "SourceType": "Token",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "A"
+    },
+    "97206": {
+      "Name": "Shan'ze Partisan's Greatcloak",
+      "Source": "Kirin Tor Offensive",
+      "SourceType": "Token",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "A"
+    },
+    "97207": {
+      "Name": "Cloak of the Immortal Guardian",
+      "Source": "Kirin Tor Offensive",
+      "SourceType": "Token",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "A"
+    },
+    "97208": {
+      "Name": "Thunder-Chaser Cloak",
+      "Source": "Sunreaver Onslaught",
+      "SourceType": "Token",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "H"
+    },
+    "97209": {
+      "Name": "Static-Collecting Cloak",
+      "Source": "Sunreaver Onslaught",
+      "SourceType": "Token",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "H"
+    },
+    "97210": {
+      "Name": "Shan'ze Gravetender Cloak",
+      "Source": "Sunreaver Onslaught",
+      "SourceType": "Token",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "H"
+    },
+    "97211": {
+      "Name": "Shan'ze Partisan's Greatcloak",
+      "Source": "Sunreaver Onslaught",
+      "SourceType": "Token",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "H"
+    },
+    "97212": {
+      "Name": "Cloak of the Immortal Guardian",
+      "Source": "Sunreaver Onslaught",
+      "SourceType": "Token",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "H"
     }
   }
 }
