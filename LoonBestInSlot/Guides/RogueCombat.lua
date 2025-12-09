@@ -246,7 +246,7 @@ LBIS:AddItem(spec2, "82971", LBIS.L["Main Hand"], "Alt") --Masterwork Ghost-Forg
 LBIS:AddItem(spec2, "87543", LBIS.L["Main Hand"], "Alt") --Ka'eng, Breath of the Shadow
 LBIS:AddItem(spec2, "81089", LBIS.L["Main Hand"], "Alt") --Crescent of Ichor
 
-LBIS:AddItem(spec3, "96681", LBIS.L["Head"], "BIS") --Nine-Tailed Helmet
+LBIS:AddItem(spec3, "96742", LBIS.L["Head"], "BIS") --Lightning-Eye Hood
 LBIS:AddItem(spec3, "81283", LBIS.L["Head"], "Alt") --Windblast Helm
 LBIS:AddItem(spec3, "95626", LBIS.L["Head"], "Alt") --Lightning-Eye Hood
 LBIS:AddItem(spec3, "77534", LBIS.L["Head"], "Alt") --Agile Retinal Armor
@@ -263,7 +263,7 @@ LBIS:AddItem(spec3, "97203", LBIS.L["Back"], "Alt") --Thunder-Chaser Cloak
 LBIS:AddItem(spec3, "95116", LBIS.L["Back"], "Alt") --Longshot Forestcloak
 LBIS:AddItem(spec3, "81282", LBIS.L["Back"], "Alt") --Aerial Bombardment Cloak
 LBIS:AddItem(spec3, "95717", LBIS.L["Back"], "Alt") --Pinionfeather Greatcloak
-LBIS:AddItem(spec3, "95033", LBIS.L["Chest"], "BIS") --Chestguard of Coruscating Blades
+LBIS:AddItem(spec3, "96679", LBIS.L["Chest"], "BIS") --Nine-Tailed Tunic
 LBIS:AddItem(spec3, "89431", LBIS.L["Chest"], "Alt") --Softfoot Silentwrap
 LBIS:AddItem(spec3, "95077", LBIS.L["Chest"], "Alt") --Roofstalker Shadowwrap
 LBIS:AddItem(spec3, "85823", LBIS.L["Chest"], "Alt") --Greyshadow Chestguard
