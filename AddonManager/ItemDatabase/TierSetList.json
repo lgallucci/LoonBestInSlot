@@ -2759,6 +2759,2766 @@
       "SourceNumber": "89263",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
+    },
+    "95225": {
+      "Name": "Breastplate of the All-Consuming Maw",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95569",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95226": {
+      "Name": "Gauntlets of the All-Consuming Maw",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95570",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95227": {
+      "Name": "Helmet of the All-Consuming Maw",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95571",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95228": {
+      "Name": "Greaves of the All-Consuming Maw",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95572",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95229": {
+      "Name": "Pauldrons of the All-Consuming Maw",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95573",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95230": {
+      "Name": "Chestguard of the All-Consuming Maw",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95569",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95231": {
+      "Name": "Handguards of the All-Consuming Maw",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95570",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95232": {
+      "Name": "Faceguard of the All-Consuming Maw",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95571",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95233": {
+      "Name": "Legguards of the All-Consuming Maw",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95572",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95234": {
+      "Name": "Shoulderguards of the All-Consuming Maw",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95573",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95235": {
+      "Name": "Raiment of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95569",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95236": {
+      "Name": "Grips of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95570",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95237": {
+      "Name": "Headpiece of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95571",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95238": {
+      "Name": "Legguards of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95572",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95239": {
+      "Name": "Spaulders of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95573",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95240": {
+      "Name": "Handwraps of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95570",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95241": {
+      "Name": "Helm of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95571",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95242": {
+      "Name": "Legwraps of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95572",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95243": {
+      "Name": "Robes of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95569",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95244": {
+      "Name": "Mantle of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95573",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95245": {
+      "Name": "Gloves of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95570",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95246": {
+      "Name": "Cover of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95571",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95247": {
+      "Name": "Leggings of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95572",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95248": {
+      "Name": "Vestment of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95569",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95249": {
+      "Name": "Shoulderwraps of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95573",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95250": {
+      "Name": "Tunic of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95569",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95251": {
+      "Name": "Handguards of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95570",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95252": {
+      "Name": "Headguard of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95571",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95253": {
+      "Name": "Breeches of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95572",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95254": {
+      "Name": "Shoulderguards of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95573",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95255": {
+      "Name": "Saurok Stalker's Tunic",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95579",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95256": {
+      "Name": "Saurok Stalker's Gloves",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95580",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95257": {
+      "Name": "Saurok Stalker's Headguard",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95582",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95258": {
+      "Name": "Saurok Stalker's Legguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95581",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95259": {
+      "Name": "Saurok Stalker's Spaulders",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95583",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95260": {
+      "Name": "Gloves of the Chromatic Hydra",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95570",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95261": {
+      "Name": "Hood of the Chromatic Hydra",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95571",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95262": {
+      "Name": "Leggings of the Chromatic Hydra",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95572",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95263": {
+      "Name": "Robes of the Chromatic Hydra",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95569",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95264": {
+      "Name": "Mantle of the Chromatic Hydra",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95573",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95265": {
+      "Name": "Fire-Charm Tunic",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95579",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95266": {
+      "Name": "Fire-Charm Grips",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95580",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95267": {
+      "Name": "Fire-Charm Headpiece",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95582",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95268": {
+      "Name": "Fire-Charm Leggings",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95581",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95269": {
+      "Name": "Fire-Charm Spaulders",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95583",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95270": {
+      "Name": "Fire-Charm Handwraps",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95580",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95271": {
+      "Name": "Fire-Charm Helm",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95582",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95272": {
+      "Name": "Fire-Charm Legwraps",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95581",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95273": {
+      "Name": "Fire-Charm Vest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95579",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95274": {
+      "Name": "Fire-Charm Mantle",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95583",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95275": {
+      "Name": "Fire-Charm Chestguard",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95579",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95276": {
+      "Name": "Fire-Charm Gauntlets",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95580",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95277": {
+      "Name": "Fire-Charm Crown",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95582",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95278": {
+      "Name": "Fire-Charm Legguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95581",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95279": {
+      "Name": "Fire-Charm Shoulderguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95583",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95280": {
+      "Name": "Lightning Emperor's Battleplate",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95574",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95281": {
+      "Name": "Lightning Emperor's Gauntlets",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95575",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95282": {
+      "Name": "Lightning Emperor's Helmet",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95577",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95283": {
+      "Name": "Lightning Emperor's Legplates",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95576",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95284": {
+      "Name": "Lightning Emperor's Pauldrons",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95578",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95285": {
+      "Name": "Lightning Emperor's Breastplate",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95574",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95286": {
+      "Name": "Lightning Emperor's Gloves",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95575",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95287": {
+      "Name": "Lightning Emperor's Headguard",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95577",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95288": {
+      "Name": "Lightning Emperor's Greaves",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95576",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95289": {
+      "Name": "Lightning Emperor's Mantle",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95578",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95290": {
+      "Name": "Lightning Emperor's Chestguard",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95574",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95291": {
+      "Name": "Lightning Emperor's Handguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95575",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95292": {
+      "Name": "Lightning Emperor's Faceguard",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95577",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95293": {
+      "Name": "Lightning Emperor's Legguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95576",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95294": {
+      "Name": "Lightning Emperor's Shoulderguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95578",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95295": {
+      "Name": "Handwraps of the Exorcist",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95575",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95296": {
+      "Name": "Cowl of the Exorcist",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95577",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95297": {
+      "Name": "Legwraps of the Exorcist",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95576",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95298": {
+      "Name": "Robes of the Exorcist",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95574",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95299": {
+      "Name": "Mantle of the Exorcist",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95578",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95300": {
+      "Name": "Gloves of the Exorcist",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95575",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95301": {
+      "Name": "Hood of the Exorcist",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95577",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95302": {
+      "Name": "Leggings of the Exorcist",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95576",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95303": {
+      "Name": "Raiment of the Exorcist",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95574",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95304": {
+      "Name": "Shoulderguards of the Exorcist",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95578",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95305": {
+      "Name": "Nine-Tailed Tunic",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95569",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95306": {
+      "Name": "Nine-Tailed Gloves",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95570",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95307": {
+      "Name": "Nine-Tailed Helmet",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95571",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95308": {
+      "Name": "Nine-Tailed Legguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95572",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95309": {
+      "Name": "Nine-Tailed Spaulders",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95573",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95310": {
+      "Name": "Tunic of the Witch Doctor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95579",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95311": {
+      "Name": "Handwraps of the Witch Doctor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95580",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95312": {
+      "Name": "Faceguard of the Witch Doctor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95582",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95313": {
+      "Name": "Legwraps of the Witch Doctor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95581",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95314": {
+      "Name": "Mantle of the Witch Doctor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95583",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95315": {
+      "Name": "Cuirass of the Witch Doctor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95579",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95316": {
+      "Name": "Grips of the Witch Doctor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95580",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95317": {
+      "Name": "Helmet of the Witch Doctor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95582",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95318": {
+      "Name": "Legguards of the Witch Doctor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95581",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95319": {
+      "Name": "Spaulders of the Witch Doctor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95583",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95320": {
+      "Name": "Hauberk of the Witch Doctor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95579",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95321": {
+      "Name": "Gloves of the Witch Doctor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95580",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95322": {
+      "Name": "Headpiece of the Witch Doctor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95582",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95323": {
+      "Name": "Kilt of the Witch Doctor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95581",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95324": {
+      "Name": "Shoulderwraps of the Witch Doctor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95583",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95325": {
+      "Name": "Gloves of the Thousandfold Hells",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95575",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95326": {
+      "Name": "Hood of the Thousandfold Hells",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95577",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95327": {
+      "Name": "Leggings of the Thousandfold Hells",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95576",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95328": {
+      "Name": "Robes of the Thousandfold Hells",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95574",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95329": {
+      "Name": "Mantle of the Thousandfold Hells",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95578",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95330": {
+      "Name": "Helmet of the Last Mogu",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95582",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95331": {
+      "Name": "Battleplate of the Last Mogu",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95579",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95332": {
+      "Name": "Gauntlets of the Last Mogu",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95580",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95333": {
+      "Name": "Legplates of the Last Mogu",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95581",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95334": {
+      "Name": "Pauldrons of the Last Mogu",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95583",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95335": {
+      "Name": "Chestguard of the Last Mogu",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95579",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95336": {
+      "Name": "Handguards of the Last Mogu",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95580",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95337": {
+      "Name": "Faceguard of the Last Mogu",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95582",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95338": {
+      "Name": "Legguards of the Last Mogu",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95581",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95339": {
+      "Name": "Shoulderguards of the Last Mogu",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95583",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95825": {
+      "Name": "Breastplate of the All-Consuming Maw",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95822",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95826": {
+      "Name": "Gauntlets of the All-Consuming Maw",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95855",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95827": {
+      "Name": "Helmet of the All-Consuming Maw",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95879",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95828": {
+      "Name": "Greaves of the All-Consuming Maw",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95887",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95829": {
+      "Name": "Pauldrons of the All-Consuming Maw",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95955",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95830": {
+      "Name": "Chestguard of the All-Consuming Maw",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95822",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95831": {
+      "Name": "Handguards of the All-Consuming Maw",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95855",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95832": {
+      "Name": "Faceguard of the All-Consuming Maw",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95879",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95833": {
+      "Name": "Legguards of the All-Consuming Maw",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95887",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95834": {
+      "Name": "Shoulderguards of the All-Consuming Maw",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95955",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95835": {
+      "Name": "Raiment of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95822",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95836": {
+      "Name": "Grips of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95855",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95837": {
+      "Name": "Headpiece of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95879",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95838": {
+      "Name": "Legguards of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95887",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95839": {
+      "Name": "Spaulders of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95955",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95840": {
+      "Name": "Handwraps of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95855",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95841": {
+      "Name": "Helm of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95879",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95842": {
+      "Name": "Legwraps of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95887",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95843": {
+      "Name": "Robes of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95822",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95844": {
+      "Name": "Mantle of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95955",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95845": {
+      "Name": "Gloves of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95855",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95846": {
+      "Name": "Cover of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95879",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95847": {
+      "Name": "Leggings of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95887",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95848": {
+      "Name": "Vestment of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95822",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95849": {
+      "Name": "Shoulderwraps of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95955",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95850": {
+      "Name": "Tunic of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95822",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95851": {
+      "Name": "Handguards of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95855",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95852": {
+      "Name": "Headguard of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95879",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95853": {
+      "Name": "Breeches of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95887",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95854": {
+      "Name": "Shoulderguards of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95955",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95882": {
+      "Name": "Saurok Stalker's Tunic",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95824",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95883": {
+      "Name": "Saurok Stalker's Gloves",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95857",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95884": {
+      "Name": "Saurok Stalker's Headguard",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95881",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95885": {
+      "Name": "Saurok Stalker's Legguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95889",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95886": {
+      "Name": "Saurok Stalker's Spaulders",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95957",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95890": {
+      "Name": "Gloves of the Chromatic Hydra",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95855",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95891": {
+      "Name": "Hood of the Chromatic Hydra",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95879",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95892": {
+      "Name": "Leggings of the Chromatic Hydra",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95887",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95893": {
+      "Name": "Robes of the Chromatic Hydra",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95822",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95894": {
+      "Name": "Mantle of the Chromatic Hydra",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95955",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95895": {
+      "Name": "Fire-Charm Tunic",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95824",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95896": {
+      "Name": "Fire-Charm Grips",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95857",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95897": {
+      "Name": "Fire-Charm Headpiece",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95881",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95898": {
+      "Name": "Fire-Charm Leggings",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95889",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95899": {
+      "Name": "Fire-Charm Spaulders",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95957",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95900": {
+      "Name": "Fire-Charm Handwraps",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95857",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95901": {
+      "Name": "Fire-Charm Helm",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95881",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95902": {
+      "Name": "Fire-Charm Legwraps",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95889",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95903": {
+      "Name": "Fire-Charm Vest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95824",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95904": {
+      "Name": "Fire-Charm Mantle",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95957",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95905": {
+      "Name": "Fire-Charm Chestguard",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95824",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95906": {
+      "Name": "Fire-Charm Gauntlets",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95857",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95907": {
+      "Name": "Fire-Charm Crown",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95881",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95908": {
+      "Name": "Fire-Charm Legguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95889",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95909": {
+      "Name": "Fire-Charm Shoulderguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95957",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95910": {
+      "Name": "Lightning Emperor's Battleplate",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95823",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95911": {
+      "Name": "Lightning Emperor's Gauntlets",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95856",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95912": {
+      "Name": "Lightning Emperor's Helmet",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95880",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95913": {
+      "Name": "Lightning Emperor's Legplates",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95888",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95914": {
+      "Name": "Lightning Emperor's Pauldrons",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95956",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95915": {
+      "Name": "Lightning Emperor's Breastplate",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95823",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95916": {
+      "Name": "Lightning Emperor's Gloves",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95856",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95917": {
+      "Name": "Lightning Emperor's Headguard",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95880",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95918": {
+      "Name": "Lightning Emperor's Greaves",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95888",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95919": {
+      "Name": "Lightning Emperor's Mantle",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95956",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95920": {
+      "Name": "Lightning Emperor's Chestguard",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95823",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95921": {
+      "Name": "Lightning Emperor's Handguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95856",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95922": {
+      "Name": "Lightning Emperor's Faceguard",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95880",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95923": {
+      "Name": "Lightning Emperor's Legguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95888",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95924": {
+      "Name": "Lightning Emperor's Shoulderguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95956",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95925": {
+      "Name": "Handwraps of the Exorcist",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95856",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95926": {
+      "Name": "Cowl of the Exorcist",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95880",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95927": {
+      "Name": "Legwraps of the Exorcist",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95888",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95928": {
+      "Name": "Robes of the Exorcist",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95823",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95929": {
+      "Name": "Mantle of the Exorcist",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95956",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95930": {
+      "Name": "Gloves of the Exorcist",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95856",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95931": {
+      "Name": "Hood of the Exorcist",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95880",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95932": {
+      "Name": "Leggings of the Exorcist",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95888",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95933": {
+      "Name": "Raiment of the Exorcist",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95823",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95934": {
+      "Name": "Shoulderguards of the Exorcist",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95956",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95935": {
+      "Name": "Nine-Tailed Tunic",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95822",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95936": {
+      "Name": "Nine-Tailed Gloves",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95855",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95937": {
+      "Name": "Nine-Tailed Helmet",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95879",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95938": {
+      "Name": "Nine-Tailed Legguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95887",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95939": {
+      "Name": "Nine-Tailed Spaulders",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95955",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95940": {
+      "Name": "Tunic of the Witch Doctor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95824",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95941": {
+      "Name": "Handwraps of the Witch Doctor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95857",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95942": {
+      "Name": "Faceguard of the Witch Doctor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95881",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95943": {
+      "Name": "Legwraps of the Witch Doctor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95889",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95944": {
+      "Name": "Mantle of the Witch Doctor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95957",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95945": {
+      "Name": "Cuirass of the Witch Doctor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95824",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95946": {
+      "Name": "Grips of the Witch Doctor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95857",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95947": {
+      "Name": "Helmet of the Witch Doctor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95881",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95948": {
+      "Name": "Legguards of the Witch Doctor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95889",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95949": {
+      "Name": "Spaulders of the Witch Doctor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95957",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95950": {
+      "Name": "Hauberk of the Witch Doctor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95824",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95951": {
+      "Name": "Gloves of the Witch Doctor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95857",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95952": {
+      "Name": "Headpiece of the Witch Doctor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95881",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95953": {
+      "Name": "Kilt of the Witch Doctor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95889",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95954": {
+      "Name": "Shoulderwraps of the Witch Doctor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95957",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95981": {
+      "Name": "Gloves of the Thousandfold Hells",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95856",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95982": {
+      "Name": "Hood of the Thousandfold Hells",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95880",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95983": {
+      "Name": "Leggings of the Thousandfold Hells",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95888",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95984": {
+      "Name": "Robes of the Thousandfold Hells",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95823",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95985": {
+      "Name": "Mantle of the Thousandfold Hells",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95956",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95986": {
+      "Name": "Helmet of the Last Mogu",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95881",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95987": {
+      "Name": "Battleplate of the Last Mogu",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95824",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95988": {
+      "Name": "Gauntlets of the Last Mogu",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95857",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95989": {
+      "Name": "Legplates of the Last Mogu",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95889",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95990": {
+      "Name": "Pauldrons of the Last Mogu",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95957",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95991": {
+      "Name": "Chestguard of the Last Mogu",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95824",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95992": {
+      "Name": "Handguards of the Last Mogu",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95857",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95993": {
+      "Name": "Faceguard of the Last Mogu",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95881",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95994": {
+      "Name": "Legguards of the Last Mogu",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95889",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "95995": {
+      "Name": "Shoulderguards of the Last Mogu",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "95957",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96569": {
+      "Name": "Breastplate of the All-Consuming Maw",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96566",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96570": {
+      "Name": "Gauntlets of the All-Consuming Maw",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96599",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96571": {
+      "Name": "Helmet of the All-Consuming Maw",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96623",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96572": {
+      "Name": "Greaves of the All-Consuming Maw",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96631",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96573": {
+      "Name": "Pauldrons of the All-Consuming Maw",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96699",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96574": {
+      "Name": "Chestguard of the All-Consuming Maw",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96566",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96575": {
+      "Name": "Handguards of the All-Consuming Maw",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96599",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96576": {
+      "Name": "Faceguard of the All-Consuming Maw",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96623",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96577": {
+      "Name": "Legguards of the All-Consuming Maw",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96631",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96578": {
+      "Name": "Shoulderguards of the All-Consuming Maw",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96699",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96579": {
+      "Name": "Raiment of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96566",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96580": {
+      "Name": "Grips of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96599",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96581": {
+      "Name": "Headpiece of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96623",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96582": {
+      "Name": "Legguards of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96631",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96583": {
+      "Name": "Spaulders of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96699",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96584": {
+      "Name": "Handwraps of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96599",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96585": {
+      "Name": "Helm of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96623",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96586": {
+      "Name": "Legwraps of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96631",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96587": {
+      "Name": "Robes of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96566",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96588": {
+      "Name": "Mantle of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96699",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96589": {
+      "Name": "Gloves of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96599",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96590": {
+      "Name": "Cover of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96623",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96591": {
+      "Name": "Leggings of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96631",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96592": {
+      "Name": "Vestment of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96566",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96593": {
+      "Name": "Shoulderwraps of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96699",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96594": {
+      "Name": "Tunic of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96566",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96595": {
+      "Name": "Handguards of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96599",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96596": {
+      "Name": "Headguard of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96623",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96597": {
+      "Name": "Breeches of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96631",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96598": {
+      "Name": "Shoulderguards of the Haunted Forest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96699",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96626": {
+      "Name": "Saurok Stalker's Tunic",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96568",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96627": {
+      "Name": "Saurok Stalker's Gloves",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96601",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96628": {
+      "Name": "Saurok Stalker's Headguard",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96625",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96629": {
+      "Name": "Saurok Stalker's Legguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96633",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96630": {
+      "Name": "Saurok Stalker's Spaulders",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96701",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96634": {
+      "Name": "Gloves of the Chromatic Hydra",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96599",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96635": {
+      "Name": "Hood of the Chromatic Hydra",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96623",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96636": {
+      "Name": "Leggings of the Chromatic Hydra",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96631",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96637": {
+      "Name": "Robes of the Chromatic Hydra",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96566",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96638": {
+      "Name": "Mantle of the Chromatic Hydra",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96699",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96639": {
+      "Name": "Fire-Charm Tunic",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96568",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96640": {
+      "Name": "Fire-Charm Grips",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96601",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96641": {
+      "Name": "Fire-Charm Headpiece",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96625",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96642": {
+      "Name": "Fire-Charm Leggings",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96633",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96643": {
+      "Name": "Fire-Charm Spaulders",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96701",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96644": {
+      "Name": "Fire-Charm Handwraps",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96601",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96645": {
+      "Name": "Fire-Charm Helm",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96625",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96646": {
+      "Name": "Fire-Charm Legwraps",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96633",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96647": {
+      "Name": "Fire-Charm Vest",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96568",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96648": {
+      "Name": "Fire-Charm Mantle",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96701",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96649": {
+      "Name": "Fire-Charm Chestguard",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96568",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96650": {
+      "Name": "Fire-Charm Gauntlets",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96601",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96651": {
+      "Name": "Fire-Charm Crown",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96625",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96652": {
+      "Name": "Fire-Charm Legguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96633",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96653": {
+      "Name": "Fire-Charm Shoulderguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96701",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96654": {
+      "Name": "Lightning Emperor's Battleplate",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96567",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96655": {
+      "Name": "Lightning Emperor's Gauntlets",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96600",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96656": {
+      "Name": "Lightning Emperor's Helmet",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96624",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96657": {
+      "Name": "Lightning Emperor's Legplates",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96632",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96658": {
+      "Name": "Lightning Emperor's Pauldrons",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96700",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96659": {
+      "Name": "Lightning Emperor's Breastplate",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96567",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96660": {
+      "Name": "Lightning Emperor's Gloves",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96600",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96661": {
+      "Name": "Lightning Emperor's Headguard",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96624",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96662": {
+      "Name": "Lightning Emperor's Greaves",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96632",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96663": {
+      "Name": "Lightning Emperor's Mantle",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96700",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96664": {
+      "Name": "Lightning Emperor's Chestguard",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96567",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96665": {
+      "Name": "Lightning Emperor's Handguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96600",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96666": {
+      "Name": "Lightning Emperor's Faceguard",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96624",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96667": {
+      "Name": "Lightning Emperor's Legguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96632",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96668": {
+      "Name": "Lightning Emperor's Shoulderguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96700",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96669": {
+      "Name": "Handwraps of the Exorcist",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96600",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96670": {
+      "Name": "Cowl of the Exorcist",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96624",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96671": {
+      "Name": "Legwraps of the Exorcist",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96632",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96672": {
+      "Name": "Robes of the Exorcist",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96567",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96673": {
+      "Name": "Mantle of the Exorcist",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96700",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96674": {
+      "Name": "Gloves of the Exorcist",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96600",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96675": {
+      "Name": "Hood of the Exorcist",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96624",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96676": {
+      "Name": "Leggings of the Exorcist",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96632",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96677": {
+      "Name": "Raiment of the Exorcist",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96567",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96678": {
+      "Name": "Shoulderguards of the Exorcist",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96700",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96679": {
+      "Name": "Nine-Tailed Tunic",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96566",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96680": {
+      "Name": "Nine-Tailed Gloves",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96599",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96681": {
+      "Name": "Nine-Tailed Helmet",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96623",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96682": {
+      "Name": "Nine-Tailed Legguards",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96631",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96683": {
+      "Name": "Nine-Tailed Spaulders",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96699",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96684": {
+      "Name": "Tunic of the Witch Doctor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96568",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96685": {
+      "Name": "Handwraps of the Witch Doctor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96601",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96686": {
+      "Name": "Faceguard of the Witch Doctor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96625",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96687": {
+      "Name": "Legwraps of the Witch Doctor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96633",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96688": {
+      "Name": "Mantle of the Witch Doctor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96701",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96689": {
+      "Name": "Cuirass of the Witch Doctor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96568",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96690": {
+      "Name": "Grips of the Witch Doctor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96601",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96691": {
+      "Name": "Helmet of the Witch Doctor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96625",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96692": {
+      "Name": "Legguards of the Witch Doctor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96633",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96693": {
+      "Name": "Spaulders of the Witch Doctor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96701",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96694": {
+      "Name": "Hauberk of the Witch Doctor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96568",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96695": {
+      "Name": "Gloves of the Witch Doctor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96601",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96696": {
+      "Name": "Headpiece of the Witch Doctor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96625",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96697": {
+      "Name": "Kilt of the Witch Doctor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96633",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96698": {
+      "Name": "Shoulderwraps of the Witch Doctor",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96701",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96725": {
+      "Name": "Gloves of the Thousandfold Hells",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96600",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96726": {
+      "Name": "Hood of the Thousandfold Hells",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96624",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96727": {
+      "Name": "Leggings of the Thousandfold Hells",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96632",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96728": {
+      "Name": "Robes of the Thousandfold Hells",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96567",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96729": {
+      "Name": "Mantle of the Thousandfold Hells",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96700",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96730": {
+      "Name": "Helmet of the Last Mogu",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96625",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96731": {
+      "Name": "Battleplate of the Last Mogu",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96568",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96732": {
+      "Name": "Gauntlets of the Last Mogu",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96601",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96733": {
+      "Name": "Legplates of the Last Mogu",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96633",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96734": {
+      "Name": "Pauldrons of the Last Mogu",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96701",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96735": {
+      "Name": "Chestguard of the Last Mogu",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96568",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96736": {
+      "Name": "Handguards of the Last Mogu",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96601",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96737": {
+      "Name": "Faceguard of the Last Mogu",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96625",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96738": {
+      "Name": "Legguards of the Last Mogu",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96633",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "96739": {
+      "Name": "Shoulderguards of the Last Mogu",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "96701",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
     }
   }
 }

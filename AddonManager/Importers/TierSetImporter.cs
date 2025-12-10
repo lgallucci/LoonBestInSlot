@@ -30,7 +30,7 @@ public class TierSetImporter : LootImporter
         "https://www.wowhead.com/item=95879/helm-of-the-crackling-vanquisher#currency-for",
         "https://www.wowhead.com/item=95573/shoulders-of-the-crackling-vanquisher#currency-for",
         "https://www.wowhead.com/item=96699/shoulders-of-the-crackling-vanquisher#currency-for",
-        "hhttps://www.wowhead.com/item=95955/shoulders-of-the-crackling-vanquisher#currency-for",
+        "https://www.wowhead.com/item=95955/shoulders-of-the-crackling-vanquisher#currency-for",
         "https://www.wowhead.com/item=95569/chest-of-the-crackling-vanquisher#currency-for",
         "https://www.wowhead.com/item=96566/chest-of-the-crackling-vanquisher#currency-for",
         "https://www.wowhead.com/item=95822/chest-of-the-crackling-vanquisher#currency-for",

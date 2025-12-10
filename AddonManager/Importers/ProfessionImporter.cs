@@ -11,6 +11,7 @@ public class ProfessionImporter : LootImporter
         { @"https://www.wowhead.com/mop-classic/skill=202/engineering#recipes", "Engineering" },
         { @"https://www.wowhead.com/mop-classic/skill=202/engineering#recipes;50", "Engineering" },
         { @"https://www.wowhead.com/mop-classic/skill=202/engineering#recipes;100", "Engineering" },
+        { @"https://www.wowhead.com/mop-classic/skill=202/engineering#recipes;150", "Engineering" },
         { @"https://www.wowhead.com/mop-classic/skill=165/leatherworking#recipes", "Leatherworking" },
         { @"https://www.wowhead.com/mop-classic/skill=165/leatherworking#recipes;50", "Leatherworking" },
         { @"https://www.wowhead.com/mop-classic/skill=165/leatherworking#recipes;100", "Leatherworking" },
@@ -19,6 +20,7 @@ public class ProfessionImporter : LootImporter
         { @"https://www.wowhead.com/mop-classic/skill=165/leatherworking#recipes;250", "Leatherworking" },
         { @"https://www.wowhead.com/mop-classic/skill=165/leatherworking#recipes;300", "Leatherworking" },
         { @"https://www.wowhead.com/mop-classic/skill=165/leatherworking#recipes;350", "Leatherworking" },
+        { @"https://www.wowhead.com/mop-classic/skill=165/leatherworking#recipes;400", "Leatherworking" },
         { @"https://www.wowhead.com/mop-classic/skill=197/tailoring#recipes", "Tailoring" },
         { @"https://www.wowhead.com/mop-classic/skill=197/tailoring#recipes;50", "Tailoring" },
         { @"https://www.wowhead.com/mop-classic/skill=197/tailoring#recipes;100", "Tailoring" },
@@ -44,7 +46,7 @@ public class ProfessionImporter : LootImporter
         { @"https://www.wowhead.com/mop-classic/skill=755/jewelcrafting#recipes;250", "Jewelcrafting" },
         { @"https://www.wowhead.com/mop-classic/skill=755/jewelcrafting#recipes;300", "Jewelcrafting" }
     };
-    private int minSkillLevel = 501;
+    private int minSkillLevel = 475;
 
     public ProfessionImporter(CancellationToken cancellationToken) : base(cancellationToken)
     {
@@ -53,7 +55,7 @@ public class ProfessionImporter : LootImporter
     internal override string FileName { get => "ProfessionItemList"; }
     internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, Action<string> writeToLog)
     {
-        items.Items.Clear();
+        //items.Items.Clear();
 
         await Common.LoadFromWebPages(professionUriList.Keys.ToList(), (uri, doc) =>
         {
