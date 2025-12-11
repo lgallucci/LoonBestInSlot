@@ -19,6 +19,7 @@ public class ReputationImporter : LootImporter
         { @"https://www.wowhead.com/mop-classic/npc=69060/tuskripper-grukna#sells", "Dominance Offensive, H" },
         { @"https://www.wowhead.com/mop-classic/npc=70346/ao-pye#sells", "Shado-Pan Assault, B" },
         { @"https://www.wowhead.com/mop-classic/npc=70346/ao-pye#sells;50", "Shado-Pan Assault, B" },
+        { @"https://www.wowhead.com/mop-classic/npc=70346/ao-pye#sells;100", "Shado-Pan Assault, B" },
         { @"https://www.wowhead.com/mop-classic/npc=68000/hiren-loresong#sells", "Kirin Tor Offensive, A" },
         { @"https://www.wowhead.com/mop-classic/npc=67672/vasarin-redmorn#sells", "Sunreaver Onslaught, H" }
     };

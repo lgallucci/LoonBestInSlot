@@ -1832,12 +1832,412 @@
       "SourceLocation": "Honored (1750 Justice Points)",
       "SourceFaction": "A"
     },
+    "94507": {
+      "Name": "Steadfast Talisman of the Shado-Pan Assault",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly (1750 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "94508": {
+      "Name": "Brutal Talisman of the Shado-Pan Assault",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly (1750 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "94509": {
+      "Name": "Soothing Talisman of the Shado-Pan Assault",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly (1750 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "94510": {
+      "Name": "Volatile Talisman of the Shado-Pan Assault",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly (1750 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "94511": {
+      "Name": "Vicious Talisman of the Shado-Pan Assault",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly (1750 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "95074": {
+      "Name": "Hauberk of Gleaming Fire",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly (2250 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "95075": {
+      "Name": "Gianttooth Chestplate",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly (2250 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "95076": {
+      "Name": "Breastplate of Brutal Strikes",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly (2250 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "95077": {
+      "Name": "Roofstalker Shadowwrap",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly (2250 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "95078": {
+      "Name": "Raiment of Silent Stars",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly (2250 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "95079": {
+      "Name": "Carapace of Segmented Scale",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly (2250 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "95080": {
+      "Name": "Skinsealer Tunic",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly (2250 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "95081": {
+      "Name": "Fire Support Robes",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly (2250 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "95082": {
+      "Name": "Robes of Misty Bindings",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly (2250 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "95083": {
+      "Name": "Swordhook Slingbelt",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly (1750 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "95084": {
+      "Name": "Reinforced Spiritplate Girdle",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly (1750 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "95085": {
+      "Name": "Waistplate of Channeled Mending",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly (1750 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "95086": {
+      "Name": "Nightflight Chain",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly (1750 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "95087": {
+      "Name": "Cracklebite Links",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly (1750 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "95088": {
+      "Name": "Darkfang Belt",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly (1750 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "95089": {
+      "Name": "Martiean's Splitleaf Girdle",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly (1750 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "95090": {
+      "Name": "Firestrike Cord",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly (1750 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "95091": {
+      "Name": "Girdle of Glowing Light",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly (1750 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "95095": {
+      "Name": "Targetblinder Spaulders",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "95096": {
+      "Name": "Shoulders of Demonic Dreams",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "95097": {
+      "Name": "Heartroot Shoulderguards",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "95098": {
+      "Name": "Sightblinder Shoulderguards",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "95099": {
+      "Name": "Lightning Strike Mantle",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "95100": {
+      "Name": "Wallwalker Spaulders",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "95101": {
+      "Name": "Halo-Graced Mantle",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "95102": {
+      "Name": "Frost-Kissed Shoulderwraps",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "95103": {
+      "Name": "Sparksmasher Pauldrons",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "95104": {
+      "Name": "Shoulderguards of Potentiation",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "95105": {
+      "Name": "Ghostbinder Grips",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly (1750 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "95106": {
+      "Name": "Flameweaver Handwraps",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly (1750 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "95107": {
+      "Name": "Gloves of Enduring Renewal",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly (1750 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "95108": {
+      "Name": "Daggerfinger Clutches",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly (1750 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "95109": {
+      "Name": "Gauntlets of the Longbow",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly (1750 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "95110": {
+      "Name": "Stoneward Handguards",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly (1750 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "95111": {
+      "Name": "Bloodstained Skullsqueezers",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly (1750 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "95112": {
+      "Name": "Totemshaper Gloves",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly (1750 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "95113": {
+      "Name": "Touch of Soothing Mists",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly (1750 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "95114": {
+      "Name": "Spikeshard Greatcloak",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly (1250 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "95115": {
+      "Name": "Many-Layered Scalecloak",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly (1250 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "95116": {
+      "Name": "Longshot Forestcloak",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly (1250 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "95117": {
+      "Name": "Shadowspike Cloak",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly (1250 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "95118": {
+      "Name": "Dreamweaver Drape",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly (1250 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "95119": {
+      "Name": "Thunderbreaker Legplates",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly (2250 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "95120": {
+      "Name": "Legguards of Renewal",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly (2250 Valor Points)",
+      "SourceFaction": "B"
+    },
+    "95121": {
+      "Name": "Vaultbreaker Greaves",
+      "Source": "Shado-Pan Assault",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Friendly (2250 Valor Points)",
+      "SourceFaction": "B"
+    },
     "95122": {
       "Name": "Wisp-Weave Pantaloons",
       "Source": "Shado-Pan Assault",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Friendly",
+      "SourceLocation": "Friendly (2250 Valor Points)",
       "SourceFaction": "B"
     },
     "95123": {
@@ -1845,7 +2245,7 @@
       "Source": "Shado-Pan Assault",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Friendly",
+      "SourceLocation": "Friendly (2250 Valor Points)",
       "SourceFaction": "B"
     },
     "95124": {
@@ -1853,7 +2253,7 @@
       "Source": "Shado-Pan Assault",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Friendly",
+      "SourceLocation": "Friendly (2250 Valor Points)",
       "SourceFaction": "B"
     },
     "95125": {
@@ -1861,7 +2261,7 @@
       "Source": "Shado-Pan Assault",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Friendly",
+      "SourceLocation": "Friendly (2250 Valor Points)",
       "SourceFaction": "B"
     },
     "95126": {
@@ -1869,7 +2269,7 @@
       "Source": "Shado-Pan Assault",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Friendly",
+      "SourceLocation": "Friendly (2250 Valor Points)",
       "SourceFaction": "B"
     },
     "95127": {
@@ -1877,7 +2277,7 @@
       "Source": "Shado-Pan Assault",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Friendly",
+      "SourceLocation": "Friendly (2250 Valor Points)",
       "SourceFaction": "B"
     },
     "95128": {
@@ -1885,7 +2285,7 @@
       "Source": "Shado-Pan Assault",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Friendly",
+      "SourceLocation": "Friendly (1250 Valor Points)",
       "SourceFaction": "B"
     },
     "95129": {
@@ -1893,7 +2293,7 @@
       "Source": "Shado-Pan Assault",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Friendly",
+      "SourceLocation": "Friendly (1250 Valor Points)",
       "SourceFaction": "B"
     },
     "95130": {
@@ -1901,7 +2301,7 @@
       "Source": "Shado-Pan Assault",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Friendly",
+      "SourceLocation": "Friendly (1250 Valor Points)",
       "SourceFaction": "B"
     },
     "95131": {
@@ -1909,7 +2309,7 @@
       "Source": "Shado-Pan Assault",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Friendly",
+      "SourceLocation": "Friendly (1250 Valor Points)",
       "SourceFaction": "B"
     },
     "95132": {
@@ -1917,7 +2317,7 @@
       "Source": "Shado-Pan Assault",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Friendly",
+      "SourceLocation": "Friendly (1250 Valor Points)",
       "SourceFaction": "B"
     },
     "95133": {
@@ -1925,7 +2325,7 @@
       "Source": "Shado-Pan Assault",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Friendly",
+      "SourceLocation": "Friendly (1250 Valor Points)",
       "SourceFaction": "B"
     },
     "95134": {
@@ -1933,7 +2333,7 @@
       "Source": "Shado-Pan Assault",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Friendly",
+      "SourceLocation": "Friendly (1250 Valor Points)",
       "SourceFaction": "B"
     },
     "95135": {
@@ -1941,7 +2341,7 @@
       "Source": "Shado-Pan Assault",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Friendly",
+      "SourceLocation": "Friendly (1250 Valor Points)",
       "SourceFaction": "B"
     },
     "95136": {
@@ -1949,7 +2349,7 @@
       "Source": "Shado-Pan Assault",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Friendly",
+      "SourceLocation": "Friendly (1250 Valor Points)",
       "SourceFaction": "B"
     },
     "95137": {
@@ -1957,7 +2357,7 @@
       "Source": "Shado-Pan Assault",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Friendly",
+      "SourceLocation": "Friendly (1250 Valor Points)",
       "SourceFaction": "B"
     },
     "95138": {
@@ -1965,7 +2365,7 @@
       "Source": "Shado-Pan Assault",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Friendly",
+      "SourceLocation": "Friendly (1250 Valor Points)",
       "SourceFaction": "B"
     },
     "95139": {
@@ -1973,7 +2373,7 @@
       "Source": "Shado-Pan Assault",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Friendly",
+      "SourceLocation": "Friendly (1250 Valor Points)",
       "SourceFaction": "B"
     },
     "95140": {
@@ -1981,7 +2381,7 @@
       "Source": "Shado-Pan Assault",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Friendly",
+      "SourceLocation": "Friendly (1250 Valor Points)",
       "SourceFaction": "B"
     },
     "95141": {
@@ -1989,7 +2389,7 @@
       "Source": "Shado-Pan Assault",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Friendly",
+      "SourceLocation": "Friendly (1250 Valor Points)",
       "SourceFaction": "B"
     },
     "95142": {
@@ -1997,7 +2397,7 @@
       "Source": "Shado-Pan Assault",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Neutral",
+      "SourceLocation": "Neutral (1250 Valor Points)",
       "SourceFaction": "B"
     },
     "95143": {
@@ -2005,7 +2405,7 @@
       "Source": "Shado-Pan Assault",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Neutral",
+      "SourceLocation": "Neutral (1250 Valor Points)",
       "SourceFaction": "B"
     },
     "95144": {
@@ -2013,7 +2413,7 @@
       "Source": "Shado-Pan Assault",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Neutral",
+      "SourceLocation": "Neutral (1250 Valor Points)",
       "SourceFaction": "B"
     },
     "95145": {
@@ -2021,7 +2421,7 @@
       "Source": "Shado-Pan Assault",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Neutral",
+      "SourceLocation": "Neutral (1250 Valor Points)",
       "SourceFaction": "B"
     },
     "95146": {
@@ -2029,7 +2429,7 @@
       "Source": "Shado-Pan Assault",
       "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Neutral",
+      "SourceLocation": "Neutral (1250 Valor Points)",
       "SourceFaction": "B"
     },
     "95517": {
@@ -2235,41 +2635,41 @@
     "97192": {
       "Name": "Refurbished Band of Jin",
       "Source": "Sunreaver Onslaught",
-      "SourceType": "Token",
+      "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Exalted",
+      "SourceLocation": "Exalted (1250 Valor Points)",
       "SourceFaction": "H"
     },
     "97193": {
       "Name": "Restored Hexxer's Signet",
       "Source": "Sunreaver Onslaught",
-      "SourceType": "Token",
+      "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Exalted",
+      "SourceLocation": "Exalted (1250 Valor Points)",
       "SourceFaction": "H"
     },
     "97194": {
       "Name": "Ancient Primalist's Seal",
       "Source": "Sunreaver Onslaught",
-      "SourceType": "Token",
+      "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Exalted",
+      "SourceLocation": "Exalted (1250 Valor Points)",
       "SourceFaction": "H"
     },
     "97195": {
       "Name": "Refurbished Seal of Jin",
       "Source": "Sunreaver Onslaught",
-      "SourceType": "Token",
+      "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Exalted",
+      "SourceLocation": "Exalted (1250 Valor Points)",
       "SourceFaction": "H"
     },
     "97196": {
       "Name": "Ancient Overlord's Onyx Band",
       "Source": "Sunreaver Onslaught",
-      "SourceType": "Token",
+      "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Exalted",
+      "SourceLocation": "Exalted (1250 Valor Points)",
       "SourceFaction": "H"
     },
     "97203": {
@@ -2315,41 +2715,41 @@
     "97208": {
       "Name": "Thunder-Chaser Cloak",
       "Source": "Sunreaver Onslaught",
-      "SourceType": "Token",
+      "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
+      "SourceLocation": "Revered (1250 Valor Points)",
       "SourceFaction": "H"
     },
     "97209": {
       "Name": "Static-Collecting Cloak",
       "Source": "Sunreaver Onslaught",
-      "SourceType": "Token",
+      "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
+      "SourceLocation": "Revered (1250 Valor Points)",
       "SourceFaction": "H"
     },
     "97210": {
       "Name": "Shan'ze Gravetender Cloak",
       "Source": "Sunreaver Onslaught",
-      "SourceType": "Token",
+      "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
+      "SourceLocation": "Revered (1250 Valor Points)",
       "SourceFaction": "H"
     },
     "97211": {
       "Name": "Shan'ze Partisan's Greatcloak",
       "Source": "Sunreaver Onslaught",
-      "SourceType": "Token",
+      "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
+      "SourceLocation": "Revered (1250 Valor Points)",
       "SourceFaction": "H"
     },
     "97212": {
       "Name": "Cloak of the Immortal Guardian",
       "Source": "Sunreaver Onslaught",
-      "SourceType": "Token",
+      "SourceType": "Reputation",
       "SourceNumber": "0",
-      "SourceLocation": "Revered",
+      "SourceLocation": "Revered (1250 Valor Points)",
       "SourceFaction": "H"
     }
   }

@@ -46,7 +46,6 @@ public class RaidImporter : LootImporter
         { @"https://www.wowhead.com/mop-classic/npc=68397/lei-shen#drops;mode:n25", "Lei Shen (N), Throne of Thunder"},
         { @"https://www.wowhead.com/mop-classic/npc=68397/lei-shen#drops;mode:h25", "Lei Shen (H), Throne of Thunder"},
         { @"https://www.wowhead.com/mop-classic/npc=69473/ra-den#drops;mode:h25", "Ra-den (H), Throne of Thunder"},
-
     };
 
     private Dictionary<string, string> wowheadContainsUriList = new Dictionary<string, string>
