@@ -271,7 +271,7 @@ LBIS:AddItem(spec3, "95111", LBIS.L["Hands"], "Alt") --Bloodstained Skullsqueeze
 LBIS:AddItem(spec3, "87407", LBIS.L["Hands"], "Alt") --Bloodforged Warfists
 LBIS:AddItem(spec3, "95826", LBIS.L["Hands"], "Alt") --Gauntlets of the All-Consuming Maw
 LBIS:AddItem(spec3, "82856", LBIS.L["Hands"], "Alt") --Dark Blaze Gauntlets
-LBIS:AddItem(spec3, "95003", LBIS.L["Waist"], "BIS") --Flare-Forged Greatbelt
+LBIS:AddItem(spec3, "96745", LBIS.L["Waist"], "BIS") --Cloudbreaker Greatbelt
 LBIS:AddItem(spec3, "95533", LBIS.L["Waist"], "Alt") --Thunder Caressed Waistguard
 LBIS:AddItem(spec3, "89055", LBIS.L["Waist"], "Alt") --Klaxxi Lash of the Rescinder
 LBIS:AddItem(spec3, "95524", LBIS.L["Waist"], "Alt") --Thunder Caressed Waistguard
@@ -280,14 +280,15 @@ LBIS:AddItem(spec3, "93323", LBIS.L["Waist"], "Alt") --Kwon's Crushing Girdle
 LBIS:AddItem(spec3, "95083", LBIS.L["Waist"], "Alt") --Swordhook Slingbelt
 LBIS:AddItem(spec3, "95629", LBIS.L["Waist"], "Alt") --Cloudbreaker Greatbelt
 LBIS:AddItem(spec3, "81190", LBIS.L["Waist"], "Alt") --Grenadier's Belt
+LBIS:AddItem(spec3, "95003", LBIS.L["Waist"], "Alt") --Flare-Forged Greatbelt
 LBIS:AddItem(spec3, "96572", LBIS.L["Legs"], "BIS") --Greaves of the All-Consuming Maw
 LBIS:AddItem(spec3, "89095", LBIS.L["Legs"], "Alt") --Legguards of the Unscathed
 LBIS:AddItem(spec3, "95121", LBIS.L["Legs"], "Alt") --Vaultbreaker Greaves
 LBIS:AddItem(spec3, "82812", LBIS.L["Legs"], "Alt") --Pyretic Legguards
 LBIS:AddItem(spec3, "95828", LBIS.L["Legs"], "Alt") --Greaves of the All-Consuming Maw
 LBIS:AddItem(spec3, "95012", LBIS.L["Feet"], "BIS") --Sabatons of the Superior Being
-LBIS:AddItem(spec3, "93273", LBIS.L["Feet"], "Alt") --Sea-Soaked Sollerets
 LBIS:AddItem(spec3, "93264", LBIS.L["Feet"], "Alt") --Cragchewer Sollerets
+LBIS:AddItem(spec3, "93273", LBIS.L["Feet"], "Alt") --Sea-Soaked Sollerets
 LBIS:AddItem(spec3, "94267", LBIS.L["Feet"], "Alt") --Haunted Steel Warboots
 LBIS:AddItem(spec3, "81284", LBIS.L["Feet"], "Alt") --Anchoring Sabatons
 LBIS:AddItem(spec3, "95798", LBIS.L["Feet"], "Alt") --Tidal Force Treads

@@ -37,6 +37,7 @@ LBIS.GemSources =
     [76670] = { Name = "Adept Vermilion Onyx", DesignId = "83810", Source = LBIS.L["Jewelcrafting Supplies"], SourceLocation = LBIS.L["The Jade Forest"] },
     [76671] = { Name = "Keen Vermilion Onyx", DesignId = "83879", Source = LBIS.L["Jewelcrafting Supplies"], SourceLocation = LBIS.L["The Jade Forest"] },
     [76672] = { Name = "Artful Vermilion Onyx", DesignId = "83814", Source = LBIS.L["Jewelcrafting Supplies"], SourceLocation = LBIS.L["The Jade Forest"] },
+    [76673] = { Name = "Fine Vermilion Onyx", DesignId = "83855", Source = LBIS.L["Jewelcrafting Supplies"], SourceLocation = LBIS.L["The Jade Forest"] },
     [76674] = { Name = "Skillful Vermilion Onyx", DesignId = "83941", Source = LBIS.L["Jewelcrafting Supplies"], SourceLocation = LBIS.L["The Jade Forest"] },
     [76680] = { Name = "Glinting Imperial Amethyst", DesignId = "83866", Source = LBIS.L["Jewelcrafting Supplies"], SourceLocation = LBIS.L["The Jade Forest"] },
     [76681] = { Name = "Accurate Imperial Amethyst", DesignId = "83807", Source = LBIS.L["Jewelcrafting Supplies"], SourceLocation = LBIS.L["The Jade Forest"] },
