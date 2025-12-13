@@ -22,7 +22,7 @@ public class EmblemImporter : LootImporter
         "https://www.wowhead.com/mop-classic/npc=64606/commander-oxheart#sells;150",
         "https://www.wowhead.com/mop-classic/npc=64606/commander-oxheart#sells;200",
         "https://www.wowhead.com/mop-classic/npc=64607/commander-lo-ping#sells",
-    };
+    }; //TODO: Import for Phase 3
 
     private List<string> guideUriList = new List<string>()
     {

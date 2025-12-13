@@ -17,7 +17,7 @@ public class PvPImporter : LootImporter
         { @"https://www.wowhead.com/mop-classic/npc=65165/doris-chiltonius#sells;50", new Tuple<string, string>("Malevolent", "Conquest Quartermaster, Kun-Lai Summit") },
         { @"https://www.wowhead.com/mop-classic/npc=65165/doris-chiltonius#sells;100", new Tuple<string, string>("Malevolent", "Conquest Quartermaster, Kun-Lai Summit") },
         { @"https://www.wowhead.com/mop-classic/npc=65165/doris-chiltonius#sells;150", new Tuple<string, string>("Malevolent", "Conquest Quartermaster, Kun-Lai Summit") },
-    };
+    }; //TODO: Import for Phase 3
 
     public PvPImporter(CancellationToken cancellationToken) : base(cancellationToken)
     {
