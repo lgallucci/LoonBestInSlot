@@ -66,7 +66,10 @@ public class WowheadGuideParser
 
     private Dictionary<int, string> _itemSwaps = new Dictionary<int, string>()
     {
-        {0, "0"} //
+        {98048, "89072"}, //
+        {98049, "79331"}, //
+        //{98048, "89072"}, //
+        //{98048, "89072"} //
     };
 
     private Dictionary<int, int> _duplicateItemIds = new Dictionary<int, int>() 
