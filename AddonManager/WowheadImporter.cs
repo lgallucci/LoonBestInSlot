@@ -225,7 +225,52 @@ public static class WowheadImporter
         89269, //leggings-of-the-shadowy-protector
 
         //Tier 15
-
+        95582, //helm-of-the-crackling-protector
+        96625, //helm-of-the-crackling-protector
+        //95881, //helm-of-the-crackling-protector
+        95583, //shoulders-of-the-crackling-protector
+        96701, //shoulders-of-the-crackling-protector
+        //95957, //shoulders-of-the-crackling-protector
+        96568, //chest-of-the-crackling-protector
+        95579, //chest-of-the-crackling-protector
+        //95824, //chest-of-the-crackling-protector
+        96601, //gauntlets-of-the-crackling-protector
+        95580, //gauntlets-of-the-crackling-protector
+        //95857, //gauntlets-of-the-crackling-protector
+        95581, //leggings-of-the-crackling-protector
+        96633, //leggings-of-the-crackling-protector
+        //95889, //leggings-of-the-crackling-protector
+        95571, //helm-of-the-crackling-vanquisher
+        96623, //helm-of-the-crackling-vanquisher
+        //95879, //helm-of-the-crackling-vanquisher
+        95573, //shoulders-of-the-crackling-vanquisher
+        96699, //shoulders-of-the-crackling-vanquisher
+        //95955, //shoulders-of-the-crackling-vanquisher
+        95569, //chest-of-the-crackling-vanquisher
+        96566, //chest-of-the-crackling-vanquisher
+        //95822, //chest-of-the-crackling-vanquisher
+        95570, //gauntlets-of-the-crackling-vanquisher
+        96599, //gauntlets-of-the-crackling-vanquisher
+        //95855, //gauntlets-of-the-crackling-vanquisher
+        96631, //leggings-of-the-crackling-vanquisher
+        95572, //leggings-of-the-crackling-vanquisher
+        //95887, //leggings-of-the-crackling-vanquisher
+        96624, //helm-of-the-crackling-conqueror
+        //95880, //helm-of-the-crackling-conqueror
+        95577, //helm-of-the-crackling-conqueror
+        96700, //shoulders-of-the-crackling-conqueror
+        //95956, //shoulders-of-the-crackling-conqueror
+        95578, //shoulders-of-the-crackling-conqueror
+        96567, //chest-of-the-crackling-conqueror
+        95574, //chest-of-the-crackling-conqueror
+        //95823, //chest-of-the-crackling-conqueror
+        96600, //gauntlets-of-the-crackling-conqueror
+        95575, //gauntlets-of-the-crackling-conqueror
+        //95856, //gauntlets-of-the-crackling-conqueror
+        96632, //leggings-of-the-crackling-conqueror
+        95576, //leggings-of-the-crackling-conqueror
+        //95888, //leggings-of-the-crackling-conqueror
+        
         //Tier 16
     };
 
