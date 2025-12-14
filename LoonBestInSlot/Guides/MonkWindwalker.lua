@@ -7,23 +7,23 @@ local spec5 = LBIS:RegisterSpec(LBIS.L["Monk"], LBIS.L["Windwalker"], "5")
 
 LBIS:AddGem(spec0, "95346", "5", "True") --Capacitive Primal Diamond
 LBIS:AddGem(spec0, "76884", "3", "True") --Agile Primal Diamond
-LBIS:AddGem(spec0, "76641", "3", "False") --Piercing Wild Jade
-LBIS:AddGem(spec0, "76658", "3", "False") --Deadly Vermilion Onyx
-LBIS:AddGem(spec0, "76699", "3", "False") --Quick Sun's Radiance
-LBIS:AddGem(spec0, "76659", "3", "False") --Crafty Vermilion Onyx
-LBIS:AddGem(spec0, "76697", "3", "False") --Smooth Sun's Radiance
-LBIS:AddGem(spec0, "59480", "3", "False") --Fractured Cogwheel
-LBIS:AddGem(spec0, "76667", "3", "False") --Wicked Vermilion Onyx
-LBIS:AddGem(spec0, "59478", "3", "False") --Smooth Cogwheel
-LBIS:AddGem(spec0, "76700", "3", "False") --Fractured Sun's Radiance
-LBIS:AddGem(spec0, "76636", "3", "False") --Rigid River's Heart
-LBIS:AddGem(spec0, "76692", "3", "False") --Delicate Primordial Ruby
-LBIS:AddGem(spec0, "76680", "3", "False") --Glinting Imperial Amethyst
-LBIS:AddGem(spec0, "76666", "3", "False") --Deft Vermilion Onyx
-LBIS:AddGem(spec0, "77543", "3", "False") --Precise Tinker's Gear
-LBIS:AddGem(spec0, "77542", "3", "False") --Quick Tinker's Gear
-LBIS:AddGem(spec0, "76642", "3", "False") --Lightning Wild Jade
 LBIS:AddGem(spec0, "76693", "3", "False") --Precise Primordial Ruby
+LBIS:AddGem(spec0, "76642", "3", "False") --Lightning Wild Jade
+LBIS:AddGem(spec0, "77542", "3", "False") --Quick Tinker's Gear
+LBIS:AddGem(spec0, "77543", "3", "False") --Precise Tinker's Gear
+LBIS:AddGem(spec0, "76666", "3", "False") --Deft Vermilion Onyx
+LBIS:AddGem(spec0, "76680", "3", "False") --Glinting Imperial Amethyst
+LBIS:AddGem(spec0, "76692", "3", "False") --Delicate Primordial Ruby
+LBIS:AddGem(spec0, "76636", "3", "False") --Rigid River's Heart
+LBIS:AddGem(spec0, "76700", "3", "False") --Fractured Sun's Radiance
+LBIS:AddGem(spec0, "59478", "3", "False") --Smooth Cogwheel
+LBIS:AddGem(spec0, "76667", "3", "False") --Wicked Vermilion Onyx
+LBIS:AddGem(spec0, "59480", "3", "False") --Fractured Cogwheel
+LBIS:AddGem(spec0, "76697", "3", "False") --Smooth Sun's Radiance
+LBIS:AddGem(spec0, "76659", "3", "False") --Crafty Vermilion Onyx
+LBIS:AddGem(spec0, "76699", "3", "False") --Quick Sun's Radiance
+LBIS:AddGem(spec0, "76658", "3", "False") --Deadly Vermilion Onyx
+LBIS:AddGem(spec0, "76641", "3", "False") --Piercing Wild Jade
 LBIS:AddGem(spec0, "76670", "3", "False") --Adept Vermilion Onyx
 LBIS:AddGem(spec0, "89873", "0", "False") --Crystallized Dread
 

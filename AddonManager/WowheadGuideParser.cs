@@ -51,12 +51,14 @@ public class WowheadGuideParser
     private Dictionary<int, int> _spellEnchantSwaps = new Dictionary<int, int>()
     {
         { 142175, 104395}, //Enchant Chest - Glorious Stats
-        { 104335, 104395} //Enchant Chest - Glorious Stats
-     };
+        { 104335, 104395}, //Enchant Chest - Glorious Stats
+        { 109085, 109086} //
+    };
+    
     private Dictionary<int, int> _enchantSwaps = new Dictionary<int, int>()
     {
-        {0, 0} //
-     };
+        
+    };
 
     private List<int> _excludeEnchants = new List<int>() 
     {
@@ -287,7 +289,7 @@ public class WowheadGuideParser
         else
             return;
 
-        var item = enchantAnchor.PathName.Replace("/wotlk", "").Replace("/mop-classic/", "/").Replace("/item=", "").Replace("/spell=", "");
+        var item = enchantAnchor.PathName.Replace("/mop-classic/", "/").Replace("/item=", "").Replace("/spell=", "");
         var itemIdIndex = item.IndexOf("/");
         if (itemIdIndex == -1)
             itemIdIndex = item.IndexOf("&");
@@ -310,6 +312,10 @@ public class WowheadGuideParser
             {
                 textureId = itemId.ToString();
                 itemId = _enchantSwaps[itemId];
+            }
+            else
+            {
+                textureId = itemId.ToString();
             }
             if (_spellEnchantSwaps.ContainsKey(itemId))
             {

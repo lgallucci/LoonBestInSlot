@@ -30,7 +30,6 @@ LBIS:AddEnchant(spec3, "82175", LBIS.L["Hands"]) --
 LBIS:AddEnchant(spec3, "122387", LBIS.L["Legs"]) --
 LBIS:AddEnchant(spec3, "104409", LBIS.L["Feet"]) --
 LBIS:AddEnchant(spec3, "109086", LBIS.L["Main Hand"]) --
-LBIS:AddEnchant(spec3, "109085", LBIS.L["Main Hand"]) --
 
 LBIS:AddItem(spec0, "94272", LBIS.L["Head"], "BIS") --Dreadrunner Helm
 LBIS:AddItem(spec0, "81105", LBIS.L["Head"], "Alt") --Swarmcall Helm
