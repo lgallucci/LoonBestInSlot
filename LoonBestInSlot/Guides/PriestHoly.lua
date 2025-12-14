@@ -415,8 +415,8 @@ LBIS:AddItem(spec4, "28763", LBIS.L["Ring"], "Alt") --Jade Ring of the Everlivin
 LBIS:AddItem(spec4, "29376", LBIS.L["Trinket"], "BIS") --Essence of the Martyr
 LBIS:AddItem(spec4, "28823", LBIS.L["Trinket"], "BIS") --Eye of Gruul
 LBIS:AddItem(spec4, "19288", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Blue Dragon
-LBIS:AddItem(spec3, "38288", LBIS.L["Trinket"], "BIS") --Direbrew Hops
-LBIS:AddItem(spec3, "32496", LBIS.L["Trinket"], "BIS") --Memento of Tyrande
+LBIS:AddItem(spec4, "38288", LBIS.L["Trinket"], "BIS") --Direbrew Hops
+LBIS:AddItem(spec4, "32496", LBIS.L["Trinket"], "BIS") --Memento of Tyrande
 LBIS:AddItem(spec4, "30665", LBIS.L["Trinket"], "Alt") --Earring of Soulful Meditation
 LBIS:AddItem(spec4, "35326", LBIS.L["Trinket"], "Alt") --Battlemaster's Alacrity
 LBIS:AddItem(spec4, "32490", LBIS.L["Trinket"], "Alt") --Ashtongue Talisman of Acumen
@@ -519,8 +519,8 @@ LBIS:AddItem(spec5, "29290", LBIS.L["Ring"], "Alt") --Violet Signet of the Grand
 LBIS:AddItem(spec5, "29376", LBIS.L["Trinket"], "BIS") --Essence of the Martyr
 LBIS:AddItem(spec5, "28823", LBIS.L["Trinket"], "BIS") --Eye of Gruul
 LBIS:AddItem(spec5, "19288", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Blue Dragon
-LBIS:AddItem(spec3, "38288", LBIS.L["Trinket"], "BIS") --Direbrew Hops
-LBIS:AddItem(spec3, "32496", LBIS.L["Trinket"], "BIS") --Memento of Tyrande
+LBIS:AddItem(spec5, "38288", LBIS.L["Trinket"], "BIS") --Direbrew Hops
+LBIS:AddItem(spec5, "32496", LBIS.L["Trinket"], "BIS") --Memento of Tyrande
 LBIS:AddItem(spec5, "35750", LBIS.L["Trinket"], "BIS") --Redeemer's Alchemist Stone
 LBIS:AddItem(spec5, "34430", LBIS.L["Trinket"], "Alt") --Glimmering Naaru Sliver
 LBIS:AddItem(spec5, "30665", LBIS.L["Trinket"], "Alt") --Earring of Soulful Meditation

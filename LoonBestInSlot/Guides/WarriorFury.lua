@@ -156,19 +156,19 @@ LBIS:AddItem(spec1, "28034", LBIS.L["Trinket"], "Alt") --Hourglass of the Unrave
 LBIS:AddItem(spec1, "28288", LBIS.L["Trinket"], "Alt") --Abacus of Violent Odds
 LBIS:AddItem(spec1, "21670", LBIS.L["Trinket"], "Alt") --Badge of the Swarmguard
 LBIS:AddItem(spec1, "28438", LBIS.L["Main Hand"], "BIS") --Dragonmaw
-LBIS:AddItem(spec1, "28729", LBIS.L["Main Hand"], "BIS") --Spiteblade
-LBIS:AddItem(spec1, "30733", LBIS.L["Main Hand"], "BIS") --Hope Ender
+LBIS:AddItem(spec1, "28295", LBIS.L["Main Hand~Off Hand"], "BIS") --Gladiator's Slicer
 LBIS:AddItem(spec1, "28437", LBIS.L["Main Hand"], "Alt") --Drakefist Hammer
-LBIS:AddItem(spec1, "28295", LBIS.L["Main Hand"], "Alt") --Gladiator's Slicer
 LBIS:AddItem(spec1, "28657", LBIS.L["Main Hand"], "Alt") --Fool's Bane
-LBIS:AddItem(spec1, "23542", LBIS.L["Main Hand"], "Alt") --Fel Edged Battleaxe
 LBIS:AddItem(spec1, "28767", LBIS.L["Main Hand"], "Alt") --The Decapitator
-LBIS:AddItem(spec1, "29124", LBIS.L["Main Hand"], "Alt") --Vindicator's Brand
 LBIS:AddItem(spec1, "23054", LBIS.L["Main Hand"], "Alt") --Gressil, Dawn of Ruin
 LBIS:AddItem(spec1, "28825", LBIS.L["Off Hand"], "BIS") --Aldori Legacy Defender
 LBIS:AddItem(spec1, "28358", LBIS.L["Off Hand"], "BIS") --Gladiator's Shield Wall
+LBIS:AddItem(spec1, "28729", LBIS.L["Off Hand"], "BIS") --Spiteblade
 LBIS:AddItem(spec1, "28606", LBIS.L["Off Hand"], "BIS") --Shield of Impenetrable Darkness
+LBIS:AddItem(spec1, "30733", LBIS.L["Off Hand"], "BIS") --Hope Ender
 LBIS:AddItem(spec1, "29266", LBIS.L["Off Hand"], "Alt") --Azure-Shield of Coldarra
+LBIS:AddItem(spec1, "23542", LBIS.L["Off Hand"], "Alt") --Fel Edged Battleaxe
+LBIS:AddItem(spec1, "29124", LBIS.L["Off Hand"], "Alt") --Vindicator's Brand
 LBIS:AddItem(spec1, "29176", LBIS.L["Off Hand"], "Alt") --Crest of the Sha'tar
 LBIS:AddItem(spec1, "28316", LBIS.L["Off Hand"], "Alt") --Aegis of the Sunbird
 LBIS:AddItem(spec1, "27887", LBIS.L["Off Hand"], "Alt") --Platinum Shield of the Valorous
