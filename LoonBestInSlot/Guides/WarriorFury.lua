@@ -243,10 +243,10 @@ LBIS:AddItem(spec2, "28034", LBIS.L["Trinket"], "Alt") --Hourglass of the Unrave
 LBIS:AddItem(spec2, "21670", LBIS.L["Trinket"], "Alt") --Badge of the Swarmguard
 LBIS:AddItem(spec2, "28439", LBIS.L["Main Hand"], "BIS") --Dragonstrike
 LBIS:AddItem(spec2, "28438", LBIS.L["Main Hand"], "BIS") --Dragonmaw
-LBIS:AddItem(spec2, "29996", LBIS.L["Main Hand"], "Alt") --Rod of the Sun King
-LBIS:AddItem(spec2, "30082", LBIS.L["Main Hand"], "Alt") --Talon of Azshara
-LBIS:AddItem(spec2, "29924", LBIS.L["Main Hand"], "Alt") --Netherbane
-LBIS:AddItem(spec2, "32052", LBIS.L["Main Hand"], "Alt") --Merciless Gladiator's Slicer
+LBIS:AddItem(spec2, "29996", LBIS.L["Main Hand~Off Hand"], "Alt/BIS") --Rod of the Sun King
+LBIS:AddItem(spec2, "30082", LBIS.L["Main Hand~Off Hand"], "Alt") --Talon of Azshara
+LBIS:AddItem(spec2, "32052", LBIS.L["Main Hand~Off Hand"], "Alt") --Merciless Gladiator's Slicer
+LBIS:AddItem(spec2, "29924", LBIS.L["Off Hand"], "BIS") --Netherbane
 LBIS:AddItem(spec2, "30105", LBIS.L["Ranged/Relic"], "BIS") --Serpent Spine Longbow
 LBIS:AddItem(spec2, "30724", LBIS.L["Ranged/Relic"], "BIS") --Barrel-Blade Longrifle
 LBIS:AddItem(spec2, "28772", LBIS.L["Ranged/Relic"], "BIS") --Sunfury Bow of the Phoenix
