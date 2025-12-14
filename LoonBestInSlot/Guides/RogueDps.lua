@@ -73,17 +73,17 @@ LBIS:AddItem(spec0, "22954", LBIS.L["Trinket"], "Alt") --Kiss of the Spider
 LBIS:AddItem(spec0, "28034", LBIS.L["Trinket"], "Alt") --Hourglass of the Unraveller
 LBIS:AddItem(spec0, "21670", LBIS.L["Trinket"], "Alt") --Badge of the Swarmguard
 LBIS:AddItem(spec0, "32052", LBIS.L["Main Hand"], "BIS") --Merciless Gladiator's Slicer
-LBIS:AddItem(spec0, "32027", LBIS.L["Main Hand"], "BIS") --Merciless Gladiator's Quickblade
-LBIS:AddItem(spec0, "29275", LBIS.L["Main Hand"], "BIS") --Searing Sunblade
 LBIS:AddItem(spec0, "28312", LBIS.L["Main Hand"], "BIS") --Gladiator's Shanker
 LBIS:AddItem(spec0, "28438", LBIS.L["Main Hand"], "Alt") --Dragonmaw
-LBIS:AddItem(spec0, "28307", LBIS.L["Main Hand"], "Alt") --Gladiator's Quickblade
 LBIS:AddItem(spec0, "28295", LBIS.L["Main Hand"], "Alt") --Gladiator's Slicer
-LBIS:AddItem(spec0, "28189", LBIS.L["Main Hand"], "Alt") --Latro's Shifting Sword
 LBIS:AddItem(spec0, "31332", LBIS.L["Main Hand"], "Alt") --Blinkstrike
 LBIS:AddItem(spec0, "29124", LBIS.L["Main Hand"], "Alt") --Vindicator's Brand
-LBIS:AddItem(spec0, "28310", LBIS.L["Main Hand"], "Alt") --Gladiator's Shiv
 LBIS:AddItem(spec0, "31331", LBIS.L["Main Hand"], "Alt") --The Night Blade
+LBIS:AddItem(spec0, "32027", LBIS.L["Off Hand"], "BIS") --Merciless Gladiator's Quickblade
+LBIS:AddItem(spec0, "29275", LBIS.L["Off Hand"], "BIS") --Searing Sunblade
+LBIS:AddItem(spec0, "28307", LBIS.L["Off Hand"], "Alt") --Gladiator's Quickblade
+LBIS:AddItem(spec0, "28189", LBIS.L["Off Hand"], "Alt") --Latro's Shifting Sword
+LBIS:AddItem(spec0, "28310", LBIS.L["Off Hand"], "Alt") --Gladiator's Shiv
 LBIS:AddItem(spec0, "29151", LBIS.L["Ranged/Relic"], "BIS") --Veteran's Musket
 LBIS:AddItem(spec0, "29152", LBIS.L["Ranged/Relic"], "BIS") --Marksman's Bow
 LBIS:AddItem(spec0, "30279", LBIS.L["Ranged/Relic"], "Alt") --Mama's Insurance
