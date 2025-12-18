@@ -81,7 +81,7 @@ LBIS:AddItem(spec0, "95090", LBIS.L["Waist"], "Alt") --Firestrike Cord
 LBIS:AddItem(spec0, "82861", LBIS.L["Waist"], "Alt") --Incineration Belt
 LBIS:AddItem(spec0, "95718", LBIS.L["Waist"], "Alt") --Cord of Cacophonous Cawing
 LBIS:AddItem(spec0, "95327", LBIS.L["Legs"], "BIS") --Leggings of the Thousandfold Hells
-LBIS:AddItem(spec0, "98073", LBIS.L["Legs"], "Alt") --Leggings of the Poisoned Soul
+LBIS:AddItem(spec0, "89088", LBIS.L["Legs"], "Alt") --Leggings of the Poisoned Soul
 LBIS:AddItem(spec0, "90721", LBIS.L["Legs"], "Alt") --Cournith Waterstrider's Silken Finery
 LBIS:AddItem(spec0, "95123", LBIS.L["Legs"], "Alt") --Charfire Leggings
 LBIS:AddItem(spec0, "85371", LBIS.L["Legs"], "Alt") --Sha-Skin Leggings
@@ -166,7 +166,7 @@ LBIS:AddItem(spec1, "86857", LBIS.L["Waist"], "Alt") --Belt of Malleable Amber
 LBIS:AddItem(spec1, "87064", LBIS.L["Waist"], "Alt") --Orbital Belt
 LBIS:AddItem(spec1, "82861", LBIS.L["Waist"], "Alt") --Incineration Belt
 LBIS:AddItem(spec1, "86989", LBIS.L["Legs"], "BIS") --Leggings of Shadow Infestation
-LBIS:AddItem(spec1, "98073", LBIS.L["Legs"], "Alt") --Leggings of the Poisoned Soul
+LBIS:AddItem(spec1, "89088", LBIS.L["Legs"], "Alt") --Leggings of the Poisoned Soul
 LBIS:AddItem(spec1, "86711", LBIS.L["Legs"], "Alt") --Sha-Skin Leggings
 LBIS:AddItem(spec1, "87189", LBIS.L["Legs"], "Alt") --Sha-Skin Leggings
 LBIS:AddItem(spec1, "89088", LBIS.L["Legs"], "Alt") --Leggings of the Poisoned Soul
@@ -241,7 +241,7 @@ LBIS:AddItem(spec2, "93339", LBIS.L["Waist"], "Alt") --Bon-iy's Unbreakable Cord
 LBIS:AddItem(spec2, "86857", LBIS.L["Waist"], "Alt") --Belt of Malleable Amber
 LBIS:AddItem(spec2, "82861", LBIS.L["Waist"], "Alt") --Incineration Belt
 LBIS:AddItem(spec2, "86989", LBIS.L["Legs"], "BIS") --Leggings of Shadow Infestation
-LBIS:AddItem(spec2, "98073", LBIS.L["Legs"], "Alt") --Leggings of the Poisoned Soul
+LBIS:AddItem(spec2, "89088", LBIS.L["Legs"], "Alt") --Leggings of the Poisoned Soul
 LBIS:AddItem(spec2, "86711", LBIS.L["Legs"], "Alt") --Sha-Skin Leggings
 LBIS:AddItem(spec2, "87189", LBIS.L["Legs"], "Alt") --Sha-Skin Leggings
 LBIS:AddItem(spec2, "81106", LBIS.L["Legs"], "Alt") --Leggings of the Frenzy
@@ -332,7 +332,7 @@ LBIS:AddItem(spec3, "95090", LBIS.L["Waist"], "Alt") --Firestrike Cord
 LBIS:AddItem(spec3, "95718", LBIS.L["Waist"], "Alt") --Cord of Cacophonous Cawing
 LBIS:AddItem(spec3, "82861", LBIS.L["Waist"], "Alt") --Incineration Belt
 LBIS:AddItem(spec3, "96556", LBIS.L["Legs"], "BIS") --Legwraps of Cardinality
-LBIS:AddItem(spec3, "98073", LBIS.L["Legs"], "Alt") --Leggings of the Poisoned Soul
+LBIS:AddItem(spec3, "89088", LBIS.L["Legs"], "Alt") --Leggings of the Poisoned Soul
 LBIS:AddItem(spec3, "95123", LBIS.L["Legs"], "Alt") --Charfire Leggings
 LBIS:AddItem(spec3, "95635", LBIS.L["Legs"], "Alt") --Al'set's Tormented Leggings
 LBIS:AddItem(spec3, "81106", LBIS.L["Legs"], "Alt") --Leggings of the Frenzy
