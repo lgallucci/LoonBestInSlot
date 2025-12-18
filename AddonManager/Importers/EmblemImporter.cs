@@ -11,17 +11,7 @@ public class EmblemImporter : LootImporter
 {
     private List<string> wowheadUriList = new List<string>
     {
-        "https://www.wowhead.com/mop-classic/npc=248108/avatar-of-the-august-celestials#sells",
-        "https://www.wowhead.com/mop-classic/npc=248108/avatar-of-the-august-celestials#sells;50",
-        "https://www.wowhead.com/mop-classic/npc=248108/avatar-of-the-august-celestials#sells;100",
-        "https://www.wowhead.com/mop-classic/npc=248108/avatar-of-the-august-celestials#sells;150",
-        "https://www.wowhead.com/mop-classic/npc=248108/avatar-of-the-august-celestials#sells;200",
-        "https://www.wowhead.com/mop-classic/npc=64606/commander-oxheart#sells",
-        "https://www.wowhead.com/mop-classic/npc=64606/commander-oxheart#sells;50",
-        "https://www.wowhead.com/mop-classic/npc=64606/commander-oxheart#sells;100",
-        "https://www.wowhead.com/mop-classic/npc=64606/commander-oxheart#sells;150",
-        "https://www.wowhead.com/mop-classic/npc=64606/commander-oxheart#sells;200",
-        "https://www.wowhead.com/mop-classic/npc=64607/commander-lo-ping#sells",
+
     };
 
     private List<string> guideUriList = new List<string>()
@@ -71,7 +61,7 @@ public class EmblemImporter : LootImporter
                 {
                     Common.RecursiveBoxSearch(row, (anchorObject) => 
                     {
-                        var item = anchorObject.PathName.Replace("/mop-classic/", "/").Replace("/currency=", "").Replace("/item=", "").Replace("/?item=", "");
+                        var item = anchorObject.PathName.Replace("/tbc/", "/").Replace("/currency=", "").Replace("/item=", "").Replace("/?item=", "");
                         var itemName = anchorObject.TextContent.Trim();
                         var itemId = 0;
                         var itemIdIndex = item.IndexOf("/");
@@ -152,7 +142,7 @@ public class EmblemImporter : LootImporter
         var currencyNumber = "";
         Common.RecursiveBoxSearch(currencyCell, (anchorObject) =>
             {
-                var item = anchorObject.PathName.Replace("/mop-classic/", "/").Replace("/currency=", "").Replace("/item=", "").Replace("/?item=", "");
+                var item = anchorObject.PathName.Replace("/tbc/", "/").Replace("/currency=", "").Replace("/item=", "").Replace("/?item=", "");
 
                 var currencyIdIndex = item.IndexOf("/");
                 if (currencyIdIndex == -1)

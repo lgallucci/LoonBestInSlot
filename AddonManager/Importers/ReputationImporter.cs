@@ -8,15 +8,6 @@ public class ReputationImporter : LootImporter
 {
     private Dictionary<string, string> wowheadUriList = new Dictionary<string, string>
     {
-        { @"https://www.wowhead.com/mop-classic/npc=64599/ambersmith-zikk#sells", "The Klaxxi, B" },
-        { @"https://www.wowhead.com/mop-classic/npc=64599/ambersmith-zikk#sells;50", "The Klaxxi, B" },
-        { @"https://www.wowhead.com/mop-classic/npc=64032/sage-whiteheart#sells", "The August Celestials, B" },
-        { @"https://www.wowhead.com/mop-classic/npc=59908/jaluu-the-generous#sells", "The Golden Lotus, B" },
-        { @"https://www.wowhead.com/mop-classic/npc=59908/jaluu-the-generous#sells;50", "The Golden Lotus, B" },
-        { @"https://www.wowhead.com/mop-classic/npc=64595/rushi-the-fox#sells", "Shado-Pan, B" },
-        { @"https://www.wowhead.com/mop-classic/npc=64595/rushi-the-fox#sells;50", "Shado-Pan, B" },
-        { @"https://www.wowhead.com/mop-classic/npc=69059/agent-malley#sells", "Operation: Shieldwall, A" },
-        { @"https://www.wowhead.com/mop-classic/npc=69060/tuskripper-grukna#sells", "Dominance Offensive, H" },
     };
 
     public ReputationImporter(CancellationToken cancellationToken) : base(cancellationToken)

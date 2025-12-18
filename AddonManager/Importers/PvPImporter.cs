@@ -9,14 +9,6 @@ public class PvPImporter : LootImporter
 {
     private Dictionary<string, Tuple<string, string>> wowheadUriList = new Dictionary<string, Tuple<string, string>>
     {
-        { @"https://www.wowhead.com/mop-classic/npc=65164/loknor-bloodfist#sells", new Tuple<string, string>("Dreadful", "Honor Quartermaster, Kun-Lai Summit") },
-        { @"https://www.wowhead.com/mop-classic/npc=65164/loknor-bloodfist#sells;50", new Tuple<string, string>("Dreadful", "Honor Quartermaster, Kun-Lai Summit") },
-        { @"https://www.wowhead.com/mop-classic/npc=65164/loknor-bloodfist#sells;100", new Tuple<string, string>("Dreadful", "Honor Quartermaster, Kun-Lai Summit") },
-        { @"https://www.wowhead.com/mop-classic/npc=65164/loknor-bloodfist#sells;150", new Tuple<string, string>("Dreadful", "Honor Quartermaster, Kun-Lai Summit") },
-        { @"https://www.wowhead.com/mop-classic/npc=65165/doris-chiltonius#sells", new Tuple<string, string>("Malevolent", "Conquest Quartermaster, Kun-Lai Summit") },
-        { @"https://www.wowhead.com/mop-classic/npc=65165/doris-chiltonius#sells;50", new Tuple<string, string>("Malevolent", "Conquest Quartermaster, Kun-Lai Summit") },
-        { @"https://www.wowhead.com/mop-classic/npc=65165/doris-chiltonius#sells;100", new Tuple<string, string>("Malevolent", "Conquest Quartermaster, Kun-Lai Summit") },
-        { @"https://www.wowhead.com/mop-classic/npc=65165/doris-chiltonius#sells;150", new Tuple<string, string>("Malevolent", "Conquest Quartermaster, Kun-Lai Summit") },
     };
 
     public PvPImporter(CancellationToken cancellationToken) : base(cancellationToken)
@@ -48,7 +40,7 @@ public class PvPImporter : LootImporter
 
                 Common.RecursiveBoxSearch(row.Children[10], (anchorObject) =>
                 {
-                    var item = ((IHtmlAnchorElement)anchorObject).PathName.Replace("/mop-classic/", "/").Replace("/currency=", "");
+                    var item = ((IHtmlAnchorElement)anchorObject).PathName.Replace("/tbc/", "/").Replace("/currency=", "");
 
                     var currencyIdIndex = item.IndexOf("/");
                     if (currencyIdIndex == -1)
