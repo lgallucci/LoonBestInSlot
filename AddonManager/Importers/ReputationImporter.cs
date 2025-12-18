@@ -20,6 +20,12 @@ public class ReputationImporter : LootImporter
         { @"https://www.wowhead.com/mop-classic/npc=70346/ao-pye#sells", "Shado-Pan Assault, B" },
         { @"https://www.wowhead.com/mop-classic/npc=70346/ao-pye#sells;50", "Shado-Pan Assault, B" },
         { @"https://www.wowhead.com/mop-classic/npc=70346/ao-pye#sells;100", "Shado-Pan Assault, B" },
+        { @"https://www.wowhead.com/mop-classic/npc=70346/ao-pye#sells;150", "Shado-Pan Assault, B" },
+        { @"https://www.wowhead.com/mop-classic/npc=70346/ao-pye#sells;200", "Shado-Pan Assault, B" },
+        { @"https://www.wowhead.com/mop-classic/npc=70346/ao-pye#sells;250", "Shado-Pan Assault, B" },
+        { @"https://www.wowhead.com/mop-classic/npc=70346/ao-pye#sells;300", "Shado-Pan Assault, B" },
+        { @"https://www.wowhead.com/mop-classic/npc=70346/ao-pye#sells;350", "Shado-Pan Assault, B" },
+        { @"https://www.wowhead.com/mop-classic/npc=70346/ao-pye#sells;400", "Shado-Pan Assault, B" },
         { @"https://www.wowhead.com/mop-classic/npc=68000/hiren-loresong#sells", "Kirin Tor Offensive, A" },
         { @"https://www.wowhead.com/mop-classic/npc=67672/vasarin-redmorn#sells", "Sunreaver Onslaught, H" }
     }; //TODO: Import for Phase 3

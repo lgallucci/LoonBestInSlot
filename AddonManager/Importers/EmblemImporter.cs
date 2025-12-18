@@ -21,8 +21,22 @@ public class EmblemImporter : LootImporter
         "https://www.wowhead.com/mop-classic/npc=64606/commander-oxheart#sells;100",
         "https://www.wowhead.com/mop-classic/npc=64606/commander-oxheart#sells;150",
         "https://www.wowhead.com/mop-classic/npc=64606/commander-oxheart#sells;200",
+        "https://www.wowhead.com/mop-classic/npc=64606/commander-oxheart#sells;250",
+        "https://www.wowhead.com/mop-classic/npc=64606/commander-oxheart#sells;300",
+        "https://www.wowhead.com/mop-classic/npc=64606/commander-oxheart#sells;350",
+        "https://www.wowhead.com/mop-classic/npc=64606/commander-oxheart#sells;400",
         "https://www.wowhead.com/mop-classic/npc=64607/commander-lo-ping#sells",
-    }; //TODO: Import for Phase 3
+        "https://www.wowhead.com/mop-classic/npc=257969/jaelof-ironhart#sells",
+        "https://www.wowhead.com/mop-classic/npc=257969/jaelof-ironhart#sells;50",
+        "https://www.wowhead.com/mop-classic/npc=257969/jaelof-ironhart#sells;100",
+        "https://www.wowhead.com/mop-classic/npc=257969/jaelof-ironhart#sells;150",
+        "https://www.wowhead.com/mop-classic/npc=258121/sendala-the-timeless#sells",
+        "https://www.wowhead.com/mop-classic/npc=258121/sendala-the-timeless#sells;50",
+        "https://www.wowhead.com/mop-classic/npc=258121/sendala-the-timeless#sells;100",
+        "https://www.wowhead.com/mop-classic/npc=258121/sendala-the-timeless#sells;150",
+        "https://www.wowhead.com/mop-classic/npc=258121/sendala-the-timeless#sells;200",
+        "https://www.wowhead.com/mop-classic/npc=258121/sendala-the-timeless#sells;250"
+    };
 
     private List<string> guideUriList = new List<string>()
     {
@@ -36,7 +50,7 @@ public class EmblemImporter : LootImporter
 
     internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, Action<string> writeToLog)
     {
-        //items.Items.Clear();
+        items.Items.Clear();
 
         await ReadFromItemPages(items, writeToLog);
         //await ReadFromGuidePage(items, writeToLog);
@@ -177,6 +191,8 @@ public class EmblemImporter : LootImporter
                             item == "2711" ? "Defiler's Scourgestone" :
                             item == "3148" ? "Fissure Stone Fragment" :
                             item == "3350" ? "August Stone Fragment" :
+                            item == "3407" ? "Platinum Coin" :
+                            item == "3414" ? "August Stone Shard" :
                             item == "3281" ? "Obsidian Fragment" :
                             item == "47242" ? "Trophy" :
                             item == "52025" ? "Vanquisher's Mark" :
@@ -201,6 +217,8 @@ public class EmblemImporter : LootImporter
                 }
                 return success;
             });
+        if (currencySource == "")
+            currencySource = "unknown";
 
         return (currencySource, currencyNumber);
     }

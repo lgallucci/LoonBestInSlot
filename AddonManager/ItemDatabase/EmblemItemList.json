@@ -1,5 +1,13 @@
 {
   "Items": {
+    "54212": {
+      "Name": "Instant Statue Pedestal",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "15",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
     "86739": {
       "Name": "Beads of the Mogu'shi",
       "Source": "August Stone Fragment",
@@ -200,6 +208,14 @@
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
+    "86764": {
+      "Name": "Eye of the Ancient Spirit",
+      "Source": "August Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "15",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
     "86765": {
       "Name": "Sandals of the Severed Soul",
       "Source": "August Stone Fragment",
@@ -301,6 +317,14 @@
       "Source": "August Stone Fragment",
       "SourceType": "Dungeon Token",
       "SourceNumber": "40",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "86778": {
+      "Name": "Steelskin, Qiang's Impervious Shield",
+      "Source": "August Stone Fragment",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "15",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
@@ -444,7 +468,7 @@
       "Name": "Torch of the Celestial Spark",
       "Source": "August Stone Fragment",
       "SourceType": "Dungeon Token",
-      "SourceNumber": "40",
+      "SourceNumber": "25",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
@@ -1376,6 +1400,22 @@
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
+    "87208": {
+      "Name": "Sigil of Power",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "87209": {
+      "Name": "Sigil of Wisdom",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
     "87823": {
       "Name": "Zor'lok's Fizzing Chestguard",
       "Source": "August Stone Fragment",
@@ -1389,6 +1429,38 @@
       "Source": "August Stone Fragment",
       "SourceType": "Dungeon Token",
       "SourceNumber": "25",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "88995": {
+      "Name": "Shado-Pan Dragon Gun",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1750",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "89112": {
+      "Name": "Mote of Harmony",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "600",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "89154": {
+      "Name": "Reins of the Crimson Pandaren Phoenix",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "89232": {
+      "Name": "Mogu Rune of Paralysis",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1750",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
@@ -1517,6 +1589,382 @@
       "Source": "August Stone Fragment",
       "SourceType": "Dungeon Token",
       "SourceNumber": "15",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "89522": {
+      "Name": "Mark of the Dancing Crane",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1250",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "89523": {
+      "Name": "Etched Golden Loop",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1250",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "89524": {
+      "Name": "Sorcerer-King's Seal",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1250",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "89525": {
+      "Name": "Thunderstone Ring",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1250",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "89526": {
+      "Name": "Signet of the Slumbering Emperor",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1250",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "89527": {
+      "Name": "Amulet of Swirling Mists",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1250",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "89528": {
+      "Name": "Necklace of Jade Pearls",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1250",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "89529": {
+      "Name": "Pendant of Endless Inquisition",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1250",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "89530": {
+      "Name": "Triumphant Conqueror's Chain",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1250",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "89531": {
+      "Name": "Gorget of Usurped Kings",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1250",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "89532": {
+      "Name": "Bladesong Cloak",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1250",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "89533": {
+      "Name": "Cloak of Ancient Curses",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1250",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "89534": {
+      "Name": "Pressed Flower Cloak",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1250",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "89535": {
+      "Name": "Ribcracker's Cloak",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1250",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "89537": {
+      "Name": "Cloak of the Silent Mountain",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1250",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "89642": {
+      "Name": "Bracers of Eternal Resolve",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1250",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "89643": {
+      "Name": "Tranquility Bindings",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1250",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "89644": {
+      "Name": "Sudden Insight Bracers",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1250",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "89645": {
+      "Name": "Cruel Mercy Bracers",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1250",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "89646": {
+      "Name": "Runoff Wristguards",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1250",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "89647": {
+      "Name": "Entombed Traitor's Wristguards",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1250",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "89648": {
+      "Name": "Bracers of Inner Light",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1250",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "89649": {
+      "Name": "Serrated Forearm Guards",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1250",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "89650": {
+      "Name": "Emperor's Riding Gloves",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1750",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "89651": {
+      "Name": "Krompf's Fine-Tuning Gloves",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1750",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "89652": {
+      "Name": "Wandering Friar's Gloves",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1750",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "89653": {
+      "Name": "Surehand Grips",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1750",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "89654": {
+      "Name": "Gloves of Forgotten Wisdom",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1750",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "89655": {
+      "Name": "Brushcutter's Gloves",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1750",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "89656": {
+      "Name": "Gauntlets of Restraint",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1750",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "89657": {
+      "Name": "Wall Breaker Gauntlets",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "1750",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "89658": {
+      "Name": "Subversive Leggings",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2250",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "89659": {
+      "Name": "Leggings of Unfinished Conquest",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2250",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "89660": {
+      "Name": "Brambleguard Leggings",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2250",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "89661": {
+      "Name": "Tough Mushanhide Leggings",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2250",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "89662": {
+      "Name": "Snowpack Waders",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2250",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "89663": {
+      "Name": "Leggings of Twisted Vines",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2250",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "89664": {
+      "Name": "Valiant's Shinguards",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2250",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "89665": {
+      "Name": "Leggings of Ponderous Advance",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2250",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "89666": {
+      "Name": "Vestment of the Ascendant Tribe",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2250",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "89667": {
+      "Name": "Refurbished Zandalari Vestment",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2250",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "89668": {
+      "Name": "Mountain Stream Ringmail",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2250",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "89669": {
+      "Name": "Undergrowth Stalker Chestpiece",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2250",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "89670": {
+      "Name": "Inner Serenity Chestplate",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2250",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "89671": {
+      "Name": "Chestplate of the Stone Lion",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2250",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "89672": {
+      "Name": "Robe of Quiet Meditation",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2250",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "89673": {
+      "Name": "Robe of Eternal Dynasty",
+      "Source": "Justice Points",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "2250",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
@@ -1800,6 +2248,30 @@
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
+    "90710": {
+      "Name": "Reins of the Ashen Pandaren Phoenix",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "90711": {
+      "Name": "Reins of the Emerald Pandaren Phoenix",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "90712": {
+      "Name": "Reins of the Violet Pandaren Phoenix",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
     "90739": {
       "Name": "Kaz'tik's Stormseizer Gauntlets",
       "Source": "August Stone Fragment",
@@ -1808,11 +2280,2083 @@
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
+    "94593": {
+      "Name": "Secrets of the Empire",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "10",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95624": {
+      "Name": "Sign of the Bloodied God",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95625": {
+      "Name": "Renataki's Soul Charm",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95626": {
+      "Name": "Lightning-Eye Hood",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95627": {
+      "Name": "Spearman's Jingling Leggings",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95628": {
+      "Name": "Static-Shot Shoulderguards",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95629": {
+      "Name": "Cloudbreaker Greatbelt",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95630": {
+      "Name": "Chestplate of Violent Detonation",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95631": {
+      "Name": "Bracers of Constant Implosion",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95632": {
+      "Name": "Worldbreaker's Stormscythe",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95633": {
+      "Name": "Jin'rokh's Soulcrystal",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95634": {
+      "Name": "Lightningweaver Gauntlets",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95635": {
+      "Name": "Al'set's Tormented Leggings",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95636": {
+      "Name": "Fissure-Split Shoulderwraps",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95637": {
+      "Name": "Robes of Static Bursts",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95638": {
+      "Name": "Jin'rokh's Dreamshard",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95639": {
+      "Name": "Drape of Booming Nights",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95640": {
+      "Name": "Soulblade of the Breaking Storm",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95641": {
+      "Name": "Horridon's Last Gasp",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95642": {
+      "Name": "Infinitely Conducting Bracers",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95643": {
+      "Name": "Ghostbinder Greatboots",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95644": {
+      "Name": "Ionized Yojamban Carapace",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95645": {
+      "Name": "Wastewalker's Sandblasted Drape",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95646": {
+      "Name": "Talisman of Living Poison",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95647": {
+      "Name": "Jalak's Maelstrom Staff",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95648": {
+      "Name": "Bindings of Multiplicative Strikes",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95649": {
+      "Name": "Sul'lithuz Sandmail",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95650": {
+      "Name": "Frozen Warlord's Bracers",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95651": {
+      "Name": "Bloodlord's Bloodsoaked Legplates",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95652": {
+      "Name": "Puncture-Proof Greathelm",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95653": {
+      "Name": "Horn-Rimmed Doomcloak",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95654": {
+      "Name": "Spark of Zandalar",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95655": {
+      "Name": "Flamecaster's Burning Crown",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95656": {
+      "Name": "Vaccinator's Armwraps",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95657": {
+      "Name": "Dinomancer's Spiritbinding Spire",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95658": {
+      "Name": "Horridon's Tusk Fragment",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95659": {
+      "Name": "Petrified Eye of the Basilisk",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95660": {
+      "Name": "Venomlord's Totemic Wand",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95661": {
+      "Name": "Roots of Rampaging Earth",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95662": {
+      "Name": "Spaulders of Dinomancy",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95663": {
+      "Name": "Legguards of Scintillating Scales",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95664": {
+      "Name": "Armplates of the Vanquished Abomination",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95665": {
+      "Name": "Bad Juju",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95666": {
+      "Name": "Kura-Kura, Kazra'jin's Skullcleaver",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95667": {
+      "Name": "Mar'li's Bloodstained Sandals",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95668": {
+      "Name": "Zandalari Robes of the Final Rite",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95669": {
+      "Name": "Wushoolay's Final Choice",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95670": {
+      "Name": "Amun-Thoth, Sul's Spiritrending Talons",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95671": {
+      "Name": "Robes of Treacherous Ground",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95672": {
+      "Name": "Gaze of Gara'jal",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95673": {
+      "Name": "Loa-Ridden Bracers",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95674": {
+      "Name": "Overloaded Bladebreaker Cuirass",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95675": {
+      "Name": "Zerat, Malakk's Soulburning Greatsword",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95676": {
+      "Name": "Talisman of Angry Spirits",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95677": {
+      "Name": "Fortitude of the Zandalari",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95678": {
+      "Name": "Shattered Tortoiseshell Longbow",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95679": {
+      "Name": "Rockfall Ribwraps",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95680": {
+      "Name": "Grips of Vampiric Cruelty",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95681": {
+      "Name": "Beady-Eye Bracers",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95682": {
+      "Name": "Quakestompers",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95683": {
+      "Name": "Shoulderguards of Centripetal Destruction",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95684": {
+      "Name": "Shell-Coated Wristplates",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95685": {
+      "Name": "Amulet of the Primal Turtle",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95686": {
+      "Name": "Shellsplitter Greataxe",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95687": {
+      "Name": "Beakbreaker Greatcloak",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95688": {
+      "Name": "Azure Shell Bracers",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95689": {
+      "Name": "Stonegaze Hood",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95690": {
+      "Name": "Crystal-Claw Gloves",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95691": {
+      "Name": "Shimmershell Cape",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95692": {
+      "Name": "Tortos' Discarded Shell",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "20",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95693": {
+      "Name": "Vampire Bat-Hide Bracers",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95694": {
+      "Name": "Robes of Concussive Shocks",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95695": {
+      "Name": "Spaulders of Quaking Fear",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95696": {
+      "Name": "Refreshing Abalone Girdle",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95697": {
+      "Name": "Tortos' Shellseizers",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95698": {
+      "Name": "Megaera's Poisoned Fang",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95699": {
+      "Name": "Quadra-Head Brooch",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95700": {
+      "Name": "Poisonblood Bladeshoulders",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95701": {
+      "Name": "Grips of Cinderflesh",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95702": {
+      "Name": "Plated Toothbreaker Girdle",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95703": {
+      "Name": "Rot-Proof Greatplate",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95704": {
+      "Name": "Spinescale Seal",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95705": {
+      "Name": "Hydraskull Choker",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95706": {
+      "Name": "Sandals of Arcane Fury",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95707": {
+      "Name": "Gleaming-Eye Shoulderpads",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95708": {
+      "Name": "Frostborn Wristwraps",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95709": {
+      "Name": "Megaera's Shining Eye",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95710": {
+      "Name": "Fetish of the Hydra",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "20",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95711": {
+      "Name": "Breath of the Hydra",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95712": {
+      "Name": "Inscribed Bag of Hydra-Spawn",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95713": {
+      "Name": "Hood of Smoldering Flesh",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95714": {
+      "Name": "Links of the Bifurcated Tongue",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95715": {
+      "Name": "Chain of Consuming Magic",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95716": {
+      "Name": "Ice-Scored Treads",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95717": {
+      "Name": "Pinionfeather Greatcloak",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95718": {
+      "Name": "Cord of Cacophonous Cawing",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95719": {
+      "Name": "Robe of Midnight Down",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95720": {
+      "Name": "Giorgio's Caduceus of Pure Moods",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95721": {
+      "Name": "Featherflight Belt",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95722": {
+      "Name": "Grasp of the Ruthless Mother",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95723": {
+      "Name": "Crown of Potentiated Birth",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95724": {
+      "Name": "Talonrender Chestplate",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95725": {
+      "Name": "Egg-Shard Grips",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95726": {
+      "Name": "Fabled Feather of Ji-Kun",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95727": {
+      "Name": "Ji-Kun's Rising Winds",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95728": {
+      "Name": "Durumu's Baleful Gaze",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95729": {
+      "Name": "Crimson Bloom Legguards",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95730": {
+      "Name": "Links of the Disintegrator",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95731": {
+      "Name": "Aberrant Chestguard of Torment",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95732": {
+      "Name": "Caustic Spike Bracers",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95733": {
+      "Name": "Legplates of the Dark Parasite",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95734": {
+      "Name": "Treads of the Blind Eye",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95735": {
+      "Name": "Artery Rippers",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95736": {
+      "Name": "Reinforced Mirror-Sheen Cloak",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95737": {
+      "Name": "Durumu's Severed Tentacle",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95738": {
+      "Name": "Lifedrainer's Sordid Grip",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95739": {
+      "Name": "Leggings of Pulsing Blood",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95740": {
+      "Name": "Chilblain Spaulders",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95741": {
+      "Name": "Deadly Glare Cape",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95742": {
+      "Name": "Durumu's Captive Eyeball",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95743": {
+      "Name": "Ritual Dagger of the Mind's Eye",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95744": {
+      "Name": "Sandals of the Starving Eye",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95745": {
+      "Name": "Vein-Cover Bracers",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95746": {
+      "Name": "Iceshatter Gauntlets",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95747": {
+      "Name": "Legplates of Re-Emergence",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95748": {
+      "Name": "Talisman of Bloodlust",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95749": {
+      "Name": "Gloves of Cushioned Air",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95750": {
+      "Name": "Bracers of Mutagenic Fervor",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95751": {
+      "Name": "Synapse-String Handguards",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95752": {
+      "Name": "Pathogenic Gauntlets",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95753": {
+      "Name": "Black Blood Legplates",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95754": {
+      "Name": "Metabolically Boosted Shoulderplates",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95755": {
+      "Name": "Hydra-Scale Bloodcloak",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95756": {
+      "Name": "Band of the Scaled Tyrant",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95757": {
+      "Name": "Primordius' Talisman of Rage",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95758": {
+      "Name": "Acid-Spine Bonemace",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95759": {
+      "Name": "Robes of Mutagenic Blood",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95760": {
+      "Name": "Helix-Breaker Gloves",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95761": {
+      "Name": "Leggings of Ebon Veins",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95762": {
+      "Name": "Bracers of Fragile Bone",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95763": {
+      "Name": "Stolen Relic of Zuldazar",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95764": {
+      "Name": "Leggings of the Malformed Sapling",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95765": {
+      "Name": "Clear-Mind Helm",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95766": {
+      "Name": "Bonemender Bracers",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95767": {
+      "Name": "Spaulders of Primordial Growth",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95768": {
+      "Name": "Greatshield of the Gloaming",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "20",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95769": {
+      "Name": "Gore-Soaked Gear",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95770": {
+      "Name": "Hand of the Dark Animus",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95771": {
+      "Name": "Hood of the Crimson Wake",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95772": {
+      "Name": "Cha-Ye's Essence of Brilliance",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95773": {
+      "Name": "Constantly Accelerating Cloak",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95774": {
+      "Name": "Athame of the Sanguine Ritual",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95775": {
+      "Name": "Worldbinder Leggings",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95776": {
+      "Name": "Anima-Ringed Fingers",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95777": {
+      "Name": "Matter-Swapped Legplates",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95778": {
+      "Name": "Crown of the Golden Golem",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95779": {
+      "Name": "Delicate Vial of the Sanguinaire",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95780": {
+      "Name": "Iron Qon's Boot Knife",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95781": {
+      "Name": "Voice of the Quilen",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95782": {
+      "Name": "Quet'zal's Crackling Cord",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95783": {
+      "Name": "Saddle-Scarred Leggings",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95784": {
+      "Name": "Dam'ren's Frozen Footguards",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95785": {
+      "Name": "Ro'shak's Remembrance",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95786": {
+      "Name": "Orb of Arcing Lightning",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "20",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95787": {
+      "Name": "Spurs of the Storm Cavalry",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95788": {
+      "Name": "Ro'shak's Molten Chain",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95789": {
+      "Name": "Rein-Binder's Fists",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95790": {
+      "Name": "Qon's Flaming Scimitar",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95791": {
+      "Name": "Wu-Lai, Bladed Fan of the Empyreans",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95792": {
+      "Name": "Robes of the Moon Lotus",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95793": {
+      "Name": "Passionfire Choker",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95794": {
+      "Name": "Shield of Twinned Despair",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "20",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95795": {
+      "Name": "Suen-Wo, Spire of the Falling Sun",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95796": {
+      "Name": "Bracers of the Midnight Comet",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95797": {
+      "Name": "Girdle of Night and Day",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95798": {
+      "Name": "Tidal Force Treads",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95799": {
+      "Name": "Gaze of the Twins",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95800": {
+      "Name": "Moonjade Necklace",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95801": {
+      "Name": "Fingers of the Night",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95802": {
+      "Name": "Rune of Re-Origination",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95803": {
+      "Name": "Shan-Dun, Breaker of Hope",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95804": {
+      "Name": "Fusion Slasher Chestguard",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95805": {
+      "Name": "Conduit-Breaker Chain Leggings",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95806": {
+      "Name": "Doomed Crown of Lei Shen",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95807": {
+      "Name": "Legplates of the Lightning Throne",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95808": {
+      "Name": "Legplates of Whipping Ionization",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95809": {
+      "Name": "Uroe, Harbinger of Terror",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95810": {
+      "Name": "Ultimate Protection of the Emperor",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "20",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95811": {
+      "Name": "Soul Barrier",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95812": {
+      "Name": "Legwraps of Cardinality",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95813": {
+      "Name": "Gloves of the Maimed Vizier",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95814": {
+      "Name": "Unerring Vision of Lei Shen",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95815": {
+      "Name": "Torall, Rod of the Shattered Throne",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95816": {
+      "Name": "Soul Prism of Lei Shen",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95817": {
+      "Name": "Lightning-Imbued Chalice",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95818": {
+      "Name": "Lei Shen's Orb of Command",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "20",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95819": {
+      "Name": "Grips of Slicing Electricity",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95820": {
+      "Name": "Leggings of the Violent Gale",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95821": {
+      "Name": "Lei Shen's Grounded Carapace",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95822": {
+      "Name": "Chest of the Crackling Vanquisher",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "55",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95823": {
+      "Name": "Chest of the Crackling Conqueror",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "55",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95824": {
+      "Name": "Chest of the Crackling Protector",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "55",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95855": {
+      "Name": "Gauntlets of the Crackling Vanquisher",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95856": {
+      "Name": "Gauntlets of the Crackling Conqueror",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95857": {
+      "Name": "Gauntlets of the Crackling Protector",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95858": {
+      "Name": "Invocation of the Dawn",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95859": {
+      "Name": "Miracoran, the Vehement Chord",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95860": {
+      "Name": "Fyn's Flickering Dagger",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95861": {
+      "Name": "Zeeg's Ancient Kegsmasher",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95862": {
+      "Name": "Darkwood Spiritstaff",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95863": {
+      "Name": "Lost Shoulders of Fire",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95864": {
+      "Name": "Lost Shoulders of Healing",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95865": {
+      "Name": "Lost Shoulders of Fluidity",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95866": {
+      "Name": "Nadagast's Exsanguinator",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95867": {
+      "Name": "Jerthud, Graceful Hand of the Savior",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95868": {
+      "Name": "Forgotten Mantle of the Moon",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95869": {
+      "Name": "Forgotten Mantle of the Sun",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95870": {
+      "Name": "Abandoned Spaulders of Arrowflight",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95871": {
+      "Name": "Abandoned Spaulders of Renewal",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95872": {
+      "Name": "Reconstructed Holy Shoulderplates",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95873": {
+      "Name": "Reconstructed Furious Shoulderplates",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95874": {
+      "Name": "Reconstructed Bloody Shoulderplates",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95875": {
+      "Name": "Greatsword of Frozen Hells",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95876": {
+      "Name": "Do-tharak, the Swordbreaker",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95877": {
+      "Name": "Bo-Ris, Horror in the Night",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95878": {
+      "Name": "Visage of the Doomed",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "20",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95879": {
+      "Name": "Helm of the Crackling Vanquisher",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95880": {
+      "Name": "Helm of the Crackling Conqueror",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95881": {
+      "Name": "Helm of the Crackling Protector",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95887": {
+      "Name": "Leggings of the Crackling Vanquisher",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "55",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95888": {
+      "Name": "Leggings of the Crackling Conqueror",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "55",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95889": {
+      "Name": "Leggings of the Crackling Protector",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "55",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95955": {
+      "Name": "Shoulders of the Crackling Vanquisher",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95956": {
+      "Name": "Shoulders of the Crackling Conqueror",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95957": {
+      "Name": "Shoulders of the Crackling Protector",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95958": {
+      "Name": "Necklace of the Terra-Cotta Archer",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95959": {
+      "Name": "Spiderweb Tabi",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95960": {
+      "Name": "Scalehide Spurs",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95961": {
+      "Name": "Abandoned Zandalari Firecord",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95962": {
+      "Name": "Abandoned Zandalari Shadowgirdle",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95963": {
+      "Name": "Silentflame Sandals",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95964": {
+      "Name": "Necklace of the Terra-Cotta Invoker",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95965": {
+      "Name": "Home-Warding Slippers",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95966": {
+      "Name": "Deeproot Treads",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95967": {
+      "Name": "Spiritbound Boots",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95968": {
+      "Name": "Vaultwalker Sabatons",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95969": {
+      "Name": "Necklace of the Terra-Cotta Mender",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95970": {
+      "Name": "Abandoned Zandalari Silentbelt",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95971": {
+      "Name": "Abandoned Zandalari Moonstrap",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95972": {
+      "Name": "Abandoned Zandalari Arrowlinks",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95973": {
+      "Name": "Abandoned Zandalari Waterchain",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95974": {
+      "Name": "Abandoned Zandalari Greatbelt",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95975": {
+      "Name": "Abandoned Zandalari Goreplate",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95976": {
+      "Name": "Abandoned Zandalari Bucklebreaker",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95977": {
+      "Name": "Necklace of the Terra-Cotta Vanquisher",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95978": {
+      "Name": "Locksmasher Greaves",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95979": {
+      "Name": "Columnbreaker Stompers",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "95980": {
+      "Name": "Necklace of the Terra-Cotta Protector",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "97129": {
+      "Name": "Tia-Tia, the Scything Star",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
     "247796": {
       "Name": "Commendation of Service",
-      "Source": "August Stone Fragment",
+      "Source": "August Stone Shard",
       "SourceType": "Dungeon Token",
-      "SourceNumber": "1",
+      "SourceNumber": "5",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
@@ -1828,7 +4372,1495 @@
       "Name": "Satchel of Celestial Chance",
       "Source": "August Stone Fragment",
       "SourceType": "Dungeon Token",
+      "SourceNumber": "10",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265142": {
+      "Name": "Crimson Girdle of the Lich Lord",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265143": {
+      "Name": "Crimson Treads of the Lich Lord",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265144": {
+      "Name": "Crimson Chestguard of the Lich Lord",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265145": {
+      "Name": "Crimson Grasps of the Lich Lord",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265146": {
+      "Name": "Crimson Crown of the Lich Lord",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265147": {
+      "Name": "Crimson Legplates of the Lich Lord",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265148": {
+      "Name": "Crimson Shoulderguards of the Lich Lord",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265149": {
+      "Name": "Crimson Bracers of the Lich Lord",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265150": {
+      "Name": "Crimson Waistguard of the Cycle",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265151": {
+      "Name": "Crimson Sandals of the Cycle",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265152": {
+      "Name": "Crimson Gloves of the Cycle",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265153": {
+      "Name": "Crimson Hood of the Cycle",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265154": {
+      "Name": "Crimson Leggings of the Cycle",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265155": {
+      "Name": "Crimson Robes of the Cycle",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265156": {
+      "Name": "Crimson Branches of the Cycle",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265157": {
+      "Name": "Crimson Bracers of the Cycle",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265158": {
+      "Name": "Obsidian Cinch of the Howling Beast",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265159": {
+      "Name": "Obsidian Boots of the Howling Beast",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265160": {
+      "Name": "Obsidian Chestguard of the Howling Beast",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265161": {
+      "Name": "Obsidian Grips of the Howling Beast",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265162": {
+      "Name": "Obsidian Helm of the Howling Beast",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265163": {
+      "Name": "Obsidian Legguards of the Howling Beast",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265164": {
+      "Name": "Obsidian Shoulderguards of the Howling Beast",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265165": {
+      "Name": "Obsidian Wristwraps of the Howling Beast",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265166": {
+      "Name": "Obsidian Robes of the Light",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265167": {
+      "Name": "Obsidian Leggings of the Light",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265168": {
+      "Name": "Obsidian Cowl of the Light",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265169": {
+      "Name": "Obsidian Hands of the Light",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265170": {
+      "Name": "Obsidian Steps of the Light",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265171": {
+      "Name": "Obsidian Cord of the Light",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265172": {
+      "Name": "Obsidian Pauldrons of the Light",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265173": {
+      "Name": "Obsidian Bracers of the Light",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265174": {
+      "Name": "Obsidian Robes of the Elemental Triad",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265175": {
+      "Name": "Obsidian Girdle of the Elemental Triad",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265176": {
+      "Name": "Obsidian Boots of the Elemental Triad",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265177": {
+      "Name": "Obsidian Gloves of the Elemental Triad",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265178": {
+      "Name": "Obsidian Hood of the Elemental Triad",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265179": {
+      "Name": "Obsidian Leggings of the Elemental Triad",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265180": {
+      "Name": "Obsidian Spaulders of the Elemental Triad",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265181": {
+      "Name": "Obsidian Bracers of the Elemental Triad",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265182": {
+      "Name": "Azure Chestwrap of the Regal Lord",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265183": {
+      "Name": "Azure Greatbelt of the Regal Lord",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265184": {
+      "Name": "Azure Treads of the Regal Lord",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265185": {
+      "Name": "Azure Handwraps of the Regal Lord",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265186": {
+      "Name": "Azure Crown of the Regal Lord",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265187": {
+      "Name": "Azure Legwraps of the Regal Lord",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265188": {
+      "Name": "Azure Shoulderguards of the Regal Lord",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265189": {
+      "Name": "Azure Bracers of the Regal Lord",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265190": {
+      "Name": "Crimson Chestplate of the Holy Warrior",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265191": {
+      "Name": "Crimson Greatboots of the Holy Warrior",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265192": {
+      "Name": "Crimson Gauntlets of the Holy Warrior",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265193": {
+      "Name": "Crimson Greathelm of the Holy Warrior",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265194": {
+      "Name": "Crimson Legplates of the Holy Warrior",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265195": {
+      "Name": "Crimson Girdle of the Holy Warrior",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265196": {
+      "Name": "Crimson Shoulderplate of the Holy Warrior",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265197": {
+      "Name": "Crimson Wristguards of the Holy Warrior",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265198": {
+      "Name": "Obsidian Shadowwrap of the Silent Assassin",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265199": {
+      "Name": "Obsidian Girdle of the Silent Assassin",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265200": {
+      "Name": "Obsidian Tabi of the Silent Assassin",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265201": {
+      "Name": "Obsidian Gloves of the Silent Assassin",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265202": {
+      "Name": "Obsidian Hood of the Silent Assassin",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265203": {
+      "Name": "Obsidian Leggings of the Silent Assassin",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265204": {
+      "Name": "Obsidian Spaulders of the Silent Assassin",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265205": {
+      "Name": "Obsidian Bracers of the Silent Assassin",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265206": {
+      "Name": "Azure Windfury Harness",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265207": {
+      "Name": "Azure Windfury Belt",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265208": {
+      "Name": "Azure Windfury Sandals",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265209": {
+      "Name": "Azure Windfury Crushers",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265210": {
+      "Name": "Azure Windfury Mask",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265211": {
+      "Name": "Azure Windfury Legguards",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265212": {
+      "Name": "Azure Windfury Spirit Guides",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265213": {
+      "Name": "Azure Windfury Bracers",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265214": {
+      "Name": "Crimson Robes of the Betrayer",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265215": {
+      "Name": "Crimson Belt of the Betrayer",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265216": {
+      "Name": "Crimson Boots of the Betrayer",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265217": {
+      "Name": "Crimson Handguards of the Betrayer",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265218": {
+      "Name": "Crimson Horns of the Betrayer",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265219": {
+      "Name": "Crimson Leggings of the Betrayer",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265220": {
+      "Name": "Crimson Amice of the Betrayer",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265221": {
+      "Name": "Crimson Bracers of the Betrayer",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265222": {
+      "Name": "Crimson Girdle of the Golden King",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265223": {
+      "Name": "Crimson Greatboots of the Golden King",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265224": {
+      "Name": "Crimson Chestplate of the Golden King",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265225": {
+      "Name": "Crimson Reach of the Golden King",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265226": {
+      "Name": "Crimson Crown of the Golden King",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265227": {
+      "Name": "Crimson Greaves of the Golden King",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265228": {
+      "Name": "Crimson Mantle of the Golden King",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265229": {
+      "Name": "Crimson Bracers of the Golden King",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265231": {
+      "Name": "Emerald Girdle of the Lich Lord",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265232": {
+      "Name": "Emerald Treads of the Lich Lord",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265234": {
+      "Name": "Emerald Chestguard of the Lich Lord",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265235": {
+      "Name": "Emerald Grasps of the Lich Lord",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265236": {
+      "Name": "Emerald Crown of the Lich Lord",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265237": {
+      "Name": "Emerald Legplates of the Lich Lord",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265238": {
+      "Name": "Emerald Shoulderguards of the Lich Lord",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265239": {
+      "Name": "Emerald Bracers of the Lich Lord",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265240": {
+      "Name": "Azure Waistguard of the Cycle",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265242": {
+      "Name": "Azure Sandals of the Cycle",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265243": {
+      "Name": "Azure Gloves of the Cycle",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265244": {
+      "Name": "Azure Hood of the Cycle",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265245": {
+      "Name": "Azure Leggings of the Cycle",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265246": {
+      "Name": "Azure Robes of the Cycle",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265247": {
+      "Name": "Azure Branches of the Cycle",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265248": {
+      "Name": "Azure Bracers of the Cycle",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265249": {
+      "Name": "Ivory Cinch of the Howling Beast",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265250": {
+      "Name": "Ivory Boots of the Howling Beast",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265251": {
+      "Name": "Ivory Chestguard of the Howling Beast",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265252": {
+      "Name": "Ivory Grips of the Howling Beast",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265253": {
+      "Name": "Ivory Helm of the Howling Beast",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265254": {
+      "Name": "Ivory Wristwraps of the Howling Beast",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265255": {
+      "Name": "Ivory Legguards of the Howling Beast",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265256": {
+      "Name": "Ivory Shoulderguards of the Howling Beast",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265258": {
+      "Name": "Emerald Greatbelt of the Regal Lord",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265260": {
+      "Name": "Emerald Treads of the Regal Lord",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265261": {
+      "Name": "Emerald Chestwrap of the Regal Lord",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265262": {
+      "Name": "Emerald Handwraps of the Regal Lord",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265263": {
+      "Name": "Emerald Crown of the Regal Lord",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265264": {
+      "Name": "Emerald Legwraps of the Regal Lord",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265265": {
+      "Name": "Emerald Shoulderguards of the Regal Lord",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265266": {
+      "Name": "Emerald Bracers of the Regal Lord",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265267": {
+      "Name": "Golden Cord of the Light",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265268": {
+      "Name": "Golden Steps of the Light",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265269": {
+      "Name": "Golden Hands of the Light",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265270": {
+      "Name": "Golden Cowl of the Light",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265271": {
+      "Name": "Golden Leggings of the Light",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265272": {
+      "Name": "Golden Robes of the Light",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265273": {
+      "Name": "Golden Pauldrons of the Light",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265274": {
+      "Name": "Golden Bracers of the Light",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265276": {
+      "Name": "Platinum Girdle of the Silent Assassin",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265278": {
+      "Name": "Platinum Tabi of the Silent Assassin",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265279": {
+      "Name": "Platinum Gloves of the Silent Assassin",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265280": {
+      "Name": "Platinum Shadowwrap of the Silent Assassin",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265281": {
+      "Name": "Platinum Hood of the Silent Assassin",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265282": {
+      "Name": "Platinum Leggings of the Silent Assassin",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265283": {
+      "Name": "Platinum Spaulders of the Silent Assassin",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265284": {
+      "Name": "Platinum Bracers of the Silent Assassin",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265285": {
+      "Name": "Emerald Windfury Belt",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265287": {
+      "Name": "Emerald Windfury Sandals",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265288": {
+      "Name": "Emerald Windfury Harness",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265289": {
+      "Name": "Emerald Windfury Crushers",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265290": {
+      "Name": "Emerald Windfury Mask",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265291": {
+      "Name": "Emerald Windfury Legguards",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265292": {
+      "Name": "Emerald Windfury Spirit Guides",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265293": {
+      "Name": "Emerald Windfury Bracers",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265294": {
+      "Name": "Twilight Belt of the Betrayer",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265296": {
+      "Name": "Twilight Boots of the Betrayer",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265297": {
+      "Name": "Twilight Handguards of the Betrayer",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265298": {
+      "Name": "Twilight Horns of the Betrayer",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265299": {
+      "Name": "Twilight Leggings of the Betrayer",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265300": {
+      "Name": "Twilight Robes of the Betrayer",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265301": {
+      "Name": "Twilight Amice of the Betrayer",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265302": {
+      "Name": "Twilight Bracers of the Betrayer",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265303": {
+      "Name": "Ivory Girdle of the Elemental Triad",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265304": {
+      "Name": "Ivory Boots of the Elemental Triad",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265306": {
+      "Name": "Ivory Gloves of the Elemental Triad",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265307": {
+      "Name": "Ivory Hood of the Elemental Triad",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265308": {
+      "Name": "Ivory Bracers of the Elemental Triad",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265309": {
+      "Name": "Ivory Leggings of the Elemental Triad",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265310": {
+      "Name": "Ivory Robes of the Elemental Triad",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265311": {
+      "Name": "Ivory Spaulders of the Elemental Triad",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265312": {
+      "Name": "Golden Greatboots of the Holy Warrior",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265313": {
+      "Name": "Golden Chestplate of the Holy Warrior",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265314": {
+      "Name": "Golden Gauntlets of the Holy Warrior",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265315": {
+      "Name": "Golden Greathelm of the Holy Warrior",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265317": {
+      "Name": "Golden Legplates of the Holy Warrior",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265318": {
+      "Name": "Golden Girdle of the Holy Warrior",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265319": {
+      "Name": "Golden Wristguards of the Holy Warrior",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265320": {
+      "Name": "Golden Shoulderplate of the Holy Warrior",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265321": {
+      "Name": "Azure Chestplate of the Golden King",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265323": {
+      "Name": "Azure Girdle of the Golden King",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265324": {
+      "Name": "Azure Greatboots of the Golden King",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265325": {
+      "Name": "Azure Reach of the Golden King",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265326": {
+      "Name": "Azure Crown of the Golden King",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265327": {
+      "Name": "Azure Greaves of the Golden King",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265328": {
+      "Name": "Azure Mantle of the Golden King",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265329": {
+      "Name": "Azure Bracers of the Golden King",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265783": {
+      "Name": "Tabard of Fury",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265784": {
+      "Name": "Tabard of Brilliance",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265785": {
+      "Name": "Tabard of the Void",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265786": {
+      "Name": "Demon Hunter's Aspect",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
       "SourceNumber": "15",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265787": {
+      "Name": "Magic Rooster Egg",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "70",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265788": {
+      "Name": "Wooly White Rhino",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "40",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "265789": {
+      "Name": "Eye of the Legion",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "15",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "266272": {
+      "Name": "Satchel of Stone Shards",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "10",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "266273": {
+      "Name": "Cache of Celestial Chance",
+      "Source": "August Stone Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "10",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "266999": {
+      "Name": "Swift Yak Pelt",
+      "Source": "Platinum Coin",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     }
