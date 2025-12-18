@@ -356,7 +356,7 @@ LBIS:AddItem(spec3, "88893", LBIS.L["Wrist"], "Alt") --Minh's Beaten Bracers
 LBIS:AddItem(spec3, "95134", LBIS.L["Wrist"], "Alt") --Hearthfire Armwraps
 LBIS:AddItem(spec3, "95136", LBIS.L["Wrist"], "Alt") --Troll-Burner Bracers
 LBIS:AddItem(spec3, "81276", LBIS.L["Wrist"], "Alt") --Bombardment Bracers
-LBIS:AddItem(spec3, "95708", LBIS.L["Wrist"], "Alt") --Frostborn Wristwraps
+LBIS:AddItem(spec3, "95656", LBIS.L["Wrist"], "Alt") --Vaccinator's Armwraps
 LBIS:AddItem(spec3, "96674", LBIS.L["Hands"], "BIS") --Gloves of the Exorcist
 LBIS:AddItem(spec3, "88741", LBIS.L["Hands"], "Alt") --Gloves of Red Feathers
 LBIS:AddItem(spec3, "88742", LBIS.L["Hands"], "Alt") --Sunspeaker's Flared Gloves

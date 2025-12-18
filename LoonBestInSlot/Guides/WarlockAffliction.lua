@@ -9,19 +9,19 @@ LBIS:AddGem(spec0, "95347", "5", "True") --Sinister Primal Diamond
 LBIS:AddGem(spec0, "76885", "3", "True") --Burning Primal Diamond
 LBIS:AddGem(spec0, "89882", "5", "False") --Crystallized Horror
 LBIS:AddGem(spec0, "83150", "4", "False") --Brilliant Serpent's Eye
-LBIS:AddGem(spec0, "76642", "3", "False") --Lightning Wild Jade
-LBIS:AddGem(spec0, "76699", "3", "False") --Quick Sun's Radiance
-LBIS:AddGem(spec0, "76668", "3", "False") --Reckless Vermilion Onyx
-LBIS:AddGem(spec0, "59479", "3", "False") --Quick Cogwheel
-LBIS:AddGem(spec0, "76672", "3", "False") --Artful Vermilion Onyx
-LBIS:AddGem(spec0, "77542", "3", "False") --Quick Tinker's Gear
-LBIS:AddGem(spec0, "77545", "3", "False") --Rigid Tinker's Gear
-LBIS:AddGem(spec0, "76682", "3", "False") --Veiled Imperial Amethyst
-LBIS:AddGem(spec0, "59493", "3", "False") --Rigid Cogwheel
-LBIS:AddGem(spec0, "76667", "3", "False") --Wicked Vermilion Onyx
-LBIS:AddGem(spec0, "76643", "3", "False") --Sensei's Wild Jade
 LBIS:AddGem(spec0, "76671", "3", "False") --Keen Vermilion Onyx
+LBIS:AddGem(spec0, "76643", "3", "False") --Sensei's Wild Jade
+LBIS:AddGem(spec0, "76667", "3", "False") --Wicked Vermilion Onyx
+LBIS:AddGem(spec0, "59493", "3", "False") --Rigid Cogwheel
+LBIS:AddGem(spec0, "76682", "3", "False") --Veiled Imperial Amethyst
+LBIS:AddGem(spec0, "77545", "3", "False") --Rigid Tinker's Gear
+LBIS:AddGem(spec0, "76672", "3", "False") --Artful Vermilion Onyx
 LBIS:AddGem(spec0, "59478", "3", "False") --Smooth Cogwheel
+LBIS:AddGem(spec0, "59479", "3", "False") --Quick Cogwheel
+LBIS:AddGem(spec0, "76668", "3", "False") --Reckless Vermilion Onyx
+LBIS:AddGem(spec0, "76699", "3", "False") --Quick Sun's Radiance
+LBIS:AddGem(spec0, "76642", "3", "False") --Lightning Wild Jade
+LBIS:AddGem(spec0, "77542", "3", "False") --Quick Tinker's Gear
 LBIS:AddGem(spec0, "76700", "3", "False") --Fractured Sun's Radiance
 
 LBIS:AddEnchant(spec3, "127013", LBIS.L["Shoulder"]) --

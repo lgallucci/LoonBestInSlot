@@ -304,7 +304,7 @@ LBIS:AddItem(spec3, "95668", LBIS.L["Chest"], "Alt") --Zandalari Robes of the Fi
 LBIS:AddItem(spec3, "96452", LBIS.L["Wrist"], "BIS") --Frostborn Wristwraps
 LBIS:AddItem(spec3, "88893", LBIS.L["Wrist"], "Alt") --Minh's Beaten Bracers
 LBIS:AddItem(spec3, "95136", LBIS.L["Wrist"], "Alt") --Troll-Burner Bracers
-LBIS:AddItem(spec3, "95708", LBIS.L["Wrist"], "Alt") --Frostborn Wristwraps
+LBIS:AddItem(spec3, "95688", LBIS.L["Wrist"], "Alt") --Azure Shell Bracers
 LBIS:AddItem(spec3, "82825", LBIS.L["Wrist"], "Alt") --Deadwalker Bracers
 LBIS:AddItem(spec3, "96634", LBIS.L["Hands"], "BIS") --Gloves of the Chromatic Hydra
 LBIS:AddItem(spec3, "88742", LBIS.L["Hands"], "Alt") --Sunspeaker's Flared Gloves

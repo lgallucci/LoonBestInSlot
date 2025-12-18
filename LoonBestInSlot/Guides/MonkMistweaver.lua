@@ -408,5 +408,5 @@ LBIS:AddItem(spec3, "87544", LBIS.L["Main Hand"], "Alt") --Je'lyu, Spirit of the
 LBIS:AddItem(spec3, "81094", LBIS.L["Main Hand"], "Alt") --Carapace Breaker
 LBIS:AddItem(spec3, "81079", LBIS.L["Main Hand"], "Alt") --Staff of Trembling Will
 LBIS:AddItem(spec3, "96562", LBIS.L["Off Hand"], "BIS") --Lei Shen's Orb of Command
-LBIS:AddItem(spec3, "95786", LBIS.L["Off Hand"], "Alt") --Orb of Arcing Lightning
+LBIS:AddItem(spec3, "95818", LBIS.L["Off Hand"], "Alt") --Lei Shen's Orb of Command
 LBIS:AddItem(spec3, "81076", LBIS.L["Off Hand"], "Alt") --Bottle of Potent Potables

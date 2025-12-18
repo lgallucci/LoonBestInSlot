@@ -302,7 +302,6 @@ LBIS:AddItem(spec3, "95893", LBIS.L["Chest"], "Alt") --Robes of the Chromatic Hy
 LBIS:AddItem(spec3, "96506", LBIS.L["Wrist"], "BIS") --Bracers of Fragile Bone
 LBIS:AddItem(spec3, "88893", LBIS.L["Wrist"], "Alt") --Minh's Beaten Bracers
 LBIS:AddItem(spec3, "95136", LBIS.L["Wrist"], "Alt") --Troll-Burner Bracers
-LBIS:AddItem(spec3, "95708", LBIS.L["Wrist"], "Alt") --Frostborn Wristwraps
 LBIS:AddItem(spec3, "82825", LBIS.L["Wrist"], "Alt") --Deadwalker Bracers
 LBIS:AddItem(spec3, "96634", LBIS.L["Hands"], "BIS") --Gloves of the Chromatic Hydra
 LBIS:AddItem(spec3, "88742", LBIS.L["Hands"], "Alt") --Sunspeaker's Flared Gloves
@@ -310,11 +309,11 @@ LBIS:AddItem(spec3, "95106", LBIS.L["Hands"], "Alt") --Flameweaver Handwraps
 LBIS:AddItem(spec3, "95890", LBIS.L["Hands"], "Alt") --Gloves of the Chromatic Hydra
 LBIS:AddItem(spec3, "81229", LBIS.L["Hands"], "Alt") --Bomber's Precision Gloves
 LBIS:AddItem(spec3, "96462", LBIS.L["Waist"], "BIS") --Cord of Cacophonous Cawing
-LBIS:AddItem(spec3, "89062", LBIS.L["Waist"], "Alt") --Klaxxi Lash of the Orator
-LBIS:AddItem(spec3, "95532", LBIS.L["Waist"], "Alt") --Belt of Loa Charms
-LBIS:AddItem(spec3, "95527", LBIS.L["Waist"], "Alt") --Pain-Binder Girdle
-LBIS:AddItem(spec3, "95518", LBIS.L["Waist"], "Alt") --Pain-Binder Girdle
 LBIS:AddItem(spec3, "95523", LBIS.L["Waist"], "Alt") --Belt of Loa Charms
+LBIS:AddItem(spec3, "95527", LBIS.L["Waist"], "Alt") --Pain-Binder Girdle
+LBIS:AddItem(spec3, "89062", LBIS.L["Waist"], "Alt") --Klaxxi Lash of the Orator
+LBIS:AddItem(spec3, "95518", LBIS.L["Waist"], "Alt") --Pain-Binder Girdle
+LBIS:AddItem(spec3, "95532", LBIS.L["Waist"], "Alt") --Belt of Loa Charms
 LBIS:AddItem(spec3, "93330", LBIS.L["Waist"], "Alt") --Chang's Changing Cord
 LBIS:AddItem(spec3, "93339", LBIS.L["Waist"], "Alt") --Bon-iy's Unbreakable Cord
 LBIS:AddItem(spec3, "95090", LBIS.L["Waist"], "Alt") --Firestrike Cord

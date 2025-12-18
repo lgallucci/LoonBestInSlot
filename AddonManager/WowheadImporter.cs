@@ -65,6 +65,7 @@ public class SlotSwaps
         { "Wand", "Ranged/Relic" },
         { "Ranged", "Ranged/Relic" },
         { "Trinket - Throughput", "Trinket" },
+        { "Trinkets (Alternative)", "Trinket" },
         { "Trinket - Sustain", "Trinket" },
         { "Feet - Alternative", "Feet" },
         { "Legs - Alternative", "Feet" },
