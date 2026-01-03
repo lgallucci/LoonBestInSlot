@@ -11,19 +11,19 @@ LBIS:AddGem(spec0, "76886", "3", "True") --Reverberating Primal Diamond
 LBIS:AddGem(spec0, "76895", "3", "True") --Austere Primal Diamond
 LBIS:AddGem(spec0, "68779", "3", "True") --Reverberating Shadowspirit Diamond
 LBIS:AddGem(spec0, "89881", "5", "False") --Crystallized Terror
-LBIS:AddGem(spec0, "77544", "3", "False") --Flashing Tinker's Gear
-LBIS:AddGem(spec0, "77543", "3", "False") --Precise Tinker's Gear
-LBIS:AddGem(spec0, "76664", "3", "False") --Stalwart Vermilion Onyx
+LBIS:AddGem(spec0, "76683", "3", "False") --Retaliating Imperial Amethyst
+LBIS:AddGem(spec0, "76690", "3", "False") --Defender's Imperial Amethyst
+LBIS:AddGem(spec0, "76656", "3", "False") --Puissant Wild Jade
+LBIS:AddGem(spec0, "76659", "3", "False") --Crafty Vermilion Onyx
+LBIS:AddGem(spec0, "76697", "3", "False") --Smooth Sun's Radiance
+LBIS:AddGem(spec0, "76693", "3", "False") --Precise Primordial Ruby
 LBIS:AddGem(spec0, "76641", "3", "False") --Piercing Wild Jade
 LBIS:AddGem(spec0, "76695", "3", "False") --Flashing Primordial Ruby
-LBIS:AddGem(spec0, "76639", "3", "False") --Solid River's Heart
-LBIS:AddGem(spec0, "76693", "3", "False") --Precise Primordial Ruby
-LBIS:AddGem(spec0, "76697", "3", "False") --Smooth Sun's Radiance
-LBIS:AddGem(spec0, "76659", "3", "False") --Crafty Vermilion Onyx
-LBIS:AddGem(spec0, "76656", "3", "False") --Puissant Wild Jade
-LBIS:AddGem(spec0, "76690", "3", "False") --Defender's Imperial Amethyst
-LBIS:AddGem(spec0, "76683", "3", "False") --Retaliating Imperial Amethyst
 LBIS:AddGem(spec0, "77541", "3", "False") --Smooth Tinker's Gear
+LBIS:AddGem(spec0, "76664", "3", "False") --Stalwart Vermilion Onyx
+LBIS:AddGem(spec0, "77543", "3", "False") --Precise Tinker's Gear
+LBIS:AddGem(spec0, "77544", "3", "False") --Flashing Tinker's Gear
+LBIS:AddGem(spec0, "76639", "3", "False") --Solid River's Heart
 LBIS:AddGem(spec0, "76681", "3", "False") --Accurate Imperial Amethyst
 
 LBIS:AddEnchant(spec3, "121194", LBIS.L["Shoulder"]) --

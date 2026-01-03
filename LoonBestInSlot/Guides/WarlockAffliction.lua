@@ -9,19 +9,19 @@ LBIS:AddGem(spec0, "95347", "5", "True") --Sinister Primal Diamond
 LBIS:AddGem(spec0, "76885", "3", "True") --Burning Primal Diamond
 LBIS:AddGem(spec0, "89882", "5", "False") --Crystallized Horror
 LBIS:AddGem(spec0, "83150", "4", "False") --Brilliant Serpent's Eye
-LBIS:AddGem(spec0, "76671", "3", "False") --Keen Vermilion Onyx
-LBIS:AddGem(spec0, "76643", "3", "False") --Sensei's Wild Jade
-LBIS:AddGem(spec0, "76667", "3", "False") --Wicked Vermilion Onyx
-LBIS:AddGem(spec0, "59493", "3", "False") --Rigid Cogwheel
-LBIS:AddGem(spec0, "76682", "3", "False") --Veiled Imperial Amethyst
-LBIS:AddGem(spec0, "77545", "3", "False") --Rigid Tinker's Gear
-LBIS:AddGem(spec0, "76672", "3", "False") --Artful Vermilion Onyx
-LBIS:AddGem(spec0, "59478", "3", "False") --Smooth Cogwheel
-LBIS:AddGem(spec0, "59479", "3", "False") --Quick Cogwheel
-LBIS:AddGem(spec0, "76668", "3", "False") --Reckless Vermilion Onyx
-LBIS:AddGem(spec0, "76699", "3", "False") --Quick Sun's Radiance
 LBIS:AddGem(spec0, "76642", "3", "False") --Lightning Wild Jade
+LBIS:AddGem(spec0, "76699", "3", "False") --Quick Sun's Radiance
+LBIS:AddGem(spec0, "76668", "3", "False") --Reckless Vermilion Onyx
+LBIS:AddGem(spec0, "59479", "3", "False") --Quick Cogwheel
+LBIS:AddGem(spec0, "59478", "3", "False") --Smooth Cogwheel
+LBIS:AddGem(spec0, "76672", "3", "False") --Artful Vermilion Onyx
+LBIS:AddGem(spec0, "76682", "3", "False") --Veiled Imperial Amethyst
 LBIS:AddGem(spec0, "77542", "3", "False") --Quick Tinker's Gear
+LBIS:AddGem(spec0, "59493", "3", "False") --Rigid Cogwheel
+LBIS:AddGem(spec0, "76667", "3", "False") --Wicked Vermilion Onyx
+LBIS:AddGem(spec0, "76643", "3", "False") --Sensei's Wild Jade
+LBIS:AddGem(spec0, "76671", "3", "False") --Keen Vermilion Onyx
+LBIS:AddGem(spec0, "77545", "3", "False") --Rigid Tinker's Gear
 LBIS:AddGem(spec0, "76700", "3", "False") --Fractured Sun's Radiance
 
 LBIS:AddEnchant(spec3, "127013", LBIS.L["Shoulder"]) --
@@ -348,7 +348,7 @@ LBIS:AddItem(spec3, "93280", LBIS.L["Feet"], "Alt") --Sandals of Oiled Silk
 LBIS:AddItem(spec3, "94277", LBIS.L["Feet"], "Alt") --Falling Blossom Treads
 LBIS:AddItem(spec3, "95784", LBIS.L["Feet"], "Alt") --Dam'ren's Frozen Footguards
 LBIS:AddItem(spec3, "81255", LBIS.L["Feet"], "Alt") --Soulbinder Treads
-LBIS:AddItem(spec3, "96708", LBIS.L["Neck"], "BIS") --Necklace of the Terra-Cotta Invoker
+LBIS:AddItem(spec3, "96825", LBIS.L["Neck"], "BIS") --Megaera's Shining Eye
 LBIS:AddItem(spec3, "95146", LBIS.L["Neck"], "Alt") --Destroyer's Battletags
 LBIS:AddItem(spec3, "89068", LBIS.L["Neck"], "Alt") --Wire of the Wakener
 LBIS:AddItem(spec3, "95964", LBIS.L["Neck"], "Alt") --Necklace of the Terra-Cotta Invoker
@@ -375,11 +375,11 @@ LBIS:AddItem(spec3, "93259", LBIS.L["Trinket"], "Alt") --Shock-Charger Medallion
 LBIS:AddItem(spec3, "93254", LBIS.L["Trinket"], "Alt") --Static-Caster's Medallion
 LBIS:AddItem(spec3, "81192", LBIS.L["Trinket"], "Alt") --Vision of the Predator
 LBIS:AddItem(spec3, "95669", LBIS.L["Trinket"], "Alt") --Wushoolay's Final Choice
-LBIS:AddItem(spec3, "95711", LBIS.L["Trinket"], "Alt") --Breath of the Hydra
+LBIS:AddItem(spec3, "95814", LBIS.L["Trinket"], "Alt") --Unerring Vision of Lei Shen
 LBIS:AddItem(spec3, "81263", LBIS.L["Trinket"], "Alt") --Flashfrozen Resin Globule
 LBIS:AddItem(spec3, "96518", LBIS.L["Main Hand"], "BIS") --Athame of the Sanguine Ritual
 LBIS:AddItem(spec3, "82826", LBIS.L["Main Hand"], "Alt") --Necromantic Wand
-LBIS:AddItem(spec3, "95774", LBIS.L["Main Hand"], "Alt") --Athame of the Sanguine Ritual
+LBIS:AddItem(spec3, "95866", LBIS.L["Main Hand"], "Alt") --Nadagast's Exsanguinator
 LBIS:AddItem(spec3, "96934", LBIS.L["Off Hand"], "BIS") --Lei Shen's Orb of Command
 LBIS:AddItem(spec3, "79334", LBIS.L["Off Hand"], "Alt") --Inscribed Jade Fan
 LBIS:AddItem(spec3, "81076", LBIS.L["Off Hand"], "Alt") --Bottle of Potent Potables

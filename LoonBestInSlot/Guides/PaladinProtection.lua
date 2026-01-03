@@ -10,20 +10,20 @@ LBIS:AddGem(spec0, "95344", "5", "True") --Indomitable Primal Diamond
 LBIS:AddGem(spec0, "76895", "3", "True") --Austere Primal Diamond
 LBIS:AddGem(spec0, "76886", "3", "True") --Reverberating Primal Diamond
 LBIS:AddGem(spec0, "89881", "5", "False") --Crystallized Terror
-LBIS:AddGem(spec0, "76642", "3", "False") --Lightning Wild Jade
-LBIS:AddGem(spec0, "77545", "3", "False") --Rigid Tinker's Gear
-LBIS:AddGem(spec0, "76681", "3", "False") --Accurate Imperial Amethyst
-LBIS:AddGem(spec0, "77544", "3", "False") --Flashing Tinker's Gear
+LBIS:AddGem(spec0, "76699", "3", "False") --Quick Sun's Radiance
+LBIS:AddGem(spec0, "76693", "3", "False") --Precise Primordial Ruby
+LBIS:AddGem(spec0, "76667", "3", "False") --Wicked Vermilion Onyx
+LBIS:AddGem(spec0, "77543", "3", "False") --Precise Tinker's Gear
+LBIS:AddGem(spec0, "77542", "3", "False") --Quick Tinker's Gear
+LBIS:AddGem(spec0, "76700", "3", "False") --Fractured Sun's Radiance
 LBIS:AddGem(spec0, "76639", "3", "False") --Solid River's Heart
 LBIS:AddGem(spec0, "77547", "3", "False") --Fractured Tinker's Gear
-LBIS:AddGem(spec0, "76654", "3", "False") --Forceful Wild Jade
-LBIS:AddGem(spec0, "76700", "3", "False") --Fractured Sun's Radiance
-LBIS:AddGem(spec0, "77542", "3", "False") --Quick Tinker's Gear
-LBIS:AddGem(spec0, "77543", "3", "False") --Precise Tinker's Gear
-LBIS:AddGem(spec0, "76667", "3", "False") --Wicked Vermilion Onyx
-LBIS:AddGem(spec0, "76693", "3", "False") --Precise Primordial Ruby
-LBIS:AddGem(spec0, "76699", "3", "False") --Quick Sun's Radiance
 LBIS:AddGem(spec0, "77540", "3", "False") --Subtle Tinker's Gear
+LBIS:AddGem(spec0, "77544", "3", "False") --Flashing Tinker's Gear
+LBIS:AddGem(spec0, "76681", "3", "False") --Accurate Imperial Amethyst
+LBIS:AddGem(spec0, "77545", "3", "False") --Rigid Tinker's Gear
+LBIS:AddGem(spec0, "76642", "3", "False") --Lightning Wild Jade
+LBIS:AddGem(spec0, "76654", "3", "False") --Forceful Wild Jade
 LBIS:AddGem(spec0, "76636", "3", "False") --Rigid River's Heart
 
 LBIS:AddEnchant(spec3, "121194", LBIS.L["Shoulder"]) --

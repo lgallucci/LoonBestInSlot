@@ -23,11 +23,13 @@ LBIS:AddGem(spec0, "76642", "3", "False") --Lightning Wild Jade
 LBIS:AddEnchant(spec3, "127013", LBIS.L["Shoulder"]) --
 LBIS:AddEnchant(spec3, "121195", LBIS.L["Shoulder"]) --
 LBIS:AddEnchant(spec3, "125481", LBIS.L["Back"]) --
+LBIS:AddEnchant(spec3, "104403", LBIS.L["Back"]) --
 LBIS:AddEnchant(spec3, "104395", LBIS.L["Chest"]) --
 LBIS:AddEnchant(spec3, "141170", LBIS.L["Wrist"]) --
 LBIS:AddEnchant(spec3, "104389", LBIS.L["Wrist"]) --
 LBIS:AddEnchant(spec3, "126731", LBIS.L["Hands"]) --
 LBIS:AddEnchant(spec3, "104420", LBIS.L["Hands"]) --
+LBIS:AddEnchant(spec3, "104416", LBIS.L["Hands"]) --
 LBIS:AddEnchant(spec3, "82175", LBIS.L["Hands"]) --
 LBIS:AddEnchant(spec3, "125496", LBIS.L["Legs"]) --
 LBIS:AddEnchant(spec3, "122392", LBIS.L["Legs"]) --
@@ -296,7 +298,7 @@ LBIS:AddItem(spec3, "95985", LBIS.L["Shoulder"], "Alt") --Mantle of the Thousand
 LBIS:AddItem(spec3, "81291", LBIS.L["Shoulder"], "Alt") --Whisperwind Spaulders
 LBIS:AddItem(spec3, "95102", LBIS.L["Shoulder"], "Alt") --Frost-Kissed Shoulderwraps
 LBIS:AddItem(spec3, "95096", LBIS.L["Shoulder"], "Alt") --Shoulders of Demonic Dreams
-LBIS:AddItem(spec3, "96485", LBIS.L["Back"], "BIS") --Deadly Glare Cape
+LBIS:AddItem(spec3, "95014", LBIS.L["Back"], "BIS") --Red Sky Cloudcloak
 LBIS:AddItem(spec3, "89077", LBIS.L["Back"], "Alt") --Cloak of Snow Blossoms
 LBIS:AddItem(spec3, "97204", LBIS.L["Back"], "Alt") --Static-Collecting Cloak
 LBIS:AddItem(spec3, "97209", LBIS.L["Back"], "Alt") --Static-Collecting Cloak
@@ -331,7 +333,7 @@ LBIS:AddItem(spec3, "93330", LBIS.L["Waist"], "Alt") --Chang's Changing Cord
 LBIS:AddItem(spec3, "95090", LBIS.L["Waist"], "Alt") --Firestrike Cord
 LBIS:AddItem(spec3, "95718", LBIS.L["Waist"], "Alt") --Cord of Cacophonous Cawing
 LBIS:AddItem(spec3, "82861", LBIS.L["Waist"], "Alt") --Incineration Belt
-LBIS:AddItem(spec3, "96556", LBIS.L["Legs"], "BIS") --Legwraps of Cardinality
+LBIS:AddItem(spec3, "95030", LBIS.L["Legs"], "BIS") --Leggings of the Discarded Warning
 LBIS:AddItem(spec3, "89088", LBIS.L["Legs"], "Alt") --Leggings of the Poisoned Soul
 LBIS:AddItem(spec3, "95123", LBIS.L["Legs"], "Alt") --Charfire Leggings
 LBIS:AddItem(spec3, "95635", LBIS.L["Legs"], "Alt") --Al'set's Tormented Leggings
@@ -343,7 +345,7 @@ LBIS:AddItem(spec3, "93280", LBIS.L["Feet"], "Alt") --Sandals of Oiled Silk
 LBIS:AddItem(spec3, "94277", LBIS.L["Feet"], "Alt") --Falling Blossom Treads
 LBIS:AddItem(spec3, "95784", LBIS.L["Feet"], "Alt") --Dam'ren's Frozen Footguards
 LBIS:AddItem(spec3, "81255", LBIS.L["Feet"], "Alt") --Soulbinder Treads
-LBIS:AddItem(spec3, "96708", LBIS.L["Neck"], "BIS") --Necklace of the Terra-Cotta Invoker
+LBIS:AddItem(spec3, "96825", LBIS.L["Neck"], "BIS") --Megaera's Shining Eye
 LBIS:AddItem(spec3, "95146", LBIS.L["Neck"], "Alt") --Destroyer's Battletags
 LBIS:AddItem(spec3, "89068", LBIS.L["Neck"], "Alt") --Wire of the Wakener
 LBIS:AddItem(spec3, "95964", LBIS.L["Neck"], "Alt") --Necklace of the Terra-Cotta Invoker

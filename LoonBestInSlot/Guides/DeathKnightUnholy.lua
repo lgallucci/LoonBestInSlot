@@ -60,7 +60,7 @@ LBIS:AddItem(spec0, "95826", LBIS.L["Hands"], "BIS") --Gauntlets of the All-Cons
 LBIS:AddItem(spec0, "95111", LBIS.L["Hands"], "Alt") --Bloodstained Skullsqueezers
 LBIS:AddItem(spec0, "87407", LBIS.L["Hands"], "Alt") --Bloodforged Warfists
 LBIS:AddItem(spec0, "82856", LBIS.L["Hands"], "Alt") --Dark Blaze Gauntlets
-LBIS:AddItem(spec0, "81190", LBIS.L["Waist~Legs"], "BIS") --Grenadier's Belt
+LBIS:AddItem(spec0, "81190", LBIS.L["Waist"], "BIS") --Grenadier's Belt
 LBIS:AddItem(spec0, "95629", LBIS.L["Waist"], "BIS") --Cloudbreaker Greatbelt
 LBIS:AddItem(spec0, "89055", LBIS.L["Waist"], "Alt") --Klaxxi Lash of the Rescinder
 LBIS:AddItem(spec0, "95524", LBIS.L["Waist"], "Alt") --Thunder Caressed Waistguard

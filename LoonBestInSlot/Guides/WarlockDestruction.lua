@@ -18,6 +18,7 @@ LBIS:AddGem(spec0, "77541", "3", "False") --Smooth Tinker's Gear
 LBIS:AddGem(spec0, "76643", "3", "False") --Sensei's Wild Jade
 LBIS:AddGem(spec0, "76700", "3", "False") --Fractured Sun's Radiance
 LBIS:AddGem(spec0, "76668", "3", "False") --Reckless Vermilion Onyx
+LBIS:AddGem(spec0, "76671", "3", "False") --Keen Vermilion Onyx
 
 LBIS:AddEnchant(spec3, "127013", LBIS.L["Shoulder"]) --
 LBIS:AddEnchant(spec3, "121195", LBIS.L["Shoulder"]) --
@@ -318,13 +319,13 @@ LBIS:AddItem(spec3, "88893", LBIS.L["Wrist"], "Alt") --Minh's Beaten Bracers
 LBIS:AddItem(spec3, "95136", LBIS.L["Wrist"], "Alt") --Troll-Burner Bracers
 LBIS:AddItem(spec3, "82825", LBIS.L["Wrist"], "Alt") --Deadwalker Bracers
 LBIS:AddItem(spec3, "95708", LBIS.L["Wrist"], "Alt") --Frostborn Wristwraps
-LBIS:AddItem(spec3, "96854", LBIS.L["Hands"], "BIS") --Lifedrainer's Sordid Grip
+LBIS:AddItem(spec3, "96725", LBIS.L["Hands"], "BIS") --Gloves of the Thousandfold Hells
 LBIS:AddItem(spec3, "88742", LBIS.L["Hands"], "Alt") --Sunspeaker's Flared Gloves
 LBIS:AddItem(spec3, "95106", LBIS.L["Hands"], "Alt") --Flameweaver Handwraps
 LBIS:AddItem(spec3, "82438", LBIS.L["Hands"], "Alt") --Spelltwister's Gloves
 LBIS:AddItem(spec3, "95738", LBIS.L["Hands"], "Alt") --Lifedrainer's Sordid Grip
 LBIS:AddItem(spec3, "81240", LBIS.L["Hands"], "Alt") --Conflagrating Gloves
-LBIS:AddItem(spec3, "96462", LBIS.L["Waist"], "BIS") --Cord of Cacophonous Cawing
+LBIS:AddItem(spec3, "94996", LBIS.L["Waist"], "BIS") --Vita-Binder Wrap
 LBIS:AddItem(spec3, "95527", LBIS.L["Waist"], "Alt") --Pain-Binder Girdle
 LBIS:AddItem(spec3, "95518", LBIS.L["Waist"], "Alt") --Pain-Binder Girdle
 LBIS:AddItem(spec3, "89062", LBIS.L["Waist"], "Alt") --Klaxxi Lash of the Orator
@@ -335,7 +336,7 @@ LBIS:AddItem(spec3, "93330", LBIS.L["Waist"], "Alt") --Chang's Changing Cord
 LBIS:AddItem(spec3, "95090", LBIS.L["Waist"], "Alt") --Firestrike Cord
 LBIS:AddItem(spec3, "95718", LBIS.L["Waist"], "Alt") --Cord of Cacophonous Cawing
 LBIS:AddItem(spec3, "81058", LBIS.L["Waist"], "Alt") --Girdle of Endemic Anger
-LBIS:AddItem(spec3, "96556", LBIS.L["Legs"], "BIS") --Legwraps of Cardinality
+LBIS:AddItem(spec3, "95030", LBIS.L["Legs"], "BIS") --Leggings of the Discarded Warning
 LBIS:AddItem(spec3, "89088", LBIS.L["Legs"], "Alt") --Leggings of the Poisoned Soul
 LBIS:AddItem(spec3, "95123", LBIS.L["Legs"], "Alt") --Charfire Leggings
 LBIS:AddItem(spec3, "95635", LBIS.L["Legs"], "Alt") --Al'set's Tormented Leggings
@@ -347,7 +348,7 @@ LBIS:AddItem(spec3, "93280", LBIS.L["Feet"], "Alt") --Sandals of Oiled Silk
 LBIS:AddItem(spec3, "94277", LBIS.L["Feet"], "Alt") --Falling Blossom Treads
 LBIS:AddItem(spec3, "95784", LBIS.L["Feet"], "Alt") --Dam'ren's Frozen Footguards
 LBIS:AddItem(spec3, "81699", LBIS.L["Feet"], "Alt") --Scarlet Sandals
-LBIS:AddItem(spec3, "96708", LBIS.L["Neck"], "BIS") --Necklace of the Terra-Cotta Invoker
+LBIS:AddItem(spec3, "96825", LBIS.L["Neck"], "BIS") --Megaera's Shining Eye
 LBIS:AddItem(spec3, "95146", LBIS.L["Neck"], "Alt") --Destroyer's Battletags
 LBIS:AddItem(spec3, "89068", LBIS.L["Neck"], "Alt") --Wire of the Wakener
 LBIS:AddItem(spec3, "95964", LBIS.L["Neck"], "Alt") --Necklace of the Terra-Cotta Invoker
@@ -367,7 +368,7 @@ LBIS:AddItem(spec3, "81182", LBIS.L["Ring"], "Alt") --Eye of the Tornado
 LBIS:AddItem(spec3, "95638", LBIS.L["Ring"], "Alt") --Jin'rokh's Dreamshard
 LBIS:AddItem(spec3, "81560", LBIS.L["Ring"], "Alt") --Signet of the Hidden Door
 LBIS:AddItem(spec3, "96413", LBIS.L["Trinket"], "BIS") --Wushoolay's Final Choice
-LBIS:AddItem(spec3, "96558", LBIS.L["Trinket"], "BIS") --Unerring Vision of Lei Shen
+LBIS:AddItem(spec3, "96888", LBIS.L["Trinket"], "BIS") --Cha-Ye's Essence of Brilliance
 LBIS:AddItem(spec3, "89081", LBIS.L["Trinket"], "Alt") --Blossom of Pure Snow
 LBIS:AddItem(spec3, "94510", LBIS.L["Trinket"], "Alt") --Volatile Talisman of the Shado-Pan Assault
 LBIS:AddItem(spec3, "93259", LBIS.L["Trinket"], "Alt") --Shock-Charger Medallion
@@ -379,7 +380,7 @@ LBIS:AddItem(spec3, "81263", LBIS.L["Trinket"], "Alt") --Flashfrozen Resin Globu
 LBIS:AddItem(spec3, "96518", LBIS.L["Main Hand"], "BIS") --Athame of the Sanguine Ritual
 LBIS:AddItem(spec3, "81253", LBIS.L["Main Hand"], "Alt") --Firescribe Dagger
 LBIS:AddItem(spec3, "95866", LBIS.L["Main Hand"], "Alt") --Nadagast's Exsanguinator
-LBIS:AddItem(spec3, "96934", LBIS.L["Off Hand"], "BIS") --Lei Shen's Orb of Command
+LBIS:AddItem(spec3, "96826", LBIS.L["Off Hand"], "BIS") --Fetish of the Hydra
 LBIS:AddItem(spec3, "79334", LBIS.L["Off Hand"], "Alt") --Inscribed Jade Fan
 LBIS:AddItem(spec3, "81076", LBIS.L["Off Hand"], "Alt") --Bottle of Potent Potables
 LBIS:AddItem(spec3, "95710", LBIS.L["Off Hand"], "Alt") --Fetish of the Hydra
