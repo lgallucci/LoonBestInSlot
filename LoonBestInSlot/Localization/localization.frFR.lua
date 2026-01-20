@@ -48,17 +48,16 @@ if GetLocale() == "frFR" then
   LBIS.L["Battle of the Crimson Watch"] = "La bataille du Guet cramoisi";
 --  LBIS.L["Bear"] = "";
   LBIS.L["Beast Mastery"] = "Maîtrise des bêtes";
---  LBIS.L["Beasts Deck"] = "";
 --  LBIS.L["BIS"] = "";
   LBIS.L["Black Temple"] = "Temple noir";
 --  LBIS.L["Black Temple/Hyjal Summit"] = "";
   LBIS.L["Blackheart the Inciter"] = "Coeur-noir le Séditieux";
+  LBIS.L["Blackrock Spire"] = "Pic Rochenoire";
   LBIS.L["Blacksmithing"] = "Forge";
   LBIS.L["Blackwing Lair"] = "Repaire de l’Aile noire";
   LBIS.L["Blade's Edge Mountains"] = "Les Tranchantes";
   LBIS.L["Blast the Infernals!"] = "Au diable les infernaux !";
   LBIS.L["Bleeding Hollow Supply Crates"] = "Les caisses de fournitures de l'Orbite-sanglante";
---  LBIS.L["Blessings Deck"] = "";
   LBIS.L["Blood Guard Porung"] = "Garde de sang Porung";
 --  LBIS.L["Bloodmaul Geomancer"] = "";
 --  LBIS.L["Boss Drop"] = "";
@@ -88,10 +87,15 @@ if GetLocale() == "frFR" then
 --  LBIS.L["Consortium Quartermaster"] = "";
   LBIS.L["Coren Direbrew"] = "Coren Navrebière";
   LBIS.L["Corki's Gone Missing Again!"] = "Corki a encore disparu !";
+  LBIS.L["Cruel's Intentions"] = "Les Liaisons cruelles";
   LBIS.L["Custom"] = "Personnalisé";
 --  LBIS.L["Daily Fishing Quest"] = "";
   LBIS.L["Dalliah the Doomsayer"] = "Dalliah l'Auspice-funeste";
+  LBIS.L["Darkmoon Beast Deck"] = "Suite de Fauves de Sombrelune";
+  LBIS.L["Darkmoon Blessings Deck"] = "Suite de Bénédictions de Sombrelune";
   LBIS.L["Darkmoon Faire"] = "Foire de Sombrelune";
+  LBIS.L["Darkmoon Furies Deck"] = "Suite de Furies de Sombrelune";
+  LBIS.L["Darkmoon Lunacy Deck"] = "Suite de Déraison de Sombrelune";
   LBIS.L["Darkweaver Syth"] = "Tisseur d'ombre Syth";
 --  LBIS.L["Dealer Jadyan"] = "";
   LBIS.L["Dealing with the Overmaster"] = "S'occuper du contremaître";
@@ -110,7 +114,7 @@ if GetLocale() == "frFR" then
 --  LBIS.L["Dps"] = "";
   LBIS.L["Dr. Boom!"] = "Dr Boum !";
   LBIS.L["Dragonscale Leatherworking"] = "Travail du cuir d'écailles de dragon";
---  LBIS.L["Drill the Drillmaster/The Foot of the Citadel"] = "";
+  LBIS.L["Drill the Drillmaster"] = "Détruisez le maître de manœuvre";
   LBIS.L["Drop"] = "Butin";
 --  LBIS.L["Dungeon Token"] = "";
   LBIS.L["Edit"] = "Editer";
@@ -140,15 +144,15 @@ if GetLocale() == "frFR" then
   LBIS.L["Fel Embers"] = "Les gangrebraises";
   LBIS.L["Felmyst"] = "Gangrebrume";
   LBIS.L["Fire"] = "(Feu)";
+  LBIS.L["For The Horde!"] = "Pour la Horde !";
   LBIS.L["Forge Camp: Annihilated"] = "Le camp de forge Anéanti";
   LBIS.L["Friendly"] = "Allié";
   LBIS.L["Frost"] = "(Givre)";
---  LBIS.L["Furies Deck"] = "";
   LBIS.L["Fury"] = "Fureur";
 --  LBIS.L["G'eras"] = "";
   LBIS.L["Gava'xi"] = "Gava'xi";
 --  LBIS.L["Gems"] = "";
---  LBIS.L["General Drakkisath's Demise/For The Horde!"] = "";
+  LBIS.L["General Drakkisath's Demise"] = "La reddition du général Drakkisath";
 --  LBIS.L["Gezzarak the Huntress"] = "";
   LBIS.L["Ghaz'an"] = "Ghaz'an";
 --  LBIS.L["Gnomish Engineer"] = "";
@@ -169,8 +173,8 @@ if GetLocale() == "frFR" then
   LBIS.L["Hellfire Peninsula"] = "Péninsule des Flammes infernales";
   LBIS.L["Hellfire Ramparts"] = "Remparts des Flammes infernales";
   LBIS.L["Hellfire Ramparts (Heroic)"] = "Remparts des Flammes infernales (Héroïque)";
+  LBIS.L["Hero of the Brood"] = "Héros de la progéniture";
   LBIS.L["Hero of the Mag'har"] = "Héros des Mag'har";
-  LBIS.L["Hero of the Mag'har (Horde)"] = "Héros des Mag'har (Horde)";
   LBIS.L["Hex Lord Malacrass"] = "Seigneur des maléfices Malacrass";
 --  LBIS.L["Hide Obsolete Items"] = "";
   LBIS.L["High Astromancer Solarian"] = "Grande astromancienne Solarian";
@@ -224,7 +228,6 @@ if GetLocale() == "frFR" then
   LBIS.L["Lost in Action"] = "Disparus au combat";
   LBIS.L["Lower City"] = "Ville Basse";
 --  LBIS.L["Lower City Quartermaster"] = "";
---  LBIS.L["Lunacy Deck"] = "";
   LBIS.L["M'uru"] = "M'uru";
   LBIS.L["Magisters' Terrace"] = "Terrasse des Magistères";
   LBIS.L["Magtheridon"] = "Magtheridon";
@@ -249,7 +252,6 @@ if GetLocale() == "frFR" then
   LBIS.L["Mother Shahraz"] = "Mère Shahraz";
   LBIS.L["Murmur"] = "Marmon";
   LBIS.L["Nagrand"] = "Nagrand";
-  LBIS.L["Nagrand (Horde)"] = "Nagrand (Horde)";
 --  LBIS.L["Nalorakk <Bear Avatar>"] = "";
   LBIS.L["Natural Remedies"] = "Remèdes naturels";
   LBIS.L["Naxxramas"] = "Naxxramas";
@@ -275,8 +277,8 @@ if GetLocale() == "frFR" then
 --  LBIS.L["Opera Event (Oz)"] = "Evénement de l'opéra";
 --  LBIS.L["Opera Event (Romeo)"] = "Evénement de l'opéra";
 --  LBIS.L["Opera Event (Wolf)"] = "Evénement de l'opéra";
+  LBIS.L["Overlord"] = "Suzerain";
   LBIS.L["Overlord Gorefist"] = "Le suzerain Poing-sanglant";
---  LBIS.L["Overlord/Cruel's Intentions"] = "";
   LBIS.L["Pandemonius"] = "Pandemonius";
   LBIS.L["Pathaleon the Calculator"] = "Pathaleon le Calculateur";
 --  LBIS.L["Phantom Stagehand"] = "";
@@ -291,6 +293,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Prince Malchezaar"] = "Prince Malchezaar";
   LBIS.L["Profession"] = "Métier";
   LBIS.L["Protection"] = "Protection";
+  LBIS.L["Pursuing Terrorclaw"] = "À la poursuite de Griffe de terreur";
   LBIS.L["PvP"] = "JcJ";
 --  LBIS.L["PvP Vendor"] = "";
   LBIS.L["Quagmirran"] = "Bourbierreux";
@@ -303,6 +306,7 @@ if GetLocale() == "frFR" then
 --  LBIS.L["Raging Skeleton"] = "";
   LBIS.L["Ranged/Relic"] = "À distance/Relique";
   LBIS.L["Razorgore the Untamed"] = "Tranchetripe l'Indompté";
+  LBIS.L["Reclaiming Holy Grounds"] = "La reconquête des terres sacrées";
 --  LBIS.L["Reinforced Fel Iron Chest"] = "";
   LBIS.L["Reliquary of Souls"] = "Le reliquaire des âmes";
   LBIS.L["Reputation"] = "Réputation";
@@ -343,6 +347,7 @@ if GetLocale() == "frFR" then
 --  LBIS.L["Show Tooltip"] = "";
   LBIS.L["Showdown"] = "Cartes sur table";
   LBIS.L["Shutting Down Manaforge Ara"] = "Extinction de la manaforge Ara";
+  LBIS.L["Skettis"] = "Skettis";
 --  LBIS.L["Smith Hauthaa"] = "";
   LBIS.L["Someone Else's Hard Work Pays Off"] = "Le dur labeur des autres";
 --  LBIS.L["Soul Shard"] = "";
@@ -374,7 +379,6 @@ if GetLocale() == "frFR" then
   LBIS.L["Teron Gorefiend"] = "Teron Fielsang";
   LBIS.L["Teron Gorefiend, I am..."] = "Teron Fielsang, je suis...";
   LBIS.L["The Aldor"] = "L'Aldor";
---  LBIS.L["The Aldor/Scryers"] = "";
   LBIS.L["The Arcatraz"] = "L’Arcatraz";
   LBIS.L["The Arcatraz (Heroic)"] = "L’Arcatraz (Héroïque)";
   LBIS.L["The Black Morass"] = "Le Noir marécage";
@@ -394,6 +398,8 @@ if GetLocale() == "frFR" then
   LBIS.L["The Fall of Kel'Thuzad"] = "La chute de Kel'Thuzad";
   LBIS.L["The Fallen Exarch"] = "L'exarque déchu";
   LBIS.L["The Flesh Lies..."] = "La chair ment...";
+  LBIS.L["The Foot of the Citadel"] = "Le pied de la citadelle";
+  LBIS.L["The Great Retribution"] = "La grande vindicte";
   LBIS.L["The Horrors of Pollution"] = "Les horreurs de la pollution";
   LBIS.L["The Hound-Master"] = "Le maître-chien";
   LBIS.L["The Illidari Council"] = "Le conseil illidari";
@@ -403,7 +409,6 @@ if GetLocale() == "frFR" then
   LBIS.L["The Mechanar"] = "Le Méchanar";
   LBIS.L["The Mechanar (Heroic)"] = "Le Méchanar (Héroïque)";
   LBIS.L["The New Directive"] = "La nouvelle directive";
-  LBIS.L["The Opening of the Dark Portal"] = "L'ouverture de la Porte des ténèbres";
   LBIS.L["The Ring of Blood: The Final Challenge"] = "L'arène de sang : l'ultime défi";
   LBIS.L["The Scale of the Sands"] = "Balance des sables";
   LBIS.L["The Scryers"] = "Clairvoyants";
@@ -418,7 +423,7 @@ if GetLocale() == "frFR" then
   LBIS.L["The Soul Devices"] = "Les machines à âmes";
   LBIS.L["The Steamvault"] = "Le caveau de la Vapeur";
   LBIS.L["The Steamvault (Heroic)"] = "Le caveau de la Vapeur (Héroïque)";
---  LBIS.L["The Terror of Marshlight Lake/Pursuing Terrorclaw"] = "";
+  LBIS.L["The Terror of Marshlight Lake"] = "La terreur du lac des furoles";
   LBIS.L["The Ultimate Bloodsport"] = "Le plus gros des gibiers";
   LBIS.L["The Underbog"] = "La Basse-tourbière";
   LBIS.L["The Underbog (Heroic)"] = "La Basse-tourbière (Héroïque)";
@@ -426,7 +431,6 @@ if GetLocale() == "frFR" then
   LBIS.L["The Warlord's Hideout"] = "Le repaire du seigneur de guerre";
   LBIS.L["The Will of the Warchief"] = "La volonté du Chef de guerre";
   LBIS.L["Thorngrin the Tender"] = "Rirépine le Tendre";
---  LBIS.L["Thrall"] = "";
   LBIS.L["Thrallmar"] = "Thrallmar";
 --  LBIS.L["Thrallmar Marks"] = "";
   LBIS.L["Thwart the Dark Conclave"] = "Contrecarrer le sombre Conclave";

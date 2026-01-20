@@ -48,17 +48,16 @@ if GetLocale() == "ruRU" then
   LBIS.L["Battle of the Crimson Watch"] = "Битва у Кровавого дозора";
 --  LBIS.L["Bear"] = "";
   LBIS.L["Beast Mastery"] = "Чувство зверя";
---  LBIS.L["Beasts Deck"] = "";
 --  LBIS.L["BIS"] = "";
   LBIS.L["Black Temple"] = "Черный храм";
 --  LBIS.L["Black Temple/Hyjal Summit"] = "";
   LBIS.L["Blackheart the Inciter"] = "Черносерд Проповедник";
+  LBIS.L["Blackrock Spire"] = "Пик Черной горы";
   LBIS.L["Blacksmithing"] = "Кузнечное дело";
   LBIS.L["Blackwing Lair"] = "Логово Крыла Тьмы";
   LBIS.L["Blade's Edge Mountains"] = "Острогорье";
   LBIS.L["Blast the Infernals!"] = "Перебей инферналов!";
   LBIS.L["Bleeding Hollow Supply Crates"] = "Припасы клана Кровавой Глазницы";
---  LBIS.L["Blessings Deck"] = "";
   LBIS.L["Blood Guard Porung"] = "Кровавый страж Порунг";
 --  LBIS.L["Bloodmaul Geomancer"] = "";
 --  LBIS.L["Boss Drop"] = "";
@@ -88,10 +87,15 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Consortium Quartermaster"] = "";
   LBIS.L["Coren Direbrew"] = "Корен Худовар";
   LBIS.L["Corki's Gone Missing Again!"] = "Корки снова пропал!";
+  LBIS.L["Cruel's Intentions"] = "Безжалостные планы";
   LBIS.L["Custom"] = "Вручную";
 --  LBIS.L["Daily Fishing Quest"] = "";
   LBIS.L["Dalliah the Doomsayer"] = "Далия Глашатай Судьбы";
+  LBIS.L["Darkmoon Beast Deck"] = "Карты Новолуния: Звери";
+  LBIS.L["Darkmoon Blessings Deck"] = "Колода карт Новолуния: Благословения";
   LBIS.L["Darkmoon Faire"] = "Ярмарка Новолуния";
+  LBIS.L["Darkmoon Furies Deck"] = "Колода карт Новолуния: Ярость";
+  LBIS.L["Darkmoon Lunacy Deck"] = "Колода карт Новолуния: Безумие";
   LBIS.L["Darkweaver Syth"] = "Темнопряд Сит";
 --  LBIS.L["Dealer Jadyan"] = "";
   LBIS.L["Dealing with the Overmaster"] = "Покончить с Подчинителем";
@@ -110,7 +114,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Dps"] = "";
   LBIS.L["Dr. Boom!"] = "Доктор Бум!";
   LBIS.L["Dragonscale Leatherworking"] = "Кожевничество: чешуя дракона";
---  LBIS.L["Drill the Drillmaster/The Foot of the Citadel"] = "";
+  LBIS.L["Drill the Drillmaster"] = "Перемастерить мастера";
   LBIS.L["Drop"] = "Добыча";
 --  LBIS.L["Dungeon Token"] = "";
   LBIS.L["Edit"] = "Отредактировать";
@@ -140,15 +144,15 @@ if GetLocale() == "ruRU" then
   LBIS.L["Fel Embers"] = "Угли Скверны";
   LBIS.L["Felmyst"] = "Пророк Скверны";
   LBIS.L["Fire"] = "Огонь";
+  LBIS.L["For The Horde!"] = "За Орду!";
   LBIS.L["Forge Camp: Annihilated"] = "Лагеря Легиона: уничтожены";
   LBIS.L["Friendly"] = "Союзник";
   LBIS.L["Frost"] = "Лед";
---  LBIS.L["Furies Deck"] = "";
   LBIS.L["Fury"] = "Ярость";
 --  LBIS.L["G'eras"] = "";
   LBIS.L["Gava'xi"] = "Гава'кси";
 --  LBIS.L["Gems"] = "";
---  LBIS.L["General Drakkisath's Demise/For The Horde!"] = "";
+  LBIS.L["General Drakkisath's Demise"] = "Кончина генерала Драккисата";
 --  LBIS.L["Gezzarak the Huntress"] = "";
   LBIS.L["Ghaz'an"] = "Газ'ан";
 --  LBIS.L["Gnomish Engineer"] = "";
@@ -169,8 +173,8 @@ if GetLocale() == "ruRU" then
   LBIS.L["Hellfire Peninsula"] = "Полуостров Адского Пламени";
   LBIS.L["Hellfire Ramparts"] = "Бастионы Адского Пламени";
   LBIS.L["Hellfire Ramparts (Heroic)"] = "Бастионы Адского Пламени (Героический)";
+  LBIS.L["Hero of the Brood"] = "Герой драконьего племени";
   LBIS.L["Hero of the Mag'har"] = "Герой маг'харов";
-  LBIS.L["Hero of the Mag'har (Horde)"] = "Герой маг'харов (Орда)";
   LBIS.L["Hex Lord Malacrass"] = "Повелитель проклятий Малакрасс";
 --  LBIS.L["Hide Obsolete Items"] = "";
   LBIS.L["High Astromancer Solarian"] = "Верховный звездочет Солариан";
@@ -224,7 +228,6 @@ if GetLocale() == "ruRU" then
   LBIS.L["Lost in Action"] = "Пропавшие без вести";
   LBIS.L["Lower City"] = "Нижний Город";
 --  LBIS.L["Lower City Quartermaster"] = "";
---  LBIS.L["Lunacy Deck"] = "";
   LBIS.L["M'uru"] = "М'ууру";
   LBIS.L["Magisters' Terrace"] = "Терраса Магистров";
   LBIS.L["Magtheridon"] = "Магтеридон";
@@ -249,7 +252,6 @@ if GetLocale() == "ruRU" then
   LBIS.L["Mother Shahraz"] = "Матушка Шахраз";
   LBIS.L["Murmur"] = "Бормотун";
   LBIS.L["Nagrand"] = "Награнд";
-  LBIS.L["Nagrand (Horde)"] = "Награнд (Орда)";
 --  LBIS.L["Nalorakk <Bear Avatar>"] = "";
   LBIS.L["Natural Remedies"] = "Целительная сила природы";
   LBIS.L["Naxxramas"] = "Наксрамас";
@@ -275,8 +277,8 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Opera Event (Oz)"] = "Опера";
 --  LBIS.L["Opera Event (Romeo)"] = "Опера";
 --  LBIS.L["Opera Event (Wolf)"] = "Опера";
+  LBIS.L["Overlord"] = "Владыка";
   LBIS.L["Overlord Gorefist"] = "Властитель Кровавый Кулак";
---  LBIS.L["Overlord/Cruel's Intentions"] = "";
   LBIS.L["Pandemonius"] = "Пандемоний";
   LBIS.L["Pathaleon the Calculator"] = "Паталеон Вычислитель";
 --  LBIS.L["Phantom Stagehand"] = "";
@@ -291,6 +293,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Prince Malchezaar"] = "Принц Малчезар";
   LBIS.L["Profession"] = "Профессия";
   LBIS.L["Protection"] = "Защита";
+  LBIS.L["Pursuing Terrorclaw"] = "Охота на Жутеклешня";
   LBIS.L["PvP"] = "PvP";
 --  LBIS.L["PvP Vendor"] = "";
   LBIS.L["Quagmirran"] = "Зыбун";
@@ -303,6 +306,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Raging Skeleton"] = "";
   LBIS.L["Ranged/Relic"] = "Для оружия дальнего боя/Реликвия";
   LBIS.L["Razorgore the Untamed"] = "Бритвосмерт Неукротимый";
+  LBIS.L["Reclaiming Holy Grounds"] = "Восстановление Святых земель";
 --  LBIS.L["Reinforced Fel Iron Chest"] = "";
   LBIS.L["Reliquary of Souls"] = "Реликварий душ";
   LBIS.L["Reputation"] = "Репутация";
@@ -343,6 +347,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Show Tooltip"] = "";
   LBIS.L["Showdown"] = "Перед выстрелом";
   LBIS.L["Shutting Down Manaforge Ara"] = "Отключить манагорн Ара";
+  LBIS.L["Skettis"] = "Скеттис";
 --  LBIS.L["Smith Hauthaa"] = "";
   LBIS.L["Someone Else's Hard Work Pays Off"] = "Someone Else's Hard Work Pays Off";
 --  LBIS.L["Soul Shard"] = "";
@@ -374,7 +379,6 @@ if GetLocale() == "ruRU" then
   LBIS.L["Teron Gorefiend"] = "Терон Кровожад";
   LBIS.L["Teron Gorefiend, I am..."] = "Терон Кровожад, то есть я...";
   LBIS.L["The Aldor"] = "Алдоры";
---  LBIS.L["The Aldor/Scryers"] = "";
   LBIS.L["The Arcatraz"] = "Аркатрац";
   LBIS.L["The Arcatraz (Heroic)"] = "Аркатрац (Героический)";
   LBIS.L["The Black Morass"] = "Черные топи";
@@ -394,6 +398,8 @@ if GetLocale() == "ruRU" then
   LBIS.L["The Fall of Kel'Thuzad"] = "Падение Кел'Тузада";
   LBIS.L["The Fallen Exarch"] = "Падший экзарх";
   LBIS.L["The Flesh Lies..."] = "Усеял мертвыми костями...";
+  LBIS.L["The Foot of the Citadel"] = "Вступить в цитадель";
+  LBIS.L["The Great Retribution"] = "Великое воздаяние";
   LBIS.L["The Horrors of Pollution"] = "Ужасы загрязнения";
   LBIS.L["The Hound-Master"] = "Псарь";
   LBIS.L["The Illidari Council"] = "Совет иллидари";
@@ -403,7 +409,6 @@ if GetLocale() == "ruRU" then
   LBIS.L["The Mechanar"] = "Механар";
   LBIS.L["The Mechanar (Heroic)"] = "Механар (Героический)";
   LBIS.L["The New Directive"] = "Новое направление";
-  LBIS.L["The Opening of the Dark Portal"] = "Открытие Темного портала";
   LBIS.L["The Ring of Blood: The Final Challenge"] = "Кольцо Крови: последнее испытание";
   LBIS.L["The Scale of the Sands"] = "Песчаная Чешуя";
   LBIS.L["The Scryers"] = "Провидцы";
@@ -418,7 +423,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["The Soul Devices"] = "Инструменты души";
   LBIS.L["The Steamvault"] = "Паровое подземелье";
   LBIS.L["The Steamvault (Heroic)"] = "Паровое подземелье (Героический)";
---  LBIS.L["The Terror of Marshlight Lake/Pursuing Terrorclaw"] = "";
+  LBIS.L["The Terror of Marshlight Lake"] = "Ужас озера Болотных Огоньков";
   LBIS.L["The Ultimate Bloodsport"] = "Опасный спорт";
   LBIS.L["The Underbog"] = "Нижетопь";
   LBIS.L["The Underbog (Heroic)"] = "Нижетопь (Героический)";
@@ -426,7 +431,6 @@ if GetLocale() == "ruRU" then
   LBIS.L["The Warlord's Hideout"] = "Убежище врага";
   LBIS.L["The Will of the Warchief"] = "Воля Вождя";
   LBIS.L["Thorngrin the Tender"] = "Скалезуб Скорбный";
---  LBIS.L["Thrall"] = "";
   LBIS.L["Thrallmar"] = "Траллмар";
 --  LBIS.L["Thrallmar Marks"] = "";
   LBIS.L["Thwart the Dark Conclave"] = "Крах темного конклава";
