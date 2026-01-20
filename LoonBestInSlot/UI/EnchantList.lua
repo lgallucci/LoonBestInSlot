@@ -15,7 +15,9 @@ itemSlotOrder[LBIS.L["Ring"]] = 10;
 itemSlotOrder[LBIS.L["Trinket"]] = 11;
 itemSlotOrder[LBIS.L["Main Hand"]] = 12;
 itemSlotOrder[LBIS.L["Off Hand"]] = 13;
-itemSlotOrder[LBIS.L["Ranged/Relic"]] = 14;
+itemSlotOrder[LBIS.L["Two Hand"]] = 14;
+itemSlotOrder[LBIS.L["Main Hand~Off Hand"]] = 15;
+itemSlotOrder[LBIS.L["Ranged/Relic"]] = 16;
 
 local function itemSortFunction(table, k1, k2)
 

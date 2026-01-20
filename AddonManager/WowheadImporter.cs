@@ -27,10 +27,12 @@ public class SlotSwaps
         { "Bracer", "Wrist" },
         { "Bracers", "Wrist" },
         { "Hands", "Hands" },
+        { "Hand", "Hands" },
         { "Gloves", "Hands" },
         { "Waist", "Waist" },
         { "Belt", "Waist" },
         { "Legs", "Legs" },
+        { "Leg", "Legs" },
         { "Feet", "Feet" },
         { "Boots", "Feet" },
         { "Neck", "Neck" },
@@ -60,6 +62,7 @@ public class SlotSwaps
         { "Offhands", "Off Hand" },
         { "Offhand", "Off Hand" },
         { "Off-hand", "Off Hand" },
+        { "Off-Hands", "Off Hand" },
         { "Off Hand Weapons" , "Main Hand" },
         { "Off-hands", "Off Hand" },
         { "Off-hand Frills", "Off Hand" },
@@ -76,12 +79,19 @@ public class SlotSwaps
         { "Guns", "Ranged/Relic" },
         { "Crossbows", "Ranged/Relic" },
         { "Idols", "Ranged/Relic" },
+        { "Idol", "Ranged/Relic" },
         { "Totems", "Ranged/Relic" },
+        { "Totem", "Ranged/Relic" },
         { "Librams", "Ranged/Relic" },
+        { "Libram", "Ranged/Relic" },
         { "Ranged/Relic", "Ranged/Relic" },
         { "Ranged", "Ranged/Relic" },
         { "Wands", "Ranged/Relic"},
-        { "Miscellaneous", "Ranged/Relic" }
+        { "Miscellaneous", "Ranged/Relic" },
+        { "Quivers", "Quivers" },
+        { "Ammo", "Ammo" },
+        { "Arrows", "Arrows" },
+        { "Bullets", "Bullets" },
     };
     
     // Setting up indexers
@@ -266,7 +276,7 @@ public static class WowheadImporter
             {
                 try
                 {
-                    string result = await ImportClassInternal(spec, phaseNumber, doc, (s) => { });
+                    string result = await ImportClassInternal(spec, phaseNumber, doc, (s) => { }, cancelToken);
 
                     logFunc($"{spec.ClassName} {spec.SpecName} Completed! - Verification Passed!");
                 }
@@ -291,12 +301,12 @@ public static class WowheadImporter
         var doc = await Common.LoadFromWebPage(classGuide.WebAddress, logFunc, cancelToken);
 
         if (doc != null)
-            result = await ImportClassInternal(classGuide, phaseNumber, doc, logFunc);
+            result = await ImportClassInternal(classGuide, phaseNumber, doc, logFunc, cancelToken);
 
         return result;
     }
     private static Dictionary<int, GemSpec> _gemSources = new Dictionary<int, GemSpec>();
-    private static async Task<string> ImportClassInternal(ClassGuideMapping classGuideMapping, int phaseNumber, IHtmlDocument doc, Action<string> logFunc)
+    private static async Task<string> ImportClassInternal(ClassGuideMapping classGuideMapping, int phaseNumber, IHtmlDocument doc, Action<string> logFunc,  CancellationToken cancelToken)
     {
         var sb = new StringBuilder();
         (Dictionary<int, GemSpec>, Dictionary<int, EnchantSpec>, Dictionary<int, ItemSpec>) itemsAndEnchants;
@@ -315,6 +325,9 @@ public static class WowheadImporter
                 var gemSources = new List<GemSpec>();
                 foreach (var gem in itemsAndEnchants.Item1)
                 {
+                    if (cancelToken.IsCancellationRequested)
+                        break;
+
                     if (!guide.Item1.Any(g => g.Value.Any(g => g.GemId == gem.Key)))
                     {
                         if (_gemSources.ContainsKey(gem.Key))
@@ -338,6 +351,9 @@ public static class WowheadImporter
                 var itemSlots = JsonConvert.DeserializeObject<Dictionary<int, string>>(jsonFileString) ?? new Dictionary<int, string>();
                 foreach (var item in itemsAndEnchants.Item3)
                 {
+                    if (cancelToken.IsCancellationRequested)
+                        break;
+
                     if (item.Value.Slot == "unknown")
                     {
                         if (itemSlots.ContainsKey(item.Value.ItemId))
@@ -348,24 +364,24 @@ public static class WowheadImporter
                         {
                             item.Value.Slot = await GetSlotFromItemId(item.Value.ItemId, logFunc);
                             itemSlots.TryAdd(item.Value.ItemId, item.Value.Slot);
-                        }   
+                        }
                     }
                 }
                 File.WriteAllText(Constants.CombinePath(Constants.ItemDbPath, @$"\ItemSlots.json"), JsonConvert.SerializeObject(itemSlots, Formatting.Indented));
 
-                if (!guide.Item2.ContainsKey(phaseNumber))
-                    guide.Item2.Add(phaseNumber, new List<EnchantSpec>());
-                else
-                    guide.Item2[phaseNumber].Clear();
+                // if (!guide.Item2.ContainsKey(phaseNumber))
+                //     guide.Item2.Add(phaseNumber, new List<EnchantSpec>());
+                // else
+                //     guide.Item2[phaseNumber].Clear();
 
                 
-                foreach (var enchant in itemsAndEnchants.Item2)
-                {
-                    if (!guide.Item2.Any(e => e.Value.Any(e => e.EnchantId == enchant.Key)))
-                    {
-                        guide.Item2[phaseNumber].Add(enchant.Value);
-                    }
-                }
+                // foreach (var enchant in itemsAndEnchants.Item2)
+                // {
+                //     if (!guide.Item2.Any(e => e.Value.Any(e => e.EnchantId == enchant.Key)))
+                //     {
+                //         guide.Item2[phaseNumber].Add(enchant.Value);
+                //     }
+                // }
 
                 if (!guide.Item3.ContainsKey(phaseNumber))
                     guide.Item3.Add(phaseNumber, new List<ItemSpec>());

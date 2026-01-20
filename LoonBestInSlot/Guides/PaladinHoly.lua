@@ -26,8 +26,8 @@ LBIS:AddEnchant(spec3, "27926", LBIS.L["Ring"]) --
 LBIS:AddEnchant(spec5, "34006", LBIS.L["Back"]) --
 
 LBIS:AddItem(spec0, "32472", LBIS.L["Head"], "BIS") --Justicebringer 2000 Specs
-LBIS:AddItem(spec0, "24264", LBIS.L["Head"], "BIS") --Whitemend Hood
 LBIS:AddItem(spec0, "32084", LBIS.L["Head"], "BIS") --Helmet of the Steadfast Champion
+LBIS:AddItem(spec0, "24264", LBIS.L["Head"], "BIS") --Whitemend Hood
 LBIS:AddItem(spec0, "28413", LBIS.L["Head"], "Alt") --Hallowed Crown
 LBIS:AddItem(spec0, "28348", LBIS.L["Head"], "Alt") --Moonglade Cowl
 LBIS:AddItem(spec0, "25820", LBIS.L["Head"], "Alt") --Metallic Headband of Simm'onz

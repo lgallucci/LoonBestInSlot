@@ -73,17 +73,17 @@ public class WowheadGuideParser
         bool enchantsAndGems = classGuide.Phase == Constants.CurrentPhase;
 
         //Get Gems and Enchants
-        LoopThroughEnchantsAndGems(doc, (enchantAnchor, slot) =>
-            {
-                ParseEnchant(enchantAnchor, slot, enchants);
-                return true;
-            },
-            (gemAnchor, slot) =>
-            {
-                ParseGem(gemAnchor, gems);
-                return true;
-            }
-        );
+        // LoopThroughEnchantsAndGems(doc, (enchantAnchor, slot) =>
+        //     {
+        //         ParseEnchant(enchantAnchor, slot, enchants);
+        //         return true;
+        //     },
+        //     (gemAnchor, slot) =>
+        //     {
+        //         ParseGem(gemAnchor, gems);
+        //         return true;
+        //     }
+        // );
 
         //Get Items
         bool first = true;
@@ -408,13 +408,24 @@ public class WowheadGuideParser
         return itemIds;
     }
 
+    private HashSet<string> _seenSlots = new HashSet<string>();
+    private HashSet<string> _excludedSlots = new HashSet<string>()
+    {
+        "Quivers",
+        "Ammo",
+        "Arrows",
+        "Bullets"
+    };
     private void LoopThroughTable(IHtmlTableElement table, Action<INode, IElement?, int, string, string> action, string phase)
     {
         var itemOrderIndex = 0;
         var firstRow = false;
         var tableRows = table?.FirstChild?.ChildNodes;
 
-        var tableSlot = RecursivelyFindHeaderWithSlot(table?.ParentElement?.PreviousElementSibling);
+        var tableSlot = RecursivelyFindHeaderWithSlot(table.ParentElement);
+
+        if (_excludedSlots.Contains(tableSlot))
+            return;
         if (tableRows != null)
         {
             foreach (var tableRow in tableRows)
@@ -430,11 +441,12 @@ public class WowheadGuideParser
                     {
                         break;
                     }
-                }             
+                }
 
-                var slot = TryToGetSlot(tableSlot, tableRow.ChildNodes[0].TextContent.Trim());    
+                var slot = TryToGetSlot(tableSlot, tableRow.ChildNodes[0].TextContent.Trim());   
 
-                var bisText = GetBisText(tableRow.ChildNodes[0].TextContent.Trim(), itemOrderIndex == 0, phase);
+                var bisText = GetBisText(tableRow.ChildNodes[0].TextContent.Trim(), !_seenSlots.Contains(slot), phase);
+                _seenSlots.Add(slot);
 
                 action(tableRow, (IElement)tableRow.ChildNodes[1], itemOrderIndex, bisText, slot);
 
@@ -443,12 +455,11 @@ public class WowheadGuideParser
         }
     }
 
-    private bool IsItemTable(INode tableRow)
+    private static bool IsItemTable(INode tableRow)
     {
         return (tableRow.ChildNodes[0].TextContent.Trim() == "Priority" || tableRow.ChildNodes[0].TextContent.Trim() == "Rank") && 
                 tableRow.ChildNodes[1].TextContent.Trim() == "Item" &&
-                tableRow.ChildNodes[2].TextContent.Trim() == "Sockets" && 
-                tableRow.ChildNodes[3].TextContent.Trim() == "Source";
+                tableRow.ChildNodes[2].TextContent.Trim() == "Source";
     }
 
     private string TryToGetSlot(string slot, string bisStatus)
@@ -466,15 +477,24 @@ public class WowheadGuideParser
         if (element == null)
             return "unknown";
 
-        if (element.NodeName == "H2" || element.NodeName == "H3" || element.NodeName == "H4" || element.NodeName == "H5")
+        var header = FindPreviousHeader(element);
+
+        if (header != null)
         {
-            var headerText = element.TextContent.Trim();
+            var headerText = header.TextContent.Replace("Best in Slot", "").Replace("Best-in-Slot", "").
+            Replace("Pre-Raid", "").Replace("Other", "").Replace("overall", "").Trim();
+
             var slotSplit = headerText.Split(" ");
             var slotText = _slotSwaps.GetSlot(slotSplit[0]);
             if ((slotText == "unknown" || string.IsNullOrEmpty(slotText)) && slotSplit.Length > 1)
             {
                 slotText = _slotSwaps.GetSlot($"{slotSplit[0]} {slotSplit[1]}");
-            }            
+                if (slotText == "unknown" || string.IsNullOrWhiteSpace(slotText))
+                {           
+                    slotText = _slotSwaps.GetSlot(slotSplit[slotSplit.Length-1]);
+                }
+            } 
+          
             if (slotText == "unknown" || string.IsNullOrEmpty(slotText))
             {
                 slotText = _slotSwaps.GetSlot(headerText);
@@ -486,24 +506,95 @@ public class WowheadGuideParser
             }
         }
 
-        string result = "unknown";
-        if (element is IHtmlTableElement && IsItemTable(element?.FirstChild?.ChildNodes[0] ?? null))
+        return "unknown";
+    }
+
+    public static IElement? FindPreviousHeader(IElement start)
+    {
+        if (start == null)
+            return null;
+
+        // Exit if the starting element itself is a table
+        if (IsTable(start))
+            return null;
+
+        // 1. Walk previous siblings
+        var sibling = start.PreviousElementSibling;
+        while (sibling != null)
         {
-            Console.WriteLine("Found table element instead of slot header.  Stopping search.");
-            return "exit";
-        }
-        if (result != "exit" && element.ChildElementCount > 0)
-        {
-            result = RecursivelyFindHeaderWithSlot(element.Children[0]);
-        }
-        if (result != "exit" && element.PreviousElementSibling != null)
-        {
-            result = RecursivelyFindHeaderWithSlot(element.PreviousElementSibling);
+            // Exit if we hit a table
+            if (IsTable(sibling))
+                return null;
+
+            // Check the sibling itself
+            if (IsHeader(sibling))
+                return sibling;
+
+            // Check sibling's subtree (right-to-left)
+            var descendant = FindLastHeaderInSubtree(sibling);
+            if (descendant != null)
+                return descendant;
+
+            sibling = sibling.PreviousElementSibling;
         }
 
-        if (result == "exit")
-            return "unknown";
-        return result;
+        // 2. Move up to parent
+        var parent = start.ParentElement;
+
+        // Exit if parent is a table
+        if (parent != null && IsTable(parent))
+            return null;
+
+        return parent != null
+            ? FindPreviousHeader(parent)
+            : null;
+    }
+
+    private static IElement? FindLastHeaderInSubtree(IElement element)
+    {
+        // Exit immediately if subtree root is a table
+        if (IsTable(element))
+            return null;
+
+        for (var child = element.LastElementChild; child != null; child = child.PreviousElementSibling)
+        {
+            // Exit if any descendant is a table
+            if (IsTable(child))
+                return null;
+
+            if (IsHeader(child))
+                return child;
+
+            var nested = FindLastHeaderInSubtree(child);
+            if (nested != null)
+                return nested;
+        }
+
+        return null;
+    }
+
+    private static bool IsHeader(IElement element)
+    {
+        return element.TagName.Length == 2 &&
+               element.TagName[0] == 'H' &&
+               element.TagName[1] >= '2' &&
+               element.TagName[1] <= '5';
+    }
+
+    private static bool IsTable(IElement element)
+    {
+        if (element.TagName == "TABLE")
+        {
+            var tableRow = element.FirstChild?.ChildNodes[0];
+            if (tableRow != null)
+            {
+                return (tableRow.ChildNodes[0].TextContent.Trim() == "Priority" || tableRow.ChildNodes[0].TextContent.Trim() == "Rank") && 
+                        tableRow.ChildNodes[1].TextContent.Trim() == "Item" &&
+                        tableRow.ChildNodes[2].TextContent.Trim() == "Source";
+            }
+        }
+
+        return false;
     }
 
     private List<string> _bisTextSwaps = new()

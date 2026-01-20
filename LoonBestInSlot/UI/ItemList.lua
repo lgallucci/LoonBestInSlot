@@ -109,6 +109,8 @@ slotToWowCodes[LBIS.L["Ring"]] = "FINGER0SLOT,FINGER1SLOT";
 slotToWowCodes[LBIS.L["Trinket"]] = "TRINKET0SLOT,TRINKET1SLOT";
 slotToWowCodes[LBIS.L["Main Hand"]] = "MAINHANDSLOT";
 slotToWowCodes[LBIS.L["Off Hand"]] = "SECONDARYHANDSLOT";
+slotToWowCodes[LBIS.L["Two Hand"]] = "MAINHANDSLOT";
+slotToWowCodes[LBIS.L["Ranged/Relic"]] = "RANGEDSLOT";
 local function IsNotObsolete(specItem)
     if LBISSettings.HideObsolete then
 

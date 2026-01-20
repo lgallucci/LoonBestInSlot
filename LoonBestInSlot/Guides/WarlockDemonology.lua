@@ -33,17 +33,16 @@ LBIS:AddEnchant(spec0, "27982", LBIS.L["Main Hand"]) --
 LBIS:AddEnchant(spec4, "27924", LBIS.L["Ring"]) --
 LBIS:AddEnchant(spec5, "29467", LBIS.L["Shoulder"]) --
 
-LBIS:AddItem(spec0, "32494", LBIS.L["Head"], "BIS") --Destruction Holo-gogs
 LBIS:AddItem(spec0, "24266", LBIS.L["Head"], "BIS") --Spellstrike Hood
 LBIS:AddItem(spec0, "31104", LBIS.L["Head"], "Alt") --Evoker's Helmet of Second Sight
 LBIS:AddItem(spec0, "28278", LBIS.L["Head"], "Alt") --Incanter's Cowl
 LBIS:AddItem(spec0, "28415", LBIS.L["Head"], "Alt") --Hood of Oblivion
 LBIS:AddItem(spec0, "28169", LBIS.L["Head"], "Alt") --Mag'hari Ritualist's Horns
 LBIS:AddItem(spec0, "21869", LBIS.L["Shoulder"], "BIS") --Frozen Shadoweave Shoulders
-LBIS:AddItem(spec0, "22507", LBIS.L["Shoulder"], "BIS") --Plagueheart Shoulderpads
-LBIS:AddItem(spec0, "27796", LBIS.L["Shoulder"], "BIS") --Mana-Etched Spaulders
-LBIS:AddItem(spec0, "30925", LBIS.L["Shoulder"], "BIS") --Spaulders of the Torn-heart
+LBIS:AddItem(spec0, "22507", LBIS.L["Shoulder"], "Alt") --Plagueheart Shoulderpads
+LBIS:AddItem(spec0, "27796", LBIS.L["Shoulder"], "Alt") --Mana-Etched Spaulders
 LBIS:AddItem(spec0, "27994", LBIS.L["Shoulder"], "Alt") --Mantle of Three Terrors
+LBIS:AddItem(spec0, "30925", LBIS.L["Shoulder"], "Alt") --Spaulders of the Torn-heart
 LBIS:AddItem(spec0, "23050", LBIS.L["Back"], "BIS") --Cloak of the Necropolis
 LBIS:AddItem(spec0, "27981", LBIS.L["Back"], "Alt") --Sethekk Oracle Cloak
 LBIS:AddItem(spec0, "22731", LBIS.L["Back"], "Alt") --Cloak of the Devoured
@@ -58,11 +57,10 @@ LBIS:AddItem(spec0, "21186", LBIS.L["Wrist"], "BIS") --Rockfury Bracers
 LBIS:AddItem(spec0, "24250", LBIS.L["Wrist"], "BIS") --Bracers of Havok
 LBIS:AddItem(spec0, "27462", LBIS.L["Wrist"], "Alt") --Crimson Bracers of Gloom
 LBIS:AddItem(spec0, "21585", LBIS.L["Hands"], "BIS") --Dark Storm Gauntlets
-LBIS:AddItem(spec0, "31149", LBIS.L["Hands"], "Alt") --Gloves of Pandemonium
+LBIS:AddItem(spec0, "31149", LBIS.L["Hands"], "BIS") --Gloves of Pandemonium
 LBIS:AddItem(spec0, "27465", LBIS.L["Hands"], "Alt") --Mana-Etched Gloves
 LBIS:AddItem(spec0, "27537", LBIS.L["Hands"], "Alt") --Gloves of Oblivion
 LBIS:AddItem(spec0, "24450", LBIS.L["Hands"], "Alt") --Manaspark Gloves
-LBIS:AddItem(spec0, "30038", LBIS.L["Waist"], "BIS") --Belt of Blasting
 LBIS:AddItem(spec0, "24256", LBIS.L["Waist"], "BIS") --Girdle of Ruination
 LBIS:AddItem(spec0, "29241", LBIS.L["Waist"], "BIS") --Belt of Depravity
 LBIS:AddItem(spec0, "22730", LBIS.L["Waist"], "Alt") --Eyestalk Waist Cord
@@ -91,27 +89,28 @@ LBIS:AddItem(spec0, "28555", LBIS.L["Ring"], "Alt") --Seal of the Exorcist
 LBIS:AddItem(spec0, "21709", LBIS.L["Ring"], "Alt") --Ring of the Fallen God
 LBIS:AddItem(spec0, "23031", LBIS.L["Ring"], "Alt") --Band of the Inevitable
 LBIS:AddItem(spec0, "23025", LBIS.L["Ring"], "Alt") --Seal of the Damned
-LBIS:AddItem(spec0, "19337", LBIS.L["Trinket"], "BIS") --The Black Book
 LBIS:AddItem(spec0, "29370", LBIS.L["Trinket"], "BIS") --Icon of the Silver Crescent
 LBIS:AddItem(spec0, "27683", LBIS.L["Trinket"], "BIS") --Quagmirran's Eye
+LBIS:AddItem(spec0, "19337", LBIS.L["Trinket"], "BIS") --The Black Book
 LBIS:AddItem(spec0, "23207", LBIS.L["Trinket"], "Alt") --Mark of the Champion
 LBIS:AddItem(spec0, "29132", LBIS.L["Trinket"], "Alt") --Scryer's Bloodgem
 LBIS:AddItem(spec0, "19379", LBIS.L["Trinket"], "Alt") --Neltharion's Tear
 LBIS:AddItem(spec0, "23046", LBIS.L["Trinket"], "Alt") --The Restrained Essence of Sapphiron
 LBIS:AddItem(spec0, "31336", LBIS.L["Main Hand"], "BIS") --Blade of Wizardry
 LBIS:AddItem(spec0, "30787", LBIS.L["Main Hand"], "Alt") --Illidari-Bane Mageblade
-LBIS:AddItem(spec0, "29155", LBIS.L["Main Hand"], "Alt") --Stormcaller
 LBIS:AddItem(spec0, "29153", LBIS.L["Main Hand"], "Alt") --Blade of the Archmage
+LBIS:AddItem(spec0, "29155", LBIS.L["Main Hand"], "Alt") --Stormcaller
 LBIS:AddItem(spec0, "27905", LBIS.L["Main Hand"], "Alt") --Greatsword of Horrid Dreams
 LBIS:AddItem(spec0, "29273", LBIS.L["Off Hand"], "BIS") --Khadgar's Knapsack
 LBIS:AddItem(spec0, "28412", LBIS.L["Off Hand"], "BIS") --Lamp of Peaceful Radiance
 LBIS:AddItem(spec0, "29272", LBIS.L["Off Hand"], "Alt") --Orb of the Soul-Eater
 LBIS:AddItem(spec0, "23049", LBIS.L["Off Hand"], "Alt") --Sapphiron's Left Eye
+LBIS:AddItem(spec0, "21597", LBIS.L["Off Hand"], "Alt") --Royal Scepter of Vek'lor
 LBIS:AddItem(spec0, "22630", LBIS.L["Two Hand"], "BIS") --Atiesh, Greatstaff of the Guardian
 LBIS:AddItem(spec0, "28386", LBIS.L["Ranged/Relic"], "BIS") --Nether Core's Control Rod
+LBIS:AddItem(spec0, "22820", LBIS.L["Ranged/Relic"], "Alt") --Wand of Fates
 LBIS:AddItem(spec0, "22821", LBIS.L["Ranged/Relic"], "Alt") --Doomfinger
 LBIS:AddItem(spec0, "29350", LBIS.L["Ranged/Relic"], "Alt") --The Black Stalk
-LBIS:AddItem(spec0, "22820", LBIS.L["Ranged/Relic"], "Alt") --Wand of Fates
 
 LBIS:AddItem(spec1, "28963", LBIS.L["Head"], "BIS") --Voidheart Crown
 LBIS:AddItem(spec1, "24266", LBIS.L["Head"], "Alt") --Spellstrike Hood

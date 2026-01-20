@@ -30,8 +30,7 @@ LBIS:AddEnchant(spec0, "27975", LBIS.L["Main Hand"]) --
 LBIS:AddEnchant(spec0, "27945", LBIS.L["Off Hand"]) --
 LBIS:AddEnchant(spec5, "27924", LBIS.L["Ring"]) --
 
-LBIS:AddItem(spec0, "32476", LBIS.L["Head"], "BIS") --Gadgetstorm Goggles
-LBIS:AddItem(spec0, "32086", LBIS.L["Head"], "Alt") --Storm Master's Helmet
+LBIS:AddItem(spec0, "32086", LBIS.L["Head"], "BIS") --Storm Master's Helmet
 LBIS:AddItem(spec0, "28415", LBIS.L["Head"], "Alt") --Hood of Oblivion
 LBIS:AddItem(spec0, "28278", LBIS.L["Head"], "Alt") --Incanter's Cowl
 LBIS:AddItem(spec0, "24266", LBIS.L["Head"], "Alt") --Spellstrike Hood
@@ -60,8 +59,8 @@ LBIS:AddItem(spec0, "29524", LBIS.L["Waist"], "BIS") --Windhawk Belt
 LBIS:AddItem(spec0, "31283", LBIS.L["Waist"], "Alt") --Sash of Sealed Fate
 LBIS:AddItem(spec0, "24262", LBIS.L["Legs"], "BIS") --Spellstrike Pants
 LBIS:AddItem(spec0, "30541", LBIS.L["Legs"], "Alt") --Stormsong Kilt
-LBIS:AddItem(spec0, "29142", LBIS.L["Legs"], "Alt") --Kurenai Kilt
 LBIS:AddItem(spec0, "29141", LBIS.L["Legs"], "Alt") --Tempest Leggings
+LBIS:AddItem(spec0, "29142", LBIS.L["Legs"], "Alt") --Kurenai Kilt
 LBIS:AddItem(spec0, "30709", LBIS.L["Legs"], "Alt") --Pantaloons of Flaming Wrath
 LBIS:AddItem(spec0, "28406", LBIS.L["Feet"], "BIS") --Sigil-Laced Boots
 LBIS:AddItem(spec0, "28179", LBIS.L["Feet"], "Alt") --Shattrath Jumpers
@@ -74,10 +73,9 @@ LBIS:AddItem(spec0, "29352", LBIS.L["Ring"], "BIS") --Cobalt Band of Tyrigosa
 LBIS:AddItem(spec0, "31290", LBIS.L["Ring"], "BIS") --Band of Dominion
 LBIS:AddItem(spec0, "29172", LBIS.L["Ring"], "Alt") --Ashyen's Gift
 LBIS:AddItem(spec0, "28227", LBIS.L["Ring"], "Alt") --Sparking Arcanite Ring
-LBIS:AddItem(spec0, "23207", LBIS.L["Trinket"], "BIS") --Mark of the Champion
 LBIS:AddItem(spec0, "29370", LBIS.L["Trinket"], "BIS") --Icon of the Silver Crescent
-LBIS:AddItem(spec0, "38290", LBIS.L["Trinket"], "BIS") --Dark Iron Smoking Pipe
 LBIS:AddItem(spec0, "27683", LBIS.L["Trinket"], "BIS") --Quagmirran's Eye
+LBIS:AddItem(spec0, "23207", LBIS.L["Trinket"], "Alt") --Mark of the Champion
 LBIS:AddItem(spec0, "29179", LBIS.L["Trinket"], "Alt") --Xi'ri's Gift
 LBIS:AddItem(spec0, "29132", LBIS.L["Trinket"], "Alt") --Scryer's Bloodgem
 LBIS:AddItem(spec0, "28418", LBIS.L["Trinket"], "Alt") --Shiffar's Nexus-Horn
