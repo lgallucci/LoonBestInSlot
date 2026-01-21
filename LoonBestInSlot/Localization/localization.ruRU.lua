@@ -41,7 +41,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Azgalor"] = "Азгалор";
   LBIS.L["Back"] = "Спина";
   LBIS.L["Back to the Chief!"] = "Обратно к командующему!";
---  LBIS.L["Badges of Justice"] = "";
+  LBIS.L["Badge of Justice"] = "Очко справедливости";
   LBIS.L["Bag"] = "Сумка";
 --  LBIS.L["Bag of Fishing Treasures"] = "";
   LBIS.L["Balance"] = "Баланс";
@@ -207,6 +207,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Kael'thas Sunstrider"] = "Кель'тас Солнечный Скиталец";
   LBIS.L["Kalecgos"] = "Калесгос";
   LBIS.L["Karazhan"] = "Каражан";
+--  LBIS.L["Kayri"] = "";
   LBIS.L["Kaz'rogal"] = "Каз'рогал";
   LBIS.L["Keepers of Time"] = "Хранители Времени";
 --  LBIS.L["Keepers of Time Quartermaster"] = "";
@@ -327,6 +328,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Sethekk Halls (Heroic)"] = "Сетеккские залы (Героический)";
   LBIS.L["Settings"] = "Параметры";
 --  LBIS.L["Sha'tari Quartermaster"] = "";
+  LBIS.L["Sha'tari Skyguard"] = "Стражи небес Ша'тар";
   LBIS.L["Shade of Akama"] = "Тень Акамы";
   LBIS.L["Shade of Aran"] = "Тень Арана";
   LBIS.L["Shadow"] = "Тень";
@@ -354,7 +356,8 @@ if GetLocale() == "ruRU" then
   LBIS.L["Special Delivery to Shattrath City"] = "Специальный груз в город Шаттрат";
 --  LBIS.L["Spellfire Tailoring"] = "";
 --  LBIS.L["Spirit Sage Gartok/Spirit Sage Zran"] = "";
---  LBIS.L["Spirit Shards"] = "";
+--  LBIS.L["Spirit Shard"] = "";
+  LBIS.L["Sporeggar"] = "Спореггар";
 --  LBIS.L["Starting Vendors"] = "";
   LBIS.L["Subdue the Subduer"] = "Покорить Покорителя";
   LBIS.L["Success!"] = "Готово!";

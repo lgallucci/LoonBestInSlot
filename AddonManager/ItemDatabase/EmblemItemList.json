@@ -1,4 +1,2036 @@
 {
-  "Items": {    
+  "Items": {
+    "23572": {
+      "Name": "Primal Nether",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "10",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "28553": {
+      "Name": "Band of the Exorcist",
+      "Source": "Spirit Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Spirit Sage Gartok/Spirit Sage Zran",
+      "SourceFaction": "B"
+    },
+    "28555": {
+      "Name": "Seal of the Exorcist",
+      "Source": "Spirit Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Spirit Sage Gartok/Spirit Sage Zran",
+      "SourceFaction": "B"
+    },
+    "28556": {
+      "Name": "Swift Windfire Diamond",
+      "Source": "Spirit Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "8",
+      "SourceLocation": "Spirit Sage Gartok/Spirit Sage Zran",
+      "SourceFaction": "B"
+    },
+    "28557": {
+      "Name": "Swift Starfire Diamond",
+      "Source": "Spirit Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "8",
+      "SourceLocation": "Spirit Sage Gartok/Spirit Sage Zran",
+      "SourceFaction": "B"
+    },
+    "28559": {
+      "Name": "Exorcist's Plate Helm",
+      "Source": "Spirit Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "18",
+      "SourceLocation": "Spirit Sage Gartok/Spirit Sage Zran",
+      "SourceFaction": "B"
+    },
+    "28560": {
+      "Name": "Exorcist's Lamellar Helm",
+      "Source": "Spirit Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "18",
+      "SourceLocation": "Spirit Sage Gartok/Spirit Sage Zran",
+      "SourceFaction": "B"
+    },
+    "28561": {
+      "Name": "Exorcist's Leather Helm",
+      "Source": "Spirit Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "18",
+      "SourceLocation": "Spirit Sage Gartok/Spirit Sage Zran",
+      "SourceFaction": "B"
+    },
+    "28574": {
+      "Name": "Exorcist's Dragonhide Helm",
+      "Source": "Spirit Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "18",
+      "SourceLocation": "Spirit Sage Gartok/Spirit Sage Zran",
+      "SourceFaction": "B"
+    },
+    "28575": {
+      "Name": "Exorcist's Wyrmhide Helm",
+      "Source": "Spirit Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "18",
+      "SourceLocation": "Spirit Sage Gartok/Spirit Sage Zran",
+      "SourceFaction": "B"
+    },
+    "28576": {
+      "Name": "Exorcist's Chain Helm",
+      "Source": "Spirit Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "18",
+      "SourceLocation": "Spirit Sage Gartok/Spirit Sage Zran",
+      "SourceFaction": "B"
+    },
+    "28577": {
+      "Name": "Exorcist's Linked Helm",
+      "Source": "Spirit Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "18",
+      "SourceLocation": "Spirit Sage Gartok/Spirit Sage Zran",
+      "SourceFaction": "B"
+    },
+    "28758": {
+      "Name": "Exorcist's Mail Helm",
+      "Source": "Spirit Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "18",
+      "SourceLocation": "Spirit Sage Gartok/Spirit Sage Zran",
+      "SourceFaction": "B"
+    },
+    "28759": {
+      "Name": "Exorcist's Dreadweave Hood",
+      "Source": "Spirit Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "18",
+      "SourceLocation": "Spirit Sage Gartok/Spirit Sage Zran",
+      "SourceFaction": "B"
+    },
+    "28760": {
+      "Name": "Exorcist's Silk Hood",
+      "Source": "Spirit Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "18",
+      "SourceLocation": "Spirit Sage Gartok/Spirit Sage Zran",
+      "SourceFaction": "B"
+    },
+    "28761": {
+      "Name": "Exorcist's Scaled Helm",
+      "Source": "Spirit Shard",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "18",
+      "SourceLocation": "Spirit Sage Gartok/Spirit Sage Zran",
+      "SourceFaction": "B"
+    },
+    "29266": {
+      "Name": "Azure-Shield of Coldarra",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "33",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "29267": {
+      "Name": "Light-Bearer's Faith Shield",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "33",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "29268": {
+      "Name": "Mazthoril Honor Shield",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "33",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "29269": {
+      "Name": "Sapphiron's Wing Bone",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "29270": {
+      "Name": "Flametongue Seal",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "29271": {
+      "Name": "Talisman of Kalecgos",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "29272": {
+      "Name": "Orb of the Soul-Eater",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "29273": {
+      "Name": "Khadgar's Knapsack",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "29274": {
+      "Name": "Tears of Heaven",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "29275": {
+      "Name": "Searing Sunblade",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "29367": {
+      "Name": "Ring of Cryptic Dreams",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "29368": {
+      "Name": "Manasurge Pendant",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "29369": {
+      "Name": "Shawl of Shifting Probabilities",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "29370": {
+      "Name": "Icon of the Silver Crescent",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "41",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "29373": {
+      "Name": "Band of Halos",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "29374": {
+      "Name": "Necklace of Eternal Hope",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "29375": {
+      "Name": "Bishop's Cloak",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "29376": {
+      "Name": "Essence of the Martyr",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "41",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "29379": {
+      "Name": "Ring of Arathi Warlords",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "29381": {
+      "Name": "Choker of Vile Intent",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "29382": {
+      "Name": "Blood Knight War Cloak",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "29383": {
+      "Name": "Bloodlust Brooch",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "41",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "29384": {
+      "Name": "Ring of Unyielding Force",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "29385": {
+      "Name": "Farstrider Defender's Cloak",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "29386": {
+      "Name": "Necklace of the Juggernaut",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "29387": {
+      "Name": "Gnomeregan Auto-Blocker 600",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "41",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "29388": {
+      "Name": "Libram of Repentance",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "15",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "29389": {
+      "Name": "Totem of the Pulsing Earth",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "15",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "29390": {
+      "Name": "Everbloom Idol",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "15",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "30183": {
+      "Name": "Nether Vortex",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "15",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "30761": {
+      "Name": "Infernoweave Leggings",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "30762": {
+      "Name": "Infernoweave Robe",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "30763": {
+      "Name": "Infernoweave Boots",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "20",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "30764": {
+      "Name": "Infernoweave Gloves",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "20",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "30766": {
+      "Name": "Inferno Tempered Leggings",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "30767": {
+      "Name": "Inferno Tempered Gauntlets",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "20",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "30768": {
+      "Name": "Inferno Tempered Boots",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "20",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "30769": {
+      "Name": "Inferno Tempered Chestguard",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "30770": {
+      "Name": "Inferno Forged Boots",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "20",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "30772": {
+      "Name": "Inferno Forged Leggings",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "30773": {
+      "Name": "Inferno Forged Hauberk",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "30774": {
+      "Name": "Inferno Forged Gloves",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "20",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "30776": {
+      "Name": "Inferno Hardened Chestguard",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "30778": {
+      "Name": "Inferno Hardened Leggings",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "30779": {
+      "Name": "Inferno Hardened Boots",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "20",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "30780": {
+      "Name": "Inferno Hardened Gloves",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "20",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "32083": {
+      "Name": "Faceguard of Determination",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "32084": {
+      "Name": "Helmet of the Steadfast Champion",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "32085": {
+      "Name": "Warpstalker Helm",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "32086": {
+      "Name": "Storm Master's Helmet",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "32087": {
+      "Name": "Mask of the Deceiver",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "32088": {
+      "Name": "Cowl of Beastly Rage",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "32089": {
+      "Name": "Mana-Binders Cowl",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "32090": {
+      "Name": "Cowl of Naaru Blessings",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "32785": {
+      "Name": "Veteran's Chain Sabatons",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "40",
+      "SourceLocation": "Kayri",
+      "SourceFaction": "B"
+    },
+    "32786": {
+      "Name": "Veteran's Dragonhide Boots",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "40",
+      "SourceLocation": "Kayri",
+      "SourceFaction": "B"
+    },
+    "32787": {
+      "Name": "Veteran's Dreadweave Stalkers",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "40",
+      "SourceLocation": "Kayri",
+      "SourceFaction": "B"
+    },
+    "32788": {
+      "Name": "Veteran's Kodohide Boots",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "40",
+      "SourceLocation": "Kayri",
+      "SourceFaction": "B"
+    },
+    "32789": {
+      "Name": "Veteran's Lamellar Greaves",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "40",
+      "SourceLocation": "Kayri",
+      "SourceFaction": "B"
+    },
+    "32790": {
+      "Name": "Veteran's Leather Boots",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "40",
+      "SourceLocation": "Kayri",
+      "SourceFaction": "B"
+    },
+    "32791": {
+      "Name": "Veteran's Linked Sabatons",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "40",
+      "SourceLocation": "Kayri",
+      "SourceFaction": "B"
+    },
+    "32792": {
+      "Name": "Veteran's Mail Sabatons",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "40",
+      "SourceLocation": "Kayri",
+      "SourceFaction": "B"
+    },
+    "32793": {
+      "Name": "Veteran's Plate Greaves",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "40",
+      "SourceLocation": "Kayri",
+      "SourceFaction": "B"
+    },
+    "32794": {
+      "Name": "Veteran's Scaled Greaves",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "40",
+      "SourceLocation": "Kayri",
+      "SourceFaction": "B"
+    },
+    "32795": {
+      "Name": "Veteran's Silk Footguards",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "40",
+      "SourceLocation": "Kayri",
+      "SourceFaction": "B"
+    },
+    "32796": {
+      "Name": "Veteran's Wyrmhide Boots",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "40",
+      "SourceLocation": "Kayri",
+      "SourceFaction": "B"
+    },
+    "32797": {
+      "Name": "Veteran's Chain Girdle",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "40",
+      "SourceLocation": "Kayri",
+      "SourceFaction": "B"
+    },
+    "32798": {
+      "Name": "Veteran's Dragonhide Belt",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "40",
+      "SourceLocation": "Kayri",
+      "SourceFaction": "B"
+    },
+    "32799": {
+      "Name": "Veteran's Dreadweave Belt",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "40",
+      "SourceLocation": "Kayri",
+      "SourceFaction": "B"
+    },
+    "32800": {
+      "Name": "Veteran's Kodohide Belt",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "40",
+      "SourceLocation": "Kayri",
+      "SourceFaction": "B"
+    },
+    "32801": {
+      "Name": "Veteran's Lamellar Belt",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "40",
+      "SourceLocation": "Kayri",
+      "SourceFaction": "B"
+    },
+    "32802": {
+      "Name": "Veteran's Leather Belt",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "40",
+      "SourceLocation": "Kayri",
+      "SourceFaction": "B"
+    },
+    "32803": {
+      "Name": "Veteran's Linked Girdle",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "40",
+      "SourceLocation": "Kayri",
+      "SourceFaction": "B"
+    },
+    "32804": {
+      "Name": "Veteran's Mail Girdle",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "40",
+      "SourceLocation": "Kayri",
+      "SourceFaction": "B"
+    },
+    "32805": {
+      "Name": "Veteran's Plate Belt",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "40",
+      "SourceLocation": "Kayri",
+      "SourceFaction": "B"
+    },
+    "32806": {
+      "Name": "Veteran's Scaled Belt",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "40",
+      "SourceLocation": "Kayri",
+      "SourceFaction": "B"
+    },
+    "32807": {
+      "Name": "Veteran's Silk Belt",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "40",
+      "SourceLocation": "Kayri",
+      "SourceFaction": "B"
+    },
+    "32808": {
+      "Name": "Veteran's Wyrmhide Belt",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "40",
+      "SourceLocation": "Kayri",
+      "SourceFaction": "B"
+    },
+    "32809": {
+      "Name": "Veteran's Chain Bracers",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Kayri",
+      "SourceFaction": "B"
+    },
+    "32810": {
+      "Name": "Veteran's Dragonhide Bracers",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Kayri",
+      "SourceFaction": "B"
+    },
+    "32811": {
+      "Name": "Veteran's Dreadweave Cuffs",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Kayri",
+      "SourceFaction": "B"
+    },
+    "32812": {
+      "Name": "Veteran's Kodohide Bracers",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Kayri",
+      "SourceFaction": "B"
+    },
+    "32813": {
+      "Name": "Veteran's Lamellar Bracers",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Kayri",
+      "SourceFaction": "B"
+    },
+    "32814": {
+      "Name": "Veteran's Leather Bracers",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Kayri",
+      "SourceFaction": "B"
+    },
+    "32816": {
+      "Name": "Veteran's Linked Bracers",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Kayri",
+      "SourceFaction": "B"
+    },
+    "32817": {
+      "Name": "Veteran's Mail Bracers",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Kayri",
+      "SourceFaction": "B"
+    },
+    "32818": {
+      "Name": "Veteran's Plate Bracers",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Kayri",
+      "SourceFaction": "B"
+    },
+    "32819": {
+      "Name": "Veteran's Scaled Bracers",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Kayri",
+      "SourceFaction": "B"
+    },
+    "32820": {
+      "Name": "Veteran's Silk Cuffs",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Kayri",
+      "SourceFaction": "B"
+    },
+    "32821": {
+      "Name": "Veteran's Wyrmhide Bracers",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Kayri",
+      "SourceFaction": "B"
+    },
+    "32979": {
+      "Name": "Veteran's Mooncloth Belt",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "40",
+      "SourceLocation": "Kayri",
+      "SourceFaction": "B"
+    },
+    "32980": {
+      "Name": "Veteran's Mooncloth Cuffs",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Kayri",
+      "SourceFaction": "B"
+    },
+    "32981": {
+      "Name": "Veteran's Mooncloth Slippers",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "40",
+      "SourceLocation": "Kayri",
+      "SourceFaction": "B"
+    },
+    "32988": {
+      "Name": "Veteran's Ornamented Belt",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "40",
+      "SourceLocation": "Kayri",
+      "SourceFaction": "B"
+    },
+    "32989": {
+      "Name": "Veteran's Ornamented Bracers",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Kayri",
+      "SourceFaction": "B"
+    },
+    "32990": {
+      "Name": "Veteran's Ornamented Greaves",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "40",
+      "SourceLocation": "Kayri",
+      "SourceFaction": "B"
+    },
+    "32997": {
+      "Name": "Veteran's Ringmail Bracers",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "Kayri",
+      "SourceFaction": "B"
+    },
+    "32998": {
+      "Name": "Veteran's Ringmail Girdle",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "40",
+      "SourceLocation": "Kayri",
+      "SourceFaction": "B"
+    },
+    "32999": {
+      "Name": "Veteran's Ringmail Sabatons",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "40",
+      "SourceLocation": "Kayri",
+      "SourceFaction": "B"
+    },
+    "33192": {
+      "Name": "Carved Witch Doctor's Stick",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "25",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33207": {
+      "Name": "Implacable Guardian Sabatons",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33222": {
+      "Name": "Nyn'jah's Tabi Boots",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33279": {
+      "Name": "Iron-tusk Girdle",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33280": {
+      "Name": "War-Feathered Loop",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33287": {
+      "Name": "Gnarled Ironwood Pauldrons",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33291": {
+      "Name": "Voodoo-woven Belt",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33296": {
+      "Name": "Brooch of Deftness",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "35",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33304": {
+      "Name": "Cloak of Subjugated Power",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33324": {
+      "Name": "Treads of the Life Path",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33325": {
+      "Name": "Voodoo Shaker",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "35",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33331": {
+      "Name": "Chain of Unleashed Rage",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33333": {
+      "Name": "Kharmaa's Shroud of Hope",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33334": {
+      "Name": "Fetish of the Primal Gods",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "35",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33386": {
+      "Name": "Man'kin'do's Belt",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33484": {
+      "Name": "Dory's Embrace",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33501": {
+      "Name": "Bloodthirster's Wargreaves",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33502": {
+      "Name": "Libram of Mending",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "20",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33503": {
+      "Name": "Libram of Divine Judgement",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "20",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33504": {
+      "Name": "Libram of Divine Purpose",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "20",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33505": {
+      "Name": "Totem of Living Water",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "20",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33506": {
+      "Name": "Skycall Totem",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "20",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33507": {
+      "Name": "Stonebreaker's Totem",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "20",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33508": {
+      "Name": "Idol of Budding Life",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "20",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33509": {
+      "Name": "Idol of Terror",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "20",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33510": {
+      "Name": "Idol of the Unseen Moon",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "20",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33512": {
+      "Name": "Furious Deathgrips",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33513": {
+      "Name": "Eternium Rage-shackles",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "35",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33514": {
+      "Name": "Pauldrons of Gruesome Fate",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33515": {
+      "Name": "Unwavering Legguards",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33516": {
+      "Name": "Bracers of the Ancient Phalanx",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "35",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33517": {
+      "Name": "Bonefist Gauntlets",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33518": {
+      "Name": "High Justicar's Legplates",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33519": {
+      "Name": "Handguards of the Templar",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33520": {
+      "Name": "Vambraces of the Naaru",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "35",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33522": {
+      "Name": "Chestguard of the Stoic Guardian",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33523": {
+      "Name": "Sabatons of the Righteous Defender",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33524": {
+      "Name": "Girdle of the Protector",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33527": {
+      "Name": "Shifting Camouflage Pants",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33528": {
+      "Name": "Gauntlets of Sniping",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33529": {
+      "Name": "Steadying Bracers",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "35",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33530": {
+      "Name": "Natural Life Leggings",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33531": {
+      "Name": "Polished Waterscale Gloves",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33532": {
+      "Name": "Gleaming Earthen Bracers",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "35",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33534": {
+      "Name": "Grips of Nature's Wrath",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33535": {
+      "Name": "Earthquake Bracers",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "35",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33536": {
+      "Name": "Stormwrap",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33537": {
+      "Name": "Treads of Booming Thunder",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33538": {
+      "Name": "Shallow-grave Trousers",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33539": {
+      "Name": "Trickster's Stickyfingers",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33540": {
+      "Name": "Master Assassin Wristwraps",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "35",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33552": {
+      "Name": "Pants of Splendid Recovery",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33557": {
+      "Name": "Gargon's Bracers of Peaceful Slumber",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "35",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33559": {
+      "Name": "Starfire Waistband",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33566": {
+      "Name": "Blessed Elunite Coverings",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33577": {
+      "Name": "Moon-walkers",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33578": {
+      "Name": "Armwraps of the Kaldorei Protector",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "35",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33579": {
+      "Name": "Vestments of Hibernation",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33580": {
+      "Name": "Band of the Swift Paw",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "35",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33582": {
+      "Name": "Footwraps of Wild Encroachment",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33583": {
+      "Name": "Waistguard of the Great Beast",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33584": {
+      "Name": "Pantaloons of Arcane Annihilation",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33585": {
+      "Name": "Achromic Trousers of the Naaru",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33586": {
+      "Name": "Studious Wraps",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33587": {
+      "Name": "Light-Blessed Bonds",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33588": {
+      "Name": "Runed Spell-cuffs",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "35",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33589": {
+      "Name": "Wristguards of Tranquil Thought",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "35",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33593": {
+      "Name": "Slikk's Cloak of Placation",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "35",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33810": {
+      "Name": "Amani Mask of Death",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33832": {
+      "Name": "Battlemaster's Determination",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33965": {
+      "Name": "Hauberk of the Furious Elements",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33970": {
+      "Name": "Pauldrons of the Furious Elements",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33972": {
+      "Name": "Mask of Primal Power",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33973": {
+      "Name": "Pauldrons of Tribal Fury",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "33974": {
+      "Name": "Grasp of the Moonkin",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "34049": {
+      "Name": "Battlemaster's Audacity",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "34050": {
+      "Name": "Battlemaster's Perseverance",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "34162": {
+      "Name": "Battlemaster's Depravity",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "34163": {
+      "Name": "Battlemaster's Cruelty",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "34887": {
+      "Name": "Angelista's Revenge",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34888": {
+      "Name": "Ring of the Stalwart Protector",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34889": {
+      "Name": "Fused Nethergon Band",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34890": {
+      "Name": "Anveena's Touch",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34891": {
+      "Name": "The Blade of Harbingers",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "150",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34892": {
+      "Name": "Crossbow of Relentless Strikes",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "150",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34893": {
+      "Name": "Vanir's Right Fist of Brutality",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "105",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34894": {
+      "Name": "Blade of Serration",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "105",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34895": {
+      "Name": "Scryer's Blade of Focus",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "150",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34896": {
+      "Name": "Gavel of Naaru Blessings",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "150",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34898": {
+      "Name": "Staff of the Forest Lord",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "150",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34900": {
+      "Name": "Shroud of Nature's Harmony",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "100",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34901": {
+      "Name": "Grovewalker's Leggings",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "100",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34902": {
+      "Name": "Oakleaf-Spun Handguards",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34903": {
+      "Name": "Embrace of Starlight",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "100",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34904": {
+      "Name": "Barbed Gloves of the Sage",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34905": {
+      "Name": "Crystalwind Leggings",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "100",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34906": {
+      "Name": "Embrace of Everlasting Prowess",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "100",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34910": {
+      "Name": "Tameless Breeches",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "100",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34911": {
+      "Name": "Handwraps of the Aggressor",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34912": {
+      "Name": "Scaled Drakeskin Chestguard",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "100",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34914": {
+      "Name": "Leggings of the Pursuit",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "100",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34916": {
+      "Name": "Gauntlets of Rapidity",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34917": {
+      "Name": "Shroud of the Lore`nial",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "100",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34918": {
+      "Name": "Legwraps of Sweltering Flame",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "100",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34919": {
+      "Name": "Boots of Incantations",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34921": {
+      "Name": "Ecclesiastical Cuirass",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "100",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34922": {
+      "Name": "Greaves of Pacification",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "100",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34923": {
+      "Name": "Waistguard of Reparation",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34924": {
+      "Name": "Gown of Spiritual Wonder",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "100",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34925": {
+      "Name": "Adorned Supernal Legwraps",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "100",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34926": {
+      "Name": "Slippers of Dutiful Mending",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34927": {
+      "Name": "Tunic of the Dark Hour",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "100",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34928": {
+      "Name": "Trousers of the Scryers' Retainer",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "100",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34929": {
+      "Name": "Belt of the Silent Path",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34930": {
+      "Name": "Wave of Life Chestguard",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "100",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34931": {
+      "Name": "Runed Scales of Antiquity",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "100",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34932": {
+      "Name": "Clutch of the Soothing Breeze",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34933": {
+      "Name": "Hauberk of Whirling Fury",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "100",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34934": {
+      "Name": "Rushing Storm Kilt",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "100",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34935": {
+      "Name": "Aftershock Waistguard",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34936": {
+      "Name": "Tormented Demonsoul Robes",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "100",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34937": {
+      "Name": "Corrupted Soulcloth Pantaloons",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "100",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34938": {
+      "Name": "Enslaved Doomguard Soulgrips",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34939": {
+      "Name": "Chestplate of Stoicism",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "100",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34940": {
+      "Name": "Sunguard Legplates",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "100",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34941": {
+      "Name": "Girdle of the Fearless",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34942": {
+      "Name": "Breastplate of Ire",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "100",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34943": {
+      "Name": "Legplates of Unending Fury",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "100",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34944": {
+      "Name": "Girdle of Seething Rage",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34945": {
+      "Name": "Shattrath Protectorate's Breastplate",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "100",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34946": {
+      "Name": "Inscribed Legplates of the Aldor",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "100",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34947": {
+      "Name": "Blue's Greaves of the Righteous Guardian",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34949": {
+      "Name": "Swift Blade of Uncertainty",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34950": {
+      "Name": "Vanir's Left Fist of Savagery",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34951": {
+      "Name": "Vanir's Left Fist of Brutality",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "34952": {
+      "Name": "The Mutilator",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
+      "SourceLocation": "Smith Hauthaa",
+      "SourceFaction": "B"
+    },
+    "35321": {
+      "Name": "Cloak of Arcane Alacrity",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "35324": {
+      "Name": "Cloak of Swift Reprieve",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    },
+    "35326": {
+      "Name": "Battlemaster's Alacrity",
+      "Source": "Badge of Justice",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "75",
+      "SourceLocation": "G'eras",
+      "SourceFaction": "B"
+    }
   }
 }

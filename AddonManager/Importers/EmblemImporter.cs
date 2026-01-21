@@ -9,9 +9,16 @@ namespace AddonManager.Importers;
 
 public class EmblemImporter : LootImporter
 {
-    private List<string> wowheadUriList = new List<string>
+    private Dictionary<string, string> wowheadUriList = new Dictionary<string, string>
     {
-
+        { "https://www.wowhead.com/tbc/npc=19773/spirit-sage-zran#sells", "Spirit Sage Gartok/Spirit Sage Zran" },
+        { "https://www.wowhead.com/tbc/npc=18525/geras#sells", "G'eras" },
+        { "https://www.wowhead.com/tbc/npc=18525/geras#sells;50", "G'eras" },
+        { "https://www.wowhead.com/tbc/npc=18525/geras#sells;100", "G'eras" },
+        { "https://www.wowhead.com/tbc/npc=25046/smith-hauthaa#sells", "Smith Hauthaa" },
+        { "https://www.wowhead.com/tbc/npc=25046/smith-hauthaa#sells;50", "Smith Hauthaa" },
+        { "https://www.wowhead.com/tbc/npc=26089/kayri#sells", "Kayri" },
+        { "https://www.wowhead.com/tbc/npc=26089/kayri#sells;50", "Kayri" },
     };
 
     private List<string> guideUriList = new List<string>()
@@ -96,13 +103,18 @@ public class EmblemImporter : LootImporter
 
     private async Task ReadFromItemPages(DatabaseItems items, Action<string> writeToLog)
     {
-        await Common.ReadWowheadSellsList(wowheadUriList.Where(u => u.Contains("wowhead")), (uri, row, itemId, item) =>
+        await Common.ReadWowheadSellsList(wowheadUriList.Where(u => u.Key.Contains("wowhead")).Select(u => u.Key), (uri, row, itemId, item) =>
         {
             var currencySource = "";
             var currencyNumber = "";
-            var currencySourceLocation = "Emblem Vendor";
+            var currencySourceLocation = wowheadUriList[uri];
             var sourceFaction = "B";
             var itemName = item.TextContent;
+
+            var isBlue = (item.ClassName?.Contains("q3") ?? false) || 
+                            (item.ClassName?.Contains("q4") ?? false) || 
+                            (item.ClassName?.Contains("q5") ?? false);
+            if (!isBlue) return;
 
             (currencySource, currencyNumber) = GetSourceText(row.Children[10]);            
 
@@ -168,6 +180,8 @@ public class EmblemImporter : LootImporter
                             item == "3148" ? "Fissure Stone Fragment" :
                             item == "3350" ? "August Stone Fragment" :
                             item == "3281" ? "Obsidian Fragment" :
+                            item == "28558" ? "Spirit Shard" :
+                            item == "29434" ? "Badge of Justice" :
                             item == "47242" ? "Trophy" :
                             item == "52025" ? "Vanquisher's Mark" :
                             item == "52026" ? "Protector's Mark" :

@@ -41,7 +41,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Azgalor"] = "아즈갈로";
   LBIS.L["Back"] = "등";
   LBIS.L["Back to the Chief!"] = "로켓발사단장에게 돌아가기!";
-  LBIS.L["Badges of Justice"] = "정의의 휘장";
+  LBIS.L["Badge of Justice"] = "정의의 휘장";
   LBIS.L["Bag"] = "가방";
 --  LBIS.L["Bag of Fishing Treasures"] = "";
   LBIS.L["Balance"] = "조화";
@@ -207,6 +207,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Kael'thas Sunstrider"] = "캘타스 선스트라이더 <블러드 엘프 군주>";
   LBIS.L["Kalecgos"] = "칼렉고스";
   LBIS.L["Karazhan"] = "카라잔";
+--  LBIS.L["Kayri"] = "";
   LBIS.L["Kaz'rogal"] = "카즈로갈";
   LBIS.L["Keepers of Time"] = "시간의 수호자";
 --  LBIS.L["Keepers of Time Quartermaster"] = "";
@@ -327,6 +328,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Sethekk Halls (Heroic)"] = "세데크 전당 (영웅)";
   LBIS.L["Settings"] = "설정";
 --  LBIS.L["Sha'tari Quartermaster"] = "";
+  LBIS.L["Sha'tari Skyguard"] = "샤타리 하늘경비대";
   LBIS.L["Shade of Akama"] = "아카마의 망령";
   LBIS.L["Shade of Aran"] = "아란의 망령";
   LBIS.L["Shadow"] = "암흑";
@@ -354,7 +356,8 @@ if GetLocale() == "koKR" then
   LBIS.L["Special Delivery to Shattrath City"] = "샤트라스로 특별 배달";
 --  LBIS.L["Spellfire Tailoring"] = "";
 --  LBIS.L["Spirit Sage Gartok/Spirit Sage Zran"] = "";
-  LBIS.L["Spirit Shards"] = "유령의 조각";
+--  LBIS.L["Spirit Shard"] = "";
+  LBIS.L["Sporeggar"] = "스포어가르";
 --  LBIS.L["Starting Vendors"] = "";
   LBIS.L["Subdue the Subduer"] = "정복자 제압";
   LBIS.L["Success!"] = "인증 성공";

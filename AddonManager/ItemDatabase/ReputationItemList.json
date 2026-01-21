@@ -1,4 +1,1612 @@
 {
-  "Items": {    
+  "Items": {
+    "25823": {
+      "Name": "Grunt's Waraxe",
+      "Source": "Thrallmar",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "H"
+    },
+    "25824": {
+      "Name": "Farseer's Band",
+      "Source": "Thrallmar",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "H"
+    },
+    "25825": {
+      "Name": "Footman's Longsword",
+      "Source": "Honor Hold",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "A"
+    },
+    "25826": {
+      "Name": "Sage's Band",
+      "Source": "Honor Hold",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "A"
+    },
+    "25827": {
+      "Name": "Muck-Covered Drape",
+      "Source": "Sporeggar",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "25828": {
+      "Name": "Petrified Lichen Guard",
+      "Source": "Sporeggar",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "25835": {
+      "Name": "Explorer's Walking Stick",
+      "Source": "Cenarion Expedition",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "25836": {
+      "Name": "Preserver's Cudgel",
+      "Source": "Cenarion Expedition",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "25838": {
+      "Name": "Warden's Hauberk",
+      "Source": "Cenarion Expedition",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "29115": {
+      "Name": "Consortium Blaster",
+      "Source": "The Consortium",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "29116": {
+      "Name": "Nomad's Leggings",
+      "Source": "The Consortium",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "29117": {
+      "Name": "Stormspire Vest",
+      "Source": "The Consortium",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "29118": {
+      "Name": "Smuggler's Ammo Pouch",
+      "Source": "The Consortium",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "29119": {
+      "Name": "Haramad's Bargain",
+      "Source": "The Consortium",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "29121": {
+      "Name": "Guile of Khoraazi",
+      "Source": "The Consortium",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "29122": {
+      "Name": "Nether Runner's Cowl",
+      "Source": "The Consortium",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "29135": {
+      "Name": "Earthcaller's Headdress",
+      "Source": "The Mag'har",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "H"
+    },
+    "29136": {
+      "Name": "Far Seer's Helm",
+      "Source": "Kurenai",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "A"
+    },
+    "29137": {
+      "Name": "Hellscream's Will",
+      "Source": "The Mag'har",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "H"
+    },
+    "29138": {
+      "Name": "Arechron's Gift",
+      "Source": "Kurenai",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "A"
+    },
+    "29139": {
+      "Name": "Ceremonial Cover",
+      "Source": "The Mag'har",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "H"
+    },
+    "29140": {
+      "Name": "Cloak of the Ancient Spirits",
+      "Source": "Kurenai",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "A"
+    },
+    "29141": {
+      "Name": "Tempest Leggings",
+      "Source": "The Mag'har",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "H"
+    },
+    "29142": {
+      "Name": "Kurenai Kilt",
+      "Source": "Kurenai",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "A"
+    },
+    "29143": {
+      "Name": "Clefthoof Hide Quiver",
+      "Source": "The Mag'har",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "H"
+    },
+    "29144": {
+      "Name": "Worg Hide Quiver",
+      "Source": "Kurenai",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "A"
+    },
+    "29145": {
+      "Name": "Band of Ancestral Spirits",
+      "Source": "The Mag'har",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "H"
+    },
+    "29146": {
+      "Name": "Band of Elemental Spirits",
+      "Source": "Kurenai",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "A"
+    },
+    "29147": {
+      "Name": "Talbuk Hide Spaulders",
+      "Source": "The Mag'har",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "H"
+    },
+    "29148": {
+      "Name": "Blackened Leather Spaulders",
+      "Source": "Kurenai",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "A"
+    },
+    "29149": {
+      "Name": "Sporeling's Firestick",
+      "Source": "Sporeggar",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "29150": {
+      "Name": "Hardened Stone Shard",
+      "Source": "Sporeggar",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "29151": {
+      "Name": "Veteran's Musket",
+      "Source": "Honor Hold",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "A"
+    },
+    "29152": {
+      "Name": "Marksman's Bow",
+      "Source": "Thrallmar",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "H"
+    },
+    "29153": {
+      "Name": "Blade of the Archmage",
+      "Source": "Honor Hold",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "A"
+    },
+    "29155": {
+      "Name": "Stormcaller",
+      "Source": "Thrallmar",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "H"
+    },
+    "29156": {
+      "Name": "Honor's Call",
+      "Source": "Honor Hold",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "A"
+    },
+    "29165": {
+      "Name": "Warbringer",
+      "Source": "Thrallmar",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "H"
+    },
+    "29166": {
+      "Name": "Hellforged Halberd",
+      "Source": "Honor Hold",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "A"
+    },
+    "29167": {
+      "Name": "Blackened Spear",
+      "Source": "Thrallmar",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "H"
+    },
+    "29168": {
+      "Name": "Ancestral Band",
+      "Source": "Thrallmar",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "H"
+    },
+    "29169": {
+      "Name": "Ring of Convalescence",
+      "Source": "Honor Hold",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "A"
+    },
+    "29170": {
+      "Name": "Windcaller's Orb",
+      "Source": "Cenarion Expedition",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "29171": {
+      "Name": "Earthwarden",
+      "Source": "Cenarion Expedition",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "29172": {
+      "Name": "Ashyen's Gift",
+      "Source": "Cenarion Expedition",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "29173": {
+      "Name": "Strength of the Untamed",
+      "Source": "Cenarion Expedition",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "29174": {
+      "Name": "Watcher's Cowl",
+      "Source": "Cenarion Expedition",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "29175": {
+      "Name": "Gavel of Pure Light",
+      "Source": "The Sha'tar",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "29176": {
+      "Name": "Crest of the Sha'tar",
+      "Source": "The Sha'tar",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "29177": {
+      "Name": "A'dal's Command",
+      "Source": "The Sha'tar",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "29179": {
+      "Name": "Xi'ri's Gift",
+      "Source": "The Sha'tar",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "29180": {
+      "Name": "Blessed Scale Girdle",
+      "Source": "The Sha'tar",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "29181": {
+      "Name": "Timelapse Shard",
+      "Source": "Keepers of Time",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "29182": {
+      "Name": "Riftmaker",
+      "Source": "Keepers of Time",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "29183": {
+      "Name": "Bindings of the Timewalker",
+      "Source": "Keepers of Time",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "29184": {
+      "Name": "Timewarden's Leggings",
+      "Source": "Keepers of Time",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "29185": {
+      "Name": "Continuum Blade",
+      "Source": "Keepers of Time",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "29456": {
+      "Name": "Gift of the Ethereal",
+      "Source": "The Consortium",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "29457": {
+      "Name": "Nethershard",
+      "Source": "The Consortium",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "30830": {
+      "Name": "Trident of the Outcast Tribe",
+      "Source": "Lower City",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "30832": {
+      "Name": "Gavel of Unearthed Secrets",
+      "Source": "Lower City",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "30834": {
+      "Name": "Shapeshifter's Signet",
+      "Source": "Lower City",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "30835": {
+      "Name": "Salvager's Hauberk",
+      "Source": "Lower City",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "30836": {
+      "Name": "Leggings of the Skettis Exile",
+      "Source": "Lower City",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "30841": {
+      "Name": "Lower City Prayerbook",
+      "Source": "Lower City",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "31949": {
+      "Name": "Warden's Arrow",
+      "Source": "Cenarion Expedition",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "32314": {
+      "Name": "Green Riding Nether Ray",
+      "Source": "Sha'tari Skyguard",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "32316": {
+      "Name": "Purple Riding Nether Ray",
+      "Source": "Sha'tari Skyguard",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "32317": {
+      "Name": "Red Riding Nether Ray",
+      "Source": "Sha'tari Skyguard",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "32318": {
+      "Name": "Silver Riding Nether Ray",
+      "Source": "Sha'tari Skyguard",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "32319": {
+      "Name": "Blue Riding Nether Ray",
+      "Source": "Sha'tari Skyguard",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "32485": {
+      "Name": "Ashtongue Talisman of Valor",
+      "Source": "Ashtongue Deathsworn",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "32486": {
+      "Name": "Ashtongue Talisman of Equilibrium",
+      "Source": "Ashtongue Deathsworn",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "32487": {
+      "Name": "Ashtongue Talisman of Swiftness",
+      "Source": "Ashtongue Deathsworn",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "32488": {
+      "Name": "Ashtongue Talisman of Insight",
+      "Source": "Ashtongue Deathsworn",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "32489": {
+      "Name": "Ashtongue Talisman of Zeal",
+      "Source": "Ashtongue Deathsworn",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "32490": {
+      "Name": "Ashtongue Talisman of Acumen",
+      "Source": "Ashtongue Deathsworn",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "32491": {
+      "Name": "Ashtongue Talisman of Vision",
+      "Source": "Ashtongue Deathsworn",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "32492": {
+      "Name": "Ashtongue Talisman of Lethality",
+      "Source": "Ashtongue Deathsworn",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "32493": {
+      "Name": "Ashtongue Talisman of Shadows",
+      "Source": "Ashtongue Deathsworn",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "32538": {
+      "Name": "Skywitch's Drape",
+      "Source": "Sha'tari Skyguard",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "32539": {
+      "Name": "Skyguard's Drape",
+      "Source": "Sha'tari Skyguard",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "32645": {
+      "Name": "Crystalline Crossbow",
+      "Source": "Ogri'la",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "32647": {
+      "Name": "Shard-bound Bracers",
+      "Source": "Ogri'la",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "32648": {
+      "Name": "Vortex Walking Boots",
+      "Source": "Ogri'la",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "32650": {
+      "Name": "Cerulean Crystal Rod",
+      "Source": "Ogri'la",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "32651": {
+      "Name": "Crystal Orb of Enlightenment",
+      "Source": "Ogri'la",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "32652": {
+      "Name": "Ogri'la Aegis",
+      "Source": "Ogri'la",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "32653": {
+      "Name": "Apexis Cloak",
+      "Source": "Ogri'la",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "32654": {
+      "Name": "Crystalforged Trinket",
+      "Source": "Ogri'la",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "32770": {
+      "Name": "Skyguard Silver Cross",
+      "Source": "Sha'tari Skyguard",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "32771": {
+      "Name": "Airman's Ribbon of Gallantry",
+      "Source": "Sha'tari Skyguard",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "32882": {
+      "Name": "Hellfire Shot",
+      "Source": "Thrallmar",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "H"
+    },
+    "32883": {
+      "Name": "Felbane Slugs",
+      "Source": "Honor Hold",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "A"
+    },
+    "33999": {
+      "Name": "Cenarion War Hippogryph",
+      "Source": "Cenarion Expedition",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "34478": {
+      "Name": "Tiny Sporebat",
+      "Source": "Sporeggar",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "34665": {
+      "Name": "Bombardier's Blade",
+      "Source": "Shattered Sun Offensive",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "34666": {
+      "Name": "The Sunbreaker",
+      "Source": "Shattered Sun Offensive",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "34667": {
+      "Name": "Archmage's Guile",
+      "Source": "Shattered Sun Offensive",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "34670": {
+      "Name": "Seeker's Gavel",
+      "Source": "Shattered Sun Offensive",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "34671": {
+      "Name": "K'iru's Presage",
+      "Source": "Shattered Sun Offensive",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "34672": {
+      "Name": "Inuuro's Blade",
+      "Source": "Shattered Sun Offensive",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "34673": {
+      "Name": "Legionfoe",
+      "Source": "Shattered Sun Offensive",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "34674": {
+      "Name": "Truestrike Crossbow",
+      "Source": "Shattered Sun Offensive",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Revered",
+      "SourceFaction": "B"
+    },
+    "34675": {
+      "Name": "Sunward Crest",
+      "Source": "Shattered Sun Offensive",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "34676": {
+      "Name": "Dawnforged Defender",
+      "Source": "Shattered Sun Offensive",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "34677": {
+      "Name": "Shattered Sun Pendant of Restoration",
+      "Source": "Shattered Sun Offensive",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "34678": {
+      "Name": "Shattered Sun Pendant of Acumen",
+      "Source": "Shattered Sun Offensive",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "34679": {
+      "Name": "Shattered Sun Pendant of Might",
+      "Source": "Shattered Sun Offensive",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "34680": {
+      "Name": "Shattered Sun Pendant of Resolve",
+      "Source": "Shattered Sun Offensive",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    },
+    "35328": {
+      "Name": "Dreadweave Gloves",
+      "Source": "Keepers of Time",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35329": {
+      "Name": "Dreadweave Hood",
+      "Source": "Cenarion Expedition",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35330": {
+      "Name": "Dreadweave Leggings",
+      "Source": "The Sha'tar",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35331": {
+      "Name": "Dreadweave Mantle",
+      "Source": "Lower City",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35332": {
+      "Name": "Dreadweave Robe",
+      "Source": "Thrallmar",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "H"
+    },
+    "35333": {
+      "Name": "Mooncloth Cowl",
+      "Source": "The Sha'tar",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35334": {
+      "Name": "Mooncloth Legguards",
+      "Source": "Keepers of Time",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35335": {
+      "Name": "Mooncloth Mitts",
+      "Source": "Lower City",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35336": {
+      "Name": "Mooncloth Shoulderpads",
+      "Source": "Cenarion Expedition",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35337": {
+      "Name": "Mooncloth Vestments",
+      "Source": "Thrallmar",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "H"
+    },
+    "35338": {
+      "Name": "Satin Gloves",
+      "Source": "Keepers of Time",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35339": {
+      "Name": "Satin Hood",
+      "Source": "Thrallmar",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "H"
+    },
+    "35340": {
+      "Name": "Satin Leggings",
+      "Source": "Lower City",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35341": {
+      "Name": "Satin Mantle",
+      "Source": "The Sha'tar",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35342": {
+      "Name": "Satin Robe",
+      "Source": "Cenarion Expedition",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35343": {
+      "Name": "Evoker's Silk Amice",
+      "Source": "Thrallmar",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "H"
+    },
+    "35344": {
+      "Name": "Evoker's Silk Cowl",
+      "Source": "Lower City",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35345": {
+      "Name": "Evoker's Silk Handguards",
+      "Source": "The Sha'tar",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35346": {
+      "Name": "Evoker's Silk Raiment",
+      "Source": "Keepers of Time",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35347": {
+      "Name": "Evoker's Silk Trousers",
+      "Source": "Cenarion Expedition",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35356": {
+      "Name": "Dragonhide Gloves",
+      "Source": "Keepers of Time",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35357": {
+      "Name": "Dragonhide Helm",
+      "Source": "Lower City",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35358": {
+      "Name": "Dragonhide Legguards",
+      "Source": "Cenarion Expedition",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35359": {
+      "Name": "Dragonhide Spaulders",
+      "Source": "The Sha'tar",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35360": {
+      "Name": "Dragonhide Robe",
+      "Source": "Thrallmar",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "H"
+    },
+    "35361": {
+      "Name": "Kodohide Gloves",
+      "Source": "Lower City",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35362": {
+      "Name": "Kodohide Helm",
+      "Source": "The Sha'tar",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35363": {
+      "Name": "Kodohide Legguards",
+      "Source": "Keepers of Time",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35364": {
+      "Name": "Kodohide Spaulders",
+      "Source": "Thrallmar",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "H"
+    },
+    "35365": {
+      "Name": "Kodohide Robe",
+      "Source": "Cenarion Expedition",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35366": {
+      "Name": "Opportunist's Leather Gloves",
+      "Source": "Thrallmar",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "H"
+    },
+    "35367": {
+      "Name": "Opportunist's Leather Helm",
+      "Source": "Cenarion Expedition",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35368": {
+      "Name": "Opportunist's Leather Legguards",
+      "Source": "The Sha'tar",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35369": {
+      "Name": "Opportunist's Leather Spaulders",
+      "Source": "Keepers of Time",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35370": {
+      "Name": "Opportunist's Leather Tunic",
+      "Source": "Lower City",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35371": {
+      "Name": "Wyrmhide Gloves",
+      "Source": "Thrallmar",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "H"
+    },
+    "35372": {
+      "Name": "Wyrmhide Helm",
+      "Source": "Keepers of Time",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35373": {
+      "Name": "Wyrmhide Legguards",
+      "Source": "Lower City",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35374": {
+      "Name": "Wyrmhide Spaulders",
+      "Source": "Cenarion Expedition",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35375": {
+      "Name": "Wyrmhide Robe",
+      "Source": "The Sha'tar",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35376": {
+      "Name": "Stalker's Chain Armor",
+      "Source": "Keepers of Time",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35377": {
+      "Name": "Stalker's Chain Gauntlets",
+      "Source": "Thrallmar",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "H"
+    },
+    "35378": {
+      "Name": "Stalker's Chain Helm",
+      "Source": "Lower City",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35379": {
+      "Name": "Stalker's Chain Leggings",
+      "Source": "Cenarion Expedition",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35380": {
+      "Name": "Stalker's Chain Spaulders",
+      "Source": "The Sha'tar",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35381": {
+      "Name": "Seer's Linked Armor",
+      "Source": "The Sha'tar",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35382": {
+      "Name": "Seer's Linked Gauntlets",
+      "Source": "Lower City",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35383": {
+      "Name": "Seer's Linked Helm",
+      "Source": "Thrallmar",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "H"
+    },
+    "35384": {
+      "Name": "Seer's Linked Leggings",
+      "Source": "Keepers of Time",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35385": {
+      "Name": "Seer's Linked Spaulders",
+      "Source": "Cenarion Expedition",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35386": {
+      "Name": "Seer's Mail Armor",
+      "Source": "Thrallmar",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "H"
+    },
+    "35387": {
+      "Name": "Seer's Mail Gauntlets",
+      "Source": "Cenarion Expedition",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35388": {
+      "Name": "Seer's Mail Helm",
+      "Source": "The Sha'tar",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35389": {
+      "Name": "Seer's Mail Leggings",
+      "Source": "Lower City",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35390": {
+      "Name": "Seer's Mail Spaulders",
+      "Source": "Keepers of Time",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35391": {
+      "Name": "Seer's Ringmail Chestguard",
+      "Source": "Lower City",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35392": {
+      "Name": "Seer's Ringmail Gloves",
+      "Source": "Thrallmar",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "H"
+    },
+    "35393": {
+      "Name": "Seer's Ringmail Headpiece",
+      "Source": "Keepers of Time",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35394": {
+      "Name": "Seer's Ringmail Legguards",
+      "Source": "Cenarion Expedition",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35395": {
+      "Name": "Seer's Ringmail Shoulderpads",
+      "Source": "The Sha'tar",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35402": {
+      "Name": "Crusader's Ornamented Chestplate",
+      "Source": "Keepers of Time",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35403": {
+      "Name": "Crusader's Ornamented Gloves",
+      "Source": "Cenarion Expedition",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35404": {
+      "Name": "Crusader's Ornamented Headguard",
+      "Source": "The Sha'tar",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35405": {
+      "Name": "Crusader's Ornamented Leggings",
+      "Source": "Lower City",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35406": {
+      "Name": "Crusader's Ornamented Spaulders",
+      "Source": "Thrallmar",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "H"
+    },
+    "35407": {
+      "Name": "Savage Plate Chestpiece",
+      "Source": "The Sha'tar",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35408": {
+      "Name": "Savage Plate Gauntlets",
+      "Source": "Cenarion Expedition",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35409": {
+      "Name": "Savage Plate Helm",
+      "Source": "Thrallmar",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "H"
+    },
+    "35410": {
+      "Name": "Savage Plate Legguards",
+      "Source": "Keepers of Time",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35411": {
+      "Name": "Savage Plate Shoulders",
+      "Source": "Lower City",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35412": {
+      "Name": "Crusader's Scaled Chestpiece",
+      "Source": "Lower City",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35413": {
+      "Name": "Crusader's Scaled Gauntlets",
+      "Source": "Thrallmar",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "H"
+    },
+    "35414": {
+      "Name": "Crusader's Scaled Helm",
+      "Source": "Keepers of Time",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35415": {
+      "Name": "Crusader's Scaled Legguards",
+      "Source": "Cenarion Expedition",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35416": {
+      "Name": "Crusader's Scaled Shoulders",
+      "Source": "The Sha'tar",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "B"
+    },
+    "35464": {
+      "Name": "Dreadweave Robe",
+      "Source": "Honor Hold",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "A"
+    },
+    "35465": {
+      "Name": "Evoker's Silk Amice",
+      "Source": "Honor Hold",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "A"
+    },
+    "35466": {
+      "Name": "Satin Hood",
+      "Source": "Honor Hold",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "A"
+    },
+    "35467": {
+      "Name": "Mooncloth Vestments",
+      "Source": "Honor Hold",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "A"
+    },
+    "35468": {
+      "Name": "Opportunist's Leather Gloves",
+      "Source": "Honor Hold",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "A"
+    },
+    "35469": {
+      "Name": "Dragonhide Robe",
+      "Source": "Honor Hold",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "A"
+    },
+    "35470": {
+      "Name": "Kodohide Spaulders",
+      "Source": "Honor Hold",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "A"
+    },
+    "35471": {
+      "Name": "Wyrmhide Gloves",
+      "Source": "Honor Hold",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "A"
+    },
+    "35472": {
+      "Name": "Seer's Mail Armor",
+      "Source": "Honor Hold",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "A"
+    },
+    "35473": {
+      "Name": "Seer's Ringmail Gloves",
+      "Source": "Honor Hold",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "A"
+    },
+    "35474": {
+      "Name": "Seer's Linked Helm",
+      "Source": "Honor Hold",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "A"
+    },
+    "35475": {
+      "Name": "Stalker's Chain Gauntlets",
+      "Source": "Honor Hold",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "A"
+    },
+    "35476": {
+      "Name": "Crusader's Ornamented Spaulders",
+      "Source": "Honor Hold",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "A"
+    },
+    "35477": {
+      "Name": "Crusader's Scaled Gauntlets",
+      "Source": "Honor Hold",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "A"
+    },
+    "35478": {
+      "Name": "Savage Plate Helm",
+      "Source": "Honor Hold",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Honored",
+      "SourceFaction": "A"
+    },
+    "38628": {
+      "Name": "Nether Ray Fry",
+      "Source": "Sha'tari Skyguard",
+      "SourceType": "Reputation",
+      "SourceNumber": "0",
+      "SourceLocation": "Exalted",
+      "SourceFaction": "B"
+    }
   }
 }

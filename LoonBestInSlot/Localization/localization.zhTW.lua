@@ -41,7 +41,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Azgalor"] = "阿茲加洛";
   LBIS.L["Back"] = "背部";
   LBIS.L["Back to the Chief!"] = "回去找主管!";
---  LBIS.L["Badges of Justice"] = "";
+--  LBIS.L["Badge of Justice"] = "";
   LBIS.L["Bag"] = "背包";
 --  LBIS.L["Bag of Fishing Treasures"] = "";
   LBIS.L["Balance"] = "平衡";
@@ -207,6 +207,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Kael'thas Sunstrider"] = "凱爾薩斯逐日者";
   LBIS.L["Kalecgos"] = "卡雷苟斯";
   LBIS.L["Karazhan"] = "卡拉贊";
+--  LBIS.L["Kayri"] = "";
   LBIS.L["Kaz'rogal"] = "卡茲洛加";
   LBIS.L["Keepers of Time"] = "時光守望者";
 --  LBIS.L["Keepers of Time Quartermaster"] = "";
@@ -327,6 +328,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Sethekk Halls (Heroic)"] = "塞司克大廳 (英雄模式)";
   LBIS.L["Settings"] = "設定";
 --  LBIS.L["Sha'tari Quartermaster"] = "";
+  LBIS.L["Sha'tari Skyguard"] = "薩塔禦天者";
   LBIS.L["Shade of Akama"] = "阿卡瑪的黑暗面";
   LBIS.L["Shade of Aran"] = "艾蘭之影";
   LBIS.L["Shadow"] = "暗影";
@@ -354,7 +356,8 @@ if GetLocale() == "zhTW" then
   LBIS.L["Special Delivery to Shattrath City"] = "給撒塔斯城的特件";
 --  LBIS.L["Spellfire Tailoring"] = "";
 --  LBIS.L["Spirit Sage Gartok/Spirit Sage Zran"] = "";
---  LBIS.L["Spirit Shards"] = "";
+--  LBIS.L["Spirit Shard"] = "";
+  LBIS.L["Sporeggar"] = "斯博格爾";
 --  LBIS.L["Starting Vendors"] = "";
   LBIS.L["Subdue the Subduer"] = "壓制征服者雷斯海卓恩";
   LBIS.L["Success!"] = "連線成功!";

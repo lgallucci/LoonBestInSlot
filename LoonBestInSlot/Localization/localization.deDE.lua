@@ -41,7 +41,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Azgalor"] = "Azgalor";
   LBIS.L["Back"] = "Rücken";
   LBIS.L["Back to the Chief!"] = "Zurück zum Chef!";
-  LBIS.L["Badges of Justice"] = "Abzeichen der Gerechtigkeit";
+  LBIS.L["Badge of Justice"] = "Abzeichen der Gerechtigkeit";
   LBIS.L["Bag"] = "Tasche";
 --  LBIS.L["Bag of Fishing Treasures"] = "";
   LBIS.L["Balance"] = "Gleichgewicht";
@@ -207,6 +207,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Kael'thas Sunstrider"] = "Kael'thas Sonnenwanderer";
   LBIS.L["Kalecgos"] = "Kalecgos";
   LBIS.L["Karazhan"] = "Karazhan";
+--  LBIS.L["Kayri"] = "";
   LBIS.L["Kaz'rogal"] = "Kaz'rogal";
   LBIS.L["Keepers of Time"] = "Hüter der Zeit";
 --  LBIS.L["Keepers of Time Quartermaster"] = "";
@@ -327,6 +328,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Sethekk Halls (Heroic)"] = "Sethekkhallen (Heroisch)";
   LBIS.L["Settings"] = "Optionen";
 --  LBIS.L["Sha'tari Quartermaster"] = "";
+  LBIS.L["Sha'tari Skyguard"] = "Himmelswache der Sha'tari";
   LBIS.L["Shade of Akama"] = "Akamas Schemen";
   LBIS.L["Shade of Aran"] = "Arans Schemen";
   LBIS.L["Shadow"] = "Schattenschaden";
@@ -354,7 +356,8 @@ if GetLocale() == "deDE" then
   LBIS.L["Special Delivery to Shattrath City"] = "Sonderlieferung nach Shattrath";
 --  LBIS.L["Spellfire Tailoring"] = "";
 --  LBIS.L["Spirit Sage Gartok/Spirit Sage Zran"] = "";
-  LBIS.L["Spirit Shards"] = "Geistersplitter";
+--  LBIS.L["Spirit Shard"] = "";
+  LBIS.L["Sporeggar"] = "Sporeggar";
 --  LBIS.L["Starting Vendors"] = "";
   LBIS.L["Subdue the Subduer"] = "Unterdrückt den Unterdrücker";
   LBIS.L["Success!"] = "Erfolg!";
