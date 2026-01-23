@@ -175,7 +175,6 @@ LBIS:AddItem(spec1, "27796", LBIS.L["Shoulder"], "Alt") --Mana-Etched Spaulders
 LBIS:AddItem(spec1, "27778", LBIS.L["Shoulder"], "Alt") --Spaulders of Oblivion
 LBIS:AddItem(spec1, "30925", LBIS.L["Shoulder"], "Alt") --Spaulders of the Torn-heart
 LBIS:AddItem(spec1, "27994", LBIS.L["Shoulder"], "Alt") --Mantle of Three Terrors
-LBIS:AddItem(spec1, "22983", LBIS.L["Shoulder"], "Alt") --Rime Covered Mantle
 LBIS:AddItem(spec1, "28139", LBIS.L["Shoulder"], "Alt") --Gladiator's Wyrmhide Spaulders
 LBIS:AddItem(spec1, "27738", LBIS.L["Shoulder"], "Alt") --Incanter's Pauldrons
 LBIS:AddItem(spec1, "31797", LBIS.L["Shoulder"], "Alt") --Elekk Hide Spaulders
@@ -185,8 +184,6 @@ LBIS:AddItem(spec1, "28797", LBIS.L["Back"], "Alt") --Brute Cloak of the Ogre-Ma
 LBIS:AddItem(spec1, "27981", LBIS.L["Back"], "Alt") --Sethekk Oracle Cloak
 LBIS:AddItem(spec1, "28570", LBIS.L["Back"], "Alt") --Shadow-Cloak of Dalaran
 LBIS:AddItem(spec1, "31140", LBIS.L["Back"], "Alt") --Cloak of Entropy
-LBIS:AddItem(spec1, "23050", LBIS.L["Back"], "Alt") --Cloak of the Necropolis
-LBIS:AddItem(spec1, "22731", LBIS.L["Back"], "Alt") --Cloak of the Devoured
 LBIS:AddItem(spec1, "29369", LBIS.L["Back"], "Alt") --Shawl of Shifting Probabilities
 LBIS:AddItem(spec1, "24252", LBIS.L["Back"], "Alt") --Cloak of the Black Void
 LBIS:AddItem(spec1, "25777", LBIS.L["Back"], "Alt") --Ogre Slayer's Cover
@@ -205,7 +202,6 @@ LBIS:AddItem(spec1, "24250", LBIS.L["Wrist"], "BIS") --Bracers of Havok
 LBIS:AddItem(spec1, "27462", LBIS.L["Wrist"], "Alt") --Crimson Bracers of Gloom
 LBIS:AddItem(spec1, "28515", LBIS.L["Wrist"], "Alt") --Bands of Nefarious Deeds
 LBIS:AddItem(spec1, "29240", LBIS.L["Wrist"], "Alt") --Bands of Negation
-LBIS:AddItem(spec1, "21186", LBIS.L["Wrist"], "Alt") --Rockfury Bracers
 LBIS:AddItem(spec1, "28453", LBIS.L["Wrist"], "Alt") --Bracers of the White Stag
 LBIS:AddItem(spec1, "28174", LBIS.L["Wrist"], "Alt") --Shattrath Wraps
 LBIS:AddItem(spec1, "29255", LBIS.L["Wrist"], "Alt") --Bands of Rarefied Magic
@@ -267,8 +263,6 @@ LBIS:AddItem(spec1, "28753", LBIS.L["Ring"], "BIS") --Ring of Recurrence
 LBIS:AddItem(spec1, "29172", LBIS.L["Ring"], "BIS") --Ashyen's Gift
 LBIS:AddItem(spec1, "29287", LBIS.L["Ring"], "BIS") --Violet Signet of the Archmage
 LBIS:AddItem(spec1, "28227", LBIS.L["Ring"], "Alt") --Sparking Arcanite Ring
-LBIS:AddItem(spec1, "21709", LBIS.L["Ring"], "Alt") --Ring of the Fallen God
-LBIS:AddItem(spec1, "23031", LBIS.L["Ring"], "Alt") --Band of the Inevitable
 LBIS:AddItem(spec1, "28555", LBIS.L["Ring"], "Alt") --Seal of the Exorcist
 LBIS:AddItem(spec1, "29352", LBIS.L["Ring"], "Alt") --Cobalt Band of Tyrigosa
 LBIS:AddItem(spec1, "29367", LBIS.L["Ring"], "Alt") --Ring of Cryptic Dreams
@@ -282,11 +276,9 @@ LBIS:AddItem(spec1, "27683", LBIS.L["Trinket"], "BIS") --Quagmirran's Eye
 LBIS:AddItem(spec1, "29132", LBIS.L["Trinket"], "BIS") --Scryer's Bloodgem
 LBIS:AddItem(spec1, "19379", LBIS.L["Trinket"], "BIS") --Neltharion's Tear
 LBIS:AddItem(spec1, "28789", LBIS.L["Trinket"], "Alt") --Eye of Magtheridon
-LBIS:AddItem(spec1, "23046", LBIS.L["Trinket"], "Alt") --The Restrained Essence of Sapphiron
 LBIS:AddItem(spec1, "28223", LBIS.L["Trinket"], "Alt") --Arcanist's Stone
 LBIS:AddItem(spec1, "26055", LBIS.L["Trinket"], "Alt") --Oculus of the Hidden Eye
 LBIS:AddItem(spec1, "30340", LBIS.L["Trinket"], "Alt") --Starkiller's Bauble
-LBIS:AddItem(spec1, "12930", LBIS.L["Trinket"], "Alt") --Briarwood Reed
 LBIS:AddItem(spec1, "25936", LBIS.L["Trinket"], "Alt") --Terokkar Tablet of Vim
 LBIS:AddItem(spec1, "25620", LBIS.L["Trinket"], "Alt") --Ancient Crystal Talisman
 LBIS:AddItem(spec1, "25619", LBIS.L["Trinket"], "Alt") --Glowing Crystal Insignia
@@ -305,13 +297,12 @@ LBIS:AddItem(spec1, "29271", LBIS.L["Off Hand"], "BIS") --Talisman of Kalecgos
 LBIS:AddItem(spec1, "28734", LBIS.L["Off Hand"], "BIS") --Jewel of Infinite Possibilities
 LBIS:AddItem(spec1, "29273", LBIS.L["Off Hand"], "Alt") --Khadgar's Knapsack
 LBIS:AddItem(spec1, "28412", LBIS.L["Off Hand"], "Alt") --Lamp of Peaceful Radiance
-LBIS:AddItem(spec1, "23049", LBIS.L["Off Hand"], "Alt") --Sapphiron's Left Eye
 LBIS:AddItem(spec1, "28603", LBIS.L["Off Hand"], "Alt") --Talisman of Nightbane
 LBIS:AddItem(spec1, "28187", LBIS.L["Off Hand"], "Alt") --Star-Heart Lamp
 LBIS:AddItem(spec1, "28260", LBIS.L["Off Hand"], "Alt") --Manual of the Nethermancer
 LBIS:AddItem(spec1, "29330", LBIS.L["Off Hand"], "Alt") --The Saga of Terokk
-LBIS:AddItem(spec1, "24557", LBIS.L["Two Hand"], "BIS") --Gladiator's War Staff
 LBIS:AddItem(spec1, "28633", LBIS.L["Two Hand"], "BIS") --Staff of Infinite Mysteries
+LBIS:AddItem(spec1, "24557", LBIS.L["Two Hand"], "Alt") --Gladiator's War Staff
 LBIS:AddItem(spec1, "29355", LBIS.L["Two Hand"], "Alt") --Terokk's Shadowstaff
 LBIS:AddItem(spec1, "27842", LBIS.L["Two Hand"], "Alt") --Grand Scepter of the Nexus-Kings
 LBIS:AddItem(spec1, "29130", LBIS.L["Two Hand"], "Alt") --Auchenai Staff

@@ -116,8 +116,8 @@ LBIS:AddItem(spec1, "28804", LBIS.L["Head"], "Alt") --Collar of Cho'gall
 LBIS:AddItem(spec1, "29058", LBIS.L["Head"], "Alt") --Soul-Collar of the Incarnate
 LBIS:AddItem(spec1, "31104", LBIS.L["Head"], "Alt") --Evoker's Helmet of Second Sight
 LBIS:AddItem(spec1, "21869", LBIS.L["Shoulder"], "BIS") --Frozen Shadoweave Shoulders
-LBIS:AddItem(spec1, "27778", LBIS.L["Shoulder"], "BIS") --Spaulders of Oblivion
 LBIS:AddItem(spec1, "29060", LBIS.L["Shoulder"], "Alt") --Soul-Mantle of the Incarnate
+LBIS:AddItem(spec1, "27778", LBIS.L["Shoulder"], "Alt") --Spaulders of Oblivion
 LBIS:AddItem(spec1, "28570", LBIS.L["Back"], "Alt") --Shadow-Cloak of Dalaran
 LBIS:AddItem(spec1, "28766", LBIS.L["Back"], "Alt") --Ruby Drape of the Mysticant
 LBIS:AddItem(spec1, "28797", LBIS.L["Back"], "Alt") --Brute Cloak of the Ogre-Magi
@@ -146,7 +146,6 @@ LBIS:AddItem(spec1, "30666", LBIS.L["Neck"], "BIS") --Ritssyn's Lost Pendant
 LBIS:AddItem(spec1, "24121", LBIS.L["Neck"], "BIS") --Chain of the Twilight Owl
 LBIS:AddItem(spec1, "24116", LBIS.L["Neck"], "BIS") --Eye of the Night
 LBIS:AddItem(spec1, "20966", LBIS.L["Neck"], "Alt") --Jade Pendant of Blasting
-LBIS:AddItem(spec1, "33921", LBIS.L["Neck"], "Alt") --Vindicator's Pendant of Dominance
 LBIS:AddItem(spec1, "18814", LBIS.L["Neck"], "Alt") --Choker of the Fire Lord
 LBIS:AddItem(spec1, "31693", LBIS.L["Neck"], "Alt") --Natasha's Arcane Filament
 LBIS:AddItem(spec1, "21709", LBIS.L["Ring"], "BIS") --Ring of the Fallen God
@@ -154,7 +153,6 @@ LBIS:AddItem(spec1, "23031", LBIS.L["Ring"], "BIS") --Band of the Inevitable
 LBIS:AddItem(spec1, "28753", LBIS.L["Ring"], "BIS") --Ring of Recurrence
 LBIS:AddItem(spec1, "29352", LBIS.L["Ring"], "BIS") --Cobalt Band of Tyrigosa
 LBIS:AddItem(spec1, "28793", LBIS.L["Ring"], "BIS") --Band of Crimson Fury
-LBIS:AddItem(spec1, "34073", LBIS.L["Ring"], "BIS") --The Horseman's Signet Ring
 LBIS:AddItem(spec1, "28555", LBIS.L["Ring"], "Alt") --Seal of the Exorcist
 LBIS:AddItem(spec1, "29287", LBIS.L["Ring"], "Alt") --Violet Signet of the Archmage
 LBIS:AddItem(spec1, "19434", LBIS.L["Ring"], "Alt") --Band of Dark Dominion
@@ -165,20 +163,17 @@ LBIS:AddItem(spec1, "29370", LBIS.L["Trinket"], "BIS") --Icon of the Silver Cres
 LBIS:AddItem(spec1, "27683", LBIS.L["Trinket"], "BIS") --Quagmirran's Eye
 LBIS:AddItem(spec1, "28789", LBIS.L["Trinket"], "BIS") --Eye of Magtheridon
 LBIS:AddItem(spec1, "23207", LBIS.L["Trinket"], "BIS") --Mark of the Champion
-LBIS:AddItem(spec1, "38290", LBIS.L["Trinket"], "BIS") --Dark Iron Smoking Pipe
 LBIS:AddItem(spec1, "23046", LBIS.L["Trinket"], "Alt") --The Restrained Essence of Sapphiron
 LBIS:AddItem(spec1, "19379", LBIS.L["Trinket"], "Alt") --Neltharion's Tear
 LBIS:AddItem(spec1, "29132", LBIS.L["Trinket"], "Alt") --Scryer's Bloodgem
 LBIS:AddItem(spec1, "28770", LBIS.L["Main Hand"], "BIS") --Nathrezim Mindblade
 LBIS:AddItem(spec1, "30723", LBIS.L["Main Hand"], "BIS") --Talon of the Tempest
-LBIS:AddItem(spec1, "33687", LBIS.L["Main Hand"], "BIS") --Vengeful Gladiator's Gavel
-LBIS:AddItem(spec1, "32963", LBIS.L["Main Hand"], "Alt") --Merciless Gladiator's Gavel
+LBIS:AddItem(spec1, "28297", LBIS.L["Main Hand"], "Alt") --Gladiator's Spellblade
 LBIS:AddItem(spec1, "32450", LBIS.L["Main Hand"], "Alt") --Gladiator's Gavel
 LBIS:AddItem(spec1, "30832", LBIS.L["Main Hand"], "Alt") --Gavel of Unearthed Secrets
 LBIS:AddItem(spec1, "23554", LBIS.L["Main Hand"], "Alt") --Eternium Runed Blade
 LBIS:AddItem(spec1, "29272", LBIS.L["Off Hand"], "BIS") --Orb of the Soul-Eater
 LBIS:AddItem(spec1, "29273", LBIS.L["Off Hand"], "Alt") --Khadgar's Knapsack
-LBIS:AddItem(spec1, "32872", LBIS.L["Ranged/Relic"], "BIS") --Illidari Rod of Discipline
 LBIS:AddItem(spec1, "29350", LBIS.L["Ranged/Relic"], "Alt") --The Black Stalk
 LBIS:AddItem(spec1, "28673", LBIS.L["Ranged/Relic"], "Alt") --Tirisfal Wand of Ascendancy
 

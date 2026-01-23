@@ -369,8 +369,8 @@ public static class WowheadImporter
                 }
                 File.WriteAllText(Constants.CombinePath(Constants.ItemDbPath, @$"\ItemSlots.json"), JsonConvert.SerializeObject(itemSlots, Formatting.Indented));
 
-                // if (!guide.Item2.ContainsKey(phaseNumber))
-                //     guide.Item2.Add(phaseNumber, new List<EnchantSpec>());
+                if (!guide.Item2.ContainsKey(phaseNumber))
+                    guide.Item2.Add(phaseNumber, new List<EnchantSpec>());
                 // else
                 //     guide.Item2[phaseNumber].Clear();
 

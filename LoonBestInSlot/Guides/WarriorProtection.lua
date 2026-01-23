@@ -150,9 +150,9 @@ LBIS:AddItem(spec1, "29012", LBIS.L["Chest"], "BIS") --Warbringer Chestguard
 LBIS:AddItem(spec1, "24544", LBIS.L["Chest"], "BIS Thrt") --Gladiator's Plate Chestpiece
 LBIS:AddItem(spec1, "28597", LBIS.L["Chest"], "Alt Mit") --Panzar'Thar Breastplate
 LBIS:AddItem(spec1, "28484", LBIS.L["Chest"], "Alt") --Bulwark of Kings
+LBIS:AddItem(spec1, "28795", LBIS.L["Wrist"], "BIS Thrt") --Bladespire Warbands
 LBIS:AddItem(spec1, "28996", LBIS.L["Wrist"], "BIS") --Marshal's Plate Bracers
 LBIS:AddItem(spec1, "28502", LBIS.L["Wrist"], "BIS Mit") --Vambraces of Courage
-LBIS:AddItem(spec1, "28795", LBIS.L["Wrist"], "BIS Thrt") --Bladespire Warbands
 LBIS:AddItem(spec1, "23538", LBIS.L["Wrist"], "Alt") --Bracers of the Green Fortress
 LBIS:AddItem(spec1, "30741", LBIS.L["Hands"], "BIS Mit") --Topaz-Studded Battlegrips
 LBIS:AddItem(spec1, "30644", LBIS.L["Hands"], "BIS Thrt") --Grips of Deftness
@@ -191,9 +191,9 @@ LBIS:AddItem(spec1, "28579", LBIS.L["Trinket"], "Alt Thrt") --Romulo's Poison Vi
 LBIS:AddItem(spec1, "19406", LBIS.L["Trinket"], "Alt") --Drake Fang Talisman
 LBIS:AddItem(spec1, "29387", LBIS.L["Trinket"], "Alt") --Gnomeregan Auto-Blocker 600
 LBIS:AddItem(spec1, "28749", LBIS.L["Main Hand"], "BIS") --King's Defender
+LBIS:AddItem(spec1, "29362", LBIS.L["Main Hand"], "BIS Mit") --The Sun Eater
 LBIS:AddItem(spec1, "28426", LBIS.L["Main Hand"], "BIS") --Blazeguard
 LBIS:AddItem(spec1, "29165", LBIS.L["Main Hand"], "BIS") --Warbringer
-LBIS:AddItem(spec1, "29362", LBIS.L["Main Hand"], "BIS Mit") --The Sun Eater
 LBIS:AddItem(spec1, "28189", LBIS.L["Main Hand"], "Alt") --Latro's Shifting Sword
 LBIS:AddItem(spec1, "23577", LBIS.L["Main Hand"], "Alt") --The Hungering Cold
 LBIS:AddItem(spec1, "27980", LBIS.L["Main Hand"], "Alt") --Terokk's Nightmace

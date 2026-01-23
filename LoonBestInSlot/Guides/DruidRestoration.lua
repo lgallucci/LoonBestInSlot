@@ -160,7 +160,7 @@ LBIS:AddItem(spec1, "27456", LBIS.L["Chest"], "Alt") --Raiments of Nature's Brea
 LBIS:AddItem(spec1, "27506", LBIS.L["Chest"], "Alt") --Robe of Effervescent Light
 LBIS:AddItem(spec1, "29183", LBIS.L["Wrist"], "BIS") --Bindings of the Timewalker
 LBIS:AddItem(spec1, "29523", LBIS.L["Wrist"], "BIS") --Windhawk Bracers
-LBIS:AddItem(spec1, "28511", LBIS.L["Wrist"], "BIS") --Bands of Indwelling
+LBIS:AddItem(spec1, "28511", LBIS.L["Wrist"], "Alt") --Bands of Indwelling
 LBIS:AddItem(spec1, "29249", LBIS.L["Wrist"], "Alt") --Bands of the Benevolent
 LBIS:AddItem(spec1, "21604", LBIS.L["Wrist"], "Alt") --Bracelets of Royal Redemption
 LBIS:AddItem(spec1, "27827", LBIS.L["Wrist"], "Alt") --Lucid Dream Bracers

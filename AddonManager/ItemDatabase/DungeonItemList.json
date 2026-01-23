@@ -1,4 +1,4420 @@
 {
-  "Items": {    
+  "Items": {
+    "24020": {
+      "Name": "Shadowrend Longblade",
+      "Source": "Watchkeeper Gargolmar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hellfire Ramparts",
+      "SourceFaction": "B"
+    },
+    "24021": {
+      "Name": "Light-Touched Breastplate",
+      "Source": "Watchkeeper Gargolmar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hellfire Ramparts",
+      "SourceFaction": "B"
+    },
+    "24022": {
+      "Name": "Scale Leggings of the Skirmisher",
+      "Source": "Watchkeeper Gargolmar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hellfire Ramparts",
+      "SourceFaction": "B"
+    },
+    "24023": {
+      "Name": "Bracers of Finesse",
+      "Source": "Watchkeeper Gargolmar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hellfire Ramparts",
+      "SourceFaction": "B"
+    },
+    "24024": {
+      "Name": "Pauldrons of Arcane Rage",
+      "Source": "Watchkeeper Gargolmar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hellfire Ramparts",
+      "SourceFaction": "B"
+    },
+    "24044": {
+      "Name": "Hellreaver",
+      "Source": "Vazruden",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hellfire Ramparts",
+      "SourceFaction": "B"
+    },
+    "24045": {
+      "Name": "Band of Renewal",
+      "Source": "Vazruden",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hellfire Ramparts",
+      "SourceFaction": "B"
+    },
+    "24046": {
+      "Name": "Kilt of Rolling Thunders",
+      "Source": "Vazruden",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hellfire Ramparts",
+      "SourceFaction": "B"
+    },
+    "24063": {
+      "Name": "Shifting Sash of Midnight",
+      "Source": "Vazruden",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hellfire Ramparts",
+      "SourceFaction": "B"
+    },
+    "24064": {
+      "Name": "Ironsole Clompers",
+      "Source": "Vazruden",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hellfire Ramparts",
+      "SourceFaction": "B"
+    },
+    "24069": {
+      "Name": "Crystalfire Staff",
+      "Source": "Omor the Unscarred",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hellfire Ramparts",
+      "SourceFaction": "B"
+    },
+    "24073": {
+      "Name": "Garrote-String Necklace",
+      "Source": "Omor the Unscarred",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hellfire Ramparts",
+      "SourceFaction": "B"
+    },
+    "24083": {
+      "Name": "Lifegiver Britches",
+      "Source": "Vazruden",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hellfire Ramparts",
+      "SourceFaction": "B"
+    },
+    "24090": {
+      "Name": "Bloodstained Ravager Gauntlets",
+      "Source": "Omor the Unscarred",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hellfire Ramparts",
+      "SourceFaction": "B"
+    },
+    "24091": {
+      "Name": "Tenacious Defender",
+      "Source": "Omor the Unscarred",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hellfire Ramparts",
+      "SourceFaction": "B"
+    },
+    "24094": {
+      "Name": "Heart Fire Warhammer",
+      "Source": "Omor the Unscarred",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hellfire Ramparts",
+      "SourceFaction": "B"
+    },
+    "24096": {
+      "Name": "Heartblood Prayer Beads",
+      "Source": "Omor the Unscarred",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hellfire Ramparts",
+      "SourceFaction": "B"
+    },
+    "24150": {
+      "Name": "Mok'Nathal Wildercloak",
+      "Source": "Vazruden",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hellfire Ramparts",
+      "SourceFaction": "B"
+    },
+    "24151": {
+      "Name": "Mok'Nathal Clan Ring",
+      "Source": "Vazruden",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hellfire Ramparts",
+      "SourceFaction": "B"
+    },
+    "24154": {
+      "Name": "Witching Band",
+      "Source": "Vazruden",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hellfire Ramparts",
+      "SourceFaction": "B"
+    },
+    "24155": {
+      "Name": "Ursol's Claw",
+      "Source": "Vazruden",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hellfire Ramparts",
+      "SourceFaction": "B"
+    },
+    "24356": {
+      "Name": "Wastewalker Shiv",
+      "Source": "Mennu the Betrayer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Slave Pens",
+      "SourceFaction": "B"
+    },
+    "24357": {
+      "Name": "Vest of Living Lightning",
+      "Source": "Mennu the Betrayer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Slave Pens",
+      "SourceFaction": "B"
+    },
+    "24359": {
+      "Name": "Princely Reign Leggings",
+      "Source": "Mennu the Betrayer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Slave Pens",
+      "SourceFaction": "B"
+    },
+    "24360": {
+      "Name": "Tracker's Belt",
+      "Source": "Mennu the Betrayer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Slave Pens",
+      "SourceFaction": "B"
+    },
+    "24361": {
+      "Name": "Spellfire Longsword",
+      "Source": "Mennu the Betrayer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Slave Pens",
+      "SourceFaction": "B"
+    },
+    "24362": {
+      "Name": "Spore-Soaked Vaneer",
+      "Source": "Quagmirran",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Slave Pens",
+      "SourceFaction": "B"
+    },
+    "24363": {
+      "Name": "Unscarred Breastplate",
+      "Source": "Quagmirran",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Slave Pens",
+      "SourceFaction": "B"
+    },
+    "24364": {
+      "Name": "Azureplate Greaves",
+      "Source": "Quagmirran",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Slave Pens",
+      "SourceFaction": "B"
+    },
+    "24365": {
+      "Name": "Deft Handguards",
+      "Source": "Quagmirran",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Slave Pens",
+      "SourceFaction": "B"
+    },
+    "24366": {
+      "Name": "Scorpid-Sting Mantle",
+      "Source": "Quagmirran",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Slave Pens",
+      "SourceFaction": "B"
+    },
+    "24376": {
+      "Name": "Runed Fungalcap",
+      "Source": "Rokmar the Crackler",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Slave Pens",
+      "SourceFaction": "B"
+    },
+    "24378": {
+      "Name": "Coilfang Hammer of Renewal",
+      "Source": "Rokmar the Crackler",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Slave Pens",
+      "SourceFaction": "B"
+    },
+    "24379": {
+      "Name": "Bogstrok Scale Cloak",
+      "Source": "Rokmar the Crackler",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Slave Pens",
+      "SourceFaction": "B"
+    },
+    "24380": {
+      "Name": "Calming Spore Reed",
+      "Source": "Rokmar the Crackler",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Slave Pens",
+      "SourceFaction": "B"
+    },
+    "24381": {
+      "Name": "Coilfang Needler",
+      "Source": "Rokmar the Crackler",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Slave Pens",
+      "SourceFaction": "B"
+    },
+    "24384": {
+      "Name": "Diamond-Core Sledgemace",
+      "Source": "The Maker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Blood Furnace",
+      "SourceFaction": "B"
+    },
+    "24385": {
+      "Name": "Pendant of Battle-Lust",
+      "Source": "The Maker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Blood Furnace",
+      "SourceFaction": "B"
+    },
+    "24386": {
+      "Name": "Libram of Saints Departed",
+      "Source": "The Maker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Blood Furnace",
+      "SourceFaction": "B"
+    },
+    "24387": {
+      "Name": "Ironblade Gauntlets",
+      "Source": "The Maker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Blood Furnace",
+      "SourceFaction": "B"
+    },
+    "24388": {
+      "Name": "Girdle of the Gale Storm",
+      "Source": "The Maker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Blood Furnace",
+      "SourceFaction": "B"
+    },
+    "24389": {
+      "Name": "Legion Blunderbuss",
+      "Source": "Broggok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Blood Furnace",
+      "SourceFaction": "B"
+    },
+    "24390": {
+      "Name": "Auslese's Light Channeler",
+      "Source": "Broggok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Blood Furnace",
+      "SourceFaction": "B"
+    },
+    "24391": {
+      "Name": "Kilt of the Night Strider",
+      "Source": "Broggok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Blood Furnace",
+      "SourceFaction": "B"
+    },
+    "24392": {
+      "Name": "Arcing Bracers",
+      "Source": "Broggok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Blood Furnace",
+      "SourceFaction": "B"
+    },
+    "24393": {
+      "Name": "Bloody Surgeon's Mitts",
+      "Source": "Broggok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Blood Furnace",
+      "SourceFaction": "B"
+    },
+    "24394": {
+      "Name": "Warsong Howling Axe",
+      "Source": "Keli'dan the Breaker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Blood Furnace",
+      "SourceFaction": "B"
+    },
+    "24395": {
+      "Name": "Mindfire Waistband",
+      "Source": "Keli'dan the Breaker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Blood Furnace",
+      "SourceFaction": "B"
+    },
+    "24396": {
+      "Name": "Vest of Vengeance",
+      "Source": "Keli'dan the Breaker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Blood Furnace",
+      "SourceFaction": "B"
+    },
+    "24397": {
+      "Name": "Raiments of Divine Authority",
+      "Source": "Keli'dan the Breaker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Blood Furnace",
+      "SourceFaction": "B"
+    },
+    "24398": {
+      "Name": "Mantle of the Dusk-Dweller",
+      "Source": "Keli'dan the Breaker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Blood Furnace",
+      "SourceFaction": "B"
+    },
+    "24413": {
+      "Name": "Totem of the Thunderhead",
+      "Source": "Hungarfen",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Underbog",
+      "SourceFaction": "B"
+    },
+    "24450": {
+      "Name": "Manaspark Gloves",
+      "Source": "Hungarfen",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Underbog",
+      "SourceFaction": "B"
+    },
+    "24451": {
+      "Name": "Lykul Bloodbands",
+      "Source": "Hungarfen",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Underbog",
+      "SourceFaction": "B"
+    },
+    "24452": {
+      "Name": "Starlight Gauntlets",
+      "Source": "Hungarfen",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Underbog",
+      "SourceFaction": "B"
+    },
+    "24453": {
+      "Name": "Zangartooth Shortblade",
+      "Source": "Swamplord Musel'ek",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Underbog",
+      "SourceFaction": "B"
+    },
+    "24454": {
+      "Name": "Cloak of Enduring Swiftness",
+      "Source": "Swamplord Musel'ek",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Underbog",
+      "SourceFaction": "B"
+    },
+    "24455": {
+      "Name": "Tunic of the Nightwatcher",
+      "Source": "Swamplord Musel'ek",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Underbog",
+      "SourceFaction": "B"
+    },
+    "24456": {
+      "Name": "Greaves of the Iron Guardian",
+      "Source": "Swamplord Musel'ek",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Underbog",
+      "SourceFaction": "B"
+    },
+    "24457": {
+      "Name": "Truth Bearer Shoulderguards",
+      "Source": "Swamplord Musel'ek",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Underbog",
+      "SourceFaction": "B"
+    },
+    "24458": {
+      "Name": "Studded Girdle of Virtue",
+      "Source": "Ghaz'an",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Underbog",
+      "SourceFaction": "B"
+    },
+    "24459": {
+      "Name": "Cloak of Healing Rays",
+      "Source": "Ghaz'an",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Underbog",
+      "SourceFaction": "B"
+    },
+    "24460": {
+      "Name": "Talisman of Tenacity",
+      "Source": "Ghaz'an",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Underbog",
+      "SourceFaction": "B"
+    },
+    "24461": {
+      "Name": "Hatebringer",
+      "Source": "Ghaz'an",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Underbog",
+      "SourceFaction": "B"
+    },
+    "24462": {
+      "Name": "Luminous Pearls of Insight",
+      "Source": "Ghaz'an",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Underbog",
+      "SourceFaction": "B"
+    },
+    "24463": {
+      "Name": "Pauldrons of Brute Force",
+      "Source": "The Black Stalker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Underbog",
+      "SourceFaction": "B"
+    },
+    "24464": {
+      "Name": "The Stalker's Fangs",
+      "Source": "The Black Stalker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Underbog",
+      "SourceFaction": "B"
+    },
+    "24465": {
+      "Name": "Shamblehide Chestguard",
+      "Source": "The Black Stalker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Underbog",
+      "SourceFaction": "B"
+    },
+    "24466": {
+      "Name": "Skulldugger's Leggings",
+      "Source": "The Black Stalker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Underbog",
+      "SourceFaction": "B"
+    },
+    "24481": {
+      "Name": "Robes of the Augurer",
+      "Source": "The Black Stalker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Underbog",
+      "SourceFaction": "B"
+    },
+    "25939": {
+      "Name": "Voidfire Wand",
+      "Source": "Pandemonius",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mana Tombs",
+      "SourceFaction": "B"
+    },
+    "25940": {
+      "Name": "Idol of the Claw",
+      "Source": "Pandemonius",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mana Tombs",
+      "SourceFaction": "B"
+    },
+    "25941": {
+      "Name": "Boots of the Outlander",
+      "Source": "Pandemonius",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mana Tombs",
+      "SourceFaction": "B"
+    },
+    "25942": {
+      "Name": "Faith Bearer's Gauntlets",
+      "Source": "Pandemonius",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mana Tombs",
+      "SourceFaction": "B"
+    },
+    "25943": {
+      "Name": "Creepjacker",
+      "Source": "Pandemonius",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mana Tombs",
+      "SourceFaction": "B"
+    },
+    "25944": {
+      "Name": "Shaarde the Greater",
+      "Source": "Tavarok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mana Tombs",
+      "SourceFaction": "B"
+    },
+    "25945": {
+      "Name": "Cloak of Revival",
+      "Source": "Tavarok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mana Tombs",
+      "SourceFaction": "B"
+    },
+    "25946": {
+      "Name": "Nethershade Boots",
+      "Source": "Tavarok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mana Tombs",
+      "SourceFaction": "B"
+    },
+    "25947": {
+      "Name": "Lightning-Rod Pauldrons",
+      "Source": "Tavarok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mana Tombs",
+      "SourceFaction": "B"
+    },
+    "25950": {
+      "Name": "Staff of Polarities",
+      "Source": "Tavarok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mana Tombs",
+      "SourceFaction": "B"
+    },
+    "25952": {
+      "Name": "Scimitar of the Nexus-Stalkers",
+      "Source": "Tavarok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mana Tombs",
+      "SourceFaction": "B"
+    },
+    "25953": {
+      "Name": "Ethereal Warp-Bow",
+      "Source": "Nexus-Prince Shaffar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mana Tombs",
+      "SourceFaction": "B"
+    },
+    "25954": {
+      "Name": "Sigil of Shaffar",
+      "Source": "Nexus-Prince Shaffar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mana Tombs",
+      "SourceFaction": "B"
+    },
+    "25955": {
+      "Name": "Mask of the Howling Storm",
+      "Source": "Nexus-Prince Shaffar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mana Tombs",
+      "SourceFaction": "B"
+    },
+    "25956": {
+      "Name": "Nexus-Bracers of Vigor",
+      "Source": "Nexus-Prince Shaffar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mana Tombs",
+      "SourceFaction": "B"
+    },
+    "25957": {
+      "Name": "Ethereal Boots of the Skystrider",
+      "Source": "Nexus-Prince Shaffar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mana Tombs",
+      "SourceFaction": "B"
+    },
+    "25962": {
+      "Name": "Longstrider's Loop",
+      "Source": "Nexus-Prince Shaffar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mana Tombs",
+      "SourceFaction": "B"
+    },
+    "25964": {
+      "Name": "Shaarde the Lesser",
+      "Source": "Shirrak the Dead Watcher",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Auchenai Crypts",
+      "SourceFaction": "B"
+    },
+    "26055": {
+      "Name": "Oculus of the Hidden Eye",
+      "Source": "Shirrak the Dead Watcher",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Auchenai Crypts",
+      "SourceFaction": "B"
+    },
+    "27408": {
+      "Name": "Hope Bearer Helm",
+      "Source": "Shirrak the Dead Watcher",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Auchenai Crypts",
+      "SourceFaction": "B"
+    },
+    "27409": {
+      "Name": "Raven-Heart Headdress",
+      "Source": "Shirrak the Dead Watcher",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Auchenai Crypts",
+      "SourceFaction": "B"
+    },
+    "27410": {
+      "Name": "Collar of Command",
+      "Source": "Shirrak the Dead Watcher",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Auchenai Crypts",
+      "SourceFaction": "B"
+    },
+    "27411": {
+      "Name": "Slippers of Serenity",
+      "Source": "Exarch Maladaar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Auchenai Crypts",
+      "SourceFaction": "B"
+    },
+    "27412": {
+      "Name": "Ironstaff of Regeneration",
+      "Source": "Exarch Maladaar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Auchenai Crypts",
+      "SourceFaction": "B"
+    },
+    "27413": {
+      "Name": "Ring of the Exarchs",
+      "Source": "Exarch Maladaar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Auchenai Crypts",
+      "SourceFaction": "B"
+    },
+    "27414": {
+      "Name": "Mok'Nathal Beast-Mask",
+      "Source": "Exarch Maladaar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Auchenai Crypts",
+      "SourceFaction": "B"
+    },
+    "27415": {
+      "Name": "Darkguard Face Mask",
+      "Source": "Exarch Maladaar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Auchenai Crypts",
+      "SourceFaction": "B"
+    },
+    "27416": {
+      "Name": "Fetish of the Fallen",
+      "Source": "Exarch Maladaar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Auchenai Crypts",
+      "SourceFaction": "B"
+    },
+    "27417": {
+      "Name": "Ravenwing Pauldrons",
+      "Source": "Lieutenant Drake",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Old Hillsbrad Foothills",
+      "SourceFaction": "B"
+    },
+    "27418": {
+      "Name": "Stormreaver Shadow-Kilt",
+      "Source": "Lieutenant Drake",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Old Hillsbrad Foothills",
+      "SourceFaction": "B"
+    },
+    "27420": {
+      "Name": "Uther's Ceremonial Warboots",
+      "Source": "Lieutenant Drake",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Old Hillsbrad Foothills",
+      "SourceFaction": "B"
+    },
+    "27423": {
+      "Name": "Cloak of Impulsiveness",
+      "Source": "Lieutenant Drake",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Old Hillsbrad Foothills",
+      "SourceFaction": "B"
+    },
+    "27424": {
+      "Name": "Amani Venom-Axe",
+      "Source": "Captain Skarloc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Old Hillsbrad Foothills",
+      "SourceFaction": "B"
+    },
+    "27426": {
+      "Name": "Northshire Battlemace",
+      "Source": "Captain Skarloc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Old Hillsbrad Foothills",
+      "SourceFaction": "B"
+    },
+    "27427": {
+      "Name": "Durotan's Battle Harness",
+      "Source": "Captain Skarloc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Old Hillsbrad Foothills",
+      "SourceFaction": "B"
+    },
+    "27428": {
+      "Name": "Stormfront Gauntlets",
+      "Source": "Captain Skarloc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Old Hillsbrad Foothills",
+      "SourceFaction": "B"
+    },
+    "27430": {
+      "Name": "Scaled Greaves of Patience",
+      "Source": "Captain Skarloc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Old Hillsbrad Foothills",
+      "SourceFaction": "B"
+    },
+    "27431": {
+      "Name": "Time-Shifted Dagger",
+      "Source": "Epoch Hunter",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Old Hillsbrad Foothills",
+      "SourceFaction": "B"
+    },
+    "27432": {
+      "Name": "Broxigar's Ring of Valor",
+      "Source": "Epoch Hunter",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Old Hillsbrad Foothills",
+      "SourceFaction": "B"
+    },
+    "27433": {
+      "Name": "Pauldrons of Sufferance",
+      "Source": "Epoch Hunter",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Old Hillsbrad Foothills",
+      "SourceFaction": "B"
+    },
+    "27434": {
+      "Name": "Mantle of Perenolde",
+      "Source": "Epoch Hunter",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Old Hillsbrad Foothills",
+      "SourceFaction": "B"
+    },
+    "27436": {
+      "Name": "Iron Band of the Unbreakable",
+      "Source": "Lieutenant Drake",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Old Hillsbrad Foothills",
+      "SourceFaction": "B"
+    },
+    "27440": {
+      "Name": "Diamond Prism of Recurrence",
+      "Source": "Epoch Hunter",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Old Hillsbrad Foothills",
+      "SourceFaction": "B"
+    },
+    "27447": {
+      "Name": "Bracers of Just Rewards",
+      "Source": "Watchkeeper Gargolmar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hellfire Ramparts (H)",
+      "SourceFaction": "B"
+    },
+    "27448": {
+      "Name": "Cloak of the Everliving",
+      "Source": "Watchkeeper Gargolmar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hellfire Ramparts (H)",
+      "SourceFaction": "B"
+    },
+    "27449": {
+      "Name": "Blood Knight Defender",
+      "Source": "Watchkeeper Gargolmar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hellfire Ramparts (H)",
+      "SourceFaction": "B"
+    },
+    "27450": {
+      "Name": "Wild Stalker Boots",
+      "Source": "Watchkeeper Gargolmar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hellfire Ramparts (H)",
+      "SourceFaction": "B"
+    },
+    "27451": {
+      "Name": "Boots of the Darkwalker",
+      "Source": "Watchkeeper Gargolmar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hellfire Ramparts (H)",
+      "SourceFaction": "B"
+    },
+    "27452": {
+      "Name": "Light Scribe Bands",
+      "Source": "Vazruden",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hellfire Ramparts (H)",
+      "SourceFaction": "B"
+    },
+    "27453": {
+      "Name": "Averinn's Ring of Slaying",
+      "Source": "Vazruden",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hellfire Ramparts (H)",
+      "SourceFaction": "B"
+    },
+    "27454": {
+      "Name": "Volcanic Pauldrons",
+      "Source": "Vazruden",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hellfire Ramparts (H)",
+      "SourceFaction": "B"
+    },
+    "27455": {
+      "Name": "Irondrake Faceguard",
+      "Source": "Vazruden",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hellfire Ramparts (H)",
+      "SourceFaction": "B"
+    },
+    "27456": {
+      "Name": "Raiments of Nature's Breath",
+      "Source": "Vazruden",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hellfire Ramparts (H)",
+      "SourceFaction": "B"
+    },
+    "27457": {
+      "Name": "Life Bearer's Gauntlets",
+      "Source": "Vazruden",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hellfire Ramparts (H)",
+      "SourceFaction": "B"
+    },
+    "27458": {
+      "Name": "Oceansong Kilt",
+      "Source": "Vazruden",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hellfire Ramparts (H)",
+      "SourceFaction": "B"
+    },
+    "27459": {
+      "Name": "Vambraces of Daring",
+      "Source": "Vazruden",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hellfire Ramparts (H)",
+      "SourceFaction": "B"
+    },
+    "27460": {
+      "Name": "Reavers' Ring",
+      "Source": "Vazruden",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hellfire Ramparts (H)",
+      "SourceFaction": "B"
+    },
+    "27461": {
+      "Name": "Chestguard of the Prowler",
+      "Source": "Vazruden",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hellfire Ramparts (H)",
+      "SourceFaction": "B"
+    },
+    "27462": {
+      "Name": "Crimson Bracers of Gloom",
+      "Source": "Omor the Unscarred",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hellfire Ramparts (H)",
+      "SourceFaction": "B"
+    },
+    "27463": {
+      "Name": "Terror Flame Dagger",
+      "Source": "Omor the Unscarred",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hellfire Ramparts (H)",
+      "SourceFaction": "B"
+    },
+    "27464": {
+      "Name": "Omor's Unyielding Will",
+      "Source": "Omor the Unscarred",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hellfire Ramparts (H)",
+      "SourceFaction": "B"
+    },
+    "27465": {
+      "Name": "Mana-Etched Gloves",
+      "Source": "Omor the Unscarred",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hellfire Ramparts (H)",
+      "SourceFaction": "B"
+    },
+    "27466": {
+      "Name": "Headdress of Alacrity",
+      "Source": "Omor the Unscarred",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hellfire Ramparts (H)",
+      "SourceFaction": "B"
+    },
+    "27467": {
+      "Name": "Silent-Strider Kneeboots",
+      "Source": "Omor the Unscarred",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hellfire Ramparts (H)",
+      "SourceFaction": "B"
+    },
+    "27468": {
+      "Name": "Moonglade Handwraps",
+      "Source": "Blackheart the Inciter",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Shadow Labyrinth",
+      "SourceFaction": "B"
+    },
+    "27474": {
+      "Name": "Beast Lord Handguards",
+      "Source": "Warchief Kargath Bladefist",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Shattered Halls",
+      "SourceFaction": "B"
+    },
+    "27475": {
+      "Name": "Gauntlets of the Bold",
+      "Source": "Warlord Kalithresh",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Steamvault",
+      "SourceFaction": "B"
+    },
+    "27476": {
+      "Name": "Truncheon of Five Hells",
+      "Source": "Omor the Unscarred",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hellfire Ramparts (H)",
+      "SourceFaction": "B"
+    },
+    "27477": {
+      "Name": "Faol's Signet of Cleansing",
+      "Source": "Omor the Unscarred",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hellfire Ramparts (H)",
+      "SourceFaction": "B"
+    },
+    "27478": {
+      "Name": "Girdle of the Blasted Reaches",
+      "Source": "Omor the Unscarred",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hellfire Ramparts (H)",
+      "SourceFaction": "B"
+    },
+    "27483": {
+      "Name": "Moon-Touched Bands",
+      "Source": "The Maker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Blood Furnace (H)",
+      "SourceFaction": "B"
+    },
+    "27484": {
+      "Name": "Libram of Avengement",
+      "Source": "The Maker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Blood Furnace (H)",
+      "SourceFaction": "B"
+    },
+    "27485": {
+      "Name": "Embroidered Cape of Mysteries",
+      "Source": "The Maker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Blood Furnace (H)",
+      "SourceFaction": "B"
+    },
+    "27487": {
+      "Name": "Bloodlord Legplates",
+      "Source": "The Maker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Blood Furnace (H)",
+      "SourceFaction": "B"
+    },
+    "27488": {
+      "Name": "Mage-Collar of the Firestorm",
+      "Source": "The Maker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Blood Furnace (H)",
+      "SourceFaction": "B"
+    },
+    "27489": {
+      "Name": "Virtue Bearer's Vambraces",
+      "Source": "Broggok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Blood Furnace (H)",
+      "SourceFaction": "B"
+    },
+    "27490": {
+      "Name": "Firebrand Battleaxe",
+      "Source": "Broggok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Blood Furnace (H)",
+      "SourceFaction": "B"
+    },
+    "27491": {
+      "Name": "Signet of Repose",
+      "Source": "Broggok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Blood Furnace (H)",
+      "SourceFaction": "B"
+    },
+    "27492": {
+      "Name": "Moonchild Leggings",
+      "Source": "Broggok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Blood Furnace (H)",
+      "SourceFaction": "B"
+    },
+    "27493": {
+      "Name": "Gloves of the Deadwatcher",
+      "Source": "Shirrak the Dead Watcher",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Auchenai Crypts (H)",
+      "SourceFaction": "B"
+    },
+    "27494": {
+      "Name": "Emerald Eye Bracer",
+      "Source": "Keli'dan the Breaker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Blood Furnace (H)",
+      "SourceFaction": "B"
+    },
+    "27495": {
+      "Name": "Soldier's Dog Tags",
+      "Source": "Keli'dan the Breaker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Blood Furnace (H)",
+      "SourceFaction": "B"
+    },
+    "27497": {
+      "Name": "Doomplate Gauntlets",
+      "Source": "Keli'dan the Breaker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Blood Furnace (H)",
+      "SourceFaction": "B"
+    },
+    "27505": {
+      "Name": "Ruby Helm of the Just",
+      "Source": "Keli'dan the Breaker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Blood Furnace (H)",
+      "SourceFaction": "B"
+    },
+    "27506": {
+      "Name": "Robe of Effervescent Light",
+      "Source": "Keli'dan the Breaker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Blood Furnace (H)",
+      "SourceFaction": "B"
+    },
+    "27507": {
+      "Name": "Adamantine Repeater",
+      "Source": "Keli'dan the Breaker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Blood Furnace (H)",
+      "SourceFaction": "B"
+    },
+    "27508": {
+      "Name": "Incanter's Gloves",
+      "Source": "Hydromancer Thespia",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Steamvault",
+      "SourceFaction": "B"
+    },
+    "27509": {
+      "Name": "Handgrips of Assassination",
+      "Source": "Aeonus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Black Morass",
+      "SourceFaction": "B"
+    },
+    "27510": {
+      "Name": "Tidefury Gauntlets",
+      "Source": "Warlord Kalithresh",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Steamvault",
+      "SourceFaction": "B"
+    },
+    "27512": {
+      "Name": "The Willbreaker",
+      "Source": "Keli'dan the Breaker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Blood Furnace (H)",
+      "SourceFaction": "B"
+    },
+    "27514": {
+      "Name": "Leggings of the Unrepentant",
+      "Source": "Keli'dan the Breaker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Blood Furnace (H)",
+      "SourceFaction": "B"
+    },
+    "27517": {
+      "Name": "Bands of Nethekurse",
+      "Source": "Grand Warlock Nethekurse",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Shattered Halls",
+      "SourceFaction": "B"
+    },
+    "27518": {
+      "Name": "Ivory Idol of the Moongoddess",
+      "Source": "Grand Warlock Nethekurse",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Shattered Halls",
+      "SourceFaction": "B"
+    },
+    "27519": {
+      "Name": "Cloak of Malice",
+      "Source": "Grand Warlock Nethekurse",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Shattered Halls",
+      "SourceFaction": "B"
+    },
+    "27520": {
+      "Name": "Greathelm of the Unbreakable",
+      "Source": "Grand Warlock Nethekurse",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Shattered Halls",
+      "SourceFaction": "B"
+    },
+    "27521": {
+      "Name": "Telaari Hunting Girdle",
+      "Source": "Grand Warlock Nethekurse",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Shattered Halls",
+      "SourceFaction": "B"
+    },
+    "27522": {
+      "Name": "World's End Bracers",
+      "Source": "Keli'dan the Breaker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Blood Furnace (H)",
+      "SourceFaction": "B"
+    },
+    "27523": {
+      "Name": "Exarch's Diamond Band",
+      "Source": "Exarch Maladaar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Auchenai Crypts (H)",
+      "SourceFaction": "B"
+    },
+    "27524": {
+      "Name": "Firemaul of Destruction",
+      "Source": "Warbringer O'mrogg",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Shattered Halls",
+      "SourceFaction": "B"
+    },
+    "27525": {
+      "Name": "Jeweled Boots of Sanctification",
+      "Source": "Warbringer O'mrogg",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Shattered Halls",
+      "SourceFaction": "B"
+    },
+    "27526": {
+      "Name": "Skyfire Hawk-Bow",
+      "Source": "Warbringer O'mrogg",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Shattered Halls",
+      "SourceFaction": "B"
+    },
+    "27527": {
+      "Name": "Greaves of the Shatterer",
+      "Source": "Warchief Kargath Bladefist",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Shattered Halls",
+      "SourceFaction": "B"
+    },
+    "27528": {
+      "Name": "Gauntlets of Desolation",
+      "Source": "Warchief Kargath Bladefist",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Shattered Halls",
+      "SourceFaction": "B"
+    },
+    "27529": {
+      "Name": "Figurine of the Colossus",
+      "Source": "Warchief Kargath Bladefist",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Shattered Halls",
+      "SourceFaction": "B"
+    },
+    "27531": {
+      "Name": "Wastewalker Gloves",
+      "Source": "Warchief Kargath Bladefist",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Shattered Halls",
+      "SourceFaction": "B"
+    },
+    "27533": {
+      "Name": "Demonblood Eviscerator",
+      "Source": "Warchief Kargath Bladefist",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Shattered Halls",
+      "SourceFaction": "B"
+    },
+    "27534": {
+      "Name": "Hortus' Seal of Brilliance",
+      "Source": "Warchief Kargath Bladefist",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Shattered Halls",
+      "SourceFaction": "B"
+    },
+    "27535": {
+      "Name": "Gauntlets of the Righteous",
+      "Source": "Warchief Kargath Bladefist",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Shattered Halls",
+      "SourceFaction": "B"
+    },
+    "27536": {
+      "Name": "Hallowed Handwraps",
+      "Source": "Warchief Kargath Bladefist",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Shattered Halls",
+      "SourceFaction": "B"
+    },
+    "27537": {
+      "Name": "Gloves of Oblivion",
+      "Source": "Warchief Kargath Bladefist",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Shattered Halls",
+      "SourceFaction": "B"
+    },
+    "27538": {
+      "Name": "Lightsworn Hammer",
+      "Source": "Warchief Kargath Bladefist",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Shattered Halls",
+      "SourceFaction": "B"
+    },
+    "27539": {
+      "Name": "Justice Bearer's Pauldrons",
+      "Source": "Omor the Unscarred",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hellfire Ramparts (H)",
+      "SourceFaction": "B"
+    },
+    "27540": {
+      "Name": "Nexus Torch",
+      "Source": "Warchief Kargath Bladefist",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Shattered Halls",
+      "SourceFaction": "B"
+    },
+    "27541": {
+      "Name": "Archery Belt of the Broken",
+      "Source": "Mennu the Betrayer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Slave Pens (H)",
+      "SourceFaction": "B"
+    },
+    "27542": {
+      "Name": "Cord of Belief",
+      "Source": "Mennu the Betrayer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Slave Pens (H)",
+      "SourceFaction": "B"
+    },
+    "27543": {
+      "Name": "Starlight Dagger",
+      "Source": "Mennu the Betrayer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Slave Pens (H)",
+      "SourceFaction": "B"
+    },
+    "27544": {
+      "Name": "Totem of Spontaneous Regrowth",
+      "Source": "Mennu the Betrayer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Slave Pens (H)",
+      "SourceFaction": "B"
+    },
+    "27545": {
+      "Name": "Mennu's Scaled Leggings",
+      "Source": "Mennu the Betrayer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Slave Pens (H)",
+      "SourceFaction": "B"
+    },
+    "27546": {
+      "Name": "Traitor's Noose",
+      "Source": "Mennu the Betrayer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Slave Pens (H)",
+      "SourceFaction": "B"
+    },
+    "27547": {
+      "Name": "Coldwhisper Cord",
+      "Source": "Rokmar the Crackler",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Slave Pens (H)",
+      "SourceFaction": "B"
+    },
+    "27548": {
+      "Name": "Girdle of Many Blessings",
+      "Source": "Rokmar the Crackler",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Slave Pens (H)",
+      "SourceFaction": "B"
+    },
+    "27549": {
+      "Name": "Wavefury Boots",
+      "Source": "Rokmar the Crackler",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Slave Pens (H)",
+      "SourceFaction": "B"
+    },
+    "27550": {
+      "Name": "Ironscale War Cloak",
+      "Source": "Rokmar the Crackler",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Slave Pens (H)",
+      "SourceFaction": "B"
+    },
+    "27551": {
+      "Name": "Skeletal Necklace of Battlerage",
+      "Source": "Rokmar the Crackler",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Slave Pens (H)",
+      "SourceFaction": "B"
+    },
+    "27631": {
+      "Name": "Needle Shrike",
+      "Source": "Hungarfen",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Underbog",
+      "SourceFaction": "B"
+    },
+    "27672": {
+      "Name": "Girdle of the Immovable",
+      "Source": "Quagmirran",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Slave Pens (H)",
+      "SourceFaction": "B"
+    },
+    "27673": {
+      "Name": "Phosphorescent Blade",
+      "Source": "Quagmirran",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Slave Pens (H)",
+      "SourceFaction": "B"
+    },
+    "27683": {
+      "Name": "Quagmirran's Eye",
+      "Source": "Quagmirran",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Slave Pens (H)",
+      "SourceFaction": "B"
+    },
+    "27712": {
+      "Name": "Shackles of Quagmirran",
+      "Source": "Quagmirran",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Slave Pens (H)",
+      "SourceFaction": "B"
+    },
+    "27713": {
+      "Name": "Pauldrons of Desolation",
+      "Source": "Quagmirran",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Slave Pens (H)",
+      "SourceFaction": "B"
+    },
+    "27714": {
+      "Name": "Swamplight Lantern",
+      "Source": "Quagmirran",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Slave Pens (H)",
+      "SourceFaction": "B"
+    },
+    "27737": {
+      "Name": "Moonglade Shoulders",
+      "Source": "Warlord Kalithresh",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Steamvault",
+      "SourceFaction": "B"
+    },
+    "27738": {
+      "Name": "Incanter's Pauldrons",
+      "Source": "Warlord Kalithresh",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Steamvault",
+      "SourceFaction": "B"
+    },
+    "27739": {
+      "Name": "Spaulders of the Righteous",
+      "Source": "Laj",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Botanica",
+      "SourceFaction": "B"
+    },
+    "27740": {
+      "Name": "Band of Ursol",
+      "Source": "Quagmirran",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Slave Pens (H)",
+      "SourceFaction": "B"
+    },
+    "27741": {
+      "Name": "Bleeding Hollow Warhammer",
+      "Source": "Quagmirran",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Slave Pens (H)",
+      "SourceFaction": "B"
+    },
+    "27742": {
+      "Name": "Mage-Fury Girdle",
+      "Source": "Quagmirran",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Slave Pens (H)",
+      "SourceFaction": "B"
+    },
+    "27743": {
+      "Name": "Girdle of Living Flame",
+      "Source": "Hungarfen",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Underbog",
+      "SourceFaction": "B"
+    },
+    "27744": {
+      "Name": "Idol of Ursoc",
+      "Source": "Hungarfen",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Underbog",
+      "SourceFaction": "B"
+    },
+    "27745": {
+      "Name": "Hungarhide Gauntlets",
+      "Source": "Hungarfen",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Underbog",
+      "SourceFaction": "B"
+    },
+    "27746": {
+      "Name": "Arcanium Signet Bands",
+      "Source": "Hungarfen",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Underbog",
+      "SourceFaction": "B"
+    },
+    "27747": {
+      "Name": "Boggspine Knuckles",
+      "Source": "Hungarfen",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Underbog",
+      "SourceFaction": "B"
+    },
+    "27748": {
+      "Name": "Cassock of the Loyal",
+      "Source": "Hungarfen",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Underbog",
+      "SourceFaction": "B"
+    },
+    "27755": {
+      "Name": "Girdle of Gallantry",
+      "Source": "Ghaz'an",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Underbog",
+      "SourceFaction": "B"
+    },
+    "27757": {
+      "Name": "Greatstaff of the Leviathan",
+      "Source": "Ghaz'an",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Underbog",
+      "SourceFaction": "B"
+    },
+    "27758": {
+      "Name": "Hydra-fang Necklace",
+      "Source": "Ghaz'an",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Underbog",
+      "SourceFaction": "B"
+    },
+    "27759": {
+      "Name": "Headdress of the Tides",
+      "Source": "Ghaz'an",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Underbog",
+      "SourceFaction": "B"
+    },
+    "27760": {
+      "Name": "Dunewind Sash",
+      "Source": "Ghaz'an",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Underbog",
+      "SourceFaction": "B"
+    },
+    "27761": {
+      "Name": "Ring of the Shadow Deeps",
+      "Source": "Ghaz'an",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Underbog",
+      "SourceFaction": "B"
+    },
+    "27762": {
+      "Name": "Weathered Band of the Swamplord",
+      "Source": "Swamplord Musel'ek",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Underbog (H)",
+      "SourceFaction": "B"
+    },
+    "27763": {
+      "Name": "Crown of the Forest Lord",
+      "Source": "Swamplord Musel'ek",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Underbog (H)",
+      "SourceFaction": "B"
+    },
+    "27764": {
+      "Name": "Hands of the Sun",
+      "Source": "Swamplord Musel'ek",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Underbog (H)",
+      "SourceFaction": "B"
+    },
+    "27765": {
+      "Name": "Armwraps of Disdain",
+      "Source": "Swamplord Musel'ek",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Underbog (H)",
+      "SourceFaction": "B"
+    },
+    "27766": {
+      "Name": "Swampstone Necklace",
+      "Source": "Swamplord Musel'ek",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Underbog (H)",
+      "SourceFaction": "B"
+    },
+    "27767": {
+      "Name": "Bogreaver",
+      "Source": "Swamplord Musel'ek",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Underbog (H)",
+      "SourceFaction": "B"
+    },
+    "27768": {
+      "Name": "Oracle Belt of Timeless Mystery",
+      "Source": "The Black Stalker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Underbog",
+      "SourceFaction": "B"
+    },
+    "27769": {
+      "Name": "Endbringer",
+      "Source": "The Black Stalker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Underbog",
+      "SourceFaction": "B"
+    },
+    "27770": {
+      "Name": "Argussian Compass",
+      "Source": "The Black Stalker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Underbog",
+      "SourceFaction": "B"
+    },
+    "27771": {
+      "Name": "Doomplate Shoulderguards",
+      "Source": "The Black Stalker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Underbog",
+      "SourceFaction": "B"
+    },
+    "27772": {
+      "Name": "Stormshield of Renewal",
+      "Source": "The Black Stalker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Underbog",
+      "SourceFaction": "B"
+    },
+    "27773": {
+      "Name": "Barbaric Legstraps",
+      "Source": "The Black Stalker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Underbog",
+      "SourceFaction": "B"
+    },
+    "27775": {
+      "Name": "Hallowed Pauldrons",
+      "Source": "Grandmaster Vorpil",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Shadow Labyrinth",
+      "SourceFaction": "B"
+    },
+    "27776": {
+      "Name": "Shoulderpads of Assassination",
+      "Source": "Talon King Ikiss",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sethekk Halls",
+      "SourceFaction": "B"
+    },
+    "27778": {
+      "Name": "Spaulders of Oblivion",
+      "Source": "Murmur",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Shadow Labyrinth",
+      "SourceFaction": "B"
+    },
+    "27779": {
+      "Name": "Bone Chain Necklace",
+      "Source": "The Black Stalker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Underbog",
+      "SourceFaction": "B"
+    },
+    "27780": {
+      "Name": "Ring of Fabled Hope",
+      "Source": "The Black Stalker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Underbog",
+      "SourceFaction": "B"
+    },
+    "27781": {
+      "Name": "Demonfang Ritual Helm",
+      "Source": "The Black Stalker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Underbog",
+      "SourceFaction": "B"
+    },
+    "27783": {
+      "Name": "Moonrage Girdle",
+      "Source": "Hydromancer Thespia",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Steamvault",
+      "SourceFaction": "B"
+    },
+    "27784": {
+      "Name": "Scintillating Coral Band",
+      "Source": "Hydromancer Thespia",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Steamvault",
+      "SourceFaction": "B"
+    },
+    "27787": {
+      "Name": "Chestguard of No Remorse",
+      "Source": "Hydromancer Thespia",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Steamvault",
+      "SourceFaction": "B"
+    },
+    "27788": {
+      "Name": "Bloodsworn Warboots",
+      "Source": "Keli'dan the Breaker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Blood Furnace (H)",
+      "SourceFaction": "B"
+    },
+    "27789": {
+      "Name": "Cloak of Whispering Shells",
+      "Source": "Hydromancer Thespia",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Steamvault",
+      "SourceFaction": "B"
+    },
+    "27790": {
+      "Name": "Mask of Penance",
+      "Source": "Mekgineer Steamrigger",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Steamvault",
+      "SourceFaction": "B"
+    },
+    "27791": {
+      "Name": "Serpentcrest Life-Staff",
+      "Source": "Mekgineer Steamrigger",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Steamvault",
+      "SourceFaction": "B"
+    },
+    "27792": {
+      "Name": "Steam-Hinge Chain of Valor",
+      "Source": "Mekgineer Steamrigger",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Steamvault",
+      "SourceFaction": "B"
+    },
+    "27793": {
+      "Name": "Earth Mantle Handwraps",
+      "Source": "Mekgineer Steamrigger",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Steamvault",
+      "SourceFaction": "B"
+    },
+    "27794": {
+      "Name": "Recoilless Rocket Ripper X-54",
+      "Source": "Mekgineer Steamrigger",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Steamvault",
+      "SourceFaction": "B"
+    },
+    "27795": {
+      "Name": "Sash of Serpentra",
+      "Source": "Warlord Kalithresh",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Steamvault",
+      "SourceFaction": "B"
+    },
+    "27796": {
+      "Name": "Mana-Etched Spaulders",
+      "Source": "Quagmirran",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Slave Pens (H)",
+      "SourceFaction": "B"
+    },
+    "27798": {
+      "Name": "Gauntlets of Vindication",
+      "Source": "Nexus-Prince Shaffar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mana Tombs (H)",
+      "SourceFaction": "B"
+    },
+    "27799": {
+      "Name": "Vermillion Robes of the Dominant",
+      "Source": "Warlord Kalithresh",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Steamvault",
+      "SourceFaction": "B"
+    },
+    "27800": {
+      "Name": "Earthsoul Britches",
+      "Source": "Quagmirran",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Slave Pens (H)",
+      "SourceFaction": "B"
+    },
+    "27801": {
+      "Name": "Beast Lord Mantle",
+      "Source": "Warlord Kalithresh",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Steamvault",
+      "SourceFaction": "B"
+    },
+    "27802": {
+      "Name": "Tidefury Shoulderguards",
+      "Source": "Warbringer O'mrogg",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Shattered Halls",
+      "SourceFaction": "B"
+    },
+    "27803": {
+      "Name": "Shoulderguards of the Bold",
+      "Source": "Murmur",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Shadow Labyrinth",
+      "SourceFaction": "B"
+    },
+    "27804": {
+      "Name": "Devilshark Cape",
+      "Source": "Warlord Kalithresh",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Steamvault",
+      "SourceFaction": "B"
+    },
+    "27805": {
+      "Name": "Ring of the Silver Hand",
+      "Source": "Warlord Kalithresh",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Steamvault",
+      "SourceFaction": "B"
+    },
+    "27806": {
+      "Name": "Fathomheart Gauntlets",
+      "Source": "Warlord Kalithresh",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Steamvault",
+      "SourceFaction": "B"
+    },
+    "27813": {
+      "Name": "Boots of the Colossus",
+      "Source": "Pandemonius",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mana Tombs (H)",
+      "SourceFaction": "B"
+    },
+    "27814": {
+      "Name": "Twinblade of Mastery",
+      "Source": "Pandemonius",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mana Tombs (H)",
+      "SourceFaction": "B"
+    },
+    "27815": {
+      "Name": "Totem of the Astral Winds",
+      "Source": "Pandemonius",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mana Tombs (H)",
+      "SourceFaction": "B"
+    },
+    "27816": {
+      "Name": "Mindrage Pauldrons",
+      "Source": "Pandemonius",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mana Tombs (H)",
+      "SourceFaction": "B"
+    },
+    "27817": {
+      "Name": "Starbolt Longbow",
+      "Source": "Pandemonius",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mana Tombs (H)",
+      "SourceFaction": "B"
+    },
+    "27818": {
+      "Name": "Starry Robes of the Crescent",
+      "Source": "Pandemonius",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mana Tombs (H)",
+      "SourceFaction": "B"
+    },
+    "27821": {
+      "Name": "Extravagant Boots of Malice",
+      "Source": "Tavarok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mana Tombs (H)",
+      "SourceFaction": "B"
+    },
+    "27822": {
+      "Name": "Crystal Band of Valor",
+      "Source": "Tavarok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mana Tombs (H)",
+      "SourceFaction": "B"
+    },
+    "27823": {
+      "Name": "Shard Encrusted Breastplate",
+      "Source": "Tavarok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mana Tombs (H)",
+      "SourceFaction": "B"
+    },
+    "27824": {
+      "Name": "Robe of the Great Dark Beyond",
+      "Source": "Tavarok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mana Tombs (H)",
+      "SourceFaction": "B"
+    },
+    "27825": {
+      "Name": "Predatory Gloves",
+      "Source": "Tavarok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mana Tombs (H)",
+      "SourceFaction": "B"
+    },
+    "27826": {
+      "Name": "Mantle of the Sea Wolf",
+      "Source": "Tavarok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mana Tombs (H)",
+      "SourceFaction": "B"
+    },
+    "27827": {
+      "Name": "Lucid Dream Bracers",
+      "Source": "Nexus-Prince Shaffar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mana Tombs (H)",
+      "SourceFaction": "B"
+    },
+    "27828": {
+      "Name": "Warp-Scarab Brooch",
+      "Source": "Nexus-Prince Shaffar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mana Tombs (H)",
+      "SourceFaction": "B"
+    },
+    "27829": {
+      "Name": "Axe of the Nexus-Kings",
+      "Source": "Nexus-Prince Shaffar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mana Tombs (H)",
+      "SourceFaction": "B"
+    },
+    "27831": {
+      "Name": "Mantle of the Unforgiven",
+      "Source": "Nexus-Prince Shaffar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mana Tombs (H)",
+      "SourceFaction": "B"
+    },
+    "27835": {
+      "Name": "Stillwater Girdle",
+      "Source": "Nexus-Prince Shaffar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mana Tombs (H)",
+      "SourceFaction": "B"
+    },
+    "27837": {
+      "Name": "Wastewalker Leggings",
+      "Source": "Nexus-Prince Shaffar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mana Tombs (H)",
+      "SourceFaction": "B"
+    },
+    "27838": {
+      "Name": "Incanter's Trousers",
+      "Source": "Talon King Ikiss",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sethekk Halls",
+      "SourceFaction": "B"
+    },
+    "27839": {
+      "Name": "Legplates of the Righteous",
+      "Source": "Aeonus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Black Morass",
+      "SourceFaction": "B"
+    },
+    "27840": {
+      "Name": "Scepter of Sha'tar",
+      "Source": "Nexus-Prince Shaffar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mana Tombs (H)",
+      "SourceFaction": "B"
+    },
+    "27842": {
+      "Name": "Grand Scepter of the Nexus-Kings",
+      "Source": "Nexus-Prince Shaffar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mana Tombs (H)",
+      "SourceFaction": "B"
+    },
+    "27843": {
+      "Name": "Glyph-Lined Sash",
+      "Source": "Nexus-Prince Shaffar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mana Tombs (H)",
+      "SourceFaction": "B"
+    },
+    "27844": {
+      "Name": "Pauldrons of Swift Retribution",
+      "Source": "Nexus-Prince Shaffar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mana Tombs (H)",
+      "SourceFaction": "B"
+    },
+    "27845": {
+      "Name": "Magma Plume Boots",
+      "Source": "Shirrak the Dead Watcher",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Auchenai Crypts (H)",
+      "SourceFaction": "B"
+    },
+    "27846": {
+      "Name": "Claw of the Watcher",
+      "Source": "Shirrak the Dead Watcher",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Auchenai Crypts (H)",
+      "SourceFaction": "B"
+    },
+    "27847": {
+      "Name": "Fanblade Pauldrons",
+      "Source": "Shirrak the Dead Watcher",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Auchenai Crypts (H)",
+      "SourceFaction": "B"
+    },
+    "27848": {
+      "Name": "Embroidered Spellpyre Boots",
+      "Source": "Broggok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Blood Furnace (H)",
+      "SourceFaction": "B"
+    },
+    "27865": {
+      "Name": "Bracers of Shirrak",
+      "Source": "Shirrak the Dead Watcher",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Auchenai Crypts (H)",
+      "SourceFaction": "B"
+    },
+    "27866": {
+      "Name": "Scintillating Headdress of Second Sight",
+      "Source": "Shirrak the Dead Watcher",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Auchenai Crypts (H)",
+      "SourceFaction": "B"
+    },
+    "27867": {
+      "Name": "Boots of the Unjust",
+      "Source": "Exarch Maladaar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Auchenai Crypts (H)",
+      "SourceFaction": "B"
+    },
+    "27868": {
+      "Name": "Runesong Dagger",
+      "Source": "Warbringer O'mrogg",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Shattered Halls",
+      "SourceFaction": "B"
+    },
+    "27869": {
+      "Name": "Soulpriest's Ring of Resolve",
+      "Source": "Exarch Maladaar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Auchenai Crypts (H)",
+      "SourceFaction": "B"
+    },
+    "27870": {
+      "Name": "Doomplate Legguards",
+      "Source": "Exarch Maladaar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Auchenai Crypts (H)",
+      "SourceFaction": "B"
+    },
+    "27871": {
+      "Name": "Maladaar's Blessed Chaplet",
+      "Source": "Exarch Maladaar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Auchenai Crypts (H)",
+      "SourceFaction": "B"
+    },
+    "27872": {
+      "Name": "The Harvester of Souls",
+      "Source": "Exarch Maladaar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Auchenai Crypts (H)",
+      "SourceFaction": "B"
+    },
+    "27873": {
+      "Name": "Moonglade Pants",
+      "Source": "Aeonus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Black Morass",
+      "SourceFaction": "B"
+    },
+    "27874": {
+      "Name": "Beast Lord Leggings",
+      "Source": "Warlord Kalithresh",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Steamvault",
+      "SourceFaction": "B"
+    },
+    "27875": {
+      "Name": "Hallowed Trousers",
+      "Source": "Talon King Ikiss",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sethekk Halls",
+      "SourceFaction": "B"
+    },
+    "27884": {
+      "Name": "Ornate Boots of the Sanctified",
+      "Source": "Ambassador Hellmaw",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Shadow Labyrinth",
+      "SourceFaction": "B"
+    },
+    "27885": {
+      "Name": "Soul-Wand of the Aldor",
+      "Source": "Ambassador Hellmaw",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Shadow Labyrinth",
+      "SourceFaction": "B"
+    },
+    "27886": {
+      "Name": "Idol of the Emerald Queen",
+      "Source": "Ambassador Hellmaw",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Shadow Labyrinth",
+      "SourceFaction": "B"
+    },
+    "27887": {
+      "Name": "Platinum Shield of the Valorous",
+      "Source": "Ambassador Hellmaw",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Shadow Labyrinth",
+      "SourceFaction": "B"
+    },
+    "27888": {
+      "Name": "Dream-Wing Helm",
+      "Source": "Ambassador Hellmaw",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Shadow Labyrinth",
+      "SourceFaction": "B"
+    },
+    "27889": {
+      "Name": "Jaedenfire Gloves of Annihilation",
+      "Source": "Ambassador Hellmaw",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Shadow Labyrinth",
+      "SourceFaction": "B"
+    },
+    "27890": {
+      "Name": "Wand of the Netherwing",
+      "Source": "Blackheart the Inciter",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Shadow Labyrinth",
+      "SourceFaction": "B"
+    },
+    "27891": {
+      "Name": "Adamantine Figurine",
+      "Source": "Blackheart the Inciter",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Shadow Labyrinth",
+      "SourceFaction": "B"
+    },
+    "27892": {
+      "Name": "Cloak of the Inciter",
+      "Source": "Blackheart the Inciter",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Shadow Labyrinth",
+      "SourceFaction": "B"
+    },
+    "27893": {
+      "Name": "Ornate Leggings of the Venerated",
+      "Source": "Blackheart the Inciter",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Shadow Labyrinth",
+      "SourceFaction": "B"
+    },
+    "27895": {
+      "Name": "Band of Many Prisms",
+      "Source": "Omor the Unscarred",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hellfire Ramparts (H)",
+      "SourceFaction": "B"
+    },
+    "27896": {
+      "Name": "Alembic of Infernal Power",
+      "Source": "The Black Stalker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Underbog",
+      "SourceFaction": "B"
+    },
+    "27897": {
+      "Name": "Breastplate of Many Graces",
+      "Source": "Grandmaster Vorpil",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Shadow Labyrinth",
+      "SourceFaction": "B"
+    },
+    "27898": {
+      "Name": "Wrathfire Hand-Cannon",
+      "Source": "Grandmaster Vorpil",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Shadow Labyrinth",
+      "SourceFaction": "B"
+    },
+    "27899": {
+      "Name": "Mana Wrath",
+      "Source": "Pathaleon the Calculator",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Mechanar",
+      "SourceFaction": "B"
+    },
+    "27900": {
+      "Name": "Jewel of Charismatic Mystique",
+      "Source": "Grandmaster Vorpil",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Shadow Labyrinth",
+      "SourceFaction": "B"
+    },
+    "27901": {
+      "Name": "Blackout Truncheon",
+      "Source": "Grandmaster Vorpil",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Shadow Labyrinth",
+      "SourceFaction": "B"
+    },
+    "27902": {
+      "Name": "Silent Slippers of Meditation",
+      "Source": "Murmur",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Shadow Labyrinth",
+      "SourceFaction": "B"
+    },
+    "27903": {
+      "Name": "Sonic Spear",
+      "Source": "Murmur",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Shadow Labyrinth",
+      "SourceFaction": "B"
+    },
+    "27904": {
+      "Name": "Resounding Ring of Glory",
+      "Source": "Epoch Hunter",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Old Hillsbrad Foothills (H)",
+      "SourceFaction": "B"
+    },
+    "27905": {
+      "Name": "Greatsword of Horrid Dreams",
+      "Source": "Murmur",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Shadow Labyrinth",
+      "SourceFaction": "B"
+    },
+    "27906": {
+      "Name": "Crimsonforge Breastplate",
+      "Source": "Omor the Unscarred",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hellfire Ramparts (H)",
+      "SourceFaction": "B"
+    },
+    "27907": {
+      "Name": "Mana-Etched Pantaloons",
+      "Source": "The Black Stalker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Underbog",
+      "SourceFaction": "B"
+    },
+    "27908": {
+      "Name": "Leggings of Assassination",
+      "Source": "Murmur",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Shadow Labyrinth",
+      "SourceFaction": "B"
+    },
+    "27909": {
+      "Name": "Tidefury Kilt",
+      "Source": "Murmur",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Shadow Labyrinth",
+      "SourceFaction": "B"
+    },
+    "27910": {
+      "Name": "Silvermoon Crest Shield",
+      "Source": "Murmur",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Shadow Labyrinth",
+      "SourceFaction": "B"
+    },
+    "27911": {
+      "Name": "Epoch's Whispering Cinch",
+      "Source": "Epoch Hunter",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Old Hillsbrad Foothills (H)",
+      "SourceFaction": "B"
+    },
+    "27912": {
+      "Name": "Harness of the Deep Currents",
+      "Source": "Murmur",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Shadow Labyrinth",
+      "SourceFaction": "B"
+    },
+    "27913": {
+      "Name": "Whispering Blade of Slaying",
+      "Source": "Murmur",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Shadow Labyrinth",
+      "SourceFaction": "B"
+    },
+    "27914": {
+      "Name": "Moonstrider Boots",
+      "Source": "Darkweaver Syth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sethekk Halls",
+      "SourceFaction": "B"
+    },
+    "27915": {
+      "Name": "Sky-Hunter Swift Boots",
+      "Source": "Darkweaver Syth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sethekk Halls",
+      "SourceFaction": "B"
+    },
+    "27916": {
+      "Name": "Sethekk Feather-Darts",
+      "Source": "Darkweaver Syth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sethekk Halls",
+      "SourceFaction": "B"
+    },
+    "27917": {
+      "Name": "Libram of the Eternal Rest",
+      "Source": "Darkweaver Syth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sethekk Halls",
+      "SourceFaction": "B"
+    },
+    "27918": {
+      "Name": "Bands of Syth",
+      "Source": "Darkweaver Syth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sethekk Halls",
+      "SourceFaction": "B"
+    },
+    "27919": {
+      "Name": "Light-Woven Slippers",
+      "Source": "Darkweaver Syth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sethekk Halls",
+      "SourceFaction": "B"
+    },
+    "27925": {
+      "Name": "Ravenclaw Band",
+      "Source": "Talon King Ikiss",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sethekk Halls",
+      "SourceFaction": "B"
+    },
+    "27936": {
+      "Name": "Greaves of Desolation",
+      "Source": "Talon King Ikiss",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sethekk Halls",
+      "SourceFaction": "B"
+    },
+    "27938": {
+      "Name": "Savage Mask of the Lynx Lord",
+      "Source": "The Black Stalker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Underbog",
+      "SourceFaction": "B"
+    },
+    "27946": {
+      "Name": "Avian Cloak of Feathers",
+      "Source": "Talon King Ikiss",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sethekk Halls",
+      "SourceFaction": "B"
+    },
+    "27948": {
+      "Name": "Trousers of Oblivion",
+      "Source": "Talon King Ikiss",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sethekk Halls",
+      "SourceFaction": "B"
+    },
+    "27977": {
+      "Name": "Legplates of the Bold",
+      "Source": "Aeonus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Black Morass",
+      "SourceFaction": "B"
+    },
+    "27980": {
+      "Name": "Terokk's Nightmace",
+      "Source": "Talon King Ikiss",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sethekk Halls",
+      "SourceFaction": "B"
+    },
+    "27981": {
+      "Name": "Sethekk Oracle Cloak",
+      "Source": "Talon King Ikiss",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sethekk Halls",
+      "SourceFaction": "B"
+    },
+    "27985": {
+      "Name": "Deathforge Girdle",
+      "Source": "Talon King Ikiss",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sethekk Halls",
+      "SourceFaction": "B"
+    },
+    "27986": {
+      "Name": "Crow Wing Reaper",
+      "Source": "Talon King Ikiss",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sethekk Halls",
+      "SourceFaction": "B"
+    },
+    "27987": {
+      "Name": "Melmorta's Twilight Longbow",
+      "Source": "Chrono Lord Deja",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Black Morass",
+      "SourceFaction": "B"
+    },
+    "27988": {
+      "Name": "Burnoose of Shifting Ages",
+      "Source": "Chrono Lord Deja",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Black Morass",
+      "SourceFaction": "B"
+    },
+    "27993": {
+      "Name": "Mask of Inner Fire",
+      "Source": "Chrono Lord Deja",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Black Morass",
+      "SourceFaction": "B"
+    },
+    "27994": {
+      "Name": "Mantle of Three Terrors",
+      "Source": "Chrono Lord Deja",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Black Morass",
+      "SourceFaction": "B"
+    },
+    "27995": {
+      "Name": "Sun-Gilded Shouldercaps",
+      "Source": "Chrono Lord Deja",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Black Morass",
+      "SourceFaction": "B"
+    },
+    "27996": {
+      "Name": "Ring of Spiritual Precision",
+      "Source": "Chrono Lord Deja",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Black Morass",
+      "SourceFaction": "B"
+    },
+    "28033": {
+      "Name": "Epoch-Mender",
+      "Source": "Temporus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Black Morass",
+      "SourceFaction": "B"
+    },
+    "28034": {
+      "Name": "Hourglass of the Unraveller",
+      "Source": "Temporus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Black Morass",
+      "SourceFaction": "B"
+    },
+    "28121": {
+      "Name": "Icon of Unyielding Courage",
+      "Source": "Keli'dan the Breaker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Blood Furnace (H)",
+      "SourceFaction": "B"
+    },
+    "28124": {
+      "Name": "Liar's Cord",
+      "Source": "Rokmar the Crackler",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Slave Pens (H)",
+      "SourceFaction": "B"
+    },
+    "28134": {
+      "Name": "Brooch of Heightened Potential",
+      "Source": "Blackheart the Inciter",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Shadow Labyrinth",
+      "SourceFaction": "B"
+    },
+    "28166": {
+      "Name": "Shield of the Void",
+      "Source": "Pandemonius",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mana Tombs",
+      "SourceFaction": "B"
+    },
+    "28184": {
+      "Name": "Millennium Blade",
+      "Source": "Temporus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Black Morass",
+      "SourceFaction": "B"
+    },
+    "28185": {
+      "Name": "Khadgar's Kilt of Abjuration",
+      "Source": "Temporus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Black Morass",
+      "SourceFaction": "B"
+    },
+    "28186": {
+      "Name": "Laughing Skull Battle-Harness",
+      "Source": "Temporus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Black Morass",
+      "SourceFaction": "B"
+    },
+    "28187": {
+      "Name": "Star-Heart Lamp",
+      "Source": "Temporus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Black Morass",
+      "SourceFaction": "B"
+    },
+    "28188": {
+      "Name": "Bloodfire Greatstaff",
+      "Source": "Aeonus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Black Morass",
+      "SourceFaction": "B"
+    },
+    "28189": {
+      "Name": "Latro's Shifting Sword",
+      "Source": "Aeonus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Black Morass",
+      "SourceFaction": "B"
+    },
+    "28190": {
+      "Name": "Scarab of the Infinite Cycle",
+      "Source": "Aeonus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Black Morass",
+      "SourceFaction": "B"
+    },
+    "28191": {
+      "Name": "Mana-Etched Vestments",
+      "Source": "Epoch Hunter",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Old Hillsbrad Foothills (H)",
+      "SourceFaction": "B"
+    },
+    "28192": {
+      "Name": "Helm of Desolation",
+      "Source": "Aeonus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Black Morass",
+      "SourceFaction": "B"
+    },
+    "28193": {
+      "Name": "Mana-Etched Crown",
+      "Source": "Aeonus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Black Morass",
+      "SourceFaction": "B"
+    },
+    "28194": {
+      "Name": "Primal Surge Bracers",
+      "Source": "Aeonus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Black Morass",
+      "SourceFaction": "B"
+    },
+    "28202": {
+      "Name": "Moonglade Robe",
+      "Source": "Pathaleon the Calculator",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Mechanar",
+      "SourceFaction": "B"
+    },
+    "28203": {
+      "Name": "Breastplate of the Righteous",
+      "Source": "Warlord Kalithresh",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Steamvault",
+      "SourceFaction": "B"
+    },
+    "28204": {
+      "Name": "Tunic of Assassination",
+      "Source": "Pathaleon the Calculator",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Mechanar",
+      "SourceFaction": "B"
+    },
+    "28205": {
+      "Name": "Breastplate of the Bold",
+      "Source": "Harbinger Skyriss",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Arcatraz",
+      "SourceFaction": "B"
+    },
+    "28206": {
+      "Name": "Cowl of the Guiltless",
+      "Source": "Aeonus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Black Morass",
+      "SourceFaction": "B"
+    },
+    "28207": {
+      "Name": "Pauldrons of the Crimson Flight",
+      "Source": "Aeonus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Black Morass",
+      "SourceFaction": "B"
+    },
+    "28210": {
+      "Name": "Bloodskull Destroyer",
+      "Source": "Lieutenant Drake",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Old Hillsbrad Foothills (H)",
+      "SourceFaction": "B"
+    },
+    "28211": {
+      "Name": "Lieutenant's Signet of Lordaeron",
+      "Source": "Lieutenant Drake",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Old Hillsbrad Foothills (H)",
+      "SourceFaction": "B"
+    },
+    "28212": {
+      "Name": "Aran's Sorcerous Slacks",
+      "Source": "Lieutenant Drake",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Old Hillsbrad Foothills (H)",
+      "SourceFaction": "B"
+    },
+    "28213": {
+      "Name": "Lordaeron Medical Guide",
+      "Source": "Lieutenant Drake",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Old Hillsbrad Foothills (H)",
+      "SourceFaction": "B"
+    },
+    "28214": {
+      "Name": "Grips of the Lunar Eclipse",
+      "Source": "Lieutenant Drake",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Old Hillsbrad Foothills (H)",
+      "SourceFaction": "B"
+    },
+    "28215": {
+      "Name": "Mok'Nathal Mask of Battle",
+      "Source": "Lieutenant Drake",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Old Hillsbrad Foothills (H)",
+      "SourceFaction": "B"
+    },
+    "28216": {
+      "Name": "Dathrohan's Ceremonial Hammer",
+      "Source": "Captain Skarloc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Old Hillsbrad Foothills (H)",
+      "SourceFaction": "B"
+    },
+    "28217": {
+      "Name": "Tarren Mill Vitality Locket",
+      "Source": "Captain Skarloc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Old Hillsbrad Foothills (H)",
+      "SourceFaction": "B"
+    },
+    "28218": {
+      "Name": "Pontiff's Pantaloons of Prophecy",
+      "Source": "Captain Skarloc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Old Hillsbrad Foothills (H)",
+      "SourceFaction": "B"
+    },
+    "28219": {
+      "Name": "Emerald-Scale Greaves",
+      "Source": "Captain Skarloc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Old Hillsbrad Foothills (H)",
+      "SourceFaction": "B"
+    },
+    "28220": {
+      "Name": "Moon-Crown Antlers",
+      "Source": "Captain Skarloc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Old Hillsbrad Foothills (H)",
+      "SourceFaction": "B"
+    },
+    "28221": {
+      "Name": "Boots of the Watchful Heart",
+      "Source": "Captain Skarloc",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Old Hillsbrad Foothills (H)",
+      "SourceFaction": "B"
+    },
+    "28222": {
+      "Name": "Reaver of the Infinites",
+      "Source": "Epoch Hunter",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Old Hillsbrad Foothills (H)",
+      "SourceFaction": "B"
+    },
+    "28223": {
+      "Name": "Arcanist's Stone",
+      "Source": "Epoch Hunter",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Old Hillsbrad Foothills (H)",
+      "SourceFaction": "B"
+    },
+    "28224": {
+      "Name": "Wastewalker Helm",
+      "Source": "Epoch Hunter",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Old Hillsbrad Foothills (H)",
+      "SourceFaction": "B"
+    },
+    "28225": {
+      "Name": "Doomplate Warhelm",
+      "Source": "Epoch Hunter",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Old Hillsbrad Foothills (H)",
+      "SourceFaction": "B"
+    },
+    "28226": {
+      "Name": "Timeslicer",
+      "Source": "Epoch Hunter",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Old Hillsbrad Foothills (H)",
+      "SourceFaction": "B"
+    },
+    "28227": {
+      "Name": "Sparking Arcanite Ring",
+      "Source": "Epoch Hunter",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Old Hillsbrad Foothills (H)",
+      "SourceFaction": "B"
+    },
+    "28228": {
+      "Name": "Beast Lord Cuirass",
+      "Source": "Warp Splinter",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Botanica",
+      "SourceFaction": "B"
+    },
+    "28229": {
+      "Name": "Incanter's Robe",
+      "Source": "Warp Splinter",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Botanica",
+      "SourceFaction": "B"
+    },
+    "28230": {
+      "Name": "Hallowed Garments",
+      "Source": "Murmur",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Shadow Labyrinth",
+      "SourceFaction": "B"
+    },
+    "28231": {
+      "Name": "Tidefury Chestpiece",
+      "Source": "Harbinger Skyriss",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Arcatraz",
+      "SourceFaction": "B"
+    },
+    "28232": {
+      "Name": "Robe of Oblivion",
+      "Source": "Murmur",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Shadow Labyrinth",
+      "SourceFaction": "B"
+    },
+    "28233": {
+      "Name": "Necklace of Resplendent Hope",
+      "Source": "Epoch Hunter",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Old Hillsbrad Foothills (H)",
+      "SourceFaction": "B"
+    },
+    "28248": {
+      "Name": "Totem of the Void",
+      "Source": "The Gatewatchers",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Mechanar",
+      "SourceFaction": "B"
+    },
+    "28249": {
+      "Name": "Capacitus' Cloak of Calibration",
+      "Source": "The Gatewatchers",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Mechanar",
+      "SourceFaction": "B"
+    },
+    "28250": {
+      "Name": "Vestia's Pauldrons of Inner Grace",
+      "Source": "The Gatewatchers",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Mechanar",
+      "SourceFaction": "B"
+    },
+    "28251": {
+      "Name": "Boots of the Glade-Keeper",
+      "Source": "The Gatewatchers",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Mechanar",
+      "SourceFaction": "B"
+    },
+    "28252": {
+      "Name": "Bloodfyre Robes of Annihilation",
+      "Source": "The Gatewatchers",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Mechanar",
+      "SourceFaction": "B"
+    },
+    "28253": {
+      "Name": "Plasma Rat's Hyper-Scythe",
+      "Source": "Mechano-Lord Capacitus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Mechanar",
+      "SourceFaction": "B"
+    },
+    "28254": {
+      "Name": "Warp Engineer's Prismatic Chain",
+      "Source": "Mechano-Lord Capacitus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Mechanar",
+      "SourceFaction": "B"
+    },
+    "28255": {
+      "Name": "Lunar-Claw Pauldrons",
+      "Source": "Mechano-Lord Capacitus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Mechanar",
+      "SourceFaction": "B"
+    },
+    "28256": {
+      "Name": "Thoriumweave Cloak",
+      "Source": "Mechano-Lord Capacitus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Mechanar",
+      "SourceFaction": "B"
+    },
+    "28257": {
+      "Name": "Hammer of the Penitent",
+      "Source": "Mechano-Lord Capacitus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Mechanar",
+      "SourceFaction": "B"
+    },
+    "28258": {
+      "Name": "Nethershrike",
+      "Source": "Nethermancer Sepethrea",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Mechanar",
+      "SourceFaction": "B"
+    },
+    "28259": {
+      "Name": "Cosmic Lifeband",
+      "Source": "Nethermancer Sepethrea",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Mechanar",
+      "SourceFaction": "B"
+    },
+    "28260": {
+      "Name": "Manual of the Nethermancer",
+      "Source": "Nethermancer Sepethrea",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Mechanar",
+      "SourceFaction": "B"
+    },
+    "28262": {
+      "Name": "Jade-Skull Breastplate",
+      "Source": "Nethermancer Sepethrea",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Mechanar",
+      "SourceFaction": "B"
+    },
+    "28263": {
+      "Name": "Stellaris",
+      "Source": "Nethermancer Sepethrea",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Mechanar",
+      "SourceFaction": "B"
+    },
+    "28264": {
+      "Name": "Wastewalker Tunic",
+      "Source": "Keli'dan the Breaker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Blood Furnace (H)",
+      "SourceFaction": "B"
+    },
+    "28265": {
+      "Name": "Dath'Remar's Ring of Defense",
+      "Source": "Pathaleon the Calculator",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Mechanar",
+      "SourceFaction": "B"
+    },
+    "28266": {
+      "Name": "Molten Earth Kilt",
+      "Source": "Pathaleon the Calculator",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Mechanar",
+      "SourceFaction": "B"
+    },
+    "28267": {
+      "Name": "Edge of the Cosmos",
+      "Source": "Pathaleon the Calculator",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Mechanar",
+      "SourceFaction": "B"
+    },
+    "28269": {
+      "Name": "Baba's Cloak of Arcanistry",
+      "Source": "Pathaleon the Calculator",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Mechanar",
+      "SourceFaction": "B"
+    },
+    "28275": {
+      "Name": "Beast Lord Helm",
+      "Source": "Pathaleon the Calculator",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Mechanar",
+      "SourceFaction": "B"
+    },
+    "28278": {
+      "Name": "Incanter's Cowl",
+      "Source": "Pathaleon the Calculator",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Mechanar",
+      "SourceFaction": "B"
+    },
+    "28285": {
+      "Name": "Helm of the Righteous",
+      "Source": "Pathaleon the Calculator",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Mechanar",
+      "SourceFaction": "B"
+    },
+    "28286": {
+      "Name": "Telescopic Sharprifle",
+      "Source": "Pathaleon the Calculator",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Mechanar",
+      "SourceFaction": "B"
+    },
+    "28288": {
+      "Name": "Abacus of Violent Odds",
+      "Source": "Pathaleon the Calculator",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Mechanar",
+      "SourceFaction": "B"
+    },
+    "28296": {
+      "Name": "Libram of the Lightbringer",
+      "Source": "Commander Sarannis",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Botanica",
+      "SourceFaction": "B"
+    },
+    "28301": {
+      "Name": "Syrannis' Mystic Sheen",
+      "Source": "Commander Sarannis",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Botanica",
+      "SourceFaction": "B"
+    },
+    "28304": {
+      "Name": "Prismatic Mittens of Mending",
+      "Source": "Commander Sarannis",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Botanica",
+      "SourceFaction": "B"
+    },
+    "28306": {
+      "Name": "Towering Mantle of the Hunt",
+      "Source": "Commander Sarannis",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Botanica",
+      "SourceFaction": "B"
+    },
+    "28311": {
+      "Name": "Revenger",
+      "Source": "Commander Sarannis",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Botanica",
+      "SourceFaction": "B"
+    },
+    "28315": {
+      "Name": "Stormreaver Warblades",
+      "Source": "High Botanist Freywinn",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Botanica",
+      "SourceFaction": "B"
+    },
+    "28316": {
+      "Name": "Aegis of the Sunbird",
+      "Source": "High Botanist Freywinn",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Botanica",
+      "SourceFaction": "B"
+    },
+    "28317": {
+      "Name": "Energis Armwraps",
+      "Source": "High Botanist Freywinn",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Botanica",
+      "SourceFaction": "B"
+    },
+    "28318": {
+      "Name": "Obsidian Clodstompers",
+      "Source": "High Botanist Freywinn",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Botanica",
+      "SourceFaction": "B"
+    },
+    "28321": {
+      "Name": "Enchanted Thorium Torque",
+      "Source": "High Botanist Freywinn",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Botanica",
+      "SourceFaction": "B"
+    },
+    "28322": {
+      "Name": "Runed Dagger of Solace",
+      "Source": "Thorngrin the Tender",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Botanica",
+      "SourceFaction": "B"
+    },
+    "28323": {
+      "Name": "Ring of Umbral Doom",
+      "Source": "Thorngrin the Tender",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Botanica",
+      "SourceFaction": "B"
+    },
+    "28324": {
+      "Name": "Gauntlets of Cruel Intention",
+      "Source": "Thorngrin the Tender",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Botanica",
+      "SourceFaction": "B"
+    },
+    "28325": {
+      "Name": "Dreamer's Dragonstaff",
+      "Source": "Thorngrin the Tender",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Botanica",
+      "SourceFaction": "B"
+    },
+    "28327": {
+      "Name": "Arcane Netherband",
+      "Source": "Thorngrin the Tender",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Botanica",
+      "SourceFaction": "B"
+    },
+    "28328": {
+      "Name": "Mithril-Bark Cloak",
+      "Source": "Laj",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Botanica",
+      "SourceFaction": "B"
+    },
+    "28337": {
+      "Name": "Breastplate of Righteous Fury",
+      "Source": "Quagmirran",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Slave Pens (H)",
+      "SourceFaction": "B"
+    },
+    "28338": {
+      "Name": "Devil-Stitched Leggings",
+      "Source": "Laj",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Botanica",
+      "SourceFaction": "B"
+    },
+    "28339": {
+      "Name": "Boots of the Shifting Sands",
+      "Source": "Laj",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Botanica",
+      "SourceFaction": "B"
+    },
+    "28340": {
+      "Name": "Mantle of Autumn",
+      "Source": "Laj",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Botanica",
+      "SourceFaction": "B"
+    },
+    "28341": {
+      "Name": "Warpstaff of Arcanum",
+      "Source": "Warp Splinter",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Botanica",
+      "SourceFaction": "B"
+    },
+    "28342": {
+      "Name": "Warp Infused Drape",
+      "Source": "Warp Splinter",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Botanica",
+      "SourceFaction": "B"
+    },
+    "28343": {
+      "Name": "Jagged Bark Pendant",
+      "Source": "Warp Splinter",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Botanica",
+      "SourceFaction": "B"
+    },
+    "28344": {
+      "Name": "Wyrmfury Pauldrons",
+      "Source": "Epoch Hunter",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Old Hillsbrad Foothills (H)",
+      "SourceFaction": "B"
+    },
+    "28345": {
+      "Name": "Warp Splinter's Thorn",
+      "Source": "Warp Splinter",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Botanica",
+      "SourceFaction": "B"
+    },
+    "28347": {
+      "Name": "Warpscale Leggings",
+      "Source": "Warp Splinter",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Botanica",
+      "SourceFaction": "B"
+    },
+    "28348": {
+      "Name": "Moonglade Cowl",
+      "Source": "Warp Splinter",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Botanica",
+      "SourceFaction": "B"
+    },
+    "28349": {
+      "Name": "Tidefury Helm",
+      "Source": "Warp Splinter",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Botanica",
+      "SourceFaction": "B"
+    },
+    "28350": {
+      "Name": "Warhelm of the Bold",
+      "Source": "Warp Splinter",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Botanica",
+      "SourceFaction": "B"
+    },
+    "28367": {
+      "Name": "Greatsword of Forlorn Visions",
+      "Source": "Warp Splinter",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Botanica",
+      "SourceFaction": "B"
+    },
+    "28370": {
+      "Name": "Bangle of Endless Blessings",
+      "Source": "Warp Splinter",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Botanica",
+      "SourceFaction": "B"
+    },
+    "28371": {
+      "Name": "Netherfury Cape",
+      "Source": "Warp Splinter",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Botanica",
+      "SourceFaction": "B"
+    },
+    "28372": {
+      "Name": "Idol of Feral Shadows",
+      "Source": "Zereketh the Unbound",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Arcatraz",
+      "SourceFaction": "B"
+    },
+    "28373": {
+      "Name": "Cloak of Scintillating Auras",
+      "Source": "Zereketh the Unbound",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Arcatraz",
+      "SourceFaction": "B"
+    },
+    "28374": {
+      "Name": "Mana-Sphere Shoulderguards",
+      "Source": "Zereketh the Unbound",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Arcatraz",
+      "SourceFaction": "B"
+    },
+    "28375": {
+      "Name": "Rubium War-Girdle",
+      "Source": "Zereketh the Unbound",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Arcatraz",
+      "SourceFaction": "B"
+    },
+    "28384": {
+      "Name": "Outland Striders",
+      "Source": "Zereketh the Unbound",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Arcatraz",
+      "SourceFaction": "B"
+    },
+    "28386": {
+      "Name": "Nether Core's Control Rod",
+      "Source": "Dalliah the Doomsayer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Arcatraz",
+      "SourceFaction": "B"
+    },
+    "28387": {
+      "Name": "Lamp of Peaceful Repose",
+      "Source": "Dalliah the Doomsayer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Arcatraz",
+      "SourceFaction": "B"
+    },
+    "28390": {
+      "Name": "Thatia's Self-Correcting Gauntlets",
+      "Source": "Dalliah the Doomsayer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Arcatraz",
+      "SourceFaction": "B"
+    },
+    "28391": {
+      "Name": "Worldfire Chestguard",
+      "Source": "Dalliah the Doomsayer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Arcatraz",
+      "SourceFaction": "B"
+    },
+    "28392": {
+      "Name": "Reflex Blades",
+      "Source": "Dalliah the Doomsayer",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Arcatraz",
+      "SourceFaction": "B"
+    },
+    "28393": {
+      "Name": "Warmaul of Infused Light",
+      "Source": "Wrath-Scryer Soccothrates",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Arcatraz",
+      "SourceFaction": "B"
+    },
+    "28394": {
+      "Name": "Ryngo's Band of Ingenuity",
+      "Source": "Wrath-Scryer Soccothrates",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Arcatraz",
+      "SourceFaction": "B"
+    },
+    "28396": {
+      "Name": "Gloves of the Unbound",
+      "Source": "Wrath-Scryer Soccothrates",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Arcatraz",
+      "SourceFaction": "B"
+    },
+    "28397": {
+      "Name": "Emberhawk Crossbow",
+      "Source": "Wrath-Scryer Soccothrates",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Arcatraz",
+      "SourceFaction": "B"
+    },
+    "28398": {
+      "Name": "The Sleeper's Cord",
+      "Source": "Wrath-Scryer Soccothrates",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Arcatraz",
+      "SourceFaction": "B"
+    },
+    "28400": {
+      "Name": "Warp-Storm Warblade",
+      "Source": "Nexus-Prince Shaffar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mana Tombs (H)",
+      "SourceFaction": "B"
+    },
+    "28401": {
+      "Name": "Hauberk of Desolation",
+      "Source": "Epoch Hunter",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Old Hillsbrad Foothills (H)",
+      "SourceFaction": "B"
+    },
+    "28403": {
+      "Name": "Doomplate Chestguard",
+      "Source": "Harbinger Skyriss",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Arcatraz",
+      "SourceFaction": "B"
+    },
+    "28406": {
+      "Name": "Sigil-Laced Boots",
+      "Source": "Harbinger Skyriss",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Arcatraz",
+      "SourceFaction": "B"
+    },
+    "28407": {
+      "Name": "Elementium Band of the Sentry",
+      "Source": "Harbinger Skyriss",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Arcatraz",
+      "SourceFaction": "B"
+    },
+    "28412": {
+      "Name": "Lamp of Peaceful Radiance",
+      "Source": "Harbinger Skyriss",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Arcatraz",
+      "SourceFaction": "B"
+    },
+    "28413": {
+      "Name": "Hallowed Crown",
+      "Source": "Harbinger Skyriss",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Arcatraz",
+      "SourceFaction": "B"
+    },
+    "28414": {
+      "Name": "Helm of Assassination",
+      "Source": "Harbinger Skyriss",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Arcatraz",
+      "SourceFaction": "B"
+    },
+    "28415": {
+      "Name": "Hood of Oblivion",
+      "Source": "Harbinger Skyriss",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Arcatraz",
+      "SourceFaction": "B"
+    },
+    "28416": {
+      "Name": "Hungering Spineripper",
+      "Source": "Harbinger Skyriss",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Arcatraz",
+      "SourceFaction": "B"
+    },
+    "28418": {
+      "Name": "Shiffar's Nexus-Horn",
+      "Source": "Harbinger Skyriss",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Arcatraz",
+      "SourceFaction": "B"
+    },
+    "28419": {
+      "Name": "Choker of Fluid Thought",
+      "Source": "Harbinger Skyriss",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Arcatraz",
+      "SourceFaction": "B"
+    },
+    "29238": {
+      "Name": "Lion's Heart Girdle",
+      "Source": "Vazruden",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hellfire Ramparts (H)",
+      "SourceFaction": "B"
+    },
+    "29239": {
+      "Name": "Eaglecrest Warboots",
+      "Source": "Keli'dan the Breaker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Blood Furnace (H)",
+      "SourceFaction": "B"
+    },
+    "29240": {
+      "Name": "Bands of Negation",
+      "Source": "Nexus-Prince Shaffar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mana Tombs (H)",
+      "SourceFaction": "B"
+    },
+    "29241": {
+      "Name": "Belt of Depravity",
+      "Source": "Harbinger Skyriss",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Arcatraz (H)",
+      "SourceFaction": "B"
+    },
+    "29242": {
+      "Name": "Boots of Blasphemy",
+      "Source": "Quagmirran",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Slave Pens (H)",
+      "SourceFaction": "B"
+    },
+    "29243": {
+      "Name": "Wave-Fury Vambraces",
+      "Source": "Warlord Kalithresh",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Steamvault (H)",
+      "SourceFaction": "B"
+    },
+    "29244": {
+      "Name": "Wave-Song Girdle",
+      "Source": "Exarch Maladaar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Auchenai Crypts (H)",
+      "SourceFaction": "B"
+    },
+    "29245": {
+      "Name": "Wave-Crest Striders",
+      "Source": "Keli'dan the Breaker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Blood Furnace (H)",
+      "SourceFaction": "B"
+    },
+    "29246": {
+      "Name": "Nightfall Wristguards",
+      "Source": "Epoch Hunter",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Old Hillsbrad Foothills (H)",
+      "SourceFaction": "B"
+    },
+    "29247": {
+      "Name": "Girdle of the Deathdealer",
+      "Source": "Aeonus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Black Morass (H)",
+      "SourceFaction": "B"
+    },
+    "29248": {
+      "Name": "Shadowstep Striders",
+      "Source": "Harbinger Skyriss",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Arcatraz (H)",
+      "SourceFaction": "B"
+    },
+    "29249": {
+      "Name": "Bands of the Benevolent",
+      "Source": "Talon King Ikiss",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sethekk Halls (H)",
+      "SourceFaction": "B"
+    },
+    "29250": {
+      "Name": "Cord of Sanctification",
+      "Source": "Epoch Hunter",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Old Hillsbrad Foothills (H)",
+      "SourceFaction": "B"
+    },
+    "29251": {
+      "Name": "Boots of the Pious",
+      "Source": "Pathaleon the Calculator",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Mechanar (H)",
+      "SourceFaction": "B"
+    },
+    "29252": {
+      "Name": "Bracers of Dignity",
+      "Source": "Harbinger Skyriss",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Arcatraz (H)",
+      "SourceFaction": "B"
+    },
+    "29253": {
+      "Name": "Girdle of Valorous Deeds",
+      "Source": "Aeonus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Black Morass (H)",
+      "SourceFaction": "B"
+    },
+    "29254": {
+      "Name": "Boots of the Righteous Path",
+      "Source": "Warchief Kargath Bladefist",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Shattered Halls (H)",
+      "SourceFaction": "B"
+    },
+    "29255": {
+      "Name": "Bands of Rarefied Magic",
+      "Source": "Warchief Kargath Bladefist",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Shattered Halls (H)",
+      "SourceFaction": "B"
+    },
+    "29257": {
+      "Name": "Sash of Arcane Visions",
+      "Source": "Exarch Maladaar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Auchenai Crypts (H)",
+      "SourceFaction": "B"
+    },
+    "29258": {
+      "Name": "Boots of Ethereal Manipulation",
+      "Source": "Warp Splinter",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Botanica (H)",
+      "SourceFaction": "B"
+    },
+    "29259": {
+      "Name": "Bracers of the Hunt",
+      "Source": "Talon King Ikiss",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sethekk Halls (H)",
+      "SourceFaction": "B"
+    },
+    "29261": {
+      "Name": "Girdle of Ferocity",
+      "Source": "Murmur",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Shadow Labyrinth (H)",
+      "SourceFaction": "B"
+    },
+    "29262": {
+      "Name": "Boots of the Endless Hunt",
+      "Source": "Warp Splinter",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Botanica (H)",
+      "SourceFaction": "B"
+    },
+    "29263": {
+      "Name": "Forestheart Bracers",
+      "Source": "Warchief Kargath Bladefist",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Shattered Halls (H)",
+      "SourceFaction": "B"
+    },
+    "29264": {
+      "Name": "Tree-Mender's Belt",
+      "Source": "Vazruden",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hellfire Ramparts (H)",
+      "SourceFaction": "B"
+    },
+    "29265": {
+      "Name": "Barkchip Boots",
+      "Source": "The Black Stalker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Underbog",
+      "SourceFaction": "B"
+    },
+    "29346": {
+      "Name": "Feltooth Eviscerator",
+      "Source": "Vazruden",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hellfire Ramparts (H)",
+      "SourceFaction": "B"
+    },
+    "29347": {
+      "Name": "Talisman of the Breaker",
+      "Source": "Keli'dan the Breaker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Blood Furnace (H)",
+      "SourceFaction": "B"
+    },
+    "29348": {
+      "Name": "The Bladefist",
+      "Source": "Warchief Kargath Bladefist",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Shattered Halls (H)",
+      "SourceFaction": "B"
+    },
+    "29349": {
+      "Name": "Adamantine Chain of the Unbroken",
+      "Source": "Quagmirran",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Slave Pens (H)",
+      "SourceFaction": "B"
+    },
+    "29350": {
+      "Name": "The Black Stalk",
+      "Source": "The Black Stalker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Underbog",
+      "SourceFaction": "B"
+    },
+    "29351": {
+      "Name": "Wrathtide Longbow",
+      "Source": "Warlord Kalithresh",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Steamvault (H)",
+      "SourceFaction": "B"
+    },
+    "29352": {
+      "Name": "Cobalt Band of Tyrigosa",
+      "Source": "Nexus-Prince Shaffar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mana Tombs (H)",
+      "SourceFaction": "B"
+    },
+    "29353": {
+      "Name": "Shockwave Truncheon",
+      "Source": "Murmur",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Shadow Labyrinth (H)",
+      "SourceFaction": "B"
+    },
+    "29354": {
+      "Name": "Light-Touched Stole of Altruism",
+      "Source": "Exarch Maladaar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Auchenai Crypts (H)",
+      "SourceFaction": "B"
+    },
+    "29355": {
+      "Name": "Terokk's Shadowstaff",
+      "Source": "Talon King Ikiss",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sethekk Halls (H)",
+      "SourceFaction": "B"
+    },
+    "29356": {
+      "Name": "Quantum Blade",
+      "Source": "Aeonus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Black Morass (H)",
+      "SourceFaction": "B"
+    },
+    "29357": {
+      "Name": "Master Thief's Gloves",
+      "Source": "Murmur",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Shadow Labyrinth (H)",
+      "SourceFaction": "B"
+    },
+    "29359": {
+      "Name": "Feral Staff of Lashing",
+      "Source": "Warp Splinter",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Botanica (H)",
+      "SourceFaction": "B"
+    },
+    "29360": {
+      "Name": "Vileblade of the Betrayer",
+      "Source": "Harbinger Skyriss",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Arcatraz (H)",
+      "SourceFaction": "B"
+    },
+    "29362": {
+      "Name": "The Sun Eater",
+      "Source": "Pathaleon the Calculator",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Mechanar (H)",
+      "SourceFaction": "B"
+    },
+    "29463": {
+      "Name": "Amber Bands of the Aggressor",
+      "Source": "Warlord Kalithresh",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Steamvault (H)",
+      "SourceFaction": "B"
+    },
+    "30531": {
+      "Name": "Breeches of the Occultist",
+      "Source": "Aeonus",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Black Morass (H)",
+      "SourceFaction": "B"
+    },
+    "30532": {
+      "Name": "Kirin Tor Master's Trousers",
+      "Source": "Murmur",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Shadow Labyrinth (H)",
+      "SourceFaction": "B"
+    },
+    "30533": {
+      "Name": "Vanquisher's Legplates",
+      "Source": "Pathaleon the Calculator",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Mechanar (H)",
+      "SourceFaction": "B"
+    },
+    "30534": {
+      "Name": "Wyrmscale Greaves",
+      "Source": "Epoch Hunter",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Old Hillsbrad Foothills (H)",
+      "SourceFaction": "B"
+    },
+    "30535": {
+      "Name": "Forestwalker Kilt",
+      "Source": "Nexus-Prince Shaffar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mana Tombs (H)",
+      "SourceFaction": "B"
+    },
+    "30536": {
+      "Name": "Greaves of the Martyr",
+      "Source": "Epoch Hunter",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Old Hillsbrad Foothills (H)",
+      "SourceFaction": "B"
+    },
+    "30538": {
+      "Name": "Midnight Legguards",
+      "Source": "Quagmirran",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Slave Pens (H)",
+      "SourceFaction": "B"
+    },
+    "30541": {
+      "Name": "Stormsong Kilt",
+      "Source": "The Black Stalker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Underbog",
+      "SourceFaction": "B"
+    },
+    "30543": {
+      "Name": "Pontifex Kilt",
+      "Source": "Warlord Kalithresh",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Steamvault (H)",
+      "SourceFaction": "B"
+    },
+    "30705": {
+      "Name": "Spaulders of Slaughter",
+      "Source": "Blood Guard Porung",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Shattered Halls (H)",
+      "SourceFaction": "B"
+    },
+    "30707": {
+      "Name": "Nimble-foot Treads",
+      "Source": "Blood Guard Porung",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Shattered Halls (H)",
+      "SourceFaction": "B"
+    },
+    "30708": {
+      "Name": "Belt of Flowing Thought",
+      "Source": "Blood Guard Porung",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Shattered Halls (H)",
+      "SourceFaction": "B"
+    },
+    "30709": {
+      "Name": "Pantaloons of Flaming Wrath",
+      "Source": "Blood Guard Porung",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Shattered Halls (H)",
+      "SourceFaction": "B"
+    },
+    "30710": {
+      "Name": "Blood Guard's Necklace of Ferocity",
+      "Source": "Blood Guard Porung",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Shattered Halls (H)",
+      "SourceFaction": "B"
+    },
+    "31145": {
+      "Name": "Headdress of the Sleeper",
+      "Source": "Watchkeeper Gargolmar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hellfire Ramparts",
+      "SourceFaction": "B"
+    },
+    "31280": {
+      "Name": "Thundercaller's Gauntlets",
+      "Source": "Tavarok",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mana Tombs",
+      "SourceFaction": "B"
+    },
+    "31293": {
+      "Name": "Girdle of Gale Force",
+      "Source": "Darkweaver Syth",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sethekk Halls",
+      "SourceFaction": "B"
+    },
+    "31306": {
+      "Name": "Leggings of the Sacred Crest",
+      "Source": "Rokmar the Crackler",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Slave Pens (H)",
+      "SourceFaction": "B"
+    },
+    "32072": {
+      "Name": "Gauntlets of Dissension",
+      "Source": "Warp Splinter",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Botanica (H)",
+      "SourceFaction": "B"
+    },
+    "32073": {
+      "Name": "Spaulders of Dementia",
+      "Source": "Talon King Ikiss",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sethekk Halls (H)",
+      "SourceFaction": "B"
+    },
+    "32076": {
+      "Name": "Handguards of the Steady",
+      "Source": "Pathaleon the Calculator",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Mechanar (H)",
+      "SourceFaction": "B"
+    },
+    "32077": {
+      "Name": "Wrath Infused Gauntlets",
+      "Source": "Vazruden",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Hellfire Ramparts (H)",
+      "SourceFaction": "B"
+    },
+    "32078": {
+      "Name": "Pauldrons of Wild Magic",
+      "Source": "Quagmirran",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Slave Pens (H)",
+      "SourceFaction": "B"
+    },
+    "32080": {
+      "Name": "Mantle of Shadowy Embrace",
+      "Source": "Keli'dan the Breaker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Blood Furnace (H)",
+      "SourceFaction": "B"
+    },
+    "32081": {
+      "Name": "Eye of the Stalker",
+      "Source": "The Black Stalker",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "The Underbog",
+      "SourceFaction": "B"
+    },
+    "32082": {
+      "Name": "The Fel Barrier",
+      "Source": "Nexus-Prince Shaffar",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Mana Tombs (H)",
+      "SourceFaction": "B"
+    },
+    "32769": {
+      "Name": "Belt of the Raven Lord",
+      "Source": "Anzu",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sethekk Halls (H)",
+      "SourceFaction": "B"
+    },
+    "32778": {
+      "Name": "Boots of Righteous Fortitude",
+      "Source": "Anzu",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sethekk Halls (H)",
+      "SourceFaction": "B"
+    },
+    "32779": {
+      "Name": "Band of Frigid Elements",
+      "Source": "Anzu",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sethekk Halls (H)",
+      "SourceFaction": "B"
+    },
+    "32780": {
+      "Name": "The Boomstick",
+      "Source": "Anzu",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sethekk Halls (H)",
+      "SourceFaction": "B"
+    },
+    "32781": {
+      "Name": "Talon of Anzu",
+      "Source": "Anzu",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Sethekk Halls (H)",
+      "SourceFaction": "B"
+    }
   }
 }

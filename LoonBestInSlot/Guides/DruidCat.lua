@@ -135,6 +135,7 @@ LBIS:AddItem(spec1, "31464", LBIS.L["Waist"], "Alt") --Naaru Belt of Precision
 LBIS:AddItem(spec1, "27760", LBIS.L["Waist"], "Alt") --Dunewind Sash
 LBIS:AddItem(spec1, "28741", LBIS.L["Legs"], "BIS") --Skulker's Greaves
 LBIS:AddItem(spec1, "31544", LBIS.L["Legs"], "Alt") --Clefthoof Hide Leggings
+LBIS:AddItem(spec1, "30257", LBIS.L["Legs"], "Alt") --Shattrath Leggings
 LBIS:AddItem(spec1, "27837", LBIS.L["Legs"], "Alt") --Wastewalker Leggings
 LBIS:AddItem(spec1, "25687", LBIS.L["Legs"], "Alt") --Fel Leather Leggings
 LBIS:AddItem(spec1, "30538", LBIS.L["Legs"], "Alt") --Midnight Legguards

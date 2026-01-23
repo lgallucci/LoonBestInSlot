@@ -124,7 +124,7 @@ LBIS:AddItem(spec1, "28744", LBIS.L["Head"], "Alt") --Uni-Mind Headdress
 LBIS:AddItem(spec1, "28967", LBIS.L["Shoulder"], "BIS") --Voidheart Mantle
 LBIS:AddItem(spec1, "21869", LBIS.L["Shoulder"], "Alt") --Frozen Shadoweave Shoulders
 LBIS:AddItem(spec1, "28766", LBIS.L["Back"], "BIS") --Ruby Drape of the Mysticant
-LBIS:AddItem(spec1, "30735", LBIS.L["Back"], "Alt") --Ancient Spellcloak of the Highborne
+LBIS:AddItem(spec1, "30735", LBIS.L["Back"], "BIS") --Ancient Spellcloak of the Highborne
 LBIS:AddItem(spec1, "28797", LBIS.L["Back"], "Alt") --Brute Cloak of the Ogre-Magi
 LBIS:AddItem(spec1, "28964", LBIS.L["Chest"], "BIS") --Voidheart Robe
 LBIS:AddItem(spec1, "21848", LBIS.L["Chest"], "BIS") --Spellfire Robe
@@ -145,8 +145,8 @@ LBIS:AddItem(spec1, "24262", LBIS.L["Legs"], "BIS") --Spellstrike Pants
 LBIS:AddItem(spec1, "30734", LBIS.L["Legs"], "Alt") --Leggings of the Seventh Circle
 LBIS:AddItem(spec1, "28966", LBIS.L["Legs"], "Alt") --Voidheart Leggings
 LBIS:AddItem(spec1, "21870", LBIS.L["Feet"], "BIS") --Frozen Shadoweave Boots
+LBIS:AddItem(spec1, "28517", LBIS.L["Feet"], "BIS") --Boots of Foretelling
 LBIS:AddItem(spec1, "28585", LBIS.L["Feet"], "Alt") --Ruby Slippers
-LBIS:AddItem(spec1, "28517", LBIS.L["Feet"], "Alt") --Boots of Foretelling
 LBIS:AddItem(spec1, "28530", LBIS.L["Neck"], "BIS") --Brooch of Unquenchable Fury
 LBIS:AddItem(spec1, "28762", LBIS.L["Neck"], "BIS") --Adornment of Stolen Souls
 LBIS:AddItem(spec1, "28134", LBIS.L["Neck"], "Alt") --Brooch of Heightened Potential
@@ -157,10 +157,10 @@ LBIS:AddItem(spec1, "28753", LBIS.L["Ring"], "BIS") --Ring of Recurrence
 LBIS:AddItem(spec1, "29287", LBIS.L["Ring"], "BIS") --Violet Signet of the Archmage
 LBIS:AddItem(spec1, "28227", LBIS.L["Ring"], "Alt") --Sparking Arcanite Ring
 LBIS:AddItem(spec1, "21709", LBIS.L["Ring"], "Alt") --Ring of the Fallen God
-LBIS:AddItem(spec1, "23207", LBIS.L["Trinket"], "BIS") --Mark of the Champion
 LBIS:AddItem(spec1, "27683", LBIS.L["Trinket"], "BIS") --Quagmirran's Eye
 LBIS:AddItem(spec1, "29370", LBIS.L["Trinket"], "BIS") --Icon of the Silver Crescent
-LBIS:AddItem(spec1, "29132", LBIS.L["Trinket"], "BIS") --Scryer's Bloodgem
+LBIS:AddItem(spec1, "23207", LBIS.L["Trinket"], "Alt") --Mark of the Champion
+LBIS:AddItem(spec1, "29132", LBIS.L["Trinket"], "Alt") --Scryer's Bloodgem
 LBIS:AddItem(spec1, "19379", LBIS.L["Trinket"], "Alt") --Neltharion's Tear
 LBIS:AddItem(spec1, "30723", LBIS.L["Main Hand"], "BIS") --Talon of the Tempest
 LBIS:AddItem(spec1, "28802", LBIS.L["Main Hand"], "Alt") --Bloodmaw Magus-Blade
@@ -175,9 +175,9 @@ LBIS:AddItem(spec1, "29272", LBIS.L["Off Hand"], "Alt") --Orb of the Soul-Eater
 LBIS:AddItem(spec1, "28734", LBIS.L["Off Hand"], "Alt") --Jewel of Infinite Possibilities
 LBIS:AddItem(spec1, "22630", LBIS.L["Two Hand"], "BIS") --Atiesh, Greatstaff of the Guardian
 LBIS:AddItem(spec1, "28673", LBIS.L["Ranged/Relic"], "BIS") --Tirisfal Wand of Ascendancy
-LBIS:AddItem(spec1, "29350", LBIS.L["Ranged/Relic"], "BIS") --The Black Stalk
 LBIS:AddItem(spec1, "28783", LBIS.L["Ranged/Relic"], "BIS") --Eredar Wand of Obliteration
 LBIS:AddItem(spec1, "28386", LBIS.L["Ranged/Relic"], "Alt") --Nether Core's Control Rod
+LBIS:AddItem(spec1, "29350", LBIS.L["Ranged/Relic"], "Alt") --The Black Stalk
 LBIS:AddItem(spec1, "22128", LBIS.L["Ranged/Relic"], "Alt") --Master Firestone
 
 LBIS:AddItem(spec2, "32494", LBIS.L["Head"], "BIS") --Destruction Holo-gogs

@@ -144,25 +144,23 @@ LBIS:AddItem(spec1, "28730", LBIS.L["Ring"], "Alt") --Mithril Band of the Unscar
 LBIS:AddItem(spec1, "29283", LBIS.L["Ring"], "Alt") --Violet Signet of the Master Assassin
 LBIS:AddItem(spec1, "31920", LBIS.L["Ring"], "Alt") --Shaffar's Band of Brutality
 LBIS:AddItem(spec1, "28649", LBIS.L["Ring"], "Alt") --Garona's Signet Ring
+LBIS:AddItem(spec1, "28288", LBIS.L["Trinket"], "BIS") --Abacus of Violent Odds
 LBIS:AddItem(spec1, "29383", LBIS.L["Trinket"], "BIS") --Bloodlust Brooch
 LBIS:AddItem(spec1, "28830", LBIS.L["Trinket"], "BIS") --Dragonspine Trophy
-LBIS:AddItem(spec1, "28288", LBIS.L["Trinket"], "BIS") --Abacus of Violent Odds
-LBIS:AddItem(spec1, "23206", LBIS.L["Trinket"], "Alt") --Mark of the Champion
-LBIS:AddItem(spec1, "31856", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Crusade
 LBIS:AddItem(spec1, "28034", LBIS.L["Trinket"], "Alt") --Hourglass of the Unraveller
+LBIS:AddItem(spec1, "23206", LBIS.L["Trinket"], "Alt") --Mark of the Champion
 LBIS:AddItem(spec1, "22954", LBIS.L["Trinket"], "Alt") --Kiss of the Spider
 LBIS:AddItem(spec1, "23041", LBIS.L["Trinket"], "Alt") --Slayer's Crest
 LBIS:AddItem(spec1, "19406", LBIS.L["Trinket"], "Alt") --Drake Fang Talisman
 LBIS:AddItem(spec1, "28579", LBIS.L["Trinket"], "Alt") --Romulo's Poison Vial
 LBIS:AddItem(spec1, "28429", LBIS.L["Two Hand"], "BIS") --Lionheart Champion
-LBIS:AddItem(spec1, "30722", LBIS.L["Two Hand"], "Alt") --Ethereum Nexus-Reaver
+LBIS:AddItem(spec1, "30722", LBIS.L["Two Hand"], "BIS") --Ethereum Nexus-Reaver
 LBIS:AddItem(spec1, "28441", LBIS.L["Two Hand"], "Alt") --Deep Thunder
 LBIS:AddItem(spec1, "28773", LBIS.L["Two Hand"], "Alt") --Gorehowl
 LBIS:AddItem(spec1, "24550", LBIS.L["Two Hand"], "Alt") --Gladiator's Greatsword
 LBIS:AddItem(spec1, "27484", LBIS.L["Ranged/Relic"], "BIS") --Libram of Avengement
 LBIS:AddItem(spec1, "22401", LBIS.L["Ranged/Relic"], "Alt") --Libram of Hope
 LBIS:AddItem(spec1, "23203", LBIS.L["Ranged/Relic"], "Alt") --Libram of Fervor
-LBIS:AddItem(spec1, "22402", LBIS.L["Ranged/Relic"], "Alt") --Libram of Grace
 
 LBIS:AddItem(spec2, "32461", LBIS.L["Head"], "BIS") --Furious Gizmatic Goggles
 LBIS:AddItem(spec2, "30131", LBIS.L["Head"], "Alt") --Crystalforge War-Helm
