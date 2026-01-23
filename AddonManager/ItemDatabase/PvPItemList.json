@@ -1,4 +1,5052 @@
 {
-  "Items": {    
+  "Items": {
+    "24544": {
+      "Name": "Gladiator's Plate Chestpiece",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "24545": {
+      "Name": "Gladiator's Plate Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "24546": {
+      "Name": "Gladiator's Plate Shoulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2615",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "24547": {
+      "Name": "Gladiator's Plate Legguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "24549": {
+      "Name": "Gladiator's Plate Gauntlets",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "24551": {
+      "Name": "Talisman of the Horde",
+      "Source": "Eye of the Storm Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5 & 19045",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "24552": {
+      "Name": "Gladiator's Dreadweave Robe",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "24553": {
+      "Name": "Gladiator's Dreadweave Hood",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "24554": {
+      "Name": "Gladiator's Dreadweave Mantle",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2615",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "24555": {
+      "Name": "Gladiator's Dreadweave Leggings",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "24556": {
+      "Name": "Gladiator's Dreadweave Gloves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "25829": {
+      "Name": "Talisman of the Alliance",
+      "Source": "Eye of the Storm Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5 & 19045",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "25830": {
+      "Name": "Gladiator's Leather Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "25831": {
+      "Name": "Gladiator's Leather Tunic",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "25832": {
+      "Name": "Gladiator's Leather Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2615",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "25833": {
+      "Name": "Gladiator's Leather Legguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "25834": {
+      "Name": "Gladiator's Leather Gloves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "25854": {
+      "Name": "Gladiator's Silk Amice",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2615",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "25855": {
+      "Name": "Gladiator's Silk Cowl",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "25856": {
+      "Name": "Gladiator's Silk Raiment",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "25857": {
+      "Name": "Gladiator's Silk Handguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "25858": {
+      "Name": "Gladiator's Silk Trousers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "25997": {
+      "Name": "Gladiator's Linked Armor",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "25998": {
+      "Name": "Gladiator's Linked Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "25999": {
+      "Name": "Gladiator's Linked Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2615",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "26000": {
+      "Name": "Gladiator's Linked Gauntlets",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "26001": {
+      "Name": "Gladiator's Linked Leggings",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "27469": {
+      "Name": "Gladiator's Mail Armor",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "27470": {
+      "Name": "Gladiator's Mail Gauntlets",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "27471": {
+      "Name": "Gladiator's Mail Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "27472": {
+      "Name": "Gladiator's Mail Leggings",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "27473": {
+      "Name": "Gladiator's Mail Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2615",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "27702": {
+      "Name": "Gladiator's Lamellar Chestpiece",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "27703": {
+      "Name": "Gladiator's Lamellar Gauntlets",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "27704": {
+      "Name": "Gladiator's Lamellar Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "27705": {
+      "Name": "Gladiator's Lamellar Legguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "27706": {
+      "Name": "Gladiator's Lamellar Shoulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2615",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "27707": {
+      "Name": "Gladiator's Satin Gloves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "27708": {
+      "Name": "Gladiator's Satin Hood",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "27709": {
+      "Name": "Gladiator's Satin Leggings",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "27710": {
+      "Name": "Gladiator's Satin Mantle",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2615",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "27711": {
+      "Name": "Gladiator's Satin Robe",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "27879": {
+      "Name": "Gladiator's Scaled Chestpiece",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "27880": {
+      "Name": "Gladiator's Scaled Gauntlets",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "27881": {
+      "Name": "Gladiator's Scaled Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "27882": {
+      "Name": "Gladiator's Scaled Legguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "27883": {
+      "Name": "Gladiator's Scaled Shoulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2615",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "27920": {
+      "Name": "Mark of Conquest",
+      "Source": "Mark of Thrallmar",
+      "SourceType": "PvP",
+      "SourceNumber": "30",
+      "SourceLocation": "Zangarmarsh Field Scout",
+      "SourceFaction": "B"
+    },
+    "27921": {
+      "Name": "Mark of Conquest",
+      "Source": "Mark of Honor Hold",
+      "SourceType": "PvP",
+      "SourceNumber": "30",
+      "SourceLocation": "Zangarmarsh Field Scout",
+      "SourceFaction": "B"
+    },
+    "27922": {
+      "Name": "Mark of Defiance",
+      "Source": "Mark of Honor Hold",
+      "SourceType": "PvP",
+      "SourceNumber": "30",
+      "SourceLocation": "Zangarmarsh Field Scout",
+      "SourceFaction": "B"
+    },
+    "27924": {
+      "Name": "Mark of Defiance",
+      "Source": "Mark of Thrallmar",
+      "SourceType": "PvP",
+      "SourceNumber": "30",
+      "SourceLocation": "Zangarmarsh Field Scout",
+      "SourceFaction": "B"
+    },
+    "27926": {
+      "Name": "Mark of Vindication",
+      "Source": "Mark of Thrallmar",
+      "SourceType": "PvP",
+      "SourceNumber": "30",
+      "SourceLocation": "Zangarmarsh Field Scout",
+      "SourceFaction": "B"
+    },
+    "27927": {
+      "Name": "Mark of Vindication",
+      "Source": "Mark of Honor Hold",
+      "SourceType": "PvP",
+      "SourceNumber": "30",
+      "SourceLocation": "Zangarmarsh Field Scout",
+      "SourceFaction": "B"
+    },
+    "27928": {
+      "Name": "Terminal Edge",
+      "Source": "Mark of Thrallmar",
+      "SourceType": "PvP",
+      "SourceNumber": "15",
+      "SourceLocation": "Zangarmarsh Field Scout",
+      "SourceFaction": "B"
+    },
+    "27929": {
+      "Name": "Terminal Edge",
+      "Source": "Mark of Honor Hold",
+      "SourceType": "PvP",
+      "SourceNumber": "15",
+      "SourceLocation": "Zangarmarsh Field Scout",
+      "SourceFaction": "B"
+    },
+    "27930": {
+      "Name": "Splintermark",
+      "Source": "Mark of Thrallmar",
+      "SourceType": "PvP",
+      "SourceNumber": "15",
+      "SourceLocation": "Zangarmarsh Field Scout",
+      "SourceFaction": "B"
+    },
+    "27931": {
+      "Name": "Splintermark",
+      "Source": "Mark of Honor Hold",
+      "SourceType": "PvP",
+      "SourceNumber": "15",
+      "SourceLocation": "Zangarmarsh Field Scout",
+      "SourceFaction": "B"
+    },
+    "27939": {
+      "Name": "Incendic Rod",
+      "Source": "Mark of Thrallmar",
+      "SourceType": "PvP",
+      "SourceNumber": "15",
+      "SourceLocation": "Zangarmarsh Field Scout",
+      "SourceFaction": "B"
+    },
+    "27942": {
+      "Name": "Incendic Rod",
+      "Source": "Mark of Honor Hold",
+      "SourceType": "PvP",
+      "SourceNumber": "15",
+      "SourceLocation": "Zangarmarsh Field Scout",
+      "SourceFaction": "B"
+    },
+    "27947": {
+      "Name": "Totem of Impact",
+      "Source": "Mark of Thrallmar",
+      "SourceType": "PvP",
+      "SourceNumber": "15",
+      "SourceLocation": "Zangarmarsh Field Scout",
+      "SourceFaction": "B"
+    },
+    "27949": {
+      "Name": "Libram of Zeal",
+      "Source": "Mark of Thrallmar",
+      "SourceType": "PvP",
+      "SourceNumber": "15",
+      "SourceLocation": "Zangarmarsh Field Scout",
+      "SourceFaction": "B"
+    },
+    "27983": {
+      "Name": "Libram of Zeal",
+      "Source": "Mark of Honor Hold",
+      "SourceType": "PvP",
+      "SourceNumber": "15",
+      "SourceLocation": "Zangarmarsh Field Scout",
+      "SourceFaction": "B"
+    },
+    "27984": {
+      "Name": "Totem of Impact",
+      "Source": "Mark of Honor Hold",
+      "SourceType": "PvP",
+      "SourceNumber": "15",
+      "SourceLocation": "Zangarmarsh Field Scout",
+      "SourceFaction": "B"
+    },
+    "27989": {
+      "Name": "Idol of Savagery",
+      "Source": "Mark of Thrallmar",
+      "SourceType": "PvP",
+      "SourceNumber": "15",
+      "SourceLocation": "Zangarmarsh Field Scout",
+      "SourceFaction": "B"
+    },
+    "27990": {
+      "Name": "Idol of Savagery",
+      "Source": "Mark of Honor Hold",
+      "SourceType": "PvP",
+      "SourceNumber": "15",
+      "SourceLocation": "Zangarmarsh Field Scout",
+      "SourceFaction": "B"
+    },
+    "28126": {
+      "Name": "Gladiator's Dragonhide Gloves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28127": {
+      "Name": "Gladiator's Dragonhide Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28128": {
+      "Name": "Gladiator's Dragonhide Legguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28129": {
+      "Name": "Gladiator's Dragonhide Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2615",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28130": {
+      "Name": "Gladiator's Dragonhide Tunic",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28136": {
+      "Name": "Gladiator's Wyrmhide Gloves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28137": {
+      "Name": "Gladiator's Wyrmhide Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28138": {
+      "Name": "Gladiator's Wyrmhide Legguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28139": {
+      "Name": "Gladiator's Wyrmhide Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2615",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28140": {
+      "Name": "Gladiator's Wyrmhide Tunic",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28234": {
+      "Name": "Medallion of the Alliance",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "6640",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28235": {
+      "Name": "Medallion of the Alliance",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "6640",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28236": {
+      "Name": "Medallion of the Alliance",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "6640",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28237": {
+      "Name": "Medallion of the Alliance",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "6640",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28238": {
+      "Name": "Medallion of the Alliance",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "6640",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28239": {
+      "Name": "Medallion of the Horde",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "6640",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28240": {
+      "Name": "Medallion of the Horde",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "6640",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28241": {
+      "Name": "Medallion of the Horde",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "6640",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28242": {
+      "Name": "Medallion of the Horde",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "6640",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28243": {
+      "Name": "Medallion of the Horde",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "6640",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28244": {
+      "Name": "Pendant of Triumph",
+      "Source": "Eye of the Storm Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5 & 12695",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28245": {
+      "Name": "Pendant of Dominance",
+      "Source": "Eye of the Storm Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5 & 12695",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28246": {
+      "Name": "Band of Triumph",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "6345",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28247": {
+      "Name": "Band of Dominance",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "6345",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28331": {
+      "Name": "Gladiator's Chain Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28332": {
+      "Name": "Gladiator's Chain Leggings",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28333": {
+      "Name": "Gladiator's Chain Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2615",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28334": {
+      "Name": "Gladiator's Chain Armor",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28335": {
+      "Name": "Gladiator's Chain Gauntlets",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28377": {
+      "Name": "Sergeant's Heavy Cloak",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28378": {
+      "Name": "Sergeant's Heavy Cape",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28381": {
+      "Name": "General's Plate Bracers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28383": {
+      "Name": "General's Plate Greaves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28385": {
+      "Name": "General's Plate Belt",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28402": {
+      "Name": "General's Dreadweave Stalkers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28404": {
+      "Name": "General's Dreadweave Belt",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28405": {
+      "Name": "General's Dreadweave Cuffs",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28409": {
+      "Name": "General's Silk Belt",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28410": {
+      "Name": "General's Silk Footguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28411": {
+      "Name": "General's Silk Cuffs",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28422": {
+      "Name": "General's Leather Boots",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28423": {
+      "Name": "General's Leather Belt",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28424": {
+      "Name": "General's Leather Bracers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28443": {
+      "Name": "General's Dragonhide Belt",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28444": {
+      "Name": "General's Dragonhide Boots",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28445": {
+      "Name": "General's Dragonhide Bracers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28446": {
+      "Name": "General's Wyrmhide Belt",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28447": {
+      "Name": "General's Wyrmhide Boots",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28448": {
+      "Name": "General's Wyrmhide Bracers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28449": {
+      "Name": "General's Chain Sabatons",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28450": {
+      "Name": "General's Chain Girdle",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28451": {
+      "Name": "General's Chain Bracers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28605": {
+      "Name": "General's Linked Bracers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28613": {
+      "Name": "Grand Marshal's Chain Armor",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28614": {
+      "Name": "Grand Marshal's Chain Gauntlets",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28615": {
+      "Name": "Grand Marshal's Chain Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28616": {
+      "Name": "Grand Marshal's Chain Leggings",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28617": {
+      "Name": "Grand Marshal's Chain Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28618": {
+      "Name": "Grand Marshal's Dragonhide Gloves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28619": {
+      "Name": "Grand Marshal's Dragonhide Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28620": {
+      "Name": "Grand Marshal's Dragonhide Legguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28622": {
+      "Name": "Grand Marshal's Dragonhide Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28623": {
+      "Name": "Grand Marshal's Dragonhide Tunic",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28624": {
+      "Name": "Grand Marshal's Dreadweave Gloves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28625": {
+      "Name": "Grand Marshal's Dreadweave Hood",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28626": {
+      "Name": "Grand Marshal's Dreadweave Leggings",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28627": {
+      "Name": "Grand Marshal's Dreadweave Mantle",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28628": {
+      "Name": "Grand Marshal's Dreadweave Robe",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28629": {
+      "Name": "General's Linked Girdle",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28630": {
+      "Name": "General's Linked Sabatons",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28638": {
+      "Name": "General's Mail Bracers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28639": {
+      "Name": "General's Mail Girdle",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28640": {
+      "Name": "General's Mail Sabatons",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28641": {
+      "Name": "General's Lamellar Belt",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28642": {
+      "Name": "General's Lamellar Greaves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28643": {
+      "Name": "General's Lamellar Bracers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28644": {
+      "Name": "General's Scaled Belt",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28645": {
+      "Name": "General's Scaled Greaves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28646": {
+      "Name": "General's Scaled Bracers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28679": {
+      "Name": "Grand Marshal's Lamellar Chestpiece",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28680": {
+      "Name": "Grand Marshal's Lamellar Gauntlets",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28681": {
+      "Name": "Grand Marshal's Lamellar Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28683": {
+      "Name": "Grand Marshal's Lamellar Shoulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28684": {
+      "Name": "Grand Marshal's Leather Gloves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28685": {
+      "Name": "Grand Marshal's Leather Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28686": {
+      "Name": "Grand Marshal's Leather Legguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28687": {
+      "Name": "Grand Marshal's Leather Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28688": {
+      "Name": "Grand Marshal's Leather Tunic",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28689": {
+      "Name": "Grand Marshal's Linked Armor",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28690": {
+      "Name": "Grand Marshal's Linked Gauntlets",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28691": {
+      "Name": "Grand Marshal's Linked Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28692": {
+      "Name": "Grand Marshal's Linked Leggings",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28693": {
+      "Name": "Grand Marshal's Linked Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28694": {
+      "Name": "Grand Marshal's Mail Armor",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28695": {
+      "Name": "Grand Marshal's Mail Gauntlets",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28696": {
+      "Name": "Grand Marshal's Mail Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28697": {
+      "Name": "Grand Marshal's Mail Leggings",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28698": {
+      "Name": "Grand Marshal's Mail Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28699": {
+      "Name": "Grand Marshal's Plate Chestpiece",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28700": {
+      "Name": "Grand Marshal's Plate Gauntlets",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28701": {
+      "Name": "Grand Marshal's Plate Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28702": {
+      "Name": "Grand Marshal's Plate Legguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28703": {
+      "Name": "Grand Marshal's Plate Shoulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28704": {
+      "Name": "Grand Marshal's Satin Gloves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28705": {
+      "Name": "Grand Marshal's Satin Hood",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28706": {
+      "Name": "Grand Marshal's Satin Leggings",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28707": {
+      "Name": "Grand Marshal's Satin Mantle",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28708": {
+      "Name": "Grand Marshal's Satin Robe",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28709": {
+      "Name": "Grand Marshal's Scaled Chestpiece",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28710": {
+      "Name": "Grand Marshal's Scaled Gauntlets",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28711": {
+      "Name": "Grand Marshal's Scaled Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28712": {
+      "Name": "Grand Marshal's Scaled Legguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28713": {
+      "Name": "Grand Marshal's Scaled Shoulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28714": {
+      "Name": "Grand Marshal's Silk Amice",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28715": {
+      "Name": "Grand Marshal's Silk Cowl",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28716": {
+      "Name": "Grand Marshal's Silk Handguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28717": {
+      "Name": "Grand Marshal's Silk Raiment",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28718": {
+      "Name": "Grand Marshal's Silk Trousers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28719": {
+      "Name": "Grand Marshal's Wyrmhide Gloves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28720": {
+      "Name": "Grand Marshal's Wyrmhide Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28721": {
+      "Name": "Grand Marshal's Wyrmhide Legguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28722": {
+      "Name": "Grand Marshal's Wyrmhide Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28723": {
+      "Name": "Grand Marshal's Wyrmhide Tunic",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28724": {
+      "Name": "Grand Marshal's Lamellar Legguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28805": {
+      "Name": "High Warlord's Chain Armor",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28806": {
+      "Name": "High Warlord's Chain Gauntlets",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28807": {
+      "Name": "High Warlord's Chain Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28808": {
+      "Name": "High Warlord's Chain Leggings",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28809": {
+      "Name": "High Warlord's Chain Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28811": {
+      "Name": "High Warlord's Dragonhide Gloves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28812": {
+      "Name": "High Warlord's Dragonhide Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28813": {
+      "Name": "High Warlord's Dragonhide Legguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28814": {
+      "Name": "High Warlord's Dragonhide Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28815": {
+      "Name": "High Warlord's Dragonhide Tunic",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28817": {
+      "Name": "High Warlord's Dreadweave Gloves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28818": {
+      "Name": "High Warlord's Dreadweave Hood",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28819": {
+      "Name": "High Warlord's Dreadweave Leggings",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28820": {
+      "Name": "High Warlord's Dreadweave Mantle",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28821": {
+      "Name": "High Warlord's Dreadweave Robe",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28831": {
+      "Name": "High Warlord's Lamellar Chestpiece",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28832": {
+      "Name": "High Warlord's Lamellar Gauntlets",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28833": {
+      "Name": "High Warlord's Lamellar Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28834": {
+      "Name": "High Warlord's Lamellar Legguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28835": {
+      "Name": "High Warlord's Lamellar Shoulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28836": {
+      "Name": "High Warlord's Leather Gloves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28837": {
+      "Name": "High Warlord's Leather Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28838": {
+      "Name": "High Warlord's Leather Legguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28839": {
+      "Name": "High Warlord's Leather Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28840": {
+      "Name": "High Warlord's Leather Tunic",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28841": {
+      "Name": "High Warlord's Linked Armor",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28842": {
+      "Name": "High Warlord's Linked Gauntlets",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28843": {
+      "Name": "High Warlord's Linked Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28844": {
+      "Name": "High Warlord's Linked Leggings",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28845": {
+      "Name": "High Warlord's Linked Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28846": {
+      "Name": "High Warlord's Mail Armor",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28847": {
+      "Name": "High Warlord's Mail Gauntlets",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28848": {
+      "Name": "High Warlord's Mail Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28849": {
+      "Name": "High Warlord's Mail Leggings",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28850": {
+      "Name": "High Warlord's Mail Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28851": {
+      "Name": "High Warlord's Plate Chestpiece",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28852": {
+      "Name": "High Warlord's Plate Gauntlets",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28853": {
+      "Name": "High Warlord's Plate Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28854": {
+      "Name": "High Warlord's Plate Legguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28855": {
+      "Name": "High Warlord's Plate Shoulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28856": {
+      "Name": "High Warlord's Satin Gloves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28857": {
+      "Name": "High Warlord's Satin Hood",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28858": {
+      "Name": "High Warlord's Satin Leggings",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28859": {
+      "Name": "High Warlord's Satin Mantle",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28860": {
+      "Name": "High Warlord's Satin Robe",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28861": {
+      "Name": "High Warlord's Scaled Chestpiece",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28862": {
+      "Name": "High Warlord's Scaled Gauntlets",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28863": {
+      "Name": "High Warlord's Scaled Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28864": {
+      "Name": "High Warlord's Scaled Legguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28865": {
+      "Name": "High Warlord's Scaled Shoulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28866": {
+      "Name": "High Warlord's Silk Amice",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28867": {
+      "Name": "High Warlord's Silk Cowl",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28868": {
+      "Name": "High Warlord's Silk Handguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28869": {
+      "Name": "High Warlord's Silk Raiment",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28870": {
+      "Name": "High Warlord's Silk Trousers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28871": {
+      "Name": "High Warlord's Wyrmhide Gloves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28872": {
+      "Name": "High Warlord's Wyrmhide Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28873": {
+      "Name": "High Warlord's Wyrmhide Legguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28874": {
+      "Name": "High Warlord's Wyrmhide Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28875": {
+      "Name": "High Warlord's Wyrmhide Tunic",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28973": {
+      "Name": "Marshal's Chain Bracers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28974": {
+      "Name": "Marshal's Chain Girdle",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28975": {
+      "Name": "Marshal's Chain Sabatons",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28976": {
+      "Name": "Marshal's Dragonhide Belt",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28977": {
+      "Name": "Marshal's Dragonhide Boots",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28978": {
+      "Name": "Marshal's Dragonhide Bracers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28980": {
+      "Name": "Marshal's Dreadweave Belt",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28981": {
+      "Name": "Marshal's Dreadweave Cuffs",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28982": {
+      "Name": "Marshal's Dreadweave Stalkers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28983": {
+      "Name": "Marshal's Lamellar Belt",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28984": {
+      "Name": "Marshal's Lamellar Bracers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28985": {
+      "Name": "Marshal's Lamellar Greaves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28986": {
+      "Name": "Marshal's Leather Belt",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28987": {
+      "Name": "Marshal's Leather Boots",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28988": {
+      "Name": "Marshal's Leather Bracers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28989": {
+      "Name": "Marshal's Linked Bracers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28990": {
+      "Name": "Marshal's Linked Girdle",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28991": {
+      "Name": "Marshal's Linked Sabatons",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28992": {
+      "Name": "Marshal's Mail Bracers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28993": {
+      "Name": "Marshal's Mail Girdle",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28994": {
+      "Name": "Marshal's Mail Sabatons",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28995": {
+      "Name": "Marshal's Plate Belt",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28996": {
+      "Name": "Marshal's Plate Bracers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28997": {
+      "Name": "Marshal's Plate Greaves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28998": {
+      "Name": "Marshal's Scaled Belt",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "28999": {
+      "Name": "Marshal's Scaled Bracers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "29000": {
+      "Name": "Marshal's Scaled Greaves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "29001": {
+      "Name": "Marshal's Silk Belt",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "29002": {
+      "Name": "Marshal's Silk Cuffs",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "29003": {
+      "Name": "Marshal's Silk Footguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "29004": {
+      "Name": "Marshal's Wyrmhide Belt",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "29005": {
+      "Name": "Marshal's Wyrmhide Boots",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "29006": {
+      "Name": "Marshal's Wyrmhide Bracers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "30186": {
+      "Name": "Gladiator's Felweave Amice",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2615",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "30187": {
+      "Name": "Gladiator's Felweave Cowl",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "30188": {
+      "Name": "Gladiator's Felweave Handguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "30200": {
+      "Name": "Gladiator's Felweave Raiment",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "30201": {
+      "Name": "Gladiator's Felweave Trousers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "30343": {
+      "Name": "Medallion of the Horde",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "6640",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "30344": {
+      "Name": "Medallion of the Horde",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "6640",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "30345": {
+      "Name": "Medallion of the Horde",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "6640",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "30346": {
+      "Name": "Medallion of the Horde",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "6640",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "30348": {
+      "Name": "Medallion of the Alliance",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "6640",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "30349": {
+      "Name": "Medallion of the Alliance",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "6640",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "30350": {
+      "Name": "Medallion of the Alliance",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "6640",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "30351": {
+      "Name": "Medallion of the Alliance",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "6640",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "30486": {
+      "Name": "Merciless Gladiator's Plate Chestpiece",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "30487": {
+      "Name": "Merciless Gladiator's Plate Gauntlets",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "30488": {
+      "Name": "Merciless Gladiator's Plate Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "30489": {
+      "Name": "Merciless Gladiator's Plate Legguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "30490": {
+      "Name": "Merciless Gladiator's Plate Shoulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "9335",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31375": {
+      "Name": "Gladiator's Kodohide Gloves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31376": {
+      "Name": "Gladiator's Kodohide Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31377": {
+      "Name": "Gladiator's Kodohide Legguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31378": {
+      "Name": "Gladiator's Kodohide Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2615",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31379": {
+      "Name": "Gladiator's Kodohide Tunic",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31396": {
+      "Name": "Gladiator's Ringmail Armor",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31397": {
+      "Name": "Gladiator's Ringmail Gauntlets",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31400": {
+      "Name": "Gladiator's Ringmail Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31406": {
+      "Name": "Gladiator's Ringmail Leggings",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31407": {
+      "Name": "Gladiator's Ringmail Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2615",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31409": {
+      "Name": "Gladiator's Mooncloth Gloves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31410": {
+      "Name": "Gladiator's Mooncloth Hood",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31411": {
+      "Name": "Gladiator's Mooncloth Leggings",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31412": {
+      "Name": "Gladiator's Mooncloth Mantle",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2615",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31413": {
+      "Name": "Gladiator's Mooncloth Robe",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31584": {
+      "Name": "High Warlord's Kodohide Gloves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31585": {
+      "Name": "High Warlord's Kodohide Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31586": {
+      "Name": "High Warlord's Kodohide Legguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31587": {
+      "Name": "High Warlord's Kodohide Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31588": {
+      "Name": "High Warlord's Kodohide Tunic",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31589": {
+      "Name": "Grand Marshal's Kodohide Gloves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31590": {
+      "Name": "Grand Marshal's Kodohide Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31591": {
+      "Name": "Grand Marshal's Kodohide Legguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31592": {
+      "Name": "Grand Marshal's Kodohide Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31593": {
+      "Name": "Grand Marshal's Kodohide Tunic",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31594": {
+      "Name": "General's Kodohide Belt",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31595": {
+      "Name": "General's Kodohide Boots",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31596": {
+      "Name": "Marshal's Kodohide Belt",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31597": {
+      "Name": "Marshal's Kodohide Boots",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31598": {
+      "Name": "General's Kodohide Bracers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31599": {
+      "Name": "Marshal's Kodohide Bracers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31613": {
+      "Name": "Gladiator's Ornamented Chestguard",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31614": {
+      "Name": "Gladiator's Ornamented Gloves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31616": {
+      "Name": "Gladiator's Ornamented Headcover",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31618": {
+      "Name": "Gladiator's Ornamented Legplates",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31619": {
+      "Name": "Gladiator's Ornamented Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "2615",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31620": {
+      "Name": "Grand Marshal's Mooncloth Mitts",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31621": {
+      "Name": "High Warlord's Mooncloth Mitts",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31622": {
+      "Name": "Grand Marshal's Mooncloth Cowl",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31623": {
+      "Name": "Grand Marshal's Mooncloth Legguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31624": {
+      "Name": "Grand Marshal's Mooncloth Shoulderpads",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31625": {
+      "Name": "Grand Marshal's Mooncloth Vestments",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31626": {
+      "Name": "High Warlord's Mooncloth Cowl",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31627": {
+      "Name": "High Warlord's Mooncloth Legguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31628": {
+      "Name": "High Warlord's Mooncloth Shoulderpads",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31629": {
+      "Name": "High Warlord's Mooncloth Vestments",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31630": {
+      "Name": "Grand Marshal's Ornamented Chestplate",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31631": {
+      "Name": "Grand Marshal's Ornamented Gloves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31632": {
+      "Name": "Grand Marshal's Ornamented Headguard",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31633": {
+      "Name": "Grand Marshal's Ornamented Leggings",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31634": {
+      "Name": "Grand Marshal's Ornamented Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31635": {
+      "Name": "High Warlord's Ornamented Chestplate",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31636": {
+      "Name": "High Warlord's Ornamented Gloves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31637": {
+      "Name": "High Warlord's Ornamented Headguard",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31638": {
+      "Name": "High Warlord's Ornamented Leggings",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31639": {
+      "Name": "High Warlord's Ornamented Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31640": {
+      "Name": "Grand Marshal's Ringmail Chestguard",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31641": {
+      "Name": "Grand Marshal's Ringmail Gloves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31642": {
+      "Name": "Grand Marshal's Ringmail Headpiece",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31643": {
+      "Name": "Grand Marshal's Ringmail Legguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31644": {
+      "Name": "Grand Marshal's Ringmail Shoulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31646": {
+      "Name": "High Warlord's Ringmail Chestguard",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31647": {
+      "Name": "High Warlord's Ringmail Gloves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31648": {
+      "Name": "High Warlord's Ringmail Headpiece",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31649": {
+      "Name": "High Warlord's Ringmail Legguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31650": {
+      "Name": "High Warlord's Ringmail Shoulderpads",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31838": {
+      "Name": "Major Combat Healing Potion",
+      "Source": "Arathi Basin Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "2",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31839": {
+      "Name": "Major Combat Healing Potion",
+      "Source": "Alterac Valley Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "2",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31840": {
+      "Name": "Major Combat Mana Potion",
+      "Source": "Arathi Basin Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "2",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31841": {
+      "Name": "Major Combat Mana Potion",
+      "Source": "Alterac Valley Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "2",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31852": {
+      "Name": "Major Combat Healing Potion",
+      "Source": "Eye of the Storm Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "2",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31853": {
+      "Name": "Major Combat Healing Potion",
+      "Source": "",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31854": {
+      "Name": "Major Combat Mana Potion",
+      "Source": "Eye of the Storm Marks",
+      "SourceType": "PvP",
+      "SourceNumber": "2",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31855": {
+      "Name": "Major Combat Mana Potion",
+      "Source": "",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31960": {
+      "Name": "Merciless Gladiator's Chain Armor",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31961": {
+      "Name": "Merciless Gladiator's Chain Gauntlets",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31962": {
+      "Name": "Merciless Gladiator's Chain Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31963": {
+      "Name": "Merciless Gladiator's Chain Leggings",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31964": {
+      "Name": "Merciless Gladiator's Chain Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "9335",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31967": {
+      "Name": "Merciless Gladiator's Dragonhide Gloves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31968": {
+      "Name": "Merciless Gladiator's Dragonhide Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31969": {
+      "Name": "Merciless Gladiator's Dragonhide Legguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31971": {
+      "Name": "Merciless Gladiator's Dragonhide Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "9335",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31972": {
+      "Name": "Merciless Gladiator's Dragonhide Tunic",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31973": {
+      "Name": "Merciless Gladiator's Dreadweave Gloves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31974": {
+      "Name": "Merciless Gladiator's Dreadweave Hood",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31975": {
+      "Name": "Merciless Gladiator's Dreadweave Leggings",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31976": {
+      "Name": "Merciless Gladiator's Dreadweave Mantle",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "9335",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31977": {
+      "Name": "Merciless Gladiator's Dreadweave Robe",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31979": {
+      "Name": "Merciless Gladiator's Felweave Amice",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "9335",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31980": {
+      "Name": "Merciless Gladiator's Felweave Cowl",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31981": {
+      "Name": "Merciless Gladiator's Felweave Handguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31982": {
+      "Name": "Merciless Gladiator's Felweave Raiment",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31983": {
+      "Name": "Merciless Gladiator's Felweave Trousers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31987": {
+      "Name": "Merciless Gladiator's Kodohide Gloves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31988": {
+      "Name": "Merciless Gladiator's Kodohide Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31989": {
+      "Name": "Merciless Gladiator's Kodohide Legguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31990": {
+      "Name": "Merciless Gladiator's Kodohide Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "9335",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31991": {
+      "Name": "Merciless Gladiator's Kodohide Tunic",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31992": {
+      "Name": "Merciless Gladiator's Lamellar Chestpiece",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31993": {
+      "Name": "Merciless Gladiator's Lamellar Gauntlets",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31995": {
+      "Name": "Merciless Gladiator's Lamellar Legguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31996": {
+      "Name": "Merciless Gladiator's Lamellar Shoulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "9335",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31997": {
+      "Name": "Merciless Gladiator's Lamellar Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31998": {
+      "Name": "Merciless Gladiator's Leather Gloves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "31999": {
+      "Name": "Merciless Gladiator's Leather Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32000": {
+      "Name": "Merciless Gladiator's Leather Legguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32001": {
+      "Name": "Merciless Gladiator's Leather Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "9335",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32002": {
+      "Name": "Merciless Gladiator's Leather Tunic",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32004": {
+      "Name": "Merciless Gladiator's Linked Armor",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32005": {
+      "Name": "Merciless Gladiator's Linked Gauntlets",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32006": {
+      "Name": "Merciless Gladiator's Linked Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32007": {
+      "Name": "Merciless Gladiator's Linked Leggings",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32008": {
+      "Name": "Merciless Gladiator's Linked Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "9335",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32009": {
+      "Name": "Merciless Gladiator's Mail Armor",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32010": {
+      "Name": "Merciless Gladiator's Mail Gauntlets",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32011": {
+      "Name": "Merciless Gladiator's Mail Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32012": {
+      "Name": "Merciless Gladiator's Mail Leggings",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32013": {
+      "Name": "Merciless Gladiator's Mail Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "9335",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32015": {
+      "Name": "Merciless Gladiator's Mooncloth Gloves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32016": {
+      "Name": "Merciless Gladiator's Mooncloth Hood",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32017": {
+      "Name": "Merciless Gladiator's Mooncloth Leggings",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32018": {
+      "Name": "Merciless Gladiator's Mooncloth Mantle",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "9335",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32019": {
+      "Name": "Merciless Gladiator's Mooncloth Robe",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32020": {
+      "Name": "Merciless Gladiator's Ornamented Chestguard",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32021": {
+      "Name": "Merciless Gladiator's Ornamented Gloves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32022": {
+      "Name": "Merciless Gladiator's Ornamented Headcover",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32023": {
+      "Name": "Merciless Gladiator's Ornamented Legplates",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32024": {
+      "Name": "Merciless Gladiator's Ornamented Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "9335",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32029": {
+      "Name": "Merciless Gladiator's Ringmail Armor",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32030": {
+      "Name": "Merciless Gladiator's Ringmail Gauntlets",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32031": {
+      "Name": "Merciless Gladiator's Ringmail Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32032": {
+      "Name": "Merciless Gladiator's Ringmail Leggings",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32033": {
+      "Name": "Merciless Gladiator's Ringmail Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "9335",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32034": {
+      "Name": "Merciless Gladiator's Satin Gloves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32035": {
+      "Name": "Merciless Gladiator's Satin Hood",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32036": {
+      "Name": "Merciless Gladiator's Satin Leggings",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32037": {
+      "Name": "Merciless Gladiator's Satin Mantle",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "9335",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32038": {
+      "Name": "Merciless Gladiator's Satin Robe",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32039": {
+      "Name": "Merciless Gladiator's Scaled Chestpiece",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32040": {
+      "Name": "Merciless Gladiator's Scaled Gauntlets",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32041": {
+      "Name": "Merciless Gladiator's Scaled Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32042": {
+      "Name": "Merciless Gladiator's Scaled Legguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32043": {
+      "Name": "Merciless Gladiator's Scaled Shoulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "9335",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32047": {
+      "Name": "Merciless Gladiator's Silk Amice",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "9335",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32048": {
+      "Name": "Merciless Gladiator's Silk Cowl",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32049": {
+      "Name": "Merciless Gladiator's Silk Handguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32050": {
+      "Name": "Merciless Gladiator's Silk Raiment",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32051": {
+      "Name": "Merciless Gladiator's Silk Trousers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32056": {
+      "Name": "Merciless Gladiator's Wyrmhide Gloves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5235",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32057": {
+      "Name": "Merciless Gladiator's Wyrmhide Helm",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32058": {
+      "Name": "Merciless Gladiator's Wyrmhide Legguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32059": {
+      "Name": "Merciless Gladiator's Wyrmhide Spaulders",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "9335",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32060": {
+      "Name": "Merciless Gladiator's Wyrmhide Tunic",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "8570",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32453": {
+      "Name": "Star's Tears",
+      "Source": "",
+      "SourceType": "PvP",
+      "SourceNumber": "",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32785": {
+      "Name": "Veteran's Chain Sabatons",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32786": {
+      "Name": "Veteran's Dragonhide Boots",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32787": {
+      "Name": "Veteran's Dreadweave Stalkers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32788": {
+      "Name": "Veteran's Kodohide Boots",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32789": {
+      "Name": "Veteran's Lamellar Greaves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32790": {
+      "Name": "Veteran's Leather Boots",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32791": {
+      "Name": "Veteran's Linked Sabatons",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32792": {
+      "Name": "Veteran's Mail Sabatons",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32793": {
+      "Name": "Veteran's Plate Greaves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32794": {
+      "Name": "Veteran's Scaled Greaves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32795": {
+      "Name": "Veteran's Silk Footguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32796": {
+      "Name": "Veteran's Wyrmhide Boots",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32797": {
+      "Name": "Veteran's Chain Girdle",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32798": {
+      "Name": "Veteran's Dragonhide Belt",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32799": {
+      "Name": "Veteran's Dreadweave Belt",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32800": {
+      "Name": "Veteran's Kodohide Belt",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32801": {
+      "Name": "Veteran's Lamellar Belt",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32802": {
+      "Name": "Veteran's Leather Belt",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32803": {
+      "Name": "Veteran's Linked Girdle",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32804": {
+      "Name": "Veteran's Mail Girdle",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32805": {
+      "Name": "Veteran's Plate Belt",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32806": {
+      "Name": "Veteran's Scaled Belt",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32807": {
+      "Name": "Veteran's Silk Belt",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32808": {
+      "Name": "Veteran's Wyrmhide Belt",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32809": {
+      "Name": "Veteran's Chain Bracers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32810": {
+      "Name": "Veteran's Dragonhide Bracers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32811": {
+      "Name": "Veteran's Dreadweave Cuffs",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32812": {
+      "Name": "Veteran's Kodohide Bracers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32813": {
+      "Name": "Veteran's Lamellar Bracers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32814": {
+      "Name": "Veteran's Leather Bracers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32816": {
+      "Name": "Veteran's Linked Bracers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32817": {
+      "Name": "Veteran's Mail Bracers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32818": {
+      "Name": "Veteran's Plate Bracers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32819": {
+      "Name": "Veteran's Scaled Bracers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32820": {
+      "Name": "Veteran's Silk Cuffs",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32821": {
+      "Name": "Veteran's Wyrmhide Bracers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32973": {
+      "Name": "General's Mooncloth Cuffs",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32974": {
+      "Name": "General's Mooncloth Belt",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32975": {
+      "Name": "General's Mooncloth Slippers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32976": {
+      "Name": "Marshal's Mooncloth Belt",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32977": {
+      "Name": "Marshal's Mooncloth Cuffs",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32978": {
+      "Name": "Marshal's Mooncloth Slippers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32979": {
+      "Name": "Veteran's Mooncloth Belt",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32980": {
+      "Name": "Veteran's Mooncloth Cuffs",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32981": {
+      "Name": "Veteran's Mooncloth Slippers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32988": {
+      "Name": "Veteran's Ornamented Belt",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32989": {
+      "Name": "Veteran's Ornamented Bracers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32990": {
+      "Name": "Veteran's Ornamented Greaves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32997": {
+      "Name": "Veteran's Ringmail Bracers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32998": {
+      "Name": "Veteran's Ringmail Girdle",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "32999": {
+      "Name": "Veteran's Ringmail Sabatons",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33056": {
+      "Name": "Veteran's Band of Dominance",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "6345",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33057": {
+      "Name": "Veteran's Band of Triumph",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "6345",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33064": {
+      "Name": "Veteran's Band of Salvation",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "6345",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33065": {
+      "Name": "Veteran's Pendant of Dominance",
+      "Source": "Eye of the Storm Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5 & 12695",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33066": {
+      "Name": "Veteran's Pendant of Triumph",
+      "Source": "Eye of the Storm Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5 & 12695",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33067": {
+      "Name": "Veteran's Pendant of Conquest",
+      "Source": "Eye of the Storm Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5 & 12695",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33068": {
+      "Name": "Veteran's Pendant of Salvation",
+      "Source": "Eye of the Storm Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5 & 12695",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33811": {
+      "Name": "Vindicator's Plate Belt",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33812": {
+      "Name": "Vindicator's Plate Greaves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33813": {
+      "Name": "Vindicator's Plate Bracers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33853": {
+      "Name": "Vindicator's Band of Dominance",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "6345",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33876": {
+      "Name": "Vindicator's Chain Bracers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33877": {
+      "Name": "Vindicator's Chain Girdle",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33878": {
+      "Name": "Vindicator's Chain Sabatons",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33879": {
+      "Name": "Vindicator's Dragonhide Belt",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33880": {
+      "Name": "Vindicator's Dragonhide Boots",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33881": {
+      "Name": "Vindicator's Dragonhide Bracers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33882": {
+      "Name": "Vindicator's Dreadweave Belt",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33883": {
+      "Name": "Vindicator's Dreadweave Cuffs",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33884": {
+      "Name": "Vindicator's Dreadweave Stalkers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33885": {
+      "Name": "Vindicator's Kodohide Belt",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33886": {
+      "Name": "Vindicator's Kodohide Boots",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33887": {
+      "Name": "Vindicator's Kodohide Bracers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33888": {
+      "Name": "Vindicator's Lamellar Belt",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33889": {
+      "Name": "Vindicator's Lamellar Bracers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33890": {
+      "Name": "Vindicator's Lamellar Greaves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33891": {
+      "Name": "Vindicator's Leather Belt",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33892": {
+      "Name": "Vindicator's Leather Boots",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33893": {
+      "Name": "Vindicator's Leather Bracers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33894": {
+      "Name": "Vindicator's Linked Bracers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33895": {
+      "Name": "Vindicator's Linked Girdle",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33896": {
+      "Name": "Vindicator's Linked Sabatons",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33897": {
+      "Name": "Vindicator's Mail Bracers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33898": {
+      "Name": "Vindicator's Mail Girdle",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33899": {
+      "Name": "Vindicator's Mail Sabatons",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33900": {
+      "Name": "Vindicator's Mooncloth Belt",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33901": {
+      "Name": "Vindicator's Mooncloth Cuffs",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33902": {
+      "Name": "Vindicator's Mooncloth Slippers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33903": {
+      "Name": "Vindicator's Ornamented Belt",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33904": {
+      "Name": "Vindicator's Ornamented Bracers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33905": {
+      "Name": "Vindicator's Ornamented Greaves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33906": {
+      "Name": "Vindicator's Ringmail Bracers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33907": {
+      "Name": "Vindicator's Ringmail Girdle",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33908": {
+      "Name": "Vindicator's Ringmail Sabatons",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33909": {
+      "Name": "Vindicator's Scaled Belt",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33910": {
+      "Name": "Vindicator's Scaled Bracers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33911": {
+      "Name": "Vindicator's Scaled Greaves",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33912": {
+      "Name": "Vindicator's Silk Belt",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33913": {
+      "Name": "Vindicator's Silk Cuffs",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33914": {
+      "Name": "Vindicator's Silk Footguards",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33915": {
+      "Name": "Vindicator's Wyrmhide Belt",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33916": {
+      "Name": "Vindicator's Wyrmhide Boots",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "7405",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33917": {
+      "Name": "Vindicator's Wyrmhide Bracers",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "4890",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33918": {
+      "Name": "Vindicator's Band of Salvation",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "6345",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33919": {
+      "Name": "Vindicator's Band of Triumph",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "6345",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33920": {
+      "Name": "Vindicator's Pendant of Conquest",
+      "Source": "Eye of the Storm Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5 & 12695",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33921": {
+      "Name": "Vindicator's Pendant of Dominance",
+      "Source": "Eye of the Storm Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5 & 12695",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33922": {
+      "Name": "Vindicator's Pendant of Salvation",
+      "Source": "Eye of the Storm Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5 & 12695",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "33923": {
+      "Name": "Vindicator's Pendant of Triumph",
+      "Source": "Eye of the Storm Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5 & 12695",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "34576": {
+      "Name": "Battlemaster's Cruelty",
+      "Source": "Alterac Valley Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "20 & 30000",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "34577": {
+      "Name": "Battlemaster's Depravity",
+      "Source": "Alterac Valley Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "20 & 30000",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "34578": {
+      "Name": "Battlemaster's Determination",
+      "Source": "Alterac Valley Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "20 & 30000",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "34579": {
+      "Name": "Battlemaster's Audacity",
+      "Source": "Alterac Valley Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "20 & 30000",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "34580": {
+      "Name": "Battlemaster's Perseverance",
+      "Source": "Alterac Valley Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "20 & 30000",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35129": {
+      "Name": "Guardian's Band of Dominance",
+      "Source": "Alterac Valley Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "10 & 15300",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35130": {
+      "Name": "Guardian's Band of Salvation",
+      "Source": "Alterac Valley Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "10 & 15300",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35131": {
+      "Name": "Guardian's Band of Triumph",
+      "Source": "Alterac Valley Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "10 & 15300",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35132": {
+      "Name": "Guardian's Pendant of Conquest",
+      "Source": "Eye of the Storm Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5 & 12695",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35133": {
+      "Name": "Guardian's Pendant of Dominance",
+      "Source": "Eye of the Storm Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5 & 12695",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35134": {
+      "Name": "Guardian's Pendant of Salvation",
+      "Source": "Eye of the Storm Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5 & 12695",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35135": {
+      "Name": "Guardian's Pendant of Triumph",
+      "Source": "Eye of the Storm Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5 & 12695",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35136": {
+      "Name": "Guardian's Chain Sabatons",
+      "Source": "Eye of the Storm Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "20 & 17850",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35137": {
+      "Name": "Guardian's Dragonhide Boots",
+      "Source": "Eye of the Storm Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "20 & 17850",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35138": {
+      "Name": "Guardian's Dreadweave Stalkers",
+      "Source": "Eye of the Storm Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "20 & 17850",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35139": {
+      "Name": "Guardian's Kodohide Boots",
+      "Source": "Eye of the Storm Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "20 & 17850",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35140": {
+      "Name": "Guardian's Lamellar Greaves",
+      "Source": "Eye of the Storm Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "20 & 17850",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35141": {
+      "Name": "Guardian's Leather Boots",
+      "Source": "Eye of the Storm Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "20 & 17850",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35142": {
+      "Name": "Guardian's Linked Sabatons",
+      "Source": "Eye of the Storm Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "20 & 17850",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35143": {
+      "Name": "Guardian's Mail Sabatons",
+      "Source": "Eye of the Storm Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "20 & 17850",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35144": {
+      "Name": "Guardian's Mooncloth Slippers",
+      "Source": "Eye of the Storm Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "20 & 17850",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35145": {
+      "Name": "Guardian's Ornamented Greaves",
+      "Source": "Eye of the Storm Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "20 & 17850",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35146": {
+      "Name": "Guardian's Plate Greaves",
+      "Source": "Eye of the Storm Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "20 & 17850",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35147": {
+      "Name": "Guardian's Ringmail Sabatons",
+      "Source": "Eye of the Storm Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "20 & 17850",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35148": {
+      "Name": "Guardian's Scaled Greaves",
+      "Source": "Eye of the Storm Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "20 & 17850",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35149": {
+      "Name": "Guardian's Silk Footguards",
+      "Source": "Eye of the Storm Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "20 & 17850",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35150": {
+      "Name": "Guardian's Wyrmhide Boots",
+      "Source": "Eye of the Storm Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "20 & 17850",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35151": {
+      "Name": "Guardian's Chain Girdle",
+      "Source": "Arathi Basin Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "10 & 14815",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35152": {
+      "Name": "Guardian's Dragonhide Belt",
+      "Source": "Arathi Basin Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "10 & 14815",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35153": {
+      "Name": "Guardian's Dreadweave Belt",
+      "Source": "Arathi Basin Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "10 & 14815",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35154": {
+      "Name": "Guardian's Kodohide Belt",
+      "Source": "Arathi Basin Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "10 & 14815",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35155": {
+      "Name": "Guardian's Lamellar Belt",
+      "Source": "Arathi Basin Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "10 & 14815",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35156": {
+      "Name": "Guardian's Leather Belt",
+      "Source": "Arathi Basin Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "10 & 14815",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35157": {
+      "Name": "Guardian's Linked Girdle",
+      "Source": "Arathi Basin Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "10 & 14815",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35158": {
+      "Name": "Guardian's Mail Girdle",
+      "Source": "Arathi Basin Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "10 & 14815",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35159": {
+      "Name": "Guardian's Mooncloth Belt",
+      "Source": "Arathi Basin Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "10 & 14815",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35160": {
+      "Name": "Guardian's Ornamented Belt",
+      "Source": "Arathi Basin Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "10 & 14815",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35161": {
+      "Name": "Guardian's Plate Belt",
+      "Source": "Arathi Basin Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "10 & 14815",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35162": {
+      "Name": "Guardian's Ringmail Girdle",
+      "Source": "Arathi Basin Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "10 & 14815",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35163": {
+      "Name": "Guardian's Scaled Belt",
+      "Source": "Arathi Basin Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "10 & 14815",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35164": {
+      "Name": "Guardian's Silk Belt",
+      "Source": "Arathi Basin Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "10 & 14815",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35165": {
+      "Name": "Guardian's Wyrmhide Belt",
+      "Source": "Arathi Basin Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "10 & 14815",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35166": {
+      "Name": "Guardian's Chain Bracers",
+      "Source": "Warsong Gulch Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "10 & 11794",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35167": {
+      "Name": "Guardian's Dragonhide Bracers",
+      "Source": "Warsong Gulch Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "10 & 11794",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35168": {
+      "Name": "Guardian's Dreadweave Cuffs",
+      "Source": "Warsong Gulch Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "10 & 11794",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35169": {
+      "Name": "Guardian's Kodohide Bracers",
+      "Source": "Warsong Gulch Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "10 & 11794",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35170": {
+      "Name": "Guardian's Lamellar Bracers",
+      "Source": "Warsong Gulch Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "10 & 11794",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35171": {
+      "Name": "Guardian's Leather Bracers",
+      "Source": "Warsong Gulch Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "10 & 11794",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35172": {
+      "Name": "Guardian's Linked Bracers",
+      "Source": "Warsong Gulch Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "10 & 11794",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35173": {
+      "Name": "Guardian's Mail Bracers",
+      "Source": "Warsong Gulch Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "10 & 11794",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35174": {
+      "Name": "Guardian's Mooncloth Cuffs",
+      "Source": "Warsong Gulch Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "10 & 11794",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35175": {
+      "Name": "Guardian's Ornamented Bracers",
+      "Source": "Warsong Gulch Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "10 & 11794",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35176": {
+      "Name": "Guardian's Plate Bracers",
+      "Source": "Warsong Gulch Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "10 & 11794",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35177": {
+      "Name": "Guardian's Ringmail Bracers",
+      "Source": "Warsong Gulch Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "10 & 11794",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35178": {
+      "Name": "Guardian's Scaled Bracers",
+      "Source": "Warsong Gulch Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "10 & 11794",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35179": {
+      "Name": "Guardian's Silk Cuffs",
+      "Source": "Warsong Gulch Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "10 & 11794",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35180": {
+      "Name": "Guardian's Wyrmhide Bracers",
+      "Source": "Warsong Gulch Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "10 & 11794",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35317": {
+      "Name": "Vindicator's Pendant of Reprieve",
+      "Source": "Eye of the Storm Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5 & 12695",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35319": {
+      "Name": "Vindicator's Pendant of Subjugation",
+      "Source": "Eye of the Storm Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5 & 12695",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35320": {
+      "Name": "Vindicator's Band of Subjugation",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "6345",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "35327": {
+      "Name": "Battlemaster's Alacrity",
+      "Source": "Alterac Valley Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "20 & 30000",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "37864": {
+      "Name": "Medallion of the Alliance",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "40000",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "37865": {
+      "Name": "Medallion of the Horde",
+      "Source": "Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "40000",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "37927": {
+      "Name": "Guardian's Band of Subjugation",
+      "Source": "Alterac Valley Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "10 & 15300",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "37928": {
+      "Name": "Guardian's Pendant of Subjugation",
+      "Source": "Eye of the Storm Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5 & 12695",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    },
+    "37929": {
+      "Name": "Guardian's Pendant of Reprieve",
+      "Source": "Eye of the Storm Marks & Honor Points",
+      "SourceType": "PvP",
+      "SourceNumber": "5 & 12695",
+      "SourceLocation": "PvP Vendor",
+      "SourceFaction": "B"
+    }
   }
 }

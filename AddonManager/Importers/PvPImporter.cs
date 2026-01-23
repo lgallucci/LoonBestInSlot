@@ -7,8 +7,59 @@ namespace AddonManager.Importers;
 
 public class PvPImporter : LootImporter
 {
-    private Dictionary<string, Tuple<string, string>> wowheadUriList = new Dictionary<string, Tuple<string, string>>
+    private Dictionary<string, string> wowheadUriList = new Dictionary<string, string>
     {
+        { @"https://www.wowhead.com/tbc/npc=18581/alliance-field-scout", "Zangarmarsh Field Scout" },
+        { @"https://www.wowhead.com/tbc/npc=18564/horde-field-scout", "Zangarmarsh Field Scout" },
+        { @"https://www.wowhead.com/tbc/npc=18266/warrant-officer-tracy-proudwell#sells", "Honor Hold PvP Vendor" },
+        { @"https://www.wowhead.com/tbc/npc=18267/battlecryer-blackeye#sells", "Thrallmar PvP Vendor" },
+        { @"https://www.wowhead.com/tbc/npc=12792/lady-palanseer#sells", "PvP Vendor" },
+        { @"https://www.wowhead.com/tbc/npc=12792/lady-palanseer#sells;50", "PvP Vendor" },
+        { @"https://www.wowhead.com/tbc/npc=12792/lady-palanseer#sells;100", "PvP Vendor" },
+        { @"https://www.wowhead.com/tbc/npc=12792/lady-palanseer#sells;150", "PvP Vendor" },
+        { @"https://www.wowhead.com/tbc/npc=12792/lady-palanseer#sells;200", "PvP Vendor" },
+        { @"https://www.wowhead.com/tbc/npc=12792/lady-palanseer#sells;250", "PvP Vendor" },
+        { @"https://www.wowhead.com/tbc/npc=12792/lady-palanseer#sells;300", "PvP Vendor" },
+        { @"https://www.wowhead.com/tbc/npc=12792/lady-palanseer#sells;350", "PvP Vendor" },
+        { @"https://www.wowhead.com/tbc/npc=12792/lady-palanseer#sells;400", "PvP Vendor" },
+        { @"https://www.wowhead.com/tbc/npc=12792/lady-palanseer#sells;450", "PvP Vendor" },
+        { @"https://www.wowhead.com/tbc/npc=12792/lady-palanseer#sells;500", "PvP Vendor" },
+        { @"https://www.wowhead.com/tbc/npc=12792/lady-palanseer#sells;550", "PvP Vendor" },
+        { @"https://www.wowhead.com/tbc/npc=12792/lady-palanseer#sells;600", "PvP Vendor" },
+        { @"https://www.wowhead.com/tbc/npc=12792/lady-palanseer#sells;650", "PvP Vendor" },
+        { @"https://www.wowhead.com/tbc/npc=12792/lady-palanseer#sells;700", "PvP Vendor" },
+        { @"https://www.wowhead.com/tbc/npc=12792/lady-palanseer#sells;750", "PvP Vendor" },
+        { @"https://www.wowhead.com/tbc/npc=12792/lady-palanseer#sells;800", "PvP Vendor" },
+        { @"https://www.wowhead.com/tbc/npc=12792/lady-palanseer#sells;850", "PvP Vendor" },
+        { @"https://www.wowhead.com/tbc/npc=12792/lady-palanseer#sells;900", "PvP Vendor" },
+        { @"https://www.wowhead.com/tbc/npc=12792/lady-palanseer#sells;950", "PvP Vendor" },
+        { @"https://www.wowhead.com/tbc/npc=12777/captain-dirgehammer#sells", "PvP Vendor" },
+        { @"https://www.wowhead.com/tbc/npc=12777/captain-dirgehammer#sells;50", "PvP Vendor" },
+        { @"https://www.wowhead.com/tbc/npc=12777/captain-dirgehammer#sells;100", "PvP Vendor" },
+        { @"https://www.wowhead.com/tbc/npc=12777/captain-dirgehammer#sells;150", "PvP Vendor" },
+        { @"https://www.wowhead.com/tbc/npc=12777/captain-dirgehammer#sells;200", "PvP Vendor" },
+        { @"https://www.wowhead.com/tbc/npc=12777/captain-dirgehammer#sells;250", "PvP Vendor" },
+        { @"https://www.wowhead.com/tbc/npc=12777/captain-dirgehammer#sells;300", "PvP Vendor" },
+        { @"https://www.wowhead.com/tbc/npc=12777/captain-dirgehammer#sells;350", "PvP Vendor" },
+        { @"https://www.wowhead.com/tbc/npc=12777/captain-dirgehammer#sells;400", "PvP Vendor" },
+        { @"https://www.wowhead.com/tbc/npc=12777/captain-dirgehammer#sells;450", "PvP Vendor" },
+        { @"https://www.wowhead.com/tbc/npc=12777/captain-dirgehammer#sells;500", "PvP Vendor" },
+        { @"https://www.wowhead.com/tbc/npc=12777/captain-dirgehammer#sells;550", "PvP Vendor" },
+        { @"https://www.wowhead.com/tbc/npc=12777/captain-dirgehammer#sells;600", "PvP Vendor" },
+        { @"https://www.wowhead.com/tbc/npc=12777/captain-dirgehammer#sells;650", "PvP Vendor" },
+        { @"https://www.wowhead.com/tbc/npc=12777/captain-dirgehammer#sells;700", "PvP Vendor" },
+        { @"https://www.wowhead.com/tbc/npc=12777/captain-dirgehammer#sells;750", "PvP Vendor" },
+        { @"https://www.wowhead.com/tbc/npc=12777/captain-dirgehammer#sells;800", "PvP Vendor" },
+        { @"https://www.wowhead.com/tbc/npc=12777/captain-dirgehammer#sells;850", "PvP Vendor" },
+        { @"https://www.wowhead.com/tbc/npc=12777/captain-dirgehammer#sells;900", "PvP Vendor" },
+        { @"https://www.wowhead.com/tbc/npc=12777/captain-dirgehammer#sells;950", "PvP Vendor" },
+        { @"https://www.wowhead.com/tbc/npc=12781/master-sergeant-biggins#sells", "PvP Vendor" },
+        { @"https://www.wowhead.com/tbc/npc=12781/master-sergeant-biggins#sells;50", "PvP Vendor" },
+        { @"https://www.wowhead.com/tbc/npc=12781/master-sergeant-biggins#sells;100", "PvP Vendor" },
+        { @"https://www.wowhead.com/tbc/npc=12793/brave-stonehide#sells", "PvP Vendor" },
+        { @"https://www.wowhead.com/tbc/npc=12793/brave-stonehide#sells;50", "PvP Vendor" },
+        { @"https://www.wowhead.com/tbc/npc=12793/brave-stonehide#sells;100", "PvP Vendor" },
+
     };
 
     public PvPImporter(CancellationToken cancellationToken) : base(cancellationToken)
@@ -28,19 +79,15 @@ public class PvPImporter : LootImporter
                 var success = false;
                 var currencySource = "";
                 var currencyNumber = "";
-                var currencySourceLocation = "";
                 var itemName = item.TextContent;
 
-                Int32.TryParse(row.Children[3].TextContent, out int itemLevel);
-                var nameSplit = wowheadUriList[uri].Item1.Split(",");
-                var levelSplit = nameSplit.Select(n => n.Split('>'));
-
-                if (!levelSplit.Any(i => itemName.Contains(i[0].Trim()) && (i.Length < 2 || Int32.Parse(i[1]) < itemLevel)))
+                Int32.TryParse(row.Children[4].TextContent, out int itemLevel);
+                if (itemLevel <= 60)
                     return;
 
                 Common.RecursiveBoxSearch(row.Children[10], (anchorObject) =>
                 {
-                    var item = ((IHtmlAnchorElement)anchorObject).PathName.Replace("/tbc/", "/").Replace("/currency=", "");
+                    var item = ((IHtmlAnchorElement)anchorObject).PathName.Replace("/tbc/", "/").Replace("/currency=", "").Replace("/item=", "");
 
                     var currencyIdIndex = item.IndexOf("/");
                     if (currencyIdIndex == -1)
@@ -62,12 +109,18 @@ public class PvPImporter : LootImporter
                             var currentSource = item == "1901" ? "Honor Points" : 
                             item == "126" ? "Wintergrasp Marks" : 
                             item == "390" ? "Conquest Points" :
-                            item == "1900" ? "Arena Points" : "Unknown Currency";
+                            item == "1900" ? "Arena Points" : 
+                            item == "24581" ? "Mark of Thrallmar" : 
+                            item == "24579" ? "Mark of Honor Hold" :
+                            item == "20558" ? "Warsong Gulch Marks" : 
+                            item == "20559" ? "Arathi Basin Marks" : 
+                            item == "20560" ? "Alterac Valley Marks" : 
+                            item == "29024" ? "Eye of the Storm Marks" : 
+                            "Unknown Currency";
                             currencySource += currentSource;
 
                             var currencyAmount = int.Parse(anchorObject.TextContent);
                             currencyNumber += currencyAmount.ToString();
-                            currencySourceLocation = wowheadUriList[uri].Item2;
                         }
 
                     }
@@ -81,7 +134,7 @@ public class PvPImporter : LootImporter
                         Name = itemName,
                         SourceNumber = currencyNumber,
                         Source = currencySource,
-                        SourceLocation = currencySourceLocation,
+                        SourceLocation = wowheadUriList[uri],
                         SourceType = "PvP"
                     });
                 }
