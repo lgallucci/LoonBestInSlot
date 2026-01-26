@@ -220,6 +220,7 @@ LBIS:AddItem(spec1, "31178", LBIS.L["Neck"], "Alt") --Amulet of Unstable Power
 LBIS:AddItem(spec1, "28793", LBIS.L["Ring"], "BIS") --Band of Crimson Fury
 LBIS:AddItem(spec1, "29287", LBIS.L["Ring"], "BIS") --Violet Signet of the Archmage
 LBIS:AddItem(spec1, "28753", LBIS.L["Ring"], "Alt") --Ring of Recurrence
+LBIS:AddItem(spec1, "29172", LBIS.L["Ring"], "Alt") --Ashyen's Gift
 LBIS:AddItem(spec1, "29367", LBIS.L["Ring"], "Alt") --Ring of Cryptic Dreams
 LBIS:AddItem(spec1, "28510", LBIS.L["Ring"], "Alt") --Spectral Band of Innervation
 LBIS:AddItem(spec1, "29352", LBIS.L["Ring"], "Alt") --Cobalt Band of Tyrigosa
@@ -263,8 +264,6 @@ LBIS:AddItem(spec1, "29350", LBIS.L["Ranged/Relic"], "Alt") --The Black Stalk
 LBIS:AddItem(spec1, "28386", LBIS.L["Ranged/Relic"], "Alt") --Nether Core's Control Rod
 LBIS:AddItem(spec1, "25939", LBIS.L["Ranged/Relic"], "Alt") --Voidfire Wand
 LBIS:AddItem(spec1, "27890", LBIS.L["Ranged/Relic"], "Alt") --Wand of the Netherwing
-LBIS:AddItem(spec1, "31724", LBIS.L["Ranged/Relic"], "Alt") --Arakkoa Divining Rod
-LBIS:AddItem(spec1, "30523", LBIS.L["Ranged/Relic"], "Alt") --Hotshot Cattle Prod
 
 LBIS:AddItem(spec2, "30206", LBIS.L["Head"], "BIS") --Cowl of Tirisfal
 LBIS:AddItem(spec2, "29986", LBIS.L["Head"], "Alt") --Cowl of the Grand Engineer

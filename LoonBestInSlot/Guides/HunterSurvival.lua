@@ -96,9 +96,9 @@ LBIS:AddItem(spec0, "28288", LBIS.L["Trinket"], "Alt") --Abacus of Violent Odds
 LBIS:AddItem(spec0, "21670", LBIS.L["Trinket"], "Alt") --Badge of the Swarmguard
 LBIS:AddItem(spec0, "28263", LBIS.L["Main Hand"], "BIS") --Stellaris
 LBIS:AddItem(spec0, "30277", LBIS.L["Main Hand"], "BIS") --Ripfang Paw
-LBIS:AddItem(spec0, "29121", LBIS.L["Main Hand~Off Hand"], "Alt") --Guile of Khoraazi
 LBIS:AddItem(spec0, "27846", LBIS.L["Main Hand"], "BIS") --Claw of the Watcher
 LBIS:AddItem(spec0, "29372", LBIS.L["Main Hand"], "BIS") --Void-Talon
+LBIS:AddItem(spec0, "29121", LBIS.L["Main Hand~Off Hand"], "Alt") --Guile of Khoraazi
 LBIS:AddItem(spec0, "32781", LBIS.L["Off Hand"], "BIS") --Talon of Anzu
 LBIS:AddItem(spec0, "28315", LBIS.L["Off Hand"], "Alt") --Stormreaver Warblades
 LBIS:AddItem(spec0, "23242", LBIS.L["Off Hand"], "Alt") --Claw of the Frost Wyrm
