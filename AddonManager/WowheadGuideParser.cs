@@ -414,7 +414,8 @@ public class WowheadGuideParser
         "Quivers",
         "Ammo",
         "Arrows",
-        "Bullets"
+        "Bullets",
+        "Ammunition"
     };
     private void LoopThroughTable(IHtmlTableElement table, Action<INode, IElement?, int, string, string> action, string phase)
     {

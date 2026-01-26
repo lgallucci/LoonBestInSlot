@@ -92,6 +92,7 @@ public class SlotSwaps
         { "Ammo", "Ammo" },
         { "Arrows", "Arrows" },
         { "Bullets", "Bullets" },
+        { "Ammunition", "Ammunition" },
     };
     
     // Setting up indexers

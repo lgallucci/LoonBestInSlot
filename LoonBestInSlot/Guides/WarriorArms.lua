@@ -36,6 +36,7 @@ LBIS:AddItem(spec0, "27434", LBIS.L["Shoulder"], "Alt") --Mantle of Perenolde
 LBIS:AddItem(spec0, "27797", LBIS.L["Shoulder"], "Alt") --Wastewalker Shoulderpads
 LBIS:AddItem(spec0, "24259", LBIS.L["Back"], "BIS") --Vengeance Wrap
 LBIS:AddItem(spec0, "28371", LBIS.L["Back"], "Alt") --Netherfury Cape
+LBIS:AddItem(spec0, "29382", LBIS.L["Back"], "Alt") --Blood Knight War Cloak
 LBIS:AddItem(spec0, "27892", LBIS.L["Back"], "Alt") --Cloak of the Inciter
 LBIS:AddItem(spec0, "31143", LBIS.L["Back"], "Alt") --Shroud of Frenzy
 LBIS:AddItem(spec0, "23045", LBIS.L["Back"], "Alt") --Shroud of Dominion
@@ -45,8 +46,8 @@ LBIS:AddItem(spec0, "29337", LBIS.L["Chest"], "Alt") --The Exarch's Protector
 LBIS:AddItem(spec0, "30258", LBIS.L["Chest"], "Alt") --Chestplate of A'dal
 LBIS:AddItem(spec0, "23537", LBIS.L["Wrist"], "BIS") --Black Felsteel Bracers
 LBIS:AddItem(spec0, "29246", LBIS.L["Wrist"], "Alt") --Nightfall Wristguards
-LBIS:AddItem(spec0, "22936", LBIS.L["Wrist"], "Alt") --Wristguards of Vengeance
 LBIS:AddItem(spec0, "28996", LBIS.L["Wrist"], "Alt") --Marshal's Plate Bracers
+LBIS:AddItem(spec0, "22936", LBIS.L["Wrist"], "Alt") --Wristguards of Vengeance
 LBIS:AddItem(spec0, "30940", LBIS.L["Wrist"], "Alt") --Aged Leather Bindings
 LBIS:AddItem(spec0, "25685", LBIS.L["Hands"], "BIS") --Fel Leather Gloves
 LBIS:AddItem(spec0, "23520", LBIS.L["Hands"], "BIS") --Ragesteel Gloves
