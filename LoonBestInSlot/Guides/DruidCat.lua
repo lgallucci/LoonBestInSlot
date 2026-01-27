@@ -196,7 +196,6 @@ LBIS:AddItem(spec2, "29525", LBIS.L["Chest"], "Alt") --Primalstrike Vest
 LBIS:AddItem(spec2, "30730", LBIS.L["Chest"], "Alt") --Terrorweave Tunic
 LBIS:AddItem(spec2, "29966", LBIS.L["Wrist"], "BIS") --Vambraces of Ending
 LBIS:AddItem(spec2, "32814", LBIS.L["Wrist"], "Alt") --Veteran's Leather Bracers
-LBIS:AddItem(spec2, "-28647", LBIS.L["Wrist"], "unknown") --unknown
 LBIS:AddItem(spec2, "28171", LBIS.L["Wrist"], "Alt") --Spymistress's Wristguards
 LBIS:AddItem(spec2, "32647", LBIS.L["Wrist"], "Alt") --Shard-bound Bracers
 LBIS:AddItem(spec2, "29947", LBIS.L["Hands"], "BIS") --Gloves of the Searing Grip
