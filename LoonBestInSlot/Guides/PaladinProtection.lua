@@ -42,66 +42,66 @@ LBIS:AddEnchant(spec5, "33992", LBIS.L["Chest"]) --
 LBIS:AddEnchant(spec5, "27927", LBIS.L["Ring"]) --
 
 LBIS:AddItem(spec0, "32083", LBIS.L["Head"], "BIS") --Faceguard of Determination
-LBIS:AddItem(spec0, "23536", LBIS.L["Head"], "BIS") --Oathkeeper's Helm
 LBIS:AddItem(spec0, "27704", LBIS.L["Head"], "BIS") --Gladiator's Lamellar Helm
-LBIS:AddItem(spec0, "28285", LBIS.L["Head"], "Alt") --Helm of the Righteous
+LBIS:AddItem(spec0, "23536", LBIS.L["Head"], "BIS") --Oathkeeper's Helm
 LBIS:AddItem(spec0, "23535", LBIS.L["Head"], "Alt") --Helm of the Stalwart Defender
 LBIS:AddItem(spec0, "23519", LBIS.L["Head"], "Alt") --Felsteel Helm
 LBIS:AddItem(spec0, "28180", LBIS.L["Head"], "Alt") --Myrmidon's Headdress
+LBIS:AddItem(spec0, "28285", LBIS.L["Head"], "Alt") --Helm of the Righteous
 LBIS:AddItem(spec0, "27520", LBIS.L["Head"], "Alt") --Greathelm of the Unbreakable
 LBIS:AddItem(spec0, "27706", LBIS.L["Shoulder"], "BIS") --Gladiator's Lamellar Shoulders
 LBIS:AddItem(spec0, "27847", LBIS.L["Shoulder"], "BIS") --Fanblade Pauldrons
 LBIS:AddItem(spec0, "27739", LBIS.L["Shoulder"], "BIS") --Spaulders of the Righteous
-LBIS:AddItem(spec0, "27803", LBIS.L["Shoulder"], "Alt") --Shoulderguards of the Bold
 LBIS:AddItem(spec0, "29316", LBIS.L["Shoulder"], "Alt") --Warchief's Mantle
 LBIS:AddItem(spec0, "30291", LBIS.L["Shoulder"], "Alt") --Nexus-Guard's Pauldrons
+LBIS:AddItem(spec0, "27803", LBIS.L["Shoulder"], "Alt") --Shoulderguards of the Bold
 LBIS:AddItem(spec0, "27804", LBIS.L["Back"], "BIS") --Devilshark Cape
-LBIS:AddItem(spec0, "24253", LBIS.L["Back"], "Alt") --Cloak of Eternity
-LBIS:AddItem(spec0, "27988", LBIS.L["Back"], "Alt") --Burnoose of Shifting Ages
-LBIS:AddItem(spec0, "27550", LBIS.L["Back"], "Alt") --Ironscale War Cloak
 LBIS:AddItem(spec0, "24379", LBIS.L["Back"], "Alt") --Bogstrok Scale Cloak
 LBIS:AddItem(spec0, "29777", LBIS.L["Back"], "Alt") --Cloak of the Valiant Defender
+LBIS:AddItem(spec0, "24253", LBIS.L["Back"], "Alt") --Cloak of Eternity
+LBIS:AddItem(spec0, "27988", LBIS.L["Back"], "Alt") --Burnoose of Shifting Ages
 LBIS:AddItem(spec0, "29385", LBIS.L["Back"], "Alt") --Farstrider Defender's Cloak
+LBIS:AddItem(spec0, "27550", LBIS.L["Back"], "Alt") --Ironscale War Cloak
 LBIS:AddItem(spec0, "28203", LBIS.L["Chest"], "BIS") --Breastplate of the Righteous
 LBIS:AddItem(spec0, "28262", LBIS.L["Chest"], "BIS") --Jade-Skull Breastplate
-LBIS:AddItem(spec0, "27702", LBIS.L["Chest"], "Alt") --Gladiator's Lamellar Chestpiece
-LBIS:AddItem(spec0, "29127", LBIS.L["Chest"], "Alt") --Vindicator's Hauberk
 LBIS:AddItem(spec0, "25819", LBIS.L["Chest"], "Alt") --Breastplate of the Warbringer
 LBIS:AddItem(spec0, "23507", LBIS.L["Chest"], "Alt") --Adamantite Breastplate
+LBIS:AddItem(spec0, "27702", LBIS.L["Chest"], "Alt") --Gladiator's Lamellar Chestpiece
+LBIS:AddItem(spec0, "29127", LBIS.L["Chest"], "Alt") --Vindicator's Hauberk
 LBIS:AddItem(spec0, "29252", LBIS.L["Wrist"], "BIS") --Bracers of Dignity
 LBIS:AddItem(spec0, "23538", LBIS.L["Wrist"], "BIS") --Bracers of the Green Fortress
-LBIS:AddItem(spec0, "29463", LBIS.L["Wrist"], "Alt") --Amber Bands of the Aggressor
-LBIS:AddItem(spec0, "28167", LBIS.L["Wrist"], "Alt") --Sha'tari Wrought Armguards
 LBIS:AddItem(spec0, "27459", LBIS.L["Wrist"], "Alt") --Vambraces of Daring
 LBIS:AddItem(spec0, "30400", LBIS.L["Wrist"], "Alt") --Thadell's Bracers
+LBIS:AddItem(spec0, "29463", LBIS.L["Wrist"], "Alt") --Amber Bands of the Aggressor
+LBIS:AddItem(spec0, "28167", LBIS.L["Wrist"], "Alt") --Sha'tari Wrought Armguards
 LBIS:AddItem(spec0, "30741", LBIS.L["Hands"], "BIS") --Topaz-Studded Battlegrips
 LBIS:AddItem(spec0, "27535", LBIS.L["Hands"], "BIS") --Gauntlets of the Righteous
-LBIS:AddItem(spec0, "27703", LBIS.L["Hands"], "Alt") --Gladiator's Lamellar Gauntlets
-LBIS:AddItem(spec0, "32072", LBIS.L["Hands"], "Alt") --Gauntlets of Dissension
 LBIS:AddItem(spec0, "23532", LBIS.L["Hands"], "Alt") --Gauntlets of the Iron Tower
 LBIS:AddItem(spec0, "23517", LBIS.L["Hands"], "Alt") --Felsteel Gloves
+LBIS:AddItem(spec0, "27703", LBIS.L["Hands"], "Alt") --Gladiator's Lamellar Gauntlets
 LBIS:AddItem(spec0, "25788", LBIS.L["Hands"], "Alt") --Dauntless Handguards
+LBIS:AddItem(spec0, "32072", LBIS.L["Hands"], "Alt") --Gauntlets of Dissension
 LBIS:AddItem(spec0, "28390", LBIS.L["Hands"], "Alt") --Thatia's Self-Correcting Gauntlets
 LBIS:AddItem(spec0, "29134", LBIS.L["Hands"], "Alt") --Gauntlets of the Chosen
 LBIS:AddItem(spec0, "29253", LBIS.L["Waist"], "BIS") --Girdle of Valorous Deeds
+LBIS:AddItem(spec0, "30371", LBIS.L["Waist"], "Alt") --Lightwarden's Girdle
 LBIS:AddItem(spec0, "27672", LBIS.L["Waist"], "Alt") --Girdle of the Immovable
+LBIS:AddItem(spec0, "30330", LBIS.L["Waist"], "Alt") --Starcaller's Plated Belt
 LBIS:AddItem(spec0, "31460", LBIS.L["Waist"], "Alt") --Sha'tari Vindicator's Waistguard
 LBIS:AddItem(spec0, "29238", LBIS.L["Waist"], "Alt") --Lion's Heart Girdle
-LBIS:AddItem(spec0, "30371", LBIS.L["Waist"], "Alt") --Lightwarden's Girdle
-LBIS:AddItem(spec0, "30330", LBIS.L["Waist"], "Alt") --Starcaller's Plated Belt
 LBIS:AddItem(spec0, "29184", LBIS.L["Legs"], "BIS") --Timewarden's Leggings
+LBIS:AddItem(spec0, "27527", LBIS.L["Legs"], "Alt") --Greaves of the Shatterer
+LBIS:AddItem(spec0, "29774", LBIS.L["Legs"], "Alt") --Kirin'Var Defender's Chausses
 LBIS:AddItem(spec0, "27839", LBIS.L["Legs"], "Alt") --Legplates of the Righteous
 LBIS:AddItem(spec0, "23518", LBIS.L["Legs"], "Alt") --Felsteel Leggings
 LBIS:AddItem(spec0, "29783", LBIS.L["Legs"], "Alt") --Legguards of the Resolute Defender
-LBIS:AddItem(spec0, "27527", LBIS.L["Legs"], "Alt") --Greaves of the Shatterer
-LBIS:AddItem(spec0, "29774", LBIS.L["Legs"], "Alt") --Kirin'Var Defender's Chausses
 LBIS:AddItem(spec0, "29254", LBIS.L["Feet"], "BIS") --Boots of the Righteous Path
-LBIS:AddItem(spec0, "29239", LBIS.L["Feet"], "Alt") --Eaglecrest Warboots
-LBIS:AddItem(spec0, "27813", LBIS.L["Feet"], "Alt") --Boots of the Colossus
-LBIS:AddItem(spec0, "30334", LBIS.L["Feet"], "Alt") --Starcaller's Plated Stompers
 LBIS:AddItem(spec0, "32866", LBIS.L["Feet"], "Alt") --Ascendant's Boots
 LBIS:AddItem(spec0, "29325", LBIS.L["Feet"], "Alt") --Flesh Beast's Metal Greaves
+LBIS:AddItem(spec0, "29239", LBIS.L["Feet"], "Alt") --Eaglecrest Warboots
+LBIS:AddItem(spec0, "27813", LBIS.L["Feet"], "Alt") --Boots of the Colossus
 LBIS:AddItem(spec0, "30386", LBIS.L["Feet"], "Alt") --Bloodguard's Greaves
+LBIS:AddItem(spec0, "30334", LBIS.L["Feet"], "Alt") --Starcaller's Plated Stompers
 LBIS:AddItem(spec0, "28245", LBIS.L["Neck"], "BIS Thrt") --Pendant of Dominance
 LBIS:AddItem(spec0, "27871", LBIS.L["Neck"], "BIS") --Maladaar's Blessed Chaplet
 LBIS:AddItem(spec0, "29336", LBIS.L["Neck"], "BIS Stam") --Mark of the Ravenguard
@@ -157,11 +157,11 @@ LBIS:AddItem(spec0, "27899", LBIS.L["Main Hand"], "Alt") --Mana Wrath
 LBIS:AddItem(spec0, "27905", LBIS.L["Main Hand"], "Alt") --Greatsword of Horrid Dreams
 LBIS:AddItem(spec0, "29176", LBIS.L["Off Hand"], "BIS") --Crest of the Sha'tar
 LBIS:AddItem(spec0, "29266", LBIS.L["Off Hand"], "BIS Mit") --Azure-Shield of Coldarra
-LBIS:AddItem(spec0, "32652", LBIS.L["Off Hand"], "Alt Thrt") --Ogri'la Aegis
-LBIS:AddItem(spec0, "28358", LBIS.L["Off Hand"], "Alt") --Gladiator's Shield Wall
 LBIS:AddItem(spec0, "32082", LBIS.L["Off Hand"], "Alt") --The Fel Barrier
 LBIS:AddItem(spec0, "28316", LBIS.L["Off Hand"], "Alt") --Aegis of the Sunbird
+LBIS:AddItem(spec0, "32652", LBIS.L["Off Hand"], "Alt Thrt") --Ogri'la Aegis
 LBIS:AddItem(spec0, "27449", LBIS.L["Off Hand"], "Alt") --Blood Knight Defender
+LBIS:AddItem(spec0, "28358", LBIS.L["Off Hand"], "Alt") --Gladiator's Shield Wall
 LBIS:AddItem(spec0, "27887", LBIS.L["Off Hand"], "Alt") --Platinum Shield of the Valorous
 LBIS:AddItem(spec0, "29388", LBIS.L["Ranged/Relic"], "BIS") --Libram of Repentance
 LBIS:AddItem(spec0, "27917", LBIS.L["Ranged/Relic"], "Alt Thrt") --Libram of the Eternal Rest
