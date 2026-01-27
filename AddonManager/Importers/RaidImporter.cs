@@ -68,10 +68,10 @@ public class RaidImporter : LootImporter
         { @"https://www.wowhead.com/tbc/npc=22917/illidan-stormrage", "Illidan Stormrage, Black Temple" },
 
         //Zul'Aman
-        { @"https://www.wowhead.com/tbc/npc=23574/akilzon", "Akil'zon <Eagle Avatar>, Zul'Aman" },
-        { @"https://www.wowhead.com/tbc/npc=23576/nalorakk", "Nalorakk <Bear Avatar>, Zul'Aman" },
-        { @"https://www.wowhead.com/tbc/npc=23578/janalai", "Jan'alai <Dragonhawk Avatar>, Zul'Aman" },
-        { @"https://www.wowhead.com/tbc/npc=23577/halazzi", "Halazzi <Lynx Avatar>, Zul'Aman" },
+        { @"https://www.wowhead.com/tbc/npc=23574/akilzon", "Akil'zon, Zul'Aman" },
+        { @"https://www.wowhead.com/tbc/npc=23576/nalorakk", "Nalorakk, Zul'Aman" },
+        { @"https://www.wowhead.com/tbc/npc=23578/janalai", "Jan'alai, Zul'Aman" },
+        { @"https://www.wowhead.com/tbc/npc=23577/halazzi", "Halazzi, Zul'Aman" },
         { @"https://www.wowhead.com/tbc/npc=24239/hex-lord-malacrass", "Hex Lord Malacrass, Zul'Aman" },
         { @"https://www.wowhead.com/tbc/npc=23863/zuljin", "Zul'jin, Zul'Aman" },
 

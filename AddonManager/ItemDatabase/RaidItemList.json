@@ -4066,7 +4066,7 @@
     },
     "33191": {
       "Name": "Jungle Stompers",
-      "Source": "Nalorakk <Bear Avatar>",
+      "Source": "Nalorakk",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Zul'Aman",
@@ -4074,7 +4074,7 @@
     },
     "33203": {
       "Name": "Robes of Heavenly Purpose",
-      "Source": "Nalorakk <Bear Avatar>",
+      "Source": "Nalorakk",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Zul'Aman",
@@ -4082,7 +4082,7 @@
     },
     "33206": {
       "Name": "Pauldrons of Primal Fury",
-      "Source": "Nalorakk <Bear Avatar>",
+      "Source": "Nalorakk",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Zul'Aman",
@@ -4090,7 +4090,7 @@
     },
     "33211": {
       "Name": "Bladeangel's Money Belt",
-      "Source": "Nalorakk <Bear Avatar>",
+      "Source": "Nalorakk",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Zul'Aman",
@@ -4098,7 +4098,7 @@
     },
     "33214": {
       "Name": "Akil'zon's Talonblade",
-      "Source": "Akil'zon <Eagle Avatar>",
+      "Source": "Akil'zon",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Zul'Aman",
@@ -4106,7 +4106,7 @@
     },
     "33215": {
       "Name": "Bloodstained Elven Battlevest",
-      "Source": "Akil'zon <Eagle Avatar>",
+      "Source": "Akil'zon",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Zul'Aman",
@@ -4114,7 +4114,7 @@
     },
     "33216": {
       "Name": "Chestguard of Hidden Purpose",
-      "Source": "Akil'zon <Eagle Avatar>",
+      "Source": "Akil'zon",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Zul'Aman",
@@ -4122,7 +4122,7 @@
     },
     "33281": {
       "Name": "Brooch of Nature's Mercy",
-      "Source": "Akil'zon <Eagle Avatar>",
+      "Source": "Akil'zon",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Zul'Aman",
@@ -4130,7 +4130,7 @@
     },
     "33283": {
       "Name": "Amani Punisher",
-      "Source": "Akil'zon <Eagle Avatar>",
+      "Source": "Akil'zon",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Zul'Aman",
@@ -4138,7 +4138,7 @@
     },
     "33285": {
       "Name": "Fury of the Ursine",
-      "Source": "Nalorakk <Bear Avatar>",
+      "Source": "Nalorakk",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Zul'Aman",
@@ -4146,7 +4146,7 @@
     },
     "33286": {
       "Name": "Mojo-mender's Mask",
-      "Source": "Akil'zon <Eagle Avatar>",
+      "Source": "Akil'zon",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Zul'Aman",
@@ -4154,7 +4154,7 @@
     },
     "33293": {
       "Name": "Signet of Ancient Magics",
-      "Source": "Akil'zon <Eagle Avatar>",
+      "Source": "Akil'zon",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Zul'Aman",
@@ -4162,7 +4162,7 @@
     },
     "33297": {
       "Name": "The Savage's Choker",
-      "Source": "Halazzi <Lynx Avatar>",
+      "Source": "Halazzi",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Zul'Aman",
@@ -4178,7 +4178,7 @@
     },
     "33299": {
       "Name": "Spaulders of the Advocate",
-      "Source": "Halazzi <Lynx Avatar>",
+      "Source": "Halazzi",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Zul'Aman",
@@ -4186,7 +4186,7 @@
     },
     "33300": {
       "Name": "Shoulderpads of Dancing Blades",
-      "Source": "Halazzi <Lynx Avatar>",
+      "Source": "Halazzi",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Zul'Aman",
@@ -4194,7 +4194,7 @@
     },
     "33303": {
       "Name": "Skullshatter Warboots",
-      "Source": "Halazzi <Lynx Avatar>",
+      "Source": "Halazzi",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Zul'Aman",
@@ -4202,7 +4202,7 @@
     },
     "33317": {
       "Name": "Robe of Departed Spirits",
-      "Source": "Halazzi <Lynx Avatar>",
+      "Source": "Halazzi",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Zul'Aman",
@@ -4210,7 +4210,7 @@
     },
     "33322": {
       "Name": "Shimmer-pelt Vest",
-      "Source": "Halazzi <Lynx Avatar>",
+      "Source": "Halazzi",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Zul'Aman",
@@ -4218,7 +4218,7 @@
     },
     "33326": {
       "Name": "Bulwark of the Amani Empire",
-      "Source": "Jan'alai <Dragonhawk Avatar>",
+      "Source": "Jan'alai",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Zul'Aman",
@@ -4226,7 +4226,7 @@
     },
     "33327": {
       "Name": "Mask of Introspection",
-      "Source": "Nalorakk <Bear Avatar>",
+      "Source": "Nalorakk",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Zul'Aman",
@@ -4234,7 +4234,7 @@
     },
     "33328": {
       "Name": "Arrow-fall Chestguard",
-      "Source": "Jan'alai <Dragonhawk Avatar>",
+      "Source": "Jan'alai",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Zul'Aman",
@@ -4242,7 +4242,7 @@
     },
     "33329": {
       "Name": "Shadowtooth Trollskin Cuirass",
-      "Source": "Jan'alai <Dragonhawk Avatar>",
+      "Source": "Jan'alai",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Zul'Aman",
@@ -4250,7 +4250,7 @@
     },
     "33332": {
       "Name": "Enamelled Disc of Mojo",
-      "Source": "Jan'alai <Dragonhawk Avatar>",
+      "Source": "Jan'alai",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Zul'Aman",
@@ -4258,7 +4258,7 @@
     },
     "33354": {
       "Name": "Wub's Cursed Hexblade",
-      "Source": "Jan'alai <Dragonhawk Avatar>",
+      "Source": "Jan'alai",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Zul'Aman",
@@ -4266,7 +4266,7 @@
     },
     "33356": {
       "Name": "Helm of Natural Regeneration",
-      "Source": "Jan'alai <Dragonhawk Avatar>",
+      "Source": "Jan'alai",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Zul'Aman",
@@ -4274,7 +4274,7 @@
     },
     "33357": {
       "Name": "Footpads of Madness",
-      "Source": "Jan'alai <Dragonhawk Avatar>",
+      "Source": "Jan'alai",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Zul'Aman",
@@ -4434,7 +4434,7 @@
     },
     "33533": {
       "Name": "Avalanche Leggings",
-      "Source": "Halazzi <Lynx Avatar>",
+      "Source": "Halazzi",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Zul'Aman",
@@ -4450,7 +4450,7 @@
     },
     "33640": {
       "Name": "Fury",
-      "Source": "Nalorakk <Bear Avatar>",
+      "Source": "Nalorakk",
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Zul'Aman",

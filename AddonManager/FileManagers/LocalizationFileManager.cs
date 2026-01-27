@@ -128,7 +128,8 @@ public static class LocalizationFileManager
                         skipFirst = true;
                     }
 
-                    lineText = $"  LBIS.L[\"{localizeTerm}\"] = \"{localizedString}\";\n";
+                    if (localizeTerm != localizedString)
+                        lineText = $"  LBIS.L[\"{localizeTerm}\"] = \"{localizedString}\";\n";
 
                     if (!foundAll)
                         lineText = "--" + lineText;
