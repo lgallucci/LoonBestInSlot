@@ -162,6 +162,7 @@ LBIS:AddItem(spec1, "30666", LBIS.L["Neck"], "BIS") --Ritssyn's Lost Pendant
 LBIS:AddItem(spec1, "24121", LBIS.L["Neck"], "BIS") --Chain of the Twilight Owl
 LBIS:AddItem(spec1, "24116", LBIS.L["Neck"], "BIS") --Eye of the Night
 LBIS:AddItem(spec1, "20966", LBIS.L["Neck"], "Alt") --Jade Pendant of Blasting
+LBIS:AddItem(spec1, "28245", LBIS.L["Neck"], "Alt") --Pendant of Dominance
 LBIS:AddItem(spec1, "18814", LBIS.L["Neck"], "Alt") --Choker of the Fire Lord
 LBIS:AddItem(spec1, "31693", LBIS.L["Neck"], "Alt") --Natasha's Arcane Filament
 LBIS:AddItem(spec1, "21709", LBIS.L["Ring"], "BIS") --Ring of the Fallen God
