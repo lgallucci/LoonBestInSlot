@@ -214,10 +214,10 @@ LBIS:AddItem(spec1, "27885", LBIS.L["Ranged/Relic"], "Alt") --Soul-Wand of the A
 LBIS:AddItem(spec1, "23009", LBIS.L["Ranged/Relic"], "Alt") --Wand of the Whispering Dead
 
 LBIS:AddItem(spec2, "30152", LBIS.L["Head"], "BIS") --Cowl of the Avatar
+LBIS:AddItem(spec2, "24264", LBIS.L["Head"], "Alt") --Whitemend Hood
 LBIS:AddItem(spec2, "32495", LBIS.L["Head"], "Alt") --Powerheal 4000 Lens
 LBIS:AddItem(spec2, "29049", LBIS.L["Head"], "Alt") --Light-Collar of the Incarnate
 LBIS:AddItem(spec2, "29990", LBIS.L["Head"], "Alt") --Crown of the Sun
-LBIS:AddItem(spec2, "24264", LBIS.L["Head"], "Alt") --Whitemend Hood
 LBIS:AddItem(spec2, "30154", LBIS.L["Shoulder"], "BIS") --Mantle of the Avatar
 LBIS:AddItem(spec2, "21874", LBIS.L["Shoulder"], "Alt") --Primal Mooncloth Shoulders
 LBIS:AddItem(spec2, "29054", LBIS.L["Shoulder"], "Alt") --Light-Mantle of the Incarnate
@@ -230,9 +230,9 @@ LBIS:AddItem(spec2, "21875", LBIS.L["Chest"], "Alt") --Primal Mooncloth Robe
 LBIS:AddItem(spec2, "29050", LBIS.L["Chest"], "Alt") --Robes of the Incarnate
 LBIS:AddItem(spec2, "32980", LBIS.L["Wrist"], "BIS") --Veteran's Mooncloth Cuffs
 LBIS:AddItem(spec2, "29183", LBIS.L["Wrist"], "BIS") --Bindings of the Timewalker
+LBIS:AddItem(spec2, "29249", LBIS.L["Wrist"], "BIS") --Bands of the Benevolent
 LBIS:AddItem(spec2, "32516", LBIS.L["Wrist"], "BIS") --Wraps of Purification
 LBIS:AddItem(spec2, "28511", LBIS.L["Wrist"], "BIS") --Bands of Indwelling
-LBIS:AddItem(spec2, "29249", LBIS.L["Wrist"], "BIS") --Bands of the Benevolent
 LBIS:AddItem(spec2, "30151", LBIS.L["Hands"], "BIS") --Gloves of the Avatar
 LBIS:AddItem(spec2, "28508", LBIS.L["Hands"], "Alt") --Gloves of Saintly Blessings
 LBIS:AddItem(spec2, "29055", LBIS.L["Hands"], "Alt") --Handwraps of the Incarnate
@@ -240,25 +240,26 @@ LBIS:AddItem(spec2, "30036", LBIS.L["Waist"], "BIS") --Belt of the Long Road
 LBIS:AddItem(spec2, "21873", LBIS.L["Waist"], "BIS") --Primal Mooncloth Belt
 LBIS:AddItem(spec2, "30153", LBIS.L["Legs"], "BIS") --Breeches of the Avatar
 LBIS:AddItem(spec2, "30727", LBIS.L["Legs"], "BIS") --Gilded Trousers of Benediction
-LBIS:AddItem(spec2, "28742", LBIS.L["Legs"], "Alt") --Pantaloons of Repentance
-LBIS:AddItem(spec2, "29977", LBIS.L["Legs"], "Alt") --Star-Soul Breeches
 LBIS:AddItem(spec2, "30543", LBIS.L["Legs"], "Alt") --Pontifex Kilt
 LBIS:AddItem(spec2, "24261", LBIS.L["Legs"], "Alt") --Whitemend Pants
+LBIS:AddItem(spec2, "28742", LBIS.L["Legs"], "Alt") --Pantaloons of Repentance
+LBIS:AddItem(spec2, "29977", LBIS.L["Legs"], "Alt") --Star-Soul Breeches
 LBIS:AddItem(spec2, "30100", LBIS.L["Feet"], "BIS") --Soul-Strider Boots
+LBIS:AddItem(spec2, "29251", LBIS.L["Feet"], "Alt") --Boots of the Pious
 LBIS:AddItem(spec2, "30035", LBIS.L["Feet"], "Alt") --Boots of the Long Road
 LBIS:AddItem(spec2, "28663", LBIS.L["Feet"], "Alt") --Boots of the Incorrupt
-LBIS:AddItem(spec2, "29251", LBIS.L["Feet"], "Alt") --Boots of the Pious
 LBIS:AddItem(spec2, "30018", LBIS.L["Neck"], "BIS") --Lord Sanguinar's Claim
 LBIS:AddItem(spec2, "30726", LBIS.L["Neck"], "Alt") --Archaic Charm of Presence
 LBIS:AddItem(spec2, "28609", LBIS.L["Neck"], "Alt") --Emberspur Talisman
 LBIS:AddItem(spec2, "28822", LBIS.L["Neck"], "Alt") --Teeth of Gruul
 LBIS:AddItem(spec2, "30110", LBIS.L["Ring"], "BIS") --Coral Band of the Revived
 LBIS:AddItem(spec2, "29290", LBIS.L["Ring"], "BIS") --Violet Signet of the Grand Restorer
-LBIS:AddItem(spec2, "30736", LBIS.L["Ring"], "Alt") --Ring of Flowing Light
-LBIS:AddItem(spec2, "28763", LBIS.L["Ring"], "Alt") --Jade Ring of the Everliving
 LBIS:AddItem(spec2, "29307", LBIS.L["Ring"], "Alt") --Band of Eternity
 LBIS:AddItem(spec2, "29920", LBIS.L["Ring"], "Alt") --Phoenix-Ring of Rebirth
+LBIS:AddItem(spec2, "30736", LBIS.L["Ring"], "Alt") --Ring of Flowing Light
+LBIS:AddItem(spec2, "28763", LBIS.L["Ring"], "Alt") --Jade Ring of the Everliving
 LBIS:AddItem(spec2, "29376", LBIS.L["Trinket"], "BIS") --Essence of the Martyr
+LBIS:AddItem(spec2, "38288", LBIS.L["Trinket"], "BIS") --Direbrew Hops
 LBIS:AddItem(spec2, "28823", LBIS.L["Trinket"], "BIS") --Eye of Gruul
 LBIS:AddItem(spec2, "19288", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Blue Dragon
 LBIS:AddItem(spec2, "30665", LBIS.L["Trinket"], "Alt") --Earring of Soulful Meditation
