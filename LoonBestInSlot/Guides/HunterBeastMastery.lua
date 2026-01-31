@@ -94,7 +94,7 @@ LBIS:AddItem(spec0, "25562", LBIS.L["Neck"], "Alt") --Earthen Mark of Razing
 LBIS:AddItem(spec0, "30860", LBIS.L["Ring"], "BIS") --Kaylaan's Signet
 LBIS:AddItem(spec0, "31077", LBIS.L["Ring"], "BIS") --Slayer's Mark of the Redemption
 LBIS:AddItem(spec0, "27925", LBIS.L["Ring"], "BIS") --Ravenclaw Band
-LBIS:AddItem(spec0, "30973", LBIS.L["Ring"], "Alt") --Band of Anguish
+LBIS:AddItem(spec0, "23067", LBIS.L["Ring"], "Alt") --Ring of the Cryptstalker
 LBIS:AddItem(spec0, "23038", LBIS.L["Ring"], "Alt") --Band of Unnatural Forces
 LBIS:AddItem(spec0, "29383", LBIS.L["Trinket"], "BIS") --Bloodlust Brooch
 LBIS:AddItem(spec0, "28288", LBIS.L["Trinket"], "BIS") --Abacus of Violent Odds

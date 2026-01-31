@@ -100,22 +100,21 @@ LBIS:AddItem(spec0, "29815", LBIS.L["Neck"], "BIS") --Chain of Glowing Tendrils
 LBIS:AddItem(spec0, "28168", LBIS.L["Neck"], "BIS") --Insignia of the Mag'hari Hero
 LBIS:AddItem(spec0, "27779", LBIS.L["Neck"], "Alt") --Bone Chain Necklace
 LBIS:AddItem(spec0, "27546", LBIS.L["Neck"], "Alt") --Traitor's Noose
-LBIS:AddItem(spec0, "29335", LBIS.L["Neck"], "Alt") --Talon Lord's Collar
 LBIS:AddItem(spec0, "29381", LBIS.L["Neck"], "Alt") --Choker of Vile Intent
+LBIS:AddItem(spec0, "29335", LBIS.L["Neck"], "Alt") --Talon Lord's Collar
 LBIS:AddItem(spec0, "28244", LBIS.L["Neck"], "Alt") --Pendant of Triumph
 LBIS:AddItem(spec0, "30834", LBIS.L["Ring"], "BIS") --Shapeshifter's Signet
 LBIS:AddItem(spec0, "29384", LBIS.L["Ring"], "BIS") --Ring of Unyielding Force
 LBIS:AddItem(spec0, "24151", LBIS.L["Ring"], "Alt") --Mok'Nathal Clan Ring
 LBIS:AddItem(spec0, "31919", LBIS.L["Ring"], "Alt") --Nexus-Prince's Ring of Balance
-LBIS:AddItem(spec0, "28553", LBIS.L["Ring"], "Alt") --Band of the Exorcist
 LBIS:AddItem(spec0, "27436", LBIS.L["Ring"], "Alt") --Iron Band of the Unbreakable
+LBIS:AddItem(spec0, "28553", LBIS.L["Ring"], "Alt") --Band of the Exorcist
 LBIS:AddItem(spec0, "27925", LBIS.L["Ring"], "Alt") --Ravenclaw Band
 LBIS:AddItem(spec0, "23206", LBIS.L["Trinket"], "BIS Thrt") --Mark of the Champion
 LBIS:AddItem(spec0, "29383", LBIS.L["Trinket"], "BIS Thrt") --Bloodlust Brooch
 LBIS:AddItem(spec0, "28121", LBIS.L["Trinket"], "BIS Thrt") --Icon of Unyielding Courage
 LBIS:AddItem(spec0, "23836", LBIS.L["Trinket"], "BIS") --Goblin Rocket Launcher
 LBIS:AddItem(spec0, "23835", LBIS.L["Trinket"], "BIS") --Gnomish Poultryizer
-LBIS:AddItem(spec0, "13503", LBIS.L["Trinket"], "BIS") --Alchemist's Stone
 LBIS:AddItem(spec0, "19406", LBIS.L["Trinket"], "Alt Thrt") --Drake Fang Talisman
 LBIS:AddItem(spec0, "28288", LBIS.L["Trinket"], "Alt Thrt") --Abacus of Violent Odds
 LBIS:AddItem(spec0, "23041", LBIS.L["Trinket"], "Alt Thrt") --Slayer's Crest

@@ -57,8 +57,8 @@ LBIS:AddItem(spec0, "30291", LBIS.L["Shoulder"], "Alt") --Nexus-Guard's Pauldron
 LBIS:AddItem(spec0, "27803", LBIS.L["Shoulder"], "Alt") --Shoulderguards of the Bold
 LBIS:AddItem(spec0, "27804", LBIS.L["Back"], "BIS") --Devilshark Cape
 LBIS:AddItem(spec0, "24379", LBIS.L["Back"], "Alt") --Bogstrok Scale Cloak
-LBIS:AddItem(spec0, "29777", LBIS.L["Back"], "Alt") --Cloak of the Valiant Defender
 LBIS:AddItem(spec0, "24253", LBIS.L["Back"], "Alt") --Cloak of Eternity
+LBIS:AddItem(spec0, "29777", LBIS.L["Back"], "Alt") --Cloak of the Valiant Defender
 LBIS:AddItem(spec0, "27988", LBIS.L["Back"], "Alt") --Burnoose of Shifting Ages
 LBIS:AddItem(spec0, "29385", LBIS.L["Back"], "Alt") --Farstrider Defender's Cloak
 LBIS:AddItem(spec0, "27550", LBIS.L["Back"], "Alt") --Ironscale War Cloak
@@ -70,39 +70,42 @@ LBIS:AddItem(spec0, "27702", LBIS.L["Chest"], "Alt") --Gladiator's Lamellar Ches
 LBIS:AddItem(spec0, "29127", LBIS.L["Chest"], "Alt") --Vindicator's Hauberk
 LBIS:AddItem(spec0, "29252", LBIS.L["Wrist"], "BIS") --Bracers of Dignity
 LBIS:AddItem(spec0, "23538", LBIS.L["Wrist"], "BIS") --Bracers of the Green Fortress
+LBIS:AddItem(spec0, "28167", LBIS.L["Wrist"], "Alt") --Sha'tari Wrought Armguards
 LBIS:AddItem(spec0, "27459", LBIS.L["Wrist"], "Alt") --Vambraces of Daring
+LBIS:AddItem(spec0, "28643", LBIS.L["Wrist"], "Alt") --General's Lamellar Bracers
 LBIS:AddItem(spec0, "30400", LBIS.L["Wrist"], "Alt") --Thadell's Bracers
 LBIS:AddItem(spec0, "29463", LBIS.L["Wrist"], "Alt") --Amber Bands of the Aggressor
-LBIS:AddItem(spec0, "28167", LBIS.L["Wrist"], "Alt") --Sha'tari Wrought Armguards
 LBIS:AddItem(spec0, "30741", LBIS.L["Hands"], "BIS") --Topaz-Studded Battlegrips
 LBIS:AddItem(spec0, "27535", LBIS.L["Hands"], "BIS") --Gauntlets of the Righteous
 LBIS:AddItem(spec0, "23532", LBIS.L["Hands"], "Alt") --Gauntlets of the Iron Tower
 LBIS:AddItem(spec0, "23517", LBIS.L["Hands"], "Alt") --Felsteel Gloves
 LBIS:AddItem(spec0, "27703", LBIS.L["Hands"], "Alt") --Gladiator's Lamellar Gauntlets
 LBIS:AddItem(spec0, "25788", LBIS.L["Hands"], "Alt") --Dauntless Handguards
-LBIS:AddItem(spec0, "32072", LBIS.L["Hands"], "Alt") --Gauntlets of Dissension
 LBIS:AddItem(spec0, "28390", LBIS.L["Hands"], "Alt") --Thatia's Self-Correcting Gauntlets
+LBIS:AddItem(spec0, "32072", LBIS.L["Hands"], "Alt") --Gauntlets of Dissension
 LBIS:AddItem(spec0, "29134", LBIS.L["Hands"], "Alt") --Gauntlets of the Chosen
 LBIS:AddItem(spec0, "29253", LBIS.L["Waist"], "BIS") --Girdle of Valorous Deeds
-LBIS:AddItem(spec0, "30371", LBIS.L["Waist"], "Alt") --Lightwarden's Girdle
-LBIS:AddItem(spec0, "27672", LBIS.L["Waist"], "Alt") --Girdle of the Immovable
-LBIS:AddItem(spec0, "30330", LBIS.L["Waist"], "Alt") --Starcaller's Plated Belt
-LBIS:AddItem(spec0, "31460", LBIS.L["Waist"], "Alt") --Sha'tari Vindicator's Waistguard
 LBIS:AddItem(spec0, "29238", LBIS.L["Waist"], "Alt") --Lion's Heart Girdle
+LBIS:AddItem(spec0, "31460", LBIS.L["Waist"], "Alt") --Sha'tari Vindicator's Waistguard
+LBIS:AddItem(spec0, "30371", LBIS.L["Waist"], "Alt") --Lightwarden's Girdle
+LBIS:AddItem(spec0, "28641", LBIS.L["Waist"], "Alt") --General's Lamellar Belt
+LBIS:AddItem(spec0, "30330", LBIS.L["Waist"], "Alt") --Starcaller's Plated Belt
+LBIS:AddItem(spec0, "27672", LBIS.L["Waist"], "Alt") --Girdle of the Immovable
 LBIS:AddItem(spec0, "29184", LBIS.L["Legs"], "BIS") --Timewarden's Leggings
 LBIS:AddItem(spec0, "27527", LBIS.L["Legs"], "Alt") --Greaves of the Shatterer
-LBIS:AddItem(spec0, "29774", LBIS.L["Legs"], "Alt") --Kirin'Var Defender's Chausses
 LBIS:AddItem(spec0, "27839", LBIS.L["Legs"], "Alt") --Legplates of the Righteous
+LBIS:AddItem(spec0, "29774", LBIS.L["Legs"], "Alt") --Kirin'Var Defender's Chausses
 LBIS:AddItem(spec0, "23518", LBIS.L["Legs"], "Alt") --Felsteel Leggings
 LBIS:AddItem(spec0, "29783", LBIS.L["Legs"], "Alt") --Legguards of the Resolute Defender
 LBIS:AddItem(spec0, "29254", LBIS.L["Feet"], "BIS") --Boots of the Righteous Path
+LBIS:AddItem(spec0, "30334", LBIS.L["Feet"], "Alt") --Starcaller's Plated Stompers
+LBIS:AddItem(spec0, "28642", LBIS.L["Feet"], "Alt") --General's Lamellar Greaves
 LBIS:AddItem(spec0, "32866", LBIS.L["Feet"], "Alt") --Ascendant's Boots
-LBIS:AddItem(spec0, "29325", LBIS.L["Feet"], "Alt") --Flesh Beast's Metal Greaves
 LBIS:AddItem(spec0, "29239", LBIS.L["Feet"], "Alt") --Eaglecrest Warboots
+LBIS:AddItem(spec0, "29325", LBIS.L["Feet"], "Alt") --Flesh Beast's Metal Greaves
 LBIS:AddItem(spec0, "27813", LBIS.L["Feet"], "Alt") --Boots of the Colossus
 LBIS:AddItem(spec0, "30386", LBIS.L["Feet"], "Alt") --Bloodguard's Greaves
-LBIS:AddItem(spec0, "30334", LBIS.L["Feet"], "Alt") --Starcaller's Plated Stompers
-LBIS:AddItem(spec0, "28245", LBIS.L["Neck"], "BIS Thrt") --Pendant of Dominance
+LBIS:AddItem(spec0, "28245", LBIS.L["Neck"], "BIS") --Pendant of Dominance
 LBIS:AddItem(spec0, "27871", LBIS.L["Neck"], "BIS") --Maladaar's Blessed Chaplet
 LBIS:AddItem(spec0, "29336", LBIS.L["Neck"], "BIS Stam") --Mark of the Ravenguard
 LBIS:AddItem(spec0, "30378", LBIS.L["Neck"], "BIS") --Thalodien's Charm
@@ -116,8 +119,10 @@ LBIS:AddItem(spec0, "25809", LBIS.L["Neck"], "Alt") --Maimfist's Choker
 LBIS:AddItem(spec0, "25803", LBIS.L["Neck"], "Alt") --Medallion of the Valiant Guardian
 LBIS:AddItem(spec0, "28407", LBIS.L["Ring"], "BIS Mit") --Elementium Band of the Sentry
 LBIS:AddItem(spec0, "29172", LBIS.L["Ring"], "BIS Thrt") --Ashyen's Gift
-LBIS:AddItem(spec0, "29323", LBIS.L["Ring"], "BIS") --Andormu's Tear
 LBIS:AddItem(spec0, "28265", LBIS.L["Ring"], "BIS") --Dath'Remar's Ring of Defense
+LBIS:AddItem(spec0, "28555", LBIS.L["Ring"], "BIS") --Seal of the Exorcist
+LBIS:AddItem(spec0, "29323", LBIS.L["Ring"], "BIS") --Andormu's Tear
+LBIS:AddItem(spec0, "29126", LBIS.L["Ring"], "Alt") --Seer's Signet
 LBIS:AddItem(spec0, "31319", LBIS.L["Ring"], "Alt Stam") --Band of Impenetrable Defenses
 LBIS:AddItem(spec0, "27822", LBIS.L["Ring"], "Alt") --Crystal Band of Valor
 LBIS:AddItem(spec0, "28211", LBIS.L["Ring"], "Alt") --Lieutenant's Signet of Lordaeron
@@ -133,19 +138,20 @@ LBIS:AddItem(spec0, "27891", LBIS.L["Trinket"], "BIS Mit") --Adamantine Figurine
 LBIS:AddItem(spec0, "32534", LBIS.L["Trinket"], "BIS Mit") --Brooch of the Immortal King
 LBIS:AddItem(spec0, "23835", LBIS.L["Trinket"], "BIS") --Gnomish Poultryizer
 LBIS:AddItem(spec0, "32864", LBIS.L["Trinket"], "Alt") --Commander's Badge
-LBIS:AddItem(spec0, "23046", LBIS.L["Trinket"], "Alt") --The Restrained Essence of Sapphiron
+LBIS:AddItem(spec0, "29132", LBIS.L["Trinket"], "Alt") --Scryer's Bloodgem
 LBIS:AddItem(spec0, "27770", LBIS.L["Trinket"], "Alt") --Argussian Compass
 LBIS:AddItem(spec0, "30300", LBIS.L["Trinket"], "Alt Mit") --Dabiri's Enigma
-LBIS:AddItem(spec0, "19379", LBIS.L["Trinket"], "Alt") --Neltharion's Tear
+LBIS:AddItem(spec0, "23046", LBIS.L["Trinket"], "Alt") --The Restrained Essence of Sapphiron
 LBIS:AddItem(spec0, "24126", LBIS.L["Trinket"], "Alt Thrt") --Figurine - Living Ruby Serpent
-LBIS:AddItem(spec0, "23207", LBIS.L["Trinket"], "Alt") --Mark of the Champion
+LBIS:AddItem(spec0, "19379", LBIS.L["Trinket"], "Alt") --Neltharion's Tear
 LBIS:AddItem(spec0, "13503", LBIS.L["Trinket"], "Alt") --Alchemist's Stone
 LBIS:AddItem(spec0, "19431", LBIS.L["Trinket"], "Alt Mit") --Styleen's Impeding Scarab
 LBIS:AddItem(spec0, "24125", LBIS.L["Trinket"], "Alt") --Figurine - Dawnstone Crab
-LBIS:AddItem(spec0, "18820", LBIS.L["Trinket"], "Alt Thrt") --Talisman of Ephemeral Power
+LBIS:AddItem(spec0, "23207", LBIS.L["Trinket"], "Alt") --Mark of the Champion
 LBIS:AddItem(spec0, "28042", LBIS.L["Trinket"], "Alt Mit") --Regal Protectorate
-LBIS:AddItem(spec0, "19950", LBIS.L["Trinket"], "Alt") --Zandalarian Hero Charm
+LBIS:AddItem(spec0, "18820", LBIS.L["Trinket"], "Alt Thrt") --Talisman of Ephemeral Power
 LBIS:AddItem(spec0, "23040", LBIS.L["Trinket"], "Alt Mit") --Glyph of Deflection
+LBIS:AddItem(spec0, "19950", LBIS.L["Trinket"], "Alt") --Zandalarian Hero Charm
 LBIS:AddItem(spec0, "29387", LBIS.L["Trinket"], "Alt Mit") --Gnomeregan Auto-Blocker 600
 LBIS:AddItem(spec0, "32450", LBIS.L["Main Hand"], "BIS") --Gladiator's Gavel
 LBIS:AddItem(spec0, "30832", LBIS.L["Main Hand"], "BIS") --Gavel of Unearthed Secrets
