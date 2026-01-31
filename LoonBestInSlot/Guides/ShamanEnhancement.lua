@@ -107,6 +107,7 @@ LBIS:AddItem(spec0, "31139", LBIS.L["Main Hand"], "Alt") --Fist of Reckoning
 LBIS:AddItem(spec0, "27815", LBIS.L["Ranged/Relic"], "BIS") --Totem of the Astral Winds
 
 LBIS:AddItem(spec1, "29040", LBIS.L["Head"], "BIS") --Cyclone Helm
+LBIS:AddItem(spec1, "32087", LBIS.L["Head"], "BIS") --Mask of the Deceiver
 LBIS:AddItem(spec1, "28732", LBIS.L["Head"], "Alt") --Cowl of Defiance
 LBIS:AddItem(spec1, "28224", LBIS.L["Head"], "Alt") --Wastewalker Helm
 LBIS:AddItem(spec1, "28182", LBIS.L["Head"], "Alt") --Helm of the Claw
@@ -128,10 +129,12 @@ LBIS:AddItem(spec1, "25997", LBIS.L["Chest"], "Alt") --Gladiator's Linked Armor
 LBIS:AddItem(spec1, "28514", LBIS.L["Wrist"], "BIS") --Bracers of Maliciousness
 LBIS:AddItem(spec1, "29527", LBIS.L["Wrist"], "Alt") --Primalstrike Bracers
 LBIS:AddItem(spec1, "29517", LBIS.L["Wrist"], "Alt") --Ebon Netherscale Bracers
+LBIS:AddItem(spec1, "25697", LBIS.L["Wrist"], "Alt") --Felstalker Bracers
 LBIS:AddItem(spec1, "28171", LBIS.L["Wrist"], "Alt") --Spymistress's Wristguards
 LBIS:AddItem(spec1, "30399", LBIS.L["Wrist"], "Alt") --Nightstalker's Wristguards
-LBIS:AddItem(spec1, "30644", LBIS.L["Hands"], "BIS") --Grips of Deftness
 LBIS:AddItem(spec1, "30341", LBIS.L["Hands"], "BIS") --Flesh Handler's Gauntlets
+LBIS:AddItem(spec1, "28776", LBIS.L["Hands"], "BIS") --Liar's Tongue Gloves
+LBIS:AddItem(spec1, "30644", LBIS.L["Hands"], "BIS") --Grips of Deftness
 LBIS:AddItem(spec1, "29503", LBIS.L["Hands"], "Alt") --Cobrascale Gloves
 LBIS:AddItem(spec1, "28828", LBIS.L["Waist"], "BIS") --Gronn-Stitched Girdle
 LBIS:AddItem(spec1, "29526", LBIS.L["Waist"], "Alt") --Primalstrike Belt
@@ -164,13 +167,14 @@ LBIS:AddItem(spec1, "28034", LBIS.L["Trinket"], "Alt") --Hourglass of the Unrave
 LBIS:AddItem(spec1, "28288", LBIS.L["Trinket"], "Alt") --Abacus of Violent Odds
 LBIS:AddItem(spec1, "29776", LBIS.L["Trinket"], "Alt") --Core of Ar'kelos
 LBIS:AddItem(spec1, "28313", LBIS.L["Main Hand"], "BIS") --Gladiator's Right Ripper
-LBIS:AddItem(spec1, "27872", LBIS.L["Main Hand"], "BIS") --The Harvester of Souls
 LBIS:AddItem(spec1, "28308", LBIS.L["Main Hand"], "BIS") --Gladiator's Cleaver
-LBIS:AddItem(spec1, "28944", LBIS.L["Main Hand"], "BIS") --Grand Marshal's Cleaver
 LBIS:AddItem(spec1, "28767", LBIS.L["Main Hand"], "BIS") --The Decapitator
+LBIS:AddItem(spec1, "29348", LBIS.L["Main Hand"], "Alt") --The Bladefist
+LBIS:AddItem(spec1, "27872", LBIS.L["Main Hand"], "Alt") --The Harvester of Souls
+LBIS:AddItem(spec1, "28944", LBIS.L["Main Hand"], "Alt") --Grand Marshal's Cleaver
 LBIS:AddItem(spec1, "28657", LBIS.L["Main Hand"], "Alt") --Fool's Bane
-LBIS:AddItem(spec1, "28438", LBIS.L["Main Hand"], "Alt") --Dragonmaw
 LBIS:AddItem(spec1, "28432", LBIS.L["Main Hand"], "Alt") --Black Planar Edge
+LBIS:AddItem(spec1, "28438", LBIS.L["Main Hand"], "Alt") --Dragonmaw
 LBIS:AddItem(spec1, "28392", LBIS.L["Main Hand"], "Alt") --Reflex Blades
 LBIS:AddItem(spec1, "31139", LBIS.L["Main Hand"], "Alt") --Fist of Reckoning
 LBIS:AddItem(spec1, "27815", LBIS.L["Ranged/Relic"], "BIS") --Totem of the Astral Winds

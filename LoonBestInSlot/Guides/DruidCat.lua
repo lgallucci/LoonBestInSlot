@@ -146,7 +146,7 @@ LBIS:AddItem(spec1, "29248", LBIS.L["Feet"], "Alt") --Shadowstep Striders
 LBIS:AddItem(spec1, "30939", LBIS.L["Feet"], "Alt") --Felboar Hide Shoes
 LBIS:AddItem(spec1, "24114", LBIS.L["Neck"], "BIS") --Braided Eternium Chain
 LBIS:AddItem(spec1, "29381", LBIS.L["Neck"], "BIS") --Choker of Vile Intent
-LBIS:AddItem(spec1, "29119", LBIS.L["Neck"], "BIS") --Haramad's Bargain
+LBIS:AddItem(spec1, "29119", LBIS.L["Neck"], "Alt") --Haramad's Bargain
 LBIS:AddItem(spec1, "28509", LBIS.L["Neck"], "Alt") --Worgen Claw Necklace
 LBIS:AddItem(spec1, "31275", LBIS.L["Neck"], "Alt") --Necklace of Trophies
 LBIS:AddItem(spec1, "27779", LBIS.L["Neck"], "Alt") --Bone Chain Necklace

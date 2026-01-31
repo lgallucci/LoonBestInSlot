@@ -157,10 +157,10 @@ LBIS:AddItem(spec0, "27518", LBIS.L["Ranged/Relic"], "BIS") --Ivory Idol of the 
 LBIS:AddItem(spec0, "23197", LBIS.L["Ranged/Relic"], "Alt") --Idol of the Moon
 LBIS:AddItem(spec0, "32387", LBIS.L["Ranged/Relic"], "Alt") --Idol of the Raven Goddess
 
-LBIS:AddItem(spec1, "24266", LBIS.L["Head"], "BIS") --Spellstrike Hood
-LBIS:AddItem(spec1, "28744", LBIS.L["Head"], "BIS") --Uni-Mind Headdress
+LBIS:AddItem(spec1, "29093", LBIS.L["Head"], "BIS") --Antlers of Malorne
+LBIS:AddItem(spec1, "28744", LBIS.L["Head"], "Alt") --Uni-Mind Headdress
 LBIS:AddItem(spec1, "23828", LBIS.L["Head"], "Alt") --Gnomish Power Goggles
-LBIS:AddItem(spec1, "29093", LBIS.L["Head"], "Alt") --Antlers of Malorne
+LBIS:AddItem(spec1, "24266", LBIS.L["Head"], "Alt") --Spellstrike Hood
 LBIS:AddItem(spec1, "31110", LBIS.L["Head"], "Alt") --Druidic Helmet of Second Sight
 LBIS:AddItem(spec1, "28804", LBIS.L["Head"], "Alt") --Collar of Cho'gall
 LBIS:AddItem(spec1, "28169", LBIS.L["Head"], "Alt") --Mag'hari Ritualist's Horns
@@ -258,8 +258,7 @@ LBIS:AddItem(spec1, "29333", LBIS.L["Neck"], "Alt") --Torc of the Sethekk Prophe
 LBIS:AddItem(spec1, "24462", LBIS.L["Neck"], "Alt") --Luminous Pearls of Insight
 LBIS:AddItem(spec1, "28793", LBIS.L["Ring"], "BIS") --Band of Crimson Fury
 LBIS:AddItem(spec1, "28753", LBIS.L["Ring"], "BIS") --Ring of Recurrence
-LBIS:AddItem(spec1, "29172", LBIS.L["Ring"], "BIS") --Ashyen's Gift
-LBIS:AddItem(spec1, "29287", LBIS.L["Ring"], "BIS") --Violet Signet of the Archmage
+LBIS:AddItem(spec1, "29287", LBIS.L["Ring"], "Alt") --Violet Signet of the Archmage
 LBIS:AddItem(spec1, "28227", LBIS.L["Ring"], "Alt") --Sparking Arcanite Ring
 LBIS:AddItem(spec1, "28555", LBIS.L["Ring"], "Alt") --Seal of the Exorcist
 LBIS:AddItem(spec1, "29352", LBIS.L["Ring"], "Alt") --Cobalt Band of Tyrigosa
@@ -271,8 +270,7 @@ LBIS:AddItem(spec1, "31290", LBIS.L["Ring"], "Alt") --Band of Dominion
 LBIS:AddItem(spec1, "28394", LBIS.L["Ring"], "Alt") --Ryngo's Band of Ingenuity
 LBIS:AddItem(spec1, "29370", LBIS.L["Trinket"], "BIS") --Icon of the Silver Crescent
 LBIS:AddItem(spec1, "27683", LBIS.L["Trinket"], "BIS") --Quagmirran's Eye
-LBIS:AddItem(spec1, "29132", LBIS.L["Trinket"], "BIS") --Scryer's Bloodgem
-LBIS:AddItem(spec1, "19379", LBIS.L["Trinket"], "BIS") --Neltharion's Tear
+LBIS:AddItem(spec1, "29132", LBIS.L["Trinket"], "Alt") --Scryer's Bloodgem
 LBIS:AddItem(spec1, "28789", LBIS.L["Trinket"], "Alt") --Eye of Magtheridon
 LBIS:AddItem(spec1, "28223", LBIS.L["Trinket"], "Alt") --Arcanist's Stone
 LBIS:AddItem(spec1, "26055", LBIS.L["Trinket"], "Alt") --Oculus of the Hidden Eye

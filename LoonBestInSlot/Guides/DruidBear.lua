@@ -198,14 +198,14 @@ LBIS:AddItem(spec1, "29384", LBIS.L["Ring"], "Alt Mit") --Ring of Unyielding For
 LBIS:AddItem(spec1, "28675", LBIS.L["Ring"], "Alt Mit") --Shermanar Great-Ring
 LBIS:AddItem(spec1, "28757", LBIS.L["Ring"], "Alt Thrt") --Ring of a Thousand Marks
 LBIS:AddItem(spec1, "28649", LBIS.L["Ring"], "Alt Thrt") --Garona's Signet Ring
-LBIS:AddItem(spec1, "29181", LBIS.L["Trinket"], "BIS Mit") --Timelapse Shard
+LBIS:AddItem(spec1, "13503", LBIS.L["Trinket"], "BIS") --Alchemist's Stone
 LBIS:AddItem(spec1, "23206", LBIS.L["Trinket"], "BIS Thrt") --Mark of the Champion
 LBIS:AddItem(spec1, "28830", LBIS.L["Trinket"], "BIS Thrt") --Dragonspine Trophy
+LBIS:AddItem(spec1, "19406", LBIS.L["Trinket"], "BIS") --Drake Fang Talisman
 LBIS:AddItem(spec1, "29383", LBIS.L["Trinket"], "BIS Thrt") --Bloodlust Brooch
+LBIS:AddItem(spec1, "29181", LBIS.L["Trinket"], "BIS Mit") --Timelapse Shard
 LBIS:AddItem(spec1, "23836", LBIS.L["Trinket"], "BIS") --Goblin Rocket Launcher
 LBIS:AddItem(spec1, "23835", LBIS.L["Trinket"], "BIS") --Gnomish Poultryizer
-LBIS:AddItem(spec1, "13503", LBIS.L["Trinket"], "BIS") --Alchemist's Stone
-LBIS:AddItem(spec1, "19406", LBIS.L["Trinket"], "BIS") --Drake Fang Talisman
 LBIS:AddItem(spec1, "23041", LBIS.L["Trinket"], "Alt Thrt") --Slayer's Crest
 LBIS:AddItem(spec1, "28034", LBIS.L["Trinket"], "Alt Thrt") --Hourglass of the Unraveller
 LBIS:AddItem(spec1, "28288", LBIS.L["Trinket"], "Alt Thrt") --Abacus of Violent Odds
