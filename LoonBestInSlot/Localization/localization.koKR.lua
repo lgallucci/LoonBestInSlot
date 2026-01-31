@@ -202,6 +202,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Feet"] = "발";
   LBIS.L["Fel Embers"] = "지옥의 불씨";
   LBIS.L["Felmyst"] = "지옥안개";
+  LBIS.L["Fhwoor Smash!"] = "프우르의 공격!";
   LBIS.L["Fire"] = "화염";
   LBIS.L["Flamegor"] = "플레임고르";
   LBIS.L["For The Horde!"] = "호드를 위하여!";
@@ -355,6 +356,7 @@ if GetLocale() == "koKR" then
 --  LBIS.L["Mark of Thrallmar"] = "";
   LBIS.L["Mark V is Alive!"] = "막스 A. 밀리언 Mk. V 가동!";
   LBIS.L["Marksmanship"] = "true";
+  LBIS.L["Measuring Warp Energies"] = "초공간 에너지 측정";
   LBIS.L["Mechano-Lord Capacitus"] = "기계군주 캐퍼시투스";
   LBIS.L["Mekgineer Steamrigger"] = "기계공학자 스팀리거";
   LBIS.L["Mennu the Betrayer"] = "배반자 멘누";
@@ -391,6 +393,7 @@ if GetLocale() == "koKR" then
 --  LBIS.L["Opera Event (Oz)"] = "오페라 이벤트";
 --  LBIS.L["Opera Event (Romeo)"] = "오페라 이벤트";
 --  LBIS.L["Opera Event (Wolf)"] = "오페라 이벤트";
+  LBIS.L["Orgrimmar"] = "오그리마";
   LBIS.L["Ossirian the Unscarred"] = "무적의 오시리안";
   LBIS.L["Overlord"] = "불타는 군단 군주";
   LBIS.L["Overlord Gorefist"] = "대군주 고어피스트";

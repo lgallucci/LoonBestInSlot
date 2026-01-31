@@ -202,6 +202,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Feet"] = "Ступни";
   LBIS.L["Fel Embers"] = "Угли Скверны";
   LBIS.L["Felmyst"] = "Пророк Скверны";
+  LBIS.L["Fhwoor Smash!"] = "Фхвур крушить!";
   LBIS.L["Fire"] = "Огонь";
   LBIS.L["Flamegor"] = "Пламегор";
   LBIS.L["For The Horde!"] = "За Орду!";
@@ -355,6 +356,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Mark of Thrallmar"] = "";
   LBIS.L["Mark V is Alive!"] = "Робот модели V жив!";
   LBIS.L["Marksmanship"] = "Стрельба";
+  LBIS.L["Measuring Warp Energies"] = "Измерение энергии Искажения";
   LBIS.L["Mechano-Lord Capacitus"] = "Механолорд Конденсарон";
   LBIS.L["Mekgineer Steamrigger"] = "Анжинер Паропуск";
   LBIS.L["Mennu the Betrayer"] = "Менну Предатель";
@@ -391,6 +393,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Opera Event (Oz)"] = "Опера";
 --  LBIS.L["Opera Event (Romeo)"] = "Опера";
 --  LBIS.L["Opera Event (Wolf)"] = "Опера";
+  LBIS.L["Orgrimmar"] = "Оргриммар";
   LBIS.L["Ossirian the Unscarred"] = "Оссириан Неуязвимый";
   LBIS.L["Overlord"] = "Владыка";
   LBIS.L["Overlord Gorefist"] = "Властитель Кровавый Кулак";

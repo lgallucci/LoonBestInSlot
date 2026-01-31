@@ -201,6 +201,7 @@ if GetLocale() == "esMX" then
   LBIS.L["Feet"] = "Pies";
   LBIS.L["Fel Embers"] = "Ascuas viles";
   LBIS.L["Felmyst"] = "Brumavil";
+  LBIS.L["Fhwoor Smash!"] = "¡Fhwoor da el golpe!";
   LBIS.L["Fire"] = "Fuego";
   LBIS.L["Flamegor"] = "Flamagor";
   LBIS.L["For The Horde!"] = "¡Por la Horda!";
@@ -352,6 +353,7 @@ if GetLocale() == "esMX" then
 --  LBIS.L["Mark of Thrallmar"] = "";
   LBIS.L["Mark V is Alive!"] = "¡Mark V está vivo!";
   LBIS.L["Marksmanship"] = "Puntería";
+  LBIS.L["Measuring Warp Energies"] = "Medir energías de distorsión";
   LBIS.L["Mechano-Lord Capacitus"] = "Lord-mecano Capacitus";
   LBIS.L["Mekgineer Steamrigger"] = "Mekigeniero Vaporino";
   LBIS.L["Mennu the Betrayer"] = "Mennu el Traidor";

@@ -202,6 +202,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Feet"] = "脚";
   LBIS.L["Fel Embers"] = "邪能灰烬";
   LBIS.L["Felmyst"] = "菲米丝";
+  LBIS.L["Fhwoor Smash!"] = "弗沃尔发怒了！";
   LBIS.L["Fire"] = "火焰";
   LBIS.L["Flamegor"] = "弗莱格尔";
   LBIS.L["For The Horde!"] = "为部落而战！";
@@ -355,6 +356,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Mark of Thrallmar"] = "";
   LBIS.L["Mark V is Alive!"] = "麦克斯米林V型活了！";
   LBIS.L["Marksmanship"] = "射击";
+  LBIS.L["Measuring Warp Energies"] = "测量迁跃能量";
   LBIS.L["Mechano-Lord Capacitus"] = "机械领主卡帕西图斯";
   LBIS.L["Mekgineer Steamrigger"] = "机械师斯蒂里格";
   LBIS.L["Mennu the Betrayer"] = "背叛者门努";
@@ -391,6 +393,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Opera Event (Oz)"] = "歌剧院";
 --  LBIS.L["Opera Event (Romeo)"] = "歌剧院";
 --  LBIS.L["Opera Event (Wolf)"] = "歌剧院";
+  LBIS.L["Orgrimmar"] = "奥格瑞玛";
   LBIS.L["Ossirian the Unscarred"] = "无疤者奥斯里安";
   LBIS.L["Overlord"] = "霸王";
   LBIS.L["Overlord Gorefist"] = "戈尔费斯大王";
