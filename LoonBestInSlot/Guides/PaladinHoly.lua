@@ -166,91 +166,91 @@ LBIS:AddItem(spec0, "23006", LBIS.L["Ranged/Relic"], "BIS") --Libram of Light
 LBIS:AddItem(spec0, "25644", LBIS.L["Ranged/Relic"], "Alt") --Blessed Book of Nagrand
 
 LBIS:AddItem(spec1, "29061", LBIS.L["Head"], "BIS") --Justicar Diadem
+LBIS:AddItem(spec1, "28803", LBIS.L["Head"], "Alt") --Cowl of Nature's Breath
 LBIS:AddItem(spec1, "30728", LBIS.L["Head"], "Alt") --Fathom-Helm of the Deeps
+LBIS:AddItem(spec1, "28756", LBIS.L["Head"], "Alt") --Headdress of the High Potentate
 LBIS:AddItem(spec1, "32084", LBIS.L["Head"], "Alt") --Helmet of the Steadfast Champion
 LBIS:AddItem(spec1, "24264", LBIS.L["Head"], "Alt") --Whitemend Hood
-LBIS:AddItem(spec1, "28803", LBIS.L["Head"], "Alt") --Cowl of Nature's Breath
-LBIS:AddItem(spec1, "28756", LBIS.L["Head"], "Alt") --Headdress of the High Potentate
 LBIS:AddItem(spec1, "29064", LBIS.L["Shoulder"], "BIS") --Justicar Pauldrons
+LBIS:AddItem(spec1, "28647", LBIS.L["Shoulder"], "Alt") --Forest Wind Shoulderpads
 LBIS:AddItem(spec1, "28666", LBIS.L["Shoulder"], "Alt") --Pauldrons of the Justice-Seeker
 LBIS:AddItem(spec1, "21874", LBIS.L["Shoulder"], "Alt") --Primal Mooncloth Shoulders
 LBIS:AddItem(spec1, "28631", LBIS.L["Shoulder"], "Alt") --Dragon-Quake Shoulderguards
-LBIS:AddItem(spec1, "28647", LBIS.L["Shoulder"], "Alt") --Forest Wind Shoulderpads
 LBIS:AddItem(spec1, "28765", LBIS.L["Back"], "BIS") --Stainless Cloak of the Pure Hearted
+LBIS:AddItem(spec1, "31329", LBIS.L["Back"], "Alt") --Lifegiving Cloak
 LBIS:AddItem(spec1, "27946", LBIS.L["Back"], "Alt") --Avian Cloak of Feathers
+LBIS:AddItem(spec1, "24254", LBIS.L["Back"], "Alt") --White Remedy Cape
 LBIS:AddItem(spec1, "29354", LBIS.L["Back"], "Alt") --Light-Touched Stole of Altruism
 LBIS:AddItem(spec1, "28582", LBIS.L["Back"], "Alt") --Red Riding Hood's Cloak
-LBIS:AddItem(spec1, "31329", LBIS.L["Back"], "Alt") --Lifegiving Cloak
-LBIS:AddItem(spec1, "24254", LBIS.L["Back"], "Alt") --White Remedy Cape
 LBIS:AddItem(spec1, "29062", LBIS.L["Chest"], "BIS") --Justicar Chestpiece
+LBIS:AddItem(spec1, "28230", LBIS.L["Chest"], "Alt") --Hallowed Garments
 LBIS:AddItem(spec1, "29522", LBIS.L["Chest"], "Alt") --Windhawk Hauberk
+LBIS:AddItem(spec1, "21875", LBIS.L["Chest"], "Alt") --Primal Mooncloth Robe
 LBIS:AddItem(spec1, "28662", LBIS.L["Chest"], "Alt") --Breastplate of the Lightbinder
 LBIS:AddItem(spec1, "28735", LBIS.L["Chest"], "Alt") --Earthblood Chestguard
-LBIS:AddItem(spec1, "28230", LBIS.L["Chest"], "Alt") --Hallowed Garments
-LBIS:AddItem(spec1, "21875", LBIS.L["Chest"], "Alt") --Primal Mooncloth Robe
 LBIS:AddItem(spec1, "29523", LBIS.L["Wrist"], "BIS") --Windhawk Bracers
 LBIS:AddItem(spec1, "23539", LBIS.L["Wrist"], "BIS") --Blessed Bracers
 LBIS:AddItem(spec1, "29183", LBIS.L["Wrist"], "BIS") --Bindings of the Timewalker
-LBIS:AddItem(spec1, "28512", LBIS.L["Wrist"], "Alt") --Bracers of Justice
 LBIS:AddItem(spec1, "28503", LBIS.L["Wrist"], "Alt") --Whirlwind Bracers
 LBIS:AddItem(spec1, "28511", LBIS.L["Wrist"], "Alt") --Bands of Indwelling
+LBIS:AddItem(spec1, "28512", LBIS.L["Wrist"], "Alt") --Bracers of Justice
 LBIS:AddItem(spec1, "29065", LBIS.L["Hands"], "BIS") --Justicar Gloves
 LBIS:AddItem(spec1, "28505", LBIS.L["Hands"], "BIS") --Gauntlets of Renewed Hope
-LBIS:AddItem(spec1, "28520", LBIS.L["Hands"], "Alt") --Gloves of Centering
-LBIS:AddItem(spec1, "28521", LBIS.L["Hands"], "Alt") --Mitts of the Treemender
 LBIS:AddItem(spec1, "27457", LBIS.L["Hands"], "Alt") --Life Bearer's Gauntlets
 LBIS:AddItem(spec1, "29506", LBIS.L["Hands"], "Alt") --Gloves of the Living Touch
+LBIS:AddItem(spec1, "28520", LBIS.L["Hands"], "Alt") --Gloves of Centering
+LBIS:AddItem(spec1, "28521", LBIS.L["Hands"], "Alt") --Mitts of the Treemender
 LBIS:AddItem(spec1, "29524", LBIS.L["Waist"], "BIS") --Windhawk Belt
 LBIS:AddItem(spec1, "28733", LBIS.L["Waist"], "BIS") --Girdle of Truth
-LBIS:AddItem(spec1, "28655", LBIS.L["Waist"], "Alt") --Cord of Nature's Sustenance
-LBIS:AddItem(spec1, "27548", LBIS.L["Waist"], "Alt") --Girdle of Many Blessings
 LBIS:AddItem(spec1, "29250", LBIS.L["Waist"], "Alt") --Cord of Sanctification
 LBIS:AddItem(spec1, "21873", LBIS.L["Waist"], "Alt") --Primal Mooncloth Belt
+LBIS:AddItem(spec1, "28655", LBIS.L["Waist"], "Alt") --Cord of Nature's Sustenance
+LBIS:AddItem(spec1, "27548", LBIS.L["Waist"], "Alt") --Girdle of Many Blessings
 LBIS:AddItem(spec1, "28748", LBIS.L["Legs"], "BIS") --Legplates of the Innocent
 LBIS:AddItem(spec1, "30543", LBIS.L["Legs"], "BIS") --Pontifex Kilt
+LBIS:AddItem(spec1, "28742", LBIS.L["Legs"], "Alt") --Pantaloons of Repentance
 LBIS:AddItem(spec1, "28751", LBIS.L["Legs"], "Alt") --Heart-Flame Leggings
 LBIS:AddItem(spec1, "28591", LBIS.L["Legs"], "Alt") --Earthsoul Leggings
-LBIS:AddItem(spec1, "29063", LBIS.L["Legs"], "Alt") --Justicar Leggings
-LBIS:AddItem(spec1, "28742", LBIS.L["Legs"], "Alt") --Pantaloons of Repentance
 LBIS:AddItem(spec1, "30727", LBIS.L["Legs"], "Alt") --Gilded Trousers of Benediction
+LBIS:AddItem(spec1, "29063", LBIS.L["Legs"], "Alt") --Justicar Leggings
 LBIS:AddItem(spec1, "24261", LBIS.L["Legs"], "Alt") --Whitemend Pants
 LBIS:AddItem(spec1, "28569", LBIS.L["Feet"], "BIS") --Boots of Valiance
 LBIS:AddItem(spec1, "28752", LBIS.L["Feet"], "BIS") --Forestlord Striders
-LBIS:AddItem(spec1, "30737", LBIS.L["Feet"], "Alt") --Gold-Leaf Wildboots
-LBIS:AddItem(spec1, "27411", LBIS.L["Feet"], "Alt") --Slippers of Serenity
 LBIS:AddItem(spec1, "29251", LBIS.L["Feet"], "Alt") --Boots of the Pious
 LBIS:AddItem(spec1, "28663", LBIS.L["Feet"], "Alt") --Boots of the Incorrupt
+LBIS:AddItem(spec1, "30737", LBIS.L["Feet"], "Alt") --Gold-Leaf Wildboots
+LBIS:AddItem(spec1, "27411", LBIS.L["Feet"], "Alt") --Slippers of Serenity
 LBIS:AddItem(spec1, "30726", LBIS.L["Neck"], "BIS") --Archaic Charm of Presence
 LBIS:AddItem(spec1, "29374", LBIS.L["Neck"], "BIS") --Necklace of Eternal Hope
-LBIS:AddItem(spec1, "28822", LBIS.L["Neck"], "Alt") --Teeth of Gruul
-LBIS:AddItem(spec1, "28731", LBIS.L["Neck"], "Alt") --Shining Chain of the Afterworld
 LBIS:AddItem(spec1, "28609", LBIS.L["Neck"], "Alt") --Emberspur Talisman
 LBIS:AddItem(spec1, "30377", LBIS.L["Neck"], "Alt") --Karja's Medallion
+LBIS:AddItem(spec1, "28822", LBIS.L["Neck"], "Alt") --Teeth of Gruul
 LBIS:AddItem(spec1, "31691", LBIS.L["Neck"], "Alt") --Natasha's Guardian Cord
 LBIS:AddItem(spec1, "21712", LBIS.L["Neck"], "Alt") --Amulet of the Fallen God
+LBIS:AddItem(spec1, "28731", LBIS.L["Neck"], "Alt") --Shining Chain of the Afterworld
 LBIS:AddItem(spec1, "28790", LBIS.L["Ring"], "BIS") --Naaru Lightwarden's Band
 LBIS:AddItem(spec1, "29290", LBIS.L["Ring"], "BIS") --Violet Signet of the Grand Restorer
-LBIS:AddItem(spec1, "30736", LBIS.L["Ring"], "Alt") --Ring of Flowing Light
-LBIS:AddItem(spec1, "29373", LBIS.L["Ring"], "Alt") --Band of Halos
 LBIS:AddItem(spec1, "29169", LBIS.L["Ring"], "Alt") --Ring of Convalescence
 LBIS:AddItem(spec1, "29168", LBIS.L["Ring"], "Alt") --Ancestral Band
 LBIS:AddItem(spec1, "27780", LBIS.L["Ring"], "Alt") --Ring of Fabled Hope
 LBIS:AddItem(spec1, "31923", LBIS.L["Ring"], "Alt") --Band of the Crystalline Void
+LBIS:AddItem(spec1, "30736", LBIS.L["Ring"], "Alt") --Ring of Flowing Light
+LBIS:AddItem(spec1, "29373", LBIS.L["Ring"], "Alt") --Band of Halos
 LBIS:AddItem(spec1, "28763", LBIS.L["Ring"], "Alt") --Jade Ring of the Everliving
 LBIS:AddItem(spec1, "29376", LBIS.L["Trinket"], "BIS") --Essence of the Martyr
 LBIS:AddItem(spec1, "28727", LBIS.L["Trinket"], "BIS") --Pendant of the Violet Eye
-LBIS:AddItem(spec1, "30841", LBIS.L["Trinket"], "Alt") --Lower City Prayerbook
-LBIS:AddItem(spec1, "28590", LBIS.L["Trinket"], "Alt") --Ribbon of Sacrifice
 LBIS:AddItem(spec1, "23047", LBIS.L["Trinket"], "Alt") --Eye of the Dead
 LBIS:AddItem(spec1, "19395", LBIS.L["Trinket"], "Alt") --Rejuvenating Gem
+LBIS:AddItem(spec1, "30841", LBIS.L["Trinket"], "Alt") --Lower City Prayerbook
 LBIS:AddItem(spec1, "28190", LBIS.L["Trinket"], "Alt") --Scarab of the Infinite Cycle
+LBIS:AddItem(spec1, "28590", LBIS.L["Trinket"], "Alt") --Ribbon of Sacrifice
 LBIS:AddItem(spec1, "28823", LBIS.L["Trinket"], "Alt") --Eye of Gruul
 LBIS:AddItem(spec1, "28771", LBIS.L["Main Hand"], "BIS") --Light's Justice
-LBIS:AddItem(spec1, "32451", LBIS.L["Main Hand"], "Alt") --Gladiator's Salvation
-LBIS:AddItem(spec1, "28522", LBIS.L["Main Hand"], "Alt") --Shard of the Virtuous
 LBIS:AddItem(spec1, "23556", LBIS.L["Main Hand"], "Alt") --Hand of Eternity
 LBIS:AddItem(spec1, "29353", LBIS.L["Main Hand"], "Alt") --Shockwave Truncheon
+LBIS:AddItem(spec1, "32451", LBIS.L["Main Hand"], "Alt") --Gladiator's Salvation
 LBIS:AddItem(spec1, "31342", LBIS.L["Main Hand"], "Alt") --The Ancient Scepter of Sue-Min
+LBIS:AddItem(spec1, "28522", LBIS.L["Main Hand"], "Alt") --Shard of the Virtuous
 LBIS:AddItem(spec1, "29175", LBIS.L["Main Hand"], "Alt") --Gavel of Pure Light
 LBIS:AddItem(spec1, "29267", LBIS.L["Off Hand"], "BIS") --Light-Bearer's Faith Shield
 LBIS:AddItem(spec1, "29458", LBIS.L["Off Hand"], "BIS") --Aegis of the Vindicator

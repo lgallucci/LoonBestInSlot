@@ -104,28 +104,28 @@ LBIS:AddItem(spec0, "28064", LBIS.L["Ranged/Relic"], "Alt") --Idol of the Wild
 
 LBIS:AddItem(spec1, "8345", LBIS.L["Head"], "BIS") --Wolfshead Helm
 LBIS:AddItem(spec1, "29100", LBIS.L["Shoulder"], "BIS") --Mantle of Malorne
+LBIS:AddItem(spec1, "27434", LBIS.L["Shoulder"], "Alt") --Mantle of Perenolde
 LBIS:AddItem(spec1, "27797", LBIS.L["Shoulder"], "Alt") --Wastewalker Shoulderpads
 LBIS:AddItem(spec1, "25790", LBIS.L["Shoulder"], "Alt") --Expedition Scout's Epaulets
 LBIS:AddItem(spec1, "28755", LBIS.L["Shoulder"], "Alt") --Bladed Shoulderpads of the Merciless
-LBIS:AddItem(spec1, "27434", LBIS.L["Shoulder"], "Alt") --Mantle of Perenolde
 LBIS:AddItem(spec1, "28672", LBIS.L["Back"], "BIS") --Drape of the Dark Reavers
 LBIS:AddItem(spec1, "24259", LBIS.L["Back"], "BIS") --Vengeance Wrap
+LBIS:AddItem(spec1, "29382", LBIS.L["Back"], "Alt") --Blood Knight War Cloak
 LBIS:AddItem(spec1, "31255", LBIS.L["Back"], "Alt") --Cloak of the Craft
 LBIS:AddItem(spec1, "27878", LBIS.L["Back"], "Alt") --Auchenai Death Shroud
-LBIS:AddItem(spec1, "29382", LBIS.L["Back"], "Alt") --Blood Knight War Cloak
 LBIS:AddItem(spec1, "29096", LBIS.L["Chest"], "BIS") --Breastplate of Malorne
+LBIS:AddItem(spec1, "24396", LBIS.L["Chest"], "Alt") --Vest of Vengeance
 LBIS:AddItem(spec1, "30730", LBIS.L["Chest"], "Alt") --Terrorweave Tunic
 LBIS:AddItem(spec1, "28601", LBIS.L["Chest"], "Alt") --Chestguard of the Conniver
 LBIS:AddItem(spec1, "29525", LBIS.L["Chest"], "Alt") --Primalstrike Vest
-LBIS:AddItem(spec1, "24396", LBIS.L["Chest"], "Alt") --Vest of Vengeance
 LBIS:AddItem(spec1, "29246", LBIS.L["Wrist"], "BIS") --Nightfall Wristguards
-LBIS:AddItem(spec1, "28171", LBIS.L["Wrist"], "Alt") --Spymistress's Wristguards
 LBIS:AddItem(spec1, "21602", LBIS.L["Wrist"], "Alt") --Qiraji Execution Bracers
+LBIS:AddItem(spec1, "28171", LBIS.L["Wrist"], "Alt") --Spymistress's Wristguards
 LBIS:AddItem(spec1, "28506", LBIS.L["Hands"], "BIS") --Gloves of Dexterous Manipulation
+LBIS:AddItem(spec1, "27509", LBIS.L["Hands"], "Alt") --Handgrips of Assassination
 LBIS:AddItem(spec1, "30644", LBIS.L["Hands"], "Alt") --Grips of Deftness
 LBIS:AddItem(spec1, "29507", LBIS.L["Hands"], "Alt") --Windslayer Wraps
 LBIS:AddItem(spec1, "25685", LBIS.L["Hands"], "Alt") --Fel Leather Gloves
-LBIS:AddItem(spec1, "27509", LBIS.L["Hands"], "Alt") --Handgrips of Assassination
 LBIS:AddItem(spec1, "29247", LBIS.L["Waist"], "BIS") --Girdle of the Deathdealer
 LBIS:AddItem(spec1, "28750", LBIS.L["Waist"], "BIS") --Girdle of Treachery
 LBIS:AddItem(spec1, "28828", LBIS.L["Waist"], "BIS") --Gronn-Stitched Girdle
@@ -134,44 +134,44 @@ LBIS:AddItem(spec1, "27911", LBIS.L["Waist"], "Alt") --Epoch's Whispering Cinch
 LBIS:AddItem(spec1, "31464", LBIS.L["Waist"], "Alt") --Naaru Belt of Precision
 LBIS:AddItem(spec1, "27760", LBIS.L["Waist"], "Alt") --Dunewind Sash
 LBIS:AddItem(spec1, "28741", LBIS.L["Legs"], "BIS") --Skulker's Greaves
+LBIS:AddItem(spec1, "25687", LBIS.L["Legs"], "Alt") --Fel Leather Leggings
 LBIS:AddItem(spec1, "31544", LBIS.L["Legs"], "Alt") --Clefthoof Hide Leggings
+LBIS:AddItem(spec1, "30538", LBIS.L["Legs"], "Alt") --Midnight Legguards
 LBIS:AddItem(spec1, "30257", LBIS.L["Legs"], "Alt") --Shattrath Leggings
 LBIS:AddItem(spec1, "27837", LBIS.L["Legs"], "Alt") --Wastewalker Leggings
-LBIS:AddItem(spec1, "25687", LBIS.L["Legs"], "Alt") --Fel Leather Leggings
-LBIS:AddItem(spec1, "30538", LBIS.L["Legs"], "Alt") --Midnight Legguards
 LBIS:AddItem(spec1, "28545", LBIS.L["Feet"], "BIS") --Edgewalker Longboots
+LBIS:AddItem(spec1, "30939", LBIS.L["Feet"], "Alt") --Felboar Hide Shoes
 LBIS:AddItem(spec1, "25686", LBIS.L["Feet"], "Alt") --Fel Leather Boots
 LBIS:AddItem(spec1, "31288", LBIS.L["Feet"], "Alt") --The Master's Treads
 LBIS:AddItem(spec1, "29248", LBIS.L["Feet"], "Alt") --Shadowstep Striders
-LBIS:AddItem(spec1, "30939", LBIS.L["Feet"], "Alt") --Felboar Hide Shoes
 LBIS:AddItem(spec1, "24114", LBIS.L["Neck"], "BIS") --Braided Eternium Chain
 LBIS:AddItem(spec1, "29381", LBIS.L["Neck"], "BIS") --Choker of Vile Intent
-LBIS:AddItem(spec1, "29119", LBIS.L["Neck"], "Alt") --Haramad's Bargain
-LBIS:AddItem(spec1, "28509", LBIS.L["Neck"], "Alt") --Worgen Claw Necklace
 LBIS:AddItem(spec1, "31275", LBIS.L["Neck"], "Alt") --Necklace of Trophies
 LBIS:AddItem(spec1, "27779", LBIS.L["Neck"], "Alt") --Bone Chain Necklace
+LBIS:AddItem(spec1, "29119", LBIS.L["Neck"], "Alt") --Haramad's Bargain
 LBIS:AddItem(spec1, "28745", LBIS.L["Neck"], "Alt") --Mithril Chain of Heroism
+LBIS:AddItem(spec1, "28509", LBIS.L["Neck"], "Alt") --Worgen Claw Necklace
 LBIS:AddItem(spec1, "30834", LBIS.L["Ring"], "BIS") --Shapeshifter's Signet
 LBIS:AddItem(spec1, "28649", LBIS.L["Ring"], "BIS") --Garona's Signet Ring
 LBIS:AddItem(spec1, "28791", LBIS.L["Ring"], "BIS") --Ring of the Recalcitrant
-LBIS:AddItem(spec1, "28757", LBIS.L["Ring"], "Alt") --Ring of a Thousand Marks
 LBIS:AddItem(spec1, "30738", LBIS.L["Ring"], "Alt") --Ring of Reciprocity
 LBIS:AddItem(spec1, "30365", LBIS.L["Ring"], "Alt") --Overseer's Signet
 LBIS:AddItem(spec1, "29283", LBIS.L["Ring"], "Alt") --Violet Signet of the Master Assassin
 LBIS:AddItem(spec1, "27925", LBIS.L["Ring"], "Alt") --Ravenclaw Band
+LBIS:AddItem(spec1, "28757", LBIS.L["Ring"], "Alt") --Ring of a Thousand Marks
 LBIS:AddItem(spec1, "23206", LBIS.L["Trinket"], "BIS") --Mark of the Champion
 LBIS:AddItem(spec1, "28830", LBIS.L["Trinket"], "BIS") --Dragonspine Trophy
 LBIS:AddItem(spec1, "29383", LBIS.L["Trinket"], "BIS") --Bloodlust Brooch
-LBIS:AddItem(spec1, "23041", LBIS.L["Trinket"], "Alt") --Slayer's Crest
 LBIS:AddItem(spec1, "28034", LBIS.L["Trinket"], "Alt") --Hourglass of the Unraveller
 LBIS:AddItem(spec1, "19406", LBIS.L["Trinket"], "Alt") --Drake Fang Talisman
 LBIS:AddItem(spec1, "28121", LBIS.L["Trinket"], "Alt") --Icon of Unyielding Courage
+LBIS:AddItem(spec1, "23041", LBIS.L["Trinket"], "Alt") --Slayer's Crest
 LBIS:AddItem(spec1, "28658", LBIS.L["Two Hand"], "BIS") --Terestian's Stranglestaff
 LBIS:AddItem(spec1, "28476", LBIS.L["Two Hand"], "BIS") --Gladiator's Maul
-LBIS:AddItem(spec1, "29359", LBIS.L["Two Hand"], "Alt") --Feral Staff of Lashing
-LBIS:AddItem(spec1, "31334", LBIS.L["Two Hand"], "Alt") --Staff of Natural Fury
 LBIS:AddItem(spec1, "29171", LBIS.L["Two Hand"], "Alt") --Earthwarden
 LBIS:AddItem(spec1, "27877", LBIS.L["Two Hand"], "Alt") --Draenic Wildstaff
+LBIS:AddItem(spec1, "29359", LBIS.L["Two Hand"], "Alt") --Feral Staff of Lashing
+LBIS:AddItem(spec1, "31334", LBIS.L["Two Hand"], "Alt") --Staff of Natural Fury
 LBIS:AddItem(spec1, "29390", LBIS.L["Ranged/Relic"], "BIS") --Everbloom Idol
 LBIS:AddItem(spec1, "28372", LBIS.L["Ranged/Relic"], "Alt") --Idol of Feral Shadows
 LBIS:AddItem(spec1, "28064", LBIS.L["Ranged/Relic"], "Alt") --Idol of the Wild
