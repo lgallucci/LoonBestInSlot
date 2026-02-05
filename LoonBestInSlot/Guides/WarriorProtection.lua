@@ -77,15 +77,15 @@ LBIS:AddItem(spec0, "28167", LBIS.L["Wrist"], "Alt") --Sha'tari Wrought Armguard
 LBIS:AddItem(spec0, "27475", LBIS.L["Hands"], "BIS") --Gauntlets of the Bold
 LBIS:AddItem(spec0, "32072", LBIS.L["Hands"], "BIS") --Gauntlets of Dissension
 LBIS:AddItem(spec0, "30341", LBIS.L["Hands"], "BIS Thrt") --Flesh Handler's Gauntlets
-LBIS:AddItem(spec0, "28995", LBIS.L["Hands"], "BIS") --Marshal's Plate Belt
 LBIS:AddItem(spec0, "30375", LBIS.L["Hands"], "Alt") --Gauntlets of the Vanquisher
 LBIS:AddItem(spec0, "23517", LBIS.L["Hands"], "Alt") --Felsteel Gloves
 LBIS:AddItem(spec0, "29134", LBIS.L["Hands"], "Alt") --Gauntlets of the Chosen
+LBIS:AddItem(spec0, "28995", LBIS.L["Waist"], "BIS") --Marshal's Plate Belt
 LBIS:AddItem(spec0, "29238", LBIS.L["Waist"], "BIS Mit") --Lion's Heart Girdle
 LBIS:AddItem(spec0, "27672", LBIS.L["Waist"], "BIS Mit") --Girdle of the Immovable
+LBIS:AddItem(spec0, "31460", LBIS.L["Waist"], "Alt") --Sha'tari Vindicator's Waistguard
 LBIS:AddItem(spec0, "25922", LBIS.L["Waist"], "Alt") --Fearless Girdle
 LBIS:AddItem(spec0, "27985", LBIS.L["Waist"], "Alt") --Deathforge Girdle
-LBIS:AddItem(spec0, "31460", LBIS.L["Waist"], "Alt") --Sha'tari Vindicator's Waistguard
 LBIS:AddItem(spec0, "29184", LBIS.L["Legs"], "BIS") --Timewarden's Leggings
 LBIS:AddItem(spec0, "23518", LBIS.L["Legs"], "BIS") --Felsteel Leggings
 LBIS:AddItem(spec0, "28175", LBIS.L["Legs"], "Alt") --Mag'hari Warlord's Legplates

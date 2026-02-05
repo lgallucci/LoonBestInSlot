@@ -55,7 +55,7 @@ public static class Constants
         }
     }
 
-    internal static string CombinePath(string addonPath, string path)
+    public static string CombinePath(string addonPath, string path)
     {
         addonPath = addonPath.TrimEnd('/').TrimEnd('\\').Replace('/', Path.DirectorySeparatorChar).Replace('\\', Path.DirectorySeparatorChar);
         path = path.TrimStart('/').TrimStart('\\').Replace('/', Path.DirectorySeparatorChar).Replace('\\', Path.DirectorySeparatorChar);

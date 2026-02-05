@@ -27,6 +27,7 @@
         <Button x:Name="btnLocalize" Content="Localize" Margin="10,10,120,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="LocalizeClick"/>
         <Button x:Name="btnRefreshItems" Content="RefreshItems" Margin="10,10,10,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="RefreshClick"/>
         <Button x:Name="btnRefreshAll" Content="Refresh All" Margin="10,10,200,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="RefreshAllClick"/>
+        <Button x:Name="btnVerify" Content="Verify" Margin="10,10,310,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="VerifyClick"/>
         <!-- <Button x:Name="btnTemp" Content="Temp" Margin="10,10,435,10" VerticalAlignment="Top" HorizontalAlignment="Right" Click="Temp_Click"/>IsEnabled="False"/>-->
     </Grid>
 </UserControl>

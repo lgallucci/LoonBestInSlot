@@ -83,6 +83,32 @@ public partial class GuideImporterView : UserControl
         ConsoleOut.Text = "Localize Complete!";
     }
 
+    private void VerifyClick(object sender, RoutedEventArgs e)
+    {
+        ConsoleOut.Text = string.Empty;
+        var selectedPhase = cmbPhase.SelectedIndex;
+
+        var specMappingList = GetClassMappings(selectedPhase);
+
+        foreach(var specMapping in specMappingList)
+        {
+            var className = $"{specMapping.ClassName.Replace(" ", "")}{specMapping.SpecName}";
+            var guide = ItemSpecFileManager.ReadGuide(Constants.CombinePath(Constants.AddonPath, $@"\Guides\{className.Replace(" ", "")}.lua"));
+
+            try
+            {
+                WowheadImporter.VerifyGuide(guide.Item3[selectedPhase].ToList());
+
+                ConsoleOut.Text += $"{className}, Phase {selectedPhase} Verification Passed!" + Environment.NewLine;
+            }
+            catch (VerificationException vex)
+            {
+                ConsoleOut.Text += $"{className} Verification Failed! - {vex.Message.Substring(0, vex.Message.Length > 150 ? 150 : vex.Message.Length - 1)}..." + Environment.NewLine;
+            }
+        }
+
+    }
+
     private void RefreshClick(object sender, RoutedEventArgs e)
     {
         ConsoleOut.Text = "Refreshing Items...";
