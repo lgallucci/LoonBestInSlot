@@ -131,21 +131,21 @@ LBIS:AddItem(spec0, "31924", LBIS.L["Ring"], "Alt") --Yor's Revenge
 LBIS:AddItem(spec0, "31078", LBIS.L["Ring"], "Alt") --Protector's Mark of the Redemption
 LBIS:AddItem(spec0, "27436", LBIS.L["Ring"], "Alt") --Iron Band of the Unbreakable
 LBIS:AddItem(spec0, "24088", LBIS.L["Ring"], "Alt") --Delicate Eternium Ring
+LBIS:AddItem(spec0, "29370", LBIS.L["Trinket"], "BIS") --Icon of the Silver Crescent
 LBIS:AddItem(spec0, "27529", LBIS.L["Trinket"], "BIS") --Figurine of the Colossus
 LBIS:AddItem(spec0, "23836", LBIS.L["Trinket"], "BIS Thrt") --Goblin Rocket Launcher
-LBIS:AddItem(spec0, "29370", LBIS.L["Trinket"], "BIS") --Icon of the Silver Crescent
 LBIS:AddItem(spec0, "27891", LBIS.L["Trinket"], "BIS Mit") --Adamantine Figurine
-LBIS:AddItem(spec0, "32534", LBIS.L["Trinket"], "BIS Mit") --Brooch of the Immortal King
 LBIS:AddItem(spec0, "23835", LBIS.L["Trinket"], "BIS") --Gnomish Poultryizer
+LBIS:AddItem(spec0, "32534", LBIS.L["Trinket"], "BIS Mit") --Brooch of the Immortal King
 LBIS:AddItem(spec0, "32864", LBIS.L["Trinket"], "Alt") --Commander's Badge
 LBIS:AddItem(spec0, "29132", LBIS.L["Trinket"], "Alt") --Scryer's Bloodgem
 LBIS:AddItem(spec0, "27770", LBIS.L["Trinket"], "Alt") --Argussian Compass
 LBIS:AddItem(spec0, "30300", LBIS.L["Trinket"], "Alt Mit") --Dabiri's Enigma
-LBIS:AddItem(spec0, "23046", LBIS.L["Trinket"], "Alt") --The Restrained Essence of Sapphiron
 LBIS:AddItem(spec0, "24126", LBIS.L["Trinket"], "Alt Thrt") --Figurine - Living Ruby Serpent
-LBIS:AddItem(spec0, "19379", LBIS.L["Trinket"], "Alt") --Neltharion's Tear
-LBIS:AddItem(spec0, "13503", LBIS.L["Trinket"], "Alt") --Alchemist's Stone
+LBIS:AddItem(spec0, "23046", LBIS.L["Trinket"], "Alt") --The Restrained Essence of Sapphiron
 LBIS:AddItem(spec0, "19431", LBIS.L["Trinket"], "Alt Mit") --Styleen's Impeding Scarab
+LBIS:AddItem(spec0, "13503", LBIS.L["Trinket"], "Alt") --Alchemist's Stone
+LBIS:AddItem(spec0, "19379", LBIS.L["Trinket"], "Alt") --Neltharion's Tear
 LBIS:AddItem(spec0, "24125", LBIS.L["Trinket"], "Alt") --Figurine - Dawnstone Crab
 LBIS:AddItem(spec0, "23207", LBIS.L["Trinket"], "Alt") --Mark of the Champion
 LBIS:AddItem(spec0, "28042", LBIS.L["Trinket"], "Alt Mit") --Regal Protectorate
@@ -157,7 +157,6 @@ LBIS:AddItem(spec0, "32450", LBIS.L["Main Hand"], "BIS") --Gladiator's Gavel
 LBIS:AddItem(spec0, "30832", LBIS.L["Main Hand"], "BIS") --Gavel of Unearthed Secrets
 LBIS:AddItem(spec0, "29153", LBIS.L["Main Hand"], "BIS") --Blade of the Archmage
 LBIS:AddItem(spec0, "29155", LBIS.L["Main Hand"], "BIS") --Stormcaller
-LBIS:AddItem(spec0, "32660", LBIS.L["Main Hand"], "Alt") --Crystalforged Sword
 LBIS:AddItem(spec0, "29185", LBIS.L["Main Hand"], "Alt") --Continuum Blade
 LBIS:AddItem(spec0, "27899", LBIS.L["Main Hand"], "Alt") --Mana Wrath
 LBIS:AddItem(spec0, "27905", LBIS.L["Main Hand"], "Alt") --Greatsword of Horrid Dreams
@@ -165,9 +164,8 @@ LBIS:AddItem(spec0, "29176", LBIS.L["Off Hand"], "BIS") --Crest of the Sha'tar
 LBIS:AddItem(spec0, "29266", LBIS.L["Off Hand"], "BIS Mit") --Azure-Shield of Coldarra
 LBIS:AddItem(spec0, "32082", LBIS.L["Off Hand"], "Alt") --The Fel Barrier
 LBIS:AddItem(spec0, "28316", LBIS.L["Off Hand"], "Alt") --Aegis of the Sunbird
-LBIS:AddItem(spec0, "32652", LBIS.L["Off Hand"], "Alt Thrt") --Ogri'la Aegis
-LBIS:AddItem(spec0, "27449", LBIS.L["Off Hand"], "Alt") --Blood Knight Defender
 LBIS:AddItem(spec0, "28358", LBIS.L["Off Hand"], "Alt") --Gladiator's Shield Wall
+LBIS:AddItem(spec0, "27449", LBIS.L["Off Hand"], "Alt") --Blood Knight Defender
 LBIS:AddItem(spec0, "27887", LBIS.L["Off Hand"], "Alt") --Platinum Shield of the Valorous
 LBIS:AddItem(spec0, "29388", LBIS.L["Ranged/Relic"], "BIS") --Libram of Repentance
 LBIS:AddItem(spec0, "27917", LBIS.L["Ranged/Relic"], "Alt Thrt") --Libram of the Eternal Rest

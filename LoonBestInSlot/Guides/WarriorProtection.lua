@@ -46,10 +46,11 @@ LBIS:AddEnchant(spec5, "47051", LBIS.L["Back"]) --
 LBIS:AddEnchant(spec5, "27957", LBIS.L["Chest"]) --
 LBIS:AddEnchant(spec5, "44769", LBIS.L["Hands"]) --
 
+LBIS:AddItem(spec0, "32083", LBIS.L["Head"], "BIS") --Faceguard of Determination
+LBIS:AddItem(spec0, "27408", LBIS.L["Head"], "BIS Thrt") --Hope Bearer Helm
 LBIS:AddItem(spec0, "28180", LBIS.L["Head"], "BIS") --Myrmidon's Headdress
-LBIS:AddItem(spec0, "32871", LBIS.L["Head"], "BIS") --Horns of the Illidari
+LBIS:AddItem(spec0, "32871", LBIS.L["Head"], "Alt") --Horns of the Illidari
 LBIS:AddItem(spec0, "23519", LBIS.L["Head"], "Alt") --Felsteel Helm
-LBIS:AddItem(spec0, "27408", LBIS.L["Head"], "Alt Thrt") --Hope Bearer Helm
 LBIS:AddItem(spec0, "28350", LBIS.L["Head"], "Alt Mit") --Warhelm of the Bold
 LBIS:AddItem(spec0, "32073", LBIS.L["Shoulder"], "BIS") --Spaulders of Dementia
 LBIS:AddItem(spec0, "27803", LBIS.L["Shoulder"], "Alt Mit") --Shoulderguards of the Bold
@@ -114,9 +115,10 @@ LBIS:AddItem(spec0, "27770", LBIS.L["Trinket"], "Alt Mit") --Argussian Compass
 LBIS:AddItem(spec0, "29181", LBIS.L["Trinket"], "Alt Mit") --Timelapse Shard
 LBIS:AddItem(spec0, "27891", LBIS.L["Trinket"], "Alt") --Adamantine Figurine
 LBIS:AddItem(spec0, "29387", LBIS.L["Trinket"], "Alt Thrt") --Gnomeregan Auto-Blocker 600
+LBIS:AddItem(spec0, "19406", LBIS.L["Trinket"], "Alt") --Drake Fang Talisman
+LBIS:AddItem(spec0, "23206", LBIS.L["Trinket"], "Alt Thrt") --Mark of the Champion
 LBIS:AddItem(spec0, "30300", LBIS.L["Trinket"], "Alt") --Dabiri's Enigma
 LBIS:AddItem(spec0, "28042", LBIS.L["Trinket"], "Alt") --Regal Protectorate
-LBIS:AddItem(spec0, "19406", LBIS.L["Trinket"], "Alt") --Drake Fang Talisman
 LBIS:AddItem(spec0, "28438", LBIS.L["Main Hand"], "BIS") --Dragonmaw
 LBIS:AddItem(spec0, "28189", LBIS.L["Main Hand"], "Alt") --Latro's Shifting Sword
 LBIS:AddItem(spec0, "29348", LBIS.L["Main Hand"], "Alt") --The Bladefist
@@ -130,9 +132,9 @@ LBIS:AddItem(spec0, "29266", LBIS.L["Off Hand"], "BIS") --Azure-Shield of Coldar
 LBIS:AddItem(spec0, "29176", LBIS.L["Off Hand"], "BIS") --Crest of the Sha'tar
 LBIS:AddItem(spec0, "27887", LBIS.L["Off Hand"], "Alt") --Platinum Shield of the Valorous
 LBIS:AddItem(spec0, "31490", LBIS.L["Off Hand"], "Alt") --Netherwing Protector's Shield
-LBIS:AddItem(spec0, "32082", LBIS.L["Off Hand"], "Alt") --The Fel Barrier
-LBIS:AddItem(spec0, "28940", LBIS.L["Off Hand"], "Alt") --Grand Marshal's Barricade
 LBIS:AddItem(spec0, "28939", LBIS.L["Off Hand"], "Alt") --High Warlord's Barricade
+LBIS:AddItem(spec0, "28940", LBIS.L["Off Hand"], "Alt") --Grand Marshal's Barricade
+LBIS:AddItem(spec0, "32082", LBIS.L["Off Hand"], "Alt") --The Fel Barrier
 LBIS:AddItem(spec0, "23043", LBIS.L["Off Hand"], "Alt") --The Face of Death
 LBIS:AddItem(spec0, "28316", LBIS.L["Off Hand"], "Alt") --Aegis of the Sunbird
 LBIS:AddItem(spec0, "34622", LBIS.L["Ranged/Relic"], "BIS") --Spinesever

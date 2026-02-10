@@ -51,7 +51,6 @@ LBIS:AddItem(spec0, "28484", LBIS.L["Chest"], "BIS Mit") --Bulwark of Kings
 LBIS:AddItem(spec0, "23522", LBIS.L["Chest"], "BIS") --Ragesteel Breastplate
 LBIS:AddItem(spec0, "28403", LBIS.L["Chest"], "BIS") --Doomplate Chestguard
 LBIS:AddItem(spec0, "24396", LBIS.L["Chest"], "Alt") --Vest of Vengeance
-LBIS:AddItem(spec0, "31548", LBIS.L["Chest"], "Alt") --Blackened Chestplate
 LBIS:AddItem(spec0, "23537", LBIS.L["Wrist"], "BIS") --Black Felsteel Bracers
 LBIS:AddItem(spec0, "28646", LBIS.L["Wrist"], "BIS") --General's Scaled Bracers
 LBIS:AddItem(spec0, "28999", LBIS.L["Wrist"], "BIS") --Marshal's Scaled Bracers
@@ -77,8 +76,8 @@ LBIS:AddItem(spec0, "25686", LBIS.L["Feet"], "BIS") --Fel Leather Boots
 LBIS:AddItem(spec0, "28176", LBIS.L["Feet"], "BIS") --Sha'tari Wrought Greaves
 LBIS:AddItem(spec0, "27867", LBIS.L["Feet"], "Alt") --Boots of the Unjust
 LBIS:AddItem(spec0, "28318", LBIS.L["Feet"], "Alt") --Obsidian Clodstompers
-LBIS:AddItem(spec0, "29000", LBIS.L["Feet"], "Alt") --Marshal's Scaled Greaves
 LBIS:AddItem(spec0, "28645", LBIS.L["Feet"], "Alt") --General's Scaled Greaves
+LBIS:AddItem(spec0, "29000", LBIS.L["Feet"], "Alt") --Marshal's Scaled Greaves
 LBIS:AddItem(spec0, "29381", LBIS.L["Neck"], "BIS") --Choker of Vile Intent
 LBIS:AddItem(spec0, "29119", LBIS.L["Neck"], "BIS") --Haramad's Bargain
 LBIS:AddItem(spec0, "29349", LBIS.L["Neck"], "Alt") --Adamantine Chain of the Unbroken
@@ -89,6 +88,7 @@ LBIS:AddItem(spec0, "29177", LBIS.L["Ring"], "BIS") --A'dal's Command
 LBIS:AddItem(spec0, "31920", LBIS.L["Ring"], "BIS") --Shaffar's Band of Brutality
 LBIS:AddItem(spec0, "30365", LBIS.L["Ring"], "Alt") --Overseer's Signet
 LBIS:AddItem(spec0, "31380", LBIS.L["Ring"], "Alt") --Acrobat's Mark of the Sha'tar
+LBIS:AddItem(spec0, "19343", LBIS.L["Trinket"], "BIS") --Scrolls of Blinding Light
 LBIS:AddItem(spec0, "29383", LBIS.L["Trinket"], "BIS") --Bloodlust Brooch
 LBIS:AddItem(spec0, "28288", LBIS.L["Trinket"], "BIS") --Abacus of Violent Odds
 LBIS:AddItem(spec0, "22954", LBIS.L["Trinket"], "Alt") --Kiss of the Spider
@@ -98,6 +98,7 @@ LBIS:AddItem(spec0, "28034", LBIS.L["Trinket"], "Alt") --Hourglass of the Unrave
 LBIS:AddItem(spec0, "28429", LBIS.L["Two Hand"], "BIS Mit") --Lionheart Champion
 LBIS:AddItem(spec0, "28441", LBIS.L["Two Hand"], "BIS Mit") --Deep Thunder
 LBIS:AddItem(spec0, "24550", LBIS.L["Two Hand"], "BIS") --Gladiator's Greatsword
+LBIS:AddItem(spec0, "31318", LBIS.L["Two Hand"], "Alt") --Singing Crystal Axe
 LBIS:AddItem(spec0, "29356", LBIS.L["Two Hand"], "Alt") --Quantum Blade
 LBIS:AddItem(spec0, "31322", LBIS.L["Two Hand"], "Alt") --The Hammer of Destiny
 LBIS:AddItem(spec0, "23541", LBIS.L["Two Hand"], "Alt") --Khorium Champion

@@ -40,10 +40,11 @@ LBIS:AddItem(spec0, "28371", LBIS.L["Back"], "Alt") --Netherfury Cape
 LBIS:AddItem(spec0, "23045", LBIS.L["Back"], "Alt") --Shroud of Dominion
 LBIS:AddItem(spec0, "29382", LBIS.L["Back"], "Alt") --Blood Knight War Cloak
 LBIS:AddItem(spec0, "27892", LBIS.L["Back"], "Alt") --Cloak of the Inciter
+LBIS:AddItem(spec0, "31320", LBIS.L["Chest"], "BIS") --Chestguard of Exile
 LBIS:AddItem(spec0, "23522", LBIS.L["Chest"], "BIS") --Ragesteel Breastplate
+LBIS:AddItem(spec0, "30258", LBIS.L["Chest"], "Alt") --Chestplate of A'dal
 LBIS:AddItem(spec0, "28403", LBIS.L["Chest"], "Alt") --Doomplate Chestguard
 LBIS:AddItem(spec0, "29337", LBIS.L["Chest"], "Alt") --The Exarch's Protector
-LBIS:AddItem(spec0, "30258", LBIS.L["Chest"], "Alt") --Chestplate of A'dal
 LBIS:AddItem(spec0, "23537", LBIS.L["Wrist"], "BIS") --Black Felsteel Bracers
 LBIS:AddItem(spec0, "30940", LBIS.L["Wrist"], "Alt") --Aged Leather Bindings
 LBIS:AddItem(spec0, "28996", LBIS.L["Wrist"], "Alt") --Marshal's Plate Bracers
