@@ -1685,6 +1685,7 @@ LBIS.ItemSources =
     [29035] = { Name = "Cyclone Faceguard", SourceType = LBIS.L["Tier Token"], Source = LBIS.L["Prince Malchezaar"], SourceNumber = "29760", SourceLocation = LBIS.L["Karazhan"], SourceFaction = "B" },
     [29037] = { Name = "Cyclone Shoulderguards", SourceType = LBIS.L["Tier Token"], Source = LBIS.L["High King Maulgar"], SourceNumber = "29763", SourceLocation = LBIS.L["Gruul's Lair"], SourceFaction = "B" },
     [29038] = { Name = "Cyclone Breastplate", SourceType = LBIS.L["Tier Token"], Source = LBIS.L["Magtheridon"], SourceNumber = "29754", SourceLocation = LBIS.L["Magtheridon's Lair"], SourceFaction = "B" },
+    [29039] = { Name = "Cyclone Gauntlets", SourceType = LBIS.L["Tier Token"], Source = LBIS.L["The Curator"], SourceNumber = "29757", SourceLocation = LBIS.L["Karazhan"], SourceFaction = "B" },
     [29040] = { Name = "Cyclone Helm", SourceType = LBIS.L["Tier Token"], Source = LBIS.L["Prince Malchezaar"], SourceNumber = "29760", SourceLocation = LBIS.L["Karazhan"], SourceFaction = "B" },
     [29043] = { Name = "Cyclone Shoulderplates", SourceType = LBIS.L["Tier Token"], Source = LBIS.L["High King Maulgar"], SourceNumber = "29763", SourceLocation = LBIS.L["Gruul's Lair"], SourceFaction = "B" },
     [29044] = { Name = "Netherblade Facemask", SourceType = LBIS.L["Tier Token"], Source = LBIS.L["Prince Malchezaar"], SourceNumber = "29760", SourceLocation = LBIS.L["Karazhan"], SourceFaction = "B" },

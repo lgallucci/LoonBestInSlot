@@ -121,24 +121,25 @@ LBIS:AddItem(spec1, "24259", LBIS.L["Back"], "BIS") --Vengeance Wrap
 LBIS:AddItem(spec1, "28672", LBIS.L["Back"], "Alt") --Drape of the Dark Reavers
 LBIS:AddItem(spec1, "27878", LBIS.L["Back"], "Alt") --Auchenai Death Shroud
 LBIS:AddItem(spec1, "27892", LBIS.L["Back"], "Alt") --Cloak of the Inciter
+LBIS:AddItem(spec1, "30730", LBIS.L["Chest"], "BIS") --Terrorweave Tunic
+LBIS:AddItem(spec1, "29515", LBIS.L["Chest"], "BIS") --Ebon Netherscale Breastplate
+LBIS:AddItem(spec1, "25997", LBIS.L["Chest"], "BIS") --Gladiator's Linked Armor
 LBIS:AddItem(spec1, "29038", LBIS.L["Chest"], "BIS") --Cyclone Breastplate
-LBIS:AddItem(spec1, "30730", LBIS.L["Chest"], "Alt") --Terrorweave Tunic
 LBIS:AddItem(spec1, "29525", LBIS.L["Chest"], "Alt") --Primalstrike Vest
-LBIS:AddItem(spec1, "29515", LBIS.L["Chest"], "Alt") --Ebon Netherscale Breastplate
-LBIS:AddItem(spec1, "25997", LBIS.L["Chest"], "Alt") --Gladiator's Linked Armor
+LBIS:AddItem(spec1, "29517", LBIS.L["Wrist"], "BIS") --Ebon Netherscale Bracers
 LBIS:AddItem(spec1, "28514", LBIS.L["Wrist"], "BIS") --Bracers of Maliciousness
 LBIS:AddItem(spec1, "29527", LBIS.L["Wrist"], "Alt") --Primalstrike Bracers
-LBIS:AddItem(spec1, "29517", LBIS.L["Wrist"], "Alt") --Ebon Netherscale Bracers
 LBIS:AddItem(spec1, "25697", LBIS.L["Wrist"], "Alt") --Felstalker Bracers
 LBIS:AddItem(spec1, "28171", LBIS.L["Wrist"], "Alt") --Spymistress's Wristguards
 LBIS:AddItem(spec1, "30399", LBIS.L["Wrist"], "Alt") --Nightstalker's Wristguards
-LBIS:AddItem(spec1, "30341", LBIS.L["Hands"], "BIS") --Flesh Handler's Gauntlets
 LBIS:AddItem(spec1, "28776", LBIS.L["Hands"], "BIS") --Liar's Tongue Gloves
+LBIS:AddItem(spec1, "30341", LBIS.L["Hands"], "BIS") --Flesh Handler's Gauntlets
 LBIS:AddItem(spec1, "30644", LBIS.L["Hands"], "BIS") --Grips of Deftness
+LBIS:AddItem(spec1, "29039", LBIS.L["Hands"], "BIS") --Cyclone Gauntlets
 LBIS:AddItem(spec1, "29503", LBIS.L["Hands"], "Alt") --Cobrascale Gloves
+LBIS:AddItem(spec1, "29516", LBIS.L["Waist"], "BIS") --Ebon Netherscale Belt
 LBIS:AddItem(spec1, "28828", LBIS.L["Waist"], "BIS") --Gronn-Stitched Girdle
 LBIS:AddItem(spec1, "29526", LBIS.L["Waist"], "Alt") --Primalstrike Belt
-LBIS:AddItem(spec1, "29516", LBIS.L["Waist"], "Alt") --Ebon Netherscale Belt
 LBIS:AddItem(spec1, "29247", LBIS.L["Waist"], "Alt") --Girdle of the Deathdealer
 LBIS:AddItem(spec1, "27911", LBIS.L["Waist"], "Alt") --Epoch's Whispering Cinch
 LBIS:AddItem(spec1, "28741", LBIS.L["Legs"], "BIS") --Skulker's Greaves
