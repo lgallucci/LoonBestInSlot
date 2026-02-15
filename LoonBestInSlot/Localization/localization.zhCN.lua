@@ -204,6 +204,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Felmyst"] = "菲米丝";
   LBIS.L["Fhwoor Smash!"] = "弗沃尔发怒了！";
   LBIS.L["Fire"] = "火焰";
+  LBIS.L["Firemaw"] = "费尔默";
   LBIS.L["Flamegor"] = "弗莱格尔";
   LBIS.L["For The Horde!"] = "为部落而战！";
   LBIS.L["Forge Camp: Annihilated"] = "扫荡铸魔营地";

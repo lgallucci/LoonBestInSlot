@@ -232,11 +232,11 @@ LBIS:RegisterEvent("PLAYER_ENTERING_WORLD" , function ()
 	registerTooltip(ShoppingTooltip2);
 
 	registerTooltip(ItemRefTooltip);
-	registerTooltip(ItemRefShoppingTooltip1)
-	registerTooltip(ItemRefShoppingTooltip2)
+	registerTooltip(ItemRefShoppingTooltip1);
+	registerTooltip(ItemRefShoppingTooltip2);
 
 	if LinkWrangler then
-        LinkWrangler.RegisterCallback("EdrikGameFixes", linkWranglerHook, "allocate", "allocatecomp")
+        LinkWrangler.RegisterCallback("EdrikGameFixes", linkWranglerHook, "allocate", "allocatecomp");
     end
 
     LBIS:Startup();

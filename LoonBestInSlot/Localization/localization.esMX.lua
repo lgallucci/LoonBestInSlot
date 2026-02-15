@@ -203,6 +203,7 @@ if GetLocale() == "esMX" then
   LBIS.L["Felmyst"] = "Brumavil";
   LBIS.L["Fhwoor Smash!"] = "¡Fhwoor da el golpe!";
   LBIS.L["Fire"] = "Fuego";
+  LBIS.L["Firemaw"] = "Faucefogo";
   LBIS.L["Flamegor"] = "Flamagor";
   LBIS.L["For The Horde!"] = "¡Por la Horda!";
   LBIS.L["Forge Camp: Annihilated"] = "Campamento Forja: aniquilado";

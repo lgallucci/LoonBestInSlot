@@ -130,11 +130,12 @@ LBIS:AddItem(spec0, "19339", LBIS.L["Trinket"], "Alt") --Mind Quickening Gem
 LBIS:AddItem(spec0, "19379", LBIS.L["Trinket"], "Alt") --Neltharion's Tear
 LBIS:AddItem(spec0, "28040", LBIS.L["Trinket"], "Alt") --Vengeance of the Illidari
 LBIS:AddItem(spec0, "23554", LBIS.L["Main Hand"], "BIS") --Eternium Runed Blade
+LBIS:AddItem(spec0, "29155", LBIS.L["Main Hand"], "BIS") --Stormcaller
+LBIS:AddItem(spec0, "29153", LBIS.L["Main Hand"], "BIS") --Blade of the Archmage
+LBIS:AddItem(spec0, "30787", LBIS.L["Main Hand"], "BIS") --Illidari-Bane Mageblade
+LBIS:AddItem(spec0, "31336", LBIS.L["Main Hand"], "BIS") --Blade of Wizardry
 LBIS:AddItem(spec0, "27905", LBIS.L["Main Hand"], "Alt") --Greatsword of Horrid Dreams
-LBIS:AddItem(spec0, "29155", LBIS.L["Main Hand"], "Alt") --Stormcaller
-LBIS:AddItem(spec0, "29153", LBIS.L["Main Hand"], "Alt") --Blade of the Archmage
 LBIS:AddItem(spec0, "27543", LBIS.L["Main Hand"], "Alt") --Starlight Dagger
-LBIS:AddItem(spec0, "31336", LBIS.L["Main Hand"], "Alt") --Blade of Wizardry
 LBIS:AddItem(spec0, "29185", LBIS.L["Main Hand"], "Alt") --Continuum Blade
 LBIS:AddItem(spec0, "27868", LBIS.L["Main Hand"], "Alt") --Runesong Dagger
 LBIS:AddItem(spec0, "29269", LBIS.L["Off Hand"], "BIS") --Sapphiron's Wing Bone

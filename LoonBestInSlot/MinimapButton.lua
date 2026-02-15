@@ -13,13 +13,11 @@ function LBIS:RegisterMiniMap()
             HotCornerIgnore = true,
 
             OnClick = function (self, button)
-
                 if button == "LeftButton" then 
                     LBIS.BrowserWindow:ToggleWindow()
                 elseif button == "RightButton" then
                     Settings.OpenToCategory("Loon Best In Slot")
                 end
-
             end,
 
             OnTooltipShow = function (tooltip)

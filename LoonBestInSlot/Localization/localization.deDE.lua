@@ -203,6 +203,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Felmyst"] = "Teufelsruch";
   LBIS.L["Fhwoor Smash!"] = "Fhwoor zerschmettern!";
   LBIS.L["Fire"] = "Feuerschaden";
+  LBIS.L["Firemaw"] = "Feuerschwinge";
   LBIS.L["Flamegor"] = "Flammenmaul";
   LBIS.L["For The Horde!"] = "Für die Horde!";
   LBIS.L["Forge Camp: Annihilated"] = "Konstruktionslager: zerstört";

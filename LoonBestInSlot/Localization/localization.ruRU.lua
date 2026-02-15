@@ -204,6 +204,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Felmyst"] = "Пророк Скверны";
   LBIS.L["Fhwoor Smash!"] = "Фхвур крушить!";
   LBIS.L["Fire"] = "Огонь";
+  LBIS.L["Firemaw"] = "Огнечрев";
   LBIS.L["Flamegor"] = "Пламегор";
   LBIS.L["For The Horde!"] = "За Орду!";
   LBIS.L["Forge Camp: Annihilated"] = "Лагеря Легиона: уничтожены";

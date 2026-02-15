@@ -204,6 +204,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Felmyst"] = "지옥안개";
   LBIS.L["Fhwoor Smash!"] = "프우르의 공격!";
   LBIS.L["Fire"] = "화염";
+  LBIS.L["Firemaw"] = "화염아귀";
   LBIS.L["Flamegor"] = "플레임고르";
   LBIS.L["For The Horde!"] = "호드를 위하여!";
   LBIS.L["Forge Camp: Annihilated"] = "괴철로 기지 섬멸";

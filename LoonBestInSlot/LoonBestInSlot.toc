@@ -4,7 +4,7 @@
 ## OptionalDeps: LinkWrangler
 ## SavedVariables: LBISServerSettings
 ## SavedVariablesPerCharacter: LBISSettings
-## Version: 6.0.0
+## Version: 1.0.9
 
 libs\LibStub.lua
 libs\CallbackHandler-1.0.lua

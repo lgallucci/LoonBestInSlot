@@ -203,6 +203,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Felmyst"] = "Gangrebrume";
   LBIS.L["Fhwoor Smash!"] = "Fhwoor écrabouiller !";
   LBIS.L["Fire"] = "(Feu)";
+  LBIS.L["Firemaw"] = "Gueule-de-feu";
   LBIS.L["Flamegor"] = "Flamegor";
   LBIS.L["For The Horde!"] = "Pour la Horde !";
   LBIS.L["Forge Camp: Annihilated"] = "Le camp de forge Anéanti";
