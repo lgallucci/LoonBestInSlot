@@ -28,14 +28,15 @@ LBIS:AddEnchant(spec2, "27981", LBIS.L["Main Hand"]) --
 LBIS:AddEnchant(spec3, "27924", LBIS.L["Ring"]) --
 
 LBIS:AddItem(spec0, "28193", LBIS.L["Head"], "BIS") --Mana-Etched Crown
+LBIS:AddItem(spec0, "32089", LBIS.L["Head"], "BIS") --Mana-Binders Cowl
 LBIS:AddItem(spec0, "28169", LBIS.L["Head"], "Alt") --Mag'hari Ritualist's Horns
-LBIS:AddItem(spec0, "28415", LBIS.L["Head"], "Alt") --Hood of Oblivion
 LBIS:AddItem(spec0, "22498", LBIS.L["Head"], "Alt") --Frostfire Circlet
-LBIS:AddItem(spec0, "28278", LBIS.L["Head"], "Alt") --Incanter's Cowl
+LBIS:AddItem(spec0, "28415", LBIS.L["Head"], "Alt") --Hood of Oblivion
 LBIS:AddItem(spec0, "19375", LBIS.L["Head"], "Alt") --Mish'undare, Circlet of the Mind Flayer
-LBIS:AddItem(spec0, "24266", LBIS.L["Head"], "Alt") --Spellstrike Hood
+LBIS:AddItem(spec0, "28278", LBIS.L["Head"], "Alt") --Incanter's Cowl
 LBIS:AddItem(spec0, "31104", LBIS.L["Head"], "Alt") --Evoker's Helmet of Second Sight
 LBIS:AddItem(spec0, "30515", LBIS.L["Head"], "Alt") --Junior Technician 3rd Grade Goggles
+LBIS:AddItem(spec0, "24266", LBIS.L["Head"], "Alt") --Spellstrike Hood
 LBIS:AddItem(spec0, "27796", LBIS.L["Shoulder"], "BIS") --Mana-Etched Spaulders
 LBIS:AddItem(spec0, "35343", LBIS.L["Shoulder"], "BIS") --Evoker's Silk Amice
 LBIS:AddItem(spec0, "28866", LBIS.L["Shoulder"], "BIS") --High Warlord's Silk Amice

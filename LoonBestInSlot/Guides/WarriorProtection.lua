@@ -49,21 +49,23 @@ LBIS:AddEnchant(spec5, "44769", LBIS.L["Hands"]) --
 LBIS:AddItem(spec0, "32083", LBIS.L["Head"], "BIS") --Faceguard of Determination
 LBIS:AddItem(spec0, "27408", LBIS.L["Head"], "BIS Thrt") --Hope Bearer Helm
 LBIS:AddItem(spec0, "28180", LBIS.L["Head"], "BIS") --Myrmidon's Headdress
-LBIS:AddItem(spec0, "32871", LBIS.L["Head"], "Alt") --Horns of the Illidari
+LBIS:AddItem(spec0, "31105", LBIS.L["Head"], "Alt") --Overlord's Helmet of Second Sight
 LBIS:AddItem(spec0, "23519", LBIS.L["Head"], "Alt") --Felsteel Helm
+LBIS:AddItem(spec0, "32871", LBIS.L["Head"], "Alt") --Horns of the Illidari
 LBIS:AddItem(spec0, "28350", LBIS.L["Head"], "Alt Mit") --Warhelm of the Bold
 LBIS:AddItem(spec0, "32073", LBIS.L["Shoulder"], "BIS") --Spaulders of Dementia
 LBIS:AddItem(spec0, "27803", LBIS.L["Shoulder"], "Alt Mit") --Shoulderguards of the Bold
-LBIS:AddItem(spec0, "28703", LBIS.L["Shoulder"], "Alt") --Grand Marshal's Plate Shoulders
 LBIS:AddItem(spec0, "28855", LBIS.L["Shoulder"], "Alt") --High Warlord's Plate Shoulders
 LBIS:AddItem(spec0, "29316", LBIS.L["Shoulder"], "Alt") --Warchief's Mantle
+LBIS:AddItem(spec0, "28703", LBIS.L["Shoulder"], "Alt") --Grand Marshal's Plate Shoulders
 LBIS:AddItem(spec0, "35411", LBIS.L["Shoulder"], "Alt") --Savage Plate Shoulders
 LBIS:AddItem(spec0, "27847", LBIS.L["Shoulder"], "Alt Mit") --Fanblade Pauldrons
 LBIS:AddItem(spec0, "27804", LBIS.L["Back"], "BIS") --Devilshark Cape
-LBIS:AddItem(spec0, "27878", LBIS.L["Back"], "Alt Thrt") --Auchenai Death Shroud
-LBIS:AddItem(spec0, "27988", LBIS.L["Back"], "Alt Mit") --Burnoose of Shifting Ages
-LBIS:AddItem(spec0, "24253", LBIS.L["Back"], "Alt") --Cloak of Eternity
 LBIS:AddItem(spec0, "28256", LBIS.L["Back"], "Alt Mit") --Thoriumweave Cloak
+LBIS:AddItem(spec0, "27988", LBIS.L["Back"], "Alt Mit") --Burnoose of Shifting Ages
+LBIS:AddItem(spec0, "27892", LBIS.L["Back"], "Alt") --Cloak of the Inciter
+LBIS:AddItem(spec0, "24253", LBIS.L["Back"], "Alt") --Cloak of Eternity
+LBIS:AddItem(spec0, "27878", LBIS.L["Back"], "Alt Thrt") --Auchenai Death Shroud
 LBIS:AddItem(spec0, "28205", LBIS.L["Chest"], "BIS") --Breastplate of the Bold
 LBIS:AddItem(spec0, "28699", LBIS.L["Chest"], "BIS") --Grand Marshal's Plate Chestpiece
 LBIS:AddItem(spec0, "28851", LBIS.L["Chest"], "BIS") --High Warlord's Plate Chestpiece
@@ -100,22 +102,23 @@ LBIS:AddItem(spec0, "28176", LBIS.L["Feet"], "Alt") --Sha'tari Wrought Greaves
 LBIS:AddItem(spec0, "30386", LBIS.L["Feet"], "Alt") --Bloodguard's Greaves
 LBIS:AddItem(spec0, "29386", LBIS.L["Neck"], "BIS") --Necklace of the Juggernaut
 LBIS:AddItem(spec0, "28244", LBIS.L["Neck"], "BIS Thrt") --Pendant of Triumph
+LBIS:AddItem(spec0, "27546", LBIS.L["Neck"], "Alt") --Traitor's Noose
 LBIS:AddItem(spec0, "30378", LBIS.L["Neck"], "Alt") --Thalodien's Charm
-LBIS:AddItem(spec0, "29336", LBIS.L["Neck"], "Alt") --Mark of the Ravenguard
+LBIS:AddItem(spec0, "29335", LBIS.L["Neck"], "Alt") --Talon Lord's Collar
 LBIS:AddItem(spec0, "30834", LBIS.L["Ring"], "BIS Thrt") --Shapeshifter's Signet
 LBIS:AddItem(spec0, "29384", LBIS.L["Ring"], "BIS Mit") --Ring of Unyielding Force
-LBIS:AddItem(spec0, "28553", LBIS.L["Ring"], "Alt") --Band of the Exorcist
-LBIS:AddItem(spec0, "31078", LBIS.L["Ring"], "Alt") --Protector's Mark of the Redemption
-LBIS:AddItem(spec0, "27822", LBIS.L["Ring"], "Alt Thrt") --Crystal Band of Valor
 LBIS:AddItem(spec0, "30006", LBIS.L["Ring"], "Alt") --Wind Trader's Band
+LBIS:AddItem(spec0, "31078", LBIS.L["Ring"], "Alt") --Protector's Mark of the Redemption
+LBIS:AddItem(spec0, "28553", LBIS.L["Ring"], "Alt Thrt") --Band of the Exorcist
+LBIS:AddItem(spec0, "27822", LBIS.L["Ring"], "Alt Thrt") --Crystal Band of Valor
 LBIS:AddItem(spec0, "23836", LBIS.L["Trinket"], "BIS Mit") --Goblin Rocket Launcher
 LBIS:AddItem(spec0, "23835", LBIS.L["Trinket"], "BIS Mit") --Gnomish Poultryizer
 LBIS:AddItem(spec0, "28121", LBIS.L["Trinket"], "BIS Thrt") --Icon of Unyielding Courage
 LBIS:AddItem(spec0, "27770", LBIS.L["Trinket"], "Alt Mit") --Argussian Compass
 LBIS:AddItem(spec0, "29181", LBIS.L["Trinket"], "Alt Mit") --Timelapse Shard
 LBIS:AddItem(spec0, "27891", LBIS.L["Trinket"], "Alt") --Adamantine Figurine
-LBIS:AddItem(spec0, "29387", LBIS.L["Trinket"], "Alt Thrt") --Gnomeregan Auto-Blocker 600
 LBIS:AddItem(spec0, "19406", LBIS.L["Trinket"], "Alt") --Drake Fang Talisman
+LBIS:AddItem(spec0, "29387", LBIS.L["Trinket"], "Alt Thrt") --Gnomeregan Auto-Blocker 600
 LBIS:AddItem(spec0, "23206", LBIS.L["Trinket"], "Alt Thrt") --Mark of the Champion
 LBIS:AddItem(spec0, "30300", LBIS.L["Trinket"], "Alt") --Dabiri's Enigma
 LBIS:AddItem(spec0, "28042", LBIS.L["Trinket"], "Alt") --Regal Protectorate

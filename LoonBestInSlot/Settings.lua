@@ -249,6 +249,15 @@ local function CreateClassOptions(lbis_options)
 		width = 1.1,
 		order = 16,
 	};
+	lbis_options.args["showHolyPaladin"] = {
+		type = "toggle",
+		name = LBIS.L["Paladin"]..": "..LBIS.L["Holy"],
+		desc = LBIS.L["Paladin"]..": "..LBIS.L["Holy"],
+		get = function(info) return LBISSettings.Tooltip[LBIS.L["Holy"]..LBIS.L["Paladin"]] end,
+		set = function(info, val) LBISSettings.Tooltip[LBIS.L["Holy"]..LBIS.L["Paladin"]] = val end,
+		width = 1.1,
+		order = 19,
+	};
 	lbis_options.args["showProtPaladin"] = {
 		type = "toggle",
 		name = LBIS.L["Paladin"]..": "..LBIS.L["Protection"],

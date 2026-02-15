@@ -27,14 +27,15 @@ LBIS:AddEnchant(spec0, "27975", LBIS.L["Main Hand"]) --
 LBIS:AddEnchant(spec1, "27981", LBIS.L["Main Hand"]) --
 LBIS:AddEnchant(spec3, "27924", LBIS.L["Ring"]) --
 
-LBIS:AddItem(spec0, "28415", LBIS.L["Head"], "BIS") --Hood of Oblivion
-LBIS:AddItem(spec0, "28278", LBIS.L["Head"], "BIS") --Incanter's Cowl
+LBIS:AddItem(spec0, "32089", LBIS.L["Head"], "BIS") --Mana-Binders Cowl
 LBIS:AddItem(spec0, "28169", LBIS.L["Head"], "Alt") --Mag'hari Ritualist's Horns
+LBIS:AddItem(spec0, "28415", LBIS.L["Head"], "Alt") --Hood of Oblivion
 LBIS:AddItem(spec0, "19375", LBIS.L["Head"], "Alt") --Mish'undare, Circlet of the Mind Flayer
-LBIS:AddItem(spec0, "28193", LBIS.L["Head"], "Alt") --Mana-Etched Crown
+LBIS:AddItem(spec0, "28278", LBIS.L["Head"], "Alt") --Incanter's Cowl
 LBIS:AddItem(spec0, "31104", LBIS.L["Head"], "Alt") --Evoker's Helmet of Second Sight
-LBIS:AddItem(spec0, "24266", LBIS.L["Head"], "Alt") --Spellstrike Hood
+LBIS:AddItem(spec0, "28193", LBIS.L["Head"], "Alt") --Mana-Etched Crown
 LBIS:AddItem(spec0, "22498", LBIS.L["Head"], "Alt") --Frostfire Circlet
+LBIS:AddItem(spec0, "24266", LBIS.L["Head"], "Alt") --Spellstrike Hood
 LBIS:AddItem(spec0, "35343", LBIS.L["Shoulder"], "BIS") --Evoker's Silk Amice
 LBIS:AddItem(spec0, "28866", LBIS.L["Shoulder"], "BIS") --High Warlord's Silk Amice
 LBIS:AddItem(spec0, "27796", LBIS.L["Shoulder"], "BIS") --Mana-Etched Spaulders
@@ -49,16 +50,16 @@ LBIS:AddItem(spec0, "27981", LBIS.L["Back"], "BIS") --Sethekk Oracle Cloak
 LBIS:AddItem(spec0, "22731", LBIS.L["Back"], "Alt") --Cloak of the Devoured
 LBIS:AddItem(spec0, "24252", LBIS.L["Back"], "Alt") --Cloak of the Black Void
 LBIS:AddItem(spec0, "29813", LBIS.L["Back"], "Alt") --Cloak of Woven Energy
-LBIS:AddItem(spec0, "31140", LBIS.L["Back"], "Alt") --Cloak of Entropy
 LBIS:AddItem(spec0, "23050", LBIS.L["Back"], "Alt") --Cloak of the Necropolis
+LBIS:AddItem(spec0, "31140", LBIS.L["Back"], "Alt") --Cloak of Entropy
 LBIS:AddItem(spec0, "21848", LBIS.L["Chest"], "BIS") --Spellfire Robe
 LBIS:AddItem(spec0, "31340", LBIS.L["Chest"], "Alt") --Will of Edward the Odd
-LBIS:AddItem(spec0, "31297", LBIS.L["Chest"], "Alt") --Robe of the Crimson Order
 LBIS:AddItem(spec0, "25856", LBIS.L["Chest"], "Alt") --Gladiator's Silk Raiment
-LBIS:AddItem(spec0, "28191", LBIS.L["Chest"], "Alt") --Mana-Etched Vestments
+LBIS:AddItem(spec0, "31297", LBIS.L["Chest"], "Alt") --Robe of the Crimson Order
 LBIS:AddItem(spec0, "29341", LBIS.L["Chest"], "Alt") --Auchenai Anchorite's Robe
-LBIS:AddItem(spec0, "22496", LBIS.L["Chest"], "Alt") --Frostfire Robe
+LBIS:AddItem(spec0, "28191", LBIS.L["Chest"], "Alt") --Mana-Etched Vestments
 LBIS:AddItem(spec0, "28342", LBIS.L["Chest"], "Alt") --Warp Infused Drape
+LBIS:AddItem(spec0, "22496", LBIS.L["Chest"], "Alt") --Frostfire Robe
 LBIS:AddItem(spec0, "28232", LBIS.L["Chest"], "Alt") --Robe of Oblivion
 LBIS:AddItem(spec0, "29780", LBIS.L["Chest"], "Alt") --Kirin Tor Apprentice's Robes
 LBIS:AddItem(spec0, "31717", LBIS.L["Chest"], "Alt") --Shadowcast Tunic
@@ -66,8 +67,8 @@ LBIS:AddItem(spec0, "28411", LBIS.L["Wrist"], "BIS") --General's Silk Cuffs
 LBIS:AddItem(spec0, "24250", LBIS.L["Wrist"], "Alt") --Bracers of Havok
 LBIS:AddItem(spec0, "27462", LBIS.L["Wrist"], "Alt") --Crimson Bracers of Gloom
 LBIS:AddItem(spec0, "28174", LBIS.L["Wrist"], "Alt") --Shattrath Wraps
-LBIS:AddItem(spec0, "27537", LBIS.L["Hands"], "BIS") --Gloves of Oblivion
 LBIS:AddItem(spec0, "21847", LBIS.L["Hands"], "BIS") --Spellfire Gloves
+LBIS:AddItem(spec0, "27537", LBIS.L["Hands"], "BIS") --Gloves of Oblivion
 LBIS:AddItem(spec0, "27508", LBIS.L["Hands"], "Alt") --Incanter's Gloves
 LBIS:AddItem(spec0, "27465", LBIS.L["Hands"], "Alt") --Mana-Etched Gloves
 LBIS:AddItem(spec0, "29317", LBIS.L["Hands"], "Alt") --Tempest's Touch
@@ -80,8 +81,8 @@ LBIS:AddItem(spec0, "24262", LBIS.L["Legs"], "BIS") --Spellstrike Pants
 LBIS:AddItem(spec0, "28338", LBIS.L["Legs"], "Alt") --Devil-Stitched Leggings
 LBIS:AddItem(spec0, "30531", LBIS.L["Legs"], "Alt") --Breeches of the Occultist
 LBIS:AddItem(spec0, "27907", LBIS.L["Legs"], "Alt") --Mana-Etched Pantaloons
-LBIS:AddItem(spec0, "30709", LBIS.L["Legs"], "Alt") --Pantaloons of Flaming Wrath
 LBIS:AddItem(spec0, "28185", LBIS.L["Legs"], "Alt") --Khadgar's Kilt of Abjuration
+LBIS:AddItem(spec0, "30709", LBIS.L["Legs"], "Alt") --Pantaloons of Flaming Wrath
 LBIS:AddItem(spec0, "30532", LBIS.L["Legs"], "Alt") --Kirin Tor Master's Trousers
 LBIS:AddItem(spec0, "27838", LBIS.L["Legs"], "Alt") --Incanter's Trousers
 LBIS:AddItem(spec0, "28212", LBIS.L["Legs"], "Alt") --Aran's Sorcerous Slacks
