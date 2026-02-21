@@ -564,15 +564,15 @@ LBIS:AddItem(spec4, "32247", LBIS.L["Ring"], "Alt") --Ring of Captured Storms
 LBIS:AddItem(spec4, "29305", LBIS.L["Ring"], "Alt") --Band of the Eternal Sage
 LBIS:AddItem(spec4, "32483", LBIS.L["Trinket"], "BIS") --The Skull of Gul'dan
 LBIS:AddItem(spec4, "33829", LBIS.L["Trinket"], "BIS") --Hex Shrunken Head
-LBIS:AddItem(spec4, "32488", LBIS.L["Trinket"], "Alt") --Ashtongue Talisman of Insight
-LBIS:AddItem(spec4, "30720", LBIS.L["Trinket"], "Alt") --Serpent-Coil Braid
 LBIS:AddItem(spec4, "27683", LBIS.L["Trinket"], "Alt") --Quagmirran's Eye
 LBIS:AddItem(spec4, "29370", LBIS.L["Trinket"], "Alt") --Icon of the Silver Crescent
+LBIS:AddItem(spec4, "32488", LBIS.L["Trinket"], "Alt") --Ashtongue Talisman of Insight
 LBIS:AddItem(spec4, "38290", LBIS.L["Trinket"], "Alt") --Dark Iron Smoking Pipe
+LBIS:AddItem(spec4, "30720", LBIS.L["Trinket"], "Alt") --Serpent-Coil Braid
+LBIS:AddItem(spec4, "32053", LBIS.L["Main Hand"], "Alt") --Merciless Gladiator's Spellblade
 LBIS:AddItem(spec4, "30910", LBIS.L["Main Hand"], "Alt") --Tempest of Chaos
 LBIS:AddItem(spec4, "33467", LBIS.L["Main Hand"], "Alt") --Blade of Twisted Visions
 LBIS:AddItem(spec4, "33763", LBIS.L["Main Hand"], "Alt") --Vengeful Gladiator's Spellblade
-LBIS:AddItem(spec4, "32053", LBIS.L["Main Hand"], "Alt") --Merciless Gladiator's Spellblade
 LBIS:AddItem(spec4, "33334", LBIS.L["Off Hand"], "BIS") --Fetish of the Primal Gods
 LBIS:AddItem(spec4, "30872", LBIS.L["Off Hand"], "Alt") --Chronicle of Dark Secrets
 LBIS:AddItem(spec4, "32374", LBIS.L["Two Hand"], "BIS") --Zhar'doom, Greatstaff of the Devourer
