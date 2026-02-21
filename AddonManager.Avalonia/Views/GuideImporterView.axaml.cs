@@ -97,9 +97,12 @@ public partial class GuideImporterView : UserControl
 
             try
             {
-                WowheadImporter.VerifyGuide(guide.Item3[selectedPhase].ToList());
+                foreach(var phase in guide.Item3.Keys)
+                {
+                    WowheadImporter.VerifyGuide(guide.Item3[phase].ToList());
+                }
 
-                ConsoleOut.Text += $"{className}, Phase {selectedPhase} Verification Passed!" + Environment.NewLine;
+                ConsoleOut.Text += $"{className}, Verification Passed!" + Environment.NewLine;
             }
             catch (VerificationException vex)
             {

@@ -358,30 +358,35 @@ LBIS:AddItem(spec3, "28609", LBIS.L["Neck"], "Alt") --Emberspur Talisman
 LBIS:AddItem(spec3, "32528", LBIS.L["Ring"], "BIS") --Blessed Band of Karabor
 LBIS:AddItem(spec3, "32238", LBIS.L["Ring"], "BIS") --Ring of Calming Waves
 LBIS:AddItem(spec3, "29309", LBIS.L["Ring"], "BIS") --Band of the Eternal Restorer
-LBIS:AddItem(spec3, "30110", LBIS.L["Ring"], "Alt") --Coral Band of the Revived
 LBIS:AddItem(spec3, "30736", LBIS.L["Ring"], "Alt") --Ring of Flowing Light
 LBIS:AddItem(spec3, "28790", LBIS.L["Ring"], "Alt") --Naaru Lightwarden's Band
 LBIS:AddItem(spec3, "28763", LBIS.L["Ring"], "Alt") --Jade Ring of the Everliving
+LBIS:AddItem(spec3, "30110", LBIS.L["Ring"], "Alt") --Coral Band of the Revived
 LBIS:AddItem(spec3, "29920", LBIS.L["Ring"], "Alt") --Phoenix-Ring of Rebirth
 LBIS:AddItem(spec3, "32496", LBIS.L["Trinket"], "BIS") --Memento of Tyrande
 LBIS:AddItem(spec3, "29376", LBIS.L["Trinket"], "BIS") --Essence of the Martyr
 LBIS:AddItem(spec3, "38288", LBIS.L["Trinket"], "BIS") --Direbrew Hops
-LBIS:AddItem(spec3, "28590", LBIS.L["Trinket"], "Alt") --Ribbon of Sacrifice
 LBIS:AddItem(spec3, "23047", LBIS.L["Trinket"], "Alt") --Eye of the Dead
 LBIS:AddItem(spec3, "30841", LBIS.L["Trinket"], "Alt") --Lower City Prayerbook
 LBIS:AddItem(spec3, "19395", LBIS.L["Trinket"], "Alt") --Rejuvenating Gem
+LBIS:AddItem(spec3, "28590", LBIS.L["Trinket"], "Alt") --Ribbon of Sacrifice
 LBIS:AddItem(spec3, "32500", LBIS.L["Main Hand"], "BIS") --Crystal Spire of Karabor
-LBIS:AddItem(spec3, "30918", LBIS.L["Main Hand"], "BIS") --Hammer of Atonement
-LBIS:AddItem(spec3, "30108", LBIS.L["Main Hand"], "Alt") --Lightfathom Scepter
+LBIS:AddItem(spec3, "32964", LBIS.L["Main Hand"], "Alt") --Merciless Gladiator's Salvation
+LBIS:AddItem(spec3, "33743", LBIS.L["Main Hand"], "Alt") --Vengeful Gladiator's Salvation
 LBIS:AddItem(spec3, "28771", LBIS.L["Main Hand"], "Alt") --Light's Justice
+LBIS:AddItem(spec3, "30918", LBIS.L["Main Hand"], "Alt") --Hammer of Atonement
+LBIS:AddItem(spec3, "32451", LBIS.L["Main Hand"], "Alt") --Gladiator's Salvation
+LBIS:AddItem(spec3, "30108", LBIS.L["Main Hand"], "Alt") --Lightfathom Scepter
 LBIS:AddItem(spec3, "28522", LBIS.L["Main Hand"], "Alt") --Shard of the Virtuous
 LBIS:AddItem(spec3, "23556", LBIS.L["Main Hand"], "Alt") --Hand of Eternity
 LBIS:AddItem(spec3, "29353", LBIS.L["Main Hand"], "Alt") --Shockwave Truncheon
 LBIS:AddItem(spec3, "32255", LBIS.L["Off Hand"], "BIS") --Felstone Bulwark
 LBIS:AddItem(spec3, "30882", LBIS.L["Off Hand"], "BIS") --Bastion of Light
 LBIS:AddItem(spec3, "30911", LBIS.L["Off Hand"], "BIS") --Scepter of Purification
+LBIS:AddItem(spec3, "33309", LBIS.L["Off Hand"], "Alt") --Merciless Gladiator's Redoubt
 LBIS:AddItem(spec3, "29458", LBIS.L["Off Hand"], "Alt") --Aegis of the Vindicator
 LBIS:AddItem(spec3, "29923", LBIS.L["Off Hand"], "Alt") --Talisman of the Sun King
+LBIS:AddItem(spec3, "33735", LBIS.L["Off Hand"], "Alt") --Vengeful Gladiator's Redoubt
 LBIS:AddItem(spec3, "29274", LBIS.L["Off Hand"], "Alt") --Tears of Heaven
 LBIS:AddItem(spec3, "29267", LBIS.L["Off Hand"], "Alt") --Light-Bearer's Faith Shield
 LBIS:AddItem(spec3, "28592", LBIS.L["Ranged/Relic"], "BIS") --Libram of Souls Redeemed
