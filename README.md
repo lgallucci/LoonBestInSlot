@@ -1,5 +1,5 @@
 # LoonBestInSlot
-Loon Best in Slot addon for WOW Cata Classic
+Loon Best in Slot addon for WOW TBC Classic
 
 ## Features
 
