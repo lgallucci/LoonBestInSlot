@@ -235,7 +235,6 @@ LBIS:AddItem(spec1, "29327", LBIS.L["Hands"], "Alt") --Cryo-mitts
 LBIS:AddItem(spec1, "27806", LBIS.L["Hands"], "Alt") --Fathomheart Gauntlets
 LBIS:AddItem(spec1, "29524", LBIS.L["Waist"], "BIS") --Windhawk Belt
 LBIS:AddItem(spec1, "21873", LBIS.L["Waist"], "BIS") --Primal Mooncloth Belt
-LBIS:AddItem(spec1, "28751", LBIS.L["Waist~Legs"], "BIS") --Heart-Flame Leggings
 LBIS:AddItem(spec1, "29250", LBIS.L["Waist"], "Alt") --Cord of Sanctification
 LBIS:AddItem(spec1, "28567", LBIS.L["Waist"], "Alt") --Belt of Gale Force
 LBIS:AddItem(spec1, "28652", LBIS.L["Waist"], "Alt") --Cincture of Will
@@ -245,6 +244,7 @@ LBIS:AddItem(spec1, "21609", LBIS.L["Waist"], "Alt") --Regenerating Belt of Vek'
 LBIS:AddItem(spec1, "28398", LBIS.L["Waist"], "Alt") --The Sleeper's Cord
 LBIS:AddItem(spec1, "27542", LBIS.L["Waist"], "Alt") --Cord of Belief
 LBIS:AddItem(spec1, "30727", LBIS.L["Legs"], "BIS") --Gilded Trousers of Benediction
+LBIS:AddItem(spec1, "28751", LBIS.L["Legs"], "BIS") --Heart-Flame Leggings
 LBIS:AddItem(spec1, "30543", LBIS.L["Legs"], "Alt") --Pontifex Kilt
 LBIS:AddItem(spec1, "24261", LBIS.L["Legs"], "Alt") --Whitemend Pants
 LBIS:AddItem(spec1, "28591", LBIS.L["Legs"], "Alt") --Earthsoul Leggings
