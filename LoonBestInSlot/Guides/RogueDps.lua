@@ -115,22 +115,22 @@ LBIS:AddItem(spec1, "28509", LBIS.L["Neck"], "Alt") --Worgen Claw Necklace
 LBIS:AddItem(spec1, "28757", LBIS.L["Ring"], "BIS") --Ring of a Thousand Marks
 LBIS:AddItem(spec1, "28649", LBIS.L["Ring"], "BIS") --Garona's Signet Ring
 LBIS:AddItem(spec1, "30738", LBIS.L["Ring"], "BIS") --Ring of Reciprocity
-LBIS:AddItem(spec1, "31920", LBIS.L["Ring"], "Alt") --Shaffar's Band of Brutality
 LBIS:AddItem(spec1, "29283", LBIS.L["Ring"], "Alt") --Violet Signet of the Master Assassin
 LBIS:AddItem(spec1, "28791", LBIS.L["Ring"], "Alt") --Ring of the Recalcitrant
+LBIS:AddItem(spec1, "31920", LBIS.L["Ring"], "Alt") --Shaffar's Band of Brutality
 LBIS:AddItem(spec1, "28830", LBIS.L["Trinket"], "BIS") --Dragonspine Trophy
 LBIS:AddItem(spec1, "23206", LBIS.L["Trinket"], "BIS") --Mark of the Champion
 LBIS:AddItem(spec1, "29383", LBIS.L["Trinket"], "BIS") --Bloodlust Brooch
-LBIS:AddItem(spec1, "28288", LBIS.L["Trinket"], "Alt") --Abacus of Violent Odds
 LBIS:AddItem(spec1, "28579", LBIS.L["Trinket"], "Alt") --Romulo's Poison Vial
 LBIS:AddItem(spec1, "22954", LBIS.L["Trinket"], "Alt") --Kiss of the Spider
+LBIS:AddItem(spec1, "28288", LBIS.L["Trinket"], "Alt") --Abacus of Violent Odds
 LBIS:AddItem(spec1, "28438", LBIS.L["Main Hand"], "BIS") --Dragonmaw
 LBIS:AddItem(spec1, "28295", LBIS.L["Main Hand"], "BIS") --Gladiator's Slicer
 LBIS:AddItem(spec1, "31332", LBIS.L["Main Hand"], "BIS") --Blinkstrike
-LBIS:AddItem(spec1, "28729", LBIS.L["Main Hand"], "Alt") --Spiteblade
 LBIS:AddItem(spec1, "30733", LBIS.L["Main Hand"], "Alt") --Hope Ender
 LBIS:AddItem(spec1, "28312", LBIS.L["Main Hand"], "Alt") --Gladiator's Shanker
 LBIS:AddItem(spec1, "28768", LBIS.L["Main Hand"], "Alt") --Malchazeen
+LBIS:AddItem(spec1, "28729", LBIS.L["Main Hand"], "Alt") --Spiteblade
 LBIS:AddItem(spec1, "28307", LBIS.L["Off Hand"], "BIS") --Gladiator's Quickblade
 LBIS:AddItem(spec1, "28189", LBIS.L["Off Hand"], "BIS") --Latro's Shifting Sword
 LBIS:AddItem(spec1, "28310", LBIS.L["Off Hand"], "Alt") --Gladiator's Shiv
