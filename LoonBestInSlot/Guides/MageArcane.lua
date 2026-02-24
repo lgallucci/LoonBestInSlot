@@ -64,7 +64,7 @@ LBIS:AddItem(spec0, "28232", LBIS.L["Chest"], "Alt") --Robe of Oblivion
 LBIS:AddItem(spec0, "29780", LBIS.L["Chest"], "Alt") --Kirin Tor Apprentice's Robes
 LBIS:AddItem(spec0, "31717", LBIS.L["Chest"], "Alt") --Shadowcast Tunic
 LBIS:AddItem(spec0, "28411", LBIS.L["Wrist"], "BIS") --General's Silk Cuffs
-LBIS:AddItem(spec0, "24250", LBIS.L["Wrist"], "Alt") --Bracers of Havok
+LBIS:AddItem(spec0, "24250", LBIS.L["Wrist"], "BIS") --Bracers of Havok
 LBIS:AddItem(spec0, "27462", LBIS.L["Wrist"], "Alt") --Crimson Bracers of Gloom
 LBIS:AddItem(spec0, "28174", LBIS.L["Wrist"], "Alt") --Shattrath Wraps
 LBIS:AddItem(spec0, "27537", LBIS.L["Hands"], "BIS") --Gloves of Oblivion
@@ -78,8 +78,8 @@ LBIS:AddItem(spec0, "24256", LBIS.L["Waist"], "Alt") --Girdle of Ruination
 LBIS:AddItem(spec0, "31461", LBIS.L["Waist"], "Alt") --A'dal's Gift
 LBIS:AddItem(spec0, "22730", LBIS.L["Waist"], "Alt") --Eyestalk Waist Cord
 LBIS:AddItem(spec0, "24262", LBIS.L["Legs"], "BIS") --Spellstrike Pants
+LBIS:AddItem(spec0, "30531", LBIS.L["Legs"], "BIS") --Breeches of the Occultist
 LBIS:AddItem(spec0, "28338", LBIS.L["Legs"], "Alt") --Devil-Stitched Leggings
-LBIS:AddItem(spec0, "30531", LBIS.L["Legs"], "Alt") --Breeches of the Occultist
 LBIS:AddItem(spec0, "27907", LBIS.L["Legs"], "Alt") --Mana-Etched Pantaloons
 LBIS:AddItem(spec0, "28185", LBIS.L["Legs"], "Alt") --Khadgar's Kilt of Abjuration
 LBIS:AddItem(spec0, "30709", LBIS.L["Legs"], "Alt") --Pantaloons of Flaming Wrath
@@ -87,9 +87,9 @@ LBIS:AddItem(spec0, "27838", LBIS.L["Legs"], "Alt") --Incanter's Trousers
 LBIS:AddItem(spec0, "30532", LBIS.L["Legs"], "Alt") --Kirin Tor Master's Trousers
 LBIS:AddItem(spec0, "28212", LBIS.L["Legs"], "Alt") --Aran's Sorcerous Slacks
 LBIS:AddItem(spec0, "28410", LBIS.L["Feet"], "BIS") --General's Silk Footguards
+LBIS:AddItem(spec0, "29258", LBIS.L["Feet"], "BIS") --Boots of Ethereal Manipulation
+LBIS:AddItem(spec0, "28406", LBIS.L["Feet"], "BIS") --Sigil-Laced Boots
 LBIS:AddItem(spec0, "28179", LBIS.L["Feet"], "Alt") --Shattrath Jumpers
-LBIS:AddItem(spec0, "29258", LBIS.L["Feet"], "Alt") --Boots of Ethereal Manipulation
-LBIS:AddItem(spec0, "28406", LBIS.L["Feet"], "Alt") --Sigil-Laced Boots
 LBIS:AddItem(spec0, "27848", LBIS.L["Feet"], "Alt") --Embroidered Spellpyre Boots
 LBIS:AddItem(spec0, "28134", LBIS.L["Neck"], "BIS") --Brooch of Heightened Potential
 LBIS:AddItem(spec0, "24121", LBIS.L["Neck"], "BIS") --Chain of the Twilight Owl
