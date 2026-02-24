@@ -188,6 +188,7 @@ LBIS:AddItem(spec1, "28429", LBIS.L["Two Hand"], "BIS Mit") --Lionheart Champion
 LBIS:AddItem(spec1, "28441", LBIS.L["Two Hand"], "BIS Mit") --Deep Thunder
 LBIS:AddItem(spec1, "30722", LBIS.L["Two Hand"], "BIS") --Ethereum Nexus-Reaver
 LBIS:AddItem(spec1, "28773", LBIS.L["Two Hand"], "Alt") --Gorehowl
+LBIS:AddItem(spec1, "28774", LBIS.L["Two Hand"], "Alt") --Glaive of the Pit
 LBIS:AddItem(spec1, "24550", LBIS.L["Two Hand"], "Alt") --Gladiator's Greatsword
 LBIS:AddItem(spec1, "28800", LBIS.L["Two Hand"], "Alt") --Hammer of the Naaru
 LBIS:AddItem(spec1, "27484", LBIS.L["Ranged/Relic"], "BIS") --Libram of Avengement
