@@ -57,7 +57,6 @@ LBIS:AddItem(spec0, "27497", LBIS.L["Hands"], "Alt") --Doomplate Gauntlets
 LBIS:AddItem(spec0, "21581", LBIS.L["Hands"], "Alt") --Gauntlets of Annihilation
 LBIS:AddItem(spec0, "27985", LBIS.L["Waist"], "BIS") --Deathforge Girdle
 LBIS:AddItem(spec0, "25789", LBIS.L["Waist"], "Alt") --Rune-Engraved Belt
-LBIS:AddItem(spec0, "30257", LBIS.L["Waist"], "Alt") --Shattrath Leggings
 LBIS:AddItem(spec0, "29247", LBIS.L["Waist"], "Alt") --Girdle of the Deathdealer
 LBIS:AddItem(spec0, "31462", LBIS.L["Waist"], "Alt") --Shattrath's Champion Belt
 LBIS:AddItem(spec0, "28995", LBIS.L["Waist"], "Alt") --Marshal's Plate Belt
@@ -65,6 +64,7 @@ LBIS:AddItem(spec0, "23219", LBIS.L["Waist"], "Alt") --Girdle of the Mentor
 LBIS:AddItem(spec0, "30538", LBIS.L["Legs"], "BIS") --Midnight Legguards
 LBIS:AddItem(spec0, "25687", LBIS.L["Legs"], "BIS") --Fel Leather Leggings
 LBIS:AddItem(spec0, "30533", LBIS.L["Legs"], "Alt") --Vanquisher's Legplates
+LBIS:AddItem(spec0, "30257", LBIS.L["Legs"], "Alt") --Shattrath Leggings
 LBIS:AddItem(spec0, "31544", LBIS.L["Legs"], "Alt") --Clefthoof Hide Leggings
 LBIS:AddItem(spec0, "25686", LBIS.L["Feet"], "BIS") --Fel Leather Boots
 LBIS:AddItem(spec0, "30401", LBIS.L["Feet"], "Alt") --Farahlite Studded Boots

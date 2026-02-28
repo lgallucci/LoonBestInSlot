@@ -145,13 +145,13 @@ LBIS:AddItem(spec0, "24076", LBIS.L["Ring"], "Alt") --Azure Moonstone Ring
 LBIS:AddItem(spec0, "29322", LBIS.L["Ring"], "Alt") --Keeper's Ring of Piety
 LBIS:AddItem(spec0, "29376", LBIS.L["Trinket"], "BIS") --Essence of the Martyr
 LBIS:AddItem(spec0, "30841", LBIS.L["Trinket"], "BIS") --Lower City Prayerbook
-LBIS:AddItem(spec0, "32451", LBIS.L["Trinket"], "BIS") --Gladiator's Salvation
 LBIS:AddItem(spec0, "23047", LBIS.L["Trinket"], "Alt") --Eye of the Dead
 LBIS:AddItem(spec0, "25634", LBIS.L["Trinket"], "Alt") --Oshu'gun Relic
 LBIS:AddItem(spec0, "28190", LBIS.L["Trinket"], "Alt") --Scarab of the Infinite Cycle
 LBIS:AddItem(spec0, "24390", LBIS.L["Trinket"], "Alt") --Auslese's Light Channeler
 LBIS:AddItem(spec0, "19395", LBIS.L["Trinket"], "Alt") --Rejuvenating Gem
 LBIS:AddItem(spec0, "23556", LBIS.L["Main Hand"], "BIS") --Hand of Eternity
+LBIS:AddItem(spec0, "32451", LBIS.L["Main Hand"], "BIS") --Gladiator's Salvation
 LBIS:AddItem(spec0, "29353", LBIS.L["Main Hand"], "BIS") --Shockwave Truncheon
 LBIS:AddItem(spec0, "23056", LBIS.L["Main Hand"], "Alt") --Hammer of the Twisting Nether
 LBIS:AddItem(spec0, "28257", LBIS.L["Main Hand"], "Alt") --Hammer of the Penitent
