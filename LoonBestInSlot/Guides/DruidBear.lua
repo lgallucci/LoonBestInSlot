@@ -139,10 +139,8 @@ LBIS:AddItem(spec1, "28732", LBIS.L["Head"], "Alt Thrt") --Cowl of Defiance
 LBIS:AddItem(spec1, "28127", LBIS.L["Head"], "Alt Mit") --Gladiator's Dragonhide Helm
 LBIS:AddItem(spec1, "32087", LBIS.L["Head"], "Alt Thrt") --Mask of the Deceiver
 LBIS:AddItem(spec1, "29100", LBIS.L["Shoulder"], "BIS") --Mantle of Malorne
-LBIS:AddItem(spec1, "25689", LBIS.L["Shoulder"], "Alt") --Heavy Clefthoof Vest
 LBIS:AddItem(spec1, "27797", LBIS.L["Shoulder"], "Alt") --Wastewalker Shoulderpads
 LBIS:AddItem(spec1, "28129", LBIS.L["Shoulder"], "Alt Mit") --Gladiator's Dragonhide Spaulders
-LBIS:AddItem(spec1, "28264", LBIS.L["Shoulder"], "Alt") --Wastewalker Tunic
 LBIS:AddItem(spec1, "28755", LBIS.L["Shoulder"], "Alt Thrt") --Bladed Shoulderpads of the Merciless
 LBIS:AddItem(spec1, "32080", LBIS.L["Shoulder"], "Alt") --Mantle of Shadowy Embrace
 LBIS:AddItem(spec1, "28660", LBIS.L["Back"], "BIS Mit") --Gilded Thorium Cloak
@@ -155,6 +153,8 @@ LBIS:AddItem(spec1, "29096", LBIS.L["Chest"], "BIS") --Breastplate of Malorne
 LBIS:AddItem(spec1, "28130", LBIS.L["Chest"], "Alt Mit") --Gladiator's Dragonhide Tunic
 LBIS:AddItem(spec1, "29525", LBIS.L["Chest"], "Alt Thrt") --Primalstrike Vest
 LBIS:AddItem(spec1, "28601", LBIS.L["Chest"], "Alt") --Chestguard of the Conniver
+LBIS:AddItem(spec1, "25689", LBIS.L["Chest"], "Alt") --Heavy Clefthoof Vest
+LBIS:AddItem(spec1, "28264", LBIS.L["Chest"], "Alt") --Wastewalker Tunic
 LBIS:AddItem(spec1, "28978", LBIS.L["Wrist"], "BIS") --Marshal's Dragonhide Bracers
 LBIS:AddItem(spec1, "28988", LBIS.L["Wrist"], "BIS") --Marshal's Leather Bracers
 LBIS:AddItem(spec1, "29246", LBIS.L["Wrist"], "Alt") --Nightfall Wristguards
