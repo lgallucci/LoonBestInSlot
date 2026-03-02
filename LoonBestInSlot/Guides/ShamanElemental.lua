@@ -15,6 +15,8 @@ LBIS:AddGem(spec0, "77542", "3", "False") --Quick Tinker's Gear
 LBIS:AddGem(spec0, "77546", "3", "False") --Sparkling Tinker's Gear
 LBIS:AddGem(spec0, "76700", "3", "False") --Fractured Sun's Radiance
 LBIS:AddGem(spec0, "76672", "3", "False") --Artful Vermilion Onyx
+LBIS:AddGem(spec0, "76645", "3", "False") --Zen Wild Jade
+LBIS:AddGem(spec0, "77547", "3", "False") --Fractured Tinker's Gear
 
 LBIS:AddEnchant(spec3, "121195", LBIS.L["Shoulder"]) --
 LBIS:AddEnchant(spec3, "141168", LBIS.L["Back"]) --

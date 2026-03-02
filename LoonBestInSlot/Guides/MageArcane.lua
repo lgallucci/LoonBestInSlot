@@ -352,7 +352,7 @@ LBIS:AddItem(spec3, "87550", LBIS.L["Ring"], "Alt") --Vithrak, Gaze of the Deadm
 LBIS:AddItem(spec3, "95785", LBIS.L["Ring"], "Alt") --Ro'shak's Remembrance
 LBIS:AddItem(spec3, "81189", LBIS.L["Ring"], "Alt") --Ring of Malice
 LBIS:AddItem(spec3, "95638", LBIS.L["Ring"], "Alt") --Jin'rokh's Dreamshard
-LBIS:AddItem(spec3, "96516", LBIS.L["Trinket"], "BIS") --Cha-Ye's Essence of Brilliance
+LBIS:AddItem(spec3, "96413", LBIS.L["Trinket"], "BIS") --Wushoolay's Final Choice
 LBIS:AddItem(spec3, "96558", LBIS.L["Trinket"], "BIS") --Unerring Vision of Lei Shen
 LBIS:AddItem(spec3, "89081", LBIS.L["Trinket"], "Alt") --Blossom of Pure Snow
 LBIS:AddItem(spec3, "93254", LBIS.L["Trinket"], "Alt") --Static-Caster's Medallion
@@ -360,7 +360,7 @@ LBIS:AddItem(spec3, "93259", LBIS.L["Trinket"], "Alt") --Shock-Charger Medallion
 LBIS:AddItem(spec3, "94510", LBIS.L["Trinket"], "Alt") --Volatile Talisman of the Shado-Pan Assault
 LBIS:AddItem(spec3, "81192", LBIS.L["Trinket"], "Alt") --Vision of the Predator
 LBIS:AddItem(spec3, "95814", LBIS.L["Trinket"], "Alt") --Unerring Vision of Lei Shen
-LBIS:AddItem(spec3, "95711", LBIS.L["Trinket"], "Alt") --Breath of the Hydra
+LBIS:AddItem(spec3, "95669", LBIS.L["Trinket"], "Alt") --Wushoolay's Final Choice
 LBIS:AddItem(spec3, "81263", LBIS.L["Trinket"], "Alt") --Flashfrozen Resin Globule
 LBIS:AddItem(spec3, "96518", LBIS.L["Main Hand"], "BIS") --Athame of the Sanguine Ritual
 LBIS:AddItem(spec3, "89395", LBIS.L["Main Hand"], "Alt") --Amber Scythe of Klaxxi'vess

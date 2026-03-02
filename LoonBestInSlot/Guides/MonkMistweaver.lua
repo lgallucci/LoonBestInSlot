@@ -15,15 +15,19 @@ LBIS:AddGem(spec0, "76686", "3", "False") --Purified Imperial Amethyst
 LBIS:AddGem(spec0, "76668", "3", "False") --Reckless Vermilion Onyx
 LBIS:AddGem(spec0, "76660", "3", "False") --Potent Vermilion Onyx
 LBIS:AddGem(spec0, "77546", "3", "False") --Sparkling Tinker's Gear
+LBIS:AddGem(spec0, "76697", "3", "False") --Smooth Sun's Radiance
+LBIS:AddGem(spec0, "76640", "3", "False") --Misty Wild Jade
 
 LBIS:AddEnchant(spec3, "121195", LBIS.L["Shoulder"]) --
 LBIS:AddEnchant(spec3, "104403", LBIS.L["Back"]) --
 LBIS:AddEnchant(spec3, "104395", LBIS.L["Chest"]) --
+LBIS:AddEnchant(spec3, "124552", LBIS.L["Wrist"]) --
 LBIS:AddEnchant(spec3, "104389", LBIS.L["Wrist"]) --
 LBIS:AddEnchant(spec3, "141173", LBIS.L["Hands"]) --
 LBIS:AddEnchant(spec3, "104416", LBIS.L["Hands"]) --
 LBIS:AddEnchant(spec3, "82175", LBIS.L["Hands"]) --
 LBIS:AddEnchant(spec3, "122393", LBIS.L["Legs"]) --
+LBIS:AddEnchant(spec3, "122392", LBIS.L["Legs"]) --
 LBIS:AddEnchant(spec3, "104414", LBIS.L["Feet"]) --
 LBIS:AddEnchant(spec3, "104427", LBIS.L["Main Hand"]) --
 LBIS:AddEnchant(spec3, "104425", LBIS.L["Main Hand"]) --

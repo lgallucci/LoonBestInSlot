@@ -6,6 +6,7 @@ local spec4 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Restoration"], "4")
 local spec5 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Restoration"], "5")
 
 LBIS:AddGem(spec0, "95345", "5", "True") --Courageous Primal Diamond
+LBIS:AddGem(spec0, "95347", "5", "True") --Sinister Primal Diamond
 LBIS:AddGem(spec0, "76885", "3", "True") --Burning Primal Diamond
 LBIS:AddGem(spec0, "89882", "5", "False") --Crystallized Horror
 LBIS:AddGem(spec0, "76686", "3", "False") --Purified Imperial Amethyst

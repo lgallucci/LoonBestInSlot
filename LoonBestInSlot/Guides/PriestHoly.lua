@@ -318,7 +318,7 @@ LBIS:AddItem(spec3, "95106", LBIS.L["Hands"], "Alt") --Flameweaver Handwraps
 LBIS:AddItem(spec3, "95105", LBIS.L["Hands"], "Alt") --Ghostbinder Grips
 LBIS:AddItem(spec3, "95760", LBIS.L["Hands"], "Alt") --Helix-Breaker Gloves
 LBIS:AddItem(spec3, "81132", LBIS.L["Hands"], "Alt") --Paralyzing Gloves
-LBIS:AddItem(spec3, "94995", LBIS.L["Waist"], "BIS") --Detonation Cord
+LBIS:AddItem(spec3, "96898", LBIS.L["Waist"], "BIS") --Quet'zal's Crackling Cord
 LBIS:AddItem(spec3, "95532", LBIS.L["Waist"], "Alt") --Belt of Loa Charms
 LBIS:AddItem(spec3, "89063", LBIS.L["Waist"], "Alt") --Klaxxi Lash of the Seeker
 LBIS:AddItem(spec3, "95526", LBIS.L["Waist"], "Alt") --Shan'ze Scholar's Girdle
@@ -334,7 +334,7 @@ LBIS:AddItem(spec3, "89087", LBIS.L["Legs"], "Alt") --Poisoncrafter's Kilt
 LBIS:AddItem(spec3, "95122", LBIS.L["Legs"], "Alt") --Wisp-Weave Pantaloons
 LBIS:AddItem(spec3, "81689", LBIS.L["Legs"], "Alt") --Leggings of Hallowed Fire
 LBIS:AddItem(spec3, "95927", LBIS.L["Legs"], "Alt") --Legwraps of the Exorcist
-LBIS:AddItem(spec3, "95005", LBIS.L["Feet"], "BIS") --Treads of Delicate Fascia
+LBIS:AddItem(spec3, "96783", LBIS.L["Feet"], "BIS") --Mar'li's Bloodstained Sandals
 LBIS:AddItem(spec3, "94279", LBIS.L["Feet"], "Alt") --Falling Blossom Sandals
 LBIS:AddItem(spec3, "88877", LBIS.L["Feet"], "Alt") --Storm-Sing Sandals
 LBIS:AddItem(spec3, "93279", LBIS.L["Feet"], "Alt") --Shieldwarden Slippers

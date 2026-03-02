@@ -20,7 +20,7 @@ public static class Constants
             }
             else
             {
-                return @$"/media/louis/System/GIT/LoonBestInSlot/LoonBestInSlot";
+                return @$"/media/windowsdisk/GIT/LoonBestInSlot/LoonBestInSlot";
             }
         }
     }
@@ -35,7 +35,7 @@ public static class Constants
             }
             else
             {
-                return @$"/media/louis/System/GIT/LoonBestInSlot/AddonManager/ItemDatabase";
+                return @$"/media/windowsdisk/GIT/LoonBestInSlot/AddonManager/ItemDatabase";
             }
         }
     }
@@ -50,7 +50,7 @@ public static class Constants
             }
             else
             {
-                return @$"/media/louis/System/GIT/LoonBestInSlot/AddonManager/LocalizationCreator";
+                return @$"/media/windowsdisk/GIT/LoonBestInSlot/AddonManager/LocalizationCreator";
             }
         }
     }
