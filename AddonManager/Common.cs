@@ -10,11 +10,11 @@ public static class Common
     {
         IHtmlDocument? content;
 
-        await new BrowserFetcher().DownloadAsync();
+        await new BrowserFetcher(SupportedBrowser.Firefox).DownloadAsync();
         using (var browser = await Puppeteer.LaunchAsync(new LaunchOptions
         {
             Headless = true,
-            IgnoreHTTPSErrors = true,     
+            Browser = SupportedBrowser.Firefox,
         }))
         {
             var total = pageAddresses.Count();
@@ -33,11 +33,11 @@ public static class Common
     {        
         IHtmlDocument? content;
 
-        await new BrowserFetcher().DownloadAsync();
+        await new BrowserFetcher(SupportedBrowser.Firefox).DownloadAsync();
         using (var browser = await Puppeteer.LaunchAsync(new LaunchOptions
         {
             Headless = true,
-            IgnoreHTTPSErrors = true,
+            Browser = SupportedBrowser.Firefox,
         }))
         {
             var total = pageAddresses.Count();
@@ -54,11 +54,11 @@ public static class Common
 
     internal static async Task<IHtmlDocument?> LoadFromWebPage(string pageAddress, Action<string> writeToLog, CancellationToken? cancelToken = null, bool blockRedirects = false)
     {
-        await new BrowserFetcher().DownloadAsync();
+        await new BrowserFetcher(SupportedBrowser.Firefox).DownloadAsync();
         using (var browser = await Puppeteer.LaunchAsync(new LaunchOptions
         {
             Headless = true,
-            IgnoreHTTPSErrors = true,   
+            Browser = SupportedBrowser.Firefox,
         }))
         {
             return await RetryPageLoad(browser, pageAddress, writeToLog, cancelToken, 1, 1, blockRedirects);
