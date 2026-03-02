@@ -244,14 +244,14 @@ LBIS:AddItem(spec2, "29525", LBIS.L["Chest"], "Alt") --Primalstrike Vest
 LBIS:AddItem(spec2, "29096", LBIS.L["Chest"], "Alt") --Breastplate of Malorne
 LBIS:AddItem(spec2, "31972", LBIS.L["Chest"], "Alt Mit") --Merciless Gladiator's Dragonhide Tunic
 LBIS:AddItem(spec2, "30101", LBIS.L["Chest"], "Alt Thrt") --Bloodsea Brigand's Vest
-LBIS:AddItem(spec2, "29966", LBIS.L["Wrist"], "BIS") --Vambraces of Ending
-LBIS:AddItem(spec2, "32810", LBIS.L["Wrist"], "BIS Mit") --Veteran's Dragonhide Bracers
+LBIS:AddItem(spec2, "32810", LBIS.L["Wrist"], "BIS") --Veteran's Dragonhide Bracers
 LBIS:AddItem(spec2, "28988", LBIS.L["Wrist"], "Alt") --Marshal's Leather Bracers
 LBIS:AddItem(spec2, "28424", LBIS.L["Wrist"], "Alt") --General's Leather Bracers
-LBIS:AddItem(spec2, "29263", LBIS.L["Wrist"], "Alt") --Forestheart Bracers
 LBIS:AddItem(spec2, "32814", LBIS.L["Wrist"], "Alt") --Veteran's Leather Bracers
+LBIS:AddItem(spec2, "29263", LBIS.L["Wrist"], "Alt") --Forestheart Bracers
 LBIS:AddItem(spec2, "28978", LBIS.L["Wrist"], "Alt") --Marshal's Dragonhide Bracers
 LBIS:AddItem(spec2, "28445", LBIS.L["Wrist"], "Alt") --General's Dragonhide Bracers
+LBIS:AddItem(spec2, "29966", LBIS.L["Wrist"], "Alt") --Vambraces of Ending
 LBIS:AddItem(spec2, "30223", LBIS.L["Hands"], "BIS Mit") --Nordrassil Handgrips
 LBIS:AddItem(spec2, "29947", LBIS.L["Hands"], "BIS Thrt") --Gloves of the Searing Grip
 LBIS:AddItem(spec2, "31967", LBIS.L["Hands"], "Alt") --Merciless Gladiator's Dragonhide Gloves
@@ -265,7 +265,7 @@ LBIS:AddItem(spec2, "30040", LBIS.L["Waist"], "Alt") --Belt of Deep Shadow
 LBIS:AddItem(spec2, "29264", LBIS.L["Waist"], "Alt") --Tree-Mender's Belt
 LBIS:AddItem(spec2, "30229", LBIS.L["Legs"], "BIS") --Nordrassil Feral-Kilt
 LBIS:AddItem(spec2, "30535", LBIS.L["Legs"], "Alt") --Forestwalker Kilt
-LBIS:AddItem(spec2, "29099", LBIS.L["Legs"], "Alt Mit") --Greaves of Malorne
+LBIS:AddItem(spec2, "29099", LBIS.L["Legs"], "Alt") --Greaves of Malorne
 LBIS:AddItem(spec2, "29995", LBIS.L["Legs"], "Alt Thrt") --Leggings of Murderous Intent
 LBIS:AddItem(spec2, "28741", LBIS.L["Legs"], "Alt") --Skulker's Greaves
 LBIS:AddItem(spec2, "30041", LBIS.L["Feet"], "BIS") --Boots of Natural Grace
@@ -275,11 +275,11 @@ LBIS:AddItem(spec2, "30674", LBIS.L["Feet"], "Alt Mit") --Zierhut's Lost Treads
 LBIS:AddItem(spec2, "30060", LBIS.L["Feet"], "Alt Thrt") --Boots of Effortless Striking
 LBIS:AddItem(spec2, "30017", LBIS.L["Neck"], "BIS") --Telonicus's Pendant of Mayhem
 LBIS:AddItem(spec2, "33066", LBIS.L["Neck"], "BIS Mit") --Veteran's Pendant of Triumph
-LBIS:AddItem(spec2, "29381", LBIS.L["Neck"], "Alt") --Choker of Vile Intent
 LBIS:AddItem(spec2, "28674", LBIS.L["Neck"], "Alt") --Saberclaw Talisman
-LBIS:AddItem(spec2, "30099", LBIS.L["Neck"], "Alt Mit") --Frayed Tether of the Drowned
-LBIS:AddItem(spec2, "28745", LBIS.L["Neck"], "Alt") --Mithril Chain of Heroism
+LBIS:AddItem(spec2, "30099", LBIS.L["Neck"], "Alt") --Frayed Tether of the Drowned
 LBIS:AddItem(spec2, "28509", LBIS.L["Neck"], "Alt") --Worgen Claw Necklace
+LBIS:AddItem(spec2, "28745", LBIS.L["Neck"], "Alt") --Mithril Chain of Heroism
+LBIS:AddItem(spec2, "29381", LBIS.L["Neck"], "Alt") --Choker of Vile Intent
 LBIS:AddItem(spec2, "29279", LBIS.L["Ring"], "BIS Mit") --Violet Signet of the Great Protector
 LBIS:AddItem(spec2, "30052", LBIS.L["Ring"], "BIS Thrt") --Ring of Lethality
 LBIS:AddItem(spec2, "28792", LBIS.L["Ring"], "BIS Mit") --A'dal's Signet of Defense
@@ -293,11 +293,11 @@ LBIS:AddItem(spec2, "32658", LBIS.L["Trinket"], "BIS") --Badge of Tenacity
 LBIS:AddItem(spec2, "28579", LBIS.L["Trinket"], "BIS") --Romulo's Poison Vial
 LBIS:AddItem(spec2, "28830", LBIS.L["Trinket"], "BIS") --Dragonspine Trophy
 LBIS:AddItem(spec2, "29181", LBIS.L["Trinket"], "BIS Mit") --Timelapse Shard
-LBIS:AddItem(spec2, "30627", LBIS.L["Trinket"], "Alt Thrt") --Tsunami Talisman
+LBIS:AddItem(spec2, "23206", LBIS.L["Trinket"], "Alt Thrt") --Mark of the Champion
 LBIS:AddItem(spec2, "28121", LBIS.L["Trinket"], "Alt Thrt") --Icon of Unyielding Courage
 LBIS:AddItem(spec2, "29383", LBIS.L["Trinket"], "Alt Thrt") --Bloodlust Brooch
 LBIS:AddItem(spec2, "38287", LBIS.L["Trinket"], "Alt Thrt") --Empty Mug of Direbrew
-LBIS:AddItem(spec2, "23206", LBIS.L["Trinket"], "Alt Thrt") --Mark of the Champion
+LBIS:AddItem(spec2, "30627", LBIS.L["Trinket"], "Alt Thrt") --Tsunami Talisman
 LBIS:AddItem(spec2, "23836", LBIS.L["Trinket"], "Alt") --Goblin Rocket Launcher
 LBIS:AddItem(spec2, "23835", LBIS.L["Trinket"], "Alt") --Gnomish Poultryizer
 LBIS:AddItem(spec2, "30620", LBIS.L["Trinket"], "Alt") --Spyglass of the Hidden Fleet
@@ -310,10 +310,10 @@ LBIS:AddItem(spec2, "29171", LBIS.L["Two Hand"], "Alt") --Earthwarden
 LBIS:AddItem(spec2, "28658", LBIS.L["Two Hand"], "Alt") --Terestian's Stranglestaff
 LBIS:AddItem(spec2, "28476", LBIS.L["Two Hand"], "Alt") --Gladiator's Maul
 LBIS:AddItem(spec2, "32387", LBIS.L["Ranged/Relic"], "BIS") --Idol of the Raven Goddess
-LBIS:AddItem(spec2, "23198", LBIS.L["Ranged/Relic"], "BIS") --Idol of Brutality
-LBIS:AddItem(spec2, "28064", LBIS.L["Ranged/Relic"], "BIS") --Idol of the Wild
 LBIS:AddItem(spec2, "33946", LBIS.L["Ranged/Relic"], "Alt Mit") --Merciless Gladiator's Idol of Resolve
+LBIS:AddItem(spec2, "23198", LBIS.L["Ranged/Relic"], "Alt") --Idol of Brutality
 LBIS:AddItem(spec2, "33945", LBIS.L["Ranged/Relic"], "Alt Mit") --Gladiator's Idol of Resolve
+LBIS:AddItem(spec2, "28064", LBIS.L["Ranged/Relic"], "Alt") --Idol of the Wild
 LBIS:AddItem(spec2, "27744", LBIS.L["Ranged/Relic"], "Alt") --Idol of Ursoc
 
 LBIS:AddItem(spec3, "31039", LBIS.L["Head"], "BIS Mit") --Thunderheart Cover

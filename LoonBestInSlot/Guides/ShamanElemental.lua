@@ -205,8 +205,8 @@ LBIS:AddItem(spec2, "30734", LBIS.L["Legs"], "Alt") --Leggings of the Seventh Ci
 LBIS:AddItem(spec2, "30541", LBIS.L["Legs"], "Alt") --Stormsong Kilt
 LBIS:AddItem(spec2, "30067", LBIS.L["Feet"], "BIS") --Velvet Boots of the Guardian
 LBIS:AddItem(spec2, "28810", LBIS.L["Feet"], "Alt") --Windshear Boots
-LBIS:AddItem(spec2, "28406", LBIS.L["Feet"], "Alt") --Sigil-Laced Boots
 LBIS:AddItem(spec2, "30037", LBIS.L["Feet"], "Alt") --Boots of Blasting
+LBIS:AddItem(spec2, "28406", LBIS.L["Feet"], "Alt") --Sigil-Laced Boots
 LBIS:AddItem(spec2, "30043", LBIS.L["Feet"], "Alt") --Hurricane Boots
 LBIS:AddItem(spec2, "28517", LBIS.L["Feet"], "Alt") --Boots of Foretelling
 LBIS:AddItem(spec2, "30015", LBIS.L["Neck"], "BIS") --The Sun King's Talisman
@@ -219,14 +219,13 @@ LBIS:AddItem(spec2, "30109", LBIS.L["Ring"], "BIS") --Ring of Endless Coils
 LBIS:AddItem(spec2, "32779", LBIS.L["Ring"], "Alt") --Band of Frigid Elements
 LBIS:AddItem(spec2, "28753", LBIS.L["Ring"], "Alt") --Ring of Recurrence
 LBIS:AddItem(spec2, "29287", LBIS.L["Ring"], "Alt") --Violet Signet of the Archmage
-LBIS:AddItem(spec2, "29126", LBIS.L["Ring"], "Alt") --Seer's Signet
 LBIS:AddItem(spec2, "32664", LBIS.L["Ring"], "Alt") --Dreamcrystal Band
+LBIS:AddItem(spec2, "29126", LBIS.L["Ring"], "Alt") --Seer's Signet
 LBIS:AddItem(spec2, "28227", LBIS.L["Ring"], "Alt") --Sparking Arcanite Ring
 LBIS:AddItem(spec2, "31290", LBIS.L["Ring"], "Alt") --Band of Dominion
 LBIS:AddItem(spec2, "23207", LBIS.L["Trinket"], "BIS") --Mark of the Champion
 LBIS:AddItem(spec2, "28785", LBIS.L["Trinket"], "BIS") --The Lightning Capacitor
 LBIS:AddItem(spec2, "29370", LBIS.L["Trinket"], "BIS") --Icon of the Silver Crescent
-LBIS:AddItem(spec2, "38290", LBIS.L["Trinket"], "BIS") --Dark Iron Smoking Pipe
 LBIS:AddItem(spec2, "30626", LBIS.L["Trinket"], "Alt") --Sextant of Unstable Currents
 LBIS:AddItem(spec2, "27683", LBIS.L["Trinket"], "Alt") --Quagmirran's Eye
 LBIS:AddItem(spec2, "29179", LBIS.L["Trinket"], "Alt") --Xi'ri's Gift
@@ -236,8 +235,8 @@ LBIS:AddItem(spec2, "19379", LBIS.L["Trinket"], "Alt") --Neltharion's Tear
 LBIS:AddItem(spec2, "32450", LBIS.L["Main Hand"], "Alt") --Gladiator's Gavel
 LBIS:AddItem(spec2, "32963", LBIS.L["Main Hand"], "Alt") --Merciless Gladiator's Gavel
 LBIS:AddItem(spec2, "23554", LBIS.L["Main Hand"], "Alt") --Eternium Runed Blade
-LBIS:AddItem(spec2, "30832", LBIS.L["Main Hand"], "Alt") --Gavel of Unearthed Secrets
 LBIS:AddItem(spec2, "30723", LBIS.L["Main Hand"], "Alt") --Talon of the Tempest
+LBIS:AddItem(spec2, "30832", LBIS.L["Main Hand"], "Alt") --Gavel of Unearthed Secrets
 LBIS:AddItem(spec2, "28770", LBIS.L["Main Hand"], "Alt") --Nathrezim Mindblade
 LBIS:AddItem(spec2, "30049", LBIS.L["Off Hand"], "BIS") --Fathomstone
 LBIS:AddItem(spec2, "23049", LBIS.L["Off Hand"], "Alt") --Sapphiron's Left Eye

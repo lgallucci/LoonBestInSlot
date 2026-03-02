@@ -192,9 +192,9 @@ LBIS:AddItem(spec2, "29043", LBIS.L["Shoulder"], "Alt") --Cyclone Shoulderplates
 LBIS:AddItem(spec2, "25790", LBIS.L["Shoulder"], "Alt") --Expedition Scout's Epaulets
 LBIS:AddItem(spec2, "28755", LBIS.L["Shoulder"], "Alt") --Bladed Shoulderpads of the Merciless
 LBIS:AddItem(spec2, "27797", LBIS.L["Shoulder"], "Alt") --Wastewalker Shoulderpads
+LBIS:AddItem(spec2, "24259", LBIS.L["Back"], "BIS") --Vengeance Wrap
 LBIS:AddItem(spec2, "29994", LBIS.L["Back"], "BIS") --Thalassian Wildercloak
 LBIS:AddItem(spec2, "27892", LBIS.L["Back"], "Alt") --Cloak of the Inciter
-LBIS:AddItem(spec2, "24259", LBIS.L["Back"], "Alt") --Vengeance Wrap
 LBIS:AddItem(spec2, "28672", LBIS.L["Back"], "Alt") --Drape of the Dark Reavers
 LBIS:AddItem(spec2, "27878", LBIS.L["Back"], "Alt") --Auchenai Death Shroud
 LBIS:AddItem(spec2, "30185", LBIS.L["Chest"], "BIS") --Cataclysm Chestplate
@@ -243,17 +243,16 @@ LBIS:AddItem(spec2, "28649", LBIS.L["Ring"], "Alt") --Garona's Signet Ring
 LBIS:AddItem(spec2, "29379", LBIS.L["Ring"], "Alt") --Ring of Arathi Warlords
 LBIS:AddItem(spec2, "28830", LBIS.L["Trinket"], "BIS") --Dragonspine Trophy
 LBIS:AddItem(spec2, "29383", LBIS.L["Trinket"], "BIS") --Bloodlust Brooch
-LBIS:AddItem(spec2, "38287", LBIS.L["Trinket"], "BIS") --Empty Mug of Direbrew
 LBIS:AddItem(spec2, "23041", LBIS.L["Trinket"], "Alt") --Slayer's Crest
-LBIS:AddItem(spec2, "28288", LBIS.L["Trinket"], "Alt") --Abacus of Violent Odds
 LBIS:AddItem(spec2, "29776", LBIS.L["Trinket"], "Alt") --Core of Ar'kelos
-LBIS:AddItem(spec2, "28034", LBIS.L["Trinket"], "Alt") --Hourglass of the Unraveller
 LBIS:AddItem(spec2, "30627", LBIS.L["Trinket"], "Alt") --Tsunami Talisman
-LBIS:AddItem(spec2, "32944", LBIS.L["Main Hand"], "BIS") --Talon of the Phoenix
+LBIS:AddItem(spec2, "28034", LBIS.L["Trinket"], "Alt") --Hourglass of the Unraveller
+LBIS:AddItem(spec2, "28288", LBIS.L["Trinket"], "Alt") --Abacus of Violent Odds
+LBIS:AddItem(spec2, "29996", LBIS.L["Main Hand"], "BIS") --Rod of the Sun King
 LBIS:AddItem(spec2, "28439", LBIS.L["Main Hand"], "BIS") --Dragonstrike
 LBIS:AddItem(spec2, "29924", LBIS.L["Main Hand"], "BIS") --Netherbane
 LBIS:AddItem(spec2, "28433", LBIS.L["Main Hand"], "BIS") --Wicked Edge of the Planes
-LBIS:AddItem(spec2, "29996", LBIS.L["Main Hand"], "Alt") --Rod of the Sun King
+LBIS:AddItem(spec2, "32944", LBIS.L["Main Hand"], "Alt") --Talon of the Phoenix
 LBIS:AddItem(spec2, "31965", LBIS.L["Main Hand"], "Alt") --Merciless Gladiator's Cleaver
 LBIS:AddItem(spec2, "28308", LBIS.L["Main Hand"], "Alt") --Gladiator's Cleaver
 LBIS:AddItem(spec2, "28767", LBIS.L["Main Hand"], "Alt") --The Decapitator
