@@ -30,4 +30,4 @@ Data flow: WowheadGuideParser → Importers (Raid, Dungeon, etc.) → JSON in It
 - Adding new raid: Create Wowhead URL in RaidImporter; run importer.
 - Updating phases: Modify Constants.CurrentPhase; re-import guides.
 - Fixing parsing: Check WowheadGuideParser for table selectors; update if HTML changes.</content>
-<parameter name="filePath">/media/windowsdisk/GIT/LoonBestInSlot/.github/copilot-instructions.md
+<parameter name="filePath">/media/filesdisk/GIT/LoonBestInSlot/.github/copilot-instructions.md
