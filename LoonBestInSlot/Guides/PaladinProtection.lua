@@ -230,8 +230,8 @@ LBIS:AddItem(spec1, "29238", LBIS.L["Waist"], "Alt") --Lion's Heart Girdle
 LBIS:AddItem(spec1, "30371", LBIS.L["Waist"], "Alt") --Lightwarden's Girdle
 LBIS:AddItem(spec1, "30330", LBIS.L["Waist"], "Alt") --Starcaller's Plated Belt
 LBIS:AddItem(spec1, "27672", LBIS.L["Waist"], "Alt") --Girdle of the Immovable
-LBIS:AddItem(spec1, "29069", LBIS.L["Legs"], "BIS") --Justicar Legguards
 LBIS:AddItem(spec1, "28621", LBIS.L["Legs"], "BIS Mit") --Wrynn Dynasty Greaves
+LBIS:AddItem(spec1, "29069", LBIS.L["Legs"], "BIS") --Justicar Legguards
 LBIS:AddItem(spec1, "27839", LBIS.L["Legs"], "Alt") --Legplates of the Righteous
 LBIS:AddItem(spec1, "23518", LBIS.L["Legs"], "Alt") --Felsteel Leggings
 LBIS:AddItem(spec1, "27705", LBIS.L["Legs"], "Alt") --Gladiator's Lamellar Legguards
@@ -251,11 +251,11 @@ LBIS:AddItem(spec1, "29325", LBIS.L["Feet"], "Alt") --Flesh Beast's Metal Greave
 LBIS:AddItem(spec1, "30386", LBIS.L["Feet"], "Alt") --Bloodguard's Greaves
 LBIS:AddItem(spec1, "28516", LBIS.L["Neck"], "BIS Mit") --Barbed Choker of Discipline
 LBIS:AddItem(spec1, "28245", LBIS.L["Neck"], "BIS Thrt") --Pendant of Dominance
-LBIS:AddItem(spec1, "29386", LBIS.L["Neck"], "BIS") --Necklace of the Juggernaut
 LBIS:AddItem(spec1, "30378", LBIS.L["Neck"], "Alt") --Thalodien's Charm
 LBIS:AddItem(spec1, "31696", LBIS.L["Neck"], "Alt") --Natasha's Battle Chain
 LBIS:AddItem(spec1, "28530", LBIS.L["Neck"], "Alt Thrt") --Brooch of Unquenchable Fury
 LBIS:AddItem(spec1, "27792", LBIS.L["Neck"], "Alt") --Steam-Hinge Chain of Valor
+LBIS:AddItem(spec1, "29386", LBIS.L["Neck"], "Alt") --Necklace of the Juggernaut
 LBIS:AddItem(spec1, "29173", LBIS.L["Neck"], "Alt") --Strength of the Untamed
 LBIS:AddItem(spec1, "27871", LBIS.L["Neck"], "Alt") --Maladaar's Blessed Chaplet
 LBIS:AddItem(spec1, "29336", LBIS.L["Neck"], "Alt") --Mark of the Ravenguard
