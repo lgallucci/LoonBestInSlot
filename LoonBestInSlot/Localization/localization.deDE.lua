@@ -166,6 +166,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Earthshatter Wristguards"] = "Handgelenksschutz des Erdspalters";
   LBIS.L["Ebonroc"] = "Schattenschwinge";
   LBIS.L["Edit"] = "Bearbeiten";
+--  LBIS.L["Eldara Dawnrunner"] = "";
   LBIS.L["Elemental"] = "Elementarschaden";
   LBIS.L["Emperor Vek'lor"] = "Imperator Vek'lor";
   LBIS.L["Emperor Vek'nilash"] = "Imperator Vek'nilash";
@@ -198,6 +199,7 @@ if GetLocale() == "deDE" then
 --  LBIS.L["Faction Capital"] = "";
   LBIS.L["Fankriss the Unyielding"] = "Fankriss der Unnachgiebige";
   LBIS.L["Fathom-Lord Karathress"] = "Tiefenlord Karathress";
+--  LBIS.L["Fedryen Swiftwpear"] = "";
   LBIS.L["Feet"] = "Füße";
   LBIS.L["Fel Embers"] = "Teufelsglut";
   LBIS.L["Felmyst"] = "Teufelsruch";

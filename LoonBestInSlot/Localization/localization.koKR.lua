@@ -20,6 +20,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Aldor No More"] = "알도르여 안녕히...";
   LBIS.L["All"] = "전체";
   LBIS.L["Ally of the Netherwing"] = "황천날개 용군단의 동맹";
+  LBIS.L["Almaador"] = "알마도르 <샤타리 병참장교>";
   LBIS.L["Alterac Mountains"] = "알터랙 산맥";
 --  LBIS.L["Alterac Valley Marks"] = "";
 --  LBIS.L["Alterac Valley PvP Vendor"] = "";
@@ -167,6 +168,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Earthshatter Wristguards"] = "지축이동의 손목보호구";
   LBIS.L["Ebonroc"] = "에본로크";
   LBIS.L["Edit"] = "편집";
+--  LBIS.L["Eldara Dawnrunner"] = "";
   LBIS.L["Elemental"] = "원소";
   LBIS.L["Emperor Vek'lor"] = "제왕 베클로어";
   LBIS.L["Emperor Vek'nilash"] = "제왕 베크닐라쉬";
@@ -199,6 +201,7 @@ if GetLocale() == "koKR" then
 --  LBIS.L["Faction Capital"] = "";
   LBIS.L["Fankriss the Unyielding"] = "불굴의 판크리스";
   LBIS.L["Fathom-Lord Karathress"] = "심연의 군주 카라드레스";
+--  LBIS.L["Fedryen Swiftwpear"] = "";
   LBIS.L["Feet"] = "발";
   LBIS.L["Fel Embers"] = "지옥의 불씨";
   LBIS.L["Felmyst"] = "지옥안개";

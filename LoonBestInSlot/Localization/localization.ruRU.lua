@@ -20,6 +20,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Aldor No More"] = "Нет больше Алдора";
   LBIS.L["All"] = "Все";
   LBIS.L["Ally of the Netherwing"] = "Союзник Крыльев Пустоты";
+--  LBIS.L["Almaador"] = "";
   LBIS.L["Alterac Mountains"] = "Альтеракские горы";
 --  LBIS.L["Alterac Valley Marks"] = "";
 --  LBIS.L["Alterac Valley PvP Vendor"] = "";
@@ -167,6 +168,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Earthshatter Wristguards"] = "Накулачники Землекрушителя";
   LBIS.L["Ebonroc"] = "Черноскал";
   LBIS.L["Edit"] = "Отредактировать";
+--  LBIS.L["Eldara Dawnrunner"] = "";
   LBIS.L["Elemental"] = "Силы стихий";
   LBIS.L["Emperor Vek'lor"] = "Император Век'лор";
   LBIS.L["Emperor Vek'nilash"] = "Император Век'нилаш";
@@ -199,6 +201,7 @@ if GetLocale() == "ruRU" then
 --  LBIS.L["Faction Capital"] = "";
   LBIS.L["Fankriss the Unyielding"] = "Фанкрисс Непреклонный";
   LBIS.L["Fathom-Lord Karathress"] = "Повелитель глубин Каратресс";
+--  LBIS.L["Fedryen Swiftwpear"] = "";
   LBIS.L["Feet"] = "Ступни";
   LBIS.L["Fel Embers"] = "Угли Скверны";
   LBIS.L["Felmyst"] = "Пророк Скверны";

@@ -20,6 +20,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Aldor No More"] = "退出奥尔多";
   LBIS.L["All"] = "全部";
   LBIS.L["Ally of the Netherwing"] = "灵翼之盟";
+--  LBIS.L["Almaador"] = "";
   LBIS.L["Alterac Mountains"] = "奥特兰克山脉";
 --  LBIS.L["Alterac Valley Marks"] = "";
 --  LBIS.L["Alterac Valley PvP Vendor"] = "";
@@ -167,6 +168,7 @@ if GetLocale() == "zhCN" then
   LBIS.L["Earthshatter Wristguards"] = "碎地者护腕";
   LBIS.L["Ebonroc"] = "埃博诺克";
   LBIS.L["Edit"] = "编辑";
+--  LBIS.L["Eldara Dawnrunner"] = "";
   LBIS.L["Elemental"] = "元素";
   LBIS.L["Emperor Vek'lor"] = "维克洛尔大帝";
   LBIS.L["Emperor Vek'nilash"] = "维克尼拉斯大帝";
@@ -199,6 +201,7 @@ if GetLocale() == "zhCN" then
 --  LBIS.L["Faction Capital"] = "";
   LBIS.L["Fankriss the Unyielding"] = "顽强的范克瑞斯";
   LBIS.L["Fathom-Lord Karathress"] = "深水领主卡拉瑟雷斯";
+--  LBIS.L["Fedryen Swiftwpear"] = "";
   LBIS.L["Feet"] = "脚";
   LBIS.L["Fel Embers"] = "邪能灰烬";
   LBIS.L["Felmyst"] = "菲米丝";

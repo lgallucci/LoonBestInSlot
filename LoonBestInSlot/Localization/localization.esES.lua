@@ -19,6 +19,7 @@ if GetLocale() == "esES" then
   LBIS.L["Aldor No More"] = "Se acabaron los Aldor";
   LBIS.L["All"] = "Todo";
   LBIS.L["Ally of the Netherwing"] = "Aliado del Ala Abisal";
+--  LBIS.L["Almaador"] = "";
   LBIS.L["Alterac Mountains"] = "Montañas de Alterac";
 --  LBIS.L["Alterac Valley Marks"] = "";
 --  LBIS.L["Alterac Valley PvP Vendor"] = "";
@@ -166,6 +167,7 @@ if GetLocale() == "esES" then
   LBIS.L["Earthshatter Wristguards"] = "Los guardamuñecas Rompeterra";
   LBIS.L["Ebonroc"] = "Ebanorroca";
 --  LBIS.L["Edit"] = "";
+--  LBIS.L["Eldara Dawnrunner"] = "";
   LBIS.L["Elemental"] = "Elemental";
   LBIS.L["Emperor Vek'lor"] = "Emperador Vek'lor";
   LBIS.L["Emperor Vek'nilash"] = "Emperador Vek'nilash";
@@ -198,6 +200,7 @@ if GetLocale() == "esES" then
 --  LBIS.L["Faction Capital"] = "";
   LBIS.L["Fankriss the Unyielding"] = "Fankriss el Implacable";
   LBIS.L["Fathom-Lord Karathress"] = "Señor de las profundidades Karathress";
+--  LBIS.L["Fedryen Swiftwpear"] = "";
   LBIS.L["Feet"] = "Pies";
   LBIS.L["Fel Embers"] = "Ascuas viles";
   LBIS.L["Felmyst"] = "Brumavil";
