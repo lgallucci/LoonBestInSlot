@@ -1,24 +1,5 @@
 LBIS.EnchantList = {};
 
-local itemSlotOrder = {}
-itemSlotOrder[LBIS.L["Head"]] = 0;
-itemSlotOrder[LBIS.L["Shoulder"]] = 1;
-itemSlotOrder[LBIS.L["Back"]] = 2;
-itemSlotOrder[LBIS.L["Chest"]] = 3;
-itemSlotOrder[LBIS.L["Wrist"]] = 4;
-itemSlotOrder[LBIS.L["Hands"]] = 5;
-itemSlotOrder[LBIS.L["Waist"]] = 6;
-itemSlotOrder[LBIS.L["Legs"]] = 7;
-itemSlotOrder[LBIS.L["Feet"]] = 8;
-itemSlotOrder[LBIS.L["Neck"]] = 9;
-itemSlotOrder[LBIS.L["Ring"]] = 10;
-itemSlotOrder[LBIS.L["Trinket"]] = 11;
-itemSlotOrder[LBIS.L["Main Hand"]] = 12;
-itemSlotOrder[LBIS.L["Off Hand"]] = 13;
-itemSlotOrder[LBIS.L["Two Hand"]] = 14;
-itemSlotOrder[LBIS.L["Main Hand~Off Hand"]] = 15;
-itemSlotOrder[LBIS.L["Ranged/Relic"]] = 16;
-
 local function itemSortFunction(table, k1, k2)
 
     local item1 = table[k1];
@@ -30,10 +11,10 @@ local function itemSortFunction(table, k1, k2)
     local item1Slot = strsplit("~", item1.Slot);
     local item2lot = strsplit("~", item2.Slot);
 
-    if itemSlotOrder[item1Slot] < itemSlotOrder[item2lot] then
+    if LBIS.ItemSlotOrder[item1Slot] < LBIS.ItemSlotOrder[item2lot] then
         item1Score = item1Score + 1000;
     end
-    if itemSlotOrder[item1Slot] > itemSlotOrder[item2lot] then
+    if LBIS.ItemSlotOrder[item1Slot] > LBIS.ItemSlotOrder[item2lot] then
         item2Score = item2Score +  1000;
     end
 

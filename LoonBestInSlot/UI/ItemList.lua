@@ -1,23 +1,23 @@
 LBIS.ItemList = {};
 
-local itemSlotOrder = {}
-itemSlotOrder[LBIS.L["Head"]] = 0;
-itemSlotOrder[LBIS.L["Shoulder"]] = 1;
-itemSlotOrder[LBIS.L["Back"]] = 2;
-itemSlotOrder[LBIS.L["Chest"]] = 3;
-itemSlotOrder[LBIS.L["Wrist"]] = 4;
-itemSlotOrder[LBIS.L["Hands"]] = 5;
-itemSlotOrder[LBIS.L["Waist"]] = 6;
-itemSlotOrder[LBIS.L["Legs"]] = 7;
-itemSlotOrder[LBIS.L["Feet"]] = 8;
-itemSlotOrder[LBIS.L["Neck"]] = 9;
-itemSlotOrder[LBIS.L["Ring"]] = 10;
-itemSlotOrder[LBIS.L["Trinket"]] = 11;
-itemSlotOrder[LBIS.L["Main Hand"]] = 12;
-itemSlotOrder[LBIS.L["Off Hand"]] = 13;
-itemSlotOrder[LBIS.L["Two Hand"]] = 14;
-itemSlotOrder[LBIS.L["Main Hand~Off Hand"]] = 15;
-itemSlotOrder[LBIS.L["Ranged/Relic"]] = 16;
+LBIS.ItemSlotOrder = {}
+LBIS.ItemSlotOrder[LBIS.L["Head"]] = 0;
+LBIS.ItemSlotOrder[LBIS.L["Shoulder"]] = 1;
+LBIS.ItemSlotOrder[LBIS.L["Back"]] = 2;
+LBIS.ItemSlotOrder[LBIS.L["Chest"]] = 3;
+LBIS.ItemSlotOrder[LBIS.L["Wrist"]] = 4;
+LBIS.ItemSlotOrder[LBIS.L["Hands"]] = 5;
+LBIS.ItemSlotOrder[LBIS.L["Waist"]] = 6;
+LBIS.ItemSlotOrder[LBIS.L["Legs"]] = 7;
+LBIS.ItemSlotOrder[LBIS.L["Feet"]] = 8;
+LBIS.ItemSlotOrder[LBIS.L["Neck"]] = 9;
+LBIS.ItemSlotOrder[LBIS.L["Ring"]] = 10;
+LBIS.ItemSlotOrder[LBIS.L["Trinket"]] = 11;
+LBIS.ItemSlotOrder[LBIS.L["Main Hand"]] = 12;
+LBIS.ItemSlotOrder[LBIS.L["Off Hand"]] = 13;
+LBIS.ItemSlotOrder[LBIS.L["Two Hand"]] = 14;
+LBIS.ItemSlotOrder[LBIS.L["Main Hand~Off Hand"]] = 15;
+LBIS.ItemSlotOrder[LBIS.L["Ranged/Relic"]] = 16;
 
 local function itemSortFunction(table, k1, k2)
 
@@ -27,10 +27,10 @@ local function itemSortFunction(table, k1, k2)
     local item1Score = 0;
     local item2Score = 0;
 
-    if itemSlotOrder[item1.Slot] > itemSlotOrder[item2.Slot] then
+    if LBIS.ItemSlotOrder[item1.Slot] > LBIS.ItemSlotOrder[item2.Slot] then
         item1Score = item1Score * -10000;
     end
-    if itemSlotOrder[item1.Slot] < itemSlotOrder[item2.Slot] then
+    if LBIS.ItemSlotOrder[item1.Slot] < LBIS.ItemSlotOrder[item2.Slot] then
         item2Score = item2Score * -10000;
     end
 

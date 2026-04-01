@@ -1,32 +1,15 @@
 LBIS.CustomEditList = {};
 LBIS.CustomEditList.Items = {};
 
-local itemSlotOrder = {}
-itemSlotOrder[LBIS.L["Head"]] = 0;
-itemSlotOrder[LBIS.L["Shoulder"]] = 1;
-itemSlotOrder[LBIS.L["Back"]] = 2;
-itemSlotOrder[LBIS.L["Chest"]] = 3;
-itemSlotOrder[LBIS.L["Wrist"]] = 4;
-itemSlotOrder[LBIS.L["Hands"]] = 5;
-itemSlotOrder[LBIS.L["Waist"]] = 6;
-itemSlotOrder[LBIS.L["Legs"]] = 7;
-itemSlotOrder[LBIS.L["Feet"]] = 8;
-itemSlotOrder[LBIS.L["Neck"]] = 9;
-itemSlotOrder[LBIS.L["Ring"]] = 10;
-itemSlotOrder[LBIS.L["Trinket"]] = 11;
-itemSlotOrder[LBIS.L["Main Hand"]] = 12;
-itemSlotOrder[LBIS.L["Off Hand"]] = 13;
-itemSlotOrder[LBIS.L["Ranged/Relic"]] = 14;
-
 local function itemSortFunction(table, k1, k2)
 
     local item1Score = 0;
     local item2Score = 0;
     
-    if itemSlotOrder[k1] < itemSlotOrder[k2] then
+    if LBIS. rder[k1] < LBIS.ItemSlotOrder[k2] then
         item1Score = item1Score + 1000;
     end
-    if itemSlotOrder[k1] > itemSlotOrder[k2] then
+    if LBIS.ItemSlotOrder[k1] > LBIS.ItemSlotOrder[k2] then
         item2Score = item2Score +  1000;
     end
 
