@@ -11,6 +11,6 @@ internal class PaladinHolyMapping : SpecMapping
     public override string Phase1Url => "healer-best-gear-bis-pve";
     public override string Phase2Url => "healer-best-gear-bis-pve";
     public override string Phase3Url => "healer-best-gear-bis-pve";
-    public override string Phase4Url => "";
+    public override string Phase4Url => "healer-best-gear-bis-pve";
     public override string Phase5Url => "";
 }

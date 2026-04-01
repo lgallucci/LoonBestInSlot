@@ -11,6 +11,6 @@ internal class RogueSubtletyMapping : SpecMapping
     public override string Phase1Url => "dps-best-gear-bis-pve";
     public override string Phase2Url => "dps-best-gear-bis-pve";
     public override string Phase3Url => "dps-best-gear-bis-pve";
-    public override string Phase4Url => "";
+    public override string Phase4Url => "dps-best-gear-bis-pve";
     public override string Phase5Url => "";
 }
