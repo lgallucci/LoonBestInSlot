@@ -10,11 +10,11 @@ public static class Common
     {
         IHtmlDocument? content;
 
-        await new BrowserFetcher(SupportedBrowser.ChromeHeadlessShell).DownloadAsync();
+        await new BrowserFetcher(SupportedBrowser.Chrome).DownloadAsync();
         using (var browser = await Puppeteer.LaunchAsync(new LaunchOptions
         {
             Headless = true, 
-            Browser = SupportedBrowser.ChromeHeadlessShell
+            Browser = SupportedBrowser.Chrome
         }))
         {
             var total = pageAddresses.Count();
@@ -33,11 +33,11 @@ public static class Common
     {        
         IHtmlDocument? content;
 
-        await new BrowserFetcher(SupportedBrowser.ChromeHeadlessShell).DownloadAsync();
+        await new BrowserFetcher(SupportedBrowser.Chrome).DownloadAsync();
         using (var browser = await Puppeteer.LaunchAsync(new LaunchOptions
         {
             Headless = true,
-            Browser = SupportedBrowser.ChromeHeadlessShell
+            Browser = SupportedBrowser.Chrome
         }))
         {
             var total = pageAddresses.Count();
@@ -54,11 +54,11 @@ public static class Common
 
     internal static async Task<IHtmlDocument?> LoadFromWebPage(string pageAddress, Action<string> writeToLog, CancellationToken? cancelToken = null, bool blockRedirects = false)
     {
-        await new BrowserFetcher(SupportedBrowser.ChromeHeadlessShell).DownloadAsync();
+        await new BrowserFetcher(SupportedBrowser.Chrome).DownloadAsync();
         using (var browser = await Puppeteer.LaunchAsync(new LaunchOptions
         {
             Headless = true,
-            Browser = SupportedBrowser.ChromeHeadlessShell
+            Browser = SupportedBrowser.Chrome
         }))
         {
             return await RetryPageLoad(browser, pageAddress, writeToLog, cancelToken, 1, 1, blockRedirects);
