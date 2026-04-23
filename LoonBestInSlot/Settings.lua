@@ -9,6 +9,7 @@ LBISSettingsDefault =
 	SelectedZoneNumber = LBIS.L["All"],
 	ShowCustom = false,
 	HideObsolete = false,
+	ShowPhase = 1,
 	OpenTab = "ItemList",
 	minimap = {
 		hide = false,
@@ -76,7 +77,7 @@ local function CreatePhaseOptions(lbis_options)
 		width = 1.1,
 		order = 40,
 	};
-	if (LBIS.CurrentPhase >= 1) then
+	if (LBISSettings.ShowPhase >= 1) then
 		lbis_options.args["showPhase1"] = {
 			type = "toggle",
 			name = LBIS.L["Phase 1"],
@@ -87,7 +88,7 @@ local function CreatePhaseOptions(lbis_options)
 			order = 41,
 		};
 	end
-	if (LBIS.CurrentPhase >= 2) then
+	if (LBISSettings.ShowPhase >= 2) then
 		lbis_options.args["showPhase2"] = {
 			type = "toggle",
 			name = LBIS.L["Phase 2"],
@@ -98,7 +99,7 @@ local function CreatePhaseOptions(lbis_options)
 			order = 42,
 	   };
 	end
-	if (LBIS.CurrentPhase >= 3) then
+	if (LBISSettings.ShowPhase >= 3) then
 		lbis_options.args["showPhase3"] = {
 			type = "toggle",
 			name = LBIS.L["Phase 3"],
@@ -109,7 +110,7 @@ local function CreatePhaseOptions(lbis_options)
 			order = 43,
 	   };
 	end
-	if (LBIS.CurrentPhase >= 4) then
+	if (LBISSettings.ShowPhase >= 4) then
 		lbis_options.args["showPhase4"] = {
 			type = "toggle",
 			name = LBIS.L["Phase 4"],
@@ -120,7 +121,7 @@ local function CreatePhaseOptions(lbis_options)
 			order = 44,
 		};
 	end
-	if (LBIS.CurrentPhase >= 5) then
+	if (LBISSettings.ShowPhase >= 5) then
 		lbis_options.args["showPhase5"] = {
 			type = "toggle",
 			name = LBIS.L["Phase 5"],
@@ -154,6 +155,22 @@ local function CreatePhaseOptions(lbis_options)
 		set = function(info, val) LBISSettings.HideObsolete = val end,
 		width = 1.1,
 		order = 48,
+	};
+	lbis_options.args["showPhase"] = {
+        type = "select",
+            values = {
+                [1] = "Phase 1",
+                [2] = "Phase 2",
+                [3] = "Phase 3",
+                [4] = "Phase 4",
+                [5] = "Phase 5",
+            },
+		name = LBIS.L["Show Phase (Requires Reload)"],
+		desc = LBIS.L["Show Phase (Requires Reload)"],
+		get = function(info) return LBISSettings.ShowPhase end,
+		set = function(info, val) LBISSettings.ShowPhase = val end,
+		width = 1.1,
+		order = 49,
 	};
 end
 

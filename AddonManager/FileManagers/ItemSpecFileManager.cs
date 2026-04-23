@@ -12,12 +12,13 @@ public static class ItemSpecFileManager
     {
         var itemSB = new StringBuilder();
 
-        itemSB.AppendLine($"local spec0 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"0\")");
-        itemSB.AppendLine($"local spec1 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"1\")");
-        itemSB.AppendLine($"local spec2 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"2\")");
-        itemSB.AppendLine($"local spec3 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"3\")");
-        itemSB.AppendLine($"local spec4 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"4\")");
-        itemSB.AppendLine($"local spec5 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"5\")");
+        itemSB.AppendLine($"function LBIS:Load{className}{specName}()");
+        itemSB.AppendLine($"    local spec0 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"0\")");
+        itemSB.AppendLine($"    local spec1 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"1\")");
+        itemSB.AppendLine($"    local spec2 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"2\")");
+        itemSB.AppendLine($"    local spec3 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"3\")");
+        itemSB.AppendLine($"    local spec4 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"4\")");
+        itemSB.AppendLine($"    local spec5 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"5\")");
 
         itemSB.AppendLine();
         foreach (var phaseGems in gemsList)
@@ -28,7 +29,7 @@ public static class ItemSpecFileManager
             {
                 string specString = $"spec{phaseGems.Key}";
 
-                itemSB.AppendLine($"LBIS:AddGem({specString}, \"{gem.GemId}\", \"{gem.Quality}\", \"{gem.IsMeta.ToString()}\") --{gem.Name}");
+                itemSB.AppendLine($"    LBIS:AddGem({specString}, \"{gem.GemId}\", \"{gem.Quality}\", \"{gem.IsMeta.ToString()}\") --{gem.Name}");
             }
         }
 
@@ -40,7 +41,7 @@ public static class ItemSpecFileManager
 
             foreach (var enchant in enchants)
             {
-                itemSB.AppendLine($"LBIS:AddEnchant(spec{phaseEnchants.Key}, \"{enchant.EnchantId}\", LBIS.L[\"{enchant.Slot}\"]) --{enchant.Name}");
+                itemSB.AppendLine($"    LBIS:AddEnchant(spec{phaseEnchants.Key}, \"{enchant.EnchantId}\", LBIS.L[\"{enchant.Slot}\"]) --{enchant.Name}");
             }
         }
 
@@ -52,10 +53,11 @@ public static class ItemSpecFileManager
 
             foreach (var item in items)
             {
-                itemSB.AppendLine($"LBIS:AddItem(spec{phaseItems.Key}, \"{item.ItemId}\", LBIS.L[\"{item.Slot}\"], \"{item.BisStatus}\") --{item.Name}");
+                itemSB.AppendLine($"    LBIS:AddItem(spec{phaseItems.Key}, \"{item.ItemId}\", LBIS.L[\"{item.Slot}\"], \"{item.BisStatus}\") --{item.Name}");
             }
         }
 
+        itemSB.AppendLine($"end");
         System.IO.File.WriteAllText(path, itemSB.ToString());
     }
 

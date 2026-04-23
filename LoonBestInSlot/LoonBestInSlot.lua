@@ -10,7 +10,6 @@ LBIS.GemsBySpecAndId = {};
 LBIS.EnchantsBySpecAndId = {};
 
 LBIS.AllItemsCached = false;
-LBIS.CurrentPhase = 1;
 LBIS.Debugging = false;
 
 LBIS.EventFrame = CreateFrame("FRAME", addonName.."Events")
@@ -36,7 +35,10 @@ function LBIS:Startup()
 	LBIS:CreateSettings();
 	LBIS:RegisterMiniMap();
     LBIS:PreCacheItems();
+	LBIS:LoadGuides();
 	LBIS:InitializeUI();
+
+	print("|cffffff00Loon Best In Slot loaded. Type /bis for options.|r");
 end
 
 function LBIS:RegisterEvent(...)
@@ -89,8 +91,14 @@ function LBIS:RegisterSpec(class, spec, phase)
     return classSpec
 end
 
+local tempPrint = true;
 local addOrder = 0;
 function LBIS:AddItem(bisEntry, id, slot, bis)
+
+	if tempPrint then
+		print("adding item: ", id, slot, bis);
+	end
+	tempPrint = false;
 
 	if strlen(id) <= 0 then
 		return
@@ -98,7 +106,7 @@ function LBIS:AddItem(bisEntry, id, slot, bis)
 
 	local itemId = tonumber(id);
 
-	if LBIS.CurrentPhase < tonumber(bisEntry.Phase) then
+	if LBISSettings.ShowPhase < tonumber(bisEntry.Phase) then
 		return;
 	end
 
@@ -110,7 +118,7 @@ function LBIS:AddItem(bisEntry, id, slot, bis)
 		bis = LBIS.L["PreRaid"];
 	elseif bisEntry.Phase == "99" then
 		bis = LBIS.L["PrePatch"];
-	elseif tonumber(bisEntry.Phase) < LBIS.CurrentPhase then
+	elseif tonumber(bisEntry.Phase) < LBISSettings.ShowPhase then
 		bis = string.gsub(bis, "BIS", "Alt");
 	end
 
@@ -166,7 +174,7 @@ function LBIS:AddGem(bisEntry, id, quality, isMeta)
 
 	local gemId = tonumber(id);
 
-	if LBIS.CurrentPhase < tonumber(bisEntry.Phase) then
+	if LBISSettings.ShowPhase < tonumber(bisEntry.Phase) then
 		return;
 	end
 
@@ -208,7 +216,7 @@ function LBIS:AddEnchant(bisEntry, id, slot)
 
 	local enchantId = tonumber(id);
 
-	if LBIS.CurrentPhase < tonumber(bisEntry.Phase) then
+	if LBISSettings.ShowPhase < tonumber(bisEntry.Phase) then
 		return;
 	end
 

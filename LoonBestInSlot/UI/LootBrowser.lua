@@ -283,19 +283,19 @@ local function createDropDowns(window)
 
     local function getPhases()
         local phases = { LBIS.L["All"], LBIS.L["PreRaid"] };
-        if LBIS.CurrentPhase >= 1 then
+        if LBISSettings.ShowPhase >= 1 then
             table.insert(phases, LBIS.L["Phase 1"]);
         end
-        if LBIS.CurrentPhase >= 2 then
+        if LBISSettings.ShowPhase >= 2 then
             table.insert(phases, LBIS.L["Phase 2"]);
         end
-        if LBIS.CurrentPhase >= 3 then
+        if LBISSettings.ShowPhase >= 3 then
             table.insert(phases, LBIS.L["Phase 3"]);
         end
-        if LBIS.CurrentPhase >= 4 then
+        if LBISSettings.ShowPhase >= 4 then
             table.insert(phases, LBIS.L["Phase 4"]);
         end
-        if LBIS.CurrentPhase >= 5 then
+        if LBISSettings.ShowPhase >= 5 then
             table.insert(phases, LBIS.L["Phase 5"]);
         end
         table.insert(phases, LBIS.L["BIS"]);
@@ -348,27 +348,27 @@ local function createDropDowns(window)
     local function getZoneItems()
         local items = { LBIS.L["All"],  }-- Phase 0
 
-        if LBIS.CurrentPhase >= 1 then            
+        if LBISSettings.ShowPhase >= 1 then            
             table.insert(items, LBIS.L["Karazhan"]);
             table.insert(items, LBIS.L["Gruul's Lair"]);
             table.insert(items, LBIS.L["Magtheridon's Lair"]);
         end
 
-        if LBIS.CurrentPhase >= 2 then
+        if LBISSettings.ShowPhase >= 2 then
             table.insert(items, LBIS.L["Serpentshrine Cavern"]);
             table.insert(items, LBIS.L["Tempest Keep"]);
         end
 
-        if LBIS.CurrentPhase >= 3 then
+        if LBISSettings.ShowPhase >= 3 then
             table.insert(items, LBIS.L["Hyjal Summit"]);
             table.insert(items, LBIS.L["Black Temple"]);
         end
 
-        if LBIS.CurrentPhase >= 4 then
+        if LBISSettings.ShowPhase >= 4 then
             table.insert(items, LBIS.L["Zul'Aman"]);
         end
 
-        if LBIS.CurrentPhase >= 5 then
+        if LBISSettings.ShowPhase >= 5 then
             table.insert(items, LBIS.L["Sunwell Plateau"]);
         end
 

@@ -369,10 +369,11 @@ LBIS:AddItem(spec2, "30100", LBIS.L["Feet"], "Alt") --Soul-Strider Boots
 LBIS:AddItem(spec2, "29251", LBIS.L["Feet"], "Alt") --Boots of the Pious
 LBIS:AddItem(spec2, "28752", LBIS.L["Feet"], "Alt") --Forestlord Striders
 LBIS:AddItem(spec2, "30018", LBIS.L["Neck"], "BIS") --Lord Sanguinar's Claim
-LBIS:AddItem(spec2, "33068", LBIS.L["Neck"], "Alt") --Veteran's Pendant of Salvation
-LBIS:AddItem(spec2, "28822", LBIS.L["Neck"], "Alt") --Teeth of Gruul
-LBIS:AddItem(spec2, "28609", LBIS.L["Neck"], "Alt") --Emberspur Talisman
 LBIS:AddItem(spec2, "28731", LBIS.L["Neck"], "Alt") --Shining Chain of the Afterworld
+LBIS:AddItem(spec2, "30726", LBIS.L["Neck"], "Alt") --Archaic Charm of Presence
+LBIS:AddItem(spec2, "33068", LBIS.L["Neck"], "Alt") --Veteran's Pendant of Salvation
+LBIS:AddItem(spec2, "28609", LBIS.L["Neck"], "Alt") --Emberspur Talisman
+LBIS:AddItem(spec2, "28822", LBIS.L["Neck"], "Alt") --Teeth of Gruul
 LBIS:AddItem(spec2, "30110", LBIS.L["Ring"], "BIS") --Coral Band of the Revived
 LBIS:AddItem(spec2, "28763", LBIS.L["Ring"], "BIS") --Jade Ring of the Everliving
 LBIS:AddItem(spec2, "31383", LBIS.L["Ring"], "Alt") --Spiritualist's Mark of the Sha'tar
@@ -384,15 +385,14 @@ LBIS:AddItem(spec2, "27780", LBIS.L["Ring"], "Alt") --Ring of Fabled Hope
 LBIS:AddItem(spec2, "29168", LBIS.L["Ring"], "Alt") --Ancestral Band
 LBIS:AddItem(spec2, "29169", LBIS.L["Ring"], "Alt") --Ring of Convalescence
 LBIS:AddItem(spec2, "29376", LBIS.L["Trinket"], "BIS") --Essence of the Martyr
-LBIS:AddItem(spec2, "38288", LBIS.L["Trinket"], "BIS") --Direbrew Hops
-LBIS:AddItem(spec2, "25634", LBIS.L["Trinket"], "Alt") --Oshu'gun Relic
-LBIS:AddItem(spec2, "19395", LBIS.L["Trinket"], "Alt") --Rejuvenating Gem
-LBIS:AddItem(spec2, "28190", LBIS.L["Trinket"], "Alt") --Scarab of the Infinite Cycle
+LBIS:AddItem(spec2, "25634", LBIS.L["Trinket"], "BIS") --Oshu'gun Relic
 LBIS:AddItem(spec2, "28590", LBIS.L["Trinket"], "Alt") --Ribbon of Sacrifice
-LBIS:AddItem(spec2, "28727", LBIS.L["Trinket"], "Alt") --Pendant of the Violet Eye
+LBIS:AddItem(spec2, "19395", LBIS.L["Trinket"], "Alt") --Rejuvenating Gem
 LBIS:AddItem(spec2, "30841", LBIS.L["Trinket"], "Alt") --Lower City Prayerbook
-LBIS:AddItem(spec2, "28823", LBIS.L["Trinket"], "Alt") --Eye of Gruul
 LBIS:AddItem(spec2, "23047", LBIS.L["Trinket"], "Alt") --Eye of the Dead
+LBIS:AddItem(spec2, "28190", LBIS.L["Trinket"], "Alt") --Scarab of the Infinite Cycle
+LBIS:AddItem(spec2, "28727", LBIS.L["Trinket"], "Alt") --Pendant of the Violet Eye
+LBIS:AddItem(spec2, "28823", LBIS.L["Trinket"], "Alt") --Eye of Gruul
 LBIS:AddItem(spec2, "30108", LBIS.L["Main Hand"], "BIS") --Lightfathom Scepter
 LBIS:AddItem(spec2, "28522", LBIS.L["Main Hand"], "Alt") --Shard of the Virtuous
 LBIS:AddItem(spec2, "32964", LBIS.L["Main Hand"], "Alt") --Merciless Gladiator's Salvation
@@ -406,8 +406,8 @@ LBIS:AddItem(spec2, "29274", LBIS.L["Off Hand"], "BIS") --Tears of Heaven
 LBIS:AddItem(spec2, "29170", LBIS.L["Off Hand"], "BIS") --Windcaller's Orb
 LBIS:AddItem(spec2, "28728", LBIS.L["Off Hand"], "Alt") --Aran's Soothing Sapphire
 LBIS:AddItem(spec2, "23048", LBIS.L["Off Hand"], "Alt") --Sapphiron's Right Eye
-LBIS:AddItem(spec2, "32961", LBIS.L["Off Hand"], "Alt") --Merciless Gladiator's Reprieve
 LBIS:AddItem(spec2, "23029", LBIS.L["Off Hand"], "Alt") --Noth's Frigid Heart
+LBIS:AddItem(spec2, "32961", LBIS.L["Off Hand"], "Alt") --Merciless Gladiator's Reprieve
 LBIS:AddItem(spec2, "27477", LBIS.L["Off Hand"], "Alt") --Faol's Signet of Cleansing
 LBIS:AddItem(spec2, "29923", LBIS.L["Off Hand"], "Alt") --Talisman of the Sun King
 LBIS:AddItem(spec2, "28525", LBIS.L["Off Hand"], "Alt") --Signet of Unshakable Faith

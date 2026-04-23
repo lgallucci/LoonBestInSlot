@@ -1,8 +1,41 @@
 LBIS.ReCacheDate = time({year=2025, month=11, day=20, hour=00})
 LBIS.SpellCache = {};
+LBIS.CurrentPhase = 1;
+
+function LBIS:LoadGuides()
+    LBIS:LoadDruidBalance()
+    LBIS:LoadDruidFeral()
+    LBIS:LoadDruidGuardian()
+    LBIS:LoadDruidRestoration()
+    LBIS:LoadHunterBeastMastery()
+    LBIS:LoadHunterMarksmanship()
+    LBIS:LoadHunterSurvival()
+    LBIS:LoadMageArcane()
+    LBIS:LoadMageFire()
+    LBIS:LoadMageFrost()
+    LBIS:LoadPaladinHoly()
+    LBIS:LoadPaladinProtection()
+    LBIS:LoadPaladinRetribution()
+    LBIS:LoadPriestHoly()
+    LBIS:LoadPriestShadow()
+    LBIS:LoadRogueDps()
+    LBIS:LoadShamanElemental()
+    LBIS:LoadShamanEnhancement()
+    LBIS:LoadShamanRestoration()
+    LBIS:LoadWarlockAffliction()
+    LBIS:LoadWarlockDemonology()
+    LBIS:LoadWarlockDestruction()
+    LBIS:LoadWarriorArms()
+    LBIS:LoadWarriorFury()
+    LBIS:LoadWarriorProtection()
+end
 
 function LBIS:PreCacheItems()
     if LBIS.AllItemsCached then return LBIS.AllItemsCached; end
+
+    if (LBIS.CurrentPhase > LBISSettings.ShowPhase) then
+        LBISSettings.ShowPhase = LBIS.CurrentPhase;
+    end
 
     LBIS.AllItemsCached = true;
     --If cache date is updated (because of cache changing) reset the cache
