@@ -12,7 +12,7 @@ public static class ItemSpecFileManager
     {
         var itemSB = new StringBuilder();
 
-        itemSB.AppendLine($"function LBIS:Load{className}{specName}()");
+        itemSB.AppendLine($"function LBIS:Load{className.Replace(" ", "")}{specName.Replace(" ", "")}()");
         itemSB.AppendLine($"    local spec0 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"0\")");
         itemSB.AppendLine($"    local spec1 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"1\")");
         itemSB.AppendLine($"    local spec2 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"2\")");
@@ -72,7 +72,7 @@ public static class ItemSpecFileManager
         int count = 0;        
         foreach (var itemSpecLine in itemSpecLines)
         {
-            if (itemSpecLine.Contains("local spec"))
+            if (itemSpecLine.Contains("local spec") || itemSpecLine.StartsWith("function LBIS:Load") || itemSpecLine == "end")
             {
                 continue;
             }

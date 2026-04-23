@@ -91,14 +91,8 @@ function LBIS:RegisterSpec(class, spec, phase)
     return classSpec
 end
 
-local tempPrint = true;
 local addOrder = 0;
 function LBIS:AddItem(bisEntry, id, slot, bis)
-
-	if tempPrint then
-		print("adding item: ", id, slot, bis);
-	end
-	tempPrint = false;
 
 	if strlen(id) <= 0 then
 		return
