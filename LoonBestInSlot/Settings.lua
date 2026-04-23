@@ -10,6 +10,7 @@ LBISSettingsDefault =
 	ShowCustom = false,
 	HideObsolete = false,
 	ShowPhase = 1,
+	WindowScale = 1,
 	OpenTab = "ItemList",
 	minimap = {
 		hide = false,
@@ -171,6 +172,20 @@ local function CreatePhaseOptions(lbis_options)
 		set = function(info, val) LBISSettings.ShowPhase = val end,
 		width = 1.1,
 		order = 49,
+	};
+	lbis_options.args["windowScale"] = {
+        type = "select",
+            values = {
+                [1] = "Small",
+                [1.2] = "Medium",
+                [1.4] = "Large",
+            },
+		name = LBIS.L["Window Scale"],
+		desc = LBIS.L["Window Scale"],
+		get = function(info) return LBISSettings.WindowScale end,
+		set = function(info, val) LBISSettings.WindowScale = val end,
+		width = 1.1,
+		order = 50,
 	};
 end
 

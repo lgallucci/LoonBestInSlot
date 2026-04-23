@@ -13,6 +13,7 @@ function LBIS.BrowserWindow:OpenWindow(tabName)
         LBISSettings.OpenTab = tabName;
     end
     LBIS.BrowserWindow:RefreshItems();
+    LBIS.BrowserWindow.Window:SetScale(LBISSettings.WindowScale);
     LBIS.BrowserWindow.Window:Show();
 
     --If cache date is updated (because of cache changing) reset the cache
