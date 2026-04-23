@@ -5,7 +5,7 @@ LBIS.CurrentPhase = 1;
 function LBIS:LoadGuides()
     LBIS:LoadDruidBalance()
     LBIS:LoadDruidCat()
-    LBIS:LoadDruidGuardian()
+    LBIS:LoadDruidBear()
     LBIS:LoadDruidRestoration()
     LBIS:LoadHunterBeastMastery()
     LBIS:LoadHunterMarksmanship()

@@ -6,7 +6,7 @@ local function itemSortFunction(table, k1, k2)
     local item1Score = 0;
     local item2Score = 0;
     
-    if LBIS. rder[k1] < LBIS.ItemSlotOrder[k2] then
+    if LBIS.ItemSlotOrder[k1] < LBIS.ItemSlotOrder[k2] then
         item1Score = item1Score + 1000;
     end
     if LBIS.ItemSlotOrder[k1] > LBIS.ItemSlotOrder[k2] then
@@ -115,6 +115,7 @@ local defaultCustomList = {
 	[LBIS.L["Trinket"]] = {},
 	[LBIS.L["Main Hand"]] = {},
 	[LBIS.L["Off Hand"]] = {},
+	[LBIS.L["Two Hand"]] = {},
 	[LBIS.L["Ranged/Relic"]] = {}
 };
 function LBIS.CustomEditList:UpdateItems()
@@ -137,6 +138,20 @@ function LBIS.CustomEditList:UpdateItems()
         if savedCustomList == nil then
             savedCustomList = LBIS:DeepCopy(defaultCustomList)
             LBISServerSettings.CustomList[selectedSpec] = savedCustomList;
+        else
+            --Remove any slots that are not in the default list
+            for slot, itemList in pairs(savedCustomList) do
+                if defaultCustomList[slot] == nil then
+                    savedCustomList[slot] = nil;
+                end
+            end
+
+            --Add any missing slots from the default list
+            for slot, itemList in pairs(defaultCustomList) do
+                if savedCustomList[slot] == nil then
+                    savedCustomList[slot] = {};
+                end
+            end
         end
 
         for slot, itemList in LBIS:spairs(savedCustomList, itemSortFunction) do            
