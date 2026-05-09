@@ -78,61 +78,51 @@ local function CreatePhaseOptions(lbis_options)
 		width = 1.1,
 		order = 40,
 	};
-	if (LBISSettings.ShowPhase >= 1) then
-		lbis_options.args["showPhase1"] = {
-			type = "toggle",
-			name = LBIS.L["Phase 1"],
-			desc = LBIS.L["Phase 1"],
-			get = function(info) return LBISSettings.PhaseTooltip[LBIS.L["Phase 1"]] end,
-			set = function(info, val) LBISSettings.PhaseTooltip[LBIS.L["Phase 1"]] = val end,
-			width = 1.1,
-			order = 41,
-		};
-	end
-	if (LBISSettings.ShowPhase >= 2) then
-		lbis_options.args["showPhase2"] = {
-			type = "toggle",
-			name = LBIS.L["Phase 2"],
-			desc = LBIS.L["Phase 2"],
-			get = function(info) return LBISSettings.PhaseTooltip[LBIS.L["Phase 2"]] end,
-			set = function(info, val) LBISSettings.PhaseTooltip[LBIS.L["Phase 2"]] = val end,
-			width = 1.1,
-			order = 42,
-	   };
-	end
-	if (LBISSettings.ShowPhase >= 3) then
-		lbis_options.args["showPhase3"] = {
-			type = "toggle",
-			name = LBIS.L["Phase 3"],
-			desc = LBIS.L["Phase 3"],
-			get = function(info) return LBISSettings.PhaseTooltip[LBIS.L["Phase 3"]] end,
-			set = function(info, val) LBISSettings.PhaseTooltip[LBIS.L["Phase 3"]] = val end,
-			width = 1.1,
-			order = 43,
-	   };
-	end
-	if (LBISSettings.ShowPhase >= 4) then
-		lbis_options.args["showPhase4"] = {
-			type = "toggle",
-			name = LBIS.L["Phase 4"],
-			desc = LBIS.L["Phase 4"],
-			get = function(info) return LBISSettings.PhaseTooltip[LBIS.L["Phase 4"]] end,
-			set = function(info, val) LBISSettings.PhaseTooltip[LBIS.L["Phase 4"]] = val end,
-			width = 1.1,
-			order = 44,
-		};
-	end
-	if (LBISSettings.ShowPhase >= 5) then
-		lbis_options.args["showPhase5"] = {
-			type = "toggle",
-			name = LBIS.L["Phase 5"],
-			desc = LBIS.L["Phase 5"],
-			get = function(info) return LBISSettings.PhaseTooltip[LBIS.L["Phase 5"]] end,
-			set = function(info, val) LBISSettings.PhaseTooltip[LBIS.L["Phase 5"]] = val end,
-			width = 1.1,
-			order = 45,
-		};
-	end
+	lbis_options.args["showPhase1"] = {
+		type = "toggle",
+		name = LBIS.L["Phase 1"],
+		desc = LBIS.L["Phase 1"],
+		get = function(info) return LBISSettings.PhaseTooltip[LBIS.L["Phase 1"]] end,
+		set = function(info, val) LBISSettings.PhaseTooltip[LBIS.L["Phase 1"]] = val end,
+		width = 1.1,
+		order = 41,
+	};
+	lbis_options.args["showPhase2"] = {
+		type = "toggle",
+		name = LBIS.L["Phase 2"],
+		desc = LBIS.L["Phase 2"],
+		get = function(info) return LBISSettings.PhaseTooltip[LBIS.L["Phase 2"]] end,
+		set = function(info, val) LBISSettings.PhaseTooltip[LBIS.L["Phase 2"]] = val end,
+		width = 1.1,
+		order = 42,
+	};
+	lbis_options.args["showPhase3"] = {
+		type = "toggle",
+		name = LBIS.L["Phase 3"],
+		desc = LBIS.L["Phase 3"],
+		get = function(info) return LBISSettings.PhaseTooltip[LBIS.L["Phase 3"]] end,
+		set = function(info, val) LBISSettings.PhaseTooltip[LBIS.L["Phase 3"]] = val end,
+		width = 1.1,
+		order = 43,
+	};
+	lbis_options.args["showPhase4"] = {
+		type = "toggle",
+		name = LBIS.L["Phase 4"],
+		desc = LBIS.L["Phase 4"],
+		get = function(info) return LBISSettings.PhaseTooltip[LBIS.L["Phase 4"]] end,
+		set = function(info, val) LBISSettings.PhaseTooltip[LBIS.L["Phase 4"]] = val end,
+		width = 1.1,
+		order = 44,
+	};
+	lbis_options.args["showPhase5"] = {
+		type = "toggle",
+		name = LBIS.L["Phase 5"],
+		desc = LBIS.L["Phase 5"],
+		get = function(info) return LBISSettings.PhaseTooltip[LBIS.L["Phase 5"]] end,
+		set = function(info, val) LBISSettings.PhaseTooltip[LBIS.L["Phase 5"]] = val end,
+		width = 1.1,
+		order = 45,
+	};
 	lbis_options.args["spacer3"] = {
 		type = "header",
 		name = "",
@@ -307,15 +297,6 @@ local function CreateClassOptions(lbis_options)
 		set = function(info, val) LBISSettings.Tooltip[LBIS.L["Retribution"]..LBIS.L["Paladin"]] = val end,
 		width = 1.1,
 		order = 21,
-	};
-	lbis_options.args["showDiscPriest"] = {
-		type = "toggle",
-		name = LBIS.L["Priest"]..": "..LBIS.L["Discipline"],
-		desc = LBIS.L["Priest"]..": "..LBIS.L["Discipline"],
-		get = function(info) return LBISSettings.Tooltip[LBIS.L["Discipline"]..LBIS.L["Priest"]] end,
-		set = function(info, val) LBISSettings.Tooltip[LBIS.L["Discipline"]..LBIS.L["Priest"]] = val end,
-		width = 1.1,
-		order = 22,
 	};
 	lbis_options.args["showHolyPriest"] = {
 		type = "toggle",
