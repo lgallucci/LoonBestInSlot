@@ -273,10 +273,10 @@ function LBIS:LoadPaladinHoly()
     LBIS:AddItem(spec2, "29064", LBIS.L["Shoulder"], "Alt") --Justicar Pauldrons
     LBIS:AddItem(spec2, "29989", LBIS.L["Back"], "BIS") --Sunshower Light Cloak
     LBIS:AddItem(spec2, "28765", LBIS.L["Back"], "Alt") --Stainless Cloak of the Pure Hearted
-    LBIS:AddItem(spec2, "31329", LBIS.L["Back"], "Alt") --Lifegiving Cloak
+    LBIS:AddItem(spec2, "27946", LBIS.L["Back"], "Alt") --Avian Cloak of Feathers
     LBIS:AddItem(spec2, "30134", LBIS.L["Chest"], "BIS") --Crystalforge Chestpiece
     LBIS:AddItem(spec2, "29062", LBIS.L["Chest"], "Alt") --Justicar Chestpiece
-    LBIS:AddItem(spec2, "21875", LBIS.L["Chest"], "Alt") --Primal Mooncloth Robe
+    LBIS:AddItem(spec2, "29522", LBIS.L["Chest"], "Alt") --Windhawk Hauberk
     LBIS:AddItem(spec2, "30047", LBIS.L["Wrist"], "BIS") --Blackfathom Warbands
     LBIS:AddItem(spec2, "29523", LBIS.L["Wrist"], "Alt") --Windhawk Bracers
     LBIS:AddItem(spec2, "23539", LBIS.L["Wrist"], "Alt") --Blessed Bracers
@@ -285,7 +285,7 @@ function LBIS:LoadPaladinHoly()
     LBIS:AddItem(spec2, "30135", LBIS.L["Hands"], "Alt") --Crystalforge Gloves
     LBIS:AddItem(spec2, "30030", LBIS.L["Waist"], "BIS") --Girdle of Fallen Stars
     LBIS:AddItem(spec2, "29965", LBIS.L["Waist"], "Alt") --Girdle of the Righteous Path
-    LBIS:AddItem(spec2, "21873", LBIS.L["Waist"], "Alt") --Primal Mooncloth Belt
+    LBIS:AddItem(spec2, "29524", LBIS.L["Waist"], "Alt") --Windhawk Belt
     LBIS:AddItem(spec2, "29991", LBIS.L["Legs"], "BIS") --Sunhawk Leggings
     LBIS:AddItem(spec2, "30727", LBIS.L["Legs"], "Alt") --Gilded Trousers of Benediction
     LBIS:AddItem(spec2, "30137", LBIS.L["Legs"], "Alt") --Crystalforge Leggings
@@ -294,7 +294,7 @@ function LBIS:LoadPaladinHoly()
     LBIS:AddItem(spec2, "30092", LBIS.L["Feet"], "Alt") --Orca-Hide Boots
     LBIS:AddItem(spec2, "30018", LBIS.L["Neck"], "BIS") --Lord Sanguinar's Claim
     LBIS:AddItem(spec2, "30726", LBIS.L["Neck"], "Alt") --Archaic Charm of Presence
-    LBIS:AddItem(spec2, "28609", LBIS.L["Neck"], "Alt") --Emberspur Talisman
+    LBIS:AddItem(spec2, "29374", LBIS.L["Neck"], "Alt") --Necklace of Eternal Hope
     LBIS:AddItem(spec2, "30110", LBIS.L["Ring"], "BIS") --Coral Band of the Revived
     LBIS:AddItem(spec2, "30736", LBIS.L["Ring"], "BIS") --Ring of Flowing Light
     LBIS:AddItem(spec2, "28790", LBIS.L["Ring"], "BIS") --Naaru Lightwarden's Band
