@@ -246,9 +246,9 @@ function LBIS:LoadPriestHoly()
     LBIS:AddItem(spec2, "28742", LBIS.L["Legs"], "Alt") --Pantaloons of Repentance
     LBIS:AddItem(spec2, "29977", LBIS.L["Legs"], "Alt") --Star-Soul Breeches
     LBIS:AddItem(spec2, "30100", LBIS.L["Feet"], "BIS") --Soul-Strider Boots
-    LBIS:AddItem(spec2, "29251", LBIS.L["Feet"], "Alt") --Boots of the Pious
     LBIS:AddItem(spec2, "30035", LBIS.L["Feet"], "Alt") --Boots of the Long Road
     LBIS:AddItem(spec2, "28663", LBIS.L["Feet"], "Alt") --Boots of the Incorrupt
+    LBIS:AddItem(spec2, "29251", LBIS.L["Feet"], "Alt") --Boots of the Pious
     LBIS:AddItem(spec2, "30018", LBIS.L["Neck"], "BIS") --Lord Sanguinar's Claim
     LBIS:AddItem(spec2, "30726", LBIS.L["Neck"], "Alt") --Archaic Charm of Presence
     LBIS:AddItem(spec2, "28609", LBIS.L["Neck"], "Alt") --Emberspur Talisman
@@ -262,11 +262,10 @@ function LBIS:LoadPriestHoly()
     LBIS:AddItem(spec2, "29376", LBIS.L["Trinket"], "BIS") --Essence of the Martyr
     LBIS:AddItem(spec2, "38288", LBIS.L["Trinket"], "BIS") --Direbrew Hops
     LBIS:AddItem(spec2, "28823", LBIS.L["Trinket"], "BIS") --Eye of Gruul
-    LBIS:AddItem(spec2, "19288", LBIS.L["Trinket"], "BIS") --Darkmoon Card: Blue Dragon
-    LBIS:AddItem(spec2, "30665", LBIS.L["Trinket"], "Alt") --Earring of Soulful Meditation
     LBIS:AddItem(spec2, "23047", LBIS.L["Trinket"], "Alt") --Eye of the Dead
     LBIS:AddItem(spec2, "28590", LBIS.L["Trinket"], "Alt") --Ribbon of Sacrifice
     LBIS:AddItem(spec2, "28190", LBIS.L["Trinket"], "Alt") --Scarab of the Infinite Cycle
+    LBIS:AddItem(spec2, "30665", LBIS.L["Trinket"], "Alt") --Earring of Soulful Meditation
     LBIS:AddItem(spec2, "30108", LBIS.L["Main Hand"], "BIS") --Lightfathom Scepter
     LBIS:AddItem(spec2, "32964", LBIS.L["Main Hand"], "BIS") --Merciless Gladiator's Salvation
     LBIS:AddItem(spec2, "28771", LBIS.L["Main Hand"], "Alt") --Light's Justice
@@ -275,7 +274,7 @@ function LBIS:LoadPriestHoly()
     LBIS:AddItem(spec2, "29274", LBIS.L["Off Hand"], "Alt") --Tears of Heaven
     LBIS:AddItem(spec2, "29981", LBIS.L["Two Hand"], "BIS") --Ethereum Life-Staff
     LBIS:AddItem(spec2, "30080", LBIS.L["Ranged/Relic"], "BIS") --Luminescent Rod of the Naaru
-    LBIS:AddItem(spec2, "28588", LBIS.L["Ranged/Relic"], "Alt") --Blue Diamond Witchwand
+    LBIS:AddItem(spec2, "28588", LBIS.L["Ranged/Relic"], "BIS") --Blue Diamond Witchwand
 
     LBIS:AddItem(spec3, "31063", LBIS.L["Head"], "BIS") --Cowl of Absolution
     LBIS:AddItem(spec3, "30152", LBIS.L["Head"], "BIS") --Cowl of the Avatar

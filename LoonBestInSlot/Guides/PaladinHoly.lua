@@ -296,15 +296,13 @@ function LBIS:LoadPaladinHoly()
     LBIS:AddItem(spec2, "30726", LBIS.L["Neck"], "Alt") --Archaic Charm of Presence
     LBIS:AddItem(spec2, "29374", LBIS.L["Neck"], "Alt") --Necklace of Eternal Hope
     LBIS:AddItem(spec2, "30110", LBIS.L["Ring"], "BIS") --Coral Band of the Revived
-    LBIS:AddItem(spec2, "30736", LBIS.L["Ring"], "BIS") --Ring of Flowing Light
     LBIS:AddItem(spec2, "28790", LBIS.L["Ring"], "BIS") --Naaru Lightwarden's Band
     LBIS:AddItem(spec2, "29920", LBIS.L["Ring"], "Alt") --Phoenix-Ring of Rebirth
     LBIS:AddItem(spec2, "28763", LBIS.L["Ring"], "Alt") --Jade Ring of the Everliving
     LBIS:AddItem(spec2, "29376", LBIS.L["Trinket"], "BIS") --Essence of the Martyr
-    LBIS:AddItem(spec2, "28590", LBIS.L["Trinket"], "BIS") --Ribbon of Sacrifice
-    LBIS:AddItem(spec2, "19395", LBIS.L["Trinket"], "Alt") --Rejuvenating Gem
-    LBIS:AddItem(spec2, "23047", LBIS.L["Trinket"], "Alt") --Eye of the Dead
+    LBIS:AddItem(spec2, "28727", LBIS.L["Trinket"], "BIS") --Pendant of the Violet Eye
     LBIS:AddItem(spec2, "30841", LBIS.L["Trinket"], "Alt") --Lower City Prayerbook
+    LBIS:AddItem(spec2, "28590", LBIS.L["Trinket"], "Alt") --Ribbon of Sacrifice
     LBIS:AddItem(spec2, "30108", LBIS.L["Main Hand"], "BIS") --Lightfathom Scepter
     LBIS:AddItem(spec2, "29353", LBIS.L["Main Hand"], "Alt") --Shockwave Truncheon
     LBIS:AddItem(spec2, "28771", LBIS.L["Main Hand"], "Alt") --Light's Justice
