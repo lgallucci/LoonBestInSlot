@@ -12,5 +12,5 @@ internal class ShamanElementalMapping : SpecMapping
     public override string Phase2Url => "dps-best-gear-bis-pve";
     public override string Phase3Url => "dps-best-gear-bis-pve";
     public override string Phase4Url => "dps-best-gear-bis-pve";
-    public override string Phase5Url => "";
+    public override string Phase5Url => "dps-best-gear-bis-pve";
 }
