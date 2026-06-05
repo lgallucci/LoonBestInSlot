@@ -20,28 +20,29 @@ LBIS:AddGem(spec0, "77542", "3", "False") --Quick Tinker's Gear
 LBIS:AddGem(spec0, "77541", "3", "False") --Smooth Tinker's Gear
 LBIS:AddGem(spec0, "76640", "3", "False") --Misty Wild Jade
 LBIS:AddGem(spec0, "76659", "3", "False") --Crafty Vermilion Onyx
+LBIS:AddGem(spec0, "76638", "3", "False") --Sparkling River's Heart
 
-LBIS:AddEnchant(spec4, "121195", LBIS.L["Shoulder"]) --
-LBIS:AddEnchant(spec4, "142173", LBIS.L["Back"]) --
-LBIS:AddEnchant(spec4, "125481", LBIS.L["Back"]) --
-LBIS:AddEnchant(spec4, "104403", LBIS.L["Back"]) --
-LBIS:AddEnchant(spec4, "104395", LBIS.L["Chest"]) --
-LBIS:AddEnchant(spec4, "141170", LBIS.L["Wrist"]) --
-LBIS:AddEnchant(spec4, "104389", LBIS.L["Wrist"]) --
-LBIS:AddEnchant(spec4, "104338", LBIS.L["Wrist"]) --
-LBIS:AddEnchant(spec4, "141173", LBIS.L["Hands"]) --
-LBIS:AddEnchant(spec4, "126731", LBIS.L["Hands"]) --
-LBIS:AddEnchant(spec4, "104416", LBIS.L["Hands"]) --
-LBIS:AddEnchant(spec4, "82175", LBIS.L["Hands"]) --
-LBIS:AddEnchant(spec4, "125496", LBIS.L["Legs"]) --
-LBIS:AddEnchant(spec4, "122393", LBIS.L["Legs"]) --
-LBIS:AddEnchant(spec4, "122392", LBIS.L["Legs"]) --
-LBIS:AddEnchant(spec4, "141175", LBIS.L["Feet"]) --
-LBIS:AddEnchant(spec4, "104414", LBIS.L["Feet"]) --
-LBIS:AddEnchant(spec4, "141177", LBIS.L["Main Hand"]) --
-LBIS:AddEnchant(spec4, "104427", LBIS.L["Main Hand"]) --
-LBIS:AddEnchant(spec4, "104425", LBIS.L["Main Hand"]) --
-LBIS:AddEnchant(spec4, "104445", LBIS.L["Off Hand"]) --
+LBIS:AddEnchant(spec5, "121195", LBIS.L["Shoulder"]) --
+LBIS:AddEnchant(spec5, "142173", LBIS.L["Back"]) --
+LBIS:AddEnchant(spec5, "125481", LBIS.L["Back"]) --
+LBIS:AddEnchant(spec5, "104403", LBIS.L["Back"]) --
+LBIS:AddEnchant(spec5, "104395", LBIS.L["Chest"]) --
+LBIS:AddEnchant(spec5, "141170", LBIS.L["Wrist"]) --
+LBIS:AddEnchant(spec5, "104389", LBIS.L["Wrist"]) --
+LBIS:AddEnchant(spec5, "104338", LBIS.L["Wrist"]) --
+LBIS:AddEnchant(spec5, "141173", LBIS.L["Hands"]) --
+LBIS:AddEnchant(spec5, "126731", LBIS.L["Hands"]) --
+LBIS:AddEnchant(spec5, "104416", LBIS.L["Hands"]) --
+LBIS:AddEnchant(spec5, "82175", LBIS.L["Hands"]) --
+LBIS:AddEnchant(spec5, "125496", LBIS.L["Legs"]) --
+LBIS:AddEnchant(spec5, "122393", LBIS.L["Legs"]) --
+LBIS:AddEnchant(spec5, "122392", LBIS.L["Legs"]) --
+LBIS:AddEnchant(spec5, "141175", LBIS.L["Feet"]) --
+LBIS:AddEnchant(spec5, "104414", LBIS.L["Feet"]) --
+LBIS:AddEnchant(spec5, "141177", LBIS.L["Main Hand"]) --
+LBIS:AddEnchant(spec5, "104427", LBIS.L["Main Hand"]) --
+LBIS:AddEnchant(spec5, "104425", LBIS.L["Main Hand"]) --
+LBIS:AddEnchant(spec5, "104445", LBIS.L["Off Hand"]) --
 
 LBIS:AddItem(spec0, "95846", LBIS.L["Head"], "BIS") --Cover of the Haunted Forest
 LBIS:AddItem(spec0, "81262", LBIS.L["Head"], "Alt") --Hood of Viridian Residue
@@ -450,3 +451,35 @@ LBIS:AddItem(spec4, "82859", LBIS.L["Main Hand"], "Alt") --Headmaster's Will
 LBIS:AddItem(spec4, "81079", LBIS.L["Main Hand"], "Alt") --Staff of Trembling Will
 LBIS:AddItem(spec4, "96902", LBIS.L["Off Hand"], "BIS") --Orb of Arcing Lightning
 LBIS:AddItem(spec4, "95786", LBIS.L["Off Hand"], "Alt") --Orb of Arcing Lightning
+
+LBIS:AddItem(spec5, "105542", LBIS.L["Head"], "BIS") --Darkfang Mask
+LBIS:AddItem(spec5, "98995", LBIS.L["Head"], "Alt") --Cover of the Shattered Vale
+LBIS:AddItem(spec5, "99428", LBIS.L["Shoulder"], "BIS") --Shoulderwraps of the Shattered Vale
+LBIS:AddItem(spec5, "98998", LBIS.L["Shoulder"], "Alt") --Shoulderwraps of the Shattered Vale
+LBIS:AddItem(spec5, "102246", LBIS.L["Back"], "BIS") --Xing-Ho, Breath of Yu'lon
+LBIS:AddItem(spec5, "99427", LBIS.L["Chest"], "BIS") --Vestment of the Shattered Vale
+LBIS:AddItem(spec5, "98997", LBIS.L["Chest"], "Alt") --Vestment of the Shattered Vale
+LBIS:AddItem(spec5, "105425", LBIS.L["Wrist"], "BIS") --Bracers of Purified Spirit
+LBIS:AddItem(spec5, "104927", LBIS.L["Wrist"], "Alt") --Bracers of Purified Spirit
+LBIS:AddItem(spec5, "99432", LBIS.L["Hands"], "BIS") --Gloves of the Shattered Vale
+LBIS:AddItem(spec5, "98994", LBIS.L["Hands"], "Alt") --Gloves of the Shattered Vale
+LBIS:AddItem(spec5, "105651", LBIS.L["Waist"], "BIS") --Seal of Karmic Return
+LBIS:AddItem(spec5, "105153", LBIS.L["Waist"], "Alt") --Seal of Karmic Return
+LBIS:AddItem(spec5, "99434", LBIS.L["Legs"], "BIS") --Leggings of the Shattered Vale
+LBIS:AddItem(spec5, "98996", LBIS.L["Legs"], "Alt") --Leggings of the Shattered Vale
+LBIS:AddItem(spec5, "105576", LBIS.L["Feet"], "BIS") --Boots of Perilous Infusion
+LBIS:AddItem(spec5, "105078", LBIS.L["Feet"], "Alt") --Boots of Perilous Infusion
+LBIS:AddItem(spec5, "105473", LBIS.L["Neck"], "BIS") --Necklace of Fading Light
+LBIS:AddItem(spec5, "104975", LBIS.L["Neck"], "Alt") --Necklace of Fading Light
+LBIS:AddItem(spec5, "105520", LBIS.L["Ring"], "BIS") --Laser-Slice Signet
+LBIS:AddItem(spec5, "105606", LBIS.L["Ring"], "BIS") --Signet of the Dinomancers
+LBIS:AddItem(spec5, "105022", LBIS.L["Ring"], "Alt") --Laser-Slice Signet
+LBIS:AddItem(spec5, "105108", LBIS.L["Ring"], "Alt") --Signet of the Dinomancers
+LBIS:AddItem(spec5, "105422", LBIS.L["Trinket"], "BIS") --Purified Bindings of Immerseus
+LBIS:AddItem(spec5, "105540", LBIS.L["Trinket"], "BIS") --Kardris' Toxic Totem
+LBIS:AddItem(spec5, "104924", LBIS.L["Trinket"], "Alt") --Purified Bindings of Immerseus
+LBIS:AddItem(spec5, "105042", LBIS.L["Trinket"], "Alt") --Kardris' Toxic Totem
+LBIS:AddItem(spec5, "105627", LBIS.L["Main Hand"], "BIS") --Rik'kal's Bloody Scalpel
+LBIS:AddItem(spec5, "105129", LBIS.L["Main Hand"], "Alt") --Rik'kal's Bloody Scalpel
+LBIS:AddItem(spec5, "105650", LBIS.L["Off Hand"], "BIS") --Revelations of Y'Shaarj
+LBIS:AddItem(spec5, "105152", LBIS.L["Off Hand"], "Alt") --Revelations of Y'Shaarj

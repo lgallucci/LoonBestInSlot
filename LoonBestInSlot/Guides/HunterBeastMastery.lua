@@ -17,19 +17,20 @@ LBIS:AddGem(spec0, "76670", "3", "False") --Adept Vermilion Onyx
 LBIS:AddGem(spec0, "76614", "3", "False") --Perfect Glinting Roguestone
 LBIS:AddGem(spec0, "89873", "0", "False") --Crystallized Dread
 
-LBIS:AddEnchant(spec4, "121193", LBIS.L["Shoulder"]) --
-LBIS:AddEnchant(spec4, "125483", LBIS.L["Back"]) --
-LBIS:AddEnchant(spec4, "104404", LBIS.L["Back"]) --
-LBIS:AddEnchant(spec4, "104395", LBIS.L["Chest"]) --
-LBIS:AddEnchant(spec4, "124551", LBIS.L["Wrist"]) --
-LBIS:AddEnchant(spec4, "104391", LBIS.L["Wrist"]) --
-LBIS:AddEnchant(spec4, "126731", LBIS.L["Hands"]) --
-LBIS:AddEnchant(spec4, "104420", LBIS.L["Hands"]) --
-LBIS:AddEnchant(spec4, "104417", LBIS.L["Hands"]) --
-LBIS:AddEnchant(spec4, "82175", LBIS.L["Hands"]) --
-LBIS:AddEnchant(spec4, "122387", LBIS.L["Legs"]) --
-LBIS:AddEnchant(spec4, "104409", LBIS.L["Feet"]) --
-LBIS:AddEnchant(spec4, "109086", LBIS.L["Main Hand"]) --
+LBIS:AddEnchant(spec5, "121193", LBIS.L["Shoulder"]) --
+LBIS:AddEnchant(spec5, "125483", LBIS.L["Back"]) --
+LBIS:AddEnchant(spec5, "104404", LBIS.L["Back"]) --
+LBIS:AddEnchant(spec5, "104395", LBIS.L["Chest"]) --
+LBIS:AddEnchant(spec5, "124551", LBIS.L["Wrist"]) --
+LBIS:AddEnchant(spec5, "104391", LBIS.L["Wrist"]) --
+LBIS:AddEnchant(spec5, "126731", LBIS.L["Hands"]) --
+LBIS:AddEnchant(spec5, "104420", LBIS.L["Hands"]) --
+LBIS:AddEnchant(spec5, "104417", LBIS.L["Hands"]) --
+LBIS:AddEnchant(spec5, "104416", LBIS.L["Hands"]) --
+LBIS:AddEnchant(spec5, "82175", LBIS.L["Hands"]) --
+LBIS:AddEnchant(spec5, "122387", LBIS.L["Legs"]) --
+LBIS:AddEnchant(spec5, "104409", LBIS.L["Feet"]) --
+LBIS:AddEnchant(spec5, "109086", LBIS.L["Main Hand"]) --
 
 LBIS:AddItem(spec0, "94272", LBIS.L["Head"], "BIS") --Dreadrunner Helm
 LBIS:AddItem(spec0, "81105", LBIS.L["Head"], "Alt") --Swarmcall Helm
@@ -452,3 +453,33 @@ LBIS:AddItem(spec4, "96472", LBIS.L["Main Hand"], "BIS") --Durumu's Baleful Gaze
 LBIS:AddItem(spec4, "89399", LBIS.L["Ranged/Relic"], "Alt") --Amber Sprayer of Klaxxi'vess
 LBIS:AddItem(spec4, "95781", LBIS.L["Ranged/Relic"], "Alt") --Voice of the Quilen
 LBIS:AddItem(spec4, "87546", LBIS.L["Ranged/Relic"], "Alt") --Klatith, Fangs of the Swarm
+
+LBIS:AddItem(spec5, "99402", LBIS.L["Head"], "BIS") --Headguard of the Unblinking Vigil
+LBIS:AddItem(spec5, "99080", LBIS.L["Head"], "Alt") --Headguard of the Unblinking Vigil
+LBIS:AddItem(spec5, "99404", LBIS.L["Shoulder"], "BIS") --Spaulders of the Unblinking Vigil
+LBIS:AddItem(spec5, "99082", LBIS.L["Shoulder"], "Alt") --Spaulders of the Unblinking Vigil
+LBIS:AddItem(spec5, "102248", LBIS.L["Back"], "BIS") --Fen-Yu, Fury of Xuen
+LBIS:AddItem(spec5, "105585", LBIS.L["Chest"], "BIS") --Ancient Archer's Chestguard
+LBIS:AddItem(spec5, "99085", LBIS.L["Chest"], "Alt") --Tunic of the Unblinking Vigil
+LBIS:AddItem(spec5, "105617", LBIS.L["Wrist"], "BIS") --Bracers of Infinite Pipes
+LBIS:AddItem(spec5, "105064", LBIS.L["Wrist"], "Alt") --Wristguards of Ruination
+LBIS:AddItem(spec5, "99406", LBIS.L["Hands"], "BIS") --Gloves of the Unblinking Vigil
+LBIS:AddItem(spec5, "99086", LBIS.L["Hands"], "Alt") --Gloves of the Unblinking Vigil
+LBIS:AddItem(spec5, "105584", LBIS.L["Waist"], "BIS") --Arrowflight Girdle
+LBIS:AddItem(spec5, "105086", LBIS.L["Waist"], "Alt") --Arrowflight Girdle
+LBIS:AddItem(spec5, "99403", LBIS.L["Legs"], "BIS") --Legguards of the Unblinking Vigil
+LBIS:AddItem(spec5, "104956", LBIS.L["Legs"], "Alt") --Leggings of Unabashed Anger
+LBIS:AddItem(spec5, "105553", LBIS.L["Feet"], "BIS") --Ravager's Pathwalkers
+LBIS:AddItem(spec5, "104912", LBIS.L["Feet"], "Alt") --Puddle Punishers
+LBIS:AddItem(spec5, "105407", LBIS.L["Neck"], "BIS") --Immerseus' Crystalline Eye
+LBIS:AddItem(spec5, "105104", LBIS.L["Neck"], "Alt") --Gleaming Eye of the Devilsaur
+LBIS:AddItem(spec5, "105558", LBIS.L["Ring"], "BIS") --Ring of Restless Energy
+LBIS:AddItem(spec5, "105624", LBIS.L["Ring"], "BIS") --Kil'ruk's Band of Ascendancy
+LBIS:AddItem(spec5, "105126", LBIS.L["Ring"], "Alt") --Kil'ruk's Band of Ascendancy
+LBIS:AddItem(spec5, "104953", LBIS.L["Ring"], "Alt") --Reality Ripper Ring
+LBIS:AddItem(spec5, "105472", LBIS.L["Trinket"], "BIS") --Assurance of Consequence
+LBIS:AddItem(spec5, "105612", LBIS.L["Trinket"], "BIS") --Ticking Ebon Detonator
+LBIS:AddItem(spec5, "104974", LBIS.L["Trinket"], "Alt") --Assurance of Consequence
+LBIS:AddItem(spec5, "105029", LBIS.L["Trinket"], "Alt") --Haromm's Talisman
+LBIS:AddItem(spec5, "105559", LBIS.L["Main Hand"], "BIS") --Kor'kron Hand Cannon
+LBIS:AddItem(spec5, "104984", LBIS.L["Main Hand"], "Alt") --Dagryn's Discarded Longbow

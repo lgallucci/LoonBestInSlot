@@ -6,35 +6,40 @@ local spec4 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Bear"], "4")
 local spec5 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Bear"], "5")
 
 LBIS:AddGem(spec0, "95346", "5", "True") --Capacitive Primal Diamond
+LBIS:AddGem(spec0, "95344", "5", "True") --Indomitable Primal Diamond
 LBIS:AddGem(spec0, "76884", "3", "True") --Agile Primal Diamond
 LBIS:AddGem(spec0, "76895", "3", "True") --Austere Primal Diamond
 LBIS:AddGem(spec0, "89873", "5", "False") --Crystallized Dread
-LBIS:AddGem(spec0, "76688", "3", "False") --Guardian's Imperial Amethyst
-LBIS:AddGem(spec0, "76659", "3", "False") --Crafty Vermilion Onyx
-LBIS:AddGem(spec0, "76693", "3", "False") --Precise Primordial Ruby
-LBIS:AddGem(spec0, "76636", "3", "False") --Rigid River's Heart
-LBIS:AddGem(spec0, "76639", "3", "False") --Solid River's Heart
-LBIS:AddGem(spec0, "76697", "3", "False") --Smooth Sun's Radiance
-LBIS:AddGem(spec0, "76681", "3", "False") --Accurate Imperial Amethyst
-LBIS:AddGem(spec0, "76641", "3", "False") --Piercing Wild Jade
-LBIS:AddGem(spec0, "77543", "3", "False") --Precise Tinker's Gear
-LBIS:AddGem(spec0, "77545", "3", "False") --Rigid Tinker's Gear
 LBIS:AddGem(spec0, "76652", "3", "False") --Jagged Wild Jade
+LBIS:AddGem(spec0, "77545", "3", "False") --Rigid Tinker's Gear
+LBIS:AddGem(spec0, "77543", "3", "False") --Precise Tinker's Gear
+LBIS:AddGem(spec0, "76641", "3", "False") --Piercing Wild Jade
+LBIS:AddGem(spec0, "76681", "3", "False") --Accurate Imperial Amethyst
+LBIS:AddGem(spec0, "76639", "3", "False") --Solid River's Heart
+LBIS:AddGem(spec0, "76658", "3", "False") --Deadly Vermilion Onyx
+LBIS:AddGem(spec0, "76636", "3", "False") --Rigid River's Heart
+LBIS:AddGem(spec0, "76693", "3", "False") --Precise Primordial Ruby
+LBIS:AddGem(spec0, "76659", "3", "False") --Crafty Vermilion Onyx
+LBIS:AddGem(spec0, "76688", "3", "False") --Guardian's Imperial Amethyst
+LBIS:AddGem(spec0, "76697", "3", "False") --Smooth Sun's Radiance
+LBIS:AddGem(spec0, "76656", "3", "False") --Puissant Wild Jade
 
-LBIS:AddEnchant(spec4, "121194", LBIS.L["Shoulder"]) --
-LBIS:AddEnchant(spec4, "121193", LBIS.L["Shoulder"]) --
-LBIS:AddEnchant(spec4, "104401", LBIS.L["Back"]) --
-LBIS:AddEnchant(spec4, "104397", LBIS.L["Chest"]) --
-LBIS:AddEnchant(spec4, "104391", LBIS.L["Wrist"]) --
-LBIS:AddEnchant(spec4, "104338", LBIS.L["Wrist"]) --
-LBIS:AddEnchant(spec4, "126731", LBIS.L["Hands"]) --
-LBIS:AddEnchant(spec4, "124091", LBIS.L["Hands"]) --
-LBIS:AddEnchant(spec4, "104417", LBIS.L["Hands"]) --
-LBIS:AddEnchant(spec4, "122387", LBIS.L["Legs"]) --
-LBIS:AddEnchant(spec4, "122386", LBIS.L["Legs"]) --
-LBIS:AddEnchant(spec4, "104409", LBIS.L["Feet"]) --
-LBIS:AddEnchant(spec4, "104440", LBIS.L["Main Hand"]) --
-LBIS:AddEnchant(spec4, "104434", LBIS.L["Main Hand"]) --
+LBIS:AddEnchant(spec5, "121194", LBIS.L["Shoulder"]) --
+LBIS:AddEnchant(spec5, "121193", LBIS.L["Shoulder"]) --
+LBIS:AddEnchant(spec5, "104404", LBIS.L["Back"]) --
+LBIS:AddEnchant(spec5, "104401", LBIS.L["Back"]) --
+LBIS:AddEnchant(spec5, "104397", LBIS.L["Chest"]) --
+LBIS:AddEnchant(spec5, "104395", LBIS.L["Chest"]) --
+LBIS:AddEnchant(spec5, "104391", LBIS.L["Wrist"]) --
+LBIS:AddEnchant(spec5, "104338", LBIS.L["Wrist"]) --
+LBIS:AddEnchant(spec5, "126731", LBIS.L["Hands"]) --
+LBIS:AddEnchant(spec5, "124091", LBIS.L["Hands"]) --
+LBIS:AddEnchant(spec5, "104417", LBIS.L["Hands"]) --
+LBIS:AddEnchant(spec5, "122387", LBIS.L["Legs"]) --
+LBIS:AddEnchant(spec5, "122386", LBIS.L["Legs"]) --
+LBIS:AddEnchant(spec5, "104409", LBIS.L["Feet"]) --
+LBIS:AddEnchant(spec5, "104440", LBIS.L["Main Hand"]) --
+LBIS:AddEnchant(spec5, "104434", LBIS.L["Main Hand"]) --
 
 LBIS:AddItem(spec0, "94270", LBIS.L["Head"], "BIS") --Quilen Hide Helm
 LBIS:AddItem(spec0, "82853", LBIS.L["Head"], "Alt") --Soulburner Crown
@@ -452,3 +457,33 @@ LBIS:AddItem(spec4, "89394", LBIS.L["Main Hand"], "Alt") --Amber Spear of Klaxxi
 LBIS:AddItem(spec4, "79343", LBIS.L["Main Hand"], "Alt") --Inscribed Tiger Staff
 LBIS:AddItem(spec4, "81108", LBIS.L["Main Hand"], "Alt") --Snowdrift's Bladed Staff
 LBIS:AddItem(spec4, "95862", LBIS.L["Main Hand"], "Alt") --Darkwood Spiritstaff
+
+LBIS:AddItem(spec5, "99421", LBIS.L["Head"], "BIS") --Headguard of the Shattered Vale
+LBIS:AddItem(spec5, "99001", LBIS.L["Head"], "Alt") --Headguard of the Shattered Vale
+LBIS:AddItem(spec5, "105506", LBIS.L["Shoulder"], "BIS") --Ricocheting Shoulderguards
+LBIS:AddItem(spec5, "105008", LBIS.L["Shoulder"], "Alt") --Ricocheting Shoulderguards
+LBIS:AddItem(spec5, "102245", LBIS.L["Back"], "BIS") --Qian-Le, Courage of Niuzao
+LBIS:AddItem(spec5, "99419", LBIS.L["Chest"], "BIS") --Tunic of the Shattered Vale
+LBIS:AddItem(spec5, "98999", LBIS.L["Chest"], "Alt") --Tunic of the Shattered Vale
+LBIS:AddItem(spec5, "105505", LBIS.L["Wrist"], "BIS") --Laser Burn Bracers
+LBIS:AddItem(spec5, "105007", LBIS.L["Wrist"], "Alt") --Laser Burn Bracers
+LBIS:AddItem(spec5, "99420", LBIS.L["Hands"], "BIS") --Handguards of the Shattered Vale
+LBIS:AddItem(spec5, "99000", LBIS.L["Hands"], "Alt") --Handguards of the Shattered Vale
+LBIS:AddItem(spec5, "105528", LBIS.L["Waist"], "BIS") --Damron's Belt of Darkness
+LBIS:AddItem(spec5, "105030", LBIS.L["Waist"], "Alt") --Damron's Belt of Darkness
+LBIS:AddItem(spec5, "99422", LBIS.L["Legs"], "BIS") --Breeches of the Shattered Vale
+LBIS:AddItem(spec5, "98981", LBIS.L["Legs"], "Alt") --Breeches of the Shattered Vale
+LBIS:AddItem(spec5, "105484", LBIS.L["Feet"], "BIS") --Unrepentant Heels
+LBIS:AddItem(spec5, "104986", LBIS.L["Feet"], "Alt") --Unrepentant Heels
+LBIS:AddItem(spec5, "105602", LBIS.L["Neck"], "BIS") --Gleaming Eye of the Devilsaur
+LBIS:AddItem(spec5, "105104", LBIS.L["Neck"], "Alt") --Gleaming Eye of the Devilsaur
+LBIS:AddItem(spec5, "105451", LBIS.L["Ring"], "BIS") --Reality Ripper Ring
+LBIS:AddItem(spec5, "105483", LBIS.L["Ring"], "BIS") --Swift Serpent Signet
+LBIS:AddItem(spec5, "104953", LBIS.L["Ring"], "Alt") --Reality Ripper Ring
+LBIS:AddItem(spec5, "104985", LBIS.L["Ring"], "Alt") --Swift Serpent Signet
+LBIS:AddItem(spec5, "105527", LBIS.L["Trinket"], "BIS") --Haromm's Talisman
+LBIS:AddItem(spec5, "105568", LBIS.L["Trinket"], "BIS") --Vial of Living Corruption
+LBIS:AddItem(spec5, "105070", LBIS.L["Trinket"], "Alt") --Vial of Living Corruption
+LBIS:AddItem(spec5, "105147", LBIS.L["Trinket"], "Alt") --Curse of Hubris
+LBIS:AddItem(spec5, "105408", LBIS.L["Main Hand"], "BIS") --Trident of Corrupted Waters
+LBIS:AddItem(spec5, "104910", LBIS.L["Main Hand"], "Alt") --Trident of Corrupted Waters

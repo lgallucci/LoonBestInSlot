@@ -101,6 +101,7 @@ public class SlotSwaps
         { "Off-hand", "Off Hand" },
         { "Alternative Weapons", "Main Hand" },
         { "1H Weapon", "Main Hand" },
+        { "2h Weapon", "Main Hand" },
         { "2H Weapon", "Main Hand" },
         { "2h Weapon (Less Rare)", "Main Hand" },
         { "Rare Drop Weapon", "Main Hand" },

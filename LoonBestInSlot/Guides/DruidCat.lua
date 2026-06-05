@@ -15,21 +15,21 @@ LBIS:AddGem(spec0, "77545", "3", "False") --Rigid Tinker's Gear
 LBIS:AddGem(spec0, "76658", "3", "False") --Deadly Vermilion Onyx
 LBIS:AddGem(spec0, "89873", "0", "False") --Crystallized Dread
 
-LBIS:AddEnchant(spec4, "121193", LBIS.L["Shoulder"]) --
-LBIS:AddEnchant(spec4, "113046", LBIS.L["Shoulder"]) --
-LBIS:AddEnchant(spec4, "104404", LBIS.L["Back"]) --
-LBIS:AddEnchant(spec4, "104398", LBIS.L["Back"]) --
-LBIS:AddEnchant(spec4, "104395", LBIS.L["Chest"]) --
-LBIS:AddEnchant(spec4, "104391", LBIS.L["Wrist"]) --
-LBIS:AddEnchant(spec4, "104338", LBIS.L["Wrist"]) --
-LBIS:AddEnchant(spec4, "126731", LBIS.L["Hands"]) --
-LBIS:AddEnchant(spec4, "104420", LBIS.L["Hands"]) --
-LBIS:AddEnchant(spec4, "104417", LBIS.L["Hands"]) --
-LBIS:AddEnchant(spec4, "82175", LBIS.L["Hands"]) --
-LBIS:AddEnchant(spec4, "122387", LBIS.L["Legs"]) --
-LBIS:AddEnchant(spec4, "104409", LBIS.L["Feet"]) --
-LBIS:AddEnchant(spec4, "104434", LBIS.L["Main Hand"]) --
-LBIS:AddEnchant(spec4, "104425", LBIS.L["Main Hand"]) --
+LBIS:AddEnchant(spec5, "121193", LBIS.L["Shoulder"]) --
+LBIS:AddEnchant(spec5, "113046", LBIS.L["Shoulder"]) --
+LBIS:AddEnchant(spec5, "104404", LBIS.L["Back"]) --
+LBIS:AddEnchant(spec5, "104398", LBIS.L["Back"]) --
+LBIS:AddEnchant(spec5, "104395", LBIS.L["Chest"]) --
+LBIS:AddEnchant(spec5, "104391", LBIS.L["Wrist"]) --
+LBIS:AddEnchant(spec5, "104338", LBIS.L["Wrist"]) --
+LBIS:AddEnchant(spec5, "126731", LBIS.L["Hands"]) --
+LBIS:AddEnchant(spec5, "104420", LBIS.L["Hands"]) --
+LBIS:AddEnchant(spec5, "104417", LBIS.L["Hands"]) --
+LBIS:AddEnchant(spec5, "82175", LBIS.L["Hands"]) --
+LBIS:AddEnchant(spec5, "122387", LBIS.L["Legs"]) --
+LBIS:AddEnchant(spec5, "104409", LBIS.L["Feet"]) --
+LBIS:AddEnchant(spec5, "104434", LBIS.L["Main Hand"]) --
+LBIS:AddEnchant(spec5, "104425", LBIS.L["Main Hand"]) --
 
 LBIS:AddItem(spec0, "94270", LBIS.L["Head"], "BIS") --Quilen Hide Helm
 LBIS:AddItem(spec0, "81283", LBIS.L["Head"], "Alt") --Windblast Helm
@@ -451,3 +451,33 @@ LBIS:AddItem(spec4, "89394", LBIS.L["Main Hand"], "Alt") --Amber Spear of Klaxxi
 LBIS:AddItem(spec4, "79343", LBIS.L["Main Hand"], "Alt") --Inscribed Tiger Staff
 LBIS:AddItem(spec4, "81108", LBIS.L["Main Hand"], "Alt") --Snowdrift's Bladed Staff
 LBIS:AddItem(spec4, "95862", LBIS.L["Main Hand"], "Alt") --Darkwood Spiritstaff
+
+LBIS:AddItem(spec5, "99328", LBIS.L["Head"], "BIS") --Headpiece of the Shattered Vale
+LBIS:AddItem(spec5, "104911", LBIS.L["Head"], "Alt") --Hood of Blackened Tears
+LBIS:AddItem(spec5, "99322", LBIS.L["Shoulder"], "BIS") --Spaulders of the Shattered Vale
+LBIS:AddItem(spec5, "99022", LBIS.L["Shoulder"], "Alt") --Spaulders of the Shattered Vale
+LBIS:AddItem(spec5, "102248", LBIS.L["Back"], "BIS") --Fen-Yu, Fury of Xuen
+LBIS:AddItem(spec5, "99326", LBIS.L["Chest"], "BIS") --Raiment of the Shattered Vale
+LBIS:AddItem(spec5, "99041", LBIS.L["Chest"], "Alt") --Raiment of the Shattered Vale
+LBIS:AddItem(spec5, "105616", LBIS.L["Wrist"], "BIS") --Bomber's Blackened Wristwatch
+LBIS:AddItem(spec5, "105007", LBIS.L["Wrist"], "Alt") --Laser Burn Bracers
+LBIS:AddItem(spec5, "99327", LBIS.L["Hands"], "BIS") --Grips of the Shattered Vale
+LBIS:AddItem(spec5, "99042", LBIS.L["Hands"], "Alt") --Grips of the Shattered Vale
+LBIS:AddItem(spec5, "105635", LBIS.L["Waist"], "BIS") --Cord of Black Dreams
+LBIS:AddItem(spec5, "105137", LBIS.L["Waist"], "Alt") --Cord of Black Dreams
+LBIS:AddItem(spec5, "105529", LBIS.L["Legs"], "BIS") --Riou's Vigilant Leggings
+LBIS:AddItem(spec5, "99044", LBIS.L["Legs"], "Alt") --Legguards of the Shattered Vale
+LBIS:AddItem(spec5, "105582", LBIS.L["Feet"], "BIS") --Pandaren Roofsprinters
+LBIS:AddItem(spec5, "104986", LBIS.L["Feet"], "Alt") --Unrepentant Heels
+LBIS:AddItem(spec5, "105407", LBIS.L["Neck"], "BIS") --Immerseus' Crystalline Eye
+LBIS:AddItem(spec5, "105104", LBIS.L["Neck"], "Alt") --Gleaming Eye of the Devilsaur
+LBIS:AddItem(spec5, "105624", LBIS.L["Ring"], "BIS") --Kil'ruk's Band of Ascendancy
+LBIS:AddItem(spec5, "105483", LBIS.L["Ring"], "BIS") --Swift Serpent Signet
+LBIS:AddItem(spec5, "105060", LBIS.L["Ring"], "Alt") --Ring of Restless Energy
+LBIS:AddItem(spec5, "104985", LBIS.L["Ring"], "Alt") --Swift Serpent Signet
+LBIS:AddItem(spec5, "96546", LBIS.L["Trinket"], "BIS") --Rune of Re-Origination
+LBIS:AddItem(spec5, "105527", LBIS.L["Trinket"], "BIS") --Haromm's Talisman
+LBIS:AddItem(spec5, "105029", LBIS.L["Trinket"], "Alt") --Haromm's Talisman
+LBIS:AddItem(spec5, "95802", LBIS.L["Trinket"], "Alt") --Rune of Re-Origination
+LBIS:AddItem(spec5, "105560", LBIS.L["Main Hand"], "BIS") --Halberd of Inner Shadows
+LBIS:AddItem(spec5, "105136", LBIS.L["Main Hand"], "Alt") --Kor'kron Spire of Supremacy
