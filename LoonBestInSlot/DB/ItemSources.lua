@@ -2133,6 +2133,7 @@ LBIS.ItemSources =
     [30126] = { Name = "Crystalforge Legguards", SourceType = LBIS.L["Tier Token"], Source = LBIS.L["Fathom-Lord Karathress"], SourceNumber = "30245", SourceLocation = LBIS.L["Serpentshrine Cavern"], SourceFaction = "B" },
     [30127] = { Name = "Crystalforge Shoulderguards", SourceType = LBIS.L["Tier Token"], Source = LBIS.L["Void Reaver"], SourceNumber = "30248", SourceLocation = LBIS.L["Tempest Keep"], SourceFaction = "B" },
     [30129] = { Name = "Crystalforge Breastplate", SourceType = LBIS.L["Tier Token"], Source = LBIS.L["Kael'thas Sunstrider"], SourceNumber = "30236", SourceLocation = LBIS.L["Tempest Keep"], SourceFaction = "B" },
+    [30130] = { Name = "Crystalforge Gauntlets", SourceType = LBIS.L["Tier Token"], Source = LBIS.L["Leotheras the Blind"], SourceNumber = "30239", SourceLocation = LBIS.L["Serpentshrine Cavern"], SourceFaction = "B" },
     [30131] = { Name = "Crystalforge War-Helm", SourceType = LBIS.L["Tier Token"], Source = LBIS.L["Lady Vashj"], SourceNumber = "30242", SourceLocation = LBIS.L["Serpentshrine Cavern"], SourceFaction = "B" },
     [30132] = { Name = "Crystalforge Greaves", SourceType = LBIS.L["Tier Token"], Source = LBIS.L["Fathom-Lord Karathress"], SourceNumber = "30245", SourceLocation = LBIS.L["Serpentshrine Cavern"], SourceFaction = "B" },
     [30133] = { Name = "Crystalforge Shoulderbraces", SourceType = LBIS.L["Tier Token"], Source = LBIS.L["Void Reaver"], SourceNumber = "30248", SourceLocation = LBIS.L["Tempest Keep"], SourceFaction = "B" },
