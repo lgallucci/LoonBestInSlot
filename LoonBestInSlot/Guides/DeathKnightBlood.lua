@@ -16,17 +16,17 @@ LBIS:AddGem(spec0, "76697", "3", "False") --Smooth Sun's Radiance
 LBIS:AddGem(spec0, "77544", "3", "False") --Flashing Tinker's Gear
 LBIS:AddGem(spec0, "76654", "3", "False") --Forceful Wild Jade
 LBIS:AddGem(spec0, "76699", "3", "False") --Quick Sun's Radiance
+LBIS:AddGem(spec0, "76656", "3", "False") --Puissant Wild Jade
 LBIS:AddGem(spec0, "52234", "3", "False") --Retaliating Demonseye
-LBIS:AddGem(spec0, "76690", "3", "False") --Defender's Imperial Amethyst
-LBIS:AddGem(spec0, "76641", "3", "False") --Piercing Wild Jade
 LBIS:AddGem(spec0, "76700", "3", "False") --Fractured Sun's Radiance
+LBIS:AddGem(spec0, "76690", "3", "False") --Defender's Imperial Amethyst
 LBIS:AddGem(spec0, "76589", "3", "False") --Perfect Confounded Alexandrite
 LBIS:AddGem(spec0, "76639", "3", "False") --Solid River's Heart
 LBIS:AddGem(spec0, "76695", "3", "False") --Flashing Primordial Ruby
 LBIS:AddGem(spec0, "76683", "3", "False") --Retaliating Imperial Amethyst
 LBIS:AddGem(spec0, "76664", "3", "False") --Stalwart Vermilion Onyx
 LBIS:AddGem(spec0, "77540", "3", "False") --Subtle Tinker's Gear
-LBIS:AddGem(spec0, "76656", "3", "False") --Puissant Wild Jade
+LBIS:AddGem(spec0, "76641", "3", "False") --Piercing Wild Jade
 LBIS:AddGem(spec0, "76688", "3", "False") --Guardian's Imperial Amethyst
 
 LBIS:AddEnchant(spec5, "121194", LBIS.L["Shoulder"]) --

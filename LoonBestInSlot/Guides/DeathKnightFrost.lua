@@ -13,15 +13,15 @@ LBIS:AddGem(spec0, "76669", "3", "False") --Fierce Vermilion Onyx
 LBIS:AddGem(spec0, "76681", "3", "False") --Accurate Imperial Amethyst
 LBIS:AddGem(spec0, "77547", "3", "False") --Fractured Tinker's Gear
 LBIS:AddGem(spec0, "77545", "3", "False") --Rigid Tinker's Gear
-LBIS:AddGem(spec0, "77543", "3", "False") --Precise Tinker's Gear
-LBIS:AddGem(spec0, "76671", "3", "False") --Keen Vermilion Onyx
+LBIS:AddGem(spec0, "76684", "3", "False") --Etched Imperial Amethyst
 LBIS:AddGem(spec0, "76699", "3", "False") --Quick Sun's Radiance
+LBIS:AddGem(spec0, "76671", "3", "False") --Keen Vermilion Onyx
 LBIS:AddGem(spec0, "76696", "3", "False") --Bold Primordial Ruby
 LBIS:AddGem(spec0, "76661", "3", "False") --Inscribed Vermilion Onyx
 LBIS:AddGem(spec0, "76674", "3", "False") --Skillful Vermilion Onyx
 LBIS:AddGem(spec0, "76700", "3", "False") --Fractured Sun's Radiance
 LBIS:AddGem(spec0, "76643", "3", "False") --Sensei's Wild Jade
-LBIS:AddGem(spec0, "76684", "3", "False") --Etched Imperial Amethyst
+LBIS:AddGem(spec0, "77543", "3", "False") --Precise Tinker's Gear
 LBIS:AddGem(spec0, "76667", "3", "False") --Wicked Vermilion Onyx
 
 LBIS:AddEnchant(spec5, "121192", LBIS.L["Shoulder"]) --
