@@ -527,11 +527,21 @@ end
 
 function LBIS.CreateItemRow(f, specItem, specItemSource)
 
-    LBIS:GetItemInfo(specItem.Id, function(item)
+    local items = {}
+    if LBIS.LinkedItemLookup[specItem.Id] then
+        for k, v in pairs(LBIS.LinkedItemLookup[specItem.Id]) do
+            items[k] = v;
+        end
+    else
+        items[1] = specItem.Id;
+    end
+
+
+    LBIS:GetItemInfo(items[1], function(item)
         local window = LBIS.BrowserWindow.Window;
 
         if item == nil or item.Id == nil or item.Link == nil or item.Type == nil then
-            LBIS:Error("Failed Load: "..specItem.Id);
+            LBIS:Error("Failed Load: "..items[1]);
         end
         --Create Item Button and Text
 
@@ -543,6 +553,19 @@ function LBIS.CreateItemRow(f, specItem, specItemSource)
         b:SetPoint("TOPLEFT", f, 2, -5);
 
         LBIS:SetTooltipOnButton(b, item);
+
+        if items[2] ~= nil then
+            
+            LBIS:GetItemInfo(items[2], function(linkedItem)
+                local bLinked = CreateFrame("Button", nil, f);
+                bLinked:SetSize(32, 32);
+                local btLinked = bLinked:CreateTexture();
+                btLinked:SetAllPoints();
+                btLinked:SetTexture(linkedItem.Texture);
+		        bLinked:SetPoint("TOPLEFT", f, (window.ScrollFrame:GetWidth() / 2) -37, -5);
+                LBIS:SetTooltipOnButton(bLinked, linkedItem);
+            end);
+        end
 
         local t = f:CreateFontString(nil, nil, "GameFontNormal");
         t:SetText((item.Link or item.Name):gsub("[%[%]]", ""));

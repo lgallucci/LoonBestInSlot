@@ -5519,6 +5519,2286 @@
       "SourceNumber": "96701",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
+    },
+    "98977": {
+      "Name": "Spaulders of Celestial Harmony",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99670",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "98979": {
+      "Name": "Headguard of Winged Triumph",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99672",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "98980": {
+      "Name": "Greaves of Winged Triumph",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99675",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "98982": {
+      "Name": "Gloves of Winged Triumph",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99681",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "98983": {
+      "Name": "Helmet of Celestial Harmony",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99673",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "98984": {
+      "Name": "Legguards of Celestial Harmony",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99676",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "98985": {
+      "Name": "Helmet of Winged Triumph",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99672",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "98986": {
+      "Name": "Legplates of Winged Triumph",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99675",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "98987": {
+      "Name": "Pauldrons of Winged Triumph",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99669",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "98988": {
+      "Name": "Handwraps of Celestial Harmony",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99667",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "98989": {
+      "Name": "Faceguard of Celestial Harmony",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99673",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "98990": {
+      "Name": "Legwraps of Celestial Harmony",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99676",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "98991": {
+      "Name": "Mantle of Celestial Harmony",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99670",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "98992": {
+      "Name": "Cuirass of Celestial Harmony",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99679",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "98993": {
+      "Name": "Grips of Celestial Harmony",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99667",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99002": {
+      "Name": "Gauntlets of Winged Triumph",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99681",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99003": {
+      "Name": "Breastplate of Winged Triumph",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99678",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99004": {
+      "Name": "Raiment of the Ternion Glory",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99678",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99005": {
+      "Name": "Shoulderguards of the Ternion Glory",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99669",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99006": {
+      "Name": "Tunic of the Barbed Assassin",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99677",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99007": {
+      "Name": "Gloves of the Barbed Assassin",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99680",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99008": {
+      "Name": "Helmet of the Barbed Assassin",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99671",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99009": {
+      "Name": "Legguards of the Barbed Assassin",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99674",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99010": {
+      "Name": "Spaulders of the Barbed Assassin",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99668",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99011": {
+      "Name": "Tunic of Celestial Harmony",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99679",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99017": {
+      "Name": "Robes of the Ternion Glory",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99678",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99018": {
+      "Name": "Mantle of the Ternion Glory",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99669",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99019": {
+      "Name": "Gloves of the Ternion Glory",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99681",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99020": {
+      "Name": "Hood of the Ternion Glory",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99672",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99021": {
+      "Name": "Leggings of the Ternion Glory",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99675",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99023": {
+      "Name": "Handwraps of the Ternion Glory",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99681",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99024": {
+      "Name": "Cowl of the Ternion Glory",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99672",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99025": {
+      "Name": "Legwraps of the Ternion Glory",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99675",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99026": {
+      "Name": "Legguards of Winged Triumph",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99675",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99027": {
+      "Name": "Shoulderguards of Winged Triumph",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99669",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99028": {
+      "Name": "Handguards of Winged Triumph",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99681",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99029": {
+      "Name": "Faceguard of Winged Triumph",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99672",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99030": {
+      "Name": "Shoulderguards of the Prehistoric Marauder",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99670",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99031": {
+      "Name": "Chestguard of Winged Triumph",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99678",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99032": {
+      "Name": "Faceguard of the Prehistoric Marauder",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99673",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99033": {
+      "Name": "Legguards of the Prehistoric Marauder",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99676",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99034": {
+      "Name": "Gauntlets of the Prehistoric Marauder",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99667",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99035": {
+      "Name": "Legplates of the Prehistoric Marauder",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99676",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99036": {
+      "Name": "Pauldrons of the Prehistoric Marauder",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99670",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99037": {
+      "Name": "Chestguard of the Prehistoric Marauder",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99679",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99038": {
+      "Name": "Handguards of the Prehistoric Marauder",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99667",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99039": {
+      "Name": "Legguards of Cyclopean Dread",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99674",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99040": {
+      "Name": "Shoulderguards of Cyclopean Dread",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99668",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99045": {
+      "Name": "Mantle of the Horned Nightmare",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99669",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99046": {
+      "Name": "Helmet of the Prehistoric Marauder",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99673",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99047": {
+      "Name": "Battleplate of the Prehistoric Marauder",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99679",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99048": {
+      "Name": "Handguards of Cyclopean Dread",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99680",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99049": {
+      "Name": "Faceguard of Cyclopean Dread",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99671",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99050": {
+      "Name": "Legguards of Seven Sacred Seals",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99676",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99051": {
+      "Name": "Shoulderguards of Seven Sacred Seals",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99670",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99052": {
+      "Name": "Battleplate of Winged Triumph",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99678",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99053": {
+      "Name": "Gloves of the Horned Nightmare",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99681",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99054": {
+      "Name": "Hood of the Horned Nightmare",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99672",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99055": {
+      "Name": "Leggings of the Horned Nightmare",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99675",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99056": {
+      "Name": "Robes of the Horned Nightmare",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99678",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99057": {
+      "Name": "Helmet of Cyclopean Dread",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99671",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99058": {
+      "Name": "Greaves of Cyclopean Dread",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99674",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99059": {
+      "Name": "Pauldrons of Cyclopean Dread",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99668",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99060": {
+      "Name": "Chestguard of Cyclopean Dread",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99677",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99061": {
+      "Name": "Vest of Seven Sacred Seals",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99679",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99062": {
+      "Name": "Mantle of Seven Sacred Seals",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99670",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99063": {
+      "Name": "Chestguard of Seven Sacred Seals",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99679",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99064": {
+      "Name": "Gauntlets of Seven Sacred Seals",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99667",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99065": {
+      "Name": "Crown of Seven Sacred Seals",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99673",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99066": {
+      "Name": "Breastplate of Cyclopean Dread",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99677",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99067": {
+      "Name": "Gauntlets of Cyclopean Dread",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99680",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99068": {
+      "Name": "Handwraps of Seven Sacred Seals",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99667",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99069": {
+      "Name": "Helm of Seven Sacred Seals",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99673",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99070": {
+      "Name": "Legwraps of Seven Sacred Seals",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99676",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99071": {
+      "Name": "Tunic of Seven Sacred Seals",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99679",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99072": {
+      "Name": "Grips of Seven Sacred Seals",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99667",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99073": {
+      "Name": "Headpiece of Seven Sacred Seals",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99673",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99074": {
+      "Name": "Leggings of Seven Sacred Seals",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99676",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99075": {
+      "Name": "Spaulders of Seven Sacred Seals",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99670",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99076": {
+      "Name": "Mantle of Winged Triumph",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99669",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99077": {
+      "Name": "Chronomancer Leggings",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99674",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99078": {
+      "Name": "Chronomancer Robes",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99677",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99079": {
+      "Name": "Chronomancer Mantle",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99668",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99080": {
+      "Name": "Headguard of the Unblinking Vigil",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99673",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99081": {
+      "Name": "Legguards of the Unblinking Vigil",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99676",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99082": {
+      "Name": "Spaulders of the Unblinking Vigil",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99670",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99083": {
+      "Name": "Chronomancer Gloves",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99680",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99084": {
+      "Name": "Chronomancer Hood",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99671",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99085": {
+      "Name": "Tunic of the Unblinking Vigil",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99679",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99086": {
+      "Name": "Gloves of the Unblinking Vigil",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99667",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99087": {
+      "Name": "Hauberk of Celestial Harmony",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99679",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99088": {
+      "Name": "Gloves of Celestial Harmony",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99667",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99089": {
+      "Name": "Headpiece of Celestial Harmony",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99673",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99090": {
+      "Name": "Leggings of Celestial Harmony",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99676",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99091": {
+      "Name": "Shoulderwraps of Celestial Harmony",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99670",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99092": {
+      "Name": "Gloves of Celestial Harmony",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99692",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99093": {
+      "Name": "Headpiece of Celestial Harmony",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99694",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99094": {
+      "Name": "Leggings of Celestial Harmony",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99693",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99095": {
+      "Name": "Shoulderwraps of Celestial Harmony",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99695",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99096": {
+      "Name": "Gloves of the Horned Nightmare",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99687",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99097": {
+      "Name": "Hood of the Horned Nightmare",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99689",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99098": {
+      "Name": "Leggings of the Horned Nightmare",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99688",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99099": {
+      "Name": "Legwraps of Celestial Harmony",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99693",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99100": {
+      "Name": "Mantle of Celestial Harmony",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99695",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99101": {
+      "Name": "Cuirass of Celestial Harmony",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99691",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99102": {
+      "Name": "Grips of Celestial Harmony",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99692",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99103": {
+      "Name": "Helmet of Celestial Harmony",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99694",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99104": {
+      "Name": "Legguards of Celestial Harmony",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99693",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99105": {
+      "Name": "Spaulders of Celestial Harmony",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99695",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99106": {
+      "Name": "Hauberk of Celestial Harmony",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99691",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99107": {
+      "Name": "Tunic of Celestial Harmony",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99691",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99108": {
+      "Name": "Handwraps of Celestial Harmony",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99692",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99109": {
+      "Name": "Faceguard of Celestial Harmony",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99694",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99110": {
+      "Name": "Raiment of the Ternion Glory",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99686",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99111": {
+      "Name": "Shoulderguards of the Ternion Glory",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99690",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99112": {
+      "Name": "Tunic of the Barbed Assassin",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99696",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99113": {
+      "Name": "Gloves of the Barbed Assassin",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99682",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99114": {
+      "Name": "Helmet of the Barbed Assassin",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99683",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99115": {
+      "Name": "Legguards of the Barbed Assassin",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99684",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99116": {
+      "Name": "Spaulders of the Barbed Assassin",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99685",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99117": {
+      "Name": "Cowl of the Ternion Glory",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99689",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99118": {
+      "Name": "Legwraps of the Ternion Glory",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99688",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99119": {
+      "Name": "Robes of the Ternion Glory",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99686",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99120": {
+      "Name": "Mantle of the Ternion Glory",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99690",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99121": {
+      "Name": "Gloves of the Ternion Glory",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99687",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99122": {
+      "Name": "Hood of the Ternion Glory",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99689",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99123": {
+      "Name": "Leggings of the Ternion Glory",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99688",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99124": {
+      "Name": "Greaves of Winged Triumph",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99688",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99125": {
+      "Name": "Mantle of Winged Triumph",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99690",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99126": {
+      "Name": "Chestguard of Winged Triumph",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99686",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99127": {
+      "Name": "Handguards of Winged Triumph",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99687",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99128": {
+      "Name": "Faceguard of Winged Triumph",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99689",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99129": {
+      "Name": "Legguards of Winged Triumph",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99688",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99130": {
+      "Name": "Shoulderguards of Winged Triumph",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99690",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99131": {
+      "Name": "Handwraps of the Ternion Glory",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99687",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99132": {
+      "Name": "Pauldrons of Winged Triumph",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99690",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99133": {
+      "Name": "Breastplate of Winged Triumph",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99686",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99134": {
+      "Name": "Gloves of Winged Triumph",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99687",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99135": {
+      "Name": "Headguard of Winged Triumph",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99689",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99136": {
+      "Name": "Battleplate of Winged Triumph",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99686",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99137": {
+      "Name": "Gauntlets of Winged Triumph",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99687",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99138": {
+      "Name": "Helmet of Winged Triumph",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99689",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99139": {
+      "Name": "Legplates of Winged Triumph",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99688",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99140": {
+      "Name": "Chestguard of Seven Sacred Seals",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99691",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99141": {
+      "Name": "Gauntlets of Seven Sacred Seals",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99692",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99142": {
+      "Name": "Crown of Seven Sacred Seals",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99694",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99143": {
+      "Name": "Legguards of Seven Sacred Seals",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99693",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99144": {
+      "Name": "Shoulderguards of Seven Sacred Seals",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99695",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99145": {
+      "Name": "Leggings of Seven Sacred Seals",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99693",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99146": {
+      "Name": "Spaulders of Seven Sacred Seals",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99695",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99147": {
+      "Name": "Handwraps of Seven Sacred Seals",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99692",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99148": {
+      "Name": "Helm of Seven Sacred Seals",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99694",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99149": {
+      "Name": "Legwraps of Seven Sacred Seals",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99693",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99150": {
+      "Name": "Vest of Seven Sacred Seals",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99691",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99151": {
+      "Name": "Mantle of Seven Sacred Seals",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99695",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99152": {
+      "Name": "Chronomancer Robes",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99696",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99153": {
+      "Name": "Chronomancer Mantle",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99685",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99154": {
+      "Name": "Tunic of Seven Sacred Seals",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99691",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99155": {
+      "Name": "Grips of Seven Sacred Seals",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99692",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99156": {
+      "Name": "Headpiece of Seven Sacred Seals",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99694",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99157": {
+      "Name": "Headguard of the Unblinking Vigil",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99694",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99158": {
+      "Name": "Legguards of the Unblinking Vigil",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99693",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99159": {
+      "Name": "Spaulders of the Unblinking Vigil",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99695",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99160": {
+      "Name": "Chronomancer Gloves",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99682",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99161": {
+      "Name": "Chronomancer Hood",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99683",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99162": {
+      "Name": "Chronomancer Leggings",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99684",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99167": {
+      "Name": "Tunic of the Unblinking Vigil",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99691",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99168": {
+      "Name": "Gloves of the Unblinking Vigil",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99692",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99179": {
+      "Name": "Shoulderguards of Cyclopean Dread",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99685",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99186": {
+      "Name": "Greaves of Cyclopean Dread",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99684",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99187": {
+      "Name": "Pauldrons of Cyclopean Dread",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99685",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99188": {
+      "Name": "Chestguard of Cyclopean Dread",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99696",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99189": {
+      "Name": "Handguards of Cyclopean Dread",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99682",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99190": {
+      "Name": "Faceguard of Cyclopean Dread",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99683",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99191": {
+      "Name": "Legguards of Cyclopean Dread",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99684",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99192": {
+      "Name": "Breastplate of Cyclopean Dread",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99696",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99193": {
+      "Name": "Gauntlets of Cyclopean Dread",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99682",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99194": {
+      "Name": "Helmet of Cyclopean Dread",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99683",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99195": {
+      "Name": "Legguards of the Prehistoric Marauder",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99693",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99196": {
+      "Name": "Shoulderguards of the Prehistoric Marauder",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99695",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99197": {
+      "Name": "Battleplate of the Prehistoric Marauder",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99691",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99198": {
+      "Name": "Gauntlets of the Prehistoric Marauder",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99692",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99199": {
+      "Name": "Legplates of the Prehistoric Marauder",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99693",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99200": {
+      "Name": "Pauldrons of the Prehistoric Marauder",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99695",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99201": {
+      "Name": "Chestguard of the Prehistoric Marauder",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99691",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99202": {
+      "Name": "Handguards of the Prehistoric Marauder",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99692",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99203": {
+      "Name": "Faceguard of the Prehistoric Marauder",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99694",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99204": {
+      "Name": "Robes of the Horned Nightmare",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99686",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99205": {
+      "Name": "Mantle of the Horned Nightmare",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99690",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99206": {
+      "Name": "Helmet of the Prehistoric Marauder",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99694",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99323": {
+      "Name": "Faceguard of Cyclopean Dread",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99723",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99324": {
+      "Name": "Legguards of Cyclopean Dread",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99726",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99325": {
+      "Name": "Shoulderguards of Cyclopean Dread",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99717",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99330": {
+      "Name": "Chestguard of Cyclopean Dread",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99714",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99331": {
+      "Name": "Handguards of Cyclopean Dread",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99720",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99332": {
+      "Name": "Headpiece of Celestial Harmony",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99725",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99333": {
+      "Name": "Leggings of Celestial Harmony",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99713",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99334": {
+      "Name": "Shoulderwraps of Celestial Harmony",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99719",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99335": {
+      "Name": "Breastplate of Cyclopean Dread",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99714",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99336": {
+      "Name": "Gauntlets of Cyclopean Dread",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99720",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99337": {
+      "Name": "Helmet of Cyclopean Dread",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99723",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99338": {
+      "Name": "Greaves of Cyclopean Dread",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99726",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99339": {
+      "Name": "Pauldrons of Cyclopean Dread",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99717",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99340": {
+      "Name": "Grips of Celestial Harmony",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99722",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99341": {
+      "Name": "Helmet of Celestial Harmony",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99725",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99342": {
+      "Name": "Legguards of Celestial Harmony",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99713",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99343": {
+      "Name": "Spaulders of Celestial Harmony",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99719",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99344": {
+      "Name": "Hauberk of Celestial Harmony",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99716",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99345": {
+      "Name": "Gloves of Celestial Harmony",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99722",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99346": {
+      "Name": "Mantle of Celestial Harmony",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99719",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99347": {
+      "Name": "Cuirass of Celestial Harmony",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99716",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99348": {
+      "Name": "Helmet of the Barbed Assassin",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99723",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99349": {
+      "Name": "Legguards of the Barbed Assassin",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99726",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99350": {
+      "Name": "Spaulders of the Barbed Assassin",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99717",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99351": {
+      "Name": "Tunic of Celestial Harmony",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99716",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99352": {
+      "Name": "Handwraps of Celestial Harmony",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99722",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99353": {
+      "Name": "Faceguard of Celestial Harmony",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99725",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99354": {
+      "Name": "Legwraps of Celestial Harmony",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99713",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99355": {
+      "Name": "Gloves of the Barbed Assassin",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99720",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99356": {
+      "Name": "Tunic of the Barbed Assassin",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99714",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99357": {
+      "Name": "Robes of the Ternion Glory",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99715",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99358": {
+      "Name": "Mantle of the Ternion Glory",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99718",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99359": {
+      "Name": "Gloves of the Ternion Glory",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99721",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99360": {
+      "Name": "Hood of the Ternion Glory",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99724",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99361": {
+      "Name": "Leggings of the Ternion Glory",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99712",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99362": {
+      "Name": "Raiment of the Ternion Glory",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99715",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99363": {
+      "Name": "Shoulderguards of the Ternion Glory",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99718",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99364": {
+      "Name": "Shoulderguards of Winged Triumph",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99718",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99365": {
+      "Name": "Handwraps of the Ternion Glory",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99721",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99366": {
+      "Name": "Cowl of the Ternion Glory",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99724",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99367": {
+      "Name": "Legwraps of the Ternion Glory",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99712",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99368": {
+      "Name": "Chestguard of Winged Triumph",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99715",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99369": {
+      "Name": "Handguards of Winged Triumph",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99721",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99370": {
+      "Name": "Faceguard of Winged Triumph",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99724",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99371": {
+      "Name": "Legguards of Winged Triumph",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99712",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99372": {
+      "Name": "Legplates of Winged Triumph",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99712",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99373": {
+      "Name": "Pauldrons of Winged Triumph",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99718",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99374": {
+      "Name": "Breastplate of Winged Triumph",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99715",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99375": {
+      "Name": "Gloves of Winged Triumph",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99721",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99376": {
+      "Name": "Headguard of Winged Triumph",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99724",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99377": {
+      "Name": "Greaves of Winged Triumph",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99712",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99378": {
+      "Name": "Mantle of Winged Triumph",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99718",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99379": {
+      "Name": "Helmet of Winged Triumph",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99724",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99380": {
+      "Name": "Gauntlets of Winged Triumph",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99721",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99381": {
+      "Name": "Mantle of Seven Sacred Seals",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99719",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99382": {
+      "Name": "Chestguard of Seven Sacred Seals",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99716",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99383": {
+      "Name": "Gauntlets of Seven Sacred Seals",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99722",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99384": {
+      "Name": "Crown of Seven Sacred Seals",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99725",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99385": {
+      "Name": "Legguards of Seven Sacred Seals",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99713",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99386": {
+      "Name": "Shoulderguards of Seven Sacred Seals",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99719",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99387": {
+      "Name": "Battleplate of Winged Triumph",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99715",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99388": {
+      "Name": "Handwraps of Seven Sacred Seals",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99722",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99389": {
+      "Name": "Helm of Seven Sacred Seals",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99725",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99390": {
+      "Name": "Legwraps of Seven Sacred Seals",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99713",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99391": {
+      "Name": "Vest of Seven Sacred Seals",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99716",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99392": {
+      "Name": "Grips of Seven Sacred Seals",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99722",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99393": {
+      "Name": "Headpiece of Seven Sacred Seals",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99725",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99394": {
+      "Name": "Leggings of Seven Sacred Seals",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99713",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99395": {
+      "Name": "Spaulders of Seven Sacred Seals",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99719",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99396": {
+      "Name": "Tunic of Seven Sacred Seals",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99716",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99397": {
+      "Name": "Chronomancer Gloves",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99720",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99398": {
+      "Name": "Chronomancer Hood",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99723",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99399": {
+      "Name": "Chronomancer Leggings",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99726",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99400": {
+      "Name": "Chronomancer Robes",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99714",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99401": {
+      "Name": "Chronomancer Mantle",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99717",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99402": {
+      "Name": "Headguard of the Unblinking Vigil",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99725",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99403": {
+      "Name": "Legguards of the Unblinking Vigil",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99713",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99404": {
+      "Name": "Spaulders of the Unblinking Vigil",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99719",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99405": {
+      "Name": "Tunic of the Unblinking Vigil",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99716",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99406": {
+      "Name": "Gloves of the Unblinking Vigil",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99722",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99407": {
+      "Name": "Shoulderguards of the Prehistoric Marauder",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99719",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99408": {
+      "Name": "Handguards of the Prehistoric Marauder",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99722",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99409": {
+      "Name": "Faceguard of the Prehistoric Marauder",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99725",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99410": {
+      "Name": "Legguards of the Prehistoric Marauder",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99713",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99411": {
+      "Name": "Battleplate of the Prehistoric Marauder",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99716",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99412": {
+      "Name": "Gauntlets of the Prehistoric Marauder",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99722",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99413": {
+      "Name": "Legplates of the Prehistoric Marauder",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99713",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99414": {
+      "Name": "Pauldrons of the Prehistoric Marauder",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99719",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99415": {
+      "Name": "Chestguard of the Prehistoric Marauder",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99716",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99416": {
+      "Name": "Robes of the Horned Nightmare",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99715",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99417": {
+      "Name": "Mantle of the Horned Nightmare",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99718",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99418": {
+      "Name": "Helmet of the Prehistoric Marauder",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99725",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99424": {
+      "Name": "Gloves of the Horned Nightmare",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99721",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99425": {
+      "Name": "Hood of the Horned Nightmare",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99724",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99426": {
+      "Name": "Leggings of the Horned Nightmare",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99712",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
     }
   }
 }

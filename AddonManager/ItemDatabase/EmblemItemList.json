@@ -5855,6 +5855,126 @@
       "SourceNumber": "30",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
+    },
+    "99671": {
+      "Name": "Helm of the Cursed Vanquisher",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "??",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "99668": {
+      "Name": "Shoulders of the Cursed Vanquisher",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "??",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "99677": {
+      "Name": "Chest of the Cursed Vanquisher",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "??",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "99680": {
+      "Name": "Gauntlets of the Cursed Vanquisher",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "??",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "99674": {
+      "Name": "Leggings of the Cursed Vanquisher",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "??",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "99672": {
+      "Name": "Helm of the Cursed Conqueror",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "??",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "99669": {
+      "Name": "Shoulders of the Cursed Conqueror",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "??",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "99678": {
+      "Name": "Chest of the Cursed Conqueror",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "??",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "99681": {
+      "Name": "Gauntlets of the Cursed Conqueror",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "??",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "99675": {
+      "Name": "Leggings of the Cursed Conqueror",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "??",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "99673": {
+      "Name": "Helm of the Cursed Protector",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "??",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "99670": {
+      "Name": "Shoulders of the Cursed Protector",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "??",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "99679": {
+      "Name": "Chest of the Cursed Protector",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "??",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "99667": {
+      "Name": "Gauntlets of the Cursed Protector",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "??",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "99676": {
+      "Name": "Leggings of the Cursed Protector",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "??",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
     }
   }
 }

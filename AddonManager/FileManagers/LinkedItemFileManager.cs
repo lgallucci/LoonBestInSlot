@@ -16,7 +16,7 @@ public static class LinkedItemFileManager
         }
         sb.AppendLine("}");
 
-        sb.AppendLine("LBIS.LinkedItemLookup = {");
+        sb.AppendLine("LBIS.LinkedItemLookup = {}");
         sb.AppendLine("for _, pair in ipairs(LBIS.LinkedItems) do");
         sb.AppendLine("    local baseID = pair[1]");
         sb.AppendLine("    local tfID = pair[2]");
@@ -24,7 +24,7 @@ public static class LinkedItemFileManager
         sb.AppendLine("    -- Map BOTH IDs to the exact same pair array");
         sb.AppendLine("    LBIS.LinkedItemLookup[baseID] = pair");
         sb.AppendLine("    LBIS.LinkedItemLookup[tfID] = pair");
-        sb.AppendLine("end\");");
+        sb.AppendLine("end");
 
         System.IO.File.WriteAllText(path, sb.ToString());
     }

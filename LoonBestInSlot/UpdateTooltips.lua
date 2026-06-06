@@ -142,9 +142,20 @@ local function onTooltipSetItem(tooltip, ...)
 		end
 
 		local itemEntries = {};
-		if LBIS.ItemsByIdAndSpec[itemId] then		
-			for key, entry in pairs(LBIS.ItemsByIdAndSpec[itemId]) do 	
-				itemEntries[key] = entry;
+
+		if LBIS.LinkedItemLookup[itemId] then
+			for k, v in pairs(LBIS.LinkedItemLookup[itemId]) do
+				if LBIS.ItemsByIdAndSpec[v] then
+					for key, entry in pairs(LBIS.ItemsByIdAndSpec[v]) do 	
+						itemEntries[key] = entry;
+					end
+				end
+			end
+		else
+			if LBIS.ItemsByIdAndSpec[itemId] then		
+				for key, entry in pairs(LBIS.ItemsByIdAndSpec[itemId]) do 	
+					itemEntries[key] = entry;
+				end
 			end
 		end
 

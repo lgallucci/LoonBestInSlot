@@ -754,7 +754,52 @@ public static class WowheadImporter
             }
         }
 
+        UpdateLinkedItems(itemSources);
+
         ItemSourceFileManager.WriteItemSources(itemSources);
+    }
+
+    private static void UpdateLinkedItems(SortedDictionary<int, ItemSource> itemSources)
+    {
+        var linkedNames = new Dictionary<string, List<int>>();
+        var linkedItems = new Dictionary<int, int>();
+
+        DatabaseItems dbItem;
+        var jsonFileString = File.ReadAllText(Constants.CombinePath(Constants.ItemDbPath, @$"\LinkedItemList.json"));
+        dbItem = JsonConvert.DeserializeObject<DatabaseItems>(jsonFileString) ?? new DatabaseItems();
+
+        foreach(var item in dbItem.Items)
+        {
+            if (!linkedNames.ContainsKey(item.Value.Name))
+                linkedNames.Add(item.Value.Name, new List<int>());
+
+            linkedNames[item.Value.Name].Add(item.Key);
+
+            if (linkedNames[item.Value.Name].Count > 1)
+            {
+                foreach (var itemId in linkedNames[item.Value.Name])
+                {
+                    foreach (var linkedItemId in linkedNames[item.Value.Name])
+                    {
+                        if (linkedItemId != itemId)
+                            linkedItems[itemId] = linkedItemId;
+                    }
+                }
+            }
+        }
+        
+        foreach (var unknownSource in itemSources.Where(i => i.Value.SourceType == "LBIS.L[\"unknown\"]"))
+        {
+            if (linkedItems.ContainsKey(unknownSource.Key) && itemSources.ContainsKey(linkedItems[unknownSource.Key]))
+            {
+                var linkedItem = itemSources[linkedItems[unknownSource.Key]];
+                unknownSource.Value.SourceType = linkedItem.SourceType;
+                unknownSource.Value.Source = linkedItem.Source;
+                unknownSource.Value.SourceNumber = linkedItem.SourceNumber;
+                unknownSource.Value.SourceLocation = linkedItem.SourceLocation;
+                unknownSource.Value.SourceFaction = linkedItem.SourceFaction;
+            }
+        }
     }
 
     private static List<string> _dungeons = new List<string>() { "zul'gurub", "zul'aman", };

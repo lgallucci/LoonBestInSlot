@@ -505,6 +505,6 @@ LBIS:AddItem(spec5, "94511", LBIS.L["Trinket"], "Alt") --Vicious Talisman of the
 LBIS:AddItem(spec5, "93253", LBIS.L["Trinket"], "Alt") --Woundripper Medallion
 LBIS:AddItem(spec5, "105029", LBIS.L["Trinket"], "Alt") --Haromm's Talisman
 LBIS:AddItem(spec5, "104974", LBIS.L["Trinket"], "Alt") --Assurance of Consequence
-LBIS:AddItem(spec5, "89393", LBIS.L["Main Hand"], "BIS") --Amber Slicer of Klaxxi'vess
-LBIS:AddItem(spec5, "105049", LBIS.L["Main Hand~Off Hand"], "BIS") --Nazgrim's Gutripper
-LBIS:AddItem(spec5, "105547", LBIS.L["Off Hand"], "BIS") --Nazgrim's Gutripper
+LBIS:AddItem(spec5, "105547", LBIS.L["Main Hand~Off Hand"], "BIS") --Nazgrim's Gutripper
+LBIS:AddItem(spec5, "89393", LBIS.L["Main Hand"], "Alt") --Amber Slicer of Klaxxi'vess
+LBIS:AddItem(spec5, "105049", LBIS.L["Main Hand~Off Hand"], "Alt") --Nazgrim's Gutripper

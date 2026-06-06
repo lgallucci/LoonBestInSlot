@@ -364,7 +364,6 @@ local function createDropDowns(window)
         end
 
         if LBIS.CurrentPhase >= 4 then
-            table.insert(items, LBIS.L[""]);
         end
 
         if LBIS.CurrentPhase >= 5 then

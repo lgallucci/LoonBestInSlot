@@ -1,4 +1,4 @@
-## Interface: 50502
+## Interface: 50504
 ## X-Min-Interface: 100206
 ## X-Min-Interface-Classic: 11501
 ## X-Min-Interface-BCC: 20504
@@ -27,6 +27,7 @@ DB\ItemSources.lua
 DB\GemSources.lua
 DB\EnchantSources.lua
 DB\TierSources.lua
+DB\LinkedItems.lua
 
 LoonBestInSlot.lua
 Common.lua
