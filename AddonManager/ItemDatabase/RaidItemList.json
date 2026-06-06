@@ -5440,22 +5440,6 @@
       "SourceLocation": "Throne of Thunder",
       "SourceFaction": "B"
     },
-    "94593": {
-      "Name": "Secrets of the Empire",
-      "Source": "Dark Animus (H) & Twin Consorts (H)",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Throne of Thunder",
-      "SourceFaction": "B"
-    },
-    "94594": {
-      "Name": "Titan Runestone",
-      "Source": "Dark Animus (H) & Twin Consorts (H)",
-      "SourceType": "Drop",
-      "SourceNumber": "0",
-      "SourceLocation": "Throne of Thunder",
-      "SourceFaction": "B"
-    },
     "94722": {
       "Name": "Worldbreaker's Stormscythe",
       "Source": "Jin'rokh the Breaker (N)",
@@ -12830,6 +12814,4454 @@
       "SourceType": "Drop",
       "SourceNumber": "0",
       "SourceLocation": "Throne of Thunder",
+      "SourceFaction": "B"
+    },
+    "99682": {
+      "Name": "Gauntlets of the Cursed Vanquisher",
+      "Source": "General Nazgrim (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "99683": {
+      "Name": "Helm of the Cursed Vanquisher",
+      "Source": "Thok the Bloodthirsty (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "99684": {
+      "Name": "Leggings of the Cursed Vanquisher",
+      "Source": "Paragons of the Klaxxi (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "99685": {
+      "Name": "Shoulders of the Cursed Vanquisher",
+      "Source": "Siegecrafter Blackfuse (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "99686": {
+      "Name": "Chest of the Cursed Conqueror",
+      "Source": "Sha of Pride (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "99687": {
+      "Name": "Gauntlets of the Cursed Conqueror",
+      "Source": "General Nazgrim (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "99688": {
+      "Name": "Leggings of the Cursed Conqueror",
+      "Source": "Paragons of the Klaxxi (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "99689": {
+      "Name": "Helm of the Cursed Conqueror",
+      "Source": "Thok the Bloodthirsty (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "99690": {
+      "Name": "Shoulders of the Cursed Conqueror",
+      "Source": "Siegecrafter Blackfuse (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "99691": {
+      "Name": "Chest of the Cursed Protector",
+      "Source": "Sha of Pride (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "99692": {
+      "Name": "Gauntlets of the Cursed Protector",
+      "Source": "General Nazgrim (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "99693": {
+      "Name": "Leggings of the Cursed Protector",
+      "Source": "Paragons of the Klaxxi (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "99694": {
+      "Name": "Helm of the Cursed Protector",
+      "Source": "Thok the Bloodthirsty (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "99695": {
+      "Name": "Shoulders of the Cursed Protector",
+      "Source": "Siegecrafter Blackfuse (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "99696": {
+      "Name": "Chest of the Cursed Vanquisher",
+      "Source": "Sha of Pride (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "99712": {
+      "Name": "Leggings of the Cursed Conqueror",
+      "Source": "Paragons of the Klaxxi (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "99713": {
+      "Name": "Leggings of the Cursed Protector",
+      "Source": "Paragons of the Klaxxi (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "99714": {
+      "Name": "Chest of the Cursed Vanquisher",
+      "Source": "Sha of Pride (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "99715": {
+      "Name": "Chest of the Cursed Conqueror",
+      "Source": "Sha of Pride (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "99716": {
+      "Name": "Chest of the Cursed Protector",
+      "Source": "Sha of Pride (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "99717": {
+      "Name": "Shoulders of the Cursed Vanquisher",
+      "Source": "Siegecrafter Blackfuse (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "99718": {
+      "Name": "Shoulders of the Cursed Conqueror",
+      "Source": "Siegecrafter Blackfuse (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "99719": {
+      "Name": "Shoulders of the Cursed Protector",
+      "Source": "Siegecrafter Blackfuse (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "99720": {
+      "Name": "Gauntlets of the Cursed Vanquisher",
+      "Source": "General Nazgrim (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "99721": {
+      "Name": "Gauntlets of the Cursed Conqueror",
+      "Source": "General Nazgrim (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "99722": {
+      "Name": "Gauntlets of the Cursed Protector",
+      "Source": "General Nazgrim (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "99723": {
+      "Name": "Helm of the Cursed Vanquisher",
+      "Source": "Thok the Bloodthirsty (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "99724": {
+      "Name": "Helm of the Cursed Conqueror",
+      "Source": "Thok the Bloodthirsty (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "99725": {
+      "Name": "Helm of the Cursed Protector",
+      "Source": "Thok the Bloodthirsty (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "99726": {
+      "Name": "Leggings of the Cursed Vanquisher",
+      "Source": "Paragons of the Klaxxi (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "102292": {
+      "Name": "Assurance of Consequence",
+      "Source": "Sha of Pride (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "102293": {
+      "Name": "Purified Bindings of Immerseus",
+      "Source": "Immerseus (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "102294": {
+      "Name": "Nazgrim's Burnished Insignia",
+      "Source": "General Nazgrim (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "102295": {
+      "Name": "Fusion-Fire Core",
+      "Source": "Norushen (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "102296": {
+      "Name": "Rook's Unlucky Talisman",
+      "Source": "The Fallen Protectors (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "102297": {
+      "Name": "Juggernaut's Focusing Crystal",
+      "Source": "Iron Juggernaut (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "102298": {
+      "Name": "Evil Eye of Galakras",
+      "Source": "Galakras (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "102299": {
+      "Name": "Prismatic Prison of Pride",
+      "Source": "Sha of Pride (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "102300": {
+      "Name": "Kardris' Toxic Totem",
+      "Source": "Kor'kron Dark Shaman (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "102301": {
+      "Name": "Haromm's Talisman",
+      "Source": "Kor'kron Dark Shaman (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "102302": {
+      "Name": "Sigil of Rampage",
+      "Source": "Spoils of Pandaria (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "102303": {
+      "Name": "Frenzied Crystal of Rage",
+      "Source": "Malkorok (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "102304": {
+      "Name": "Thok's Acid-Grooved Tooth",
+      "Source": "Thok the Bloodthirsty (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "102305": {
+      "Name": "Thok's Tail Tip",
+      "Source": "Thok the Bloodthirsty (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "102306": {
+      "Name": "Vial of Living Corruption",
+      "Source": "Malkorok (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "102307": {
+      "Name": "Curse of Hubris",
+      "Source": "Garrosh Hellscream (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "102308": {
+      "Name": "Skeer's Bloodsoaked Talisman",
+      "Source": "Paragons of the Klaxxi (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "102309": {
+      "Name": "Dysmorphic Samophlange of Discontinuity",
+      "Source": "Siegecrafter Blackfuse (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "102310": {
+      "Name": "Black Blood of Y'Shaarj",
+      "Source": "Garrosh Hellscream (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "102311": {
+      "Name": "Ticking Ebon Detonator",
+      "Source": "Siegecrafter Blackfuse (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103649": {
+      "Name": "Xal'atoh, Desecrated Image of Gorehowl",
+      "Source": "Garrosh Hellscream (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103726": {
+      "Name": "Trident of Corrupted Waters",
+      "Source": "Immerseus (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103727": {
+      "Name": "Encapsulated Essence of Immerseus",
+      "Source": "Immerseus (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103728": {
+      "Name": "Hood of Blackened Tears",
+      "Source": "Immerseus (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103729": {
+      "Name": "Kor'kron Elite Skullmask",
+      "Source": "Garrosh Hellscream (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103730": {
+      "Name": "Puddle Punishers",
+      "Source": "Immerseus (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103731": {
+      "Name": "Minelayer's Padded Boots",
+      "Source": "Iron Juggernaut (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103732": {
+      "Name": "Ravager's Pathwalkers",
+      "Source": "General Nazgrim (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103733": {
+      "Name": "Corruption-Rotted Gauntlets",
+      "Source": "Immerseus (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103735": {
+      "Name": "Tar-Coated Gauntlets",
+      "Source": "Iron Juggernaut (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103736": {
+      "Name": "Chestplate of Congealed Corrosion",
+      "Source": "Immerseus (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103737": {
+      "Name": "Breastplate of Shamanic Mirrors",
+      "Source": "Kor'kron Dark Shaman (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103738": {
+      "Name": "Bubble-Burst Bracers",
+      "Source": "Immerseus (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103739": {
+      "Name": "Wall-Borer Bracers",
+      "Source": "Iron Juggernaut (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103740": {
+      "Name": "Bracers of Blind Hatred",
+      "Source": "Norushen (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103741": {
+      "Name": "Bracers of Sordid Sleep",
+      "Source": "Immerseus (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103742": {
+      "Name": "Blood Rage Bracers",
+      "Source": "Malkorok (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103743": {
+      "Name": "Arcsmasher Bracers",
+      "Source": "Galakras (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103744": {
+      "Name": "Treads of Unchained Hate",
+      "Source": "Immerseus (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103745": {
+      "Name": "Ominous Mogu Greatboots",
+      "Source": "Spoils of Pandaria (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103747": {
+      "Name": "Pauldrons of Violent Eruption",
+      "Source": "Immerseus (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103748": {
+      "Name": "Krugruk's Rigid Shoulderplates",
+      "Source": "Galakras (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103749": {
+      "Name": "Immerseus' Crystalline Eye",
+      "Source": "Immerseus (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103750": {
+      "Name": "Gleaming Eye of the Devilsaur",
+      "Source": "Thok the Bloodthirsty (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103751": {
+      "Name": "Hood of Swirling Senses",
+      "Source": "Immerseus (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103752": {
+      "Name": "Bolt-Burster Grips",
+      "Source": "Immerseus (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103754": {
+      "Name": "Earthripper Gloves",
+      "Source": "Iron Juggernaut (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103755": {
+      "Name": "Ichor-Dripping Shoulderpads",
+      "Source": "Immerseus (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103756": {
+      "Name": "Shoulderpads of Pulsing Protection",
+      "Source": "Galakras (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103757": {
+      "Name": "Bracers of Purified Spirit",
+      "Source": "Immerseus (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103758": {
+      "Name": "Bracers of Averted Fatality",
+      "Source": "Malkorok (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103759": {
+      "Name": "Castlebreaker Bracers",
+      "Source": "Iron Juggernaut (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103760": {
+      "Name": "Salt Water Sandals",
+      "Source": "Immerseus (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103761": {
+      "Name": "Boots of Perilous Infusion",
+      "Source": "Malkorok (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103762": {
+      "Name": "Boots of Broken Reliance",
+      "Source": "Norushen (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103763": {
+      "Name": "Soul-Soaked Gloves",
+      "Source": "Immerseus (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103765": {
+      "Name": "Grips of Tidal Force",
+      "Source": "Galakras (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103766": {
+      "Name": "Waterwalker Greatboots",
+      "Source": "Immerseus (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103767": {
+      "Name": "Borer Drill Boots",
+      "Source": "Iron Juggernaut (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103768": {
+      "Name": "Mogu Mindbender's Greaves",
+      "Source": "Spoils of Pandaria (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103769": {
+      "Name": "Cloak of Misguided Power",
+      "Source": "Immerseus (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103771": {
+      "Name": "Seal of Eternal Sorrow",
+      "Source": "Immerseus (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103772": {
+      "Name": "Seal of Sullen Fury",
+      "Source": "Malkorok (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103773": {
+      "Name": "Laser-Slice Signet",
+      "Source": "Iron Juggernaut (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103774": {
+      "Name": "Signet of the Dinomancers",
+      "Source": "Thok the Bloodthirsty (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103775": {
+      "Name": "Softfoot's Last Resort",
+      "Source": "The Fallen Protectors (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103776": {
+      "Name": "Death Lotus Crossbow",
+      "Source": "The Fallen Protectors (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103777": {
+      "Name": "Stonetoe's Tormented Treads",
+      "Source": "The Fallen Protectors (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103778": {
+      "Name": "Unrepentant Heels",
+      "Source": "Galakras (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103779": {
+      "Name": "Pandaren Roofsprinters",
+      "Source": "Spoils of Pandaria (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103780": {
+      "Name": "Grips of Unending Anguish",
+      "Source": "The Fallen Protectors (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103782": {
+      "Name": "Precision Cutters",
+      "Source": "Iron Juggernaut (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103783": {
+      "Name": "Darkfallen Shoulderplates",
+      "Source": "The Fallen Protectors (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103784": {
+      "Name": "Spaulders of the Fallen Warchief",
+      "Source": "Garrosh Hellscream (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103785": {
+      "Name": "Tusks of Mannoroth",
+      "Source": "Garrosh Hellscream (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103787": {
+      "Name": "Poisonbinder Girth",
+      "Source": "The Fallen Protectors (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103788": {
+      "Name": "Demolisher's Reinforced Belt",
+      "Source": "Iron Juggernaut (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103790": {
+      "Name": "Shockstriker Gauntlets",
+      "Source": "The Fallen Protectors (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103792": {
+      "Name": "Calixian Bladebreakers",
+      "Source": "Siegecrafter Blackfuse (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103793": {
+      "Name": "Sorrowpath Signet",
+      "Source": "The Fallen Protectors (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103794": {
+      "Name": "Asgorathian Blood Seal",
+      "Source": "Siegecrafter Blackfuse (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103796": {
+      "Name": "Seal of the Forgotten Kings",
+      "Source": "Spoils of Pandaria (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103798": {
+      "Name": "Bloodclaw Band",
+      "Source": "Kor'kron Dark Shaman (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103799": {
+      "Name": "Gloomwrap Greatcloak",
+      "Source": "The Fallen Protectors (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103801": {
+      "Name": "Purehearted Cricket Cage",
+      "Source": "The Fallen Protectors (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103802": {
+      "Name": "Robes of the Tendered Heart",
+      "Source": "The Fallen Protectors (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103803": {
+      "Name": "Mantid Vizier's Robes",
+      "Source": "Spoils of Pandaria (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103804": {
+      "Name": "Sha-Seared Sandals",
+      "Source": "The Fallen Protectors (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103805": {
+      "Name": "Bone-Inlaid Sandals",
+      "Source": "Galakras (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103806": {
+      "Name": "Toxic Tornado Treads",
+      "Source": "Kor'kron Dark Shaman (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103807": {
+      "Name": "Shoulderpads of Dou Dou Chong",
+      "Source": "The Fallen Protectors (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103808": {
+      "Name": "Spaulders of Kor'kron Fealty",
+      "Source": "General Nazgrim (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103809": {
+      "Name": "Lifebane Bracers",
+      "Source": "The Fallen Protectors (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103810": {
+      "Name": "Bracers of Sonic Projection",
+      "Source": "Paragons of the Klaxxi (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103811": {
+      "Name": "Bracers of the Broken Fault",
+      "Source": "Iron Juggernaut (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103812": {
+      "Name": "Sabatons of Defilement",
+      "Source": "The Fallen Protectors (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103813": {
+      "Name": "Treads of Autonomic Motion",
+      "Source": "Iron Juggernaut (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103814": {
+      "Name": "Powder-Stained Totemic Treads",
+      "Source": "Siegecrafter Blackfuse (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103815": {
+      "Name": "Shoulderguards of Dark Meditations",
+      "Source": "The Fallen Protectors (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103816": {
+      "Name": "Shoulderguards of Foul Streams",
+      "Source": "Kor'kron Dark Shaman (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103817": {
+      "Name": "Grips of the Fallen Council",
+      "Source": "The Fallen Protectors (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103819": {
+      "Name": "Gauntlets of Insane Calculations",
+      "Source": "Paragons of the Klaxxi (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103820": {
+      "Name": "Gaze of Echoing Despair",
+      "Source": "The Fallen Protectors (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103821": {
+      "Name": "Crown of Boastful Words",
+      "Source": "Sha of Pride (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103822": {
+      "Name": "Petrified Pennyroyal Ring",
+      "Source": "The Fallen Protectors (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103823": {
+      "Name": "Extinguished Ember of Galakras",
+      "Source": "Galakras (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103824": {
+      "Name": "Iyyokuk's Hereditary Seal",
+      "Source": "Paragons of the Klaxxi (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103826": {
+      "Name": "Xifeng, Longblade of the Titanic Guardian",
+      "Source": "Norushen (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103827": {
+      "Name": "Norushen's Shortblade",
+      "Source": "Norushen (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103828": {
+      "Name": "Hvitserk's Formidable Shanker",
+      "Source": "Thok the Bloodthirsty (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103829": {
+      "Name": "Nazgrim's Gutripper",
+      "Source": "General Nazgrim (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103830": {
+      "Name": "Gloves of the Golden Protector",
+      "Source": "Norushen (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103831": {
+      "Name": "Korgra's Venom-Soaked Gauntlets",
+      "Source": "Galakras (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103834": {
+      "Name": "Robes of the Blackened Watcher",
+      "Source": "Norushen (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103835": {
+      "Name": "Lazahk's Lost Shadowrap",
+      "Source": "Malkorok (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103836": {
+      "Name": "Quarantine Shoulderguards",
+      "Source": "Norushen (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103837": {
+      "Name": "Shoulderguards of Intended Power",
+      "Source": "Garrosh Hellscream (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103838": {
+      "Name": "Leggings of Unabashed Anger",
+      "Source": "Norushen (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103839": {
+      "Name": "Rage-Blind Greathelm",
+      "Source": "Norushen (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103840": {
+      "Name": "Greathelm of the Warchief",
+      "Source": "Garrosh Hellscream (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103841": {
+      "Name": "Reality Ripper Ring",
+      "Source": "Norushen (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103842": {
+      "Name": "Swift Serpent Signet",
+      "Source": "Galakras (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103843": {
+      "Name": "Ring of Restless Energy",
+      "Source": "Malkorok (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103844": {
+      "Name": "Kil'ruk's Band of Ascendancy",
+      "Source": "Paragons of the Klaxxi (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103845": {
+      "Name": "Drape of the Despairing Pit",
+      "Source": "Norushen (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103847": {
+      "Name": "Norushen's Enigmatic Barrier",
+      "Source": "Norushen (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103848": {
+      "Name": "Visage of the Monstrous",
+      "Source": "Malkorok (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103849": {
+      "Name": "Bracers of Broken Causation",
+      "Source": "Norushen (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103850": {
+      "Name": "Scalebane Bracers",
+      "Source": "Galakras (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103851": {
+      "Name": "Avool's Ancestral Bracers",
+      "Source": "Spoils of Pandaria (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103852": {
+      "Name": "Blight Hurlers",
+      "Source": "Norushen (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103853": {
+      "Name": "Montak's Grips of Scorching Breath",
+      "Source": "Thok the Bloodthirsty (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103855": {
+      "Name": "Sash of the Last Guardian",
+      "Source": "Norushen (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103856": {
+      "Name": "Belt of the Broken Pact",
+      "Source": "Garrosh Hellscream (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103857": {
+      "Name": "Rime-Rift Shoulders",
+      "Source": "Norushen (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103858": {
+      "Name": "Confident Grips",
+      "Source": "Norushen (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103860": {
+      "Name": "Klaxxi Grips of Rejuvenation",
+      "Source": "Spoils of Pandaria (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103861": {
+      "Name": "Bracers of Final Serenity",
+      "Source": "Norushen (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103862": {
+      "Name": "Bracers of the Pristine Purifier",
+      "Source": "Spoils of Pandaria (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103863": {
+      "Name": "Cavemaker Wristguards",
+      "Source": "Iron Juggernaut (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103864": {
+      "Name": "Wristplates of Broken Doubt",
+      "Source": "Norushen (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103865": {
+      "Name": "Smoldering Drakescale Bracers",
+      "Source": "Galakras (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103866": {
+      "Name": "Shackles of Stinking Slime",
+      "Source": "Kor'kron Dark Shaman (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103867": {
+      "Name": "Untainted Guardian's Chain",
+      "Source": "Norushen (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103868": {
+      "Name": "Ashflare Pendant",
+      "Source": "Kor'kron Dark Shaman (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103869": {
+      "Name": "Greatsword of Pride's Fall",
+      "Source": "Sha of Pride (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103870": {
+      "Name": "Shield of Mockery",
+      "Source": "Sha of Pride (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103871": {
+      "Name": "Ancient Mogu Tower Shield",
+      "Source": "Spoils of Pandaria (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103872": {
+      "Name": "Bulwark of the Fallen General",
+      "Source": "General Nazgrim (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103873": {
+      "Name": "Gaze of Arrogance",
+      "Source": "Sha of Pride (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103874": {
+      "Name": "Lever of the Megantholithic Apparatus",
+      "Source": "Siegecrafter Blackfuse (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103875": {
+      "Name": "Drakebinder Greatstaff",
+      "Source": "Galakras (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103876": {
+      "Name": "Self-Reflecting Mask",
+      "Source": "Sha of Pride (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103877": {
+      "Name": "Darkfang Mask",
+      "Source": "Kor'kron Dark Shaman (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103878": {
+      "Name": "Greaves of Sublime Superiority",
+      "Source": "Sha of Pride (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103879": {
+      "Name": "Malkorok's Giant Stompers",
+      "Source": "Malkorok (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103880": {
+      "Name": "Wolf-Rider Spurs",
+      "Source": "Kor'kron Dark Shaman (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103881": {
+      "Name": "Necklace of Fading Light",
+      "Source": "Sha of Pride (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103882": {
+      "Name": "Lost Necklace of the Mogu Empress",
+      "Source": "Spoils of Pandaria (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103883": {
+      "Name": "Choker of the Final Word",
+      "Source": "Sha of Pride (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103884": {
+      "Name": "Blackfuse's Blasting Cord",
+      "Source": "Siegecrafter Blackfuse (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103885": {
+      "Name": "Dagryn's Discarded Longbow",
+      "Source": "Galakras (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103886": {
+      "Name": "Hisek's Reserve Longbow",
+      "Source": "Paragons of the Klaxxi (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103887": {
+      "Name": "Cannoneer's Multipocket Gunbelt",
+      "Source": "Galakras (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103888": {
+      "Name": "Arrowflight Girdle",
+      "Source": "Spoils of Pandaria (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103889": {
+      "Name": "Dagryn's Fuselight Bracers",
+      "Source": "Galakras (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103890": {
+      "Name": "Wristguards of Ruination",
+      "Source": "Malkorok (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103891": {
+      "Name": "Bracers of Infinite Pipes",
+      "Source": "Siegecrafter Blackfuse (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103892": {
+      "Name": "Thranok's Shattering Helm",
+      "Source": "Galakras (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103893": {
+      "Name": "Helm of the Night Watchman",
+      "Source": "Spoils of Pandaria (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103894": {
+      "Name": "Galakrond Control Band",
+      "Source": "Galakras (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103895": {
+      "Name": "Ring of the Iron Tomb",
+      "Source": "Kor'kron Dark Shaman (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103896": {
+      "Name": "Devilfang Band",
+      "Source": "Thok the Bloodthirsty (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103898": {
+      "Name": "Belt of Ominous Trembles",
+      "Source": "Iron Juggernaut (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103899": {
+      "Name": "Miasmic Skullbelt",
+      "Source": "Malkorok (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103900": {
+      "Name": "Flameslinger's Fiery Cowl",
+      "Source": "Galakras (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103901": {
+      "Name": "Ebon Ritual Hood",
+      "Source": "Garrosh Hellscream (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103902": {
+      "Name": "Skydancer Boots",
+      "Source": "Galakras (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103904": {
+      "Name": "Sandals of Two Little Bees",
+      "Source": "General Nazgrim (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103905": {
+      "Name": "Dragonmaw Emergency Strap",
+      "Source": "Galakras (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103906": {
+      "Name": "Seal of Karmic Return",
+      "Source": "Garrosh Hellscream (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103907": {
+      "Name": "Windfire Legplates",
+      "Source": "Galakras (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103908": {
+      "Name": "Seismic Bore",
+      "Source": "Iron Juggernaut (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103909": {
+      "Name": "Laser Burn Bracers",
+      "Source": "Iron Juggernaut (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103910": {
+      "Name": "Bomber's Blackened Wristwatch",
+      "Source": "Siegecrafter Blackfuse (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103911": {
+      "Name": "Mantid Carapace Augments",
+      "Source": "Spoils of Pandaria (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103912": {
+      "Name": "Ricocheting Shoulderguards",
+      "Source": "Iron Juggernaut (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103913": {
+      "Name": "Shoulderguards of the Righteous Stand",
+      "Source": "General Nazgrim (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103914": {
+      "Name": "Earthbreaker's Steaming Chestplate",
+      "Source": "Iron Juggernaut (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103915": {
+      "Name": "Icy Blood Chestplate",
+      "Source": "Thok the Bloodthirsty (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103916": {
+      "Name": "Juggernaut's Ignition Keys",
+      "Source": "Iron Juggernaut (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103917": {
+      "Name": "Malkorok's Tainted Dog Tags",
+      "Source": "Malkorok (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103918": {
+      "Name": "Juggernaut's Power Core",
+      "Source": "Iron Juggernaut (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103919": {
+      "Name": "Festering Primordial Globule",
+      "Source": "Thok the Bloodthirsty (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103920": {
+      "Name": "Revelations of Y'Shaarj",
+      "Source": "Garrosh Hellscream (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103921": {
+      "Name": "Leggings of Furious Flame",
+      "Source": "Iron Juggernaut (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103922": {
+      "Name": "Shock Pulse Robes",
+      "Source": "Iron Juggernaut (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103923": {
+      "Name": "Robes of Riven Dreams",
+      "Source": "Malkorok (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103924": {
+      "Name": "Shoulders of the Roiling Inferno",
+      "Source": "The Fallen Protectors (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103925": {
+      "Name": "Hopeglow Spaulders",
+      "Source": "Garrosh Hellscream (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103926": {
+      "Name": "Haromm's Frozen Crescent",
+      "Source": "Kor'kron Dark Shaman (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103927": {
+      "Name": "Damron's Belt of Darkness",
+      "Source": "Kor'kron Dark Shaman (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103928": {
+      "Name": "Cord of Black Dreams",
+      "Source": "Garrosh Hellscream (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103929": {
+      "Name": "Riou's Vigilant Leggings",
+      "Source": "Kor'kron Dark Shaman (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103930": {
+      "Name": "Haromm's Horrifying Helm",
+      "Source": "Kor'kron Dark Shaman (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103931": {
+      "Name": "Penetrating Gaze of Y'Shaarj",
+      "Source": "Garrosh Hellscream (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103932": {
+      "Name": "Ashen Wall Girdle",
+      "Source": "Kor'kron Dark Shaman (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103933": {
+      "Name": "Untarnishable Greatbelt",
+      "Source": "Spoils of Pandaria (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103934": {
+      "Name": "Poisonmist Nightcloak",
+      "Source": "Kor'kron Dark Shaman (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103936": {
+      "Name": "Kardris' Scepter",
+      "Source": "Kor'kron Dark Shaman (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103937": {
+      "Name": "Horned Mace of the Old Ones",
+      "Source": "Garrosh Hellscream (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103938": {
+      "Name": "Iron Wolf Hood",
+      "Source": "Kor'kron Dark Shaman (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103939": {
+      "Name": "Hood of Perpetual Implosion",
+      "Source": "Malkorok (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103940": {
+      "Name": "Belt of the Iron Prison",
+      "Source": "Kor'kron Dark Shaman (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103941": {
+      "Name": "Chitin-Link Chain Belt",
+      "Source": "Spoils of Pandaria (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103942": {
+      "Name": "Shadow-Binder's Kilt",
+      "Source": "Norushen (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103943": {
+      "Name": "Shoulderplates of Gushing Geysers",
+      "Source": "Kor'kron Dark Shaman (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103944": {
+      "Name": "Mantle of Looming Darkness",
+      "Source": "Garrosh Hellscream (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103945": {
+      "Name": "Gar'tok, Strength of the Faithful",
+      "Source": "General Nazgrim (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103946": {
+      "Name": "Arcweaver Spell Sword",
+      "Source": "General Nazgrim (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103947": {
+      "Name": "Robes of the Warrior's Fall",
+      "Source": "General Nazgrim (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103948": {
+      "Name": "Amber Parasite Wraps",
+      "Source": "Paragons of the Klaxxi (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103949": {
+      "Name": "Crown of Tragic Truth",
+      "Source": "General Nazgrim (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103950": {
+      "Name": "Cowl of Smoking Dreams",
+      "Source": "Garrosh Hellscream (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103951": {
+      "Name": "Malkorok's Skullcleaver",
+      "Source": "Malkorok (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103952": {
+      "Name": "Halberd of Inner Shadows",
+      "Source": "Malkorok (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103953": {
+      "Name": "Kor'kron Hand Cannon",
+      "Source": "Malkorok (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103954": {
+      "Name": "Legplates of Willful Doom",
+      "Source": "Malkorok (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103955": {
+      "Name": "Ebon Blood Chestguard",
+      "Source": "Malkorok (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103956": {
+      "Name": "Chestguard of Toxic Injections",
+      "Source": "Paragons of the Klaxxi (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103957": {
+      "Name": "Terrorguard Chestplate",
+      "Source": "Malkorok (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103958": {
+      "Name": "Chestplate of Fallen Passion",
+      "Source": "Garrosh Hellscream (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103959": {
+      "Name": "Black-Blooded Drape",
+      "Source": "Malkorok (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103961": {
+      "Name": "Enchanted Shao-Tien Saber",
+      "Source": "Spoils of Pandaria (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103962": {
+      "Name": "Ancient Archer's Chestguard",
+      "Source": "Spoils of Pandaria (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103963": {
+      "Name": "Chestguard of Relentless Tyranny",
+      "Source": "Garrosh Hellscream (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103964": {
+      "Name": "Immaculately Preserved Wand",
+      "Source": "Spoils of Pandaria (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103965": {
+      "Name": "Plate Belt of the War-Healer",
+      "Source": "Spoils of Pandaria (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103966": {
+      "Name": "Greatbelt of Living Waters",
+      "Source": "Immerseus (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103967": {
+      "Name": "Shado-Pan Reliquary Kilt",
+      "Source": "Spoils of Pandaria (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103968": {
+      "Name": "Britomart's Jagged Pike",
+      "Source": "Thok the Bloodthirsty (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103969": {
+      "Name": "Siegecrafter's Forge Hammer",
+      "Source": "Siegecrafter Blackfuse (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103970": {
+      "Name": "Fusespark Gloves",
+      "Source": "Siegecrafter Blackfuse (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103971": {
+      "Name": "Korven's Crimson Crescent",
+      "Source": "Paragons of the Klaxxi (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103972": {
+      "Name": "Kil'ruk's Furious Blade",
+      "Source": "Paragons of the Klaxxi (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103973": {
+      "Name": "Rik'kal's Bloody Scalpel",
+      "Source": "Paragons of the Klaxxi (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "103974": {
+      "Name": "Kor'kron Spire of Supremacy",
+      "Source": "Garrosh Hellscream (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104253": {
+      "Name": "Kor'kron Juggernaut",
+      "Source": "Garrosh Hellscream (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104308": {
+      "Name": "Akolik's Acid-Soaked Robes",
+      "Source": "Thok the Bloodthirsty (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104311": {
+      "Name": "Legplates of Unthinking Strife",
+      "Source": "Garrosh Hellscream (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104411": {
+      "Name": "Immerseus' Crystalline Eye",
+      "Source": "Immerseus (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104412": {
+      "Name": "Trident of Corrupted Waters",
+      "Source": "Immerseus (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104413": {
+      "Name": "Hood of Blackened Tears",
+      "Source": "Immerseus (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104414": {
+      "Name": "Puddle Punishers",
+      "Source": "Immerseus (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104415": {
+      "Name": "Bubble-Burst Bracers",
+      "Source": "Immerseus (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104416": {
+      "Name": "Chestplate of Congealed Corrosion",
+      "Source": "Immerseus (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104417": {
+      "Name": "Corruption-Rotted Gauntlets",
+      "Source": "Immerseus (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104418": {
+      "Name": "Treads of Unchained Hate",
+      "Source": "Immerseus (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104419": {
+      "Name": "Bracers of Sordid Sleep",
+      "Source": "Immerseus (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104420": {
+      "Name": "Pauldrons of Violent Eruption",
+      "Source": "Immerseus (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104421": {
+      "Name": "Encapsulated Essence of Immerseus",
+      "Source": "Immerseus (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104422": {
+      "Name": "Bolt-Burster Grips",
+      "Source": "Immerseus (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104423": {
+      "Name": "Ichor-Dripping Shoulderpads",
+      "Source": "Immerseus (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104424": {
+      "Name": "Hood of Swirling Senses",
+      "Source": "Immerseus (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104425": {
+      "Name": "Cloak of Misguided Power",
+      "Source": "Immerseus (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104426": {
+      "Name": "Purified Bindings of Immerseus",
+      "Source": "Immerseus (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104427": {
+      "Name": "Seal of Eternal Sorrow",
+      "Source": "Immerseus (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104428": {
+      "Name": "Salt Water Sandals",
+      "Source": "Immerseus (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104429": {
+      "Name": "Bracers of Purified Spirit",
+      "Source": "Immerseus (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104430": {
+      "Name": "Soul-Soaked Gloves",
+      "Source": "Immerseus (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104431": {
+      "Name": "Greatbelt of Living Waters",
+      "Source": "Immerseus (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104432": {
+      "Name": "Waterwalker Greatboots",
+      "Source": "Immerseus (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104433": {
+      "Name": "Death Lotus Crossbow",
+      "Source": "The Fallen Protectors (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104434": {
+      "Name": "Softfoot's Last Resort",
+      "Source": "The Fallen Protectors (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104435": {
+      "Name": "Stonetoe's Tormented Treads",
+      "Source": "The Fallen Protectors (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104436": {
+      "Name": "Grips of Unending Anguish",
+      "Source": "The Fallen Protectors (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104437": {
+      "Name": "Poisonbinder Girth",
+      "Source": "The Fallen Protectors (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104438": {
+      "Name": "Darkfallen Shoulderplates",
+      "Source": "The Fallen Protectors (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104439": {
+      "Name": "Shockstriker Gauntlets",
+      "Source": "The Fallen Protectors (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104440": {
+      "Name": "Sorrowpath Signet",
+      "Source": "The Fallen Protectors (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104441": {
+      "Name": "Gloomwrap Greatcloak",
+      "Source": "The Fallen Protectors (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104442": {
+      "Name": "Rook's Unlucky Talisman",
+      "Source": "The Fallen Protectors (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104443": {
+      "Name": "Sha-Seared Sandals",
+      "Source": "The Fallen Protectors (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104444": {
+      "Name": "Robes of the Tendered Heart",
+      "Source": "The Fallen Protectors (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104445": {
+      "Name": "Shoulderpads of Dou Dou Chong",
+      "Source": "The Fallen Protectors (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104446": {
+      "Name": "Lifebane Bracers",
+      "Source": "The Fallen Protectors (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104447": {
+      "Name": "Petrified Pennyroyal Ring",
+      "Source": "The Fallen Protectors (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104448": {
+      "Name": "Purehearted Cricket Cage",
+      "Source": "The Fallen Protectors (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104449": {
+      "Name": "Shoulders of the Roiling Inferno",
+      "Source": "The Fallen Protectors (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104450": {
+      "Name": "Sabatons of Defilement",
+      "Source": "The Fallen Protectors (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104451": {
+      "Name": "Shoulderguards of Dark Meditations",
+      "Source": "The Fallen Protectors (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104452": {
+      "Name": "Grips of the Fallen Council",
+      "Source": "The Fallen Protectors (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104453": {
+      "Name": "Gaze of Echoing Despair",
+      "Source": "The Fallen Protectors (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104454": {
+      "Name": "Norushen's Shortblade",
+      "Source": "Norushen (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104455": {
+      "Name": "Reality Ripper Ring",
+      "Source": "Norushen (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104456": {
+      "Name": "Robes of the Blackened Watcher",
+      "Source": "Norushen (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104457": {
+      "Name": "Gloves of the Golden Protector",
+      "Source": "Norushen (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104458": {
+      "Name": "Leggings of Unabashed Anger",
+      "Source": "Norushen (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104459": {
+      "Name": "Quarantine Shoulderguards",
+      "Source": "Norushen (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104460": {
+      "Name": "Bracers of Blind Hatred",
+      "Source": "Norushen (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104461": {
+      "Name": "Rage-Blind Greathelm",
+      "Source": "Norushen (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104462": {
+      "Name": "Drape of the Despairing Pit",
+      "Source": "Norushen (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104463": {
+      "Name": "Fusion-Fire Core",
+      "Source": "Norushen (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104464": {
+      "Name": "Xifeng, Longblade of the Titanic Guardian",
+      "Source": "Norushen (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104465": {
+      "Name": "Bracers of Broken Causation",
+      "Source": "Norushen (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104466": {
+      "Name": "Blight Hurlers",
+      "Source": "Norushen (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104467": {
+      "Name": "Sash of the Last Guardian",
+      "Source": "Norushen (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104468": {
+      "Name": "Rime-Rift Shoulders",
+      "Source": "Norushen (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104469": {
+      "Name": "Untainted Guardian's Chain",
+      "Source": "Norushen (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104470": {
+      "Name": "Norushen's Enigmatic Barrier",
+      "Source": "Norushen (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104471": {
+      "Name": "Boots of Broken Reliance",
+      "Source": "Norushen (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104472": {
+      "Name": "Confident Grips",
+      "Source": "Norushen (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104473": {
+      "Name": "Bracers of Final Serenity",
+      "Source": "Norushen (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104474": {
+      "Name": "Shadow-Binder's Kilt",
+      "Source": "Norushen (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104475": {
+      "Name": "Wristplates of Broken Doubt",
+      "Source": "Norushen (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104476": {
+      "Name": "Assurance of Consequence",
+      "Source": "Sha of Pride (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104477": {
+      "Name": "Necklace of Fading Light",
+      "Source": "Sha of Pride (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104478": {
+      "Name": "Prismatic Prison of Pride",
+      "Source": "Sha of Pride (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104479": {
+      "Name": "Gaze of Arrogance",
+      "Source": "Sha of Pride (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104480": {
+      "Name": "Self-Reflecting Mask",
+      "Source": "Sha of Pride (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104481": {
+      "Name": "Crown of Boastful Words",
+      "Source": "Sha of Pride (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104482": {
+      "Name": "Greaves of Sublime Superiority",
+      "Source": "Sha of Pride (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104483": {
+      "Name": "Greatsword of Pride's Fall",
+      "Source": "Sha of Pride (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104484": {
+      "Name": "Choker of the Final Word",
+      "Source": "Sha of Pride (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104485": {
+      "Name": "Shield of Mockery",
+      "Source": "Sha of Pride (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104486": {
+      "Name": "Dagryn's Discarded Longbow",
+      "Source": "Galakras (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104487": {
+      "Name": "Swift Serpent Signet",
+      "Source": "Galakras (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104488": {
+      "Name": "Unrepentant Heels",
+      "Source": "Galakras (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104489": {
+      "Name": "Korgra's Venom-Soaked Gauntlets",
+      "Source": "Galakras (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104490": {
+      "Name": "Cannoneer's Multipocket Gunbelt",
+      "Source": "Galakras (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104491": {
+      "Name": "Dagryn's Fuselight Bracers",
+      "Source": "Galakras (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104492": {
+      "Name": "Thranok's Shattering Helm",
+      "Source": "Galakras (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104493": {
+      "Name": "Arcsmasher Bracers",
+      "Source": "Galakras (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104494": {
+      "Name": "Krugruk's Rigid Shoulderplates",
+      "Source": "Galakras (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104495": {
+      "Name": "Evil Eye of Galakras",
+      "Source": "Galakras (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104496": {
+      "Name": "Galakrond Control Band",
+      "Source": "Galakras (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104497": {
+      "Name": "Bone-Inlaid Sandals",
+      "Source": "Galakras (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104498": {
+      "Name": "Scalebane Bracers",
+      "Source": "Galakras (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104499": {
+      "Name": "Flameslinger's Fiery Cowl",
+      "Source": "Galakras (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104500": {
+      "Name": "Skydancer Boots",
+      "Source": "Galakras (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104501": {
+      "Name": "Shoulderpads of Pulsing Protection",
+      "Source": "Galakras (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104502": {
+      "Name": "Extinguished Ember of Galakras",
+      "Source": "Galakras (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104503": {
+      "Name": "Drakebinder Greatstaff",
+      "Source": "Galakras (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104504": {
+      "Name": "Dragonmaw Emergency Strap",
+      "Source": "Galakras (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104505": {
+      "Name": "Grips of Tidal Force",
+      "Source": "Galakras (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104506": {
+      "Name": "Smoldering Drakescale Bracers",
+      "Source": "Galakras (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104507": {
+      "Name": "Windfire Legplates",
+      "Source": "Galakras (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104508": {
+      "Name": "Seismic Bore",
+      "Source": "Iron Juggernaut (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104509": {
+      "Name": "Laser Burn Bracers",
+      "Source": "Iron Juggernaut (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104510": {
+      "Name": "Ricocheting Shoulderguards",
+      "Source": "Iron Juggernaut (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104511": {
+      "Name": "Minelayer's Padded Boots",
+      "Source": "Iron Juggernaut (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104512": {
+      "Name": "Precision Cutters",
+      "Source": "Iron Juggernaut (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104513": {
+      "Name": "Demolisher's Reinforced Belt",
+      "Source": "Iron Juggernaut (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104514": {
+      "Name": "Wall-Borer Bracers",
+      "Source": "Iron Juggernaut (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104515": {
+      "Name": "Tar-Coated Gauntlets",
+      "Source": "Iron Juggernaut (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104516": {
+      "Name": "Earthbreaker's Steaming Chestplate",
+      "Source": "Iron Juggernaut (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104517": {
+      "Name": "Juggernaut's Ignition Keys",
+      "Source": "Iron Juggernaut (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104518": {
+      "Name": "Juggernaut's Focusing Crystal",
+      "Source": "Iron Juggernaut (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104519": {
+      "Name": "Belt of Ominous Trembles",
+      "Source": "Iron Juggernaut (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104520": {
+      "Name": "Leggings of Furious Flame",
+      "Source": "Iron Juggernaut (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104521": {
+      "Name": "Bracers of the Broken Fault",
+      "Source": "Iron Juggernaut (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104522": {
+      "Name": "Earthripper Gloves",
+      "Source": "Iron Juggernaut (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104523": {
+      "Name": "Shock Pulse Robes",
+      "Source": "Iron Juggernaut (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104524": {
+      "Name": "Laser-Slice Signet",
+      "Source": "Iron Juggernaut (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104525": {
+      "Name": "Juggernaut's Power Core",
+      "Source": "Iron Juggernaut (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104526": {
+      "Name": "Castlebreaker Bracers",
+      "Source": "Iron Juggernaut (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104527": {
+      "Name": "Treads of Autonomic Motion",
+      "Source": "Iron Juggernaut (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104528": {
+      "Name": "Cavemaker Wristguards",
+      "Source": "Iron Juggernaut (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104529": {
+      "Name": "Borer Drill Boots",
+      "Source": "Iron Juggernaut (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104530": {
+      "Name": "Poisonmist Nightcloak",
+      "Source": "Kor'kron Dark Shaman (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104531": {
+      "Name": "Haromm's Talisman",
+      "Source": "Kor'kron Dark Shaman (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104532": {
+      "Name": "Damron's Belt of Darkness",
+      "Source": "Kor'kron Dark Shaman (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104533": {
+      "Name": "Riou's Vigilant Leggings",
+      "Source": "Kor'kron Dark Shaman (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104534": {
+      "Name": "Haromm's Horrifying Helm",
+      "Source": "Kor'kron Dark Shaman (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104535": {
+      "Name": "Wolf-Rider Spurs",
+      "Source": "Kor'kron Dark Shaman (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104536": {
+      "Name": "Breastplate of Shamanic Mirrors",
+      "Source": "Kor'kron Dark Shaman (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104537": {
+      "Name": "Ashen Wall Girdle",
+      "Source": "Kor'kron Dark Shaman (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104538": {
+      "Name": "Bloodclaw Band",
+      "Source": "Kor'kron Dark Shaman (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104539": {
+      "Name": "Haromm's Frozen Crescent",
+      "Source": "Kor'kron Dark Shaman (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104540": {
+      "Name": "Ring of the Iron Tomb",
+      "Source": "Kor'kron Dark Shaman (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104541": {
+      "Name": "Toxic Tornado Treads",
+      "Source": "Kor'kron Dark Shaman (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104542": {
+      "Name": "Iron Wolf Hood",
+      "Source": "Kor'kron Dark Shaman (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104543": {
+      "Name": "Ashflare Pendant",
+      "Source": "Kor'kron Dark Shaman (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104544": {
+      "Name": "Kardris' Toxic Totem",
+      "Source": "Kor'kron Dark Shaman (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104545": {
+      "Name": "Kardris' Scepter",
+      "Source": "Kor'kron Dark Shaman (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104546": {
+      "Name": "Darkfang Mask",
+      "Source": "Kor'kron Dark Shaman (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104547": {
+      "Name": "Belt of the Iron Prison",
+      "Source": "Kor'kron Dark Shaman (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104548": {
+      "Name": "Shoulderguards of Foul Streams",
+      "Source": "Kor'kron Dark Shaman (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104549": {
+      "Name": "Shackles of Stinking Slime",
+      "Source": "Kor'kron Dark Shaman (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104550": {
+      "Name": "Shoulderplates of Gushing Geysers",
+      "Source": "Kor'kron Dark Shaman (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104551": {
+      "Name": "Nazgrim's Gutripper",
+      "Source": "General Nazgrim (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104552": {
+      "Name": "Sandals of Two Little Bees",
+      "Source": "General Nazgrim (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104553": {
+      "Name": "Nazgrim's Burnished Insignia",
+      "Source": "General Nazgrim (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104554": {
+      "Name": "Arcweaver Spell Sword",
+      "Source": "General Nazgrim (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104555": {
+      "Name": "Shoulderguards of the Righteous Stand",
+      "Source": "General Nazgrim (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104556": {
+      "Name": "Robes of the Warrior's Fall",
+      "Source": "General Nazgrim (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104557": {
+      "Name": "Ravager's Pathwalkers",
+      "Source": "General Nazgrim (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104558": {
+      "Name": "Crown of Tragic Truth",
+      "Source": "General Nazgrim (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104559": {
+      "Name": "Gar'tok, Strength of the Faithful",
+      "Source": "General Nazgrim (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104560": {
+      "Name": "Bulwark of the Fallen General",
+      "Source": "General Nazgrim (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104561": {
+      "Name": "Spaulders of Kor'kron Fealty",
+      "Source": "General Nazgrim (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104562": {
+      "Name": "Ring of Restless Energy",
+      "Source": "Malkorok (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104563": {
+      "Name": "Kor'kron Hand Cannon",
+      "Source": "Malkorok (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104564": {
+      "Name": "Halberd of Inner Shadows",
+      "Source": "Malkorok (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104565": {
+      "Name": "Lazahk's Lost Shadowrap",
+      "Source": "Malkorok (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104566": {
+      "Name": "Wristguards of Ruination",
+      "Source": "Malkorok (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104567": {
+      "Name": "Malkorok's Giant Stompers",
+      "Source": "Malkorok (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104568": {
+      "Name": "Blood Rage Bracers",
+      "Source": "Malkorok (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104569": {
+      "Name": "Legplates of Willful Doom",
+      "Source": "Malkorok (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104570": {
+      "Name": "Malkorok's Tainted Dog Tags",
+      "Source": "Malkorok (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104571": {
+      "Name": "Malkorok's Skullcleaver",
+      "Source": "Malkorok (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104572": {
+      "Name": "Vial of Living Corruption",
+      "Source": "Malkorok (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104573": {
+      "Name": "Miasmic Skullbelt",
+      "Source": "Malkorok (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104574": {
+      "Name": "Hood of Perpetual Implosion",
+      "Source": "Malkorok (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104575": {
+      "Name": "Robes of Riven Dreams",
+      "Source": "Malkorok (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104576": {
+      "Name": "Frenzied Crystal of Rage",
+      "Source": "Malkorok (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104577": {
+      "Name": "Black-Blooded Drape",
+      "Source": "Malkorok (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104578": {
+      "Name": "Seal of Sullen Fury",
+      "Source": "Malkorok (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104579": {
+      "Name": "Visage of the Monstrous",
+      "Source": "Malkorok (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104580": {
+      "Name": "Boots of Perilous Infusion",
+      "Source": "Malkorok (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104581": {
+      "Name": "Bracers of Averted Fatality",
+      "Source": "Malkorok (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104582": {
+      "Name": "Ebon Blood Chestguard",
+      "Source": "Malkorok (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104583": {
+      "Name": "Terrorguard Chestplate",
+      "Source": "Malkorok (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104584": {
+      "Name": "Sigil of Rampage",
+      "Source": "Spoils of Pandaria (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104585": {
+      "Name": "Enchanted Shao-Tien Saber",
+      "Source": "Spoils of Pandaria (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104586": {
+      "Name": "Pandaren Roofsprinters",
+      "Source": "Spoils of Pandaria (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104587": {
+      "Name": "Mantid Carapace Augments",
+      "Source": "Spoils of Pandaria (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104588": {
+      "Name": "Arrowflight Girdle",
+      "Source": "Spoils of Pandaria (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104589": {
+      "Name": "Ancient Archer's Chestguard",
+      "Source": "Spoils of Pandaria (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104590": {
+      "Name": "Helm of the Night Watchman",
+      "Source": "Spoils of Pandaria (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104591": {
+      "Name": "Untarnishable Greatbelt",
+      "Source": "Spoils of Pandaria (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104592": {
+      "Name": "Ominous Mogu Greatboots",
+      "Source": "Spoils of Pandaria (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104593": {
+      "Name": "Seal of the Forgotten Kings",
+      "Source": "Spoils of Pandaria (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104594": {
+      "Name": "Ancient Mogu Tower Shield",
+      "Source": "Spoils of Pandaria (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104595": {
+      "Name": "Avool's Ancestral Bracers",
+      "Source": "Spoils of Pandaria (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104596": {
+      "Name": "Mantid Vizier's Robes",
+      "Source": "Spoils of Pandaria (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104597": {
+      "Name": "Lost Necklace of the Mogu Empress",
+      "Source": "Spoils of Pandaria (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104598": {
+      "Name": "Immaculately Preserved Wand",
+      "Source": "Spoils of Pandaria (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104599": {
+      "Name": "Klaxxi Grips of Rejuvenation",
+      "Source": "Spoils of Pandaria (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104600": {
+      "Name": "Shado-Pan Reliquary Kilt",
+      "Source": "Spoils of Pandaria (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104601": {
+      "Name": "Chitin-Link Chain Belt",
+      "Source": "Spoils of Pandaria (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104602": {
+      "Name": "Bracers of the Pristine Purifier",
+      "Source": "Spoils of Pandaria (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104603": {
+      "Name": "Plate Belt of the War-Healer",
+      "Source": "Spoils of Pandaria (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104604": {
+      "Name": "Mogu Mindbender's Greaves",
+      "Source": "Spoils of Pandaria (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104605": {
+      "Name": "Hvitserk's Formidable Shanker",
+      "Source": "Thok the Bloodthirsty (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104606": {
+      "Name": "Gleaming Eye of the Devilsaur",
+      "Source": "Thok the Bloodthirsty (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104607": {
+      "Name": "Montak's Grips of Scorching Breath",
+      "Source": "Thok the Bloodthirsty (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104608": {
+      "Name": "Akolik's Acid-Soaked Robes",
+      "Source": "Thok the Bloodthirsty (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104609": {
+      "Name": "Festering Primordial Globule",
+      "Source": "Thok the Bloodthirsty (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104610": {
+      "Name": "Signet of the Dinomancers",
+      "Source": "Thok the Bloodthirsty (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104611": {
+      "Name": "Thok's Acid-Grooved Tooth",
+      "Source": "Thok the Bloodthirsty (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104612": {
+      "Name": "Icy Blood Chestplate",
+      "Source": "Thok the Bloodthirsty (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104613": {
+      "Name": "Thok's Tail Tip",
+      "Source": "Thok the Bloodthirsty (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104614": {
+      "Name": "Britomart's Jagged Pike",
+      "Source": "Thok the Bloodthirsty (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104615": {
+      "Name": "Devilfang Band",
+      "Source": "Thok the Bloodthirsty (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104616": {
+      "Name": "Ticking Ebon Detonator",
+      "Source": "Siegecrafter Blackfuse (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104617": {
+      "Name": "Fusespark Gloves",
+      "Source": "Siegecrafter Blackfuse (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104618": {
+      "Name": "Lever of the Megantholithic Apparatus",
+      "Source": "Siegecrafter Blackfuse (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104619": {
+      "Name": "Dysmorphic Samophlange of Discontinuity",
+      "Source": "Siegecrafter Blackfuse (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104620": {
+      "Name": "Bomber's Blackened Wristwatch",
+      "Source": "Siegecrafter Blackfuse (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104621": {
+      "Name": "Bracers of Infinite Pipes",
+      "Source": "Siegecrafter Blackfuse (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104622": {
+      "Name": "Powder-Stained Totemic Treads",
+      "Source": "Siegecrafter Blackfuse (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104623": {
+      "Name": "Calixian Bladebreakers",
+      "Source": "Siegecrafter Blackfuse (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104624": {
+      "Name": "Asgorathian Blood Seal",
+      "Source": "Siegecrafter Blackfuse (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104625": {
+      "Name": "Siegecrafter's Forge Hammer",
+      "Source": "Siegecrafter Blackfuse (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104626": {
+      "Name": "Blackfuse's Blasting Cord",
+      "Source": "Siegecrafter Blackfuse (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104627": {
+      "Name": "Hisek's Reserve Longbow",
+      "Source": "Paragons of the Klaxxi (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104628": {
+      "Name": "Kil'ruk's Band of Ascendancy",
+      "Source": "Paragons of the Klaxxi (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104629": {
+      "Name": "Korven's Crimson Crescent",
+      "Source": "Paragons of the Klaxxi (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104630": {
+      "Name": "Bracers of Sonic Projection",
+      "Source": "Paragons of the Klaxxi (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104631": {
+      "Name": "Rik'kal's Bloody Scalpel",
+      "Source": "Paragons of the Klaxxi (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104632": {
+      "Name": "Iyyokuk's Hereditary Seal",
+      "Source": "Paragons of the Klaxxi (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104633": {
+      "Name": "Amber Parasite Wraps",
+      "Source": "Paragons of the Klaxxi (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104634": {
+      "Name": "Chestguard of Toxic Injections",
+      "Source": "Paragons of the Klaxxi (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104635": {
+      "Name": "Gauntlets of Insane Calculations",
+      "Source": "Paragons of the Klaxxi (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104636": {
+      "Name": "Skeer's Bloodsoaked Talisman",
+      "Source": "Paragons of the Klaxxi (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104637": {
+      "Name": "Kil'ruk's Furious Blade",
+      "Source": "Paragons of the Klaxxi (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104638": {
+      "Name": "Kor'kron Spire of Supremacy",
+      "Source": "Garrosh Hellscream (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104639": {
+      "Name": "Cord of Black Dreams",
+      "Source": "Garrosh Hellscream (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104640": {
+      "Name": "Kor'kron Elite Skullmask",
+      "Source": "Garrosh Hellscream (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104641": {
+      "Name": "Chestguard of Relentless Tyranny",
+      "Source": "Garrosh Hellscream (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104642": {
+      "Name": "Penetrating Gaze of Y'Shaarj",
+      "Source": "Garrosh Hellscream (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104643": {
+      "Name": "Shoulderguards of Intended Power",
+      "Source": "Garrosh Hellscream (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104644": {
+      "Name": "Legplates of Unthinking Strife",
+      "Source": "Garrosh Hellscream (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104645": {
+      "Name": "Spaulders of the Fallen Warchief",
+      "Source": "Garrosh Hellscream (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104646": {
+      "Name": "Tusks of Mannoroth",
+      "Source": "Garrosh Hellscream (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104647": {
+      "Name": "Greathelm of the Warchief",
+      "Source": "Garrosh Hellscream (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104648": {
+      "Name": "Xal'atoh, Desecrated Image of Gorehowl",
+      "Source": "Garrosh Hellscream (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104649": {
+      "Name": "Curse of Hubris",
+      "Source": "Garrosh Hellscream (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104650": {
+      "Name": "Belt of the Broken Pact",
+      "Source": "Garrosh Hellscream (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104651": {
+      "Name": "Ebon Ritual Hood",
+      "Source": "Garrosh Hellscream (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104652": {
+      "Name": "Black Blood of Y'Shaarj",
+      "Source": "Garrosh Hellscream (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104653": {
+      "Name": "Horned Mace of the Old Ones",
+      "Source": "Garrosh Hellscream (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104654": {
+      "Name": "Revelations of Y'Shaarj",
+      "Source": "Garrosh Hellscream (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104655": {
+      "Name": "Seal of Karmic Return",
+      "Source": "Garrosh Hellscream (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104656": {
+      "Name": "Hopeglow Spaulders",
+      "Source": "Garrosh Hellscream (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104657": {
+      "Name": "Cowl of Smoking Dreams",
+      "Source": "Garrosh Hellscream (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104658": {
+      "Name": "Chestplate of Fallen Passion",
+      "Source": "Garrosh Hellscream (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "104659": {
+      "Name": "Mantle of Looming Darkness",
+      "Source": "Garrosh Hellscream (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "105158": {
+      "Name": "Immerseus' Crystalline Eye",
+      "Source": "Immerseus (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "105161": {
+      "Name": "Puddle Punishers",
+      "Source": "Immerseus (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "105164": {
+      "Name": "Corruption-Rotted Gauntlets",
+      "Source": "Immerseus (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "105167": {
+      "Name": "Pauldrons of Violent Eruption",
+      "Source": "Immerseus (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "105168": {
+      "Name": "Encapsulated Essence of Immerseus",
+      "Source": "Immerseus (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "105171": {
+      "Name": "Hood of Swirling Senses",
+      "Source": "Immerseus (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "105172": {
+      "Name": "Cloak of Misguided Power",
+      "Source": "Immerseus (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "105173": {
+      "Name": "Purified Bindings of Immerseus",
+      "Source": "Immerseus (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "105175": {
+      "Name": "Salt Water Sandals",
+      "Source": "Immerseus (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "105179": {
+      "Name": "Waterwalker Greatboots",
+      "Source": "Immerseus (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "105230": {
+      "Name": "Greatsword of Pride's Fall",
+      "Source": "Sha of Pride (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "105304": {
+      "Name": "Ravager's Pathwalkers",
+      "Source": "General Nazgrim (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "105306": {
+      "Name": "Gar'tok, Strength of the Faithful",
+      "Source": "General Nazgrim (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "105309": {
+      "Name": "Ring of Restless Energy",
+      "Source": "Malkorok (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "105310": {
+      "Name": "Kor'kron Hand Cannon",
+      "Source": "Malkorok (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "105311": {
+      "Name": "Halberd of Inner Shadows",
+      "Source": "Malkorok (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "105316": {
+      "Name": "Legplates of Willful Doom",
+      "Source": "Malkorok (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "105319": {
+      "Name": "Vial of Living Corruption",
+      "Source": "Malkorok (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "105320": {
+      "Name": "Miasmic Skullbelt",
+      "Source": "Malkorok (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "105321": {
+      "Name": "Hood of Perpetual Implosion",
+      "Source": "Malkorok (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "105323": {
+      "Name": "Frenzied Crystal of Rage",
+      "Source": "Malkorok (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "105857": {
+      "Name": "Essence of the Cursed Protector",
+      "Source": "Garrosh Hellscream (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "105858": {
+      "Name": "Essence of the Cursed Conqueror",
+      "Source": "Garrosh Hellscream (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "105859": {
+      "Name": "Essence of the Cursed Vanquisher",
+      "Source": "Garrosh Hellscream (N)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "105866": {
+      "Name": "Essence of the Cursed Protector",
+      "Source": "Garrosh Hellscream (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "105867": {
+      "Name": "Essence of the Cursed Conqueror",
+      "Source": "Garrosh Hellscream (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
+      "SourceFaction": "B"
+    },
+    "105868": {
+      "Name": "Essence of the Cursed Vanquisher",
+      "Source": "Garrosh Hellscream (H)",
+      "SourceType": "Drop",
+      "SourceNumber": "0",
+      "SourceLocation": "Siege of Orgrimmar",
       "SourceFaction": "B"
     }
   }

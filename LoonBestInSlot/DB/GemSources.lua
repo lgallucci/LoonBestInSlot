@@ -17,6 +17,7 @@ LBIS.GemSources =
     [76631] = { Name = "Perfect Smooth Sunstone", DesignId = "83945", Source = LBIS.L["Jewelcrafting Supplies"], SourceLocation = LBIS.L["The Jade Forest"] },
     [76633] = { Name = "Perfect Quick Sunstone", DesignId = "83911", Source = LBIS.L["Jewelcrafting Supplies"], SourceLocation = LBIS.L["The Jade Forest"] },
     [76636] = { Name = "Rigid River's Heart", DesignId = "83928", Source = LBIS.L["Jewelcrafting Supplies"], SourceLocation = LBIS.L["The Jade Forest"] },
+    [76638] = { Name = "Sparkling River's Heart", DesignId = "83952", Source = LBIS.L["Jewelcrafting Supplies"], SourceLocation = LBIS.L["The Jade Forest"] },
     [76639] = { Name = "Solid River's Heart", DesignId = "83947", Source = LBIS.L["Jewelcrafting Supplies"], SourceLocation = LBIS.L["The Jade Forest"] },
     [76640] = { Name = "Misty Wild Jade", DesignId = "83888", Source = LBIS.L["Jewelcrafting Supplies"], SourceLocation = LBIS.L["The Jade Forest"] },
     [76641] = { Name = "Piercing Wild Jade", DesignId = "83896", Source = LBIS.L["Jewelcrafting Supplies"], SourceLocation = LBIS.L["The Jade Forest"] },

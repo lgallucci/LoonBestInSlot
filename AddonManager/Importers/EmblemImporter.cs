@@ -190,10 +190,11 @@ public class EmblemImporter : LootImporter
                             item == "2589" ? "Sidereal Essence" :
                             item == "2711" ? "Defiler's Scourgestone" :
                             item == "3148" ? "Fissure Stone Fragment" :
+                            item == "3281" ? "Obsidian Fragment" :
                             item == "3350" ? "August Stone Fragment" :
                             item == "3407" ? "Platinum Coin" :
                             item == "3414" ? "August Stone Shard" :
-                            item == "3281" ? "Obsidian Fragment" :
+                            item == "3416" ? "August Stone Cluster" :
                             item == "47242" ? "Trophy" :
                             item == "52025" ? "Vanquisher's Mark" :
                             item == "52026" ? "Protector's Mark" :

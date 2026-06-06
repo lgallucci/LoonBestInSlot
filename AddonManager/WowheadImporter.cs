@@ -274,6 +274,61 @@ public static class WowheadImporter
         95888, //leggings-of-the-crackling-conqueror
         
         //Tier 16
+        99672, //helm-of-the-cursed-conqueror
+        99689, //helm-of-the-cursed-conqueror
+        99724, //helm-of-the-cursed-conqueror
+        99690, //shoulders-of-the-cursed-conqueror
+        99669, //shoulders-of-the-cursed-conqueror
+        99718, //shoulders-of-the-cursed-conqueror
+        99678, //chest-of-the-cursed-conqueror
+        99686, //chest-of-the-cursed-conqueror
+        99715, //chest-of-the-cursed-conqueror
+        99721, //gauntlets-of-the-cursed-conqueror
+        99687, //gauntlets-of-the-cursed-conqueror
+        99681, //gauntlets-of-the-cursed-conqueror
+        99675, //leggings-of-the-cursed-conqueror
+        99712, //leggings-of-the-cursed-conqueror
+        99688, //leggings-of-the-cursed-conqueror
+        105858, //essence-of-the-cursed-conqueror
+        105861, //essence-of-the-cursed-conqueror
+        105867, //essence-of-the-cursed-conqueror
+        99694, //helm-of-the-cursed-protector
+        99725, //helm-of-the-cursed-protector
+        99673, //helm-of-the-cursed-protector
+        99670, //shoulders-of-the-cursed-protector
+        99719, //shoulders-of-the-cursed-protector
+        99695, //shoulders-of-the-cursed-protector
+        99679, //chest-of-the-cursed-protector
+        99691, //chest-of-the-cursed-protector
+        99716, //chest-of-the-cursed-protector
+        99722, //gauntlets-of-the-cursed-protector
+        99667, //gauntlets-of-the-cursed-protector
+        99692, //gauntlets-of-the-cursed-protector
+        99693, //leggings-of-the-cursed-protector
+        99713, //leggings-of-the-cursed-protector
+        99676, //leggings-of-the-cursed-protector
+        105866, //essence-of-the-cursed-protector
+        105860, //essence-of-the-cursed-protector
+        105857, //essence-of-the-cursed-protector
+        99671, //helm-of-the-cursed-vanquisher
+        99723, //helm-of-the-cursed-vanquisher
+        99683, //helm-of-the-cursed-vanquisher
+        99685, //shoulders-of-the-cursed-vanquisher
+        99717, //shoulders-of-the-cursed-vanquisher
+        99668, //shoulders-of-the-cursed-vanquisher
+        99677, //chest-of-the-cursed-vanquisher
+        99696, //chest-of-the-cursed-vanquisher
+        99714, //chest-of-the-cursed-vanquisher
+        99680, //gauntlets-of-the-cursed-vanquisher
+        99682, //gauntlets-of-the-cursed-vanquisher
+        99720, //gauntlets-of-the-cursed-vanquisher
+        99726, //leggings-of-the-cursed-vanquisher
+        99674, //leggings-of-the-cursed-vanquisher
+        99684, //leggings-of-the-cursed-vanquisher
+        105859, //essence-of-the-cursed-vanquisher
+        105862, //essence-of-the-cursed-vanquisher
+        105868, //essence-of-the-cursed-vanquisher
+
     };
 
     public static bool VerifyGuide(List<ItemSpec> items)

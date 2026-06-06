@@ -9,68 +9,49 @@ public class RaidImporter : LootImporter
 {
     private Dictionary<string, string> wowheadUriList = new Dictionary<string, string>
     {
-        //Oondasta
-        { @"https://www.wowhead.com/mop-classic/npc=69161/oondasta#drops", "Oondasta, Isle of Giants" },
+        //Siege of Orgrimmar
+        { @"https://www.wowhead.com/mop-classic/npc=71543/immerseus#drops;mode:n10", "Immerseus (N), Siege of Orgrimmar" },
+        { @"https://www.wowhead.com/mop-classic/npc=71543/immerseus#drops;mode:h10", "Immerseus (H), Siege of Orgrimmar" },
 
-        //Nalak
-        { @"https://www.wowhead.com/mop-classic/npc=69099/nalak#drops", "Nalak,  Isle of Thunder" },
-        { @"https://www.wowhead.com/mop-classic/npc=69099/nalak#drops;50", "Nalak,  Isle of Thunder" },
-        { @"https://www.wowhead.com/mop-classic/npc=69099/nalak#drops;100", "Nalak,  Isle of Thunder" },
-        { @"https://www.wowhead.com/mop-classic/npc=69099/nalak#drops;150", "Nalak,  Isle of Thunder" },
-        { @"https://www.wowhead.com/mop-classic/npc=69099/nalak#drops;200", "Nalak,  Isle of Thunder" },
-        { @"https://www.wowhead.com/mop-classic/npc=69099/nalak#drops;250", "Nalak,  Isle of Thunder" },
+        { @"https://www.wowhead.com/mop-classic/npc=71475/rook-stonetoe#drops;mode:n10", "The Fallen Protectors (N), Siege of Orgrimmar" },
+        { @"https://www.wowhead.com/mop-classic/npc=71475/rook-stonetoe#drops;mode:h10", "The Fallen Protectors (H), Siege of Orgrimmar" },
+        
+        { @"https://www.wowhead.com/mop-classic/npc=72276/amalgam-of-corruption#drops;mode:n10", "Norushen (N), Siege of Orgrimmar" },
+        { @"https://www.wowhead.com/mop-classic/npc=72276/amalgam-of-corruption#drops;mode:h10", "Norushen (H), Siege of Orgrimmar" },
+        
+        { @"https://www.wowhead.com/mop-classic/npc=71734/sha-of-pride#drops;mode:n10", "Sha of Pride (N), Siege of Orgrimmar" },
+        { @"https://www.wowhead.com/mop-classic/npc=71734/sha-of-pride#drops;mode:h10", "Sha of Pride (H), Siege of Orgrimmar" },
+        
+        { @"https://www.wowhead.com/mop-classic/npc=72249/galakras#drops;mode:n10", "Galakras (N), Siege of Orgrimmar" },
+        { @"https://www.wowhead.com/mop-classic/npc=72249/galakras#drops;mode:h10", "Galakras (H), Siege of Orgrimmar" },
+        
+        { @"https://www.wowhead.com/mop-classic/npc=71466/iron-juggernaut#drops;mode:n10", "Iron Juggernaut (N), Siege of Orgrimmar" },
+        { @"https://www.wowhead.com/mop-classic/npc=71466/iron-juggernaut#drops;mode:h10", "Iron Juggernaut (H), Siege of Orgrimmar" },
+        
+        { @"https://www.wowhead.com/mop-classic/npc=71859/earthbreaker-haromm#drops;mode:n10", "Kor'kron Dark Shaman (N), Siege of Orgrimmar" },
+        { @"https://www.wowhead.com/mop-classic/npc=71859/earthbreaker-haromm#drops;mode:h10", "Kor'kron Dark Shaman (H), Siege of Orgrimmar" },
+        
+        { @"https://www.wowhead.com/mop-classic/npc=71515/general-nazgrim#drops;mode:n10", "General Nazgrim (N), Siege of Orgrimmar" },
+        { @"https://www.wowhead.com/mop-classic/npc=71515/general-nazgrim#drops;mode:h10", "General Nazgrim (H), Siege of Orgrimmar" },
+        
+        { @"https://www.wowhead.com/mop-classic/npc=71454/malkorok#drops;mode:n10", "Malkorok (N), Siege of Orgrimmar" },
+        { @"https://www.wowhead.com/mop-classic/npc=71454/malkorok#drops;mode:h10", "Malkorok (H), Siege of Orgrimmar" },
 
-        //Throne of Thunder
-        { @"https://www.wowhead.com/mop-classic/npc=69465/jinrokh-the-breaker#drops;mode:n25", "Jin'rokh the Breaker (N), Throne of Thunder" },
-        //{ @"https://www.wowhead.com/mop-classic/npc=69465/jinrokh-the-breaker#drops;mode:n25;50", "Jin'rokh the Breaker (N), Throne of Thunder" },
-        { @"https://www.wowhead.com/mop-classic/npc=69465/jinrokh-the-breaker#drops;mode:h25", "Jin'rokh the Breaker (H), Throne of Thunder" },
-        //{ @"https://www.wowhead.com/mop-classic/npc=69465/jinrokh-the-breaker#drops;mode:h25;50", "Jin'rokh the Breaker (H), Throne of Thunder" },
-        { @"https://www.wowhead.com/mop-classic/npc=68476/horridon#drops;mode:n25", "Horridon (N), Throne of Thunder" },
-        //{ @"https://www.wowhead.com/mop-classic/npc=68476/horridon#drops;mode:n25;50", "Horridon (N), Throne of Thunder" },
-        { @"https://www.wowhead.com/mop-classic/npc=68476/horridon#drops;mode:h25", "Horridon (H), Throne of Thunder" },
-        //{ @"https://www.wowhead.com/mop-classic/npc=68476/horridon#drops;mode:h25;50", "Horridon (H), Throne of Thunder" },
-        { @"https://www.wowhead.com/mop-classic/npc=69132/high-priestess-marli#drops;mode:n25", "Council of Elders (N), Throne of Thunder" },
-        //{ @"https://www.wowhead.com/mop-classic/npc=69132/high-priestess-marli#drops;mode:n25;50", "Council of Elders (N), Throne of Thunder" },
-        { @"https://www.wowhead.com/mop-classic/npc=69132/high-priestess-marli#drops;mode:h25", "Council of Elders (H), Throne of Thunder" },
-        //{ @"https://www.wowhead.com/mop-classic/npc=69132/high-priestess-marli#drops;mode:h25;50", "Council of Elders (H), Throne of Thunder" },
-        { @"https://www.wowhead.com/mop-classic/npc=67977/tortos#drops;mode:n25", "Tortos (N), Throne of Thunder"},
-        //{ @"https://www.wowhead.com/mop-classic/npc=67977/tortos#drops;mode:n25;50", "Tortos (N), Throne of Thunder"},
-        { @"https://www.wowhead.com/mop-classic/npc=67977/tortos#drops;mode:h25", "Tortos (H), Throne of Thunder"},
-        //{ @"https://www.wowhead.com/mop-classic/npc=67977/tortos#drops;mode:h25;50", "Tortos (H), Throne of Thunder"},
-        { @"https://www.wowhead.com/mop-classic/npc=70212/flaming-head#drops;mode:n25", "Megaera (N), Throne of Thunder"},
-        //{ @"https://www.wowhead.com/mop-classic/npc=70212/flaming-head#drops;mode:n25;50", "Megaera (N), Throne of Thunder"},
-        { @"https://www.wowhead.com/mop-classic/npc=70212/flaming-head#drops;mode:h25", "Megaera (H), Throne of Thunder"},
-        //{ @"https://www.wowhead.com/mop-classic/npc=70212/flaming-head#drops;mode:h25;50", "Megaera (H), Throne of Thunder"},
-        { @"https://www.wowhead.com/mop-classic/npc=69712/ji-kun#drops;mode:n25", "Ji-Kun (N), Throne of Thunder"},
-        //{ @"https://www.wowhead.com/mop-classic/npc=69712/ji-kun#drops;mode:n25;50", "Ji-Kun (N), Throne of Thunder"},
-        { @"https://www.wowhead.com/mop-classic/npc=69712/ji-kun#drops;mode:h25", "Ji-Kun (H), Throne of Thunder"},
-        //{ @"https://www.wowhead.com/mop-classic/npc=69712/ji-kun#drops;mode:h25;50", "Ji-Kun (H), Throne of Thunder"},
-        { @"https://www.wowhead.com/mop-classic/npc=68036/durumu-the-forgotten#drops;mode:n25", "Durumu the Forgotten (N), Throne of Thunder"},
-        //{ @"https://www.wowhead.com/mop-classic/npc=68036/durumu-the-forgotten#drops;mode:n25;50", "Durumu the Forgotten (N), Throne of Thunder"},
-        { @"https://www.wowhead.com/mop-classic/npc=68036/durumu-the-forgotten#drops;mode:h25", "Durumu the Forgotten (H), Throne of Thunder"},
-        //{ @"https://www.wowhead.com/mop-classic/npc=68036/durumu-the-forgotten#drops;mode:h25;50", "Durumu the Forgotten (H), Throne of Thunder"},
-        { @"https://www.wowhead.com/mop-classic/npc=69017/primordius#drops;mode:n25", "Primordius (N), Throne of Thunder"},
-        //{ @"https://www.wowhead.com/mop-classic/npc=69017/primordius#drops;mode:n25;50", "Primordius (N), Throne of Thunder"},
-        { @"https://www.wowhead.com/mop-classic/npc=69017/primordius#drops;mode:h25", "Primordius (H), Throne of Thunder"},
-        //{ @"https://www.wowhead.com/mop-classic/npc=69017/primordius#drops;mode:h25;50", "Primordius (H), Throne of Thunder"},
-        { @"https://www.wowhead.com/mop-classic/npc=69427/dark-animus#drops;mode:n25", "Dark Animus (N), Throne of Thunder"},
-        //{ @"https://www.wowhead.com/mop-classic/npc=69427/dark-animus#drops;mode:n25;50", "Dark Animus (N), Throne of Thunder"},
-        { @"https://www.wowhead.com/mop-classic/npc=69427/dark-animus#drops;mode:h25", "Dark Animus (H), Throne of Thunder"},
-        //{ @"https://www.wowhead.com/mop-classic/npc=69427/dark-animus#drops;mode:h25;50", "Dark Animus (H), Throne of Thunder"},
-        { @"https://www.wowhead.com/mop-classic/npc=68078/iron-qon#drops;mode:n25", "Iron Qon (N), Throne of Thunder"},
-        //{ @"https://www.wowhead.com/mop-classic/npc=68078/iron-qon#drops;mode:n25;50", "Iron Qon (N), Throne of Thunder"},
-        { @"https://www.wowhead.com/mop-classic/npc=68078/iron-qon#drops;mode:h25", "Iron Qon (H), Throne of Thunder"},
-        //{ @"https://www.wowhead.com/mop-classic/npc=68078/iron-qon#drops;mode:h25;50", "Iron Qon (H), Throne of Thunder"},
-        { @"https://www.wowhead.com/mop-classic/npc=68904/suen#drops;mode:n25", "Twin Consorts (N), Throne of Thunder"},
-        //{ @"https://www.wowhead.com/mop-classic/npc=68904/suen#drops;mode:n25;50", "Twin Consorts (N), Throne of Thunder"},
-        { @"https://www.wowhead.com/mop-classic/npc=68904/suen#drops;mode:h25", "Twin Consorts (H), Throne of Thunder"},
-        //{ @"https://www.wowhead.com/mop-classic/npc=68904/suen#drops;mode:h25;50", "Twin Consorts (H), Throne of Thunder"},
-        { @"https://www.wowhead.com/mop-classic/npc=68397/lei-shen#drops;mode:n25", "Lei Shen (N), Throne of Thunder"},
-        //{ @"https://www.wowhead.com/mop-classic/npc=68397/lei-shen#drops;mode:n25;50", "Lei Shen (N), Throne of Thunder"},
-        { @"https://www.wowhead.com/mop-classic/npc=68397/lei-shen#drops;mode:h25", "Lei Shen (H), Throne of Thunder"},
-        //{ @"https://www.wowhead.com/mop-classic/npc=68397/lei-shen#drops;mode:h25;50", "Lei Shen (H), Throne of Thunder"},
-        { @"https://www.wowhead.com/mop-classic/npc=69473/ra-den#drops;mode:h25", "Ra-den (H), Throne of Thunder"},
-        //{ @"https://www.wowhead.com/mop-classic/npc=69473/ra-den#drops;mode:h25;50", "Ra-den (H), Throne of Thunder"},
+        { @"https://www.wowhead.com/mop-classic/npc=71889/secured-stockpile-of-pandaren-spoils#drops;mode:n10", "Spoils of Pandaria (N), Siege of Orgrimmar" },
+        { @"https://www.wowhead.com/mop-classic/npc=71889/secured-stockpile-of-pandaren-spoils#drops;mode:h10", "Spoils of Pandaria (H), Siege of Orgrimmar" },
+
+        { @"https://www.wowhead.com/mop-classic/npc=71529/thok-the-bloodthirsty#drops;mode:n10", "Thok the Bloodthirsty (N), Siege of Orgrimmar" },
+        { @"https://www.wowhead.com/mop-classic/npc=71529/thok-the-bloodthirsty#drops;mode:h10", "Thok the Bloodthirsty (H), Siege of Orgrimmar" },
+
+        { @"https://www.wowhead.com/mop-classic/npc=71504/siegecrafter-blackfuse#drops;mode:n10", "Siegecrafter Blackfuse (N), Siege of Orgrimmar" },
+        { @"https://www.wowhead.com/mop-classic/npc=71504/siegecrafter-blackfuse#drops;mode:h10", "Siegecrafter Blackfuse (H), Siege of Orgrimmar" },
+
+        { @"https://www.wowhead.com/mop-classic/npc=71161/kilruk-the-wind-reaver#drops;mode:n10", "Paragons of the Klaxxi (N), Siege of Orgrimmar" },
+        { @"https://www.wowhead.com/mop-classic/npc=71161/kilruk-the-wind-reaver#drops;mode:h10", "Paragons of the Klaxxi (H), Siege of Orgrimmar" },
+
+        { @"https://www.wowhead.com/mop-classic/npc=71865/garrosh-hellscream#drops;mode:n10", "Garrosh Hellscream (N), Siege of Orgrimmar" },
+        { @"https://www.wowhead.com/mop-classic/npc=71865/garrosh-hellscream#drops;mode:h10", "Garrosh Hellscream (H), Siege of Orgrimmar" },
+
     };
 
     private Dictionary<string, string> wowheadContainsUriList = new Dictionary<string, string>
@@ -94,6 +75,8 @@ public class RaidImporter : LootImporter
         "Shadowfrost Shard",
         "Sigil of Power",
         "Sigil of Wisdom",
+        "Secrets of the Empire",
+        "Titan Runestone"
     };
 
     public RaidImporter(CancellationToken cancellationToken) : base(cancellationToken)

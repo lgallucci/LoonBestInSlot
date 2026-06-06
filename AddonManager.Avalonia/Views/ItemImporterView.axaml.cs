@@ -53,6 +53,9 @@ public partial class ItemImporterView : UserControl
             case "VendorImporter":
                 importer = new VendorImporter(_cancellationTokenSource.Token);
                 break;
+            case "ItemLinkImporter":
+                importer = new LinkedItemImporter(_cancellationTokenSource.Token);
+                break;
             default:
                 txtJsonToParse.Text = "Choose a Importer !";
                 return;

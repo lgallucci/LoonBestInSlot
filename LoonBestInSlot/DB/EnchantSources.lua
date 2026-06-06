@@ -1,6 +1,7 @@
 LBIS.EnchantSources =
 {
     [8024] = { Name = "Flametongue Weapon", DesignId = "99999", Source = LBIS.L["Shaman Spell"], SourceLocation = "", TextureId = "" },
+    [50401] = { Name = "Razor Frost", DesignId = "99999", Source = LBIS.L["Death Knight Spell"], SourceLocation = "", TextureId = "" },
     [51730] = { Name = "Earthliving Weapon", DesignId = "99999", Source = LBIS.L["Shaman Spell"], SourceLocation = "", TextureId = "" },
     [53343] = { Name = "Rune of Razorice", DesignId = "99999", Source = LBIS.L["Death Knight Spell"], SourceLocation = "", TextureId = "" },
     [53344] = { Name = "Rune of the Fallen Crusader", DesignId = "99999", Source = LBIS.L["Death Knight Spell"], SourceLocation = "", TextureId = "" },
@@ -74,4 +75,5 @@ LBIS.EnchantSources =
     [141862] = { Name = "Enchant Gloves - Superior Mastery", DesignId = "99999", Source = LBIS.L["Enchanting Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "" },
     [141868] = { Name = "Enchant Bracer - Mastery", DesignId = "99999", Source = LBIS.L["Enchanting Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "" },
     [142173] = { Name = "Lightweave Embroidery", DesignId = "99999", Source = LBIS.L["Tailoring Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "" },
+    [142178] = { Name = "Enchant Ring - Greater Intellect", DesignId = "99999", Source = LBIS.L["Enchanting Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "" },
 }
