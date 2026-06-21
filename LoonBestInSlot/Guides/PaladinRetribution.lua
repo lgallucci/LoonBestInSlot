@@ -273,11 +273,11 @@ function LBIS:LoadPaladinRetribution()
     LBIS:AddItem(spec2, "28034", LBIS.L["Trinket"], "Alt") --Hourglass of the Unraveller
     LBIS:AddItem(spec2, "28430", LBIS.L["Two Hand"], "BIS Mit") --Lionheart Executioner
     LBIS:AddItem(spec2, "29993", LBIS.L["Two Hand"], "BIS") --Twinblade of the Phoenix
-    LBIS:AddItem(spec2, "30090", LBIS.L["Two Hand"], "Alt") --World Breaker
     LBIS:AddItem(spec2, "31984", LBIS.L["Two Hand"], "Alt") --Merciless Gladiator's Greatsword
-    LBIS:AddItem(spec2, "28442", LBIS.L["Two Hand"], "Alt") --Stormherald
     LBIS:AddItem(spec2, "28800", LBIS.L["Two Hand"], "Alt") --Hammer of the Naaru
+    LBIS:AddItem(spec2, "28442", LBIS.L["Two Hand"], "Alt") --Stormherald
     LBIS:AddItem(spec2, "28773", LBIS.L["Two Hand"], "Alt") --Gorehowl
+    LBIS:AddItem(spec2, "30090", LBIS.L["Two Hand"], "Alt") --World Breaker
     LBIS:AddItem(spec2, "28774", LBIS.L["Two Hand"], "Alt") --Glaive of the Pit
     LBIS:AddItem(spec2, "27484", LBIS.L["Ranged/Relic"], "BIS") --Libram of Avengement
     LBIS:AddItem(spec2, "31033", LBIS.L["Ranged/Relic"], "Alt") --Libram of Righteous Power
