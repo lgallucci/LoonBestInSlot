@@ -11,35 +11,42 @@ public class EmblemImporter : LootImporter
 {
     private List<string> wowheadUriList = new List<string>
     {
-        "https://www.wowhead.com/mop-classic/npc=248108/avatar-of-the-august-celestials#sells",
-        "https://www.wowhead.com/mop-classic/npc=248108/avatar-of-the-august-celestials#sells;50",
-        "https://www.wowhead.com/mop-classic/npc=248108/avatar-of-the-august-celestials#sells;100",
-        "https://www.wowhead.com/mop-classic/npc=248108/avatar-of-the-august-celestials#sells;150",
-        "https://www.wowhead.com/mop-classic/npc=248108/avatar-of-the-august-celestials#sells;200",
-        "https://www.wowhead.com/mop-classic/npc=64606/commander-oxheart#sells",
-        "https://www.wowhead.com/mop-classic/npc=64606/commander-oxheart#sells;50",
-        "https://www.wowhead.com/mop-classic/npc=64606/commander-oxheart#sells;100",
-        "https://www.wowhead.com/mop-classic/npc=64606/commander-oxheart#sells;150",
-        "https://www.wowhead.com/mop-classic/npc=64606/commander-oxheart#sells;200",
-        "https://www.wowhead.com/mop-classic/npc=64606/commander-oxheart#sells;250",
-        "https://www.wowhead.com/mop-classic/npc=64606/commander-oxheart#sells;300",
-        "https://www.wowhead.com/mop-classic/npc=64606/commander-oxheart#sells;350",
-        "https://www.wowhead.com/mop-classic/npc=64606/commander-oxheart#sells;400",
-        "https://www.wowhead.com/mop-classic/npc=64607/commander-lo-ping#sells",
-        "https://www.wowhead.com/mop-classic/npc=257969/jaelof-ironhart#sells",
-        "https://www.wowhead.com/mop-classic/npc=257969/jaelof-ironhart#sells;50",
-        "https://www.wowhead.com/mop-classic/npc=257969/jaelof-ironhart#sells;100",
-        "https://www.wowhead.com/mop-classic/npc=257969/jaelof-ironhart#sells;150",
-        "https://www.wowhead.com/mop-classic/npc=258121/sendala-the-timeless#sells",
-        "https://www.wowhead.com/mop-classic/npc=258121/sendala-the-timeless#sells;50",
-        "https://www.wowhead.com/mop-classic/npc=258121/sendala-the-timeless#sells;100",
-        "https://www.wowhead.com/mop-classic/npc=258121/sendala-the-timeless#sells;150",
-        "https://www.wowhead.com/mop-classic/npc=258121/sendala-the-timeless#sells;200",
-        "https://www.wowhead.com/mop-classic/npc=258121/sendala-the-timeless#sells;250"
+        // "https://www.wowhead.com/mop-classic/npc=248108/avatar-of-the-august-celestials#sells",
+        // "https://www.wowhead.com/mop-classic/npc=248108/avatar-of-the-august-celestials#sells;50",
+        // "https://www.wowhead.com/mop-classic/npc=248108/avatar-of-the-august-celestials#sells;100",
+        // "https://www.wowhead.com/mop-classic/npc=248108/avatar-of-the-august-celestials#sells;150",
+        // "https://www.wowhead.com/mop-classic/npc=248108/avatar-of-the-august-celestials#sells;200",
+        // "https://www.wowhead.com/mop-classic/npc=64606/commander-oxheart#sells",
+        // "https://www.wowhead.com/mop-classic/npc=64606/commander-oxheart#sells;50",
+        // "https://www.wowhead.com/mop-classic/npc=64606/commander-oxheart#sells;100",
+        // "https://www.wowhead.com/mop-classic/npc=64606/commander-oxheart#sells;150",
+        // "https://www.wowhead.com/mop-classic/npc=64606/commander-oxheart#sells;200",
+        // "https://www.wowhead.com/mop-classic/npc=64606/commander-oxheart#sells;250",
+        // "https://www.wowhead.com/mop-classic/npc=64606/commander-oxheart#sells;300",
+        // "https://www.wowhead.com/mop-classic/npc=64606/commander-oxheart#sells;350",
+        // "https://www.wowhead.com/mop-classic/npc=64606/commander-oxheart#sells;400",
+        // "https://www.wowhead.com/mop-classic/npc=64607/commander-lo-ping#sells",
+        // "https://www.wowhead.com/mop-classic/npc=257969/jaelof-ironhart#sells",
+        // "https://www.wowhead.com/mop-classic/npc=257969/jaelof-ironhart#sells;50",
+        // "https://www.wowhead.com/mop-classic/npc=257969/jaelof-ironhart#sells;100",
+        // "https://www.wowhead.com/mop-classic/npc=257969/jaelof-ironhart#sells;150",
+        // "https://www.wowhead.com/mop-classic/npc=258121/sendala-the-timeless#sells",
+        // "https://www.wowhead.com/mop-classic/npc=258121/sendala-the-timeless#sells;50",
+        // "https://www.wowhead.com/mop-classic/npc=258121/sendala-the-timeless#sells;100",
+        // "https://www.wowhead.com/mop-classic/npc=258121/sendala-the-timeless#sells;150",
+        // "https://www.wowhead.com/mop-classic/npc=258121/sendala-the-timeless#sells;200",
+        // "https://www.wowhead.com/mop-classic/npc=258121/sendala-the-timeless#sells;250",
+        "https://www.wowhead.com/mop-classic/npc=267317/celestial-harbinger#sells",
+        "https://www.wowhead.com/mop-classic/npc=267317/celestial-harbinger#sells;50",
+        "https://www.wowhead.com/mop-classic/npc=267317/celestial-harbinger#sells;100",
+        "https://www.wowhead.com/mop-classic/npc=267317/celestial-harbinger#sells;150",
+        "https://www.wowhead.com/mop-classic/npc=267317/celestial-harbinger#sells;200",
+        "https://www.wowhead.com/mop-classic/npc=267317/celestial-harbinger#sells;250",
     };
 
     private List<string> guideUriList = new List<string>()
     {
+        "https://www.wowhead.com/mop-classic/guide/dungeons/celestial-dungeons-overview-loot",
     };
 
     public EmblemImporter(CancellationToken cancellationToken) : base(cancellationToken)
@@ -50,7 +57,7 @@ public class EmblemImporter : LootImporter
 
     internal override async Task<DatabaseItems> InnerConvert(DatabaseItems items, Action<string> writeToLog)
     {
-        items.Items.Clear();
+        //items.Items.Clear();
 
         await ReadFromItemPages(items, writeToLog);
         //await ReadFromGuidePage(items, writeToLog);
@@ -70,7 +77,6 @@ public class EmblemImporter : LootImporter
         {
             var currencySourceLocation = "Emblem Vendor";
             var sourceFaction = "B";
-            var currencyNumber = "-1";
 
             var tables = doc.QuerySelectorAll(".markup-table-wrapper table");
 
@@ -81,6 +87,13 @@ public class EmblemImporter : LootImporter
                     continue;
                 }
 
+                var currencyColumn = 0;
+                for (int i = 0; i < table.Rows[0].Cells.Count; i++)
+                {
+                    if (table.Rows[0].Cells[i].TextContent == "Cost" || table.Rows[0].Cells[i].TextContent == "Price")
+                        currencyColumn = i;
+                }
+            
                 foreach(var row in table.Rows)
                 {
                     Common.RecursiveBoxSearch(row, (anchorObject) => 
@@ -98,14 +111,14 @@ public class EmblemImporter : LootImporter
                         {
                             itemId = _idSwaps[itemId];
                         }
-
-                        currencyNumber = row.Cells[2].TextContent;
+                        
+                        var (currencySource, currencyNumber) = GetSourceText(row.Cells[currencyColumn]);
 
                         var successfulAdd = items.Items.TryAdd(itemId, new DatabaseItem
                         {
                             Name = itemName,
                             SourceNumber = currencyNumber,
-                            Source = "Fissure Stone Fragment",
+                            Source = currencySource,
                             SourceLocation = currencySourceLocation,
                             SourceType = "Dungeon Token",
                             SourceFaction = sourceFaction
@@ -127,6 +140,11 @@ public class EmblemImporter : LootImporter
             var currencySourceLocation = "Emblem Vendor";
             var sourceFaction = "B";
             var itemName = item.TextContent;
+
+            var isBlue = (item.ClassName?.Contains("q3") ?? false) || 
+                            (item.ClassName?.Contains("q4") ?? false) || 
+                            (item.ClassName?.Contains("q5") ?? false);
+            if (!isBlue) return;
 
             (currencySource, currencyNumber) = GetSourceText(row.Children[10]);            
 
@@ -211,9 +229,9 @@ public class EmblemImporter : LootImporter
                             currencySource = $"{currencySource} & {sourceText}";
 
                         if (string.IsNullOrWhiteSpace(currencyNumber))
-                            currencyNumber = anchorObject.TextContent;
+                            currencyNumber = currencyCell.TextContent.Replace(currencySource, "").Trim();
                         else
-                            currencyNumber = $"{currencyNumber} & {anchorObject.TextContent}";
+                            currencyNumber = $"{currencyNumber} & {currencyCell.TextContent.Replace(currencySource, "").Trim()}";
                     }
                 }
                 return success;

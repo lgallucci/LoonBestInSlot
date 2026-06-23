@@ -1402,17 +1402,17 @@
     },
     "87208": {
       "Name": "Sigil of Power",
-      "Source": "August Stone Shard",
+      "Source": "August Stone Cluster",
       "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
+      "SourceNumber": "15",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
     "87209": {
       "Name": "Sigil of Wisdom",
-      "Source": "August Stone Shard",
+      "Source": "August Stone Cluster",
       "SourceType": "Dungeon Token",
-      "SourceNumber": "30",
+      "SourceNumber": "15",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
@@ -2277,6 +2277,30 @@
       "Source": "August Stone Fragment",
       "SourceType": "Dungeon Token",
       "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "94593": {
+      "Name": "Secrets of the Empire",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "5",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "94594": {
+      "Name": "Titan Runestone",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "15",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "94867": {
+      "Name": "Heart of the Thunder King",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "35",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
@@ -4344,11 +4368,2227 @@
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
+    "99667": {
+      "Name": "Gauntlets of the Cursed Protector",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "99668": {
+      "Name": "Shoulders of the Cursed Vanquisher",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "99669": {
+      "Name": "Shoulders of the Cursed Conqueror",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "99670": {
+      "Name": "Shoulders of the Cursed Protector",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "99671": {
+      "Name": "Helm of the Cursed Vanquisher",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "99672": {
+      "Name": "Helm of the Cursed Conqueror",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "99673": {
+      "Name": "Helm of the Cursed Protector",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "60",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "99674": {
+      "Name": "Leggings of the Cursed Vanquisher",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "55",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "99675": {
+      "Name": "Leggings of the Cursed Conqueror",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "55",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "99676": {
+      "Name": "Leggings of the Cursed Protector",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "55",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "99677": {
+      "Name": "Chest of the Cursed Vanquisher",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "55",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "99678": {
+      "Name": "Chest of the Cursed Conqueror",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "55",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "99679": {
+      "Name": "Chest of the Cursed Protector",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "55",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "99680": {
+      "Name": "Gauntlets of the Cursed Vanquisher",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "99681": {
+      "Name": "Gauntlets of the Cursed Conqueror",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "45",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104909": {
+      "Name": "Immerseus' Crystalline Eye",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104910": {
+      "Name": "Trident of Corrupted Waters",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104911": {
+      "Name": "Hood of Blackened Tears",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104912": {
+      "Name": "Puddle Punishers",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104913": {
+      "Name": "Bubble-Burst Bracers",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104914": {
+      "Name": "Chestplate of Congealed Corrosion",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104915": {
+      "Name": "Corruption-Rotted Gauntlets",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104916": {
+      "Name": "Treads of Unchained Hate",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104917": {
+      "Name": "Bracers of Sordid Sleep",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104918": {
+      "Name": "Pauldrons of Violent Eruption",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104919": {
+      "Name": "Encapsulated Essence of Immerseus",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104920": {
+      "Name": "Bolt-Burster Grips",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104921": {
+      "Name": "Ichor-Dripping Shoulderpads",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104922": {
+      "Name": "Hood of Swirling Senses",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104924": {
+      "Name": "Purified Bindings of Immerseus",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104925": {
+      "Name": "Seal of Eternal Sorrow",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104926": {
+      "Name": "Salt Water Sandals",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104927": {
+      "Name": "Bracers of Purified Spirit",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104928": {
+      "Name": "Soul-Soaked Gloves",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104929": {
+      "Name": "Greatbelt of Living Waters",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104930": {
+      "Name": "Waterwalker Greatboots",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104931": {
+      "Name": "Death Lotus Crossbow",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104932": {
+      "Name": "Softfoot's Last Resort",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104933": {
+      "Name": "Stonetoe's Tormented Treads",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104934": {
+      "Name": "Grips of Unending Anguish",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104935": {
+      "Name": "Poisonbinder Girth",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104936": {
+      "Name": "Darkfallen Shoulderplates",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104937": {
+      "Name": "Shockstriker Gauntlets",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104938": {
+      "Name": "Sorrowpath Signet",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104940": {
+      "Name": "Rook's Unlucky Talisman",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104941": {
+      "Name": "Sha-Seared Sandals",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104942": {
+      "Name": "Robes of the Tendered Heart",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104943": {
+      "Name": "Shoulderpads of Dou Dou Chong",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104944": {
+      "Name": "Lifebane Bracers",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104945": {
+      "Name": "Petrified Pennyroyal Ring",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104946": {
+      "Name": "Purehearted Cricket Cage",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "20",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104947": {
+      "Name": "Shoulders of the Roiling Inferno",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104948": {
+      "Name": "Sabatons of Defilement",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104949": {
+      "Name": "Shoulderguards of Dark Meditations",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104950": {
+      "Name": "Grips of the Fallen Council",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104951": {
+      "Name": "Gaze of Echoing Despair",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104952": {
+      "Name": "Norushen's Shortblade",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104953": {
+      "Name": "Reality Ripper Ring",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104954": {
+      "Name": "Robes of the Blackened Watcher",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104955": {
+      "Name": "Gloves of the Golden Protector",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104956": {
+      "Name": "Leggings of Unabashed Anger",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104957": {
+      "Name": "Quarantine Shoulderguards",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104958": {
+      "Name": "Bracers of Blind Hatred",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104959": {
+      "Name": "Rage-Blind Greathelm",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104961": {
+      "Name": "Fusion-Fire Core",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104962": {
+      "Name": "Xifeng, Longblade of the Titanic Guardian",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104963": {
+      "Name": "Bracers of Broken Causation",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104964": {
+      "Name": "Blight Hurlers",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104965": {
+      "Name": "Sash of the Last Guardian",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104966": {
+      "Name": "Rime-Rift Shoulders",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104967": {
+      "Name": "Untainted Guardian's Chain",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104968": {
+      "Name": "Norushen's Enigmatic Barrier",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "20",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104969": {
+      "Name": "Boots of Broken Reliance",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104970": {
+      "Name": "Confident Grips",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104971": {
+      "Name": "Bracers of Final Serenity",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104972": {
+      "Name": "Shadow-Binder's Kilt",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104973": {
+      "Name": "Wristplates of Broken Doubt",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104974": {
+      "Name": "Assurance of Consequence",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104975": {
+      "Name": "Necklace of Fading Light",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104976": {
+      "Name": "Prismatic Prison of Pride",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104977": {
+      "Name": "Gaze of Arrogance",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104978": {
+      "Name": "Self-Reflecting Mask",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104979": {
+      "Name": "Crown of Boastful Words",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104980": {
+      "Name": "Greaves of Sublime Superiority",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104981": {
+      "Name": "Greatsword of Pride's Fall",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104982": {
+      "Name": "Choker of the Final Word",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104983": {
+      "Name": "Shield of Mockery",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "20",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104984": {
+      "Name": "Dagryn's Discarded Longbow",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104985": {
+      "Name": "Swift Serpent Signet",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104986": {
+      "Name": "Unrepentant Heels",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104987": {
+      "Name": "Korgra's Venom-Soaked Gauntlets",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104988": {
+      "Name": "Cannoneer's Multipocket Gunbelt",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104989": {
+      "Name": "Dagryn's Fuselight Bracers",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104990": {
+      "Name": "Thranok's Shattering Helm",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104991": {
+      "Name": "Arcsmasher Bracers",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104992": {
+      "Name": "Krugruk's Rigid Shoulderplates",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104993": {
+      "Name": "Evil Eye of Galakras",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104994": {
+      "Name": "Galakrond Control Band",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104995": {
+      "Name": "Bone-Inlaid Sandals",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104996": {
+      "Name": "Scalebane Bracers",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104997": {
+      "Name": "Flameslinger's Fiery Cowl",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104998": {
+      "Name": "Skydancer Boots",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "104999": {
+      "Name": "Shoulderpads of Pulsing Protection",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105000": {
+      "Name": "Extinguished Ember of Galakras",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105001": {
+      "Name": "Drakebinder Greatstaff",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105002": {
+      "Name": "Dragonmaw Emergency Strap",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105003": {
+      "Name": "Grips of Tidal Force",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105004": {
+      "Name": "Smoldering Drakescale Bracers",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105005": {
+      "Name": "Windfire Legplates",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105006": {
+      "Name": "Seismic Bore",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105007": {
+      "Name": "Laser Burn Bracers",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105008": {
+      "Name": "Ricocheting Shoulderguards",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105009": {
+      "Name": "Minelayer's Padded Boots",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105010": {
+      "Name": "Precision Cutters",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105011": {
+      "Name": "Demolisher's Reinforced Belt",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105012": {
+      "Name": "Wall-Borer Bracers",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105013": {
+      "Name": "Tar-Coated Gauntlets",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105014": {
+      "Name": "Earthbreaker's Steaming Chestplate",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105015": {
+      "Name": "Juggernaut's Ignition Keys",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105016": {
+      "Name": "Juggernaut's Focusing Crystal",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105017": {
+      "Name": "Belt of Ominous Trembles",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105018": {
+      "Name": "Leggings of Furious Flame",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105019": {
+      "Name": "Bracers of the Broken Fault",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105020": {
+      "Name": "Earthripper Gloves",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105021": {
+      "Name": "Shock Pulse Robes",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105022": {
+      "Name": "Laser-Slice Signet",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105023": {
+      "Name": "Juggernaut's Power Core",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "20",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105024": {
+      "Name": "Castlebreaker Bracers",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105025": {
+      "Name": "Treads of Autonomic Motion",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105026": {
+      "Name": "Cavemaker Wristguards",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105027": {
+      "Name": "Borer Drill Boots",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105028": {
+      "Name": "Poisonmist Nightcloak",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105029": {
+      "Name": "Haromm's Talisman",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105030": {
+      "Name": "Damron's Belt of Darkness",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105031": {
+      "Name": "Riou's Vigilant Leggings",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105032": {
+      "Name": "Haromm's Horrifying Helm",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105033": {
+      "Name": "Wolf-Rider Spurs",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105034": {
+      "Name": "Breastplate of Shamanic Mirrors",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105035": {
+      "Name": "Ashen Wall Girdle",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105036": {
+      "Name": "Bloodclaw Band",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105037": {
+      "Name": "Haromm's Frozen Crescent",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105038": {
+      "Name": "Ring of the Iron Tomb",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105039": {
+      "Name": "Toxic Tornado Treads",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105040": {
+      "Name": "Iron Wolf Hood",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105041": {
+      "Name": "Ashflare Pendant",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105042": {
+      "Name": "Kardris' Toxic Totem",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105043": {
+      "Name": "Kardris' Scepter",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105044": {
+      "Name": "Darkfang Mask",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105045": {
+      "Name": "Belt of the Iron Prison",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105046": {
+      "Name": "Shoulderguards of Foul Streams",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105047": {
+      "Name": "Shackles of Stinking Slime",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105048": {
+      "Name": "Shoulderplates of Gushing Geysers",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105049": {
+      "Name": "Nazgrim's Gutripper",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105050": {
+      "Name": "Sandals of Two Little Bees",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105051": {
+      "Name": "Nazgrim's Burnished Insignia",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105052": {
+      "Name": "Arcweaver Spell Sword",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105053": {
+      "Name": "Shoulderguards of the Righteous Stand",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105054": {
+      "Name": "Robes of the Warrior's Fall",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105055": {
+      "Name": "Ravager's Pathwalkers",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105056": {
+      "Name": "Crown of Tragic Truth",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105057": {
+      "Name": "Gar'tok, Strength of the Faithful",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105058": {
+      "Name": "Bulwark of the Fallen General",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "20",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105059": {
+      "Name": "Spaulders of Kor'kron Fealty",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105060": {
+      "Name": "Ring of Restless Energy",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105061": {
+      "Name": "Kor'kron Hand Cannon",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105062": {
+      "Name": "Halberd of Inner Shadows",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105063": {
+      "Name": "Lazahk's Lost Shadowrap",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105064": {
+      "Name": "Wristguards of Ruination",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105065": {
+      "Name": "Malkorok's Giant Stompers",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105066": {
+      "Name": "Blood Rage Bracers",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105067": {
+      "Name": "Legplates of Willful Doom",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105068": {
+      "Name": "Malkorok's Tainted Dog Tags",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105069": {
+      "Name": "Malkorok's Skullcleaver",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105070": {
+      "Name": "Vial of Living Corruption",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105071": {
+      "Name": "Miasmic Skullbelt",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105072": {
+      "Name": "Hood of Perpetual Implosion",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105073": {
+      "Name": "Robes of Riven Dreams",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105074": {
+      "Name": "Frenzied Crystal of Rage",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105076": {
+      "Name": "Seal of Sullen Fury",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105077": {
+      "Name": "Visage of the Monstrous",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "20",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105078": {
+      "Name": "Boots of Perilous Infusion",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105079": {
+      "Name": "Bracers of Averted Fatality",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105080": {
+      "Name": "Ebon Blood Chestguard",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105081": {
+      "Name": "Terrorguard Chestplate",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105082": {
+      "Name": "Sigil of Rampage",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105083": {
+      "Name": "Enchanted Shao-Tien Saber",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105084": {
+      "Name": "Pandaren Roofsprinters",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105085": {
+      "Name": "Mantid Carapace Augments",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105086": {
+      "Name": "Arrowflight Girdle",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105087": {
+      "Name": "Ancient Archer's Chestguard",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105088": {
+      "Name": "Helm of the Night Watchman",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105089": {
+      "Name": "Untarnishable Greatbelt",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105090": {
+      "Name": "Ominous Mogu Greatboots",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105091": {
+      "Name": "Seal of the Forgotten Kings",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105092": {
+      "Name": "Ancient Mogu Tower Shield",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "20",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105093": {
+      "Name": "Avool's Ancestral Bracers",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105094": {
+      "Name": "Mantid Vizier's Robes",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105095": {
+      "Name": "Lost Necklace of the Mogu Empress",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105096": {
+      "Name": "Immaculately Preserved Wand",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105097": {
+      "Name": "Klaxxi Grips of Rejuvenation",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105098": {
+      "Name": "Shado-Pan Reliquary Kilt",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105099": {
+      "Name": "Chitin-Link Chain Belt",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105100": {
+      "Name": "Bracers of the Pristine Purifier",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105101": {
+      "Name": "Plate Belt of the War-Healer",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105102": {
+      "Name": "Mogu Mindbender's Greaves",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105103": {
+      "Name": "Hvitserk's Formidable Shanker",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105104": {
+      "Name": "Gleaming Eye of the Devilsaur",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105105": {
+      "Name": "Montak's Grips of Scorching Breath",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105106": {
+      "Name": "Akolik's Acid-Soaked Robes",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105107": {
+      "Name": "Festering Primordial Globule",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "20",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105108": {
+      "Name": "Signet of the Dinomancers",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105109": {
+      "Name": "Thok's Acid-Grooved Tooth",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105110": {
+      "Name": "Icy Blood Chestplate",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105111": {
+      "Name": "Thok's Tail Tip",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105112": {
+      "Name": "Britomart's Jagged Pike",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105113": {
+      "Name": "Devilfang Band",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105114": {
+      "Name": "Ticking Ebon Detonator",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105115": {
+      "Name": "Fusespark Gloves",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105116": {
+      "Name": "Lever of the Megantholithic Apparatus",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105117": {
+      "Name": "Dysmorphic Samophlange of Discontinuity",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105118": {
+      "Name": "Bomber's Blackened Wristwatch",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105119": {
+      "Name": "Bracers of Infinite Pipes",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105120": {
+      "Name": "Powder-Stained Totemic Treads",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105121": {
+      "Name": "Calixian Bladebreakers",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105122": {
+      "Name": "Asgorathian Blood Seal",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105123": {
+      "Name": "Siegecrafter's Forge Hammer",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105124": {
+      "Name": "Blackfuse's Blasting Cord",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105125": {
+      "Name": "Hisek's Reserve Longbow",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105126": {
+      "Name": "Kil'ruk's Band of Ascendancy",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105127": {
+      "Name": "Korven's Crimson Crescent",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105128": {
+      "Name": "Bracers of Sonic Projection",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105129": {
+      "Name": "Rik'kal's Bloody Scalpel",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105130": {
+      "Name": "Iyyokuk's Hereditary Seal",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105131": {
+      "Name": "Amber Parasite Wraps",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105132": {
+      "Name": "Chestguard of Toxic Injections",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105133": {
+      "Name": "Gauntlets of Insane Calculations",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105134": {
+      "Name": "Skeer's Bloodsoaked Talisman",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105135": {
+      "Name": "Kil'ruk's Furious Blade",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105136": {
+      "Name": "Kor'kron Spire of Supremacy",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105137": {
+      "Name": "Cord of Black Dreams",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105138": {
+      "Name": "Kor'kron Elite Skullmask",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105139": {
+      "Name": "Chestguard of Relentless Tyranny",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105140": {
+      "Name": "Penetrating Gaze of Y'Shaarj",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105141": {
+      "Name": "Shoulderguards of Intended Power",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105142": {
+      "Name": "Legplates of Unthinking Strife",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105143": {
+      "Name": "Spaulders of the Fallen Warchief",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105145": {
+      "Name": "Greathelm of the Warchief",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105146": {
+      "Name": "Xal'atoh, Desecrated Image of Gorehowl",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105147": {
+      "Name": "Curse of Hubris",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105148": {
+      "Name": "Belt of the Broken Pact",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105149": {
+      "Name": "Ebon Ritual Hood",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105150": {
+      "Name": "Black Blood of Y'Shaarj",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105151": {
+      "Name": "Horned Mace of the Old Ones",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105152": {
+      "Name": "Revelations of Y'Shaarj",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "20",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105153": {
+      "Name": "Seal of Karmic Return",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105154": {
+      "Name": "Hopeglow Spaulders",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105155": {
+      "Name": "Cowl of Smoking Dreams",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105156": {
+      "Name": "Chestplate of Fallen Passion",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "50",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105157": {
+      "Name": "Mantle of Looming Darkness",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105421": {
+      "Name": "Cloak of Misguided Power",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105437": {
+      "Name": "Gloomwrap Greatcloak",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105458": {
+      "Name": "Drape of the Despairing Pit",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105573": {
+      "Name": "Black-Blooded Drape",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105813": {
+      "Name": "Kalaena's Arcane Handwraps",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105814": {
+      "Name": "Seebo's Sainted Touch",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105817": {
+      "Name": "Siid's Silent Stranglers",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105818": {
+      "Name": "Crimson Gauntlets of Death",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105819": {
+      "Name": "Keengrip Arrowpullers",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105820": {
+      "Name": "Marco's Crackling Gloves",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105821": {
+      "Name": "Romy's Reliable Grips",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105822": {
+      "Name": "Zoid's Molten Gauntlets",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105823": {
+      "Name": "Gauntlets of Discarded Time",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105840": {
+      "Name": "Cape of the Alpha",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105843": {
+      "Name": "Drape of the Omega",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105844": {
+      "Name": "Brave Niunai's Cloak",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105852": {
+      "Name": "Aeth's Swiftcinder Cloak",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
+    "105853": {
+      "Name": "Turtleshell Greatcloak",
+      "Source": "August Stone Cluster",
+      "SourceType": "Dungeon Token",
+      "SourceNumber": "30",
+      "SourceLocation": "Emblem Vendor",
+      "SourceFaction": "B"
+    },
     "247796": {
       "Name": "Commendation of Service",
-      "Source": "August Stone Shard",
+      "Source": "August Stone Cluster",
       "SourceType": "Dungeon Token",
-      "SourceNumber": "5",
+      "SourceNumber": "2",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     },
@@ -5853,126 +8093,6 @@
       "Source": "Platinum Coin",
       "SourceType": "Dungeon Token",
       "SourceNumber": "30",
-      "SourceLocation": "Emblem Vendor",
-      "SourceFaction": "B"
-    },
-    "99671": {
-      "Name": "Helm of the Cursed Vanquisher",
-      "Source": "August Stone Cluster",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "??",
-      "SourceLocation": "Emblem Vendor",
-      "SourceFaction": "B"
-    },
-    "99668": {
-      "Name": "Shoulders of the Cursed Vanquisher",
-      "Source": "August Stone Cluster",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "??",
-      "SourceLocation": "Emblem Vendor",
-      "SourceFaction": "B"
-    },
-    "99677": {
-      "Name": "Chest of the Cursed Vanquisher",
-      "Source": "August Stone Cluster",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "??",
-      "SourceLocation": "Emblem Vendor",
-      "SourceFaction": "B"
-    },
-    "99680": {
-      "Name": "Gauntlets of the Cursed Vanquisher",
-      "Source": "August Stone Cluster",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "??",
-      "SourceLocation": "Emblem Vendor",
-      "SourceFaction": "B"
-    },
-    "99674": {
-      "Name": "Leggings of the Cursed Vanquisher",
-      "Source": "August Stone Cluster",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "??",
-      "SourceLocation": "Emblem Vendor",
-      "SourceFaction": "B"
-    },
-    "99672": {
-      "Name": "Helm of the Cursed Conqueror",
-      "Source": "August Stone Cluster",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "??",
-      "SourceLocation": "Emblem Vendor",
-      "SourceFaction": "B"
-    },
-    "99669": {
-      "Name": "Shoulders of the Cursed Conqueror",
-      "Source": "August Stone Cluster",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "??",
-      "SourceLocation": "Emblem Vendor",
-      "SourceFaction": "B"
-    },
-    "99678": {
-      "Name": "Chest of the Cursed Conqueror",
-      "Source": "August Stone Cluster",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "??",
-      "SourceLocation": "Emblem Vendor",
-      "SourceFaction": "B"
-    },
-    "99681": {
-      "Name": "Gauntlets of the Cursed Conqueror",
-      "Source": "August Stone Cluster",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "??",
-      "SourceLocation": "Emblem Vendor",
-      "SourceFaction": "B"
-    },
-    "99675": {
-      "Name": "Leggings of the Cursed Conqueror",
-      "Source": "August Stone Cluster",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "??",
-      "SourceLocation": "Emblem Vendor",
-      "SourceFaction": "B"
-    },
-    "99673": {
-      "Name": "Helm of the Cursed Protector",
-      "Source": "August Stone Cluster",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "??",
-      "SourceLocation": "Emblem Vendor",
-      "SourceFaction": "B"
-    },
-    "99670": {
-      "Name": "Shoulders of the Cursed Protector",
-      "Source": "August Stone Cluster",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "??",
-      "SourceLocation": "Emblem Vendor",
-      "SourceFaction": "B"
-    },
-    "99679": {
-      "Name": "Chest of the Cursed Protector",
-      "Source": "August Stone Cluster",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "??",
-      "SourceLocation": "Emblem Vendor",
-      "SourceFaction": "B"
-    },
-    "99667": {
-      "Name": "Gauntlets of the Cursed Protector",
-      "Source": "August Stone Cluster",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "??",
-      "SourceLocation": "Emblem Vendor",
-      "SourceFaction": "B"
-    },
-    "99676": {
-      "Name": "Leggings of the Cursed Protector",
-      "Source": "August Stone Cluster",
-      "SourceType": "Dungeon Token",
-      "SourceNumber": "??",
       "SourceLocation": "Emblem Vendor",
       "SourceFaction": "B"
     }

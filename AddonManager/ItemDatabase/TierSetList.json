@@ -5528,6 +5528,14 @@
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
+    "98978": {
+      "Name": "Shoulderguards of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99668",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
     "98979": {
       "Name": "Headguard of Winged Triumph",
       "Source": "",
@@ -5541,6 +5549,14 @@
       "Source": "",
       "SourceType": "Tier Token",
       "SourceNumber": "99675",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "98981": {
+      "Name": "Breeches of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99674",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -5640,6 +5656,70 @@
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
+    "98994": {
+      "Name": "Gloves of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99680",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "98995": {
+      "Name": "Cover of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99671",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "98996": {
+      "Name": "Leggings of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99674",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "98997": {
+      "Name": "Vestment of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99677",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "98998": {
+      "Name": "Shoulderwraps of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99668",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "98999": {
+      "Name": "Tunic of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99677",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99000": {
+      "Name": "Handguards of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99680",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99001": {
+      "Name": "Headguard of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99671",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
     "99002": {
       "Name": "Gauntlets of Winged Triumph",
       "Source": "",
@@ -5720,6 +5800,46 @@
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
+    "99012": {
+      "Name": "Handwraps of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99680",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99013": {
+      "Name": "Helm of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99671",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99014": {
+      "Name": "Legwraps of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99674",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99015": {
+      "Name": "Robes of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99677",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99016": {
+      "Name": "Mantle of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99668",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
     "99017": {
       "Name": "Robes of the Ternion Glory",
       "Source": "",
@@ -5757,6 +5877,14 @@
       "Source": "",
       "SourceType": "Tier Token",
       "SourceNumber": "99675",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99022": {
+      "Name": "Spaulders of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99668",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -5901,6 +6029,38 @@
       "Source": "",
       "SourceType": "Tier Token",
       "SourceNumber": "99668",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99041": {
+      "Name": "Raiment of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99677",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99042": {
+      "Name": "Grips of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99680",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99043": {
+      "Name": "Headpiece of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99671",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99044": {
+      "Name": "Legguards of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99674",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -6848,6 +7008,38 @@
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
+    "99163": {
+      "Name": "Handguards of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99682",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99164": {
+      "Name": "Headguard of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99683",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99165": {
+      "Name": "Breeches of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99684",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99166": {
+      "Name": "Shoulderguards of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99685",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
     "99167": {
       "Name": "Tunic of the Unblinking Vigil",
       "Source": "",
@@ -6864,11 +7056,139 @@
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
+    "99169": {
+      "Name": "Shoulderwraps of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99685",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99170": {
+      "Name": "Tunic of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99696",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99171": {
+      "Name": "Legwraps of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99684",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99172": {
+      "Name": "Robes of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99696",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99173": {
+      "Name": "Mantle of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99685",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99174": {
+      "Name": "Gloves of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99682",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99175": {
+      "Name": "Cover of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99683",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99176": {
+      "Name": "Leggings of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99684",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99177": {
+      "Name": "Vestment of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99696",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99178": {
+      "Name": "Helm of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99683",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
     "99179": {
       "Name": "Shoulderguards of Cyclopean Dread",
       "Source": "",
       "SourceType": "Tier Token",
       "SourceNumber": "99685",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99180": {
+      "Name": "Raiment of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99696",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99181": {
+      "Name": "Grips of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99682",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99182": {
+      "Name": "Headpiece of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99683",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99183": {
+      "Name": "Legguards of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99684",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99184": {
+      "Name": "Spaulders of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99685",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99185": {
+      "Name": "Handwraps of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99682",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -7040,6 +7360,14 @@
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
+    "99322": {
+      "Name": "Spaulders of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99717",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
     "99323": {
       "Name": "Faceguard of Cyclopean Dread",
       "Source": "",
@@ -7061,6 +7389,38 @@
       "Source": "",
       "SourceType": "Tier Token",
       "SourceNumber": "99717",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99326": {
+      "Name": "Raiment of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99714",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99327": {
+      "Name": "Grips of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99720",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99328": {
+      "Name": "Headpiece of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99723",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99329": {
+      "Name": "Legguards of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99726",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
@@ -7776,6 +8136,46 @@
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     },
+    "99419": {
+      "Name": "Tunic of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99714",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99420": {
+      "Name": "Handguards of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99720",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99421": {
+      "Name": "Headguard of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99723",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99422": {
+      "Name": "Breeches of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99726",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99423": {
+      "Name": "Shoulderguards of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99717",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
     "99424": {
       "Name": "Gloves of the Horned Nightmare",
       "Source": "",
@@ -7797,6 +8197,86 @@
       "Source": "",
       "SourceType": "Tier Token",
       "SourceNumber": "99712",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99427": {
+      "Name": "Vestment of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99714",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99428": {
+      "Name": "Shoulderwraps of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99717",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99429": {
+      "Name": "Legwraps of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99726",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99430": {
+      "Name": "Robes of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99714",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99431": {
+      "Name": "Mantle of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99717",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99432": {
+      "Name": "Gloves of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99720",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99433": {
+      "Name": "Cover of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99723",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99434": {
+      "Name": "Leggings of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99726",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99435": {
+      "Name": "Handwraps of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99720",
+      "SourceLocation": "unknown",
+      "SourceFaction": "B"
+    },
+    "99436": {
+      "Name": "Helm of the Shattered Vale",
+      "Source": "",
+      "SourceType": "Tier Token",
+      "SourceNumber": "99723",
       "SourceLocation": "unknown",
       "SourceFaction": "B"
     }
