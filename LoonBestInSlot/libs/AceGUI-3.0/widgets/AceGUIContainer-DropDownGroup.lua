@@ -1,4 +1,3 @@
----@diagnostic disable: invisible, assign-type-mismatch, inject-field, undefined-field
 --[[-----------------------------------------------------------------------------
 DropdownGroup Container
 Container controlled by a dropdown on the top.

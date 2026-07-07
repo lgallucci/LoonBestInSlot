@@ -1,3 +1,5 @@
+LBIS.SettingsCategoryId = nil;
+
 LBISSettingsDefault =
 {
 	SelectedSpec = "",
@@ -611,5 +613,7 @@ function LBIS:CreateSettings()
 	end
 
 	LibStub("AceConfig-3.0"):RegisterOptionsTable("Loon Best In Slot", CreateOptions(), nil)
-	LibStub("AceConfigDialog-3.0"):AddToBlizOptions("Loon Best In Slot"):SetParent(InterfaceOptionsFramePanelContainer)
+	local settingsFrame = nil
+	settingsFrame, LBIS.SettingsCategoryId = LibStub("AceConfigDialog-3.0"):AddToBlizOptions("Loon Best In Slot")
+	settingsFrame:SetParent(InterfaceOptionsFramePanelContainer)
 end

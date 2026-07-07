@@ -1,4 +1,3 @@
----@diagnostic disable: missing-return, duplicate-set-field
 --- AceConfigCmd-3.0 handles access to an options table through the "command line" interface via the ChatFrames.
 -- @class file
 -- @name AceConfigCmd-3.0
@@ -630,6 +629,7 @@ local function handle(info, inputpos, tab, depth, retfalse)
 		------------ color --------------------------------------------
 		local str = strtrim(strlower(strInput))
 		if str == "" then
+			--TODO: Show current value
 			return
 		end
 
@@ -701,6 +701,7 @@ local function handle(info, inputpos, tab, depth, retfalse)
 		------------ keybinding --------------------------------------------
 		local str = strtrim(strlower(strInput))
 		if str == "" then
+			--TODO: Show current value
 			return
 		end
 		local value = keybindingValidateFunc(str:upper())

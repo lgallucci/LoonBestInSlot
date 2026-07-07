@@ -1,4 +1,3 @@
----@diagnostic disable: duplicate-set-field, unbalanced-assignments
 --- **AceGUI-3.0** provides access to numerous widgets which can be used to create GUIs.
 -- AceGUI is used by AceConfigDialog to create the option GUIs, but you can use it by itself
 -- to create any custom GUI. There are more extensive examples in the test suite in the Ace3
@@ -704,6 +703,7 @@ AceGUI:RegisterLayout("Flow",
 			-- That was moving all widgets half the widgets size down, is that intended?
 			-- Actually, it seems to be neccessary for many cases, we'll leave it in for now.
 			-- If widgets seem to anchor weirdly with this, provide a valid alignoffset for them.
+			-- TODO: Investigate moar!
 			frameoffset = child.alignoffset or (frameheight / 2)
 
 			if child.width == "relative" then
