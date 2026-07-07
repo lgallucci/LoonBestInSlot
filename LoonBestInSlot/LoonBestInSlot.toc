@@ -1,4 +1,4 @@
-## Interface: 20505
+## Interface: 20506
 ## Title: Loon Best In Slot
 ## Notes: 
 ## OptionalDeps: LinkWrangler

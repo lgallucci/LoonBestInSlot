@@ -1,4 +1,3 @@
----@diagnostic disable: param-type-mismatch, invisible, undefined-field
 --[[ $Id: AceGUIWidget-DropDown.lua 1284 2022-09-25 09:15:30Z nevcairiel $ ]]--
 local AceGUI = LibStub("AceGUI-3.0")
 

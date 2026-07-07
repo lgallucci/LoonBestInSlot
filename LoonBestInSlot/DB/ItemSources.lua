@@ -3427,6 +3427,7 @@ LBIS.ItemSources =
     [34010] = { Name = "Pepe's Shroud of Pacification", SourceType = LBIS.L["Drop"], Source = LBIS.L["Trash Drop"], SourceNumber = "0", SourceLocation = LBIS.L["Hyjal Summit"], SourceFaction = "B" },
     [34011] = { Name = "Illidari Runeshield", SourceType = LBIS.L["Drop"], Source = LBIS.L["Trash Drop"], SourceNumber = "0", SourceLocation = LBIS.L["Black Temple"], SourceFaction = "B" },
     [34012] = { Name = "Shroud of the Final Stand", SourceType = LBIS.L["Drop"], Source = LBIS.L["Trash Drop"], SourceNumber = "0", SourceLocation = LBIS.L["Black Temple"], SourceFaction = "B" },
+    [34015] = { Name = "Vengeful Gladiator's Chopper", SourceType = LBIS.L["PvP"], Source = LBIS.L["PvP Vendor"], SourceNumber = "0", SourceLocation = "", SourceFaction = "B" },
     [34029] = { Name = "Tiny Voodoo Mask", SourceType = LBIS.L["Drop"], Source = LBIS.L["Hex Lord Malacrass"], SourceNumber = "0", SourceLocation = LBIS.L["Zul'Aman"], SourceFaction = "B" },
     [34049] = { Name = "Battlemaster's Audacity", SourceType = LBIS.L["Dungeon Token"], Source = LBIS.L["Badge of Justice"], SourceNumber = "75", SourceLocation = LBIS.L["G'eras"], SourceFaction = "B" },
     [34050] = { Name = "Battlemaster's Perseverance", SourceType = LBIS.L["Dungeon Token"], Source = LBIS.L["Badge of Justice"], SourceNumber = "75", SourceLocation = LBIS.L["G'eras"], SourceFaction = "B" },
