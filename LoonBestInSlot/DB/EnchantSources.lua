@@ -10,6 +10,7 @@ LBIS.EnchantSources =
     [54999] = { Name = "Hyperspeed Accelerators", DesignId = "99999", Source = LBIS.L["Engineering Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "" },
     [55642] = { Name = "Lightweave Embroidery", DesignId = "99999", Source = LBIS.L["Tailoring Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "" },
     [74230] = { Name = "Enchant Cloak - Critical Strike", DesignId = "99999", Source = LBIS.L["Enchanting Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "" },
+    [74235] = { Name = "Enchant Off-Hand - Superior Intellect", DesignId = "99999", Source = LBIS.L["Enchanting Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "74235" },
     [82175] = { Name = "Synapse Springs", DesignId = "99999", Source = LBIS.L["Engineering Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "" },
     [96264] = { Name = "Enchant Bracer - Agility", DesignId = "68787", Source = LBIS.L["World Drop"], SourceLocation = "", TextureId = "68787" },
     [104338] = { Name = "Enchant Bracer - Mastery", DesignId = "84560", Source = LBIS.L["Enchanting Trainer"], SourceLocation = LBIS.L["Faction Capital"], TextureId = "84560" },

@@ -8,18 +8,18 @@ local spec5 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Arms"], "5")
 LBIS:AddGem(spec0, "95346", "5", "True") --Capacitive Primal Diamond
 LBIS:AddGem(spec0, "76886", "3", "True") --Reverberating Primal Diamond
 LBIS:AddGem(spec0, "89881", "5", "False") --Crystallized Terror
-LBIS:AddGem(spec0, "76659", "3", "False") --Crafty Vermilion Onyx
-LBIS:AddGem(spec0, "77543", "3", "False") --Precise Tinker's Gear
-LBIS:AddGem(spec0, "76641", "3", "False") --Piercing Wild Jade
-LBIS:AddGem(spec0, "76697", "3", "False") --Smooth Sun's Radiance
-LBIS:AddGem(spec0, "76652", "3", "False") --Jagged Wild Jade
-LBIS:AddGem(spec0, "76636", "3", "False") --Rigid River's Heart
-LBIS:AddGem(spec0, "76693", "3", "False") --Precise Primordial Ruby
-LBIS:AddGem(spec0, "76696", "3", "False") --Bold Primordial Ruby
-LBIS:AddGem(spec0, "76684", "3", "False") --Etched Imperial Amethyst
-LBIS:AddGem(spec0, "76661", "3", "False") --Inscribed Vermilion Onyx
-LBIS:AddGem(spec0, "77545", "3", "False") --Rigid Tinker's Gear
 LBIS:AddGem(spec0, "77541", "3", "False") --Smooth Tinker's Gear
+LBIS:AddGem(spec0, "77545", "3", "False") --Rigid Tinker's Gear
+LBIS:AddGem(spec0, "76661", "3", "False") --Inscribed Vermilion Onyx
+LBIS:AddGem(spec0, "76684", "3", "False") --Etched Imperial Amethyst
+LBIS:AddGem(spec0, "76696", "3", "False") --Bold Primordial Ruby
+LBIS:AddGem(spec0, "76693", "3", "False") --Precise Primordial Ruby
+LBIS:AddGem(spec0, "76636", "3", "False") --Rigid River's Heart
+LBIS:AddGem(spec0, "76652", "3", "False") --Jagged Wild Jade
+LBIS:AddGem(spec0, "76697", "3", "False") --Smooth Sun's Radiance
+LBIS:AddGem(spec0, "76641", "3", "False") --Piercing Wild Jade
+LBIS:AddGem(spec0, "77543", "3", "False") --Precise Tinker's Gear
+LBIS:AddGem(spec0, "76659", "3", "False") --Crafty Vermilion Onyx
 LBIS:AddGem(spec0, "76618", "3", "False") --Perfect Etched Roguestone
 LBIS:AddGem(spec0, "76575", "3", "False") --Perfect Piercing Alexandrite
 
@@ -452,8 +452,8 @@ LBIS:AddItem(spec5, "99046", LBIS.L["Head"], "Alt") --Helmet of the Prehistoric 
 LBIS:AddItem(spec5, "89280", LBIS.L["Head"], "Alt") --Voice Amplyifying Greathelm
 LBIS:AddItem(spec5, "105642", LBIS.L["Shoulder"], "BIS") --Tusks of Mannoroth
 LBIS:AddItem(spec5, "89345", LBIS.L["Shoulder"], "Alt") --Stonetoe Spaulders
-LBIS:AddItem(spec5, "105143", LBIS.L["Shoulder"], "Alt") --Spaulders of the Fallen Warchief
 LBIS:AddItem(spec5, "95098", LBIS.L["Shoulder"], "Alt") --Sightblinder Shoulderguards
+LBIS:AddItem(spec5, "105143", LBIS.L["Shoulder"], "Alt") --Spaulders of the Fallen Warchief
 LBIS:AddItem(spec5, "102249", LBIS.L["Back"], "BIS") --Gong-Lu, Strength of Xuen
 LBIS:AddItem(spec5, "89074", LBIS.L["Back"], "Alt") --Cloak of the Dark Disciple
 LBIS:AddItem(spec5, "95114", LBIS.L["Back"], "Alt") --Spikeshard Greatcloak
@@ -466,27 +466,28 @@ LBIS:AddItem(spec5, "105456", LBIS.L["Wrist"], "BIS") --Bracers of Blind Hatred
 LBIS:AddItem(spec5, "88879", LBIS.L["Wrist"], "Alt") --Braided Black and White Bracer
 LBIS:AddItem(spec5, "95128", LBIS.L["Wrist"], "Alt") --Bonecrusher Bracers
 LBIS:AddItem(spec5, "104958", LBIS.L["Wrist"], "Alt") --Bracers of Blind Hatred
-LBIS:AddItem(spec5, "105511", LBIS.L["Hands"], "BIS") --Tar-Coated Gauntlets
+LBIS:AddItem(spec5, "99412", LBIS.L["Hands"], "BIS") --Gauntlets of the Prehistoric Marauder
 LBIS:AddItem(spec5, "88747", LBIS.L["Hands"], "Alt") --Streetfighter's Iron Knuckles
 LBIS:AddItem(spec5, "95111", LBIS.L["Hands"], "Alt") --Bloodstained Skullsqueezers
 LBIS:AddItem(spec5, "105013", LBIS.L["Hands"], "Alt") --Tar-Coated Gauntlets
-LBIS:AddItem(spec5, "105533", LBIS.L["Waist"], "BIS") --Ashen Wall Girdle
-LBIS:AddItem(spec5, "89055", LBIS.L["Waist"], "Alt") --Klaxxi Lash of the Rescinder
-LBIS:AddItem(spec5, "93332", LBIS.L["Waist"], "Alt") --Girdle of Crushing Strength
+LBIS:AddItem(spec5, "105509", LBIS.L["Waist"], "BIS") --Demolisher's Reinforced Belt
 LBIS:AddItem(spec5, "93323", LBIS.L["Waist"], "Alt") --Kwon's Crushing Girdle
 LBIS:AddItem(spec5, "95524", LBIS.L["Waist"], "Alt") --Thunder Caressed Waistguard
+LBIS:AddItem(spec5, "93332", LBIS.L["Waist"], "Alt") --Girdle of Crushing Strength
+LBIS:AddItem(spec5, "89055", LBIS.L["Waist"], "Alt") --Klaxxi Lash of the Rescinder
+LBIS:AddItem(spec5, "105533", LBIS.L["Waist"], "Alt") --Ashen Wall Girdle
 LBIS:AddItem(spec5, "98616", LBIS.L["Waist"], "Alt") --Avenger's Trillium Waistplate
 LBIS:AddItem(spec5, "95083", LBIS.L["Waist"], "Alt") --Swordhook Slingbelt
 LBIS:AddItem(spec5, "105035", LBIS.L["Waist"], "Alt") --Ashen Wall Girdle
-LBIS:AddItem(spec5, "99413", LBIS.L["Legs"], "BIS") --Legplates of the Prehistoric Marauder
+LBIS:AddItem(spec5, "105565", LBIS.L["Legs"], "BIS") --Legplates of Willful Doom
 LBIS:AddItem(spec5, "89095", LBIS.L["Legs"], "Alt") --Legguards of the Unscathed
 LBIS:AddItem(spec5, "95121", LBIS.L["Legs"], "Alt") --Vaultbreaker Greaves
 LBIS:AddItem(spec5, "99199", LBIS.L["Legs"], "Alt") --Legplates of the Prehistoric Marauder
 LBIS:AddItem(spec5, "98607", LBIS.L["Legs"], "Alt") --Avenger's Trillium Legplates
 LBIS:AddItem(spec5, "99035", LBIS.L["Legs"], "Alt") --Legplates of the Prehistoric Marauder
 LBIS:AddItem(spec5, "105478", LBIS.L["Feet"], "BIS") --Greaves of Sublime Superiority
-LBIS:AddItem(spec5, "93264", LBIS.L["Feet"], "Alt") --Cragchewer Sollerets
 LBIS:AddItem(spec5, "93273", LBIS.L["Feet"], "Alt") --Sea-Soaked Sollerets
+LBIS:AddItem(spec5, "93264", LBIS.L["Feet"], "Alt") --Cragchewer Sollerets
 LBIS:AddItem(spec5, "88862", LBIS.L["Feet"], "Alt") --Tankiss Warstompers
 LBIS:AddItem(spec5, "104980", LBIS.L["Feet"], "Alt") --Greaves of Sublime Superiority
 LBIS:AddItem(spec5, "105566", LBIS.L["Neck"], "BIS") --Malkorok's Tainted Dog Tags
@@ -495,7 +496,7 @@ LBIS:AddItem(spec5, "95142", LBIS.L["Neck"], "Alt") --Striker's Battletags
 LBIS:AddItem(spec5, "105068", LBIS.L["Neck"], "Alt") --Malkorok's Tainted Dog Tags
 LBIS:AddItem(spec5, "90592", LBIS.L["Neck"], "Alt") --Ferocious Necklace of the Golden Lotus
 LBIS:AddItem(spec5, "105534", LBIS.L["Ring"], "BIS") --Bloodclaw Band
-LBIS:AddItem(spec5, "105611", LBIS.L["Ring"], "BIS") --Devilfang Band
+LBIS:AddItem(spec5, "105589", LBIS.L["Ring"], "BIS") --Seal of the Forgotten Kings
 LBIS:AddItem(spec5, "89069", LBIS.L["Ring"], "Alt") --Ring of the Golden Stair
 LBIS:AddItem(spec5, "93251", LBIS.L["Ring"], "Alt") --Dominator's Circle
 LBIS:AddItem(spec5, "93246", LBIS.L["Ring"], "Alt") --Circle of the Shieldwall

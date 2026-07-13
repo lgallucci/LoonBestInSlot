@@ -20,6 +20,7 @@ LBIS:AddGem(spec0, "76700", "3", "False") --Fractured Sun's Radiance
 LBIS:AddGem(spec0, "76672", "3", "False") --Artful Vermilion Onyx
 LBIS:AddGem(spec0, "76642", "3", "False") --Lightning Wild Jade
 LBIS:AddGem(spec0, "76671", "3", "False") --Keen Vermilion Onyx
+LBIS:AddGem(spec0, "76636", "3", "False") --Rigid River's Heart
 
 LBIS:AddEnchant(spec5, "127013", LBIS.L["Shoulder"]) --
 LBIS:AddEnchant(spec5, "121195", LBIS.L["Shoulder"]) --
@@ -479,7 +480,7 @@ LBIS:AddItem(spec4, "79334", LBIS.L["Off Hand"], "Alt") --Inscribed Jade Fan
 LBIS:AddItem(spec4, "81076", LBIS.L["Off Hand"], "Alt") --Bottle of Potent Potables
 LBIS:AddItem(spec4, "95710", LBIS.L["Off Hand"], "Alt") --Fetish of the Hydra
 
-LBIS:AddItem(spec5, "105647", LBIS.L["Head"], "BIS") --Ebon Ritual Hood
+LBIS:AddItem(spec5, "99425", LBIS.L["Head"], "BIS") --Hood of the Horned Nightmare
 LBIS:AddItem(spec5, "105149", LBIS.L["Head"], "Alt") --Ebon Ritual Hood
 LBIS:AddItem(spec5, "89337", LBIS.L["Head"], "Alt") --Firecracker Corona
 LBIS:AddItem(spec5, "94278", LBIS.L["Head"], "Alt") --Falling Blossom Cowl
@@ -520,7 +521,7 @@ LBIS:AddItem(spec5, "93339", LBIS.L["Waist"], "Alt") --Bon-iy's Unbreakable Cord
 LBIS:AddItem(spec5, "93330", LBIS.L["Waist"], "Alt") --Chang's Changing Cord
 LBIS:AddItem(spec5, "95090", LBIS.L["Waist"], "Alt") --Firestrike Cord
 LBIS:AddItem(spec5, "105017", LBIS.L["Waist"], "Alt") --Belt of Ominous Trembles
-LBIS:AddItem(spec5, "99426", LBIS.L["Legs"], "BIS") --Leggings of the Horned Nightmare
+LBIS:AddItem(spec5, "105516", LBIS.L["Legs"], "BIS") --Leggings of Furious Flame
 LBIS:AddItem(spec5, "89088", LBIS.L["Legs"], "Alt") --Leggings of the Poisoned Soul
 LBIS:AddItem(spec5, "95123", LBIS.L["Legs"], "Alt") --Charfire Leggings
 LBIS:AddItem(spec5, "98603", LBIS.L["Legs"], "Alt") --Leggings of the Night Sky
@@ -548,7 +549,7 @@ LBIS:AddItem(spec5, "97193", LBIS.L["Ring"], "Alt") --Restored Hexxer's Signet
 LBIS:AddItem(spec5, "105108", LBIS.L["Ring"], "Alt") --Signet of the Dinomancers
 LBIS:AddItem(spec5, "105130", LBIS.L["Ring"], "Alt") --Iyyokuk's Hereditary Seal
 LBIS:AddItem(spec5, "105422", LBIS.L["Trinket"], "BIS") --Purified Bindings of Immerseus
-LBIS:AddItem(spec5, "105648", LBIS.L["Trinket"], "BIS") --Black Blood of Y'Shaarj
+LBIS:AddItem(spec5, "96930", LBIS.L["Trinket"], "BIS") --Unerring Vision of Lei Shen
 LBIS:AddItem(spec5, "89081", LBIS.L["Trinket"], "Alt") --Blossom of Pure Snow
 LBIS:AddItem(spec5, "93259", LBIS.L["Trinket"], "Alt") --Shock-Charger Medallion
 LBIS:AddItem(spec5, "93254", LBIS.L["Trinket"], "Alt") --Static-Caster's Medallion
