@@ -267,11 +267,12 @@ function LBIS:LoadShamanElemental()
     LBIS:AddItem(spec3, "30884", LBIS.L["Shoulder"], "Alt") --Hatefury Mantle
     LBIS:AddItem(spec3, "29037", LBIS.L["Shoulder"], "Alt") --Cyclone Shoulderguards
     LBIS:AddItem(spec3, "30925", LBIS.L["Shoulder"], "Alt") --Spaulders of the Torn-heart
+    LBIS:AddItem(spec3, "32524", LBIS.L["Back"], "BIS") --Shroud of the Highborne
     LBIS:AddItem(spec3, "32331", LBIS.L["Back"], "BIS") --Cloak of the Illidari Council
+    LBIS:AddItem(spec3, "28766", LBIS.L["Back"], "Alt") --Ruby Drape of the Mysticant
     LBIS:AddItem(spec3, "30735", LBIS.L["Back"], "Alt") --Ancient Spellcloak of the Highborne
     LBIS:AddItem(spec3, "28797", LBIS.L["Back"], "Alt") --Brute Cloak of the Ogre-Magi
     LBIS:AddItem(spec3, "29992", LBIS.L["Back"], "Alt") --Royal Cloak of the Sunstriders
-    LBIS:AddItem(spec3, "28766", LBIS.L["Back"], "Alt") --Ruby Drape of the Mysticant
     LBIS:AddItem(spec3, "31017", LBIS.L["Chest"], "BIS") --Skyshatter Breastplate
     LBIS:AddItem(spec3, "29519", LBIS.L["Chest"], "Alt") --Netherstrike Breastplate
     LBIS:AddItem(spec3, "29522", LBIS.L["Chest"], "Alt") --Windhawk Hauberk
@@ -307,14 +308,14 @@ function LBIS:LoadShamanElemental()
     LBIS:AddItem(spec3, "30734", LBIS.L["Legs"], "Alt") --Leggings of the Seventh Circle
     LBIS:AddItem(spec3, "30541", LBIS.L["Legs"], "Alt") --Stormsong Kilt
     LBIS:AddItem(spec3, "30172", LBIS.L["Legs"], "Alt") --Cataclysm Leggings
-    LBIS:AddItem(spec3, "29141", LBIS.L["Legs"], "Alt") --Tempest Leggings
     LBIS:AddItem(spec3, "29142", LBIS.L["Legs"], "Alt") --Kurenai Kilt
+    LBIS:AddItem(spec3, "29141", LBIS.L["Legs"], "Alt") --Tempest Leggings
     LBIS:AddItem(spec3, "24262", LBIS.L["Legs"], "Alt") --Spellstrike Pants
     LBIS:AddItem(spec3, "32239", LBIS.L["Feet"], "BIS") --Slippers of the Seacaller
     LBIS:AddItem(spec3, "32352", LBIS.L["Feet"], "BIS") --Naturewarden's Treads
-    LBIS:AddItem(spec3, "32242", LBIS.L["Feet"], "BIS") --Boots of Oceanic Fury
     LBIS:AddItem(spec3, "30037", LBIS.L["Feet"], "Alt") --Boots of Blasting
     LBIS:AddItem(spec3, "30043", LBIS.L["Feet"], "Alt") --Hurricane Boots
+    LBIS:AddItem(spec3, "32242", LBIS.L["Feet"], "Alt") --Boots of Oceanic Fury
     LBIS:AddItem(spec3, "28517", LBIS.L["Feet"], "Alt") --Boots of Foretelling
     LBIS:AddItem(spec3, "30067", LBIS.L["Feet"], "Alt") --Velvet Boots of the Guardian
     LBIS:AddItem(spec3, "28810", LBIS.L["Feet"], "Alt") --Windshear Boots
@@ -352,8 +353,8 @@ function LBIS:LoadShamanElemental()
     LBIS:AddItem(spec3, "32963", LBIS.L["Main Hand"], "Alt") --Merciless Gladiator's Gavel
     LBIS:AddItem(spec3, "33687", LBIS.L["Main Hand"], "Alt") --Vengeful Gladiator's Gavel
     LBIS:AddItem(spec3, "30723", LBIS.L["Main Hand"], "Alt") --Talon of the Tempest
-    LBIS:AddItem(spec3, "28770", LBIS.L["Main Hand"], "Alt") --Nathrezim Mindblade
     LBIS:AddItem(spec3, "34009", LBIS.L["Main Hand"], "Alt") --Hammer of Judgement
+    LBIS:AddItem(spec3, "28770", LBIS.L["Main Hand"], "Alt") --Nathrezim Mindblade
     LBIS:AddItem(spec3, "23554", LBIS.L["Main Hand"], "Alt") --Eternium Runed Blade
     LBIS:AddItem(spec3, "30832", LBIS.L["Main Hand"], "Alt") --Gavel of Unearthed Secrets
     LBIS:AddItem(spec3, "30909", LBIS.L["Off Hand"], "BIS") --Antonidas's Aegis of Rapt Concentration

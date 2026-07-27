@@ -2481,6 +2481,7 @@ LBIS.ItemSources =
     [31017] = { Name = "Skyshatter Breastplate", SourceType = LBIS.L["Tier Token"], Source = LBIS.L["Illidan Stormrage"], SourceNumber = "31091", SourceLocation = LBIS.L["Black Temple"], SourceFaction = "B" },
     [31019] = { Name = "Skyshatter Leggings", SourceType = LBIS.L["Tier Token"], Source = LBIS.L["The Illidari Council"], SourceNumber = "31100", SourceLocation = LBIS.L["Black Temple"], SourceFaction = "B" },
     [31020] = { Name = "Skyshatter Legguards", SourceType = LBIS.L["Tier Token"], Source = LBIS.L["The Illidari Council"], SourceNumber = "31100", SourceLocation = LBIS.L["Black Temple"], SourceFaction = "B" },
+    [31021] = { Name = "Skyshatter Pants", SourceType = LBIS.L["Tier Token"], Source = LBIS.L["The Illidari Council"], SourceNumber = "31100", SourceLocation = LBIS.L["Black Temple"], SourceFaction = "B" },
     [31022] = { Name = "Skyshatter Shoulderpads", SourceType = LBIS.L["Tier Token"], Source = LBIS.L["Mother Shahraz"], SourceNumber = "31103", SourceLocation = LBIS.L["Black Temple"], SourceFaction = "B" },
     [31023] = { Name = "Skyshatter Mantle", SourceType = LBIS.L["Tier Token"], Source = LBIS.L["Mother Shahraz"], SourceNumber = "31103", SourceLocation = LBIS.L["Black Temple"], SourceFaction = "B" },
     [31024] = { Name = "Skyshatter Pauldrons", SourceType = LBIS.L["Tier Token"], Source = LBIS.L["Mother Shahraz"], SourceNumber = "31103", SourceLocation = LBIS.L["Black Temple"], SourceFaction = "B" },

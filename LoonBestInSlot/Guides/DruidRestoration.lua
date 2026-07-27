@@ -429,27 +429,27 @@ function LBIS:LoadDruidRestoration()
     LBIS:AddItem(spec3, "32479", LBIS.L["Head"], "Alt") --Wonderheal XT40 Shades
     LBIS:AddItem(spec3, "31047", LBIS.L["Shoulder"], "BIS") --Thunderheart Spaulders
     LBIS:AddItem(spec3, "30111", LBIS.L["Shoulder"], "Alt") --Runetotem's Mantle
-    LBIS:AddItem(spec3, "30221", LBIS.L["Shoulder"], "Alt") --Nordrassil Life-Mantle
-    LBIS:AddItem(spec3, "29089", LBIS.L["Shoulder"], "Alt") --Shoulderguards of Malorne
     LBIS:AddItem(spec3, "32583", LBIS.L["Shoulder"], "Alt") --Shoulderpads of Renewed Life
+    LBIS:AddItem(spec3, "29089", LBIS.L["Shoulder"], "Alt") --Shoulderguards of Malorne
+    LBIS:AddItem(spec3, "32585", LBIS.L["Shoulder"], "Alt") --Swiftheal Mantle
     LBIS:AddItem(spec3, "21874", LBIS.L["Shoulder"], "Alt") --Primal Mooncloth Shoulders
     LBIS:AddItem(spec3, "32518", LBIS.L["Shoulder"], "Alt") --Veil of Turning Leaves
-    LBIS:AddItem(spec3, "32585", LBIS.L["Shoulder"], "Alt") --Swiftheal Mantle
+    LBIS:AddItem(spec3, "30221", LBIS.L["Shoulder"], "Alt") --Nordrassil Life-Mantle
     LBIS:AddItem(spec3, "32273", LBIS.L["Shoulder"], "Alt") --Amice of Brilliant Light
     LBIS:AddItem(spec3, "32524", LBIS.L["Back"], "BIS") --Shroud of the Highborne
-    LBIS:AddItem(spec3, "32337", LBIS.L["Back"], "BIS") --Shroud of Forgiveness
     LBIS:AddItem(spec3, "31329", LBIS.L["Back"], "Alt") --Lifegiving Cloak
+    LBIS:AddItem(spec3, "32337", LBIS.L["Back"], "Alt") --Shroud of Forgiveness
     LBIS:AddItem(spec3, "29989", LBIS.L["Back"], "Alt") --Sunshower Light Cloak
     LBIS:AddItem(spec3, "34012", LBIS.L["Back"], "Alt") --Shroud of the Final Stand
     LBIS:AddItem(spec3, "31041", LBIS.L["Chest"], "BIS") --Thunderheart Tunic
     LBIS:AddItem(spec3, "30216", LBIS.L["Chest"], "Alt") --Nordrassil Chestguard
     LBIS:AddItem(spec3, "21875", LBIS.L["Chest"], "Alt") --Primal Mooncloth Robe
     LBIS:AddItem(spec3, "29087", LBIS.L["Chest"], "Alt") --Chestguard of Malorne
-    LBIS:AddItem(spec3, "30868", LBIS.L["Wrist"], "BIS") --Rejuvenating Bracers
-    LBIS:AddItem(spec3, "30871", LBIS.L["Wrist"], "BIS") --Bracers of Martyrdom
     LBIS:AddItem(spec3, "32584", LBIS.L["Wrist"], "BIS") --Swiftheal Wraps
     LBIS:AddItem(spec3, "32582", LBIS.L["Wrist"], "BIS") --Bracers of Renewed Life
     LBIS:AddItem(spec3, "32513", LBIS.L["Wrist"], "Alt") --Wristbands of Divine Influence
+    LBIS:AddItem(spec3, "30868", LBIS.L["Wrist"], "Alt") --Rejuvenating Bracers
+    LBIS:AddItem(spec3, "30871", LBIS.L["Wrist"], "Alt") --Bracers of Martyrdom
     LBIS:AddItem(spec3, "30062", LBIS.L["Wrist"], "Alt") --Grove-Bands of Remulos
     LBIS:AddItem(spec3, "32328", LBIS.L["Hands"], "BIS") --Botanist's Gloves of Growth
     LBIS:AddItem(spec3, "30217", LBIS.L["Hands"], "Alt") --Nordrassil Gloves
@@ -483,20 +483,19 @@ function LBIS:LoadDruidRestoration()
     LBIS:AddItem(spec3, "30726", LBIS.L["Neck"], "Alt") --Archaic Charm of Presence
     LBIS:AddItem(spec3, "33922", LBIS.L["Neck"], "Alt") --Vindicator's Pendant of Salvation
     LBIS:AddItem(spec3, "32528", LBIS.L["Ring"], "BIS") --Blessed Band of Karabor
-    LBIS:AddItem(spec3, "30110", LBIS.L["Ring"], "BIS") --Coral Band of the Revived
-    LBIS:AddItem(spec3, "29309", LBIS.L["Ring"], "BIS") --Band of the Eternal Restorer
     LBIS:AddItem(spec3, "30736", LBIS.L["Ring"], "Alt") --Ring of Flowing Light
+    LBIS:AddItem(spec3, "30110", LBIS.L["Ring"], "Alt") --Coral Band of the Revived
+    LBIS:AddItem(spec3, "29309", LBIS.L["Ring"], "Alt") --Band of the Eternal Restorer
     LBIS:AddItem(spec3, "28763", LBIS.L["Ring"], "Alt") --Jade Ring of the Everliving
     LBIS:AddItem(spec3, "29376", LBIS.L["Trinket"], "BIS") --Essence of the Martyr
-    LBIS:AddItem(spec3, "38288", LBIS.L["Trinket"], "BIS") --Direbrew Hops
     LBIS:AddItem(spec3, "32496", LBIS.L["Trinket"], "BIS") --Memento of Tyrande
-    LBIS:AddItem(spec3, "25634", LBIS.L["Trinket"], "Alt") --Oshu'gun Relic
-    LBIS:AddItem(spec3, "23047", LBIS.L["Trinket"], "Alt") --Eye of the Dead
     LBIS:AddItem(spec3, "19395", LBIS.L["Trinket"], "Alt") --Rejuvenating Gem
-    LBIS:AddItem(spec3, "32486", LBIS.L["Trinket"], "Alt") --Ashtongue Talisman of Equilibrium
-    LBIS:AddItem(spec3, "28590", LBIS.L["Trinket"], "Alt") --Ribbon of Sacrifice
     LBIS:AddItem(spec3, "28190", LBIS.L["Trinket"], "Alt") --Scarab of the Infinite Cycle
+    LBIS:AddItem(spec3, "23047", LBIS.L["Trinket"], "Alt") --Eye of the Dead
     LBIS:AddItem(spec3, "30841", LBIS.L["Trinket"], "Alt") --Lower City Prayerbook
+    LBIS:AddItem(spec3, "28590", LBIS.L["Trinket"], "Alt") --Ribbon of Sacrifice
+    LBIS:AddItem(spec3, "25634", LBIS.L["Trinket"], "Alt") --Oshu'gun Relic
+    LBIS:AddItem(spec3, "32486", LBIS.L["Trinket"], "Alt") --Ashtongue Talisman of Equilibrium
     LBIS:AddItem(spec3, "32500", LBIS.L["Main Hand"], "BIS") --Crystal Spire of Karabor
     LBIS:AddItem(spec3, "32964", LBIS.L["Main Hand"], "Alt") --Merciless Gladiator's Salvation
     LBIS:AddItem(spec3, "33743", LBIS.L["Main Hand"], "Alt") --Vengeful Gladiator's Salvation
@@ -506,9 +505,10 @@ function LBIS:LoadDruidRestoration()
     LBIS:AddItem(spec3, "30918", LBIS.L["Main Hand"], "Alt") --Hammer of Atonement
     LBIS:AddItem(spec3, "28522", LBIS.L["Main Hand"], "Alt") --Shard of the Virtuous
     LBIS:AddItem(spec3, "30911", LBIS.L["Off Hand"], "BIS") --Scepter of Purification
+    LBIS:AddItem(spec3, "33736", LBIS.L["Off Hand"], "Alt") --Vengeful Gladiator's Reprieve
     LBIS:AddItem(spec3, "32961", LBIS.L["Off Hand"], "Alt") --Merciless Gladiator's Reprieve
-    LBIS:AddItem(spec3, "29923", LBIS.L["Off Hand"], "Alt") --Talisman of the Sun King
     LBIS:AddItem(spec3, "29274", LBIS.L["Off Hand"], "Alt") --Tears of Heaven
+    LBIS:AddItem(spec3, "29923", LBIS.L["Off Hand"], "Alt") --Talisman of the Sun King
     LBIS:AddItem(spec3, "32350", LBIS.L["Off Hand"], "Alt") --Touch of Inspiration
     LBIS:AddItem(spec3, "29170", LBIS.L["Off Hand"], "Alt") --Windcaller's Orb
     LBIS:AddItem(spec3, "30908", LBIS.L["Two Hand"], "BIS") --Apostle of Argus
