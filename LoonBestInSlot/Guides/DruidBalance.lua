@@ -454,10 +454,10 @@ function LBIS:LoadDruidBalance()
     LBIS:AddItem(spec3, "30725", LBIS.L["Hands"], "Alt") --Anger-Spark Gloves
     LBIS:AddItem(spec3, "29987", LBIS.L["Hands"], "Alt") --Gauntlets of the Sun King
     LBIS:AddItem(spec3, "29092", LBIS.L["Hands"], "Alt") --Gloves of Malorne
-    LBIS:AddItem(spec3, "30888", LBIS.L["Waist"], "BIS") --Anetheron's Noose
+    LBIS:AddItem(spec3, "30914", LBIS.L["Waist"], "BIS") --Belt of the Crescent Moon
     LBIS:AddItem(spec3, "30064", LBIS.L["Waist"], "Alt") --Cord of Screaming Terrors
     LBIS:AddItem(spec3, "21846", LBIS.L["Waist"], "Alt") --Spellfire Belt
-    LBIS:AddItem(spec3, "30914", LBIS.L["Waist"], "Alt") --Belt of the Crescent Moon
+    LBIS:AddItem(spec3, "30888", LBIS.L["Waist"], "Alt") --Anetheron's Noose
     LBIS:AddItem(spec3, "30038", LBIS.L["Waist"], "Alt") --Belt of Blasting
     LBIS:AddItem(spec3, "32256", LBIS.L["Waist"], "Alt") --Waistwrap of Infinity
     LBIS:AddItem(spec3, "30916", LBIS.L["Legs"], "BIS") --Leggings of Channeled Elements
@@ -490,11 +490,11 @@ function LBIS:LoadDruidBalance()
     LBIS:AddItem(spec3, "30109", LBIS.L["Ring"], "Alt") --Ring of Endless Coils
     LBIS:AddItem(spec3, "32483", LBIS.L["Trinket"], "BIS") --The Skull of Gul'dan
     LBIS:AddItem(spec3, "32486", LBIS.L["Trinket"], "BIS") --Ashtongue Talisman of Equilibrium
-    LBIS:AddItem(spec3, "30626", LBIS.L["Trinket"], "Alt") --Sextant of Unstable Currents
+    LBIS:AddItem(spec3, "38290", LBIS.L["Trinket"], "Alt") --Dark Iron Smoking Pipe
     LBIS:AddItem(spec3, "27683", LBIS.L["Trinket"], "Alt") --Quagmirran's Eye
     LBIS:AddItem(spec3, "29370", LBIS.L["Trinket"], "Alt") --Icon of the Silver Crescent
     LBIS:AddItem(spec3, "29132", LBIS.L["Trinket"], "Alt") --Scryer's Bloodgem
-    LBIS:AddItem(spec3, "38290", LBIS.L["Trinket"], "Alt") --Dark Iron Smoking Pipe
+    LBIS:AddItem(spec3, "30626", LBIS.L["Trinket"], "Alt") --Sextant of Unstable Currents
     LBIS:AddItem(spec3, "19379", LBIS.L["Trinket"], "Alt") --Neltharion's Tear
     LBIS:AddItem(spec3, "28789", LBIS.L["Trinket"], "Alt") --Eye of Magtheridon
     LBIS:AddItem(spec3, "23046", LBIS.L["Trinket"], "Alt") --The Restrained Essence of Sapphiron

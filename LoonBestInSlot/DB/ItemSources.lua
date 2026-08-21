@@ -3349,6 +3349,7 @@ LBIS.ItemSources =
     [33737] = { Name = "Vengeful Gladiator's Right Ripper", SourceType = LBIS.L["PvP"], Source = LBIS.L["Arena Vendor"], SourceNumber = "?", SourceLocation = LBIS.L["Arena Vendor"], SourceFaction = "B" },
     [33743] = { Name = "Vengeful Gladiator's Salvation", SourceType = LBIS.L["PvP"], Source = LBIS.L["Arena Vendor"], SourceNumber = "?", SourceLocation = LBIS.L["Arena Vendor"], SourceFaction = "B" },
     [33749] = { Name = "Vengeful Gladiator's Scaled Chestpiece", SourceType = LBIS.L["PvP"], Source = LBIS.L["Arena Vendor"], SourceNumber = "?", SourceLocation = LBIS.L["Arena Vendor"], SourceFaction = "B" },
+    [33750] = { Name = "Vengeful Gladiator's Scaled Gauntlets", SourceType = LBIS.L["PvP"], Source = LBIS.L["Arena Vendor"], SourceNumber = "0", SourceLocation = LBIS.L["Arena Vendor"], SourceFaction = "B" },
     [33754] = { Name = "Vengeful Gladiator's Shanker", SourceType = LBIS.L["PvP"], Source = LBIS.L["Arena Vendor"], SourceNumber = "?", SourceLocation = LBIS.L["Arena Vendor"], SourceFaction = "B" },
     [33755] = { Name = "Vengeful Gladiator's Shield Wall", SourceType = LBIS.L["PvP"], Source = LBIS.L["Arena Vendor"], SourceNumber = "?", SourceLocation = LBIS.L["Arena Vendor"], SourceFaction = "B" },
     [33756] = { Name = "Vengeful Gladiator's Shiv", SourceType = LBIS.L["PvP"], Source = LBIS.L["Arena Vendor"], SourceNumber = "?", SourceLocation = LBIS.L["Arena Vendor"], SourceFaction = "B" },

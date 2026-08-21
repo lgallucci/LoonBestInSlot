@@ -323,9 +323,9 @@ function LBIS:LoadDruidCat()
     LBIS:AddItem(spec3, "32505", LBIS.L["Trinket"], "BIS") --Madness of the Betrayer
     LBIS:AddItem(spec3, "23206", LBIS.L["Trinket"], "BIS") --Mark of the Champion
     LBIS:AddItem(spec3, "29383", LBIS.L["Trinket"], "BIS") --Bloodlust Brooch
-    LBIS:AddItem(spec3, "38287", LBIS.L["Trinket"], "BIS") --Empty Mug of Direbrew
-    LBIS:AddItem(spec3, "28830", LBIS.L["Trinket"], "BIS") --Dragonspine Trophy
+    LBIS:AddItem(spec3, "28830", LBIS.L["Trinket"], "Alt") --Dragonspine Trophy
     LBIS:AddItem(spec3, "28121", LBIS.L["Trinket"], "Alt") --Icon of Unyielding Courage
+    LBIS:AddItem(spec3, "38287", LBIS.L["Trinket"], "Alt") --Empty Mug of Direbrew
     LBIS:AddItem(spec3, "19406", LBIS.L["Trinket"], "Alt") --Drake Fang Talisman
     LBIS:AddItem(spec3, "28034", LBIS.L["Trinket"], "Alt") --Hourglass of the Unraveller
     LBIS:AddItem(spec3, "32658", LBIS.L["Trinket"], "Alt") --Badge of Tenacity

@@ -275,8 +275,8 @@ function LBIS:LoadWarlockAffliction()
     LBIS:AddItem(spec3, "28797", LBIS.L["Back"], "Alt") --Brute Cloak of the Ogre-Magi
     LBIS:AddItem(spec3, "28766", LBIS.L["Back"], "Alt") --Ruby Drape of the Mysticant
     LBIS:AddItem(spec3, "30107", LBIS.L["Chest"], "BIS") --Vestments of the Sea-Witch
-    LBIS:AddItem(spec3, "31052", LBIS.L["Chest"], "BIS") --Robe of the Malefic
     LBIS:AddItem(spec3, "32327", LBIS.L["Chest"], "Alt") --Robe of the Shadow Council
+    LBIS:AddItem(spec3, "31052", LBIS.L["Chest"], "Alt") --Robe of the Malefic
     LBIS:AddItem(spec3, "30913", LBIS.L["Chest"], "Alt") --Robes of Rhonin
     LBIS:AddItem(spec3, "30214", LBIS.L["Chest"], "Alt") --Robe of the Corruptor
     LBIS:AddItem(spec3, "32586", LBIS.L["Wrist"], "BIS") --Bracers of Nimble Thought
@@ -320,17 +320,17 @@ function LBIS:LoadWarlockAffliction()
     LBIS:AddItem(spec3, "27683", LBIS.L["Trinket"], "BIS") --Quagmirran's Eye
     LBIS:AddItem(spec3, "29370", LBIS.L["Trinket"], "BIS") --Icon of the Silver Crescent
     LBIS:AddItem(spec3, "38290", LBIS.L["Trinket"], "BIS") --Dark Iron Smoking Pipe
+    LBIS:AddItem(spec3, "23207", LBIS.L["Trinket"], "BIS") --Mark of the Champion
     LBIS:AddItem(spec3, "31856", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Crusade
     LBIS:AddItem(spec3, "30626", LBIS.L["Trinket"], "Alt") --Sextant of Unstable Currents
-    LBIS:AddItem(spec3, "23207", LBIS.L["Trinket"], "Alt") --Mark of the Champion
     LBIS:AddItem(spec3, "30910", LBIS.L["Main Hand"], "BIS") --Tempest of Chaos
     LBIS:AddItem(spec3, "30095", LBIS.L["Main Hand"], "Alt") --Fang of the Leviathan
     LBIS:AddItem(spec3, "33763", LBIS.L["Main Hand"], "Alt") --Vengeful Gladiator's Spellblade
     LBIS:AddItem(spec3, "30723", LBIS.L["Main Hand"], "Alt") --Talon of the Tempest
     LBIS:AddItem(spec3, "32237", LBIS.L["Main Hand"], "Alt") --The Maelstrom's Fury
     LBIS:AddItem(spec3, "28802", LBIS.L["Main Hand"], "Alt") --Bloodmaw Magus-Blade
-    LBIS:AddItem(spec3, "28770", LBIS.L["Main Hand"], "Alt") --Nathrezim Mindblade
     LBIS:AddItem(spec3, "32053", LBIS.L["Main Hand"], "Alt") --Merciless Gladiator's Spellblade
+    LBIS:AddItem(spec3, "28770", LBIS.L["Main Hand"], "Alt") --Nathrezim Mindblade
     LBIS:AddItem(spec3, "30872", LBIS.L["Off Hand"], "BIS") --Chronicle of Dark Secrets
     LBIS:AddItem(spec3, "29272", LBIS.L["Off Hand"], "Alt") --Orb of the Soul-Eater
     LBIS:AddItem(spec3, "32361", LBIS.L["Off Hand"], "Alt") --Blind-Seers Icon

@@ -379,13 +379,13 @@ function LBIS:LoadDruidBear()
     LBIS:AddItem(spec3, "32497", LBIS.L["Ring"], "Alt Thrt") --Stormrage Signet Ring
     LBIS:AddItem(spec3, "33054", LBIS.L["Ring"], "Alt") --The Seal of Danzalar
     LBIS:AddItem(spec3, "29384", LBIS.L["Ring"], "Alt") --Ring of Unyielding Force
-    LBIS:AddItem(spec3, "32505", LBIS.L["Trinket"], "BIS Thrt") --Madness of the Betrayer
+    LBIS:AddItem(spec3, "38287", LBIS.L["Trinket"], "BIS Thrt") --Empty Mug of Direbrew
     LBIS:AddItem(spec3, "32501", LBIS.L["Trinket"], "BIS Mit") --Shadowmoon Insignia
     LBIS:AddItem(spec3, "34578", LBIS.L["Trinket"], "BIS Mit") --Battlemaster's Determination
-    LBIS:AddItem(spec3, "28830", LBIS.L["Trinket"], "BIS Thrt") --Dragonspine Trophy
+    LBIS:AddItem(spec3, "32505", LBIS.L["Trinket"], "BIS Thrt") --Madness of the Betrayer
     LBIS:AddItem(spec3, "29383", LBIS.L["Trinket"], "BIS Thrt") --Bloodlust Brooch
+    LBIS:AddItem(spec3, "28830", LBIS.L["Trinket"], "BIS Thrt") --Dragonspine Trophy
     LBIS:AddItem(spec3, "32658", LBIS.L["Trinket"], "BIS") --Badge of Tenacity
-    LBIS:AddItem(spec3, "38287", LBIS.L["Trinket"], "BIS Thrt") --Empty Mug of Direbrew
     LBIS:AddItem(spec3, "30627", LBIS.L["Trinket"], "BIS") --Tsunami Talisman
     LBIS:AddItem(spec3, "34576", LBIS.L["Trinket"], "Alt") --Battlemaster's Cruelty
     LBIS:AddItem(spec3, "31858", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Vengeance

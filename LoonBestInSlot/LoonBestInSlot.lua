@@ -20,7 +20,7 @@ SlashCmdList["LOONBESTINSLOT"] = function(command)
 	command = command:lower()
 
 	if command == "" then
-		LBIS.BrowserWindow:OpenWindow()
+		LBIS.BrowserWindow:ToggleWindow()
 	elseif command == "edit" then
 		LBIS.BrowserWindow:OpenWindow("CustomEditList")
 	elseif command == "custom" then

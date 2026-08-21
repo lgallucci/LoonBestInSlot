@@ -536,30 +536,33 @@ function LBIS:LoadPaladinProtection()
     LBIS:AddItem(spec3, "33921", LBIS.L["Neck"], "BIS Thrt") --Vindicator's Pendant of Dominance
     LBIS:AddItem(spec3, "30083", LBIS.L["Ring"], "BIS Mit") --Ring of Sundered Souls
     LBIS:AddItem(spec3, "29172", LBIS.L["Ring"], "BIS Thrt") --Ashyen's Gift
-    LBIS:AddItem(spec3, "28555", LBIS.L["Ring"], "Alt Thrt") --Seal of the Exorcist
     LBIS:AddItem(spec3, "29279", LBIS.L["Ring"], "Alt Mit") --Violet Signet of the Great Protector
-    LBIS:AddItem(spec3, "29305", LBIS.L["Ring"], "Alt Thrt") --Band of the Eternal Sage
+    LBIS:AddItem(spec3, "28555", LBIS.L["Ring"], "Alt Thrt") --Seal of the Exorcist
     LBIS:AddItem(spec3, "30028", LBIS.L["Ring"], "Alt Mit") --Seventh Ring of the Tirisfalen
+    LBIS:AddItem(spec3, "29305", LBIS.L["Ring"], "Alt Thrt") --Band of the Eternal Sage
     LBIS:AddItem(spec3, "32261", LBIS.L["Ring"], "Alt Mit") --Band of the Abyssal Lord
     LBIS:AddItem(spec3, "29297", LBIS.L["Ring"], "Alt Mit") --Band of the Eternal Defender
     LBIS:AddItem(spec3, "33054", LBIS.L["Ring"], "Alt Thrt") --The Seal of Danzalar
     LBIS:AddItem(spec3, "28793", LBIS.L["Ring"], "Alt Thrt") --Band of Crimson Fury
     LBIS:AddItem(spec3, "31858", LBIS.L["Trinket"], "BIS Stam") --Darkmoon Card: Vengeance
     LBIS:AddItem(spec3, "32501", LBIS.L["Trinket"], "BIS") --Shadowmoon Insignia
-    LBIS:AddItem(spec3, "29370", LBIS.L["Trinket"], "Alt") --Icon of the Silver Crescent
+    LBIS:AddItem(spec3, "29370", LBIS.L["Trinket"], "BIS") --Icon of the Silver Crescent
+    LBIS:AddItem(spec3, "38290", LBIS.L["Trinket"], "BIS") --Dark Iron Smoking Pipe
+    LBIS:AddItem(spec3, "23207", LBIS.L["Trinket"], "BIS") --Mark of the Champion
+    LBIS:AddItem(spec3, "28789", LBIS.L["Trinket"], "BIS") --Eye of Magtheridon
+    LBIS:AddItem(spec3, "30447", LBIS.L["Trinket"], "BIS") --Tome of Fiery Redemption
     LBIS:AddItem(spec3, "31859", LBIS.L["Trinket"], "Alt Stam") --Darkmoon Card: Madness
     LBIS:AddItem(spec3, "28528", LBIS.L["Trinket"], "Alt") --Moroes' Lucky Pocket Watch
-    LBIS:AddItem(spec3, "23207", LBIS.L["Trinket"], "Alt") --Mark of the Champion
     LBIS:AddItem(spec3, "30629", LBIS.L["Trinket"], "Alt") --Scarab of Displacement
-    LBIS:AddItem(spec3, "23836", LBIS.L["Trinket"], "Alt") --Goblin Rocket Launcher
-    LBIS:AddItem(spec3, "34579", LBIS.L["Trinket"], "Alt") --Battlemaster's Audacity
-    LBIS:AddItem(spec3, "23835", LBIS.L["Trinket"], "Alt") --Gnomish Poultryizer
+    LBIS:AddItem(spec3, "37127", LBIS.L["Trinket"], "Alt") --Brightbrew Charm
     LBIS:AddItem(spec3, "24125", LBIS.L["Trinket"], "Alt") --Figurine - Dawnstone Crab
-    LBIS:AddItem(spec3, "28789", LBIS.L["Trinket"], "Alt") --Eye of Magtheridon
+    LBIS:AddItem(spec3, "37128", LBIS.L["Trinket"], "Alt") --Balebrew Charm
+    LBIS:AddItem(spec3, "23836", LBIS.L["Trinket"], "Alt") --Goblin Rocket Launcher
     LBIS:AddItem(spec3, "29387", LBIS.L["Trinket"], "Alt") --Gnomeregan Auto-Blocker 600
-    LBIS:AddItem(spec3, "32864", LBIS.L["Trinket"], "Alt") --Commander's Badge
-    LBIS:AddItem(spec3, "30447", LBIS.L["Trinket"], "Alt") --Tome of Fiery Redemption
+    LBIS:AddItem(spec3, "23835", LBIS.L["Trinket"], "Alt") --Gnomish Poultryizer
+    LBIS:AddItem(spec3, "34579", LBIS.L["Trinket"], "Alt") --Battlemaster's Audacity
     LBIS:AddItem(spec3, "32534", LBIS.L["Trinket"], "Alt") --Brooch of the Immortal King
+    LBIS:AddItem(spec3, "32864", LBIS.L["Trinket"], "Alt") --Commander's Badge
     LBIS:AddItem(spec3, "32489", LBIS.L["Trinket"], "Alt") --Ashtongue Talisman of Zeal
     LBIS:AddItem(spec3, "30910", LBIS.L["Main Hand"], "BIS") --Tempest of Chaos
     LBIS:AddItem(spec3, "33687", LBIS.L["Main Hand"], "BIS") --Vengeful Gladiator's Gavel
