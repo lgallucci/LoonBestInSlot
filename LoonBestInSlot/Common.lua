@@ -1,6 +1,6 @@
 LBIS.ReCacheDate = time({year=2025, month=11, day=20, hour=00})
 LBIS.SpellCache = {};
-LBIS.CurrentPhase = 2;
+LBIS.CurrentPhase = 3;
 
 function LBIS:LoadGuides()
     LBIS:LoadDruidBalance()
