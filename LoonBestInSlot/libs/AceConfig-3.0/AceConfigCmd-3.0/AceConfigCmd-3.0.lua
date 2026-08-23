@@ -629,6 +629,7 @@ local function handle(info, inputpos, tab, depth, retfalse)
 		------------ color --------------------------------------------
 		local str = strtrim(strlower(strInput))
 		if str == "" then
+			--TODO: Show current value
 			return
 		end
 
@@ -700,6 +701,7 @@ local function handle(info, inputpos, tab, depth, retfalse)
 		------------ keybinding --------------------------------------------
 		local str = strtrim(strlower(strInput))
 		if str == "" then
+			--TODO: Show current value
 			return
 		end
 		local value = keybindingValidateFunc(str:upper())

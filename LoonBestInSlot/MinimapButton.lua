@@ -19,7 +19,7 @@ function LBIS:RegisterMiniMap()
                 elseif button == "RightButton" then
 		            -- InterfaceOptionsFrame_Show()
 		            -- InterfaceOptionsFrame_OpenToCategory("Loon Best In Slot")
-                    Settings.OpenToCategory("Loon Best In Slot")
+                    Settings.OpenToCategory(LBIS.SettingsCategoryId)
                 end
 
             end,
