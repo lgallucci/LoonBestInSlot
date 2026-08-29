@@ -1,10 +1,10 @@
 function LBIS:LoadPaladinRetribution()
-    local spec0 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Retribution"], "0")
-    local spec1 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Retribution"], "1")
-    local spec2 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Retribution"], "2")
-    local spec3 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Retribution"], "3")
-    local spec4 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Retribution"], "4")
-    local spec5 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Retribution"], "5")
+    local spec0 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Retribution"], "0", "https://www.wowhead.com/tbc/guide/classes/paladin/retribution/dps-talent-builds-pve")
+    local spec1 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Retribution"], "1", "https://www.wowhead.com/tbc/guide/classes/paladin/retribution/dps-talent-builds-pve")
+    local spec2 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Retribution"], "2", "https://www.wowhead.com/tbc/guide/classes/paladin/retribution/dps-talent-builds-pve")
+    local spec3 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Retribution"], "3", "https://www.wowhead.com/tbc/guide/classes/paladin/retribution/dps-talent-builds-pve")
+    local spec4 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Retribution"], "4", "https://www.wowhead.com/tbc/guide/classes/paladin/retribution/dps-talent-builds-pve")
+    local spec5 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Retribution"], "5", "https://www.wowhead.com/tbc/guide/classes/paladin/retribution/dps-talent-builds-pve")
 
     LBIS:AddGem(spec0, "32409", "3", "True") --Relentless Earthstorm Diamond
     LBIS:AddGem(spec0, "24054", "3", "False") --Sovereign Nightseye

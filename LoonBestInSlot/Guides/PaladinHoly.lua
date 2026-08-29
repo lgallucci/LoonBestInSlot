@@ -1,10 +1,10 @@
 function LBIS:LoadPaladinHoly()
-    local spec0 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Holy"], "0")
-    local spec1 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Holy"], "1")
-    local spec2 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Holy"], "2")
-    local spec3 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Holy"], "3")
-    local spec4 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Holy"], "4")
-    local spec5 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Holy"], "5")
+    local spec0 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Holy"], "0", "https://www.wowhead.com/tbc/guide/classes/paladin/holy/healer-talent-builds-pve")
+    local spec1 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Holy"], "1", "https://www.wowhead.com/tbc/guide/classes/paladin/holy/healer-talent-builds-pve")
+    local spec2 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Holy"], "2", "https://www.wowhead.com/tbc/guide/classes/paladin/holy/healer-talent-builds-pve")
+    local spec3 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Holy"], "3", "https://www.wowhead.com/tbc/guide/classes/paladin/holy/healer-talent-builds-pve")
+    local spec4 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Holy"], "4", "https://www.wowhead.com/tbc/guide/classes/paladin/holy/healer-talent-builds-pve")
+    local spec5 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Holy"], "5", "https://www.wowhead.com/tbc/guide/classes/paladin/holy/healer-talent-builds-pve")
 
     LBIS:AddGem(spec0, "25897", "3", "True") --Bracing Earthstorm Diamond
     LBIS:AddGem(spec0, "24029", "3", "False") --Teardrop Living Ruby

@@ -1,5 +1,8 @@
 local addonName = ...;
 
+LBIS.WowheadLink = "https://www.wowhead.com/tbc";
+LBIS.WowheadClassGuideLink = "https://www.wowhead.com/tbc/guide/classes/druid/balance/dps-overview-pve";
+
 LBIS.ClassSpec = {};
 LBIS.NameToSpecId = {};
 LBIS.ItemsByIdAndSpec = {};
@@ -74,14 +77,15 @@ function LBIS:RegisterEvent(...)
 	end
 end
 
-function LBIS:RegisterSpec(class, spec, phase)
+function LBIS:RegisterSpec(class, spec, phase, uri)
 
 	if not spec then spec = "" end
 
     local classSpec = {
 		Class = class,
 		Spec = spec,
-		Phase = phase
+		Phase = phase,
+		Uri = uri
 	}
 
 	classSpec.Id = spec..class

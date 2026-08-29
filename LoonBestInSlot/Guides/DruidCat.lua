@@ -1,10 +1,10 @@
 function LBIS:LoadDruidCat()
-    local spec0 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Cat"], "0")
-    local spec1 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Cat"], "1")
-    local spec2 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Cat"], "2")
-    local spec3 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Cat"], "3")
-    local spec4 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Cat"], "4")
-    local spec5 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Cat"], "5")
+    local spec0 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Cat"], "0", "https://www.wowhead.com/tbc/guide/classes/druid/feral/dps-talent-builds-pve")
+    local spec1 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Cat"], "1", "https://www.wowhead.com/tbc/guide/classes/druid/feral/dps-talent-builds-pve")
+    local spec2 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Cat"], "2", "https://www.wowhead.com/tbc/guide/classes/druid/feral/dps-talent-builds-pve")
+    local spec3 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Cat"], "3", "https://www.wowhead.com/tbc/guide/classes/druid/feral/dps-talent-builds-pve")
+    local spec4 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Cat"], "4", "https://www.wowhead.com/tbc/guide/classes/druid/feral/dps-talent-builds-pve")
+    local spec5 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Cat"], "5", "https://www.wowhead.com/tbc/guide/classes/druid/feral/dps-talent-builds-pve")
 
     LBIS:AddGem(spec0, "23097", "2", "False") --Delicate Blood Garnet
     LBIS:AddGem(spec0, "23100", "2", "False") --Glinting Flame Spessarite

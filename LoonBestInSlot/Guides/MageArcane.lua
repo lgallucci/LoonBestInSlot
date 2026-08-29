@@ -1,10 +1,10 @@
 function LBIS:LoadMageArcane()
-    local spec0 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Arcane"], "0")
-    local spec1 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Arcane"], "1")
-    local spec2 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Arcane"], "2")
-    local spec3 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Arcane"], "3")
-    local spec4 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Arcane"], "4")
-    local spec5 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Arcane"], "5")
+    local spec0 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Arcane"], "0", "https://www.wowhead.com/tbc/guide/classes/mage/dps-talent-builds-pve")
+    local spec1 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Arcane"], "1", "https://www.wowhead.com/tbc/guide/classes/mage/dps-talent-builds-pve")
+    local spec2 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Arcane"], "2", "https://www.wowhead.com/tbc/guide/classes/mage/dps-talent-builds-pve")
+    local spec3 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Arcane"], "3", "https://www.wowhead.com/tbc/guide/classes/mage/dps-talent-builds-pve")
+    local spec4 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Arcane"], "4", "https://www.wowhead.com/tbc/guide/classes/mage/dps-talent-builds-pve")
+    local spec5 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Arcane"], "5", "https://www.wowhead.com/tbc/guide/classes/mage/dps-talent-builds-pve")
 
     LBIS:AddGem(spec0, "24047", "3", "False") --Brilliant Dawnstone
     LBIS:AddGem(spec1, "24030", "3", "False") --Runed Living Ruby

@@ -1,10 +1,10 @@
 function LBIS:LoadHunterSurvival()
-    local spec0 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Survival"], "0")
-    local spec1 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Survival"], "1")
-    local spec2 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Survival"], "2")
-    local spec3 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Survival"], "3")
-    local spec4 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Survival"], "4")
-    local spec5 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Survival"], "5")
+    local spec0 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Survival"], "0", "https://www.wowhead.com/tbc/guide/classes/hunter/dps-talent-builds-pve")
+    local spec1 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Survival"], "1", "https://www.wowhead.com/tbc/guide/classes/hunter/dps-talent-builds-pve")
+    local spec2 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Survival"], "2", "https://www.wowhead.com/tbc/guide/classes/hunter/dps-talent-builds-pve")
+    local spec3 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Survival"], "3", "https://www.wowhead.com/tbc/guide/classes/hunter/dps-talent-builds-pve")
+    local spec4 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Survival"], "4", "https://www.wowhead.com/tbc/guide/classes/hunter/dps-talent-builds-pve")
+    local spec5 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Survival"], "5", "https://www.wowhead.com/tbc/guide/classes/hunter/dps-talent-builds-pve")
 
     LBIS:AddGem(spec0, "32409", "3", "True") --Relentless Earthstorm Diamond
     LBIS:AddGem(spec0, "30550", "4", "False") --Sundered Chrysoprase

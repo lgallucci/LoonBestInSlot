@@ -1,10 +1,10 @@
 function LBIS:LoadRogueDps()
-    local spec0 = LBIS:RegisterSpec(LBIS.L["Rogue"], LBIS.L["Dps"], "0")
-    local spec1 = LBIS:RegisterSpec(LBIS.L["Rogue"], LBIS.L["Dps"], "1")
-    local spec2 = LBIS:RegisterSpec(LBIS.L["Rogue"], LBIS.L["Dps"], "2")
-    local spec3 = LBIS:RegisterSpec(LBIS.L["Rogue"], LBIS.L["Dps"], "3")
-    local spec4 = LBIS:RegisterSpec(LBIS.L["Rogue"], LBIS.L["Dps"], "4")
-    local spec5 = LBIS:RegisterSpec(LBIS.L["Rogue"], LBIS.L["Dps"], "5")
+    local spec0 = LBIS:RegisterSpec(LBIS.L["Rogue"], LBIS.L["Dps"], "0", "https://www.wowhead.com/tbc/guide/classes/rogue/dps-talent-builds-pve")
+    local spec1 = LBIS:RegisterSpec(LBIS.L["Rogue"], LBIS.L["Dps"], "1", "https://www.wowhead.com/tbc/guide/classes/rogue/dps-talent-builds-pve")
+    local spec2 = LBIS:RegisterSpec(LBIS.L["Rogue"], LBIS.L["Dps"], "2", "https://www.wowhead.com/tbc/guide/classes/rogue/dps-talent-builds-pve")
+    local spec3 = LBIS:RegisterSpec(LBIS.L["Rogue"], LBIS.L["Dps"], "3", "https://www.wowhead.com/tbc/guide/classes/rogue/dps-talent-builds-pve")
+    local spec4 = LBIS:RegisterSpec(LBIS.L["Rogue"], LBIS.L["Dps"], "4", "https://www.wowhead.com/tbc/guide/classes/rogue/dps-talent-builds-pve")
+    local spec5 = LBIS:RegisterSpec(LBIS.L["Rogue"], LBIS.L["Dps"], "5", "https://www.wowhead.com/tbc/guide/classes/rogue/dps-talent-builds-pve")
 
     LBIS:AddGem(spec0, "32409", "3", "True") --Relentless Earthstorm Diamond
     LBIS:AddGem(spec0, "24055", "3", "False") --Shifting Nightseye

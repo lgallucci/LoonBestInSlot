@@ -1,10 +1,10 @@
 function LBIS:LoadShamanRestoration()
-    local spec0 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Restoration"], "0")
-    local spec1 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Restoration"], "1")
-    local spec2 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Restoration"], "2")
-    local spec3 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Restoration"], "3")
-    local spec4 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Restoration"], "4")
-    local spec5 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Restoration"], "5")
+    local spec0 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Restoration"], "0", "https://www.wowhead.com/tbc/guide/classes/shaman/healer-talent-builds-pve")
+    local spec1 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Restoration"], "1", "https://www.wowhead.com/tbc/guide/classes/shaman/healer-talent-builds-pve")
+    local spec2 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Restoration"], "2", "https://www.wowhead.com/tbc/guide/classes/shaman/healer-talent-builds-pve")
+    local spec3 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Restoration"], "3", "https://www.wowhead.com/tbc/guide/classes/shaman/healer-talent-builds-pve")
+    local spec4 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Restoration"], "4", "https://www.wowhead.com/tbc/guide/classes/shaman/healer-talent-builds-pve")
+    local spec5 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Restoration"], "5", "https://www.wowhead.com/tbc/guide/classes/shaman/healer-talent-builds-pve")
 
     LBIS:AddGem(spec0, "25901", "3", "True") --Insightful Earthstorm Diamond
     LBIS:AddGem(spec0, "24057", "3", "False") --Royal Nightseye

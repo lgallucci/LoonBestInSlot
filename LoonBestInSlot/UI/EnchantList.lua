@@ -136,7 +136,10 @@ function LBIS.EnchantList:UpdateItems()
 
     LBIS.BrowserWindow:UpdateItemsForSpec(function(point)
 
-        local specEnchants = LBIS.EnchantsBySpecAndId[LBIS.NameToSpecId[LBISSettings.SelectedSpec]];
+        local specId = LBIS.NameToSpecId[LBISSettings.SelectedSpec];
+        local specItems = LBIS.EnchantsBySpecAndId[specId];
+        local spec = LBIS.ClassSpec[specId];
+        LBIS.WowheadClassGuideLink = spec.Uri;
 
         if specEnchants == nil then
             LBIS.BrowserWindow.Window.ShowUnavailable();

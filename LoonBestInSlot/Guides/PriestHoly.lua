@@ -1,10 +1,10 @@
 function LBIS:LoadPriestHoly()
-    local spec0 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Holy"], "0")
-    local spec1 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Holy"], "1")
-    local spec2 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Holy"], "2")
-    local spec3 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Holy"], "3")
-    local spec4 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Holy"], "4")
-    local spec5 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Holy"], "5")
+    local spec0 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Holy"], "0", "https://www.wowhead.com/tbc/guide/classes/priest/healer-talent-builds-pve")
+    local spec1 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Holy"], "1", "https://www.wowhead.com/tbc/guide/classes/priest/healer-talent-builds-pve")
+    local spec2 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Holy"], "2", "https://www.wowhead.com/tbc/guide/classes/priest/healer-talent-builds-pve")
+    local spec3 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Holy"], "3", "https://www.wowhead.com/tbc/guide/classes/priest/healer-talent-builds-pve")
+    local spec4 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Holy"], "4", "https://www.wowhead.com/tbc/guide/classes/priest/healer-talent-builds-pve")
+    local spec5 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Holy"], "5", "https://www.wowhead.com/tbc/guide/classes/priest/healer-talent-builds-pve")
 
     LBIS:AddGem(spec0, "25901", "3", "True") --Insightful Earthstorm Diamond
     LBIS:AddGem(spec0, "32836", "3", "False") --Purified Shadow Pearl

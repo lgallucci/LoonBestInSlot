@@ -236,6 +236,85 @@ local function createTabs(window, content)
     PanelTemplates_SetTab(content, 1);
 end
 
+StaticPopupDialogs["MY_ADDON_COPY_LINK"] = {
+    text = "Press Ctrl+C to copy the link:",
+    button1 = "Close",
+    hasEditBox = true,
+    maxLetters = 255,
+    OnShow = function(self, data)    
+        self:SetWidth(640)        
+        self.EditBox:SetWidth(600) 
+        self.EditBox:ClearAllPoints()
+        self.EditBox:SetPoint("BOTTOM", self, "BOTTOM", 0, 45)
+    
+        self.EditBox:SetText(data)
+        self.EditBox:HighlightText()
+    end,
+    EditBoxOnEnterPressed = function(self)
+        self:GetParent():Hide()
+    end,
+    timeout = 0,
+    whileDead = true,
+    hideOnEscape = true,
+    preferredIndex = 3,
+}
+
+local function ShowCopyWindow(url)
+    StaticPopup_Show("MY_ADDON_COPY_LINK", nil, nil, url)
+end
+
+local function SetLinkButtonText(text)
+    local wowheadLinkButton = LBIS.BrowserWindow.WowheadFrame.GuideLinkButton;
+    local buttonText = LBIS.BrowserWindow.WowheadFrame.GuideLinkButton.ButtonText;
+
+    buttonText:SetText("|cff007fff"..text.."|r") -- Cyan/blue colored text
+    wowheadLinkButton:SetScript("OnEnter", function()
+    buttonText:SetText("|Hlink:fake|h|cff339fff" .. text .. "|r|h")
+    end)
+    wowheadLinkButton:SetScript("OnLeave", function()
+        buttonText:SetText("|cff007fff"..text.."|r")
+    end)
+    wowheadLinkButton:SetScript("OnClick", function(self, button)
+        ShowCopyWindow(LBIS.WowheadClassGuideLink);
+    end)
+end
+
+local function createWowheadFrame(window)
+    local wowheadFrame = CreateFrame("Frame", "WowheadFrame", window, "BackdropTemplate");
+    wowheadFrame:SetBackdropBorderColor(1, 1, 1)
+    wowheadFrame:SetBackdropColor(0.09, 0.09,  0.19);
+    wowheadFrame:SetPoint("TOPLEFT", window, "TOPLEFT", 5, -55);
+    wowheadFrame:SetPoint("BOTTOMRIGHT", window, "TOPRIGHT", -5, -70);
+
+    local wowheadImage = CreateFrame("Button", "WowheadLinkButton", wowheadFrame)
+    wowheadImage:SetPoint("TOPRIGHT", wowheadFrame, "TOPRIGHT", 0, 0)
+    wowheadImage:SetNormalTexture("Interface\\AddOns\\LoonBestInSlot\\Icons\\wowhead.tga");
+    wowheadImage:SetPushedTexture("Interface\\AddOns\\LoonBestInSlot\\Icons\\wowhead.tga");
+    wowheadImage:SetSize(90, 16);
+    wowheadImage:SetScript("OnClick", function(self)
+        ShowCopyWindow(LBIS.WowheadLink)
+    end);
+    local wowheadHeader = wowheadFrame:CreateFontString(nil, nil, "GameFontHighlightSmall2");
+    wowheadHeader:SetText(LBIS.L["Guides sourced from:"]);
+    wowheadHeader:SetPoint("TOPRIGHT", wowheadImage, "TOPLEFT", 0, -2);
+ 
+    local wowheadLinkButton = CreateFrame("Button", "WowheadGuideLinkButton", wowheadFrame)
+    wowheadLinkButton:SetPoint("LEFT", wowheadFrame, 0, 0)
+    wowheadLinkButton:SetSize(250, 20)
+
+    local buttonText = wowheadLinkButton:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall")
+    buttonText:SetAllPoints(wowheadLinkButton)
+    
+    wowheadLinkButton.ButtonText = buttonText;
+    wowheadFrame.GuideLinkButton = wowheadLinkButton;
+    
+    wowheadLinkButton.ButtonText = buttonText;
+    wowheadFrame.GuideLinkButton = wowheadLinkButton;
+
+    LBIS.BrowserWindow.WowheadFrame = wowheadFrame;
+    
+end
+
 local function createDropDowns(window)
     local getSpecList = function()
         local specList = {};
@@ -260,11 +339,13 @@ local function createDropDowns(window)
         ['defaultVal']=LBISSettings.SelectedSpec,
         ['changeFunc']=function(dropdown_frame, dropdown_val)
             LBISSettings.SelectedSpec = dropdown_val;
+    	    SetLinkButtonText("View "..dropdown_val.." Guide on Wowhead");
             LBIS.BrowserWindow:RefreshItems();
         end
     }
     window.SpecDropDown = LBIS:CreateDropdown(spec_opts, 140);
-    window.SpecDropDown:SetPoint("TOPLEFT", window, 15, -28);
+    window.SpecDropDown:SetPoint("TOPLEFT", window, 15, -28);        
+    SetLinkButtonText("View "..LBISSettings.SelectedSpec.." Guide on Wowhead");
 
     local slot_opts = {
         ['name']='slot',
@@ -465,10 +546,10 @@ function LBIS.BrowserWindow:CreateBrowserWindow()
     local topLine = window:CreateLine();
     topLine:SetColorTexture(1,1,1,0.5);
     topLine:SetThickness(2);
-    topLine:SetStartPoint("TOPLEFT",10, -59);
-    topLine:SetEndPoint("TOPRIGHT",-25, -59);
+    topLine:SetStartPoint("TOPLEFT",10, -74);
+    topLine:SetEndPoint("TOPRIGHT",-25, -74);
 
-    scrollframe:SetPoint("TOPLEFT", 10, -60);
+    scrollframe:SetPoint("TOPLEFT", 10, -75);
     scrollframe:SetPoint("BOTTOMRIGHT", -25, 10);
     
     scrollframe:EnableMouse(true);
@@ -491,6 +572,7 @@ function LBIS.BrowserWindow:CreateBrowserWindow()
     window:SetScript("OnDragStart", function(self) self:StartMoving() end);
     window:SetScript("OnDragStop", function(self) self:StopMovingOrSizing() end);
 
+    createWowheadFrame(window);
     createDropDowns(window);
     createTabs(window, content);
 

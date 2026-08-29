@@ -1,10 +1,10 @@
 function LBIS:LoadWarlockAffliction()
-    local spec0 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Affliction"], "0")
-    local spec1 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Affliction"], "1")
-    local spec2 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Affliction"], "2")
-    local spec3 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Affliction"], "3")
-    local spec4 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Affliction"], "4")
-    local spec5 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Affliction"], "5")
+    local spec0 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Affliction"], "0", "https://www.wowhead.com/tbc/guide/classes/warlock/dps-talent-builds-pve")
+    local spec1 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Affliction"], "1", "https://www.wowhead.com/tbc/guide/classes/warlock/dps-talent-builds-pve")
+    local spec2 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Affliction"], "2", "https://www.wowhead.com/tbc/guide/classes/warlock/dps-talent-builds-pve")
+    local spec3 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Affliction"], "3", "https://www.wowhead.com/tbc/guide/classes/warlock/dps-talent-builds-pve")
+    local spec4 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Affliction"], "4", "https://www.wowhead.com/tbc/guide/classes/warlock/dps-talent-builds-pve")
+    local spec5 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Affliction"], "5", "https://www.wowhead.com/tbc/guide/classes/warlock/dps-talent-builds-pve")
 
     LBIS:AddGem(spec0, "34220", "3", "True") --Chaotic Skyfire Diamond
     LBIS:AddGem(spec0, "24030", "3", "False") --Runed Living Ruby

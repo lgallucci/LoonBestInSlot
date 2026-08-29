@@ -1,10 +1,10 @@
 function LBIS:LoadHunterBeastMastery()
-    local spec0 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Beast Mastery"], "0")
-    local spec1 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Beast Mastery"], "1")
-    local spec2 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Beast Mastery"], "2")
-    local spec3 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Beast Mastery"], "3")
-    local spec4 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Beast Mastery"], "4")
-    local spec5 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Beast Mastery"], "5")
+    local spec0 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Beast Mastery"], "0", "https://www.wowhead.com/tbc/guide/classes/hunter/dps-talent-builds-pve")
+    local spec1 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Beast Mastery"], "1", "https://www.wowhead.com/tbc/guide/classes/hunter/dps-talent-builds-pve")
+    local spec2 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Beast Mastery"], "2", "https://www.wowhead.com/tbc/guide/classes/hunter/dps-talent-builds-pve")
+    local spec3 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Beast Mastery"], "3", "https://www.wowhead.com/tbc/guide/classes/hunter/dps-talent-builds-pve")
+    local spec4 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Beast Mastery"], "4", "https://www.wowhead.com/tbc/guide/classes/hunter/dps-talent-builds-pve")
+    local spec5 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Beast Mastery"], "5", "https://www.wowhead.com/tbc/guide/classes/hunter/dps-talent-builds-pve")
 
     LBIS:AddGem(spec0, "32409", "3", "True") --Relentless Earthstorm Diamond
     LBIS:AddGem(spec0, "30602", "4", "False") --Jagged Chrysoprase
