@@ -1,13 +1,13 @@
 local function LoadData()
-    local spec0 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["MeleeDps"], "0")
-    local spec1 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["MeleeDps"], "1")
-    local spec2 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["MeleeDps"], "2")
-    local spec3 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["MeleeDps"], "3")
-    local spec4 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["MeleeDps"], "4")
-    local spec5 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["MeleeDps"], "5")
-    local spec6 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["MeleeDps"], "6")
-    local spec7 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["MeleeDps"], "7")
-    local spec8 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["MeleeDps"], "8")
+    local spec0 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["MeleeDps"], "0", "https://www.wowhead.com/classic/guide/season-of-discovery/classes/hunter/melee-dps-overview")
+    local spec1 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["MeleeDps"], "1", "https://www.wowhead.com/classic/guide/season-of-discovery/classes/hunter/melee-dps-overview")
+    local spec2 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["MeleeDps"], "2", "https://www.wowhead.com/classic/guide/season-of-discovery/classes/hunter/melee-dps-overview")
+    local spec3 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["MeleeDps"], "3", "https://www.wowhead.com/classic/guide/season-of-discovery/classes/hunter/melee-dps-overview")
+    local spec4 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["MeleeDps"], "4", "https://www.wowhead.com/classic/guide/season-of-discovery/classes/hunter/melee-dps-overview")
+    local spec5 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["MeleeDps"], "5", "https://www.wowhead.com/classic/guide/season-of-discovery/classes/hunter/melee-dps-overview")
+    local spec6 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["MeleeDps"], "6", "https://www.wowhead.com/classic/guide/season-of-discovery/classes/hunter/melee-dps-overview")
+    local spec7 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["MeleeDps"], "7", "https://www.wowhead.com/classic/guide/season-of-discovery/classes/hunter/melee-dps-overview")
+    local spec8 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["MeleeDps"], "8", "https://www.wowhead.com/classic/guide/season-of-discovery/classes/hunter/melee-dps-overview")
 
     LBIS:AddEnchant(spec8, "24162", LBIS.L["Head"]) --
     LBIS:AddEnchant(spec8, "468383", LBIS.L["Head/Legs"]) --

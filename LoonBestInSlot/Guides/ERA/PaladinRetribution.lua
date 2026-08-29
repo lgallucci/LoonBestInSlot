@@ -1,13 +1,13 @@
 local function LoadData()
-    local spec0 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Retribution"], "0")
-    local spec1 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Retribution"], "1")
-    local spec2 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Retribution"], "2")
-    local spec3 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Retribution"], "3")
-    local spec4 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Retribution"], "4")
-    local spec5 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Retribution"], "5")
-    local spec6 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Retribution"], "6")
-    local spec7 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Retribution"], "7")
-    local spec8 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Retribution"], "8")
+    local spec0 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Retribution"], "0", "https://www.wowhead.com/classic/guide/classes/paladin/dps-overview-pve")
+    local spec1 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Retribution"], "1", "https://www.wowhead.com/classic/guide/classes/paladin/dps-overview-pve")
+    local spec2 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Retribution"], "2", "https://www.wowhead.com/classic/guide/classes/paladin/dps-overview-pve")
+    local spec3 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Retribution"], "3", "https://www.wowhead.com/classic/guide/classes/paladin/dps-overview-pve")
+    local spec4 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Retribution"], "4", "https://www.wowhead.com/classic/guide/classes/paladin/dps-overview-pve")
+    local spec5 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Retribution"], "5", "https://www.wowhead.com/classic/guide/classes/paladin/dps-overview-pve")
+    local spec6 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Retribution"], "6", "https://www.wowhead.com/classic/guide/classes/paladin/dps-overview-pve")
+    local spec7 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Retribution"], "7", "https://www.wowhead.com/classic/guide/classes/paladin/dps-overview-pve")
+    local spec8 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Retribution"], "8", "https://www.wowhead.com/classic/guide/classes/paladin/dps-overview-pve")
 
     LBIS:AddEnchant(spec6, "15397", LBIS.L["Head/Legs"]) --
     LBIS:AddEnchant(spec6, "29483", LBIS.L["Shoulder"]) --

@@ -1,13 +1,13 @@
 local function LoadData()
-    local spec0 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Shadow"], "0")
-    local spec1 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Shadow"], "1")
-    local spec2 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Shadow"], "2")
-    local spec3 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Shadow"], "3")
-    local spec4 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Shadow"], "4")
-    local spec5 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Shadow"], "5")
-    local spec6 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Shadow"], "6")
-    local spec7 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Shadow"], "7")
-    local spec8 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Shadow"], "8")
+    local spec0 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Shadow"], "0", "https://www.wowhead.com/classic/guide/classes/priest/shadow/dps-overview-pve")
+    local spec1 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Shadow"], "1", "https://www.wowhead.com/classic/guide/classes/priest/shadow/dps-overview-pve")
+    local spec2 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Shadow"], "2", "https://www.wowhead.com/classic/guide/classes/priest/shadow/dps-overview-pve")
+    local spec3 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Shadow"], "3", "https://www.wowhead.com/classic/guide/classes/priest/shadow/dps-overview-pve")
+    local spec4 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Shadow"], "4", "https://www.wowhead.com/classic/guide/classes/priest/shadow/dps-overview-pve")
+    local spec5 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Shadow"], "5", "https://www.wowhead.com/classic/guide/classes/priest/shadow/dps-overview-pve")
+    local spec6 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Shadow"], "6", "https://www.wowhead.com/classic/guide/classes/priest/shadow/dps-overview-pve")
+    local spec7 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Shadow"], "7", "https://www.wowhead.com/classic/guide/classes/priest/shadow/dps-overview-pve")
+    local spec8 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Shadow"], "8", "https://www.wowhead.com/classic/guide/classes/priest/shadow/dps-overview-pve")
 
     LBIS:AddEnchant(spec6, "22844", LBIS.L["Head/Legs"]) --
     LBIS:AddEnchant(spec6, "24421", LBIS.L["Shoulder"]) --

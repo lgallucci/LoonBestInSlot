@@ -1,13 +1,13 @@
 local function LoadData()
-    local spec0 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Tank"], "0")
-    local spec1 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Tank"], "1")
-    local spec2 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Tank"], "2")
-    local spec3 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Tank"], "3")
-    local spec4 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Tank"], "4")
-    local spec5 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Tank"], "5")
-    local spec6 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Tank"], "6")
-    local spec7 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Tank"], "7")
-    local spec8 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Tank"], "8")
+    local spec0 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Tank"], "0", "https://www.wowhead.com/classic/guide/season-of-discovery/classes/paladin/tank-overview")
+    local spec1 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Tank"], "1", "https://www.wowhead.com/classic/guide/season-of-discovery/classes/paladin/tank-overview")
+    local spec2 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Tank"], "2", "https://www.wowhead.com/classic/guide/season-of-discovery/classes/paladin/tank-overview")
+    local spec3 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Tank"], "3", "https://www.wowhead.com/classic/guide/season-of-discovery/classes/paladin/tank-overview")
+    local spec4 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Tank"], "4", "https://www.wowhead.com/classic/guide/season-of-discovery/classes/paladin/tank-overview")
+    local spec5 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Tank"], "5", "https://www.wowhead.com/classic/guide/season-of-discovery/classes/paladin/tank-overview")
+    local spec6 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Tank"], "6", "https://www.wowhead.com/classic/guide/season-of-discovery/classes/paladin/tank-overview")
+    local spec7 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Tank"], "7", "https://www.wowhead.com/classic/guide/season-of-discovery/classes/paladin/tank-overview")
+    local spec8 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Tank"], "8", "https://www.wowhead.com/classic/guide/season-of-discovery/classes/paladin/tank-overview")
 
     LBIS:AddEnchant(spec8, "468328", LBIS.L["Head/Legs"]) --
     LBIS:AddEnchant(spec8, "1219863", LBIS.L["Shoulder"]) --

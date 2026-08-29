@@ -1,13 +1,13 @@
 local function LoadData()
-    local spec0 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance Dps"], "0")
-    local spec1 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance Dps"], "1")
-    local spec2 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance Dps"], "2")
-    local spec3 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance Dps"], "3")
-    local spec4 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance Dps"], "4")
-    local spec5 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance Dps"], "5")
-    local spec6 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance Dps"], "6")
-    local spec7 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance Dps"], "7")
-    local spec8 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance Dps"], "8")
+    local spec0 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance Dps"], "0", "https://www.wowhead.com/classic/guide/season-of-discovery/classes/druid/balance/dps-overview")
+    local spec1 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance Dps"], "1", "https://www.wowhead.com/classic/guide/season-of-discovery/classes/druid/balance/dps-overview")
+    local spec2 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance Dps"], "2", "https://www.wowhead.com/classic/guide/season-of-discovery/classes/druid/balance/dps-overview")
+    local spec3 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance Dps"], "3", "https://www.wowhead.com/classic/guide/season-of-discovery/classes/druid/balance/dps-overview")
+    local spec4 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance Dps"], "4", "https://www.wowhead.com/classic/guide/season-of-discovery/classes/druid/balance/dps-overview")
+    local spec5 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance Dps"], "5", "https://www.wowhead.com/classic/guide/season-of-discovery/classes/druid/balance/dps-overview")
+    local spec6 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance Dps"], "6", "https://www.wowhead.com/classic/guide/season-of-discovery/classes/druid/balance/dps-overview")
+    local spec7 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance Dps"], "7", "https://www.wowhead.com/classic/guide/season-of-discovery/classes/druid/balance/dps-overview")
+    local spec8 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance Dps"], "8", "https://www.wowhead.com/classic/guide/season-of-discovery/classes/druid/balance/dps-overview")
 
     LBIS:AddEnchant(spec8, "468318", LBIS.L["Head/Legs"]) --
     LBIS:AddEnchant(spec8, "1219946", LBIS.L["Shoulder"]) --

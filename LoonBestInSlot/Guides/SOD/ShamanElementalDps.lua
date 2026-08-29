@@ -1,13 +1,13 @@
 local function LoadData()
-    local spec0 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Elemental Dps"], "0")
-    local spec1 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Elemental Dps"], "1")
-    local spec2 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Elemental Dps"], "2")
-    local spec3 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Elemental Dps"], "3")
-    local spec4 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Elemental Dps"], "4")
-    local spec5 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Elemental Dps"], "5")
-    local spec6 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Elemental Dps"], "6")
-    local spec7 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Elemental Dps"], "7")
-    local spec8 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Elemental Dps"], "8")
+    local spec0 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Elemental Dps"], "0", "https://www.wowhead.com/classic/guide/season-of-discovery/classes/shaman/elemental/dps-overview")
+    local spec1 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Elemental Dps"], "1", "https://www.wowhead.com/classic/guide/season-of-discovery/classes/shaman/elemental/dps-overview")
+    local spec2 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Elemental Dps"], "2", "https://www.wowhead.com/classic/guide/season-of-discovery/classes/shaman/elemental/dps-overview")
+    local spec3 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Elemental Dps"], "3", "https://www.wowhead.com/classic/guide/season-of-discovery/classes/shaman/elemental/dps-overview")
+    local spec4 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Elemental Dps"], "4", "https://www.wowhead.com/classic/guide/season-of-discovery/classes/shaman/elemental/dps-overview")
+    local spec5 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Elemental Dps"], "5", "https://www.wowhead.com/classic/guide/season-of-discovery/classes/shaman/elemental/dps-overview")
+    local spec6 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Elemental Dps"], "6", "https://www.wowhead.com/classic/guide/season-of-discovery/classes/shaman/elemental/dps-overview")
+    local spec7 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Elemental Dps"], "7", "https://www.wowhead.com/classic/guide/season-of-discovery/classes/shaman/elemental/dps-overview")
+    local spec8 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Elemental Dps"], "8", "https://www.wowhead.com/classic/guide/season-of-discovery/classes/shaman/elemental/dps-overview")
 
     LBIS:AddEnchant(spec8, "468354", LBIS.L["Head/Legs"]) --
     LBIS:AddEnchant(spec8, "468359", LBIS.L["Head/Legs"]) --

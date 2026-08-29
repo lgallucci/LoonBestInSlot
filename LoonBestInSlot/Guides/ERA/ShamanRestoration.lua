@@ -1,13 +1,13 @@
 local function LoadData()
-    local spec0 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Restoration"], "0")
-    local spec1 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Restoration"], "1")
-    local spec2 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Restoration"], "2")
-    local spec3 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Restoration"], "3")
-    local spec4 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Restoration"], "4")
-    local spec5 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Restoration"], "5")
-    local spec6 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Restoration"], "6")
-    local spec7 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Restoration"], "7")
-    local spec8 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Restoration"], "8")
+    local spec0 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Restoration"], "0", "https://www.wowhead.com/classic/guide/classes/shaman/healer-overview-pve")
+    local spec1 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Restoration"], "1", "https://www.wowhead.com/classic/guide/classes/shaman/healer-overview-pve")
+    local spec2 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Restoration"], "2", "https://www.wowhead.com/classic/guide/classes/shaman/healer-overview-pve")
+    local spec3 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Restoration"], "3", "https://www.wowhead.com/classic/guide/classes/shaman/healer-overview-pve")
+    local spec4 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Restoration"], "4", "https://www.wowhead.com/classic/guide/classes/shaman/healer-overview-pve")
+    local spec5 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Restoration"], "5", "https://www.wowhead.com/classic/guide/classes/shaman/healer-overview-pve")
+    local spec6 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Restoration"], "6", "https://www.wowhead.com/classic/guide/classes/shaman/healer-overview-pve")
+    local spec7 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Restoration"], "7", "https://www.wowhead.com/classic/guide/classes/shaman/healer-overview-pve")
+    local spec8 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Restoration"], "8", "https://www.wowhead.com/classic/guide/classes/shaman/healer-overview-pve")
 
     LBIS:AddEnchant(spec6, "24163", LBIS.L["Head/Legs"]) --
     LBIS:AddEnchant(spec6, "29475", LBIS.L["Shoulder"]) --

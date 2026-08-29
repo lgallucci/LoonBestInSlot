@@ -1,13 +1,13 @@
 local function LoadData()
-    local spec0 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Protection"], "0")
-    local spec1 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Protection"], "1")
-    local spec2 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Protection"], "2")
-    local spec3 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Protection"], "3")
-    local spec4 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Protection"], "4")
-    local spec5 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Protection"], "5")
-    local spec6 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Protection"], "6")
-    local spec7 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Protection"], "7")
-    local spec8 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Protection"], "8")
+    local spec0 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Protection"], "0", "https://www.wowhead.com/classic/guide/classes/warrior/tank-overview-pve")
+    local spec1 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Protection"], "1", "https://www.wowhead.com/classic/guide/classes/warrior/tank-overview-pve")
+    local spec2 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Protection"], "2", "https://www.wowhead.com/classic/guide/classes/warrior/tank-overview-pve")
+    local spec3 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Protection"], "3", "https://www.wowhead.com/classic/guide/classes/warrior/tank-overview-pve")
+    local spec4 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Protection"], "4", "https://www.wowhead.com/classic/guide/classes/warrior/tank-overview-pve")
+    local spec5 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Protection"], "5", "https://www.wowhead.com/classic/guide/classes/warrior/tank-overview-pve")
+    local spec6 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Protection"], "6", "https://www.wowhead.com/classic/guide/classes/warrior/tank-overview-pve")
+    local spec7 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Protection"], "7", "https://www.wowhead.com/classic/guide/classes/warrior/tank-overview-pve")
+    local spec8 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Protection"], "8", "https://www.wowhead.com/classic/guide/classes/warrior/tank-overview-pve")
 
     LBIS:AddEnchant(spec6, "24149", LBIS.L["Head/Legs"]) --
     LBIS:AddEnchant(spec6, "29480", LBIS.L["Shoulder"]) --

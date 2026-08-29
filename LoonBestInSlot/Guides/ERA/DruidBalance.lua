@@ -1,13 +1,14 @@
 local function LoadData()
-    local spec0 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance"], "0")
-    local spec1 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance"], "1")
-    local spec2 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance"], "2")
-    local spec3 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance"], "3")
-    local spec4 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance"], "4")
-    local spec5 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance"], "5")
-    local spec6 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance"], "6")
-    local spec7 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance"], "7")
-    local spec8 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance"], "8")
+    local spec0 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance"], "0", "https://www.wowhead.com/classic/guide/classes/druid/balance/dps-overview-pve")
+    local spec1 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance"], "1", "https://www.wowhead.com/classic/guide/classes/druid/balance/dps-overview-pve")
+    local spec2 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance"], "2", "https://www.wowhead.com/classic/guide/classes/druid/balance/dps-overview-pve")
+    local spec3 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance"], "3", "https://www.wowhead.com/classic/guide/classes/druid/balance/dps-overview-pve")
+    local spec4 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance"], "4", "https://www.wowhead.com/classic/guide/classes/druid/balance/dps-overview-pve")
+    local spec5 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance"], "5", "https://www.wowhead.com/classic/guide/classes/druid/balance/dps-overview-pve")
+    local spec6 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance"], "6", "https://www.wowhead.com/classic/guide/classes/druid/balance/dps-overview-pve")
+    local spec7 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance"], "7", "https://www.wowhead.com/classic/guide/classes/druid/balance/dps-overview-pve")
+    local spec8 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance"], "8", "https://www.wowhead.com/classic/guide/classes/druid/balance/dps-overview-pve")
+
 
     LBIS:AddEnchant(spec6, "22844", LBIS.L["Head/Legs"]) --
     LBIS:AddEnchant(spec6, "29467", LBIS.L["Shoulder"]) --

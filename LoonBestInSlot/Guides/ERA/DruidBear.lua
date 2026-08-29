@@ -1,13 +1,13 @@
 local function LoadData()
-    local spec0 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Bear"], "0")
-    local spec1 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Bear"], "1")
-    local spec2 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Bear"], "2")
-    local spec3 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Bear"], "3")
-    local spec4 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Bear"], "4")
-    local spec5 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Bear"], "5")
-    local spec6 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Bear"], "6")
-    local spec7 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Bear"], "7")
-    local spec8 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Bear"], "8")
+    local spec0 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Bear"], "0", "https://www.wowhead.com/classic/guide/classes/druid/feral/tank-overview-pve")
+    local spec1 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Bear"], "1", "https://www.wowhead.com/classic/guide/classes/druid/feral/tank-overview-pve")
+    local spec2 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Bear"], "2", "https://www.wowhead.com/classic/guide/classes/druid/feral/tank-overview-pve")
+    local spec3 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Bear"], "3", "https://www.wowhead.com/classic/guide/classes/druid/feral/tank-overview-pve")
+    local spec4 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Bear"], "4", "https://www.wowhead.com/classic/guide/classes/druid/feral/tank-overview-pve")
+    local spec5 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Bear"], "5", "https://www.wowhead.com/classic/guide/classes/druid/feral/tank-overview-pve")
+    local spec6 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Bear"], "6", "https://www.wowhead.com/classic/guide/classes/druid/feral/tank-overview-pve")
+    local spec7 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Bear"], "7", "https://www.wowhead.com/classic/guide/classes/druid/feral/tank-overview-pve")
+    local spec8 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Bear"], "8", "https://www.wowhead.com/classic/guide/classes/druid/feral/tank-overview-pve")
 
     LBIS:AddEnchant(spec6, "15402", LBIS.L["Head/Legs"]) --
     LBIS:AddEnchant(spec6, "29480", LBIS.L["Shoulder"]) --

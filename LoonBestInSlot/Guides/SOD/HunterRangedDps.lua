@@ -1,13 +1,13 @@
 local function LoadData()
-    local spec0 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["RangedDps"], "0")
-    local spec1 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["RangedDps"], "1")
-    local spec2 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["RangedDps"], "2")
-    local spec3 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["RangedDps"], "3")
-    local spec4 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["RangedDps"], "4")
-    local spec5 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["RangedDps"], "5")
-    local spec6 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["RangedDps"], "6")
-    local spec7 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["RangedDps"], "7")
-    local spec8 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["RangedDps"], "8")
+    local spec0 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["RangedDps"], "0", "https://www.wowhead.com/classic/guide/season-of-discovery/classes/hunter/dps-overview")
+    local spec1 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["RangedDps"], "1", "https://www.wowhead.com/classic/guide/season-of-discovery/classes/hunter/dps-overview")
+    local spec2 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["RangedDps"], "2", "https://www.wowhead.com/classic/guide/season-of-discovery/classes/hunter/dps-overview")
+    local spec3 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["RangedDps"], "3", "https://www.wowhead.com/classic/guide/season-of-discovery/classes/hunter/dps-overview")
+    local spec4 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["RangedDps"], "4", "https://www.wowhead.com/classic/guide/season-of-discovery/classes/hunter/dps-overview")
+    local spec5 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["RangedDps"], "5", "https://www.wowhead.com/classic/guide/season-of-discovery/classes/hunter/dps-overview")
+    local spec6 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["RangedDps"], "6", "https://www.wowhead.com/classic/guide/season-of-discovery/classes/hunter/dps-overview")
+    local spec7 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["RangedDps"], "7", "https://www.wowhead.com/classic/guide/season-of-discovery/classes/hunter/dps-overview")
+    local spec8 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["RangedDps"], "8", "https://www.wowhead.com/classic/guide/season-of-discovery/classes/hunter/dps-overview")
 
     LBIS:AddEnchant(spec8, "468325", LBIS.L["Head/Legs"]) --
     LBIS:AddEnchant(spec8, "1219811", LBIS.L["Shoulder"]) --
