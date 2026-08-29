@@ -1,5 +1,8 @@
 local addonName = ...;
 
+LBIS.WowheadLink = "https://www.wowhead.com/classic";
+LBIS.WowheadClassGuideLink = "https://www.wowhead.com/classic/guide/classes/druid/balance/dps-overview-pve";
+
 LBIS.ClassSpec = {};
 LBIS.NameToSpecId = {};
 LBIS.ItemsByIdAndSpec = {};
@@ -22,7 +25,7 @@ else
 	LBIS.CurrentPhase = 6;
 end
 
-LBIS.EventFrame = CreateFrame("FRAME",addonName.."Events")
+LBIS.EventFrame = CreateFrame("FRAME", addonName.."Events")
 
 SLASH_LOONBESTINSLOT1 = '/bis'
 SLASH_LOONBESTINSLOT2 = '/비스'
@@ -30,12 +33,12 @@ SlashCmdList["LOONBESTINSLOT"] = function(command)
 	command = command:lower()
 
 	if command == "" then
-		LBIS.BrowserWindow:OpenWindow()
+		LBIS.BrowserWindow:ToggleWindow()
 	elseif command == "edit" then
 		LBIS.BrowserWindow:OpenWindow("CustomEditList")
 	elseif command == "custom" then
 		LBIS.BrowserWindow:OpenWindow("CustomItemList")
-	elseif command == "settings"	then
+	elseif command == "settings"	then		
 		InterfaceOptionsFrame_Show()
 		InterfaceOptionsFrame_OpenToCategory("Loon Best In Slot")
 	end
@@ -47,16 +50,19 @@ function LBIS:Startup()
 	LBIS:RegisterMiniMap();
     LBIS:PreCacheItems();
 	LBIS:InitializeUI();
+
+	print("|cffffff00Loon Best In Slot loaded. Type /bis for options.|r");
 end
 
-function LBIS:RegisterSpec(class, spec, phase)
-	
+function LBIS:RegisterSpec(class, spec, phase, uri)
+
 	if not spec then spec = "" end
-	
+
     local classSpec = {
 		Class = class,
 		Spec = spec,
-		Phase = phase
+		Phase = phase,
+		Uri = uri
 	}
 
 	classSpec.Id = spec..class
@@ -77,8 +83,8 @@ function LBIS:AddItem(bisEntry, id, slot, bis)
 
 	if LBIS.CurrentPhase < tonumber(bisEntry.Phase) then
 		return;
-	end	
-	
+	end
+
 	if not LBIS.ItemsByIdAndSpec[itemId] then
 		LBIS.ItemsByIdAndSpec[itemId] = {}
 	end
@@ -89,16 +95,16 @@ function LBIS:AddItem(bisEntry, id, slot, bis)
 		bis = string.gsub(bis, "BIS", "Alt");
 	end
 
-	local searchedItem = LBIS.ItemsByIdAndSpec[itemId][bisEntry.Id];
+	local searchedItem = LBIS.ItemsByIdAndSpec[itemId][bisEntry.Id];	
 
 	if searchedItem == nil then
 
 		searchedItem = { Id = itemId, Bis = bis, Phase = bisEntry.Phase, Slot = slot, SortOrder = addOrder }
-		
+
 		if not LBIS.ItemsBySpecAndId[bisEntry.Id] then
 			LBIS.ItemsBySpecAndId[bisEntry.Id] = {}
 		end
-			
+	
 	else
 		if bisEntry.Phase > searchedItem.Phase then
 			searchedItem.Bis = bis;
@@ -117,7 +123,7 @@ function LBIS:AddItem(bisEntry, id, slot, bis)
 
 	LBIS.ItemsBySpecAndId[bisEntry.Id][itemId] = searchedItem;
 	LBIS.ItemsByIdAndSpec[itemId][bisEntry.Id] = searchedItem;
-	
+
 	local itemSource = LBIS.ItemSources[itemId];
 
 	if itemSource == nil then
@@ -129,7 +135,7 @@ function LBIS:AddItem(bisEntry, id, slot, bis)
 			LBIS.ItemsByIdAndSpec[tonumber(itemSource.SourceNumber)] = {}
 		end			
 		LBIS.ItemsByIdAndSpec[tonumber(itemSource.SourceNumber)][bisEntry.Id] = searchedItem
-	end	
+	end
 	addOrder = addOrder + 1;
 end
 
@@ -143,8 +149,8 @@ function LBIS:AddEnchant(bisEntry, id, slot)
 
 	if LBIS.CurrentPhase < tonumber(bisEntry.Phase) then
 		return;
-	end	
-	
+	end
+
 	if not LBIS.EnchantsBySpecAndId[bisEntry.Id] then
 		LBIS.EnchantsBySpecAndId[bisEntry.Id] = {}
 	end
@@ -153,7 +159,7 @@ function LBIS:AddEnchant(bisEntry, id, slot)
 	local designId = tonumber(enchantSource.DesignId);
 	local scrollId = tonumber(enchantSource.ScrollId);
 
-	local item = { Id = enchantId, Slot = slot, Phase = "", Bis = "" };
+	local item = { Id = enchantId, Slot = slot, Phase = bisEntry.Phase, Bis = "" };
 
 	if enchantSource.IsSpell == "False" then
 
@@ -176,7 +182,7 @@ function LBIS:AddEnchant(bisEntry, id, slot)
 		end
 
 		LBIS.ItemsByIdAndSpec[designId][bisEntry.Id] = item;
-	end	
+	end
 
 	if scrollId > 0 then
 		if not LBIS.ItemsByIdAndSpec[scrollId] then

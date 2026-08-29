@@ -107,7 +107,7 @@ end
 local function IsInFaction(specItemSource)
 
     local englishFaction, _ = UnitFactionGroup("PLAYER");
-    
+
     if specItemSource.SourceFaction == "B" then
         return true;
     elseif englishFaction == "Alliance" and specItemSource.SourceFaction == "A" then
@@ -229,7 +229,7 @@ local function IsNotObsolete(specItem)
         else
             --get lowest of other specs?
         end
-        
+
         if itemId2 ~= nil and tonumber(itemId2) > 0 then    
             if LBIS.ItemsByIdAndSpec[tonumber(itemId2)] ~= nil then    
                 local cachedItem2 = LBIS.ItemsByIdAndSpec[tonumber(itemId2)][LBIS.NameToSpecId[LBISSettings.SelectedSpec]];
@@ -393,7 +393,7 @@ local function createItemRow(f, specItem, specItemSource)
 end
 
 function LBIS.ItemList:UpdateItems()
-    
+
     LBIS.BrowserWindow.Window.SlotDropDown:Show();
     LBIS.BrowserWindow.Window.PhaseDropDown:Show();
     LBIS.BrowserWindow.Window.RankDropDown:Hide();
@@ -401,9 +401,12 @@ function LBIS.ItemList:UpdateItems()
     LBIS.BrowserWindow.Window.RaidDropDown:Show();
 
     LBIS.BrowserWindow:UpdateItemsForSpec(function(point)
-        
-        local specItems = LBIS.ItemsBySpecAndId[LBIS.NameToSpecId[LBISSettings.SelectedSpec]];
-        
+
+        local specId = LBIS.NameToSpecId[LBISSettings.SelectedSpec];
+        local specItems = LBIS.ItemsBySpecAndId[specId];
+        local spec = LBIS.ClassSpec[specId];
+        LBIS.WowheadClassGuideLink = spec.Uri;
+
         if specItems == nil then
             LBIS.BrowserWindow.Window.ShowUnavailable();
         end
@@ -411,7 +414,7 @@ function LBIS.ItemList:UpdateItems()
         for itemId, specItem in LBIS:spairs(specItems, itemSortFunction) do
             
             local specItemSource = LBIS.ItemSources[specItem.Id];
-
+            
 			if specItem.Id == LBIS.DebuggingItem then
 				LBIS:Debug("TRYING TO DISPLAY"..LBIS:Dump(specItem).." - "..LBIS:Dump(specItemSource)..
 				" IsInFaction ("..LBIS:Dump(IsInFaction(specItemSource))..")"..

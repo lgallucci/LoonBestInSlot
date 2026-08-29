@@ -94,7 +94,7 @@ local function createItemRow(f, specEnchant, specEnchantSource)
                 b2:SetSize(32, 32);
                 local bt2 = b2:CreateTexture();
                 bt2:SetAllPoints();
-                bt2:SetTexture(designItem.Texture);                                        
+                bt2:SetTexture(designItem.Texture);
                 b2:SetPoint("TOPLEFT", (window.ScrollFrame:GetWidth() / 2), -5);
 
                 LBIS:SetTooltipOnButton(b2, designItem);
@@ -107,7 +107,7 @@ local function createItemRow(f, specEnchant, specEnchantSource)
                 local dl = f:CreateFontString(nil, nil, "GameFontNormalSmall");
                 dl:SetText(specEnchantSource.SourceLocation);
                 dl:SetPoint("TOPLEFT", d, "BOTTOMLEFT", 0, -5);
-            end); 
+            end);
         else
             local d = f:CreateFontString(nil, nil, "GameFontNormal");
             d:SetText(specEnchantSource.Source);
@@ -120,7 +120,7 @@ local function createItemRow(f, specEnchant, specEnchantSource)
             dl:SetPoint("TOPLEFT", d, "BOTTOMLEFT", 0, -5);
         end
     end);
-                
+
     -- even if we are reusing, it may not be in the same order
     local _, count = string.gsub(specEnchantSource.Source, "~", "")
     if count > 1 then
@@ -141,14 +141,17 @@ function LBIS.EnchantList:UpdateItems()
 
     LBIS.BrowserWindow:UpdateItemsForSpec(function(point)
 
-        local specEnchants = LBIS.EnchantsBySpecAndId[LBIS.NameToSpecId[LBISSettings.SelectedSpec]];
+        local specId = LBIS.NameToSpecId[LBISSettings.SelectedSpec];
+        local specEnchants = LBIS.EnchantsBySpecAndId[specId];
+        local spec = LBIS.ClassSpec[specId];
+        LBIS.WowheadClassGuideLink = spec.Uri;
 
         if specEnchants == nil then
             LBIS.BrowserWindow.Window.ShowUnavailable();
         end
 
         for enchantId, specEnchant in LBIS:spairs(specEnchants, itemSortFunction) do
-            
+
             local specEnchantSource = LBIS.EnchantSources[specEnchant.Id];
 
             if specEnchantSource == nil then
