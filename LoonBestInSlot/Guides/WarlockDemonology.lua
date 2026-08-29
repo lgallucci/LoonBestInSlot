@@ -1,9 +1,9 @@
-local spec0 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Demonology"], "0")
-local spec1 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Demonology"], "1")
-local spec2 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Demonology"], "2")
-local spec3 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Demonology"], "3")
-local spec4 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Demonology"], "4")
-local spec5 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Demonology"], "5")
+local spec0 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Demonology"], "0", "https://www.wowhead.com/mop-classic/guide/classes/warlock/demonology/dps-overview-pve")
+local spec1 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Demonology"], "1", "https://www.wowhead.com/mop-classic/guide/classes/warlock/demonology/dps-overview-pve")
+local spec2 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Demonology"], "2", "https://www.wowhead.com/mop-classic/guide/classes/warlock/demonology/dps-overview-pve")
+local spec3 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Demonology"], "3", "https://www.wowhead.com/mop-classic/guide/classes/warlock/demonology/dps-overview-pve")
+local spec4 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Demonology"], "4", "https://www.wowhead.com/mop-classic/guide/classes/warlock/demonology/dps-overview-pve")
+local spec5 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Demonology"], "5", "https://www.wowhead.com/mop-classic/guide/classes/warlock/demonology/dps-overview-pve")
 
 LBIS:AddGem(spec0, "95347", "5", "True") --Sinister Primal Diamond
 LBIS:AddGem(spec0, "76885", "3", "True") --Burning Primal Diamond

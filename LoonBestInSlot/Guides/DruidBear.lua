@@ -1,9 +1,9 @@
-local spec0 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Bear"], "0")
-local spec1 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Bear"], "1")
-local spec2 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Bear"], "2")
-local spec3 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Bear"], "3")
-local spec4 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Bear"], "4")
-local spec5 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Bear"], "5")
+local spec0 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Bear"], "0", "https://www.wowhead.com/mop-classic/guide/classes/druid/guardian/tank-overview-pve")
+local spec1 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Bear"], "1", "https://www.wowhead.com/mop-classic/guide/classes/druid/guardian/tank-overview-pve")
+local spec2 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Bear"], "2", "https://www.wowhead.com/mop-classic/guide/classes/druid/guardian/tank-overview-pve")
+local spec3 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Bear"], "3", "https://www.wowhead.com/mop-classic/guide/classes/druid/guardian/tank-overview-pve")
+local spec4 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Bear"], "4", "https://www.wowhead.com/mop-classic/guide/classes/druid/guardian/tank-overview-pve")
+local spec5 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Bear"], "5", "https://www.wowhead.com/mop-classic/guide/classes/druid/guardian/tank-overview-pve")
 
 LBIS:AddGem(spec0, "95346", "5", "True") --Capacitive Primal Diamond
 LBIS:AddGem(spec0, "95344", "5", "True") --Indomitable Primal Diamond

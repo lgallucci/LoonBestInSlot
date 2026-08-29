@@ -1,9 +1,9 @@
-local spec0 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Fury"], "0")
-local spec1 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Fury"], "1")
-local spec2 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Fury"], "2")
-local spec3 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Fury"], "3")
-local spec4 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Fury"], "4")
-local spec5 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Fury"], "5")
+local spec0 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Fury"], "0", "https://www.wowhead.com/mop-classic/guide/classes/warrior/fury/dps-overview-pve")
+local spec1 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Fury"], "1", "https://www.wowhead.com/mop-classic/guide/classes/warrior/fury/dps-overview-pve")
+local spec2 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Fury"], "2", "https://www.wowhead.com/mop-classic/guide/classes/warrior/fury/dps-overview-pve")
+local spec3 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Fury"], "3", "https://www.wowhead.com/mop-classic/guide/classes/warrior/fury/dps-overview-pve")
+local spec4 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Fury"], "4", "https://www.wowhead.com/mop-classic/guide/classes/warrior/fury/dps-overview-pve")
+local spec5 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Fury"], "5", "https://www.wowhead.com/mop-classic/guide/classes/warrior/fury/dps-overview-pve")
 
 LBIS:AddGem(spec0, "95346", "5", "True") --Capacitive Primal Diamond
 LBIS:AddGem(spec0, "76886", "3", "True") --Reverberating Primal Diamond

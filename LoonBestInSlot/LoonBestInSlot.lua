@@ -1,5 +1,8 @@
 local addonName = ...;
 
+LBIS.WowheadLink = "https://www.wowhead.com/mop-classic";
+LBIS.WowheadClassGuideLink = "";
+
 LBIS.ClassSpec = {};
 LBIS.NameToSpecId = {};
 LBIS.ItemsByIdAndSpec = {};
@@ -21,7 +24,7 @@ SlashCmdList["LOONBESTINSLOT"] = function(command)
 	command = command:lower()
 
 	if command == "" then
-		LBIS.BrowserWindow:OpenWindow()
+		LBIS.BrowserWindow:ToggleWindow()
 	elseif command == "edit" then
 		LBIS.BrowserWindow:OpenWindow("CustomEditList")
 	elseif command == "custom" then
@@ -37,6 +40,8 @@ function LBIS:Startup()
 	LBIS:RegisterMiniMap();
     LBIS:PreCacheItems();
 	LBIS:InitializeUI();
+
+	print("|cffffff00Loon Best In Slot loaded. Type /bis for options.|r");
 end
 
 function LBIS:RegisterEvent(...)
@@ -72,14 +77,15 @@ function LBIS:RegisterEvent(...)
 	end
 end
 
-function LBIS:RegisterSpec(class, spec, phase)
+function LBIS:RegisterSpec(class, spec, phase, uri)
 
 	if not spec then spec = "" end
 
     local classSpec = {
 		Class = class,
 		Spec = spec,
-		Phase = phase
+		Phase = phase,
+		Uri = uri
 	}
 
 	classSpec.Id = spec..class
@@ -178,7 +184,7 @@ function LBIS:AddGem(bisEntry, id, quality, isMeta)
 
 	if searchedItem == nil then
 
-		searchedItem = { Id = gemId, Phase = "", Quality = quality, IsMeta = isMeta, Bis = "" }
+		searchedItem = { Id = gemId, Phase = bisEntry.Phase, Quality = quality, IsMeta = isMeta, Bis = "" }
 
 		if not LBIS.GemsBySpecAndId[bisEntry.Id] then
 			LBIS.GemsBySpecAndId[bisEntry.Id] = {}
@@ -219,7 +225,7 @@ function LBIS:AddEnchant(bisEntry, id, slot)
 	local enchantSource = LBIS.EnchantSources[enchantId];
 	local designId = tonumber(enchantSource.DesignId);
 
-	local item = { Id = enchantId, Slot = slot, Phase = "", Bis = "" };
+	local item = { Id = enchantId, Slot = slot, Phase = bisEntry.Phase, Bis = "" };
 
 	if enchantSource.IsSpell == "False" then
 

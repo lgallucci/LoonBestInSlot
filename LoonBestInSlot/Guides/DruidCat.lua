@@ -1,9 +1,9 @@
-local spec0 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Cat"], "0")
-local spec1 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Cat"], "1")
-local spec2 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Cat"], "2")
-local spec3 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Cat"], "3")
-local spec4 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Cat"], "4")
-local spec5 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Cat"], "5")
+local spec0 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Cat"], "0", "https://www.wowhead.com/mop-classic/guide/classes/druid/feral/dps-overview-pve")
+local spec1 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Cat"], "1", "https://www.wowhead.com/mop-classic/guide/classes/druid/feral/dps-overview-pve")
+local spec2 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Cat"], "2", "https://www.wowhead.com/mop-classic/guide/classes/druid/feral/dps-overview-pve")
+local spec3 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Cat"], "3", "https://www.wowhead.com/mop-classic/guide/classes/druid/feral/dps-overview-pve")
+local spec4 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Cat"], "4", "https://www.wowhead.com/mop-classic/guide/classes/druid/feral/dps-overview-pve")
+local spec5 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Cat"], "5", "https://www.wowhead.com/mop-classic/guide/classes/druid/feral/dps-overview-pve")
 
 LBIS:AddGem(spec0, "95346", "5", "True") --Capacitive Primal Diamond
 LBIS:AddGem(spec0, "76884", "3", "True") --Agile Primal Diamond

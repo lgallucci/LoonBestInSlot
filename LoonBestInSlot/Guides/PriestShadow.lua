@@ -1,9 +1,9 @@
-local spec0 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Shadow"], "0")
-local spec1 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Shadow"], "1")
-local spec2 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Shadow"], "2")
-local spec3 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Shadow"], "3")
-local spec4 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Shadow"], "4")
-local spec5 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Shadow"], "5")
+local spec0 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Shadow"], "0", "https://www.wowhead.com/mop-classic/guide/classes/priest/shadow/dps-overview-pve")
+local spec1 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Shadow"], "1", "https://www.wowhead.com/mop-classic/guide/classes/priest/shadow/dps-overview-pve")
+local spec2 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Shadow"], "2", "https://www.wowhead.com/mop-classic/guide/classes/priest/shadow/dps-overview-pve")
+local spec3 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Shadow"], "3", "https://www.wowhead.com/mop-classic/guide/classes/priest/shadow/dps-overview-pve")
+local spec4 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Shadow"], "4", "https://www.wowhead.com/mop-classic/guide/classes/priest/shadow/dps-overview-pve")
+local spec5 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Shadow"], "5", "https://www.wowhead.com/mop-classic/guide/classes/priest/shadow/dps-overview-pve")
 
 LBIS:AddGem(spec0, "95347", "5", "True") --Sinister Primal Diamond
 LBIS:AddGem(spec0, "76885", "3", "True") --Burning Primal Diamond

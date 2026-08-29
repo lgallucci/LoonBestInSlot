@@ -1,9 +1,9 @@
-local spec0 = LBIS:RegisterSpec(LBIS.L["Monk"], LBIS.L["Mistweaver"], "0")
-local spec1 = LBIS:RegisterSpec(LBIS.L["Monk"], LBIS.L["Mistweaver"], "1")
-local spec2 = LBIS:RegisterSpec(LBIS.L["Monk"], LBIS.L["Mistweaver"], "2")
-local spec3 = LBIS:RegisterSpec(LBIS.L["Monk"], LBIS.L["Mistweaver"], "3")
-local spec4 = LBIS:RegisterSpec(LBIS.L["Monk"], LBIS.L["Mistweaver"], "4")
-local spec5 = LBIS:RegisterSpec(LBIS.L["Monk"], LBIS.L["Mistweaver"], "5")
+local spec0 = LBIS:RegisterSpec(LBIS.L["Monk"], LBIS.L["Mistweaver"], "0", "https://www.wowhead.com/mop-classic/guide/classes/monk/mistweaver/healer-overview-pve")
+local spec1 = LBIS:RegisterSpec(LBIS.L["Monk"], LBIS.L["Mistweaver"], "1", "https://www.wowhead.com/mop-classic/guide/classes/monk/mistweaver/healer-overview-pve")
+local spec2 = LBIS:RegisterSpec(LBIS.L["Monk"], LBIS.L["Mistweaver"], "2", "https://www.wowhead.com/mop-classic/guide/classes/monk/mistweaver/healer-overview-pve")
+local spec3 = LBIS:RegisterSpec(LBIS.L["Monk"], LBIS.L["Mistweaver"], "3", "https://www.wowhead.com/mop-classic/guide/classes/monk/mistweaver/healer-overview-pve")
+local spec4 = LBIS:RegisterSpec(LBIS.L["Monk"], LBIS.L["Mistweaver"], "4", "https://www.wowhead.com/mop-classic/guide/classes/monk/mistweaver/healer-overview-pve")
+local spec5 = LBIS:RegisterSpec(LBIS.L["Monk"], LBIS.L["Mistweaver"], "5", "https://www.wowhead.com/mop-classic/guide/classes/monk/mistweaver/healer-overview-pve")
 
 LBIS:AddGem(spec0, "95345", "5", "True") --Courageous Primal Diamond
 LBIS:AddGem(spec0, "76885", "3", "True") --Burning Primal Diamond

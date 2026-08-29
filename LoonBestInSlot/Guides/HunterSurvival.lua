@@ -1,9 +1,9 @@
-local spec0 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Survival"], "0")
-local spec1 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Survival"], "1")
-local spec2 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Survival"], "2")
-local spec3 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Survival"], "3")
-local spec4 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Survival"], "4")
-local spec5 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Survival"], "5")
+local spec0 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Survival"], "0", "https://www.wowhead.com/mop-classic/guide/classes/hunter/survival/dps-overview-pve")
+local spec1 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Survival"], "1", "https://www.wowhead.com/mop-classic/guide/classes/hunter/survival/dps-overview-pve")
+local spec2 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Survival"], "2", "https://www.wowhead.com/mop-classic/guide/classes/hunter/survival/dps-overview-pve")
+local spec3 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Survival"], "3", "https://www.wowhead.com/mop-classic/guide/classes/hunter/survival/dps-overview-pve")
+local spec4 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Survival"], "4", "https://www.wowhead.com/mop-classic/guide/classes/hunter/survival/dps-overview-pve")
+local spec5 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Survival"], "5", "https://www.wowhead.com/mop-classic/guide/classes/hunter/survival/dps-overview-pve")
 
 LBIS:AddGem(spec0, "95346", "5", "True") --Capacitive Primal Diamond
 LBIS:AddGem(spec0, "76884", "3", "True") --Agile Primal Diamond
