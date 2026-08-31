@@ -6,6 +6,7 @@ internal class PriestShadowMapping : SpecMapping
 {
     public override string Class => "Priest";
     public override string Spec => "Shadow";
+    public override string ClassUri => "https://www.wowhead.com/tbc/guide/classes/priest/shadow/dps-talent-builds-pve";
 
     public override string PreRaidUrl => "classes/priest/shadow/dps-bis-gear-pve-pre-raid";
     public override string Phase1Url => "shadow-priest-dps-karazhan-best-in-slot-gear-burning-crusade-classic-wow";

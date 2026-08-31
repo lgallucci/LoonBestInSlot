@@ -10,6 +10,7 @@ internal abstract class SpecMapping
     public string UrlBase => "https://www.wowhead.com/tbc/guide/";
     public abstract string Class { get; }
     public abstract string Spec { get; }
+    public abstract string ClassUri { get; }
     public virtual string SpecUrl => Spec.ToLower();
 
     public abstract string PreRaidUrl { get; }
@@ -23,12 +24,12 @@ internal abstract class SpecMapping
     {
         var list = new List<ClassGuideMapping>
         {
-            new ClassGuideMapping(UrlBase + PreRaidUrl, Spec, Class, 0),
-            new ClassGuideMapping(UrlBase + Phase1Url, Spec, Class, 1),
-            new ClassGuideMapping(UrlBase + Phase2Url, Spec, Class, 2),
-            new ClassGuideMapping(UrlBase + Phase3Url, Spec, Class, 3),
-            new ClassGuideMapping(UrlBase + Phase4Url, Spec, Class, 4),
-            new ClassGuideMapping(UrlBase + Phase5Url, Spec, Class, 5)
+            new ClassGuideMapping(UrlBase + PreRaidUrl, Spec, Class, 0, ClassUri),
+            new ClassGuideMapping(UrlBase + Phase1Url, Spec, Class, 1, ClassUri),
+            new ClassGuideMapping(UrlBase + Phase2Url, Spec, Class, 2, ClassUri),
+            new ClassGuideMapping(UrlBase + Phase3Url, Spec, Class, 3, ClassUri),
+            new ClassGuideMapping(UrlBase + Phase4Url, Spec, Class, 4, ClassUri),
+            new ClassGuideMapping(UrlBase + Phase5Url, Spec, Class, 5, ClassUri)
         };
 
         return list;

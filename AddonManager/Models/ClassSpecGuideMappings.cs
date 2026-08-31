@@ -3,17 +3,19 @@
 namespace AddonManager.Models;
 public class ClassGuideMapping
 {
-    public ClassGuideMapping(string webAddress, string specName, string className, int phase)
+    public ClassGuideMapping(string webAddress, string specName, string className, int phase, string classUri)
     {
         WebAddress = webAddress;
         SpecName = specName;
         ClassName = className;
         Phase = phase; 
+        ClassUri = classUri;
     }
 
     public string WebAddress { get; set; }
     public string SpecName { get; set; }
     public string ClassName { get; set; }
+    public string ClassUri { get; set; }
     public int Phase { get; set; }
 
     public override string ToString()

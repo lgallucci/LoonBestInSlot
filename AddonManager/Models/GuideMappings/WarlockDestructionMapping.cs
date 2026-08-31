@@ -6,6 +6,7 @@ internal class WarlockDestructionMapping : SpecMapping
 {
     public override string Class => "Warlock";
     public override string Spec => "Destruction";
+    public override string ClassUri => "https://www.wowhead.com/tbc/guide/classes/warlock/dps-talent-builds-pve";
 
     public override string PreRaidUrl => "classes/warlock/dps-bis-gear-pve-pre-raid";
     public override string Phase1Url => "destruction-warlock-dps-karazhan-best-in-slot-gear-burning-crusade-classic-wow";

@@ -6,6 +6,7 @@ internal class ShamanElementalMapping : SpecMapping
 {
     public override string Class => "Shaman";
     public override string Spec => "Elemental";
+    public override string ClassUri => "https://www.wowhead.com/tbc/guide/classes/shaman/elemental/dps-talent-builds-pve";
 
     public override string PreRaidUrl => "classes/shaman/elemental/dps-bis-gear-pve-pre-raid";
     public override string Phase1Url => "elemental-shaman-dps-karazhan-best-in-slot-gear-burning-crusade-classic-wow";

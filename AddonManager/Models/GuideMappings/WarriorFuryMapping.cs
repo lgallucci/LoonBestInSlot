@@ -6,6 +6,7 @@ internal class WarriorFuryMapping : SpecMapping
 {
     public override string Class => "Warrior";
     public override string Spec => "Fury";
+    public override string ClassUri => "https://www.wowhead.com/tbc/guide/classes/warrior/dps-talent-builds-pve";
 
     public override string PreRaidUrl => "classes/warrior/dps-bis-gear-pve-pre-raid";
     public override string Phase1Url => "arms-warrior-dps-karazhan-best-in-slot-gear-burning-crusade-classic-wow";

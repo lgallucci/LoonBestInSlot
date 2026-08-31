@@ -6,6 +6,7 @@ internal class WarriorProtectionMapping : SpecMapping
 {
     public override string Class => "Warrior";
     public override string Spec => "Protection";
+    public override string ClassUri => "https://www.wowhead.com/tbc/guide/classes/warrior/protection/tank-talent-builds-pve";
 
     public override string PreRaidUrl => "classes/warrior/protection/tank-bis-gear-pve-pre-raid";
     public override string Phase1Url => "protection-warrior-tank-karazhan-best-in-slot-gear-burning-crusade-classic-wow";

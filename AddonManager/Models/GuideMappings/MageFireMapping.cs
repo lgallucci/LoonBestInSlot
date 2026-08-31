@@ -6,6 +6,7 @@ internal class MageFireMapping : SpecMapping
 {
     public override string Class => "Mage";
     public override string Spec => "Fire";
+    public override string ClassUri => "https://www.wowhead.com/tbc/guide/classes/mage/dps-talent-builds-pve";
 
     public override string PreRaidUrl => "classes/mage/dps-bis-gear-pve-pre-raid";
     public override string Phase1Url => "fire-mage-dps-karazhan-best-in-slot-gear-burning-crusade-classic-wow";

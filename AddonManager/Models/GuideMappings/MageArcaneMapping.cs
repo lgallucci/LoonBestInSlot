@@ -6,6 +6,7 @@ internal class MageArcaneMapping : SpecMapping
 {
     public override string Class => "Mage";
     public override string Spec => "Arcane";
+    public override string ClassUri => "https://www.wowhead.com/tbc/guide/classes/mage/dps-talent-builds-pve";
 
     public override string PreRaidUrl => "classes/mage/arcane/dps-bis-gear-pve-pre-raid";
     public override string Phase1Url => "arcane-mage-dps-karazhan-best-in-slot-gear-burning-crusade-classic-wow";

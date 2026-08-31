@@ -6,6 +6,7 @@ internal class ShamanRestorationMapping : SpecMapping
 {
     public override string Class => "Shaman";
     public override string Spec => "Restoration";
+    public override string ClassUri => "https://www.wowhead.com/tbc/guide/classes/shaman/healer-talent-builds-pve";
 
     public override string PreRaidUrl => "classes/shaman/healer-bis-gear-pve-pre-raid";
     public override string Phase1Url => "shaman-healer-karazhan-best-in-slot-gear-burning-crusade-classic-wow";

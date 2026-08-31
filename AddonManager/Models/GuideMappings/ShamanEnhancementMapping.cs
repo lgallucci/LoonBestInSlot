@@ -6,6 +6,7 @@ internal class ShamanEnhancementMapping : SpecMapping
 {
     public override string Class => "Shaman";
     public override string Spec => "Enhancement";
+    public override string ClassUri => "https://www.wowhead.com/tbc/guide/classes/shaman/enhancement/dps-talent-builds-pve";
 
     public override string PreRaidUrl => "classes/shaman/enhancement/dps-bis-gear-pve-pre-raid";
     public override string Phase1Url => "enhancement-shaman-dps-karazhan-best-in-slot-gear-burning-crusade-classic-wow";

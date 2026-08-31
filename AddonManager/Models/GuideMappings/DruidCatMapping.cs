@@ -7,6 +7,7 @@ internal class DruidCatMapping : SpecMapping
     public override string Class => "Druid";
     public override string Spec => "Cat";
     public override string SpecUrl => "Feral";
+    public override string ClassUri => "https://www.wowhead.com/tbc/guide/classes/druid/feral/dps-talent-builds-pve";
 
     public override string PreRaidUrl => "classes/druid/feral/dps-bis-gear-pve-pre-raid";
     public override string Phase1Url => "feral-druid-dps-karazhan-best-in-slot-gear-burning-crusade-classic-wow";

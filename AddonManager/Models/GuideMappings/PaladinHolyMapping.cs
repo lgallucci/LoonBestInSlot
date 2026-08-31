@@ -6,6 +6,7 @@ internal class PaladinHolyMapping : SpecMapping
 {
     public override string Class => "Paladin";
     public override string Spec => "Holy";
+    public override string ClassUri => "https://www.wowhead.com/tbc/guide/classes/paladin/holy/healer-talent-builds-pve";
 
     public override string PreRaidUrl => "classes/paladin/holy/healer-bis-gear-pve-pre-raid";
     public override string Phase1Url => "holy-paladin-healer-karazhan-best-in-slot-gear-burning-crusade-classic-wow";

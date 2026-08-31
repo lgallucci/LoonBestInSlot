@@ -5,7 +5,7 @@ namespace AddonManager.FileManagers;
 
 public static class ItemSpecFileManager
 {
-    public static void WriteItemSpec(string path, string className, string specName, 
+    public static void WriteItemSpec(string path, string className, string specName, string classUri,
         Dictionary<int, List<GemSpec>> gemsList, 
         Dictionary<int, List<EnchantSpec>> enchantsList,
         Dictionary<int, List<ItemSpec>> itemsList)
@@ -13,12 +13,12 @@ public static class ItemSpecFileManager
         var itemSB = new StringBuilder();
 
         itemSB.AppendLine($"function LBIS:Load{className.Replace(" ", "")}{specName.Replace(" ", "")}()");
-        itemSB.AppendLine($"    local spec0 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"0\")");
-        itemSB.AppendLine($"    local spec1 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"1\")");
-        itemSB.AppendLine($"    local spec2 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"2\")");
-        itemSB.AppendLine($"    local spec3 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"3\")");
-        itemSB.AppendLine($"    local spec4 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"4\")");
-        itemSB.AppendLine($"    local spec5 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"5\")");
+        itemSB.AppendLine($"    local spec0 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"0\", \"{classUri}\")");
+        itemSB.AppendLine($"    local spec1 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"1\", \"{classUri}\")");
+        itemSB.AppendLine($"    local spec2 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"2\", \"{classUri}\")");
+        itemSB.AppendLine($"    local spec3 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"3\", \"{classUri}\")");
+        itemSB.AppendLine($"    local spec4 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"4\", \"{classUri}\")");
+        itemSB.AppendLine($"    local spec5 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"5\", \"{classUri}\")");
 
         itemSB.AppendLine();
         foreach (var phaseGems in gemsList)

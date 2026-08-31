@@ -6,6 +6,7 @@ internal class RogueMapping : SpecMapping
 {
     public override string Class => "Rogue";
     public override string Spec => "Dps";
+    public override string ClassUri => "https://www.wowhead.com/tbc/guide/classes/rogue/dps-talent-builds-pve";
 
     public override string PreRaidUrl => "classes/rogue/dps-bis-gear-pve-pre-raid";
     public override string Phase1Url => "rogue-dps-karazhan-best-in-slot-gear-burning-crusade-classic-wow";

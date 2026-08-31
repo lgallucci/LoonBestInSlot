@@ -6,6 +6,7 @@ internal class HunterBeastMasteryMapping : SpecMapping
 {
     public override string Class => "Hunter";
     public override string Spec => "Beast Mastery";
+    public override string ClassUri => "https://www.wowhead.com/tbc/guide/classes/hunter/dps-talent-builds-pve";
 
     public override string PreRaidUrl => "classes/hunter/dps-bis-gear-pve-pre-raid";
     public override string Phase1Url => "beast-mastery-hunter-dps-karazhan-best-in-slot-gear-burning-crusade-classic-wow";

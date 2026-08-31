@@ -393,7 +393,8 @@ public static class WowheadImporter
                 WriteGemsInternal(guide.Item1[phaseNumber], logFunc);
                 WriteEnchantsInternal(guide.Item2[phaseNumber], logFunc);
                 WriteItemsInternal(guide.Item3[phaseNumber], logFunc);
-                ItemSpecFileManager.WriteItemSpec(Constants.CombinePath(Constants.AddonPath, $@"\Guides\{className.Replace(" ", "")}.lua"), classGuideMapping.ClassName, classGuideMapping.SpecName,
+                ItemSpecFileManager.WriteItemSpec(Constants.CombinePath(Constants.AddonPath, $@"\Guides\{className.Replace(" ", "")}.lua"), 
+                    classGuideMapping.ClassName, classGuideMapping.SpecName, classGuideMapping.ClassUri,
                     guide.Item1, guide.Item2, guide.Item3);
             }
             else

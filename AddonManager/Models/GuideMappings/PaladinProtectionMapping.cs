@@ -6,6 +6,7 @@ internal class PaladinProtectionMapping : SpecMapping
 {
     public override string Class => "Paladin";
     public override string Spec => "Protection";
+    public override string ClassUri => "https://www.wowhead.com/tbc/guide/classes/paladin/tank-talent-builds-pve";
 
     public override string PreRaidUrl => "classes/paladin/tank-bis-gear-pve-pre-raid";
     public override string Phase1Url => "paladin-tank-karazhan-best-in-slot-gear-burning-crusade-classic-wow";

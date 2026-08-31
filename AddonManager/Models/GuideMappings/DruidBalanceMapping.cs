@@ -6,6 +6,7 @@ internal class DruidBalanceMapping : SpecMapping
 {
     public override string Class => "Druid";
     public override string Spec => "Balance";
+    public override string ClassUri => "https://www.wowhead.com/tbc/guide/classes/druid/balance/dps-overview-pve";
 
     public override string PreRaidUrl => "classes/druid/balance/dps-bis-gear-pve-pre-raid";
     public override string Phase1Url => "balance-druid-dps-karazhan-best-in-slot-gear-burning-crusade-classic-wow";
