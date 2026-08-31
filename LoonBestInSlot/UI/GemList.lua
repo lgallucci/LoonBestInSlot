@@ -108,7 +108,7 @@ function LBIS.GemList:UpdateItems()
     LBIS.BrowserWindow:UpdateItemsForSpec(function(point)
 
         local specId = LBIS.NameToSpecId[LBISSettings.SelectedSpec];
-        local specItems = LBIS.GemsBySpecAndId[specId];
+        local specGems = LBIS.GemsBySpecAndId[specId];
         local spec = LBIS.ClassSpec[specId];
         LBIS.WowheadClassGuideLink = spec.Uri;
 
