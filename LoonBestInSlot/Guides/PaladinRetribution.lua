@@ -322,6 +322,8 @@ function LBIS:LoadPaladinRetribution()
     LBIS:AddItem(spec3, "30879", LBIS.L["Waist"], "Alt") --Don Alejandro's Money Belt
     LBIS:AddItem(spec3, "32265", LBIS.L["Waist"], "Alt") --Shadow-walker's Cord
     LBIS:AddItem(spec3, "30919", LBIS.L["Waist"], "Alt") --Valestalker Girdle
+    LBIS:AddItem(spec3, "30915", LBIS.L["Waist"], "Alt") --Belt of Seething Fury
+    LBIS:AddItem(spec3, "32606", LBIS.L["Waist"], "Alt") --Girdle of the Lightbearer
     LBIS:AddItem(spec3, "30032", LBIS.L["Waist"], "Alt") --Red Belt of Battle
     LBIS:AddItem(spec3, "30900", LBIS.L["Legs"], "BIS") --Bow-stitched Leggings
     LBIS:AddItem(spec3, "32341", LBIS.L["Legs"], "BIS") --Leggings of Divine Retribution
