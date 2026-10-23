@@ -461,28 +461,29 @@ function LBIS:LoadWarlockDestruction()
     LBIS:AddItem(spec4, "32941", LBIS.L["Ring"], "Alt") --Corruptor's Signet
     LBIS:AddItem(spec4, "32483", LBIS.L["Trinket"], "BIS") --The Skull of Gul'dan
     LBIS:AddItem(spec4, "33829", LBIS.L["Trinket"], "BIS") --Hex Shrunken Head
+    LBIS:AddItem(spec4, "281735", LBIS.L["Trinket"], "BIS") --Dark Iron Smoking Pipe
+    LBIS:AddItem(spec4, "27683", LBIS.L["Trinket"], "Alt") --Quagmirran's Eye
     LBIS:AddItem(spec4, "29370", LBIS.L["Trinket"], "Alt") --Icon of the Silver Crescent
     LBIS:AddItem(spec4, "38290", LBIS.L["Trinket"], "Alt") --Dark Iron Smoking Pipe
-    LBIS:AddItem(spec4, "23207", LBIS.L["Trinket"], "Alt") --Mark of the Champion
     LBIS:AddItem(spec4, "31856", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Crusade
+    LBIS:AddItem(spec4, "23207", LBIS.L["Trinket"], "Alt") --Mark of the Champion
     LBIS:AddItem(spec4, "30626", LBIS.L["Trinket"], "Alt") --Sextant of Unstable Currents
-    LBIS:AddItem(spec4, "27683", LBIS.L["Trinket"], "Alt") --Quagmirran's Eye
     LBIS:AddItem(spec4, "30910", LBIS.L["Main Hand"], "BIS") --Tempest of Chaos
     LBIS:AddItem(spec4, "32237", LBIS.L["Main Hand"], "Alt") --The Maelstrom's Fury
     LBIS:AddItem(spec4, "33763", LBIS.L["Main Hand"], "Alt") --Vengeful Gladiator's Spellblade
     LBIS:AddItem(spec4, "32053", LBIS.L["Main Hand"], "Alt") --Merciless Gladiator's Spellblade
     LBIS:AddItem(spec4, "33467", LBIS.L["Main Hand"], "Alt") --Blade of Twisted Visions
     LBIS:AddItem(spec4, "30095", LBIS.L["Main Hand"], "Alt") --Fang of the Leviathan
-    LBIS:AddItem(spec4, "33354", LBIS.L["Main Hand"], "Alt") --Wub's Cursed Hexblade
     LBIS:AddItem(spec4, "30723", LBIS.L["Main Hand"], "Alt") --Talon of the Tempest
+    LBIS:AddItem(spec4, "33354", LBIS.L["Main Hand"], "Alt") --Wub's Cursed Hexblade
     LBIS:AddItem(spec4, "28802", LBIS.L["Main Hand"], "Alt") --Bloodmaw Magus-Blade
     LBIS:AddItem(spec4, "28770", LBIS.L["Main Hand"], "Alt") --Nathrezim Mindblade
     LBIS:AddItem(spec4, "30872", LBIS.L["Off Hand"], "BIS") --Chronicle of Dark Secrets
     LBIS:AddItem(spec4, "29270", LBIS.L["Off Hand"], "Alt") --Flametongue Seal
     LBIS:AddItem(spec4, "32361", LBIS.L["Off Hand"], "Alt") --Blind-Seers Icon
     LBIS:AddItem(spec4, "29273", LBIS.L["Off Hand"], "Alt") --Khadgar's Knapsack
-    LBIS:AddItem(spec4, "33334", LBIS.L["Off Hand"], "Alt") --Fetish of the Primal Gods
     LBIS:AddItem(spec4, "29272", LBIS.L["Off Hand"], "Alt") --Orb of the Soul-Eater
+    LBIS:AddItem(spec4, "33334", LBIS.L["Off Hand"], "Alt") --Fetish of the Primal Gods
     LBIS:AddItem(spec4, "30049", LBIS.L["Off Hand"], "Alt") --Fathomstone
     LBIS:AddItem(spec4, "28734", LBIS.L["Off Hand"], "Alt") --Jewel of Infinite Possibilities
     LBIS:AddItem(spec4, "32374", LBIS.L["Two Hand"], "BIS") --Zhar'doom, Greatstaff of the Devourer

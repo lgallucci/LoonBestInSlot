@@ -586,8 +586,8 @@ function LBIS:LoadPaladinProtection()
     LBIS:AddItem(spec4, "33481", LBIS.L["Shoulder"], "Alt") --Pauldrons of Stone Resolve
     LBIS:AddItem(spec4, "34010", LBIS.L["Back"], "BIS Mit") --Pepe's Shroud of Pacification
     LBIS:AddItem(spec4, "29992", LBIS.L["Back"], "Alt Thrt") --Royal Cloak of the Sunstriders
-    LBIS:AddItem(spec4, "32331", LBIS.L["Back"], "Alt Thrt") --Cloak of the Illidari Council
     LBIS:AddItem(spec4, "33593", LBIS.L["Back"], "Alt Mit") --Slikk's Cloak of Placation
+    LBIS:AddItem(spec4, "32331", LBIS.L["Back"], "Alt Thrt") --Cloak of the Illidari Council
     LBIS:AddItem(spec4, "29925", LBIS.L["Back"], "Alt Mit") --Phoenix-Wing Cloak
     LBIS:AddItem(spec4, "28766", LBIS.L["Back"], "Alt Thrt") --Ruby Drape of the Mysticant
     LBIS:AddItem(spec4, "30991", LBIS.L["Chest"], "BIS") --Lightbringer Chestguard
@@ -637,18 +637,22 @@ function LBIS:LoadPaladinProtection()
     LBIS:AddItem(spec4, "33499", LBIS.L["Ring"], "Alt Mit") --Signet of the Last Defender
     LBIS:AddItem(spec4, "31858", LBIS.L["Trinket"], "BIS Stam") --Darkmoon Card: Vengeance
     LBIS:AddItem(spec4, "32501", LBIS.L["Trinket"], "BIS") --Shadowmoon Insignia
-    LBIS:AddItem(spec4, "33829", LBIS.L["Trinket"], "Alt") --Hex Shrunken Head
-    LBIS:AddItem(spec4, "29370", LBIS.L["Trinket"], "Alt") --Icon of the Silver Crescent
+    LBIS:AddItem(spec4, "281735", LBIS.L["Trinket"], "BIS") --Dark Iron Smoking Pipe
+    LBIS:AddItem(spec4, "33829", LBIS.L["Trinket"], "BIS") --Hex Shrunken Head
+    LBIS:AddItem(spec4, "281893", LBIS.L["Trinket"], "BIS Stam") --Balebrew Charm
+    LBIS:AddItem(spec4, "281895", LBIS.L["Trinket"], "BIS Stam") --Brightbrew Charm
     LBIS:AddItem(spec4, "28528", LBIS.L["Trinket"], "Alt") --Moroes' Lucky Pocket Watch
-    LBIS:AddItem(spec4, "31859", LBIS.L["Trinket"], "Alt Stam") --Darkmoon Card: Madness
+    LBIS:AddItem(spec4, "29370", LBIS.L["Trinket"], "Alt") --Icon of the Silver Crescent
     LBIS:AddItem(spec4, "33830", LBIS.L["Trinket"], "Alt") --Ancient Aqir Artifact
-    LBIS:AddItem(spec4, "23836", LBIS.L["Trinket"], "Alt") --Goblin Rocket Launcher
+    LBIS:AddItem(spec4, "31859", LBIS.L["Trinket"], "Alt Stam") --Darkmoon Card: Madness
     LBIS:AddItem(spec4, "23207", LBIS.L["Trinket"], "Alt") --Mark of the Champion
-    LBIS:AddItem(spec4, "23835", LBIS.L["Trinket"], "Alt") --Gnomish Poultryizer
+    LBIS:AddItem(spec4, "281743", LBIS.L["Trinket"], "Alt") --Coren's Lucky Coin
     LBIS:AddItem(spec4, "30629", LBIS.L["Trinket"], "Alt") --Scarab of Displacement
     LBIS:AddItem(spec4, "34579", LBIS.L["Trinket"], "Alt") --Battlemaster's Audacity
-    LBIS:AddItem(spec4, "24125", LBIS.L["Trinket"], "Alt") --Figurine - Dawnstone Crab
+    LBIS:AddItem(spec4, "23836", LBIS.L["Trinket"], "Alt") --Goblin Rocket Launcher
     LBIS:AddItem(spec4, "28789", LBIS.L["Trinket"], "Alt") --Eye of Magtheridon
+    LBIS:AddItem(spec4, "24125", LBIS.L["Trinket"], "Alt") --Figurine - Dawnstone Crab
+    LBIS:AddItem(spec4, "23835", LBIS.L["Trinket"], "Alt") --Gnomish Poultryizer
     LBIS:AddItem(spec4, "32864", LBIS.L["Trinket"], "Alt") --Commander's Badge
     LBIS:AddItem(spec4, "30447", LBIS.L["Trinket"], "Alt") --Tome of Fiery Redemption
     LBIS:AddItem(spec4, "29387", LBIS.L["Trinket"], "Alt") --Gnomeregan Auto-Blocker 600

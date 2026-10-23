@@ -3742,7 +3742,7 @@ LBIS.ItemSources =
     [34952] = { Name = "The Mutilator", SourceType = LBIS.L["Dungeon Token"], Source = LBIS.L["Badge of Justice"], SourceNumber = "45", SourceLocation = LBIS.L["Smith Hauthaa"], SourceFaction = "B" },
     [34986] = { Name = "Brutal Gladiator's Barrier", SourceType = LBIS.L["PvP"], Source = LBIS.L["Arena Vendor"], SourceNumber = "?", SourceLocation = LBIS.L["Arena Vendor"], SourceFaction = "B" },
     [34987] = { Name = "Brutal Gladiator's Battle Staff", SourceType = LBIS.L["PvP"], Source = LBIS.L["Arena Vendor"], SourceNumber = "?", SourceLocation = LBIS.L["Arena Vendor"], SourceFaction = "B" },
-    [34996] = { Name = "Brutal Gladiator's Cleaver", SourceType = LBIS.L["PvP"], Source = LBIS.L["Arena Vendor"], SourceNumber = "?", SourceLocation = LBIS.L["unknown"], SourceFaction = "B" },
+    [34996] = { Name = "Brutal Gladiator's Cleaver", SourceType = LBIS.L["PvP"], Source = LBIS.L["Arena Vendor"], SourceNumber = "?", SourceLocation = LBIS.L["Arena Vendor"], SourceFaction = "B" },
     [34998] = { Name = "Brutal Gladiator's Dragonhide Gloves", SourceType = LBIS.L["PvP"], Source = LBIS.L["Arena Vendor"], SourceNumber = "?", SourceLocation = LBIS.L["Arena Vendor"], SourceFaction = "B" },
     [34999] = { Name = "Brutal Gladiator's Dragonhide Helm", SourceType = LBIS.L["PvP"], Source = LBIS.L["Arena Vendor"], SourceNumber = "?", SourceLocation = LBIS.L["Arena Vendor"], SourceFaction = "B" },
     [35000] = { Name = "Brutal Gladiator's Dragonhide Legguards", SourceType = LBIS.L["PvP"], Source = LBIS.L["Arena Vendor"], SourceNumber = "?", SourceLocation = LBIS.L["Arena Vendor"], SourceFaction = "B" },
@@ -3967,4 +3967,9 @@ LBIS.ItemSources =
     [185851] = { Name = "Greater Drums of Speed", SourceType = LBIS.L["Profession"], Source = LBIS.L["Leatherworking (345)"], SourceNumber = "0", SourceLocation = "351768", SourceFaction = "B" },
     [185852] = { Name = "Greater Drums of War", SourceType = LBIS.L["Profession"], Source = LBIS.L["Leatherworking (340)"], SourceNumber = "0", SourceLocation = "351766", SourceFaction = "B" },
     [191061] = { Name = "Brilliant Glass", SourceType = LBIS.L["Profession"], Source = LBIS.L["Jewelcrafting (350)"], SourceNumber = "0", SourceLocation = "47280", SourceFaction = "B" },
+    [281735] = { Name = "Dark Iron Smoking Pipe", SourceType = LBIS.L["Drop"], Source = LBIS.L["Coren Direbrew"], SourceNumber = "0", SourceLocation = LBIS.L["Brewfest"], SourceFaction = "B" },
+    [281739] = { Name = "Empty Mug of Direbrew", SourceType = LBIS.L["Drop"], Source = LBIS.L["Coren Direbrew"], SourceNumber = "0", SourceLocation = LBIS.L["Brewfest"], SourceFaction = "B" },
+    [281743] = { Name = "Coren's Lucky Coin", SourceType = LBIS.L["Drop"], Source = LBIS.L["Coren Direbrew"], SourceNumber = "0", SourceLocation = LBIS.L["Brewfest"], SourceFaction = "B" },
+    [281893] = { Name = "Balebrew Charm", SourceType = LBIS.L["Drop"], Source = LBIS.L["Coren Direbrew"], SourceNumber = "0", SourceLocation = LBIS.L["Brewfest"], SourceFaction = "B" },
+    [281895] = { Name = "Brightbrew Charm", SourceType = LBIS.L["Drop"], Source = LBIS.L["Coren Direbrew"], SourceNumber = "0", SourceLocation = LBIS.L["Brewfest"], SourceFaction = "B" },
 }

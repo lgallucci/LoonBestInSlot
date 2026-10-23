@@ -573,11 +573,12 @@ function LBIS:LoadHunterMarksmanship()
     LBIS:AddItem(spec4, "30973", LBIS.L["Ring"], "Alt") --Band of Anguish
     LBIS:AddItem(spec4, "28830", LBIS.L["Trinket"], "BIS") --Dragonspine Trophy
     LBIS:AddItem(spec4, "33831", LBIS.L["Trinket"], "BIS") --Berserker's Call
+    LBIS:AddItem(spec4, "281739", LBIS.L["Trinket"], "BIS") --Empty Mug of Direbrew
     LBIS:AddItem(spec4, "32487", LBIS.L["Trinket"], "Alt") --Ashtongue Talisman of Swiftness
     LBIS:AddItem(spec4, "28288", LBIS.L["Trinket"], "Alt") --Abacus of Violent Odds
-    LBIS:AddItem(spec4, "32505", LBIS.L["Trinket"], "Alt") --Madness of the Betrayer
     LBIS:AddItem(spec4, "30627", LBIS.L["Trinket"], "Alt") --Tsunami Talisman
     LBIS:AddItem(spec4, "28034", LBIS.L["Trinket"], "Alt") --Hourglass of the Unraveller
+    LBIS:AddItem(spec4, "32505", LBIS.L["Trinket"], "Alt") --Madness of the Betrayer
     LBIS:AddItem(spec4, "29383", LBIS.L["Trinket"], "Alt") --Bloodlust Brooch
     LBIS:AddItem(spec4, "21670", LBIS.L["Trinket"], "Alt") --Badge of the Swarmguard
     LBIS:AddItem(spec4, "28041", LBIS.L["Trinket"], "Alt") --Bladefist's Breadth

@@ -415,10 +415,11 @@ function LBIS:LoadWarlockDemonology()
     LBIS:AddItem(spec4, "32941", LBIS.L["Ring"], "Alt") --Corruptor's Signet
     LBIS:AddItem(spec4, "30109", LBIS.L["Ring"], "Alt") --Ring of Endless Coils
     LBIS:AddItem(spec4, "32483", LBIS.L["Trinket"], "BIS") --The Skull of Gul'dan
-    LBIS:AddItem(spec4, "27683", LBIS.L["Trinket"], "BIS") --Quagmirran's Eye
     LBIS:AddItem(spec4, "29370", LBIS.L["Trinket"], "BIS") --Icon of the Silver Crescent
-    LBIS:AddItem(spec4, "38290", LBIS.L["Trinket"], "BIS") --Dark Iron Smoking Pipe
+    LBIS:AddItem(spec4, "33829", LBIS.L["Trinket"], "BIS") --Hex Shrunken Head
     LBIS:AddItem(spec4, "23207", LBIS.L["Trinket"], "BIS") --Mark of the Champion
+    LBIS:AddItem(spec4, "281735", LBIS.L["Trinket"], "BIS") --Dark Iron Smoking Pipe
+    LBIS:AddItem(spec4, "27683", LBIS.L["Trinket"], "BIS") --Quagmirran's Eye
     LBIS:AddItem(spec4, "31856", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Crusade
     LBIS:AddItem(spec4, "30626", LBIS.L["Trinket"], "Alt") --Sextant of Unstable Currents
     LBIS:AddItem(spec4, "30449", LBIS.L["Trinket"], "Alt") --Void Star Talisman

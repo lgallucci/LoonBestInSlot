@@ -475,6 +475,7 @@ function LBIS:LoadShamanElemental()
     LBIS:AddItem(spec4, "32483", LBIS.L["Trinket"], "BIS") --The Skull of Gul'dan
     LBIS:AddItem(spec4, "28785", LBIS.L["Trinket"], "BIS") --The Lightning Capacitor
     LBIS:AddItem(spec4, "33829", LBIS.L["Trinket"], "BIS") --Hex Shrunken Head
+    LBIS:AddItem(spec4, "281735", LBIS.L["Trinket"], "BIS") --Dark Iron Smoking Pipe
     LBIS:AddItem(spec4, "29370", LBIS.L["Trinket"], "Alt") --Icon of the Silver Crescent
     LBIS:AddItem(spec4, "38290", LBIS.L["Trinket"], "Alt") --Dark Iron Smoking Pipe
     LBIS:AddItem(spec4, "31856", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Crusade

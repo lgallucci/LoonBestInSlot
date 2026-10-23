@@ -499,14 +499,14 @@ function LBIS:LoadShamanEnhancement()
     LBIS:AddItem(spec4, "29379", LBIS.L["Ring"], "Alt") --Ring of Arathi Warlords
     LBIS:AddItem(spec4, "28830", LBIS.L["Trinket"], "BIS") --Dragonspine Trophy
     LBIS:AddItem(spec4, "32505", LBIS.L["Trinket"], "BIS") --Madness of the Betrayer
+    LBIS:AddItem(spec4, "281739", LBIS.L["Trinket"], "BIS") --Empty Mug of Direbrew
     LBIS:AddItem(spec4, "33831", LBIS.L["Trinket"], "BIS") --Berserker's Call
-    LBIS:AddItem(spec4, "38287", LBIS.L["Trinket"], "BIS") --Empty Mug of Direbrew
+    LBIS:AddItem(spec4, "32491", LBIS.L["Trinket"], "Alt") --Ashtongue Talisman of Vision
+    LBIS:AddItem(spec4, "29383", LBIS.L["Trinket"], "Alt") --Bloodlust Brooch
     LBIS:AddItem(spec4, "30627", LBIS.L["Trinket"], "Alt") --Tsunami Talisman
     LBIS:AddItem(spec4, "31856", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Crusade
     LBIS:AddItem(spec4, "23041", LBIS.L["Trinket"], "Alt") --Slayer's Crest
-    LBIS:AddItem(spec4, "32491", LBIS.L["Trinket"], "Alt") --Ashtongue Talisman of Vision
     LBIS:AddItem(spec4, "28288", LBIS.L["Trinket"], "Alt") --Abacus of Violent Odds
-    LBIS:AddItem(spec4, "29383", LBIS.L["Trinket"], "Alt") --Bloodlust Brooch
     LBIS:AddItem(spec4, "29776", LBIS.L["Trinket"], "Alt") --Core of Ar'kelos
     LBIS:AddItem(spec4, "28034", LBIS.L["Trinket"], "Alt") --Hourglass of the Unraveller
     LBIS:AddItem(spec4, "33669", LBIS.L["Main Hand"], "BIS") --Vengeful Gladiator's Cleaver
