@@ -6,7 +6,7 @@ internal class DruidBearMapping : SpecMapping
 {
     public override string Class => "Druid";
     public override string Spec => "Bear";
-    public override string ClassUri => "https://www.wowhead.com/tbc/guide/classes/druid/feral/tank-overview-pve";
+    public override string ClassUri => "https://www.wowhead.com/forever/guide/classes/druid/feral/tank-overview-pve";
     public override string SpecUrl => "Guardian";
 
     public override string PreRaidUrl => "classes/druid/feral/tank-bis-gear-pve-pre-raid";

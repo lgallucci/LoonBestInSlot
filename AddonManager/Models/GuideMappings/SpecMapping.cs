@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace AddonManager.Models.GuideMappings;
 internal abstract class SpecMapping
 {
-    public string UrlBase => "https://www.wowhead.com/tbc/guide/";
+    public string UrlBase => "https://www.wowhead.com/forever/guide/";
     public abstract string Class { get; }
     public abstract string Spec { get; }
     public abstract string ClassUri { get; }

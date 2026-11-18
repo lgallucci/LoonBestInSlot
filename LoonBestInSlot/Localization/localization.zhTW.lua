@@ -221,7 +221,6 @@ if GetLocale() == "zhTW" then
   LBIS.L["Fury"] = "狂怒值";
 --  LBIS.L["G'eras"] = "";
   LBIS.L["Gava'xi"] = "卡沃希";
---  LBIS.L["Gems"] = "";
   LBIS.L["General Drakkisath's Demise"] = "達基薩斯將軍之死";
 --  LBIS.L["Gezzarak the Huntress"] = "";
   LBIS.L["Ghaz'an"] = "高薩安";

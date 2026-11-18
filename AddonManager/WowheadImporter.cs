@@ -306,11 +306,11 @@ public static class WowheadImporter
 
         return result;
     }
-    private static Dictionary<int, GemSpec> _gemSources = new Dictionary<int, GemSpec>();
+
     private static async Task<string> ImportClassInternal(ClassGuideMapping classGuideMapping, int phaseNumber, IHtmlDocument doc, Action<string> logFunc,  CancellationToken cancelToken)
     {
         var sb = new StringBuilder();
-        (Dictionary<int, GemSpec>, Dictionary<int, EnchantSpec>, Dictionary<int, ItemSpec>) itemsAndEnchants;
+        (Dictionary<int, EnchantSpec>, Dictionary<int, ItemSpec>) itemsAndEnchants;
         try
         {
             var className = $"{classGuideMapping.ClassName.Replace(" ", "")}{classGuideMapping.SpecName}";
@@ -320,37 +320,9 @@ public static class WowheadImporter
 
                 itemsAndEnchants = new WowheadGuideParser().ParseWowheadGuide(classGuideMapping, doc, logFunc);
 
-                if (!guide.Item1.ContainsKey(phaseNumber))
-                    guide.Item1.Add(phaseNumber, new List<GemSpec>());
-
-                var gemSources = new List<GemSpec>();
-                foreach (var gem in itemsAndEnchants.Item1)
-                {
-                    if (cancelToken.IsCancellationRequested)
-                        break;
-
-                    if (!guide.Item1.Any(g => g.Value.Any(g => g.GemId == gem.Key)))
-                    {
-                        if (_gemSources.ContainsKey(gem.Key))
-                        {
-                            gemSources.Add(_gemSources[gem.Key]);
-                        }
-                        else
-                        {
-                            var gemSource = await GetGemFromWowhead(gem.Key, logFunc);
-                            if (gemSource != null)
-                            {
-                                gemSources.Add(gemSource);
-                                _gemSources.Add(gem.Key, gemSource);
-                            }
-                        }
-                    }
-                }
-                guide.Item1[phaseNumber].AddRange(gemSources);
-
                 var jsonFileString = File.ReadAllText(Constants.CombinePath(Constants.ItemDbPath, @$"\ItemSlots.json"));
                 var itemSlots = JsonConvert.DeserializeObject<Dictionary<int, string>>(jsonFileString) ?? new Dictionary<int, string>();
-                foreach (var item in itemsAndEnchants.Item3)
+                foreach (var item in itemsAndEnchants.Item2)
                 {
                     if (cancelToken.IsCancellationRequested)
                         break;
@@ -376,11 +348,11 @@ public static class WowheadImporter
                 //     guide.Item2[phaseNumber].Clear();
 
                 
-                // foreach (var enchant in itemsAndEnchants.Item2)
+                // foreach (var enchant in itemsAndEnchants.Item1)
                 // {
-                //     if (!guide.Item2.Any(e => e.Value.Any(e => e.EnchantId == enchant.Key)))
+                //     if (!guide.Item1.Any(e => e.Value.Any(e => e.EnchantId == enchant.Key)))
                 //     {
-                //         guide.Item2[phaseNumber].Add(enchant.Value);
+                //         guide.Item1[phaseNumber].Add(enchant.Value);
                 //     }
                 // }
 
@@ -388,9 +360,8 @@ public static class WowheadImporter
                     guide.Item3.Add(phaseNumber, new List<ItemSpec>());
                 else
                     guide.Item3[phaseNumber].Clear();
-                guide.Item3[phaseNumber].AddRange(itemsAndEnchants.Item3.Values.ToList());
+                guide.Item3[phaseNumber].AddRange(itemsAndEnchants.Item2.Values.ToList());
 
-                WriteGemsInternal(guide.Item1[phaseNumber], logFunc);
                 WriteEnchantsInternal(guide.Item2[phaseNumber], logFunc);
                 WriteItemsInternal(guide.Item3[phaseNumber], logFunc);
                 ItemSpecFileManager.WriteItemSpec(Constants.CombinePath(Constants.AddonPath, $@"\Guides\{className.Replace(" ", "")}.lua"), 
@@ -406,13 +377,13 @@ public static class WowheadImporter
         {
             throw new ParseException(ex.ToString(), ex);
         }
-        VerifyGuide(itemsAndEnchants.Item3.Values.ToList());
+        VerifyGuide(itemsAndEnchants.Item2.Values.ToList());
         return sb.ToString();
     }
 
     private static async Task<string> GetSlotFromItemId(int itemId, Action<string> writeToLog)
     {
-        var doc = await Common.LoadFromWebPage($"https://www.wowhead.com/tbc/item={itemId}", writeToLog);
+        var doc = await Common.LoadFromWebPage($"https://www.wowhead.com/forever/item={itemId}", writeToLog);
 
         if (doc == null)
         {
@@ -463,72 +434,6 @@ public static class WowheadImporter
                 matchingEnchant.Slot = string.Join("~", newSlotList);
             }
         }
-    }
-
-    public static async Task<GemSpec?> GetGemFromWowhead(int gemId, Action<string> writeToLog)
-    {
-        GemSpec? gemSpec = null;
-        try
-        {
-            IHtmlDocument? doc = await Common.LoadFromWebPage($"https://www.wowhead.com/tbc/item={gemId}#taught-by-item", writeToLog);
-
-            if (doc != null)
-            {
-                var name = doc.Title?.Split("-")[0].Trim() ?? "unknown";
-                var breadcrumb = doc.QuerySelector(".breadcrumb");
-                var isMeta = breadcrumb?.LastElementChild?.TextContent == "Meta";
-                var quality = doc.QuerySelector(".wowhead-tooltip b")?.ClassName;
-
-                int itemQuality = 0;
-                if (quality?.Contains("q1") ?? false)
-                    itemQuality = 1;
-                else if (quality?.Contains("q2") ?? false)
-                    itemQuality = 2;
-                else if (quality?.Contains("q3") ?? false)
-                    itemQuality = 3;
-                else if (quality?.Contains("q4") ?? false)
-                    itemQuality = 4;
-                else if (quality?.Contains("q5") ?? false)
-                    itemQuality = 5;
-
-                gemSpec = new GemSpec
-                {
-                    GemId = gemId,
-                    Name = name,
-                    IsMeta = isMeta,
-                    Quality = itemQuality
-                };
-            }
-        }
-        catch
-        {
-            writeToLog("Error !");
-        }
-        return gemSpec;
-    }
-
-    private static void WriteGemsInternal(List<GemSpec> gems, Action<string> logFunc)
-    {
-        var gemSources = ItemSourceFileManager.ReadGemSources();
-
-        foreach (var gem in gems)
-        {
-            if (!gemSources.ContainsKey(gem.GemId) && gem.GemId > 0)
-            {
-                gemSources.Add(gem.GemId, new GemSource
-                {
-                    GemId = gem.GemId,
-                    DesignId = 99999,
-                    Name = gem.Name,
-                    Source = "\"unknown\"",
-                    SourceLocation = "\"unknown\"",
-                });
-            }
-
-            logFunc($"{gem.GemId}: {gem.Name}");
-        }
-
-        ItemSourceFileManager.WriteGemSources(gemSources);
     }
 
     private static void WriteItemsInternal(List<ItemSpec> items, Action<string> logFunc)
@@ -875,13 +780,13 @@ public static class WowheadImporter
         var sources = new Dictionary<int, List<(string, string)>>();
 
         var webAddresses = itemSources.Where((i) => i.Value.SourceType == @"LBIS.L[""unknown""]")
-                                           .Select((i) => $"https://www.wowhead.com/tbc/item={i.Key}/");
+                                           .Select((i) => $"https://www.wowhead.com/forever/item={i.Key}/");
         try
         {
             await Common.LoadFromWebPages(webAddresses, (uri, doc) =>
             {
                 var name = doc.Title?.Replace(" - Item - TBC Classic", "").Trim() ?? "\"unknown\"";
-                var itemId = Int32.Parse(uri.Replace("https://www.wowhead.com/tbc/item=", "").TrimEnd('/'));
+                var itemId = Int32.Parse(uri.Replace("https://www.wowhead.com/forever/item=", "").TrimEnd('/'));
                 var rowElements = doc.QuerySelectorAll("#tab-dropped-by .listview-mode-default .listview-row");
 
                 itemSources[itemId].Name = name;
@@ -968,108 +873,13 @@ public static class WowheadImporter
         ItemSourceFileManager.WriteItemSources(itemSources);
     }
 
-    public static async Task UpdateGemsFromWowhead(CancellationToken cancelToken, Action<object> writeToLog)
-    {
-        var gemSources = ItemSourceFileManager.ReadGemSources();
-
-        var sources = new Dictionary<int, List<(string, string)>>();
-        var webAddresses = gemSources.Where((i) => i.Value.Source == "unknown")
-                                     .Select((i) => $"https://www.wowhead.com/tbc/item={i.Key}#taught-by-item");
-
-        var designAddresses = new Dictionary<string, int>();
-
-        try
-        {
-            await Common.LoadFromWebPages(webAddresses, (uri, doc) =>
-            {
-                var name = doc.Title?.Replace(" - Item - TBC Classic", "").Trim() ?? "\"unknown\"";
-                var itemId = Int32.Parse(uri.Replace("https://www.wowhead.com/tbc/item=", "").Replace("#taught-by-item", "").TrimEnd('/'));
-                var taughtElements = doc.QuerySelectorAll("#tab-taught-by-item .listview-mode-default .listview-row");
-                var soldElements = doc.QuerySelectorAll("#tab-sold-by .listview-mode-default .listview-row");
-
-                var designId = 99999;
-                gemSources[itemId].Name = name;
-                if (taughtElements != null && taughtElements.Length > 0)
-                {
-                    if (taughtElements.Length == 1)
-                    {
-                        Common.RecursiveBoxSearch(taughtElements[0].Children[2], (anchor) =>
-                        {
-                            var item = anchor.PathName.Replace("/wotlk", "").Replace("/tbc/", "/").Replace("/item=", "").Replace("/spell=", "");
-                            var itemIdIndex = item.IndexOf("/");
-                            if (itemIdIndex == -1)
-                                itemIdIndex = item.IndexOf("&");
-                            item = item.Substring(0, itemIdIndex);
-                            designId = Int32.Parse(item);
-
-                            designAddresses.Add(anchor.Href, itemId);
-
-                            return true;
-                        });
-                    }
-                }
-                else if (soldElements.Any(se => se.TextContent.Contains("Engineering Supplies")))
-                {
-                    gemSources[itemId].Source = AddLocalizeText("Engineering Supplies");
-                    gemSources[itemId].SourceLocation = AddLocalizeText("Faction Capital");
-                }
-                gemSources[itemId].DesignId = designId;
-
-            }, writeToLog, cancelToken);
-
-            await Common.LoadFromWebPages(designAddresses.Keys.ToList(), (uri, doc) =>
-            {
-                var name = doc.Title?.Replace(" - Item - TBC Classic", "").Trim() ?? "\"unknown\"";
-                var soldElements = doc.QuerySelectorAll("#tab-sold-by .listview-mode-default .listview-row");
-                var dropElements = doc.QuerySelectorAll("#tab-dropped-by .listview-mode-default .listview-row");
-                var itemId = designAddresses[uri];
-
-                if (soldElements.Any(re => re.Children[0].TextContent.Trim().Contains("Jewelcrafting Supplies")))
-                {
-                    gemSources[itemId].Source = AddLocalizeText("Jewelcrafting Supplies");
-                    gemSources[itemId].SourceLocation = AddLocalizeText("Faction Capital");
-                }
-                else if (soldElements.Any(re => re.Children[0].TextContent.Trim().Contains("Engineering Supplies")))
-                {
-                    gemSources[itemId].Source = AddLocalizeText("Engineering Supplies");
-                    gemSources[itemId].SourceLocation = AddLocalizeText("Faction Capital");
-                }
-                else if (soldElements.Any(re => re.Children[0].TextContent.Trim().Contains("Quartermaster")))
-                {
-                    var soldElement = soldElements.First(re => re.Children[0].TextContent.Trim().Contains("Quartermaster"));
-                    var repName = soldElement.Children[0].TextContent.Trim();
-
-                    MatchCollection matches = Regex.Matches(repName, @"<(.*?)>");
-
-                    gemSources[itemId].Source = AddLocalizeText(matches.FirstOrDefault()?.Groups[1].Value ?? "Quartermaster");
-                    gemSources[itemId].SourceLocation = AddLocalizeText(soldElement.Children[1].TextContent.Trim());
-                }
-                else if (dropElements.Count() > 5)
-                {
-                    gemSources[itemId].Source = AddLocalizeText("World Drop");
-                    gemSources[itemId].SourceLocation = "\"\"";
-                }
-                else if (dropElements.Count() == 1)
-                {
-                    gemSources[itemId].Source = AddLocalizeText(dropElements[0].Children[0].TextContent.Trim());
-                    gemSources[itemId].SourceLocation = AddLocalizeText(dropElements[0].Children[2].TextContent.Trim());
-                }
-            }, writeToLog, cancelToken);
-        } catch (Exception ex)
-        {
-            writeToLog($"Error ! {ex.Message}");
-        }
-
-        ItemSourceFileManager.WriteGemSources(gemSources);
-    }
-
     public static async Task UpdateEnchantsFromWowhead(CancellationToken cancelToken, Action<object> writeToLog)
     {
         var enchantSources = ItemSourceFileManager.ReadEnchantSources();
 
         var sources = new Dictionary<int, List<(string, string)>>();
         var webAddresses = enchantSources.Where((i) => i.Value.Source == "unknown")
-                                     .Select((i) => $"https://www.wowhead.com/tbc/spell={i.Key}/");
+                                     .Select((i) => $"https://www.wowhead.com/forever/spell={i.Key}/");
 
         var scrollAddresses = new Dictionary<string, int>();
 
@@ -1078,7 +888,7 @@ public static class WowheadImporter
             await Common.LoadFromWebPages(webAddresses, (uri, doc) =>
             {
                 var name = doc.Title?.Replace(" - Spell - TBC Classic", "").Trim() ?? "\"unknown\"";
-                var spellId = Int32.Parse(uri.Replace("https://www.wowhead.com/tbc/spell=", "").TrimEnd('/'));
+                var spellId = Int32.Parse(uri.Replace("https://www.wowhead.com/forever/spell=", "").TrimEnd('/'));
                 var taughtElements = doc.QuerySelectorAll("#tab-taught-by-npc .listview-mode-default .listview-row");
                 var taughtItemElements = doc.QuerySelectorAll("#tab-taught-by-item .listview-mode-default .listview-row");
                 var usedByElements = doc.QuerySelectorAll("#tab-used-by-item .listview-mode-default .listview-row");

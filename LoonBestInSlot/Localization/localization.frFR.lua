@@ -220,7 +220,6 @@ if GetLocale() == "frFR" then
   LBIS.L["Fury"] = "Fureur";
   LBIS.L["G'eras"] = "G'eras";
   LBIS.L["Gava'xi"] = "Gava'xi";
-  LBIS.L["Gems"] = "Gemmes";
   LBIS.L["General Drakkisath's Demise"] = "La reddition du général Drakkisath";
   LBIS.L["Gezzarak the Huntress"] = "Gezzarak la Chasseresse";
   LBIS.L["Ghaz'an"] = "Ghaz'an";

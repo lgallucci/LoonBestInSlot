@@ -6,7 +6,6 @@ namespace AddonManager.FileManagers;
 public static class ItemSpecFileManager
 {
     public static void WriteItemSpec(string path, string className, string specName, string classUri,
-        Dictionary<int, List<GemSpec>> gemsList, 
         Dictionary<int, List<EnchantSpec>> enchantsList,
         Dictionary<int, List<ItemSpec>> itemsList)
     {
@@ -19,19 +18,6 @@ public static class ItemSpecFileManager
         itemSB.AppendLine($"    local spec3 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"3\", \"{classUri}\")");
         itemSB.AppendLine($"    local spec4 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"4\", \"{classUri}\")");
         itemSB.AppendLine($"    local spec5 = LBIS:RegisterSpec(LBIS.L[\"{className}\"], LBIS.L[\"{specName}\"], \"5\", \"{classUri}\")");
-
-        itemSB.AppendLine();
-        foreach (var phaseGems in gemsList)
-        {
-            var gems = phaseGems.Value;
-            gems.Sort();
-            foreach (var gem in gems)
-            {
-                string specString = $"spec{phaseGems.Key}";
-
-                itemSB.AppendLine($"    LBIS:AddGem({specString}, \"{gem.GemId}\", \"{gem.Quality}\", \"{gem.IsMeta.ToString()}\") --{gem.Name}");
-            }
-        }
 
         itemSB.AppendLine();
         foreach (var phaseEnchants in enchantsList)
@@ -61,9 +47,8 @@ public static class ItemSpecFileManager
         System.IO.File.WriteAllText(path, itemSB.ToString());
     }
 
-    public static Tuple<Dictionary<int, List<GemSpec>>, Dictionary<int, List<EnchantSpec>>, Dictionary<int, List<ItemSpec>>> ReadGuide(string path)
+    public static Tuple<Dictionary<int, List<EnchantSpec>>, Dictionary<int, List<ItemSpec>>> ReadGuide(string path)
     {
-        var gems = new Dictionary<int, List<GemSpec>>();
         var enchants = new Dictionary<int, List<EnchantSpec>>();
         var items = new Dictionary<int, List<ItemSpec>>();
 
@@ -75,25 +60,6 @@ public static class ItemSpecFileManager
             if (itemSpecLine.Contains("local spec") || itemSpecLine.StartsWith("function LBIS:Load") || itemSpecLine == "end")
             {
                 continue;
-            }
-
-            if (itemSpecLine.Contains("LBIS:AddGem(spec"))
-            {
-                var itemSplit = itemSpecLine.Replace("LBIS:AddGem(spec", "").Trim().Split('"');
-
-                var gemId = Int32.Parse(itemSplit[1]);
-                var phase = Int32.Parse(itemSplit[0].Replace(", ", ""));
-
-                if (!gems.ContainsKey(phase))
-                    gems.Add(phase, new List<GemSpec>());
-
-                gems[phase].Add(new GemSpec
-                {
-                    GemId = gemId,
-                    Name = itemSplit[6].Replace(") --", ""),
-                    Quality = Int32.Parse(itemSplit[3]),
-                    IsMeta = bool.Parse(itemSplit[5])
-                });
             }
 
             if (itemSpecLine.Contains("LBIS:AddEnchant(spec"))
@@ -137,7 +103,7 @@ public static class ItemSpecFileManager
             }
         }
 
-        return new Tuple<Dictionary<int, List<GemSpec>>, Dictionary<int, List<EnchantSpec>>, Dictionary<int, List<ItemSpec>>>(gems, enchants, items);
+        return new Tuple<Dictionary<int, List<EnchantSpec>>, Dictionary<int, List<ItemSpec>>>(enchants, items);
 
     }
 }

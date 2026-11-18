@@ -221,7 +221,6 @@ if GetLocale() == "koKR" then
   LBIS.L["Fury"] = "분노";
 --  LBIS.L["G'eras"] = "";
   LBIS.L["Gava'xi"] = "가바시";
-  LBIS.L["Gems"] = "보석";
   LBIS.L["General Drakkisath's Demise"] = "사령관 드라키사스 처치";
 --  LBIS.L["Gezzarak the Huntress"] = "";
   LBIS.L["Ghaz'an"] = "가즈안";

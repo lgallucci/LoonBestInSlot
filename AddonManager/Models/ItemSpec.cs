@@ -59,27 +59,6 @@ public class ItemSpec : IComparable<ItemSpec>
 
 }
 
-public class GemSpec : IComparable<GemSpec>
-{
-    public int CompareTo(GemSpec? other)
-    {
-        if (other == null)
-            return -1;
-
-        if (this.IsMeta && !other.IsMeta)
-            return -1;
-        else if (!this.IsMeta && other.IsMeta)
-            return 1;
-
-        return this.Quality >= other.Quality ? (this.Quality == other.Quality ? 0 : -1) : 1;
-    }
-
-    public int GemId { get; set; }
-    public string Name { get; set; } = string.Empty;
-    public int Quality { get; set; }
-    public bool IsMeta { get; set; }
-}
-
 public class EnchantSpec : IComparable<EnchantSpec>
 {
 

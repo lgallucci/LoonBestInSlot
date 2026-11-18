@@ -11,14 +11,14 @@ public class EmblemImporter : LootImporter
 {
     private Dictionary<string, string> wowheadUriList = new Dictionary<string, string>
     {
-        { "https://www.wowhead.com/tbc/npc=19773/spirit-sage-zran#sells", "Spirit Sage Gartok/Spirit Sage Zran" },
-        { "https://www.wowhead.com/tbc/npc=18525/geras#sells", "G'eras" },
-        { "https://www.wowhead.com/tbc/npc=18525/geras#sells;50", "G'eras" },
-        { "https://www.wowhead.com/tbc/npc=18525/geras#sells;100", "G'eras" },
-        { "https://www.wowhead.com/tbc/npc=25046/smith-hauthaa#sells", "Smith Hauthaa" },
-        { "https://www.wowhead.com/tbc/npc=25046/smith-hauthaa#sells;50", "Smith Hauthaa" },
-        { "https://www.wowhead.com/tbc/npc=26089/kayri#sells", "Kayri" },
-        { "https://www.wowhead.com/tbc/npc=26089/kayri#sells;50", "Kayri" },
+        { "https://www.wowhead.com/forever/npc=19773/spirit-sage-zran#sells", "Spirit Sage Gartok/Spirit Sage Zran" },
+        { "https://www.wowhead.com/forever/npc=18525/geras#sells", "G'eras" },
+        { "https://www.wowhead.com/forever/npc=18525/geras#sells;50", "G'eras" },
+        { "https://www.wowhead.com/forever/npc=18525/geras#sells;100", "G'eras" },
+        { "https://www.wowhead.com/forever/npc=25046/smith-hauthaa#sells", "Smith Hauthaa" },
+        { "https://www.wowhead.com/forever/npc=25046/smith-hauthaa#sells;50", "Smith Hauthaa" },
+        { "https://www.wowhead.com/forever/npc=26089/kayri#sells", "Kayri" },
+        { "https://www.wowhead.com/forever/npc=26089/kayri#sells;50", "Kayri" },
     };
 
     private List<string> guideUriList = new List<string>()

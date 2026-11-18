@@ -1,7 +1,7 @@
 local addonName = ...;
 
 LBIS.WowheadLink = "https://www.wowhead.com/tbc";
-LBIS.WowheadClassGuideLink = "https://www.wowhead.com/tbc/guide/classes/druid/balance/dps-overview-pve";
+LBIS.WowheadClassGuideLink = "https://www.wowhead.com/forever/guide/classes/druid/balance/dps-overview-pve";
 
 LBIS.ClassSpec = {};
 LBIS.NameToSpecId = {};
@@ -9,7 +9,6 @@ LBIS.ItemsByIdAndSpec = {};
 LBIS.SpellsByIdAndSpec = {};
 
 LBIS.ItemsBySpecAndId = {};
-LBIS.GemsBySpecAndId = {};
 LBIS.EnchantsBySpecAndId = {};
 
 LBIS.AllItemsCached = false;
@@ -162,48 +161,6 @@ function LBIS:AddItem(bisEntry, id, slot, bis)
 		LBIS.ItemsByIdAndSpec[tonumber(itemSource.SourceNumber)][bisEntry.Id] = searchedItem
 	end
 	addOrder = addOrder + 1;
-end
-
-function LBIS:AddGem(bisEntry, id, quality, isMeta)
-
-	if strlen(id) <= 0 then
-		return
-	end
-
-	local gemId = tonumber(id);
-
-	if LBISSettings.ShowPhase < tonumber(bisEntry.Phase) then
-		return;
-	end
-
-	if not LBIS.ItemsByIdAndSpec[gemId] then
-		LBIS.ItemsByIdAndSpec[gemId] = {}
-	end
-
-	local searchedItem = LBIS.ItemsByIdAndSpec[gemId][bisEntry.Id];
-
-	if searchedItem == nil then
-
-		searchedItem = { Id = gemId, Phase = bisEntry.Phase, Quality = quality, IsMeta = isMeta, Bis = "" }
-
-		if not LBIS.GemsBySpecAndId[bisEntry.Id] then
-			LBIS.GemsBySpecAndId[bisEntry.Id] = {}
-		end
-	end
-
-	LBIS.GemsBySpecAndId[bisEntry.Id][gemId] = searchedItem;
-	LBIS.ItemsByIdAndSpec[gemId][bisEntry.Id] = searchedItem
-
-	local gemSource = LBIS.GemSources[gemId];
-
-	local designId = tonumber(gemSource.DesignId);
-	if designId > 0 then		
-		if not LBIS.ItemsByIdAndSpec[designId] then
-			LBIS.ItemsByIdAndSpec[designId] = {}
-		end
-
-		LBIS.ItemsByIdAndSpec[designId][bisEntry.Id] = searchedItem;
-	end
 end
 
 function LBIS:AddEnchant(bisEntry, id, slot)

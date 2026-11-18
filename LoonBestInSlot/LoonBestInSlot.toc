@@ -19,7 +19,6 @@ Localization\Localization.xml
 Settings.lua
 
 DB\ItemSources.lua
-DB\GemSources.lua
 DB\EnchantSources.lua
 DB\TierSources.lua
 
@@ -32,7 +31,6 @@ MinimapButton.lua
 
 UI\LootBrowser.lua
 UI\ItemList.lua
-UI\GemList.lua
 UI\EnchantList.lua
 UI\CustomEditList.lua
 UI\CustomItemList.lua

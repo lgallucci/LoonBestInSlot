@@ -220,7 +220,6 @@ if GetLocale() == "esMX" then
   LBIS.L["Fury"] = "Ira";
 --  LBIS.L["G'eras"] = "";
   LBIS.L["Gava'xi"] = "Gava'xi";
---  LBIS.L["Gems"] = "";
   LBIS.L["General Drakkisath's Demise"] = "Muerte al general Drakkisath";
 --  LBIS.L["Gezzarak the Huntress"] = "";
   LBIS.L["Ghaz'an"] = "Ghaz'an";

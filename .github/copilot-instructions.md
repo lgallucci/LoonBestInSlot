@@ -24,7 +24,7 @@ Data flow: WowheadGuideParser → Importers (Raid, Dungeon, etc.) → JSON in It
 ## Integration Points
 - Wowhead URLs hardcoded in Importers (e.g., RaidImporter.wowheadUriList).
 - Localization from Blizzard/LibBabble libraries in LocalizationCreator/.
-- Gems/enchants parsed from guide tables; items from markup tables.
+- enchants parsed from guide tables; items from markup tables.
 
 ## Common Tasks
 - Adding new raid: Create Wowhead URL in RaidImporter; run importer.

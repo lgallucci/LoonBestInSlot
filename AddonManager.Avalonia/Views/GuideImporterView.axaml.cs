@@ -125,20 +125,12 @@ public partial class GuideImporterView : UserControl
     {
         ConsoleOut.Text = string.Empty;
 
-        await RefreshAllGemSources();
         await RefreshAllEnchantSources();
         await RefreshAllItemSources();
 
         ConsoleOut.Text = $"Refresh All Complete!" + Environment.NewLine + ConsoleOut.Text;
     }
-
-    private async Task RefreshAllGemSources()
-    {
-        ConsoleOut.Text = $"Refreshing Gems..." + Environment.NewLine + ConsoleOut.Text;
-        _importCancelToken = new CancellationTokenSource();
-        await WowheadImporter.UpdateGemsFromWowhead(_importCancelToken.Token, (s) => { ConsoleOut.Text = s + Environment.NewLine + ConsoleOut.Text; });
-    }
-
+    
     private async Task RefreshAllEnchantSources()
     {
         ConsoleOut.Text = $"Refreshing Enchants..." + Environment.NewLine + ConsoleOut.Text;

@@ -26,15 +26,7 @@ public class WowheadGuideParser
 
     private SlotSwaps _slotSwaps = new SlotSwaps();
     private Random _rand = new Random(DateTime.Now.Millisecond);
-    private Dictionary<int, int> _gemSwaps = new Dictionary<int, int>()
-    {
-        {0, 0} //
-    };
 
-    private Dictionary<int, int> _gemPhases = new Dictionary<int, int>()
-    {
-        {0, 0} //
-    };
 
     private Dictionary<int, int> _spellEnchantSwaps = new Dictionary<int, int>()
     {
@@ -62,28 +54,12 @@ public class WowheadGuideParser
         {0, 0}
     };
     
-    public (Dictionary<int, GemSpec>, Dictionary<int, EnchantSpec>, Dictionary<int, ItemSpec>) ParseWowheadGuide(ClassGuideMapping classGuide, IHtmlDocument doc, Action<string> logFunc)
+    public (Dictionary<int, EnchantSpec>, Dictionary<int, ItemSpec>) ParseWowheadGuide(ClassGuideMapping classGuide, IHtmlDocument doc, Action<string> logFunc)
     {
         var items = new Dictionary<int, ItemSpec>();
         var enchants = new Dictionary<int, EnchantSpec>();
-        var gems = new Dictionary<int, GemSpec>();
         var jsonFileString = File.ReadAllText(Constants.CombinePath(Constants.ItemDbPath, @$"\ItemSlots.json"));
         var itemSlots = JsonConvert.DeserializeObject<Dictionary<int, string>>(jsonFileString) ?? new Dictionary<int, string>();
-
-        bool enchantsAndGems = classGuide.Phase == Constants.CurrentPhase;
-
-        //Get Gems and Enchants
-        // LoopThroughEnchantsAndGems(doc, (enchantAnchor, slot) =>
-        //     {
-        //         ParseEnchant(enchantAnchor, slot, enchants);
-        //         return true;
-        //     },
-        //     (gemAnchor, slot) =>
-        //     {
-        //         ParseGem(gemAnchor, gems);
-        //         return true;
-        //     }
-        // );
 
         //Get Items
         bool first = true;
@@ -105,27 +81,7 @@ public class WowheadGuideParser
             first = false;
         }
 
-        //Get Gems
-        var gemList = GetExcludeUnitsTilNextHeader(doc, "#gemming");
-        if (gemList != null)
-        {
-            foreach (var gemItem in gemList)
-            {
-                Common.RecursiveBoxSearch(gemItem, (child) =>
-                {
-                    var gemAnchor = (IHtmlAnchorElement)child;
-
-                    if (gemAnchor.PathName.Contains("tbc/"))
-                    {
-                        ParseGem(gemAnchor, gems);
-                        return true;
-                    }
-                    return false;
-                });
-            }
-        }
-
-        return (gems, enchants, items);
+        return (enchants, items);
     }
 
     private IEnumerable<IElement> GetExcludeUnitsTilNextHeader(IHtmlDocument doc, string headerId)
@@ -150,7 +106,7 @@ public class WowheadGuideParser
         return elements;
     }
 
-    private void LoopThroughEnchantsAndGems(IHtmlDocument doc, Func<IHtmlAnchorElement, string, bool> foundEnchant, Func<IHtmlAnchorElement, string, bool> foundGem)
+    private void LoopThroughEnchants(IHtmlDocument doc, Func<IHtmlAnchorElement, string, bool> foundEnchant)
     {
         var gearSlots = doc.QuerySelectorAll(".gear-planner-slots-group-slot");
 
@@ -166,16 +122,6 @@ public class WowheadGuideParser
                     var enchantAnchor = (IHtmlAnchorElement)child;
                     if (enchantAnchor.PathName.Contains("tbc/"))
                         return foundEnchant(enchantAnchor, GetSlotFromId(slotId?.Value));
-                    return false;
-                });
-
-            var gemDivs = gearSlot.QuerySelectorAll(".gear-planner-slots-group-slot-gem");
-            foreach (var gemDiv in gemDivs)
-                Common.RecursiveBoxSearch(gemDiv, (child) =>
-                {
-                    var gemAnchor = (IHtmlAnchorElement)child;
-                    if (gemAnchor.PathName.Contains("tbc/"))
-                        return foundGem(gemAnchor, GetSlotFromId(slotId?.Value));
                     return false;
                 });
         }
@@ -219,30 +165,6 @@ public class WowheadGuideParser
                 return "Ranged/Relic";
             default:
                 throw new ArgumentOutOfRangeException(nameof(value), $"Unsupported slot id: {value}");
-        }
-    }
-
-    private void ParseGem(IHtmlAnchorElement anchorElement, Dictionary<int, GemSpec> gems)
-    {
-        if (anchorElement.PathName.Contains("/item="))
-        {
-            var item = anchorElement.PathName.Replace("/wotlk", "").Replace("/tbc/", "/").Replace("/item=", "");
-            var itemIdIndex = item.IndexOf("/");
-            if (itemIdIndex == -1)
-                itemIdIndex = item.IndexOf("&");
-            if (itemIdIndex != -1)
-                item = item.Substring(0, itemIdIndex);
-            var gemId = Int32.Parse(item);
-            if (_gemSwaps.ContainsKey(gemId))
-            {
-                gemId = _gemSwaps[gemId];
-            }
-            if (!gems.ContainsKey(gemId))
-            {
-                gems.Add(gemId, new GemSpec {
-                    GemId = gemId
-                });
-            }
         }
     }
 

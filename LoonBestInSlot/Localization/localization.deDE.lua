@@ -219,7 +219,6 @@ if GetLocale() == "deDE" then
   LBIS.L["Fury"] = "Furor";
 --  LBIS.L["G'eras"] = "";
   LBIS.L["Gava'xi"] = "Gava'xi";
-  LBIS.L["Gems"] = "Edelsteine";
   LBIS.L["General Drakkisath's Demise"] = "General Drakkisaths Niedergang";
 --  LBIS.L["Gezzarak the Huntress"] = "";
   LBIS.L["Ghaz'an"] = "Ghaz'an";
