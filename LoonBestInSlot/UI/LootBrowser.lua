@@ -259,11 +259,9 @@ local function SetLinkButtonText(text)
 end
 
 local function createWowheadFrame(window)
-    local wowheadFrame = CreateFrame("Frame", "WowheadFrame", window, "BackdropTemplate");
-    wowheadFrame:SetBackdropBorderColor(1, 1, 1)
-    wowheadFrame:SetBackdropColor(0.09, 0.09,  0.19);
-    wowheadFrame:SetPoint("TOPLEFT", window, "TOPLEFT", 5, -55);
-    wowheadFrame:SetPoint("BOTTOMRIGHT", window, "TOPRIGHT", -5, -70);
+    local wowheadFrame = CreateFrame("Frame", "WowheadFrame", window);
+    wowheadFrame:SetPoint("TOPLEFT", window, "TOPLEFT", 10, -78);
+    wowheadFrame:SetPoint("BOTTOMRIGHT", window, "TOPRIGHT", -10, -94);
 
     local wowheadImage = CreateFrame("Button", "WowheadLinkButton", wowheadFrame)
     wowheadImage:SetPoint("TOPRIGHT", wowheadFrame, "TOPRIGHT", 0, 0)
@@ -322,8 +320,8 @@ local function createDropDowns(window)
             LBIS.BrowserWindow:RefreshItems();
         end
     }
-    window.SpecDropDown = LBIS:CreateDropdown(spec_opts, 140);
-    window.SpecDropDown:SetPoint("TOPLEFT", window, 15, -28);        
+    window.SpecDropDown = LBIS:CreateDropdown(spec_opts, 180);
+    window.SpecDropDown:SetPoint("TOPLEFT", window, 20, -45);
     SetLinkButtonText("View "..LBISSettings.SelectedSpec.." Guide on Wowhead");
 
     local slot_opts = {
@@ -339,8 +337,8 @@ local function createDropDowns(window)
             LBIS.BrowserWindow:RefreshItems()
         end
     }
-    window.SlotDropDown = LBIS:CreateDropdown(slot_opts, 90);
-    window.SlotDropDown:SetPoint("TOPLEFT", window, 195, -28);
+    window.SlotDropDown = LBIS:CreateDropdown(slot_opts, 100);
+    window.SlotDropDown:SetPoint("TOPLEFT", window, 220, -45);
 
     local function getPhases()
         local phases = { LBIS.L["All"], LBIS.L["PreRaid"] };
@@ -374,8 +372,8 @@ local function createDropDowns(window)
             LBIS.BrowserWindow:RefreshItems();
         end
     }
-    window.PhaseDropDown = LBIS:CreateDropdown(phase_opts, 70);
-    window.PhaseDropDown:SetPoint("TOPLEFT", window, 330, -28);
+    window.PhaseDropDown = LBIS:CreateDropdown(phase_opts, 90);
+    window.PhaseDropDown:SetPoint("TOPLEFT", window, 340, -45);
 
     local rank_opts = {
         ['name']='rank',
@@ -388,8 +386,8 @@ local function createDropDowns(window)
             LBIS.BrowserWindow:RefreshItems();
         end
     }
-    window.RankDropDown = LBIS:CreateDropdown(rank_opts, 70);
-    window.RankDropDown:SetPoint("TOPLEFT", window, 330, -28);
+    window.RankDropDown = LBIS:CreateDropdown(rank_opts, 90);
+    window.RankDropDown:SetPoint("TOPLEFT", window, 340, -45);
 
     local source_opts = {
         ['name']='source',
@@ -403,16 +401,16 @@ local function createDropDowns(window)
             LBIS.BrowserWindow:RefreshItems();
         end
     }
-    window.SourceDropDown = LBIS:CreateDropdown(source_opts, 110);
-    window.SourceDropDown:SetPoint("TOPLEFT", window, 450, -28);
+    window.SourceDropDown = LBIS:CreateDropdown(source_opts, 120);
+    window.SourceDropDown:SetPoint("TOPLEFT", window, 450, -45);
 
     local function getZoneItems()
         local items = { LBIS.L["All"],  }-- Phase 0
 
         if LBISSettings.ShowPhase >= 1 then            
-            table.insert(items, LBIS.L["Karazhan"]);
-            table.insert(items, LBIS.L["Gruul's Lair"]);
-            table.insert(items, LBIS.L["Magtheridon's Lair"]);
+            table.insert(items, LBIS.L["Hyjal Summit"]);
+            table.insert(items, LBIS.L["Barrow Deeps"]);
+            table.insert(items, LBIS.L["Onyxia's Lair"]);
         end
 
         if LBISSettings.ShowPhase >= 2 then
@@ -447,39 +445,28 @@ local function createDropDowns(window)
             LBIS.BrowserWindow:RefreshItems();
         end
     }
-    window.RaidDropDown = LBIS:CreateDropdown(zone_opts, 160);
-    window.RaidDropDown:SetPoint("TOPLEFT", window, 600, -28);
+    window.RaidDropDown = LBIS:CreateDropdown(zone_opts, 190);
+    window.RaidDropDown:SetPoint("TOPLEFT", window, 590, -45);
 
 end
 
 function LBIS.BrowserWindow:CreateBrowserWindow()
     local step = 25;
     local windowName = "LootBrowserWindow";
-    local window = CreateFrame("Frame", windowName, UIParent, "BackdropTemplate");
+    local window = CreateFrame("Frame", windowName, UIParent, "DefaultPanelTemplate");
+    window:SetTitle(LBIS.L["Loon Best In Slot Browser"]);
+    window.Bg:SetVertexColor(0.35, 0.35, 0.35);
+    window.TopTileStreaks:SetVertexColor(0.35, 0.35, 0.35);
 
-    window:SetBackdrop({
-        bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background-Dark",
-        edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
-        tile = 1,
-        tileSize = 10,
-        edgeSize = 10,
-        insets = { left = 3, right = 3, top = 3, bottom = 3 },
-    });
-
-    window:SetBackdropBorderColor(1, 1, 1)
-    window:SetBackdropColor(0.09, 0.09,  0.19);
-
-    local windowCloseButton = CreateFrame("Button", windowName.."CloseButton", window)
-    windowCloseButton:SetPoint("TOPRIGHT", window, "TOPRIGHT", 0, 0)
-    windowCloseButton:SetSize(32, 32);
-    windowCloseButton:SetNormalTexture("Interface\\Buttons\\UI-Panel-MinimizeButton-Up");
-    windowCloseButton:SetPushedTexture("Interface\\Buttons\\UI-Panel-MinimizeButton-Down")
+    local windowCloseButton = CreateFrame("Button", windowName.."CloseButton", window, "UIPanelCloseButtonNoScripts")
+    windowCloseButton:SetPoint("TOPRIGHT", window, "TOPRIGHT", -5, 0)
     windowCloseButton:SetScript("OnClick", function(self)
         window:Hide();
     end);
-    local windowFeatureButton = CreateFrame("Button", "NewFeaturesWindowCloseButton", window)
-    windowFeatureButton:SetPoint("TOPLEFT", window, "TOPLEFT", 2, 0)
+    local windowFeatureButton = CreateFrame("Button", windowName.."FeatureButton", window)
+    windowFeatureButton:SetPoint("TOPLEFT", window, "TOPLEFT", 5, 5)
     windowFeatureButton:SetSize(32, 32);
+    windowFeatureButton:SetFrameLevel(window.TitleContainer:GetFrameLevel() + 1);
     windowFeatureButton:SetNormalTexture("Interface\\Buttons\\UI-LinkProfession-Up");
     windowFeatureButton:SetPushedTexture("Interface\\Buttons\\UI-LinkProfession-Down")
     windowFeatureButton:SetScript("OnClick", function(self)
@@ -518,17 +505,13 @@ function LBIS.BrowserWindow:CreateBrowserWindow()
 
     window:RegisterForDrag("LeftButton");
 
-    local header = window:CreateFontString(nil, nil, "GameFontHighlightMed2");
-    header:SetText(LBIS.L["Loon Best In Slot Browser"]);
-    header:SetPoint("TOP", window, -5, -5);
-
     local topLine = window:CreateLine();
     topLine:SetColorTexture(1,1,1,0.5);
     topLine:SetThickness(2);
-    topLine:SetStartPoint("TOPLEFT",10, -74);
-    topLine:SetEndPoint("TOPRIGHT",-25, -74);
+    topLine:SetStartPoint("TOPLEFT",10, -100);
+    topLine:SetEndPoint("TOPRIGHT",-25, -100);
 
-    scrollframe:SetPoint("TOPLEFT", 10, -75);
+    scrollframe:SetPoint("TOPLEFT", 10, -101);
     scrollframe:SetPoint("BOTTOMRIGHT", -25, 10);
     
     scrollframe:EnableMouse(true);

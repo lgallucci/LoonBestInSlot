@@ -191,21 +191,10 @@ function LBIS.AutoComplete:HandleKeyDown(key)
 end
 
 function LBIS.AutoComplete:Create(frame, selectFunc) 
-    local scrollframe = CreateFrame("ScrollFrame", nil, frame, 'BackdropTemplate');
+    local scrollframe = CreateFrame("ScrollFrame", nil, frame, 'InsetFrameTemplate');
     local scrollbar = CreateFrame("Slider", nil, scrollframe, "UIPanelScrollBarTemplate");
     local content = CreateFrame("Frame", nil, scrollframe);
     
-    scrollframe:SetBackdrop({
-        bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background-Dark",
-        edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
-        tile = 1,
-        tileSize = 10,
-        edgeSize = 10,
-        insets = { left = 3, right = 3, top = 3, bottom = 3 },
-    });
-    
-    scrollframe:SetBackdropBorderColor(1, 1, 1)
-    scrollframe:SetBackdropColor(0.09, 0.09,  0.19);
     scrollframe:EnableMouseWheel(true);
 
     local step = 25;

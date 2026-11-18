@@ -143,19 +143,7 @@ end
 
 local function createCustomList(f)
 
-    local itemf = CreateFrame('Frame', nil, f, 'BackdropTemplate')
-
-    itemf:SetBackdrop({
-            bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background-Dark",
-            edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
-            tile = 1,
-            tileSize = 10,
-            edgeSize = 10,
-            insets = { left = 3, right = 3, top = 3, bottom = 3 },
-          });
-
-    itemf:SetBackdropBorderColor(1, 1, 1)
-    itemf:SetBackdropColor(0.09, 0.09,  0.19);
+    local itemf = CreateFrame('Frame', nil, f, 'InsetFrameTemplate')
     itemf:SetPoint('TOP', f, 'CENTER', 0, 75);
     itemf:SetSize(700, 300);
     itemf.CustomButtons = {};
@@ -268,12 +256,7 @@ function LBIS.SearchFrame:CreateSearch()
 
     local scrollframe = LBIS.BrowserWindow.Window.ScrollFrame;
 
-    local f = CreateFrame("Frame", nil, scrollframe, "BackdropTemplate");
-    f:SetBackdrop({
-        bgFile = "Interface\\Tooltips\\UI-Tooltip-Background",
-        tile = true
-    });
-    f:SetBackdropColor(.1, .1, .1, 1);
+    local f = CreateFrame("Frame", nil, scrollframe, "InsetFrameTemplate");
     f:SetSize(scrollframe:GetWidth(), scrollframe:GetHeight());
     f:ClearAllPoints();
     f:SetPoint("TOPLEFT", scrollframe, 0, 0);

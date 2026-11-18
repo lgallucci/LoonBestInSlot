@@ -12,7 +12,6 @@ libs\LibDataBroker-1.1.lua
 libs\LibDBIcon-1.0.lua
 libs\AceGUI-3.0\AceGUI-3.0.xml
 libs\AceConfig-3.0\AceConfig-3.0.xml
-libs\LibUIDropDownMenu\LibUIDropDownMenu.xml
 
 Localization\Localization.xml
 
