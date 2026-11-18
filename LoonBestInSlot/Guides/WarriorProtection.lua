@@ -2,17 +2,17 @@ function LBIS:LoadWarriorProtection()
     local spec0 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Protection"], "0", "https://www.wowhead.com/forever/guide/classes/warrior/protection/tank-talent-builds-pve")
     local spec1 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Protection"], "1", "https://www.wowhead.com/forever/guide/classes/warrior/protection/tank-talent-builds-pve")
 
-    LBIS:AddEnchant(spec6, "24149", LBIS.L["Head/Legs"]) --
-    LBIS:AddEnchant(spec6, "29480", LBIS.L["Shoulder"]) --
-    LBIS:AddEnchant(spec6, "25086", LBIS.L["Back"]) --
-    LBIS:AddEnchant(spec6, "20025", LBIS.L["Chest"]) --
-    LBIS:AddEnchant(spec6, "20011", LBIS.L["Wrist"]) --
-    LBIS:AddEnchant(spec6, "25072", LBIS.L["Hands"]) --
-    LBIS:AddEnchant(spec6, "13890", LBIS.L["Feet"]) --
-    LBIS:AddEnchant(spec6, "20034", LBIS.L["Main Hand"]) --
-    LBIS:AddEnchant(spec6, "23800", LBIS.L["Off Hand"]) --
-    LBIS:AddEnchant(spec6, "3975", LBIS.L["Ranged/Relic"]) --
-    LBIS:AddEnchant(spec6, "12460", LBIS.L["Ranged/Relic"]) --
+    LBIS:AddEnchant(spec0, "24149", LBIS.L["Head/Legs"]) --
+    LBIS:AddEnchant(spec0, "29480", LBIS.L["Shoulder"]) --
+    LBIS:AddEnchant(spec0, "25086", LBIS.L["Back"]) --
+    LBIS:AddEnchant(spec0, "20025", LBIS.L["Chest"]) --
+    LBIS:AddEnchant(spec0, "20011", LBIS.L["Wrist"]) --
+    LBIS:AddEnchant(spec0, "25072", LBIS.L["Hands"]) --
+    LBIS:AddEnchant(spec0, "13890", LBIS.L["Feet"]) --
+    LBIS:AddEnchant(spec0, "20034", LBIS.L["Main Hand"]) --
+    LBIS:AddEnchant(spec0, "23800", LBIS.L["Off Hand"]) --
+    LBIS:AddEnchant(spec0, "3975", LBIS.L["Ranged/Relic"]) --
+    LBIS:AddEnchant(spec0, "12460", LBIS.L["Ranged/Relic"]) --
 
     LBIS:AddItem(spec0, "12640", LBIS.L["Head"], "Alt") --Lionheart Helm
     LBIS:AddItem(spec0, "23244", LBIS.L["Head"], "Alt") --Champion's Plate Helm

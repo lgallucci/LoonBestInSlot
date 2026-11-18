@@ -2,14 +2,14 @@ function LBIS:LoadDruidBear()
     local spec0 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Bear"], "0", "https://www.wowhead.com/forever/guide/classes/druid/feral/tank-overview-pve")
     local spec1 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Bear"], "1", "https://www.wowhead.com/forever/guide/classes/druid/feral/tank-overview-pve")
     
-    LBIS:AddEnchant(spec6, "15402", LBIS.L["Head/Legs"]) --
-    LBIS:AddEnchant(spec6, "29480", LBIS.L["Shoulder"]) --
-    LBIS:AddEnchant(spec6, "25086", LBIS.L["Back"]) --
-    LBIS:AddEnchant(spec6, "20025", LBIS.L["Chest"]) --
-    LBIS:AddEnchant(spec6, "20011", LBIS.L["Wrist"]) --
-    LBIS:AddEnchant(spec6, "25080", LBIS.L["Hands"]) --
-    LBIS:AddEnchant(spec6, "13890", LBIS.L["Feet"]) --
-    LBIS:AddEnchant(spec6, "7218", LBIS.L["Main Hand"]) --
+    LBIS:AddEnchant(spec0, "15402", LBIS.L["Head/Legs"]) --
+    LBIS:AddEnchant(spec0, "29480", LBIS.L["Shoulder"]) --
+    LBIS:AddEnchant(spec0, "25086", LBIS.L["Back"]) --
+    LBIS:AddEnchant(spec0, "20025", LBIS.L["Chest"]) --
+    LBIS:AddEnchant(spec0, "20011", LBIS.L["Wrist"]) --
+    LBIS:AddEnchant(spec0, "25080", LBIS.L["Hands"]) --
+    LBIS:AddEnchant(spec0, "13890", LBIS.L["Feet"]) --
+    LBIS:AddEnchant(spec0, "7218", LBIS.L["Main Hand"]) --
 
     LBIS:AddItem(spec0, "13404", LBIS.L["Head"], "Alt") --Mask of the Unforgiven
     LBIS:AddItem(spec0, "14539", LBIS.L["Head"], "Alt") --Bone Ring Helm

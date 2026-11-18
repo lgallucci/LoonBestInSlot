@@ -2,14 +2,14 @@ function LBIS:LoadDruidRestoration()
     local spec0 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Restoration"], "0", "https://www.wowhead.com/forever/guide/classes/druid/healer-overview-pve")
     local spec1 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Restoration"], "1", "https://www.wowhead.com/forever/guide/classes/druid/healer-overview-pve")
 
-    LBIS:AddEnchant(spec6, "24168", LBIS.L["Head/Legs"]) --
-    LBIS:AddEnchant(spec6, "29475", LBIS.L["Shoulder"]) --
-    LBIS:AddEnchant(spec6, "20014", LBIS.L["Back"]) --
-    LBIS:AddEnchant(spec6, "20025", LBIS.L["Chest"]) --
-    LBIS:AddEnchant(spec6, "23802", LBIS.L["Wrist"]) --
-    LBIS:AddEnchant(spec6, "25079", LBIS.L["Hands"]) --
-    LBIS:AddEnchant(spec6, "13890", LBIS.L["Feet"]) --
-    LBIS:AddEnchant(spec6, "22750", LBIS.L["Main Hand"]) --
+    LBIS:AddEnchant(spec0, "24168", LBIS.L["Head/Legs"]) --
+    LBIS:AddEnchant(spec0, "29475", LBIS.L["Shoulder"]) --
+    LBIS:AddEnchant(spec0, "20014", LBIS.L["Back"]) --
+    LBIS:AddEnchant(spec0, "20025", LBIS.L["Chest"]) --
+    LBIS:AddEnchant(spec0, "23802", LBIS.L["Wrist"]) --
+    LBIS:AddEnchant(spec0, "25079", LBIS.L["Hands"]) --
+    LBIS:AddEnchant(spec0, "13890", LBIS.L["Feet"]) --
+    LBIS:AddEnchant(spec0, "22750", LBIS.L["Main Hand"]) --
 
     LBIS:AddItem(spec0, "18490", LBIS.L["Head"], "Alt") --Insightful Hood
     LBIS:AddItem(spec0, "13102", LBIS.L["Head"], "Alt") --Cassandra's Grace

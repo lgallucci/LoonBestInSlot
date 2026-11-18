@@ -2,14 +2,14 @@ function LBIS:LoadPaladinRetribution()
     local spec0 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Retribution"], "0", "https://www.wowhead.com/forever/guide/classes/paladin/retribution/dps-talent-builds-pve")
     local spec1 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Retribution"], "1", "https://www.wowhead.com/forever/guide/classes/paladin/retribution/dps-talent-builds-pve")
 
-    LBIS:AddEnchant(spec6, "15397", LBIS.L["Head/Legs"]) --
-    LBIS:AddEnchant(spec6, "29483", LBIS.L["Shoulder"]) --
-    LBIS:AddEnchant(spec6, "13882", LBIS.L["Back"]) --
-    LBIS:AddEnchant(spec6, "20025", LBIS.L["Chest"]) --
-    LBIS:AddEnchant(spec6, "20010", LBIS.L["Wrist"]) --
-    LBIS:AddEnchant(spec6, "25080", LBIS.L["Hands"]) --
-    LBIS:AddEnchant(spec6, "20023", LBIS.L["Feet"]) --
-    LBIS:AddEnchant(spec6, "20034", LBIS.L["Main Hand"]) --
+    LBIS:AddEnchant(spec0, "15397", LBIS.L["Head/Legs"]) --
+    LBIS:AddEnchant(spec0, "29483", LBIS.L["Shoulder"]) --
+    LBIS:AddEnchant(spec0, "13882", LBIS.L["Back"]) --
+    LBIS:AddEnchant(spec0, "20025", LBIS.L["Chest"]) --
+    LBIS:AddEnchant(spec0, "20010", LBIS.L["Wrist"]) --
+    LBIS:AddEnchant(spec0, "25080", LBIS.L["Hands"]) --
+    LBIS:AddEnchant(spec0, "20023", LBIS.L["Feet"]) --
+    LBIS:AddEnchant(spec0, "20034", LBIS.L["Main Hand"]) --
 
     LBIS:AddItem(spec0, "13404", LBIS.L["Head"], "BIS") --Mask of the Unforgiven
     LBIS:AddItem(spec0, "12927", LBIS.L["Shoulder"], "BIS") --Truestrike Shoulders

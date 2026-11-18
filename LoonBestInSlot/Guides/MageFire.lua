@@ -2,14 +2,14 @@ function LBIS:LoadMageFire()
     local spec0 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Fire"], "0", "https://www.wowhead.com/forever/guide/classes/mage/dps-overview-pve")
     local spec1 = LBIS:RegisterSpec(LBIS.L["Mage"], LBIS.L["Fire"], "1", "https://www.wowhead.com/forever/guide/classes/mage/dps-overview-pve")
     
-    LBIS:AddEnchant(spec6, "24164", LBIS.L["Head/Legs"]) --
-    LBIS:AddEnchant(spec6, "29467", LBIS.L["Shoulder"]) --
-    LBIS:AddEnchant(spec6, "25084", LBIS.L["Back"]) --
-    LBIS:AddEnchant(spec6, "20025", LBIS.L["Chest"]) --
-    LBIS:AddEnchant(spec6, "20008", LBIS.L["Wrist"]) --
-    LBIS:AddEnchant(spec6, "25078", LBIS.L["Hands"]) --
-    LBIS:AddEnchant(spec6, "13890", LBIS.L["Feet"]) --
-    LBIS:AddEnchant(spec6, "22749", LBIS.L["Main Hand"]) --
+    LBIS:AddEnchant(spec0, "24164", LBIS.L["Head/Legs"]) --
+    LBIS:AddEnchant(spec0, "29467", LBIS.L["Shoulder"]) --
+    LBIS:AddEnchant(spec0, "25084", LBIS.L["Back"]) --
+    LBIS:AddEnchant(spec0, "20025", LBIS.L["Chest"]) --
+    LBIS:AddEnchant(spec0, "20008", LBIS.L["Wrist"]) --
+    LBIS:AddEnchant(spec0, "25078", LBIS.L["Hands"]) --
+    LBIS:AddEnchant(spec0, "13890", LBIS.L["Feet"]) --
+    LBIS:AddEnchant(spec0, "22749", LBIS.L["Main Hand"]) --
 
     LBIS:AddItem(spec0, "22267", LBIS.L["Head"], "Alt") --Spellweaver's Turban
     LBIS:AddItem(spec0, "16533", LBIS.L["Head"], "Alt") --Warlord's Silk Cowl

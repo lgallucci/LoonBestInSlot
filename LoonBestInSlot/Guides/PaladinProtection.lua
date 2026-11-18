@@ -2,15 +2,15 @@ function LBIS:LoadPaladinProtection()
     local spec0 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Protection"], "0", "https://www.wowhead.com/forever/guide/classes/paladin/tank-talent-builds-pve")
     local spec1 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Protection"], "1", "https://www.wowhead.com/forever/guide/classes/paladin/tank-talent-builds-pve")
 
-    LBIS:AddEnchant(spec6, "24160", LBIS.L["Head/Legs"]) --
-    LBIS:AddEnchant(spec6, "24421", LBIS.L["Shoulder"]) --
-    LBIS:AddEnchant(spec6, "25086", LBIS.L["Back"]) --
-    LBIS:AddEnchant(spec6, "20025", LBIS.L["Chest"]) --
-    LBIS:AddEnchant(spec6, "20010", LBIS.L["Wrist"]) --
-    LBIS:AddEnchant(spec6, "25072", LBIS.L["Hands"]) --
-    LBIS:AddEnchant(spec6, "13890", LBIS.L["Feet"]) --
-    LBIS:AddEnchant(spec6, "20034", LBIS.L["Main Hand"]) --
-    LBIS:AddEnchant(spec6, "13689", LBIS.L["Off Hand"]) --
+    LBIS:AddEnchant(spec0, "24160", LBIS.L["Head/Legs"]) --
+    LBIS:AddEnchant(spec0, "24421", LBIS.L["Shoulder"]) --
+    LBIS:AddEnchant(spec0, "25086", LBIS.L["Back"]) --
+    LBIS:AddEnchant(spec0, "20025", LBIS.L["Chest"]) --
+    LBIS:AddEnchant(spec0, "20010", LBIS.L["Wrist"]) --
+    LBIS:AddEnchant(spec0, "25072", LBIS.L["Hands"]) --
+    LBIS:AddEnchant(spec0, "13890", LBIS.L["Feet"]) --
+    LBIS:AddEnchant(spec0, "20034", LBIS.L["Main Hand"]) --
+    LBIS:AddEnchant(spec0, "13689", LBIS.L["Off Hand"]) --
 
     LBIS:AddItem(spec0, "12620", LBIS.L["Head"], "Alt") --Enchanted Thorium Helm
     LBIS:AddItem(spec0, "12952", LBIS.L["Head"], "Alt") --Gyth's Skull

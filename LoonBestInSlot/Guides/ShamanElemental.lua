@@ -2,14 +2,14 @@ function LBIS:LoadShamanElemental()
     local spec0 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Elemental"], "0", "https://www.wowhead.com/forever/guide/classes/shaman/elemental/dps-talent-builds-pve")
     local spec1 = LBIS:RegisterSpec(LBIS.L["Shaman"], LBIS.L["Elemental"], "1", "https://www.wowhead.com/forever/guide/classes/shaman/elemental/dps-talent-builds-pve")
 
-    LBIS:AddEnchant(spec6, "24163", LBIS.L["Head/Legs"]) --
-    LBIS:AddEnchant(spec6, "29467", LBIS.L["Shoulder"]) --
-    LBIS:AddEnchant(spec6, "20014", LBIS.L["Back"]) --
-    LBIS:AddEnchant(spec6, "20025", LBIS.L["Chest"]) --
-    LBIS:AddEnchant(spec6, "20008", LBIS.L["Wrist"]) --
-    LBIS:AddEnchant(spec6, "25074", LBIS.L["Hands"]) --
-    LBIS:AddEnchant(spec6, "13890", LBIS.L["Feet"]) --
-    LBIS:AddEnchant(spec6, "22749", LBIS.L["Main Hand"]) --
+    LBIS:AddEnchant(spec0, "24163", LBIS.L["Head/Legs"]) --
+    LBIS:AddEnchant(spec0, "29467", LBIS.L["Shoulder"]) --
+    LBIS:AddEnchant(spec0, "20014", LBIS.L["Back"]) --
+    LBIS:AddEnchant(spec0, "20025", LBIS.L["Chest"]) --
+    LBIS:AddEnchant(spec0, "20008", LBIS.L["Wrist"]) --
+    LBIS:AddEnchant(spec0, "25074", LBIS.L["Hands"]) --
+    LBIS:AddEnchant(spec0, "13890", LBIS.L["Feet"]) --
+    LBIS:AddEnchant(spec0, "22749", LBIS.L["Main Hand"]) --
 
     LBIS:AddItem(spec0, "22267", LBIS.L["Head"], "Alt") --Spellweaver's Turban
     LBIS:AddItem(spec0, "10504", LBIS.L["Head"], "Alt") --Green Lens

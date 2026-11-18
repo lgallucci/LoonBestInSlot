@@ -2,14 +2,14 @@ function LBIS:LoadPriestShadow()
     local spec0 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Shadow"], "0", "https://www.wowhead.com/forever/guide/classes/priest/shadow/dps-talent-builds-pve")
     local spec1 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Shadow"], "1", "https://www.wowhead.com/forever/guide/classes/priest/shadow/dps-talent-builds-pve")
     
-    LBIS:AddEnchant(spec6, "22844", LBIS.L["Head/Legs"]) --
-    LBIS:AddEnchant(spec6, "24421", LBIS.L["Shoulder"]) --
-    LBIS:AddEnchant(spec6, "20014", LBIS.L["Back"]) --
-    LBIS:AddEnchant(spec6, "20025", LBIS.L["Chest"]) --
-    LBIS:AddEnchant(spec6, "20009", LBIS.L["Wrist"]) --
-    LBIS:AddEnchant(spec6, "25073", LBIS.L["Hands"]) --
-    LBIS:AddEnchant(spec6, "13890", LBIS.L["Feet"]) --
-    LBIS:AddEnchant(spec6, "22749", LBIS.L["Main Hand"]) --
+    LBIS:AddEnchant(spec0, "22844", LBIS.L["Head/Legs"]) --
+    LBIS:AddEnchant(spec0, "24421", LBIS.L["Shoulder"]) --
+    LBIS:AddEnchant(spec0, "20014", LBIS.L["Back"]) --
+    LBIS:AddEnchant(spec0, "20025", LBIS.L["Chest"]) --
+    LBIS:AddEnchant(spec0, "20009", LBIS.L["Wrist"]) --
+    LBIS:AddEnchant(spec0, "25073", LBIS.L["Hands"]) --
+    LBIS:AddEnchant(spec0, "13890", LBIS.L["Feet"]) --
+    LBIS:AddEnchant(spec0, "22749", LBIS.L["Main Hand"]) --
 
     LBIS:AddItem(spec0, "14112", LBIS.L["Shoulder"], "BIS") --Felcloth Shoulders
     LBIS:AddItem(spec0, "13386", LBIS.L["Back"], "BIS") --Archivist Cape

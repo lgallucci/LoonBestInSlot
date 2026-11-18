@@ -2,15 +2,15 @@ function LBIS:LoadPaladinHoly()
     local spec0 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Holy"], "0", "https://www.wowhead.com/forever/guide/classes/paladin/holy/healer-talent-builds-pve")
     local spec1 = LBIS:RegisterSpec(LBIS.L["Paladin"], LBIS.L["Holy"], "1", "https://www.wowhead.com/forever/guide/classes/paladin/holy/healer-talent-builds-pve")
     
-    LBIS:AddEnchant(spec6, "24160", LBIS.L["Head/Legs"]) --
-    LBIS:AddEnchant(spec6, "24420", LBIS.L["Shoulder"]) --
-    LBIS:AddEnchant(spec6, "20014", LBIS.L["Back"]) --
-    LBIS:AddEnchant(spec6, "20025", LBIS.L["Chest"]) --
-    LBIS:AddEnchant(spec6, "23802", LBIS.L["Wrist"]) --
-    LBIS:AddEnchant(spec6, "25079", LBIS.L["Hands"]) --
-    LBIS:AddEnchant(spec6, "13890", LBIS.L["Feet"]) --
-    LBIS:AddEnchant(spec6, "22750", LBIS.L["Main Hand"]) --
-    LBIS:AddEnchant(spec6, "13933", LBIS.L["Off Hand"]) --
+    LBIS:AddEnchant(spec0, "24160", LBIS.L["Head/Legs"]) --
+    LBIS:AddEnchant(spec0, "24420", LBIS.L["Shoulder"]) --
+    LBIS:AddEnchant(spec0, "20014", LBIS.L["Back"]) --
+    LBIS:AddEnchant(spec0, "20025", LBIS.L["Chest"]) --
+    LBIS:AddEnchant(spec0, "23802", LBIS.L["Wrist"]) --
+    LBIS:AddEnchant(spec0, "25079", LBIS.L["Hands"]) --
+    LBIS:AddEnchant(spec0, "13890", LBIS.L["Feet"]) --
+    LBIS:AddEnchant(spec0, "22750", LBIS.L["Main Hand"]) --
+    LBIS:AddEnchant(spec0, "13933", LBIS.L["Off Hand"]) --
 
     LBIS:AddItem(spec0, "18490", LBIS.L["Head"], "BIS") --Insightful Hood
     LBIS:AddItem(spec0, "18681", LBIS.L["Shoulder"], "BIS") --Burial Shawl

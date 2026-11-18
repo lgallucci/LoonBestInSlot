@@ -1,15 +1,15 @@
-local function LBIS:LoadDruidBalance()
+function LBIS:LoadDruidBalance()
     local spec0 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance"], "0", "https://www.wowhead.com/forever/guide/classes/druid/balance/dps-overview-pve")
     local spec1 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Balance"], "1", "https://www.wowhead.com/forever/guide/classes/druid/balance/dps-overview-pve")
     
-    LBIS:AddEnchant(spec6, "22844", LBIS.L["Head/Legs"]) --
-    LBIS:AddEnchant(spec6, "29467", LBIS.L["Shoulder"]) --
-    LBIS:AddEnchant(spec6, "20014", LBIS.L["Back"]) --
-    LBIS:AddEnchant(spec6, "20025", LBIS.L["Chest"]) --
-    LBIS:AddEnchant(spec6, "20008", LBIS.L["Wrist"]) --
-    LBIS:AddEnchant(spec6, "25079", LBIS.L["Hands"]) --
-    LBIS:AddEnchant(spec6, "13890", LBIS.L["Feet"]) --
-    LBIS:AddEnchant(spec6, "22749", LBIS.L["Main Hand"]) --
+    LBIS:AddEnchant(spec0, "22844", LBIS.L["Head/Legs"]) --
+    LBIS:AddEnchant(spec0, "29467", LBIS.L["Shoulder"]) --
+    LBIS:AddEnchant(spec0, "20014", LBIS.L["Back"]) --
+    LBIS:AddEnchant(spec0, "20025", LBIS.L["Chest"]) --
+    LBIS:AddEnchant(spec0, "20008", LBIS.L["Wrist"]) --
+    LBIS:AddEnchant(spec0, "25079", LBIS.L["Hands"]) --
+    LBIS:AddEnchant(spec0, "13890", LBIS.L["Feet"]) --
+    LBIS:AddEnchant(spec0, "22749", LBIS.L["Main Hand"]) --
 
     LBIS:AddItem(spec0, "10504", LBIS.L["Head"], "Alt") --Green Lens
     LBIS:AddItem(spec0, "10041", LBIS.L["Head"], "Alt") --Dreamweave Circlet
