@@ -2,7 +2,7 @@ function LBIS:LoadWarlockAffliction()
     local spec0 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Affliction"], "0", "https://www.wowhead.com/forever/guide/classes/warlock/dps-talent-builds-pve")
     local spec1 = LBIS:RegisterSpec(LBIS.L["Warlock"], LBIS.L["Affliction"], "1", "https://www.wowhead.com/forever/guide/classes/warlock/dps-talent-builds-pve")
 
-    LBIS:AddEnchant(spec0, "24165", LBIS.L["Head/Legs"]) --
+    LBIS:AddEnchant(spec0, "24165", LBIS.L["Head"].."~"..LBIS.L["Legs"]) --
     LBIS:AddEnchant(spec0, "29467", LBIS.L["Shoulder"]) --
     LBIS:AddEnchant(spec0, "20014", LBIS.L["Back"]) --
     LBIS:AddEnchant(spec0, "20025", LBIS.L["Chest"]) --

@@ -2,7 +2,7 @@ function LBIS:LoadWarriorArms()
     local spec0 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Arms"], "0", "https://www.wowhead.com/forever/guide/classes/warrior/dps-talent-builds-pve")
     local spec1 = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Arms"], "1", "https://www.wowhead.com/forever/guide/classes/warrior/dps-talent-builds-pve")
 
-    LBIS:AddEnchant(spec0, "15397", LBIS.L["Head/Legs"]) --
+    LBIS:AddEnchant(spec0, "15397", LBIS.L["Head"].."~"..LBIS.L["Legs"]) --
     LBIS:AddEnchant(spec0, "29483", LBIS.L["Shoulder"]) --
     LBIS:AddEnchant(spec0, "25084", LBIS.L["Back"]) --
     LBIS:AddEnchant(spec0, "20025", LBIS.L["Chest"]) --

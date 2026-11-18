@@ -2,7 +2,7 @@ function LBIS:LoadDruidBear()
     local spec0 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Bear"], "0", "https://www.wowhead.com/forever/guide/classes/druid/feral/tank-overview-pve")
     local spec1 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Bear"], "1", "https://www.wowhead.com/forever/guide/classes/druid/feral/tank-overview-pve")
     
-    LBIS:AddEnchant(spec0, "15402", LBIS.L["Head/Legs"]) --
+    LBIS:AddEnchant(spec0, "15402", LBIS.L["Head"].."~"..LBIS.L["Legs"]) --
     LBIS:AddEnchant(spec0, "29480", LBIS.L["Shoulder"]) --
     LBIS:AddEnchant(spec0, "25086", LBIS.L["Back"]) --
     LBIS:AddEnchant(spec0, "20025", LBIS.L["Chest"]) --

@@ -2,7 +2,7 @@ function LBIS:LoadHunterMarksmanship()
     local spec0 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Marksmanship"], "0", "https://www.wowhead.com/forever/guide/classes/hunter/dps-overview-pve")
     local spec1 = LBIS:RegisterSpec(LBIS.L["Hunter"], LBIS.L["Marksmanship"], "1", "https://www.wowhead.com/forever/guide/classes/hunter/dps-overview-pve")
 
-    LBIS:AddEnchant(spec0, "24162", LBIS.L["Head/Legs"]) --
+    LBIS:AddEnchant(spec0, "24162", LBIS.L["Head"].."~"..LBIS.L["Legs"]) --
     LBIS:AddEnchant(spec0, "29483", LBIS.L["Shoulder"]) --
     LBIS:AddEnchant(spec0, "13882", LBIS.L["Back"]) --
     LBIS:AddEnchant(spec0, "20025", LBIS.L["Chest"]) --

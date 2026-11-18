@@ -2,7 +2,7 @@ function LBIS:LoadDruidRestoration()
     local spec0 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Restoration"], "0", "https://www.wowhead.com/forever/guide/classes/druid/healer-overview-pve")
     local spec1 = LBIS:RegisterSpec(LBIS.L["Druid"], LBIS.L["Restoration"], "1", "https://www.wowhead.com/forever/guide/classes/druid/healer-overview-pve")
 
-    LBIS:AddEnchant(spec0, "24168", LBIS.L["Head/Legs"]) --
+    LBIS:AddEnchant(spec0, "24168", LBIS.L["Head"].."~"..LBIS.L["Legs"]) --
     LBIS:AddEnchant(spec0, "29475", LBIS.L["Shoulder"]) --
     LBIS:AddEnchant(spec0, "20014", LBIS.L["Back"]) --
     LBIS:AddEnchant(spec0, "20025", LBIS.L["Chest"]) --

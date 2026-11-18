@@ -2,7 +2,7 @@ function LBIS:LoadPriestShadow()
     local spec0 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Shadow"], "0", "https://www.wowhead.com/forever/guide/classes/priest/shadow/dps-talent-builds-pve")
     local spec1 = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Shadow"], "1", "https://www.wowhead.com/forever/guide/classes/priest/shadow/dps-talent-builds-pve")
     
-    LBIS:AddEnchant(spec0, "22844", LBIS.L["Head/Legs"]) --
+    LBIS:AddEnchant(spec0, "22844", LBIS.L["Head"].."~"..LBIS.L["Legs"]) --
     LBIS:AddEnchant(spec0, "24421", LBIS.L["Shoulder"]) --
     LBIS:AddEnchant(spec0, "20014", LBIS.L["Back"]) --
     LBIS:AddEnchant(spec0, "20025", LBIS.L["Chest"]) --

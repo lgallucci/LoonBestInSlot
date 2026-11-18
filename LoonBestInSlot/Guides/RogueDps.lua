@@ -2,7 +2,7 @@ function LBIS:LoadRogueDps()
     local spec0 = LBIS:RegisterSpec(LBIS.L["Rogue"], LBIS.L["Dps"], "0", "https://www.wowhead.com/forever/guide/classes/rogue/dps-talent-builds-pve")
     local spec1 = LBIS:RegisterSpec(LBIS.L["Rogue"], LBIS.L["Dps"], "1", "https://www.wowhead.com/forever/guide/classes/rogue/dps-talent-builds-pve")
 
-    LBIS:AddEnchant(spec0, "24161", LBIS.L["Head/Legs"]) --
+    LBIS:AddEnchant(spec0, "24161", LBIS.L["Head"].."~"..LBIS.L["Legs"]) --
     LBIS:AddEnchant(spec0, "29483", LBIS.L["Shoulder"]) --
     LBIS:AddEnchant(spec0, "13882", LBIS.L["Back"]) --
     LBIS:AddEnchant(spec0, "20025", LBIS.L["Chest"]) --
