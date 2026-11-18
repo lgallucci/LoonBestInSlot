@@ -119,61 +119,47 @@ local function buildTooltip(tooltip, combinedTooltip)
 	end
 end
 
-local tooltip_modified = {}
-local function onTooltipSetItem(tooltip, ...)
-
-	if tooltip_modified[tooltip:GetName()] then
-		-- this happens twice, because of how recipes work
-		return
-	end
-	tooltip_modified[tooltip:GetName()] = true
-
+local function onTooltipSetItem(tooltip)
+	if tooltip:IsForbidden() or not tooltip.GetItem then return end
 	local _, itemLink = tooltip:GetItem()
     if not itemLink then return end
-	local itemString = string.match(itemLink, "item[%-?%d:]+")
-	local itemId = tonumber(({ strsplit(":", itemString) })[2])
+	local itemId = tonumber(itemLink:match("item:(%d+)"))
+	if not itemId then return end
 
-	LBIS:GetItemInfo(itemId, function(item)
-		local combinedTooltip = {};
-		local foundCustom = {};
+	local combinedTooltip = {};
+	local foundCustom = {};
 
-		if LBIS.CustomEditList.Items[itemId] then
-			foundCustom = buildCustomTooltip(LBIS.CustomEditList.Items[itemId], combinedTooltip)
+	if LBIS.CustomEditList.Items[itemId] then
+		foundCustom = buildCustomTooltip(LBIS.CustomEditList.Items[itemId], combinedTooltip)
+	end
+
+	local itemEntries = {};
+	if LBIS.ItemsByIdAndSpec[itemId] then
+		for key, entry in pairs(LBIS.ItemsByIdAndSpec[itemId]) do
+			itemEntries[key] = entry;
 		end
+	end
 
-		local itemEntries = {};
-		if LBIS.ItemsByIdAndSpec[itemId] then		
-			for key, entry in pairs(LBIS.ItemsByIdAndSpec[itemId]) do 	
-				itemEntries[key] = entry;
+	if LBIS.TierSources[itemId] then
+		for k, v in pairs(LBIS.TierSources[itemId]) do
+			if LBIS.CustomEditList.Items[v] then
+				foundCustom = buildCustomTooltip(LBIS.CustomEditList.Items[v], combinedTooltip)
 			end
-		end
 
-		if LBIS.TierSources[itemId] then
-			for k, v in pairs(LBIS.TierSources[itemId]) do
-				if LBIS.CustomEditList.Items[v] then
-					foundCustom = buildCustomTooltip(LBIS.CustomEditList.Items[v], combinedTooltip)
-				end
-
-				if LBIS.ItemsByIdAndSpec[v] then
-					for key, entry in pairs(LBIS.ItemsByIdAndSpec[v]) do 	
-						itemEntries[key] = entry;
-					end
+			if LBIS.ItemsByIdAndSpec[v] then
+				for key, entry in pairs(LBIS.ItemsByIdAndSpec[v]) do
+					itemEntries[key] = entry;
 				end
 			end
 		end
+	end
 
-		buildCombinedTooltip(itemEntries, combinedTooltip, foundCustom);
-
-		buildTooltip(tooltip, combinedTooltip);
-	end)
+	buildCombinedTooltip(itemEntries, combinedTooltip, foundCustom);
+	buildTooltip(tooltip, combinedTooltip);
 end
 
-local function onTooltipCleared(tooltip)
-    tooltip_modified[tooltip:GetName()] = nil
-end
-
-local function onTooltipSetSpell(tooltip, ...)
-
+local function onTooltipSetSpell(tooltip)
+	if tooltip:IsForbidden() or not tooltip.GetSpell then return end
 	local _, spellId = tooltip:GetSpell()
     if not spellId then return end
 
@@ -186,58 +172,10 @@ local function onTooltipSetSpell(tooltip, ...)
 	buildTooltip(tooltip, combinedTooltip);
 end
 
-local hookStore = {};
-local function hookScript(tip, script, prehook)
-	if not hookStore[tip] then hookStore[tip] = {} end
-	local control
-	-- check for existing hook
-	control = hookStore[tip][script]
-	if control then
-		control[1] = prehook or control[1]
-		return
-	end
-	-- prepare upvalues
-	local orig = tip:GetScript(script)
-	control = {prehook}
-	hookStore[tip][script] = control
-	-- install hook stub
-	local stub = function(...)
-		local h
-		-- prehook
-		h = control[1]
-		if h then h(...) end
-		-- original hook
-		if orig then orig(...) end
-	end
-	tip:SetScript(script, stub)
-end
-
-local function registerTooltip(tooltip)
-
-	hookScript(tooltip, "OnTooltipSetItem", onTooltipSetItem);
-	hookScript(tooltip, "OnTooltipSetSpell", onTooltipSetSpell);
-	hookScript(tooltip, "OnTooltipCleared", onTooltipCleared);
-
-end
-
-local function linkWranglerHook(frame)
-	registerTooltip(frame)
-end
-
 LBIS:RegisterEvent("PLAYER_ENTERING_WORLD" , function ()
 	LBIS.EventFrame:UnregisterEvent("PLAYER_ENTERING_WORLD")
 
-	registerTooltip(GameTooltip);
-	registerTooltip(ShoppingTooltip1);
-	registerTooltip(ShoppingTooltip2);
-
-	registerTooltip(ItemRefTooltip);
-	registerTooltip(ItemRefShoppingTooltip1);
-	registerTooltip(ItemRefShoppingTooltip2);
-
-	if LinkWrangler then
-        LinkWrangler.RegisterCallback("EdrikGameFixes", linkWranglerHook, "allocate", "allocatecomp");
-    end
-
     LBIS:Startup();
+	TooltipDataProcessor.AddTooltipPostCall(Enum.TooltipDataType.Item, onTooltipSetItem);
+	TooltipDataProcessor.AddTooltipPostCall(Enum.TooltipDataType.Spell, onTooltipSetSpell);
 end);

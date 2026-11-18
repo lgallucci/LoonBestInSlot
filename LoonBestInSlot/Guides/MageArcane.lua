@@ -159,7 +159,7 @@ function LBIS:LoadMageArcane()
     LBIS:AddItem(spec1, "11904", LBIS.L["Off Hand"], "Alt") --Spirit of Aquementas
     LBIS:AddItem(spec1, "18842", LBIS.L["Two Hand"], "BIS") --Staff of Dominance
     LBIS:AddItem(spec1, "15278", LBIS.L["Two Hand"], "Alt") --Solstice Staff
-    LBIS:AddItem(spec1, "15283", LBIS.L["Ranged/Relic"], "BIS") --Lunar Wand
-    LBIS:AddItem(spec1, "13938", LBIS.L["Ranged/Relic"], "Alt") --Bonecreeper Stylus
-    LBIS:AddItem(spec1, "7514", LBIS.L["Ranged/Relic"], "Alt") --Icefury Wand
+    LBIS:AddItem(spec1, "15283", LBIS.L["Ranged"], "BIS") --Lunar Wand
+    LBIS:AddItem(spec1, "13938", LBIS.L["Ranged"], "Alt") --Bonecreeper Stylus
+    LBIS:AddItem(spec1, "7514", LBIS.L["Ranged"], "Alt") --Icefury Wand
 end

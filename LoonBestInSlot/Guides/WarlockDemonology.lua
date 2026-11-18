@@ -65,7 +65,7 @@ function LBIS:LoadWarlockDemonology()
     LBIS:AddItem(spec1, "11904", LBIS.L["Off Hand"], "BIS") --Spirit of Aquementas
     LBIS:AddItem(spec1, "18842", LBIS.L["Two Hand"], "BIS") --Staff of Dominance
     LBIS:AddItem(spec1, "873", LBIS.L["Two Hand"], "Alt") --Staff of Jordan
-    LBIS:AddItem(spec1, "13396", LBIS.L["Ranged/Relic"], "BIS") --Skul's Ghastly Touch
-    LBIS:AddItem(spec1, "13938", LBIS.L["Ranged/Relic"], "Alt") --Bonecreeper Stylus
-    LBIS:AddItem(spec1, "22408", LBIS.L["Ranged/Relic"], "Alt") --Ritssyn's Wand of Bad Mojo
+    LBIS:AddItem(spec1, "13396", LBIS.L["Ranged"], "BIS") --Skul's Ghastly Touch
+    LBIS:AddItem(spec1, "13938", LBIS.L["Ranged"], "Alt") --Bonecreeper Stylus
+    LBIS:AddItem(spec1, "22408", LBIS.L["Ranged"], "Alt") --Ritssyn's Wand of Bad Mojo
 end

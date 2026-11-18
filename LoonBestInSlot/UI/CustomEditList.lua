@@ -116,7 +116,7 @@ local defaultCustomList = {
 	[LBIS.L["Main Hand"]] = {},
 	[LBIS.L["Off Hand"]] = {},
 	[LBIS.L["Two Hand"]] = {},
-	[LBIS.L["Ranged/Relic"]] = {}
+	[LBIS.L["Ranged"]] = {}
 };
 function LBIS.CustomEditList:UpdateItems()
 

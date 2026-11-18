@@ -432,7 +432,7 @@ if GetLocale() == "ruRU" then
   LBIS.L["Rage Winterchill"] = "Лютый Хлад";
 --  LBIS.L["Raging Skeleton"] = "";
   LBIS.L["Ragnaros"] = "Рагнарос";
-  LBIS.L["Ranged/Relic"] = "Для оружия дальнего боя/Реликвия";
+  LBIS.L["Ranged"] = "Для оружия дальнего боя/Реликвия";
   LBIS.L["Razorgore the Untamed"] = "Бритвосмерт Неукротимый";
   LBIS.L["Reclaiming Holy Grounds"] = "Восстановление Святых земель";
   LBIS.L["Redemption Boots"] = "Сапоги Искупления";

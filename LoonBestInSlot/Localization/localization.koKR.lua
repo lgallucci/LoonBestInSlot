@@ -431,7 +431,7 @@ if GetLocale() == "koKR" then
   LBIS.L["Rage Winterchill"] = "격노한 윈터칠";
 --  LBIS.L["Raging Skeleton"] = "";
   LBIS.L["Ragnaros"] = "라그나로스";
-  LBIS.L["Ranged/Relic"] = "원거리 장비/성물";
+  LBIS.L["Ranged"] = "원거리 장비/성물";
   LBIS.L["Razorgore the Untamed"] = "폭군 서슬송곳니";
   LBIS.L["Reclaiming Holy Grounds"] = "성스러운 대지 탈환";
   LBIS.L["Redemption Boots"] = "구원의 장화";

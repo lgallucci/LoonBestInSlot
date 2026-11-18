@@ -19,7 +19,7 @@ public class ItemSpec : IComparable<ItemSpec>
         { "Main Hand", 12 }, 
         { "Off Hand", 13 },
         { "Two Hand", 14 },
-        { "Ranged/Relic", 15 },
+        { "Ranged", 15 },
         { "unknown", 16 } 
     };
 
@@ -78,7 +78,7 @@ public class EnchantSpec : IComparable<EnchantSpec>
         { "Trinket", 11 },  
         { "Main Hand", 12 }, 
         { "Off Hand", 13 },
-        { "Ranged/Relic", 14 },
+        { "Ranged", 14 },
         { "unknown", 15 } 
     };
 

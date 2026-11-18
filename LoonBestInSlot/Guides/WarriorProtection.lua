@@ -11,8 +11,8 @@ function LBIS:LoadWarriorProtection()
     LBIS:AddEnchant(spec0, "13890", LBIS.L["Feet"]) --
     LBIS:AddEnchant(spec0, "20034", LBIS.L["Main Hand"]) --
     LBIS:AddEnchant(spec0, "23800", LBIS.L["Off Hand"]) --
-    LBIS:AddEnchant(spec0, "3975", LBIS.L["Ranged/Relic"]) --
-    LBIS:AddEnchant(spec0, "12460", LBIS.L["Ranged/Relic"]) --
+    LBIS:AddEnchant(spec0, "3975", LBIS.L["Ranged"]) --
+    LBIS:AddEnchant(spec0, "12460", LBIS.L["Ranged"]) --
 
     LBIS:AddItem(spec0, "12640", LBIS.L["Head"], "Alt") --Lionheart Helm
     LBIS:AddItem(spec0, "23244", LBIS.L["Head"], "Alt") --Champion's Plate Helm
@@ -188,8 +188,8 @@ function LBIS:LoadWarriorProtection()
     LBIS:AddItem(spec1, "12535", LBIS.L["Off Hand"], "Alt") --Doomforged Straightedge
     LBIS:AddItem(spec1, "13529", LBIS.L["Off Hand"], "Alt") --Husk of Nerub'enkan
     LBIS:AddItem(spec1, "12590", LBIS.L["Off Hand"], "Alt") --Felstriker
-    LBIS:AddItem(spec1, "17072", LBIS.L["Ranged/Relic"], "BIS") --Blastershot Launcher
-    LBIS:AddItem(spec1, "16996", LBIS.L["Ranged/Relic"], "Alt") --Gorewood Bow
-    LBIS:AddItem(spec1, "12651", LBIS.L["Ranged/Relic"], "Alt") --Blackcrow
-    LBIS:AddItem(spec1, "12653", LBIS.L["Ranged/Relic"], "Alt") --Riphook
+    LBIS:AddItem(spec1, "17072", LBIS.L["Ranged"], "BIS") --Blastershot Launcher
+    LBIS:AddItem(spec1, "16996", LBIS.L["Ranged"], "Alt") --Gorewood Bow
+    LBIS:AddItem(spec1, "12651", LBIS.L["Ranged"], "Alt") --Blackcrow
+    LBIS:AddItem(spec1, "12653", LBIS.L["Ranged"], "Alt") --Riphook
 end

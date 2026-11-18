@@ -87,5 +87,5 @@ function LBIS:LoadDruidBalance()
     LBIS:AddItem(spec1, "11904", LBIS.L["Off Hand"], "Alt") --Spirit of Aquementas
     LBIS:AddItem(spec1, "18842", LBIS.L["Two Hand"], "BIS") --Staff of Dominance
     LBIS:AddItem(spec1, "15278", LBIS.L["Two Hand"], "Alt") --Solstice Staff
-    LBIS:AddItem(spec1, "13289", LBIS.L["Ranged/Relic"], "BIS") --Egan's Blaster
+    LBIS:AddItem(spec1, "13289", LBIS.L["Ranged"], "BIS") --Egan's Blaster
 end

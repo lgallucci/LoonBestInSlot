@@ -10,7 +10,7 @@ function LBIS:LoadHunterSurvival()
     LBIS:AddEnchant(spec0, "25080", LBIS.L["Hands"]) --
     LBIS:AddEnchant(spec0, "20023", LBIS.L["Feet"]) --
     LBIS:AddEnchant(spec0, "27837", LBIS.L["Main Hand"]) --
-    LBIS:AddEnchant(spec0, "22779", LBIS.L["Ranged/Relic"]) --
+    LBIS:AddEnchant(spec0, "22779", LBIS.L["Ranged"]) --
 
     LBIS:AddItem(spec0, "18421", LBIS.L["Head"], "Alt") --Backwood Helm
     LBIS:AddItem(spec0, "13404", LBIS.L["Head"], "Alt") --Mask of the Unforgiven
@@ -109,7 +109,7 @@ function LBIS:LoadHunterSurvival()
     LBIS:AddItem(spec1, "18715", LBIS.L["Two Hand"], "BIS") --Lok'delar, Stave of the Ancient Keepers
     LBIS:AddItem(spec1, "18725", LBIS.L["Two Hand"], "Alt") --Peacemaker
     LBIS:AddItem(spec1, "13052", LBIS.L["Two Hand"], "Alt") --Warmonger
-    LBIS:AddItem(spec1, "18713", LBIS.L["Ranged/Relic"], "BIS") --Rhok'delar, Longbow of the Ancient Keepers
-    LBIS:AddItem(spec1, "2099", LBIS.L["Ranged/Relic"], "Alt") --Dwarven Hand Cannon
-    LBIS:AddItem(spec1, "12651", LBIS.L["Ranged/Relic"], "Alt") --Blackcrow
+    LBIS:AddItem(spec1, "18713", LBIS.L["Ranged"], "BIS") --Rhok'delar, Longbow of the Ancient Keepers
+    LBIS:AddItem(spec1, "2099", LBIS.L["Ranged"], "Alt") --Dwarven Hand Cannon
+    LBIS:AddItem(spec1, "12651", LBIS.L["Ranged"], "Alt") --Blackcrow
 end

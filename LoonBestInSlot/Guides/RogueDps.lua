@@ -9,8 +9,8 @@ function LBIS:LoadRogueDps()
     LBIS:AddEnchant(spec0, "20010", LBIS.L["Wrist"]) --
     LBIS:AddEnchant(spec0, "25080", LBIS.L["Hands"]) --
     LBIS:AddEnchant(spec0, "13890", LBIS.L["Feet"]) --
-    LBIS:AddEnchant(spec0, "20034", LBIS.L["Main Hand/Off Hand"]) --
-    LBIS:AddEnchant(spec0, "12460", LBIS.L["Ranged/Relic"]) --
+    LBIS:AddEnchant(spec0, "20034", LBIS.L["Main Hand~Off Hand"]) --
+    LBIS:AddEnchant(spec0, "12460", LBIS.L["Ranged"]) --
 
     LBIS:AddItem(spec0, "13404", LBIS.L["Head"], "BIS") --Mask of the Unforgiven
     LBIS:AddItem(spec0, "12927", LBIS.L["Shoulder"], "BIS") --Truestrike Shoulders
@@ -80,7 +80,7 @@ function LBIS:LoadRogueDps()
     LBIS:AddItem(spec1, "12939", LBIS.L["Off Hand"], "Alt") --Dal'Rend's Tribal Guardian
     LBIS:AddItem(spec1, "14555", LBIS.L["Off Hand"], "Alt") --Alcor's Sunrazor
     LBIS:AddItem(spec1, "15806", LBIS.L["Off Hand"], "Alt") --Mirah's Song
-    LBIS:AddItem(spec1, "17069", LBIS.L["Ranged/Relic"], "BIS") --Striker's Mark
-    LBIS:AddItem(spec1, "12651", LBIS.L["Ranged/Relic"], "Alt") --Blackcrow
-    LBIS:AddItem(spec1, "2100", LBIS.L["Ranged/Relic"], "Alt") --Precisely Calibrated Boomstick
+    LBIS:AddItem(spec1, "17069", LBIS.L["Ranged"], "BIS") --Striker's Mark
+    LBIS:AddItem(spec1, "12651", LBIS.L["Ranged"], "Alt") --Blackcrow
+    LBIS:AddItem(spec1, "2100", LBIS.L["Ranged"], "Alt") --Precisely Calibrated Boomstick
 end

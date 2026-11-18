@@ -426,7 +426,7 @@ if GetLocale() == "esES" then
   LBIS.L["Rage Winterchill"] = "Ira Fríoinvierno";
 --  LBIS.L["Raging Skeleton"] = "";
   LBIS.L["Ragnaros"] = "Ragnaros";
-  LBIS.L["Ranged/Relic"] = "Rango/Reliquia";
+  LBIS.L["Ranged"] = "Rango/Reliquia";
   LBIS.L["Razorgore the Untamed"] = "Sangrevaja el Indomable";
   LBIS.L["Reclaiming Holy Grounds"] = "Reclamar los terrenos sagrados";
   LBIS.L["Redemption Boots"] = "Las botas de redención";

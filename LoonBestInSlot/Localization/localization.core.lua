@@ -13,7 +13,7 @@ end
 setmetatable(L, {__index=defaultFunc});
 
 local CLASS_NAMES = {};
-for classID = 1, 9 do
+for classID = 1, 11 do
  local classInfo = C_CreatureInfo.GetClassInfo(classID);
  if classInfo then
   CLASS_NAMES[classInfo.classFile] = classInfo.className;

@@ -425,7 +425,7 @@ if GetLocale() == "deDE" then
   LBIS.L["Rage Winterchill"] = "Furor Winterfrost";
 --  LBIS.L["Raging Skeleton"] = "";
   LBIS.L["Ragnaros"] = "Ragnaros";
-  LBIS.L["Ranged/Relic"] = "Distanz/Relikt";
+  LBIS.L["Ranged"] = "Distanz/Relikt";
   LBIS.L["Razorgore the Untamed"] = "Feuerkralle der Ungezähmte";
   LBIS.L["Reclaiming Holy Grounds"] = "Rückforderung geheiligten Bodens";
   LBIS.L["Redemption Boots"] = "Stiefel der Erlösung";

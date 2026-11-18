@@ -74,20 +74,20 @@ public class SlotSwaps
         { "Two-Handed Axes", "Two Hand" },
         { "Two-Handed Swords", "Two Hand" },
         { "Polearms", "Two Hand" },
-        { "Guns and Bows", "Ranged/Relic" },
-        { "Bows", "Ranged/Relic" },
-        { "Guns", "Ranged/Relic" },
-        { "Crossbows", "Ranged/Relic" },
-        { "Idols", "Ranged/Relic" },
-        { "Idol", "Ranged/Relic" },
-        { "Totems", "Ranged/Relic" },
-        { "Totem", "Ranged/Relic" },
-        { "Librams", "Ranged/Relic" },
-        { "Libram", "Ranged/Relic" },
-        { "Ranged/Relic", "Ranged/Relic" },
-        { "Ranged", "Ranged/Relic" },
-        { "Wands", "Ranged/Relic"},
-        { "Miscellaneous", "Ranged/Relic" },
+        { "Guns and Bows", "Ranged" },
+        { "Bows", "Ranged" },
+        { "Guns", "Ranged" },
+        { "Crossbows", "Ranged" },
+        { "Idols", "Ranged" },
+        { "Idol", "Ranged" },
+        { "Totems", "Ranged" },
+        { "Totem", "Ranged" },
+        { "Librams", "Ranged" },
+        { "Libram", "Ranged" },
+        { "Ranged", "Ranged" },
+        { "Ranged", "Ranged" },
+        { "Wands", "Ranged"},
+        { "Miscellaneous", "Ranged" },
         { "Quivers", "Quivers" },
         { "Ammo", "Ammo" },
         { "Arrows", "Arrows" },
@@ -150,7 +150,7 @@ public static class WowheadImporter
 
     private static List<string> _allowedSlots = new List<string>()
     { "Head", "Shoulder", "Back", "Chest", "Wrist", "Hands", "Waist", "Legs", "Feet", "Neck", "Ring",
-    "Trinket", "Main Hand", "Off Hand", "Two Hand", "Main Hand~Off Hand", "Ranged/Relic"};
+    "Trinket", "Main Hand", "Off Hand", "Two Hand", "Main Hand~Off Hand", "Ranged"};
 
     private static HashSet<int> _tierPieces = new HashSet<int>
     {

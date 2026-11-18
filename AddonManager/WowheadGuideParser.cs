@@ -162,7 +162,7 @@ public class WowheadGuideParser
             case "17":
                 return "Off Hand";
             case "18":
-                return "Ranged/Relic";
+                return "Ranged";
             default:
                 throw new ArgumentOutOfRangeException(nameof(value), $"Unsupported slot id: {value}");
         }

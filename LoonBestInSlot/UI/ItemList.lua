@@ -17,7 +17,7 @@ LBIS.ItemSlotOrder[LBIS.L["Main Hand"]] = 12;
 LBIS.ItemSlotOrder[LBIS.L["Off Hand"]] = 13;
 LBIS.ItemSlotOrder[LBIS.L["Two Hand"]] = 14;
 LBIS.ItemSlotOrder[LBIS.L["Main Hand~Off Hand"]] = 15;
-LBIS.ItemSlotOrder[LBIS.L["Ranged/Relic"]] = 16;
+LBIS.ItemSlotOrder[LBIS.L["Ranged"]] = 16;
 
 local function itemSortFunction(table, k1, k2)
 
@@ -110,15 +110,15 @@ slotToWowCodes[LBIS.L["Trinket"]] = "TRINKET0SLOT,TRINKET1SLOT";
 slotToWowCodes[LBIS.L["Main Hand"]] = "MAINHANDSLOT";
 slotToWowCodes[LBIS.L["Off Hand"]] = "SECONDARYHANDSLOT";
 slotToWowCodes[LBIS.L["Two Hand"]] = "MAINHANDSLOT";
-slotToWowCodes[LBIS.L["Ranged/Relic"]] = "RANGEDSLOT";
+slotToWowCodes[LBIS.L["Ranged"]] = "RANGEDSLOT";
 local function IsNotObsolete(specItem)
     if LBISSettings.HideObsolete then
 
         local itemId1, itemId2 = -1, -1;
 
-        if specItem.Slot == "Main Hand~Off Hand" then
-            itemId1 = LBIS.UserSlotCache[slotToWowCodes["Main Hand"]];
-            itemId2 = LBIS.UserSlotCache[slotToWowCodes["Off Hand"]];
+        if specItem.Slot == LBIS.L["Main Hand~Off Hand"] then
+            itemId1 = LBIS.UserSlotCache[slotToWowCodes[LBIS.L["Main Hand"]]];
+            itemId2 = LBIS.UserSlotCache[slotToWowCodes[LBIS.L["Off Hand"]]];
         else
             local wowCodes = slotToWowCodes[specItem.Slot];
             local wowCode1, wowCode2 = strsplit(",", wowCodes);

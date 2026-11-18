@@ -1,6 +1,6 @@
 LBIS.ReCacheDate = time({year=2025, month=11, day=20, hour=00})
 LBIS.SpellCache = {};
-LBIS.CurrentPhase = 4;
+LBIS.CurrentPhase = 1;
 
 function LBIS:LoadGuides()
     LBIS:LoadDruidBalance()
@@ -162,7 +162,7 @@ itemSlots["INVTYPE_FINGER"] = LBIS.L["Ring"];
 itemSlots["INVTYPE_TRINKET"] = LBIS.L["Trinket"];
 itemSlots["INVTYPE_WEAPON"] = LBIS.L["Main Hand"].."/"..LBIS.L["Off Hand"];
 itemSlots["INVTYPE_SHIELD"] = LBIS.L["Off Hand"];
-itemSlots["INVTYPE_RANGED"] = LBIS.L["Ranged/Relic"];
+itemSlots["INVTYPE_RANGED"] = LBIS.L["Ranged"];
 itemSlots["INVTYPE_CLOAK"] = LBIS.L["Back"];
 itemSlots["INVTYPE_BAG"] = LBIS.L["Bag"];
 itemSlots["INVTYPE_TABARD"] = LBIS.L["Tabard"];
@@ -172,10 +172,10 @@ itemSlots["INVTYPE_2HWEAPON"] = LBIS.L["Two Hand"];
 itemSlots["INVTYPE_WEAPONOFFHAND"] = LBIS.L["Off Hand"];
 itemSlots["INVTYPE_HOLDABLE"] = LBIS.L["Off Hand"];
 itemSlots["INVTYPE_AMMO"] = LBIS.L["Ammo"];
-itemSlots["INVTYPE_THROWN"] = LBIS.L["Ranged/Relic"];
-itemSlots["INVTYPE_RANGEDRIGHT"] = LBIS.L["Ranged/Relic"];
+itemSlots["INVTYPE_THROWN"] = LBIS.L["Ranged"];
+itemSlots["INVTYPE_RANGEDRIGHT"] = LBIS.L["Ranged"];
 itemSlots["INVTYPE_QUIVER"] = LBIS.L["Quiver"];
-itemSlots["INVTYPE_RELIC"] = LBIS.L["Ranged/Relic"];
+itemSlots["INVTYPE_RELIC"] = LBIS.L["Ranged"];
 function LBIS:GetItemInfo(itemId, returnFunc)
 
     if itemId == nil or not itemId or itemId <= 0 then
@@ -716,6 +716,8 @@ end
 
 function LBIS:IsInSlot(specItem)
     if LBISSettings.SelectedSlot == LBIS.L["All"] then
+        return true;
+    elseif LBISSettings.SelectedSlot == LBIS.L["Ranged"] and specItem.Slot == LBIS.L["Ranged"] then
         return true;
     elseif strfind(specItem.Slot, LBISSettings.SelectedSlot) ~= nil then
         return true;

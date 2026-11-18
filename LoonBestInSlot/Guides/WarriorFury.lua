@@ -9,8 +9,8 @@ function LBIS:LoadWarriorFury()
     LBIS:AddEnchant(spec0, "20010", LBIS.L["Wrist"]) --
     LBIS:AddEnchant(spec0, "25080", LBIS.L["Hands"]) --
     LBIS:AddEnchant(spec0, "13890", LBIS.L["Feet"]) --
-    LBIS:AddEnchant(spec0, "20034", LBIS.L["Main Hand/Off Hand"]) --
-    LBIS:AddEnchant(spec0, "12460", LBIS.L["Ranged/Relic"]) --
+    LBIS:AddEnchant(spec0, "20034", LBIS.L["Main Hand~Off Hand"]) --
+    LBIS:AddEnchant(spec0, "12460", LBIS.L["Ranged"]) --
 
     LBIS:AddItem(spec0, "12640", LBIS.L["Head"], "Alt") --Lionheart Helm
     LBIS:AddItem(spec0, "23244", LBIS.L["Head"], "Alt") --Champion's Plate Helm
@@ -90,19 +90,19 @@ function LBIS:LoadWarriorFury()
     LBIS:AddItem(spec0, "13965", LBIS.L["Trinket"], "Alt") --Blackhand's Breadth
     LBIS:AddItem(spec0, "19120", LBIS.L["Trinket"], "Alt") --Rune of the Guard Captain
     LBIS:AddItem(spec0, "19289", LBIS.L["Trinket"], "Alt") --Darkmoon Card: Maelstrom
-    LBIS:AddItem(spec0, "11684", LBIS.L["Main Hand/Off Hand"], "Alt") --Ironfoe
-    LBIS:AddItem(spec0, "19170", LBIS.L["Main Hand/Off Hand"], "Alt") --Ebon Hand
-    LBIS:AddItem(spec0, "12590", LBIS.L["Main Hand/Off Hand"], "Alt") --Felstriker
-    LBIS:AddItem(spec0, "19103", LBIS.L["Main Hand/Off Hand"], "Alt") --Frostbite
-    LBIS:AddItem(spec0, "19921", LBIS.L["Main Hand/Off Hand"], "Alt") --Zulian Hacker
-    LBIS:AddItem(spec0, "12940", LBIS.L["Main Hand/Off Hand"], "Alt") --Dal'Rend's Sacred Charge
-    LBIS:AddItem(spec0, "12939", LBIS.L["Main Hand/Off Hand"], "Alt") --Dal'Rend's Tribal Guardian
-    LBIS:AddItem(spec0, "811", LBIS.L["Main Hand/Off Hand"], "Alt") --Axe of the Deep Woods
-    LBIS:AddItem(spec0, "871", LBIS.L["Main Hand/Off Hand"], "Alt") --Flurry Axe
-    LBIS:AddItem(spec0, "18348", LBIS.L["Main Hand/Off Hand"], "Alt") --Quel'Serrar
-    LBIS:AddItem(spec0, "13015", LBIS.L["Main Hand/Off Hand"], "Alt") --Serathil
-    LBIS:AddItem(spec0, "12535", LBIS.L["Main Hand/Off Hand"], "Alt") --Doomforged Straightedge
-    LBIS:AddItem(spec0, "15806", LBIS.L["Main Hand/Off Hand"], "Alt") --Mirah's Song
+    LBIS:AddItem(spec0, "11684", LBIS.L["Main Hand~Off Hand"], "Alt") --Ironfoe
+    LBIS:AddItem(spec0, "19170", LBIS.L["Main Hand~Off Hand"], "Alt") --Ebon Hand
+    LBIS:AddItem(spec0, "12590", LBIS.L["Main Hand~Off Hand"], "Alt") --Felstriker
+    LBIS:AddItem(spec0, "19103", LBIS.L["Main Hand~Off Hand"], "Alt") --Frostbite
+    LBIS:AddItem(spec0, "19921", LBIS.L["Main Hand~Off Hand"], "Alt") --Zulian Hacker
+    LBIS:AddItem(spec0, "12940", LBIS.L["Main Hand~Off Hand"], "Alt") --Dal'Rend's Sacred Charge
+    LBIS:AddItem(spec0, "12939", LBIS.L["Main Hand~Off Hand"], "Alt") --Dal'Rend's Tribal Guardian
+    LBIS:AddItem(spec0, "811", LBIS.L["Main Hand~Off Hand"], "Alt") --Axe of the Deep Woods
+    LBIS:AddItem(spec0, "871", LBIS.L["Main Hand~Off Hand"], "Alt") --Flurry Axe
+    LBIS:AddItem(spec0, "18348", LBIS.L["Main Hand~Off Hand"], "Alt") --Quel'Serrar
+    LBIS:AddItem(spec0, "13015", LBIS.L["Main Hand~Off Hand"], "Alt") --Serathil
+    LBIS:AddItem(spec0, "12535", LBIS.L["Main Hand~Off Hand"], "Alt") --Doomforged Straightedge
+    LBIS:AddItem(spec0, "15806", LBIS.L["Main Hand~Off Hand"], "Alt") --Mirah's Song
     LBIS:AddItem(spec0, "19169", LBIS.L["Two Hand"], "Alt") --Nightfall
     LBIS:AddItem(spec0, "19323", LBIS.L["Two Hand"], "Alt") --The Unstoppable Force
     LBIS:AddItem(spec0, "18538", LBIS.L["Two Hand"], "Alt") --Treant's Bane
@@ -164,7 +164,7 @@ function LBIS:LoadWarriorFury()
     LBIS:AddItem(spec1, "12592", LBIS.L["Two Hand"], "Alt") --Blackblade of Shahram
     LBIS:AddItem(spec1, "12784", LBIS.L["Two Hand"], "Alt") --Arcanite Reaper
     LBIS:AddItem(spec1, "11931", LBIS.L["Two Hand"], "Alt") --Dreadforge Retaliator
-    LBIS:AddItem(spec1, "17069", LBIS.L["Ranged/Relic"], "BIS") --Striker's Mark
-    LBIS:AddItem(spec1, "17072", LBIS.L["Ranged/Relic"], "Alt") --Blastershot Launcher
-    LBIS:AddItem(spec1, "12651", LBIS.L["Ranged/Relic"], "Alt") --Blackcrow
+    LBIS:AddItem(spec1, "17069", LBIS.L["Ranged"], "BIS") --Striker's Mark
+    LBIS:AddItem(spec1, "17072", LBIS.L["Ranged"], "Alt") --Blastershot Launcher
+    LBIS:AddItem(spec1, "12651", LBIS.L["Ranged"], "Alt") --Blackcrow
 end

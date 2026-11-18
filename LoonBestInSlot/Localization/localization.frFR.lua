@@ -426,7 +426,7 @@ if GetLocale() == "frFR" then
   LBIS.L["Rage Winterchill"] = "Rage Froidhiver";
   LBIS.L["Raging Skeleton"] = "Squelette enragé";
   LBIS.L["Ragnaros"] = "Ragnaros";
-  LBIS.L["Ranged/Relic"] = "À distance/Relique";
+  LBIS.L["Ranged"] = "À distance/Relique";
   LBIS.L["Razorgore the Untamed"] = "Tranchetripe l'Indompté";
   LBIS.L["Reclaiming Holy Grounds"] = "La reconquête des terres sacrées";
   LBIS.L["Redemption Boots"] = "Les bottes de rédemption";

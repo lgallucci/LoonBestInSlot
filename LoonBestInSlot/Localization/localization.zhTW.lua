@@ -431,7 +431,7 @@ if GetLocale() == "zhTW" then
   LBIS.L["Rage Winterchill"] = "瑞齊．凜冬";
 --  LBIS.L["Raging Skeleton"] = "";
   LBIS.L["Ragnaros"] = "拉格納羅斯";
-  LBIS.L["Ranged/Relic"] = "遠程/聖物";
+  LBIS.L["Ranged"] = "遠程/聖物";
   LBIS.L["Razorgore the Untamed"] = "狂野的拉佐格爾";
   LBIS.L["Reclaiming Holy Grounds"] = "開拓神聖之地";
   LBIS.L["Redemption Boots"] = "救贖長靴";
