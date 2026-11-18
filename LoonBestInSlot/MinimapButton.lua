@@ -16,7 +16,7 @@ function LBIS:RegisterMiniMap()
                 if button == "LeftButton" then 
                     LBIS.BrowserWindow:ToggleWindow()
                 elseif button == "RightButton" then
-                    Settings.OpenToCategory(LBIS.SettingsCategoryId)
+                    C_SettingsUtil.OpenSettingsPanel(LBIS.SettingsCategoryId)
                 end
             end,
 

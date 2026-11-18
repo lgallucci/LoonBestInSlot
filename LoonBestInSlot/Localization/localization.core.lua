@@ -13,7 +13,12 @@ end
 setmetatable(L, {__index=defaultFunc});
 
 local CLASS_NAMES = {};
-FillLocalizedClassList(CLASS_NAMES)
+for classID = 1, 9 do
+ local classInfo = C_CreatureInfo.GetClassInfo(classID);
+ if classInfo then
+  CLASS_NAMES[classInfo.classFile] = classInfo.className;
+ end
+end
 L["Druid"] = CLASS_NAMES.DRUID;
 L["Hunter"] = CLASS_NAMES.HUNTER;
 L["Mage"] = CLASS_NAMES.MAGE;

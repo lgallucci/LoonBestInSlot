@@ -99,7 +99,7 @@ local methods = {
 Constructor
 -------------------------------------------------------------------------------]]
 local function Constructor()
-	local frame = CreateFrame("Frame", nil, InterfaceOptionsFramePanelContainer)
+	local frame = CreateFrame("Frame", nil, UIParent)
 	frame:Hide()
 
 	-- support functions for the Blizzard Interface Options

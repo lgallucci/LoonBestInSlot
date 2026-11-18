@@ -28,7 +28,7 @@ SlashCmdList["LOONBESTINSLOT"] = function(command)
 	elseif command == "custom" then
 		LBIS.BrowserWindow:OpenWindow("CustomItemList")
 	elseif command == "settings"	then		
-		Settings.OpenToCategory("Loon Best In Slot")
+		C_SettingsUtil.OpenSettingsPanel(LBIS.SettingsCategoryId)
 	end
 end
 
